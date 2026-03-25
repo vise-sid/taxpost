@@ -12,6 +12,7 @@ import {
   userProgress,
   userStreaks,
   lessonCompletions,
+  challengeRepetition,
 } from "./schema";
 
 export const getCourses = cache(async () => {
@@ -265,4 +266,130 @@ export const getWeeklyLeaderboard = cache(async () => {
   });
 
   return data;
+});
+
+// --- Progress Dashboard Queries ---
+
+export const getUserStats = cache(async () => {
+  const { userId } = await auth();
+  if (!userId) return null;
+
+  // Get total questions answered and accuracy
+  const allProgress = await db.query.challengeProgress.findMany({
+    where: eq(challengeProgress.userId, userId),
+  });
+
+  // Get all challenges the user has attempted (need to count wrong answers too)
+  const repetitions = await db.query.challengeRepetition.findMany({
+    where: eq(challengeRepetition.userId, userId),
+  });
+
+  const totalAnswered = repetitions.reduce(
+    (sum, r) => sum + r.timesCorrect + r.timesWrong,
+    0
+  );
+  const totalCorrect = repetitions.reduce((sum, r) => sum + r.timesCorrect, 0);
+  const accuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+
+  // Mastered questions (box 5)
+  const mastered = repetitions.filter((r) => r.boxNumber === 5).length;
+
+  return {
+    totalAnswered,
+    totalCorrect,
+    accuracy,
+    mastered,
+    totalTracked: repetitions.length,
+  };
+});
+
+export const getTopicProgress = cache(async () => {
+  const { userId } = await auth();
+  if (!userId) return [];
+
+  const allCourses = await db.query.courses.findMany({
+    with: {
+      units: {
+        with: {
+          lessons: {
+            with: {
+              challenges: {
+                with: {
+                  challengeProgress: {
+                    where: eq(challengeProgress.userId, userId),
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
+
+  return allCourses.map((course) => {
+    const allChallenges = course.units.flatMap((u) =>
+      u.lessons.flatMap((l) => l.challenges)
+    );
+    const totalChallenges = allChallenges.length;
+    const completedChallenges = allChallenges.filter(
+      (c) =>
+        c.challengeProgress.length > 0 &&
+        c.challengeProgress.every((p) => p.completed)
+    ).length;
+    const percentage =
+      totalChallenges > 0
+        ? Math.round((completedChallenges / totalChallenges) * 100)
+        : 0;
+
+    return {
+      id: course.id,
+      title: course.title,
+      imageSrc: course.imageSrc,
+      totalChallenges,
+      completedChallenges,
+      percentage,
+    };
+  });
+});
+
+export const getWeakAreas = cache(async () => {
+  const { userId } = await auth();
+  if (!userId) return [];
+
+  const repetitions = await db.query.challengeRepetition.findMany({
+    where: eq(challengeRepetition.userId, userId),
+    with: {
+      challenge: {
+        with: {
+          lesson: {
+            with: {
+              unit: {
+                with: {
+                  course: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  });
+
+  // Group by course and calculate wrong rate
+  const courseStats: Record<string, { name: string; wrong: number; total: number }> = {};
+
+  for (const rep of repetitions) {
+    const courseName = rep.challenge.lesson.unit.course.title;
+    if (!courseStats[courseName]) {
+      courseStats[courseName] = { name: courseName, wrong: 0, total: 0 };
+    }
+    courseStats[courseName].wrong += rep.timesWrong;
+    courseStats[courseName].total += rep.timesCorrect + rep.timesWrong;
+  }
+
+  return Object.values(courseStats)
+    .filter((s) => s.total > 0)
+    .sort((a, b) => b.wrong / b.total - a.wrong / a.total)
+    .slice(0, 3);
 });

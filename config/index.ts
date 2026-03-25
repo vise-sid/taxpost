@@ -18,6 +18,20 @@ export const siteConfig: Metadata = {
     name: "Taxpost",
     url: "https://taxpost.in",
   },
+  openGraph: {
+    title: "Taxpost — Duolingo for India's Income Tax Act 2025",
+    description:
+      "Master the new Income Tax Act 2025 through gamified, bite-sized daily learning. Free for all CAs.",
+    url: "https://taxpost.in",
+    siteName: "Taxpost",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Taxpost — Duolingo for India's Income Tax Act 2025",
+    description:
+      "Master the new Income Tax Act 2025 through gamified, bite-sized daily learning.",
+  },
 } as const;
 
 export const links = {

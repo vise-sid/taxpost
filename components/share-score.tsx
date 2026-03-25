@@ -15,7 +15,16 @@ type ShareScoreProps = {
 export const ShareScore = ({ score, total, streak, topic }: ShareScoreProps) => {
   const [showOptions, setShowOptions] = useState(false);
 
-  const text = `I scored ${score}/${total}${topic ? ` on ${topic}` : ""} on Taxpost! ${streak ? `\u{1F525} ${streak}-day streak!` : ""}\n\nMaster India's new Income Tax Act 2025:\nhttps://taxpost.in`;
+  const ogParams = new URLSearchParams({
+    score: String(score),
+    total: String(total),
+    ...(streak ? { streak: String(streak) } : {}),
+    ...(topic ? { topic } : {}),
+  });
+
+  const shareUrl = `https://taxpost.in?${ogParams.toString()}`;
+
+  const text = `I scored ${score}/${total}${topic ? ` on ${topic}` : ""} on Taxpost! ${streak ? `\u{1F525} ${streak}-day streak!` : ""}\n\nMaster India's new Income Tax Act 2025:\n${shareUrl}`;
 
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(text)}`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
