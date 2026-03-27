@@ -47,7 +47,7 @@ export const ShareScore = ({ score, total, streak, topic }: ShareScoreProps) => 
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-lg bg-green-500 px-4 py-2 text-sm font-medium text-white hover:bg-green-600"
+            className="rounded-lg bg-brand-navy px-4 py-2 text-sm font-medium text-white hover:bg-brand-navy/90"
           >
             WhatsApp
           </a>

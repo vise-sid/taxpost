@@ -14,7 +14,7 @@ export const ResultCard = ({ value, variant }: ResultCardProps) => {
   return (
     <div
       className={cn(
-        "w-full rounded-2xl border-2",
+        "w-full rounded-2xl border-2 animate-scale-in",
         variant === "points" && "border-orange-400 bg-orange-400",
         variant === "hearts" && "border-rose-500 bg-rose-500"
       )}

@@ -20,10 +20,10 @@ export const Sidebar = ({ className }: SidebarProps) => {
     >
       <Link href="/learn">
         <div className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#1a237e]">
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-navy">
             <span className="text-lg font-bold text-white">T</span>
           </div>
-          <h1 className="text-2xl font-extrabold tracking-wide text-[#1a237e]">
+          <h1 className="text-2xl font-extrabold tracking-wide text-brand-navy">
             Taxpost
           </h1>
         </div>

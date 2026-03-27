@@ -46,14 +46,15 @@ export const Card = ({
     <div
       onClick={handleClick}
       className={cn(
-        "h-full cursor-pointer rounded-xl border-2 border-b-4 p-4 hover:bg-black/5 active:border-b-2 lg:p-6",
+        "h-full cursor-pointer rounded-xl border-2 border-b-4 p-4 hover:bg-black/5 active:border-b-2 lg:p-6 transition-all duration-200",
+        !disabled && !selected && "hover:-translate-y-0.5 hover:shadow-md",
         selected && "border-sky-300 bg-sky-100 hover:bg-sky-100",
         selected &&
           status === "correct" &&
-          "border-green-300 bg-green-100 hover:bg-green-100",
+          "border-green-300 bg-green-100 hover:bg-green-100 animate-pop ring-2 ring-green-400/50",
         selected &&
           status === "wrong" &&
-          "border-rose-300 bg-rose-100 hover:bg-rose-100",
+          "border-rose-300 bg-rose-100 hover:bg-rose-100 animate-shake ring-2 ring-rose-400/50",
         disabled && "pointer-events-none hover:bg-white",
         type === "ASSIST" && "w-full lg:p-3"
       )}

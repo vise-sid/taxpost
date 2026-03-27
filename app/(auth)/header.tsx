@@ -11,11 +11,11 @@ export const Header = () => {
     <header className="h-20 w-full border-b-2 border-slate-200 px-4">
       <div className="mx-auto flex h-full items-center justify-between lg:max-w-screen-lg">
         <Link href="/" className="flex items-center gap-x-3 pb-7 pl-4 pt-8">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#1a237e]">
+          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-navy">
             <span className="text-lg font-bold text-white">T</span>
           </div>
 
-          <h1 className="text-2xl font-extrabold tracking-wide text-[#1a237e]">
+          <h1 className="text-2xl font-extrabold tracking-wide text-brand-navy">
             Taxpost
           </h1>
         </Link>

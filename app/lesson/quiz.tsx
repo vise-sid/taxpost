@@ -235,20 +235,20 @@ export const Quiz = ({
           <div className="flex w-full items-center justify-center gap-x-6 text-muted-foreground">
             <div className="flex items-center gap-x-2">
               <span className="text-sm">Time:</span>
-              <span className="font-bold text-[#1a237e]">
+              <span className="font-bold text-brand-navy">
                 {formatTime(elapsedSeconds)}
               </span>
             </div>
             <div className="flex items-center gap-x-2">
               <span className="text-sm">Score:</span>
-              <span className="font-bold text-[#1a237e]">
+              <span className="font-bold text-brand-navy">
                 {correctCount}/{challengesList.length}
               </span>
             </div>
             {completionData?.streak && completionData.streak.isNewStreak && (
               <div className="flex items-center gap-x-2">
                 <span className="text-sm">Streak:</span>
-                <span className="font-bold text-[#ff6d00]">
+                <span className="font-bold text-brand-orange">
                   {completionData.streak.currentStreak} days
                 </span>
               </div>

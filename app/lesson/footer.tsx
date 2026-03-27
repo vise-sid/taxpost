@@ -38,7 +38,7 @@ export const Footer = ({
       {(status === "correct" || status === "wrong") && explanation && (
         <div
           className={cn(
-            "mx-auto max-w-[1140px] px-6 pt-4 lg:px-10",
+            "mx-auto max-w-[1140px] px-6 pt-4 lg:px-10 animate-slide-up",
           )}
         >
           <div className="flex items-start gap-x-3">

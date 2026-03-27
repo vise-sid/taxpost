@@ -52,7 +52,7 @@ export const SettingsForm = ({
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="you@example.com"
-          className="w-full rounded-xl border-2 px-4 py-3 text-sm outline-none focus:border-[#1a237e]"
+          className="w-full rounded-xl border-2 px-4 py-3 text-sm outline-none focus:border-brand-navy"
         />
       </div>
 
@@ -67,7 +67,7 @@ export const SettingsForm = ({
         <button
           onClick={() => setEnabled(!enabled)}
           className={`relative h-7 w-12 rounded-full transition-colors ${
-            enabled ? "bg-[#1a237e]" : "bg-gray-300"
+            enabled ? "bg-brand-navy" : "bg-gray-300"
           }`}
         >
           <div
@@ -87,7 +87,7 @@ export const SettingsForm = ({
           <select
             value={time}
             onChange={(e) => setTime(e.target.value)}
-            className="w-full rounded-xl border-2 px-4 py-3 text-sm outline-none focus:border-[#1a237e]"
+            className="w-full rounded-xl border-2 px-4 py-3 text-sm outline-none focus:border-brand-navy"
           >
             <option value="08:00">8:00 AM</option>
             <option value="09:00">9:00 AM</option>
@@ -106,7 +106,7 @@ export const SettingsForm = ({
       <Button
         onClick={onSave}
         disabled={pending}
-        className="w-full bg-[#1a237e] hover:bg-[#1a237e]/90"
+        className="w-full bg-brand-navy hover:bg-brand-navy/90"
         size="lg"
       >
         {pending ? "Saving..." : "Save Settings"}
