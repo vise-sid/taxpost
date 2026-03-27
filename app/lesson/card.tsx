@@ -48,7 +48,7 @@ export const Card = ({
       className={cn(
         "h-full cursor-pointer rounded-xl border-2 border-b-4 p-4 hover:bg-black/5 active:border-b-2 lg:p-6 transition-all duration-200",
         !disabled && !selected && "hover:-translate-y-0.5 hover:shadow-md",
-        selected && "border-sky-300 bg-sky-100 hover:bg-sky-100",
+        selected && "border-brand-navy/40 bg-brand-navy/5 hover:bg-brand-navy/5",
         selected &&
           status === "correct" &&
           "border-green-300 bg-green-100 hover:bg-green-100 animate-pop ring-2 ring-green-400/50",
@@ -68,34 +68,32 @@ export const Card = ({
 
       <div
         className={cn(
-          "flex items-center justify-between",
+          "flex items-start gap-3",
           type === "ASSIST" && "flex-row-reverse"
         )}
       >
-        {type === "ASSIST" && <div aria-hidden />}
+        {/* Shortcut badge */}
+        <span
+          className={cn(
+            "mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-neutral-100 text-xs font-bold text-neutral-500",
+            selected && "bg-brand-navy/10 text-brand-navy",
+            selected && status === "correct" && "bg-green-100 text-green-600",
+            selected && status === "wrong" && "bg-rose-100 text-rose-600"
+          )}
+        >
+          {shortcut}
+        </span>
+
         <p
           className={cn(
-            "text-sm text-neutral-600 lg:text-base",
-            selected && "text-sky-500",
-            selected && status === "correct" && "text-green-500",
-            selected && status === "wrong" && "text-rose-500"
+            "flex-1 text-sm text-neutral-600 lg:text-base",
+            selected && "text-brand-navy font-medium",
+            selected && status === "correct" && "text-green-600",
+            selected && status === "wrong" && "text-rose-600"
           )}
         >
           {text}
         </p>
-
-        <div
-          className={cn(
-            "flex h-[20px] w-[20px] items-center justify-center rounded-lg border-2 text-xs font-semibold text-neutral-400 lg:h-[30px] lg:w-[30px] lg:text-[15px]",
-            selected && "border-sky-300 text-sky-500",
-            selected &&
-              status === "correct" &&
-              "border-green-500 text-green-500",
-            selected && status === "wrong" && "border-rose-500 text-rose-500"
-          )}
-        >
-          {shortcut}
-        </div>
       </div>
     </div>
   );
