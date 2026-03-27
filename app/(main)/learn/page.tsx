@@ -13,7 +13,6 @@ import {
   getUserStreak,
 } from "@/db/queries";
 
-import { Header } from "./header";
 import { Unit } from "./unit";
 
 const LearnPage = async () => {
@@ -47,7 +46,6 @@ const LearnPage = async () => {
         <Quests points={userProgress.points} />
       </StickyWrapper>
       <FeedWrapper>
-        <Header title={userProgress.activeCourse.title} />
         {units.map((unit) => (
           <div key={unit.id} className="mb-10">
             <Unit
