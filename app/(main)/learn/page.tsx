@@ -14,6 +14,7 @@ import {
 } from "@/db/queries";
 import { ensureDefaultTierUnlocks } from "@/actions/tier-progress";
 
+import { StickyUnitHeader } from "./sticky-unit-header";
 import { Unit } from "./unit";
 
 const LearnPage = async () => {
@@ -48,6 +49,12 @@ const LearnPage = async () => {
     tierProgressByUnit.set(tp.unitId, existing);
   }
 
+  const unitInfos = units.map((u) => ({
+    id: u.id,
+    title: u.title,
+    description: u.description,
+  }));
+
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
       <StickyWrapper>
@@ -60,13 +67,15 @@ const LearnPage = async () => {
         <Quests points={userProgress.points} />
       </StickyWrapper>
       <FeedWrapper>
-        {units.map((unit) => (
-          <div key={unit.id} className="mb-10">
+        <StickyUnitHeader units={unitInfos} />
+        {units.map((unit, index) => (
+          <div key={unit.id} data-unit-id={unit.id} className="mb-6">
             <Unit
               id={unit.id}
               order={unit.order}
               description={unit.description}
               title={unit.title}
+              isFirst={index === 0}
               lessons={unit.lessons}
               activeLesson={courseProgress.activeLesson}
               activeLessonPercentage={lessonPercentage}

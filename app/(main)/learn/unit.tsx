@@ -1,5 +1,3 @@
-import { Lock } from "lucide-react";
-
 import { lessons, units, unitTierProgress } from "@/db/schema";
 import { TIER_LABELS } from "@/constants";
 
@@ -12,6 +10,7 @@ type UnitProps = {
   order: number;
   title: string;
   description: string;
+  isFirst?: boolean;
   lessons: (typeof lessons.$inferSelect & {
     completed: boolean;
   })[];
@@ -27,6 +26,7 @@ type UnitProps = {
 export const Unit = ({
   title,
   description,
+  isFirst,
   lessons: allLessons,
   activeLesson,
   activeLessonPercentage,
@@ -54,7 +54,7 @@ export const Unit = ({
 
   return (
     <>
-      <UnitBanner title={title} description={description} />
+      <UnitBanner title={title} description={description} isFirst={isFirst} />
 
       {tiers.map((tier) => {
         const tierLessons = lessonsByTier.get(tier) ?? [];
@@ -74,34 +74,32 @@ export const Unit = ({
         // If tier has no lessons seeded yet, show as coming soon
         if (tierLessons.length === 0) {
           return (
-            <div key={tier} className="mt-4">
-              <TierBadge
-                tier={tier}
-                label={label}
-                isUnlocked={false}
-                isCompleted={false}
-                percentage={0}
-                completedCount={0}
-                totalCount={0}
-              />
-            </div>
+            <TierBadge
+              key={tier}
+              tier={tier}
+              label={label}
+              isUnlocked={false}
+              isCompleted={false}
+              percentage={0}
+              completedCount={0}
+              totalCount={0}
+            />
           );
         }
 
         // Locked tier
         if (!isUnlocked) {
           return (
-            <div key={tier} className="mt-4">
-              <TierBadge
-                tier={tier}
-                label={label}
-                isUnlocked={false}
-                isCompleted={false}
-                percentage={0}
-                completedCount={0}
-                totalCount={totalCount}
-              />
-            </div>
+            <TierBadge
+              key={tier}
+              tier={tier}
+              label={label}
+              isUnlocked={false}
+              isCompleted={false}
+              percentage={0}
+              completedCount={0}
+              totalCount={totalCount}
+            />
           );
         }
 
