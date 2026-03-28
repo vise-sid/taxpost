@@ -8,13 +8,13 @@ export const UnitBanner = ({ title, description, isFirst }: UnitBannerProps) => 
   if (isFirst) return null;
 
   return (
-    <div className="my-5">
+    <div className="my-6">
       <div className="flex items-center gap-4">
-        <div className="h-[2px] flex-1 bg-gray-200" />
-        <span className="shrink-0 text-sm font-bold text-gray-400 italic">
+        <div className="h-[2px] flex-1 bg-gray-300" />
+        <h3 className="shrink-0 text-base font-extrabold uppercase tracking-wide text-gray-500">
           {title}
-        </span>
-        <div className="h-[2px] flex-1 bg-gray-200" />
+        </h3>
+        <div className="h-[2px] flex-1 bg-gray-300" />
       </div>
     </div>
   );
