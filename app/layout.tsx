@@ -1,6 +1,6 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Nunito } from "next/font/google";
 
 import { ExitModal } from "@/components/modals/exit-modal";
 import { HeartsModal } from "@/components/modals/hearts-modal";
@@ -10,7 +10,7 @@ import { siteConfig } from "@/config";
 
 import "./globals.css";
 
-const font = Inter({ subsets: ["latin"] });
+const font = Nunito({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800", "900"] });
 
 export const viewport: Viewport = {
   themeColor: "#1a237e",

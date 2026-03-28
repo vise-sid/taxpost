@@ -76,7 +76,7 @@ export const StickyUnitHeader = ({ units, courseName }: StickyUnitHeaderProps) =
           <ArrowLeft className="h-3.5 w-3.5" />
           <span>{courseName}, Unit {currentUnit.order}</span>
         </Link>
-        <h2 className="text-lg font-bold leading-tight lg:text-xl">
+        <h2 className="text-xl font-extrabold leading-tight lg:text-2xl">
           {currentUnit.title}
         </h2>
       </div>
