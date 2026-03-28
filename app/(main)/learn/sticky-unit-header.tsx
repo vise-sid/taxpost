@@ -45,20 +45,16 @@ export const StickyUnitHeader = ({ units }: StickyUnitHeaderProps) => {
 
   return (
     <div className="sticky top-[50px] z-20 -mx-6 mb-2 rounded-b-xl bg-brand-navy px-5 py-3 text-white shadow-lg lg:top-0">
-      <div className="flex items-center justify-between">
-        <div className="min-w-0 flex-1">
-          <Link
-            href="/courses"
-            className="mb-0.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-white/50 transition-colors hover:text-white/80"
-          >
-            <ArrowLeft className="h-3 w-3" />
-            <span>Unit {currentUnit.order}</span>
-          </Link>
-          <h2 className="truncate text-base font-bold lg:text-lg">
-            {currentUnit.title}
-          </h2>
-        </div>
-      </div>
+      <Link
+        href="/courses"
+        className="mb-1 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-white/60 transition-colors hover:text-white/90"
+      >
+        <ArrowLeft className="h-3.5 w-3.5" />
+        <span>Unit {currentUnit.order}</span>
+      </Link>
+      <h2 className="truncate text-lg font-bold lg:text-xl">
+        {currentUnit.title}
+      </h2>
     </div>
   );
 };
