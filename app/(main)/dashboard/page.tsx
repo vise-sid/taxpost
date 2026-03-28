@@ -3,7 +3,6 @@ import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
-import { StreakCounter } from "@/components/streak-counter";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
@@ -41,8 +40,8 @@ const DashboardPage = async () => {
           activeCourse={userProgress.activeCourse}
           hearts={userProgress.hearts}
           points={userProgress.points}
+          streak={streak?.currentStreak ?? 0}
         />
-        <StreakCounter streak={streak?.currentStreak ?? 0} />
       </StickyWrapper>
 
       <FeedWrapper>

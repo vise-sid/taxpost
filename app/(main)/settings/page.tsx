@@ -3,13 +3,16 @@ import { redirect } from "next/navigation";
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { UserProgress } from "@/components/user-progress";
-import { getUserProgress } from "@/db/queries";
+import { getUserProgress, getUserStreak } from "@/db/queries";
 
 import { getUserReminderPrefs } from "@/actions/reminder-prefs";
 import { SettingsForm } from "./form";
 
 const SettingsPage = async () => {
-  const userProgress = await getUserProgress();
+  const [userProgress, streak] = await Promise.all([
+    getUserProgress(),
+    getUserStreak(),
+  ]);
 
   if (!userProgress || !userProgress.activeCourse) redirect("/courses");
 
@@ -22,6 +25,7 @@ const SettingsPage = async () => {
           activeCourse={userProgress.activeCourse}
           hearts={userProgress.hearts}
           points={userProgress.points}
+          streak={streak?.currentStreak ?? 0}
         />
       </StickyWrapper>
 

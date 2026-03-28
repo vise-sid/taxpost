@@ -5,12 +5,15 @@ import { FeedWrapper } from "@/components/feed-wrapper";
 import { Quests } from "@/components/quests";
 import { StickyWrapper } from "@/components/sticky-wrapper";
 import { UserProgress } from "@/components/user-progress";
-import { getUserProgress } from "@/db/queries";
+import { getUserProgress, getUserStreak } from "@/db/queries";
 
 import { Items } from "./items";
 
 const ShopPage = async () => {
-  const userProgress = await getUserProgress();
+  const [userProgress, streak] = await Promise.all([
+    getUserProgress(),
+    getUserStreak(),
+  ]);
 
   if (!userProgress || !userProgress.activeCourse) redirect("/courses");
 
@@ -21,6 +24,7 @@ const ShopPage = async () => {
           activeCourse={userProgress.activeCourse}
           hearts={userProgress.hearts}
           points={userProgress.points}
+          streak={streak?.currentStreak ?? 0}
         />
         <Quests points={userProgress.points} />
       </StickyWrapper>

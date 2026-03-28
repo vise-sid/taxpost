@@ -6,10 +6,13 @@ import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Progress } from "@/components/ui/progress";
 import { UserProgress } from "@/components/user-progress";
 import { QUESTS } from "@/constants";
-import { getUserProgress } from "@/db/queries";
+import { getUserProgress, getUserStreak } from "@/db/queries";
 
 const QuestsPage = async () => {
-  const userProgress = await getUserProgress();
+  const [userProgress, streak] = await Promise.all([
+    getUserProgress(),
+    getUserStreak(),
+  ]);
 
   if (!userProgress || !userProgress.activeCourse) redirect("/courses");
 
@@ -20,6 +23,7 @@ const QuestsPage = async () => {
           activeCourse={userProgress.activeCourse}
           hearts={userProgress.hearts}
           points={userProgress.points}
+          streak={streak?.currentStreak ?? 0}
         />
       </StickyWrapper>
 
