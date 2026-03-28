@@ -62,7 +62,7 @@ export const StickyUnitHeader = ({ units, courseName }: StickyUnitHeaderProps) =
   const bgColor = unitColors[unitIndex % unitColors.length];
 
   return (
-    <div className="sticky top-[50px] z-20 -mx-6 lg:top-0 lg:mx-0 lg:mb-4">
+    <div className="sticky top-[50px] z-20 -mx-6 lg:top-6 lg:mx-0 lg:mb-4">
       <div
         className={cn(
           "px-5 py-4 text-white transition-colors duration-300 lg:rounded-2xl lg:shadow-lg",
