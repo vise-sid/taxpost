@@ -8,37 +8,42 @@ import { lessons, units, unitTierProgress } from "@/db/schema";
 import { TIER_ACCURACY_THRESHOLDS } from "@/constants";
 
 /**
- * Ensure Tier 1 of the first unit in a course is unlocked for the user.
+ * Ensure Tier 1 of ALL units in a course is unlocked for the user.
  * Called when a user selects a course or loads the learn page.
  */
 export const ensureDefaultTierUnlocks = async (courseId: number) => {
   const { userId } = await auth();
   if (!userId) return;
 
-  // Get the first unit (by order) in this course
-  const firstUnit = await db.query.units.findFirst({
+  // Get all units in this course
+  const allUnits = await db.query.units.findMany({
     where: eq(units.courseId, courseId),
-    orderBy: (units, { asc }) => [asc(units.order)],
   });
 
-  if (!firstUnit) return;
+  if (allUnits.length === 0) return;
 
-  // Check if tier 1 progress already exists
-  const existing = await db.query.unitTierProgress.findFirst({
+  // Get existing tier 1 progress for this user across all units
+  const existingProgress = await db.query.unitTierProgress.findMany({
     where: and(
       eq(unitTierProgress.userId, userId),
-      eq(unitTierProgress.unitId, firstUnit.id),
       eq(unitTierProgress.tier, 1)
     ),
   });
 
-  if (!existing) {
-    await db.insert(unitTierProgress).values({
+  const unlockedUnitIds = new Set(existingProgress.map((p) => p.unitId));
+
+  // Unlock Tier 1 for any unit that doesn't have it yet
+  const toInsert = allUnits
+    .filter((unit) => !unlockedUnitIds.has(unit.id))
+    .map((unit) => ({
       userId,
-      unitId: firstUnit.id,
+      unitId: unit.id,
       tier: 1,
       unlockedAt: new Date(),
-    });
+    }));
+
+  if (toInsert.length > 0) {
+    await db.insert(unitTierProgress).values(toInsert);
   }
 };
 
@@ -156,37 +161,6 @@ export const updateTierProgress = async (
             unlockedAt: new Date(),
           });
           tierJustUnlocked = nextTier;
-        }
-      }
-
-      if (tier === 1) {
-        // Also unlock Tier 1 of the next unit (by order in same course)
-        const currentUnit = lesson.unit;
-        const nextUnit = await db.query.units.findFirst({
-          where: and(
-            eq(units.courseId, currentUnit.courseId),
-            sql`${units.order} > ${currentUnit.order}`
-          ),
-          orderBy: (units, { asc }) => [asc(units.order)],
-        });
-
-        if (nextUnit) {
-          const existingNextUnit = await db.query.unitTierProgress.findFirst({
-            where: and(
-              eq(unitTierProgress.userId, userId),
-              eq(unitTierProgress.unitId, nextUnit.id),
-              eq(unitTierProgress.tier, 1)
-            ),
-          });
-
-          if (!existingNextUnit) {
-            await db.insert(unitTierProgress).values({
-              userId,
-              unitId: nextUnit.id,
-              tier: 1,
-              unlockedAt: new Date(),
-            });
-          }
         }
       }
 
