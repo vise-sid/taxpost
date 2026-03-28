@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
-import Image from "next/image";
 
 import { cn } from "@/lib/utils";
+import { CourseIcon } from "@/lib/course-icons";
 
 type CardProps = {
   title: string;
@@ -36,13 +36,7 @@ export const Card = ({
         )}
       </div>
 
-      <Image
-        src={imageSrc}
-        alt={title}
-        height={70}
-        width={93.33}
-        className="rounded-lg border object-cover drop-shadow-md"
-      />
+      <CourseIcon imageSrc={imageSrc} size="lg" />
 
       <p className="mt-3 text-center font-bold text-neutral-700">{title}</p>
     </div>

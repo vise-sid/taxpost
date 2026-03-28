@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
 import { courses } from "@/db/schema";
+import { CourseIcon } from "@/lib/course-icons";
 
 type UserProgressProps = {
   activeCourse: typeof courses.$inferSelect;
@@ -19,13 +20,7 @@ export const UserProgress = ({
     <div className="flex w-full items-center justify-between gap-x-2">
       <Link href="/courses">
         <Button variant="ghost">
-          <Image
-            src={activeCourse.imageSrc}
-            alt={activeCourse.title}
-            className="rounded-md border"
-            width={32}
-            height={32}
-          />
+          <CourseIcon imageSrc={activeCourse.imageSrc} size="sm" />
         </Button>
       </Link>
 
