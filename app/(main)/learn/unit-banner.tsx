@@ -5,11 +5,15 @@ type UnitBannerProps = {
 
 export const UnitBanner = ({ title, description }: UnitBannerProps) => {
   return (
-    <div className="flex w-full items-center justify-between rounded-xl bg-brand-navy p-5 text-white">
-      <div className="space-y-1.5">
-        <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-sm text-white/80 lg:text-lg">{description}</p>
+    <div className="flex items-center gap-4 py-4">
+      <div className="h-[2px] flex-1 bg-gray-200" />
+      <div className="text-center">
+        <h3 className="text-sm font-bold uppercase tracking-wider text-gray-500 lg:text-base">
+          {title}
+        </h3>
+        <p className="text-xs text-gray-400">{description}</p>
       </div>
+      <div className="h-[2px] flex-1 bg-gray-200" />
     </div>
   );
 };
