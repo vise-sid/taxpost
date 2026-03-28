@@ -51,6 +51,7 @@ const LearnPage = async () => {
 
   const unitInfos = units.map((u) => ({
     id: u.id,
+    order: u.order,
     title: u.title,
     description: u.description,
   }));

@@ -1,9 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
+
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 type UnitInfo = {
   id: number;
+  order: number;
   title: string;
   description: string;
 };
@@ -14,28 +18,23 @@ type StickyUnitHeaderProps = {
 
 export const StickyUnitHeader = ({ units }: StickyUnitHeaderProps) => {
   const [currentUnit, setCurrentUnit] = useState<UnitInfo>(units[0]);
-  const headerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        // Find the last unit section that is intersecting or above viewport
         for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
           const unitId = Number(entry.target.getAttribute("data-unit-id"));
           const unit = units.find((u) => u.id === unitId);
-
-          if (unit && entry.isIntersecting) {
-            setCurrentUnit(unit);
-          }
+          if (unit) setCurrentUnit(unit);
         }
       },
       {
-        rootMargin: "-80px 0px -80% 0px",
+        rootMargin: "-120px 0px -70% 0px",
         threshold: 0,
       }
     );
 
-    // Observe all unit sections
     const sections = document.querySelectorAll("[data-unit-id]");
     sections.forEach((section) => observer.observe(section));
 
@@ -45,12 +44,21 @@ export const StickyUnitHeader = ({ units }: StickyUnitHeaderProps) => {
   if (!currentUnit) return null;
 
   return (
-    <div
-      ref={headerRef}
-      className="sticky top-0 z-20 -mx-6 mb-4 bg-brand-navy px-6 py-4 text-white shadow-md"
-    >
-      <h2 className="text-lg font-bold lg:text-xl">{currentUnit.title}</h2>
-      <p className="text-xs text-white/70 lg:text-sm">{currentUnit.description}</p>
+    <div className="sticky top-[50px] z-20 -mx-6 mb-2 rounded-b-xl bg-brand-navy px-5 py-3 text-white shadow-lg lg:top-0">
+      <div className="flex items-center justify-between">
+        <div className="min-w-0 flex-1">
+          <Link
+            href="/courses"
+            className="mb-0.5 flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-white/50 transition-colors hover:text-white/80"
+          >
+            <ArrowLeft className="h-3 w-3" />
+            <span>Unit {currentUnit.order}</span>
+          </Link>
+          <h2 className="truncate text-base font-bold lg:text-lg">
+            {currentUnit.title}
+          </h2>
+        </div>
+      </div>
     </div>
   );
 };
