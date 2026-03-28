@@ -8,9 +8,11 @@ import {
   getCourseProgress,
   getLessonPercentage,
   getUnits,
+  getUnitTierProgress,
   getUserProgress,
   getUserStreak,
 } from "@/db/queries";
+import { ensureDefaultTierUnlocks } from "@/actions/tier-progress";
 
 import { Unit } from "./unit";
 
@@ -20,18 +22,31 @@ const LearnPage = async () => {
   const lessonPercentageData = getLessonPercentage();
   const unitsData = getUnits();
   const streakData = getUserStreak();
+  const tierProgressData = getUnitTierProgress();
 
-  const [userProgress, units, courseProgress, lessonPercentage, streak] =
+  const [userProgress, units, courseProgress, lessonPercentage, streak, tierProgress] =
     await Promise.all([
       userProgressData,
       unitsData,
       courseProgressData,
       lessonPercentageData,
       streakData,
+      tierProgressData,
     ]);
 
   if (!courseProgress || !userProgress || !userProgress.activeCourse)
     redirect("/courses");
+
+  // Ensure first unit's Tier 1 is unlocked
+  await ensureDefaultTierUnlocks(userProgress.activeCourse.id);
+
+  // Build a lookup: unitId -> tier progress array
+  const tierProgressByUnit = new Map<number, typeof tierProgress>();
+  for (const tp of tierProgress) {
+    const existing = tierProgressByUnit.get(tp.unitId) ?? [];
+    existing.push(tp);
+    tierProgressByUnit.set(tp.unitId, existing);
+  }
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">
@@ -55,6 +70,7 @@ const LearnPage = async () => {
               lessons={unit.lessons}
               activeLesson={courseProgress.activeLesson}
               activeLessonPercentage={lessonPercentage}
+              tierProgress={tierProgressByUnit.get(unit.id) ?? []}
             />
           </div>
         ))}

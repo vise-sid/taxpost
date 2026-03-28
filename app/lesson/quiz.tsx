@@ -13,7 +13,7 @@ import { upsertChallengeProgress } from "@/actions/challenge-progress";
 import { recordLessonCompletion } from "@/actions/lesson-complete";
 import { updateRepetition } from "@/actions/spaced-repetition";
 import { reduceHearts } from "@/actions/user-progress";
-import { MAX_HEARTS } from "@/constants";
+import { MAX_HEARTS, TIER_LABELS } from "@/constants";
 import { challengeOptions, challenges } from "@/db/schema";
 import { useHeartsModal } from "@/store/use-hearts-modal";
 import { usePracticeModal } from "@/store/use-practice-modal";
@@ -89,6 +89,14 @@ export const Quiz = ({
     score: number;
     totalQuestions: number;
     streak?: { currentStreak: number; isNewStreak: boolean };
+    tierProgress?: {
+      tier: number;
+      lessonsCompleted: number;
+      totalLessonsInTier: number;
+      accuracy: number;
+      tierJustUnlocked: number | null;
+      unitMastered: boolean;
+    } | null;
   } | null>(null);
 
   // Start timer on mount
@@ -255,6 +263,46 @@ export const Quiz = ({
             )}
           </div>
 
+          {/* Tier progress */}
+          {completionData?.tierProgress && (
+            <div className="w-full rounded-xl border-2 border-gray-100 bg-gray-50 p-4">
+              {completionData.tierProgress.tierJustUnlocked && (
+                <p className="mb-2 text-center text-sm font-bold text-green-600">
+                  🎉 {TIER_LABELS[completionData.tierProgress.tierJustUnlocked]} unlocked!
+                </p>
+              )}
+              {completionData.tierProgress.unitMastered && (
+                <p className="mb-2 text-center text-sm font-bold text-emerald-600">
+                  🏆 Unit mastered!
+                </p>
+              )}
+              <div className="flex items-center justify-between text-sm">
+                <span className="text-muted-foreground">
+                  {TIER_LABELS[completionData.tierProgress.tier]}
+                </span>
+                <span className="font-semibold text-brand-navy">
+                  {completionData.tierProgress.lessonsCompleted}/
+                  {completionData.tierProgress.totalLessonsInTier} lessons
+                </span>
+              </div>
+              <div className="mt-1.5 h-2 w-full overflow-hidden rounded-full bg-gray-200">
+                <div
+                  className="h-full rounded-full bg-blue-500 transition-all"
+                  style={{
+                    width: `${Math.round(
+                      (completionData.tierProgress.lessonsCompleted /
+                        Math.max(completionData.tierProgress.totalLessonsInTier, 1)) *
+                        100
+                    )}%`,
+                  }}
+                />
+              </div>
+              <p className="mt-1 text-xs text-muted-foreground">
+                Accuracy: {completionData.tierProgress.accuracy}%
+              </p>
+            </div>
+          )}
+
           <ShareScore
             score={correctCount}
             total={challengesList.length}
@@ -285,6 +333,14 @@ export const Quiz = ({
       <div className="flex-1">
         <div className="flex h-full items-center justify-center">
           <div className="flex w-full flex-col gap-y-12 px-6 lg:min-h-[350px] lg:w-[600px] lg:px-0">
+            {challenge.isReview && (
+              <div className="mb-2 flex justify-center lg:justify-start">
+                <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-3 py-1 text-xs font-medium text-amber-700">
+                  📝 Review
+                </span>
+              </div>
+            )}
+
             <h1 className="text-center text-lg font-bold text-neutral-700 lg:text-start lg:text-3xl">
               {title}
             </h1>
@@ -311,7 +367,11 @@ export const Quiz = ({
         status={status}
         onCheck={onContinue}
         explanation={
-          status !== "none" ? (challenge.explanation ?? undefined) : undefined
+          status === "wrong"
+            ? (challenge.explanationWrong ?? challenge.explanation ?? undefined)
+            : status === "correct"
+              ? (challenge.explanation ?? undefined)
+              : undefined
         }
         oldSection={
           status !== "none" ? (challenge.oldSection ?? undefined) : undefined

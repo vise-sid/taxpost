@@ -50,6 +50,7 @@ export const unitsRelations = relations(units, ({ many, one }) => ({
     references: [courses.id],
   }),
   lessons: many(lessons),
+  tierProgress: many(unitTierProgress),
 }));
 
 // --- Lessons ---
@@ -61,6 +62,7 @@ export const lessons = pgTable("lessons", {
     .references(() => units.id, { onDelete: "cascade" })
     .notNull(),
   order: integer("order").notNull(),
+  tier: integer("tier").notNull().default(1), // 1=Know It, 2=Understand It, 3=Apply It
 });
 
 export const lessonsRelations = relations(lessons, ({ one, many }) => ({
@@ -81,12 +83,16 @@ export const challenges = pgTable("challenges", {
   type: challengesEnum("type").notNull(),
   question: text("question").notNull(),
   order: integer("order").notNull(),
-  // New fields for Taxpost
+  // Taxpost learning fields
   difficulty: difficultyEnum("difficulty").default("medium"),
-  explanation: text("explanation"),
+  tier: integer("tier").notNull().default(1), // 1=Know It, 2=Understand It, 3=Apply It
+  explanation: text("explanation"), // shown on correct answer
+  explanationWrong: text("explanation_wrong"), // encouraging explanation on wrong answer
   oldSection: text("old_section"),
   newSection: text("new_section"),
   tags: text("tags"), // comma-separated tags
+  subConcepts: text("sub_concepts"), // comma-separated granular concept tags
+  isReview: boolean("is_review").notNull().default(false), // Q3 review from other unit
 });
 
 export const challengesRelations = relations(challenges, ({ one, many }) => ({
@@ -223,6 +229,33 @@ export const lessonCompletionsRelations = relations(
     lesson: one(lessons, {
       fields: [lessonCompletions.lessonId],
       references: [lessons.id],
+    }),
+  })
+);
+
+// --- Unit Tier Progress ---
+
+export const unitTierProgress = pgTable("unit_tier_progress", {
+  id: serial("id").primaryKey(),
+  userId: text("user_id").notNull(),
+  unitId: integer("unit_id")
+    .references(() => units.id, { onDelete: "cascade" })
+    .notNull(),
+  tier: integer("tier").notNull(), // 1, 2, or 3
+  lessonsCompleted: integer("lessons_completed").notNull().default(0),
+  totalCorrect: integer("total_correct").notNull().default(0),
+  totalQuestions: integer("total_questions").notNull().default(0),
+  unlockedAt: timestamp("unlocked_at"), // null = locked
+  completedAt: timestamp("completed_at"), // null = not yet completed
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+export const unitTierProgressRelations = relations(
+  unitTierProgress,
+  ({ one }) => ({
+    unit: one(units, {
+      fields: [unitTierProgress.unitId],
+      references: [units.id],
     }),
   })
 );

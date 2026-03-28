@@ -20,6 +20,7 @@ const main = async () => {
       db.delete(schema.lessonCompletions),
       db.delete(schema.userStreaks),
       db.delete(schema.userReminderPrefs),
+      db.delete(schema.unitTierProgress),
     ]);
 
     await db.delete(schema.challengeOptions);
@@ -94,61 +95,61 @@ const main = async () => {
       .insert(schema.lessons)
       .values([
         // Unit 1: TDS Provisions (Course 1)
-        { id: 1, title: "TDS on Salary", unitId: 1, order: 1 },
-        { id: 2, title: "TDS on Non-Salary Payments", unitId: 1, order: 2 },
-        { id: 3, title: "Consolidated TDS Schedule", unitId: 1, order: 3 },
+        { id: 1, title: "TDS on Salary", unitId: 1, order: 1, tier: 1 },
+        { id: 2, title: "TDS on Non-Salary Payments", unitId: 1, order: 2, tier: 1 },
+        { id: 3, title: "Consolidated TDS Schedule", unitId: 1, order: 3, tier: 1 },
         // Unit 2: TCS & Returns (Course 1)
-        { id: 4, title: "TCS Provisions", unitId: 2, order: 1 },
-        { id: 5, title: "TDS/TCS Returns", unitId: 2, order: 2 },
+        { id: 4, title: "TCS Provisions", unitId: 2, order: 1, tier: 1 },
+        { id: 5, title: "TDS/TCS Returns", unitId: 2, order: 2, tier: 1 },
         // Unit 3: Capital Gains Basics (Course 2)
-        { id: 6, title: "Charging Section & Computation", unitId: 3, order: 1 },
-        { id: 7, title: "Short-Term vs Long-Term Classification", unitId: 3, order: 2 },
-        { id: 8, title: "Stamp Duty & Transfer Provisions", unitId: 3, order: 3 },
+        { id: 6, title: "Charging Section & Computation", unitId: 3, order: 1, tier: 1 },
+        { id: 7, title: "Short-Term vs Long-Term Classification", unitId: 3, order: 2, tier: 1 },
+        { id: 8, title: "Stamp Duty & Transfer Provisions", unitId: 3, order: 3, tier: 1 },
         // Unit 4: Exemptions & Tax Rates (Course 2)
-        { id: 9, title: "Capital Gains Exemptions", unitId: 4, order: 1 },
-        { id: 10, title: "Tax Rates on Capital Gains", unitId: 4, order: 2 },
+        { id: 9, title: "Capital Gains Exemptions", unitId: 4, order: 1, tier: 1 },
+        { id: 10, title: "Tax Rates on Capital Gains", unitId: 4, order: 2, tier: 1 },
         // Unit 5: Salary Computation (Course 3)
-        { id: 11, title: "Salary Charging Section", unitId: 5, order: 1 },
-        { id: 12, title: "Perquisites & Allowances", unitId: 5, order: 2 },
+        { id: 11, title: "Salary Charging Section", unitId: 5, order: 1, tier: 1 },
+        { id: 12, title: "Perquisites & Allowances", unitId: 5, order: 2, tier: 1 },
         // Unit 6: Deductions & Exemptions from Salary (Course 3)
-        { id: 13, title: "Standard Deduction & Professional Tax", unitId: 6, order: 1 },
-        { id: 14, title: "HRA & Entertainment Allowance", unitId: 6, order: 2 },
-        { id: 15, title: "Salary Tax Planning", unitId: 6, order: 3 },
+        { id: 13, title: "Standard Deduction & Professional Tax", unitId: 6, order: 1, tier: 1 },
+        { id: 14, title: "HRA & Entertainment Allowance", unitId: 6, order: 2, tier: 1 },
+        { id: 15, title: "Salary Tax Planning", unitId: 6, order: 3, tier: 1 },
         // Unit 7: Annual Value & Taxation (Course 4)
-        { id: 16, title: "Income from House Property Basics", unitId: 7, order: 1 },
-        { id: 17, title: "Annual Value Determination", unitId: 7, order: 2 },
+        { id: 16, title: "Income from House Property Basics", unitId: 7, order: 1, tier: 1 },
+        { id: 17, title: "Annual Value Determination", unitId: 7, order: 2, tier: 1 },
         // Unit 8: HP Deductions & Special Cases (Course 4)
-        { id: 18, title: "Deductions under House Property", unitId: 8, order: 1 },
-        { id: 19, title: "Self-Occupied & Deemed Let-Out", unitId: 8, order: 2 },
-        { id: 20, title: "House Property Scenarios", unitId: 8, order: 3 },
+        { id: 18, title: "Deductions under House Property", unitId: 8, order: 1, tier: 1 },
+        { id: 19, title: "Self-Occupied & Deemed Let-Out", unitId: 8, order: 2, tier: 1 },
+        { id: 20, title: "House Property Scenarios", unitId: 8, order: 3, tier: 1 },
         // Unit 9: Business Income Basics (Course 5)
-        { id: 21, title: "Business Charging Section", unitId: 9, order: 1 },
-        { id: 22, title: "Depreciation", unitId: 9, order: 2 },
-        { id: 23, title: "Allowable Deductions", unitId: 9, order: 3 },
+        { id: 21, title: "Business Charging Section", unitId: 9, order: 1, tier: 1 },
+        { id: 22, title: "Depreciation", unitId: 9, order: 2, tier: 1 },
+        { id: 23, title: "Allowable Deductions", unitId: 9, order: 3, tier: 1 },
         // Unit 10: Presumptive & Disallowances (Course 5)
-        { id: 24, title: "Presumptive Taxation", unitId: 10, order: 1 },
-        { id: 25, title: "Specific Disallowances", unitId: 10, order: 2 },
+        { id: 24, title: "Presumptive Taxation", unitId: 10, order: 1, tier: 1 },
+        { id: 25, title: "Specific Disallowances", unitId: 10, order: 2, tier: 1 },
         // Unit 11: Investment Deductions (Course 6)
-        { id: 26, title: "Section 80C Equivalent", unitId: 11, order: 1 },
-        { id: 27, title: "NPS & Insurance Deductions", unitId: 11, order: 2 },
+        { id: 26, title: "Section 80C Equivalent", unitId: 11, order: 1, tier: 1 },
+        { id: 27, title: "NPS & Insurance Deductions", unitId: 11, order: 2, tier: 1 },
         // Unit 12: Other Deductions (Course 6)
-        { id: 28, title: "Education Loan & Donations", unitId: 12, order: 1 },
-        { id: 29, title: "Savings Interest & Regime Comparison", unitId: 12, order: 2 },
-        { id: 30, title: "Deduction Strategy", unitId: 12, order: 3 },
+        { id: 28, title: "Education Loan & Donations", unitId: 12, order: 1, tier: 1 },
+        { id: 29, title: "Savings Interest & Regime Comparison", unitId: 12, order: 2, tier: 1 },
+        { id: 30, title: "Deduction Strategy", unitId: 12, order: 3, tier: 1 },
         // Unit 13: Schedule-Based Exemptions (Course 7)
-        { id: 31, title: "New Schedule Structure", unitId: 13, order: 1 },
-        { id: 32, title: "Employment-Related Exemptions", unitId: 13, order: 2 },
+        { id: 31, title: "New Schedule Structure", unitId: 13, order: 1, tier: 1 },
+        { id: 32, title: "Employment-Related Exemptions", unitId: 13, order: 2, tier: 1 },
         // Unit 14: Specific Exemptions (Course 7)
-        { id: 33, title: "Agricultural & Capital Gains Exemptions", unitId: 14, order: 1 },
-        { id: 34, title: "Gratuity & Leave Encashment", unitId: 14, order: 2 },
-        { id: 35, title: "Exempt Income Scenarios", unitId: 14, order: 3 },
+        { id: 33, title: "Agricultural & Capital Gains Exemptions", unitId: 14, order: 1, tier: 1 },
+        { id: 34, title: "Gratuity & Leave Encashment", unitId: 14, order: 2, tier: 1 },
+        { id: 35, title: "Exempt Income Scenarios", unitId: 14, order: 3, tier: 1 },
         // Unit 15: Key Definitions (Course 8)
-        { id: 36, title: "Tax Year & Person", unitId: 15, order: 1 },
-        { id: 37, title: "Income & Residential Status", unitId: 15, order: 2 },
+        { id: 36, title: "Tax Year & Person", unitId: 15, order: 1, tier: 1 },
+        { id: 37, title: "Income & Residential Status", unitId: 15, order: 2, tier: 1 },
         // Unit 16: Structure & Scope (Course 8)
-        { id: 38, title: "New Act Overview", unitId: 16, order: 1 },
-        { id: 39, title: "Total Income & Scope", unitId: 16, order: 2 },
-        { id: 40, title: "Transition & Key Changes", unitId: 16, order: 3 },
+        { id: 38, title: "New Act Overview", unitId: 16, order: 1, tier: 1 },
+        { id: 39, title: "Total Income & Scope", unitId: 16, order: 2, tier: 1 },
+        { id: 40, title: "Transition & Key Changes", unitId: 16, order: 3, tier: 1 },
       ])
       .returning();
 
@@ -173,7 +174,13 @@ const main = async () => {
       oldSection: string | null,
       newSection: string | null,
       tags: string,
-      options: { text: string; correct: boolean }[]
+      options: { text: string; correct: boolean }[],
+      extra?: {
+        tier?: number;
+        explanationWrong?: string;
+        subConcepts?: string;
+        isReview?: boolean;
+      }
     ) => {
       challengeId++;
       allChallenges.push({
@@ -183,10 +190,14 @@ const main = async () => {
         question,
         order,
         difficulty,
+        tier: extra?.tier ?? 1,
         explanation,
+        explanationWrong: extra?.explanationWrong ?? null,
         oldSection,
         newSection,
         tags,
+        subConcepts: extra?.subConcepts ?? null,
+        isReview: extra?.isReview ?? false,
       });
       for (const opt of options) {
         optionId++;

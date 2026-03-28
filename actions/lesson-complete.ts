@@ -7,6 +7,7 @@ import db from "@/db/drizzle";
 import { lessonCompletions } from "@/db/schema";
 
 import { updateStreak } from "./streak";
+import { updateTierProgress } from "./tier-progress";
 
 export const recordLessonCompletion = async (
   lessonId: number,
@@ -26,8 +27,11 @@ export const recordLessonCompletion = async (
     totalQuestions,
   });
 
-  // Update streak
-  const streakResult = await updateStreak();
+  // Update streak and tier progress
+  const [streakResult, tierResult] = await Promise.all([
+    updateStreak(),
+    updateTierProgress(lessonId, score, totalQuestions),
+  ]);
 
   revalidatePath("/learn");
   revalidatePath("/leaderboard");
@@ -37,5 +41,6 @@ export const recordLessonCompletion = async (
     score,
     totalQuestions,
     streak: streakResult,
+    tierProgress: tierResult,
   };
 };
