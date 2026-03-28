@@ -14,9 +14,10 @@ type UnitInfo = {
 
 type StickyUnitHeaderProps = {
   units: UnitInfo[];
+  courseName: string;
 };
 
-export const StickyUnitHeader = ({ units }: StickyUnitHeaderProps) => {
+export const StickyUnitHeader = ({ units, courseName }: StickyUnitHeaderProps) => {
   const [currentUnit, setCurrentUnit] = useState<UnitInfo>(units[0]);
 
   useEffect(() => {
@@ -44,17 +45,19 @@ export const StickyUnitHeader = ({ units }: StickyUnitHeaderProps) => {
   if (!currentUnit) return null;
 
   return (
-    <div className="sticky top-[50px] z-20 -mx-6 mb-2 rounded-b-xl bg-brand-navy px-5 py-3 text-white shadow-lg lg:top-0">
-      <Link
-        href="/courses"
-        className="mb-1 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-white/60 transition-colors hover:text-white/90"
-      >
-        <ArrowLeft className="h-3.5 w-3.5" />
-        <span>Unit {currentUnit.order}</span>
-      </Link>
-      <h2 className="truncate text-lg font-bold lg:text-xl">
-        {currentUnit.title}
-      </h2>
+    <div className="sticky top-[50px] z-20 -mx-6 px-4 pb-3 pt-2 lg:top-0 lg:px-0">
+      <div className="rounded-2xl bg-brand-navy px-5 py-4 text-white shadow-lg">
+        <Link
+          href="/courses"
+          className="mb-1.5 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-white/50 transition-colors hover:text-white/80"
+        >
+          <ArrowLeft className="h-3.5 w-3.5" />
+          <span>{courseName}, Unit {currentUnit.order}</span>
+        </Link>
+        <h2 className="text-lg font-bold leading-tight lg:text-xl">
+          {currentUnit.title}
+        </h2>
+      </div>
     </div>
   );
 };

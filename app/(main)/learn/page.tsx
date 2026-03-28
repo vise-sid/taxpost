@@ -68,7 +68,7 @@ const LearnPage = async () => {
         <Quests points={userProgress.points} />
       </StickyWrapper>
       <FeedWrapper>
-        <StickyUnitHeader units={unitInfos} />
+        <StickyUnitHeader units={unitInfos} courseName={userProgress.activeCourse.title} />
         {units.map((unit, index) => (
           <div key={unit.id} data-unit-id={unit.id} className="mb-6">
             <Unit
