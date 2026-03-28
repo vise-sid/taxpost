@@ -147,39 +147,44 @@ export const Quiz = ({
     const correctOption = options.find((option) => option.correct);
     if (!correctOption) return;
 
-    if (correctOption.id === selectedOption) {
+    const isCorrect = correctOption.id === selectedOption;
+
+    // Optimistic: update UI instantly, persist in background
+    if (isCorrect) {
+      void correctControls.play();
+      setStatus("correct");
+      setCorrectCount((prev) => prev + 1);
+      setPercentage((prev) => prev + 100 / challengesList.length);
+      if (initialPercentage === 100) {
+        setHearts((prev) => Math.min(prev + 1, MAX_HEARTS));
+      }
+
+      // Persist in background — don't block UI
       startTransition(() => {
         upsertChallengeProgress(challenge.id)
           .then((response) => {
             if (response?.error === "hearts") {
               openHeartsModal();
-              return;
-            }
-            void correctControls.play();
-            setStatus("correct");
-            setCorrectCount((prev) => prev + 1);
-            updateRepetition(challenge.id, true).catch(() => {});
-            setPercentage((prev) => prev + 100 / challengesList.length);
-            if (initialPercentage === 100) {
-              setHearts((prev) => Math.min(prev + 1, MAX_HEARTS));
             }
           })
-          .catch(() => toast.error("Something went wrong. Please try again."));
+          .catch(() => toast.error("Something went wrong."));
+        updateRepetition(challenge.id, true).catch(() => {});
       });
     } else {
+      void incorrectControls.play();
+      setStatus("wrong");
+      setHearts((prev) => Math.max(prev - 1, 0));
+
+      // Persist in background
       startTransition(() => {
         reduceHearts(challenge.id)
           .then((response) => {
             if (response?.error === "hearts") {
               openHeartsModal();
-              return;
             }
-            void incorrectControls.play();
-            setStatus("wrong");
-            updateRepetition(challenge.id, false).catch(() => {});
-            if (!response?.error) setHearts((prev) => Math.max(prev - 1, 0));
           })
-          .catch(() => toast.error("Something went wrong. Please try again."));
+          .catch(() => toast.error("Something went wrong."));
+        updateRepetition(challenge.id, false).catch(() => {});
       });
     }
   };
