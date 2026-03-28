@@ -56,7 +56,7 @@ export const LessonButton = ({
         className="relative"
         style={{
           right: `${rightPosition}px`,
-          marginTop: isFirst && !isCompleted ? 60 : 24,
+          marginTop: isFirst && !isCompleted ? 48 : 20,
         }}
       >
         {current ? (

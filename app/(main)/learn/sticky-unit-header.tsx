@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
+import { cn } from "@/lib/utils";
+
 type UnitInfo = {
   id: number;
   order: number;
@@ -16,6 +18,18 @@ type StickyUnitHeaderProps = {
   units: UnitInfo[];
   courseName: string;
 };
+
+// Rotating colors for each unit — vibrant like Duolingo
+const unitColors = [
+  "bg-[#1a237e]",   // navy (brand)
+  "bg-[#7c3aed]",   // purple
+  "bg-[#0891b2]",   // teal
+  "bg-[#c2410c]",   // burnt orange
+  "bg-[#0d9488]",   // emerald
+  "bg-[#be185d]",   // pink
+  "bg-[#1d4ed8]",   // blue
+  "bg-[#7c2d12]",   // brown
+];
 
 export const StickyUnitHeader = ({ units, courseName }: StickyUnitHeaderProps) => {
   const [currentUnit, setCurrentUnit] = useState<UnitInfo>(units[0]);
@@ -44,12 +58,20 @@ export const StickyUnitHeader = ({ units, courseName }: StickyUnitHeaderProps) =
 
   if (!currentUnit) return null;
 
+  const unitIndex = units.findIndex((u) => u.id === currentUnit.id);
+  const bgColor = unitColors[unitIndex % unitColors.length];
+
   return (
-    <div className="sticky top-[50px] z-20 -mx-6 px-4 pb-3 pt-2 lg:top-0 lg:px-0">
-      <div className="rounded-2xl bg-brand-navy px-5 py-4 text-white shadow-lg">
+    <div className="sticky top-[50px] z-20 -mx-6 lg:top-0 lg:mx-0 lg:mb-4">
+      <div
+        className={cn(
+          "px-5 py-4 text-white transition-colors duration-300 lg:rounded-2xl lg:shadow-lg",
+          bgColor
+        )}
+      >
         <Link
           href="/courses"
-          className="mb-1.5 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-white/50 transition-colors hover:text-white/80"
+          className="mb-1 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest text-white/60 transition-colors hover:text-white/90"
         >
           <ArrowLeft className="h-3.5 w-3.5" />
           <span>{courseName}, Unit {currentUnit.order}</span>

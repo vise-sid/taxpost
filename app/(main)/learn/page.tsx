@@ -57,7 +57,7 @@ const LearnPage = async () => {
   }));
 
   return (
-    <div className="flex flex-row-reverse gap-[48px] px-6">
+    <div className="flex flex-row-reverse gap-[48px] px-6 lg:px-6">
       <StickyWrapper>
         <UserProgress
           activeCourse={userProgress.activeCourse}
@@ -70,7 +70,7 @@ const LearnPage = async () => {
       <FeedWrapper>
         <StickyUnitHeader units={unitInfos} courseName={userProgress.activeCourse.title} />
         {units.map((unit, index) => (
-          <div key={unit.id} data-unit-id={unit.id} className="mb-6">
+          <div key={unit.id} data-unit-id={unit.id} className="mb-2">
             <Unit
               id={unit.id}
               order={unit.order}

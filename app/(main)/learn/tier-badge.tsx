@@ -31,7 +31,7 @@ export const TierBadge = ({
   // Locked tier
   if (!isUnlocked) {
     return (
-      <div className="flex items-center gap-3 py-4">
+      <div className="flex items-center gap-3 py-3">
         <div className="h-[1px] flex-1 bg-gray-200" />
         <Lock className="h-4 w-4 text-gray-300" />
         <span className="text-xs font-semibold uppercase tracking-wider text-gray-300">
@@ -48,7 +48,7 @@ export const TierBadge = ({
   // Completed tier
   if (isCompleted) {
     return (
-      <div className="flex items-center gap-3 py-4">
+      <div className="flex items-center gap-3 py-3">
         <div className="h-[1px] flex-1 bg-green-200" />
         <Check className="h-4 w-4 text-green-500" />
         <span className="text-xs font-semibold uppercase tracking-wider text-green-500">
@@ -66,7 +66,7 @@ export const TierBadge = ({
   const Icon = config.icon;
 
   return (
-    <div className="flex items-center gap-3 py-4">
+    <div className="flex items-center gap-3 py-3">
       <div className={cn("h-[1px] flex-1", config.lineColor)} />
       <Icon className={cn("h-4 w-4", config.color)} />
       <span className={cn("text-xs font-semibold uppercase tracking-wider", config.color)}>

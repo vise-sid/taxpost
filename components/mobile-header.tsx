@@ -17,7 +17,7 @@ export const MobileHeader = async () => {
   const hasStreak = streakCount > 0;
 
   return (
-    <nav className="fixed top-0 z-50 flex h-[50px] w-full items-center justify-between border-b border-gray-100 bg-white px-6 lg:hidden">
+    <nav className="fixed top-0 z-50 flex h-[50px] w-full items-center justify-between bg-white px-6 shadow-sm lg:hidden">
       <Link href="/courses" className="flex items-center gap-1.5">
         <Flame
           className={cn(
