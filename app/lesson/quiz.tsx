@@ -368,7 +368,7 @@ export const Quiz = ({
       </div>
 
       <Footer
-        disabled={pending || !selectedOption}
+        disabled={status === "none" && !selectedOption}
         status={status}
         onCheck={onContinue}
         explanation={
