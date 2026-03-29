@@ -81,11 +81,15 @@ const SignUpPage = () => {
     try {
       await signUp.authenticateWithRedirect({
         strategy: "oauth_google",
-        redirectUrl: "/sso-callback",
-        redirectUrlComplete: "/learn",
+        redirectUrl: `${window.location.origin}/sso-callback`,
+        redirectUrlComplete: `${window.location.origin}/learn`,
       });
     } catch (err: any) {
-      setError("Google sign-up failed. Please try again.");
+      const msg =
+        err?.errors?.[0]?.longMessage ||
+        err?.errors?.[0]?.message ||
+        "Google sign-up failed. Please try again.";
+      setError(msg);
     }
   };
 

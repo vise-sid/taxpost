@@ -86,11 +86,15 @@ const SignInPage = () => {
     try {
       await signIn.authenticateWithRedirect({
         strategy: "oauth_google",
-        redirectUrl: "/sso-callback",
-        redirectUrlComplete: "/learn",
+        redirectUrl: `${window.location.origin}/sso-callback`,
+        redirectUrlComplete: `${window.location.origin}/learn`,
       });
     } catch (err: any) {
-      setError("Google sign-in failed. Please try again.");
+      const msg =
+        err?.errors?.[0]?.longMessage ||
+        err?.errors?.[0]?.message ||
+        "Google sign-in failed. Please try again.";
+      setError(msg);
     }
   };
 
