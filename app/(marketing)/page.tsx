@@ -1,8 +1,6 @@
 import {
   ClerkLoaded,
   ClerkLoading,
-  SignInButton,
-  SignUpButton,
   Show,
 } from "@clerk/nextjs";
 import { Brain, Clock, Flame, Loader, Trophy } from "lucide-react";
@@ -60,21 +58,13 @@ export default function MarketingPage() {
               </Show>
 
               <Show when="signed-out">
-                <SignUpButton mode="modal">
-                  <Button size="lg" variant="secondary" className="w-full">
-                    Get Started — It&apos;s Free
-                  </Button>
-                </SignUpButton>
+                <Button size="lg" variant="secondary" className="w-full" asChild>
+                  <Link href="/sign-up">Get Started — It&apos;s Free</Link>
+                </Button>
 
-                <SignInButton mode="modal">
-                  <Button
-                    size="lg"
-                    variant="primaryOutline"
-                    className="w-full"
-                  >
-                    I already have an account
-                  </Button>
-                </SignInButton>
+                <Button size="lg" variant="primaryOutline" className="w-full" asChild>
+                  <Link href="/sign-in">I already have an account</Link>
+                </Button>
               </Show>
             </ClerkLoaded>
           </div>
@@ -217,11 +207,9 @@ export default function MarketingPage() {
               </Show>
 
               <Show when="signed-out">
-                <SignUpButton mode="modal">
-                  <Button size="lg" variant="secondary" className="w-full">
-                    Get Started — It&apos;s Free
-                  </Button>
-                </SignUpButton>
+                <Button size="lg" variant="secondary" className="w-full" asChild>
+                  <Link href="/sign-up">Get Started — It&apos;s Free</Link>
+                </Button>
               </Show>
             </ClerkLoaded>
           </div>

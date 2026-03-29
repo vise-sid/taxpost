@@ -3,7 +3,6 @@
 import {
   ClerkLoaded,
   ClerkLoading,
-  SignInButton,
   Show,
   UserButton,
 } from "@clerk/nextjs";
@@ -36,11 +35,9 @@ export const Header = () => {
             </Show>
 
             <Show when="signed-out">
-              <SignInButton mode="modal">
-                <Button size="lg" variant="ghost">
-                  Login
-                </Button>
-              </SignInButton>
+              <Button size="lg" variant="ghost" asChild>
+                <Link href="/sign-in">Login</Link>
+              </Button>
             </Show>
           </ClerkLoaded>
         </div>
