@@ -37,38 +37,42 @@ const COURSE_TO_FOLDER: Record<string, string> = {
 };
 
 async function getGuidebookContent(unitId: number) {
-  const unit = await db.query.units.findFirst({
-    where: eq(units.id, unitId),
-    with: { course: true },
-  });
+  try {
+    const unit = await db.query.units.findFirst({
+      where: eq(units.id, unitId),
+      with: { course: true },
+    });
 
-  if (!unit) return null;
+    if (!unit) return null;
 
-  const moduleFolder = COURSE_TO_FOLDER[unit.course.title];
-  if (!moduleFolder) return null;
+    const moduleFolder = COURSE_TO_FOLDER[unit.course.title];
+    if (!moduleFolder) return null;
 
-  // Extract unit number from description: "Unit 0.1: Why a New Act?" → "0.1"
-  const unitMatch = unit.description.match(/Unit\s+(\d+\.\d+)/);
-  const unitNumber = unitMatch ? unitMatch[1] : null;
-  if (!unitNumber) return null;
+    // Extract unit number from description: "Unit 0.1: Why a New Act?" → "0.1"
+    const unitMatch = unit.description.match(/Unit\s+(\d+\.\d+)/);
+    const unitNumber = unitMatch ? unitMatch[1] : null;
+    if (!unitNumber) return null;
 
-  const contentDir = path.join(process.cwd(), "content", "units", moduleFolder);
-  if (!fs.existsSync(contentDir)) return null;
+    const contentDir = path.join(process.cwd(), "content", "units", moduleFolder);
+    if (!fs.existsSync(contentDir)) return null;
 
-  const mdFiles = fs
-    .readdirSync(contentDir)
-    .filter((f) => f.startsWith(unitNumber + "-") && f.endsWith(".md"));
+    const mdFiles = fs
+      .readdirSync(contentDir)
+      .filter((f: string) => f.startsWith(unitNumber + "-") && f.endsWith(".md"));
 
-  if (mdFiles.length === 0) return null;
+    if (mdFiles.length === 0) return null;
 
-  const mdContent = fs.readFileSync(path.join(contentDir, mdFiles[0]), "utf-8");
+    const mdContent = fs.readFileSync(path.join(contentDir, mdFiles[0]), "utf-8");
 
-  return {
-    unitTitle: unit.title,
-    courseTitle: unit.course.title,
-    unitOrder: unit.order,
-    content: mdContent,
-  };
+    return {
+      unitTitle: unit.title,
+      courseTitle: unit.course.title,
+      unitOrder: unit.order,
+      content: mdContent,
+    };
+  } catch {
+    return null;
+  }
 }
 
 type Props = {
@@ -81,7 +85,29 @@ const GuidebookPage = async ({ params }: Props) => {
   if (isNaN(unitId)) redirect("/learn");
 
   const data = await getGuidebookContent(unitId);
-  if (!data) redirect("/learn");
+
+  if (!data) {
+    return (
+      <div className="mx-auto max-w-3xl px-4 pb-20 pt-4 lg:px-6">
+        <Link
+          href="/learn"
+          className="mb-6 inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-neutral-500 transition-colors hover:text-neutral-800"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          <span>Back to Learn</span>
+        </Link>
+
+        <div className="flex flex-col items-center justify-center py-20 text-center">
+          <h1 className="mb-3 text-2xl font-bold text-neutral-800">
+            Guidebook coming soon
+          </h1>
+          <p className="text-neutral-500">
+            This unit&apos;s guidebook is being prepared. Check back shortly.
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto max-w-3xl px-4 pb-20 pt-4 lg:px-6">
