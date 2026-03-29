@@ -132,7 +132,7 @@ const SignUpPage = () => {
                     placeholder="First"
                     required
                     autoFocus
-                    className="h-12 w-full rounded-xl border border-white/15 bg-white/8 pl-11 pr-4 text-sm text-white placeholder:text-white/25 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                    className="h-12 w-full rounded-xl border border-white/20 bg-white/15 pl-11 pr-4 text-sm text-white placeholder:text-white/40 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
                   />
                 </div>
               </div>
@@ -146,7 +146,7 @@ const SignUpPage = () => {
                   onChange={(e) => setLastName(e.target.value)}
                   placeholder="Last"
                   required
-                  className="h-12 w-full rounded-xl border border-white/15 bg-white/8 px-4 text-sm text-white placeholder:text-white/25 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                  className="h-12 w-full rounded-xl border border-white/20 bg-white/15 px-4 text-sm text-white placeholder:text-white/40 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
                 />
               </div>
             </div>
@@ -163,7 +163,7 @@ const SignUpPage = () => {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@example.com"
                   required
-                  className="h-12 w-full rounded-xl border border-white/15 bg-white/8 pl-11 pr-4 text-sm text-white placeholder:text-white/25 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                  className="h-12 w-full rounded-xl border border-white/20 bg-white/15 pl-11 pr-4 text-sm text-white placeholder:text-white/40 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
                 />
               </div>
             </div>
@@ -232,7 +232,7 @@ const SignUpPage = () => {
                 required
                 autoFocus
                 maxLength={6}
-                className="h-12 w-full rounded-xl border border-white/15 bg-white/8 px-4 text-center text-lg font-bold tracking-[0.3em] text-white placeholder:text-sm placeholder:font-normal placeholder:tracking-normal placeholder:text-white/25 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                className="h-12 w-full rounded-xl border border-white/20 bg-white/15 px-4 text-center text-lg font-bold tracking-[0.3em] text-white placeholder:text-sm placeholder:font-normal placeholder:tracking-normal placeholder:text-white/40 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
               />
             </div>
 

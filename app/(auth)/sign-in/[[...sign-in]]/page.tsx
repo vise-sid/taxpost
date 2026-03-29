@@ -110,7 +110,7 @@ const SignInPage = () => {
                   placeholder="you@example.com"
                   required
                   autoFocus
-                  className="h-12 w-full rounded-xl border border-white/15 bg-white/8 pl-11 pr-4 text-sm text-white placeholder:text-white/25 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                  className="h-12 w-full rounded-xl border border-white/20 bg-white/15 pl-11 pr-4 text-sm text-white placeholder:text-white/40 focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@ const SignInPage = () => {
                 required
                 autoFocus
                 maxLength={6}
-                className="h-12 w-full rounded-xl border border-white/15 bg-white/8 px-4 text-center text-lg font-bold tracking-[0.3em] text-white placeholder:text-white/25 placeholder:tracking-normal placeholder:text-sm placeholder:font-normal focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
+                className="h-12 w-full rounded-xl border border-white/20 bg-white/15 px-4 text-center text-lg font-bold tracking-[0.3em] text-white placeholder:text-white/40 placeholder:tracking-normal placeholder:text-sm placeholder:font-normal focus:border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange/30"
               />
             </div>
 
