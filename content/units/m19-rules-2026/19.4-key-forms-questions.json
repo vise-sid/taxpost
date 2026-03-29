@@ -1,0 +1,835 @@
+{
+  "unit": "19.4",
+  "title": "Key Forms",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "PAN, TAN & TDS Return Form Numbers",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the IT Rules 2026, what is the new form number for a PAN application by an Indian individual (previously Form 49A)?",
+          "options": [
+            { "text": "Form 93", "correct": true },
+            { "text": "Form 94", "correct": false },
+            { "text": "Form 95", "correct": false },
+            { "text": "Form 135", "correct": false }
+          ],
+          "explanation": "Form 49A for Indian individuals becomes Form 93 under the 2026 Rules. The old Form 49A has been split — individuals get Form 93, while Indian companies and entities get Form 94. This split is new; under the 1962 Rules, both used the same Form 49A.",
+          "explanationWrong": "Form 93 is for Indian individuals. Remember the PAN split: 49A splits into 93 (individual) and 94 (company/entity). Similarly, 49AA splits into 95 (foreign individual) and 96 (foreign entity). The individual form always gets the lower number in each pair.",
+          "tier": 1,
+          "subConcepts": ["pan-form-49A-to-93", "indian-individual-pan"],
+          "isReview": false,
+          "oldSection": "Form 49A",
+          "newSection": "Form 93"
+        },
+        {
+          "order": 2,
+          "question": "Old Form 49B (TAN application) has been renumbered to which form under the IT Rules 2026?",
+          "options": [
+            { "text": "Form 93", "correct": false },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 135", "correct": true },
+            { "text": "Form 140", "correct": false }
+          ],
+          "explanation": "Form 49B becomes Form 135 under the 2026 Rules. TAN (Tax Deduction and Collection Account Number) applications continue through the same process — only the form number has changed. Every deductor and collector needs to know this mapping.",
+          "explanationWrong": "Form 135 is the new TAN application form. Key distinction: PAN applications are Forms 93-96, TAN application is Form 135. Do not confuse Form 128 (lower TDS certificate, old Form 13) with Form 135 (TAN application, old 49B).",
+          "tier": 1,
+          "subConcepts": ["tan-form-49B-to-135", "tan-application"],
+          "isReview": false,
+          "oldSection": "Form 49B",
+          "newSection": "Form 135"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.3: What is the only genuine Rules 2026 change in the depreciation framework?",
+          "options": [
+            { "text": "All depreciation rates were increased by 5%", "correct": false },
+            { "text": "Introduction of a 40% depreciation cap for concessional tax regime taxpayers", "correct": true },
+            { "text": "SLM method replaced WDV method entirely", "correct": false },
+            { "text": "Computer depreciation reduced from 40% to 15%", "correct": false }
+          ],
+          "explanation": "The only genuine change is the 40% depreciation cap for taxpayers opting for concessional tax regimes under Sections 199(3), 200(5), and 202(2). All depreciation rates themselves — 5% residential, 10% non-residential, 15% general P&M, 40% computers — are carried forward unchanged.",
+          "explanationWrong": "40% depreciation cap for concessional regime taxpayers. Every depreciation rate is carried forward without change from the 1962 Rules. The ONLY new element is capping depreciation at 40% for those opting for concessional tax regimes. This prevents high-depreciation assets from being used to shelter income under the lower-rate regime.",
+          "tier": 1,
+          "subConcepts": ["depreciation-40-cap-review", "concessional-regime-depreciation"],
+          "isReview": true,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 4,
+          "question": "The quarterly TDS return for salary (previously Form 24Q) is now filed using which form number?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 138", "correct": true },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 24Q becomes Form 138. This is the quarterly TDS return specifically for salary deductions. The filing frequency remains quarterly — only the form number has changed. Practitioners filing Q1 salary TDS returns from July 2026 will use Form 138 instead of 24Q.",
+          "explanationWrong": "Form 138 for salary TDS returns. The TDS return mapping: 24Q→138 (salary), 26Q→140 (non-salary residents), 27Q→144 (non-residents), 27EQ→143 (TCS). Do not confuse Form 130 — that is the salary TDS certificate (old Form 16), not the return.",
+          "tier": 1,
+          "subConcepts": ["tds-return-24Q-to-138", "salary-tds-return"],
+          "isReview": false,
+          "oldSection": "Form 24Q",
+          "newSection": "Form 138"
+        },
+        {
+          "order": 5,
+          "question": "Form 27EQ (quarterly TCS return) has been renumbered to which form under the 2026 Rules?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 141", "correct": false },
+            { "text": "Form 143", "correct": true },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 27EQ becomes Form 143. The 'EQ' in the old form stood for 'E-quarterly' for TCS. Under the 2026 Rules, all quarterly returns sit close together: 138 (salary TDS), 140 (non-salary TDS), 143 (TCS), 144 (non-resident TDS).",
+          "explanationWrong": "Form 143 for TCS returns. The four quarterly return forms in the 2026 Rules: 138, 140, 143, 144. A useful mnemonic: they are all in the 138-144 range. Form 143 is TCS (old 27EQ), while Form 144 is non-resident TDS (old 27Q).",
+          "tier": 1,
+          "subConcepts": ["tcs-return-27EQ-to-143", "quarterly-tcs-return"],
+          "isReview": false,
+          "oldSection": "Form 27EQ",
+          "newSection": "Form 143"
+        }
+      ]
+    },
+    {
+      "title": "TDS Certificates & Self-Declaration Forms",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2026 Rules, the salary TDS certificate (previously Form 16) is now issued using which form number?",
+          "options": [
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 131", "correct": false },
+            { "text": "Form 138", "correct": false }
+          ],
+          "explanation": "Form 16 becomes Form 130. This is the TDS certificate issued by employers to employees — the document every salaried person receives annually. Form 130 retains the 3-part structure of old Form 16. Do not confuse it with Form 138, which is the quarterly salary TDS return.",
+          "explanationWrong": "Form 130 is the salary TDS certificate. Key distinction: Form 130 = certificate given to employee (old Form 16), Form 138 = return filed with department (old Form 24Q). Certificate and return are different — one goes to the employee, the other to the government.",
+          "tier": 1,
+          "subConcepts": ["tds-cert-form16-to-130", "salary-tds-certificate"],
+          "isReview": false,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        },
+        {
+          "order": 2,
+          "question": "Forms 15G and 15H (self-declaration for non-deduction of TDS) have been replaced by which single form under the 2026 Rules?",
+          "options": [
+            { "text": "Form 119", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": false }
+          ],
+          "explanation": "Forms 15G and 15H are merged into Form 121. This is a genuine consolidation — not just renumbering. Previously, 15G was for persons below 60 and 15H for senior citizens (60+). Form 121 covers all ages in a single form, with age/eligibility captured as fields within the form.",
+          "explanationWrong": "Form 121 is the merged form. This is one of the three genuinely new features of the 2026 Rules forms framework. Unlike most form changes (which are mere renumbering), the 15G+15H merger into Form 121 is a structural change — one form for all ages, all income types eligible for non-deduction.",
+          "tier": 1,
+          "subConcepts": ["15G-15H-merger-to-121", "self-declaration-form"],
+          "isReview": false,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.3: Old Rule 5 (depreciation rates and computation) maps to which rule number under the 2026 Rules?",
+          "options": [
+            { "text": "Rule 5 (unchanged)", "correct": false },
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 25", "correct": true },
+            { "text": "Rule 279", "correct": false }
+          ],
+          "explanation": "Rule 5 becomes Rule 25 under the 2026 Rules. The depreciation rate table (Appendix I) and SLM rates (Appendix II) are now appendices to Rule 25 instead of Rule 5. All rates are carried forward without change.",
+          "explanationWrong": "Rule 25 is correct. The key salary and depreciation rule mappings: Rule 3→15 (perquisites), Rule 5→25 (depreciation), Rule 2A→279 (residential status). Do not confuse Rule 15 (perquisites) with Rule 25 (depreciation).",
+          "tier": 1,
+          "subConcepts": ["rule-5-to-25-review", "depreciation-rule-mapping"],
+          "isReview": true,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 4,
+          "question": "What was the key difference between old Form 15G and old Form 15H that is now eliminated by Form 121?",
+          "options": [
+            { "text": "15G was for interest income and 15H was for dividend income", "correct": false },
+            { "text": "15G was for individuals below 60 and 15H was for senior citizens (60+)", "correct": true },
+            { "text": "15G was for residents and 15H was for non-residents", "correct": false },
+            { "text": "15G was for banks and 15H was for post offices", "correct": false }
+          ],
+          "explanation": "Form 15G was for individuals below 60 whose estimated total income was below the taxable limit. Form 15H was exclusively for senior citizens (60+). Form 121 eliminates this age-based bifurcation — one form, all ages, with the eligibility criteria captured as fields within the form.",
+          "explanationWrong": "Age-based distinction: 15G for under-60, 15H for seniors 60+. Both forms served the same purpose — declaring that estimated income is below taxable limits to prevent TDS deduction. The 2026 Rules recognized the redundancy and merged them into Form 121.",
+          "tier": 1,
+          "subConcepts": ["15G-vs-15H-difference", "age-based-form-elimination"],
+          "isReview": false,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 5,
+          "question": "The non-salary TDS certificate (previously Form 16A) is now issued using which form number?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 131", "correct": true },
+            { "text": "Form 132", "correct": false },
+            { "text": "Form 140", "correct": false }
+          ],
+          "explanation": "Form 16A becomes Form 131. This certificate is issued for TDS on non-salary payments — professional fees, rent, interest, commissions, etc. The three TDS certificates sit together: 130 (salary, old 16), 131 (non-salary, old 16A), 132 (property, old 16B).",
+          "explanationWrong": "Form 131 for non-salary TDS certificates. The TDS certificate trio: 130 (salary/16), 131 (non-salary/16A), 132 (property/16B). These are sequential and easy to remember. Form 140 is the non-salary TDS return (old 26Q) — do not confuse returns with certificates.",
+          "tier": 1,
+          "subConcepts": ["tds-cert-form16A-to-131", "non-salary-tds-certificate"],
+          "isReview": false,
+          "oldSection": "Form 16A",
+          "newSection": "Form 131"
+        }
+      ]
+    },
+    {
+      "title": "Tax Audit, 26AS & Other Key Forms",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Forms 3CA, 3CB, and 3CD (tax audit forms) have been consolidated into which single form under the 2026 Rules?",
+          "options": [
+            { "text": "Form 16", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 168", "correct": false }
+          ],
+          "explanation": "Three tax audit forms consolidate into Form 26. Under the 1962 Rules, 3CA was for accounts already audited under another law, 3CB for accounts not otherwise audited, and 3CD was the detailed statement of particulars. Form 26 combines all three into a 4-part structure, eliminating the preliminary form-selection decision.",
+          "explanationWrong": "Form 26 is the consolidated tax audit form. This is the second genuinely new feature of the 2026 Rules forms framework. The old distinction between 3CA (already audited) and 3CB (not already audited) is now handled within Form 26's internal structure. One form number for all tax audits.",
+          "tier": 1,
+          "subConcepts": ["tax-audit-3CA-3CB-3CD-to-26", "form-26-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 2,
+          "question": "Form 26AS (Annual Information Statement / Tax Credit Statement) has been renumbered to which form?",
+          "options": [
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 145", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 190", "correct": false }
+          ],
+          "explanation": "Form 26AS becomes Form 168. This is the tax credit statement that shows all TDS/TCS credits, advance tax, self-assessment tax, and specified financial transactions. The concept and content remain the same — only the form number changes.",
+          "explanationWrong": "Form 168 is the new 26AS. Do not confuse with Form 26, which is the consolidated tax audit form (old 3CA/3CB/3CD). Form 26AS → Form 168 is a renumbering. Form 26 is a completely different form for tax audit.",
+          "tier": 1,
+          "subConcepts": ["26AS-to-168", "annual-information-statement"],
+          "isReview": false,
+          "oldSection": "Form 26AS",
+          "newSection": "Form 168"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.3: What is the WDV depreciation rate for computers under Rule 25 of the 2026 Rules?",
+          "options": [
+            { "text": "15%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "40%", "correct": true },
+            { "text": "60%", "correct": false }
+          ],
+          "explanation": "Computers retain the 40% WDV depreciation rate under Rule 25. All depreciation rates are carried forward unchanged from the 1962 Rules: 5% residential buildings, 10% non-residential, 15% general plant and machinery, 40% computers.",
+          "explanationWrong": "40% for computers — unchanged. The 2026 Rules carry forward every single depreciation rate. Key rates to remember: buildings 5%/10%, general P&M 15%, computers 40%. The only depreciation-related change is the 40% cap for concessional regime taxpayers.",
+          "tier": 1,
+          "subConcepts": ["computer-depreciation-rate-review", "rule-25-rates"],
+          "isReview": true,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 4,
+          "question": "Form 13 (application for lower/nil withholding TDS certificate) has been renumbered to which form?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 128", "correct": true },
+            { "text": "Form 135", "correct": false },
+            { "text": "Form 145", "correct": false }
+          ],
+          "explanation": "Form 13 becomes Form 128. This form is used to apply for a certificate allowing lower or nil TDS deduction — a frequently used provision for taxpayers whose actual tax liability is lower than TDS being deducted. The mechanism is retained; only the form number changes.",
+          "explanationWrong": "Form 128 is the lower/nil TDS certificate application. Do not confuse with Form 135 (TAN application, old 49B) or Form 121 (self-declaration for non-deduction, old 15G/15H). Form 128 requires AO approval; Form 121 is a self-declaration.",
+          "tier": 1,
+          "subConcepts": ["form13-to-128", "lower-tds-certificate"],
+          "isReview": false,
+          "oldSection": "Form 13",
+          "newSection": "Form 128"
+        },
+        {
+          "order": 5,
+          "question": "Forms 15CA and 15CB (foreign remittance forms) have been renumbered to which forms under the 2026 Rules?",
+          "options": [
+            { "text": "Forms 143 and 144", "correct": false },
+            { "text": "Forms 145 and 146", "correct": true },
+            { "text": "Forms 128 and 130", "correct": false },
+            { "text": "Forms 168 and 169", "correct": false }
+          ],
+          "explanation": "Form 15CA becomes Form 145 (payer's information for foreign remittance) and Form 15CB becomes Form 146 (CA's certificate for foreign remittance). These two forms work together — the payer submits Form 145 and the CA certifies via Form 146. Both are renumbered, not structurally changed.",
+          "explanationWrong": "Forms 145 and 146. The 15CA/15CB pair becomes the 145/146 pair. These remain a paired process: payer files 145 (information form), CA issues 146 (certificate). The foreign remittance compliance mechanism is unchanged — only form numbers are different.",
+          "tier": 1,
+          "subConcepts": ["15CA-to-145", "15CB-to-146", "foreign-remittance-forms"],
+          "isReview": false,
+          "oldSection": "Forms 15CA, 15CB",
+          "newSection": "Forms 145, 146"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Form Consolidation Logic",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the 2026 Rules split old Form 49A into two forms (93 and 94) instead of keeping a single form?",
+          "options": [
+            { "text": "To separate Indian individuals (Form 93) from Indian companies/entities (Form 94) for distinct verification workflows", "correct": true },
+            { "text": "To distinguish between first-time PAN applicants and re-applicants", "correct": false },
+            { "text": "To separate online applications from offline applications", "correct": false },
+            { "text": "To distinguish between minor and major applicants", "correct": false }
+          ],
+          "explanation": "The split recognizes that individual PAN verification requires different data fields (father's name, date of birth, photograph) than entity PAN verification (registration number, incorporation date, authorized signatory). Separating the forms streamlines each workflow rather than having a single form with conditional fields.",
+          "explanationWrong": "Individual vs entity distinction. The old Form 49A tried to serve both purposes with conditional fields. The 2026 Rules take the opposite approach to the general consolidation trend — where splitting improves usability, it splits. Same logic applies to 49AA splitting into 95 (foreign individual) and 96 (foreign entity).",
+          "tier": 2,
+          "subConcepts": ["pan-form-split-rationale", "individual-vs-entity-pan"],
+          "isReview": false,
+          "oldSection": "Form 49A",
+          "newSection": "Forms 93, 94"
+        },
+        {
+          "order": 2,
+          "question": "How does the consolidated Form 26 (tax audit) handle the old distinction between Form 3CA (already audited) and Form 3CB (not already audited)?",
+          "options": [
+            { "text": "The distinction is eliminated — all audits follow one procedure now", "correct": false },
+            { "text": "The distinction is captured within Form 26's internal structure rather than requiring separate forms", "correct": true },
+            { "text": "Only Form 3CA's format is retained; 3CB is dropped", "correct": false },
+            { "text": "A separate annexure is required for previously-audited accounts", "correct": false }
+          ],
+          "explanation": "Form 26 incorporates the distinction as fields within the form structure. The practitioner still indicates whether accounts were previously audited under another law (Companies Act, etc.) — but instead of choosing between two different forms, they fill the relevant part of one consolidated form. The 3CD particulars are also incorporated into Form 26.",
+          "explanationWrong": "Internal structure, not separate forms. The distinction still EXISTS — it just lives inside Form 26 rather than requiring a preliminary form-selection decision. This eliminates the common practitioner confusion of 'Do I use 3CA or 3CB?' while preserving the information that the distinction captured.",
+          "tier": 2,
+          "subConcepts": ["form-26-internal-structure", "3CA-vs-3CB-handling"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.3: Why does the 40% depreciation cap under Rule 25 only apply to concessional tax regime taxpayers?",
+          "options": [
+            { "text": "Because concessional regime already provides lower tax rates, so high depreciation would create a double benefit", "correct": true },
+            { "text": "Because concessional regime taxpayers cannot claim any depreciation at all", "correct": false },
+            { "text": "Because the cap only affects foreign companies", "correct": false },
+            { "text": "Because the 40% cap matches the corporate tax rate under the concessional regime", "correct": false }
+          ],
+          "explanation": "The concessional tax regime (lower rates under Sections 199(3), 200(5), 202(2)) already provides a tax benefit through reduced rates. Allowing unlimited depreciation on top would create a double benefit — low rates plus high deductions. The 40% cap prevents this by ensuring depreciation claims stay within a reasonable range.",
+          "explanationWrong": "Preventing double benefit. The concessional regime gives lower tax rates in exchange for forgoing certain deductions and exemptions. The 40% depreciation cap is part of this trade-off — you get lower rates, but you cannot also claim depreciation above 40% to further reduce your tax base.",
+          "tier": 2,
+          "subConcepts": ["depreciation-cap-rationale-review", "double-benefit-prevention"],
+          "isReview": true,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 4,
+          "question": "What are the three mechanisms through which the 2026 Rules achieved the reduction from 399 to 190 forms?",
+          "options": [
+            { "text": "Merging overlapping forms, dropping defunct forms, eliminating paper-specific forms", "correct": true },
+            { "text": "Digitizing all forms, removing TDS forms, consolidating ITR forms into one", "correct": false },
+            { "text": "Outsourcing forms to NSDL, removing audit forms, merging PAN and TAN", "correct": false },
+            { "text": "Making all forms optional, removing penalty forms, merging return forms", "correct": false }
+          ],
+          "explanation": "Three mechanisms drove the 52% reduction: (1) merging overlapping forms (e.g., 15G+15H→121, 3CA+3CB+3CD→26), (2) dropping forms linked to defunct or sunset provisions, and (3) eliminating paper-specific forms where digital filing is now mandatory. Each mechanism targets a different source of bloat.",
+          "explanationWrong": "Merge, drop, and eliminate. These three approaches work on different parts of the problem: mergers handle redundancy (same purpose, different forms), drops handle obsolescence (provisions no longer in force), and elimination handles format duplication (paper versions of digital-only forms).",
+          "tier": 2,
+          "subConcepts": ["three-reduction-mechanisms", "form-rationalization"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962 (Forms)",
+          "newSection": "Income Tax Rules 2026 (Forms)"
+        },
+        {
+          "order": 5,
+          "question": "Why is the Form 26AS renumbering to Form 168 considered a mere renumbering rather than a genuine change?",
+          "options": [
+            { "text": "Because the concept, content, and data shown in the form remain identical — only the number changed", "correct": true },
+            { "text": "Because Form 168 is now optional while 26AS was mandatory", "correct": false },
+            { "text": "Because Form 168 only shows TDS data, unlike 26AS which showed TCS too", "correct": false },
+            { "text": "Because CBDT specifically labeled it as unchanged", "correct": false }
+          ],
+          "explanation": "Form 168 retains everything that Form 26AS contained — TDS credits, TCS credits, advance tax, self-assessment tax, specified financial transactions, and other reported information. The Annual Information Statement concept is fully preserved. This contrasts with genuine changes like Form 121 (merger) or Form 26 (consolidation).",
+          "explanationWrong": "Same concept, same content, new number. A renumbering changes only the form identifier. A genuine change alters the form's structure, scope, or purpose. Form 168 (26AS) is renumbered; Form 121 (15G+15H) is genuinely changed; Form 26 (3CA+3CB+3CD) is genuinely changed.",
+          "tier": 2,
+          "subConcepts": ["renumbering-vs-genuine-change", "26AS-to-168-nature"],
+          "isReview": false,
+          "oldSection": "Form 26AS",
+          "newSection": "Form 168"
+        }
+      ]
+    },
+    {
+      "title": "ITR Form Changes & Digital Filing",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the key change to ITR-1 (Sahaj) eligibility under the 2026 Rules?",
+          "options": [
+            { "text": "ITR-1 now requires mandatory Aadhaar linking", "correct": false },
+            { "text": "ITR-1 now allows taxpayers with up to 2 house properties (was 1)", "correct": true },
+            { "text": "ITR-1 is now restricted to income below Rs 50 lakhs (was no limit)", "correct": false },
+            { "text": "ITR-1 now includes capital gains income", "correct": false }
+          ],
+          "explanation": "ITR-1 previously allowed only 1 house property. The 2026 Rules expand eligibility to taxpayers with up to 2 house properties. This aligns with the Act's recognition of two self-occupied properties and reduces the number of taxpayers forced to use the more complex ITR-2.",
+          "explanationWrong": "ITR-1 now allows 2 house properties, up from 1. This is a genuine expansion of the simplified form's scope. Many salaried taxpayers who owned two properties were previously forced into ITR-2. Now they can use the simpler ITR-1.",
+          "tier": 2,
+          "subConcepts": ["itr1-two-house-properties", "itr1-eligibility-expansion"],
+          "isReview": false,
+          "oldSection": "ITR-1 (1962 Rules)",
+          "newSection": "ITR-1 (2026 Rules)"
+        },
+        {
+          "order": 2,
+          "question": "Under the 2026 Rules, who is the ONLY category of taxpayers permitted to file income tax returns on paper?",
+          "options": [
+            { "text": "Senior citizens aged 60 and above", "correct": false },
+            { "text": "Taxpayers with income below Rs 5 lakhs", "correct": false },
+            { "text": "Super senior citizens (80+) not subject to audit", "correct": true },
+            { "text": "Government employees", "correct": false }
+          ],
+          "explanation": "Paper filing is permitted only for super senior citizens (age 80 and above) who are not required to get their accounts audited. All other taxpayers, deductors, and collectors must file electronically. This makes digital filing the comprehensive default.",
+          "explanationWrong": "Super seniors (80+) not subject to audit — the only paper exception. Two conditions must BOTH be met: (1) age 80+ AND (2) not subject to audit. A super senior who runs a business requiring audit must still file digitally. The exception is very narrow by design.",
+          "tier": 2,
+          "subConcepts": ["digital-filing-mandate", "super-senior-paper-exception"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: How many rules were in the Income Tax Rules 1962, and how many are in the 2026 Rules?",
+          "options": [
+            { "text": "819 reduced to 536", "correct": false },
+            { "text": "399 reduced to 190", "correct": false },
+            { "text": "511 reduced to 333", "correct": true },
+            { "text": "600 reduced to 400", "correct": false }
+          ],
+          "explanation": "511 rules reduced to 333 rules — a 35% reduction. Do not confuse with the three different consolidation numbers: Sections 819→536, Rules 511→333, Forms 399→190. Each represents a different level of the tax law framework.",
+          "explanationWrong": "511 to 333 rules. Three consolidation numbers to remember: Sections 819→536 (Act), Rules 511→333 (Rules), Forms 399→190 (Forms). The forms reduction (52%) is the most aggressive, followed by rules (35%), then sections (35%).",
+          "tier": 2,
+          "subConcepts": ["rules-consolidation-review", "511-to-333"],
+          "isReview": true,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "The updated return form ITR-U has been renamed to what under the 2026 framework?",
+          "options": [
+            { "text": "ITR-R (Revised)", "correct": false },
+            { "text": "ITR-UN (Updated — New)", "correct": true },
+            { "text": "ITR-UA (Updated — Amended)", "correct": false },
+            { "text": "ITR-UB (Updated — Belated)", "correct": false }
+          ],
+          "explanation": "ITR-U is renamed to ITR-UN (Updated — New). The substantive provisions governing updated returns remain unchanged — this is purely a naming change to distinguish the new Act's form from the old. The time limits and additional tax requirements for updated returns are as per the Act.",
+          "explanationWrong": "ITR-UN stands for Updated — New. This is a name change only. The updated return mechanism (filing after due date with additional tax) continues as before. The 'N' suffix simply marks it as belonging to the new Act/Rules framework.",
+          "tier": 2,
+          "subConcepts": ["itr-u-to-itr-un", "updated-return-form"],
+          "isReview": false,
+          "oldSection": "ITR-U",
+          "newSection": "ITR-UN"
+        },
+        {
+          "order": 5,
+          "question": "How have the ITR-4 (Sugam) eligibility criteria changed under the 2026 Rules?",
+          "options": [
+            { "text": "ITR-4 eligibility has been expanded to include capital gains", "correct": false },
+            { "text": "ITR-4 eligibility has been tightened — no foreign assets, no directorships", "correct": true },
+            { "text": "ITR-4 has been merged with ITR-3", "correct": false },
+            { "text": "ITR-4 is now available to all presumptive taxation taxpayers without restriction", "correct": false }
+          ],
+          "explanation": "ITR-4 eligibility is tightened: taxpayers with foreign assets or who hold directorships are now excluded and must use ITR-3 or ITR-5. This narrows the simplified form's scope, ensuring that taxpayers with complex compliance requirements use more detailed return forms.",
+          "explanationWrong": "Tightened — no foreign assets, no directorships. While ITR-1 was expanded (2 house properties), ITR-4 moved in the opposite direction. Presumptive taxation users with foreign assets or directorship positions can no longer use the simplified Sugam form.",
+          "tier": 2,
+          "subConcepts": ["itr4-eligibility-tightened", "foreign-assets-directorship-exclusion"],
+          "isReview": false,
+          "oldSection": "ITR-4 (1962 Rules)",
+          "newSection": "ITR-4 (2026 Rules)"
+        }
+      ]
+    },
+    {
+      "title": "Comparing Old and New Form Architecture",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the relationship between Form 128 (old Form 13) and Form 121 (old 15G/15H) in terms of how they achieve non-deduction of TDS?",
+          "options": [
+            { "text": "Both require AO approval", "correct": false },
+            { "text": "Form 128 requires AO approval; Form 121 is a self-declaration by the payee", "correct": true },
+            { "text": "Form 121 requires AO approval; Form 128 is a self-declaration", "correct": false },
+            { "text": "Both are self-declarations without any approval", "correct": false }
+          ],
+          "explanation": "Form 128 (lower/nil TDS certificate) requires the Assessing Officer to evaluate and approve the application. Form 121 (self-declaration) is filed directly by the payee without AO approval — the payee declares their income is below taxable limits. Different mechanisms for different eligibility situations.",
+          "explanationWrong": "Form 128 = AO approval route, Form 121 = self-declaration route. Both achieve reduced or nil TDS, but through different paths. Form 128 is for any taxpayer whose actual liability is lower than TDS. Form 121 is specifically for those whose total income is below taxable limits.",
+          "tier": 2,
+          "subConcepts": ["form-128-vs-121", "ao-approval-vs-self-declaration"],
+          "isReview": false,
+          "oldSection": "Forms 13, 15G, 15H",
+          "newSection": "Forms 128, 121"
+        },
+        {
+          "order": 2,
+          "question": "Under the 2026 Rules, Forms 26QB, 26QC, 26QD, and 26QE (challan-cum-TDS statements) are consolidated into which single form?",
+          "options": [
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 141", "correct": true },
+            { "text": "Form 143", "correct": false }
+          ],
+          "explanation": "The four challan-cum-TDS statement forms (26QB for property, 26QC for rent, 26QD for resident payments, 26QE for virtual digital assets) are consolidated into a single Form 141. This sits between the quarterly return forms (138, 140) and TCS return (143) in the numbering.",
+          "explanationWrong": "Form 141 consolidates all four challan-cum-TDS forms. The 26Q-series property/rent/VDA challans become one form. Do not confuse with Form 140 (quarterly non-salary TDS return, old 26Q) — the naming overlap between old 26Q (return) and old 26QB/QC/QD/QE (challans) is resolved by the new numbering.",
+          "tier": 2,
+          "subConcepts": ["challan-tds-26QB-QC-QD-QE-to-141", "form-141-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 26QB, 26QC, 26QD, 26QE",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: By what percentage were the total number of forms reduced from the 1962 Rules to the 2026 Rules?",
+          "options": [
+            { "text": "35%", "correct": false },
+            { "text": "42%", "correct": false },
+            { "text": "52%", "correct": true },
+            { "text": "65%", "correct": false }
+          ],
+          "explanation": "399 forms reduced to 190 — a 52% reduction. This is the most aggressive consolidation: forms reduction (52%) exceeds both rules reduction (35%) and sections reduction (35%). More than half the forms have been eliminated.",
+          "explanationWrong": "52% reduction in forms (399 to 190). The forms reduction is the most dramatic of the three: Sections 35%, Rules 35%, Forms 52%. Forms were the easiest to rationalize because many were redundant (like 15G/15H) or linked to obsolete provisions.",
+          "tier": 2,
+          "subConcepts": ["52-percent-form-reduction-review", "forms-399-to-190"],
+          "isReview": true,
+          "oldSection": "Income Tax Rules 1962 (Forms)",
+          "newSection": "Income Tax Rules 2026 (Forms)"
+        },
+        {
+          "order": 4,
+          "question": "What role does Form 12BB (now Form 124) play in the salary TDS ecosystem, and how does it relate to Form 130 (old Form 16)?",
+          "options": [
+            { "text": "Form 124 is the employee's investment declaration; Form 130 is the employer's TDS certificate based on those declarations", "correct": true },
+            { "text": "Form 124 replaces Form 130 entirely", "correct": false },
+            { "text": "Form 124 is filed with the tax department; Form 130 is filed with the employer", "correct": false },
+            { "text": "Both forms serve the same purpose of investment proof", "correct": false }
+          ],
+          "explanation": "Form 12BB (now Form 124) is the employee's declaration of intended investments and expenditures for TDS computation. The employer uses these declarations to compute TDS, and then issues Form 130 (old Form 16) as the TDS certificate. Form 124 is input; Form 130 is output.",
+          "explanationWrong": "Form 124 is the INPUT (employee declares investments), Form 130 is the OUTPUT (employer certifies TDS deducted). The flow: Employee files Form 124 → Employer computes TDS based on declarations → Employer issues Form 130 at year-end as the TDS certificate.",
+          "tier": 2,
+          "subConcepts": ["form-12BB-to-124", "investment-declaration-form", "salary-tds-workflow"],
+          "isReview": false,
+          "oldSection": "Form 12BB",
+          "newSection": "Form 124"
+        },
+        {
+          "order": 5,
+          "question": "How does the 2026 Rules' approach to form consolidation differ between TDS certificates and TDS returns?",
+          "options": [
+            { "text": "Certificates were consolidated but returns were not", "correct": false },
+            { "text": "Both certificates and returns were renumbered but kept as separate forms for salary, non-salary, and non-resident categories", "correct": true },
+            { "text": "Returns were consolidated into one form but certificates were split further", "correct": false },
+            { "text": "Both were merged into single unified forms", "correct": false }
+          ],
+          "explanation": "The 2026 Rules retained separate forms for each category in both certificates and returns. Certificates: 130 (salary), 131 (non-salary), 132 (property). Returns: 138 (salary), 140 (non-salary), 143 (TCS), 144 (non-resident). The category-specific separation reflects genuinely different data requirements.",
+          "explanationWrong": "Kept separate but renumbered. Unlike 15G/15H (merged) or 3CA/3CB/3CD (consolidated), the TDS certificates and returns are kept separate because salary TDS, non-salary TDS, and non-resident TDS involve fundamentally different data structures and compliance requirements.",
+          "tier": 2,
+          "subConcepts": ["certificates-vs-returns-architecture", "category-specific-forms"],
+          "isReview": false,
+          "oldSection": "Forms 16/16A/16B, 24Q/26Q/27Q/27EQ",
+          "newSection": "Forms 130/131/132, 138/140/143/144"
+        }
+      ]
+    },
+    {
+      "title": "Applying Form Knowledge — Salary & TDS Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employer deducts TDS on salaries for Q1 FY 2026-27. Which form does the employer file with the department, and which form does the employer issue to each employee?",
+          "options": [
+            { "text": "File Form 130 with department, issue Form 138 to employee", "correct": false },
+            { "text": "File Form 138 with department, issue Form 130 to employee", "correct": true },
+            { "text": "File Form 140 with department, issue Form 131 to employee", "correct": false },
+            { "text": "File Form 24Q with department, issue Form 16 to employee", "correct": false }
+          ],
+          "explanation": "Form 138 (old 24Q) is the quarterly salary TDS return filed with the department. Form 130 (old Form 16) is the annual TDS certificate issued to each employee. Returns go to the government; certificates go to the payee. From April 2026, old form numbers no longer apply.",
+          "explanationWrong": "File Form 138, issue Form 130. The flow: Employer deducts TDS → Files Form 138 quarterly with department → Issues Form 130 annually to employee. Do not reverse these — 138 is the RETURN (government-facing), 130 is the CERTIFICATE (employee-facing).",
+          "tier": 3,
+          "subConcepts": ["salary-tds-workflow-application", "form-138-vs-130"],
+          "isReview": false,
+          "oldSection": "Forms 24Q, 16",
+          "newSection": "Forms 138, 130"
+        },
+        {
+          "order": 2,
+          "question": "A salaried employee wants to declare their PPF, LIC, and HRA details to the employer for TDS computation. Under the 2026 Rules, which form should the employee submit?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 124", "correct": true },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": false }
+          ],
+          "explanation": "Form 124 (old Form 12BB) is the investment declaration form submitted by employees to employers. The employee lists PPF, LIC premiums, HRA rent details, and other deductions. The employer uses this to estimate tax liability and compute monthly TDS. Form 121 is for non-deduction of TDS on interest/dividends — a completely different purpose.",
+          "explanationWrong": "Form 124 (old 12BB) for investment declarations. Do not confuse with Form 121 (self-declaration for non-deduction of TDS on interest/dividends). Form 124 goes to the employer; Form 121 goes to the payer of interest/dividends (bank, company, etc.).",
+          "tier": 3,
+          "subConcepts": ["form-124-application", "employee-investment-declaration"],
+          "isReview": false,
+          "oldSection": "Form 12BB",
+          "newSection": "Form 124"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: The reduction from 399 to 190 forms was achieved through merging, dropping, and eliminating forms. Which of these is an example of MERGING (as opposed to dropping or eliminating)?",
+          "options": [
+            { "text": "Removing forms linked to sunset provisions", "correct": false },
+            { "text": "Eliminating paper versions of digitally-filed forms", "correct": false },
+            { "text": "Combining Forms 15G and 15H into Form 121", "correct": true },
+            { "text": "Deleting forms for abolished tax credits", "correct": false }
+          ],
+          "explanation": "Merging means combining two or more forms that served similar purposes into one consolidated form. 15G+15H→121 is a merger. Dropping means removing forms for defunct provisions. Eliminating means removing paper-specific forms where digital filing is now mandatory.",
+          "explanationWrong": "15G+15H→121 is the textbook example of merging. The three mechanisms are distinct: MERGE (same purpose, different forms → one form), DROP (provision extinct → form gone), ELIMINATE (paper redundant → paper form gone). Form 121 is a merger; the other options describe drops or eliminations.",
+          "tier": 3,
+          "subConcepts": ["form-reduction-mechanisms-review", "merging-vs-dropping"],
+          "isReview": true,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 4,
+          "question": "A company pays professional fees to a CA and deducts TDS. At year-end, the company wants to issue a TDS certificate. Which form does the company use: Form 130, 131, or 132?",
+          "options": [
+            { "text": "Form 130 — because it is the standard TDS certificate", "correct": false },
+            { "text": "Form 131 — because professional fees are a non-salary payment", "correct": true },
+            { "text": "Form 132 — because it involves a property transaction", "correct": false },
+            { "text": "Form 138 — because it is the quarterly TDS return", "correct": false }
+          ],
+          "explanation": "Form 131 (old Form 16A) is the TDS certificate for non-salary payments. Professional fees, rent, interest, commission — all non-salary TDS certificates use Form 131. Form 130 (old Form 16) is exclusively for salary. Form 132 (old Form 16B) is for property transactions.",
+          "explanationWrong": "Form 131 for non-salary TDS certificates. The TDS certificate decision tree: Is it salary? → Form 130. Is it property? → Form 132. Everything else? → Form 131. Professional fees, interest, rent, commission, contractor payments — all get Form 131.",
+          "tier": 3,
+          "subConcepts": ["form-131-application", "non-salary-tds-cert-scenario"],
+          "isReview": false,
+          "oldSection": "Form 16A",
+          "newSection": "Form 131"
+        },
+        {
+          "order": 5,
+          "question": "A senior citizen (age 68) receives fixed deposit interest of Rs 2,50,000. Their total estimated income is below the taxable limit. What form should they submit to the bank to avoid TDS?",
+          "options": [
+            { "text": "Form 15H (the old form for seniors still applies)", "correct": false },
+            { "text": "Form 121 (the merged form for all ages)", "correct": true },
+            { "text": "Form 128 (application for lower TDS certificate)", "correct": false },
+            { "text": "Form 130 (TDS certificate)", "correct": false }
+          ],
+          "explanation": "Form 121 is the correct form — it has replaced both Form 15G and Form 15H. Regardless of age (below 60, senior 60+, or super senior 80+), the merged Form 121 is now the single self-declaration for non-deduction of TDS. The senior citizen no longer needs to know about the old 15G/15H distinction.",
+          "explanationWrong": "Form 121 for ALL ages. The old 15G/15H distinction is gone. Whether the person is 25 or 85, they file Form 121 for self-declaration of non-deduction. Form 128 is different — it requires AO approval and is for cases where income exceeds taxable limits but actual tax is lower than TDS.",
+          "tier": 3,
+          "subConcepts": ["form-121-application", "senior-citizen-tds-scenario"],
+          "isReview": false,
+          "oldSection": "Form 15H",
+          "newSection": "Form 121"
+        }
+      ]
+    },
+    {
+      "title": "Applying Form Knowledge — Audit & Compliance Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA is conducting a tax audit for a private company that has already been audited under the Companies Act. Under the 2026 Rules, which form does the CA use for the tax audit report?",
+          "options": [
+            { "text": "Form 3CA (since the company is already audited under another law)", "correct": false },
+            { "text": "Form 3CB (standard tax audit report)", "correct": false },
+            { "text": "Form 26 (consolidated tax audit form)", "correct": true },
+            { "text": "Form 168 (annual information statement)", "correct": false }
+          ],
+          "explanation": "Form 26 is the only tax audit form under the 2026 Rules. Whether the accounts were previously audited under another law (old 3CA scenario) or not (old 3CB scenario), the CA uses Form 26. The previously-audited vs not-audited distinction is handled within Form 26's internal structure.",
+          "explanationWrong": "Form 26 for ALL tax audits. The old 3CA/3CB/3CD trio no longer exists as separate forms. The CA does not need to decide between forms — they fill out Form 26 and indicate the relevant audit status within it. This eliminates the most common form-selection confusion in tax audit practice.",
+          "tier": 3,
+          "subConcepts": ["form-26-application", "tax-audit-scenario"],
+          "isReview": false,
+          "oldSection": "Form 3CA",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 2,
+          "question": "A client wants to remit Rs 15 lakhs to a foreign university for their child's education fees. Which two forms are involved in the foreign remittance compliance under the 2026 Rules?",
+          "options": [
+            { "text": "Forms 121 and 128", "correct": false },
+            { "text": "Forms 130 and 131", "correct": false },
+            { "text": "Forms 145 and 146", "correct": true },
+            { "text": "Forms 168 and 141", "correct": false }
+          ],
+          "explanation": "Forms 145 (old 15CA — payer's information) and 146 (old 15CB — CA's certificate) are required for foreign remittances. The payer fills Form 145 with remittance details, and the CA issues Form 146 certifying the nature of remittance and applicable tax rate. The paired process is unchanged from the old rules.",
+          "explanationWrong": "Forms 145 and 146 for foreign remittances. The 15CA/15CB pair becomes 145/146. For education remittances, the bank requires both forms before processing the transfer. Form 145 is filed by the payer (parent); Form 146 is the CA's certificate confirming TDS compliance.",
+          "tier": 3,
+          "subConcepts": ["form-145-146-application", "foreign-remittance-scenario"],
+          "isReview": false,
+          "oldSection": "Forms 15CA, 15CB",
+          "newSection": "Forms 145, 146"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Under the 2026 Rules, what distinguishes a genuine form change (like Form 121) from a mere renumbering (like Form 168)?",
+          "options": [
+            { "text": "Genuine changes have lower form numbers", "correct": false },
+            { "text": "Genuine changes alter the form's structure, scope, or purpose — not just the number", "correct": true },
+            { "text": "Genuine changes require CBDT notification; renumbering does not", "correct": false },
+            { "text": "Genuine changes only apply to TDS forms", "correct": false }
+          ],
+          "explanation": "A genuine change alters what the form does or how it works — Form 121 merged two separate forms into one, Form 26 consolidated three forms. A renumbering like 26AS→168 only changes the identifier while keeping the content and structure identical. Both require notification, but the practical impact is very different.",
+          "explanationWrong": "Structure, scope, or purpose change = genuine. Number-only change = renumbering. The 2026 Rules have very few genuine changes — Form 121 (merger), Form 26 (consolidation), and the digital filing mandate. Most of the 399→190 reduction is through renumbering and dropping obsolete forms.",
+          "tier": 3,
+          "subConcepts": ["genuine-vs-renumbering-review", "form-change-classification"],
+          "isReview": true,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "An employer needs to report perquisites provided to an employee. Under the 2026 Rules, which form is used for the perquisite statement — Form 12BA or Form 123?",
+          "options": [
+            { "text": "Form 12BA — old form numbers still apply for employer forms", "correct": false },
+            { "text": "Form 123 — the renumbered perquisite statement form", "correct": true },
+            { "text": "Form 124 — the investment declaration form covers perquisites too", "correct": false },
+            { "text": "Form 130 — perquisites are part of the salary TDS certificate", "correct": false }
+          ],
+          "explanation": "Form 12BA becomes Form 123 under the 2026 Rules. This is the statement of perquisites provided to an employee — a companion to the salary TDS certificate (Form 130). Form 124 (old 12BB) is the employee's investment declaration — a different form flowing in the opposite direction.",
+          "explanationWrong": "Form 123 (old 12BA) for perquisite statements. The employer salary forms: Form 123 = perquisite statement (12BA), Form 124 = receives employee's investment declaration (12BB), Form 130 = issues salary TDS certificate (16). Three different forms, three different purposes in the salary TDS workflow.",
+          "tier": 3,
+          "subConcepts": ["form-12BA-to-123", "perquisite-statement-application"],
+          "isReview": false,
+          "oldSection": "Form 12BA",
+          "newSection": "Form 123"
+        },
+        {
+          "order": 5,
+          "question": "A taxpayer wants to verify the TDS credits claimed by their deductor before filing their return. Under the 2026 Rules, which form do they check?",
+          "options": [
+            { "text": "Form 26 (tax audit report)", "correct": false },
+            { "text": "Form 141 (challan-cum-TDS statement)", "correct": false },
+            { "text": "Form 168 (Annual Information Statement)", "correct": true },
+            { "text": "Form 128 (lower TDS certificate)", "correct": false }
+          ],
+          "explanation": "Form 168 (old Form 26AS) is the Annual Information Statement showing all TDS/TCS credits, advance tax, self-assessment tax, and specified financial transactions. This is the taxpayer's go-to form for verifying credits before filing. The concept is identical to old 26AS — only the form number has changed.",
+          "explanationWrong": "Form 168 for verifying TDS credits. This is the single source of truth for all tax credits and reported transactions. Do not confuse Form 168 (26AS, information statement) with Form 26 (tax audit report, old 3CA/3CB/3CD). The name overlap between old '26AS' and new 'Form 26' can cause confusion.",
+          "tier": 3,
+          "subConcepts": ["form-168-application", "tds-credit-verification"],
+          "isReview": false,
+          "oldSection": "Form 26AS",
+          "newSection": "Form 168"
+        }
+      ]
+    },
+    {
+      "title": "Complex Form Application Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A salaried individual with two house properties and no other complex income wants to file their return. Under the 2026 Rules, can they use ITR-1?",
+          "options": [
+            { "text": "No — ITR-1 only allows one house property", "correct": false },
+            { "text": "Yes — ITR-1 now allows up to 2 house properties under the 2026 Rules", "correct": true },
+            { "text": "No — they must use ITR-2 regardless of the number of house properties", "correct": false },
+            { "text": "Yes — but only if both properties are self-occupied", "correct": false }
+          ],
+          "explanation": "Under the 2026 Rules, ITR-1 allows up to 2 house properties — expanded from the previous limit of 1. This change aligns with the Act's recognition of two self-occupied properties and is a genuine eligibility expansion. The taxpayer can use ITR-1 as long as they meet the other eligibility criteria.",
+          "explanationWrong": "Yes, ITR-1 now allows 2 house properties. This is one of the key ITR form changes. Previously, owning a second property forced taxpayers into ITR-2. Now, simple salaried individuals with two properties can stay on the simplified ITR-1 form.",
+          "tier": 3,
+          "subConcepts": ["itr1-two-properties-application", "return-form-selection"],
+          "isReview": false,
+          "oldSection": "ITR-1 (1962 Rules)",
+          "newSection": "ITR-1 (2026 Rules)"
+        },
+        {
+          "order": 2,
+          "question": "A foreign national working in India needs to apply for a PAN. Under the 2026 Rules, which form should they use?",
+          "options": [
+            { "text": "Form 93 (Indian individual PAN)", "correct": false },
+            { "text": "Form 94 (Indian entity PAN)", "correct": false },
+            { "text": "Form 95 (foreign individual PAN)", "correct": true },
+            { "text": "Form 96 (foreign entity PAN)", "correct": false }
+          ],
+          "explanation": "Form 95 (old Form 49AA for individuals) is for foreign individuals applying for PAN. The 2026 Rules split the old Form 49AA just as they split 49A: Form 95 for foreign individuals, Form 96 for foreign entities. The individual form always gets the lower number in each pair.",
+          "explanationWrong": "Form 95 for foreign individuals. The PAN form matrix: Indian individual = 93, Indian entity = 94, Foreign individual = 95, Foreign entity = 96. Old 49A splits into 93/94, old 49AA splits into 95/96. A foreign INDIVIDUAL uses 95, not 96.",
+          "tier": 3,
+          "subConcepts": ["form-95-foreign-individual", "pan-form-selection-scenario"],
+          "isReview": false,
+          "oldSection": "Form 49AA",
+          "newSection": "Form 95"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: The 2026 Rules consolidation follows the same philosophy as the IT Act 2025. What is that core philosophy?",
+          "options": [
+            { "text": "Completely rewrite all tax provisions from scratch", "correct": false },
+            { "text": "Simplify the packaging without fundamentally changing the substance", "correct": true },
+            { "text": "Reduce tax rates across all categories", "correct": false },
+            { "text": "Eliminate all exemptions and deductions", "correct": false }
+          ],
+          "explanation": "Both the Act and the Rules follow the same core philosophy: simplify the packaging (fewer sections, fewer rules, fewer forms) while preserving the substantive tax law. Most changes are renumbering, not rewriting. The obligation to pay tax, deduct TDS, file returns — all remain. Only the form numbers and rule numbers change.",
+          "explanationWrong": "Simplify packaging, preserve substance. This is the defining principle of the entire 2026 reform. A CA who understood the old law still understands the new law — they just need to learn new numbers. The exceptions (Form 121 merger, Form 26 consolidation, 40% depreciation cap) are few and specific.",
+          "tier": 3,
+          "subConcepts": ["consolidation-philosophy-review", "packaging-vs-substance"],
+          "isReview": true,
+          "oldSection": "Income Tax Act 1961 / Rules 1962",
+          "newSection": "Income Tax Act 2025 / Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "A buyer purchases a flat for Rs 75 lakhs and deducts TDS under the property purchase provisions. Under the 2026 Rules, which form does the buyer use to deposit TDS and generate the certificate?",
+          "options": [
+            { "text": "Form 138 for deposit, Form 130 for certificate", "correct": false },
+            { "text": "Form 141 for challan-cum-statement, Form 132 for certificate", "correct": true },
+            { "text": "Form 140 for deposit, Form 131 for certificate", "correct": false },
+            { "text": "Form 144 for deposit, Form 132 for certificate", "correct": false }
+          ],
+          "explanation": "Form 141 (consolidating old 26QB/26QC/26QD/26QE) is used as the challan-cum-statement for property TDS deposits. Form 132 (old Form 16B) is the TDS certificate issued to the seller. The buyer deposits via Form 141 and issues Form 132 to the seller as proof of TDS deduction.",
+          "explanationWrong": "Form 141 for deposit, Form 132 for certificate. The property TDS flow: Buyer deducts TDS → Deposits via Form 141 (challan-cum-statement) → Issues Form 132 (certificate) to seller. Form 138/140 are quarterly TDS returns for salary/non-salary — not applicable to property transactions.",
+          "tier": 3,
+          "subConcepts": ["form-141-132-property-scenario", "property-tds-workflow"],
+          "isReview": false,
+          "oldSection": "Forms 26QB, 16B",
+          "newSection": "Forms 141, 132"
+        },
+        {
+          "order": 5,
+          "question": "An 82-year-old super senior citizen runs a small retail shop (turnover Rs 80 lakhs, subject to tax audit). Can they file their return and tax audit report on paper under the 2026 Rules?",
+          "options": [
+            { "text": "Yes — super senior citizens (80+) are always exempt from digital filing", "correct": false },
+            { "text": "No — the paper exception only applies to super seniors NOT subject to audit; since audit is required, they must file digitally", "correct": true },
+            { "text": "Yes — but only the return can be on paper, the audit report must be digital", "correct": false },
+            { "text": "No — paper filing has been completely eliminated for all taxpayers", "correct": false }
+          ],
+          "explanation": "The paper filing exception requires BOTH conditions: age 80+ AND not subject to audit. This super senior is subject to tax audit (turnover Rs 80 lakhs), so the paper exception does not apply. They must file both the return and the tax audit report (Form 26) electronically despite being 82 years old.",
+          "explanationWrong": "Both conditions must be met: 80+ AND no audit requirement. Age alone is not enough. A super senior subject to audit must file digitally because the audit requirement indicates a level of business complexity that warrants electronic compliance. The exception is designed for truly simple cases — pensioners, small interest earners.",
+          "tier": 3,
+          "subConcepts": ["digital-filing-exception-application", "super-senior-audit-scenario"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        }
+      ]
+    }
+  ]
+}

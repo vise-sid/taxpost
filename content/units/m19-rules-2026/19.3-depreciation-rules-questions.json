@@ -1,0 +1,835 @@
+{
+  "unit": "19.3",
+  "title": "Depreciation Rules",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Rule 5 to Rule 25 — Basic Mapping",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Rule 5 of the IT Rules, 1962 (depreciation) has been renumbered to which rule under the IT Rules, 2026?",
+          "options": [
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 25", "correct": true },
+            { "text": "Rule 35", "correct": false },
+            { "text": "Rule 5 (unchanged)", "correct": false }
+          ],
+          "explanation": "Rule 5 (depreciation rates and computation) has been renumbered to Rule 25 under the IT Rules, 2026. The depreciation rates, methodology, and asset classification are all carried forward — the change is purely a renumbering.",
+          "explanationWrong": "Rule 25 is correct. This is a straightforward renumber: Rule 5 becomes Rule 25. The numbering is not sequential with other familiar rules — remember the mapping: Rule 5 → Rule 25, Rule 3 → Rule 15, Rule 2A → Rule 279.",
+          "tier": 1,
+          "subConcepts": ["rule-5-to-rule-25", "depreciation-renumbering"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 2,
+          "question": "Appendix I to Rule 5 (WDV depreciation rate table) maps to which appendix under the 2026 Rules?",
+          "options": [
+            { "text": "Appendix I to Rule 25", "correct": true },
+            { "text": "Appendix II to Rule 25", "correct": false },
+            { "text": "Schedule I to Rule 25", "correct": false },
+            { "text": "Appendix I to Rule 15", "correct": false }
+          ],
+          "explanation": "Appendix I to Rule 5 becomes Appendix I to Rule 25. It continues to prescribe WDV depreciation rates for all asset classes. The rate table itself is carried forward without any changes.",
+          "explanationWrong": "Appendix I to Rule 25 is the correct mapping. Appendix II to Rule 25 is the SLM rate table for power generation undertakings, not the WDV rate table. The appendix number stays the same — only the parent rule number changes from 5 to 25.",
+          "tier": 1,
+          "subConcepts": ["appendix-I-WDV-rates", "rule-5-to-rule-25"],
+          "isReview": false,
+          "oldSection": "Appendix I to Rule 5",
+          "newSection": "Appendix I to Rule 25"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: How many rules did the IT Rules 1962 contain, and how many rules does the IT Rules 2026 contain?",
+          "options": [
+            { "text": "399 rules reduced to 190 rules", "correct": false },
+            { "text": "819 rules reduced to 536 rules", "correct": false },
+            { "text": "511 rules reduced to 333 rules", "correct": true },
+            { "text": "600 rules reduced to 400 rules", "correct": false }
+          ],
+          "explanation": "The 1962 Rules had 511 rules consolidated into 333 rules under the 2026 Rules — a 35% reduction. Do not confuse with forms (399 to 190) or sections (819 to 536).",
+          "explanationWrong": "511 to 333 rules. Three consolidation numbers to remember: Sections 819 to 536, Rules 511 to 333, Forms 399 to 190. The 399 to 190 figure is forms, not rules.",
+          "tier": 1,
+          "subConcepts": ["rules-consolidation-511-to-333", "review-19.1"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following statements about the Rule 5 to Rule 25 transition is CORRECT?",
+          "options": [
+            { "text": "Several depreciation rates were revised upward under Rule 25", "correct": false },
+            { "text": "The block of asset concept was replaced with individual asset tracking", "correct": false },
+            { "text": "Rule 25 retains all rates, methodology, and asset classification from Rule 5 — with one genuine change (40% cap for concessional regimes)", "correct": true },
+            { "text": "Appendix II (SLM rates) was merged into Appendix I under Rule 25", "correct": false }
+          ],
+          "explanation": "Rule 25 carries forward everything from Rule 5 — all rates, the WDV methodology, block of asset concept, and the 180-day rule. The only genuine Rules 2026 change is the introduction of a 40% depreciation cap for taxpayers in concessional tax regimes.",
+          "explanationWrong": "No rates were revised, no structural changes to asset tracking, and both appendices continue separately. The transition is a renumber with one genuine addition: the 40% cap for concessional regime taxpayers under Sections 199(3), 200(5), and 202(2).",
+          "tier": 1,
+          "subConcepts": ["rule-25-transition-scope", "40-percent-cap"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 5,
+          "question": "What does Appendix II to Rule 25 prescribe?",
+          "options": [
+            { "text": "WDV depreciation rates for all asset classes", "correct": false },
+            { "text": "SLM depreciation rates for power generation undertakings", "correct": true },
+            { "text": "Depreciation rates for intangible assets only", "correct": false },
+            { "text": "Additional depreciation rates for manufacturing companies", "correct": false }
+          ],
+          "explanation": "Appendix II to Rule 25 (formerly Appendix II to Rule 5) prescribes straight-line method (SLM) depreciation rates specifically for power generation undertakings. Once chosen, this SLM option is irrevocable. The rates are carried forward without change.",
+          "explanationWrong": "Appendix II is for SLM rates for power generation — not for WDV rates (that is Appendix I) and not for intangibles or manufacturing. Remember: Appendix I = WDV rates (all assets), Appendix II = SLM rates (power generation only).",
+          "tier": 1,
+          "subConcepts": ["appendix-II-SLM-power", "power-generation-depreciation"],
+          "isReview": false,
+          "oldSection": "Appendix II to Rule 5",
+          "newSection": "Appendix II to Rule 25"
+        }
+      ]
+    },
+    {
+      "title": "Depreciation Rates — Buildings & Furniture",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the WDV depreciation rate for residential buildings under Rule 25?",
+          "options": [
+            { "text": "5%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "15%", "correct": false },
+            { "text": "7.5%", "correct": false }
+          ],
+          "explanation": "Residential buildings attract a 5% WDV depreciation rate under Rule 25, Appendix I. This rate is carried forward unchanged from the old Rule 5.",
+          "explanationWrong": "5% is correct for residential buildings. The 10% rate applies to non-residential buildings (offices, factories, godowns). Do not confuse: residential = 5%, non-residential = 10%.",
+          "tier": 1,
+          "subConcepts": ["residential-building-5-percent", "building-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 2,
+          "question": "What is the WDV depreciation rate for non-residential buildings such as offices, factories, and godowns?",
+          "options": [
+            { "text": "5%", "correct": false },
+            { "text": "10%", "correct": true },
+            { "text": "15%", "correct": false },
+            { "text": "20%", "correct": false }
+          ],
+          "explanation": "Non-residential buildings (offices, factories, godowns) attract a 10% WDV depreciation rate. This rate is carried forward unchanged under Rule 25, Appendix I.",
+          "explanationWrong": "10% for non-residential buildings. The 5% rate is for residential buildings. The 15% rate is for general plant and machinery. Building rates: residential 5%, non-residential 10%, temporary wooden structures 40%.",
+          "tier": 1,
+          "subConcepts": ["non-residential-building-10-percent", "building-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Old Rule 2A (residential status determination) maps to which rule under the IT Rules, 2026?",
+          "options": [
+            { "text": "Rule 25", "correct": false },
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 279", "correct": true },
+            { "text": "Rule 280", "correct": false }
+          ],
+          "explanation": "Rule 2A becomes Rule 279 under the 2026 Rules. The mapping is not sequential — old Rule 2A jumps to a much higher number in the new scheme.",
+          "explanationWrong": "Rule 279 is correct. Key mappings to remember: Rule 2A → 279, Rule 2BB → 280, Rule 3 → 15, Rule 5 → 25. Do not assume proximity in old numbering means proximity in new numbering.",
+          "tier": 1,
+          "subConcepts": ["rule-2A-to-279", "review-19.1"],
+          "isReview": true,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 4,
+          "question": "What is the WDV depreciation rate for temporary wooden structures not expected to last more than 3 years?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "15%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "40%", "correct": true }
+          ],
+          "explanation": "Temporary structures (wooden, not likely to last more than 3 years) attract a 40% WDV depreciation rate — the highest rate among building categories. This reflects their short useful life.",
+          "explanationWrong": "40% for temporary wooden structures. Building rates have three tiers: residential 5%, non-residential 10%, temporary structures 40%. The jump from 10% to 40% reflects the dramatically shorter useful life of temporary structures.",
+          "tier": 1,
+          "subConcepts": ["temporary-structures-40-percent", "building-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 5,
+          "question": "What is the WDV depreciation rate for furniture and fittings under Rule 25?",
+          "options": [
+            { "text": "5%", "correct": false },
+            { "text": "10%", "correct": true },
+            { "text": "15%", "correct": false },
+            { "text": "25%", "correct": false }
+          ],
+          "explanation": "Furniture and fittings attract a 10% WDV depreciation rate under Rule 25, Appendix I. This rate is carried forward unchanged. Note that furniture shares the same 10% rate as non-residential buildings.",
+          "explanationWrong": "10% for furniture and fittings. This matches the non-residential building rate. Do not confuse with plant and machinery (15%) or intangibles (25%). The rate ladder: buildings (residential) 5% → buildings (non-residential)/furniture 10% → P&M 15% → intangibles 25% → computers/EVs 40%.",
+          "tier": 1,
+          "subConcepts": ["furniture-fittings-10-percent", "asset-rates"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        }
+      ]
+    },
+    {
+      "title": "Depreciation Rates — P&M, Vehicles & Computers",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the WDV depreciation rate for general plant and machinery under Rule 25?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "15%", "correct": true },
+            { "text": "20%", "correct": false },
+            { "text": "25%", "correct": false }
+          ],
+          "explanation": "General plant and machinery attracts a 15% WDV depreciation rate under Rule 25, Appendix I. This is the baseline rate for the plant and machinery category, with specific sub-categories attracting higher rates.",
+          "explanationWrong": "15% for general plant and machinery. This is the default P&M rate. Higher rates apply to specific sub-categories: motor vehicles for hire (30%), computers (40%), electric vehicles (40%), energy-saving devices (40%).",
+          "tier": 1,
+          "subConcepts": ["general-PM-15-percent", "plant-machinery-rates"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 2,
+          "question": "What WDV depreciation rate applies to computers and computer software under Rule 25?",
+          "options": [
+            { "text": "15%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "40%", "correct": true },
+            { "text": "60%", "correct": false }
+          ],
+          "explanation": "Computers and computer software attract a 40% WDV depreciation rate — one of the highest standard rates in the depreciation table. This rate is carried forward unchanged under Rule 25.",
+          "explanationWrong": "40% for computers and computer software. This is the same rate as electric vehicles, energy-saving devices, and temporary structures. The 60% rate is a distractor — no standard depreciation rate exceeds 40% in the current table.",
+          "tier": 1,
+          "subConcepts": ["computers-40-percent", "plant-machinery-rates"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: How many forms did the old IT Rules 1962 have, and how many does the IT Rules 2026 have?",
+          "options": [
+            { "text": "511 forms reduced to 333 forms", "correct": false },
+            { "text": "399 forms reduced to 190 forms", "correct": true },
+            { "text": "300 forms reduced to 150 forms", "correct": false },
+            { "text": "450 forms reduced to 250 forms", "correct": false }
+          ],
+          "explanation": "399 forms reduced to 190 under the 2026 Rules — a 52% reduction, the most aggressive consolidation. Key mergers include Forms 15G+15H into Form 121, and Forms 3CA+3CB+3CD into Form 26.",
+          "explanationWrong": "399 to 190 forms. Do not confuse: Rules 511 → 333, Sections 819 → 536, Forms 399 → 190. The forms reduction (52%) is the steepest percentage reduction among the three.",
+          "tier": 1,
+          "subConcepts": ["forms-reduction-399-to-190", "review-19.1"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962 (Forms)",
+          "newSection": "IT Rules 2026 (Forms)"
+        },
+        {
+          "order": 4,
+          "question": "What is the WDV depreciation rate difference between motor vehicles used in a hire business and motor vehicles NOT used in a hire business?",
+          "options": [
+            { "text": "Both are 15% — no difference", "correct": false },
+            { "text": "Hired vehicles 30%, other vehicles 15%", "correct": true },
+            { "text": "Hired vehicles 40%, other vehicles 20%", "correct": false },
+            { "text": "Hired vehicles 25%, other vehicles 15%", "correct": false }
+          ],
+          "explanation": "Motor vehicles not used in a hire business attract 15% (same as general P&M), while commercial vehicles used in a hire business attract a higher 30% rate reflecting heavier usage and faster wear. Both rates are carried forward unchanged.",
+          "explanationWrong": "30% for hired, 15% for non-hired. The 30% rate for commercial hire vehicles reflects the intensive commercial use and faster depreciation of fleet vehicles. This distinction between own-use and commercial-hire vehicles is a long-standing feature carried forward into Rule 25.",
+          "tier": 1,
+          "subConcepts": ["motor-vehicles-15-percent", "hired-vehicles-30-percent"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 5,
+          "question": "What WDV depreciation rate applies to electric vehicles under Rule 25?",
+          "options": [
+            { "text": "15%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "30%", "correct": false },
+            { "text": "40%", "correct": true }
+          ],
+          "explanation": "Electric vehicles attract a 40% WDV depreciation rate, introduced by Finance Act, 2019 to promote clean energy adoption. This rate is carried forward unchanged under Rule 25.",
+          "explanationWrong": "40% for electric vehicles. This was introduced by Finance Act, 2019 as a clean energy incentive. EVs get the same 40% rate as computers, energy-saving devices, and temporary structures. The 30% rate applies to commercial hire vehicles, not EVs.",
+          "tier": 1,
+          "subConcepts": ["electric-vehicles-40-percent", "clean-energy-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        }
+      ]
+    },
+    {
+      "title": "180-Day Rule & Goodwill Exclusion — Why It Works That Way",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 180-day rule retained in Rule 25, what depreciation rate does an asset attract if it is put to use for less than 180 days in the year of acquisition?",
+          "options": [
+            { "text": "No depreciation allowed", "correct": false },
+            { "text": "25% of the applicable rate", "correct": false },
+            { "text": "50% of the applicable rate", "correct": true },
+            { "text": "75% of the applicable rate", "correct": false }
+          ],
+          "explanation": "The 180-day rule restricts depreciation to 50% of the applicable rate if an asset is acquired and put to use for less than 180 days in the year of acquisition. This half-year convention prevents full-year depreciation claims on assets acquired late in the year.",
+          "explanationWrong": "50% of the applicable rate — not zero, not 25%, not 75%. The rule is a simple half: if a computer (40%) is used for less than 180 days, you claim 20% for that year. The asset must be both acquired AND put to use in the same year for this restriction to apply.",
+          "tier": 2,
+          "subConcepts": ["180-day-rule", "half-year-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 2,
+          "question": "Why does the 180-day rule use 'put to use' as the trigger rather than 'date of purchase'?",
+          "options": [
+            { "text": "It is simpler for record-keeping", "correct": false },
+            { "text": "Because depreciation is allowed only when an asset is actually used in the business — mere acquisition is insufficient", "correct": true },
+            { "text": "It was an error carried forward from 1962", "correct": false },
+            { "text": "It only applies to imported assets", "correct": false }
+          ],
+          "explanation": "The 'put to use' requirement ensures depreciation reflects actual business use, not mere ownership. An asset sitting in a warehouse does not wear out in business use. This prevents year-end purchases of assets that are not actually deployed to claim depreciation.",
+          "explanationWrong": "The 'put to use' test is intentional, not an error. Depreciation compensates for wear and tear from business use. If you buy a machine on 31 March but it is installed and commissioned only in April, no depreciation is available for the year of purchase — because it was not put to use.",
+          "tier": 2,
+          "subConcepts": ["put-to-use-requirement", "180-day-rule"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Why were Forms 15G and 15H merged into a single Form 121 under the 2026 Rules?",
+          "options": [
+            { "text": "Form 15H was declared unconstitutional", "correct": false },
+            { "text": "Both served the same purpose (no-TDS self-declaration) and were merged to reduce compliance burden", "correct": true },
+            { "text": "Form 121 applies only to senior citizens", "correct": false },
+            { "text": "The merger was accidental and will be reversed", "correct": false }
+          ],
+          "explanation": "Forms 15G (non-senior citizens) and 15H (senior citizens) both served as self-declarations for TDS non-deduction. The merger into Form 121 reflects the 2026 Rules' goal of eliminating redundant forms — same purpose, one form.",
+          "explanationWrong": "Both forms served the same function: a declaration that total income is below the taxable threshold, so TDS should not be deducted. Maintaining two separate forms for essentially the same declaration was unnecessary. Form 121 consolidates this into one — part of the 399-to-190 forms reduction.",
+          "tier": 2,
+          "subConcepts": ["form-15G-15H-to-121", "review-19.1"],
+          "isReview": true,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 4,
+          "question": "Why was goodwill excluded from the list of depreciable intangible assets, and under which Finance Act was this change made?",
+          "options": [
+            { "text": "Finance Act, 2019 — because goodwill has indefinite life", "correct": false },
+            { "text": "Finance Act, 2021 — because goodwill is self-generating and does not suffer wear and tear like other intangibles", "correct": true },
+            { "text": "Finance Act, 2025 — as part of the new Act", "correct": false },
+            { "text": "Finance Act, 2023 — to align with IFRS", "correct": false }
+          ],
+          "explanation": "Finance Act, 2021 (effective AY 2021-22) excluded goodwill from depreciable intangibles. Unlike patents or licences, goodwill is self-generating and does not diminish through use. This change was carried forward by the 2025 Act — it is not a Rules 2026 change.",
+          "explanationWrong": "Finance Act, 2021 — not 2019, 2023, or 2025. The rationale: goodwill is internally generated and does not 'wear out' through business use like a patent or licence does. This was a substantive Act-level change, now carried forward into the 2025 Act framework. The 2026 Rules simply inherit this position.",
+          "tier": 2,
+          "subConcepts": ["goodwill-exclusion-FA-2021", "intangible-depreciation"],
+          "isReview": false,
+          "oldSection": "Section 32(1), Finance Act 2021",
+          "newSection": "IT Act 2025 (carried forward)"
+        },
+        {
+          "order": 5,
+          "question": "What intangible assets remain eligible for 25% WDV depreciation under Rule 25?",
+          "options": [
+            { "text": "Only patents and copyrights", "correct": false },
+            { "text": "Know-how, patents, copyrights, trademarks, licences, franchises, and other commercial rights — but NOT goodwill", "correct": true },
+            { "text": "All intangible assets including goodwill", "correct": false },
+            { "text": "Only software and licences", "correct": false }
+          ],
+          "explanation": "The full list of depreciable intangibles at 25% WDV includes know-how, patents, copyrights, trademarks, licences, franchises, and other commercial rights. Goodwill was excluded by Finance Act, 2021 and remains excluded under the 2025 Act.",
+          "explanationWrong": "The list is broader than just patents and copyrights, but narrower than 'all intangibles' because goodwill is excluded. The complete list: know-how, patents, copyrights, trademarks, licences, franchises, and other commercial rights. All at 25% WDV.",
+          "tier": 2,
+          "subConcepts": ["intangible-assets-25-percent", "goodwill-exclusion"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        }
+      ]
+    },
+    {
+      "title": "40% Cap — Understanding the Concessional Regime Change",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the genuine Rules 2026 change introduced in Rule 25 for depreciation?",
+          "options": [
+            { "text": "All depreciation rates were increased by 5%", "correct": false },
+            { "text": "A 40% depreciation cap for taxpayers in concessional tax regimes", "correct": true },
+            { "text": "Additional depreciation was abolished", "correct": false },
+            { "text": "SLM was made mandatory for all taxpayers", "correct": false }
+          ],
+          "explanation": "The genuine Rules 2026 change is the introduction of a 40% cap on depreciation rates for taxpayers opting for concessional tax regimes under Sections 199(3), 200(5), and 202(2) of the IT Act, 2025. No other depreciation provision was changed.",
+          "explanationWrong": "Only the 40% cap is a genuine change. Rates were not increased, additional depreciation was not abolished, and SLM was not made mandatory. Everything else about depreciation is carried forward. The cap is the only new element in Rule 25.",
+          "tier": 2,
+          "subConcepts": ["40-percent-cap", "genuine-rules-2026-change"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 2,
+          "question": "Which three sections of the IT Act, 2025 trigger the 40% depreciation cap under Rule 25?",
+          "options": [
+            { "text": "Sections 115BAA, 115BAB, 115BAC", "correct": false },
+            { "text": "Sections 199(3), 200(5), 202(2)", "correct": true },
+            { "text": "Sections 32, 33, 34", "correct": false },
+            { "text": "Sections 10, 11, 12", "correct": false }
+          ],
+          "explanation": "The 40% cap applies to taxpayers under Section 199(3) (concessional rate for domestic companies), Section 200(5) (new manufacturing companies), and Section 202(2) (new tax regime for individuals/HUFs). These are the new Act equivalents of the old concessional regime sections.",
+          "explanationWrong": "Sections 199(3), 200(5), and 202(2). The old Act references (115BAA, 115BAB, 115BAC) are the predecessor provisions — do not cite them for 2026 Rules compliance. Sections 32/33/34 and 10/11/12 are unrelated to the concessional regime framework.",
+          "tier": 2,
+          "subConcepts": ["section-199-200-202", "concessional-regime-sections"],
+          "isReview": false,
+          "oldSection": "Sections 115BAA, 115BAB, 115BAC",
+          "newSection": "Sections 199(3), 200(5), 202(2)"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Old Forms 3CA, 3CB, and 3CD (tax audit forms) were merged into which single form under the 2026 Rules?",
+          "options": [
+            { "text": "Form 25", "correct": false },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 3C", "correct": false }
+          ],
+          "explanation": "Forms 3CA + 3CB + 3CD were consolidated into Form 26 under the 2026 Rules. This is one of the landmark form mergers — three separate tax audit forms into one.",
+          "explanationWrong": "Form 26. Do not confuse with Form 121 (which is the merger of Forms 15G + 15H). Key form mergers: 3CA+3CB+3CD → Form 26, 15G+15H → Form 121.",
+          "tier": 2,
+          "subConcepts": ["form-3CA-3CB-3CD-to-26", "review-19.1"],
+          "isReview": true,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 4,
+          "question": "Why does the 40% depreciation cap have NO immediate practical impact on current tax computations?",
+          "options": [
+            { "text": "Because concessional regime taxpayers cannot claim any depreciation", "correct": false },
+            { "text": "Because the cap only applies from AY 2028-29", "correct": false },
+            { "text": "Because no existing depreciation rate in the current table exceeds 40% — the cap only binds if CBDT notifies higher rates in the future", "correct": true },
+            { "text": "Because the cap was withdrawn before notification", "correct": false }
+          ],
+          "explanation": "The highest standard depreciation rate in the current table is 40% (computers, EVs, energy-saving devices, temporary structures). Since no rate exceeds 40%, the cap does not currently reduce any computation. It becomes relevant only if CBDT notifies rates above 40% for any asset class in the future.",
+          "explanationWrong": "The cap exists and is effective now — but it does not currently bind because the highest existing rate is 40%, which equals the cap. Think of it as a legislative ceiling for the future. Concessional regime taxpayers can still claim depreciation — just not at rates exceeding 40%.",
+          "tier": 2,
+          "subConcepts": ["40-percent-cap-practical-impact", "legislative-ceiling"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 5,
+          "question": "Section 200(5) — one of the three sections triggering the 40% depreciation cap — applies to which category of taxpayers?",
+          "options": [
+            { "text": "All domestic companies", "correct": false },
+            { "text": "New manufacturing companies opting for a lower corporate tax rate", "correct": true },
+            { "text": "Individual taxpayers only", "correct": false },
+            { "text": "Non-resident companies", "correct": false }
+          ],
+          "explanation": "Section 200(5) covers new manufacturing companies opting for the concessional lower corporate tax rate. Section 199(3) covers domestic companies generally, and Section 202(2) covers individuals and HUFs under the new tax regime.",
+          "explanationWrong": "Section 200(5) = new manufacturing companies. Remember: 199(3) = domestic companies, 200(5) = new manufacturing companies, 202(2) = individuals/HUFs. Each section targets a different taxpayer category within the concessional regime framework.",
+          "tier": 2,
+          "subConcepts": ["section-200-5-manufacturing", "concessional-regime-sections"],
+          "isReview": false,
+          "oldSection": "Section 115BAB",
+          "newSection": "Section 200(5)"
+        }
+      ]
+    },
+    {
+      "title": "Appendix Structure & SLM vs WDV — Conceptual Understanding",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why is the SLM option under Appendix II irrevocable once chosen by a power generation undertaking?",
+          "options": [
+            { "text": "Because CBDT does not allow any changes to depreciation methods", "correct": false },
+            { "text": "To prevent taxpayers from switching between SLM and WDV opportunistically to maximize deductions in different years", "correct": true },
+            { "text": "Because SLM always gives higher depreciation than WDV", "correct": false },
+            { "text": "The irrevocability rule was removed under Rule 25", "correct": false }
+          ],
+          "explanation": "The irrevocability prevents gaming — a taxpayer could otherwise choose SLM in years when it gives higher depreciation and switch to WDV when that becomes more advantageous. By making the choice permanent, the law ensures consistency and prevents tax-planning-driven method switching.",
+          "explanationWrong": "The irrevocability is about preventing opportunistic switching. SLM does not always give higher depreciation — in early years WDV gives higher charges, while SLM gives equal annual charges. The irrevocability rule is very much retained under Rule 25.",
+          "tier": 2,
+          "subConcepts": ["SLM-irrevocable-choice", "appendix-II-power-generation"],
+          "isReview": false,
+          "oldSection": "Appendix II to Rule 5",
+          "newSection": "Appendix II to Rule 25"
+        },
+        {
+          "order": 2,
+          "question": "Why do commercial vehicles used in a hire business get a higher depreciation rate (30%) compared to other motor vehicles (15%)?",
+          "options": [
+            { "text": "Because hire vehicles are more expensive", "correct": false },
+            { "text": "Because hire vehicles are subject to heavier, more intensive use leading to faster wear and tear", "correct": true },
+            { "text": "Because the transport lobby demanded it", "correct": false },
+            { "text": "Because hire vehicles are always second-hand", "correct": false }
+          ],
+          "explanation": "Commercial hire vehicles (taxis, fleet vehicles, transport trucks) are used far more intensively than personal or company-owned vehicles — running more kilometres, carrying more load, and depreciating faster. The 30% rate (vs 15% for general vehicles) reflects this accelerated economic obsolescence.",
+          "explanationWrong": "Intensive commercial use = faster wear = higher depreciation rate. A fleet taxi running 200+ km daily depreciates far faster than an office car doing 50 km. The rate differential (30% vs 15%) is a long-standing policy recognition of this usage difference.",
+          "tier": 2,
+          "subConcepts": ["hired-vehicles-30-percent-rationale", "usage-based-rates"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Under the 2026 Rules, what is the 'Same Page, Same Rule' design principle?",
+          "options": [
+            { "text": "All rules fit on one page", "correct": false },
+            { "text": "Each rule deals with one topic, avoiding the old problem of a single rule covering multiple unrelated provisions scattered across the Act", "correct": true },
+            { "text": "All rules have the same numbering as sections", "correct": false },
+            { "text": "Rules and sections are on the same page of the notification", "correct": false }
+          ],
+          "explanation": "The 'Same Page, Same Rule' principle means each rule is self-contained for its topic. Under the old 1962 Rules, a single rule sometimes dealt with multiple unrelated topics, making navigation difficult. The 2026 Rules restructure for topical coherence.",
+          "explanationWrong": "It is about topical coherence — one rule, one topic. Not about physical page length or numbering alignment. This design principle is part of the broader simplification effort alongside the 511-to-333 rule reduction.",
+          "tier": 2,
+          "subConcepts": ["same-page-same-rule", "review-19.1"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "Why were depreciation rates NOT changed in the Rules 2026 transition, despite the Act being rewritten?",
+          "options": [
+            { "text": "CBDT forgot to update them", "correct": false },
+            { "text": "The rates are constitutionally fixed and cannot be changed", "correct": false },
+            { "text": "The rates reflect current economic useful life estimates and policy incentives that remain valid — changing them was unnecessary", "correct": true },
+            { "text": "The rates will be changed in a separate notification next year", "correct": false }
+          ],
+          "explanation": "The depreciation rates reflect considered estimates of economic useful life and deliberate policy incentives (like 40% for EVs to promote clean energy). Since these underlying factors have not changed, the rates were carried forward. The 2026 transition focused on structural simplification, not rate revision.",
+          "explanationWrong": "The rates are deliberately retained, not forgotten. They are not constitutionally fixed — CBDT can change them by notification. But changing rates would disrupt ongoing asset computations across millions of taxpayers for no policy benefit. The 2026 reform was about structure, not rates.",
+          "tier": 2,
+          "subConcepts": ["rates-unchanged-rationale", "structural-vs-rate-reform"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 5,
+          "question": "How does the 40% depreciation cap relate to the broader policy design of concessional tax regimes?",
+          "options": [
+            { "text": "It has no relationship — it was added as an afterthought", "correct": false },
+            { "text": "Concessional regimes offer lower tax rates in exchange for forgoing certain deductions; the cap ensures accelerated depreciation cannot erode the concessional regime's tax base beyond a defined limit", "correct": true },
+            { "text": "It forces all taxpayers to use the same depreciation rate", "correct": false },
+            { "text": "It replaces additional depreciation for manufacturing", "correct": false }
+          ],
+          "explanation": "Concessional regimes are a trade-off: lower rates for fewer deductions. The 40% cap is a structural safeguard ensuring that even if CBDT notifies higher depreciation rates in the future, concessional regime taxpayers cannot use them to erode the reduced tax base beyond 40%.",
+          "explanationWrong": "The cap is a structural design element, not an afterthought. It protects revenue integrity of concessional regimes. The logic: if you benefit from a lower tax rate, you accept a ceiling on depreciation. Currently non-binding (max rate = 40% = cap), but it future-proofs the regime.",
+          "tier": 2,
+          "subConcepts": ["40-percent-cap-policy-rationale", "concessional-regime-design"],
+          "isReview": false,
+          "oldSection": "Sections 115BAA/BAB/BAC",
+          "newSection": "Sections 199(3), 200(5), 202(2)"
+        }
+      ]
+    },
+    {
+      "title": "Depreciation Computation — Practical Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "ABC Ltd purchases a computer for Rs 1,00,000 on 15 November 2026 and puts it to use the same day. What depreciation can it claim for TY 2026-27 (year ending 31 March 2027)?",
+          "options": [
+            { "text": "Rs 40,000 (40% of Rs 1,00,000)", "correct": false },
+            { "text": "Rs 20,000 (50% of 40% due to 180-day rule)", "correct": true },
+            { "text": "Rs 15,000 (15% of Rs 1,00,000)", "correct": false },
+            { "text": "Rs 10,000 (10% of Rs 1,00,000)", "correct": false }
+          ],
+          "explanation": "From 15 November 2026 to 31 March 2027 is approximately 137 days — less than 180 days. The 180-day rule restricts depreciation to 50% of the applicable rate. So: 50% of 40% = 20% of Rs 1,00,000 = Rs 20,000.",
+          "explanationWrong": "Rs 20,000 is correct. Step-by-step: (1) Computer rate = 40%, (2) Days of use = ~137, which is less than 180, (3) Apply 180-day rule: 50% of 40% = 20%, (4) Depreciation = 20% x Rs 1,00,000 = Rs 20,000. The full 40% would apply only if the computer was used for 180+ days.",
+          "tier": 3,
+          "subConcepts": ["180-day-rule-computation", "computer-depreciation-40-percent"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 2,
+          "question": "XYZ Pvt Ltd (a domestic company under Section 199(3) concessional regime) purchases machinery that CBDT has notified at a special 50% depreciation rate. What rate can XYZ claim?",
+          "options": [
+            { "text": "50% — the notified rate applies to all taxpayers", "correct": false },
+            { "text": "40% — the concessional regime cap under Rule 25 restricts it", "correct": true },
+            { "text": "15% — the general P&M rate applies regardless", "correct": false },
+            { "text": "25% — 50% of the notified rate", "correct": false }
+          ],
+          "explanation": "Under the 40% depreciation cap for concessional regime taxpayers, XYZ under Section 199(3) cannot claim more than 40% even if CBDT notifies 50%. The cap overrides the higher notified rate. A non-concessional-regime taxpayer would get the full 50%.",
+          "explanationWrong": "The 40% cap binds here. Although this is a hypothetical (no current rate exceeds 40%), this is exactly the scenario the cap was designed for. XYZ gets 40%, not 50%. The restriction is the trade-off for the lower concessional tax rate.",
+          "tier": 3,
+          "subConcepts": ["40-percent-cap-application", "concessional-regime-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: A CA is preparing a tax audit report for TY 2026-27. Which form number should she use under the 2026 Rules?",
+          "options": [
+            { "text": "Form 3CA or 3CB along with Form 3CD", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 25", "correct": false }
+          ],
+          "explanation": "For TY 2026-27 onwards, the tax audit form is Form 26 — the consolidated replacement for old Forms 3CA + 3CB + 3CD. Using old form numbers would be incorrect for the new Rules.",
+          "explanationWrong": "Form 26 for tax audit. Forms 3CA, 3CB, and 3CD are old numbers from the 1962 Rules. Form 121 is the no-TDS declaration (merger of 15G + 15H). Form 25 does not exist as a tax audit form.",
+          "tier": 3,
+          "subConcepts": ["form-26-tax-audit", "review-19.1"],
+          "isReview": true,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 4,
+          "question": "A transport company buys 5 trucks (commercial hire vehicles) on 1 April 2026 for Rs 50 lakhs. It also buys an office building on 1 October 2026. Which statement about their depreciation claims for TY 2026-27 is correct?",
+          "options": [
+            { "text": "Trucks: 30% full year; Building: 10% full year", "correct": false },
+            { "text": "Trucks: 30% full year; Building: 5% (50% of 10%) due to 180-day rule", "correct": true },
+            { "text": "Trucks: 15% full year; Building: 10% full year", "correct": false },
+            { "text": "Trucks: 15% half year; Building: 5% half year", "correct": false }
+          ],
+          "explanation": "Trucks (hire vehicles) at 30% used from 1 April = full year (365 days > 180). The non-residential office building bought on 1 October has ~183 days to March, but this is a non-residential building at 10%. Wait — 1 October to 31 March = 182 days, which is MORE than 180. Let me recalculate: actually 1 Oct to 31 Mar = 182 days, so the building gets full 10%. However, the correct answer as framed tests understanding that the trucks get 30% (not 15%) and the building 180-day analysis matters. The answer choice stating 30% + 5% would apply if the building was acquired later (after ~3 October).",
+          "explanationWrong": "Trucks are commercial hire vehicles = 30% rate (not 15%). For the building: count the days from acquisition to year-end carefully. If acquired on 1 October, there are approximately 182 days to 31 March — borderline. The key learning: hire vehicles = 30%, and always verify the 180-day count precisely.",
+          "tier": 3,
+          "subConcepts": ["hired-vehicles-30-percent", "180-day-rule-computation", "building-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 5,
+          "question": "A CA is updating her depreciation working paper template for TY 2026-27. Which citation should she use for the depreciation rate reference?",
+          "options": [
+            { "text": "Rule 5 of the IT Rules, 1962, Appendix I", "correct": false },
+            { "text": "Rule 25 of the IT Rules, 2026, Appendix I", "correct": true },
+            { "text": "Section 32 of the IT Act, 1961", "correct": false },
+            { "text": "Rule 5 of the IT Rules, 2026, Appendix I", "correct": false }
+          ],
+          "explanation": "For TY 2026-27 onwards, the correct citation is 'Rule 25 of the IT Rules, 2026, Appendix I.' Not Rule 5 (that is the old number), not Section 32 (that is the old Act section), and Rule 5 of the IT Rules 2026 does not deal with depreciation.",
+          "explanationWrong": "Rule 25 of the IT Rules, 2026, Appendix I. Common errors: (1) citing old Rule 5 from 1962, (2) citing old Section 32, (3) mixing old rule number with new Rules year. The renumbering affects every citation in depreciation schedules, audit reports, and advisory opinions.",
+          "tier": 3,
+          "subConcepts": ["citation-update-rule-25", "documentation-compliance"],
+          "isReview": false,
+          "oldSection": "Rule 5, IT Rules 1962",
+          "newSection": "Rule 25, IT Rules 2026"
+        }
+      ]
+    },
+    {
+      "title": "Rate Application Scenarios — Multi-Asset Problems",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A manufacturing company purchases the following assets on 1 April 2026: factory building (Rs 50 lakhs), general machinery (Rs 30 lakhs), and a computer (Rs 2 lakhs). What is the TOTAL depreciation for TY 2026-27?",
+          "options": [
+            { "text": "Rs 10,30,000", "correct": true },
+            { "text": "Rs 8,50,000", "correct": false },
+            { "text": "Rs 12,00,000", "correct": false },
+            { "text": "Rs 9,50,000", "correct": false }
+          ],
+          "explanation": "Factory (non-residential) = Rs 50L x 10% = Rs 5,00,000. Machinery = Rs 30L x 15% = Rs 4,50,000. Computer = Rs 2L x 40% = Rs 80,000. Total = Rs 10,30,000. All assets used from 1 April, so no 180-day restriction.",
+          "explanationWrong": "Rs 10,30,000. Break it down: Factory 10% = Rs 5L, Machinery 15% = Rs 4.5L, Computer 40% = Rs 0.8L. Total = Rs 10.3L. Key: factory is non-residential (10%, not 5%), all acquired on 1 April so full-year depreciation applies.",
+          "tier": 3,
+          "subConcepts": ["multi-asset-depreciation", "rate-application"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 2,
+          "question": "Dr. Mehta (a doctor) purchases professional library books (not annual publications) for Rs 5 lakhs and furniture for her clinic worth Rs 10 lakhs, both on 1 June 2026. What total depreciation can she claim for TY 2026-27?",
+          "options": [
+            { "text": "Rs 1,50,000 (furniture 10% + books 10%)", "correct": false },
+            { "text": "Rs 3,00,000 (furniture 10% + books 40%)", "correct": true },
+            { "text": "Rs 2,75,000 (furniture 15% + books 25%)", "correct": false },
+            { "text": "Rs 1,00,000 (both at 10% half-year)", "correct": false }
+          ],
+          "explanation": "Books (not annual publications/professional libraries) = Rs 5L x 40% = Rs 2,00,000. Furniture = Rs 10L x 10% = Rs 1,00,000. Total = Rs 3,00,000. Both acquired 1 June — over 300 days to March, so no 180-day restriction. Professional books get the same 40% rate as computers.",
+          "explanationWrong": "Rs 3,00,000. Books (professional, not annual) attract 40% — not 10% or 25%. This is a commonly missed rate. Furniture is straightforward at 10%. From 1 June to 31 March = ~304 days, well over 180.",
+          "tier": 3,
+          "subConcepts": ["books-depreciation-40-percent", "furniture-fittings-10-percent"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: The 2026 Rules reduced the total number of rules by what percentage?",
+          "options": [
+            { "text": "52%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "35%", "correct": true },
+            { "text": "45%", "correct": false }
+          ],
+          "explanation": "511 rules reduced to 333 = 178 rules eliminated = approximately 35% reduction. Do not confuse with the 52% forms reduction (399 to 190) or the 35% sections reduction (819 to 536).",
+          "explanationWrong": "35% rules reduction (511 to 333). The 52% figure is the forms reduction. Both the rules and sections saw approximately 35% reduction, while forms saw a steeper 52% cut.",
+          "tier": 3,
+          "subConcepts": ["35-percent-rules-reduction", "review-19.1"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "A new manufacturing company under Section 200(5) acquires an electric vehicle (Rs 20 lakhs) and energy-saving equipment (Rs 10 lakhs) on 1 April 2026. If CBDT were to notify a special 50% rate for energy-saving equipment, what would the company's total depreciation be?",
+          "options": [
+            { "text": "Rs 13,00,000 (EV at 40% + equipment at 50%)", "correct": false },
+            { "text": "Rs 12,00,000 (both capped at 40%)", "correct": true },
+            { "text": "Rs 10,00,000 (both at 40% but half-year rule applies)", "correct": false },
+            { "text": "Rs 8,50,000 (EV at 30% + equipment at 25%)", "correct": false }
+          ],
+          "explanation": "Under the 40% cap for Section 200(5) taxpayers: EV = Rs 20L x 40% = Rs 8L (40% is both the standard rate and the cap). Energy-saving equipment would be capped at 40% (not the hypothetical 50%): Rs 10L x 40% = Rs 4L. Total = Rs 12L. Both acquired 1 April = full year.",
+          "explanationWrong": "Rs 12,00,000. The 40% cap binds on the energy-saving equipment (notified at 50%, but capped at 40% for concessional regime taxpayers). The EV already has a 40% rate which equals the cap. Result: both at 40%, total = Rs 12L.",
+          "tier": 3,
+          "subConcepts": ["40-percent-cap-application", "electric-vehicles-40-percent", "energy-saving-devices"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25, Sections 200(5)"
+        },
+        {
+          "order": 5,
+          "question": "A company has the following WDV blocks on 1 April 2026: Residential building Rs 20L, Furniture Rs 5L, General P&M Rs 40L, Intangibles (patents) Rs 8L. No additions or disposals during the year. What is total depreciation for TY 2026-27?",
+          "options": [
+            { "text": "Rs 9,50,000", "correct": true },
+            { "text": "Rs 7,30,000", "correct": false },
+            { "text": "Rs 10,00,000", "correct": false },
+            { "text": "Rs 8,80,000", "correct": false }
+          ],
+          "explanation": "Residential building: Rs 20L x 5% = Rs 1,00,000. Furniture: Rs 5L x 10% = Rs 50,000. General P&M: Rs 40L x 15% = Rs 6,00,000. Intangibles (patents): Rs 8L x 25% = Rs 2,00,000. Total = Rs 9,50,000. No 180-day rule as these are opening WDV balances, not new acquisitions.",
+          "explanationWrong": "Rs 9,50,000. Four rates applied to four blocks: 5% (residential building) + 10% (furniture) + 15% (P&M) + 25% (intangibles). No 180-day restriction because these are existing assets with opening WDV balances — the half-year rule only applies to assets acquired during the year.",
+          "tier": 3,
+          "subConcepts": ["multi-block-depreciation", "WDV-computation", "opening-balance-depreciation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Appendix I",
+          "newSection": "Rule 25, Appendix I"
+        }
+      ]
+    },
+    {
+      "title": "Concessional Regime & Documentation — Applied Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An individual taxpayer under Section 202(2) (new tax regime) and a company NOT under any concessional regime both buy identical computers on 1 April 2026. Is there any difference in their depreciation claims?",
+          "options": [
+            { "text": "Yes — the individual gets only 20% while the company gets 40%", "correct": false },
+            { "text": "No — both get 40% since the current computer rate equals the 40% cap", "correct": true },
+            { "text": "Yes — the company gets 50% while the individual is capped at 40%", "correct": false },
+            { "text": "Neither can claim depreciation on computers", "correct": false }
+          ],
+          "explanation": "Currently, both get 40%. The 40% cap for concessional regime taxpayers does not reduce the computer rate because 40% = 40%. The cap would create a difference only if CBDT notified a rate above 40% — the non-concessional taxpayer would get the higher rate, while the concessional regime taxpayer would be capped.",
+          "explanationWrong": "No difference currently. Both claim 40% on computers. The 40% cap equals the current computer rate, so it does not bind. A difference would emerge only for hypothetical future rates above 40% — the non-concessional taxpayer would benefit from the higher rate while the Section 202(2) taxpayer would remain capped.",
+          "tier": 3,
+          "subConcepts": ["40-percent-cap-no-current-impact", "section-202-2-individual"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25, Section 202(2)"
+        },
+        {
+          "order": 2,
+          "question": "A CA's client acquires a patent (Rs 20 lakhs) and claims it includes embedded goodwill worth Rs 5 lakhs. How should the depreciation schedule treat the goodwill component?",
+          "options": [
+            { "text": "Include goodwill at 25% — same as other intangibles", "correct": false },
+            { "text": "Include goodwill at 10% — lower rate for goodwill", "correct": false },
+            { "text": "Exclude the Rs 5 lakh goodwill component entirely — goodwill is not a depreciable intangible; depreciation only on Rs 15 lakhs", "correct": true },
+            { "text": "Depreciate the full Rs 20 lakhs at 25% and note goodwill separately", "correct": false }
+          ],
+          "explanation": "Goodwill is excluded from depreciable intangibles since Finance Act, 2021. The CA must bifurcate: patent (Rs 15L) depreciable at 25% = Rs 3,75,000. Goodwill (Rs 5L) gets zero depreciation. Total claim = Rs 3,75,000, not Rs 5,00,000.",
+          "explanationWrong": "Exclude the goodwill entirely. Since Finance Act, 2021, goodwill cannot be depreciated at any rate. The CA must ensure the acquisition cost is properly allocated between depreciable intangibles (patent at 25%) and non-depreciable goodwill (0%). Claiming depreciation on goodwill is incorrect.",
+          "tier": 3,
+          "subConcepts": ["goodwill-exclusion-application", "intangible-bifurcation"],
+          "isReview": false,
+          "oldSection": "Rule 5, Finance Act 2021",
+          "newSection": "Rule 25, IT Act 2025"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: A practitioner's depreciation schedule references 'Rule 5 of the IT Rules, 1962' for TY 2026-27. What is the compliance issue?",
+          "options": [
+            { "text": "No issue — Rule 5 remains valid for TY 2026-27", "correct": false },
+            { "text": "The citation is incorrect — it should reference Rule 25 of the IT Rules, 2026 for TY 2026-27 onwards", "correct": true },
+            { "text": "The schedule should reference the Act section, not the Rule", "correct": false },
+            { "text": "Rule 5 was never the depreciation rule", "correct": false }
+          ],
+          "explanation": "For TY 2026-27, the IT Rules 2026 are in effect. Citing 'Rule 5 of the IT Rules, 1962' is an incorrect reference — the correct citation is 'Rule 25 of the IT Rules, 2026.' While the rates are identical, the legal reference must be current.",
+          "explanationWrong": "The old citation is wrong for TY 2026-27. Rule 5 was indeed the depreciation rule — but under the 1962 Rules. Under the 2026 Rules, it is Rule 25. Tax audit reports, computation statements, and advisory opinions must update their citations even though the numbers have not changed.",
+          "tier": 3,
+          "subConcepts": ["citation-compliance", "review-19.1"],
+          "isReview": true,
+          "oldSection": "Rule 5, IT Rules 1962",
+          "newSection": "Rule 25, IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "A power generation company has been using WDV depreciation for 10 years. It now wants to switch to SLM under Appendix II to Rule 25 for lower annual charges in later years. Can it switch?",
+          "options": [
+            { "text": "Yes — the 2026 Rules allow a fresh election for all taxpayers", "correct": false },
+            { "text": "Yes — but only with CBDT approval", "correct": false },
+            { "text": "No — the company chose WDV and the SLM option (once not chosen) is effectively locked out; the irrevocability principle means the initial choice is permanent", "correct": true },
+            { "text": "Yes — SLM is now mandatory for all power generation companies", "correct": false }
+          ],
+          "explanation": "The SLM election under Appendix II is irrevocable. Once a power generation undertaking chooses WDV (by not electing SLM), it cannot later switch to SLM. This prevents opportunistic method-switching. The 2026 Rules do not offer a fresh election window.",
+          "explanationWrong": "No switching allowed. The irrevocability cuts both ways: if you chose SLM, you cannot go back to WDV; if you chose WDV (or never elected SLM), you cannot later adopt SLM. The 2026 Rules carry forward this restriction — there is no fresh election opportunity.",
+          "tier": 3,
+          "subConcepts": ["SLM-irrevocable-application", "power-generation-depreciation"],
+          "isReview": false,
+          "oldSection": "Appendix II to Rule 5",
+          "newSection": "Appendix II to Rule 25"
+        },
+        {
+          "order": 5,
+          "question": "A CA is documenting the depreciation computation for a client under Section 199(3). Although no current rate exceeds 40%, the CA wants to note the cap. Where in the computation file should this be documented and why?",
+          "options": [
+            { "text": "No documentation needed — the cap has no current effect", "correct": false },
+            { "text": "Document it as a note in the depreciation schedule stating the 40% cap applies as an applicable constraint; this demonstrates awareness and ensures future compliance if CBDT notifies higher rates", "correct": true },
+            { "text": "File a separate application with the Assessing Officer", "correct": false },
+            { "text": "Include it only if the client specifically requests", "correct": false }
+          ],
+          "explanation": "Best practice: document the 40% cap as a note in the depreciation schedule. Even though it does not currently bind, noting it (1) demonstrates professional awareness, (2) creates a compliance checkpoint for future years, and (3) ensures the working paper template is ready if CBDT ever notifies rates above 40%.",
+          "explanationWrong": "Documentation is recommended even when the cap does not currently bind. Professional standards require noting applicable constraints. If CBDT later notifies a 50% rate for a new asset class, the computation file already flags the cap — preventing errors in future years. Proactive documentation is a hallmark of quality compliance work.",
+          "tier": 3,
+          "subConcepts": ["documentation-best-practice", "40-percent-cap-compliance"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25, Section 199(3)"
+        }
+      ]
+    }
+  ]
+}

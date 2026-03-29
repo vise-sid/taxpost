@@ -1,0 +1,835 @@
+{
+  "unit": "19.1",
+  "title": "Income Tax Rules 2026 — Overview & Key Mappings",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Rules Consolidation — The Big Picture",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many rules did the Income Tax Rules 1962 contain, and how many rules does the Income Tax Rules 2026 contain?",
+          "options": [
+            { "text": "399 rules reduced to 190 rules", "correct": false },
+            { "text": "511 rules reduced to 333 rules", "correct": true },
+            { "text": "819 rules reduced to 536 rules", "correct": false },
+            { "text": "600 rules reduced to 400 rules", "correct": false }
+          ],
+          "explanation": "The 1962 Rules had 511 rules which have been consolidated into 333 rules under the 2026 Rules. This is a 35% reduction in rule count, achieved through merging redundant rules, removing obsolete provisions, and restructuring for clarity. The reduction mirrors the Act's consolidation from 819 to 536 sections.",
+          "explanationWrong": "511 to 333 rules. Do not confuse with the forms reduction (399 to 190) or the sections reduction (819 to 536). Three different consolidation numbers to remember: Sections 819 to 536, Rules 511 to 333, Forms 399 to 190.",
+          "tier": 1,
+          "subConcepts": ["rules-consolidation-511-to-333", "35-percent-reduction"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 2,
+          "question": "How many forms did the old Income Tax Rules 1962 contain, and how many forms does the 2026 Rules contain?",
+          "options": [
+            { "text": "511 forms reduced to 333 forms", "correct": false },
+            { "text": "300 forms reduced to 150 forms", "correct": false },
+            { "text": "399 forms reduced to 190 forms", "correct": true },
+            { "text": "450 forms reduced to 250 forms", "correct": false }
+          ],
+          "explanation": "The old Rules had 399 forms, reduced to 190 under the 2026 Rules. This is a 52% reduction in forms — even more aggressive than the rules reduction. Multiple forms were merged (like 15G and 15H into a single form 121), and obsolete forms were eliminated.",
+          "explanationWrong": "399 to 190 forms — a 52% reduction. The forms reduction is the most dramatic: more than half the forms are gone. Key mergers include 15G+15H into Form 121, 3CA+3CB+3CD into Form 26. The goal: reduce compliance burden on taxpayers and practitioners.",
+          "tier": 1,
+          "subConcepts": ["forms-reduction-399-to-190", "52-percent-form-reduction"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962 (Forms)",
+          "newSection": "Income Tax Rules 2026 (Forms)"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: What is the GENUINE structural change in Schedule VII compared to old entity exemptions?",
+          "options": [
+            { "text": "Tax rates for exempt entities were reduced", "correct": false },
+            { "text": "Entity-level exemption replaces old income-level exemption", "correct": true },
+            { "text": "All entities now need CBDT approval", "correct": false },
+            { "text": "Only government entities qualify", "correct": false }
+          ],
+          "explanation": "Schedule VII introduces entity-level exemption — the entire entity is exempt if all conditions are met, replacing the old income-level approach where only specific incomes were exempt. This creates an all-or-nothing compliance outcome.",
+          "explanationWrong": "Entity-level replaces income-level. Under the old Act, specific incomes of qualifying entities were exempt. Under Schedule VII, the entity itself is exempt. If conditions fail, ALL income becomes taxable — not just the non-compliant portion.",
+          "tier": 1,
+          "subConcepts": ["schedule-vii-review", "entity-level-exemption"],
+          "isReview": true,
+          "oldSection": "Sections 10(23C), 11-13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "Old Rule 2A (residential status determination) maps to which new rule number under the 2026 Rules?",
+          "options": [
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 25", "correct": false },
+            { "text": "Rule 279", "correct": true },
+            { "text": "Rule 280", "correct": false }
+          ],
+          "explanation": "Rule 2A becomes Rule 279 under the 2026 Rules. This is a significant jump in numbering — the 2026 Rules use a different numbering scheme where some rules from the early part of the old Rules map to much higher numbers in the new scheme.",
+          "explanationWrong": "Rule 279 is correct. The mapping is not sequential — old Rule 2A jumps to new Rule 279. Do not assume proximity in old numbering means proximity in new numbering. Key mappings: 2A to 279, 2BB to 280, 3 to 15, 5 to 25.",
+          "tier": 1,
+          "subConcepts": ["rule-2A-to-279", "residential-status-rule"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 5,
+          "question": "Old Rule 2BB (prescribed allowances for HRA and other exemptions) maps to which new rule number?",
+          "options": [
+            { "text": "Rule 279", "correct": false },
+            { "text": "Rule 280", "correct": true },
+            { "text": "Rule 281", "correct": false },
+            { "text": "Rule 15", "correct": false }
+          ],
+          "explanation": "Rule 2BB becomes Rule 280, sitting right next to Rule 279 (old 2A). These two rules — residential status (279) and prescribed allowances (280) — were close together under the old Rules (2A, 2BB) and remain adjacent under the 2026 Rules (279, 280).",
+          "explanationWrong": "Rule 280 is correct. Old 2A and 2BB are now 279 and 280 — they maintain their adjacency. This pairing is easy to remember: residential status and prescribed allowances stay together, just at a much higher number range.",
+          "tier": 1,
+          "subConcepts": ["rule-2BB-to-280", "prescribed-allowances-rule"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        }
+      ]
+    },
+    {
+      "title": "Key Rule Mappings — Salary & Depreciation",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Rule 3 (valuation of perquisites) maps to which new rule number under the 2026 Rules?",
+          "options": [
+            { "text": "Rule 3", "correct": false },
+            { "text": "Rule 15", "correct": true },
+            { "text": "Rule 25", "correct": false },
+            { "text": "Rule 279", "correct": false }
+          ],
+          "explanation": "Rule 3 becomes Rule 15 under the 2026 Rules. This is one of the most frequently used rules in practice — every employer computing TDS on salary needs to know the perquisite valuation rule. The rule number changes from 3 to 15, but the substantive content has important updates (covered in Unit 19.2).",
+          "explanationWrong": "Rule 15 is correct. Old Rule 3 (perquisite valuation) was probably the most cited salary-related rule. Under the 2026 Rules, it moves to Rule 15 with significant updates to accommodation percentages, meal limits, and gift thresholds.",
+          "tier": 1,
+          "subConcepts": ["rule-3-to-15", "perquisite-valuation-rule"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "Old Rule 5 (depreciation rates and methodology) maps to which new rule number?",
+          "options": [
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 20", "correct": false },
+            { "text": "Rule 25", "correct": true },
+            { "text": "Rule 30", "correct": false }
+          ],
+          "explanation": "Rule 5 becomes Rule 25 under the 2026 Rules. Depreciation is one of the most complex and frequently applied rules. The renumbering from 5 to 25 shifts it from the early part of the rules to a position that aligns with the new Act's section numbering for business income provisions.",
+          "explanationWrong": "Rule 25 is correct. The complete key mapping: Rule 2A to 279, Rule 2BB to 280, Rule 3 to 15, Rule 5 to 25. These four mappings cover residential status, allowances, perquisites, and depreciation — the most commonly used rules in practice.",
+          "tier": 1,
+          "subConcepts": ["rule-5-to-25", "depreciation-rule"],
+          "isReview": false,
+          "oldSection": "Rule 5",
+          "newSection": "Rule 25"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: How many conditions must a political party satisfy for exemption under Schedule VII?",
+          "options": [
+            { "text": "3 conditions", "correct": false },
+            { "text": "5 conditions", "correct": true },
+            { "text": "7 conditions", "correct": false },
+            { "text": "No conditions required", "correct": false }
+          ],
+          "explanation": "Political parties must satisfy 5 conditions for Schedule VII entity-level exemption: maintain books, get audited, file returns on time, restrict cash donations, and maintain donation records. Failure of ANY single condition costs the party its entire exemption.",
+          "explanationWrong": "5 conditions. Under the entity-level approach, all 5 must be met — 4 out of 5 is not sufficient. This all-or-nothing feature makes political party compliance far more critical under the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["schedule-vii-review", "political-party-5-conditions"],
+          "isReview": true,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "What is the approximate percentage reduction in rule count from the old Rules (511) to the 2026 Rules (333)?",
+          "options": [
+            { "text": "About 25%", "correct": false },
+            { "text": "About 35%", "correct": true },
+            { "text": "About 50%", "correct": false },
+            { "text": "About 65%", "correct": false }
+          ],
+          "explanation": "511 to 333 is a reduction of 178 rules, which is approximately 35%. Compare this with the forms reduction of 52% (399 to 190) and the sections reduction of about 35% (819 to 536). The rules and sections reductions are similar in magnitude, while forms saw the most aggressive consolidation.",
+          "explanationWrong": "About 35% reduction. The three consolidation percentages: Sections ~35% (819 to 536), Rules ~35% (511 to 333), Forms ~52% (399 to 190). Sections and rules had similar reductions; forms were cut by more than half.",
+          "tier": 1,
+          "subConcepts": ["35-percent-rule-reduction", "consolidation-percentages"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 5,
+          "question": "The four most important rule mappings for practising CAs are 2A→279, 2BB→280, 3→15, and 5→25. Which practical areas do these cover?",
+          "options": [
+            { "text": "TDS, TCS, penalties, appeals", "correct": false },
+            { "text": "Residential status, prescribed allowances, perquisite valuation, depreciation", "correct": true },
+            { "text": "Capital gains, set-off, carry-forward, assessment", "correct": false },
+            { "text": "Transfer pricing, GAAR, DTAA, advance rulings", "correct": false }
+          ],
+          "explanation": "These four rules cover the bread-and-butter of CA practice: Rule 279 (residential status determination), Rule 280 (HRA and prescribed allowances), Rule 15 (perquisite valuation for salary TDS), and Rule 25 (depreciation rates and methodology). Every CA dealing with salary or business income needs these.",
+          "explanationWrong": "Residential status, prescribed allowances, perquisite valuation, and depreciation. These are the four rules every CA uses regularly: 279 for determining a client's residential status, 280 for HRA calculations, 15 for computing perquisite values, and 25 for depreciation schedules. Master these four mappings first.",
+          "tier": 1,
+          "subConcepts": ["four-key-mappings", "practitioner-essentials"],
+          "isReview": false,
+          "oldSection": "Rules 2A, 2BB, 3, 5",
+          "newSection": "Rules 279, 280, 15, 25"
+        }
+      ]
+    },
+    {
+      "title": "Consolidation Philosophy & Form Mergers",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the primary objective of reducing 511 rules to 333 and 399 forms to 190?",
+          "options": [
+            { "text": "To increase government tax revenue", "correct": false },
+            { "text": "To reduce compliance burden and improve navigability for taxpayers and practitioners", "correct": true },
+            { "text": "To align with international tax treaties", "correct": false },
+            { "text": "To eliminate all exemptions and deductions", "correct": false }
+          ],
+          "explanation": "The consolidation's primary objective is reducing compliance burden. Fewer rules mean less to navigate; fewer forms mean less paperwork. The substantive obligations remain largely unchanged — it is the packaging that has been streamlined. This mirrors the Act's own consolidation philosophy.",
+          "explanationWrong": "Reducing compliance burden and improving navigability. The 2026 Rules follow the same philosophy as the 2025 Act: simplify the packaging without fundamentally changing the substance. A CA who knew 511 rules now needs to learn 333 — but the underlying tax law is mostly preserved.",
+          "tier": 1,
+          "subConcepts": ["compliance-burden-reduction", "navigability-improvement"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 2,
+          "question": "Which of the following is an example of form consolidation under the 2026 Rules?",
+          "options": [
+            { "text": "Form 16 split into Form 16A and Form 16B", "correct": false },
+            { "text": "Forms 15G and 15H (no-TDS declarations) merged into a single Form 121", "correct": true },
+            { "text": "ITR-1 and ITR-2 merged into a single return form", "correct": false },
+            { "text": "Form 26AS eliminated entirely", "correct": false }
+          ],
+          "explanation": "Forms 15G (for individuals below 60) and 15H (for senior citizens) have been merged into a single Form 121. The merged form covers both categories — the taxpayer simply indicates their age category. This is a classic consolidation: two forms that served the same purpose for different demographics merged into one.",
+          "explanationWrong": "15G and 15H merged into Form 121. These two forms had identical purposes (declaration for non-deduction of TDS) but different eligibility criteria. Merging them into Form 121 eliminates confusion about which form to use and reduces the forms count by one.",
+          "tier": 1,
+          "subConcepts": ["15G-15H-to-121", "form-merger-example"],
+          "isReview": false,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: What percentage of donations must an electoral trust distribute to maintain its Schedule VII exemption?",
+          "options": [
+            { "text": "75%", "correct": false },
+            { "text": "85%", "correct": false },
+            { "text": "95%", "correct": true },
+            { "text": "100%", "correct": false }
+          ],
+          "explanation": "Electoral trusts must distribute 95% of aggregate donations to registered political parties. The 5% retention is for administrative expenses. Under entity-level exemption, falling below 95% risks losing exemption on ALL income.",
+          "explanationWrong": "95% is the threshold. This is higher than the 85% application requirement for charitable trusts, reflecting the electoral trust's pure pass-through function. Under entity-level exemption, even a 1% shortfall (94% instead of 95%) can cost exemption on everything.",
+          "tier": 1,
+          "subConcepts": ["schedule-vii-review", "electoral-trust-95-percent"],
+          "isReview": true,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "Another major form consolidation: Old Forms 3CA, 3CB, and 3CD (tax audit forms) have been merged into which single form?",
+          "options": [
+            { "text": "Form 15", "correct": false },
+            { "text": "Form 25", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 30", "correct": false }
+          ],
+          "explanation": "Three tax audit forms — 3CA (audit report for persons carrying on business/profession with accounts under other law), 3CB (audit report for others), and 3CD (statement of particulars) — are consolidated into a single Form 26. This is a major simplification: instead of three forms, CAs now file one comprehensive audit form.",
+          "explanationWrong": "Form 26. The 3CA/3CB/3CD merger into Form 26 is the most impactful form consolidation for practising CAs. Every tax audit engagement previously required choosing between 3CA and 3CB, plus the mandatory 3CD. Now it is just Form 26 — one form, one filing.",
+          "tier": 1,
+          "subConcepts": ["3CA-3CB-3CD-to-26", "tax-audit-form-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 26AS (annual tax statement / tax passbook) has been renumbered to which form under the 2026 Rules?",
+          "options": [
+            { "text": "Form 150", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 190", "correct": false },
+            { "text": "Form 200", "correct": false }
+          ],
+          "explanation": "Form 26AS becomes Form 168. Form 26AS is the taxpayer's annual statement showing TDS/TCS credits, advance tax, and specified financial transactions. It is one of the most accessed tax forms and now carries the number 168 under the 2026 Rules.",
+          "explanationWrong": "Form 168 is correct. Every taxpayer checks Form 26AS before filing returns. The new number 168 needs to become second nature for practitioners. The form's content and purpose remain identical — only the number changes.",
+          "tier": 1,
+          "subConcepts": ["form-26AS-to-168", "tax-passbook-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 26AS",
+          "newSection": "Form 168"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Numbering Logic",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why do old Rules 2A and 2BB map to such high numbers (279, 280) under the 2026 Rules, while old Rules 3 and 5 map to lower numbers (15, 25)?",
+          "options": [
+            { "text": "It is completely random — no pattern exists", "correct": false },
+            { "text": "The 2026 Rules are numbered to align with the corresponding sections of the 2025 Act, placing some rules in different positions based on the Act structure", "correct": true },
+            { "text": "Rules 279 and 280 are emergency provisions added at the last minute", "correct": false },
+            { "text": "Higher-numbered rules are less important", "correct": false }
+          ],
+          "explanation": "The 2026 Rules attempt to align rule numbers with the corresponding provisions of the 2025 Act. Rules 2A and 2BB (residential status, allowances) correspond to provisions that sit later in the 2025 Act, hence the higher rule numbers (279, 280). Rules 3 and 5 (perquisites, depreciation) correspond to earlier provisions, hence lower numbers (15, 25).",
+          "explanationWrong": "Alignment with Act section numbers is the logic. The 2026 Rules try to position each rule near the corresponding Act section it implements. This makes it easier to find the relevant rule when reading a section. However, the alignment is not perfect — it is directional rather than exact.",
+          "tier": 2,
+          "subConcepts": ["numbering-logic-act-alignment", "rule-section-correspondence"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 2,
+          "question": "The old Rules had many rules with sub-numbers (like 8D, 8DD, 11AA, 11UA, 12A, 12AB). What happened to these sub-numbered rules under the 2026 Rules?",
+          "options": [
+            { "text": "They kept their sub-numbers", "correct": false },
+            { "text": "They were merged into their parent rules", "correct": false },
+            { "text": "They received clean integer numbers — no more alphabetic suffixes", "correct": true },
+            { "text": "They were all eliminated as obsolete", "correct": false }
+          ],
+          "explanation": "The proliferation of sub-numbered rules (8D, 8DD, 11AA, 11UA, etc.) was a symptom of decades of amendments patching new rules into the old framework. The 2026 Rules eliminate all alphabetic suffixes, assigning clean integer numbers to every rule. This alone improves navigability dramatically.",
+          "explanationWrong": "Clean integer numbers — no more alphabetic suffixes. Under the old Rules, finding Rule 11UA (valuation of unquoted shares) required knowing it was squeezed between 11U and 11UB — a nightmare for navigation. The 2026 Rules assign proper sequential numbers, ending the alphabet soup.",
+          "tier": 2,
+          "subConcepts": ["clean-integer-numbering", "alphabet-suffix-eliminated"],
+          "isReview": false,
+          "oldSection": "Rules 8D, 11AA, 11UA, etc.",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: Under Schedule VII, if a charitable hospital applies only 82% of income for charitable purposes (below the 85% threshold), what is the consequence under the old Act vs the 2025 Act?",
+          "options": [
+            { "text": "Both: entire income taxable", "correct": false },
+            { "text": "Old Act: only 3% shortfall taxed; 2025 Act: potentially ALL income taxable", "correct": true },
+            { "text": "Both: only 3% shortfall taxed", "correct": false },
+            { "text": "Old Act: ALL income taxable; 2025 Act: only 3% taxed", "correct": false }
+          ],
+          "explanation": "Under the old Act's income-level approach, only the 3% shortfall was taxed. Under Schedule VII's entity-level approach, failing the 85% threshold can cost the entity exemption on ALL its income. A 3% compliance gap can trigger a 100% tax consequence.",
+          "explanationWrong": "Old Act: ~3% taxed; 2025 Act: potentially 100% taxed. This is the starkest illustration of the entity-level vs income-level change. Trustees who were comfortable with 80-82% application under the old Act must now ensure 85% or higher to protect the entity's entire exemption.",
+          "tier": 2,
+          "subConcepts": ["schedule-vii-review", "entity-level-consequence-comparison"],
+          "isReview": true,
+          "oldSection": "Section 11(1)(a), 13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "Which consolidation achieved the highest percentage reduction — rules, forms, or Act sections?",
+          "options": [
+            { "text": "Rules (511 to 333 — ~35%)", "correct": false },
+            { "text": "Act sections (819 to 536 — ~35%)", "correct": false },
+            { "text": "Forms (399 to 190 — ~52%)", "correct": true },
+            { "text": "All three had identical reduction percentages", "correct": false }
+          ],
+          "explanation": "Forms saw the most aggressive reduction at approximately 52% (399 to 190). Rules and Act sections both reduced by approximately 35%. The higher form reduction was possible because many forms were truly redundant — serving identical purposes for slightly different categories of taxpayers.",
+          "explanationWrong": "Forms at ~52% had the highest reduction. The reason: forms had the most redundancy. Many forms existed in pairs (like 15G/15H, 3CA/3CB) or triples (3CA/3CB/3CD) that served essentially the same function. Merging these was straightforward. Rules and sections had less redundancy, limiting consolidation to ~35%.",
+          "tier": 2,
+          "subConcepts": ["forms-highest-reduction", "redundancy-driven-consolidation"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        },
+        {
+          "order": 5,
+          "question": "A CA who memorised 'Rule 3 for perquisites, Rule 5 for depreciation' for 30 years must now learn '15 for perquisites, 25 for depreciation.' What is the practical transition challenge?",
+          "options": [
+            { "text": "The rules have been eliminated — there is nothing to learn", "correct": false },
+            { "text": "The substance is different — CAs must relearn the entire rule content", "correct": false },
+            { "text": "The substance is mostly preserved but the numbering changes — CAs must relearn the reference numbers while applying similar underlying rules", "correct": true },
+            { "text": "CAs can continue using old rule numbers — the department accepts both", "correct": false }
+          ],
+          "explanation": "The transition challenge is primarily a renumbering exercise, not a relearning exercise. The underlying rules are substantially similar (with important updates like accommodation percentages). CAs must retrain their muscle memory on rule numbers while recognising the specific substantive changes where they exist.",
+          "explanationWrong": "Relearn reference numbers, apply similar rules. The 2026 Rules are not a wholesale rewrite — they are a reorganisation with selective updates. A CA who knew Rule 3 cold still knows 90% of Rule 15. The 10% that changed (accommodation rates, meal limits, etc.) is what requires careful study.",
+          "tier": 2,
+          "subConcepts": ["numbering-transition-challenge", "substance-vs-packaging"],
+          "isReview": false,
+          "oldSection": "Rules 3, 5",
+          "newSection": "Rules 15, 25"
+        }
+      ]
+    },
+    {
+      "title": "Form Renumbering Patterns",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Forms 49A (PAN application for residents) and 49AA (PAN application for non-residents) map to which new form numbers?",
+          "options": [
+            { "text": "Forms 93/94 (residents) and 95/96 (non-residents)", "correct": true },
+            { "text": "Forms 90/91 (residents) and 92/93 (non-residents)", "correct": false },
+            { "text": "Forms 100/101 (residents) and 102/103 (non-residents)", "correct": false },
+            { "text": "Merged into a single Form 93", "correct": false }
+          ],
+          "explanation": "Form 49A (resident PAN application) splits into Forms 93 and 94 under the 2026 Rules. Form 49AA (NR PAN application) splits into Forms 95 and 96. The split likely reflects different application types (new PAN vs correction/reprint) within each category.",
+          "explanationWrong": "49A becomes 93/94, 49AA becomes 95/96. The PAN forms have actually expanded from 2 to 4 — counter to the general consolidation trend. This expansion reflects the need for more specific form types within the PAN application process (new application vs correction/reprint for both residents and NRs).",
+          "tier": 2,
+          "subConcepts": ["49A-to-93-94", "49AA-to-95-96", "pan-form-expansion"],
+          "isReview": false,
+          "oldSection": "Forms 49A, 49AA",
+          "newSection": "Forms 93, 94, 95, 96"
+        },
+        {
+          "order": 2,
+          "question": "Old Form 49B (TAN application) maps to which new form number?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 135", "correct": true },
+            { "text": "Form 140", "correct": false }
+          ],
+          "explanation": "Form 49B (TAN application) becomes Form 135. Every entity required to deduct or collect tax needs a TAN, and they apply using this form. The form content is substantially the same — only the number changes.",
+          "explanationWrong": "Form 135 is correct. TAN application form 49B to 135. The PAN and TAN form numbers are now in proximity: PAN forms are 93-96, TAN form is 135. Under the old Rules, PAN (49A/49AA) and TAN (49B) were adjacent — under the new Rules, they are more spread out.",
+          "tier": 2,
+          "subConcepts": ["49B-to-135", "tan-application-form"],
+          "isReview": false,
+          "oldSection": "Form 49B",
+          "newSection": "Form 135"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: Old Form 10BC (electoral trust audit report) maps to which new form number?",
+          "options": [
+            { "text": "Form 178", "correct": false },
+            { "text": "Form 179", "correct": false },
+            { "text": "Form 181", "correct": true },
+            { "text": "Form 185", "correct": false }
+          ],
+          "explanation": "Form 10BC becomes Form 181. This is the electoral trust audit report certifying 95% distribution compliance and other Schedule VII conditions.",
+          "explanationWrong": "Form 181 is correct. The electoral trust audit form is critical for maintaining entity-level exemption. Without filing Form 181, the trust cannot prove compliance with the 95% distribution requirement.",
+          "tier": 2,
+          "subConcepts": ["schedule-vii-review", "form-10BC-to-181"],
+          "isReview": true,
+          "oldSection": "Form 10BC",
+          "newSection": "Form 181"
+        },
+        {
+          "order": 4,
+          "question": "The TDS return forms have been renumbered: 24Q, 26Q, 27Q, and 27EQ. What are their new form numbers?",
+          "options": [
+            { "text": "138, 140, 144, 143", "correct": true },
+            { "text": "130, 131, 132, 133", "correct": false },
+            { "text": "150, 151, 152, 153", "correct": false },
+            { "text": "121, 122, 123, 124", "correct": false }
+          ],
+          "explanation": "24Q (salary TDS return) becomes 138, 26Q (non-salary TDS return) becomes 140, 27Q (NR TDS return) becomes 144, and 27EQ (TCS return) becomes 143. Note that 27EQ (TCS) becomes 143, which sits between 140 and 144 — not in the expected sequence.",
+          "explanationWrong": "24Q→138, 26Q→140, 27Q→144, 27EQ→143. The TCS form (27EQ→143) breaks the expected sequence — it sits between the non-salary TDS (140) and NR TDS (144) forms rather than coming after all TDS forms. This is an important quirk to memorise.",
+          "tier": 2,
+          "subConcepts": ["tds-return-renumbering", "24Q-138", "26Q-140", "27Q-144", "27EQ-143"],
+          "isReview": false,
+          "oldSection": "Forms 24Q, 26Q, 27Q, 27EQ",
+          "newSection": "Forms 138, 140, 144, 143"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 16 (TDS certificate for salary) and Form 16A (TDS certificate for non-salary) map to which new form numbers?",
+          "options": [
+            { "text": "Form 130 and Form 131", "correct": true },
+            { "text": "Form 138 and Form 140", "correct": false },
+            { "text": "Form 121 and Form 122", "correct": false },
+            { "text": "Form 168 and Form 169", "correct": false }
+          ],
+          "explanation": "Form 16 becomes Form 130 and Form 16A becomes Form 131. These are the TDS certificates issued to employees (130) and non-salary deductees (131). Every salaried person receives a Form 130 (old Form 16) from their employer, and every vendor/consultant receives Form 131 (old Form 16A).",
+          "explanationWrong": "Form 130 and Form 131. The TDS certificate forms maintain their adjacency: old 16 and 16A become new 130 and 131. Do not confuse with TDS return forms (138, 140, 144, 143) — certificates are what you GIVE to deductees, returns are what you FILE with the department.",
+          "tier": 2,
+          "subConcepts": ["form-16-to-130", "form-16A-to-131", "certificate-vs-return"],
+          "isReview": false,
+          "oldSection": "Forms 16, 16A",
+          "newSection": "Forms 130, 131"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Referencing Rules, Forms & Sections",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA computing salary TDS needs three references: the perquisite valuation rule, the TDS certificate form, and the TDS return form. Under the 2026 Rules, what are these?",
+          "options": [
+            { "text": "Rule 15, Form 130, Form 138", "correct": true },
+            { "text": "Rule 25, Form 131, Form 140", "correct": false },
+            { "text": "Rule 279, Form 121, Form 143", "correct": false },
+            { "text": "Rule 3, Form 16, Form 24Q", "correct": false }
+          ],
+          "explanation": "For salary TDS: Rule 15 (perquisite valuation, old Rule 3), Form 130 (salary TDS certificate, old Form 16), and Form 138 (salary TDS return, old Form 24Q). These three references are the salary TDS practitioner's essential toolkit under the 2026 Rules.",
+          "explanationWrong": "Rule 15, Form 130, Form 138. The salary TDS trio: Rule 15 tells you HOW to value perquisites, Form 130 is the certificate you GIVE to the employee, Form 138 is the return you FILE with the department. Old equivalents: Rule 3, Form 16, Form 24Q.",
+          "tier": 2,
+          "subConcepts": ["salary-tds-trio", "rule-15-form-130-form-138"],
+          "isReview": false,
+          "oldSection": "Rule 3, Form 16, Form 24Q",
+          "newSection": "Rule 15, Form 130, Form 138"
+        },
+        {
+          "order": 2,
+          "question": "For non-salary TDS, a CA needs the TDS certificate form and the TDS return form. Under the 2026 Rules, what are these?",
+          "options": [
+            { "text": "Form 130 and Form 138", "correct": false },
+            { "text": "Form 131 and Form 140", "correct": true },
+            { "text": "Form 135 and Form 143", "correct": false },
+            { "text": "Form 121 and Form 168", "correct": false }
+          ],
+          "explanation": "For non-salary TDS: Form 131 (TDS certificate, old Form 16A) and Form 140 (TDS return, old Form 26Q). Salary TDS has its own pair (130/138), and non-salary has its pair (131/140).",
+          "explanationWrong": "Form 131 and Form 140. The form pairs are logical: Salary → 130 (certificate) + 138 (return). Non-salary → 131 (certificate) + 140 (return). The certificate numbers are adjacent (130, 131), and the return numbers are 138 and 140 (with TCS 143 and NR TDS 144 filling nearby slots).",
+          "tier": 2,
+          "subConcepts": ["non-salary-tds-pair", "form-131-form-140"],
+          "isReview": false,
+          "oldSection": "Form 16A, Form 26Q",
+          "newSection": "Form 131, Form 140"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: Under Schedule VII, commodity boards occupy S.No.33-40. How many boards are listed?",
+          "options": [
+            { "text": "4 boards", "correct": false },
+            { "text": "6 boards", "correct": false },
+            { "text": "8 boards", "correct": true },
+            { "text": "10 boards", "correct": false }
+          ],
+          "explanation": "8 commodity boards occupy S.No.33-40 — Coffee Board, Rubber Board, Tea Board, Tobacco Board, Cardamom Board, Coir Board, Spices Board, and Marine Products Export Development Authority.",
+          "explanationWrong": "8 boards in S.No.33-40. Each board gets a separate entry for precision, though they share the same entity-level exemption treatment under Schedule VII.",
+          "tier": 2,
+          "subConcepts": ["schedule-vii-review", "8-commodity-boards"],
+          "isReview": true,
+          "oldSection": "Section 10(29A)",
+          "newSection": "Schedule VII, S.No.33-40"
+        },
+        {
+          "order": 4,
+          "question": "A taxpayer wants to check their TDS credits before filing their return. Under the 2026 Rules, which form do they access?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 190", "correct": false }
+          ],
+          "explanation": "Form 168 (old Form 26AS) is the annual tax statement showing all TDS/TCS credits, advance tax payments, and specified financial transactions. Every taxpayer should verify Form 168 before filing their return to ensure all credits are reflected.",
+          "explanationWrong": "Form 168 (old 26AS). This is the taxpayer's tax passbook — it shows everything the department knows about your tax payments. Checking Form 168 before filing is essential to avoid credit mismatches that trigger processing delays or demand notices.",
+          "tier": 2,
+          "subConcepts": ["form-168-tax-statement", "pre-filing-verification"],
+          "isReview": false,
+          "oldSection": "Form 26AS",
+          "newSection": "Form 168"
+        },
+        {
+          "order": 5,
+          "question": "The old Rules had Forms 3CA (audit report for businesses with statutory audit) and 3CB (audit report for others). Why were they merged into Form 26?",
+          "options": [
+            { "text": "Tax audit is no longer required", "correct": false },
+            { "text": "The distinction between entities with statutory audit and those without was creating unnecessary complexity — a single form with appropriate sections handles both", "correct": true },
+            { "text": "Only businesses with statutory audit need to file now", "correct": false },
+            { "text": "3CB was eliminated — only 3CA remains as Form 26", "correct": false }
+          ],
+          "explanation": "The 3CA/3CB/3CD trinity was unnecessarily fragmented. 3CA and 3CB served the same fundamental purpose (tax audit report) for different categories, and 3CD was always filed with either. Form 26 consolidates all three into a single form with sections that adapt based on the entity type. This eliminates the 'which form do I use?' confusion.",
+          "explanationWrong": "Single adaptive form handles both categories. The merger into Form 26 is elegant: instead of choosing between 3CA and 3CB (a common source of errors), the practitioner files Form 26 and selects the applicable section within it. The 3CD particulars are also integrated, eliminating a separate filing.",
+          "tier": 2,
+          "subConcepts": ["3CA-3CB-merger-rationale", "form-26-adaptive-design"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        }
+      ]
+    },
+    {
+      "title": "Practical Transition Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA files a salary TDS return for Q1 of FY 2026-27 using old Form 24Q instead of new Form 138. What is the likely outcome?",
+          "options": [
+            { "text": "The department will accept it — old forms are valid during the transition year", "correct": false },
+            { "text": "The return will be rejected — the 2026 Rules require Form 138 for salary TDS returns filed under the new Act", "correct": true },
+            { "text": "The return will be accepted with a Rs 200 penalty", "correct": false },
+            { "text": "The return will be auto-converted to Form 138 by the system", "correct": false }
+          ],
+          "explanation": "FY 2026-27 falls under the 2025 Act and 2026 Rules. Using old Form 24Q instead of new Form 138 will result in rejection — the filing system will be configured for new form numbers. CAs must transition to the new form numbers from April 1, 2026.",
+          "explanationWrong": "The return will be rejected. The 2026 Rules' form numbers are not optional — they replace the old numbers from FY 2026-27 onwards. A CA filing with old form numbers is filing an incorrect form, which the system will reject. There is no grace period for using old numbers.",
+          "tier": 3,
+          "subConcepts": ["form-number-transition", "no-grace-period", "system-rejection-risk"],
+          "isReview": false,
+          "oldSection": "Form 24Q",
+          "newSection": "Form 138"
+        },
+        {
+          "order": 2,
+          "question": "A payroll software vendor needs to update their system for the 2026 Rules. Which form number changes are MOST critical for immediate implementation?",
+          "options": [
+            { "text": "PAN forms (93-96) and TAN form (135) only", "correct": false },
+            { "text": "Form 130 (salary TDS certificate), Form 138 (salary TDS return), and Rule 15 (perquisite valuation) — the core salary compliance forms", "correct": true },
+            { "text": "Form 168 (26AS) only", "correct": false },
+            { "text": "Form 26 (tax audit) only", "correct": false }
+          ],
+          "explanation": "Payroll software processes salary TDS daily. The most critical updates are: Rule 15 (perquisite valuation — substantive changes in accommodation rates, meal limits, etc.), Form 130 (salary TDS certificate for employees), and Form 138 (salary TDS return filed quarterly). These are high-frequency, high-volume operations that must be correct from Day 1.",
+          "explanationWrong": "Salary TDS forms and Rule 15 are the priority. Payroll software generates Form 130 for every employee and files Form 138 every quarter. Getting these wrong affects hundreds of thousands of taxpayers. PAN forms (93-96) and tax audit form (26) are lower frequency and less urgent for payroll vendors.",
+          "tier": 3,
+          "subConcepts": ["payroll-software-transition", "high-frequency-forms", "priority-implementation"],
+          "isReview": false,
+          "oldSection": "Rule 3, Form 16, Form 24Q",
+          "newSection": "Rule 15, Form 130, Form 138"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: Under Schedule VII, what happens if a recognised provident fund invests in non-prescribed investments?",
+          "options": [
+            { "text": "Only the non-prescribed investment income is taxed", "correct": false },
+            { "text": "The fund may lose entity-level exemption entirely — all income becomes taxable", "correct": true },
+            { "text": "A penalty of 30% is imposed on the non-prescribed investment", "correct": false },
+            { "text": "The Commissioner issues a warning letter", "correct": false }
+          ],
+          "explanation": "Under entity-level exemption, investing in non-prescribed modes violates a Schedule VII condition, risking loss of exemption on ALL the fund's income. The old Act would have taxed only the non-prescribed investment income.",
+          "explanationWrong": "Entire exemption at risk. The entity-level approach makes investment restriction compliance critical. A PF fund with Rs 500 crore in prescribed investments and Rs 2 crore in non-prescribed investments could see the entire Rs 502 crore become taxable.",
+          "tier": 3,
+          "subConcepts": ["schedule-vii-review", "pf-investment-compliance"],
+          "isReview": true,
+          "oldSection": "Section 10(25)",
+          "newSection": "Schedule VII, S.No.22-24"
+        },
+        {
+          "order": 4,
+          "question": "A CA practice handles 200 tax audits annually. Under the old Rules, they filed Forms 3CA/3CB + 3CD (400-600 forms per year). Under the 2026 Rules, how many forms do they file?",
+          "options": [
+            { "text": "400 forms — same as before", "correct": false },
+            { "text": "600 forms — more complexity added", "correct": false },
+            { "text": "200 forms — each audit is a single Form 26", "correct": true },
+            { "text": "100 forms — half the audits are now exempt from filing", "correct": false }
+          ],
+          "explanation": "Each tax audit now requires a single Form 26 instead of 2-3 forms (3CA or 3CB plus 3CD). For 200 audits: old regime = 400-600 forms (200 audit reports + 200 3CD + potentially duplicate filings). New regime = 200 Form 26 filings. The consolidation cuts filing volume by 50-66%.",
+          "explanationWrong": "200 forms — one Form 26 per audit. This is the practical benefit of the 3CA/3CB/3CD merger into Form 26. A CA practice no longer needs to determine 3CA vs 3CB, prepare 3CD separately, and file multiple forms. One form, one filing, one-third the paperwork.",
+          "tier": 3,
+          "subConcepts": ["tax-audit-volume-reduction", "form-26-practical-benefit"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 5,
+          "question": "A senior citizen who previously filed Form 15H (no-TDS declaration) every year must now file Form 121 instead. What additional category of taxpayers also uses Form 121?",
+          "options": [
+            { "text": "Non-residents", "correct": false },
+            { "text": "Individuals below 60 (who previously filed Form 15G)", "correct": true },
+            { "text": "Corporate entities", "correct": false },
+            { "text": "HUFs only", "correct": false }
+          ],
+          "explanation": "Form 121 merges old Form 15G (for individuals below 60 and HUFs) and Form 15H (for senior citizens above 60). Both categories now use a single Form 121, selecting their applicable age category within the form. The merger eliminates confusion about which form to use and reduces the bank/institution's form processing burden.",
+          "explanationWrong": "Individuals below 60 who filed Form 15G. The merger of 15G and 15H into Form 121 is intuitive: both forms declared the same thing ('my income is below the taxable limit, so do not deduct TDS'). The only difference was the age criterion, which is now a field within Form 121 rather than a separate form.",
+          "tier": 3,
+          "subConcepts": ["15G-15H-merged-Form-121", "senior-citizen-transition", "form-121-categories"],
+          "isReview": false,
+          "oldSection": "Forms 15G, 15H",
+          "newSection": "Form 121"
+        }
+      ]
+    },
+    {
+      "title": "Complete Mapping Mastery — Rules",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA client asks for a quick-reference card with the four most important rule mappings. Which set is correct?",
+          "options": [
+            { "text": "2A→279, 2BB→280, 3→15, 5→25", "correct": true },
+            { "text": "2A→15, 2BB→25, 3→279, 5→280", "correct": false },
+            { "text": "2A→25, 2BB→15, 3→280, 5→279", "correct": false },
+            { "text": "2A→280, 2BB→279, 3→25, 5→15", "correct": false }
+          ],
+          "explanation": "The four essential mappings: Rule 2A (residential status) → 279, Rule 2BB (prescribed allowances/HRA) → 280, Rule 3 (perquisite valuation) → 15, Rule 5 (depreciation) → 25. Group them: the '2-series' rules (2A, 2BB) jump to the 279-280 range; the low-number rules (3, 5) move to 15, 25.",
+          "explanationWrong": "2A→279, 2BB→280, 3→15, 5→25. Memory trick: the '2-series' rules go HIGH (279, 280), the single-digit rules go LOW (15, 25). Within each group, they maintain their relative order: 2A before 2BB maps to 279 before 280; 3 before 5 maps to 15 before 25.",
+          "tier": 3,
+          "subConcepts": ["four-essential-mappings", "memory-technique"],
+          "isReview": false,
+          "oldSection": "Rules 2A, 2BB, 3, 5",
+          "newSection": "Rules 279, 280, 15, 25"
+        },
+        {
+          "order": 2,
+          "question": "Match each old form to its new number: Form 16, Form 16A, Form 24Q, Form 26Q, Form 26AS.",
+          "options": [
+            { "text": "130, 131, 138, 140, 168", "correct": true },
+            { "text": "138, 140, 130, 131, 168", "correct": false },
+            { "text": "130, 131, 140, 138, 168", "correct": false },
+            { "text": "131, 130, 138, 144, 168", "correct": false }
+          ],
+          "explanation": "Form 16→130, Form 16A→131, Form 24Q→138, Form 26Q→140, Form 26AS→168. Pattern: TDS certificates (130-131) are in the low 130s, TDS returns (138-144) are in the high 130s/low 140s, and the tax statement (168) is higher. These five form numbers cover 80% of a salary-focused CA's form needs.",
+          "explanationWrong": "130, 131, 138, 140, 168. These five form mappings are the bread-and-butter of tax practice. Certificates to deductees (130, 131), returns to department (138, 140), and the master tax statement (168). Memorise them as three groups: certificates, returns, statement.",
+          "tier": 3,
+          "subConcepts": ["five-essential-form-mappings", "three-group-structure"],
+          "isReview": false,
+          "oldSection": "Forms 16, 16A, 24Q, 26Q, 26AS",
+          "newSection": "Forms 130, 131, 138, 140, 168"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: Under Schedule VII, an electoral trust distributes only 94% of its donations (1% below the 95% threshold). Under the entity-level approach, what is the consequence?",
+          "options": [
+            { "text": "Only the 1% shortfall amount is taxed", "correct": false },
+            { "text": "A warning is issued for the first year", "correct": false },
+            { "text": "The trust risks losing entity-level exemption on ALL its income", "correct": true },
+            { "text": "The trust retains 94% exemption proportionally", "correct": false }
+          ],
+          "explanation": "Under entity-level exemption, a 1% shortfall triggers potential loss of ALL exemption. There is no proportional credit. A trust distributing 94% instead of 95% could see its entire income become taxable.",
+          "explanationWrong": "ALL income at risk. The entity-level approach is binary: 95% or above = full exemption; below 95% = potential total loss. No partial credit for being close to the threshold.",
+          "tier": 3,
+          "subConcepts": ["schedule-vii-review", "94-percent-insufficient"],
+          "isReview": true,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "A CA training junior staff creates a mapping table. Group A: Rules used daily (perquisites, depreciation). Group B: Rules used periodically (residential status, HRA). Match each group to old→new rule numbers.",
+          "options": [
+            { "text": "Group A: 3→15, 5→25; Group B: 2A→279, 2BB→280", "correct": true },
+            { "text": "Group A: 2A→279, 2BB→280; Group B: 3→15, 5→25", "correct": false },
+            { "text": "Group A: 3→279, 5→280; Group B: 2A→15, 2BB→25", "correct": false },
+            { "text": "Group A: 2A→15, 5→25; Group B: 3→279, 2BB→280", "correct": false }
+          ],
+          "explanation": "Group A (daily use): Rule 3→15 (perquisites — used in every salary computation) and Rule 5→25 (depreciation — used in every business income computation). Group B (periodic use): Rule 2A→279 (residential status — determined once per year per client) and Rule 2BB→280 (HRA cities — checked when employees claim HRA exemption).",
+          "explanationWrong": "Group A: 3→15 and 5→25 (daily); Group B: 2A→279 and 2BB→280 (periodic). The practical grouping helps prioritise learning: master the daily-use rules (15, 25) first, then learn the periodic-use rules (279, 280). Both groups are essential, but the daily-use rules will be referenced hundreds of times in the first month.",
+          "tier": 3,
+          "subConcepts": ["daily-vs-periodic-rules", "prioritised-learning-approach"],
+          "isReview": false,
+          "oldSection": "Rules 2A, 2BB, 3, 5",
+          "newSection": "Rules 15, 25, 279, 280"
+        },
+        {
+          "order": 5,
+          "question": "A CA practice is creating a transition checklist. What are the three consolidation numbers they should communicate to all clients? (Sections, Rules, Forms)",
+          "options": [
+            { "text": "819→536, 511→333, 399→190", "correct": true },
+            { "text": "536→819, 333→511, 190→399", "correct": false },
+            { "text": "819→333, 511→190, 399→536", "correct": false },
+            { "text": "800→500, 500→300, 400→200", "correct": false }
+          ],
+          "explanation": "The three consolidation figures: Act sections from 819 to 536 (~35% reduction), Rules from 511 to 333 (~35% reduction), and Forms from 399 to 190 (~52% reduction). These numbers frame the scale of the transition and reassure clients that the change is primarily a reorganisation, not a revolution.",
+          "explanationWrong": "819→536, 511→333, 399→190. These three numbers tell the complete consolidation story. The message to clients: the tax law has been repackaged into fewer sections, fewer rules, and far fewer forms. Your tax obligations are largely the same — the reference numbers are different.",
+          "tier": 3,
+          "subConcepts": ["three-consolidation-numbers", "client-communication"],
+          "isReview": false,
+          "oldSection": "Income Tax Act 1961, Rules 1962",
+          "newSection": "Income Tax Act 2025, Rules 2026"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Form & Rule Integration",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA firm processes salary TDS, non-salary TDS, TCS, and NR TDS. List the four TDS/TCS return form numbers under the 2026 Rules in order: salary, non-salary, TCS, NR.",
+          "options": [
+            { "text": "138, 140, 143, 144", "correct": true },
+            { "text": "130, 131, 135, 168", "correct": false },
+            { "text": "140, 138, 144, 143", "correct": false },
+            { "text": "138, 143, 140, 144", "correct": false }
+          ],
+          "explanation": "Salary TDS return = Form 138 (old 24Q), Non-salary TDS return = Form 140 (old 26Q), TCS return = Form 143 (old 27EQ), NR TDS return = Form 144 (old 27Q). Note the TCS form (143) sits between non-salary (140) and NR (144) — not at the end.",
+          "explanationWrong": "138, 140, 143, 144. The return forms cluster in the 138-144 range. Easy mnemonic: 138 (salary) → 140 (non-salary) → 143 (TCS) → 144 (NR). Two gaps in the sequence: 139 and 141-142 are used for other forms, and TCS (143) comes before NR TDS (144).",
+          "tier": 3,
+          "subConcepts": ["four-return-forms", "return-form-sequence"],
+          "isReview": false,
+          "oldSection": "Forms 24Q, 26Q, 27EQ, 27Q",
+          "newSection": "Forms 138, 140, 143, 144"
+        },
+        {
+          "order": 2,
+          "question": "An individual taxpayer's annual interaction with the new form numbers involves: checking tax credits (Form ___), receiving salary certificate (Form ___), and submitting no-TDS declaration if eligible (Form ___). Fill in the blanks.",
+          "options": [
+            { "text": "168, 130, 121", "correct": true },
+            { "text": "130, 138, 168", "correct": false },
+            { "text": "121, 168, 130", "correct": false },
+            { "text": "140, 131, 135", "correct": false }
+          ],
+          "explanation": "Tax credits = Form 168 (old 26AS), Salary certificate = Form 130 (old Form 16), No-TDS declaration = Form 121 (old 15G/15H). These three forms represent the typical salaried taxpayer's annual tax compliance touchpoints. Every salaried individual should know these three numbers.",
+          "explanationWrong": "168, 130, 121 — the taxpayer's annual trio. Check credits on 168, receive salary certificate as 130, and submit no-TDS declaration on 121 if income is below threshold. These three form numbers replace the familiar 26AS, Form 16, and 15G/15H.",
+          "tier": 3,
+          "subConcepts": ["taxpayer-annual-forms", "168-130-121-trio"],
+          "isReview": false,
+          "oldSection": "Forms 26AS, 16, 15G/15H",
+          "newSection": "Forms 168, 130, 121"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.7: A political party meets 4 out of 5 Schedule VII conditions. What proportion of its income retains exemption?",
+          "options": [
+            { "text": "80% (4/5 proportional)", "correct": false },
+            { "text": "100% — 4 out of 5 is sufficient", "correct": false },
+            { "text": "0% — entity-level exemption requires ALL conditions; 4/5 means total loss", "correct": true },
+            { "text": "50% — partial compliance earns partial exemption", "correct": false }
+          ],
+          "explanation": "Zero percent. Entity-level exemption under Schedule VII requires ALL conditions to be met. The conditions are conjunctive (AND logic). Meeting 4 out of 5 earns zero exemption, not 80% exemption.",
+          "explanationWrong": "Zero. There is no proportional credit under entity-level exemption. All conditions must be satisfied — one failure costs everything. This is the defining feature of Schedule VII.",
+          "tier": 3,
+          "subConcepts": ["schedule-vii-review", "zero-proportional-credit"],
+          "isReview": true,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "A CA firm's training material lists the complete form ecosystem for TDS compliance. Match: Certificates (salary/non-salary), Returns (salary/non-salary/NR/TCS), Tax Statement, and PAN/TAN applications.",
+          "options": [
+            { "text": "Certificates: 130/131; Returns: 138/140/144/143; Statement: 168; PAN: 93-96; TAN: 135", "correct": true },
+            { "text": "Certificates: 138/140; Returns: 130/131/144/143; Statement: 168; PAN: 93-96; TAN: 135", "correct": false },
+            { "text": "Certificates: 130/131; Returns: 138/140/143/144; Statement: 121; PAN: 93-96; TAN: 168", "correct": false },
+            { "text": "Certificates: 121/135; Returns: 138/140/143/168; Statement: 130; PAN: 93-96; TAN: 131", "correct": false }
+          ],
+          "explanation": "The complete TDS ecosystem: Certificates (issued to deductees) — 130 (salary) and 131 (non-salary). Returns (filed with department) — 138 (salary), 140 (non-salary), 144 (NR), 143 (TCS). Tax Statement — 168 (master record). Applications — PAN 93-96, TAN 135. This is the comprehensive form mapping every TDS practitioner needs.",
+          "explanationWrong": "Certificates: 130/131; Returns: 138/140/144/143; Statement: 168; PAN: 93-96; TAN: 135. This is the complete TDS form ecosystem under the 2026 Rules. Print this on a cheat sheet and keep it handy for the first year of transition — it will save hours of confusion.",
+          "tier": 3,
+          "subConcepts": ["complete-tds-form-ecosystem", "comprehensive-mapping"],
+          "isReview": false,
+          "oldSection": "Forms 16, 16A, 24Q, 26Q, 27Q, 27EQ, 26AS, 49A, 49AA, 49B",
+          "newSection": "Forms 130, 131, 138, 140, 144, 143, 168, 93-96, 135"
+        },
+        {
+          "order": 5,
+          "question": "A client asks their CA: 'Is the 2026 Rules transition mostly about learning new numbers, or are there substantive changes too?' What is the accurate answer?",
+          "options": [
+            { "text": "It is 100% renumbering — no substantive changes at all", "correct": false },
+            { "text": "It is 100% substantive — everything has changed", "correct": false },
+            { "text": "Mostly renumbering (~80%), but specific rules have genuine substantive changes — like Rule 15 (accommodation percentages, meal limits) and Rule 25 (40% depreciation cap for concessional regime)", "correct": true },
+            { "text": "The rules are unchanged — only section numbers changed", "correct": false }
+          ],
+          "explanation": "The 2026 Rules are predominantly a renumbering exercise, but specific rules contain genuine substantive changes. Rule 15 (old Rule 3) updates accommodation percentages, meal allowance limits, and gift thresholds. Rule 25 (old Rule 5) introduces a 40% depreciation cap for the concessional regime. CAs must identify and study these substantive changes — they are the exam-worthy and advisory-critical content.",
+          "explanationWrong": "Mostly renumbering with specific substantive changes. This is the nuanced answer clients need. The renumbering requires learning new reference numbers (transition cost). The substantive changes require understanding new thresholds and limits (knowledge cost). Both matter, but the substantive changes are more consequential for tax planning and compliance.",
+          "tier": 3,
+          "subConcepts": ["renumbering-vs-substance", "rule-15-25-substantive-changes", "accurate-transition-messaging"],
+          "isReview": false,
+          "oldSection": "Income Tax Rules 1962",
+          "newSection": "Income Tax Rules 2026"
+        }
+      ]
+    }
+  ]
+}

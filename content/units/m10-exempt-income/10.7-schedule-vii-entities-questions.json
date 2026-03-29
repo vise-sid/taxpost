@@ -1,0 +1,835 @@
+{
+  "unit": "10.7",
+  "title": "Schedule VII — Entity Exemptions & Schedule VIII",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Entity-Level Exemption Architecture",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the GENUINE structural change in Schedule VII compared to the old Act's entity exemptions under Sections 10(23C), 11, 12, and 13?",
+          "options": [
+            { "text": "Tax rates for exempt entities have been reduced", "correct": false },
+            { "text": "Entity-level exemption replaces old income-level exemption — the entire entity is exempt if conditions are met, not just specific income", "correct": true },
+            { "text": "All entities now need CBDT approval instead of Commissioner approval", "correct": false },
+            { "text": "Only government entities qualify for exemption now", "correct": false }
+          ],
+          "explanation": "This is the most significant change in the 2025 Act's exempt entity regime. Under the old Act, specific incomes of qualifying entities were exempt (income-level approach). Under Schedule VII, the entire entity is exempt if it meets all conditions (entity-level approach). This simplifies compliance but makes the conditions more critical — fail one condition and the entire entity loses exemption, not just one income stream.",
+          "explanationWrong": "Entity-level exemption is the genuine change. Under the old Act, you exempted specific types of income (e.g., income applied for charitable purposes). Under the 2025 Act, you exempt the entity itself — if it qualifies, all its income is exempt. If it fails, all income is taxable. This binary outcome makes compliance conditions far more consequential.",
+          "tier": 1,
+          "subConcepts": ["entity-level-vs-income-level", "schedule-vii-genuine-change", "binary-exemption-outcome"],
+          "isReview": false,
+          "oldSection": "Sections 10(23C), 11, 12, 13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "How many entries does Schedule VII contain under the 2025 Act?",
+          "options": [
+            { "text": "24 entries", "correct": false },
+            { "text": "36 entries", "correct": false },
+            { "text": "48 entries", "correct": true },
+            { "text": "60 entries", "correct": false }
+          ],
+          "explanation": "Schedule VII contains 48 entries covering all entity-level exemptions. This consolidates provisions that were previously scattered across Section 10(23C) sub-clauses, Sections 11-13, and various other exemption provisions. Schedule VIII adds 2 more entries for a separate category.",
+          "explanationWrong": "48 entries is correct. Schedule VII is the largest exemption schedule in the 2025 Act, reflecting the enormous variety of exempt entities in Indian tax law — from PM's National Relief Fund to commodity boards to educational institutions. Schedule VIII adds 2 more entries separately.",
+          "tier": 1,
+          "subConcepts": ["schedule-vii-48-entries", "largest-exemption-schedule"],
+          "isReview": false,
+          "oldSection": "Section 10(23C), 11-13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Under Schedule VI, how many entries cover IFSC-related exemptions?",
+          "options": [
+            { "text": "6 entries", "correct": false },
+            { "text": "8 entries", "correct": false },
+            { "text": "12 entries", "correct": true },
+            { "text": "15 entries", "correct": false }
+          ],
+          "explanation": "Schedule VI contains 12 entries covering all IFSC-related exemptions, consolidating old Section 10(4D) through 10(4I) and related provisions.",
+          "explanationWrong": "12 entries is correct. Schedule VI consolidates all IFSC exemptions into 12 numbered entries. Compare this with Schedule VII's 48 entries — the IFSC schedule is much smaller because it covers a single location (GIFT City) rather than hundreds of entity types.",
+          "tier": 1,
+          "subConcepts": ["schedule-vi-review", "12-ifsc-entries"],
+          "isReview": true,
+          "oldSection": "Section 10(4D)-(4I)",
+          "newSection": "Schedule VI"
+        },
+        {
+          "order": 4,
+          "question": "Under the old Act, an educational institution with annual receipts exceeding Rs 5 crore needed approval from the prescribed authority to claim exemption under Section 10(23C)(vi). Under the 2025 Act, where is this requirement placed?",
+          "options": [
+            { "text": "It has been eliminated — no approval needed", "correct": false },
+            { "text": "Within Schedule VII as a condition for the entity-level exemption", "correct": true },
+            { "text": "Under a completely new Chapter XVI", "correct": false },
+            { "text": "Under Schedule VIII alongside electoral trusts", "correct": false }
+          ],
+          "explanation": "The approval requirement continues but is now embedded within Schedule VII's conditions for entity-level exemption. Educational institutions (S.No.17-19) must still satisfy registration/approval conditions, but the framework has shifted from exempting specific income to exempting the entity as a whole.",
+          "explanationWrong": "Schedule VII conditions is correct. The approval requirement has not been eliminated — it has been relocated into the entity-level exemption framework. Under Schedule VII, the institution must meet all prescribed conditions (including approval where required) to qualify as an exempt entity. The consequence of non-compliance is now more severe: loss of entity-level exemption means ALL income becomes taxable.",
+          "tier": 1,
+          "subConcepts": ["educational-institution-approval", "schedule-vii-sno17-19", "condition-relocation"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(vi)",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 5,
+          "question": "How many entries does Schedule VIII contain, and what type of entities does it cover?",
+          "options": [
+            { "text": "2 entries — covering a separate category of exempt entities", "correct": true },
+            { "text": "5 entries — covering government bodies", "correct": false },
+            { "text": "10 entries — covering international organisations", "correct": false },
+            { "text": "48 entries — mirroring Schedule VII", "correct": false }
+          ],
+          "explanation": "Schedule VIII contains just 2 entries, covering a separate and narrower category of entity exemptions distinct from Schedule VII's 48 entries. The 2025 Act split these out because they have fundamentally different conditions and compliance requirements.",
+          "explanationWrong": "2 entries is correct. Schedule VIII is deliberately small — it covers entities that do not fit the Schedule VII framework. Together, Schedule VII (48 entries) and Schedule VIII (2 entries) provide 50 entity-level exemption categories under the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["schedule-viii-2-entries", "schedule-vii-viii-split"],
+          "isReview": false,
+          "oldSection": "Various Section 10 clauses",
+          "newSection": "Schedule VIII"
+        }
+      ]
+    },
+    {
+      "title": "PM Funds, PF & Gratuity Funds",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Schedule VII, S.No.10-16 cover various PM (Prime Minister) funds. Under the old Act, these were exempt under Section 10(23C)(iv). What is the key feature all PM funds share?",
+          "options": [
+            { "text": "They are all managed by the RBI", "correct": false },
+            { "text": "They are established by the Central Government and exempt without any separate approval requirement", "correct": true },
+            { "text": "They must distribute 85% of income annually", "correct": false },
+            { "text": "They are taxed at concessional rates of 15%", "correct": false }
+          ],
+          "explanation": "PM funds (National Relief Fund, Citizens Assistance Fund, CARES Fund, etc.) are established by the Central Government and enjoy automatic exemption — no separate approval from any authority is required. Their government provenance is the sole qualifying condition. This is unchanged from the old Act.",
+          "explanationWrong": "Central Government establishment with automatic exemption is correct. PM funds are the simplest category in Schedule VII — no registration, no approval, no annual compliance conditions beyond being a Central Government fund. They are listed by name (S.No.10 through 16) precisely because they need no gatekeeper approval.",
+          "tier": 1,
+          "subConcepts": ["pm-funds-sno10-16", "automatic-exemption", "central-govt-funds"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iv)",
+          "newSection": "Schedule VII, S.No.10-16"
+        },
+        {
+          "order": 2,
+          "question": "Schedule VII, S.No.22-24 cover provident funds and gratuity funds. Under the old Act, recognised provident funds were exempt under Section 10(25). What is the key condition for continued exemption under Schedule VII?",
+          "options": [
+            { "text": "The fund must invest only in government securities", "correct": false },
+            { "text": "The fund must be recognised/approved by the Commissioner of Income Tax", "correct": true },
+            { "text": "The fund must have fewer than 500 members", "correct": false },
+            { "text": "The employer must contribute more than 12% of salary", "correct": false }
+          ],
+          "explanation": "Provident funds and gratuity funds must be recognised/approved by the Commissioner of Income Tax to qualify for the Schedule VII entity-level exemption. This is a carryover of the old requirement — recognition is the gateway to exemption. The entity-level approach means if recognition lapses, the fund loses ALL exemption.",
+          "explanationWrong": "Commissioner recognition/approval is correct. The recognition requirement ensures that only funds meeting prescribed conditions (investment pattern, contribution limits, etc.) get the exemption. Under the entity-level approach of Schedule VII, loss of recognition is catastrophic — the entire fund's income becomes taxable, not just specific categories.",
+          "tier": 1,
+          "subConcepts": ["pf-gratuity-recognition", "schedule-vii-sno22-24", "commissioner-approval"],
+          "isReview": false,
+          "oldSection": "Section 10(25)",
+          "newSection": "Schedule VII, S.No.22-24"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Old Form 10-II (IFSC form) maps to which new form number under the 2025 Act?",
+          "options": [
+            { "text": "Form 70", "correct": false },
+            { "text": "Form 71", "correct": false },
+            { "text": "Form 178", "correct": true },
+            { "text": "Form 180", "correct": false }
+          ],
+          "explanation": "Form 10-II maps to Form 178 — the outlier in the Schedule VI form renumbering. While 10-IG, 10-IH, 10-IK map to consecutive Forms 68, 69, 70, Form 10-II jumps to 178.",
+          "explanationWrong": "Form 178 is correct. This is the most commonly missed mapping in the IFSC form renumbering. The other three (10-IG to 68, 10-IH to 69, 10-IK to 70) are sequential, but 10-II breaks the pattern by jumping to 178.",
+          "tier": 1,
+          "subConcepts": ["schedule-vi-form-review", "form-10II-to-178"],
+          "isReview": true,
+          "oldSection": "Form 10-II",
+          "newSection": "Form 178"
+        },
+        {
+          "order": 4,
+          "question": "Under Schedule VII, S.No.17-19, which types of institutions qualify for entity-level exemption?",
+          "options": [
+            { "text": "Only universities established by Central Act", "correct": false },
+            { "text": "Educational institutions, hospitals, and medical institutions — subject to conditions", "correct": true },
+            { "text": "Only government-run schools and hospitals", "correct": false },
+            { "text": "All coaching institutes registered under Companies Act", "correct": false }
+          ],
+          "explanation": "S.No.17-19 cover educational institutions (universities, schools), hospitals, and medical institutions. These can be government or private, but must meet prescribed conditions including approval/registration where annual receipts exceed prescribed thresholds. The conditions are more stringent for private institutions.",
+          "explanationWrong": "Educational institutions, hospitals, and medical institutions is correct. S.No.17-19 cover these three categories. They are not limited to government-run institutions — private ones qualify too, but must satisfy additional conditions including approval from prescribed authority when annual receipts exceed the threshold (previously Rs 5 crore under old Act).",
+          "tier": 1,
+          "subConcepts": ["educational-medical-sno17-19", "private-institution-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiad), (iiiae), (vi)",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 5,
+          "question": "Schedule VII, S.No.33-40 cover commodity boards. How many commodity boards are listed?",
+          "options": [
+            { "text": "4 boards", "correct": false },
+            { "text": "6 boards", "correct": false },
+            { "text": "8 boards", "correct": true },
+            { "text": "10 boards", "correct": false }
+          ],
+          "explanation": "S.No.33 through 40 list 8 commodity boards — Coffee Board, Rubber Board, Tea Board, Tobacco Board, Cardamom Board, Coir Board, Spices Board, and Marine Products Export Development Authority. Each gets a separate entry for clarity, though they share the same exemption treatment.",
+          "explanationWrong": "8 commodity boards occupy S.No.33-40. These boards are statutory bodies established under various Central Acts to regulate specific commodity sectors. Under the old Act, they were exempt under Section 10(29A). The 2025 Act lists each separately for precision rather than using a generic 'commodity boards' entry.",
+          "tier": 1,
+          "subConcepts": ["commodity-boards-sno33-40", "8-boards-listed"],
+          "isReview": false,
+          "oldSection": "Section 10(29A)",
+          "newSection": "Schedule VII, S.No.33-40"
+        }
+      ]
+    },
+    {
+      "title": "Political Parties & Electoral Trusts",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule VII, a political party must satisfy how many conditions for its income to be exempt?",
+          "options": [
+            { "text": "3 conditions", "correct": false },
+            { "text": "5 conditions", "correct": true },
+            { "text": "7 conditions", "correct": false },
+            { "text": "No conditions — political parties are automatically exempt", "correct": false }
+          ],
+          "explanation": "Political parties must satisfy 5 conditions for entity-level exemption under Schedule VII. These include maintaining books of account, getting them audited, filing returns on time, not accepting cash donations exceeding the prescribed limit, and proper record-keeping of donations. Failure on ANY condition costs the party its entire exemption.",
+          "explanationWrong": "5 conditions is correct. Under the entity-level approach, a political party that fails even one condition loses exemption on ALL its income — not just the non-compliant portion. This is a significant upgrade from the old Act where the consequences of non-compliance were more limited.",
+          "tier": 1,
+          "subConcepts": ["political-party-5-conditions", "entity-level-consequence"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII (political parties)"
+        },
+        {
+          "order": 2,
+          "question": "What is the distribution requirement for an electoral trust to maintain its exempt status under Schedule VII?",
+          "options": [
+            { "text": "Must distribute 75% of aggregate donations to political parties", "correct": false },
+            { "text": "Must distribute 85% of aggregate donations to political parties", "correct": false },
+            { "text": "Must distribute 95% of aggregate donations to political parties", "correct": true },
+            { "text": "Must distribute 100% of aggregate donations to political parties", "correct": false }
+          ],
+          "explanation": "Electoral trusts must distribute 95% of aggregate donations received during the financial year to political parties. The remaining 5% covers administrative expenses. This requirement is carried forward from the old Act's electoral trust provisions. Under entity-level exemption, failing this threshold means the entire trust's income becomes taxable.",
+          "explanationWrong": "95% distribution is the correct threshold. Electoral trusts are transparent vehicles — they collect donations and pass them to political parties. The 95% threshold allows 5% for administration. Unlike charitable trusts (which have an 85% application requirement), electoral trusts face a higher 95% bar reflecting their pass-through nature.",
+          "tier": 1,
+          "subConcepts": ["electoral-trust-95-percent", "distribution-requirement"],
+          "isReview": false,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII (electoral trusts)"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Under Schedule VI, S.No.1, what currency must the consideration be paid in for the IFSC capital gains exemption to apply?",
+          "options": [
+            { "text": "Indian rupees", "correct": false },
+            { "text": "Foreign currency", "correct": true },
+            { "text": "Any freely convertible currency including INR", "correct": false },
+            { "text": "Only US dollars", "correct": false }
+          ],
+          "explanation": "Schedule VI, S.No.1 requires the consideration to be paid or payable in foreign currency. This is the defining condition that ensures the IFSC exemption supports genuine international transactions.",
+          "explanationWrong": "Foreign currency is correct. The foreign currency condition is the gatekeeper for S.No.1 — it prevents domestic rupee-denominated transactions from being routed through the IFSC to claim the exemption. Any foreign currency qualifies, not just USD.",
+          "tier": 1,
+          "subConcepts": ["schedule-vi-review", "foreign-currency-condition"],
+          "isReview": true,
+          "oldSection": "Section 10(38) IFSC proviso",
+          "newSection": "Schedule VI, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "Old Form 10BC, used for audit report of electoral trusts, has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 175", "correct": false },
+            { "text": "Form 179", "correct": false },
+            { "text": "Form 181", "correct": true },
+            { "text": "Form 185", "correct": false }
+          ],
+          "explanation": "Form 10BC becomes Form 181 under the 2025 Act. This form is the audit report that electoral trusts must file to demonstrate compliance with the 95% distribution requirement and other conditions. The form content remains substantially the same.",
+          "explanationWrong": "Form 181 is correct. This is the electoral trust audit report form — essential for maintaining the trust's exempt status. Without filing Form 181, an electoral trust cannot demonstrate compliance with the 95% distribution requirement, and its entity-level exemption is at risk.",
+          "tier": 1,
+          "subConcepts": ["form-10BC-to-181", "electoral-trust-audit-form"],
+          "isReview": false,
+          "oldSection": "Form 10BC",
+          "newSection": "Form 181"
+        },
+        {
+          "order": 5,
+          "question": "Under the old Act, a political party's exemption was governed by Section 13A. The 2025 Act moves this into Schedule VII. What is the practical impact of this shift?",
+          "options": [
+            { "text": "Political parties now pay tax at a reduced rate of 15%", "correct": false },
+            { "text": "The entity-level approach means failure of ANY condition costs the party exemption on ALL its income", "correct": true },
+            { "text": "Political parties no longer need to file returns", "correct": false },
+            { "text": "Only national parties qualify — state parties lose exemption", "correct": false }
+          ],
+          "explanation": "Under old Section 13A, non-compliance with one condition might affect only certain income streams. Under the Schedule VII entity-level approach, it is all-or-nothing: meet all 5 conditions and ALL income is exempt; fail any one and ALL income becomes taxable. This raises the stakes for political party compliance dramatically.",
+          "explanationWrong": "All-or-nothing is the key impact. The entity-level approach transforms political party tax compliance from a 'partial risk' regime to a 'total risk' regime. Under old Section 13A, a party might lose exemption on specific income types. Under Schedule VII, one slip means the entire party's income — donations, investments, property — becomes taxable.",
+          "tier": 1,
+          "subConcepts": ["all-or-nothing-political-party", "entity-level-impact", "section-13A-to-schedule-vii"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        }
+      ]
+    },
+    {
+      "title": "Entity-Level vs Income-Level Deep Dive",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act's income-level approach, if a charitable trust failed to apply 85% of income for charitable purposes, what was the consequence?",
+          "options": [
+            { "text": "Only the shortfall amount was taxed", "correct": true },
+            { "text": "The entire trust income became taxable", "correct": false },
+            { "text": "The trust was deregistered immediately", "correct": false },
+            { "text": "A penalty of Rs 10 lakh was imposed", "correct": false }
+          ],
+          "explanation": "Under the old income-level approach (Sections 11-13), only the income not applied for charitable purposes was taxed — the applied portion remained exempt. This was proportional. Under the 2025 Act's entity-level approach in Schedule VII, failure to meet conditions can result in ALL income losing exemption — a fundamentally different consequence.",
+          "explanationWrong": "Only the shortfall was taxed under the old Act. This proportional approach was lenient — a trust applying 80% instead of 85% would lose exemption on only 5% of its income. Under Schedule VII's entity-level approach, the consequence is potentially binary: meet all conditions or lose exemption on everything. This is the genuine change practitioners must understand.",
+          "tier": 2,
+          "subConcepts": ["old-proportional-approach", "shortfall-taxation", "entity-vs-income-comparison"],
+          "isReview": false,
+          "oldSection": "Section 11(1)(a)",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "Why did the 2025 Act shift from income-level to entity-level exemption for trusts and institutions?",
+          "options": [
+            { "text": "To reduce the tax burden on charitable institutions", "correct": false },
+            { "text": "To simplify compliance — binary outcome (exempt or not) is easier to administer than proportional calculations", "correct": true },
+            { "text": "To align with US tax law on non-profits", "correct": false },
+            { "text": "To increase government revenue from trusts", "correct": false }
+          ],
+          "explanation": "The entity-level approach simplifies both compliance and enforcement. Instead of computing exempt vs non-exempt income for each activity, the determination is binary: does the entity meet all conditions? If yes, all income is exempt. If no, all income is taxable. This reduces litigation around proportional calculations that plagued the old regime.",
+          "explanationWrong": "Simplification is the primary driver. The old Act generated enormous litigation around questions like 'Is this income applied for charitable purposes?' and 'What percentage qualifies?' The entity-level approach eliminates these proportional disputes. The trade-off: it is harsher on entities that partially comply — they get no credit for partial compliance.",
+          "tier": 2,
+          "subConcepts": ["simplification-rationale", "binary-vs-proportional", "litigation-reduction"],
+          "isReview": false,
+          "oldSection": "Sections 11-13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Under Schedule VI, S.No.5, what type of derivative transaction is covered — exchange-traded or OTC?",
+          "options": [
+            { "text": "Exchange-traded derivatives on NSE IFSC", "correct": false },
+            { "text": "OTC derivatives with an Offshore Banking Unit (OBU)", "correct": true },
+            { "text": "Both exchange-traded and OTC", "correct": false },
+            { "text": "Only commodity derivatives", "correct": false }
+          ],
+          "explanation": "S.No.5 covers OTC (over-the-counter) derivatives with OBUs in the IFSC. Exchange-traded derivatives are covered by S.No.1 (capital gains on IFSC exchange). The OTC vs exchange-traded distinction determines which entry applies.",
+          "explanationWrong": "OTC derivatives with OBUs. S.No.5 fills the gap left by S.No.1 — since S.No.1 requires the transaction to be on a recognised stock exchange, bilateral OTC derivatives between NRs and OBUs would be uncovered without S.No.5.",
+          "tier": 2,
+          "subConcepts": ["schedule-vi-review", "sno5-otc-derivatives"],
+          "isReview": true,
+          "oldSection": "Section 10(4F)",
+          "newSection": "Schedule VI, S.No.5"
+        },
+        {
+          "order": 4,
+          "question": "A hospital with annual receipts of Rs 8 crore did not obtain approval from the prescribed authority under the old Act. Under the old income-level approach, which specific income could it still claim as exempt?",
+          "options": [
+            { "text": "Income up to Rs 5 crore — the threshold amount", "correct": false },
+            { "text": "Income from medical services to BPL patients", "correct": false },
+            { "text": "Income applied for hospital purposes was still exempt under Sections 11-12 if registered as a charitable trust", "correct": true },
+            { "text": "No income was exempt without approval", "correct": false }
+          ],
+          "explanation": "Under the old Act, a hospital could still claim exemption under the Section 11-12 charitable trust route if registered under Section 12AB, even without Section 10(23C) approval. The income-level approach allowed multiple pathways to exemption. Under Schedule VII's entity-level approach, the conditions are unified — there is no fallback route.",
+          "explanationWrong": "The old Act's income-level approach offered multiple exemption pathways — Section 10(23C) AND Sections 11-12 were separate routes. A hospital failing the 10(23C) approval could still use the Section 11-12 charitable trust exemption. Under Schedule VII, these pathways are consolidated. The entity either qualifies under Schedule VII or it does not — no alternative route exists.",
+          "tier": 2,
+          "subConcepts": ["multiple-pathways-old-act", "consolidated-single-pathway", "no-fallback-schedule-vii"],
+          "isReview": false,
+          "oldSection": "Section 10(23C), 11-12",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 5,
+          "question": "Under Schedule VII, commodity boards (S.No.33-40) enjoy entity-level exemption. Do they need to file any return to maintain this status?",
+          "options": [
+            { "text": "No — statutory bodies are completely exempt from filing", "correct": false },
+            { "text": "Yes — they must file a return of income to maintain entity-level exemption under Schedule VII", "correct": true },
+            { "text": "Only boards with income exceeding Rs 2.5 lakh need to file", "correct": false },
+            { "text": "They file a special return to the Ministry of Commerce, not to the IT Department", "correct": false }
+          ],
+          "explanation": "Even statutory bodies like commodity boards must file a return of income under the 2025 Act to maintain their Schedule VII entity-level exemption. The entity-level approach requires demonstrating compliance through annual filing. Non-filing could be treated as failure to meet conditions, risking the exemption.",
+          "explanationWrong": "Yes, they must file. The entity-level exemption under Schedule VII is conditional — and one universal condition is filing a return of income. Even bodies that have zero tax liability must file to maintain their exempt status. This is stricter than the old regime where some statutory bodies could argue that filing was not mandatory.",
+          "tier": 2,
+          "subConcepts": ["commodity-board-filing", "return-filing-condition", "no-exemption-without-filing"],
+          "isReview": false,
+          "oldSection": "Section 10(29A)",
+          "newSection": "Schedule VII, S.No.33-40"
+        }
+      ]
+    },
+    {
+      "title": "Educational & Medical Institution Conditions",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, educational institutions with annual receipts up to Rs 5 crore were exempt under Section 10(23C)(iiiad) without needing approval. Under Schedule VII, what happens to this threshold-based automatic exemption?",
+          "options": [
+            { "text": "It is retained — institutions under Rs 5 crore are still automatically exempt", "correct": false },
+            { "text": "It is subsumed into the entity-level framework — the institution must meet Schedule VII conditions regardless of receipts", "correct": true },
+            { "text": "The threshold has been raised to Rs 10 crore", "correct": false },
+            { "text": "The threshold now applies per campus, not per institution", "correct": false }
+          ],
+          "explanation": "The 2025 Act's entity-level approach does not maintain the old threshold-based automatic exemption for small institutions. All educational institutions must meet Schedule VII conditions to qualify as exempt entities. This is a significant change — small institutions that previously flew under the radar now need to ensure full compliance.",
+          "explanationWrong": "Subsumed into entity-level framework is correct. Under the old Act, a school with Rs 3 crore in receipts was automatically exempt under 10(23C)(iiiad) — no questions asked. Under Schedule VII, even small institutions must demonstrate compliance with all prescribed conditions. The safety net of the threshold is gone.",
+          "tier": 2,
+          "subConcepts": ["threshold-exemption-gone", "small-institution-impact", "universal-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiad)",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 2,
+          "question": "A medical institution registered under Schedule VII earns income from: (a) patient fees, (b) pharmacy sales, (c) rental of surplus land, and (d) investment in mutual funds. Under the entity-level approach, which incomes are exempt?",
+          "options": [
+            { "text": "Only (a) and (b) — directly related to medical services", "correct": false },
+            { "text": "Only (a), (b), and (c) — all real estate income qualifies", "correct": false },
+            { "text": "All four — if the entity qualifies, ALL income is exempt regardless of source", "correct": true },
+            { "text": "None — medical institutions are taxed on all income", "correct": false }
+          ],
+          "explanation": "This is the core impact of entity-level exemption. If the medical institution meets all Schedule VII conditions, ALL its income is exempt — patient fees, pharmacy, rent, AND mutual fund returns. Under the old income-level approach, rental income or mutual fund income might have been questioned as not being 'applied for medical purposes.' The entity-level approach eliminates this analysis.",
+          "explanationWrong": "All four incomes are exempt if the entity qualifies. This is the revolutionary change of Schedule VII — no more dissecting income stream by stream. The entity either qualifies or it does not. If it qualifies, every rupee of income is exempt. This simplification benefits compliant entities but devastating for those that fail even one condition.",
+          "tier": 2,
+          "subConcepts": ["all-income-exempt-entity-level", "no-source-analysis", "medical-institution-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiae)",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: An aircraft leasing company in GIFT City wants to sell its equity stake to another leasing company. Under which Schedule VI entry is this transfer exempt?",
+          "options": [
+            { "text": "S.No.1", "correct": false },
+            { "text": "S.No.6", "correct": false },
+            { "text": "S.No.8", "correct": true },
+            { "text": "S.No.12", "correct": false }
+          ],
+          "explanation": "S.No.8 covers transfer of equity shares of an IFSC leasing unit by a leasing entity regulated by IFSCA. S.No.6 covers operational leasing income, not equity transfers.",
+          "explanationWrong": "S.No.8 is correct. Remember the S.No.6 and S.No.8 pair: S.No.6 for leasing income (operational), S.No.8 for equity transfers (capital). Together they make GIFT City's leasing ecosystem fully tax-neutral.",
+          "tier": 2,
+          "subConcepts": ["schedule-vi-review", "sno8-leasing-equity"],
+          "isReview": true,
+          "oldSection": "Section 10(4I)",
+          "newSection": "Schedule VI, S.No.8"
+        },
+        {
+          "order": 4,
+          "question": "Under Schedule VII, if a university earns income from a commercial coaching centre run on its campus, is that income exempt?",
+          "options": [
+            { "text": "No — coaching centre income is always taxable for universities", "correct": false },
+            { "text": "Only if the coaching centre generates less than Rs 1 crore", "correct": false },
+            { "text": "Yes — under entity-level exemption, if the university meets all Schedule VII conditions, ALL income including commercial activities is exempt", "correct": true },
+            { "text": "Only 50% of the coaching centre income is exempt", "correct": false }
+          ],
+          "explanation": "Under entity-level exemption, the nature of the income source is irrelevant. If the university qualifies under Schedule VII, coaching centre income is exempt alongside tuition fees, hostel charges, and everything else. Under the old Act, this coaching income might have been challenged as 'not applied for educational purposes.'",
+          "explanationWrong": "Yes, it is exempt under entity-level exemption. This is a significant practical benefit for universities with diverse revenue streams. The old Act's income-level approach often led to disputes about whether ancillary activities were 'educational' enough to qualify for exemption. Schedule VII's entity-level approach eliminates these disputes entirely.",
+          "tier": 2,
+          "subConcepts": ["university-commercial-income", "entity-level-eliminates-disputes"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(vi)",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 5,
+          "question": "Under Schedule VII, what happens if a registered charitable hospital fails to apply 85% of its income for charitable purposes in a given year?",
+          "options": [
+            { "text": "Only the shortfall portion is taxed (old approach)", "correct": false },
+            { "text": "The entity may lose its entire exemption for that year — entity-level approach means all-or-nothing", "correct": true },
+            { "text": "It gets a 2-year grace period to make up the shortfall", "correct": false },
+            { "text": "A nominal penalty of Rs 50,000 is imposed", "correct": false }
+          ],
+          "explanation": "Under the entity-level approach, failure to meet conditions — including the application of income requirement — can result in the entity losing exemption on ALL its income. This is fundamentally different from the old proportional approach where only the shortfall was taxed. The stakes are dramatically higher under Schedule VII.",
+          "explanationWrong": "The entity may lose its entire exemption. This is the sharpest edge of the entity-level approach: a hospital that applies 80% instead of 85% does not lose exemption on just 5% — it risks losing exemption on 100% of its income. Trustees must now treat compliance conditions as non-negotiable.",
+          "tier": 2,
+          "subConcepts": ["all-or-nothing-consequence", "85-percent-application", "trustee-compliance-stakes"],
+          "isReview": false,
+          "oldSection": "Section 11(1)(a), 13",
+          "newSection": "Schedule VII"
+        }
+      ]
+    },
+    {
+      "title": "Political Party & Electoral Trust Compliance",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following is NOT one of the 5 conditions for political party exemption under Schedule VII?",
+          "options": [
+            { "text": "Maintaining books of account", "correct": false },
+            { "text": "Getting accounts audited", "correct": false },
+            { "text": "Distributing 95% of donations to candidates", "correct": true },
+            { "text": "Not accepting cash donations beyond the prescribed limit", "correct": false }
+          ],
+          "explanation": "The 95% distribution requirement applies to electoral trusts, not political parties. Political parties retain their donations — they do not distribute them. The 5 conditions for political parties are: maintain books, get audited, file returns on time, restrict cash donations, and maintain proper donation records.",
+          "explanationWrong": "Distributing 95% of donations is the electoral trust condition, not the political party condition. Political parties and electoral trusts have fundamentally different functions: parties receive and USE donations, while trusts PASS THROUGH donations to parties. This distinction drives their different compliance requirements.",
+          "tier": 2,
+          "subConcepts": ["political-party-conditions-detail", "party-vs-trust-distinction"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "An electoral trust receives Rs 100 crore in donations during FY 2026-27. To maintain its Schedule VII exemption, what is the minimum amount it must distribute to political parties?",
+          "options": [
+            { "text": "Rs 75 crore", "correct": false },
+            { "text": "Rs 85 crore", "correct": false },
+            { "text": "Rs 95 crore", "correct": true },
+            { "text": "Rs 100 crore", "correct": false }
+          ],
+          "explanation": "95% of Rs 100 crore = Rs 95 crore. The remaining Rs 5 crore (5%) can be retained for administrative expenses. If the trust distributes even Rs 1 less than Rs 95 crore, it risks losing entity-level exemption on ALL its income — not just the shortfall.",
+          "explanationWrong": "Rs 95 crore (95% of Rs 100 crore). The 5% administrative cushion translates to Rs 5 crore — generous for an electoral trust's running costs. But the compliance is strict: falling below 95% distribution, even marginally, can trigger loss of the entire exemption under the entity-level approach.",
+          "tier": 2,
+          "subConcepts": ["95-percent-calculation", "electoral-trust-distribution-scenario"],
+          "isReview": false,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Under Schedule VI, S.No.7, what risk does a fund manager's presence in India create for an NR client without the safe harbour?",
+          "options": [
+            { "text": "Higher TDS rate on the NR's income", "correct": false },
+            { "text": "A 'business connection' under Section 9, making the NR's income taxable in India", "correct": true },
+            { "text": "Mandatory permanent establishment filing", "correct": false },
+            { "text": "No risk — NR income is always exempt", "correct": false }
+          ],
+          "explanation": "Without S.No.7's safe harbour, a fund manager's physical presence in India would create a 'business connection' for the NR investor under Section 9, deeming their income as accruing in India and making it fully taxable.",
+          "explanationWrong": "Business connection under Section 9. This is the fundamental risk that S.No.7 mitigates. The fund manager physically operating from GIFT City would ordinarily create a taxable nexus for the offshore fund. S.No.7 explicitly breaks this nexus — it is the legal foundation of IFSC fund management.",
+          "tier": 2,
+          "subConcepts": ["schedule-vi-review", "business-connection-risk-sno7"],
+          "isReview": true,
+          "oldSection": "Section 9A",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 4,
+          "question": "Under the old Act, a political party accepting a Rs 25,000 cash donation was within limits (Section 13A limit was Rs 20,000 per person). Under the entity-level approach of Schedule VII, what is the consequence of accepting cash donations beyond the prescribed limit?",
+          "options": [
+            { "text": "Only the excess cash donation is taxed", "correct": false },
+            { "text": "A penalty equal to the excess amount is imposed", "correct": false },
+            { "text": "The party risks losing entity-level exemption on ALL its income — not just the excess donation", "correct": true },
+            { "text": "The donation is returned to the donor with interest", "correct": false }
+          ],
+          "explanation": "Under the entity-level approach, breaching the cash donation limit is a condition failure. Since Schedule VII operates on an all-or-nothing basis, this single violation can cost the party exemption on its entire income — donations, investments, property income, everything. Under old Section 13A, only the specific non-compliant donation might have been taxed.",
+          "explanationWrong": "Risk of losing ALL exemption. This is the entity-level approach in action: one condition breach equals total exemption loss. A political party accepting even one over-limit cash donation faces the prospect of its entire annual income becoming taxable. The old Act was far more lenient — typically only the offending donation was taxed.",
+          "tier": 2,
+          "subConcepts": ["cash-donation-limit-breach", "total-exemption-risk", "entity-level-severity"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "Form 10BC (now Form 181) is the audit report for electoral trusts. What is the primary purpose of this form?",
+          "options": [
+            { "text": "To report the trust's investment portfolio", "correct": false },
+            { "text": "To certify that the trust has distributed at least 95% of donations to political parties and met all other conditions", "correct": true },
+            { "text": "To list the names of all donors", "correct": false },
+            { "text": "To compute the trust's tax liability", "correct": false }
+          ],
+          "explanation": "Form 181 (old 10BC) certifies compliance with the 95% distribution requirement and other conditions. It is the auditor's confirmation that the electoral trust has met all Schedule VII conditions for entity-level exemption. Without this form, the trust cannot demonstrate compliance.",
+          "explanationWrong": "Certifying 95% distribution and overall compliance is correct. Form 181 is the gatekeeper document for electoral trust exemption. The auditor verifies: (1) aggregate donations received, (2) amounts distributed to parties (95% minimum), (3) administrative expenses (5% maximum), and (4) compliance with all other conditions. It is the trust's proof of entity-level qualification.",
+          "tier": 2,
+          "subConcepts": ["form-181-purpose", "auditor-certification", "compliance-proof"],
+          "isReview": false,
+          "oldSection": "Form 10BC",
+          "newSection": "Form 181"
+        }
+      ]
+    },
+    {
+      "title": "Entity Exemption Advisory — Charitable Trusts",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A charitable trust running a hospital applied 82% of its income for charitable purposes in FY 2026-27 (below the 85% threshold). Under the old Act, approximately how much of its income would have been taxed? Under Schedule VII?",
+          "options": [
+            { "text": "Old Act: ~3% shortfall taxed; Schedule VII: potentially ALL income taxed", "correct": true },
+            { "text": "Old Act: ALL income taxed; Schedule VII: only 3% taxed", "correct": false },
+            { "text": "Same treatment under both — only the shortfall is taxed", "correct": false },
+            { "text": "Old Act: penalty only; Schedule VII: imprisonment possible", "correct": false }
+          ],
+          "explanation": "Under the old Act (income-level), only the 3% shortfall (85% minus 82%) was taxable. Under Schedule VII (entity-level), failing the 85% application condition can result in the ENTIRE income becoming taxable. This is the starkest illustration of the entity-level change — a 3% shortfall could cost the trust exemption on 100% of its income.",
+          "explanationWrong": "Old Act: ~3% taxed; Schedule VII: potentially ALL income taxed. This scenario demonstrates why the entity-level change is the single most important thing for charitable trust practitioners to understand. Under the old regime, 82% application was a minor problem. Under Schedule VII, it is potentially catastrophic.",
+          "tier": 3,
+          "subConcepts": ["3-percent-vs-100-percent", "old-vs-new-consequence", "charitable-trust-advisory"],
+          "isReview": false,
+          "oldSection": "Section 11(1)(a), 13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "A CA advises a charitable educational institution that is Schedule VII compliant. The institution wants to invest Rs 10 crore of surplus funds in equity mutual funds. Under the entity-level approach, does this investment income qualify for exemption?",
+          "options": [
+            { "text": "No — equity mutual fund income is speculative and never exempt", "correct": false },
+            { "text": "Only if the mutual funds are government securities funds", "correct": false },
+            { "text": "Yes — if the entity qualifies under Schedule VII, ALL income including mutual fund returns is exempt, subject to investment restrictions in prescribed modes", "correct": true },
+            { "text": "Only the dividend component is exempt, not capital gains", "correct": false }
+          ],
+          "explanation": "Under entity-level exemption, all income is exempt if the entity qualifies. However, the institution must invest in prescribed modes (as specified in rules). If the Rs 10 crore is invested in permitted mutual fund categories, the returns are exempt. The entity-level approach does not change the requirement to invest in prescribed modes — it changes the consequence of non-compliance.",
+          "explanationWrong": "Yes, subject to prescribed mode restrictions. The entity-level approach exempts ALL income of a qualifying entity, but the conditions for qualification include investing in prescribed modes. Mutual fund investment is permitted if the fund category is prescribed. The advisory nuance: invest in the right fund type and ALL returns are exempt; invest in the wrong type and you might breach a condition.",
+          "tier": 3,
+          "subConcepts": ["prescribed-modes-investment", "mutual-fund-exemption", "condition-compliance-advisory"],
+          "isReview": false,
+          "oldSection": "Section 11(5)",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: In the IFSC form renumbering, which form is the outlier that does NOT map to a consecutive number (68, 69, 70)?",
+          "options": [
+            { "text": "Form 10-IG", "correct": false },
+            { "text": "Form 10-IH", "correct": false },
+            { "text": "Form 10-IK", "correct": false },
+            { "text": "Form 10-II (maps to 178, not 71)", "correct": true }
+          ],
+          "explanation": "Form 10-II maps to 178, breaking the 68-69-70 sequence of the other three IFSC forms. 10-IG maps to 68, 10-IH to 69, 10-IK to 70 — consecutive. 10-II jumps to 178.",
+          "explanationWrong": "Form 10-II to 178 is the outlier. The other three forms follow an orderly alphabetical-to-sequential pattern. 10-II sits in a different form series (178) rather than continuing to 71.",
+          "tier": 3,
+          "subConcepts": ["schedule-vi-form-review", "10II-outlier-178"],
+          "isReview": true,
+          "oldSection": "Form 10-II",
+          "newSection": "Form 178"
+        },
+        {
+          "order": 4,
+          "question": "A university (Schedule VII exempt) sets up a subsidiary company to run commercial coaching classes. The subsidiary earns Rs 5 crore in coaching fees and pays Rs 4 crore as dividend to the university. Under Schedule VII, analyse the tax treatment.",
+          "options": [
+            { "text": "Both the subsidiary and university are exempt on all income", "correct": false },
+            { "text": "The subsidiary is taxed normally on Rs 5 crore; the university's Rs 4 crore dividend is exempt if the university meets Schedule VII conditions", "correct": true },
+            { "text": "The subsidiary's Rs 5 crore is exempt because its parent is a university", "correct": false },
+            { "text": "The university loses Schedule VII exemption by having a commercial subsidiary", "correct": false }
+          ],
+          "explanation": "Entity-level exemption is entity-specific. The subsidiary is a separate legal entity — it is a company, not an educational institution, and does not qualify under Schedule VII. It pays normal corporate tax on Rs 5 crore. The university, being a Schedule VII exempt entity, receives the Rs 4 crore dividend tax-free. The key: each entity's exemption status is independent.",
+          "explanationWrong": "Subsidiary taxed normally; university dividend exempt. Entity-level exemption does not cascade to subsidiaries. Each legal entity must independently qualify under Schedule VII. A company cannot claim exemption merely because its parent is a university. The university's own dividend income is exempt because IT qualifies — not because the subsidiary does.",
+          "tier": 3,
+          "subConcepts": ["entity-specific-exemption", "subsidiary-no-cascade", "university-dividend-treatment"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(vi), 11-12",
+          "newSection": "Schedule VII, S.No.17-19"
+        },
+        {
+          "order": 5,
+          "question": "A political party fails its audit condition (one of the 5 conditions) but meets the other four perfectly. Under Schedule VII's entity-level approach, what is the consequence?",
+          "options": [
+            { "text": "A warning letter from the Election Commission", "correct": false },
+            { "text": "A 10% penalty on the party's total income", "correct": false },
+            { "text": "The party risks losing entity-level exemption on ALL its income — meeting 4 out of 5 conditions is not sufficient", "correct": true },
+            { "text": "The party can claim 80% exemption (4/5 conditions met)", "correct": false }
+          ],
+          "explanation": "Entity-level exemption requires ALL conditions to be met. There is no proportional credit for partial compliance. A political party meeting 4 out of 5 conditions is treated the same as one meeting 0 out of 5 — the exemption is lost entirely. This is the harshest feature of the entity-level approach.",
+          "explanationWrong": "ALL income at risk — 4 out of 5 is not enough. Schedule VII does not do proportional compliance. The conditions are conjunctive (AND logic), not disjunctive (OR logic). Every single condition must be satisfied. A party that meticulously maintains books, files returns, and restricts cash — but forgets the audit — loses everything.",
+          "tier": 3,
+          "subConcepts": ["conjunctive-conditions", "no-proportional-credit", "4-of-5-not-sufficient"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Schedule VII"
+        }
+      ]
+    },
+    {
+      "title": "Electoral Trust & PF Fund Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An electoral trust distributes Rs 94 crore out of Rs 100 crore in donations (94%, just below the 95% threshold). Under the old Act, what was the likely consequence? Under Schedule VII?",
+          "options": [
+            { "text": "Old Act: Rs 1 crore shortfall taxed; Schedule VII: entire Rs 100 crore potentially taxable", "correct": true },
+            { "text": "Same under both — Rs 1 crore shortfall taxed", "correct": false },
+            { "text": "Old Act: no consequence; Schedule VII: Rs 6 crore taxed", "correct": false },
+            { "text": "Both regimes impose a flat penalty of Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "Under the old income-level approach, only the Rs 1 crore shortfall (95% minus 94% = 1% of Rs 100 crore) would likely be taxed. Under Schedule VII's entity-level approach, failing the 95% condition can cost the trust exemption on its ENTIRE Rs 100 crore income. A Rs 1 crore shortfall potentially triggers Rs 100 crore of taxable income.",
+          "explanationWrong": "Old Act: Rs 1 crore taxed; Schedule VII: potentially Rs 100 crore taxable. This is the mathematical absurdity of the entity-level approach in extreme cases: a 1% compliance gap (94% vs 95%) can result in a 100% tax consequence. Electoral trust administrators must ensure absolute precision in distribution calculations.",
+          "tier": 3,
+          "subConcepts": ["1-percent-gap-100-percent-consequence", "electoral-trust-precision", "old-vs-new-comparison"],
+          "isReview": false,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "A recognised provident fund (Schedule VII S.No.22-24) invests in a non-prescribed investment and earns Rs 2 crore return on it. Under the entity-level approach, what is the risk?",
+          "options": [
+            { "text": "Only the Rs 2 crore from non-prescribed investment is taxed", "correct": false },
+            { "text": "The fund may lose entity-level exemption entirely — all income (including returns from prescribed investments) becomes taxable", "correct": true },
+            { "text": "The fund manager is personally liable for the Rs 2 crore", "correct": false },
+            { "text": "No risk — PF funds have blanket exemption", "correct": false }
+          ],
+          "explanation": "Investing in non-prescribed modes violates a Schedule VII condition. Under entity-level exemption, this condition breach risks the fund losing exemption on ALL its income — not just the Rs 2 crore from the non-prescribed investment. A fund earning Rs 50 crore from prescribed investments plus Rs 2 crore from non-prescribed could see all Rs 52 crore become taxable.",
+          "explanationWrong": "Entire exemption at risk. Under the old Act, only the income from non-prescribed investments would typically be taxed (income-level approach). Under Schedule VII, the non-prescribed investment is a condition violation that can trigger total exemption loss. PF trustees must be vigilant about investment restrictions.",
+          "tier": 3,
+          "subConcepts": ["pf-non-prescribed-investment", "total-exemption-risk-pf", "trustee-investment-vigilance"],
+          "isReview": false,
+          "oldSection": "Section 10(25)",
+          "newSection": "Schedule VII, S.No.22-24"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: Which Schedule VI entry protects NR fund income when managed by a fund manager physically located in GIFT City?",
+          "options": [
+            { "text": "S.No.1", "correct": false },
+            { "text": "S.No.5", "correct": false },
+            { "text": "S.No.7", "correct": true },
+            { "text": "S.No.12", "correct": false }
+          ],
+          "explanation": "S.No.7 is the portfolio management safe harbour. It prevents the IFSC fund manager's physical presence from creating a business connection for the NR fund under Section 9.",
+          "explanationWrong": "S.No.7 — the fund management safe harbour. This is the most critical provision for the IFSC fund management industry. Without it, no rational NR fund would appoint an India-based manager, as the manager's presence would create a taxable nexus.",
+          "tier": 3,
+          "subConcepts": ["schedule-vi-review", "sno7-fund-management"],
+          "isReview": true,
+          "oldSection": "Section 9A, 10(23FBC)",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 4,
+          "question": "A CA auditing an electoral trust finds that it distributed Rs 96 crore out of Rs 100 crore (96%) but Rs 3 crore went to a non-registered political party. Does the trust meet the 95% distribution condition?",
+          "options": [
+            { "text": "Yes — 96% exceeds 95%, so the condition is met regardless of the recipient", "correct": false },
+            { "text": "No — distribution must be to registered political parties; the Rs 3 crore to the unregistered party may not count, reducing effective distribution to 93%", "correct": true },
+            { "text": "Yes — any political party qualifies, registered or not", "correct": false },
+            { "text": "Partially — the Rs 3 crore is treated as an administrative expense", "correct": false }
+          ],
+          "explanation": "The 95% distribution requirement specifies distribution to registered political parties. Rs 3 crore to an unregistered party may not qualify as valid distribution. If excluded, the effective distribution is Rs 93 crore out of Rs 100 crore = 93%, which is below 95%. The trust loses entity-level exemption. This is a critical audit point.",
+          "explanationWrong": "Distribution to an unregistered party likely does not count. The effective distribution drops to 93% — below the 95% threshold. This is exactly the kind of nuance that CAs auditing electoral trusts must catch. Filing Form 181 (old 10BC) with incorrect distribution calculations exposes both the trust and the auditor.",
+          "tier": 3,
+          "subConcepts": ["registered-party-requirement", "effective-distribution-calculation", "audit-trap"],
+          "isReview": false,
+          "oldSection": "Section 13B",
+          "newSection": "Schedule VII, Form 181"
+        },
+        {
+          "order": 5,
+          "question": "A recognised gratuity fund (Schedule VII S.No.22-24) fails to file its return of income by the due date. Under the entity-level approach, what is the maximum consequence?",
+          "options": [
+            { "text": "Late filing fee under Section 234F only", "correct": false },
+            { "text": "Interest on unpaid tax under Section 234A only", "correct": false },
+            { "text": "Loss of entity-level exemption on ALL income — the entire fund's income becomes taxable, plus late filing penalties", "correct": true },
+            { "text": "The Commissioner revokes recognition but the fund remains exempt for the current year", "correct": false }
+          ],
+          "explanation": "Filing a return by the due date is a condition for Schedule VII entity-level exemption. Missing the deadline is a condition failure — the fund risks losing exemption on ALL its income. On top of this, standard late filing penalties and interest apply. The late filing of a gratuity fund return could transform a zero-tax entity into one with a multi-crore tax liability.",
+          "explanationWrong": "Loss of ALL exemption plus penalties. Under the old Act, late filing might attract only procedural penalties. Under Schedule VII, it is a condition breach that can cost the fund its entire exemption. A gratuity fund trustee who misses the filing deadline could be personally liable for the resulting tax exposure.",
+          "tier": 3,
+          "subConcepts": ["late-filing-total-consequence", "gratuity-fund-risk", "return-deadline-critical"],
+          "isReview": false,
+          "oldSection": "Section 10(25)",
+          "newSection": "Schedule VII, S.No.22-24"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Entity Exemption Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A large charitable hospital (Schedule VII exempt) with Rs 200 crore annual income fails a single compliance condition — it did not get its accounts audited on time. Under the entity-level approach, what is the tax exposure?",
+          "options": [
+            { "text": "Nil — hospitals are exempt regardless of audit compliance", "correct": false },
+            { "text": "Potentially Rs 200 crore becomes taxable income — entity-level exemption lost due to condition failure", "correct": true },
+            { "text": "Rs 10 crore (5% penalty on total income)", "correct": false },
+            { "text": "The hospital retains exemption on 80% of income", "correct": false }
+          ],
+          "explanation": "Under entity-level exemption, a single condition failure can expose the ENTIRE Rs 200 crore to taxation. The audit condition is non-negotiable. This is the most dramatic consequence of the shift from income-level to entity-level exemption — a hospital saving lives could face a Rs 60+ crore tax bill (at 30%) because of a late audit.",
+          "explanationWrong": "Rs 200 crore potentially taxable. The maths is sobering: at 30% tax rate, a Rs 200 crore exposure means Rs 60+ crore in tax. This single compliance lapse — late audit — could cost more than many hospitals earn in a year. Entity-level exemption demands flawless compliance infrastructure.",
+          "tier": 3,
+          "subConcepts": ["200-crore-exposure", "audit-condition-failure", "compliance-infrastructure-imperative"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiae), 11-13",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 2,
+          "question": "A commodity board (S.No.33-40) earns Rs 15 crore from commodity cess, Rs 3 crore from research grants, and Rs 2 crore from renting unused office space. Under Schedule VII entity-level exemption, what is the total exempt income?",
+          "options": [
+            { "text": "Rs 15 crore only (commodity cess)", "correct": false },
+            { "text": "Rs 18 crore (cess + grants)", "correct": false },
+            { "text": "Rs 20 crore (all income — entity-level exemption covers all sources)", "correct": true },
+            { "text": "Rs 0 — commodity boards lost exemption under the 2025 Act", "correct": false }
+          ],
+          "explanation": "If the commodity board meets all Schedule VII conditions, ALL Rs 20 crore is exempt — cess, grants, AND rental income. Entity-level exemption does not discriminate by income source. Under the old Act, the rental income from unused office space might have been challenged as not being 'income of a commodity board' — Schedule VII eliminates this dispute.",
+          "explanationWrong": "All Rs 20 crore is exempt. Entity-level exemption means the entity's total income is exempt regardless of the source. A commodity board's rental income, bank interest, and even capital gains are all exempt if the board qualifies under Schedule VII. This is simpler and more generous than the old income-level analysis.",
+          "tier": 3,
+          "subConcepts": ["commodity-board-all-income", "entity-level-no-source-filter"],
+          "isReview": false,
+          "oldSection": "Section 10(29A)",
+          "newSection": "Schedule VII, S.No.33-40"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.6: An NR enters into an interest rate swap with an OBU in GIFT City, and also buys equity futures on NSE IFSC. Which Schedule VI entries apply to each transaction respectively?",
+          "options": [
+            { "text": "S.No.1 for both", "correct": false },
+            { "text": "S.No.5 for both", "correct": false },
+            { "text": "S.No.5 for the swap (OTC); S.No.1 for the futures (exchange-traded)", "correct": true },
+            { "text": "S.No.2 for the swap; S.No.5 for the futures", "correct": false }
+          ],
+          "explanation": "Interest rate swap = OTC derivative with OBU = S.No.5. Equity futures on NSE IFSC = exchange-traded = S.No.1. The classification key is trading venue: bilateral (OTC) vs exchange.",
+          "explanationWrong": "S.No.5 for OTC swap, S.No.1 for exchange-traded futures. Same client, same IFSC, two different entries. The distinguishing factor is always the trading mechanism: OTC bilateral contracts go to S.No.5, exchange-traded instruments go to S.No.1.",
+          "tier": 3,
+          "subConcepts": ["schedule-vi-review", "otc-vs-exchange-classification"],
+          "isReview": true,
+          "oldSection": "Section 10(4F), 10(38)",
+          "newSection": "Schedule VI, S.No.1, S.No.5"
+        },
+        {
+          "order": 4,
+          "question": "A CA client operates a recognised provident fund (Rs 500 crore corpus), a charitable hospital (Rs 100 crore annual income), and manages an electoral trust (Rs 50 crore donations). Rank these from highest to lowest compliance risk under Schedule VII's entity-level approach.",
+          "options": [
+            { "text": "Hospital > PF > Electoral Trust", "correct": false },
+            { "text": "PF > Hospital > Electoral Trust", "correct": true },
+            { "text": "Electoral Trust > Hospital > PF", "correct": false },
+            { "text": "All three have equal compliance risk", "correct": false }
+          ],
+          "explanation": "The PF fund has the highest compliance risk because its Rs 500 crore corpus has the largest absolute exposure. The hospital (Rs 100 crore income) is next. The electoral trust (Rs 50 crore) has the smallest absolute exposure but the tightest condition (95% distribution). In practice, the PF fund failing one condition could expose Rs 500 crore to tax — the most catastrophic outcome.",
+          "explanationWrong": "PF > Hospital > Electoral Trust, ranked by absolute exposure. While the electoral trust has the tightest percentage requirement (95%), the PF fund's Rs 500 crore corpus represents the largest absolute tax exposure if conditions are breached. Compliance risk under entity-level exemption should be assessed by the rupee value at stake, not just the probability of breach.",
+          "tier": 3,
+          "subConcepts": ["compliance-risk-ranking", "absolute-exposure-assessment", "multi-entity-advisory"],
+          "isReview": false,
+          "oldSection": "Sections 10(25), 10(23C), 13B",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "A CA is transitioning clients from the old Act to the 2025 Act. Which single advisory message best captures the impact of Schedule VII's entity-level exemption?",
+          "options": [
+            { "text": "Tax rates have increased for exempt entities", "correct": false },
+            { "text": "More entities now qualify for exemption", "correct": false },
+            { "text": "Compliance is now all-or-nothing — meet every condition and pay zero tax, fail any condition and pay tax on everything; there is no middle ground", "correct": true },
+            { "text": "Entity exemptions have been abolished", "correct": false }
+          ],
+          "explanation": "The entity-level approach creates a binary outcome: zero tax or full tax. There is no proportional middle ground. This is the single most important message for every exempt entity client — trustees, fund managers, political party treasurers, and institution heads must all understand that partial compliance no longer earns partial exemption.",
+          "explanationWrong": "All-or-nothing is the key message. Under the old Act, partial compliance earned proportional benefit. Under Schedule VII, the regime is binary. This changes the entire compliance culture for exempt entities — from 'we will manage the shortfall' to 'we cannot afford any shortfall.' Every CA advising exempt entities must communicate this fundamental shift.",
+          "tier": 3,
+          "subConcepts": ["all-or-nothing-summary", "transition-advisory", "compliance-culture-shift"],
+          "isReview": false,
+          "oldSection": "Sections 10(23C), 11-13, 13A, 13B",
+          "newSection": "Schedule VII"
+        }
+      ]
+    }
+  ]
+}

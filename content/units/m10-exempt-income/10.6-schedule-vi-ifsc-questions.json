@@ -1,0 +1,835 @@
+{
+  "unit": "10.6",
+  "title": "Schedule VI — IFSC Exemptions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "IFSC Capital Gains & Securities Basics",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule VI, S.No.1, capital gains arising from transactions on a recognised stock exchange in an IFSC are exempt. What is the key condition regarding the consideration?",
+          "options": [
+            { "text": "It must be paid in Indian rupees only", "correct": false },
+            { "text": "It must be paid in foreign currency", "correct": true },
+            { "text": "It can be in any currency including cryptocurrency", "correct": false },
+            { "text": "It must exceed USD 100,000", "correct": false }
+          ],
+          "explanation": "Schedule VI, S.No.1 requires the consideration to be paid or payable in foreign currency for the capital gains exemption to apply. This foreign currency condition ensures the IFSC truly functions as an offshore financial centre attracting global capital. The provision is a straight carryover from old Section 10(38)/10(10D) IFSC provisions.",
+          "explanationWrong": "Foreign currency is the answer. The IFSC is designed to be a global financial hub, so the exemption logically requires foreign currency consideration. Without this condition, domestic transactions could be routed through the IFSC to claim the exemption — the foreign currency filter prevents this arbitrage.",
+          "tier": 1,
+          "subConcepts": ["ifsc-capital-gains", "foreign-currency-condition", "schedule-vi-sno1"],
+          "isReview": false,
+          "oldSection": "Section 10(38) proviso / 10(10D)",
+          "newSection": "Schedule VI, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "Schedule VI, S.No.2 exempts income from transfer of certain securities by a non-resident from an IFSC unit. Which securities qualify?",
+          "options": [
+            { "text": "Only equity shares listed on a recognised stock exchange in IFSC", "correct": false },
+            { "text": "Bonds, GDRs, rupee-denominated bonds, and derivatives on recognised stock exchange in IFSC", "correct": true },
+            { "text": "Only government securities and treasury bills", "correct": false },
+            { "text": "Any security traded anywhere, as long as the seller is an IFSC unit", "correct": false }
+          ],
+          "explanation": "S.No.2 covers a specific basket of instruments — bonds (including bonds of Indian companies), GDRs, rupee-denominated bonds of Indian companies, and derivatives traded on a recognised stock exchange in IFSC. The non-resident transferor need not be the IFSC unit itself — the exemption applies to any non-resident transacting in these specific instruments through the IFSC.",
+          "explanationWrong": "The correct answer includes bonds, GDRs, rupee-denominated bonds, and derivatives on a recognised stock exchange in IFSC. This is deliberately broader than just equity shares — the intent is to make the IFSC a comprehensive financial centre. Equity share transactions on the IFSC exchange are covered separately under S.No.1.",
+          "tier": 1,
+          "subConcepts": ["nr-securities-ifsc", "schedule-vi-sno2", "gdr-bonds-derivatives"],
+          "isReview": false,
+          "oldSection": "Section 10(4E)",
+          "newSection": "Schedule VI, S.No.2"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Under Schedule V, which categories of AIFs qualify for the pass-through exemption?",
+          "options": [
+            { "text": "All three categories (I, II, and III)", "correct": false },
+            { "text": "Category I and Category II only", "correct": true },
+            { "text": "Category II and Category III only", "correct": false },
+            { "text": "Only Category I AIFs", "correct": false }
+          ],
+          "explanation": "Schedule V pass-through applies only to Category I and Category II AIFs. Category III AIFs (hedge funds) are taxed at the fund level. However, Category III AIFs operating in an IFSC have a separate exemption under Schedule VI.",
+          "explanationWrong": "Category I and Category II only. Category III AIFs are excluded from the Schedule V pass-through and taxed at fund level. The important link to this unit: Category III AIFs in an IFSC get their own exemption under Schedule VI instead — a completely different route to tax relief.",
+          "tier": 1,
+          "subConcepts": ["schedule-v-review", "cat-I-II-AIF-passthrough"],
+          "isReview": true,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "An Offshore Banking Unit (OBU) in an IFSC enters into a derivatives transaction with a non-resident. Under which S.No. of Schedule VI is the non-resident's income from this transaction exempt?",
+          "options": [
+            { "text": "S.No.1", "correct": false },
+            { "text": "S.No.2", "correct": false },
+            { "text": "S.No.5", "correct": true },
+            { "text": "S.No.7", "correct": false }
+          ],
+          "explanation": "S.No.5 specifically covers income of a non-resident from a transaction with an OBU in the IFSC involving over-the-counter derivatives. This is distinct from exchange-traded derivatives (S.No.1/2) — S.No.5 covers the bilateral OTC space where OBUs operate as counterparties.",
+          "explanationWrong": "S.No.5 is correct. The Schedule VI exemptions are precisely segmented: S.No.1 covers exchange-traded capital gains, S.No.2 covers specific NR securities, and S.No.5 carves out OTC derivative transactions specifically with OBUs. Knowing which S.No. covers which transaction type is essential for advising IFSC clients.",
+          "tier": 1,
+          "subConcepts": ["obu-derivatives", "schedule-vi-sno5", "otc-derivatives-ifsc"],
+          "isReview": false,
+          "oldSection": "Section 10(4F)",
+          "newSection": "Schedule VI, S.No.5"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 10-IG, used for claiming IFSC exemptions related to investment funds, has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 66", "correct": false },
+            { "text": "Form 68", "correct": true },
+            { "text": "Form 70", "correct": false },
+            { "text": "Form 72", "correct": false }
+          ],
+          "explanation": "Form 10-IG becomes Form 68 under the 2025 Act. The Schedule VI form renumbering: 10-IG becomes 68, 10-IH becomes 69, 10-IK becomes 70, and 10-II becomes 178. Content and filing obligations remain identical — only form numbers change.",
+          "explanationWrong": "Form 68 is correct. Here is the complete Schedule VI form mapping: 10-IG to 68, 10-IH to 69, 10-IK to 70, and 10-II to 178. Note that 178 is a significant jump — 10-II covers a different category of IFSC compliance and sits in a different form series.",
+          "tier": 1,
+          "subConcepts": ["form-10IG-to-68", "schedule-vi-form-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 10-IG",
+          "newSection": "Form 68"
+        }
+      ]
+    },
+    {
+      "title": "Aircraft Leasing, Portfolio Management & Leasing Equity",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Schedule VI, S.No.6 provides an exemption for income from leasing of aircraft or ships by an IFSC unit. What is the primary condition for this exemption?",
+          "options": [
+            { "text": "The aircraft must be manufactured in India", "correct": false },
+            { "text": "The leasing must be to a domestic airline only", "correct": false },
+            { "text": "The IFSC unit must be engaged in aircraft or ship leasing", "correct": true },
+            { "text": "The lease period must exceed 10 years", "correct": false }
+          ],
+          "explanation": "S.No.6 exempts income of an IFSC unit engaged in the business of aircraft or ship leasing. The exemption is designed to make GIFT City competitive with global aircraft leasing hubs like Ireland and Singapore. The unit must be specifically set up for this business — general IFSC units cannot claim it.",
+          "explanationWrong": "The IFSC unit must be engaged in aircraft or ship leasing business. India introduced this exemption to develop GIFT City as an aircraft leasing hub — previously, Indian airlines leased aircraft through Irish or Singapore entities. The exemption targets the leasing entity itself, not any particular lessee or aircraft origin.",
+          "tier": 1,
+          "subConcepts": ["aircraft-ship-leasing-ifsc", "schedule-vi-sno6", "gift-city-leasing"],
+          "isReview": false,
+          "oldSection": "Section 10(4H)",
+          "newSection": "Schedule VI, S.No.6"
+        },
+        {
+          "order": 2,
+          "question": "Under Schedule VI, S.No.7, income arising to a non-resident from portfolio management services provided by a fund manager in an IFSC is exempt. Which old section did this originate from?",
+          "options": [
+            { "text": "Section 10(4D)", "correct": false },
+            { "text": "Section 10(4E)", "correct": false },
+            { "text": "Section 10(4F)", "correct": false },
+            { "text": "Section 9A read with Section 10(23FBC)", "correct": true }
+          ],
+          "explanation": "The portfolio management exemption for IFSC fund managers traces back to the safe harbour under Section 9A (fund management in India not constituting business connection) read with Section 10(23FBC). Schedule VI, S.No.7 consolidates this into a single exemption entry.",
+          "explanationWrong": "Section 9A read with Section 10(23FBC) is correct. The old regime had a two-step mechanism: Section 9A ensured the fund manager's presence in India did not create a business connection for the NR investor, and 10(23FBC) exempted specific income. Schedule VI, S.No.7 now provides this as a single consolidated exemption.",
+          "tier": 1,
+          "subConcepts": ["portfolio-management-ifsc", "schedule-vi-sno7", "fund-manager-safe-harbour"],
+          "isReview": false,
+          "oldSection": "Section 9A / 10(23FBC)",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Old Form 64E (statement of income of an investment fund) has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 72", "correct": true },
+            { "text": "Form 73", "correct": false },
+            { "text": "Form 74", "correct": false },
+            { "text": "Form 76", "correct": false }
+          ],
+          "explanation": "Form 64E becomes Form 72. The complete Schedule V form mapping: 64A becomes 76, 64E becomes 72, 64F becomes 73, and 64 becomes 74.",
+          "explanationWrong": "Form 72 is correct. The Schedule V form mapping: 64A to 76, 64E to 72, 64F to 73, 64 to 74. Do not confuse with Schedule VI forms — those have a different series (10-IG to 68, 10-IH to 69, etc.).",
+          "tier": 1,
+          "subConcepts": ["schedule-v-form-review", "form-64E-to-72"],
+          "isReview": true,
+          "oldSection": "Form 64E",
+          "newSection": "Form 72"
+        },
+        {
+          "order": 4,
+          "question": "Schedule VI, S.No.8 exempts income from transfer of equity shares of an IFSC unit engaged in the business of leasing. What type of entity is the transferor?",
+          "options": [
+            { "text": "Any person including residents", "correct": false },
+            { "text": "Only non-residents", "correct": false },
+            { "text": "The original promoter of the IFSC unit", "correct": false },
+            { "text": "A person set up to lease aircraft or ships and regulated by IFSCA", "correct": true }
+          ],
+          "explanation": "S.No.8 is specifically for entities engaged in aircraft/ship leasing regulated by IFSCA. When such an entity transfers equity shares of another IFSC leasing unit, the gains are exempt. This supports the consolidation and restructuring of leasing operations within GIFT City without triggering tax consequences.",
+          "explanationWrong": "The correct answer is a leasing entity regulated by IFSCA. This is not a general exemption for anyone selling IFSC unit shares — it is narrowly targeted at leasing industry restructuring within the IFSC ecosystem. S.No.8 works in tandem with S.No.6 (income from leasing) to create a comprehensive tax-neutral environment for aircraft/ship leasing in GIFT City.",
+          "tier": 1,
+          "subConcepts": ["leasing-equity-transfer", "schedule-vi-sno8", "ifsca-regulated"],
+          "isReview": false,
+          "oldSection": "Section 10(4I)",
+          "newSection": "Schedule VI, S.No.8"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 10-IH, another IFSC-related form, has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 67", "correct": false },
+            { "text": "Form 69", "correct": true },
+            { "text": "Form 71", "correct": false },
+            { "text": "Form 178", "correct": false }
+          ],
+          "explanation": "Form 10-IH becomes Form 69. The complete Schedule VI form renumbering: 10-IG to 68, 10-IH to 69, 10-IK to 70, and 10-II to 178.",
+          "explanationWrong": "Form 69 is correct. Remember the sequence: 10-IG to 68, 10-IH to 69, 10-IK to 70 — they map in alphabetical order to consecutive form numbers. The outlier is 10-II which jumps to 178.",
+          "tier": 1,
+          "subConcepts": ["form-10IH-to-69", "schedule-vi-form-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 10-IH",
+          "newSection": "Form 69"
+        }
+      ]
+    },
+    {
+      "title": "Remaining Forms & Consolidation Overview",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Schedule VI contain in total under the 2025 Act?",
+          "options": [
+            { "text": "6 entries", "correct": false },
+            { "text": "8 entries", "correct": false },
+            { "text": "12 entries", "correct": true },
+            { "text": "18 entries", "correct": false }
+          ],
+          "explanation": "Schedule VI contains 12 entries covering various IFSC-related exemptions. These consolidate multiple old Section 10 clauses that were scattered across sub-clauses (4D), (4E), (4F), (4G), (4H), (4I), (23FBC), and related provisions into a single schedule dedicated to IFSC.",
+          "explanationWrong": "12 entries is correct. Schedule VI is a purpose-built schedule consolidating all IFSC exemptions. Under the old Act, these were scattered across Section 10(4D) through 10(4I) and other provisions. The 12-entry format makes it far easier to locate and apply IFSC exemptions.",
+          "tier": 1,
+          "subConcepts": ["schedule-vi-12-entries", "ifsc-consolidation"],
+          "isReview": false,
+          "oldSection": "Section 10(4D)-(4I), 10(23FBC)",
+          "newSection": "Schedule VI"
+        },
+        {
+          "order": 2,
+          "question": "Old Form 10-IK, used for certain IFSC fund-related filings, has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 68", "correct": false },
+            { "text": "Form 69", "correct": false },
+            { "text": "Form 70", "correct": true },
+            { "text": "Form 72", "correct": false }
+          ],
+          "explanation": "Form 10-IK becomes Form 70. This completes the main IFSC form sequence: 10-IG to 68, 10-IH to 69, 10-IK to 70. The fourth IFSC form, 10-II, maps to 178.",
+          "explanationWrong": "Form 70 is correct. The main IFSC forms follow an alphabetical-to-sequential mapping: 10-IG to 68, 10-IH to 69, 10-IK to 70. Remember IK (not IJ — there is no 10-IJ) maps to 70.",
+          "tier": 1,
+          "subConcepts": ["form-10IK-to-70", "schedule-vi-form-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 10-IK",
+          "newSection": "Form 70"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Under Schedule V, what happens to the business income of a Category I/II AIF — does it pass through to unit-holders?",
+          "options": [
+            { "text": "Yes, all income including business income passes through", "correct": false },
+            { "text": "No, business income is taxed at the fund level at maximum marginal rate", "correct": true },
+            { "text": "Business income is exempt entirely", "correct": false },
+            { "text": "Business income is taxed at a flat 25%", "correct": false }
+          ],
+          "explanation": "Only non-business income of a Category I/II AIF passes through to unit-holders. Business income is taxed at the fund level at maximum marginal rate. This distinction prevents AIFs from converting business income into pass-through income.",
+          "explanationWrong": "Business income is taxed at the fund level at maximum marginal rate — it does NOT pass through. The pass-through mechanism under Schedule V applies only to non-business income (capital gains, interest, dividends, etc.). This is an anti-avoidance measure carried forward from the old Act.",
+          "tier": 1,
+          "subConcepts": ["schedule-v-review", "aif-business-income-no-passthrough"],
+          "isReview": true,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "Old Form 10-II, the fourth IFSC form, maps to a significantly different form number under the 2025 Act. What is it?",
+          "options": [
+            { "text": "Form 71", "correct": false },
+            { "text": "Form 100", "correct": false },
+            { "text": "Form 178", "correct": true },
+            { "text": "Form 200", "correct": false }
+          ],
+          "explanation": "Form 10-II maps to Form 178 — a significant jump from the 68-70 range of the other IFSC forms. This is because Form 178 sits in the miscellaneous compliance series rather than the exemption-claim series where Forms 68-70 reside.",
+          "explanationWrong": "Form 178 is correct. While 10-IG, 10-IH, and 10-IK map to consecutive Forms 68, 69, and 70, Form 10-II jumps to 178. This is the most commonly missed mapping in the Schedule VI form renumbering — remember it as the outlier.",
+          "tier": 1,
+          "subConcepts": ["form-10II-to-178", "schedule-vi-form-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 10-II",
+          "newSection": "Form 178"
+        },
+        {
+          "order": 5,
+          "question": "The IFSC exemptions under Schedule VI are primarily designed to make which Indian financial centre competitive globally?",
+          "options": [
+            { "text": "SEBI Financial Centre, Mumbai", "correct": false },
+            { "text": "GIFT City, Gujarat (Gujarat International Finance Tec-City)", "correct": true },
+            { "text": "Bengaluru FinTech Hub", "correct": false },
+            { "text": "Chennai International Financial District", "correct": false }
+          ],
+          "explanation": "All Schedule VI IFSC exemptions target GIFT City in Gandhinagar, Gujarat — India's first and currently only IFSC. GIFT City is regulated by IFSCA (International Financial Services Centres Authority) and competes with Singapore, Dubai, and Hong Kong as a financial hub.",
+          "explanationWrong": "GIFT City, Gujarat is the correct answer. GIFT City is India's sole operational IFSC, and all 12 entries in Schedule VI are designed to attract global financial activity to this centre. Without these tax exemptions, GIFT City cannot compete with zero-tax jurisdictions like Dubai or low-tax ones like Singapore.",
+          "tier": 1,
+          "subConcepts": ["gift-city-ifsc", "ifsca", "schedule-vi-purpose"],
+          "isReview": false,
+          "oldSection": "Various Section 10 IFSC clauses",
+          "newSection": "Schedule VI"
+        }
+      ]
+    },
+    {
+      "title": "IFSC Transaction Types Deep Dive",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the key structural difference between S.No.1 and S.No.2 of Schedule VI?",
+          "options": [
+            { "text": "S.No.1 applies to residents, S.No.2 to non-residents", "correct": false },
+            { "text": "S.No.1 covers exchange-traded capital gains in foreign currency; S.No.2 covers specific NR securities including bonds and GDRs", "correct": true },
+            { "text": "S.No.1 is for equity only, S.No.2 is for debt only", "correct": false },
+            { "text": "S.No.1 requires IFSCA approval, S.No.2 does not", "correct": false }
+          ],
+          "explanation": "S.No.1 is broader — it covers capital gains from any transaction on a recognised stock exchange in IFSC paid in foreign currency. S.No.2 is instrument-specific — it targets bonds, GDRs, rupee-denominated bonds, and exchange-traded derivatives by non-residents. Together they ensure comprehensive coverage of IFSC financial instrument transactions.",
+          "explanationWrong": "S.No.1 covers exchange-traded capital gains (foreign currency condition), while S.No.2 targets specific NR securities. The distinction matters in practice: a resident selling shares on the IFSC exchange can use S.No.1 (if in foreign currency), but S.No.2 is exclusively for non-residents dealing in specific instruments.",
+          "tier": 2,
+          "subConcepts": ["sno1-vs-sno2-distinction", "exchange-traded-vs-instrument-specific"],
+          "isReview": false,
+          "oldSection": "Section 10(38), 10(4E)",
+          "newSection": "Schedule VI, S.No.1-2"
+        },
+        {
+          "order": 2,
+          "question": "Why does Schedule VI, S.No.5 separately exempt OTC derivatives with OBUs, when S.No.1 already covers exchange-traded instruments?",
+          "options": [
+            { "text": "S.No.5 was a drafting error and duplicates S.No.1", "correct": false },
+            { "text": "OTC derivatives are not traded on exchanges, so S.No.1's exchange-traded condition excludes them", "correct": true },
+            { "text": "S.No.5 only applies to commodity derivatives", "correct": false },
+            { "text": "S.No.5 covers domestic transactions while S.No.1 covers international ones", "correct": false }
+          ],
+          "explanation": "S.No.1 requires the transaction to occur on a recognised stock exchange in IFSC. OTC derivatives are bilateral contracts between parties — they are not exchange-traded. Without S.No.5, a non-resident entering into an interest rate swap or currency forward with an OBU in GIFT City would not be covered by S.No.1. S.No.5 fills this structural gap.",
+          "explanationWrong": "OTC derivatives are not exchange-traded, so S.No.1 cannot cover them. This is a fundamental markets distinction: exchange-traded instruments (covered by S.No.1) have standardised terms and clear on a central counterparty, while OTC derivatives (S.No.5) are customised bilateral contracts. Both are essential for a functioning IFSC.",
+          "tier": 2,
+          "subConcepts": ["otc-vs-exchange-traded", "obu-derivatives-rationale", "schedule-vi-sno5-gap"],
+          "isReview": false,
+          "oldSection": "Section 10(4F)",
+          "newSection": "Schedule VI, S.No.5"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Under Schedule V, when a business trust (REIT/InvIT) distributes rental income from its SPV, how is it taxed?",
+          "options": [
+            { "text": "Exempt at both SPV and unit-holder level", "correct": false },
+            { "text": "Taxed at the SPV level only", "correct": false },
+            { "text": "Exempt at SPV level, taxed in the hands of the business trust which distributes to unit-holders", "correct": true },
+            { "text": "Subject to 10% TDS with no further tax", "correct": false }
+          ],
+          "explanation": "The rental income is exempt at the SPV level (pass-through under Schedule V) and flows up to the business trust, which distributes it to unit-holders. The income is ultimately taxable in the hands of unit-holders under the relevant head.",
+          "explanationWrong": "The rental income passes through the SPV (exempt at that level) to the business trust, which distributes it to unit-holders who pay tax. This multi-level pass-through is the core mechanism of Schedule V — ensuring tax is paid only once, at the ultimate investor level.",
+          "tier": 2,
+          "subConcepts": ["schedule-v-review", "reit-rental-passthrough"],
+          "isReview": true,
+          "oldSection": "Section 10(23FCA)",
+          "newSection": "Schedule V, S.No.6-8"
+        },
+        {
+          "order": 4,
+          "question": "A Singapore-based hedge fund (Category III AIF) sets up operations in GIFT City. Under Schedule VI, can it claim exemption on its income from derivatives transactions on the IFSC exchange?",
+          "options": [
+            { "text": "No — Category III AIFs are completely excluded from all IFSC exemptions", "correct": false },
+            { "text": "Yes — but only through Schedule V pass-through provisions", "correct": false },
+            { "text": "Yes — through Schedule VI, S.No.1 (capital gains on IFSC exchange in foreign currency) and other applicable entries", "correct": true },
+            { "text": "Only if it converts to a Category I AIF", "correct": false }
+          ],
+          "explanation": "While Category III AIFs are excluded from Schedule V pass-through, they can independently claim Schedule VI exemptions if they operate as IFSC units. S.No.1 (exchange-traded capital gains in foreign currency) and other Schedule VI entries apply based on the nature of the transaction and IFSC location — not the AIF category. This is precisely why GIFT City is attractive for Category III funds.",
+          "explanationWrong": "Category III AIFs in GIFT City can claim Schedule VI exemptions based on their IFSC operations. The key insight: Schedule V (pass-through) excludes Category III, but Schedule VI (IFSC-specific) does not discriminate by AIF category. This dual-schedule architecture is what makes GIFT City viable for hedge funds.",
+          "tier": 2,
+          "subConcepts": ["cat-III-ifsc-exemption", "schedule-v-vs-vi", "hedge-fund-gift-city"],
+          "isReview": false,
+          "oldSection": "Section 10(4D)-(4F)",
+          "newSection": "Schedule VI, S.No.1"
+        },
+        {
+          "order": 5,
+          "question": "Under the old Act, IFSC exemptions were scattered across multiple clauses — 10(4D), 10(4E), 10(4F), 10(4G), 10(4H), 10(4I), and others. How does the 2025 Act reorganise them?",
+          "options": [
+            { "text": "Merged into a single Section 10A", "correct": false },
+            { "text": "Consolidated into Schedule VI with 12 sequentially numbered entries", "correct": true },
+            { "text": "Moved to Chapter XII-A as a separate code", "correct": false },
+            { "text": "Eliminated entirely — IFSC exemptions are discontinued", "correct": false }
+          ],
+          "explanation": "All IFSC exemptions are consolidated into Schedule VI with 12 entries. This is a pure reorganisation — no substantive change in the exemptions themselves. The benefit is navigability: practitioners no longer need to search through multiple sub-clauses of Section 10 to find IFSC provisions.",
+          "explanationWrong": "Schedule VI with 12 entries is the correct answer. The 2025 Act's approach to IFSC exemptions follows its broader philosophy: consolidate scattered provisions into purpose-specific schedules. Schedule VI is exclusively for IFSC, making it a one-stop reference for GIFT City practitioners.",
+          "tier": 2,
+          "subConcepts": ["ifsc-consolidation-rationale", "12-entries-schedule-vi"],
+          "isReview": false,
+          "oldSection": "Section 10(4D)-(4I), 10(23FBC) etc.",
+          "newSection": "Schedule VI"
+        }
+      ]
+    },
+    {
+      "title": "Aircraft Leasing & Fund Management Policy",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What policy objective does the aircraft/ship leasing exemption under Schedule VI, S.No.6 serve?",
+          "options": [
+            { "text": "Encouraging domestic aircraft manufacturing", "correct": false },
+            { "text": "Shifting aircraft leasing from Ireland/Singapore to GIFT City by providing tax parity", "correct": true },
+            { "text": "Reducing airline ticket prices for consumers", "correct": false },
+            { "text": "Promoting coastal shipping under the Sagarmala project", "correct": false }
+          ],
+          "explanation": "India's airlines pay billions in lease rentals, primarily to Irish and Singapore-based lessors. S.No.6 creates a tax-neutral environment in GIFT City to attract these leasing operations onshore. Ireland's success as an aircraft leasing hub is largely tax-driven — India needs similar tax treatment to compete.",
+          "explanationWrong": "The answer is shifting leasing from Ireland/Singapore to GIFT City. Over 80% of global aircraft leasing is concentrated in Ireland due to its tax treaties and low effective tax rates on leasing income. S.No.6 is India's attempt to capture a share of this market through GIFT City, saving foreign exchange and creating financial services jobs.",
+          "tier": 2,
+          "subConcepts": ["aircraft-leasing-policy", "ireland-singapore-competition", "gift-city-leasing-hub"],
+          "isReview": false,
+          "oldSection": "Section 10(4H)",
+          "newSection": "Schedule VI, S.No.6"
+        },
+        {
+          "order": 2,
+          "question": "How does Schedule VI, S.No.8 (leasing equity transfer) complement S.No.6 (leasing income)?",
+          "options": [
+            { "text": "S.No.8 provides a higher exemption amount than S.No.6", "correct": false },
+            { "text": "S.No.6 exempts operational leasing income; S.No.8 exempts capital gains on transfer of equity in leasing entities, enabling tax-neutral restructuring", "correct": true },
+            { "text": "S.No.8 applies to domestic lessors while S.No.6 applies to foreign lessors", "correct": false },
+            { "text": "They are unrelated provisions that happen to be in the same schedule", "correct": false }
+          ],
+          "explanation": "S.No.6 and S.No.8 work as a pair: S.No.6 ensures leasing operations are tax-neutral (operational income exemption), and S.No.8 ensures that restructuring or consolidation of leasing entities through equity transfers is also tax-neutral. Without S.No.8, a leasing company in GIFT City could not be acquired or merged without triggering capital gains tax — deterring institutional investment.",
+          "explanationWrong": "S.No.6 covers operational income, S.No.8 covers equity transfers — together they create a complete tax-neutral leasing ecosystem. Think of it as covering both the income statement (S.No.6) and the balance sheet (S.No.8) of a leasing entity in GIFT City.",
+          "tier": 2,
+          "subConcepts": ["sno6-sno8-pair", "leasing-restructuring-neutrality"],
+          "isReview": false,
+          "oldSection": "Section 10(4H), 10(4I)",
+          "newSection": "Schedule VI, S.No.6, S.No.8"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.4: Under Schedule IV, S.No.1, interest earned by a non-resident on a Non-Resident External (NRE) account is exempt. What happens to this exemption if the NRI returns to India?",
+          "options": [
+            { "text": "The exemption continues for 3 years after return", "correct": false },
+            { "text": "The exemption stops immediately upon becoming a resident", "correct": true },
+            { "text": "The exemption continues indefinitely if the account was opened while non-resident", "correct": false },
+            { "text": "The exemption converts to a deduction under Chapter VI-A", "correct": false }
+          ],
+          "explanation": "The NRE account interest exemption under Schedule IV applies only while the person remains a non-resident. Upon becoming a resident, the NRE account must be redesignated and the interest exemption ceases.",
+          "explanationWrong": "The exemption stops immediately upon becoming resident. Schedule IV exemptions are status-dependent — they exist only while the person qualifies as a non-resident. Upon return, the NRE account is typically converted to a resident account, and interest becomes fully taxable.",
+          "tier": 2,
+          "subConcepts": ["schedule-iv-review", "nre-account-exemption-end"],
+          "isReview": true,
+          "oldSection": "Section 10(4)(ii)",
+          "newSection": "Schedule IV, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "A fund manager based in GIFT City manages a portfolio for a Cayman Islands fund. The NR fund earns Rs 10 crore from derivatives on the IFSC exchange. Under Schedule VI, which entry provides the fund manager safe harbour?",
+          "options": [
+            { "text": "S.No.1 only — capital gains exemption", "correct": false },
+            { "text": "S.No.5 only — OBU derivative exemption", "correct": false },
+            { "text": "S.No.7 — portfolio management income from fund manager in IFSC", "correct": true },
+            { "text": "No exemption is available — the fund manager creates a business connection", "correct": false }
+          ],
+          "explanation": "S.No.7 provides the fund manager safe harbour. The NR fund's income from portfolio management services by an IFSC-based fund manager is exempt. This prevents the fund manager's physical presence in India from creating a taxable business connection for the offshore fund — the core concern for global fund managers considering GIFT City.",
+          "explanationWrong": "S.No.7 is the correct answer. While S.No.1 may also apply to the derivatives income itself, the critical protection for the fund manager relationship is S.No.7. Without this safe harbour, having a fund manager in India would create a 'business connection' under Section 9, making the NR fund's entire income taxable in India.",
+          "tier": 2,
+          "subConcepts": ["fund-manager-safe-harbour", "business-connection-prevention", "schedule-vi-sno7-application"],
+          "isReview": false,
+          "oldSection": "Section 9A / 10(23FBC)",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 5,
+          "question": "Under the old Act, IFSC exemption forms were named with prefix '10-I' (like 10-IG, 10-IH, 10-IK, 10-II). Under the 2025 Act, three of these map to consecutive numbers. What is the range?",
+          "options": [
+            { "text": "Forms 65, 66, 67", "correct": false },
+            { "text": "Forms 68, 69, 70", "correct": true },
+            { "text": "Forms 72, 73, 74", "correct": false },
+            { "text": "Forms 175, 176, 177", "correct": false }
+          ],
+          "explanation": "10-IG maps to 68, 10-IH maps to 69, 10-IK maps to 70 — three consecutive form numbers. The fourth form, 10-II, is the outlier mapping to 178. The 72-73-74 range belongs to Schedule V forms (64E, 64F, 64).",
+          "explanationWrong": "Forms 68, 69, 70 is correct. Three of the four IFSC forms map neatly to 68-70. Do not confuse with the 72-74 range which belongs to Schedule V (business trust/investment fund forms). The outlier is 10-II to 178.",
+          "tier": 2,
+          "subConcepts": ["ifsc-form-range-68-70", "form-renumbering-pattern"],
+          "isReview": false,
+          "oldSection": "Forms 10-IG, 10-IH, 10-IK",
+          "newSection": "Forms 68, 69, 70"
+        }
+      ]
+    },
+    {
+      "title": "IFSC Regulatory & Structural Analysis",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which regulatory authority oversees IFSC units that claim exemptions under Schedule VI?",
+          "options": [
+            { "text": "SEBI (Securities and Exchange Board of India)", "correct": false },
+            { "text": "RBI (Reserve Bank of India)", "correct": false },
+            { "text": "IFSCA (International Financial Services Centres Authority)", "correct": true },
+            { "text": "CBDT (Central Board of Direct Taxes)", "correct": false }
+          ],
+          "explanation": "IFSCA is the unified regulator for all financial services in IFSCs. Established under the IFSCA Act, 2019, it replaces the jurisdiction of SEBI, RBI, IRDAI, and PFRDA within the IFSC. All Schedule VI exemptions require the entity to be an IFSC unit regulated by IFSCA.",
+          "explanationWrong": "IFSCA is the correct answer. Unlike the rest of India where SEBI, RBI, IRDAI, and PFRDA each regulate their domains, GIFT City has a single unified regulator — IFSCA. This simplifies compliance for IFSC units and is a key selling point for attracting global financial institutions.",
+          "tier": 2,
+          "subConcepts": ["ifsca-regulator", "unified-regulation-ifsc"],
+          "isReview": false,
+          "oldSection": "IFSCA Act, 2019",
+          "newSection": "Schedule VI"
+        },
+        {
+          "order": 2,
+          "question": "A non-resident enters into a currency swap (OTC derivative) with an OBU in GIFT City. Under which Schedule VI entry is the NR's income exempt, and why does S.No.1 not apply?",
+          "options": [
+            { "text": "S.No.2 — because currency swaps are securities, not capital gains", "correct": false },
+            { "text": "S.No.5 — because currency swaps are OTC instruments, not exchange-traded, so S.No.1's exchange condition is not met", "correct": true },
+            { "text": "S.No.7 — because the OBU acts as a portfolio manager", "correct": false },
+            { "text": "S.No.1 does apply — this is a trick question", "correct": false }
+          ],
+          "explanation": "Currency swaps are OTC (over-the-counter) derivatives — customised bilateral contracts between the NR and the OBU. S.No.1 requires the transaction to be on a recognised stock exchange in IFSC, which OTC instruments by definition are not. S.No.5 specifically covers this gap for NR income from OTC derivative transactions with OBUs.",
+          "explanationWrong": "S.No.5 is correct because currency swaps are OTC. The exchange-traded vs OTC distinction is fundamental in financial markets. A currency futures contract on NSE IFSC would fall under S.No.1; a bespoke currency swap negotiated bilaterally with an OBU falls under S.No.5. Same economic substance, different legal treatment based on trading venue.",
+          "tier": 2,
+          "subConcepts": ["currency-swap-obu", "otc-vs-exchange-application", "schedule-vi-sno5-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(4F)",
+          "newSection": "Schedule VI, S.No.5"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Old Form 64A (business trust distribution statement) maps to which new form number?",
+          "options": [
+            { "text": "Form 72", "correct": false },
+            { "text": "Form 74", "correct": false },
+            { "text": "Form 76", "correct": true },
+            { "text": "Form 78", "correct": false }
+          ],
+          "explanation": "Form 64A maps to Form 76. Complete Schedule V form mapping: 64A to 76, 64E to 72, 64F to 73, 64 to 74.",
+          "explanationWrong": "Form 76 is correct. Mnemonic: 64A is the 'A' form (for business trusts), and it maps to 76 — the highest number in the Schedule V form series. The other three (72, 73, 74) cover investment funds and VCC/VCF.",
+          "tier": 2,
+          "subConcepts": ["schedule-v-form-review", "form-64A-to-76"],
+          "isReview": true,
+          "oldSection": "Form 64A",
+          "newSection": "Form 76"
+        },
+        {
+          "order": 4,
+          "question": "Why did the 2025 Act create a separate Schedule VI for IFSC exemptions instead of including them within Schedule II (general) or Schedule IV (non-resident)?",
+          "options": [
+            { "text": "IFSC exemptions are temporary and will be removed in 2030", "correct": false },
+            { "text": "IFSC exemptions have a unique locational criterion (IFSC situs) that cuts across resident/non-resident categories, warranting a dedicated schedule", "correct": true },
+            { "text": "Political reasons — GIFT City needed its own schedule for prestige", "correct": false },
+            { "text": "IFSC exemptions are constitutional requirements under Article 246A", "correct": false }
+          ],
+          "explanation": "IFSC exemptions are location-based (GIFT City), not person-based (resident/NR) or income-based (general). Some entries apply to residents, some to non-residents, some to both — making them a poor fit for Schedule II (general), III (individual/HUF), or IV (NR). A dedicated Schedule VI preserves logical coherence.",
+          "explanationWrong": "The locational criterion is key. Schedule II is for general income-type exemptions, Schedule III for individual/HUF status-based exemptions, Schedule IV for non-resident status-based exemptions. IFSC exemptions are location-based — they apply to anyone transacting in/through an IFSC regardless of residential status. A dedicated schedule is the clean architectural choice.",
+          "tier": 2,
+          "subConcepts": ["schedule-vi-rationale", "location-vs-person-vs-income"],
+          "isReview": false,
+          "oldSection": "Section 10 (various)",
+          "newSection": "Schedule VI"
+        },
+        {
+          "order": 5,
+          "question": "The Schedule VI IFSC exemptions involve no substantive changes from the old Act provisions. What is the primary benefit of the reorganisation for practitioners?",
+          "options": [
+            { "text": "Lower tax rates for IFSC transactions", "correct": false },
+            { "text": "Expanded scope to cover new types of instruments", "correct": false },
+            { "text": "Single-schedule navigability — all 12 IFSC exemptions in one place instead of scattered across Section 10 sub-clauses", "correct": true },
+            { "text": "Automatic approval from IFSCA without separate application", "correct": false }
+          ],
+          "explanation": "The reorganisation is purely structural. Under the old Act, a practitioner advising an IFSC client had to search through 10(4D), 10(4E), 10(4F), 10(4G), 10(4H), 10(4I), 10(23FBC) and more. Now all 12 entries sit in Schedule VI — a single reference point. No new exemptions were added and no existing ones were removed.",
+          "explanationWrong": "Single-schedule navigability is the correct answer. This is a recurring theme of the 2025 Act — reorganisation without substantive change. For IFSC practitioners, the benefit is practical: instead of memorising which sub-clause of Section 10 applies, they turn to Schedule VI and find everything in 12 numbered entries.",
+          "tier": 2,
+          "subConcepts": ["navigability-benefit", "no-substantive-change", "reorganisation-principle"],
+          "isReview": false,
+          "oldSection": "Section 10(4D)-(4I) etc.",
+          "newSection": "Schedule VI"
+        }
+      ]
+    },
+    {
+      "title": "IFSC Advisory Scenarios — Capital Gains & Derivatives",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A UK-based investment bank sells equity shares worth USD 5 million on the NSE IFSC exchange. The shares were acquired 8 months ago. Under Schedule VI, S.No.1, is the capital gain exempt?",
+          "options": [
+            { "text": "No — the holding period is less than 12 months", "correct": false },
+            { "text": "No — the exemption applies only to Indian residents", "correct": false },
+            { "text": "Yes — the transaction is on a recognised stock exchange in IFSC and consideration is in foreign currency", "correct": true },
+            { "text": "Yes, but only 50% of the capital gain is exempt", "correct": false }
+          ],
+          "explanation": "S.No.1 exempts capital gains from transactions on a recognised stock exchange in IFSC where consideration is in foreign currency. There is no holding period condition in S.No.1 — both short-term and long-term capital gains qualify. The two conditions met here: (1) NSE IFSC is a recognised stock exchange, and (2) USD is foreign currency.",
+          "explanationWrong": "The gain is fully exempt. S.No.1 does not impose a minimum holding period — this is a common misconception carried over from the old Section 10(38) which required shares to be held for more than 12 months. The IFSC exemption is more generous: any capital gain on the IFSC exchange in foreign currency is exempt regardless of holding period.",
+          "tier": 3,
+          "subConcepts": ["sno1-no-holding-period", "nse-ifsc-exchange", "foreign-currency-usd"],
+          "isReview": false,
+          "oldSection": "Section 10(38) / IFSC proviso",
+          "newSection": "Schedule VI, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "A Japanese bank buys GDRs of an Indian company through GIFT City and sells them 3 months later at a profit. Which Schedule VI entry provides exemption?",
+          "options": [
+            { "text": "S.No.1 — capital gains on IFSC exchange", "correct": false },
+            { "text": "S.No.2 — NR income from transfer of bonds, GDRs, and derivatives in IFSC", "correct": true },
+            { "text": "S.No.5 — OBU derivative transaction", "correct": false },
+            { "text": "S.No.7 — portfolio management", "correct": false }
+          ],
+          "explanation": "GDRs are specifically listed under S.No.2 which covers income of a non-resident from transfer of bonds, GDRs, rupee-denominated bonds, and derivatives on a recognised stock exchange in IFSC. The Japanese bank is a non-resident, and GDRs are explicitly covered. S.No.1 could also potentially apply if the transaction is on the exchange in foreign currency, but S.No.2 is the specific provision for GDRs.",
+          "explanationWrong": "S.No.2 is the specific entry for GDR transfers by non-residents. While S.No.1 covers exchange-traded capital gains generally, S.No.2 is the targeted provision listing GDRs by name. In tax advisory, always cite the most specific provision — S.No.2 for GDRs, bonds, and rupee-denominated bonds by NRs.",
+          "tier": 3,
+          "subConcepts": ["gdr-transfer-sno2", "specific-vs-general-provision", "nr-gdr-exemption"],
+          "isReview": false,
+          "oldSection": "Section 10(4E)",
+          "newSection": "Schedule VI, S.No.2"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: A business trust (InvIT) earns interest income of Rs 50 crore from its SPV. Under Schedule V, at what level is this interest income ultimately taxed?",
+          "options": [
+            { "text": "At the SPV level", "correct": false },
+            { "text": "At the business trust level", "correct": false },
+            { "text": "In the hands of the unit-holders of the InvIT", "correct": true },
+            { "text": "It is fully exempt at all levels", "correct": false }
+          ],
+          "explanation": "Interest income from an SPV passes through the business trust to unit-holders. The SPV and business trust levels are exempt under Schedule V — the tax is ultimately borne by unit-holders in proportion to their holdings. TDS is deducted by the business trust at the time of distribution.",
+          "explanationWrong": "Unit-holders bear the tax. The entire pass-through chain works as follows: SPV earns interest and passes it tax-free to the InvIT, the InvIT distributes it to unit-holders with TDS, and unit-holders include it in their taxable income. This ensures single-point taxation at the investor level.",
+          "tier": 3,
+          "subConcepts": ["schedule-v-review", "invit-interest-passthrough", "unit-holder-taxation"],
+          "isReview": true,
+          "oldSection": "Section 10(23FC)",
+          "newSection": "Schedule V, S.No.6-8"
+        },
+        {
+          "order": 4,
+          "question": "A Dubai-based fund enters into a 5-year interest rate swap (OTC) with an OBU in GIFT City. It also buys equity futures (exchange-traded) on NSE IFSC. Which Schedule VI entries apply to each?",
+          "options": [
+            { "text": "S.No.5 for both — they are both derivatives", "correct": false },
+            { "text": "S.No.1 for both — they are both in an IFSC", "correct": false },
+            { "text": "S.No.5 for the interest rate swap (OTC with OBU); S.No.1 for the equity futures (exchange-traded in foreign currency)", "correct": true },
+            { "text": "S.No.2 for the swap; S.No.7 for the futures", "correct": false }
+          ],
+          "explanation": "The interest rate swap is an OTC derivative with an OBU — squarely S.No.5. The equity futures are exchange-traded on NSE IFSC in foreign currency — S.No.1. This scenario tests the critical OTC vs exchange-traded distinction that determines which Schedule VI entry applies. Same client, same IFSC, two different entries.",
+          "explanationWrong": "S.No.5 for the OTC swap, S.No.1 for the exchange-traded futures. This is the most common practical scenario in IFSC advisory — clients transact in both OTC and exchange-traded instruments. You must know which Schedule VI entry covers each. The classification key is the trading venue (bilateral OTC vs centralised exchange), not the instrument type (both are derivatives).",
+          "tier": 3,
+          "subConcepts": ["otc-exchange-split-scenario", "interest-rate-swap-sno5", "equity-futures-sno1"],
+          "isReview": false,
+          "oldSection": "Section 10(4F), 10(38)",
+          "newSection": "Schedule VI, S.No.1, S.No.5"
+        },
+        {
+          "order": 5,
+          "question": "An Irish aircraft leasing company sets up an IFSC unit in GIFT City and leases aircraft to an Indian airline. It later sells its equity stake in the IFSC unit to a Singapore leasing company. Which Schedule VI entries exempt (a) the leasing income and (b) the equity sale?",
+          "options": [
+            { "text": "S.No.6 for leasing income; S.No.1 for equity sale", "correct": false },
+            { "text": "S.No.6 for leasing income; S.No.8 for equity sale", "correct": true },
+            { "text": "S.No.8 for both — it covers all leasing-related income", "correct": false },
+            { "text": "S.No.1 for leasing income; S.No.6 for equity sale", "correct": false }
+          ],
+          "explanation": "S.No.6 exempts income from aircraft/ship leasing by an IFSC unit. S.No.8 exempts capital gains on transfer of equity shares of an IFSC leasing unit by a leasing entity regulated by IFSCA. Together, they create a complete tax-neutral ecosystem — both the operational income and the exit are exempt, making GIFT City competitive with Dublin and Singapore for aircraft leasing.",
+          "explanationWrong": "S.No.6 for leasing income, S.No.8 for equity sale. This scenario demonstrates the S.No.6-S.No.8 pair in action. The Irish lessor earns tax-free lease rentals (S.No.6) and can exit tax-free by selling equity (S.No.8). This dual protection is what India needs to attract the USD 150+ billion global aircraft leasing industry to GIFT City.",
+          "tier": 3,
+          "subConcepts": ["sno6-sno8-combined-scenario", "aircraft-leasing-exit", "dublin-gift-city-comparison"],
+          "isReview": false,
+          "oldSection": "Section 10(4H), 10(4I)",
+          "newSection": "Schedule VI, S.No.6, S.No.8"
+        }
+      ]
+    },
+    {
+      "title": "Fund Manager & Portfolio Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A US pension fund appoints a fund manager based in GIFT City to manage its India-focused equity portfolio. The pension fund earns Rs 200 crore in capital gains. Without S.No.7, what would be the tax consequence?",
+          "options": [
+            { "text": "No consequence — NR income is always exempt", "correct": false },
+            { "text": "The fund manager's presence in India would create a 'business connection' under Section 9, making the pension fund's income taxable in India", "correct": true },
+            { "text": "Only the fund manager would be taxed, not the pension fund", "correct": false },
+            { "text": "The pension fund would pay tax at a concessional rate of 10%", "correct": false }
+          ],
+          "explanation": "Without S.No.7 (and the old Section 9A safe harbour), a fund manager's physical presence in India would constitute a 'business connection' for the NR fund under Section 9. This would deem the pension fund's income as accruing/arising in India, making it fully taxable. S.No.7 breaks this nexus — the IFSC fund manager does not create a business connection for the NR investor.",
+          "explanationWrong": "The business connection risk is the correct answer. Section 9 of the 2025 Act (continuing the old Section 9) deems income to accrue in India if there is a business connection. A fund manager physically operating from India would ordinarily create that connection. S.No.7 is the specific carve-out that prevents this — it is the single most important provision for the IFSC fund management industry.",
+          "tier": 3,
+          "subConcepts": ["business-connection-risk", "section-9-nexus", "sno7-safe-harbour-importance"],
+          "isReview": false,
+          "oldSection": "Section 9A, 10(23FBC)",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 2,
+          "question": "A GIFT City fund manager manages portfolios for both a Mauritius fund (NR) and a Mumbai-based family office (resident). Which of the fund manager's clients can benefit from Schedule VI, S.No.7?",
+          "options": [
+            { "text": "Both — S.No.7 applies regardless of residential status", "correct": false },
+            { "text": "Only the Mauritius fund — S.No.7 applies to non-resident portfolio income from IFSC fund management", "correct": true },
+            { "text": "Only the Mumbai family office — residents need more protection than NRs", "correct": false },
+            { "text": "Neither — S.No.7 applies to the fund manager, not the clients", "correct": false }
+          ],
+          "explanation": "S.No.7 exempts income of a non-resident arising from portfolio management services provided by a fund manager in IFSC. The Mumbai family office, being a resident, cannot claim this exemption. The business connection concern (which S.No.7 addresses) only arises for non-residents — residents are already taxable on their global income in India.",
+          "explanationWrong": "Only the Mauritius fund benefits. The business connection issue that S.No.7 solves is exclusively a non-resident problem. A resident is taxable on global income regardless of where the fund manager sits. The IFSC fund management safe harbour is designed to attract foreign capital, not to benefit domestic investors.",
+          "tier": 3,
+          "subConcepts": ["nr-only-sno7", "resident-vs-nr-fund-management", "business-connection-nr-only"],
+          "isReview": false,
+          "oldSection": "Section 9A, 10(23FBC)",
+          "newSection": "Schedule VI, S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.4: Under Schedule IV, what is the maximum number of days a foreign enterprise employee can stay in India for the salary exemption under S.No.3?",
+          "options": [
+            { "text": "60 days", "correct": false },
+            { "text": "90 days", "correct": true },
+            { "text": "120 days", "correct": false },
+            { "text": "182 days", "correct": false }
+          ],
+          "explanation": "Schedule IV, S.No.3 exempts salary of a foreign enterprise employee staying in India for 90 days or less. The employer must not be engaged in trade or business in India.",
+          "explanationWrong": "90 days is the threshold. This is one of the most commonly tested Schedule IV provisions — the foreign enterprise employee must stay 90 days or less AND the foreign employer must not carry on trade/business in India. Both conditions must be satisfied simultaneously.",
+          "tier": 3,
+          "subConcepts": ["schedule-iv-review", "90-day-foreign-employee-threshold"],
+          "isReview": true,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Schedule IV, S.No.3"
+        },
+        {
+          "order": 4,
+          "question": "A client asks: 'I want to set up a hedge fund in GIFT City. Can I get both the Schedule V pass-through AND Schedule VI IFSC exemptions?' What is the correct advisory response?",
+          "options": [
+            { "text": "Yes — both schedules apply simultaneously to all AIFs in GIFT City", "correct": false },
+            { "text": "No — Schedule V pass-through excludes Category III AIFs (hedge funds), but Schedule VI IFSC exemptions apply independently based on IFSC situs and transaction type", "correct": true },
+            { "text": "No — you must choose one schedule; you cannot claim both", "correct": false },
+            { "text": "Yes, but only if you register as a Category I AIF", "correct": false }
+          ],
+          "explanation": "Category III AIFs (hedge funds) are excluded from Schedule V pass-through — that applies only to Category I/II. However, Schedule VI exemptions are independent and location-based. A hedge fund in GIFT City can claim Schedule VI exemptions (S.No.1 for exchange-traded gains, S.No.5 for OTC derivatives, etc.) even though it cannot use Schedule V pass-through. The two schedules operate independently.",
+          "explanationWrong": "The nuanced answer: no Schedule V pass-through (Cat III excluded), but yes to Schedule VI IFSC exemptions. This is the most important advisory point for hedge funds considering GIFT City. They lose pass-through but gain IFSC-specific exemptions — a different but potentially more beneficial route depending on the fund's trading strategy.",
+          "tier": 3,
+          "subConcepts": ["hedge-fund-advisory", "schedule-v-vi-interaction", "cat-III-gift-city-strategy"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB), 10(4D)-(4F)",
+          "newSection": "Schedule V, Schedule VI"
+        },
+        {
+          "order": 5,
+          "question": "A CA advising an IFSC client needs to file four forms. Match the old form to the new: 10-IG, 10-IH, 10-IK, 10-II. What are the new form numbers in order?",
+          "options": [
+            { "text": "68, 69, 70, 178", "correct": true },
+            { "text": "68, 69, 70, 71", "correct": false },
+            { "text": "70, 71, 72, 178", "correct": false },
+            { "text": "65, 66, 67, 178", "correct": false }
+          ],
+          "explanation": "10-IG to 68, 10-IH to 69, 10-IK to 70, 10-II to 178. The first three follow a sequential pattern (68-70), while 10-II is the outlier jumping to 178. This is the complete Schedule VI form renumbering that every IFSC practitioner must memorise.",
+          "explanationWrong": "68, 69, 70, 178 is correct. The pattern: IG-IH-IK map alphabetically to 68-69-70. The outlier is 10-II which jumps to 178. A common error is assuming 10-II maps to 71 (the next number) — it does not. Remember 178 as the outlier.",
+          "tier": 3,
+          "subConcepts": ["complete-form-mapping", "10II-to-178-outlier", "ifsc-form-sequence"],
+          "isReview": false,
+          "oldSection": "Forms 10-IG, 10-IH, 10-IK, 10-II",
+          "newSection": "Forms 68, 69, 70, 178"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive IFSC Advisory Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A multinational conglomerate sets up three entities in GIFT City: (a) an aircraft leasing company, (b) a fund management company for NR clients, and (c) a banking unit (OBU). Which Schedule VI entries protect each entity's primary income?",
+          "options": [
+            { "text": "S.No.6 for leasing; S.No.7 for fund management; S.No.5 for OBU derivatives", "correct": true },
+            { "text": "S.No.1 for all three — they are all in IFSC", "correct": false },
+            { "text": "S.No.6 for leasing; S.No.1 for fund management; S.No.2 for OBU", "correct": false },
+            { "text": "S.No.8 for leasing; S.No.7 for fund management; S.No.1 for OBU", "correct": false }
+          ],
+          "explanation": "Each IFSC activity has its dedicated Schedule VI entry: S.No.6 for aircraft/ship leasing income, S.No.7 for NR portfolio management income from IFSC fund managers, and S.No.5 for NR income from OTC derivatives with OBUs. This demonstrates why Schedule VI has 12 separate entries — each targets a specific IFSC activity.",
+          "explanationWrong": "S.No.6 (leasing), S.No.7 (fund management), S.No.5 (OBU derivatives) is correct. Schedule VI is not a blanket exemption — each entry has specific conditions. Knowing which S.No. applies to which IFSC activity is essential for correct compliance and filing. Citing the wrong S.No. in a return could trigger scrutiny.",
+          "tier": 3,
+          "subConcepts": ["multi-entity-ifsc-advisory", "sno-mapping-by-activity", "comprehensive-schedule-vi"],
+          "isReview": false,
+          "oldSection": "Section 10(4F), 10(4H), 10(23FBC)",
+          "newSection": "Schedule VI, S.No.5, 6, 7"
+        },
+        {
+          "order": 2,
+          "question": "An IFSC aircraft leasing unit earns Rs 500 crore in lease rentals (S.No.6 exempt) and Rs 50 crore from investing surplus funds in fixed deposits with an Indian bank. Is the FD interest also exempt under Schedule VI?",
+          "options": [
+            { "text": "Yes — all income of an IFSC leasing unit is exempt", "correct": false },
+            { "text": "No — S.No.6 only exempts income from the leasing business; FD interest with an Indian bank is not covered by any Schedule VI entry", "correct": true },
+            { "text": "Yes — under S.No.1 as capital gains on IFSC exchange", "correct": false },
+            { "text": "Partially — 50% of the FD interest is exempt", "correct": false }
+          ],
+          "explanation": "Schedule VI exemptions are activity-specific, not entity-wide. S.No.6 exempts income from the aircraft/ship leasing business only. FD interest with an Indian bank is ordinary interest income — it does not fall under any Schedule VI entry. The leasing unit must pay tax on this Rs 50 crore interest. This is a critical advisory point — IFSC exemptions are not blanket shields.",
+          "explanationWrong": "The FD interest is NOT exempt. Schedule VI exemptions are narrowly targeted at specific IFSC activities. An IFSC unit is not exempt on ALL its income — only on income falling within a specific S.No. Investing surplus funds in Indian bank FDs is not an IFSC-specific activity and gets no Schedule VI protection. This is a common advisory pitfall.",
+          "tier": 3,
+          "subConcepts": ["activity-specific-not-entity-wide", "fd-interest-no-exemption", "advisory-pitfall"],
+          "isReview": false,
+          "oldSection": "Section 10(4H)",
+          "newSection": "Schedule VI, S.No.6"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 10.5: Under Schedule V, if a business trust (REIT) distributes dividend income received from its SPV to unit-holders, how is it taxed?",
+          "options": [
+            { "text": "Tax-free in the hands of unit-holders (DDT already paid)", "correct": false },
+            { "text": "Taxable in the hands of unit-holders as income from other sources", "correct": true },
+            { "text": "Taxable at a flat rate of 10% for unit-holders", "correct": false },
+            { "text": "Exempt under Schedule II as dividend income", "correct": false }
+          ],
+          "explanation": "Post abolition of DDT (from AY 2021-22), dividends distributed by a REIT's SPV pass through to unit-holders and are taxable in their hands as income from other sources. The Schedule V pass-through mechanism ensures tax is collected only at the investor level.",
+          "explanationWrong": "Taxable as income from other sources in the hands of unit-holders. Since DDT was abolished, dividends are fully taxable in the recipient's hands. The REIT is a pass-through — it does not bear the tax. Unit-holders include the dividend in their return and pay tax at applicable slab rates.",
+          "tier": 3,
+          "subConcepts": ["schedule-v-review", "reit-dividend-passthrough", "post-ddt-regime"],
+          "isReview": true,
+          "oldSection": "Section 10(23FC), 10(23FCA)",
+          "newSection": "Schedule V"
+        },
+        {
+          "order": 4,
+          "question": "A client sells rupee-denominated bonds of an Indian company through an IFSC platform. The client is an NRI (Indian citizen, non-resident). Under which Schedule VI entry is the income exempt, and what is the old Act equivalent?",
+          "options": [
+            { "text": "S.No.1 — old Section 10(38); covers all IFSC exchange transactions", "correct": false },
+            { "text": "S.No.2 — old Section 10(4E); specifically covers NR income from bonds, GDRs, and rupee-denominated bonds in IFSC", "correct": true },
+            { "text": "S.No.5 — old Section 10(4F); covers all NR derivative transactions", "correct": false },
+            { "text": "Not exempt — rupee-denominated bonds are not covered by Schedule VI", "correct": false }
+          ],
+          "explanation": "Rupee-denominated bonds of Indian companies are explicitly listed in S.No.2, which covers NR income from transfer of bonds, GDRs, rupee-denominated bonds, and derivatives on a recognised stock exchange in IFSC. The old equivalent is Section 10(4E). The NRI qualifies as a non-resident for this purpose.",
+          "explanationWrong": "S.No.2 from old Section 10(4E) is correct. Rupee-denominated bonds (Masala bonds) are specifically included in S.No.2's scope. This was introduced to encourage offshore rupee bond trading through GIFT City. The NRI's residential status as non-resident qualifies them — Indian citizenship is irrelevant for this exemption.",
+          "tier": 3,
+          "subConcepts": ["rupee-bond-sno2", "masala-bond-ifsc", "nri-nr-status-exemption"],
+          "isReview": false,
+          "oldSection": "Section 10(4E)",
+          "newSection": "Schedule VI, S.No.2"
+        },
+        {
+          "order": 5,
+          "question": "An IFSC practitioner must advise on five different transactions in GIFT City. Match each to its Schedule VI entry: (1) equity sold on NSE IFSC in USD, (2) NR sells GDRs, (3) NR enters interest rate swap with OBU, (4) IFSC unit leases aircraft, (5) NR fund managed by IFSC manager. What is the correct mapping?",
+          "options": [
+            { "text": "S.No.1, S.No.2, S.No.5, S.No.6, S.No.7", "correct": true },
+            { "text": "S.No.1, S.No.1, S.No.5, S.No.6, S.No.7", "correct": false },
+            { "text": "S.No.2, S.No.2, S.No.5, S.No.8, S.No.7", "correct": false },
+            { "text": "S.No.1, S.No.2, S.No.2, S.No.6, S.No.5", "correct": false }
+          ],
+          "explanation": "The complete mapping: (1) Equity on NSE IFSC in USD = S.No.1 (exchange-traded, foreign currency), (2) NR GDR sale = S.No.2 (NR-specific instruments), (3) Interest rate swap with OBU = S.No.5 (OTC derivative with OBU), (4) Aircraft leasing = S.No.6 (leasing business), (5) NR fund management = S.No.7 (portfolio management). This demonstrates mastery of the five most commonly used Schedule VI entries.",
+          "explanationWrong": "S.No.1, 2, 5, 6, 7 is correct. This is the practitioner's essential Schedule VI toolkit: S.No.1 for exchange capital gains, S.No.2 for NR bonds/GDRs, S.No.5 for OTC with OBUs, S.No.6 for leasing, S.No.7 for fund management. Memorise this five-entry mapping and you can handle the vast majority of IFSC advisory work.",
+          "tier": 3,
+          "subConcepts": ["five-entry-toolkit", "comprehensive-sno-mapping", "ifsc-practitioner-mastery"],
+          "isReview": false,
+          "oldSection": "Section 10(38), 10(4E), 10(4F), 10(4H), 10(23FBC)",
+          "newSection": "Schedule VI, S.No.1, 2, 5, 6, 7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "19.2",
+  "title": "Salary Rules — Perquisites & Allowances",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Perquisite Valuation — Rule 3 to Rule 15",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Rule 3 (perquisite valuation) has been renumbered to which rule under the IT Rules, 2026?",
+          "options": [
+            { "text": "Rule 25", "correct": false },
+            { "text": "Rule 15", "correct": true },
+            { "text": "Rule 279", "correct": false },
+            { "text": "Rule 280", "correct": false }
+          ],
+          "explanation": "Rule 3 of the 1962 Rules maps to Rule 15 of the IT Rules, 2026. Rule 15 carries forward the perquisite valuation framework but with significantly revised monetary limits for accommodation, meals, education, gifts, and a new medical loan exemption.",
+          "explanationWrong": "Rule 15 is correct. Rule 279 is the HRA rule (old Rule 2A) and Rule 280 is the prescribed allowances rule (old Rule 2BB). Do not mix up the three salary-related rule mappings: 3→15, 2A→279, 2BB→280.",
+          "tier": 1,
+          "subConcepts": ["rule-3-to-15", "perquisite-valuation-mapping"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "Under Rule 15 of the IT Rules 2026, what is the tax-free meal limit per meal for employer-provided meals?",
+          "options": [
+            { "text": "Rs 50/meal", "correct": false },
+            { "text": "Rs 100/meal", "correct": false },
+            { "text": "Rs 200/meal", "correct": true },
+            { "text": "Rs 500/meal", "correct": false }
+          ],
+          "explanation": "The tax-free meal limit has been revised from Rs 50 per meal (under old Rule 3) to Rs 200 per meal under Rule 15. This is a 300% increase. Meals valued at or below Rs 200 — whether in office, through a canteen, or via non-transferable meal vouchers — are not treated as a perquisite.",
+          "explanationWrong": "Rs 200/meal is the new limit under Rule 15. The old limit of Rs 50/meal under Rule 3 had remained unchanged since its original notification and was widely regarded as obsolete. The revision is a Rules 2026 change, not an Act 2025 change.",
+          "tier": 1,
+          "subConcepts": ["meal-perquisite-limit", "rs-200-per-meal", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: How many forms did the old Income Tax Rules 1962 contain, and how many does the IT Rules 2026 contain?",
+          "options": [
+            { "text": "511 forms reduced to 333 forms", "correct": false },
+            { "text": "399 forms reduced to 190 forms", "correct": true },
+            { "text": "819 forms reduced to 536 forms", "correct": false },
+            { "text": "450 forms reduced to 225 forms", "correct": false }
+          ],
+          "explanation": "399 forms under the old Rules reduced to 190 under the IT Rules 2026 — a 52% reduction. Do not confuse with rules (511→333) or sections (819→536). The forms reduction is the most dramatic consolidation statistic.",
+          "explanationWrong": "399 to 190 forms. Three consolidation numbers to remember: Sections 819→536, Rules 511→333, Forms 399→190. The forms reduction (52%) is the largest percentage reduction of the three.",
+          "tier": 1,
+          "subConcepts": ["forms-reduction-review", "399-to-190"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962 (Forms)",
+          "newSection": "IT Rules 2026 (Forms)"
+        },
+        {
+          "order": 4,
+          "question": "Under Rule 15 of the IT Rules 2026, what is the annual gift exemption threshold for employer gifts to employees?",
+          "options": [
+            { "text": "Rs 5,000/year", "correct": false },
+            { "text": "Rs 10,000/year", "correct": false },
+            { "text": "Rs 15,000/year", "correct": true },
+            { "text": "Rs 25,000/year", "correct": false }
+          ],
+          "explanation": "Gifts from the employer aggregating up to Rs 15,000 in a tax year are excluded from perquisite valuation under Rule 15. This is a 200% increase from the old Rs 5,000 limit under Rule 3. Important: the entire amount becomes taxable once the aggregate exceeds Rs 15,000 — it is a threshold, not a deduction.",
+          "explanationWrong": "Rs 15,000/year is the new threshold under Rule 15. The old limit was Rs 5,000 under Rule 3. Remember: this is a cliff — once aggregate gifts exceed Rs 15,000, the ENTIRE amount is taxable, not just the excess.",
+          "tier": 1,
+          "subConcepts": ["gift-exemption-threshold", "rs-15000-gifts", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "What is the new exemption limit for employer-provided education in an employer-maintained school under Rule 15?",
+          "options": [
+            { "text": "Rs 1,000/month/child", "correct": false },
+            { "text": "Rs 3,000/month/child", "correct": true },
+            { "text": "Rs 5,000/month/child", "correct": false },
+            { "text": "Rs 2,000/month/child", "correct": false }
+          ],
+          "explanation": "The perquisite exemption for free education in an employer-maintained school is Rs 3,000 per month per child under Rule 15, up from Rs 1,000 under old Rule 3. If the cost does not exceed this limit, no perquisite value arises.",
+          "explanationWrong": "Rs 3,000/month/child under Rule 15. The old limit was Rs 1,000/month/child under Rule 3. Do not confuse this with the children education allowance under Rule 280 (also Rs 3,000/month/child) — both happen to have the same new limit but are different provisions.",
+          "tier": 1,
+          "subConcepts": ["education-perquisite-limit", "rs-3000-education", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Accommodation & Medical Loan — Rule 15",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Rule 15, what percentage of salary is treated as taxable perquisite for employer-provided accommodation in a city with population exceeding 25 lakh?",
+          "options": [
+            { "text": "15% of salary", "correct": false },
+            { "text": "12.5% of salary", "correct": false },
+            { "text": "10% of salary", "correct": true },
+            { "text": "7.5% of salary", "correct": false }
+          ],
+          "explanation": "For cities with population exceeding 25 lakh (metros), the accommodation perquisite rate is 10% of salary under Rule 15, down from 15% under old Rule 3. This is a 5 percentage point reduction — the largest absolute reduction among the three city tiers.",
+          "explanationWrong": "10% for metros (population > 25 lakh) under Rule 15. The old rate was 15%. The three-tier structure: metros 10% (was 15%), tier-2 cities 7.5% (was 10%), other cities 5% (was 7.5%). Each tier got a reduction.",
+          "tier": 1,
+          "subConcepts": ["accommodation-perquisite-metro", "10-percent-salary", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "What is the new accommodation perquisite rate for a city with population between 10 lakh and 25 lakh under Rule 15?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "7.5% of salary", "correct": true },
+            { "text": "5% of salary", "correct": false },
+            { "text": "12.5% of salary", "correct": false }
+          ],
+          "explanation": "For tier-2 cities (population 10-25 lakh), the accommodation perquisite rate is 7.5% of salary under Rule 15, reduced from 10% under old Rule 3. This is a 2.5 percentage point reduction.",
+          "explanationWrong": "7.5% for tier-2 cities (10-25 lakh population). The full table: metros (>25L) = 10%, tier-2 (10-25L) = 7.5%, others (<10L) = 5%. Each tier's new rate equals the next tier's old rate.",
+          "tier": 1,
+          "subConcepts": ["accommodation-perquisite-tier2", "7.5-percent-salary", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: The IT Rules 2026 were notified under which enabling legislation?",
+          "options": [
+            { "text": "Finance Act, 2025", "correct": false },
+            { "text": "Income Tax Act, 2025", "correct": true },
+            { "text": "Income Tax Act, 1961", "correct": false },
+            { "text": "Taxation Laws (Amendment) Act, 2025", "correct": false }
+          ],
+          "explanation": "The IT Rules 2026 are notified under the rule-making power of the Income Tax Act, 2025. The new Act provides the enabling framework ('as may be prescribed') and CBDT exercises that delegation through the Rules. The old Rules 1962 were notified under the old Act 1961.",
+          "explanationWrong": "The Income Tax Act, 2025 is the enabling legislation. The Rules are subordinate legislation notified by CBDT using the Act's delegation. The Finance Act is a different instrument — it amends the Act or provides annual rates, but does not directly enable rules notification.",
+          "tier": 1,
+          "subConcepts": ["enabling-legislation-review", "act-2025-rules-2026"],
+          "isReview": true,
+          "oldSection": "Income Tax Act, 1961",
+          "newSection": "Income Tax Act, 2025"
+        },
+        {
+          "order": 4,
+          "question": "What is the maximum exemption for employer medical loans under the new Rule 15 of the IT Rules, 2026?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 5,00,000", "correct": false }
+          ],
+          "explanation": "Employer medical loans up to Rs 2,00,000 are exempt from interest-free loan perquisite treatment under Rule 15. This is an entirely new provision — no equivalent existed under old Rule 3 of the 1962 Rules. The loan must be for medical treatment of the employee or family members.",
+          "explanationWrong": "Rs 2,00,000 is the medical loan exemption limit. This is a NEW provision under Rule 15 — it did not exist under old Rule 3. The exemption applies to the perquisite value of interest-free or concessional-rate loans given by the employer for medical purposes.",
+          "tier": 1,
+          "subConcepts": ["medical-loan-exemption", "rs-2-lakh-medical", "new-provision-rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3 (not available)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "What is the accommodation perquisite rate for cities with population below 10 lakh under Rule 15?",
+          "options": [
+            { "text": "7.5% of salary", "correct": false },
+            { "text": "5% of salary", "correct": true },
+            { "text": "3% of salary", "correct": false },
+            { "text": "10% of salary", "correct": false }
+          ],
+          "explanation": "For cities with population below 10 lakh, the accommodation perquisite rate is 5% of salary under Rule 15, reduced from 7.5% under old Rule 3. This is a 2.5 percentage point reduction, consistent with the tier-2 city reduction.",
+          "explanationWrong": "5% for other cities (<10 lakh). The complete accommodation rate table under Rule 15: metros (>25L) = 10%, tier-2 (10-25L) = 7.5%, others (<10L) = 5%. All three tiers received a reduction from old Rule 3 rates of 15%/10%/7.5%.",
+          "tier": 1,
+          "subConcepts": ["accommodation-perquisite-other", "5-percent-salary", "rule-15"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "HRA & Allowances — Rules 279 and 280",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many cities qualify for the 50% HRA exemption computation under Rule 279 of the IT Rules, 2026?",
+          "options": [
+            { "text": "4 cities", "correct": false },
+            { "text": "6 cities", "correct": false },
+            { "text": "8 cities", "correct": true },
+            { "text": "10 cities", "correct": false }
+          ],
+          "explanation": "Rule 279 expands the 50% HRA cities from 4 (under old Rule 2A) to 8. The original four — Mumbai, Delhi, Kolkata, Chennai — are retained, and four new cities are added: Bengaluru, Pune, Hyderabad, and Ahmedabad.",
+          "explanationWrong": "8 cities under Rule 279. The old Rule 2A had only 4: Mumbai, Delhi, Kolkata, Chennai. The four additions are Bengaluru, Pune, Hyderabad, and Ahmedabad. Employees in these four new cities now get the higher 50% computation instead of 40%.",
+          "tier": 1,
+          "subConcepts": ["hra-50-percent-cities", "8-cities-rule-279"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "Under Rule 280 of the IT Rules, 2026, what is the prescribed children education allowance limit?",
+          "options": [
+            { "text": "Rs 100/month/child", "correct": false },
+            { "text": "Rs 1,000/month/child", "correct": false },
+            { "text": "Rs 3,000/month/child", "correct": true },
+            { "text": "Rs 5,000/month/child", "correct": false }
+          ],
+          "explanation": "The children education allowance under Rule 280 is Rs 3,000 per month per child (maximum 2 children), up from Rs 100 per month under old Rule 2BB. This is a 2,900% increase — the Rs 100 limit had been unchanged since 1997.",
+          "explanationWrong": "Rs 3,000/month/child under Rule 280. The old limit of Rs 100/month/child under Rule 2BB was universally regarded as symbolic. The 2,900% increase restores practical relevance. Maximum remains 2 children.",
+          "tier": 1,
+          "subConcepts": ["education-allowance-rule-280", "rs-3000-education-allowance"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: What is the percentage reduction in the number of rules from the old IT Rules 1962 to the IT Rules 2026?",
+          "options": [
+            { "text": "52%", "correct": false },
+            { "text": "35%", "correct": true },
+            { "text": "25%", "correct": false },
+            { "text": "48%", "correct": false }
+          ],
+          "explanation": "The rules reduction is 35% — from 511 rules to 333 rules. Do not confuse with the forms reduction (52%) or sections reduction (35%). The rules and sections reductions happen to share the same 35% figure.",
+          "explanationWrong": "35% reduction in rules (511→333). The 52% figure is the forms reduction (399→190). Remember the three numbers: Rules 35% reduction, Sections 35% reduction, Forms 52% reduction.",
+          "tier": 1,
+          "subConcepts": ["rules-reduction-review", "35-percent-rules"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "What is the hostel expenditure allowance limit under Rule 280 of the IT Rules, 2026?",
+          "options": [
+            { "text": "Rs 300/month/child", "correct": false },
+            { "text": "Rs 3,000/month/child", "correct": false },
+            { "text": "Rs 9,000/month/child", "correct": true },
+            { "text": "Rs 6,000/month/child", "correct": false }
+          ],
+          "explanation": "The hostel expenditure allowance is Rs 9,000 per month per child (maximum 2 children) under Rule 280, up from Rs 300 under old Rule 2BB. Like the education allowance, this is a 2,900% increase from a long-frozen limit.",
+          "explanationWrong": "Rs 9,000/month/child for hostel under Rule 280. The old limit was Rs 300/month/child. Both education (Rs 3,000) and hostel (Rs 9,000) allowances received the same 2,900% increase. The hostel limit is 3x the education limit.",
+          "tier": 1,
+          "subConcepts": ["hostel-allowance-rule-280", "rs-9000-hostel"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 5,
+          "question": "Which four cities were ADDED to the 50% HRA list under Rule 279 of the IT Rules, 2026?",
+          "options": [
+            { "text": "Bengaluru, Pune, Hyderabad, Ahmedabad", "correct": true },
+            { "text": "Bengaluru, Pune, Jaipur, Lucknow", "correct": false },
+            { "text": "Hyderabad, Ahmedabad, Surat, Kochi", "correct": false },
+            { "text": "Bengaluru, Hyderabad, Chandigarh, Jaipur", "correct": false }
+          ],
+          "explanation": "The four new additions to the 50% HRA city list are Bengaluru, Pune, Hyderabad, and Ahmedabad. The original four — Mumbai, Delhi, Kolkata, Chennai — were already in the list under old Rule 2A. Total is now 8 cities.",
+          "explanationWrong": "Bengaluru, Pune, Hyderabad, and Ahmedabad are the four additions. These are the four largest Indian cities that were previously excluded despite having rental markets comparable to the original four metros. Cities like Jaipur, Lucknow, Surat remain in the 40% tier.",
+          "tier": 1,
+          "subConcepts": ["four-new-hra-cities", "bengaluru-pune-hyderabad-ahmedabad"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Rule 15 Revisions",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why were accommodation perquisite rates reduced under Rule 15 even though property values have increased over the years?",
+          "options": [
+            { "text": "Property values actually decreased in most cities", "correct": false },
+            { "text": "The old rates resulted in perquisite values exceeding actual rental value, so rates were right-sized", "correct": true },
+            { "text": "The government wanted to discourage employer-provided housing", "correct": false },
+            { "text": "The reduction only applies to government employees", "correct": false }
+          ],
+          "explanation": "The old percentage rates (15%/10%/7.5%) often resulted in deemed perquisite values that exceeded the actual rental value of the accommodation, particularly as salary levels increased while the percentage remained static. The reduction to 10%/7.5%/5% right-sizes the perquisite to better approximate economic benefit.",
+          "explanationWrong": "Right-sizing is the rationale. The perquisite is computed as a percentage of salary, not property value. As salaries grew over decades while percentages stayed frozen, the deemed value diverged from actual economic benefit. The reduction corrects this growing distortion.",
+          "tier": 2,
+          "subConcepts": ["accommodation-rate-rationale", "right-sizing-perquisite"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "Why is the meal perquisite exemption limit in Rule 15 set at Rs 200/meal rather than a monthly or annual aggregate?",
+          "options": [
+            { "text": "Monthly limits are harder to track", "correct": false },
+            { "text": "A per-meal limit prevents gaming through a few expensive meals while maintaining daily use benefit", "correct": true },
+            { "text": "The government wanted to match restaurant pricing", "correct": false },
+            { "text": "Per-meal limits were carried forward from the 1962 Rules structure", "correct": false }
+          ],
+          "explanation": "A per-meal limit ensures the exemption targets regular working meals rather than occasional lavish dining. An annual or monthly cap could be exhausted by a few expensive meals, whereas the per-meal structure ensures the benefit is spread across daily working meals. The per-meal approach was indeed carried forward from old Rule 3, but the reason for retaining it is anti-gaming.",
+          "explanationWrong": "Per-meal limits prevent gaming. If the limit were Rs 5,000/month, an employer could provide a single Rs 5,000 dinner and claim exemption. The per-meal cap of Rs 200 ensures only regular-cost daily meals qualify. This design principle predates the 2026 revision.",
+          "tier": 2,
+          "subConcepts": ["per-meal-limit-rationale", "anti-gaming-design"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 4.2: Under the Income Tax Act, 2025, which section governs the valuation of perquisites?",
+          "options": [
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 17", "correct": false },
+            { "text": "Section 23", "correct": true },
+            { "text": "Section 56", "correct": false }
+          ],
+          "explanation": "Section 23 of the IT Act, 2025 governs perquisite valuation (replacing old Section 17). The Act uses 'as may be prescribed' language to delegate the actual monetary limits to the Rules. Rule 15 of the IT Rules 2026 then provides those prescribed limits.",
+          "explanationWrong": "Section 23 of the IT Act, 2025 deals with perquisite valuation. The Act provides the framework; the Rules provide the numbers. This delegation architecture means limits can be revised by CBDT notification without Parliamentary approval.",
+          "tier": 2,
+          "subConcepts": ["section-23-perquisites-review", "act-rules-delegation"],
+          "isReview": true,
+          "oldSection": "Section 17",
+          "newSection": "Section 23"
+        },
+        {
+          "order": 4,
+          "question": "The gift exemption threshold under Rule 15 works as a cliff rather than a deduction. What does this mean in practice?",
+          "options": [
+            { "text": "Only the amount exceeding Rs 15,000 is taxable", "correct": false },
+            { "text": "Once aggregate gifts exceed Rs 15,000, the entire amount (not just the excess) becomes a taxable perquisite", "correct": true },
+            { "text": "Gifts are exempt regardless of amount if given on festivals", "correct": false },
+            { "text": "The employer gets a deduction of Rs 15,000 for gifts given", "correct": false }
+          ],
+          "explanation": "The Rs 15,000 gift threshold is a cliff — if total gifts are Rs 14,999, nothing is taxable; if they are Rs 15,001, the entire Rs 15,001 is a taxable perquisite. This is materially different from a deduction or exemption where only the excess would be taxed. The same cliff structure existed under the old Rs 5,000 limit.",
+          "explanationWrong": "Full amount becomes taxable once the threshold is crossed. This cliff mechanism means an employer giving Rs 15,001 in gifts creates a Rs 15,001 perquisite, not a Rs 1 perquisite. Practitioners must monitor aggregate gift value through the year to stay below the threshold.",
+          "tier": 2,
+          "subConcepts": ["gift-cliff-mechanism", "aggregate-threshold"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "Why is the medical loan exemption under Rule 15 described as a genuinely NEW provision rather than a revised limit?",
+          "options": [
+            { "text": "Because the old limit was Rs 0", "correct": false },
+            { "text": "Because old Rule 3 had no equivalent exemption for medical loans — the entire concept is new", "correct": true },
+            { "text": "Because it applies only to new employees hired after 2026", "correct": false },
+            { "text": "Because it requires a new form to claim", "correct": false }
+          ],
+          "explanation": "Unlike meals, accommodation, education, and gifts — which all existed under old Rule 3 with lower limits — the medical loan exemption is a brand-new category. Old Rule 3 did not carve out any special treatment for employer medical loans. Under Rule 15, loans up to Rs 2,00,000 for medical treatment are now exempt from interest-free loan perquisite valuation.",
+          "explanationWrong": "No prior equivalent existed. All other Rule 15 changes are revisions to existing limits (accommodation rates lowered, meals Rs 50→200, etc.). The medical loan exemption is the only category that is completely new — it addresses a gap where employees receiving medical loans from employers were taxed on the interest benefit with no relief.",
+          "tier": 2,
+          "subConcepts": ["medical-loan-new-provision", "no-old-equivalent"],
+          "isReview": false,
+          "oldSection": "Rule 3 (not available)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Understanding HRA & Allowance Changes",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why were Bengaluru, Pune, Hyderabad, and Ahmedabad specifically chosen for the expanded 50% HRA list under Rule 279?",
+          "options": [
+            { "text": "They are state capitals", "correct": false },
+            { "text": "Their rental markets and cost of living are comparable to the original four metros", "correct": true },
+            { "text": "They have special economic zones", "correct": false },
+            { "text": "They were recommended by the 15th Finance Commission", "correct": false }
+          ],
+          "explanation": "These four cities have experienced rapid urbanization and rental market growth, making their housing costs comparable to Mumbai, Delhi, Kolkata, and Chennai. The 40% HRA computation was increasingly inadequate for employees in these cities. The expansion recognizes economic reality rather than adhering to an outdated 4-city classification.",
+          "explanationWrong": "Comparable rental markets is the key criterion. Bengaluru (IT hub), Pune (industrial/IT), Hyderabad (IT/pharma), and Ahmedabad (commercial hub) all have rental levels that justify the higher 50% computation. The selection reflects economic reality, not administrative classification.",
+          "tier": 2,
+          "subConcepts": ["hra-city-expansion-rationale", "rental-market-parity"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "The children education allowance under old Rule 2BB was Rs 100/month/child — unchanged since 1997. What does this tell us about the Rules amendment process?",
+          "options": [
+            { "text": "Rules require Parliamentary approval, which is difficult to obtain", "correct": false },
+            { "text": "CBDT has the power to amend rules by notification but historically did not exercise it for allowance limits", "correct": true },
+            { "text": "The government intentionally kept the limit frozen to discourage the allowance", "correct": false },
+            { "text": "Rules cannot be amended without a new Act", "correct": false }
+          ],
+          "explanation": "Rules can be amended by CBDT notification without Parliamentary approval — the process is administratively simple. The 29-year freeze on the education allowance limit reflects CBDT's historical inaction rather than a procedural barrier. The IT Rules 2026 represent a comprehensive overhaul that corrects decades of accumulated stagnation.",
+          "explanationWrong": "CBDT always had the power but did not exercise it. This is a governance lesson: the delegation architecture was designed for easy updates, but institutional inertia meant limits remained frozen. The 2026 Rules correct this by revising all stale limits simultaneously.",
+          "tier": 2,
+          "subConcepts": ["cbdt-amendment-power", "historical-inaction", "rules-vs-act-process"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 4.3: Under the IT Act 2025, which section provides the framework for exempt allowances where limits are 'as may be prescribed'?",
+          "options": [
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 22", "correct": true },
+            { "text": "Section 56", "correct": false },
+            { "text": "Section 80C", "correct": false }
+          ],
+          "explanation": "Section 22 of the IT Act, 2025 governs allowances (replacing old Section 10). The Act lists allowance categories and uses 'as may be prescribed' to delegate the monetary limits to the Rules. Rule 280 of the IT Rules 2026 provides those prescribed limits for education and hostel allowances.",
+          "explanationWrong": "Section 22 of the IT Act, 2025 deals with exempt allowances. The delegation pattern: Act says 'exempt up to the prescribed limit' → Rules prescribe the limit. This is why education allowance limits changed via Rules 2026, not via the Act 2025.",
+          "tier": 2,
+          "subConcepts": ["section-22-allowances-review", "prescribed-limits-delegation"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 4,
+          "question": "The HRA exemption methodology under Rule 279 remains the same as old Rule 2A. What is that methodology?",
+          "options": [
+            { "text": "Actual HRA received, subject to a maximum of 50% of salary", "correct": false },
+            { "text": "Least of: actual HRA received, rent paid minus 10% of salary, or 50%/40% of salary", "correct": true },
+            { "text": "50% of salary for all cities, regardless of rent paid", "correct": false },
+            { "text": "Actual rent paid minus 10% of salary only", "correct": false }
+          ],
+          "explanation": "The HRA exemption is the LEAST of three amounts: (1) actual HRA received, (2) rent paid minus 10% of salary, and (3) 50% of salary (for 8 cities under Rule 279) or 40% of salary (for all other cities). Rule 279 only changed the city classification — the methodology itself is unchanged from old Rule 2A.",
+          "explanationWrong": "Least of three amounts. The only change under Rule 279 is which cities get the 50% computation vs 40%. The three-way minimum formula, the 10% salary threshold, and the basic architecture are all carried forward unchanged. More cities now qualify for 50%, benefiting employees in those cities.",
+          "tier": 2,
+          "subConcepts": ["hra-methodology-unchanged", "least-of-three-formula"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 5,
+          "question": "Both education allowance (Rule 280) and education perquisite exemption (Rule 15) have a limit of Rs 3,000/month/child. How do they differ?",
+          "options": [
+            { "text": "They are the same provision with different rule numbers", "correct": false },
+            { "text": "Rule 15 covers employer-maintained school education; Rule 280 covers cash education allowance — different provisions for different situations", "correct": true },
+            { "text": "Rule 15 applies to private schools, Rule 280 to government schools", "correct": false },
+            { "text": "Rule 15 is for senior employees, Rule 280 for junior employees", "correct": false }
+          ],
+          "explanation": "Rule 15 (education perquisite) applies when the employer provides free education in an employer-maintained school — the exemption is from perquisite taxation. Rule 280 (education allowance) applies when the employer pays a cash allowance for children's education at any school — the exemption is from allowance taxation. Same limit, different triggering events.",
+          "explanationWrong": "Different provisions for different situations. Rule 15: employer runs a school and provides free education (perquisite). Rule 280: employer pays cash allowance for education (allowance). The coincidence of both being Rs 3,000/month/child creates a common confusion point — know which rule applies to which scenario.",
+          "tier": 2,
+          "subConcepts": ["rule-15-vs-rule-280-education", "perquisite-vs-allowance"],
+          "isReview": false,
+          "oldSection": "Rule 3 / Rule 2BB",
+          "newSection": "Rule 15 / Rule 280"
+        }
+      ]
+    },
+    {
+      "title": "Comparing Old and New — Why Changes Matter",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "All salary-related rule changes in Unit 19.2 are IT Rules 2026 changes. Why does this attribution distinction matter for practitioners?",
+          "options": [
+            { "text": "Rules 2026 changes have a different effective date than Act 2025 changes", "correct": false },
+            { "text": "The correct citation is 'Rule X of IT Rules 2026' not 'Section Y of IT Act 2025' — and future revisions require only CBDT notification, not Parliament", "correct": true },
+            { "text": "Rules changes are advisory, not mandatory", "correct": false },
+            { "text": "Rules changes do not affect tax computation", "correct": false }
+          ],
+          "explanation": "Correct attribution matters for two reasons: (1) professional communications must cite the correct legal instrument — Rule 15/279/280 of IT Rules 2026, not Sections of IT Act 2025; (2) future revisions to these limits follow the simpler Rules-amendment route (CBDT notification) rather than requiring a Finance Bill in Parliament.",
+          "explanationWrong": "Correct citation and simpler amendment process. Rules are subordinate legislation — legally binding but amendable by CBDT notification. If a practitioner incorrectly cites the Act, they misstate the legal basis and mislead clients about the amendment process. This is a core professional competency.",
+          "tier": 2,
+          "subConcepts": ["rules-vs-act-attribution", "cbdt-notification-process"],
+          "isReview": false,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 2,
+          "question": "How does the accommodation perquisite rate change pattern (15→10, 10→7.5, 7.5→5) demonstrate a design principle?",
+          "options": [
+            { "text": "Each tier's new rate equals the old rate of the tier below it", "correct": true },
+            { "text": "All tiers received the same absolute reduction", "correct": false },
+            { "text": "The rates were set to match global standards", "correct": false },
+            { "text": "The reduction percentages are random", "correct": false }
+          ],
+          "explanation": "The new rates show a cascading pattern: metro's new 10% was tier-2's old rate; tier-2's new 7.5% was other cities' old rate; other cities get a new 5%. This means each tier effectively moved one level down in the old classification, suggesting the drafters used the existing tier structure as the new baseline.",
+          "explanationWrong": "Each new rate = old rate of tier below. Metros: 15%→10% (was tier-2's old rate). Tier-2: 10%→7.5% (was others' old rate). Others: 7.5%→5% (new lowest rate). This cascading design is elegant and internally consistent — a helpful pattern for memorization.",
+          "tier": 2,
+          "subConcepts": ["accommodation-cascading-pattern", "rate-design-principle"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: What is the key structural difference between how rules are numbered in the 1962 Rules versus the 2026 Rules?",
+          "options": [
+            { "text": "The 2026 Rules use decimal numbering", "correct": false },
+            { "text": "The 2026 Rules use a non-sequential mapping — old rules may map to very different numbers in the new scheme", "correct": true },
+            { "text": "The 2026 Rules use alphabetical ordering", "correct": false },
+            { "text": "The numbering is identical, just consolidated", "correct": false }
+          ],
+          "explanation": "The 2026 Rules do not follow sequential remapping — old Rule 2A becomes Rule 279, old Rule 3 becomes Rule 15, old Rule 2BB becomes Rule 280. There is no predictable pattern, making the mapping tables essential reference material.",
+          "explanationWrong": "Non-sequential mapping. You cannot guess the new rule number from the old one: Rule 2A→279, Rule 2BB→280, Rule 3→15, Rule 5→25. The renumbering reflects a complete restructuring of the rules framework, not a sequential renumbering exercise.",
+          "tier": 2,
+          "subConcepts": ["non-sequential-mapping-review", "rule-numbering-structure"],
+          "isReview": true,
+          "oldSection": "IT Rules 1962",
+          "newSection": "IT Rules 2026"
+        },
+        {
+          "order": 4,
+          "question": "The hostel allowance (Rs 9,000/month) is exactly 3x the education allowance (Rs 3,000/month) under Rule 280. What was this ratio under the old Rule 2BB?",
+          "options": [
+            { "text": "Same ratio: 3x (Rs 300 hostel vs Rs 100 education)", "correct": true },
+            { "text": "2x (Rs 200 hostel vs Rs 100 education)", "correct": false },
+            { "text": "5x (Rs 500 hostel vs Rs 100 education)", "correct": false },
+            { "text": "There was no fixed ratio", "correct": false }
+          ],
+          "explanation": "The old limits were Rs 100/month (education) and Rs 300/month (hostel) — a 3:1 ratio. The new limits are Rs 3,000/month (education) and Rs 9,000/month (hostel) — maintaining the same 3:1 ratio. Both received identical 2,900% increases, preserving the original proportional relationship.",
+          "explanationWrong": "Same 3:1 ratio maintained. Old: Rs 100 education, Rs 300 hostel (3x). New: Rs 3,000 education, Rs 9,000 hostel (3x). The drafters applied a uniform multiplier of 30x to both limits, preserving the original design proportionality.",
+          "tier": 2,
+          "subConcepts": ["education-hostel-ratio", "uniform-multiplier-30x"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 5,
+          "question": "The two-child limit for education and hostel allowances under Rule 280 was retained from old Rule 2BB. What is the practical implication?",
+          "options": [
+            { "text": "An employee with 3 children can claim for any 2 of the 3", "correct": true },
+            { "text": "An employee with 3 children cannot claim for any child", "correct": false },
+            { "text": "The limit applies per employer, so a second employer can cover the third child", "correct": false },
+            { "text": "The two-child limit was removed under Rule 280", "correct": false }
+          ],
+          "explanation": "The two-child maximum means an employee with three or more children can claim the allowance exemption for any two children. The employee chooses which two children to claim for — typically the two with the highest actual expenses. The per-employer workaround does not apply; it is a per-employee limit.",
+          "explanationWrong": "Claim for any 2 of 3 children. The two-child limit is per employee, not per employer. The employee has the choice of which two children to designate. This limit has remained unchanged since the original Rule 2BB — the 2026 Rules revised amounts but not structural conditions.",
+          "tier": 2,
+          "subConcepts": ["two-child-limit", "rule-280-structural-conditions"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        }
+      ]
+    },
+    {
+      "title": "Applying Perquisite Rules — Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employer provides accommodation in Mumbai (population > 25 lakh) to an employee with a salary of Rs 15,00,000 per annum. What is the taxable perquisite value under Rule 15?",
+          "options": [
+            { "text": "Rs 2,25,000 (15% of salary)", "correct": false },
+            { "text": "Rs 1,50,000 (10% of salary)", "correct": true },
+            { "text": "Rs 1,12,500 (7.5% of salary)", "correct": false },
+            { "text": "Rs 75,000 (5% of salary)", "correct": false }
+          ],
+          "explanation": "Mumbai has population > 25 lakh, so the Rule 15 rate is 10% of salary. 10% of Rs 15,00,000 = Rs 1,50,000. Under old Rule 3, it would have been 15% = Rs 2,25,000. The employee saves Rs 75,000 in perquisite value — a meaningful benefit.",
+          "explanationWrong": "Rs 1,50,000. Mumbai is a metro (>25 lakh), so 10% applies under Rule 15. Computation: Rs 15,00,000 x 10% = Rs 1,50,000. Old Rule 3 would have given Rs 2,25,000 (15%). The saving of Rs 75,000 translates to actual tax savings depending on the marginal rate.",
+          "tier": 3,
+          "subConcepts": ["accommodation-computation-metro", "mumbai-10-percent"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "An employer gives gifts worth Rs 12,000 in Diwali and Rs 4,000 on the employee's birthday during the same tax year. What is the taxable perquisite under Rule 15?",
+          "options": [
+            { "text": "Rs 1,000 (excess over Rs 15,000)", "correct": false },
+            { "text": "Rs 16,000 (entire amount since aggregate exceeds Rs 15,000)", "correct": true },
+            { "text": "Nil (both are below Rs 15,000 individually)", "correct": false },
+            { "text": "Rs 4,000 (only the birthday gift is taxable)", "correct": false }
+          ],
+          "explanation": "Aggregate gifts = Rs 12,000 + Rs 4,000 = Rs 16,000. Since this exceeds Rs 15,000, the ENTIRE Rs 16,000 is a taxable perquisite — not just the Rs 1,000 excess. The gift threshold is a cliff, not a deduction. Individual amounts do not matter; only the aggregate counts.",
+          "explanationWrong": "Rs 16,000 — the entire amount. The gift threshold under Rule 15 is a cliff: aggregate gifts up to Rs 15,000 = nil taxable; above Rs 15,000 = the ENTIRE amount is taxable. Do not apply deduction logic (subtracting Rs 15,000). Here, Rs 12,000 + Rs 4,000 = Rs 16,000 > Rs 15,000, so full Rs 16,000 is taxable.",
+          "tier": 3,
+          "subConcepts": ["gift-cliff-computation", "aggregate-gifts-scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 4.2: An employer provides a car with chauffeur for both official and personal use. Under the IT Act 2025 framework, how is the perquisite determined?",
+          "options": [
+            { "text": "Full running cost is taxable", "correct": false },
+            { "text": "Only personal-use portion is taxable, computed as prescribed under the Rules", "correct": true },
+            { "text": "No perquisite arises if the car is below 1600cc", "correct": false },
+            { "text": "A flat Rs 1,800/month is taxable", "correct": false }
+          ],
+          "explanation": "When a car is used for both official and personal purposes, only the personal-use portion is taxable. The Act provides the principle; the Rules prescribe the valuation method. This delegation pattern is the same as accommodation, meals, and other perquisites covered in this unit.",
+          "explanationWrong": "Personal-use portion, as prescribed. The Act delegates valuation to the Rules. This is the same 'as may be prescribed' pattern seen throughout salary rules — the Act sets the taxability principle, the Rules set the numbers. Car perquisite valuation has specific prescribed amounts based on engine capacity and driver provision.",
+          "tier": 3,
+          "subConcepts": ["car-perquisite-review", "personal-use-valuation"],
+          "isReview": true,
+          "oldSection": "Section 17 / Rule 3",
+          "newSection": "Section 23 / Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "An employer provides meals through non-transferable vouchers worth Rs 250/meal. The employee uses 22 meals in a month. What is the monthly taxable perquisite under Rule 15?",
+          "options": [
+            { "text": "Nil (vouchers are exempt)", "correct": false },
+            { "text": "Rs 1,100 (Rs 50 excess per meal x 22 meals)", "correct": true },
+            { "text": "Rs 5,500 (full value of 22 meals)", "correct": false },
+            { "text": "Rs 4,400 (Rs 200 x 22 meals)", "correct": false }
+          ],
+          "explanation": "Each meal is valued at Rs 250, and the exemption is Rs 200/meal under Rule 15. The excess per meal is Rs 50 (Rs 250 - Rs 200). For 22 meals: 22 x Rs 50 = Rs 1,100 taxable perquisite. Non-transferable meal vouchers qualify for the per-meal exemption, but only up to Rs 200 per meal.",
+          "explanationWrong": "Rs 1,100. Each meal: Rs 250 value - Rs 200 exemption = Rs 50 taxable per meal. 22 meals x Rs 50 = Rs 1,100/month. Key points: (1) non-transferable vouchers qualify for exemption, (2) the Rs 200 limit applies per-meal, not as an aggregate, (3) only the excess per meal is taxable.",
+          "tier": 3,
+          "subConcepts": ["meal-voucher-computation", "per-meal-excess-calculation"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "An employee receives a medical loan of Rs 3,50,000 from the employer at zero interest. SBI lending rate is 10%. What is the taxable perquisite under Rule 15?",
+          "options": [
+            { "text": "Rs 35,000 (10% of Rs 3,50,000)", "correct": false },
+            { "text": "Rs 15,000 (10% of the excess Rs 1,50,000 over Rs 2,00,000 exemption)", "correct": true },
+            { "text": "Nil (medical loans are fully exempt)", "correct": false },
+            { "text": "Rs 20,000 (10% of Rs 2,00,000)", "correct": false }
+          ],
+          "explanation": "The medical loan exemption under Rule 15 covers up to Rs 2,00,000. The excess is Rs 3,50,000 - Rs 2,00,000 = Rs 1,50,000. Interest perquisite on the excess at SBI rate of 10% = Rs 15,000. The exemption applies to the loan amount for perquisite computation purposes, not as a blanket exclusion of the entire loan.",
+          "explanationWrong": "Rs 15,000. The computation: Total loan Rs 3,50,000 - Exempt portion Rs 2,00,000 = Taxable portion Rs 1,50,000. Interest-free loan perquisite on Rs 1,50,000 at SBI rate 10% = Rs 15,000. The Rs 2,00,000 exemption removes that portion from the interest-benefit computation.",
+          "tier": 3,
+          "subConcepts": ["medical-loan-computation", "interest-free-loan-perquisite"],
+          "isReview": false,
+          "oldSection": "Rule 3 (not available)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Applying HRA Rules — Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employee in Bengaluru earns Rs 12,00,000 salary, receives Rs 6,00,000 HRA, and pays Rs 4,00,000 rent. What is the HRA exemption under Rule 279?",
+          "options": [
+            { "text": "Rs 2,80,000 (rent minus 10% of salary)", "correct": true },
+            { "text": "Rs 6,00,000 (actual HRA)", "correct": false },
+            { "text": "Rs 4,80,000 (40% of salary)", "correct": false },
+            { "text": "Rs 6,00,000 (50% of salary)", "correct": false }
+          ],
+          "explanation": "Bengaluru is now a 50% city under Rule 279. The three amounts: (1) Actual HRA = Rs 6,00,000; (2) Rent - 10% salary = Rs 4,00,000 - Rs 1,20,000 = Rs 2,80,000; (3) 50% of salary = Rs 6,00,000. Least of the three = Rs 2,80,000. Under old Rule 2A, Bengaluru was a 40% city — amount (3) would have been Rs 4,80,000, but the answer would still be Rs 2,80,000 in this case since rent minus 10% is the limiting factor.",
+          "explanationWrong": "Rs 2,80,000 — the least of three amounts. (1) HRA received: Rs 6,00,000. (2) Rent - 10% salary: Rs 4,00,000 - Rs 1,20,000 = Rs 2,80,000. (3) 50% of salary (Bengaluru is now a 50% city): Rs 6,00,000. Least = Rs 2,80,000. Note: in this scenario, the city upgrade does not change the answer because amount (2) is the binding constraint.",
+          "tier": 3,
+          "subConcepts": ["hra-computation-bengaluru", "least-of-three-application"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "An employee in Hyderabad earns Rs 10,00,000 salary, receives Rs 5,00,000 HRA, and pays Rs 6,00,000 rent. How much additional HRA exemption does she get because of Rule 279 (compared to old Rule 2A)?",
+          "options": [
+            { "text": "Nil — the same amount is exempt either way", "correct": false },
+            { "text": "Rs 1,00,000 additional exemption", "correct": true },
+            { "text": "Rs 50,000 additional exemption", "correct": false },
+            { "text": "Rs 2,00,000 additional exemption", "correct": false }
+          ],
+          "explanation": "Under Rule 279 (50% city): (1) HRA Rs 5,00,000; (2) Rent - 10% salary = Rs 6,00,000 - Rs 1,00,000 = Rs 5,00,000; (3) 50% salary = Rs 5,00,000. Least = Rs 5,00,000. Under old Rule 2A (40% city): (1) Rs 5,00,000; (2) Rs 5,00,000; (3) 40% salary = Rs 4,00,000. Least = Rs 4,00,000. Difference = Rs 5,00,000 - Rs 4,00,000 = Rs 1,00,000 additional exemption.",
+          "explanationWrong": "Rs 1,00,000 additional exemption. Under old Rule 2A (40%): the binding constraint is component (3) at Rs 4,00,000. Under Rule 279 (50%): component (3) jumps to Rs 5,00,000, and the binding constraint shifts — exemption becomes Rs 5,00,000. The Rs 1,00,000 difference is the direct impact of Hyderabad's reclassification from 40% to 50%.",
+          "tier": 3,
+          "subConcepts": ["hra-incremental-benefit", "50-vs-40-percent-impact"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 4.3: What happens to HRA exemption if an employee owns the house in which they reside and claims both HRA exemption and home loan interest deduction?",
+          "options": [
+            { "text": "Both can be claimed simultaneously without restriction", "correct": false },
+            { "text": "HRA exemption is not available if the employee resides in own house — the employee must pay rent to claim HRA", "correct": true },
+            { "text": "Only one of the two can be claimed — employee must choose", "correct": false },
+            { "text": "HRA is available at 50% of the normal amount", "correct": false }
+          ],
+          "explanation": "HRA exemption requires the employee to actually pay rent. If the employee resides in their own house, no rent is paid, and the 'rent paid minus 10% of salary' component becomes nil — making the HRA exemption nil. Home loan interest deduction is a separate provision and can be claimed independently for a different property.",
+          "explanationWrong": "HRA requires rent payment. The formula includes 'rent paid minus 10% of salary' — if rent paid is zero, this component is zero (or negative), and since exemption is the least of three amounts, the exemption becomes nil. An employee can claim home loan interest for a property they own while claiming HRA for a rented property — but not for the same property.",
+          "tier": 3,
+          "subConcepts": ["hra-rent-requirement-review", "own-house-hra-conflict"],
+          "isReview": true,
+          "oldSection": "Section 10(13A) / Rule 2A",
+          "newSection": "Section 22 / Rule 279"
+        },
+        {
+          "order": 4,
+          "question": "A payroll software currently classifies only Mumbai, Delhi, Kolkata, and Chennai as 50% HRA cities. An employee transfers from Chennai to Pune mid-year. What configuration update is needed for Rule 279 compliance?",
+          "options": [
+            { "text": "No update needed — Pune was already a 50% city", "correct": false },
+            { "text": "Add Pune to the 50% city list and ensure mid-year transfer logic applies 50% for both Chennai and Pune periods", "correct": true },
+            { "text": "Apply 40% for the Pune period since the software has not been updated", "correct": false },
+            { "text": "Apply 50% only for the Chennai period and 40% for Pune until next tax year", "correct": false }
+          ],
+          "explanation": "Under Rule 279, Pune is now a 50% city. The payroll system must: (1) add Bengaluru, Pune, Hyderabad, and Ahmedabad to the 50% list, and (2) ensure the mid-year transfer correctly applies 50% for both the Chennai portion and the Pune portion. No downgrade should occur for this transfer.",
+          "explanationWrong": "Add Pune to 50% list and apply 50% for both periods. Payroll systems must update city classification for all four new cities (Bengaluru, Pune, Hyderabad, Ahmedabad) from Tax Year 2026-27. Mid-year transfers between two 50% cities should seamlessly continue the 50% computation.",
+          "tier": 3,
+          "subConcepts": ["payroll-system-update", "mid-year-transfer-hra"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 5,
+          "question": "An employee in Jaipur (population < 25 lakh but > 10 lakh) earns Rs 8,00,000 salary, receives Rs 3,00,000 HRA, and pays Rs 2,50,000 rent. What is the HRA exemption under Rule 279?",
+          "options": [
+            { "text": "Rs 1,70,000", "correct": true },
+            { "text": "Rs 3,00,000", "correct": false },
+            { "text": "Rs 3,20,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "Jaipur is NOT in the 50% city list under Rule 279 — it remains a 40% city. The three amounts: (1) HRA received = Rs 3,00,000; (2) Rent - 10% salary = Rs 2,50,000 - Rs 80,000 = Rs 1,70,000; (3) 40% of salary = Rs 3,20,000. Least = Rs 1,70,000. The Rule 279 expansion to 8 cities does not cover all large cities — only the specific 8 listed.",
+          "explanationWrong": "Rs 1,70,000. Jaipur is a 40% city (not in the 8-city list). (1) HRA: Rs 3,00,000. (2) Rent - 10% salary: Rs 2,50,000 - Rs 80,000 = Rs 1,70,000. (3) 40% salary: Rs 3,20,000. Least = Rs 1,70,000. Key learning: only 8 specific cities get 50% — not all cities above a population threshold.",
+          "tier": 3,
+          "subConcepts": ["hra-computation-non-50-city", "jaipur-40-percent"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        }
+      ]
+    },
+    {
+      "title": "Applying Allowance & Combined Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employee has 3 children — two in school (fees Rs 4,000/month each) and one in hostel (Rs 12,000/month). What is the maximum combined exemption under Rule 280?",
+          "options": [
+            { "text": "Rs 12,000/month (Rs 3,000 x 2 + Rs 9,000 x 1 = Rs 15,000, but limited to 2 children)", "correct": false },
+            { "text": "Rs 6,000/month (education allowance for 2 children only)", "correct": false },
+            { "text": "Rs 12,000/month (Rs 3,000 for one child education + Rs 9,000 for one child hostel)", "correct": true },
+            { "text": "Rs 15,000/month (Rs 3,000 x 2 + Rs 9,000 x 1)", "correct": false }
+          ],
+          "explanation": "The two-child limit applies. The employee must choose 2 of 3 children. Optimal strategy: claim education for 1 child (Rs 3,000) and hostel for 1 child (Rs 9,000) = Rs 12,000/month. Alternatively, education for 2 children (Rs 6,000/month) — but the hostel child gives more benefit. The employee would pick the combination maximizing the exemption.",
+          "explanationWrong": "Rs 12,000/month is the optimal combination. With 3 children and a 2-child limit, the employee picks the 2 children that maximize exemption. Choosing the hostel child (Rs 9,000) + one school child (Rs 3,000) = Rs 12,000/month, which beats 2 school children (Rs 6,000/month).",
+          "tier": 3,
+          "subConcepts": ["two-child-limit-optimization", "education-hostel-combined"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 2,
+          "question": "An employer runs a school where education costs Rs 2,500/month/child. The employer also pays a separate education allowance of Rs 3,000/month/child. For one child attending the employer's school, what is the total exempt amount?",
+          "options": [
+            { "text": "Rs 3,000/month (only Rule 280 allowance)", "correct": false },
+            { "text": "Rs 5,500/month (Rs 2,500 perquisite exemption + Rs 3,000 allowance exemption)", "correct": true },
+            { "text": "Rs 3,000/month (higher of the two)", "correct": false },
+            { "text": "Rs 2,500/month (only Rule 15 perquisite exemption)", "correct": false }
+          ],
+          "explanation": "Rule 15 and Rule 280 are separate provisions. Under Rule 15, the employer-school education (Rs 2,500/month) is fully exempt as it is below Rs 3,000/month. Under Rule 280, the cash education allowance of Rs 3,000/month is also separately exempt. Total exempt = Rs 2,500 + Rs 3,000 = Rs 5,500/month. The two operate independently.",
+          "explanationWrong": "Rs 5,500/month — both exemptions apply independently. Rule 15 (perquisite: employer-maintained school, exempt up to Rs 3,000/month) and Rule 280 (allowance: cash education allowance, exempt up to Rs 3,000/month) are separate provisions with separate limits. They do not overlap or substitute for each other.",
+          "tier": 3,
+          "subConcepts": ["rule-15-rule-280-stacking", "dual-education-benefit"],
+          "isReview": false,
+          "oldSection": "Rule 3 / Rule 2BB",
+          "newSection": "Rule 15 / Rule 280"
+        },
+        {
+          "order": 3,
+          "question": "Reviewing Unit 19.1: Under the IT Rules 2026, old Form 15G and Form 15H for TDS non-deduction declarations were merged into which single form?",
+          "options": [
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 15GH", "correct": false },
+            { "text": "Form 280", "correct": false }
+          ],
+          "explanation": "Forms 15G (for individuals below 60) and 15H (for senior citizens) were merged into a single Form 121 under the IT Rules 2026. This is part of the forms consolidation from 399 to 190 forms — merging functionally similar forms into unified ones.",
+          "explanationWrong": "Form 121. The merger of 15G and 15H into Form 121 is a flagship example of the forms consolidation under IT Rules 2026. The two forms served the same purpose (TDS non-deduction declaration) for different age groups — a single form with an age-based field is more logical.",
+          "tier": 3,
+          "subConcepts": ["form-121-review", "15G-15H-merger"],
+          "isReview": true,
+          "oldSection": "Form 15G / Form 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 4,
+          "question": "An employer in Ahmedabad provides: accommodation (salary Rs 20,00,000), meals at Rs 180/meal (220 meals/year), gifts of Rs 14,500, and medical loan of Rs 1,50,000 at 0%. What is the total taxable perquisite under Rule 15?",
+          "options": [
+            { "text": "Rs 1,50,000 (accommodation only)", "correct": false },
+            { "text": "Rs 1,50,000 (accommodation) + Nil (meals) + Nil (gifts) + Nil (medical loan) = Rs 1,50,000", "correct": true },
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 1,89,500", "correct": false }
+          ],
+          "explanation": "Accommodation: Ahmedabad population 10-25 lakh tier → 7.5% of Rs 20,00,000 = Rs 1,50,000. Meals: Rs 180/meal is below Rs 200 limit → Nil. Gifts: Rs 14,500 is below Rs 15,000 threshold → Nil. Medical loan: Rs 1,50,000 is below Rs 2,00,000 exemption → Nil. Total taxable perquisite = Rs 1,50,000.",
+          "explanationWrong": "Rs 1,50,000 total. Breakdown: Accommodation at 7.5% (Ahmedabad is tier-2: 10-25 lakh population) = Rs 1,50,000. Meals below Rs 200/meal = Nil. Gifts below Rs 15,000 = Nil. Medical loan below Rs 2,00,000 = Nil. Only accommodation generates a taxable perquisite. Note: if gifts had been Rs 15,001, the ENTIRE Rs 15,001 would be added.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-perquisite-computation", "multiple-rule-15-limits"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "Compare the total annual savings for an employee (30% tax bracket) in Pune with salary Rs 15,00,000 getting employer accommodation, under Rule 15 vs old Rule 3. Pune is now 50% HRA city but accommodation perquisite uses population-based rates. What is the annual tax saving on accommodation perquisite alone?",
+          "options": [
+            { "text": "Rs 11,250 (saving on 2.5% rate reduction at 30% tax rate)", "correct": false },
+            { "text": "Rs 22,500 (saving on 5% rate reduction at 30% tax rate for metro)", "correct": false },
+            { "text": "Rs 11,250 (Pune is tier-2: 10%→7.5%, saving 2.5% x Rs 15L x 30%)", "correct": true },
+            { "text": "Rs 33,750 (saving on 7.5% rate reduction)", "correct": false }
+          ],
+          "explanation": "Pune's population is between 10-25 lakh (tier-2). Accommodation rate: old 10%, new 7.5% — a 2.5 percentage point reduction. Perquisite saving: 2.5% x Rs 15,00,000 = Rs 37,500. Tax saving at 30%: Rs 37,500 x 30% = Rs 11,250. Note: the HRA city classification (50%) is a separate provision from accommodation perquisite rates (population-based tiers).",
+          "explanationWrong": "Rs 11,250. Pune is tier-2 (10-25 lakh population), so the accommodation rate dropped from 10% to 7.5%. Perquisite reduction: 2.5% x Rs 15,00,000 = Rs 37,500. Tax saving: Rs 37,500 x 30% = Rs 11,250. Important: HRA city classification (50% under Rule 279) and accommodation perquisite rates (population-based under Rule 15) are different provisions — do not conflate them.",
+          "tier": 3,
+          "subConcepts": ["accommodation-tax-saving-computation", "hra-vs-accommodation-distinction"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        }
+      ]
+    }
+  ]
+}
