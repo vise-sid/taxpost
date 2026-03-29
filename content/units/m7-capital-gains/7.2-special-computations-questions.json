@@ -1,0 +1,835 @@
+{
+  "unit": "7.2",
+  "title": "Special Computations",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Sections 49-51 to 73-81",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 49 (cost with reference to previous owner) maps to which new section?",
+          "options": [
+            { "text": "Section 73", "correct": true },
+            { "text": "Section 74", "correct": false },
+            { "text": "Section 76", "correct": false },
+            { "text": "Section 77", "correct": false }
+          ],
+          "explanation": "Old Section 49 maps to Section 73. This covers cost of acquisition when an asset is received by gift, will, inheritance, succession, or HUF partition — the cost is the previous owner's cost. Renumbered only, no substantive change.",
+          "explanationWrong": "Section 73 is the previous-owner cost section (old 49). Section 74 is depreciable assets (old 50). The mapping is sequential: 49→73, 50→74, 50A→75, 50AA→76, 50B→77, and so on.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "cost-previous-owner", "section-49-to-73"],
+          "isReview": false,
+          "oldSection": "Section 49",
+          "newSection": "Section 73"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 50 (depreciable assets — capital gains computed on WDV basis) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 73", "correct": false },
+            { "text": "Section 74", "correct": true },
+            { "text": "Section 75", "correct": false },
+            { "text": "Section 76", "correct": false }
+          ],
+          "explanation": "Old Section 50 maps to Section 74. The rule is unchanged: depreciable assets in a block have capital gains computed on WDV basis, and the gain is always short-term (or short-term loss if the block ceases to exist).",
+          "explanationWrong": "Section 74 is the depreciable assets section (old 50). Section 73 is previous-owner cost (old 49), Section 75 is bonus shares (old 50A). The key feature of Section 74: gains on depreciable assets are always STCG.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "depreciable-assets", "section-50-to-74"],
+          "isReview": false,
+          "oldSection": "Section 50",
+          "newSection": "Section 74"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is the correct complete mapping for Sections 49-51 under the ITA 2025?",
+          "options": [
+            { "text": "49→73, 50→74, 50A→75, 50AA→76, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81", "correct": true },
+            { "text": "49→73, 50→75, 50A→74, 50AA→76, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81", "correct": false },
+            { "text": "49→73, 50→74, 50A→75, 50AA→77, 50B→76, 50C→78, 50CA→79, 50D→80, 51→81", "correct": false },
+            { "text": "49→74, 50→73, 50A→75, 50AA→76, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81", "correct": false }
+          ],
+          "explanation": "The complete mapping preserves the sequential order: 49→73, 50→74, 50A→75, 50AA→76, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81. Nine sections, all in order.",
+          "explanationWrong": "The mapping is perfectly sequential: 49→73, 50→74, 50A→75, 50AA→76, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81. Look for the option where old sections in ascending order map to new sections in ascending order.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "complete-mapping"],
+          "isReview": true,
+          "oldSection": "Sections 49-51",
+          "newSection": "Sections 73-81"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 50B (slump sale computation) maps to which new section?",
+          "options": [
+            { "text": "Section 76", "correct": false },
+            { "text": "Section 77", "correct": true },
+            { "text": "Section 78", "correct": false },
+            { "text": "Section 74", "correct": false }
+          ],
+          "explanation": "Old Section 50B maps to Section 77. Slump sale computation — transfer of an undertaking as a going concern for lump-sum consideration, capital gains = consideration minus net worth — is unchanged.",
+          "explanationWrong": "Section 77 is the slump sale section (old 50B). Section 76 is debt MF/MLD (old 50AA). Section 78 is stamp duty deeming (old 50C). The sequential mapping helps: 50B is after 50AA, so 77 is after 76.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "slump-sale", "section-50B-to-77"],
+          "isReview": false,
+          "oldSection": "Section 50B",
+          "newSection": "Section 77"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 51 (advance money received and forfeited) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 79", "correct": false },
+            { "text": "Section 80", "correct": false },
+            { "text": "Section 81", "correct": true },
+            { "text": "Section 73", "correct": false }
+          ],
+          "explanation": "Old Section 51 maps to Section 81 — the last in the special computations sequence. Forfeited advance money is deducted from cost of acquisition on eventual transfer. If the asset is never transferred, the forfeited amount is taxable as income from other sources.",
+          "explanationWrong": "Section 81 is advance money forfeited (old 51). Section 79 is FMV for unquoted shares (old 50CA). Section 80 is consideration not ascertainable (old 50D). Remember the sequence ends at 81.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "advance-forfeiture", "section-51-to-81"],
+          "isReview": false,
+          "oldSection": "Section 51",
+          "newSection": "Section 81"
+        }
+      ]
+    },
+    {
+      "title": "Section 76 — Debt MF/MLD Codification",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 76 of the ITA 2025 (old Section 50AA) deals with which specific asset types?",
+          "options": [
+            { "text": "Specified mutual funds (debt MFs) and market-linked debentures (MLDs)", "correct": true },
+            { "text": "All equity mutual funds", "correct": false },
+            { "text": "Depreciable assets in a block", "correct": false },
+            { "text": "Bonus shares and debentures", "correct": false }
+          ],
+          "explanation": "Section 76 covers two asset types: (1) specified mutual funds where 65% or less of total proceeds is invested in equity shares of domestic companies (i.e., debt MFs), and (2) market-linked debentures (MLDs). Both are deemed always short-term regardless of holding period.",
+          "explanationWrong": "Section 76 is specifically about debt MFs and MLDs — not equity mutual funds, not depreciable assets, not bonus shares. The key feature: these assets are always treated as short-term capital assets regardless of how long you hold them.",
+          "tier": 1,
+          "subConcepts": ["section-76", "debt-MF", "MLD", "always-STCG"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 2,
+          "question": "What is the tax treatment of gains from debt mutual funds under Section 76?",
+          "options": [
+            { "text": "Always short-term capital gains, taxed at slab rates regardless of holding period", "correct": true },
+            { "text": "Long-term if held for more than 36 months, taxed at 20%", "correct": false },
+            { "text": "Long-term if held for more than 12 months, taxed at 12.5%", "correct": false },
+            { "text": "Exempt from capital gains tax", "correct": false }
+          ],
+          "explanation": "Under Section 76, gains from specified mutual funds (debt MFs) are always treated as short-term capital gains and taxed at slab rates. No holding period can convert them to long-term. This prevents debt fund investors from claiming concessional LTCG rates on what is economically a fixed-income return.",
+          "explanationWrong": "The whole point of Section 76 is to prevent debt MF investors from gaming the holding period. No matter how long you hold a debt mutual fund, the gain is STCG at slab rates. The old 20% with indexation route for debt MFs is gone since Finance Act 2023.",
+          "tier": 1,
+          "subConcepts": ["section-76", "debt-MF", "slab-rates", "always-STCG"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 3,
+          "question": "What distinguishes Section 76 of the 2025 Act from its predecessor, old Section 50AA?",
+          "options": [
+            { "text": "Nothing substantive — the policy is identical; Section 76 codifies 50AA as a standalone section in the base statute rather than an amendment insertion", "correct": true },
+            { "text": "Section 76 introduces new asset categories not covered by 50AA", "correct": false },
+            { "text": "Section 76 changes the tax rate for debt MFs from slab to flat 30%", "correct": false },
+            { "text": "Section 76 extends the always-STCG treatment to equity MFs as well", "correct": false }
+          ],
+          "explanation": "The only change is structural, not substantive. Old Section 50AA was inserted by Finance Act 2023 as an amendment overlay. Section 76 elevates this into a first-class standalone section in the base statute. The rule — debt MFs and MLDs are always STCG at slab rates — is identical.",
+          "explanationWrong": "No policy change at all. Same assets, same treatment, same rates. What changed is the legislative status — from an amendment insertion to a standalone base statute section. This is the 2025 Act's codification approach.",
+          "tier": 1,
+          "subConcepts": ["section-76", "codification", "FA-2023"],
+          "isReview": true,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 4,
+          "question": "Section 76 applies to units of specified mutual funds acquired on or after which date?",
+          "options": [
+            { "text": "1 April 2023", "correct": true },
+            { "text": "1 April 2024", "correct": false },
+            { "text": "1 April 2026", "correct": false },
+            { "text": "1 April 2020", "correct": false }
+          ],
+          "explanation": "Section 76 (like old 50AA) applies to specified MF units acquired on or after 1 April 2023 — when Finance Act 2023 originally introduced the always-STCG treatment. For units acquired before that date, the old regime continues under transition provisions. MLDs are covered whenever acquired.",
+          "explanationWrong": "The 1 April 2023 date comes from the Finance Act 2023 original insertion. The 2025 Act carries this forward. Units acquired before 1 April 2023 continue under the old regime (LTCG after 36 months with indexation, for pre-FA 2023 acquisitions).",
+          "tier": 1,
+          "subConcepts": ["section-76", "effective-date", "transition"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 5,
+          "question": "A 'specified mutual fund' under Section 76 is one where what percentage or less of total proceeds is invested in equity shares of domestic companies?",
+          "options": [
+            { "text": "65% or less", "correct": true },
+            { "text": "35% or less", "correct": false },
+            { "text": "50% or less", "correct": false },
+            { "text": "90% or less", "correct": false }
+          ],
+          "explanation": "A specified mutual fund is one where 65% or less of total proceeds is invested in equity shares of domestic companies — this effectively captures all debt-oriented mutual funds. If equity allocation exceeds 65%, the fund is treated as an equity fund with different tax rules.",
+          "explanationWrong": "The 65% threshold is the dividing line. At or below 65% equity = debt fund = Section 76 always-STCG. Above 65% equity = equity fund = eligible for concessional rates under Sections 196/198. This threshold is unchanged from the Finance Act 2023 insertion.",
+          "tier": 1,
+          "subConcepts": ["section-76", "65-percent-threshold", "specified-MF"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        }
+      ]
+    },
+    {
+      "title": "Stamp Duty, FMV, and Other Deeming Provisions",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 50C (stamp duty value as deemed consideration for land/building) maps to which new section?",
+          "options": [
+            { "text": "Section 78", "correct": true },
+            { "text": "Section 77", "correct": false },
+            { "text": "Section 79", "correct": false },
+            { "text": "Section 80", "correct": false }
+          ],
+          "explanation": "Old Section 50C maps to Section 78. Where immovable property is transferred for less than stamp duty value (beyond the 10% tolerance band), stamp duty value is deemed as full value of consideration. Renumbered only.",
+          "explanationWrong": "Section 78 is the stamp duty deeming provision (old 50C). Section 77 is slump sale (old 50B). Section 79 is FMV for unquoted shares (old 50CA). The tolerance band (10%) and all other conditions are unchanged.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "stamp-duty", "section-50C-to-78"],
+          "isReview": false,
+          "oldSection": "Section 50C",
+          "newSection": "Section 78"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 50CA (FMV for unquoted shares) and 50D (consideration not ascertainable) map to which new sections respectively?",
+          "options": [
+            { "text": "Section 79 and Section 80", "correct": true },
+            { "text": "Section 80 and Section 79", "correct": false },
+            { "text": "Section 78 and Section 81", "correct": false },
+            { "text": "Section 77 and Section 78", "correct": false }
+          ],
+          "explanation": "50CA→79 (FMV for unquoted shares — where transfer price is below FMV beyond 10% tolerance, FMV is deemed consideration) and 50D→80 (where consideration cannot be determined, FMV of the asset on transfer date is deemed). Both renumbered only.",
+          "explanationWrong": "The sequence is: 50CA→79 (unquoted shares FMV) and 50D→80 (consideration not ascertainable). Both are deeming provisions that substitute FMV when the stated consideration is inadequate or unknowable.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "FMV", "section-50CA-to-79", "section-50D-to-80"],
+          "isReview": false,
+          "oldSection": "Section 50CA, Section 50D",
+          "newSection": "Section 79, Section 80"
+        },
+        {
+          "order": 3,
+          "question": "For a post-April 2026 transfer of immovable property where the sale price is 8% below stamp duty value, which section applies?",
+          "options": [
+            { "text": "No deeming applies — the 10% tolerance under Section 78 covers an 8% gap", "correct": true },
+            { "text": "Section 78 deems stamp duty value as consideration", "correct": false },
+            { "text": "Section 80 deems FMV as consideration", "correct": false },
+            { "text": "Section 79 applies to all immovable property", "correct": false }
+          ],
+          "explanation": "Section 78 (old 50C) has a 10% tolerance band. If the sale price is within 10% of stamp duty value, no deeming applies. An 8% gap falls within tolerance, so the actual sale price stands. The deeming kicks in only when the gap exceeds 10%.",
+          "explanationWrong": "The 10% tolerance is your friend here. 8% is less than 10%, so no deeming. Section 78 only activates when the gap exceeds 10%. This tolerance was introduced by earlier Finance Acts and continues unchanged.",
+          "tier": 1,
+          "subConcepts": ["section-78", "tolerance-band", "practical-application"],
+          "isReview": true,
+          "oldSection": "Section 50C",
+          "newSection": "Section 78"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 50A (cost of acquisition of bonus shares) maps to which new section?",
+          "options": [
+            { "text": "Section 75", "correct": true },
+            { "text": "Section 74", "correct": false },
+            { "text": "Section 76", "correct": false },
+            { "text": "Section 73", "correct": false }
+          ],
+          "explanation": "Old Section 50A maps to Section 75. Bonus shares allotted on or after 1 April 2001 have cost = nil. Before 1 April 2001: cost = FMV as on 1 April 2001. Renumbered only.",
+          "explanationWrong": "Section 75 is bonus shares (old 50A). Section 74 is depreciable assets (old 50). Section 76 is debt MF/MLD (old 50AA). The sequence: 50→74, 50A→75, 50AA→76.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "bonus-shares", "section-50A-to-75"],
+          "isReview": false,
+          "oldSection": "Section 50A",
+          "newSection": "Section 75"
+        },
+        {
+          "order": 5,
+          "question": "How many of the nine sections in Unit 7.2 (Sections 73-81) involve a substantive change by the 2025 Act (as opposed to pure renumbering)?",
+          "options": [
+            { "text": "One — Section 76 (codification of debt MF/MLD treatment)", "correct": true },
+            { "text": "None — all nine are pure renumbering", "correct": false },
+            { "text": "Three — Sections 74, 76, and 78", "correct": false },
+            { "text": "Five — most sections have policy changes", "correct": false }
+          ],
+          "explanation": "Only Section 76 involves a change — and even that is structural (codification as standalone section) rather than substantive policy. The remaining eight sections (73-75, 77-81) are pure renumbering with identical rules.",
+          "explanationWrong": "Just one section — 76 — has any change, and it's structural codification, not a policy change. The debt MF/MLD always-STCG rule was introduced by Finance Act 2023 via old Section 50AA. The 2025 Act merely gives it its own standalone section.",
+          "tier": 1,
+          "subConcepts": ["overall-assessment", "codification-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Applied Mapping — Computation Scenarios",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client inherits a property from their father. Under the 2025 Act, which section determines the cost of acquisition?",
+          "options": [
+            { "text": "Section 73 — cost with reference to cost to previous owner", "correct": true },
+            { "text": "Section 74 — depreciable assets", "correct": false },
+            { "text": "Section 72 — general computation", "correct": false },
+            { "text": "Section 90 — meaning of cost of acquisition", "correct": false }
+          ],
+          "explanation": "Inheritance triggers Section 73 (old 49) — the cost is the cost at which the previous owner (father) acquired the property. The holding period of the father is also included. If the father acquired it before 1 April 2001, FMV as on that date may be substituted.",
+          "explanationWrong": "Section 73 is the go-to for inherited, gifted, or HUF partition assets. Section 72 is the general computation formula. Section 90 defines cost of acquisition/improvement for various asset categories. For inheritance specifically, Section 73 applies.",
+          "tier": 2,
+          "subConcepts": ["section-73", "inheritance", "previous-owner-cost"],
+          "isReview": false,
+          "oldSection": "Section 49",
+          "newSection": "Section 73"
+        },
+        {
+          "order": 2,
+          "question": "A company sells machinery that was part of a depreciable block. Under the 2025 Act, which section governs the capital gains computation?",
+          "options": [
+            { "text": "Section 74 — the WDV-based computation for depreciable assets", "correct": true },
+            { "text": "Section 72 — the general computation formula", "correct": false },
+            { "text": "Section 77 — slump sale computation", "correct": false },
+            { "text": "Section 76 — always-STCG provision", "correct": false }
+          ],
+          "explanation": "Depreciable assets in a block are governed by Section 74 (old 50). Full value of consideration is deducted from WDV. If the block ceases to exist and there's a positive difference, it's always STCG. Section 72 (general formula) does not apply directly to block assets.",
+          "explanationWrong": "Section 74 is specifically designed for depreciable assets. The WDV-based computation overrides the general formula in Section 72. Section 77 is for slump sales (entire undertaking), not individual asset sales from a block.",
+          "tier": 2,
+          "subConcepts": ["section-74", "depreciable-assets", "WDV", "always-STCG"],
+          "isReview": false,
+          "oldSection": "Section 50",
+          "newSection": "Section 74"
+        },
+        {
+          "order": 3,
+          "question": "A client transfers an entire business undertaking as a going concern for a lump-sum price. Which section governs the capital gains computation?",
+          "options": [
+            { "text": "Section 77 — slump sale computation (consideration minus net worth)", "correct": true },
+            { "text": "Section 74 — depreciable assets computation", "correct": false },
+            { "text": "Section 72 — general computation", "correct": false },
+            { "text": "Section 73 — cost to previous owner", "correct": false }
+          ],
+          "explanation": "Section 77 (old 50B) governs slump sales — transfer of an undertaking as a going concern for a lump-sum consideration. Capital gains = consideration minus net worth of the undertaking. LTCG if held >36 months; STCG if ≤36 months.",
+          "explanationWrong": "Slump sale has its own section — 77 (old 50B). The special feature is that net worth (not cost of individual assets) is used. The 36-month threshold for slump sales is deliberately retained as an exception to the general 24-month rule.",
+          "tier": 2,
+          "subConcepts": ["section-77", "slump-sale", "net-worth"],
+          "isReview": true,
+          "oldSection": "Section 50B",
+          "newSection": "Section 77"
+        },
+        {
+          "order": 4,
+          "question": "A client sells unquoted shares for Rs 50 lakh. The FMV of those shares is Rs 80 lakh. Under which section is FMV deemed as consideration?",
+          "options": [
+            { "text": "Section 79 — FMV for unquoted shares when transfer price is below FMV", "correct": true },
+            { "text": "Section 78 — stamp duty deeming for immovable property", "correct": false },
+            { "text": "Section 80 — consideration not ascertainable", "correct": false },
+            { "text": "Section 72 — general computation", "correct": false }
+          ],
+          "explanation": "Section 79 (old 50CA) applies when unquoted shares are transferred for less than FMV (beyond the 10% tolerance). Here, Rs 50 lakh is 37.5% below Rs 80 lakh — well beyond 10%. FMV of Rs 80 lakh would be deemed as the full value of consideration.",
+          "explanationWrong": "Section 79 (old 50CA) is specifically for unquoted shares. Section 78 (old 50C) is for immovable property. Section 80 (old 50D) is for situations where consideration simply cannot be determined. Each deeming section has its own asset-type scope.",
+          "tier": 2,
+          "subConcepts": ["section-79", "unquoted-shares", "FMV-deeming"],
+          "isReview": false,
+          "oldSection": "Section 50CA",
+          "newSection": "Section 79"
+        },
+        {
+          "order": 5,
+          "question": "A client received earnest money of Rs 5 lakh for a property sale that fell through. The buyer forfeited the earnest money. What happens under the 2025 Act?",
+          "options": [
+            { "text": "Under Section 81, if the property is later sold, the Rs 5 lakh is deducted from cost of acquisition; if never sold, it is taxable as income from other sources", "correct": true },
+            { "text": "The Rs 5 lakh is immediately taxable as capital gains", "correct": false },
+            { "text": "The Rs 5 lakh is exempt from tax", "correct": false },
+            { "text": "The Rs 5 lakh reduces the stamp duty value under Section 78", "correct": false }
+          ],
+          "explanation": "Section 81 (old 51) governs forfeited advance money. On eventual transfer, the forfeited amount reduces the cost of acquisition. If the asset is never transferred, the forfeited amount becomes income from other sources. This rule is unchanged.",
+          "explanationWrong": "Forfeited advance money has a specific treatment under Section 81. It is not an immediate capital gain, not exempt, and has nothing to do with stamp duty. The rule has two limbs: reduce COA on eventual sale, or tax as other-source income if no sale occurs.",
+          "tier": 2,
+          "subConcepts": ["section-81", "advance-forfeiture", "practical-application"],
+          "isReview": false,
+          "oldSection": "Section 51",
+          "newSection": "Section 81"
+        }
+      ]
+    },
+    {
+      "title": "Section 76 — Practical Application",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client holds units of a debt mutual fund (acquired in June 2023) for 30 months and sells them in December 2025. Under the 2025 Act framework, how are the gains taxed?",
+          "options": [
+            { "text": "As STCG at slab rates — Section 76 deems all debt MF gains as short-term regardless of holding period", "correct": true },
+            { "text": "As LTCG at 12.5% — the 30-month holding period qualifies", "correct": false },
+            { "text": "As LTCG at 20% with indexation", "correct": false },
+            { "text": "Exempt — debt MF gains below Rs 1.25 lakh are exempt", "correct": false }
+          ],
+          "explanation": "Section 76 overrides the normal holding period rules for debt MFs. Even though the client held for 30 months, the gain is always STCG at slab rates. The old route of LTCG with indexation after 36 months is gone for units acquired on or after 1 April 2023.",
+          "explanationWrong": "There is no escape from Section 76 for debt MFs acquired after 1 April 2023. Holding period is irrelevant — 30 months, 30 years, it does not matter. The gain is STCG at slab rates. Period.",
+          "tier": 2,
+          "subConcepts": ["section-76", "debt-MF", "holding-period-irrelevant"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 2,
+          "question": "A client invested in market-linked debentures (MLDs) in 2019 and sells them in FY 2026-27. Under the 2025 Act, what is the tax treatment?",
+          "options": [
+            { "text": "STCG at slab rates — Section 76 applies to MLDs whenever acquired", "correct": true },
+            { "text": "LTCG at 12.5% — acquired before the cutoff date", "correct": false },
+            { "text": "LTCG at 20% with indexation — pre-2023 acquisition", "correct": false },
+            { "text": "The treatment depends on when the MLD was listed", "correct": false }
+          ],
+          "explanation": "For MLDs, Section 76 applies regardless of acquisition date — unlike specified MFs, where the 1 April 2023 cutoff applies. MLDs acquired at any time are always STCG at slab rates. This distinction between MFs and MLDs is important.",
+          "explanationWrong": "MLDs have no acquisition date cutoff — they are always STCG at slab rates under Section 76 regardless of when purchased. The 1 April 2023 cutoff only applies to specified mutual fund units, not to MLDs.",
+          "tier": 2,
+          "subConcepts": ["section-76", "MLD", "no-date-cutoff"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 3,
+          "question": "What is the key difference in Section 76's applicability between specified mutual funds and MLDs?",
+          "options": [
+            { "text": "MFs have an acquisition date cutoff (1 April 2023); MLDs have no cutoff — always STCG whenever acquired", "correct": true },
+            { "text": "MFs are taxed at slab rates; MLDs are taxed at a flat 30%", "correct": false },
+            { "text": "MFs are always STCG; MLDs can qualify as LTCG after 36 months", "correct": false },
+            { "text": "There is no difference — both are treated identically", "correct": false }
+          ],
+          "explanation": "This is a critical distinction. Specified MF units acquired BEFORE 1 April 2023 continue under the old regime (LTCG after 36 months). But MLDs are always STCG regardless of acquisition date. Both are taxed at slab rates when Section 76 applies.",
+          "explanationWrong": "The cutoff date distinction is the key: MFs acquired before 1 April 2023 get the old treatment, MLDs get the always-STCG treatment regardless. Both are at slab rates when Section 76 applies — the difference is only in the acquisition date threshold.",
+          "tier": 2,
+          "subConcepts": ["section-76", "MF-vs-MLD", "cutoff-distinction"],
+          "isReview": true,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 4,
+          "question": "A client holds units of a mutual fund where 70% of proceeds are invested in equity shares of domestic companies. Does Section 76 apply?",
+          "options": [
+            { "text": "No — the fund exceeds the 65% equity threshold and is treated as an equity fund", "correct": true },
+            { "text": "Yes — Section 76 applies to all mutual funds", "correct": false },
+            { "text": "Yes — any fund with debt allocation triggers Section 76", "correct": false },
+            { "text": "It depends on the fund's NAV at the time of redemption", "correct": false }
+          ],
+          "explanation": "Section 76 applies only to 'specified mutual funds' — those with 65% or less invested in equity. At 70% equity, this fund is NOT a specified mutual fund. It would be treated as an equity-oriented fund eligible for concessional STCG/LTCG rates under Sections 196/198.",
+          "explanationWrong": "The 65% threshold is the bright line. Above 65% equity = equity fund = not Section 76. Below or at 65% equity = debt fund = Section 76 always-STCG. A 70% equity fund is on the equity side of the line.",
+          "tier": 2,
+          "subConcepts": ["section-76", "65-percent-threshold", "equity-fund-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 5,
+          "question": "The original debt MF/MLD always-STCG rule was introduced by which Finance Act, and what does the 2025 Act do with it?",
+          "options": [
+            { "text": "Finance Act 2023 introduced it via Section 50AA; the 2025 Act codifies it as standalone Section 76 — no policy change", "correct": true },
+            { "text": "Finance Act 2024 introduced it; the 2025 Act extends it to equity MFs", "correct": false },
+            { "text": "The 2025 Act introduced this rule for the first time as Section 76", "correct": false },
+            { "text": "Finance Act 2022 introduced it; the 2025 Act increases the rate", "correct": false }
+          ],
+          "explanation": "Finance Act 2023 inserted Section 50AA into the 1961 Act. The 2025 Act's contribution is purely structural — elevating this from an amendment insertion to a standalone section (76) in the base statute. No change to the rule, the rates, or the scope.",
+          "explanationWrong": "The legislative history matters: FA 2023 created the rule, and the 2025 Act gave it a proper home. The 2025 Act did NOT create this policy — it codified an existing one. This is the only codification in the Unit 7.2 batch.",
+          "tier": 2,
+          "subConcepts": ["section-76", "legislative-history", "codification"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        }
+      ]
+    },
+    {
+      "title": "Depreciable Assets, Bonus Shares, and Slump Sales",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 74 (old 50), gains on depreciable assets are always treated as:",
+          "options": [
+            { "text": "Short-term capital gains — regardless of holding period", "correct": true },
+            { "text": "Long-term capital gains if the asset was held for more than 24 months", "correct": false },
+            { "text": "Business income, not capital gains", "correct": false },
+            { "text": "Long-term if the block has existed for more than 36 months", "correct": false }
+          ],
+          "explanation": "Section 74 mandates that gains from depreciable assets in a block are always STCG. The WDV-based computation does not distinguish between short-term and long-term — it is always short-term. This was true under old Section 50 and continues unchanged.",
+          "explanationWrong": "Depreciable assets are always STCG — this is a well-established rule that the 2025 Act carries forward without modification. The holding period of individual assets within the block is irrelevant for this purpose.",
+          "tier": 2,
+          "subConcepts": ["section-74", "always-STCG", "WDV"],
+          "isReview": false,
+          "oldSection": "Section 50",
+          "newSection": "Section 74"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 75 (old 50A), what is the cost of acquisition for bonus shares allotted on or after 1 April 2001?",
+          "options": [
+            { "text": "Nil", "correct": true },
+            { "text": "FMV as on the date of allotment", "correct": false },
+            { "text": "FMV as on 1 April 2001", "correct": false },
+            { "text": "The proportionate cost of original shares", "correct": false }
+          ],
+          "explanation": "Bonus shares allotted on or after 1 April 2001 have a cost of nil. For bonus shares allotted before 1 April 2001, the cost is FMV as on 1 April 2001. This rule is unchanged under Section 75.",
+          "explanationWrong": "Post-1 April 2001 bonus shares = nil cost. Pre-1 April 2001 bonus shares = FMV as on 1 April 2001 can be substituted. This is a simple rule carried forward without change.",
+          "tier": 2,
+          "subConcepts": ["section-75", "bonus-shares", "nil-cost"],
+          "isReview": false,
+          "oldSection": "Section 50A",
+          "newSection": "Section 75"
+        },
+        {
+          "order": 3,
+          "question": "A company held a machine in a depreciable block for 10 years before selling it. The gain on sale is treated as STCG under Section 74. Has the 2025 Act changed this treatment?",
+          "options": [
+            { "text": "No — depreciable assets have always been STCG under this provision; the 2025 Act merely renumbers 50 to 74", "correct": true },
+            { "text": "Yes — the 2025 Act now allows LTCG treatment for assets held over 5 years", "correct": false },
+            { "text": "Yes — the 2025 Act converts this to business income", "correct": false },
+            { "text": "Partially — the 2025 Act allows LTCG if the entire block is sold", "correct": false }
+          ],
+          "explanation": "No change. Section 74 is a pure renumbering of old Section 50. Depreciable assets in a block are always STCG regardless of how long the asset was held. This is a cornerstone rule of capital gains taxation that the 2025 Act preserves.",
+          "explanationWrong": "The always-STCG rule for depreciable assets is a fundamental feature of Indian capital gains law. The 2025 Act does not touch it. Whether you held the machine for 1 year or 10, the WDV-based computation yields STCG.",
+          "tier": 2,
+          "subConcepts": ["section-74", "no-change", "always-STCG"],
+          "isReview": true,
+          "oldSection": "Section 50",
+          "newSection": "Section 74"
+        },
+        {
+          "order": 4,
+          "question": "What is the holding period threshold for a slump sale to qualify as long-term under Section 77?",
+          "options": [
+            { "text": "36 months — an exception to the general 24-month rule", "correct": true },
+            { "text": "24 months — same as immovable property", "correct": false },
+            { "text": "12 months — same as listed equity", "correct": false },
+            { "text": "No holding period distinction — always STCG like depreciable assets", "correct": false }
+          ],
+          "explanation": "Slump sales retain the 36-month threshold — this is a deliberate exception to the general 24-month rule that applies to most other assets. LTCG if held >36 months; STCG if ≤36 months. This exception continues unchanged under Section 77.",
+          "explanationWrong": "The 36-month threshold for slump sales is intentionally preserved as an exception. Most assets use 24 months (or 12 months for listed equity), but slump sales of entire undertakings still require 36 months for LTCG classification.",
+          "tier": 2,
+          "subConcepts": ["section-77", "slump-sale", "36-month-threshold"],
+          "isReview": false,
+          "oldSection": "Section 50B",
+          "newSection": "Section 77"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 80 (old 50D), when the full value of consideration for a transfer cannot be determined, what is deemed as the consideration?",
+          "options": [
+            { "text": "Fair market value of the asset on the date of transfer", "correct": true },
+            { "text": "Stamp duty value of the asset", "correct": false },
+            { "text": "Written-down value of the asset", "correct": false },
+            { "text": "Cost of acquisition of the asset", "correct": false }
+          ],
+          "explanation": "Section 80 (old 50D) is the residual deeming provision — when consideration simply cannot be determined, FMV of the asset on the transfer date is deemed as full value. This is different from Section 78 (stamp duty for land/building) and Section 79 (FMV for unquoted shares).",
+          "explanationWrong": "Section 80 is the catch-all for unknowable consideration. Stamp duty value (Section 78) applies specifically to immovable property. WDV is for depreciable assets (Section 74). Each deeming provision has its own scope and trigger.",
+          "tier": 2,
+          "subConcepts": ["section-80", "FMV-deeming", "residual-provision"],
+          "isReview": false,
+          "oldSection": "Section 50D",
+          "newSection": "Section 80"
+        }
+      ]
+    },
+    {
+      "title": "Scenario-Based — Multi-Section Application",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA is preparing a capital gains computation for the sale of an inherited property in FY 2027-28. The property was inherited in 2020. Which sections must be cited together?",
+          "options": [
+            { "text": "Section 67 (charge), Section 73 (cost = previous owner's cost), Section 72 (computation formula)", "correct": true },
+            { "text": "Section 67 (charge), Section 74 (depreciable), Section 72 (computation)", "correct": false },
+            { "text": "Section 67 (charge), Section 72 (computation) — no need for Section 73", "correct": false },
+            { "text": "Section 73 (cost), Section 78 (stamp duty) — no charging section needed", "correct": false }
+          ],
+          "explanation": "Three sections work together: Section 67 creates the charge, Section 73 determines that cost = previous owner's cost (since acquired by inheritance), and Section 72 provides the computation formula. Section 78 may also be relevant if stamp duty value exceeds consideration.",
+          "explanationWrong": "Inherited property requires Section 73 for cost determination — you cannot skip it. Section 74 is for depreciable assets, not inherited property. And you always need the charging section (67) to establish that tax is owed.",
+          "tier": 3,
+          "subConcepts": ["multi-section", "inheritance", "section-67-73-72"],
+          "isReview": false,
+          "oldSection": "Sections 45, 49, 48",
+          "newSection": "Sections 67, 73, 72"
+        },
+        {
+          "order": 2,
+          "question": "A client's debt mutual fund (acquired April 2023) shows a gain of Rs 3 lakh after 18 months. Another client's equity MF (70% equity, acquired April 2023) shows a gain of Rs 3 lakh after 18 months. How does the 2025 Act treat these differently?",
+          "options": [
+            { "text": "Debt MF: STCG at slab rates under Section 76. Equity MF: LTCG under Section 198 (held >12 months, STT paid)", "correct": true },
+            { "text": "Both STCG at slab rates — Section 76 applies to all MFs", "correct": false },
+            { "text": "Both LTCG at 12.5% — held over 12 months", "correct": false },
+            { "text": "Debt MF: LTCG at 12.5%. Equity MF: STCG at 20%", "correct": false }
+          ],
+          "explanation": "The 65% equity threshold creates a sharp divide. The debt MF (≤65% equity) falls under Section 76 — always STCG at slab rates. The equity MF (70% equity, >65%) is NOT a specified MF — after 12 months it qualifies as LTCG under Section 198 (old 112A).",
+          "explanationWrong": "This is the 65% threshold in action. Below 65% equity = Section 76 always-STCG. Above 65% equity = equity fund rules. The holding period matters for the equity MF (>12 months = LTCG) but is irrelevant for the debt MF.",
+          "tier": 3,
+          "subConcepts": ["section-76", "65-percent-threshold", "comparative-treatment"],
+          "isReview": false,
+          "oldSection": "Section 50AA, Section 112A",
+          "newSection": "Section 76, Section 198"
+        },
+        {
+          "order": 3,
+          "question": "A firm updates its tax software from 1961 Act to 2025 Act references for special computations. Which single section mapping represents a codification rather than pure renumbering?",
+          "options": [
+            { "text": "50AA→76 — debt MF/MLD always-STCG codified as standalone section", "correct": true },
+            { "text": "50→74 — depreciable assets", "correct": false },
+            { "text": "50B→77 — slump sale", "correct": false },
+            { "text": "50C→78 — stamp duty deeming", "correct": false }
+          ],
+          "explanation": "Only 50AA→76 is a codification — the Finance Act 2023 amendment insertion becomes a standalone section. All others (50→74, 50A→75, 50B→77, 50C→78, 50CA→79, 50D→80, 51→81) are pure renumbering.",
+          "explanationWrong": "The distinction between codification and renumbering matters. Section 76 has a story — it was born as an amendment (FA 2023) and promoted to a standalone section (2025 Act). The other eight sections are straightforward number changes.",
+          "tier": 3,
+          "subConcepts": ["codification-vs-renumbering", "section-76", "software-migration"],
+          "isReview": true,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 4,
+          "question": "A client transfers unquoted shares of a private company for Rs 10 crore. The FMV determined under Rule 11UA is Rs 15 crore. What happens under Section 79?",
+          "options": [
+            { "text": "Rs 15 crore is deemed as full value of consideration since the gap (33%) exceeds the 10% tolerance", "correct": true },
+            { "text": "Rs 10 crore stands — Section 79 only applies to listed shares", "correct": false },
+            { "text": "Rs 12.5 crore (midpoint) is deemed as consideration", "correct": false },
+            { "text": "No deeming — the tolerance for unquoted shares is 25%", "correct": false }
+          ],
+          "explanation": "Section 79 (old 50CA) applies to unquoted shares. The 10% tolerance band applies — but Rs 10 crore vs Rs 15 crore is a 33% gap, well beyond tolerance. So FMV of Rs 15 crore is deemed as full value of consideration.",
+          "explanationWrong": "Section 79 is specifically for unquoted shares (not listed shares). The 10% tolerance is the same as for immovable property under Section 78. Here the gap is 33% — far beyond tolerance — so the full FMV is deemed.",
+          "tier": 3,
+          "subConcepts": ["section-79", "unquoted-shares", "FMV-deeming", "tolerance"],
+          "isReview": false,
+          "oldSection": "Section 50CA",
+          "newSection": "Section 79"
+        },
+        {
+          "order": 5,
+          "question": "A client sells an undertaking as a going concern (slump sale) after holding it for 30 months. Is this STCG or LTCG under Section 77?",
+          "options": [
+            { "text": "STCG — slump sales require >36 months for LTCG, and 30 months falls short", "correct": true },
+            { "text": "LTCG — 30 months exceeds the 24-month general threshold", "correct": false },
+            { "text": "LTCG — slump sales use the 12-month threshold", "correct": false },
+            { "text": "Neither — slump sales are always treated as business income", "correct": false }
+          ],
+          "explanation": "Slump sales under Section 77 use the 36-month threshold — a deliberate exception to the general 24-month rule. At 30 months, this is STCG. The client would need to hold for more than 36 months for LTCG treatment.",
+          "explanationWrong": "This is a classic trap. The 24-month threshold applies to most assets, but slump sales have their own 36-month rule under Section 77. At 30 months, you are short — it is STCG.",
+          "tier": 3,
+          "subConcepts": ["section-77", "slump-sale", "36-month-threshold", "STCG"],
+          "isReview": false,
+          "oldSection": "Section 50B",
+          "newSection": "Section 77"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Section Integration",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Three asset categories are 'always STCG' regardless of holding period under the 2025 Act. Which sections govern them?",
+          "options": [
+            { "text": "Section 74 (depreciable assets) and Section 76 (debt MFs and MLDs — two categories)", "correct": true },
+            { "text": "Section 74 (depreciable assets) and Section 77 (slump sales)", "correct": false },
+            { "text": "Section 76 (debt MFs/MLDs) and Section 78 (immovable property)", "correct": false },
+            { "text": "Section 75 (bonus shares) and Section 76 (debt MFs/MLDs)", "correct": false }
+          ],
+          "explanation": "Two sections create three 'always STCG' categories: Section 74 for depreciable assets (WDV-based) and Section 76 for both debt MFs and MLDs. Slump sales CAN be LTCG (>36 months), bonus shares follow normal rules, and immovable property has no always-STCG rule.",
+          "explanationWrong": "Only Section 74 and Section 76 create always-STCG categories. Slump sales (Section 77) can be LTCG after 36 months. Bonus shares (Section 75) follow normal holding period rules. Immovable property (Section 78) is about deemed consideration, not always-STCG.",
+          "tier": 3,
+          "subConcepts": ["always-STCG", "section-74", "section-76", "cross-reference"],
+          "isReview": false,
+          "oldSection": "Sections 50, 50AA",
+          "newSection": "Sections 74, 76"
+        },
+        {
+          "order": 2,
+          "question": "A colleague claims the 2025 Act fundamentally redesigned all nine special computation sections. How do you respond?",
+          "options": [
+            { "text": "Incorrect — eight sections are pure renumbering; only Section 76 involves structural codification with no policy change", "correct": true },
+            { "text": "Correct — all nine sections have substantive modifications", "correct": false },
+            { "text": "Partially correct — five sections have policy changes", "correct": false },
+            { "text": "Incorrect — there are zero changes of any kind", "correct": false }
+          ],
+          "explanation": "Of the nine sections (73-81), eight are pure renumbering. Section 76 is the only one with any change, and even that is structural (codification of a Finance Act 2023 insertion) rather than a policy change. The rules, rates, and thresholds are all unchanged.",
+          "explanationWrong": "8 out of 9 sections are just renumbered. Section 76 is promoted from an amendment insertion to a standalone section — same rule, better placement. No policy was changed for any of the nine sections.",
+          "tier": 3,
+          "subConcepts": ["overall-assessment", "renumbering-vs-reform"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Match the three deeming provisions correctly: Section 78 applies to _____, Section 79 applies to _____, Section 80 applies to _____.",
+          "options": [
+            { "text": "78: immovable property (stamp duty), 79: unquoted shares (FMV), 80: consideration not ascertainable (FMV)", "correct": true },
+            { "text": "78: unquoted shares, 79: immovable property, 80: consideration not ascertainable", "correct": false },
+            { "text": "78: immovable property, 79: consideration not ascertainable, 80: unquoted shares", "correct": false },
+            { "text": "78: all assets (stamp duty), 79: all assets (FMV), 80: all assets (WDV)", "correct": false }
+          ],
+          "explanation": "Each deeming provision has a specific scope: Section 78 (old 50C) = stamp duty value for immovable property, Section 79 (old 50CA) = FMV for unquoted shares, Section 80 (old 50D) = FMV when consideration cannot be determined (residual catch-all).",
+          "explanationWrong": "The three deeming provisions are asset-specific: 78 for land/building (stamp duty benchmark), 79 for unquoted shares (FMV benchmark), and 80 is the residual for unknowable consideration.",
+          "tier": 3,
+          "subConcepts": ["deeming-provisions", "section-78-79-80", "scope-distinction"],
+          "isReview": true,
+          "oldSection": "Sections 50C, 50CA, 50D",
+          "newSection": "Sections 78, 79, 80"
+        },
+        {
+          "order": 4,
+          "question": "A client gifts inherited jewellery to their daughter in FY 2027-28. The daughter later sells it. Which section determines the daughter's cost of acquisition?",
+          "options": [
+            { "text": "Section 73 — the cost traces back through the chain of gratuitous transfers to the first owner who paid consideration", "correct": true },
+            { "text": "Section 75 — bonus share rules apply to gifts", "correct": false },
+            { "text": "Section 72 — the general computation handles everything", "correct": false },
+            { "text": "Section 80 — consideration not ascertainable since it was a gift", "correct": false }
+          ],
+          "explanation": "Section 73 applies when an asset is received without consideration — by gift, will, or inheritance. The cost traces back through the chain of gratuitous transfers to the first owner who acquired by a mode involving consideration. Two gratuitous transfers here (inheritance then gift), so Section 73 traces the chain back.",
+          "explanationWrong": "Section 73 is the chain-tracing provision. Each gratuitous transfer (inheritance, gift) creates another link. The cost is always the cost to the first person who paid for the asset. Section 75 is only for bonus shares. Section 80 is for unknowable consideration — gifts have a known cost (the previous owner's cost).",
+          "tier": 3,
+          "subConcepts": ["section-73", "chain-of-ownership", "gift", "inheritance"],
+          "isReview": false,
+          "oldSection": "Section 49",
+          "newSection": "Section 73"
+        },
+        {
+          "order": 5,
+          "question": "A client received Rs 10 lakh advance for a property sale in FY 2024-25 (old Act period). The sale fell through and the advance was forfeited. In FY 2028-29, the client sells the property. Which Act governs the advance money treatment?",
+          "options": [
+            { "text": "The 2025 Act — Section 81 governs the computation at the time of the eventual sale (post-April 2026)", "correct": true },
+            { "text": "The 1961 Act — the forfeiture occurred under the old Act", "correct": false },
+            { "text": "Both Acts apply simultaneously", "correct": false },
+            { "text": "Neither — forfeited advance from the old Act period is ignored", "correct": false }
+          ],
+          "explanation": "The capital gains computation happens at the time of eventual transfer (FY 2028-29, under the 2025 Act). Section 81 governs: the Rs 10 lakh forfeited advance is deducted from the cost of acquisition. The forfeiture occurred earlier, but the computation event is post-April 2026.",
+          "explanationWrong": "The timing of the forfeiture does not determine the governing Act — the timing of the eventual sale does. Since the sale occurs in FY 2028-29 (post-April 2026), the 2025 Act's Section 81 governs the treatment.",
+          "tier": 3,
+          "subConcepts": ["section-81", "advance-forfeiture", "transition", "governing-act"],
+          "isReview": false,
+          "oldSection": "Section 51",
+          "newSection": "Section 81"
+        }
+      ]
+    },
+    {
+      "title": "Rapid Fire — Distinguish and Decide",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Quick match: A client sells bonus shares allotted in 2022 after holding for 2 years. Which section determines the cost of acquisition?",
+          "options": [
+            { "text": "Section 75 — cost is nil for bonus shares allotted on or after 1 April 2001", "correct": true },
+            { "text": "Section 73 — cost is the previous owner's cost", "correct": false },
+            { "text": "Section 74 — WDV-based computation", "correct": false },
+            { "text": "Section 72 — the general formula handles it", "correct": false }
+          ],
+          "explanation": "Post-2001 bonus shares: Section 75 applies, cost = nil. Section 73 is for gifts/inheritance (previous owner's cost). Section 74 is for depreciable assets. The full gain (FVC minus nil) is the capital gain.",
+          "explanationWrong": "Bonus shares have their own section — 75 (old 50A). Don't apply Section 73 (that is for gifts and inheritance). For bonus shares allotted after 1 April 2001, cost is simply nil.",
+          "tier": 3,
+          "subConcepts": ["section-75", "bonus-shares", "nil-cost"],
+          "isReview": false,
+          "oldSection": "Section 50A",
+          "newSection": "Section 75"
+        },
+        {
+          "order": 2,
+          "question": "A property is sold for Rs 1.05 crore. Stamp duty value is Rs 1.10 crore. Does Section 78 deem Rs 1.10 crore as consideration?",
+          "options": [
+            { "text": "No — the gap (4.5%) is within the 10% tolerance band", "correct": true },
+            { "text": "Yes — any gap triggers the deeming provision", "correct": false },
+            { "text": "Yes — the tolerance is only 5% for immovable property", "correct": false },
+            { "text": "It depends on the state's stamp duty rates", "correct": false }
+          ],
+          "explanation": "Rs 1.05 crore vs Rs 1.10 crore is a gap of approximately 4.5% — within the 10% tolerance under Section 78. No deeming applies. The actual sale price of Rs 1.05 crore stands as the full value of consideration.",
+          "explanationWrong": "The 10% tolerance protects genuine arm's-length transactions with minor valuation differences. 4.5% is well within tolerance. The deeming only kicks in when the gap exceeds 10%.",
+          "tier": 3,
+          "subConcepts": ["section-78", "tolerance-band", "calculation"],
+          "isReview": false,
+          "oldSection": "Section 50C",
+          "newSection": "Section 78"
+        },
+        {
+          "order": 3,
+          "question": "A client holds two investments: a debt MF (acquired May 2023) and a depreciable machine. Both are sold. What do they have in common under the 2025 Act?",
+          "options": [
+            { "text": "Both are always treated as STCG regardless of holding period — debt MF under Section 76, machine under Section 74", "correct": true },
+            { "text": "Both are taxed at flat 20%", "correct": false },
+            { "text": "Both use the WDV-based computation", "correct": false },
+            { "text": "Both can qualify as LTCG if held for more than 36 months", "correct": false }
+          ],
+          "explanation": "Both are always-STCG assets, but through different mechanisms: the debt MF through Section 76 (deemed always short-term) and the depreciable machine through Section 74 (WDV-based computation, always STCG). Both are taxed at slab rates.",
+          "explanationWrong": "The common ground is always-STCG at slab rates. The computation methods differ (Section 76 for debt MFs vs Section 74 WDV for depreciable assets) but the outcome is the same.",
+          "tier": 3,
+          "subConcepts": ["always-STCG", "section-74", "section-76", "comparison"],
+          "isReview": true,
+          "oldSection": "Sections 50, 50AA",
+          "newSection": "Sections 74, 76"
+        },
+        {
+          "order": 4,
+          "question": "A trainee says: 'Section 76 is a brand-new provision in the 2025 Act — no equivalent existed before.' Is this correct?",
+          "options": [
+            { "text": "Incorrect — Section 76 codifies old Section 50AA, which was inserted by Finance Act 2023; same rule, new structural status", "correct": true },
+            { "text": "Correct — Section 76 has no predecessor in the 1961 Act", "correct": false },
+            { "text": "Partially correct — Section 76 covers MLDs which had no prior provision", "correct": false },
+            { "text": "Correct — the always-STCG treatment for debt MFs was introduced by the 2025 Act", "correct": false }
+          ],
+          "explanation": "The trainee is confusing codification with creation. Section 50AA was inserted into the 1961 Act by Finance Act 2023. The 2025 Act promotes it to a standalone section (76) in the base statute. The policy is identical — debt MFs and MLDs as always-STCG at slab rates.",
+          "explanationWrong": "Section 76 has a clear predecessor — Section 50AA (FA 2023 insertion). The 2025 Act does not invent this rule; it gives it better legislative placement. MLDs were also covered by 50AA.",
+          "tier": 3,
+          "subConcepts": ["section-76", "codification-vs-creation", "misconception"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 5,
+          "question": "Final synthesis: The special computations chapter (Sections 73-81) has how many pure renumberings and how many codifications?",
+          "options": [
+            { "text": "Eight pure renumberings and one codification (Section 76)", "correct": true },
+            { "text": "Nine pure renumberings and zero codifications", "correct": false },
+            { "text": "Six pure renumberings and three codifications", "correct": false },
+            { "text": "Five pure renumberings and four substantive changes", "correct": false }
+          ],
+          "explanation": "Eight sections (73, 74, 75, 77, 78, 79, 80, 81) are pure renumbering. One section (76) is a codification — same rule from FA 2023, now a standalone section. No policy was created or changed by the 2025 Act in this entire chapter.",
+          "explanationWrong": "The score is 8 to 1: eight pure renumberings, one structural codification. And even the one codification does not change any rule — it merely gives Section 50AA a better home as standalone Section 76.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "renumbering-count", "codification-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

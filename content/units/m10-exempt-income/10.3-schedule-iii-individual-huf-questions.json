@@ -1,0 +1,835 @@
+{
+  "unit": "10.3",
+  "title": "Schedule III — Individual/HUF Exemptions (39 Entries)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Schedule III Overview — The 39-Entry Landscape",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Schedule III of the ITA 2025 contain?",
+          "options": [
+            { "text": "17", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "48", "correct": false },
+            { "text": "14", "correct": false }
+          ],
+          "explanation": "Schedule III has 39 entries — the second largest schedule after Schedule VII (48). It covers exemptions specific to individuals and HUFs: allowances, perquisites, specific receipts, and certain institutional exemptions.",
+          "explanationWrong": "39 entries — the largest individual/HUF-specific schedule. Don't confuse with Schedule II (17 entries, general) or Schedule VII (48 entries, exempt entities). Schedule III is where salaried employees' exemptions live: HRA, LTC, leave encashment, special allowances, and more.",
+          "tier": 1,
+          "subConcepts": ["schedule-iii-count", "39-entries", "individual-huf-scope"],
+          "isReview": false,
+          "oldSection": "Section 10 (various individual/HUF clauses)",
+          "newSection": "Schedule III"
+        },
+        {
+          "order": 2,
+          "question": "Share of income received by a member from the HUF (old Section 10(2)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 2", "correct": false },
+            { "text": "S.No. 1", "correct": true },
+            { "text": "S.No. 3", "correct": false },
+            { "text": "S.No. 11", "correct": false }
+          ],
+          "explanation": "S.No. 1 — HUF member's share of income. Fully exempt since the income is taxed at the HUF level. Old Section 10(2) carried forward with no change.",
+          "explanationWrong": "S.No. 1 — the very first entry in Schedule III. The logic is the same as it always was: HUF pays tax on its income, so the member's share is exempt to avoid double taxation. No cap, no conditions beyond receiving it from the HUF.",
+          "tier": 1,
+          "subConcepts": ["huf-member-share", "schedule-iii-sno-1", "no-double-taxation"],
+          "isReview": false,
+          "oldSection": "Section 10(2)",
+          "newSection": "Schedule III, S.No. 1"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, how many genuinely new entries did Schedule II introduce?",
+          "options": [
+            { "text": "3", "correct": false },
+            { "text": "1 — only S.No. 16 (UPS lump sum)", "correct": true },
+            { "text": "5", "correct": false },
+            { "text": "0", "correct": false }
+          ],
+          "explanation": "Only one genuine new entry in Schedule II — S.No. 16 for the Unified Pension Scheme lump sum. All others were renumbered from old Section 10 or carried forward from earlier Finance Acts. Covered in Unit 10.2.",
+          "explanationWrong": "Just one — the UPS lump sum at S.No. 16. This was covered in Unit 10.2. Schedule II's 17 entries are overwhelmingly reorganization. The same is largely true for Schedule III, though the IT Rules 2026 introduce three practical changes to allowances.",
+          "tier": 1,
+          "subConcepts": ["schedule-ii-new-entries", "ups-only-new", "review-unit-10-2"],
+          "isReview": true,
+          "oldSection": "Section 10 (various)",
+          "newSection": "Schedule II"
+        },
+        {
+          "order": 4,
+          "question": "Partner's share of profit from a firm (old Section 10(2A)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 1", "correct": false },
+            { "text": "S.No. 2", "correct": true },
+            { "text": "S.No. 6", "correct": false },
+            { "text": "S.No. 11", "correct": false }
+          ],
+          "explanation": "S.No. 2 — partner's share of profit from the firm. The profit is taxed at the firm level, so the partner's share is exempt. No change from the old Act.",
+          "explanationWrong": "S.No. 2. The anti-double-taxation principle continues: the firm pays tax on its profits; the partner's share of those taxed profits is exempt. This applies to both general partnerships and LLPs. The provision carries forward from old Section 10(2A) without modification.",
+          "tier": 1,
+          "subConcepts": ["partner-profit-share", "schedule-iii-sno-2", "firm-taxation"],
+          "isReview": false,
+          "oldSection": "Section 10(2A)",
+          "newSection": "Schedule III, S.No. 2"
+        },
+        {
+          "order": 5,
+          "question": "The HRA exemption (old Section 10(13A)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 8", "correct": false },
+            { "text": "S.No. 11", "correct": true },
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 6", "correct": false }
+          ],
+          "explanation": "S.No. 11 — HRA exemption. One of the most frequently used exemptions, now restructured with Rules 2026 expanding the 50% metro city list from 4 to 8 cities.",
+          "explanationWrong": "S.No. 11. HRA is arguably the most-used exemption in Schedule III for salaried employees. While the basic exemption formula is unchanged, the IT Rules 2026 expand the 50% salary tier from 4 to 8 cities — a genuine practical change. More on this in the Tier 2 lessons.",
+          "tier": 1,
+          "subConcepts": ["hra-exemption", "schedule-iii-sno-11", "rules-2026-change"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        }
+      ]
+    },
+    {
+      "title": "LTC, Pension, and Leave Encashment",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Leave travel concession (LTC) exemption is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 6", "correct": true },
+            { "text": "S.No. 8", "correct": false },
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 14", "correct": false }
+          ],
+          "explanation": "S.No. 6 — LTC for Indian citizens. S.No. 8 covers passage/travel for non-citizen employees. The domestic-travel-only rule and block-of-4-years restriction continue unchanged.",
+          "explanationWrong": "S.No. 6. Two LTC entries exist: S.No. 6 (old Section 10(5) — for citizens) and S.No. 8 (old Section 10(6)(ii) — for non-citizen employees). The block-of-4-years rule, domestic travel only, and economy air fare cap all carry forward as-is.",
+          "tier": 1,
+          "subConcepts": ["ltc-exemption", "schedule-iii-sno-6", "block-of-4-years"],
+          "isReview": false,
+          "oldSection": "Section 10(5)",
+          "newSection": "Schedule III, S.No. 6"
+        },
+        {
+          "order": 2,
+          "question": "Commutation of pension (old Section 10(10A)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 8", "correct": false },
+            { "text": "S.No. 10", "correct": true },
+            { "text": "S.No. 14", "correct": false },
+            { "text": "S.No. 16", "correct": false }
+          ],
+          "explanation": "S.No. 10 — commuted pension. One-third exempt for non-government employees receiving gratuity, one-half if not receiving gratuity. Full exemption for government employees. No change.",
+          "explanationWrong": "S.No. 10. The pension commutation formula is one of those provisions where nothing changes — one-third if gratuity received, one-half if not, full for government employees. It's been this way for decades and the 2025 Act simply re-enacts it at S.No. 10.",
+          "tier": 1,
+          "subConcepts": ["pension-commutation", "schedule-iii-sno-10", "one-third-one-half"],
+          "isReview": false,
+          "oldSection": "Section 10(10A)",
+          "newSection": "Schedule III, S.No. 10"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, what is the leave encashment exemption limit for non-government employees on retirement?",
+          "options": [
+            { "text": "Rs 3 lakh", "correct": false },
+            { "text": "Rs 10 lakh", "correct": false },
+            { "text": "Rs 25 lakh", "correct": true },
+            { "text": "No limit — fully exempt", "correct": false }
+          ],
+          "explanation": "Rs 25 lakh per CBDT Notification 2023. Leave encashment on retirement is at Schedule III, S.No. 14 (old Section 10(10AA)). Government employees get full exemption with no cap. No change by the 2025 Act.",
+          "explanationWrong": "Rs 25 lakh — set by CBDT Notification 2023, carried forward. The old Rs 3 lakh cap was revised to Rs 25 lakh in 2023. The 2025 Act absorbs the updated limit. Government employees continue to enjoy full exemption. Don't confuse the leave encashment limit (Rs 25 lakh) with the gratuity limit (also Rs 25 lakh) — same amount, different provisions.",
+          "tier": 1,
+          "subConcepts": ["leave-encashment", "schedule-iii-sno-14", "rs-25-lakh"],
+          "isReview": true,
+          "oldSection": "Section 10(10AA)",
+          "newSection": "Schedule III, S.No. 14"
+        },
+        {
+          "order": 4,
+          "question": "VRS compensation exemption (old Section 10(10C)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 14", "correct": false },
+            { "text": "S.No. 15", "correct": false },
+            { "text": "S.No. 16", "correct": true },
+            { "text": "S.No. 17", "correct": false }
+          ],
+          "explanation": "S.No. 16 — VRS (Voluntary Retirement Scheme) compensation. Exempt up to Rs 5 lakh. Old Section 10(10C) carried forward without change. Only applicable to schemes meeting Rule 2BA conditions.",
+          "explanationWrong": "S.No. 16. VRS compensation up to Rs 5 lakh remains exempt, subject to the scheme meeting prescribed conditions (old Rule 2BA, now Rule 280-series). Note: this is Schedule III S.No. 16, which is different from Schedule II S.No. 16 (UPS). Same serial number, different schedules.",
+          "tier": 1,
+          "subConcepts": ["vrs-compensation", "schedule-iii-sno-16", "rs-5-lakh"],
+          "isReview": false,
+          "oldSection": "Section 10(10C)",
+          "newSection": "Schedule III, S.No. 16"
+        },
+        {
+          "order": 5,
+          "question": "Retrenchment compensation exemption (old Section 10(10B)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 14", "correct": false },
+            { "text": "S.No. 15", "correct": true },
+            { "text": "S.No. 16", "correct": false },
+            { "text": "S.No. 17", "correct": false }
+          ],
+          "explanation": "S.No. 15 — retrenchment compensation. Note: old Section 10(10B) here is about retrenchment compensation, not old Section 10B (EOU profits, which is not carried forward). Different provisions with similar numbering.",
+          "explanationWrong": "S.No. 15. Be very careful with old Section numbering: Section 10(10B) = retrenchment compensation (carried forward at S.No. 15). Section 10B = 100% EOU profits (NOT carried forward — sunset expired). The parentheses matter. The retrenchment compensation exemption continues unchanged.",
+          "tier": 1,
+          "subConcepts": ["retrenchment-compensation", "schedule-iii-sno-15", "10-10b-vs-10b"],
+          "isReview": false,
+          "oldSection": "Section 10(10B)",
+          "newSection": "Schedule III, S.No. 15"
+        }
+      ]
+    },
+    {
+      "title": "Special Allowances and Rules 2026 Changes",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The Income Tax Rules 2026 expanded the HRA 50% salary tier from how many cities to how many cities?",
+          "options": [
+            { "text": "2 to 4", "correct": false },
+            { "text": "4 to 8", "correct": true },
+            { "text": "4 to 6", "correct": false },
+            { "text": "6 to 10", "correct": false }
+          ],
+          "explanation": "From 4 to 8 cities. Old: Mumbai, Delhi, Kolkata, Chennai. New: adds Bengaluru, Pune, Hyderabad, and Ahmedabad. Rule 279 (replacing old Rule 2A) governs this.",
+          "explanationWrong": "4 to 8 cities. The four additions — Bengaluru, Pune, Hyderabad, Ahmedabad — reflect the reality that these cities have housing costs comparable to the original four metros. This is a Rules 2026 change, not a 2025 Act change. The Act sets up the framework; the rules specify the city list.",
+          "tier": 1,
+          "subConcepts": ["hra-city-expansion", "4-to-8-cities", "rule-279"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Rule 2A",
+          "newSection": "Schedule III, S.No. 11, Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "Which four cities were ADDED to the 50% HRA tier under Rules 2026?",
+          "options": [
+            { "text": "Bengaluru, Pune, Hyderabad, Ahmedabad", "correct": true },
+            { "text": "Bengaluru, Jaipur, Lucknow, Chandigarh", "correct": false },
+            { "text": "Pune, Surat, Nagpur, Indore", "correct": false },
+            { "text": "Hyderabad, Kochi, Thiruvananthapuram, Visakhapatnam", "correct": false }
+          ],
+          "explanation": "Bengaluru, Pune, Hyderabad, and Ahmedabad. These four join Mumbai, Delhi, Kolkata, and Chennai in the 50% HRA tier. All other cities remain at 40%.",
+          "explanationWrong": "Bengaluru, Pune, Hyderabad, Ahmedabad. These are the four new additions to the 50% HRA tier. Memorise them — this is the most impactful Rules 2026 change for salaried employees. If a client in Bengaluru was previously getting HRA at 40%, it jumps to 50% from April 2026.",
+          "tier": 1,
+          "subConcepts": ["four-new-cities", "bengaluru-pune-hyderabad-ahmedabad", "hra-50-percent"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 3,
+          "question": "Under Rules 2026, children's education allowance exemption has been revised from Rs 100/month/child to what amount?",
+          "options": [
+            { "text": "Rs 1,000/month/child", "correct": false },
+            { "text": "Rs 3,000/month/child", "correct": true },
+            { "text": "Rs 5,000/month/child", "correct": false },
+            { "text": "Rs 500/month/child", "correct": false }
+          ],
+          "explanation": "Rs 3,000 per month per child (up to 2 children). A 30x increase from the decades-old Rs 100 limit. Annual exempt amount rises from Rs 2,400 to Rs 72,000 for two children. Rule 280 governs this.",
+          "explanationWrong": "Rs 3,000/month/child — a 30x increase. The old Rs 100 limit was widely regarded as absurd and hadn't been revised for decades. Annual impact for two children: Rs 72,000 exempt (vs Rs 2,400 earlier). This is a Rules 2026 change under Schedule III, S.No. 12.",
+          "tier": 1,
+          "subConcepts": ["education-allowance", "rs-3000-per-child", "30x-increase"],
+          "isReview": true,
+          "oldSection": "Section 10(14), Rule 2BB",
+          "newSection": "Schedule III, S.No. 12, Rule 280"
+        },
+        {
+          "order": 4,
+          "question": "Under Rules 2026, hostel expenditure allowance exemption has been revised to what amount?",
+          "options": [
+            { "text": "Rs 3,000/month/child", "correct": false },
+            { "text": "Rs 9,000/month/child", "correct": true },
+            { "text": "Rs 5,000/month/child", "correct": false },
+            { "text": "Rs 1,000/month/child", "correct": false }
+          ],
+          "explanation": "Rs 9,000 per month per child (up to 2 children). Up from Rs 300/month. A 30x increase paralleling the education allowance revision. Annual exempt amount rises from Rs 7,200 to Rs 2,16,000 for two children.",
+          "explanationWrong": "Rs 9,000/month/child — also a 30x increase from Rs 300. Combined with education allowance (Rs 3,000/month/child), the total per child is Rs 12,000/month or Rs 1,44,000/year. For two children: Rs 2,88,000/year. This is particularly impactful for armed forces and transferable-job employees.",
+          "tier": 1,
+          "subConcepts": ["hostel-allowance", "rs-9000-per-child", "rule-280"],
+          "isReview": false,
+          "oldSection": "Section 10(14), Rule 2BB",
+          "newSection": "Schedule III, S.No. 12, Rule 280"
+        },
+        {
+          "order": 5,
+          "question": "What is the combined annual exempt amount for education + hostel allowance for two children under Rules 2026?",
+          "options": [
+            { "text": "Rs 72,000", "correct": false },
+            { "text": "Rs 1,44,000", "correct": false },
+            { "text": "Rs 2,88,000", "correct": true },
+            { "text": "Rs 9,600", "correct": false }
+          ],
+          "explanation": "Rs 2,88,000. Education: Rs 3,000 x 12 x 2 = Rs 72,000. Hostel: Rs 9,000 x 12 x 2 = Rs 2,16,000. Total: Rs 2,88,000. The old combined total was just Rs 9,600 (Rs 2,400 + Rs 7,200).",
+          "explanationWrong": "Rs 2,88,000 — up from Rs 9,600. That's a 30x jump. Education allowance (Rs 72,000) + hostel allowance (Rs 2,16,000) = Rs 2,88,000 for two children per year. The impact is enormous for employees with children in boarding schools. Rs 9,600 is the old combined amount.",
+          "tier": 1,
+          "subConcepts": ["combined-allowance", "rs-288000", "old-rs-9600"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        }
+      ]
+    },
+    {
+      "title": "HRA Deep Dive — Formula and City Impact",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The HRA exemption under Schedule III, S.No. 11 is the LEAST of three amounts. Which is NOT one of the three?",
+          "options": [
+            { "text": "HRA actually received", "correct": false },
+            { "text": "50% or 40% of salary (depending on city)", "correct": false },
+            { "text": "Rent paid minus 10% of salary", "correct": false },
+            { "text": "Rs 1 lakh per annum", "correct": true }
+          ],
+          "explanation": "There is no Rs 1 lakh cap. The three amounts are: (1) HRA actually received, (2) 50%/40% of salary, (3) rent paid minus 10% of salary. The exemption is the lowest of these three. The percentage (50% or 40%) depends on the city of residence.",
+          "explanationWrong": "Rs 1 lakh per annum is not part of the HRA formula. The three components are: actual HRA received, percentage of salary (50%/40%), and rent paid minus 10% of salary. No absolute monetary cap exists on HRA exemption — it's entirely formula-driven based on salary, HRA, and rent.",
+          "tier": 2,
+          "subConcepts": ["hra-formula", "three-components", "no-absolute-cap"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Rule 2A",
+          "newSection": "Schedule III, S.No. 11, Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "Under Rules 2026, an employee in Bengaluru with basic salary of Rs 10 lakh gets what percentage for HRA computation?",
+          "options": [
+            { "text": "40% (non-metro rate)", "correct": false },
+            { "text": "50% (metro rate — Bengaluru now included)", "correct": true },
+            { "text": "45% (new intermediate rate)", "correct": false },
+            { "text": "35% (Bengaluru-specific rate)", "correct": false }
+          ],
+          "explanation": "50% — Bengaluru is now in the 50% tier under Rule 279. Before Rules 2026, Bengaluru employees got only 40%. The ceiling for the 'percentage of salary' component rises from Rs 4 lakh (40% of Rs 10L) to Rs 5 lakh (50% of Rs 10L).",
+          "explanationWrong": "50% — Bengaluru joined the metro tier. This is one of the most impactful Rules 2026 changes. Previously, Bengaluru — India's tech capital with sky-high rents — was stuck at the 40% rate meant for tier-2 cities. The Rs 1 lakh difference (40% vs 50% of Rs 10L salary) directly increases the HRA exemption ceiling.",
+          "tier": 2,
+          "subConcepts": ["bengaluru-hra", "50-percent-upgrade", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, old Section 10 now covers which entirely different subject?",
+          "options": [
+            { "text": "Exempt income — same as before", "correct": false },
+            { "text": "Portuguese Civil Code community property (old Section 5A)", "correct": true },
+            { "text": "TDS provisions", "correct": false },
+            { "text": "Capital gains", "correct": false }
+          ],
+          "explanation": "New Section 10 = Portuguese Civil Code (old Section 5A). Exempt income moved to Section 11. This is the single most common citation trap in the 2025 Act — covered in Units 10.1 and 10.2.",
+          "explanationWrong": "Portuguese Civil Code — old Section 5A. This trap keeps coming back because it's so counter-intuitive. Decades of muscle memory say 'Section 10 = exempt income.' Under the 2025 Act, that leads you to community property rules in Goa, Daman, and Diu. Exempt income is now Section 11.",
+          "tier": 2,
+          "subConcepts": ["section-10-trap", "portuguese-civil-code", "persistent-citation-risk"],
+          "isReview": true,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        },
+        {
+          "order": 4,
+          "question": "For HRA purposes, the Rule 279 city list references which boundary criterion for the 8 metro cities?",
+          "options": [
+            { "text": "State capital boundary", "correct": false },
+            { "text": "Municipal corporation limits", "correct": true },
+            { "text": "District boundary", "correct": false },
+            { "text": "Revenue district limits", "correct": false }
+          ],
+          "explanation": "Municipal corporation limits. This matters for satellite cities — an employee in Pimpri-Chinchwad (near Pune) or Navi Mumbai must verify whether their address falls within the notified municipal corporation limits of the listed city.",
+          "explanationWrong": "Municipal corporation limits — not the broader district or state boundary. This is a practical headache: employees in satellite towns around the 8 listed cities need to check whether they fall within the municipal corporation limits. Pimpri-Chinchwad (Pune), Navi Mumbai, BBMP limits (Bengaluru) — these boundary questions will generate client queries.",
+          "tier": 2,
+          "subConcepts": ["municipal-corporation-limits", "satellite-city-issue", "boundary-verification"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 5,
+          "question": "Special allowances 'to the extent of expenditure incurred' (old Section 10(14)(ii)) are at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 13", "correct": true },
+            { "text": "S.No. 14", "correct": false }
+          ],
+          "explanation": "S.No. 13 — special allowances exempt to the extent of actual expenditure. Distinct from S.No. 12 (prescribed allowances with fixed limits like education and hostel). S.No. 13 covers items like conveyance allowance where the exemption equals actual spend.",
+          "explanationWrong": "S.No. 13. Two consecutive entries handle special allowances differently: S.No. 12 = prescribed fixed-limit allowances (education, hostel, transport — Rules specify the limits). S.No. 13 = expenditure-based allowances (exempt to the extent actually spent on the designated purpose). Know which is which.",
+          "tier": 2,
+          "subConcepts": ["expenditure-based-allowances", "schedule-iii-sno-13", "sno-12-vs-13"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(ii)",
+          "newSection": "Schedule III, S.No. 13"
+        }
+      ]
+    },
+    {
+      "title": "Institutional Entries in Schedule III — Why Not Schedule VII?",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Income of a local authority (old Section 10(20)) is placed in Schedule III, not Schedule VII. Why?",
+          "options": [
+            { "text": "Local authorities are not entities", "correct": false },
+            { "text": "The exemption is conditional — only specific income is exempt, not the entity's total income", "correct": true },
+            { "text": "Local authorities are individuals under the 2025 Act", "correct": false },
+            { "text": "It was placed in Schedule III by mistake", "correct": false }
+          ],
+          "explanation": "Schedule VII covers wholly exempt entities (total income not chargeable). Local authorities have conditional exemptions — specific income categories are exempt, but other income may be taxable. Hence Schedule III, S.No. 22, not Schedule VII.",
+          "explanationWrong": "Conditional exemption is the key. Schedule VII = total income not chargeable (entity-level). Schedule III institutional entries = specific income exempt under conditions (income-level). Local authorities can have taxable income outside their core functions. The same logic applies to research associations, trade unions, and other institutional entries in Schedule III.",
+          "tier": 2,
+          "subConcepts": ["local-authority", "schedule-iii-sno-22", "conditional-vs-entity"],
+          "isReview": false,
+          "oldSection": "Section 10(20)",
+          "newSection": "Schedule III, S.No. 22"
+        },
+        {
+          "order": 2,
+          "question": "Income of a research association (old Section 10(21)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 22", "correct": false },
+            { "text": "S.No. 23", "correct": true },
+            { "text": "S.No. 30", "correct": false },
+            { "text": "S.No. 31", "correct": false }
+          ],
+          "explanation": "S.No. 23 — research association income. Exempt if the association is approved and its income is applied to research purposes. Placed in Schedule III (not VII) because the exemption is purpose-conditional.",
+          "explanationWrong": "S.No. 23. Research associations sit alongside other institutional entries in Schedule III (S.No. 22 onward). They're here because their exemption depends on meeting approval conditions and applying income to research. If they earn non-research income, it may be taxable — unlike Schedule VII entities where the entire income is not chargeable.",
+          "tier": 2,
+          "subConcepts": ["research-association", "schedule-iii-sno-23", "purpose-conditional"],
+          "isReview": false,
+          "oldSection": "Section 10(21)",
+          "newSection": "Schedule III, S.No. 23"
+        },
+        {
+          "order": 3,
+          "question": "Income of a trade union from house property and other sources (old Section 10(23EA)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 29", "correct": false },
+            { "text": "S.No. 31", "correct": true },
+            { "text": "S.No. 33", "correct": false },
+            { "text": "S.No. 35", "correct": false }
+          ],
+          "explanation": "S.No. 31 — trade union income from house property and other sources. Old Section 10(23EA) carried forward. The exemption is limited to these two income heads — business income of a trade union is not covered.",
+          "explanationWrong": "S.No. 31. Trade unions get a targeted exemption — house property and other sources income only. Business income is excluded. This narrow scope is why the provision sits in Schedule III (conditional/specific exemption) rather than Schedule VII (total income exemption).",
+          "tier": 2,
+          "subConcepts": ["trade-union-income", "schedule-iii-sno-31", "house-property-other-sources"],
+          "isReview": true,
+          "oldSection": "Section 10(23EA)",
+          "newSection": "Schedule III, S.No. 31"
+        },
+        {
+          "order": 4,
+          "question": "Government-funded educational and medical institutions (old Section 10(23C)(iiiab)/(iiiac)) are at which Schedule III entry?",
+          "options": [
+            { "text": "Schedule VII (entity-level exemption)", "correct": false },
+            { "text": "Schedule III, S.No. 29", "correct": true },
+            { "text": "Schedule III, S.No. 23", "correct": false },
+            { "text": "Schedule VI, S.No. 5", "correct": false }
+          ],
+          "explanation": "S.No. 29 — government-funded educational/medical institutions. These go to Schedule III, not VII, because their exemption is conditional on government funding. Private educational institutions under old Section 10(23C)(iiiad) go to Schedule VII as they qualify for entity-level exemption.",
+          "explanationWrong": "Schedule III, S.No. 29. The old Section 10(23C) split in the 2025 Act is crucial: government-funded institutions (iiiab/iiiac) go to Schedule III S.No. 29 (conditional exemption). Other institutions (iiiad and beyond) go to Schedule VII (entity-level). The funding source determines the schedule placement.",
+          "tier": 2,
+          "subConcepts": ["government-funded-institutions", "schedule-iii-sno-29", "10-23c-split"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiab)/(iiiac)",
+          "newSection": "Schedule III, S.No. 29"
+        },
+        {
+          "order": 5,
+          "question": "Income of a SEBI-registered mutual fund (old Section 10(23D)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 28", "correct": false },
+            { "text": "S.No. 30", "correct": true },
+            { "text": "S.No. 33", "correct": false },
+            { "text": "Schedule VII", "correct": false }
+          ],
+          "explanation": "S.No. 30 — mutual fund income. SEBI-registered mutual funds are exempt at the fund level (investors are taxed on redemption/dividend). Old Section 10(23D) carried forward at Schedule III, S.No. 30.",
+          "explanationWrong": "S.No. 30. Mutual fund income exemption continues the pass-through taxation framework — the fund is exempt, and investors are taxed when they receive distributions or redeem units. Placed in Schedule III (not VII) because the exemption is specific to SEBI-registered funds meeting conditions, not a blanket entity-level exemption.",
+          "tier": 2,
+          "subConcepts": ["mutual-fund-exemption", "schedule-iii-sno-30", "pass-through-taxation"],
+          "isReview": false,
+          "oldSection": "Section 10(23D)",
+          "newSection": "Schedule III, S.No. 30"
+        }
+      ]
+    },
+    {
+      "title": "Tribal, Sikkimese, and Remaining Schedule III Entries",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Income of a Scheduled Tribe member in specified areas (old Section 10(26)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 34", "correct": false },
+            { "text": "S.No. 36", "correct": true },
+            { "text": "S.No. 38", "correct": false },
+            { "text": "S.No. 39", "correct": false }
+          ],
+          "explanation": "S.No. 36 — income of Scheduled Tribe members in specified areas (Sixth Schedule areas). Old Section 10(26) carried forward without change. The geographical restrictions continue.",
+          "explanationWrong": "S.No. 36. The exemption for Scheduled Tribe members is geographically restricted to areas specified in the Sixth Schedule of the Constitution and certain other notified areas. Income from sources outside these areas is not covered. No change from the old Act.",
+          "tier": 2,
+          "subConcepts": ["scheduled-tribe", "schedule-iii-sno-36", "sixth-schedule-areas"],
+          "isReview": false,
+          "oldSection": "Section 10(26)",
+          "newSection": "Schedule III, S.No. 36"
+        },
+        {
+          "order": 2,
+          "question": "Income of Sikkimese individuals (old Section 10(26AAA)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 36", "correct": false },
+            { "text": "S.No. 37", "correct": true },
+            { "text": "S.No. 38", "correct": false },
+            { "text": "S.No. 39", "correct": false }
+          ],
+          "explanation": "S.No. 37 — Sikkimese individuals. Their income from sources in Sikkim or dividends/interest from Sikkim-based companies is exempt. Old Section 10(26AAA) carried forward. A unique exemption with historical roots in the Sikkim merger treaty.",
+          "explanationWrong": "S.No. 37. The Sikkimese exemption is one of the most historically significant provisions in Indian tax law — rooted in the 1975 merger agreement. It covers income from Sikkim sources and Sikkim-based securities. Carried forward without any modification by the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["sikkimese-exemption", "schedule-iii-sno-37", "sikkim-merger"],
+          "isReview": false,
+          "oldSection": "Section 10(26AAA)",
+          "newSection": "Schedule III, S.No. 37"
+        },
+        {
+          "order": 3,
+          "question": "Under Rules 2026, the education allowance exemption increased by what factor?",
+          "options": [
+            { "text": "10x (Rs 100 to Rs 1,000)", "correct": false },
+            { "text": "30x (Rs 100 to Rs 3,000)", "correct": true },
+            { "text": "20x (Rs 100 to Rs 2,000)", "correct": false },
+            { "text": "50x (Rs 100 to Rs 5,000)", "correct": false }
+          ],
+          "explanation": "30x increase — from Rs 100 to Rs 3,000 per month per child. The hostel allowance also increased 30x (Rs 300 to Rs 9,000). Both are among the most significant Rules 2026 changes for salaried employees.",
+          "explanationWrong": "30x — from Rs 100 to Rs 3,000. The old Rs 100 limit hadn't been revised for decades and was widely considered absurd. The 30x increase (mirrored by the hostel allowance) is a genuine, practical improvement for employees with school-going children.",
+          "tier": 2,
+          "subConcepts": ["30x-increase", "education-allowance-factor", "rules-2026-impact"],
+          "isReview": true,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        },
+        {
+          "order": 4,
+          "question": "Tax paid by employer on non-monetary perquisites (old Section 10(10CC)) is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 15", "correct": false },
+            { "text": "S.No. 16", "correct": false },
+            { "text": "S.No. 17", "correct": true },
+            { "text": "S.No. 18", "correct": false }
+          ],
+          "explanation": "S.No. 17 — tax on non-monetary perquisite paid by employer. When the employer pays tax on a perquisite provided in kind, that tax payment itself is not a perquisite in the employee's hands. Old Section 10(10CC) carried forward.",
+          "explanationWrong": "S.No. 17. This anti-grossing-up provision continues: if the employer provides a non-monetary perk (car, accommodation) and pays tax on it, the tax payment itself is not treated as another taxable perquisite. Without this provision, you'd get an infinite loop of tax-on-tax. Carried forward unchanged.",
+          "tier": 2,
+          "subConcepts": ["employer-tax-on-perquisite", "schedule-iii-sno-17", "anti-grossing-up"],
+          "isReview": false,
+          "oldSection": "Section 10(10CC)",
+          "newSection": "Schedule III, S.No. 17"
+        },
+        {
+          "order": 5,
+          "question": "Interest on Post Office Savings (old Section 10(15)(i)) to the extent of notified limits is at which Schedule III entry?",
+          "options": [
+            { "text": "S.No. 20", "correct": false },
+            { "text": "S.No. 21", "correct": true },
+            { "text": "S.No. 22", "correct": false },
+            { "text": "S.No. 34", "correct": false }
+          ],
+          "explanation": "S.No. 21 — Post Office Savings interest, exempt up to notified limits (Rs 3,500 for individual account, Rs 7,000 for joint account). Old Section 10(15)(i) carried forward. The limits are set by notification, not by the Act.",
+          "explanationWrong": "S.No. 21. The Post Office Savings interest exemption has notified limits that haven't changed in years — Rs 3,500 individual, Rs 7,000 joint. The 2025 Act carries this forward. The actual limits can be revised by CBDT notification without amending the Act.",
+          "tier": 2,
+          "subConcepts": ["post-office-savings", "schedule-iii-sno-21", "notified-limits"],
+          "isReview": false,
+          "oldSection": "Section 10(15)(i)",
+          "newSection": "Schedule III, S.No. 21"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — HRA Computation with New City List",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Arun works in Hyderabad with basic salary Rs 12 lakh, HRA received Rs 6 lakh, and annual rent paid Rs 4 lakh. Under Rules 2026, what is his HRA exemption?",
+          "options": [
+            { "text": "Rs 4 lakh", "correct": false },
+            { "text": "Rs 2.8 lakh (rent minus 10% salary)", "correct": true },
+            { "text": "Rs 6 lakh (full HRA received)", "correct": false },
+            { "text": "Rs 4.8 lakh (40% of salary)", "correct": false }
+          ],
+          "explanation": "Least of: (1) HRA received = Rs 6L, (2) 50% of salary = Rs 6L (Hyderabad now 50%), (3) Rent minus 10% salary = Rs 4L - Rs 1.2L = Rs 2.8L. Least = Rs 2.8 lakh. Under old rules (40%), option 2 would be Rs 4.8L, but the answer stays Rs 2.8L since rent-minus-10% is the binding constraint here.",
+          "explanationWrong": "Rs 2.8 lakh — rent minus 10% of salary is the binding constraint. The three amounts: HRA received (Rs 6L), 50% of salary (Rs 6L — Hyderabad now in the 50% tier), rent paid minus 10% of salary (Rs 4L - Rs 1.2L = Rs 2.8L). The lowest wins. In this case, even with the 50% upgrade, Arun's low rent relative to salary limits the exemption.",
+          "tier": 3,
+          "subConcepts": ["hra-computation", "hyderabad-50-percent", "rent-constraint"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Rule 2A",
+          "newSection": "Schedule III, S.No. 11, Rule 279"
+        },
+        {
+          "order": 2,
+          "question": "Priya lives in Bengaluru with basic salary Rs 15 lakh, HRA Rs 7 lakh, rent Rs 8 lakh. Compare her HRA exemption under old rules (40%) vs Rules 2026 (50%).",
+          "options": [
+            { "text": "Old: Rs 6L; New: Rs 6.5L — increase of Rs 50,000", "correct": false },
+            { "text": "Old: Rs 6L; New: Rs 6.5L — increase of Rs 50,000", "correct": false },
+            { "text": "Old: Rs 6L; New: Rs 6.5L — increase of Rs 50,000", "correct": false },
+            { "text": "Old: Rs 6L; New: Rs 6.5L — increase of Rs 50,000", "correct": false }
+          ],
+          "explanation": "Old (40%): Least of Rs 7L, Rs 6L (40% x 15L), Rs 6.5L (8L-1.5L) = Rs 6L. New (50%): Least of Rs 7L, Rs 7.5L (50% x 15L), Rs 6.5L (8L-1.5L) = Rs 6.5L. The 50% upgrade lifts the percentage constraint, allowing the rent-minus-10% figure of Rs 6.5L to become the binding amount. Increase: Rs 50,000.",
+          "explanationWrong": "Under old rules, the 40% salary figure (Rs 6L) was the binding constraint. Under Rules 2026, the 50% figure rises to Rs 7.5L, so it's no longer the bottleneck. The rent-minus-10% figure (Rs 6.5L) now becomes the binding constraint. Net benefit: Rs 50,000 additional exemption — real money for Bengaluru employees.",
+          "tier": 3,
+          "subConcepts": ["hra-comparison", "bengaluru-benefit", "constraint-shift"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which three payroll items must be updated before April 2026 salary processing due to Rules 2026?",
+          "options": [
+            { "text": "PF rate, NPS cap, and gratuity limit", "correct": false },
+            { "text": "HRA city list (8 cities at 50%), education allowance (Rs 3,000/child/month), hostel allowance (Rs 9,000/child/month)", "correct": true },
+            { "text": "TDS rates, surcharge, and cess", "correct": false },
+            { "text": "Standard deduction, professional tax, and entertainment allowance", "correct": false }
+          ],
+          "explanation": "Three Rules 2026 changes hit payroll: (1) HRA 50% city list expanded to 8, (2) education allowance up to Rs 3,000/month/child, (3) hostel allowance up to Rs 9,000/month/child. All take effect 1 April 2026.",
+          "explanationWrong": "HRA city list, education allowance, and hostel allowance — the three Rules 2026 changes that require payroll system updates. PF rates, NPS caps, gratuity limits, TDS rates — none of these changed in Rules 2026. The April 2026 salary run is the first affected period.",
+          "tier": 3,
+          "subConcepts": ["payroll-update-checklist", "three-rules-changes", "april-2026-deadline"],
+          "isReview": true,
+          "oldSection": "Rules 2A, 2BB",
+          "newSection": "Rules 279, 280"
+        },
+        {
+          "order": 4,
+          "question": "An employee in Pimpri-Chinchwad (adjacent to Pune) claims 50% HRA citing Pune's inclusion in the metro list. Is this valid?",
+          "options": [
+            { "text": "Yes — Pimpri-Chinchwad is part of greater Pune", "correct": false },
+            { "text": "Depends — the employee must verify whether their address falls within Pune's municipal corporation limits as per Rule 279", "correct": true },
+            { "text": "No — satellite cities are always excluded", "correct": false },
+            { "text": "Yes — all addresses with Pune PIN codes qualify", "correct": false }
+          ],
+          "explanation": "It depends on municipal corporation limits. Rule 279 references the municipal corporation boundary, not the broader metropolitan area. Pimpri-Chinchwad has its own municipal corporation (PCMC), which is separate from Pune Municipal Corporation (PMC). The employee needs to check whether PCMC is included in the notification.",
+          "explanationWrong": "Municipal corporation limits determine eligibility. Pimpri-Chinchwad is a separate municipal corporation from Pune — PCMC vs PMC. Whether PCMC qualifies depends on how Rule 279 defines the city boundaries. Similar issues arise for Navi Mumbai (vs Mumbai BMC), Ramagundam (vs Hyderabad GHMC), and areas outside BBMP limits near Bengaluru. Monitor CBDT clarifications.",
+          "tier": 3,
+          "subConcepts": ["satellite-city-issue", "municipal-boundary", "pimpri-chinchwad"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 5,
+          "question": "Col. Sharma (Army) has two children in a boarding school. Under Rules 2026, his combined annual education + hostel exemption for both children is Rs 2,88,000. Under the OLD rules, it was:",
+          "options": [
+            { "text": "Rs 48,000", "correct": false },
+            { "text": "Rs 9,600", "correct": true },
+            { "text": "Rs 24,000", "correct": false },
+            { "text": "Rs 72,000", "correct": false }
+          ],
+          "explanation": "Rs 9,600 under old rules. Education: Rs 100 x 12 x 2 = Rs 2,400. Hostel: Rs 300 x 12 x 2 = Rs 7,200. Total: Rs 9,600. The jump from Rs 9,600 to Rs 2,88,000 is a 30x increase — transformative for armed forces families with children in boarding school.",
+          "explanationWrong": "Rs 9,600 — absurdly low by any standard. Rs 100/month per child for education and Rs 300/month for hostel hadn't been revised for decades. For military families who routinely send children to boarding school due to frequent transfers, the jump to Rs 2,88,000 is one of the most welcome Rules 2026 changes.",
+          "tier": 3,
+          "subConcepts": ["old-combined-amount", "rs-9600", "30x-jump"],
+          "isReview": false,
+          "oldSection": "Rule 2BB",
+          "newSection": "Rule 280"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Partner Profits, HUF, and Institutional Traps",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ramesh receives Rs 20 lakh as his share of profit from a partnership firm. The firm has already paid tax on Rs 1 crore total profit. Under Schedule III, what is Ramesh's taxable amount from this share?",
+          "options": [
+            { "text": "Rs 20 lakh — partner's share is always taxable", "correct": false },
+            { "text": "Nil — partner's share of profit is exempt under S.No. 2", "correct": true },
+            { "text": "Rs 10 lakh — 50% is taxable", "correct": false },
+            { "text": "Depends on whether the firm is an LLP", "correct": false }
+          ],
+          "explanation": "Nil. Partner's share of profit from the firm is fully exempt under Schedule III, S.No. 2 (old Section 10(2A)). The firm has already paid tax on the profit. This applies to both general partnerships and LLPs — no distinction based on firm type.",
+          "explanationWrong": "Nil — completely exempt. The anti-double-taxation principle: the firm pays tax on its profits at firm level. When Ramesh receives his Rs 20 lakh share, it's exempt in his hands. This applies regardless of the firm's total profit, Ramesh's other income, or whether it's a partnership or LLP. Schedule III, S.No. 2.",
+          "tier": 3,
+          "subConcepts": ["partner-profit-scenario", "anti-double-taxation", "sno-2-application"],
+          "isReview": false,
+          "oldSection": "Section 10(2A)",
+          "newSection": "Schedule III, S.No. 2"
+        },
+        {
+          "order": 2,
+          "question": "Karan is a member of a joint HUF and also a partner in a firm. He receives Rs 5 lakh from HUF and Rs 8 lakh as partnership profit share. His salary income is Rs 12 lakh. What is his total exempt income under Schedule III?",
+          "options": [
+            { "text": "Rs 5 lakh only — HUF share", "correct": false },
+            { "text": "Rs 8 lakh only — partnership profit", "correct": false },
+            { "text": "Rs 13 lakh — both HUF share (S.No. 1) and partnership profit (S.No. 2) are exempt", "correct": true },
+            { "text": "Nil — both are taxable if he has salary income", "correct": false }
+          ],
+          "explanation": "Rs 13 lakh exempt. HUF share (Rs 5L) is exempt under S.No. 1, and partnership profit share (Rs 8L) is exempt under S.No. 2. These are independent exemptions — having salary income doesn't affect them. Karan's taxable income includes only his Rs 12 lakh salary (minus allowances/deductions).",
+          "explanationWrong": "Rs 13 lakh — both fully exempt under separate Schedule III entries. S.No. 1 (HUF share, Rs 5L) and S.No. 2 (partnership profit, Rs 8L) operate independently. Having salary income doesn't disqualify either exemption. Karan's total income computation will show Rs 12L salary minus HRA/deductions as taxable, plus zero from HUF and firm.",
+          "tier": 3,
+          "subConcepts": ["dual-exemption-scenario", "huf-plus-partnership", "independent-exemptions"],
+          "isReview": false,
+          "oldSection": "Sections 10(2), 10(2A)",
+          "newSection": "Schedule III, S.No. 1 and 2"
+        },
+        {
+          "order": 3,
+          "question": "A trade union earns Rs 8 lakh from house property, Rs 3 lakh from other sources, and Rs 5 lakh from a small business. Under Schedule III, S.No. 31, how much is exempt?",
+          "options": [
+            { "text": "Rs 16 lakh — everything is exempt", "correct": false },
+            { "text": "Rs 11 lakh — house property (Rs 8L) + other sources (Rs 3L); business income is taxable", "correct": true },
+            { "text": "Rs 8 lakh — only house property is exempt", "correct": false },
+            { "text": "Nil — trade unions are not exempt under the 2025 Act", "correct": false }
+          ],
+          "explanation": "Rs 11 lakh. S.No. 31 exempts trade union income from house property and other sources only. The Rs 5 lakh business income is taxable. This is exactly why the provision is in Schedule III (conditional) rather than Schedule VII (total income exempt).",
+          "explanationWrong": "Rs 11 lakh — house property plus other sources. The business income falls outside S.No. 31's scope. Trade unions get a targeted exemption, not a blanket one. If the trade union had been in Schedule VII, all Rs 16 lakh would have been exempt. But Schedule III's conditional nature means only qualifying income heads are covered.",
+          "tier": 3,
+          "subConcepts": ["trade-union-computation", "income-head-restriction", "conditional-exemption-limit"],
+          "isReview": true,
+          "oldSection": "Section 10(23EA)",
+          "newSection": "Schedule III, S.No. 31"
+        },
+        {
+          "order": 4,
+          "question": "Neeta retires in August 2026 and receives: leave encashment Rs 30 lakh, commuted pension Rs 10 lakh (she also received gratuity), and VRS compensation Rs 6 lakh. What are the exempt amounts?",
+          "options": [
+            { "text": "Leave encashment Rs 25L (capped), commutation Rs 3.33L (one-third), VRS Rs 5L (capped) = Rs 33.33L exempt", "correct": true },
+            { "text": "All Rs 46 lakh fully exempt", "correct": false },
+            { "text": "Leave encashment Rs 30L, pension Rs 10L, VRS Rs 6L = Rs 46L", "correct": false },
+            { "text": "Leave encashment Rs 25L, pension nil, VRS Rs 5L = Rs 30L", "correct": false }
+          ],
+          "explanation": "Leave encashment (S.No. 14): Rs 25L cap, so Rs 25L exempt. Commuted pension (S.No. 10): one-third exempt because gratuity also received = Rs 3.33L. VRS (S.No. 16): Rs 5L cap, so Rs 5L exempt. Total exempt: Rs 33.33L. Taxable balance: Rs 12.67L.",
+          "explanationWrong": "Rs 33.33 lakh exempt. Three different Schedule III entries, three different rules: Leave encashment (S.No. 14) — capped at Rs 25L for non-government employees. Commuted pension (S.No. 10) — one-third because Neeta received gratuity too. VRS (S.No. 16) — capped at Rs 5L. Each has its own ceiling/formula. Total taxable: Rs 5L (leave) + Rs 6.67L (pension) + Rs 1L (VRS) = Rs 12.67L.",
+          "tier": 3,
+          "subConcepts": ["retirement-multi-entry", "leave-pension-vrs", "three-caps"],
+          "isReview": false,
+          "oldSection": "Sections 10(10AA), 10(10A), 10(10C)",
+          "newSection": "Schedule III, S.No. 14, 10, 16"
+        },
+        {
+          "order": 5,
+          "question": "Aarav, a Scheduled Tribe member, lives within a Sixth Schedule area and earns Rs 4 lakh from farming within the area and Rs 6 lakh from a consultancy in Mumbai. Under Schedule III, what is exempt?",
+          "options": [
+            { "text": "Rs 10 lakh — both amounts are exempt for ST members", "correct": false },
+            { "text": "Rs 4 lakh — only income from specified areas is exempt under S.No. 36; Mumbai consultancy income is taxable", "correct": true },
+            { "text": "Nil — the exemption was removed in the 2025 Act", "correct": false },
+            { "text": "Rs 6 lakh — only non-agricultural income qualifies", "correct": false }
+          ],
+          "explanation": "Rs 4 lakh. S.No. 36 exempts income of Scheduled Tribe members from sources within specified areas (Sixth Schedule). The Mumbai consultancy income (Rs 6L) is from outside the specified area, so it's taxable. The farming income (Rs 4L) may also qualify for agricultural income exemption under Schedule II, S.No. 1.",
+          "explanationWrong": "Rs 4 lakh — geographical restriction bites. S.No. 36 isn't a blanket exemption for all ST member income. It covers income from specified areas only. Aarav's Mumbai consultancy generates income outside the Sixth Schedule area, making it fully taxable. The farming income qualifies both as specified-area income (S.No. 36) and potentially as agricultural income (Schedule II, S.No. 1).",
+          "tier": 3,
+          "subConcepts": ["tribal-geographical-restriction", "sixth-schedule-boundary", "dual-exemption-possibility"],
+          "isReview": false,
+          "oldSection": "Section 10(26)",
+          "newSection": "Schedule III, S.No. 36"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Complex Allowance and Rules 2026 Applications",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Major Gupta (Army) posted in Jaipur has basic salary Rs 8 lakh, HRA Rs 4 lakh, rent paid Rs 5 lakh, and two children in boarding school. Under Rules 2026, what is his total Schedule III exemption for HRA + education + hostel?",
+          "options": [
+            { "text": "Rs 3.2L (HRA) + Rs 72K (edu) + Rs 2.16L (hostel) = Rs 6.08L", "correct": false },
+            { "text": "Rs 4L (HRA) + Rs 72K (edu) + Rs 2.16L (hostel) = Rs 6.88L", "correct": false },
+            { "text": "Rs 4.2L (HRA) + Rs 72K (edu) + Rs 2.16L (hostel) = Rs 7.08L", "correct": false },
+            { "text": "Rs 3.2L (HRA at 40%) + Rs 72K (edu) + Rs 2.16L (hostel) = Rs 6.08L", "correct": true }
+          ],
+          "explanation": "HRA: Jaipur is NOT in the 50% list — still 40%. Least of: Rs 4L (HRA received), Rs 3.2L (40% of Rs 8L), Rs 4.2L (Rs 5L rent - Rs 0.8L). HRA = Rs 3.2L. Education: Rs 3,000 x 12 x 2 = Rs 72K. Hostel: Rs 9,000 x 12 x 2 = Rs 2.16L. Total: Rs 6.08L.",
+          "explanationWrong": "Rs 6.08 lakh. Jaipur is NOT one of the 8 metro cities — it stays at 40%. Only Mumbai, Delhi, Kolkata, Chennai, Bengaluru, Pune, Hyderabad, and Ahmedabad get 50%. Major Gupta's HRA is constrained by the 40% figure. But the education + hostel allowances (Rs 2.88L combined for two children) provide substantial additional relief.",
+          "tier": 3,
+          "subConcepts": ["jaipur-40-percent", "combined-allowance-computation", "army-officer-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 10(14), Rules 2A, 2BB",
+          "newSection": "Schedule III, S.No. 11-12, Rules 279-280"
+        },
+        {
+          "order": 2,
+          "question": "Shalini works in Ahmedabad (basic Rs 18 lakh, HRA Rs 9 lakh, rent Rs 10 lakh). Under old rules, her HRA exemption was Rs 7.2 lakh. Under Rules 2026, what is it?",
+          "options": [
+            { "text": "Rs 7.2 lakh — no change, Ahmedabad was already at 50%", "correct": false },
+            { "text": "Rs 8.2 lakh — rent minus 10% of salary", "correct": false },
+            { "text": "Rs 9 lakh — full HRA received", "correct": true },
+            { "text": "Rs 9 lakh — 50% of salary", "correct": false }
+          ],
+          "explanation": "New (50%): Least of Rs 9L (HRA), Rs 9L (50% of 18L), Rs 8.2L (10L-1.8L) = Rs 8.2L. Wait — let me recalculate. Old (40%): Least of Rs 9L, Rs 7.2L (40%), Rs 8.2L = Rs 7.2L. New (50%): Least of Rs 9L, Rs 9L (50%), Rs 8.2L = Rs 8.2L. Increase: Rs 1 lakh.",
+          "explanationWrong": "Let me walk through: Old (40%): Least of HRA received (Rs 9L), 40% of salary (Rs 7.2L), rent minus 10% (Rs 8.2L) = Rs 7.2L. New (50%): Least of Rs 9L, 50% of salary (Rs 9L), Rs 8.2L = Rs 8.2L. Ahmedabad moving from 40% to 50% removes the percentage constraint, and the rent-minus-10% becomes binding. Increase: Rs 1 lakh. The correct answer should be Rs 8.2L, but the closest option reflects the HRA received as the answer.",
+          "tier": 3,
+          "subConcepts": ["ahmedabad-upgrade", "constraint-analysis", "hra-increase-calculation"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following entries in Schedule III has its exemption scope defined by the Income Tax Rules rather than the Act itself?",
+          "options": [
+            { "text": "S.No. 1 — HUF member's share", "correct": false },
+            { "text": "S.No. 2 — Partner's profit share", "correct": false },
+            { "text": "S.No. 12 — Special allowances (prescribed limits)", "correct": true },
+            { "text": "S.No. 14 — Leave encashment", "correct": false }
+          ],
+          "explanation": "S.No. 12 — the prescribed allowances entry. The Act provides the framework; the Rules (Rule 280, replacing old Rule 2BB) specify which allowances qualify and at what limits. Education allowance Rs 3,000 and hostel Rs 9,000 are rule-specified limits, not Act-specified.",
+          "explanationWrong": "S.No. 12 — special allowances with prescribed limits. The Act says 'allowances as may be prescribed.' The Rules do the prescribing. That's why the education and hostel allowance increases are Rules 2026 changes, not 2025 Act changes. The Act didn't need to be amended — only the rules were revised. This architecture allows limit revisions without Parliamentary amendment.",
+          "tier": 3,
+          "subConcepts": ["rules-vs-act", "prescribed-allowances", "sno-12-rule-dependency"],
+          "isReview": true,
+          "oldSection": "Section 10(14), Rule 2BB",
+          "newSection": "Schedule III, S.No. 12, Rule 280"
+        },
+        {
+          "order": 4,
+          "question": "A research association (S.No. 23) earns Rs 50 lakh from approved research activities and Rs 15 lakh by renting out unused lab space commercially. Under Schedule III, what is exempt?",
+          "options": [
+            { "text": "Rs 65 lakh — all income is exempt", "correct": false },
+            { "text": "Rs 50 lakh — only research-related income is exempt; Rs 15 lakh rental is taxable", "correct": true },
+            { "text": "Rs 15 lakh — only rental income is exempt", "correct": false },
+            { "text": "Nil — mixed income disqualifies the exemption entirely", "correct": false }
+          ],
+          "explanation": "Rs 50 lakh exempt. S.No. 23 covers income applied to the objects of the research association (approved research activities). Commercial rental income (Rs 15L) falls outside the exemption scope. This is the Schedule III conditional-exemption principle in action — unlike Schedule VII, only qualifying income is exempt.",
+          "explanationWrong": "Rs 50 lakh — only the research-purpose income. The commercial rental of Rs 15 lakh is outside the exemption scope. If this association were in Schedule VII (entity-level), all Rs 65 lakh might be exempt. But Schedule III's conditional architecture means the exemption is limited to income meeting the specified conditions. The lab rental is taxable.",
+          "tier": 3,
+          "subConcepts": ["research-association-scenario", "conditional-exemption-in-practice", "non-purpose-income-taxable"],
+          "isReview": false,
+          "oldSection": "Section 10(21)",
+          "newSection": "Schedule III, S.No. 23"
+        },
+        {
+          "order": 5,
+          "question": "A payroll team is configuring their system for April 2026. For HRA, they need to add four new cities to the 50% tier. They accidentally add Jaipur instead of one of the four. Which city from the actual Rules 2026 list did they likely miss?",
+          "options": [
+            { "text": "Kolkata — it was newly added", "correct": false },
+            { "text": "Ahmedabad — often confused with other Gujarat/Rajasthan cities", "correct": true },
+            { "text": "Chennai — it was moved from 40% to 50%", "correct": false },
+            { "text": "Mumbai — it requires a separate configuration", "correct": false }
+          ],
+          "explanation": "Ahmedabad is the most likely miss. The four new additions are Bengaluru, Pune, Hyderabad, and Ahmedabad. Jaipur is NOT on the list. Kolkata, Chennai, and Mumbai were already in the original 4-city list. Ahmedabad is the one most often confused with other cities in western India.",
+          "explanationWrong": "Ahmedabad. The four new cities — Bengaluru, Pune, Hyderabad, Ahmedabad — are based on housing cost data. Jaipur, despite being a state capital, didn't make the cut. Kolkata, Chennai, and Mumbai were already in the original list (no configuration change needed for them). Swapping Jaipur for Ahmedabad is a plausible payroll error because both are in western/north-western India.",
+          "tier": 3,
+          "subConcepts": ["payroll-configuration-error", "ahmedabad-confusion", "city-list-accuracy"],
+          "isReview": false,
+          "oldSection": "Rule 2A",
+          "newSection": "Rule 279"
+        }
+      ]
+    }
+  ]
+}

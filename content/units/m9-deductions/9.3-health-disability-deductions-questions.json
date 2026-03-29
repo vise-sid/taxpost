@@ -1,0 +1,835 @@
+{
+  "unit": "9.3",
+  "title": "Health & Disability Deductions (Sections 126-128, 154)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Health Deductions",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80D (health insurance premium deduction) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 126", "correct": true },
+            { "text": "Section 127", "correct": false },
+            { "text": "Section 128", "correct": false },
+            { "text": "Section 154", "correct": false }
+          ],
+          "explanation": "Old Section 80D → new Section 126. This covers deduction for health insurance premium, preventive health checkup, and medical expenditure for self, family, and parents. All limits are unchanged from the old Act.",
+          "explanationWrong": "Section 126 = old 80D (health insurance). The full mapping: 80D→126 (health insurance), 80DD→127 (dependent disability), 80DDB→128 (medical treatment of specified diseases), 80U→154 (self disability). Each covers a distinct health-related deduction.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-80D-to-126", "health-insurance"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 80DD (deduction for maintenance and medical treatment of a disabled dependent) maps to:",
+          "options": [
+            { "text": "Section 126", "correct": false },
+            { "text": "Section 127", "correct": true },
+            { "text": "Section 128", "correct": false },
+            { "text": "Section 154", "correct": false }
+          ],
+          "explanation": "Old Section 80DD → new Section 127. This covers expenditure on maintenance (including medical treatment) of a dependent with disability. The dependent can be spouse, children, parents, or siblings. Limits: Rs 75,000 (40%+ disability), Rs 1,25,000 (severe — 80%+ disability).",
+          "explanationWrong": "Section 127 = old 80DD (dependent disability). Don't confuse with Section 128 (old 80DDB) which covers specified disease treatment, or Section 154 (old 80U) which is for the assessee's OWN disability. The dependent vs self distinction is critical.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-80DD-to-127", "dependent-disability"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, Section 123 (old 80C) provides a Rs 1,50,000 deduction for investments in specified instruments. Under which tax regime is Section 123 available?",
+          "options": [
+            { "text": "Old regime only", "correct": true },
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Neither — abolished in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Section 123 (old 80C) is available only under the old regime. This is a key contrast with Section 126 (old 80D health insurance), which is available under BOTH old and new regimes. The regime availability of each deduction is one of the most important distinctions for tax planning.",
+          "explanationWrong": "Old regime only for Section 123. Compare this with Section 126 (health insurance) which is available under BOTH regimes — that's a significant difference covered later in this unit. Knowing which deductions survive in the new regime is critical for regime choice.",
+          "tier": 1,
+          "subConcepts": ["section-123-review", "old-regime-only", "regime-comparison"],
+          "isReview": true,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 80DDB (deduction for medical treatment of specified diseases) maps to:",
+          "options": [
+            { "text": "Section 126", "correct": false },
+            { "text": "Section 127", "correct": false },
+            { "text": "Section 128", "correct": true },
+            { "text": "Section 154", "correct": false }
+          ],
+          "explanation": "Old Section 80DDB → new Section 128. This covers expenditure actually incurred on treatment of specified diseases (neurological diseases, cancer, AIDS, chronic renal failure, etc.) for self or dependent. Limits: Rs 40,000 (general), Rs 1,00,000 (senior citizens).",
+          "explanationWrong": "Section 128 = old 80DDB (specified disease treatment). The specified diseases include neurological conditions (dementia, dystonia, Parkinson's, etc.), malignant cancer, AIDS, chronic renal failure, and haematological disorders. A specialist certificate is required.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-80DDB-to-128", "specified-diseases"],
+          "isReview": false,
+          "oldSection": "Section 80DDB",
+          "newSection": "Section 128"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 80U (deduction for a person with disability — self) maps to which section, and where is it placed in the 2025 Act's chapter structure?",
+          "options": [
+            { "text": "Section 154, placed in Part C (requires timely return filing under Section 122(5))", "correct": true },
+            { "text": "Section 154, placed in Part B (no timely filing requirement)", "correct": false },
+            { "text": "Section 127 (merged with dependent disability)", "correct": false },
+            { "text": "Section 128 (merged with medical treatment)", "correct": false }
+          ],
+          "explanation": "Old Section 80U → new Section 154, placed in Part C of Chapter VIII. This is significant because Part C deductions require timely return filing under Section 122(5). If you file a belated return, Section 154 deduction is lost. Sections 126-128 are in Part B and survive belated filing.",
+          "explanationWrong": "Section 154 in Part C. The Part B vs Part C placement is crucial: Sections 126, 127, 128 are in Part B (no timely filing needed). Section 154 is in Part C (timely filing mandatory). Missing the return deadline costs you the self-disability deduction but not your health insurance deduction.",
+          "tier": 1,
+          "subConcepts": ["section-80U-to-154", "part-c-placement", "timely-filing-required"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        }
+      ]
+    },
+    {
+      "title": "Section 126 — Health Insurance Limits",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the maximum deduction under Section 126 for health insurance premium paid for self, spouse, and dependent children?",
+          "options": [
+            { "text": "Rs 25,000 (Rs 50,000 if the assessee is a senior citizen)", "correct": true },
+            { "text": "Rs 50,000 for all assessees", "correct": false },
+            { "text": "Rs 15,000 (Rs 20,000 for senior citizens)", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Section 126 allows Rs 25,000 for self/spouse/dependent children. If the assessee is a senior citizen (60+), this limit is enhanced to Rs 50,000. These limits are unchanged from old Section 80D.",
+          "explanationWrong": "Rs 25,000 (or Rs 50,000 for senior citizen assessee). If you picked Rs 15K/Rs 20K, those were the older limits before the 2018 enhancement. The current limits have been in effect since FY 2018-19 and continue unchanged in the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["section-126-self-limit", "rs-25k", "rs-50k-senior", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 2,
+          "question": "What is the separate deduction limit under Section 126 for health insurance premium paid for parents?",
+          "options": [
+            { "text": "Rs 25,000 (Rs 50,000 if parent is a senior citizen)", "correct": true },
+            { "text": "Rs 25,000 regardless of parent's age", "correct": false },
+            { "text": "Rs 50,000 regardless of parent's age", "correct": false },
+            { "text": "No separate deduction — included in the self/family limit", "correct": false }
+          ],
+          "explanation": "Parents get a SEPARATE deduction basket: Rs 25,000, enhanced to Rs 50,000 if the parent is a senior citizen. This is in ADDITION to the self/family limit. Maximum possible: Rs 25K (self) + Rs 50K (senior parents) = Rs 75K. Or Rs 50K (senior self) + Rs 50K (senior parents) = Rs 1 lakh.",
+          "explanationWrong": "Rs 25,000 for parents (Rs 50K if senior citizen parent). The parent deduction is a separate basket — this is one of the most under-claimed deductions. Many assessees don't realize they can claim premium paid for parents on top of their own.",
+          "tier": 1,
+          "subConcepts": ["parent-separate-basket", "rs-25k-parents", "rs-50k-senior-parents"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.1, we covered the Part B vs Part C distinction. Section 126 (health insurance) is in Part B. What does this mean for regime availability?",
+          "options": [
+            { "text": "Section 126 is available under BOTH old and new tax regimes", "correct": true },
+            { "text": "Section 126 is available only under the old regime", "correct": false },
+            { "text": "Part B placement means it requires timely filing", "correct": false },
+            { "text": "Part B means it is available only under the new regime", "correct": false }
+          ],
+          "explanation": "Section 126 is available under BOTH old and new tax regimes — this is a significant fact. Unlike Section 123 (old 80C) which is old-regime-only, health insurance deduction survives even in the new regime. This makes it one of the most valuable deductions for new-regime assessees.",
+          "explanationWrong": "Both regimes! This is one of the standout features of Section 126. Most deductions (like 80C/123) are lost in the new regime. But health insurance (126), employer NPS (124), and a few others survive. This dramatically impacts regime choice for assessees with significant health insurance premiums.",
+          "tier": 1,
+          "subConcepts": ["both-regimes", "section-126-significance", "new-regime-survival"],
+          "isReview": true,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 4,
+          "question": "The preventive health checkup deduction under Section 126 is:",
+          "options": [
+            { "text": "Rs 5,000 — but WITHIN the overall Section 126 limit, not additional", "correct": true },
+            { "text": "Rs 5,000 — additional to the Section 126 limit", "correct": false },
+            { "text": "Rs 10,000 within the overall limit", "correct": false },
+            { "text": "Not available in the 2025 Act — it has been dropped", "correct": false }
+          ],
+          "explanation": "Preventive health checkup is capped at Rs 5,000 and is WITHIN the overall Section 126 limit (not in addition to it). So if you pay Rs 25,000 in health insurance premium, the Rs 5,000 checkup doesn't give you Rs 30,000 — you still get only Rs 25,000. This is a very common misunderstanding.",
+          "explanationWrong": "Rs 5,000 WITHIN the limit. This trips up many assessees. If your health insurance premium already exhausts the Rs 25K limit, the checkup deduction gives you nothing extra. It only helps if your premium is below the limit — then the checkup fills the gap up to Rs 5K.",
+          "tier": 1,
+          "subConcepts": ["preventive-checkup", "rs-5k-within-limit", "common-misconception"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 126, can an assessee who does NOT have health insurance still claim a deduction for medical expenditure?",
+          "options": [
+            { "text": "Yes — senior citizens (60+) can claim up to Rs 50,000 for medical expenditure even without insurance", "correct": true },
+            { "text": "No — Section 126 strictly requires health insurance premium payment", "correct": false },
+            { "text": "Yes — anyone can claim up to Rs 25,000 for medical expenses without insurance", "correct": false },
+            { "text": "Yes — but only for hospitalization expenses exceeding Rs 1 lakh", "correct": false }
+          ],
+          "explanation": "Senior citizens who don't have health insurance can claim up to Rs 50,000 for medical expenditure actually incurred. This provision ensures elderly individuals without insurance coverage aren't disadvantaged. It's within the same Rs 50,000 limit — not additional.",
+          "explanationWrong": "Senior citizens get the medical expenditure option without insurance. This provision was introduced to address the reality that many senior citizens can't obtain health insurance (due to age or pre-existing conditions). Non-senior citizens MUST have insurance to claim under Section 126.",
+          "tier": 1,
+          "subConcepts": ["senior-citizen-medical-expenditure", "no-insurance-option", "rs-50k-within-limit"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        }
+      ]
+    },
+    {
+      "title": "Sections 127, 128, 154 — Disability and Disease Limits",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 127 (old 80DD), what is the deduction limit for maintaining a dependent with disability (40% or more)?",
+          "options": [
+            { "text": "Rs 75,000", "correct": true },
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 1,25,000", "correct": false }
+          ],
+          "explanation": "Section 127 allows Rs 75,000 for a dependent with 40% or more disability. For severe disability (80% or more), the limit is Rs 1,25,000. These are fixed deductions — actual expenditure doesn't matter. The limits are unchanged from old Section 80DD.",
+          "explanationWrong": "Rs 75,000 for 40%+ disability. Rs 1,25,000 is the severe disability (80%+) limit. A key feature: this is a FLAT deduction, not linked to actual expenditure. Whether you spend Rs 30,000 or Rs 3 lakh on the dependent, the deduction is Rs 75,000 (or Rs 1,25,000).",
+          "tier": 1,
+          "subConcepts": ["section-127", "rs-75k-disability", "flat-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 128 (old 80DDB), what is the deduction limit for medical treatment of specified diseases for a person below 60 years of age?",
+          "options": [
+            { "text": "Rs 40,000", "correct": true },
+            { "text": "Rs 60,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 80,000", "correct": false }
+          ],
+          "explanation": "Section 128 allows up to Rs 40,000 for medical treatment of specified diseases (or actual expenditure, whichever is lower) for persons below 60. For senior citizens (60+), the limit is Rs 1,00,000. The deduction is reduced by any insurance reimbursement received.",
+          "explanationWrong": "Rs 40,000 for non-senior citizens. Rs 1,00,000 for senior citizens. Unlike Section 127 (flat deduction), Section 128 is limited to ACTUAL expenditure or the cap, whichever is lower. Any insurance reimbursement must be deducted first.",
+          "tier": 1,
+          "subConcepts": ["section-128", "rs-40k-general", "rs-1l-senior", "actual-expenditure"],
+          "isReview": false,
+          "oldSection": "Section 80DDB",
+          "newSection": "Section 128"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.1, we covered that Part C deductions under Section 122(5) require timely return filing. Section 154 (self disability) is in Part C. What is the consequence of filing a belated return?",
+          "options": [
+            { "text": "Section 154 deduction is lost entirely for that year", "correct": true },
+            { "text": "Section 154 deduction is reduced by 50%", "correct": false },
+            { "text": "Section 154 deduction is still available with a penalty", "correct": false },
+            { "text": "Belated return has no impact on any deductions", "correct": false }
+          ],
+          "explanation": "Part C deductions including Section 154 are lost entirely if the return is not filed within the due date under Section 122(5). This is a harsh consequence for a person with disability — missing the filing deadline costs the entire Rs 75,000 or Rs 1,25,000 deduction.",
+          "explanationWrong": "Lost entirely. No partial allowance, no penalty-and-carry-on option. The timely filing requirement is absolute for Part C deductions. For a person with severe disability, this means losing Rs 1,25,000 deduction just because of a late return — a disproportionate penalty.",
+          "tier": 1,
+          "subConcepts": ["section-154-timely-filing", "part-c-consequence", "deduction-lost"],
+          "isReview": true,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154, Section 122(5)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 154 (old 80U), what are the deduction amounts for a person with disability (self)?",
+          "options": [
+            { "text": "Rs 75,000 (40%+ disability) and Rs 1,25,000 (severe — 80%+ disability)", "correct": true },
+            { "text": "Rs 50,000 and Rs 1,00,000", "correct": false },
+            { "text": "Rs 75,000 and Rs 1,50,000", "correct": false },
+            { "text": "Actual medical expenditure up to Rs 1,25,000", "correct": false }
+          ],
+          "explanation": "Section 154: Rs 75,000 for 40%+ disability, Rs 1,25,000 for severe disability (80%+). These are identical to Section 127 (dependent disability) limits. The difference: Section 154 is for the assessee's OWN disability; Section 127 is for a DEPENDENT's disability.",
+          "explanationWrong": "Rs 75K / Rs 1,25,000 — same limits as Section 127. These are flat deductions (not linked to actual expenditure). The crucial distinction: Section 154 = self, Section 127 = dependent. A disabled person with a disabled dependent can claim BOTH sections.",
+          "tier": 1,
+          "subConcepts": ["section-154-limits", "self-disability", "same-as-127"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        },
+        {
+          "order": 5,
+          "question": "Have the monetary limits under Sections 126, 127, 128, and 154 changed from the old Act to the 2025 Act?",
+          "options": [
+            { "text": "No — all limits are unchanged (Rs 25K/50K for 126, Rs 75K/1.25L for 127 and 154, Rs 40K/1L for 128)", "correct": true },
+            { "text": "Yes — all limits have been increased by 25%", "correct": false },
+            { "text": "Yes — Section 126 limit was increased to Rs 50,000 for all assessees", "correct": false },
+            { "text": "Only Section 128 limits changed — enhanced to Rs 1 lakh for all", "correct": false }
+          ],
+          "explanation": "ALL limits are unchanged. The 2025 Act carries forward the exact same monetary thresholds from the old Act. This is a drafting restatement, not an enhancement. The limits for health and disability deductions haven't changed since their last revision under various Finance Acts.",
+          "explanationWrong": "All unchanged. The 2025 Act is a recodification, not a revision of monetary limits. No health or disability deduction threshold has been enhanced. This is consistent with the Act's approach — structural and drafting changes, not substantive monetary changes.",
+          "tier": 1,
+          "subConcepts": ["all-limits-unchanged", "recodification", "no-enhancement"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB, 80U",
+          "newSection": "Sections 126, 127, 128, 154"
+        }
+      ]
+    },
+    {
+      "title": "Regime Availability and Part B vs Part C",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 126 (health insurance) is available under the new tax regime. Which other health/disability section in this unit is also available under the new regime?",
+          "options": [
+            { "text": "None of the others — only Section 126 survives in the new regime from this unit's sections", "correct": false },
+            { "text": "Section 127 (dependent disability)", "correct": false },
+            { "text": "Section 128 (specified disease treatment)", "correct": false },
+            { "text": "All four sections (126, 127, 128, 154) are available under both regimes", "correct": true }
+          ],
+          "explanation": "All four sections — 126, 127, 128, and 154 — are available under BOTH old and new tax regimes. Health and disability deductions have been preserved across regimes. This is a significant taxpayer-friendly feature of the new regime.",
+          "explanationWrong": "All four are available under both regimes. This is a standout feature — while investment deductions (Section 123/old 80C) are old-regime-only, the entire health and disability deduction basket (126-128, 154) survives in the new regime. This makes them even more valuable.",
+          "tier": 2,
+          "subConcepts": ["all-four-both-regimes", "new-regime-survival", "health-priority"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB, 80U",
+          "newSection": "Sections 126, 127, 128, 154"
+        },
+        {
+          "order": 2,
+          "question": "Section 154 (self disability) is in Part C, while Sections 126-128 are in Part B. What is the practical consequence of this placement difference?",
+          "options": [
+            { "text": "Section 154 requires timely return filing; Sections 126-128 do not", "correct": true },
+            { "text": "Part C deductions get higher limits than Part B", "correct": false },
+            { "text": "Part B deductions require timely filing; Part C does not", "correct": false },
+            { "text": "No practical difference — the placement is only organizational", "correct": false }
+          ],
+          "explanation": "Section 122(5) imposes the timely filing requirement on Part C deductions only. Section 154 (Part C) is lost if the return is belated. Sections 126, 127, 128 (Part B) survive even with belated filing. For a disabled person, this makes the return filing deadline critical.",
+          "explanationWrong": "Timely filing for Section 154 only (Part C). This is arguably inequitable — a person with disability has MORE at stake if they miss the filing deadline, since they lose a flat Rs 75K-1.25L deduction. Sections 126-128 in Part B face no such cliff.",
+          "tier": 2,
+          "subConcepts": ["part-b-vs-part-c", "timely-filing-154", "inequitable-treatment"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB, 80U",
+          "newSection": "Sections 126-128 (Part B), 154 (Part C)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, Section 124 (old 80CCD) covers NPS contributions. The employer's NPS contribution deduction under Section 124(2) is available under which regime?",
+          "options": [
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Neither — NPS deduction has been abolished", "correct": false }
+          ],
+          "explanation": "Employer's NPS contribution under Section 124(2) (old 80CCD(2)) is available under both regimes — similar to Section 126. This is another deduction that new-regime assessees retain. Employee's own additional contribution under Section 124(1)(b) (old 80CCD(1B)) is old regime only.",
+          "explanationWrong": "Both regimes for employer NPS. The new-regime deductions to remember: Section 126 (health insurance), Section 124(2) (employer NPS), standard deduction (Rs 75K), and the health/disability deductions (127, 128, 154). These are the 'survivors' that make the new regime viable.",
+          "tier": 2,
+          "subConcepts": ["section-124-review", "employer-nps-both-regimes", "new-regime-survivors"],
+          "isReview": true,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 4,
+          "question": "A person with disability (self) who also maintains a disabled dependent can claim:",
+          "options": [
+            { "text": "Both Section 154 (self) and Section 127 (dependent) — they are separate deductions", "correct": true },
+            { "text": "Only the higher of Section 154 or Section 127", "correct": false },
+            { "text": "Only Section 154 — self disability subsumes dependent disability", "correct": false },
+            { "text": "Only Section 127 — dependent disability is the only option", "correct": false }
+          ],
+          "explanation": "Sections 154 and 127 are separate deductions for separate persons. A disabled assessee maintaining a disabled dependent can claim both: up to Rs 1,25,000 for self (Section 154) PLUS up to Rs 1,25,000 for dependent (Section 127) = Rs 2,50,000 total if both have severe disability.",
+          "explanationWrong": "Both sections — no either/or restriction. Section 154 = deduction for YOUR OWN disability. Section 127 = deduction for your DEPENDENT's disability. Different persons, different sections, both claimable. Maximum combined deduction for severe disability in both: Rs 2,50,000.",
+          "tier": 2,
+          "subConcepts": ["dual-claim", "section-154-plus-127", "separate-deductions"],
+          "isReview": false,
+          "oldSection": "Sections 80U, 80DD",
+          "newSection": "Sections 154, 127"
+        },
+        {
+          "order": 5,
+          "question": "Section 127 (dependent disability) is a flat deduction — Rs 75,000 or Rs 1,25,000 regardless of actual expenditure. Section 128 (specified disease) is limited to actual expenditure or the cap. Why does this distinction matter?",
+          "options": [
+            { "text": "Section 127 gives the full deduction even if actual spending is lower; Section 128 may give less if actual spending is below the cap", "correct": true },
+            { "text": "Section 128 gives a higher deduction in all cases", "correct": false },
+            { "text": "There is no practical difference — both are capped at the same amounts", "correct": false },
+            { "text": "Section 127 requires medical bills; Section 128 does not", "correct": false }
+          ],
+          "explanation": "Section 127 is a flat/deemed deduction — spend Rs 20,000 on your disabled dependent, still claim Rs 75,000. Section 128 is actual-expenditure-based — spend Rs 20,000 on specified disease treatment, claim only Rs 20,000 (not the Rs 40,000 cap). The flat nature of Section 127 is more generous when actual spending is low.",
+          "explanationWrong": "Flat vs actual — that's the key. Section 127 gives Rs 75K/1.25L regardless of spending. Section 128 gives the lower of actual expenditure and Rs 40K/1L. This means Section 127 can give a deduction exceeding your actual expense — Section 128 cannot.",
+          "tier": 2,
+          "subConcepts": ["flat-vs-actual", "section-127-generous", "section-128-capped-at-actual"],
+          "isReview": false,
+          "oldSection": "Sections 80DD, 80DDB",
+          "newSection": "Sections 127, 128"
+        }
+      ]
+    },
+    {
+      "title": "Section 126 — Computation and Edge Cases",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ravi (age 35) pays Rs 22,000 health insurance for self/family and Rs 35,000 for his parents (mother age 63, father age 65). He also spends Rs 4,000 on a preventive checkup. What is his total Section 126 deduction?",
+          "options": [
+            { "text": "Rs 25,000 (self/family) + Rs 35,000 (senior citizen parents) = Rs 60,000", "correct": false },
+            { "text": "Rs 25,000 (self/family capped — Rs 22K premium + Rs 3K of checkup) + Rs 35,000 (parents) = Rs 60,000", "correct": true },
+            { "text": "Rs 22,000 + Rs 35,000 + Rs 4,000 = Rs 61,000", "correct": false },
+            { "text": "Rs 22,000 + Rs 35,000 = Rs 57,000 (checkup not deductible)", "correct": false }
+          ],
+          "explanation": "Self/family: Premium Rs 22K + checkup Rs 3K (balance of Rs 4K checkup allocated to self basket) = Rs 25K (at the cap). Parents (senior citizens): Rs 35K (within Rs 50K limit). Total = Rs 60,000. The checkup is WITHIN the limit — it fills the gap between Rs 22K premium and Rs 25K cap.",
+          "explanationWrong": "Rs 60,000. The preventive checkup (Rs 5K max) is absorbed within the Rs 25K self/family limit. Since Ravi's premium is Rs 22K (Rs 3K below the cap), Rs 3K of the Rs 4K checkup fills that gap. The remaining Rs 1K checkup could be absorbed in the parent basket if there's room.",
+          "tier": 2,
+          "subConcepts": ["section-126-computation", "checkup-within-limit", "parent-senior-citizen"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 2,
+          "question": "Anita (age 62) pays Rs 48,000 health insurance for self, Rs 45,000 for her senior citizen parents, and Rs 5,000 on preventive checkups. What is her total Section 126 deduction?",
+          "options": [
+            { "text": "Rs 50,000 (self — senior citizen cap) + Rs 45,000 (parents — within Rs 50K cap) = Rs 95,000", "correct": true },
+            { "text": "Rs 48,000 + Rs 45,000 + Rs 5,000 = Rs 98,000", "correct": false },
+            { "text": "Rs 50,000 + Rs 50,000 = Rs 1,00,000", "correct": false },
+            { "text": "Rs 48,000 + Rs 45,000 = Rs 93,000", "correct": false }
+          ],
+          "explanation": "Anita is a senior citizen → self limit = Rs 50K. Premium Rs 48K + checkup Rs 2K (of Rs 5K) = Rs 50K (capped). Parents (also senior): Rs 45K (within Rs 50K limit). Total = Rs 95,000. Maximum possible if she maxed everything: Rs 50K + Rs 50K = Rs 1,00,000.",
+          "explanationWrong": "Rs 95,000. The checkup amount (Rs 5K) is absorbed within the limits — it doesn't add on top. Anita's self basket: Rs 48K premium + Rs 2K checkup = Rs 50K cap. Parent basket: Rs 45K premium (Rs 3K remaining checkup could go here, but it's already at the checkup cap).",
+          "tier": 2,
+          "subConcepts": ["senior-citizen-self", "max-rs-1-lakh", "checkup-absorption"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, Section 125 (old 80E) covers interest on education loan. Is this deduction available under the new regime?",
+          "options": [
+            { "text": "No — Section 125 is old-regime-only", "correct": true },
+            { "text": "Yes — available under both regimes", "correct": false },
+            { "text": "Yes — but only for loans above Rs 10 lakh", "correct": false },
+            { "text": "Section 125 has been abolished in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Section 125 (old 80E) is old-regime-only. This contrasts with Section 126 (health insurance) which is available under both regimes. Assessees with education loans must factor this into their old-vs-new regime decision.",
+          "explanationWrong": "Old regime only. Unlike health insurance (Section 126, both regimes), education loan interest (Section 125) is lost under the new regime. This is an important regime-choice factor for young professionals still repaying education loans.",
+          "tier": 2,
+          "subConcepts": ["section-125-review", "old-regime-only", "regime-choice-factor"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 4,
+          "question": "Can a son (age 30) claim Section 126 deduction for health insurance premium paid for his non-dependent parents who have their own income?",
+          "options": [
+            { "text": "Yes — parents need not be dependent for Section 126. The son can claim if HE pays the premium.", "correct": true },
+            { "text": "No — parents must be financially dependent on the assessee", "correct": false },
+            { "text": "Yes — but only if the parent's income is below Rs 5 lakh", "correct": false },
+            { "text": "No — each person must claim their own premium deduction", "correct": false }
+          ],
+          "explanation": "Section 126 does NOT require parents to be dependent. If the son pays the premium for his parents (regardless of their income), he can claim the deduction. This is different from Section 127 (dependent disability) where the dependent must actually be dependent.",
+          "explanationWrong": "No dependency requirement for parents under Section 126. This is a key distinction: Section 126 (health insurance for parents) = no dependency needed. Section 127 (disability of dependent) = dependency IS required. Many assessees incorrectly assume they can't claim because their parents earn independently.",
+          "tier": 2,
+          "subConcepts": ["no-dependency-parents", "section-126-liberal", "common-misconception"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 126, can premium paid in cash be claimed as a deduction?",
+          "options": [
+            { "text": "No — premium paid in cash is NOT deductible; only non-cash modes allowed. Exception: preventive checkup can be in cash.", "correct": true },
+            { "text": "Yes — any mode of payment is acceptable", "correct": false },
+            { "text": "No — even preventive checkup must be paid by non-cash modes", "correct": false },
+            { "text": "Cash payments up to Rs 10,000 are allowed", "correct": false }
+          ],
+          "explanation": "Health insurance premium must be paid by non-cash modes (cheque, online, card, etc.) to qualify under Section 126. However, the preventive health checkup amount (up to Rs 5,000) CAN be paid in cash. This exception for checkups continues from the old Act.",
+          "explanationWrong": "No cash for premium; cash OK for checkup. This is a very practical distinction — many assessees pay health checkup fees in cash at diagnostic centers. The law accommodates this. But insurance premium must always be by non-cash modes.",
+          "tier": 2,
+          "subConcepts": ["no-cash-premium", "cash-ok-for-checkup", "payment-mode-rule"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        }
+      ]
+    },
+    {
+      "title": "Sections 127 and 128 — Deeper Conditions",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 127 (dependent disability), who qualifies as a 'dependent'?",
+          "options": [
+            { "text": "Spouse, children, parents, and siblings who are wholly or mainly dependent on the assessee", "correct": true },
+            { "text": "Only spouse and children", "correct": false },
+            { "text": "Only children below 18 years of age", "correct": false },
+            { "text": "Any family member including cousins and in-laws", "correct": false }
+          ],
+          "explanation": "Section 127 dependents include spouse, children, parents, and siblings — but they must be wholly or mainly dependent on the assessee for support and maintenance. Adult disabled siblings can qualify if dependent. This continues unchanged from old Section 80DD.",
+          "explanationWrong": "Spouse, children, parents, AND siblings. The sibling inclusion catches many people by surprise. An adult disabled brother or sister who depends on you for support qualifies. But they must be 'wholly or mainly dependent' — partial support isn't enough.",
+          "tier": 2,
+          "subConcepts": ["section-127-dependents", "siblings-included", "wholly-mainly-dependent"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        },
+        {
+          "order": 2,
+          "question": "What certificate is required to claim Section 127 (dependent disability) deduction?",
+          "options": [
+            { "text": "Certificate from a medical authority (government hospital) certifying the disability and its percentage", "correct": true },
+            { "text": "Certificate from any registered medical practitioner", "correct": false },
+            { "text": "Self-declaration by the assessee is sufficient", "correct": false },
+            { "text": "Certificate from the income tax department", "correct": false }
+          ],
+          "explanation": "A certificate from a medical authority (defined as a government hospital or institution notified by the government) is required. The certificate must specify the nature and percentage of disability. Private doctor certificates are NOT sufficient for Section 127.",
+          "explanationWrong": "Government medical authority only — not any private doctor. The certification requirement is strict: it must be from a government hospital or notified institution. The certificate must be renewed periodically for certain conditions. This ensures only genuine disability claims are allowed.",
+          "tier": 2,
+          "subConcepts": ["medical-authority-certificate", "government-hospital", "strict-requirement"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.1, the deductions overview covered the concept of 'gross total income' as the starting point for Chapter VIII deductions. What heads of income are INCLUDED in gross total income?",
+          "options": [
+            { "text": "All five heads: salary, house property, business/profession, capital gains, and other sources", "correct": true },
+            { "text": "Only salary and business/profession income", "correct": false },
+            { "text": "All income except capital gains", "correct": false },
+            { "text": "Total income after all deductions", "correct": false }
+          ],
+          "explanation": "Gross total income (GTI) is the aggregate of income under all five heads BEFORE deductions under Chapter VIII. This is the base from which deductions under Sections 123-154 are subtracted to arrive at total income. GTI cannot be negative for deduction purposes.",
+          "explanationWrong": "All five heads. GTI = salary + house property + PGBP + capital gains + other sources, computed before Chapter VIII deductions. Deductions cannot exceed GTI (you can't create a negative total income through deductions). This was covered in Unit 9.1.",
+          "tier": 2,
+          "subConcepts": ["gti-review", "all-five-heads", "base-for-deductions"],
+          "isReview": true,
+          "oldSection": "Section 80B(5)",
+          "newSection": "Section 2(23)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 128 (specified disease), the deduction is reduced by any amount received from an insurer. If Rakesh incurs Rs 80,000 on his father's (senior citizen) cancer treatment and receives Rs 50,000 from insurance, what is his Section 128 deduction?",
+          "options": [
+            { "text": "Rs 30,000 (Rs 80,000 expenditure minus Rs 50,000 insurance reimbursement)", "correct": true },
+            { "text": "Rs 80,000 (actual expenditure, insurance ignored)", "correct": false },
+            { "text": "Rs 1,00,000 (senior citizen limit, no reduction)", "correct": false },
+            { "text": "Nil — insurance reimbursement disqualifies the claim entirely", "correct": false }
+          ],
+          "explanation": "Section 128 deduction = actual expenditure minus insurance reimbursement, subject to the cap. Rs 80K - Rs 50K = Rs 30K. The senior citizen cap of Rs 1L is not reached, so the deduction is Rs 30K. If expenditure were Rs 1.5L and insurance Rs 40K, deduction = Rs 1L (capped).",
+          "explanationWrong": "Rs 30,000. The formula: min(actual expenditure - insurance reimbursement, cap). Here: min(Rs 80K - Rs 50K, Rs 1L) = min(Rs 30K, Rs 1L) = Rs 30K. Insurance reimbursement doesn't DISQUALIFY the claim — it just reduces the deductible amount.",
+          "tier": 2,
+          "subConcepts": ["section-128-insurance-reduction", "net-expenditure", "senior-citizen-cap"],
+          "isReview": false,
+          "oldSection": "Section 80DDB",
+          "newSection": "Section 128"
+        },
+        {
+          "order": 5,
+          "question": "If a dependent with disability dies during the financial year, can the assessee still claim Section 127 deduction for that year?",
+          "options": [
+            { "text": "Yes — the deduction is available for the full year even if the dependent dies during the year", "correct": true },
+            { "text": "No — the deduction is proportionate to the months the dependent survived", "correct": false },
+            { "text": "No — the deduction is available only if the dependent survives the entire year", "correct": false },
+            { "text": "Yes — but only 50% of the normal deduction", "correct": false }
+          ],
+          "explanation": "If the dependent with disability dies during the year, the full year's deduction under Section 127 is still available. There is no proportionate reduction. However, from the following year onward, the deduction ceases. The deposit/insurance policy amount (if any) becomes payable to the dependent's estate.",
+          "explanationWrong": "Full year's deduction. Section 127 is a flat deduction for the year — it doesn't prorate for part-year. Whether the dependent passes away in April or March, the assessee gets the full Rs 75K or Rs 1.25L for that financial year.",
+          "tier": 2,
+          "subConcepts": ["death-during-year", "full-year-deduction", "no-proration"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        }
+      ]
+    },
+    {
+      "title": "Real-World Scenarios — Health Deduction Planning",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Suresh (age 40, new tax regime) pays Rs 25,000 health insurance for his family and Rs 48,000 for his senior citizen parents. He also maintains his disabled mother (60% disability). What deductions can he claim under the new regime?",
+          "options": [
+            { "text": "Section 126: Rs 25K (self) + Rs 48K (parents) = Rs 73K. Section 127: Rs 75K (mother's disability). Total = Rs 1,48,000.", "correct": true },
+            { "text": "Nothing — deductions are not available under the new regime", "correct": false },
+            { "text": "Section 126 only: Rs 73K. Section 127 is old-regime-only.", "correct": false },
+            { "text": "Section 126: Rs 73K. Section 127: Rs 1,25,000 (severe disability). Total = Rs 1,98,000.", "correct": false }
+          ],
+          "explanation": "Both Section 126 AND Section 127 are available under the new regime. Section 126: Rs 25K (self) + Rs 48K (parents within Rs 50K senior limit) = Rs 73K. Section 127: Rs 75K (60% disability = normal, not severe). Total new-regime deduction: Rs 1,48,000. This is massive for a new-regime assessee.",
+          "explanationWrong": "Rs 1,48,000 under the new regime. Both health insurance and dependent disability deductions survive in the new regime. The mother has 60% disability (above 40% threshold but below 80% severe threshold), so the limit is Rs 75K, not Rs 1.25L.",
+          "tier": 3,
+          "subConcepts": ["new-regime-health-planning", "combined-126-127", "real-world"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD",
+          "newSection": "Sections 126, 127"
+        },
+        {
+          "order": 2,
+          "question": "Priya (age 58) has severe disability (85%) and also cares for her severely disabled adult son. She opts for the old regime. What is her maximum combined health/disability deduction if she pays Rs 24,000 health insurance for self and Rs 25,000 for her son's policy?",
+          "options": [
+            { "text": "Section 126: Rs 25K (self, with Rs 1K checkup room) + Rs 25K (son within self/family basket). Section 154: Rs 1,25,000 (self severe). Section 127: Rs 1,25,000 (son severe). Total = Rs 3,00,000.", "correct": false },
+            { "text": "Section 126: Rs 25K (self/family — Rs 24K premium + checkup absorption). Section 154: Rs 1,25,000. Section 127: Rs 1,25,000. Total = Rs 2,75,000.", "correct": true },
+            { "text": "Section 126: Rs 50K. Section 154: Rs 1,25,000. Section 127: Rs 75,000. Total = Rs 2,50,000.", "correct": false },
+            { "text": "Section 126: Rs 25K. Section 154: Rs 75,000. Section 127: Rs 1,25,000. Total = Rs 2,25,000.", "correct": false }
+          ],
+          "explanation": "Section 126: Priya is under 60, so self/family cap = Rs 25K. Her son's policy is within the self/family basket (dependent child). Rs 24K + Rs 25K = Rs 49K but capped at Rs 25K. Section 154: Rs 1,25,000 (self, severe 85%). Section 127: Rs 1,25,000 (son, severe). Total = Rs 2,75,000.",
+          "explanationWrong": "Rs 2,75,000. Key details: (1) Priya is 58, NOT a senior citizen — so self/family cap is Rs 25K, not Rs 50K. (2) Son's policy goes in the self/family basket (dependent), not the parent basket. (3) Both she and her son have severe disability (80%+) = Rs 1.25L each. Sections 154 and 127 are separate claims.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-disability-scenario", "self-plus-dependent", "age-matters"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80U, 80DD",
+          "newSection": "Sections 126, 154, 127"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, Section 124(1)(b) provides an additional Rs 50,000 NPS deduction (old 80CCD(1B)). Is this available under the new regime?",
+          "options": [
+            { "text": "No — Section 124(1)(b) additional NPS deduction is old-regime-only", "correct": true },
+            { "text": "Yes — available under both regimes", "correct": false },
+            { "text": "Yes — but only up to Rs 25,000 under the new regime", "correct": false },
+            { "text": "It has been abolished in the 2025 Act", "correct": false }
+          ],
+          "explanation": "The additional Rs 50K NPS deduction under Section 124(1)(b) (old 80CCD(1B)) is old-regime-only. Only the EMPLOYER's contribution (Section 124(2)) survives in the new regime. This is a crucial distinction — the employee's extra NPS contribution deduction is lost under the new regime.",
+          "explanationWrong": "Old regime only. The NPS split: employer contribution (Section 124(2)) = both regimes. Employee's own additional contribution (Section 124(1)(b)) = old regime only. This affects the regime-choice calculation for heavy NPS contributors.",
+          "tier": 3,
+          "subConcepts": ["section-124-1b-review", "nps-regime-split", "old-regime-only"],
+          "isReview": true,
+          "oldSection": "Section 80CCD(1B)",
+          "newSection": "Section 124(1)(b)"
+        },
+        {
+          "order": 4,
+          "question": "Dr. Mehta (age 65, new regime) has: salary Rs 15 lakh, health insurance Rs 48,000 (self), Rs 50,000 (parents — both senior), preventive checkup Rs 5,000, and his wife has severe disability (90%). He also spent Rs 95,000 treating his own chronic renal failure. Compute his total deductions under Sections 126-128, 154.",
+          "options": [
+            { "text": "Section 126: Rs 50K (self senior) + Rs 50K (parents senior) = Rs 1L. Section 127: Rs 1,25,000 (wife severe). Section 128: Rs 95,000 (self treatment, within Rs 1L senior cap). Total = Rs 3,20,000.", "correct": true },
+            { "text": "Section 126: Rs 1L. Section 127: Rs 75K. Section 128: Rs 40K. Total = Rs 2,15,000.", "correct": false },
+            { "text": "Nothing — new regime doesn't allow these deductions", "correct": false },
+            { "text": "Section 126: Rs 1L. Section 127: Rs 1,25,000. Section 128: nil (self-treatment not covered). Total = Rs 2,25,000.", "correct": false }
+          ],
+          "explanation": "All available under new regime! Section 126: Rs 50K (senior self, checkup absorbed) + Rs 50K (senior parents) = Rs 1L. Section 127: Rs 1,25,000 (wife has 90% severe disability). Section 128: Rs 95,000 (own chronic renal failure treatment, senior limit Rs 1L, actual Rs 95K). Total = Rs 3,20,000.",
+          "explanationWrong": "Rs 3,20,000 — all under the NEW regime. This scenario shows why health/disability deductions are so valuable. Section 128 covers self-treatment for specified diseases too (not just dependents). Chronic renal failure is on the specified disease list. Wife's disability at 90% = severe = Rs 1.25L.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-health-scenario", "all-four-sections", "new-regime-value", "self-treatment-128"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB",
+          "newSection": "Sections 126, 127, 128"
+        },
+        {
+          "order": 5,
+          "question": "Amit (age 32) maintains his disabled brother (55% disability) and his disabled mother (75% disability). Both live with him and are fully dependent. Can he claim Section 127 for BOTH dependents?",
+          "options": [
+            { "text": "Yes — Section 127 can be claimed for multiple dependents, each qualifying separately. Rs 75K + Rs 75K = Rs 1,50,000.", "correct": true },
+            { "text": "No — Section 127 allows only one dependent per assessee", "correct": false },
+            { "text": "Yes — but the combined total is capped at Rs 1,25,000", "correct": false },
+            { "text": "Yes for mother (parent), but no for brother — siblings are not covered", "correct": false }
+          ],
+          "explanation": "Section 127 can be claimed for EACH qualifying dependent. Siblings ARE covered (spouse, children, parents, siblings). Brother (55% disability) = Rs 75K. Mother (75% disability — below 80% severe threshold) = Rs 75K. Total = Rs 1,50,000. There is no aggregate cap across multiple dependents.",
+          "explanationWrong": "Rs 1,50,000 for both. Two important points: (1) siblings qualify as dependents under Section 127, (2) you can claim for multiple dependents — each has their own Rs 75K/1.25L allocation. Mother at 75% is NOT severe (needs 80%+ for Rs 1.25L).",
+          "tier": 3,
+          "subConcepts": ["multiple-dependents", "sibling-qualifies", "no-aggregate-cap"],
+          "isReview": false,
+          "oldSection": "Section 80DD",
+          "newSection": "Section 127"
+        }
+      ]
+    },
+    {
+      "title": "Filing Deadlines and Section 154 Traps",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Kiran has severe disability (82%) and is a salaried employee earning Rs 12 lakh. She files her return on 15 January 2027 — 3.5 months after the 31 July due date. What happens to her Section 154 deduction?",
+          "options": [
+            { "text": "Lost entirely — Section 154 is Part C and requires timely filing. She loses Rs 1,25,000 deduction.", "correct": true },
+            { "text": "Available with a Rs 5,000 late filing penalty", "correct": false },
+            { "text": "Reduced by 50% to Rs 62,500", "correct": false },
+            { "text": "Still available — the timely filing rule has been relaxed for disabled persons", "correct": false }
+          ],
+          "explanation": "Section 154 is in Part C → Section 122(5) applies → belated return = deduction lost. Kiran loses the entire Rs 1,25,000 deduction. At a 30% marginal rate, this costs her Rs 37,500 in extra tax — on top of the late filing penalty and interest. A harsh but absolute rule.",
+          "explanationWrong": "Lost entirely. No partial, no penalty-and-keep option. At her income level, this means Rs 37,500+ in additional tax. This makes the return filing deadline especially critical for persons with disability. There's no relaxation in the 2025 Act for disabled persons.",
+          "tier": 3,
+          "subConcepts": ["section-154-lost-scenario", "part-c-harsh-consequence", "real-tax-impact"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154, Section 122(5)"
+        },
+        {
+          "order": 2,
+          "question": "In the same scenario (Kiran, belated return), what happens to her Section 126 (health insurance) and Section 127 (dependent's disability) deductions?",
+          "options": [
+            { "text": "Both are preserved — Sections 126 and 127 are in Part B and survive belated filing", "correct": true },
+            { "text": "Both are lost — all deductions require timely filing", "correct": false },
+            { "text": "Section 126 survives but Section 127 is lost", "correct": false },
+            { "text": "Both are reduced by 50%", "correct": false }
+          ],
+          "explanation": "Sections 126 and 127 are in Part B — they survive even with belated returns. Only Section 154 (Part C) is lost. This creates an odd asymmetry: Kiran keeps her dependent's disability deduction (Section 127) but loses her own disability deduction (Section 154). Self vs dependent, different parts, different consequences.",
+          "explanationWrong": "Both preserved. The asymmetry: Section 127 (dependent disability, Part B) = safe even if late. Section 154 (self disability, Part C) = lost if late. A disabled person maintaining a disabled dependent keeps the dependent's deduction but loses their own. Ironic but legally accurate.",
+          "tier": 3,
+          "subConcepts": ["part-b-survives", "asymmetry-127-vs-154", "belated-return-impact"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80U",
+          "newSection": "Sections 126, 127, 154"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, which section imposes the timely return filing condition for Part C deductions?",
+          "options": [
+            { "text": "Section 122(5)", "correct": true },
+            { "text": "Section 123(5)", "correct": false },
+            { "text": "Section 139(1)", "correct": false },
+            { "text": "Section 154 itself", "correct": false }
+          ],
+          "explanation": "Section 122(5) is the gatekeeper provision that makes timely filing a condition for Part C deductions. It corresponds to old Section 80AC. This single provision affects multiple deductions in Part C (Sections 138-154). Section 139(1) is the old Act's filing provision.",
+          "explanationWrong": "Section 122(5). This is the provision that practitioners must always flag for clients with Part C deductions. It's not in Section 154 itself — it's a general condition in the chapter rules. Missing it means losing ALL Part C deductions, not just Section 154.",
+          "tier": 3,
+          "subConcepts": ["section-122-5-review", "gatekeeper-provision", "part-c-condition"],
+          "isReview": true,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 4,
+          "question": "Rajiv (age 55, salaried Rs 20 lakh, old regime) has: Section 126 = Rs 68,000 (self Rs 25K + senior parents Rs 43K), Section 128 = Rs 38,000 (father's cancer treatment net of insurance), Section 154 = Rs 75,000 (self disability 45%). He files on time. What is his total deduction from this unit's sections?",
+          "options": [
+            { "text": "Rs 1,81,000 (Rs 68K + Rs 38K + Rs 75K)", "correct": true },
+            { "text": "Rs 1,06,000 (Section 154 lost — filed belated)", "correct": false },
+            { "text": "Rs 1,43,000 (Section 126 capped at Rs 50K)", "correct": false },
+            { "text": "Rs 2,06,000 (Section 128 gets Rs 1L senior limit)", "correct": false }
+          ],
+          "explanation": "Filed on time → Section 154 (Part C) is safe. Section 126: Rs 25K (self, not senior) + Rs 43K (parents, senior citizen) = Rs 68K. Section 128: Rs 38K (father's treatment Rs 88K - Rs 50K insurance = Rs 38K, within Rs 1L senior limit). Section 154: Rs 75K (45% disability). Total = Rs 1,81,000.",
+          "explanationWrong": "Rs 1,81,000. Rajiv is 55 (not senior himself) so his self limit is Rs 25K. His parents are senior citizens so their limit is Rs 50K (Rs 43K claimed). Section 128 uses the father's age (senior) for the Rs 1L limit, but actual net expenditure is only Rs 38K. Timely filing preserves Section 154.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-computation", "timely-filing-preserved", "multi-section"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DDB, 80U",
+          "newSection": "Sections 126, 128, 154"
+        },
+        {
+          "order": 5,
+          "question": "Neha (age 45, new regime, salary Rs 18 lakh) has a severely disabled daughter (autism, 85%). She pays Rs 25,000 health insurance (self/family), Rs 3,000 preventive checkup, and incurs Rs 1,20,000 on her daughter's therapy. Her Section 127 and Section 126 deductions under the new regime are:",
+          "options": [
+            { "text": "Section 126: Rs 25,000 (premium Rs 25K, checkup absorbed but at cap). Section 127: Rs 1,25,000 (severe disability). Total: Rs 1,50,000.", "correct": true },
+            { "text": "Section 126: Rs 28,000 (Rs 25K + Rs 3K checkup). Section 127: Rs 1,20,000 (actual expenditure). Total: Rs 1,48,000.", "correct": false },
+            { "text": "Nil — new regime doesn't allow these deductions", "correct": false },
+            { "text": "Section 126: Rs 25,000. Section 127: Rs 75,000. Total: Rs 1,00,000.", "correct": false }
+          ],
+          "explanation": "Section 126: Rs 25K (premium exhausts the cap — checkup cannot add above it). Section 127: Rs 1,25,000 (daughter has 85% = severe disability, flat deduction regardless of Rs 1.2L actual spend). Both available under new regime. Total = Rs 1,50,000 deduction under the new regime — significant tax saving.",
+          "explanationWrong": "Rs 1,50,000. Key traps avoided: (1) checkup is WITHIN the limit, not additional — since premium already at Rs 25K cap, checkup adds nothing. (2) Section 127 is a FLAT Rs 1.25L for severe disability, not limited to actual Rs 1.2L expenditure. (3) Both deductions ARE available under new regime.",
+          "tier": 3,
+          "subConcepts": ["new-regime-scenario", "severe-disability-autism", "checkup-trap", "flat-deduction"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD",
+          "newSection": "Sections 126, 127"
+        }
+      ]
+    },
+    {
+      "title": "Regime Choice — Health Deduction Impact",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Arun (age 50) is deciding between old and new regime. His health-related deductions: Section 126 = Rs 70,000, Section 127 = Rs 1,25,000 (severely disabled son), Section 123 (80C investments) = Rs 1,50,000, Section 124(1)(b) (NPS extra) = Rs 50,000. Under the new regime, which of these survive?",
+          "options": [
+            { "text": "Section 126 (Rs 70K) and Section 127 (Rs 1,25,000) survive. Section 123 and Section 124(1)(b) are lost. New-regime deductions = Rs 1,95,000.", "correct": true },
+            { "text": "Only Section 126 survives. New-regime deductions = Rs 70,000.", "correct": false },
+            { "text": "All four survive in the new regime. Total = Rs 3,95,000.", "correct": false },
+            { "text": "None survive — new regime has no deductions.", "correct": false }
+          ],
+          "explanation": "Under the new regime: Section 126 (health insurance) = survives (Rs 70K). Section 127 (dependent disability) = survives (Rs 1,25,000). Section 123 (80C) = LOST. Section 124(1)(b) (additional NPS) = LOST. New-regime deductions from these = Rs 1,95,000. Old-regime deductions = Rs 3,95,000. The difference of Rs 2,00,000 must be weighed against the new regime's lower slab rates.",
+          "explanationWrong": "Rs 1,95,000 survives in the new regime. The health/disability deductions (126, 127, 128, 154) are regime-neutral. Investment deductions (123, 124(1)(b)) are old-regime-only. For Arun, switching to new regime costs Rs 2L in lost deductions — the lower slab rates would need to compensate for that.",
+          "tier": 3,
+          "subConcepts": ["regime-choice-analysis", "what-survives", "health-vs-investment"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD, 80D, 80DD",
+          "newSection": "Sections 123, 124, 126, 127"
+        },
+        {
+          "order": 2,
+          "question": "Meena (age 63, single earner, salary Rs 10 lakh) has: Section 126 = Rs 95,000 (self senior Rs 50K + parents senior Rs 45K), Section 154 = Rs 1,25,000 (severe disability self), Section 128 = Rs 60,000 (own Parkinson's treatment). Under the new regime, what are her total health/disability deductions?",
+          "options": [
+            { "text": "Rs 2,80,000 (Section 126: Rs 95K + Section 154: Rs 1,25,000 + Section 128: Rs 60K) — all available under new regime IF return filed on time", "correct": true },
+            { "text": "Rs 1,55,000 (Section 154 lost — Part C, new regime doesn't support it)", "correct": false },
+            { "text": "Rs 2,80,000 with no filing condition", "correct": false },
+            { "text": "Rs 95,000 (only Section 126 available)", "correct": false }
+          ],
+          "explanation": "All three sections available under new regime. Section 126: Rs 95K. Section 154: Rs 1,25,000 (severe — BUT Part C, so timely filing required even in new regime). Section 128: Rs 60K (Parkinson's is a specified disease, senior limit Rs 1L). Total = Rs 2,80,000. The Part C timely filing condition applies regardless of regime choice.",
+          "explanationWrong": "Rs 2,80,000 — but conditionally. Section 154 being in Part C means it requires timely filing under BOTH regimes. The Part B vs Part C distinction is regime-independent. Meena must file on time to get the full Rs 2,80,000. A belated return costs her Rs 1,25,000.",
+          "tier": 3,
+          "subConcepts": ["senior-new-regime-max", "section-154-condition", "parkinsons-specified-disease"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DDB, 80U",
+          "newSection": "Sections 126, 128, 154"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, we covered that the Rs 1,50,000 limit under Section 123 is SHARED with Section 124(1) (employee's own NPS contribution). What is the maximum combined deduction under these two sections?",
+          "options": [
+            { "text": "Rs 1,50,000 (shared ceiling)", "correct": true },
+            { "text": "Rs 2,00,000 (Rs 1,50,000 + Rs 50,000)", "correct": false },
+            { "text": "Rs 3,00,000", "correct": false },
+            { "text": "Rs 1,50,000 + Rs 50,000 additional NPS = Rs 2,00,000 total across three provisions", "correct": false }
+          ],
+          "explanation": "The shared ceiling is Rs 1,50,000. Section 124(1)(b) provides an ADDITIONAL Rs 50,000 (old 80CCD(1B)) — but that's a separate deduction. The combined Section 123 + Section 124(1)(a) ceiling is Rs 1,50,000. The Rs 50,000 additional NPS is independent.",
+          "explanationWrong": "Rs 1,50,000 shared ceiling for 123 + 124(1)(a). The additional Rs 50K NPS under 124(1)(b) is separate and independent. Total possible across all three: Rs 1,50,000 + Rs 50,000 = Rs 2,00,000 — but the question asked about the shared ceiling, which is Rs 1.5L.",
+          "tier": 3,
+          "subConcepts": ["shared-ceiling-review", "section-123-124", "rs-1-5l-combined"],
+          "isReview": true,
+          "oldSection": "Sections 80C, 80CCD(1)",
+          "newSection": "Sections 123, 124(1)"
+        },
+        {
+          "order": 4,
+          "question": "A CA firm is advising a client (age 42, salary Rs 25 lakh, new regime) who has: health insurance Rs 25K (self), Rs 35K (parents aged 64 and 66), a son with cerebral palsy (75% disability), and Rs 30,000 spent on the son's occupational therapy (not covered by insurance). What is the total new-regime deduction from health/disability sections?",
+          "options": [
+            { "text": "Section 126: Rs 25K + Rs 35K = Rs 60K. Section 127: Rs 75K (son, 75% disability). Section 128: not applicable (cerebral palsy is a disability, not a specified disease under 128). Total = Rs 1,35,000.", "correct": true },
+            { "text": "Section 126: Rs 60K. Section 127: Rs 1,25,000 (cerebral palsy = severe). Section 128: Rs 30K. Total = Rs 2,15,000.", "correct": false },
+            { "text": "Section 126: Rs 60K only. Total = Rs 60,000.", "correct": false },
+            { "text": "Section 126: Rs 60K. Section 127: Rs 75K. Section 128: Rs 30K. Total = Rs 1,65,000.", "correct": false }
+          ],
+          "explanation": "Section 126: Rs 60K (parents are senior citizens, within Rs 50K limit). Section 127: Rs 75K (son has 75% disability — NOT severe, needs 80% for Rs 1.25L). Section 128: cerebral palsy is a disability condition, NOT on the specified disease list for Section 128 (which covers cancer, renal failure, etc.). Occupational therapy costs are covered by the flat Section 127 deduction. Total = Rs 1,35,000.",
+          "explanationWrong": "Rs 1,35,000. Three traps: (1) 75% disability is NOT severe (80% threshold for severe), so Section 127 is Rs 75K, not Rs 1.25L. (2) Cerebral palsy is a disability (Section 127 territory), not a specified disease (Section 128 territory — which covers cancer, AIDS, renal failure, neurological conditions like Parkinson's). (3) Section 127 is flat — actual therapy spend doesn't matter.",
+          "tier": 3,
+          "subConcepts": ["disability-vs-specified-disease", "75-percent-not-severe", "practical-advisory"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB",
+          "newSection": "Sections 126, 127, 128"
+        },
+        {
+          "order": 5,
+          "question": "Vikram (age 70, retired, pension Rs 8 lakh, new regime) has no health insurance but incurs Rs 60,000 on medical expenses for himself. His wife (age 68) has 85% disability and he spends Rs 1.5 lakh on her care. His wife also underwent treatment for malignant cancer costing Rs 1.8 lakh (Rs 80,000 reimbursed by government scheme). Compute all deductions.",
+          "options": [
+            { "text": "Section 126: Rs 50K (senior, no insurance — medical expenditure option). Section 127: Rs 1,25,000 (wife severe disability). Section 128: Rs 1,00,000 (cancer treatment: Rs 1.8L - Rs 80K = Rs 1L, capped at Rs 1L senior). Total = Rs 2,75,000.", "correct": true },
+            { "text": "Section 126: nil (no insurance). Section 127: Rs 1,25,000. Section 128: Rs 1,00,000. Total = Rs 2,25,000.", "correct": false },
+            { "text": "Section 126: Rs 50K. Section 127: Rs 75K. Section 128: Rs 60K. Total = Rs 1,85,000.", "correct": false },
+            { "text": "Section 126: Rs 60K (actual expenses). Section 127: Rs 1,50,000 (actual care expenses). Section 128: Rs 1,00,000. Total = Rs 3,10,000.", "correct": false }
+          ],
+          "explanation": "Section 126: Rs 50K (senior citizen without insurance can claim medical expenditure up to Rs 50K — actual Rs 60K, capped). Section 127: Rs 1,25,000 (wife has 85% = severe disability, flat deduction regardless of Rs 1.5L actual spend). Section 128: net expenditure = Rs 1.8L - Rs 80K reimbursement = Rs 1L, which equals the senior citizen cap of Rs 1L. Total = Rs 2,75,000 — ALL available under new regime.",
+          "explanationWrong": "Rs 2,75,000. The question tests four concepts: (1) senior citizen medical expenditure without insurance (Section 126, Rs 50K cap). (2) Section 127 is flat Rs 1.25L for severe — not limited to or expanded by actual Rs 1.5L spend. (3) Section 128 deduction = expenditure minus government reimbursement, capped at Rs 1L for seniors. (4) Cancer IS a specified disease under Section 128. All deductions available under new regime.",
+          "tier": 3,
+          "subConcepts": ["senior-no-insurance", "cancer-specified-disease", "government-reimbursement", "comprehensive-new-regime"],
+          "isReview": false,
+          "oldSection": "Sections 80D, 80DD, 80DDB",
+          "newSection": "Sections 126, 127, 128"
+        }
+      ]
+    }
+  ]
+}

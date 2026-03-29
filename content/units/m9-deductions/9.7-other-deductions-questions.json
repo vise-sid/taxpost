@@ -1,0 +1,835 @@
+{
+  "unit": "9.7",
+  "title": "Other Deductions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 149 and 151 — Co-operatives and Author Royalty",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80P (deduction for co-operative societies) maps to which section under the 2025 Act?",
+          "options": [
+            { "text": "Section 147", "correct": false },
+            { "text": "Section 149", "correct": true },
+            { "text": "Section 151", "correct": false },
+            { "text": "Section 153", "correct": false }
+          ],
+          "explanation": "Section 80P maps to Section 149 under the 2025 Act. It provides deductions to co-operative societies for profits from specified activities — banking/credit for members, cottage industry, marketing of agricultural produce, and others. The provision is renumbered without substantive change.",
+          "explanationWrong": "Section 149 is correct. The Unit 9.7 mapping: 80P→149, 80QQB→151, 80RRB→152, 80TTA+80TTB→153 (merged), 80U→154. Five old sections become five new sections, with one genuine structural change (the 80TTA+80TTB merger into 153).",
+          "tier": 1,
+          "subConcepts": ["80P-to-149", "co-operative-deduction-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 151 (old 80QQB), what is the maximum deduction for author royalty income?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 3,00,000", "correct": true },
+            { "text": "Rs 5,00,000", "correct": false },
+            { "text": "No monetary limit", "correct": false }
+          ],
+          "explanation": "Section 151 provides a deduction of 100% of royalty income or Rs 3,00,000, whichever is lower. This limit is unchanged from old Section 80QQB. The deduction is available only to resident individual authors (or joint authors) for royalty or copyright fees on books — excluding textbooks prescribed for educational curricula.",
+          "explanationWrong": "Rs 3,00,000 is correct. Both author royalty (Section 151) and patent royalty (Section 152) share the same Rs 3,00,000 cap — an easy memory anchor. The limits have not been revised despite inflation, and they remain identical under the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["author-royalty-limit", "Rs-3-lakh-cap"],
+          "isReview": false,
+          "oldSection": "Section 80QQB",
+          "newSection": "Section 151"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, what is the defining characteristic of ALL business-specific deductions (Sections 138-147)?",
+          "options": [
+            { "text": "They are all transitional grandfather provisions — no fresh claims permitted", "correct": true },
+            { "text": "They are all fully operative for new undertakings", "correct": false },
+            { "text": "They are all merged into a single provision", "correct": false },
+            { "text": "They are all available under both old and new tax regimes", "correct": false }
+          ],
+          "explanation": "Every provision in Sections 138-147 is transitional. No fresh claims are permitted under the 2025 Act. Only existing undertakings with unexpired eligibility windows continue to claim. The government replaced profit-linked deductions with reduced corporate tax rates (22%/15%) for new ventures.",
+          "explanationWrong": "All transitional is correct. This contrasts sharply with Unit 9.7's provisions, most of which are renumbered and remain fully operative (except they are old-regime-only). The transitional nature of Unit 9.6 means those provisions are winding down, while Unit 9.7's provisions continue indefinitely for eligible assessees under the old regime.",
+          "tier": 1,
+          "subConcepts": ["unit-9.6-transitional-review", "no-fresh-claims"],
+          "isReview": true,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 4,
+          "question": "Which category of co-operative society is excluded from claiming the deduction under Section 149 (old 80P)?",
+          "options": [
+            { "text": "Primary agricultural credit societies", "correct": false },
+            { "text": "Consumer co-operatives", "correct": false },
+            { "text": "Co-operative banks (other than primary agricultural credit societies and primary co-operative agricultural and rural development banks)", "correct": true },
+            { "text": "Marketing co-operatives", "correct": false }
+          ],
+          "explanation": "Co-operative banks are excluded from Section 149 — an exclusion introduced by Finance Act 2020 under the old Act and carried forward. However, primary agricultural credit societies and primary co-operative agricultural and rural development banks are NOT excluded — they remain eligible. The distinction is critical: a co-operative carrying on banking business is not the same as a 'co-operative bank' under the Banking Regulation Act.",
+          "explanationWrong": "Co-operative banks is correct. The Supreme Court in Citizen Co-operative Society v. ACIT (2017) established that merely accepting deposits from members does not make a society a 'co-operative bank.' The Banking Regulation Act definition governs. Primary agricultural credit societies — the backbone of rural credit — retain their Section 149 eligibility.",
+          "tier": 1,
+          "subConcepts": ["co-operative-bank-exclusion", "Finance-Act-2020-amendment"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 151 (old 80QQB), which type of book is excluded from the author royalty deduction?",
+          "options": [
+            { "text": "Fiction novels", "correct": false },
+            { "text": "Self-help books", "correct": false },
+            { "text": "Textbooks prescribed for educational curricula", "correct": true },
+            { "text": "Poetry collections", "correct": false }
+          ],
+          "explanation": "Textbooks prescribed or adopted for a school, college, or university syllabus are excluded from the Section 151 deduction. Reference books, guides, novels, non-fiction, and any book not formally prescribed as a textbook remain eligible. The distinction can be fact-intensive — verify whether the institution has formally adopted the book as part of its syllabus.",
+          "explanationWrong": "Textbooks for educational curricula is correct. A guide book or reference work that happens to be used by students but is not officially prescribed as a textbook remains eligible. The test is formal adoption into the syllabus, not informal use by students. Fiction, poetry, self-help — all eligible if written by a resident Indian author.",
+          "tier": 1,
+          "subConcepts": ["textbook-exclusion", "eligible-books"],
+          "isReview": false,
+          "oldSection": "Section 80QQB",
+          "newSection": "Section 151"
+        }
+      ]
+    },
+    {
+      "title": "Sections 152 and 154 — Patent Royalty and Self-Disability",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 152 (old 80RRB), what is the maximum deduction for patent royalty income?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 5,00,000", "correct": false },
+            { "text": "Rs 3,00,000", "correct": true },
+            { "text": "Rs 10,00,000", "correct": false }
+          ],
+          "explanation": "Section 152 provides 100% of patent royalty income or Rs 3,00,000, whichever is lower — the same cap as Section 151 (author royalty). The deduction is available only to resident individuals who are the true and first inventor (patentee). Assignees and licensees are not eligible. The patent must be registered under the Patents Act, 1970.",
+          "explanationWrong": "Rs 3,00,000 is correct. The parallel with Section 151 is deliberate: both creative/innovation deductions (author royalty and patent royalty) share the Rs 3,00,000 cap. Both require the income to be brought into India in convertible foreign exchange within 6 months if earned abroad.",
+          "tier": 1,
+          "subConcepts": ["patent-royalty-limit", "Rs-3-lakh-patent"],
+          "isReview": false,
+          "oldSection": "Section 80RRB",
+          "newSection": "Section 152"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 154 (old 80U), what is the deduction amount for a person with severe disability (80% or more)?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 1,25,000", "correct": true }
+          ],
+          "explanation": "Section 154 provides a flat deduction of Rs 1,25,000 for persons with severe disability (80% or more). For disability of 40% to less than 80%, the deduction is Rs 75,000. These amounts are unchanged from old Section 80U. The deduction is not linked to any expenditure — it is a flat amount based on the disability percentage.",
+          "explanationWrong": "Rs 1,25,000 is correct. The two-tier structure: Rs 75,000 for disability (40-79%) and Rs 1,25,000 for severe disability (80%+). These are the same amounts available under the old Act. Note: Section 154 covers the assessee's own disability; Section 127 (old 80DD) covers dependents' disability.",
+          "tier": 1,
+          "subConcepts": ["severe-disability-amount", "section-154-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, Section 122(5) of the 2025 Act requires timely filing to claim deductions under Sections 138-147. What is the consequence of late filing?",
+          "options": [
+            { "text": "The deduction for that assessment year is permanently lost — no recovery possible", "correct": true },
+            { "text": "The deduction is reduced by 50%", "correct": false },
+            { "text": "The deduction is deferred to the next year", "correct": false },
+            { "text": "A penalty is imposed but the deduction is still allowed", "correct": false }
+          ],
+          "explanation": "Section 122(5) imposes an absolute bar: miss the due date and the deduction for that year is gone forever. It cannot be claimed in a belated return, revised return, or shifted to the next year. For undertakings in their final eligibility years, this is an irrecoverable loss worth potentially crores of rupees.",
+          "explanationWrong": "Permanently lost is correct. There is no grace period, no partial allowance, no deferral mechanism. The binary nature of Section 122(5) makes return-filing due date management a critical compliance task for practitioners with clients claiming transitional deductions.",
+          "tier": 1,
+          "subConcepts": ["section-122-5-review", "permanent-deduction-loss"],
+          "isReview": true,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 4,
+          "question": "Who is eligible to claim the patent royalty deduction under Section 152 (old 80RRB)?",
+          "options": [
+            { "text": "Any person holding a patent licence", "correct": false },
+            { "text": "Only a resident individual who is the true and first inventor (patentee)", "correct": true },
+            { "text": "Any resident assessee including companies", "correct": false },
+            { "text": "Any individual — resident or non-resident", "correct": false }
+          ],
+          "explanation": "Section 152 is narrowly scoped: only the true and first inventor who holds the patent registration is eligible. Assignees, licensees, and companies are excluded. The individual must be a resident of India. If the patent royalty is earned abroad, it must be brought into India in convertible foreign exchange within 6 months of the year-end.",
+          "explanationWrong": "True and first inventor only is correct. This is one of the most restrictive eligibility conditions among deduction provisions. A company that holds a patent through assignment cannot claim Section 152. A non-resident inventor cannot claim it. Only the original patentee — the person who conceived and developed the invention — qualifies.",
+          "tier": 1,
+          "subConcepts": ["patentee-eligibility", "true-first-inventor"],
+          "isReview": false,
+          "oldSection": "Section 80RRB",
+          "newSection": "Section 152"
+        },
+        {
+          "order": 5,
+          "question": "The disability certificate required for Section 154 (old 80U) must be issued by which authority?",
+          "options": [
+            { "text": "Any registered medical practitioner", "correct": false },
+            { "text": "A medical authority — specifically a Government hospital", "correct": true },
+            { "text": "The employer's designated doctor", "correct": false },
+            { "text": "Any NABH-accredited hospital", "correct": false }
+          ],
+          "explanation": "The certificate must be issued by a medical authority, which means a Government hospital as prescribed by the rules. A private hospital certificate or general practitioner's letter will not suffice. The certificate must be valid for the relevant assessment year, and periodic renewal may be required depending on the nature of the disability.",
+          "explanationWrong": "Government hospital is correct. This is a practical compliance point that catches many assessees off guard — a certificate from a private specialist, however eminent, does not satisfy the requirement. The Government hospital requirement ensures standardised evaluation against the disability criteria defined under the Rights of Persons with Disabilities Act, 2016.",
+          "tier": 1,
+          "subConcepts": ["disability-certificate-authority", "government-hospital-requirement"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        }
+      ]
+    },
+    {
+      "title": "Section 153 — The 80TTA+80TTB Merger",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the single genuine structural change in Unit 9.7?",
+          "options": [
+            { "text": "The merger of Sections 80TTA and 80TTB into a single Section 153", "correct": true },
+            { "text": "The increase in the author royalty limit to Rs 5,00,000", "correct": false },
+            { "text": "The removal of co-operative bank exclusion under Section 149", "correct": false },
+            { "text": "The extension of Section 154 to non-resident individuals", "correct": false }
+          ],
+          "explanation": "The merger of Sections 80TTA (savings interest, Rs 10,000, non-senior citizens) and 80TTB (savings + FD + RD interest, Rs 50,000, senior citizens) into a single Section 153 is the one structural change in Unit 9.7. All other provisions are straightforward renumbering with no substantive modification.",
+          "explanationWrong": "The 80TTA+80TTB merger is correct. All limits remain unchanged (Rs 3,00,000 for royalties, Rs 75,000/1,25,000 for disability, Rs 10,000/50,000 for interest). The co-operative bank exclusion continues. Section 154 remains resident-only. The merger is the sole reform — everything else is presentational.",
+          "tier": 1,
+          "subConcepts": ["80TTA-80TTB-merger", "structural-change"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 153 (merged 80TTA+80TTB), what is the deduction limit for a non-senior citizen individual?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 10,000", "correct": true },
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 5,000", "correct": false }
+          ],
+          "explanation": "Non-senior citizens (individuals and HUFs below age 60) get a Rs 10,000 deduction on interest from savings accounts only — the same limit that applied under old Section 80TTA. The merger into Section 153 does not change the limit or the scope of covered interest. Fixed deposit and recurring deposit interest remains outside the scope for non-senior citizens.",
+          "explanationWrong": "Rs 10,000 is correct. The Rs 50,000 limit applies only to senior citizens (age 60+), who also get a broader scope covering FD and RD interest in addition to savings accounts. The differential treatment is preserved exactly within the unified Section 153.",
+          "tier": 1,
+          "subConcepts": ["non-senior-Rs-10000", "savings-interest-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80TTA",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, what replaced profit-linked deductions as the government's primary incentive mechanism for new business undertakings?",
+          "options": [
+            { "text": "Reduced corporate tax rates — 22% under Section 115BAA, 15% for new manufacturing under Section 115BAB", "correct": true },
+            { "text": "Increased depreciation rates", "correct": false },
+            { "text": "Investment-linked deductions", "correct": false },
+            { "text": "Direct cash subsidies", "correct": false }
+          ],
+          "explanation": "The government replaced profit-linked deductions with lower corporate tax rates: 22% (Section 115BAA) for existing companies opting in, and 15% (Section 115BAB) for new manufacturing companies. This provides a universal, simpler incentive instead of activity-specific deductions that generated extensive eligibility litigation.",
+          "explanationWrong": "Reduced corporate tax rates is correct. The policy logic: a lower rate benefits all companies equally without requiring complex eligibility determinations. This eliminates litigation over 'eligible undertaking' definitions, transfer pricing between eligible and ineligible units, and reconstruction/splitting claims that plagued the old regime.",
+          "tier": 1,
+          "subConcepts": ["rate-reduction-policy-review", "corporate-tax-rates"],
+          "isReview": true,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 115BAA, 115BAB"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 153, what additional types of interest income are covered for senior citizens (age 60+) that are NOT covered for non-senior citizens?",
+          "options": [
+            { "text": "Interest on government securities and bonds", "correct": false },
+            { "text": "Interest on fixed deposits and recurring deposits", "correct": true },
+            { "text": "Interest on tax-saving bonds", "correct": false },
+            { "text": "Interest on PPF", "correct": false }
+          ],
+          "explanation": "Senior citizens get coverage for interest on fixed deposits (FDs) and recurring deposits (RDs) in addition to savings accounts — with the higher Rs 50,000 limit. Non-senior citizens are limited to savings account interest only, with the Rs 10,000 limit. This differential scope is the same as it was under old Sections 80TTA/80TTB, now housed in a single section.",
+          "explanationWrong": "FDs and RDs is correct. The scope differential is the other key distinction between senior and non-senior treatment within Section 153. Non-senior citizens earn no deduction on FD/RD interest at all (only savings account interest). PPF interest is entirely exempt under a different provision, not covered here.",
+          "tier": 1,
+          "subConcepts": ["FD-RD-senior-citizen", "scope-differential"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 5,
+          "question": "Why was the merger of Sections 80TTA and 80TTB into Section 153 considered a simplification?",
+          "options": [
+            { "text": "Because it increased the deduction limit for all assessees", "correct": false },
+            { "text": "Because it eliminated the confusion about which section applies based on age — a single section with age-based differentiation replaces two separate sections", "correct": true },
+            { "text": "Because it removed the deduction entirely", "correct": false },
+            { "text": "Because it extended the deduction to the new tax regime", "correct": false }
+          ],
+          "explanation": "Under the old Act, practitioners had to determine whether 80TTA or 80TTB applied — assessees turning 60 mid-year, software filing errors claiming the wrong section, and general confusion about scope (savings-only vs. savings+FD+RD) were common problems. Section 153 eliminates this by housing both rules in one section with clear age-based differentiation. One section reference suffices.",
+          "explanationWrong": "Eliminates section-choice confusion is correct. The limits and scope are unchanged — the simplification is structural, not substantive. No one gets more or less deduction. But the filing experience improves: one section, one set of rules, one form field. This aligns with the 2025 Act's broader consolidation philosophy.",
+          "tier": 1,
+          "subConcepts": ["simplification-rationale", "single-section-benefit"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        }
+      ]
+    },
+    {
+      "title": "Tax Regime Applicability and Cross-Section Comparisons",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Are the deductions in Unit 9.7 (Sections 149-154) available under the new tax regime?",
+          "options": [
+            { "text": "Yes — all of them are available under both regimes", "correct": false },
+            { "text": "No — all are available only under the old tax regime", "correct": true },
+            { "text": "Only Section 153 (savings interest) is available under the new regime", "correct": false },
+            { "text": "Only Section 154 (self-disability) is available under the new regime", "correct": false }
+          ],
+          "explanation": "All deductions in Sections 149-154 are available only under the old tax regime. Clients under the new regime cannot claim any of these. The notable exception across the entire deduction chapter is Section 126 (health insurance, old 80D), which is available under both regimes — but Section 126 is in Unit 9.3, not Unit 9.7.",
+          "explanationWrong": "Old regime only is correct. This is a critical advisory point. A senior citizen under the new regime loses the Rs 50,000 Section 153 deduction. A disabled individual under the new regime loses the Rs 75,000/1,25,000 Section 154 deduction. The regime choice has significant consequences for these assessees.",
+          "tier": 2,
+          "subConcepts": ["old-regime-only", "regime-impact-on-deductions"],
+          "isReview": false,
+          "oldSection": "Sections 80P, 80QQB, 80RRB, 80TTA, 80TTB, 80U",
+          "newSection": "Sections 149-154"
+        },
+        {
+          "order": 2,
+          "question": "How does the author royalty deduction (Section 151) compare with the patent royalty deduction (Section 152) in terms of monetary limit?",
+          "options": [
+            { "text": "Author royalty has a higher limit than patent royalty", "correct": false },
+            { "text": "Both have the same limit — Rs 3,00,000", "correct": true },
+            { "text": "Patent royalty has a higher limit than author royalty", "correct": false },
+            { "text": "Neither has a monetary limit", "correct": false }
+          ],
+          "explanation": "Both Section 151 (author royalty) and Section 152 (patent royalty) share the same cap: 100% of income or Rs 3,00,000, whichever is lower. Both are available only to resident individuals. The parallel treatment reflects the policy of equally incentivising literary and scientific creativity. Both limits are unchanged from the old Act.",
+          "explanationWrong": "Both Rs 3,00,000 is correct. The symmetry extends further: both require foreign royalty to be brought into India in convertible foreign exchange within 6 months. Both require prescribed certificates from the payer. The only substantive difference is what is excluded — textbooks for authors, non-patentees for patents.",
+          "tier": 2,
+          "subConcepts": ["royalty-limit-comparison", "parallel-treatment"],
+          "isReview": false,
+          "oldSection": "Sections 80QQB, 80RRB",
+          "newSection": "Sections 151, 152"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, the business income on which transitional deductions (Sections 138-147) are computed is governed by which Act?",
+          "options": [
+            { "text": "The 2025 Act — business income is computed under the new Act's provisions", "correct": true },
+            { "text": "The 1961 Act — as if it had not been repealed", "correct": false },
+            { "text": "A blended computation using both Acts", "correct": false },
+            { "text": "Whichever Act gives a higher deduction", "correct": false }
+          ],
+          "explanation": "Per the KarSetu FAQ (Q8.18), the business income base follows the 2025 Act. Eligibility and deduction period follow the old Act. This split means changes to depreciation, expense disallowances, or income computation rules under the 2025 Act directly affect the deduction quantum for transitional claims.",
+          "explanationWrong": "The 2025 Act governs the income base is correct. This is the critical nuance for transitional deductions: old rules for eligibility, new rules for computation. The deduction amount may differ from what would have been available under the old Act, even though the percentage and period are frozen.",
+          "tier": 2,
+          "subConcepts": ["old-rules-new-income-review", "KarSetu-Q8.18"],
+          "isReview": true,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 153, a person turning 60 on 15 January during the tax year qualifies as a senior citizen for that year. Under the old Act, which section would have applied?",
+          "options": [
+            { "text": "Section 80TTA for the period before turning 60, and Section 80TTB for the period after", "correct": false },
+            { "text": "Section 80TTB for the entire year — age 60 at any time during the year qualifies", "correct": true },
+            { "text": "Section 80TTA for the entire year — the higher age must be attained at the start of the year", "correct": false },
+            { "text": "Neither section — the mid-year birthday creates a gap", "correct": false }
+          ],
+          "explanation": "Under the old Act, Section 80TTB applied if the individual was 60 or above at any time during the previous year. So turning 60 mid-year qualified the person for the Rs 50,000 limit and broader FD/RD scope for the entire year. Under the merged Section 153, this same rule continues — but without the confusion of referencing two separate sections.",
+          "explanationWrong": "Section 80TTB for the full year is correct. There was no pro-rata or split-year treatment. This was actually one of the confusing aspects of the old regime — practitioners had to remember that the age test was 'at any time during the year,' not at the start. Section 153 preserves this rule within a single, clearer provision.",
+          "tier": 2,
+          "subConcepts": ["mid-year-age-test", "senior-citizen-qualification"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 5,
+          "question": "Section 154 (old 80U) covers the assessee's OWN disability. For a disabled DEPENDENT, which separate provision applies?",
+          "options": [
+            { "text": "Section 125 (old Section 80DD)", "correct": true },
+            { "text": "Section 153 (old Section 80TTB)", "correct": false },
+            { "text": "Section 128 (old Section 80DDB)", "correct": false },
+            { "text": "Section 126 (old Section 80D)", "correct": false }
+          ],
+          "explanation": "Section 154 is for the assessee's own disability — a flat deduction not linked to expenditure. For expenditure on maintenance and medical treatment of a disabled dependent (spouse, child, parent, sibling), the deduction is under Section 125 (old 80DD). Section 128 (old 80DDB) covers specified diseases, and Section 126 (old 80D) covers health insurance — different provisions entirely.",
+          "explanationWrong": "Section 125 (old 80DD) is correct. The disability deduction ecosystem has three distinct provisions: 80DD/125 (dependent's disability — expenditure-linked), 80DDB/128 (specified diseases — expenditure-linked), and 80U/154 (self-disability — flat amount). Each has different eligibility, different conditions, and different amounts.",
+          "tier": 2,
+          "subConcepts": ["self-vs-dependent-disability", "section-154-vs-125"],
+          "isReview": false,
+          "oldSection": "Sections 80U, 80DD",
+          "newSection": "Sections 154, 125"
+        }
+      ]
+    },
+    {
+      "title": "Limits, Conditions, and Filing Requirements",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 152 (old 80RRB), a resident inventor earns patent royalty of Rs 5,00,000. What deduction can she claim?",
+          "options": [
+            { "text": "Rs 5,00,000 — full amount", "correct": false },
+            { "text": "Rs 3,00,000 — the cap applies", "correct": true },
+            { "text": "Rs 2,50,000 — 50% of the royalty", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "The deduction is 100% of income or Rs 3,00,000, whichever is lower. Since the royalty of Rs 5,00,000 exceeds Rs 3,00,000, the deduction is capped at Rs 3,00,000. The excess Rs 2,00,000 is taxable as normal income. This cap has not been revised under the 2025 Act.",
+          "explanationWrong": "Rs 3,00,000 is correct. The cap applies identically for both author royalty (Section 151) and patent royalty (Section 152). An inventor earning Rs 3,00,000 or less gets a 100% deduction — effectively tax-free royalty income. Above Rs 3,00,000, only the excess is taxable.",
+          "tier": 2,
+          "subConcepts": ["patent-royalty-cap-application", "Rs-3-lakh-ceiling"],
+          "isReview": false,
+          "oldSection": "Section 80RRB",
+          "newSection": "Section 152"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 151 (old 80QQB), if author royalty is earned outside India, within what timeframe must it be brought into India?",
+          "options": [
+            { "text": "3 months of the year-end", "correct": false },
+            { "text": "6 months of the end of the previous year (or RBI-extended time)", "correct": true },
+            { "text": "By the return filing due date", "correct": false },
+            { "text": "No time limit — just bring it eventually", "correct": false }
+          ],
+          "explanation": "Foreign royalty must be brought into India in convertible foreign exchange within 6 months of the end of the previous year, or such extended time as the RBI allows. This condition applies to both author royalty (Section 151) and patent royalty (Section 152). Failure to repatriate within the timeframe disqualifies the deduction.",
+          "explanationWrong": "6 months is correct. The condition ensures the deduction benefit corresponds to actual forex inflow into India. The RBI extension provides flexibility for genuine delays. Both Section 151 and Section 152 share this identical repatriation requirement — one of several parallel features between the two provisions.",
+          "tier": 2,
+          "subConcepts": ["foreign-royalty-repatriation", "6-month-requirement"],
+          "isReview": false,
+          "oldSection": "Section 80QQB",
+          "newSection": "Section 151"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, which section governs the deduction for additional employee cost incurred in hiring new workers?",
+          "options": [
+            { "text": "Section 145 (old Section 80-JJAA)", "correct": true },
+            { "text": "Section 143 (old Section 80-IE)", "correct": false },
+            { "text": "Section 141 (old Section 80-IB)", "correct": false },
+            { "text": "Section 138 (old Section 80-IA)", "correct": false }
+          ],
+          "explanation": "Section 145 (old 80-JJAA) provides a deduction of 30% of additional employee cost for new employees meeting specified conditions: 240-day minimum employment (150 for apparel/footwear/leather), salary up to Rs 25,000/month, and non-cash payment. The deduction is for 3 consecutive years per employee cohort.",
+          "explanationWrong": "Section 145 is correct. Unlike the other provisions in Unit 9.6 which are infrastructure/SEZ/geographic, Section 80-JJAA/145 is about employment generation — it was actively claimed by manufacturing and service companies. The grandfather treatment means employees hired before 1 April 2026 within their 3-year window continue generating the deduction.",
+          "tier": 2,
+          "subConcepts": ["section-145-review", "employment-deduction"],
+          "isReview": true,
+          "oldSection": "Section 80-JJAA",
+          "newSection": "Section 145"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 149 (old 80P), co-operative societies engaged in banking or credit facilities for members get a deduction of what percentage of profits from that activity?",
+          "options": [
+            { "text": "50% of profits", "correct": false },
+            { "text": "75% of profits", "correct": false },
+            { "text": "100% of profits", "correct": true },
+            { "text": "30% of profits", "correct": false }
+          ],
+          "explanation": "Co-operative societies providing banking or credit facilities to members are entitled to 100% deduction of profits from that activity. This applies equally to cottage industries, agricultural produce marketing, and several other specified activities. The 100% deduction effectively makes these activities tax-free for eligible co-operative societies.",
+          "explanationWrong": "100% is correct. Most specified activities under Section 149 get 100% deduction — effectively exempting the co-operative's income from these activities. The limited deduction (up to Rs 50,000 for consumer co-operatives) applies only to 'other income' like interest on securities or house property income.",
+          "tier": 2,
+          "subConcepts": ["co-operative-100-percent", "banking-credit-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 5,
+          "question": "Which health-related deduction is the notable exception that is available under BOTH the old and new tax regimes?",
+          "options": [
+            { "text": "Section 126 — health insurance premiums (old Section 80D)", "correct": true },
+            { "text": "Section 127 — disabled dependent maintenance (old Section 80DD)", "correct": false },
+            { "text": "Section 128 — specified diseases treatment (old Section 80DDB)", "correct": false },
+            { "text": "Section 154 — self-disability (old Section 80U)", "correct": false }
+          ],
+          "explanation": "Section 126 (old 80D, health insurance) is available under both the old and new tax regimes — making it a rare exception among Chapter VI-A deductions. Sections 127, 128, and 154 are old-regime-only. All the Unit 9.7 deductions (149-154) are also old-regime-only. Section 126's dual-regime availability is a significant benefit that practitioners should highlight.",
+          "explanationWrong": "Section 126 is correct. This is worth memorising as the exception. When clients ask 'what deductions do I keep under the new regime?' — Section 126 (health insurance, up to Rs 25,000/50,000 for self + family, separate limit for parents) is one of the few answers. It was deliberately kept available to promote health insurance coverage.",
+          "tier": 2,
+          "subConcepts": ["section-126-both-regimes", "health-insurance-exception"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the 80TTA+80TTB Merger Deeply",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, which was a common filing error related to Sections 80TTA and 80TTB?",
+          "options": [
+            { "text": "Claiming 80TTB limits while filing under 80TTA, or claiming FD interest deduction as a non-senior citizen", "correct": true },
+            { "text": "Forgetting to claim both sections simultaneously", "correct": false },
+            { "text": "Claiming the deduction under the new tax regime", "correct": false },
+            { "text": "Filing both sections for the same interest income", "correct": false }
+          ],
+          "explanation": "The bifurcation created practical confusion: tax software sometimes defaulted to the wrong section, assessees turning 60 mid-year were unsure which applied, and non-senior citizens occasionally claimed the broader 80TTB scope (FD interest) that was only available to senior citizens. Section 153's merger eliminates this by housing both rules in one provision.",
+          "explanationWrong": "Claiming wrong section/scope is correct. The most common errors were: (1) a non-senior citizen claiming Rs 50,000 deduction on FD interest (80TTB treatment when 80TTA should have applied), and (2) tax software selecting the wrong section based on date-of-birth entry errors. One section eliminates both failure modes.",
+          "tier": 2,
+          "subConcepts": ["filing-error-elimination", "80TTA-80TTB-confusion"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 153, an HUF (Hindu Undivided Family) can claim the savings interest deduction. What limit applies to an HUF?",
+          "options": [
+            { "text": "Rs 50,000 — HUFs always get the senior citizen limit", "correct": false },
+            { "text": "Rs 10,000 — HUFs are treated as non-senior citizens (the senior citizen limit applies only to individuals aged 60+)", "correct": true },
+            { "text": "Rs 25,000 — HUFs have a separate limit", "correct": false },
+            { "text": "HUFs are not eligible", "correct": false }
+          ],
+          "explanation": "HUFs qualify for Section 153 but always at the Rs 10,000 non-senior citizen rate and scope (savings accounts only). The Rs 50,000 senior citizen limit and broader FD/RD scope apply only to individuals aged 60 or above. An HUF cannot be a 'senior citizen' — that concept applies only to natural persons.",
+          "explanationWrong": "Rs 10,000 for HUFs is correct. The age-based differentiation in Section 153 is person-specific: only individual assessees who are 60+ qualify as senior citizens. An HUF, being a non-individual entity, always falls in the general (Rs 10,000, savings-only) category. This rule is unchanged from the old Act.",
+          "tier": 2,
+          "subConcepts": ["HUF-treatment", "age-based-differentiation"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, Section 140 (old 80-IAC) provides a startup deduction for how many consecutive years within what total window?",
+          "options": [
+            { "text": "3 consecutive assessment years out of 10 from incorporation", "correct": true },
+            { "text": "5 consecutive years out of 15", "correct": false },
+            { "text": "10 consecutive years", "correct": false },
+            { "text": "3 years from the date of IMB certification", "correct": false }
+          ],
+          "explanation": "Section 140 provides 100% deduction for any 3 consecutive assessment years out of 10 from the year of incorporation. The startup chooses its 3-year window, giving flexibility to time the deduction for peak-profit years. The incorporation window closed on 31 March 2025.",
+          "explanationWrong": "3 out of 10 from incorporation is correct. The window runs from incorporation, not from IMB certification or first profitability. The 'any 3 consecutive years' gives strategic flexibility — a startup expecting large profits in years 5-7 can defer its claim to maximise the benefit.",
+          "tier": 2,
+          "subConcepts": ["startup-window-review", "3-out-of-10-years"],
+          "isReview": true,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        },
+        {
+          "order": 4,
+          "question": "Does Section 153 change the monetary limits or scope of interest covered compared to the old Sections 80TTA and 80TTB?",
+          "options": [
+            { "text": "Yes — the limits have been increased", "correct": false },
+            { "text": "Yes — FD interest deduction is now available to all assessees", "correct": false },
+            { "text": "No — limits (Rs 10,000/50,000), scope (savings-only vs. savings+FD+RD), and age threshold (60 years) are all unchanged", "correct": true },
+            { "text": "Yes — the age threshold has been lowered to 55", "correct": false }
+          ],
+          "explanation": "Nothing substantive changed. Rs 10,000 for non-senior citizens (savings accounts only), Rs 50,000 for senior citizens (savings + FD + RD), age 60 threshold — all identical. The only change is structural: two sections became one. This is a pure consolidation, not a reform of the underlying rules.",
+          "explanationWrong": "No changes to limits or scope is correct. The merger is about eliminating redundancy and confusion, not about revising the economics of the deduction. Senior citizens keep their preferential treatment; non-senior citizens keep their narrower scope and lower limit. The rules are the same, just housed better.",
+          "tier": 2,
+          "subConcepts": ["no-substantive-change-153", "limits-unchanged"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 5,
+          "question": "Section 153 covers interest from savings accounts, FDs, and RDs held with which institutions?",
+          "options": [
+            { "text": "Banks only", "correct": false },
+            { "text": "Banks and post offices only", "correct": false },
+            { "text": "Banks, co-operative societies, and post offices", "correct": true },
+            { "text": "Any financial institution including NBFCs", "correct": false }
+          ],
+          "explanation": "Section 153 covers interest from accounts with banks, co-operative societies, and post offices. NBFCs, corporate deposits, and other non-banking entities are not covered. This scope mirrors the old Sections 80TTA and 80TTB exactly. Interest from company FDs or NBFC deposits does not qualify for this deduction.",
+          "explanationWrong": "Banks, co-operative societies, and post offices is correct. The three institutional categories reflect where most retail savings are held. Post office savings accounts and senior citizen deposits are covered. But interest from corporate bonds, company deposits, or NBFC deposits is not covered — this is a common point of client confusion.",
+          "tier": 2,
+          "subConcepts": ["eligible-institutions", "bank-coop-post-office"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Senior Citizen and Savings Interest",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Krishnamurthy, aged 62, earns Rs 15,000 from savings accounts and Rs 40,000 from fixed deposits at SBI. He is under the old regime. What is his Section 153 deduction?",
+          "options": [
+            { "text": "Rs 15,000 — only savings interest qualifies", "correct": false },
+            { "text": "Rs 50,000 — the senior citizen limit on combined savings + FD interest", "correct": true },
+            { "text": "Rs 10,000 — the general limit", "correct": false },
+            { "text": "Rs 55,000 — total of both interest amounts", "correct": false }
+          ],
+          "explanation": "As a senior citizen (age 62), Mr. Krishnamurthy qualifies for the Rs 50,000 limit on interest from savings accounts AND fixed deposits. His total eligible interest is Rs 15,000 + Rs 40,000 = Rs 55,000, but the deduction is capped at Rs 50,000. The Rs 5,000 excess is taxable. Under Section 153, both types of interest qualify for the senior citizen limit.",
+          "explanationWrong": "Rs 50,000 is correct. The senior citizen treatment under Section 153: broader scope (savings + FD + RD) and higher limit (Rs 50,000). Both features apply here. If Mr. Krishnamurthy were under the new tax regime, this deduction would not be available at all — old regime only.",
+          "tier": 3,
+          "subConcepts": ["senior-citizen-interest-scenario", "Rs-50000-cap-application"],
+          "isReview": false,
+          "oldSection": "Section 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 2,
+          "question": "Shalini, aged 35, earns Rs 8,000 from her savings account at HDFC Bank and Rs 25,000 from a fixed deposit at Post Office. Under the old regime, what is her Section 153 deduction?",
+          "options": [
+            { "text": "Rs 33,000 — total of both interest amounts", "correct": false },
+            { "text": "Rs 10,000 — the general limit including FD interest", "correct": false },
+            { "text": "Rs 8,000 — only savings account interest qualifies, and it is within the Rs 10,000 limit", "correct": true },
+            { "text": "Rs 25,000 — FD interest only", "correct": false }
+          ],
+          "explanation": "As a non-senior citizen, Shalini qualifies only for the Rs 10,000 limit on savings account interest. Her FD interest of Rs 25,000 does not qualify at all — FD/RD interest is covered only for senior citizens. Her savings interest of Rs 8,000 is within the Rs 10,000 limit, so the full Rs 8,000 is deductible. The FD interest is fully taxable.",
+          "explanationWrong": "Rs 8,000 is correct. The differential scope is the critical point: non-senior citizens get coverage for savings accounts only (not FDs or RDs). Shalini's Rs 25,000 FD interest is outside the scope entirely — it does not even count toward the Rs 10,000 limit, because it is not eligible interest for her category.",
+          "tier": 3,
+          "subConcepts": ["non-senior-savings-only", "FD-excluded-for-general"],
+          "isReview": false,
+          "oldSection": "Section 80TTA",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, a power plant commenced generation in AY 2023-24 with a 15-year deduction window under Section 138 (old 80-IA). From AY 2026-27, how many years of deduction remain?",
+          "options": [
+            { "text": "12 years — 3 years consumed under the old Act", "correct": true },
+            { "text": "15 years — the window restarts", "correct": false },
+            { "text": "10 years — the 2025 Act caps it", "correct": false },
+            { "text": "0 years — no fresh claims", "correct": false }
+          ],
+          "explanation": "The power plant consumed 3 years under the old Act (AY 2023-24, 2024-25, 2025-26). From AY 2026-27, it claims under Section 138 for the remaining 12 years. The window does not restart or get capped — it continues from where the old Act left off. 'No fresh claims' applies to new undertakings, not existing ones within their window.",
+          "explanationWrong": "12 years remaining is correct. The grandfather provision is simple: whatever remains of the original eligibility window carries forward. 15 minus 3 = 12. The clock does not reset, does not compress, and does not extend. Year-for-year continuity.",
+          "tier": 3,
+          "subConcepts": ["unexpired-period-review", "power-plant-example"],
+          "isReview": true,
+          "oldSection": "Section 80-IA(4)(iv)",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 4,
+          "question": "Mrs. Patel turns 60 on 20 November 2026 (mid-year). For the tax year April 2026 to March 2027, which treatment does she receive under Section 153?",
+          "options": [
+            { "text": "Non-senior citizen treatment (Rs 10,000, savings only) — she was not 60 at the start of the year", "correct": false },
+            { "text": "Senior citizen treatment (Rs 50,000, savings + FD + RD) — she turned 60 at any time during the year", "correct": true },
+            { "text": "Pro-rata — non-senior rate for April-November, senior rate for December-March", "correct": false },
+            { "text": "She must choose which treatment to apply", "correct": false }
+          ],
+          "explanation": "Section 153 applies the senior citizen treatment if the individual is aged 60 or above at any time during the tax year. Mrs. Patel turns 60 in November — she qualifies for the Rs 50,000 limit and the broader FD/RD scope for the entire year. There is no pro-rata or split-year treatment. This rule was the same under old Section 80TTB and continues unchanged.",
+          "explanationWrong": "Senior citizen for the full year is correct. The 'at any time during the year' test is generous — turning 60 even on the last day of the year (31 March) would qualify the person for senior citizen treatment for the entire year. This eliminates the need for complex mid-year calculations.",
+          "tier": 3,
+          "subConcepts": ["mid-year-birthday-scenario", "full-year-senior-treatment"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 5,
+          "question": "An author writes both a prescribed textbook (adopted by Delhi University) and a novel. She earns Rs 2,00,000 royalty on the textbook and Rs 4,00,000 on the novel. What is her Section 151 deduction?",
+          "options": [
+            { "text": "Rs 6,00,000 — total royalty", "correct": false },
+            { "text": "Rs 3,00,000 — capped at Rs 3,00,000 on the novel royalty; textbook excluded", "correct": true },
+            { "text": "Rs 4,00,000 — only novel royalty, no cap", "correct": false },
+            { "text": "Rs 2,00,000 — only textbook royalty", "correct": false }
+          ],
+          "explanation": "Textbook royalty is excluded from Section 151 — the textbook is prescribed for Delhi University's syllabus. Only the novel royalty of Rs 4,00,000 qualifies, but the deduction is capped at Rs 3,00,000 (100% of income or Rs 3,00,000, whichever is lower). The textbook royalty of Rs 2,00,000 is fully taxable as normal income with no Section 151 benefit.",
+          "explanationWrong": "Rs 3,00,000 is correct. Two rules combine: (1) textbook exclusion eliminates Rs 2,00,000, and (2) the Rs 3,00,000 cap limits the novel royalty. Even if the textbook were not excluded, the total eligible royalty (Rs 6,00,000) would still be capped at Rs 3,00,000. The cap is the binding constraint for high-earning authors.",
+          "tier": 3,
+          "subConcepts": ["textbook-exclusion-scenario", "author-royalty-computation"],
+          "isReview": false,
+          "oldSection": "Section 80QQB",
+          "newSection": "Section 151"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Co-operative Society and Disability Claims",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Sunrise Co-operative Bank (registered under the Banking Regulation Act) earns Rs 50,00,000 from banking operations with its members. Can it claim Section 149?",
+          "options": [
+            { "text": "Yes — it is a co-operative society carrying on banking business", "correct": false },
+            { "text": "No — co-operative banks are excluded from Section 149 (per Finance Act 2020 amendment, carried forward)", "correct": true },
+            { "text": "Yes — but only for 50% of the profits", "correct": false },
+            { "text": "Yes — if it is a primary agricultural credit society", "correct": false }
+          ],
+          "explanation": "Co-operative banks (as defined under the Banking Regulation Act) are excluded from Section 149 — this exclusion was introduced by Finance Act 2020 and carries forward into the 2025 Act. However, primary agricultural credit societies and primary co-operative agricultural and rural development banks are NOT excluded. Sunrise is registered under the Banking Regulation Act as a co-operative bank, so it is ineligible.",
+          "explanationWrong": "Excluded is correct. The distinction is between a 'co-operative society doing banking business' (eligible) and a 'co-operative bank under the Banking Regulation Act' (excluded). Sunrise is the latter. The Supreme Court in Citizen Co-operative Society v. ACIT (2017) clarified this distinction. The Finance Act 2020 codified the exclusion.",
+          "tier": 3,
+          "subConcepts": ["co-operative-bank-exclusion-scenario", "Banking-Regulation-Act-test"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 2,
+          "question": "Rahul, a software engineer, has been certified with 45% locomotor disability by a Government hospital. He is under the old tax regime. What deduction does he claim under Section 154?",
+          "options": [
+            { "text": "Rs 1,25,000 — severe disability amount", "correct": false },
+            { "text": "Rs 75,000 — disability of 40% or more but less than 80%", "correct": true },
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "No deduction — 45% is below the threshold", "correct": false }
+          ],
+          "explanation": "Rahul's 45% disability falls in the 40-79% bracket, qualifying him for Rs 75,000 under Section 154. The severe disability bracket (Rs 1,25,000) requires 80% or more. The 40% minimum threshold is met. The deduction is flat — not linked to any expenditure. He needs a valid Government hospital certificate for the relevant assessment year.",
+          "explanationWrong": "Rs 75,000 is correct. The two-tier structure: 40-79% = Rs 75,000, 80%+ = Rs 1,25,000. At 45%, Rahul is comfortably within the lower tier. Had his disability been assessed at 80% or above, he would qualify for the higher Rs 1,25,000. The amounts are unchanged from the old Act.",
+          "tier": 3,
+          "subConcepts": ["disability-tier-application", "45-percent-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, for transitional deductions (Sections 138-147), which Act governs the eligibility conditions?",
+          "options": [
+            { "text": "The 1961 Act — as if it had not been repealed", "correct": true },
+            { "text": "The 2025 Act", "correct": false },
+            { "text": "A blended approach", "correct": false },
+            { "text": "Neither — the conditions are in the transitional provisions themselves", "correct": false }
+          ],
+          "explanation": "The 1961 Act governs eligibility conditions, deduction period, and deduction percentage — as if it had not been repealed. Only the business income base follows the 2025 Act (per KarSetu FAQ Q8.18). This split is the central operational challenge for practitioners managing transitional deduction claims.",
+          "explanationWrong": "The 1961 Act for eligibility is correct. This is the other half of the 'old rules, new income' split. The old Act determines who qualifies and for how long; the new Act determines the profit figure on which the deduction percentage applies. Both Acts operate simultaneously for these provisions.",
+          "tier": 3,
+          "subConcepts": ["eligibility-old-act-review", "dual-act-operation"],
+          "isReview": true,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 4,
+          "question": "Dr. Venkatesh, a resident inventor, holds a patent registered in 2005 under the Patents Act. He assigns the patent to MedTech Pvt Ltd, which earns Rs 8,00,000 in patent royalty. Can MedTech claim Section 152?",
+          "options": [
+            { "text": "Yes — it holds the assigned patent", "correct": false },
+            { "text": "No — Section 152 is available only to the true and first inventor (the original patentee), not assignees", "correct": true },
+            { "text": "Yes — but capped at Rs 3,00,000", "correct": false },
+            { "text": "No — because the patent was registered before 2010", "correct": false }
+          ],
+          "explanation": "Section 152 is exclusively for the true and first inventor — the original patentee. MedTech, as an assignee, is not eligible. Additionally, MedTech is a company, not an individual, further disqualifying it (Section 152 is for individuals only). Dr. Venkatesh could have claimed the deduction on his own royalty income before assignment.",
+          "explanationWrong": "Not available to assignees is correct. Two independent disqualifications: (1) MedTech is not the true and first inventor — it is an assignee, and (2) MedTech is a company, not an individual. Section 152 has possibly the narrowest eligibility of any Chapter VI-A deduction: resident individual + original patentee + patent registered post-2003.",
+          "tier": 3,
+          "subConcepts": ["assignee-exclusion-scenario", "patentee-only-rule"],
+          "isReview": false,
+          "oldSection": "Section 80RRB",
+          "newSection": "Section 152"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner's client has both savings account interest (Rs 12,000) and FD interest (Rs 30,000) at a post office. The client is aged 58. Under Section 153, what is the deduction?",
+          "options": [
+            { "text": "Rs 42,000 — total interest", "correct": false },
+            { "text": "Rs 10,000 — savings interest capped at the general limit; FD interest ineligible for non-senior citizens", "correct": true },
+            { "text": "Rs 12,000 — full savings interest, no cap needed", "correct": false },
+            { "text": "Rs 30,000 — FD interest only", "correct": false }
+          ],
+          "explanation": "At age 58, the client is not a senior citizen. Under Section 153, only savings account interest qualifies (not FD interest) for non-senior citizens. Savings interest of Rs 12,000 exceeds the Rs 10,000 limit, so the deduction is capped at Rs 10,000. The FD interest of Rs 30,000 is fully taxable — it would only qualify if the client were 60 or above.",
+          "explanationWrong": "Rs 10,000 is correct. Two constraints apply: (1) FD interest is excluded for non-senior citizens (scope limitation), and (2) savings interest is capped at Rs 10,000 (monetary limitation). Even the eligible savings interest exceeds the cap. In 2 years when this client turns 60, both the scope and the limit change dramatically — FD interest becomes eligible and the cap rises to Rs 50,000.",
+          "tier": 3,
+          "subConcepts": ["non-senior-computation-scenario", "scope-and-cap-interaction"],
+          "isReview": false,
+          "oldSection": "Section 80TTA",
+          "newSection": "Section 153"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Cross-Unit Synthesis and Unit Summary",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A 65-year-old retired CA under the old regime has: (a) savings interest Rs 8,000, (b) FD interest Rs 35,000, (c) RD interest Rs 12,000. What is his Section 153 deduction?",
+          "options": [
+            { "text": "Rs 50,000 — senior citizen limit on combined savings + FD + RD interest", "correct": true },
+            { "text": "Rs 55,000 — total of all interest", "correct": false },
+            { "text": "Rs 8,000 — only savings interest qualifies", "correct": false },
+            { "text": "Rs 10,000 — the general limit", "correct": false }
+          ],
+          "explanation": "As a senior citizen (age 65), all three types of interest qualify — savings (Rs 8,000) + FD (Rs 35,000) + RD (Rs 12,000) = Rs 55,000 total. The deduction is capped at Rs 50,000. The remaining Rs 5,000 is taxable. This is the full benefit of the senior citizen treatment under Section 153 — broader scope and higher limit.",
+          "explanationWrong": "Rs 50,000 is correct. The retired CA benefits from the senior citizen treatment: all three interest types qualify, and the Rs 50,000 cap covers almost all of his interest income. Under the old 80TTA treatment (if he were not a senior citizen), only Rs 8,000 savings interest would qualify, capped at Rs 10,000.",
+          "tier": 3,
+          "subConcepts": ["senior-citizen-full-computation", "three-interest-types"],
+          "isReview": false,
+          "oldSection": "Section 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 2,
+          "question": "Greenfield Primary Agricultural Credit Society earns Rs 20,00,000 from providing credit to farmer members. It also earns Rs 60,000 in interest on securities. What is its total Section 149 deduction?",
+          "options": [
+            { "text": "Rs 20,00,000 — credit activity profits only", "correct": false },
+            { "text": "Rs 20,50,000 — credit profits (100%) plus securities interest (Rs 50,000 cap)", "correct": true },
+            { "text": "Rs 20,60,000 — all income fully deductible", "correct": false },
+            { "text": "Rs 0 — co-operative banks are excluded", "correct": false }
+          ],
+          "explanation": "As a primary agricultural credit society (NOT a co-operative bank), Greenfield is eligible for Section 149. Credit facility profits get 100% deduction = Rs 20,00,000. Interest on securities falls under 'other income' — deduction up to Rs 50,000 for consumer co-operatives (the exact limit varies by type). Total = Rs 20,00,000 + Rs 50,000 = Rs 20,50,000. The co-operative bank exclusion does not apply to primary agricultural credit societies.",
+          "explanationWrong": "Rs 20,50,000 is correct. The key point: Greenfield is a primary agricultural credit society, which is specifically exempted from the co-operative bank exclusion. The Rs 60,000 securities interest is partially deductible — Rs 50,000 (the 'other income' limit for co-operative societies) — with Rs 10,000 excess taxable.",
+          "tier": 3,
+          "subConcepts": ["primary-agricultural-credit-society", "other-income-limit"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.6, which condition — if missed — results in permanent loss of the transitional deduction for that assessment year, with no recovery through belated or revised returns?",
+          "options": [
+            { "text": "Timely filing of the return under Section 122(5)", "correct": true },
+            { "text": "Filing of tax audit report", "correct": false },
+            { "text": "Payment of advance tax", "correct": false },
+            { "text": "Submission of Form 10IC", "correct": false }
+          ],
+          "explanation": "Section 122(5) mandates timely filing for all deductions under Sections 138-147. Late filing — even by one day — means the deduction is permanently lost for that year. This makes the return-filing due date the most critical compliance date for undertakings claiming transitional deductions.",
+          "explanationWrong": "Section 122(5) timely filing is correct. The consequence is absolute: no grace period, no partial allowance, no carry-forward. For an undertaking in its final eligibility year, this is the last chance to claim the deduction — miss it and it is gone forever.",
+          "tier": 3,
+          "subConcepts": ["timely-filing-critical-review", "no-recovery-mechanism"],
+          "isReview": true,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 4,
+          "question": "A CA advises a 59-year-old client who has Rs 48,000 in FD interest. The client asks: 'Should I wait until next year when I turn 60 to get a better deduction?' What is the correct advice?",
+          "options": [
+            { "text": "The FD interest timing cannot be manipulated — it accrues based on the deposit term, not the client's choice", "correct": false },
+            { "text": "In the year the client turns 60 (even mid-year), FD interest becomes eligible under Section 153 with the Rs 50,000 limit — so the timing naturally works in the client's favour", "correct": true },
+            { "text": "There is no difference — FD interest is always eligible regardless of age", "correct": false },
+            { "text": "The client should withdraw and re-deposit after turning 60", "correct": false }
+          ],
+          "explanation": "When the client turns 60 — even on the last day of the tax year — Section 153's senior citizen treatment kicks in for the entire year. FD interest becomes eligible (it was not, for a non-senior citizen) and the limit jumps from Rs 10,000 to Rs 50,000. The client does not need to do anything special — turning 60 at any point during the year automatically triggers the better treatment.",
+          "explanationWrong": "Turning 60 mid-year triggers senior treatment for the full year is correct. The practical advice: in the year the client turns 60, the Rs 48,000 FD interest that was previously fully taxable becomes almost entirely covered by the Rs 50,000 deduction. The transition year produces a significant tax saving with no action required from the client.",
+          "tier": 3,
+          "subConcepts": ["age-60-transition-advice", "automatic-upgrade-scenario"],
+          "isReview": false,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 5,
+          "question": "Which statement best captures the overall nature of changes in Unit 9.7 (Other Deductions)?",
+          "options": [
+            { "text": "All provisions are transitional with no fresh claims", "correct": false },
+            { "text": "Major overhaul with new limits and eligibility rules", "correct": false },
+            { "text": "Mostly renumbering with one genuine structural change — the merger of 80TTA+80TTB into Section 153; all monetary limits unchanged; old regime only", "correct": true },
+            { "text": "All provisions have been merged into a single section", "correct": false }
+          ],
+          "explanation": "Unit 9.7 is characterised by one structural change (the 80TTA+80TTB merger into Section 153) and four straightforward renumberings (80P→149, 80QQB→151, 80RRB→152, 80U→154). All monetary limits are unchanged. All deductions are old-regime-only. The merger eliminates section-choice confusion without changing any economic outcomes for assessees.",
+          "explanationWrong": "One merger, rest renumbered, limits unchanged is correct. Each deduction module has its own change character: 9.5 = pure renumbering, 9.6 = all transitional, 9.7 = one merger + renumbering. Understanding these distinctions is essential for advising clients on what has genuinely changed versus what is merely a new section number.",
+          "tier": 3,
+          "subConcepts": ["unit-9.7-summary", "change-characterisation"],
+          "isReview": false,
+          "oldSection": "Sections 80P, 80QQB, 80RRB, 80TTA, 80TTB, 80U",
+          "newSection": "Sections 149, 151, 152, 153, 154"
+        }
+      ]
+    }
+  ]
+}

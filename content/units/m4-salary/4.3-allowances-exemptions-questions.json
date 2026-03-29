@@ -1,0 +1,835 @@
+{
+  "unit": "4.3",
+  "title": "Allowances & Exemptions — What Moved Where",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "HRA — New Location",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, HRA exemption was under Section 10(13A). Where is it now in the new Act?",
+          "options": [
+            { "text": "Section 10(13A) — unchanged", "correct": false },
+            { "text": "Schedule III, S.No. 11", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Section 17", "correct": false }
+          ],
+          "explanation": "HRA exemption moved from Section 10(13A) to Schedule III, S.No. 11. Unlike gratuity/pension (which went to Section 19 deductions), HRA was placed in Schedule III — it's still an exemption, just relocated to a schedule.",
+          "explanationWrong": "HRA is now in Schedule III, S.No. 11 (was Section 10(13A)). Important distinction: HRA did NOT go to Section 19 like terminal benefits (gratuity, pension, leave encashment, VRS). HRA stays an exemption — it just moved from the main Act to a schedule.",
+          "tier": 1,
+          "subConcepts": ["hra", "section-mapping", "schedule-iii"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 2,
+          "question": "Is HRA exemption available under the new tax regime (Section 202)?",
+          "options": [
+            { "text": "Yes, fully available", "correct": false },
+            { "text": "No, HRA exemption is NOT available under the new regime", "correct": true },
+            { "text": "Available up to Rs 1 lakh only", "correct": false },
+            { "text": "Available only for metro cities", "correct": false }
+          ],
+          "explanation": "HRA exemption is NOT available under the new tax regime (Section 202). This is a critical planning point — employees choosing the new regime cannot claim HRA exemption. Only those opting for the old regime can claim it under Schedule III, S.No. 11.",
+          "explanationWrong": "HRA is NOT available under the new regime. Section 202 explicitly excludes Schedule III exemptions like HRA. Employees paying high rent who claim HRA may be better off under the old regime — this is one of the key factors in regime choice.",
+          "tier": 1,
+          "subConcepts": ["hra", "new-regime", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, which section covers deductions from salary income?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 19", "correct": true },
+            { "text": "Section 17", "correct": false },
+            { "text": "Section 15", "correct": false }
+          ],
+          "explanation": "Section 19 covers deductions from salary (was old Section 16). This is a review from Unit 4.1.",
+          "explanationWrong": "Section 19 is the deductions section (was old Section 16). Don't confuse with Section 16 in the new Act, which defines salary components (was old Section 17(1)).",
+          "tier": 1,
+          "subConcepts": ["salary-deductions", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 16",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "HRA moved to Schedule III while gratuity moved to Section 19 deductions. Why the different treatment?",
+          "options": [
+            { "text": "HRA is less important than gratuity", "correct": false },
+            { "text": "HRA remains an exemption (in a schedule); gratuity was reclassified as a deduction", "correct": true },
+            { "text": "HRA applies only to private sector", "correct": false },
+            { "text": "There is no difference — both are in Schedule III", "correct": false }
+          ],
+          "explanation": "HRA continues as an exemption — it just moved from Section 10 to Schedule III. Gratuity, pension, leave encashment, and VRS were fundamentally reclassified from exemptions to deductions under Section 19. The new Act treats recurring allowances (HRA, LTC) differently from terminal benefits.",
+          "explanationWrong": "The new Act distinguishes between recurring allowances (HRA, LTC → stay as exemptions in Schedule III) and terminal benefits (gratuity, pension, leave encashment, VRS → reclassified as deductions in Section 19). HRA was not reclassified — it was relocated but kept its exemption character.",
+          "tier": 1,
+          "subConcepts": ["hra-vs-gratuity", "exemption-vs-deduction", "reclassification"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Section 10(10)",
+          "newSection": "Schedule III S.No. 11, Section 19"
+        },
+        {
+          "order": 5,
+          "question": "What serial number does HRA occupy in Schedule III of the new Act?",
+          "options": [
+            { "text": "S.No. 8", "correct": false },
+            { "text": "S.No. 13", "correct": false },
+            { "text": "S.No. 11", "correct": true },
+            { "text": "S.No. 12", "correct": false }
+          ],
+          "explanation": "HRA is at S.No. 11 of Schedule III. Key schedule numbers to remember: HRA = S.No. 11, LTC = S.No. 8, special allowances 10(14)(i) = S.No. 12, special allowances 10(14)(ii) = S.No. 13.",
+          "explanationWrong": "HRA = Schedule III, S.No. 11. S.No. 8 is LTC, S.No. 12 is special allowances (old 10(14)(i)), S.No. 13 is prescribed allowances (old 10(14)(ii)). Keep these serial numbers straight.",
+          "tier": 1,
+          "subConcepts": ["hra", "schedule-iii", "serial-numbers"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        }
+      ]
+    },
+    {
+      "title": "LTC & Special Allowances",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Where has the Leave Travel Concession (LTC) exemption moved in the new Act?",
+          "options": [
+            { "text": "Section 19", "correct": false },
+            { "text": "Schedule III, S.No. 8", "correct": true },
+            { "text": "Section 10(5) — unchanged", "correct": false },
+            { "text": "Schedule III, S.No. 11", "correct": false }
+          ],
+          "explanation": "LTC moved from old Section 10(5) to Schedule III, S.No. 8. Like HRA, LTC remains an exemption — it just moved to a schedule. S.No. 11 is HRA, not LTC.",
+          "explanationWrong": "LTC = Schedule III, S.No. 8 (was Section 10(5)). Don't confuse with S.No. 11 (HRA). LTC, like HRA, stayed an exemption and moved to Schedule III — not to Section 19 deductions.",
+          "tier": 1,
+          "subConcepts": ["ltc", "section-mapping", "schedule-iii"],
+          "isReview": false,
+          "oldSection": "Section 10(5)",
+          "newSection": "Schedule III, S.No. 8"
+        },
+        {
+          "order": 2,
+          "question": "Is LTC exemption available under the new tax regime?",
+          "options": [
+            { "text": "Yes, fully available", "correct": false },
+            { "text": "No, LTC is not available under the new regime (Section 202)", "correct": true },
+            { "text": "Available only for government employees", "correct": false },
+            { "text": "Available up to Rs 50,000", "correct": false }
+          ],
+          "explanation": "Like HRA, LTC exemption is NOT available under the new tax regime (Section 202). Both are Schedule III exemptions that are denied to new regime taxpayers. This is a key regime-choice consideration for employees who travel on LTC.",
+          "explanationWrong": "LTC is NOT available under the new regime, just like HRA. Section 202 excludes Schedule III exemptions. Employees who regularly use LTC may find the old regime more beneficial.",
+          "tier": 1,
+          "subConcepts": ["ltc", "new-regime", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 10(5)",
+          "newSection": "Schedule III, S.No. 8"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, HRA exemption was available under which section?",
+          "options": [
+            { "text": "Section 10(5)", "correct": false },
+            { "text": "Section 10(13A)", "correct": true },
+            { "text": "Section 10(14)", "correct": false },
+            { "text": "Section 16", "correct": false }
+          ],
+          "explanation": "HRA was under old Section 10(13A). In the new Act, it's at Schedule III, S.No. 11. This was covered in the previous lesson.",
+          "explanationWrong": "Old Section 10(13A) was HRA. Section 10(5) was LTC, and Section 10(14) was special allowances. These are three different provisions that all moved to different serial numbers in Schedule III.",
+          "tier": 1,
+          "subConcepts": ["hra", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 10(14)(i) covered special allowances granted to meet expenses incurred in the performance of duties. Where is this in the new Act?",
+          "options": [
+            { "text": "Schedule III, S.No. 11", "correct": false },
+            { "text": "Schedule III, S.No. 12", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Schedule III, S.No. 8", "correct": false }
+          ],
+          "explanation": "Old Section 10(14)(i) — special allowances for duty-related expenses — moved to Schedule III, S.No. 12. These include allowances like conveyance allowance, tour/transfer allowance, and daily allowance for ordinary expenses.",
+          "explanationWrong": "Section 10(14)(i) maps to Schedule III, S.No. 12. S.No. 11 is HRA, S.No. 8 is LTC, S.No. 13 is the other special allowances (old 10(14)(ii)). Remember the mapping: 10(14)(i)→12, 10(14)(ii)→13.",
+          "tier": 1,
+          "subConcepts": ["special-allowances", "section-mapping", "schedule-iii"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(i)",
+          "newSection": "Schedule III, S.No. 12"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 10(14)(ii) covered prescribed allowances (like children education allowance, hostel expenditure). What is its new location?",
+          "options": [
+            { "text": "Schedule III, S.No. 12", "correct": false },
+            { "text": "Schedule III, S.No. 13", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Schedule III, S.No. 11", "correct": false }
+          ],
+          "explanation": "Old Section 10(14)(ii) moved to Schedule III, S.No. 13. The distinction between 10(14)(i) and 10(14)(ii) continues — they just went to consecutive serial numbers: S.No. 12 and S.No. 13 respectively.",
+          "explanationWrong": "Section 10(14)(ii) = Schedule III, S.No. 13. The pair: 10(14)(i)→S.No. 12, 10(14)(ii)→S.No. 13. Both sub-clauses moved to consecutive serial numbers in Schedule III.",
+          "tier": 1,
+          "subConcepts": ["prescribed-allowances", "section-mapping", "schedule-iii"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(ii)",
+          "newSection": "Schedule III, S.No. 13"
+        }
+      ]
+    },
+    {
+      "title": "Terminal Benefits — The Big Move",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of these items moved from Section 10 exemption to Section 19 deduction?",
+          "options": [
+            { "text": "HRA", "correct": false },
+            { "text": "LTC", "correct": false },
+            { "text": "Gratuity", "correct": true },
+            { "text": "Special allowances", "correct": false }
+          ],
+          "explanation": "Gratuity moved from Section 10(10) exemption to Section 19 deduction. HRA, LTC, and special allowances went to Schedule III — they stayed as exemptions. Only terminal benefits (gratuity, pension, leave encashment, VRS, retrenchment) were reclassified as deductions.",
+          "explanationWrong": "Gratuity is one of the terminal benefits that moved to Section 19 deductions. HRA → Schedule III S.No. 11, LTC → Schedule III S.No. 8, Special allowances → Schedule III S.No. 12/13. The distinction is: recurring allowances stay exempt (Schedule III), terminal benefits become deductions (Section 19).",
+          "tier": 1,
+          "subConcepts": ["gratuity", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Name the four main terminal benefits that moved from Section 10 exemptions to Section 19 deductions.",
+          "options": [
+            { "text": "HRA, LTC, gratuity, standard deduction", "correct": false },
+            { "text": "Gratuity, pension commutation, leave encashment, VRS", "correct": true },
+            { "text": "Gratuity, HRA, pension, special allowances", "correct": false },
+            { "text": "Standard deduction, professional tax, entertainment allowance, gratuity", "correct": false }
+          ],
+          "explanation": "The four terminal benefits that moved: gratuity (old 10(10)), pension commutation (old 10(10A)), leave encashment (old 10(10AA)), and VRS (old 10(10C)). Retrenchment compensation (old 10(10B)) also moved. All are now deductions under Section 19.",
+          "explanationWrong": "Gratuity, pension commutation, leave encashment, and VRS are the four main terminal benefits reclassified from exemptions to deductions. HRA and LTC went to Schedule III (stayed exempt). Standard deduction and professional tax were already deductions under old Section 16.",
+          "tier": 1,
+          "subConcepts": ["terminal-benefits", "exemption-to-deduction", "comprehensive-list"],
+          "isReview": false,
+          "oldSection": "Section 10(10), 10(10A), 10(10AA), 10(10C)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "LTC exemption moved to which serial number in Schedule III?",
+          "options": [
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 8", "correct": true },
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 13", "correct": false }
+          ],
+          "explanation": "LTC = Schedule III, S.No. 8. Review from previous lesson. S.No. 11 = HRA.",
+          "explanationWrong": "LTC is S.No. 8 in Schedule III. Don't confuse with S.No. 11 (HRA) or S.No. 12/13 (special allowances).",
+          "tier": 1,
+          "subConcepts": ["ltc", "schedule-iii"],
+          "isReview": true,
+          "oldSection": "Section 10(5)",
+          "newSection": "Schedule III, S.No. 8"
+        },
+        {
+          "order": 4,
+          "question": "An employee receives both HRA and leave encashment on retirement. Under the new Act, are these claimed in the same section?",
+          "options": [
+            { "text": "Yes, both under Section 19", "correct": false },
+            { "text": "Yes, both under Schedule III", "correct": false },
+            { "text": "No — HRA under Schedule III (S.No. 11), leave encashment under Section 19", "correct": true },
+            { "text": "No — HRA under Section 10, leave encashment under Section 19", "correct": false }
+          ],
+          "explanation": "They're in different places: HRA stays an exemption under Schedule III (S.No. 11), while leave encashment becomes a deduction under Section 19. This split reflects the new Act's philosophy: recurring allowances → Schedule III; terminal benefits → Section 19.",
+          "explanationWrong": "HRA (Schedule III, S.No. 11) and leave encashment (Section 19) are treated differently. HRA is a recurring allowance — it stays an exemption. Leave encashment is a terminal benefit — it became a deduction. They are NOT in the same section.",
+          "tier": 1,
+          "subConcepts": ["hra", "leave-encashment", "split-treatment"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Section 10(10AA)",
+          "newSection": "Schedule III S.No. 11, Section 19"
+        },
+        {
+          "order": 5,
+          "question": "Which category of salary-related items went to Schedule III (rather than Section 19) in the new Act?",
+          "options": [
+            { "text": "Terminal benefits (gratuity, pension, VRS)", "correct": false },
+            { "text": "Recurring allowances and exemptions (HRA, LTC, special allowances)", "correct": true },
+            { "text": "All salary deductions", "correct": false },
+            { "text": "Employer contributions to retirement funds", "correct": false }
+          ],
+          "explanation": "Recurring allowances — HRA, LTC, special allowances — went to Schedule III. Terminal benefits — gratuity, pension, leave encashment, VRS — went to Section 19. This is the key sorting principle in the new Act's treatment of old Section 10 items.",
+          "explanationWrong": "Recurring allowances went to Schedule III; terminal benefits went to Section 19. The logic: allowances you receive regularly (monthly HRA, periodic LTC) stay as exemptions in a schedule. One-time terminal benefits (retirement gratuity, pension commutation) become deductions.",
+          "tier": 1,
+          "subConcepts": ["sorting-principle", "schedule-iii-vs-section-19"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule III, Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Why the Split Treatment?",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The new Act sends recurring allowances to Schedule III and terminal benefits to Section 19. What is the conceptual logic behind this split?",
+          "options": [
+            { "text": "Schedule III items are more valuable", "correct": false },
+            { "text": "Recurring items stay as exemptions (excluded); terminal items become deductions (subtracted from gross salary)", "correct": true },
+            { "text": "Section 19 items are available under both regimes", "correct": false },
+            { "text": "There is no logic — it's arbitrary", "correct": false }
+          ],
+          "explanation": "The logic: recurring allowances (HRA, LTC) are excluded from income (exemption character preserved in Schedule III). Terminal benefits (gratuity, pension) are included in income then deducted (reclassified as deductions in Section 19). The new Act keeps exemptions for items where exclusion makes sense and uses deductions where the amount enters salary first.",
+          "explanationWrong": "The split has a clear rationale: recurring allowances are best excluded (you never include them), while terminal lump-sums are better handled as deductions (include the full amount, then deduct the eligible portion). This aligns with how payroll systems actually process these items.",
+          "tier": 2,
+          "subConcepts": ["split-rationale", "exemption-vs-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule III, Section 19"
+        },
+        {
+          "order": 2,
+          "question": "An employee choosing between tax regimes must consider which of these?",
+          "options": [
+            { "text": "Only standard deduction amount", "correct": false },
+            { "text": "HRA and LTC are NOT available under new regime; standard deduction is higher at Rs 75K", "correct": true },
+            { "text": "All allowances are available under both regimes", "correct": false },
+            { "text": "The new regime has no standard deduction", "correct": false }
+          ],
+          "explanation": "Key regime factors for salary: HRA and LTC (Schedule III exemptions) are denied under the new regime (Section 202). But the new regime offers Rs 75K standard deduction (vs Rs 50K old). An employee with high rent and active LTC usage may find the old regime better despite the lower standard deduction.",
+          "explanationWrong": "The regime choice involves a trade-off: new regime gives Rs 75K standard deduction but denies HRA and LTC. Old regime gives Rs 50K standard deduction but allows HRA and LTC. The break-even depends on the employee's rent, travel patterns, and other deductions (80C, etc.).",
+          "tier": 2,
+          "subConcepts": ["regime-comparison", "hra", "ltc", "standard-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 10(5), 115BAC",
+          "newSection": "Schedule III, Section 19, Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, which serial number in Schedule III covers special allowances for duty-related expenses (old Section 10(14)(i))?",
+          "options": [
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 12", "correct": true },
+            { "text": "S.No. 13", "correct": false },
+            { "text": "S.No. 8", "correct": false }
+          ],
+          "explanation": "Section 10(14)(i) → Schedule III, S.No. 12. Review from Tier 1.",
+          "explanationWrong": "S.No. 12 = old 10(14)(i). S.No. 13 = old 10(14)(ii). These are consecutive serial numbers for the two sub-clauses of old Section 10(14).",
+          "tier": 2,
+          "subConcepts": ["special-allowances", "schedule-iii"],
+          "isReview": true,
+          "oldSection": "Section 10(14)(i)",
+          "newSection": "Schedule III, S.No. 12"
+        },
+        {
+          "order": 4,
+          "question": "A government employee receives HRA of Rs 30,000/month and is posted in Delhi (metro city). Under the new Act, if she opts for the OLD regime, how is HRA exemption calculated?",
+          "options": [
+            { "text": "The calculation method changed — new formula under Schedule III", "correct": false },
+            { "text": "Same calculation as before — least of (actual HRA, 50% of salary for metro, rent minus 10% of salary) — just referenced from Schedule III S.No. 11", "correct": true },
+            { "text": "Flat Rs 30,000 exemption with no calculation needed", "correct": false },
+            { "text": "HRA is not available to government employees", "correct": false }
+          ],
+          "explanation": "The HRA calculation formula is unchanged — it's still the least of three amounts: actual HRA, 50% of salary (metro) or 40% (non-metro), and rent paid minus 10% of salary. Only the section reference changed (10(13A) → Schedule III, S.No. 11). The computation mechanics are identical.",
+          "explanationWrong": "The HRA calculation method is exactly the same — no formula change. The only change is where you reference it: Schedule III, S.No. 11 instead of Section 10(13A). 50% for metro, 40% for non-metro, rent minus 10% — all unchanged.",
+          "tier": 2,
+          "subConcepts": ["hra", "computation", "no-formula-change"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 5,
+          "question": "Which of these allowances continues to be available under the new tax regime?",
+          "options": [
+            { "text": "HRA", "correct": false },
+            { "text": "LTC", "correct": false },
+            { "text": "Standard deduction (Rs 75,000)", "correct": true },
+            { "text": "Children education allowance", "correct": false }
+          ],
+          "explanation": "Standard deduction (Rs 75,000) is available under the new regime. HRA, LTC, children education allowance, and most Schedule III exemptions are NOT available under Section 202 (new regime). Standard deduction is in Section 19, not Schedule III.",
+          "explanationWrong": "Only standard deduction (Rs 75K) survives in the new regime. HRA, LTC, and children education allowance are all Schedule III exemptions — denied under Section 202. Standard deduction is a Section 19 deduction, which IS available under both regimes.",
+          "tier": 2,
+          "subConcepts": ["new-regime", "standard-deduction", "regime-availability"],
+          "isReview": false,
+          "oldSection": "Section 16(ia), Section 115BAC",
+          "newSection": "Section 19, Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Schedule III Deep Dive",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many salary-related items from old Section 10 moved to Schedule III?",
+          "options": [
+            { "text": "Only HRA and LTC (2 items)", "correct": false },
+            { "text": "At least 4 key items — HRA (S.No. 11), LTC (S.No. 8), special allowances (S.No. 12 and 13)", "correct": true },
+            { "text": "All Section 10 items moved to Schedule III", "correct": false },
+            { "text": "None — all went to Section 19", "correct": false }
+          ],
+          "explanation": "At least 4 key salary-related Section 10 items moved to Schedule III: HRA (S.No. 11), LTC (S.No. 8), special allowances for duties (S.No. 12), and prescribed allowances (S.No. 13). Terminal benefits went to Section 19 instead.",
+          "explanationWrong": "Four key items moved to Schedule III: HRA, LTC, and both categories of special allowances. Not ALL Section 10 items went to Schedule III — terminal benefits went to Section 19 instead. And non-salary Section 10 items (like agricultural income) went elsewhere.",
+          "tier": 2,
+          "subConcepts": ["schedule-iii", "comprehensive-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule III"
+        },
+        {
+          "order": 2,
+          "question": "An employee receives conveyance allowance for official travel. Under the old Act this was exempt under Section 10(14)(i). Where is this exemption now?",
+          "options": [
+            { "text": "Section 19", "correct": false },
+            { "text": "Schedule III, S.No. 12", "correct": true },
+            { "text": "Schedule III, S.No. 13", "correct": false },
+            { "text": "Abolished — no longer available", "correct": false }
+          ],
+          "explanation": "Conveyance allowance for official duties was under Section 10(14)(i), which maps to Schedule III, S.No. 12. The exemption still exists — only the reference has changed. S.No. 13 is for prescribed allowances under old 10(14)(ii).",
+          "explanationWrong": "Conveyance allowance = Schedule III, S.No. 12 (was Section 10(14)(i)). This covers allowances specifically granted to meet expenses incurred in performing duties of the office. The exemption is unchanged in substance.",
+          "tier": 2,
+          "subConcepts": ["special-allowances", "conveyance", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(i)",
+          "newSection": "Schedule III, S.No. 12"
+        },
+        {
+          "order": 3,
+          "question": "Is HRA exemption available under the new tax regime?",
+          "options": [
+            { "text": "Yes", "correct": false },
+            { "text": "No", "correct": true },
+            { "text": "Only up to Rs 60,000/year", "correct": false },
+            { "text": "Only for government employees", "correct": false }
+          ],
+          "explanation": "HRA is NOT available under the new regime. Review from Tier 1 — Section 202 denies Schedule III exemptions.",
+          "explanationWrong": "No — HRA exemption is denied under the new regime (Section 202). This is one of the most important regime-choice factors for salaried employees.",
+          "tier": 2,
+          "subConcepts": ["hra", "new-regime"],
+          "isReview": true,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 4,
+          "question": "Children education allowance was exempt under old Section 10(14)(ii) at Rs 100/month per child. Under the new Act, where is this exemption and has the limit changed?",
+          "options": [
+            { "text": "Schedule III, S.No. 13 — limit likely updated by rules", "correct": true },
+            { "text": "Section 19 — now a deduction at Rs 1,000/month", "correct": false },
+            { "text": "Abolished in the new Act", "correct": false },
+            { "text": "Schedule III, S.No. 12 — unchanged at Rs 100/month", "correct": false }
+          ],
+          "explanation": "Children education allowance falls under old Section 10(14)(ii), which maps to Schedule III, S.No. 13. The prescribed limits are set by rules, which are expected to be updated. The old Rs 100/month limit was notoriously outdated.",
+          "explanationWrong": "Children education allowance = Schedule III, S.No. 13 (from old 10(14)(ii)). Note: S.No. 12 is for 10(14)(i) items. The limits under 10(14)(ii) are prescribed by notification — the framework moved to Schedule III but the monetary limits depend on updated rules.",
+          "tier": 2,
+          "subConcepts": ["children-education", "prescribed-allowances", "schedule-iii"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(ii)",
+          "newSection": "Schedule III, S.No. 13"
+        },
+        {
+          "order": 5,
+          "question": "Which of these is the correct mapping for ALL four key salary-related Schedule III items?",
+          "options": [
+            { "text": "LTC=S.No.8, HRA=S.No.11, 10(14)(i)=S.No.12, 10(14)(ii)=S.No.13", "correct": true },
+            { "text": "HRA=S.No.8, LTC=S.No.11, 10(14)(i)=S.No.12, 10(14)(ii)=S.No.13", "correct": false },
+            { "text": "LTC=S.No.11, HRA=S.No.8, 10(14)(i)=S.No.13, 10(14)(ii)=S.No.12", "correct": false },
+            { "text": "HRA=S.No.12, LTC=S.No.13, 10(14)(i)=S.No.8, 10(14)(ii)=S.No.11", "correct": false }
+          ],
+          "explanation": "The complete mapping: LTC → S.No. 8, HRA → S.No. 11, Section 10(14)(i) → S.No. 12, Section 10(14)(ii) → S.No. 13. Mnemonic: LTC (8) comes first, HRA (11) in the middle, special allowances (12, 13) at the end.",
+          "explanationWrong": "Correct mapping: LTC=8, HRA=11, 10(14)(i)=12, 10(14)(ii)=13. The most common mix-up is swapping HRA and LTC serial numbers. LTC (8) has a lower number than HRA (11).",
+          "tier": 2,
+          "subConcepts": ["schedule-iii", "comprehensive-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(5), 10(13A), 10(14)",
+          "newSection": "Schedule III"
+        }
+      ]
+    },
+    {
+      "title": "Regime Choice — Impact on Allowances",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 202 (new regime), which of these is AVAILABLE to a salaried employee?",
+          "options": [
+            { "text": "HRA exemption", "correct": false },
+            { "text": "LTC exemption", "correct": false },
+            { "text": "Standard deduction of Rs 75,000", "correct": true },
+            { "text": "Children education allowance", "correct": false }
+          ],
+          "explanation": "Standard deduction (Rs 75,000) is a Section 19 deduction — available under both regimes. HRA, LTC, and children education allowance are Schedule III exemptions — not available under Section 202 (new regime).",
+          "explanationWrong": "Standard deduction is the only one available. The key principle: Section 19 deductions (standard deduction, professional tax, terminal benefits) are available under both regimes. Schedule III exemptions (HRA, LTC, special allowances) are denied under the new regime.",
+          "tier": 2,
+          "subConcepts": ["regime-availability", "standard-deduction"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "An employee pays rent of Rs 25,000/month in Mumbai and receives HRA of Rs 20,000/month. She is considering the new regime. What does she lose by choosing the new regime?",
+          "options": [
+            { "text": "Nothing — HRA is available under both regimes", "correct": false },
+            { "text": "The entire HRA exemption (potentially Rs 2.4 lakh/year), offset partially by higher standard deduction of Rs 25,000", "correct": true },
+            { "text": "Only the standard deduction", "correct": false },
+            { "text": "Both HRA and standard deduction", "correct": false }
+          ],
+          "explanation": "Under the new regime, she loses HRA exemption (up to Rs 20,000/month = Rs 2.4 lakh/year) but gains Rs 25,000 extra standard deduction (Rs 75K vs Rs 50K). Net loss could be up to Rs 2.15 lakh in deductions — making the old regime clearly better for her given the high rent.",
+          "explanationWrong": "She loses HRA (up to Rs 2.4L/year) but gains Rs 25K extra standard deduction. Net she's worse off by potentially Rs 2.15L under the new regime. For high-rent employees in metros, the old regime often wins because HRA exemption far exceeds the Rs 25K standard deduction advantage.",
+          "tier": 2,
+          "subConcepts": ["hra", "regime-comparison", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Section 115BAC",
+          "newSection": "Schedule III S.No. 11, Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Gratuity, pension commutation, and leave encashment moved from Section 10 to Section 19. Are these available under the new regime?",
+          "options": [
+            { "text": "No — they moved to deductions, which are denied under new regime", "correct": false },
+            { "text": "Yes — Section 19 deductions are available under both regimes", "correct": true },
+            { "text": "Only gratuity is available", "correct": false },
+            { "text": "Only under the old regime", "correct": false }
+          ],
+          "explanation": "Section 19 deductions (including terminal benefits) are available under BOTH regimes. The reclassification from exemption to deduction doesn't deny them under the new regime. Only Schedule III exemptions (HRA, LTC) are denied. This is a crucial distinction.",
+          "explanationWrong": "Yes — Section 19 deductions are available under both regimes. The new regime denies Schedule III exemptions, not Section 19 deductions. So gratuity, pension, leave encashment, VRS deductions are fully available even under Section 202.",
+          "tier": 2,
+          "subConcepts": ["terminal-benefits", "regime-availability"],
+          "isReview": true,
+          "oldSection": "Section 10(10), 10(10A), 10(10AA)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "A CA is advising a client who receives HRA of Rs 15,000/month, LTC of Rs 50,000/year, and claims 80C of Rs 1.5 lakh. Under the new regime, the client loses all three. What is the total annual deduction/exemption lost?",
+          "options": [
+            { "text": "Rs 2.3 lakh", "correct": false },
+            { "text": "Rs 3.8 lakh (HRA Rs 1.8L + LTC Rs 0.5L + 80C Rs 1.5L)", "correct": true },
+            { "text": "Rs 1.5 lakh (only 80C)", "correct": false },
+            { "text": "Rs 5 lakh", "correct": false }
+          ],
+          "explanation": "HRA (Rs 15K × 12 = Rs 1.8 lakh) + LTC (Rs 50K) + 80C (Rs 1.5 lakh) = Rs 3.8 lakh lost under new regime. Offset by Rs 25K extra standard deduction. Net loss = Rs 3.55 lakh. For this profile, old regime is clearly better.",
+          "explanationWrong": "Total lost = Rs 1.8L + Rs 0.5L + Rs 1.5L = Rs 3.8 lakh. The Rs 25K extra standard deduction under new regime doesn't come close to compensating. This client should stay on the old regime unless they have a very high income where lower slab rates outweigh the lost deductions.",
+          "tier": 2,
+          "subConcepts": ["regime-comparison", "total-deduction-impact", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 10(5), 80C",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 5,
+          "question": "For employees under the new regime, which salary-related deductions are still available?",
+          "options": [
+            { "text": "Standard deduction (Rs 75K), professional tax, and Section 19 terminal benefit deductions", "correct": true },
+            { "text": "Only standard deduction", "correct": false },
+            { "text": "All Section 19 and Schedule III items", "correct": false },
+            { "text": "No deductions at all", "correct": false }
+          ],
+          "explanation": "Under the new regime, ALL Section 19 deductions are available: standard deduction (Rs 75K), professional tax, entertainment allowance (government), and all terminal benefit deductions (gratuity, pension, leave encashment, VRS). What's denied is Schedule III exemptions (HRA, LTC, special allowances).",
+          "explanationWrong": "All Section 19 deductions survive in the new regime — not just standard deduction. Professional tax, entertainment allowance (government employees), and terminal benefit deductions are all Section 19 items and remain available. Only Schedule III items are denied.",
+          "tier": 2,
+          "subConcepts": ["regime-availability", "section-19-deductions"],
+          "isReview": false,
+          "oldSection": "Section 16, Section 115BAC",
+          "newSection": "Section 19, Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Applying the Mapping — Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Arun is a salaried employee who receives HRA (Rs 18K/month), LTC (Rs 60K/year), conveyance allowance (Rs 1,600/month), and retires mid-year receiving gratuity of Rs 20 lakh. Under the new Act, how many different locations must the CA reference for these four items?",
+          "options": [
+            { "text": "One — all under Section 10", "correct": false },
+            { "text": "Two — HRA, LTC, conveyance in Schedule III; gratuity in Section 19", "correct": true },
+            { "text": "Four — each has its own section", "correct": false },
+            { "text": "Three — Schedule III, Section 19, and Section 17", "correct": false }
+          ],
+          "explanation": "Two locations: HRA (S.No. 11), LTC (S.No. 8), and conveyance (S.No. 12) are all in Schedule III. Gratuity is in Section 19. Under the old Act, all four were in Section 10 — so the new Act actually splits them across two places instead of one, but the logic is clearer.",
+          "explanationWrong": "Two locations: Schedule III (for HRA, LTC, conveyance) and Section 19 (for gratuity). The old Act had them all in Section 10 — one section but multiple sub-sections. The new Act groups recurring allowances separately from terminal benefits.",
+          "tier": 3,
+          "subConcepts": ["practical-mapping", "multiple-benefits", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 10(5), 10(14)(i), 10(10)",
+          "newSection": "Schedule III, Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Under the new Act, can an employee under the new regime claim gratuity exemption (deduction) but not HRA exemption?",
+          "options": [
+            { "text": "No — either all or nothing under the new regime", "correct": false },
+            { "text": "Yes — gratuity is a Section 19 deduction (available under new regime); HRA is a Schedule III exemption (denied under new regime)", "correct": true },
+            { "text": "No — both are denied under the new regime", "correct": false },
+            { "text": "Yes, but only if gratuity is less than Rs 20 lakh", "correct": false }
+          ],
+          "explanation": "Correct — under the new regime, Section 19 deductions (gratuity, pension, leave encashment) ARE available, but Schedule III exemptions (HRA, LTC) are NOT. This is an important asymmetry — terminal benefits are protected regardless of regime choice.",
+          "explanationWrong": "Yes — this asymmetry is by design. The new Act protects terminal benefit deductions (Section 19) under both regimes because they're one-time retirement benefits. But recurring allowance exemptions (Schedule III) are denied under the new regime as part of the trade-off for lower slab rates.",
+          "tier": 3,
+          "subConcepts": ["regime-asymmetry", "gratuity-vs-hra"],
+          "isReview": false,
+          "oldSection": "Section 10(10), 10(13A), 115BAC",
+          "newSection": "Section 19, Schedule III, Section 202"
+        },
+        {
+          "order": 3,
+          "question": "What serial number does LTC occupy in Schedule III?",
+          "options": [
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 8", "correct": true },
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 13", "correct": false }
+          ],
+          "explanation": "LTC = S.No. 8. Review question — LTC has a lower serial number than HRA (S.No. 11).",
+          "explanationWrong": "LTC = Schedule III, S.No. 8. Don't confuse with HRA (S.No. 11).",
+          "tier": 3,
+          "subConcepts": ["ltc", "schedule-iii"],
+          "isReview": true,
+          "oldSection": "Section 10(5)",
+          "newSection": "Schedule III, S.No. 8"
+        },
+        {
+          "order": 4,
+          "question": "Priya receives a 'special allowance' of Rs 5,000/month to cover travel expenses incurred in performing her duties. Under the new Act, this falls under Schedule III, S.No. 12. To what extent is it exempt?",
+          "options": [
+            { "text": "Fully exempt up to Rs 5,000/month regardless of expenditure", "correct": false },
+            { "text": "Exempt to the extent of actual expenditure incurred for official duties", "correct": true },
+            { "text": "Exempt up to Rs 1,600/month (old transport allowance limit)", "correct": false },
+            { "text": "Not exempt — all allowances are taxable under new Act", "correct": false }
+          ],
+          "explanation": "Schedule III, S.No. 12 (old Section 10(14)(i)) exempts allowances to the extent of actual expenditure incurred in performance of duties. If Priya spends Rs 4,000/month on official travel, only Rs 4,000 is exempt; the remaining Rs 1,000 is taxable. This rule is unchanged from the old Act.",
+          "explanationWrong": "The exemption under S.No. 12 is limited to actual expenditure — same as old Section 10(14)(i). You must have proof of actual expenses. If Priya gets Rs 5,000 but spends only Rs 4,000 on duty-related travel, Rs 1,000 is taxable.",
+          "tier": 3,
+          "subConcepts": ["special-allowances", "actual-expenditure", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(14)(i)",
+          "newSection": "Schedule III, S.No. 12"
+        },
+        {
+          "order": 5,
+          "question": "A payroll team is building a decision tree for salary exemptions/deductions under the new Act. Which classification is correct?",
+          "options": [
+            { "text": "All old Section 10 items → Section 19", "correct": false },
+            { "text": "All old Section 10 items → Schedule III", "correct": false },
+            { "text": "Recurring allowances (HRA, LTC, special) → Schedule III; Terminal benefits (gratuity, pension, leave, VRS) → Section 19; Old Section 16 items → Section 19", "correct": true },
+            { "text": "Everything → Section 19; Schedule III is unused for salary", "correct": false }
+          ],
+          "explanation": "The complete classification: (1) Recurring allowances from old Section 10 → Schedule III (exemptions preserved), (2) Terminal benefits from old Section 10 → Section 19 (reclassified as deductions), (3) Old Section 16 deductions → Section 19 (stayed as deductions, just renumbered). This three-way split is the architecture of salary provisions in the new Act.",
+          "explanationWrong": "Three streams: recurring allowances → Schedule III, terminal benefits → Section 19, old deductions → Section 19. Not everything went to one place. The new Act sorted items by their nature: ongoing vs. one-time, exemption-suitable vs. deduction-suitable.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-classification", "decision-tree", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Section 10, Section 16",
+          "newSection": "Schedule III, Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Complex Regime Comparison",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Rajiv earns Rs 15 lakh, receives HRA of Rs 3 lakh, pays rent of Rs 30,000/month in Delhi, and claims 80C of Rs 1.5 lakh. Under the new regime he loses HRA and 80C. What is the approximate net annual difference in deductions between the two regimes?",
+          "options": [
+            { "text": "Rs 50,000 in favour of old regime", "correct": false },
+            { "text": "Rs 3.25 lakh in favour of old regime (HRA ~Rs 2L + 80C Rs 1.5L – extra SD Rs 25K)", "correct": true },
+            { "text": "Rs 1 lakh in favour of new regime", "correct": false },
+            { "text": "No difference", "correct": false }
+          ],
+          "explanation": "Old regime: HRA exemption (least of Rs 3L, 50% of salary, rent minus 10% ≈ Rs 2L) + 80C (Rs 1.5L) + SD Rs 50K = ~Rs 4L. New regime: SD Rs 75K only = Rs 0.75L. Difference ≈ Rs 3.25L in favour of old regime. The slab rate differences would need to offset this, which for Rs 15L salary, they likely don't fully.",
+          "explanationWrong": "Approximate calculation: HRA exemption ~Rs 2L + 80C Rs 1.5L = Rs 3.5L lost. Extra standard deduction of Rs 25K partially offsets. Net ~Rs 3.25L more deductions under old regime. Whether old regime is actually better depends on comparing this with the lower slab rates under new regime.",
+          "tier": 3,
+          "subConcepts": ["regime-comparison", "hra", "comprehensive-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 80C, 16(ia)",
+          "newSection": "Schedule III, Section 19, Section 202"
+        },
+        {
+          "order": 2,
+          "question": "An employee under the new regime retires and receives VRS compensation of Rs 5 lakh and leave encashment of Rs 25 lakh. Can she claim both deductions under Section 19?",
+          "options": [
+            { "text": "No — terminal benefits are not allowed under new regime", "correct": false },
+            { "text": "Yes — Section 19 deductions are available under both regimes", "correct": true },
+            { "text": "Only VRS, not leave encashment", "correct": false },
+            { "text": "Only if she switches to old regime for that year", "correct": false }
+          ],
+          "explanation": "Yes — Section 19 deductions (VRS, leave encashment, gratuity, pension) are available under BOTH regimes. The new regime only denies Schedule III exemptions (HRA, LTC), not Section 19 deductions. Her VRS (Rs 5 lakh, within Rs 5 lakh limit) and leave encashment (Rs 25 lakh, within Rs 25 lakh limit) are both fully deductible.",
+          "explanationWrong": "Both are deductible under the new regime. Section 19 deductions are regime-neutral. The Rs 5L VRS and Rs 25L leave encashment are within their respective limits, so both are fully deductible regardless of which regime she's on.",
+          "tier": 3,
+          "subConcepts": ["terminal-benefits", "regime-availability", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(10C), 10(10AA)",
+          "newSection": "Section 19, Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Under old Section 10(14)(ii), children education allowance was exempt at Rs 100/month per child. Where is this in the new Act?",
+          "options": [
+            { "text": "Schedule III, S.No. 12", "correct": false },
+            { "text": "Schedule III, S.No. 13", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Abolished", "correct": false }
+          ],
+          "explanation": "Old Section 10(14)(ii) = Schedule III, S.No. 13. Review from earlier lessons. S.No. 12 is for 10(14)(i) items.",
+          "explanationWrong": "Section 10(14)(ii) → S.No. 13. Section 10(14)(i) → S.No. 12. The two sub-clauses went to consecutive serial numbers.",
+          "tier": 3,
+          "subConcepts": ["children-education", "schedule-iii"],
+          "isReview": true,
+          "oldSection": "Section 10(14)(ii)",
+          "newSection": "Schedule III, S.No. 13"
+        },
+        {
+          "order": 4,
+          "question": "A company's HR team needs to update Form 16 for FY 2026-27. They need to reference the correct sections for each salary component. Match: HRA exemption, standard deduction, gratuity deduction, and LTC exemption to their new Act references.",
+          "options": [
+            { "text": "HRA=Sch III S.No.11, SD=Section 19, Gratuity=Section 19, LTC=Sch III S.No.8", "correct": true },
+            { "text": "All under Section 19", "correct": false },
+            { "text": "HRA=Section 19, SD=Section 19, Gratuity=Sch III, LTC=Section 19", "correct": false },
+            { "text": "HRA=Sch III S.No.8, SD=Section 19, Gratuity=Section 19, LTC=Sch III S.No.11", "correct": false }
+          ],
+          "explanation": "HRA = Schedule III S.No. 11, Standard Deduction = Section 19, Gratuity = Section 19, LTC = Schedule III S.No. 8. The split: exemptions (HRA, LTC) in Schedule III, deductions (standard deduction, gratuity) in Section 19.",
+          "explanationWrong": "Correct mapping: HRA → Sch III S.No. 11, SD → Section 19, Gratuity → Section 19, LTC → Sch III S.No. 8. The last option swaps HRA and LTC serial numbers — a common mistake. Remember: LTC (8) before HRA (11).",
+          "tier": 3,
+          "subConcepts": ["form-16-update", "comprehensive-mapping", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 16(ia), 10(10), 10(5)",
+          "newSection": "Schedule III, Section 19"
+        },
+        {
+          "order": 5,
+          "question": "For FY 2026-27, a salaried employee under the NEW regime receives salary of Rs 12 lakh, no HRA (company provides accommodation). She gets gratuity on retirement of Rs 15 lakh and professional tax of Rs 2,400. What total deductions can she claim under Section 19?",
+          "options": [
+            { "text": "Rs 75,000 (only standard deduction)", "correct": false },
+            { "text": "Rs 77,400 (standard deduction Rs 75K + professional tax Rs 2,400)", "correct": false },
+            { "text": "Rs 15,77,400 (gratuity Rs 15L + standard deduction Rs 75K + professional tax Rs 2,400)", "correct": true },
+            { "text": "Rs 15,75,000 (gratuity + standard deduction only)", "correct": false }
+          ],
+          "explanation": "Under Section 19: standard deduction (Rs 75,000) + professional tax (Rs 2,400) + gratuity deduction (Rs 15 lakh, within limit) = Rs 15,77,400. ALL three are Section 19 deductions, available under the new regime. The accommodation perquisite would be added to income under Section 17, but that's a separate computation.",
+          "explanationWrong": "Total Section 19 deductions = Rs 75,000 + Rs 2,400 + Rs 15,00,000 = Rs 15,77,400. Gratuity deduction is available under the new regime because it's a Section 19 deduction, not a Schedule III exemption. Professional tax is also a Section 19 item.",
+          "tier": 3,
+          "subConcepts": ["section-19-computation", "new-regime", "comprehensive-scenario"],
+          "isReview": false,
+          "oldSection": "Section 16, Section 10(10)",
+          "newSection": "Section 19, Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Master Review — What Moved Where",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Complete the mapping: Old Section 10(13A) → New ___",
+          "options": [
+            { "text": "Section 19", "correct": false },
+            { "text": "Schedule III, S.No. 11", "correct": true },
+            { "text": "Schedule III, S.No. 8", "correct": false },
+            { "text": "Section 17", "correct": false }
+          ],
+          "explanation": "Section 10(13A) (HRA) → Schedule III, S.No. 11. This is the most frequently referenced mapping in salary computation.",
+          "explanationWrong": "HRA: 10(13A) → Schedule III, S.No. 11. S.No. 8 is LTC, not HRA.",
+          "tier": 3,
+          "subConcepts": ["hra", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 2,
+          "question": "A CA prepares a cheat sheet for the new Act. Which statement accurately summarizes the three destinations for old salary-related Section 10 items?",
+          "options": [
+            { "text": "All went to Section 19", "correct": false },
+            { "text": "All went to Schedule III", "correct": false },
+            { "text": "Recurring allowances → Schedule III (exempt); Terminal benefits → Section 19 (deductions); Non-salary items → elsewhere in the Act", "correct": true },
+            { "text": "Small amounts → Schedule III; Large amounts → Section 19", "correct": false }
+          ],
+          "explanation": "Three destinations: (1) Recurring salary allowances (HRA, LTC, special allowances) → Schedule III as exemptions, (2) Terminal benefits (gratuity, pension, leave, VRS) → Section 19 as deductions, (3) Non-salary Section 10 items (agricultural income, etc.) → other parts of the Act. The sorting is by nature of the item, not by amount.",
+          "explanationWrong": "The three-destination framework: recurring allowances → Schedule III, terminal benefits → Section 19, non-salary items → elsewhere. The logic is conceptual (nature of income) not monetary (size of amount).",
+          "tier": 3,
+          "subConcepts": ["comprehensive-summary", "three-destinations"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule III, Section 19"
+        },
+        {
+          "order": 3,
+          "question": "What is the complete Schedule III serial number mapping for salary items? LTC=?, HRA=?, 10(14)(i)=?, 10(14)(ii)=?",
+          "options": [
+            { "text": "8, 11, 12, 13", "correct": true },
+            { "text": "11, 8, 12, 13", "correct": false },
+            { "text": "8, 11, 13, 12", "correct": false },
+            { "text": "11, 8, 13, 12", "correct": false }
+          ],
+          "explanation": "LTC=8, HRA=11, 10(14)(i)=12, 10(14)(ii)=13. Review from Tier 2. The four key Schedule III salary serial numbers.",
+          "explanationWrong": "LTC=8, HRA=11, 10(14)(i)=12, 10(14)(ii)=13. The most common mistake is swapping LTC and HRA.",
+          "tier": 3,
+          "subConcepts": ["schedule-iii", "serial-numbers"],
+          "isReview": true,
+          "oldSection": "Section 10(5), 10(13A), 10(14)(i), 10(14)(ii)",
+          "newSection": "Schedule III"
+        },
+        {
+          "order": 4,
+          "question": "Neha is a CA advising three clients: (A) a high-rent Mumbai employee with HRA, (B) a retiring employee with gratuity and VRS, (C) a low-deduction employee with no HRA. Which regime should each choose?",
+          "options": [
+            { "text": "All should choose new regime", "correct": false },
+            { "text": "A: Old regime (HRA benefit), B: Either (terminal benefits available in both), C: New regime (Rs 75K SD + lower slabs)", "correct": true },
+            { "text": "All should choose old regime", "correct": false },
+            { "text": "A and B: Old regime, C: New regime", "correct": false }
+          ],
+          "explanation": "Client A benefits from old regime (HRA exemption is significant for high-rent metros). Client B can choose either — terminal benefits under Section 19 are available under both regimes, so regime choice depends on other factors. Client C benefits from new regime — Rs 75K standard deduction + lower slabs, with no HRA/LTC to lose.",
+          "explanationWrong": "The key insight: Client B's terminal benefits are regime-neutral (Section 19 available under both). Client A needs the old regime for HRA. Client C gains from new regime's higher standard deduction and lower slabs. This three-client analysis captures the core regime-choice framework.",
+          "tier": 3,
+          "subConcepts": ["regime-advisory", "comprehensive-scenario", "practical-application"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), 10(10), 10(10C), 115BAC",
+          "newSection": "Schedule III, Section 19, Section 202"
+        },
+        {
+          "order": 5,
+          "question": "In the new Act's salary framework, what is the complete classification of where old provisions landed?",
+          "options": [
+            { "text": "Everything is in Section 19 now", "correct": false },
+            { "text": "Charging: S.15 | Definitions: S.16-18 | Deductions (including reclassified terminal benefits): S.19 | Exemptions (recurring allowances): Schedule III | Perquisite valuation: Rule 15", "correct": true },
+            { "text": "Only sections changed; rules and schedules are unchanged", "correct": false },
+            { "text": "Sections 15-19 cover everything; no schedules or rules needed", "correct": false }
+          ],
+          "explanation": "The complete salary framework: Section 15 (charging), Sections 16-18 (salary/perquisite/profit in lieu definitions), Section 19 (all deductions including reclassified terminal benefits), Schedule III (recurring allowance exemptions like HRA, LTC), Rule 15 (perquisite valuation, was Rule 3). This is the full map a CA needs to navigate salary provisions in the new Act.",
+          "explanationWrong": "The complete framework spans sections, schedules, AND rules. Sections 15-19 handle the main salary provisions. Schedule III handles exemptions for recurring allowances. Rule 15 handles perquisite valuation. A CA needs all three sources to fully compute salary income under the new Act.",
+          "tier": 3,
+          "subConcepts": ["complete-framework", "master-summary", "practical-reference"],
+          "isReview": false,
+          "oldSection": "Sections 10, 15, 16, 17, Rule 3",
+          "newSection": "Sections 15-19, Schedule III, Rule 15"
+        }
+      ]
+    }
+  ]
+}

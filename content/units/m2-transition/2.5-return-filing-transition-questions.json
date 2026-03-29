@@ -1,0 +1,835 @@
+{
+  "unit": "2.5",
+  "title": "Return Filing During Transition",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping for Returns",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 139(1), which governed filing of return of income within the due date, maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 263(1)", "correct": true },
+            { "text": "Section 139(1) — unchanged", "correct": false },
+            { "text": "Section 264(1)", "correct": false },
+            { "text": "Section 260(1)", "correct": false }
+          ],
+          "explanation": "Old Section 139(1) maps to Section 263(1) of the 2025 Act. The due-date filing obligation is substantively the same — only the section number has changed.",
+          "explanationWrong": "Section 263(1) is correct. The 2025 Act renumbers Section 139(1) to 263(1). The filing obligation and due dates remain unchanged.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "return-filing", "section-263"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": "Section 263(1)"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 139(4), which allowed filing a belated return, now corresponds to which new section?",
+          "options": [
+            { "text": "Section 263(5)", "correct": false },
+            { "text": "Section 263(4)", "correct": true },
+            { "text": "Section 264(4)", "correct": false },
+            { "text": "Section 263(6)", "correct": false }
+          ],
+          "explanation": "Old Section 139(4) for belated returns maps to Section 263(4) in the 2025 Act. The sub-section numbering within 263 mirrors the old 139 sub-sections.",
+          "explanationWrong": "Section 263(4) is correct. The belated return provision moves from 139(4) to 263(4). Note: 263(6) maps to old 139(8A) for updated returns, not belated returns.",
+          "tier": 1,
+          "subConcepts": ["belated-return", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 139(4)",
+          "newSection": "Section 263(4)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.4, which old TDS sections were consolidated into Section 393 of the 2025 Act?",
+          "options": [
+            { "text": "Sections 192 to 196D", "correct": false },
+            { "text": "Sections 194C to 194Q", "correct": false },
+            { "text": "Over 30 individual TDS sections", "correct": true },
+            { "text": "Only Sections 194 and 195", "correct": false }
+          ],
+          "explanation": "The 2025 Act consolidated over 30 individual TDS sections (192–196D) into a table-based structure under Section 393. This consolidation is a hallmark change of the new Act.",
+          "explanationWrong": "Over 30 TDS sections were consolidated into tables under Section 393. It wasn't limited to just a few sections — the entire TDS framework was restructured into three tables.",
+          "tier": 1,
+          "subConcepts": ["tds-consolidation", "section-393"],
+          "isReview": true,
+          "oldSection": "Sections 194C–196D",
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 139(5), which allowed filing a revised return, maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 263(4)", "correct": false },
+            { "text": "Section 264(5)", "correct": false },
+            { "text": "Section 263(5)", "correct": true },
+            { "text": "Section 263(6)", "correct": false }
+          ],
+          "explanation": "Old Section 139(5) for revised returns maps to Section 263(5). The sub-section numbering within 263 largely mirrors 139.",
+          "explanationWrong": "Section 263(5) is correct. 263(4) is belated return (old 139(4)), and 263(6) is updated return (old 139(8A)). The revised return provision sits at 263(5).",
+          "tier": 1,
+          "subConcepts": ["revised-return", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 139(5)",
+          "newSection": "Section 263(5)"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 139(8A), which introduced the updated return, maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 263(8A)", "correct": false },
+            { "text": "Section 263(6)", "correct": true },
+            { "text": "Section 264(1)", "correct": false },
+            { "text": "Section 263(5)", "correct": false }
+          ],
+          "explanation": "Old Section 139(8A) for updated returns maps to Section 263(6) — not 263(8A). The 2025 Act rationalised the sub-section numbering instead of carrying forward the '8A' notation.",
+          "explanationWrong": "Section 263(6) is correct. The 2025 Act dropped the '8A' notation and assigned a clean sub-section number. This is a good example of the Act's renumbering philosophy — substance unchanged, structure cleaned up.",
+          "tier": 1,
+          "subConcepts": ["updated-return", "section-mapping", "section-139-8A"],
+          "isReview": false,
+          "oldSection": "Section 139(8A)",
+          "newSection": "Section 263(6)"
+        }
+      ]
+    },
+    {
+      "title": "Due Dates and Filing Periods",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, the due dates for filing returns (July 31, August 31, October 31, November 30) have:",
+          "options": [
+            { "text": "Been extended by one month each", "correct": false },
+            { "text": "Remained unchanged from the old Act", "correct": true },
+            { "text": "Been unified to a single date of September 30", "correct": false },
+            { "text": "Been replaced with quarterly filing deadlines", "correct": false }
+          ],
+          "explanation": "The due dates under Section 263(1) remain the same as under old Section 139(1): July 31 for non-audit individuals, October 31 for audit cases, November 30 for transfer pricing, and August 31 for firms requiring audit of partner remuneration.",
+          "explanationWrong": "Due dates are unchanged. July 31, August 31, October 31, and November 30 continue as before. The 2025 Act did not alter the filing calendar.",
+          "tier": 1,
+          "subConcepts": ["due-dates", "filing-calendar"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": "Section 263(1)"
+        },
+        {
+          "order": 2,
+          "question": "An AY 2026-27 return (for FY 2025-26 income) will be filed using which Act and which forms?",
+          "options": [
+            { "text": "New Act, new ITR forms", "correct": false },
+            { "text": "Old Act, old ITR forms", "correct": true },
+            { "text": "New Act, old ITR forms", "correct": false },
+            { "text": "Old Act, new ITR forms", "correct": false }
+          ],
+          "explanation": "AY 2026-27 covers FY 2025-26 income, which falls under the old Act. Old ITR forms (ITR-1 through ITR-7) and old section references will apply. Due dates: July to November 2026.",
+          "explanationWrong": "Old Act, old forms. The new Act applies from TY 2026-27 (FY 2026-27 income). AY 2026-27 is the last return under the old regime.",
+          "tier": 1,
+          "subConcepts": ["ay-2026-27", "old-act-filing", "transition-timeline"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under old Section 44AB (now Section 63), what is the turnover threshold for mandatory tax audit for a business?",
+          "options": [
+            { "text": "Rs 1 crore (Rs 10 crore if 95% digital)", "correct": true },
+            { "text": "Rs 50 lakh", "correct": false },
+            { "text": "Rs 5 crore", "correct": false },
+            { "text": "Rs 2 crore universally", "correct": false }
+          ],
+          "explanation": "The tax audit threshold under Section 63 (old 44AB) remains unchanged — Rs 1 crore general, Rs 10 crore where 95%+ transactions are digital. The 2025 Act did not alter audit thresholds.",
+          "explanationWrong": "Rs 1 crore is the base threshold (Rs 10 crore with 95% digital receipts/payments). This threshold is carried forward unchanged from old Section 44AB to new Section 63.",
+          "tier": 1,
+          "subConcepts": ["tax-audit", "section-63", "audit-threshold"],
+          "isReview": true,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 4,
+          "question": "The first return under the new Act (TY 2026-27, for FY 2026-27 income) will be due between:",
+          "options": [
+            { "text": "July to November 2026", "correct": false },
+            { "text": "July to November 2027", "correct": true },
+            { "text": "April to June 2027", "correct": false },
+            { "text": "January to March 2028", "correct": false }
+          ],
+          "explanation": "TY 2026-27 covers income from April 2026 to March 2027. Returns for this period will be due July to November 2027, using new Act forms and new section references.",
+          "explanationWrong": "July to November 2027 is correct. TY 2026-27 income (April 2026 – March 2027) returns are filed after the year ends, with due dates in July-November 2027.",
+          "tier": 1,
+          "subConcepts": ["ty-2026-27", "new-act-filing", "first-return-new-act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 263(1)"
+        },
+        {
+          "order": 5,
+          "question": "Will taxpayers need to file two returns (one under each Act) for the same income period during the transition?",
+          "options": [
+            { "text": "Yes — one under each Act for FY 2026-27", "correct": false },
+            { "text": "Yes — but only if income exceeds Rs 50 lakh", "correct": false },
+            { "text": "No — each return covers a separate income period, so there is no double filing", "correct": true },
+            { "text": "No — the old Act is immediately repealed, so only new Act returns apply", "correct": false }
+          ],
+          "explanation": "There is NO double filing. AY 2026-27 return (old Act) covers FY 2025-26 income. TY 2026-27 return (new Act) covers FY 2026-27 income. These are different income periods filed at different times.",
+          "explanationWrong": "No double filing. The two returns cover separate income periods — FY 2025-26 (old Act) and FY 2026-27 (new Act). The old Act is not 'immediately repealed' for pending matters; it continues to apply for pre-commencement income.",
+          "tier": 1,
+          "subConcepts": ["no-double-filing", "transition-clarity"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": "Section 263(1)"
+        }
+      ]
+    },
+    {
+      "title": "Time Limits for Returns",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, the time limit for filing a belated return under Section 263(4) is:",
+          "options": [
+            { "text": "6 months from end of tax year", "correct": false },
+            { "text": "9 months from end of tax year", "correct": true },
+            { "text": "12 months from end of tax year", "correct": false },
+            { "text": "24 months from end of tax year", "correct": false }
+          ],
+          "explanation": "Section 263(4) allows belated returns up to 9 months from the end of the tax year. Under the old Act, the effective window was also approximately 9 months (December 31 of the AY), so this is substantially unchanged.",
+          "explanationWrong": "9 months is correct. The belated return window under the new Act is 9 months from the end of the tax year, broadly similar to the old Act's December 31 deadline.",
+          "tier": 1,
+          "subConcepts": ["belated-return-time-limit", "section-263-4"],
+          "isReview": false,
+          "oldSection": "Section 139(4)",
+          "newSection": "Section 263(4)"
+        },
+        {
+          "order": 2,
+          "question": "Under the 2025 Act, the time limit for filing a revised return under Section 263(5) is:",
+          "options": [
+            { "text": "9 months from end of tax year", "correct": false },
+            { "text": "12 months from end of tax year", "correct": true },
+            { "text": "24 months from end of tax year", "correct": false },
+            { "text": "6 months from end of tax year", "correct": false }
+          ],
+          "explanation": "Section 263(5) allows revised returns up to 12 months from the end of the tax year. Under the old Act, the window was also approximately 12 months (end of the relevant AY), so the substance is unchanged.",
+          "explanationWrong": "12 months is correct. The revised return window is 12 months from end of tax year under Section 263(5). The belated return window is shorter at 9 months.",
+          "tier": 1,
+          "subConcepts": ["revised-return-time-limit", "section-263-5"],
+          "isReview": false,
+          "oldSection": "Section 139(5)",
+          "newSection": "Section 263(5)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 536 of the 2025 Act, the old Income-tax Act, 1961 is:",
+          "options": [
+            { "text": "Amended but not repealed", "correct": false },
+            { "text": "Repealed entirely", "correct": true },
+            { "text": "Kept in force for five years", "correct": false },
+            { "text": "Applicable only to NRIs", "correct": false }
+          ],
+          "explanation": "Section 536(1) repeals the Income-tax Act, 1961. However, the saving clauses ensure that pending proceedings, assessments, and returns for pre-commencement periods continue under the old Act's provisions.",
+          "explanationWrong": "Section 536(1) repeals the old Act entirely. But 'repeal' does not mean 'vanish' — the saving clauses preserve the old Act's application for income earned before the new Act commenced.",
+          "tier": 1,
+          "subConcepts": ["repeal", "section-536", "saving-clauses"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536"
+        },
+        {
+          "order": 4,
+          "question": "The updated return under Section 263(6) of the 2025 Act can be filed within how many months from the end of the tax year?",
+          "options": [
+            { "text": "24 months", "correct": false },
+            { "text": "36 months", "correct": false },
+            { "text": "48 months", "correct": true },
+            { "text": "60 months", "correct": false }
+          ],
+          "explanation": "Section 263(6) allows an updated return within 48 months from the end of the relevant tax year. Under the old Act, Section 139(8A) allowed 24 months. This is a significant extension.",
+          "explanationWrong": "48 months is correct — double the old Act's 24-month window under Section 139(8A). This extended period gives taxpayers more time to voluntarily correct omissions.",
+          "tier": 1,
+          "subConcepts": ["updated-return-time-limit", "section-263-6", "48-months"],
+          "isReview": false,
+          "oldSection": "Section 139(8A)",
+          "newSection": "Section 263(6)"
+        },
+        {
+          "order": 5,
+          "question": "Can a belated or revised return for AY 2025-26 (FY 2024-25 income) be filed after April 1, 2026?",
+          "options": [
+            { "text": "Yes — the new Act extends the deadline", "correct": false },
+            { "text": "Yes — the portal allows it until June 30, 2026", "correct": false },
+            { "text": "No — the time limit expired on December 31, 2025 / March 31, 2026", "correct": true },
+            { "text": "No — but an updated return can be filed", "correct": false }
+          ],
+          "explanation": "AY 2025-26 belated return deadline was December 31, 2025, and revised return deadline was March 31, 2026. Both expired before April 1, 2026. These cannot be filed after the deadline under either Act.",
+          "explanationWrong": "No. AY 2025-26 belated returns expired December 31, 2025, and revised returns expired March 31, 2026. The new Act does not extend expired deadlines for old-Act returns.",
+          "tier": 1,
+          "subConcepts": ["ay-2025-26-deadline", "expired-returns", "no-extension"],
+          "isReview": false,
+          "oldSection": "Section 139(4), 139(5)",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Why Two Return Regimes Coexist",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why does the income tax portal need to support both AY and TY selections simultaneously during the transition?",
+          "options": [
+            { "text": "Because taxpayers can choose which Act to file under", "correct": false },
+            { "text": "Because AY 2026-27 (old Act) and TY 2026-27 (new Act) returns are filed in overlapping calendar periods", "correct": true },
+            { "text": "Because the government hasn't decided which system to use", "correct": false },
+            { "text": "Because NRIs must file under the old Act while residents file under the new Act", "correct": false }
+          ],
+          "explanation": "AY 2026-27 returns (old Act, due July–Nov 2026) and TY 2026-27 returns (new Act, due July–Nov 2027) will coexist on the portal. During July–November 2027, some taxpayers may still be filing belated AY 2026-27 returns while others file TY 2026-27 returns.",
+          "explanationWrong": "The portal needs both because AY and TY returns overlap in calendar time. It's not about taxpayer choice or NRI rules — it's about two separate income periods being processed through the same portal.",
+          "tier": 2,
+          "subConcepts": ["portal-transition", "ay-ty-coexistence"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": "Section 263(1)"
+        },
+        {
+          "order": 2,
+          "question": "Why is the term 'Assessment Year' not used in TY 2026-27 return filing?",
+          "options": [
+            { "text": "Because the assessment process has been abolished", "correct": false },
+            { "text": "Because the 2025 Act eliminated the Assessment Year concept entirely and uses 'Tax Year' instead", "correct": true },
+            { "text": "Because assessments now happen in the same year as income", "correct": false },
+            { "text": "Because only the term 'Financial Year' is used going forward", "correct": false }
+          ],
+          "explanation": "The 2025 Act completely eliminates the Assessment Year concept. Section 2(9) of the old Act (defining AY) has no equivalent. The new Act uses 'tax year' and 'succeeding tax year' instead.",
+          "explanationWrong": "The Assessment Year concept is eliminated in the 2025 Act — not just renamed. The assessment process itself continues; it's only the 'AY' terminology and the one-year-lag labelling system that are gone.",
+          "tier": 2,
+          "subConcepts": ["assessment-year-eliminated", "terminology-change"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.3, a loss from FY 2025-26 filed within the due date under the old Act will:",
+          "options": [
+            { "text": "Be extinguished when the new Act commences", "correct": false },
+            { "text": "Carry forward under the new Act's provisions", "correct": true },
+            { "text": "Carry forward only if re-filed under the new Act", "correct": false },
+            { "text": "Be available only against FY 2025-26 income", "correct": false }
+          ],
+          "explanation": "Losses from FY 2025-26 filed within the due date carry forward into the new Act regime. The saving and transition provisions ensure continuity of carried-forward losses.",
+          "explanationWrong": "Losses filed within due date carry forward — the transition provisions preserve this right. No re-filing is needed. But a belated loss return would NOT allow carry-forward.",
+          "tier": 2,
+          "subConcepts": ["loss-carry-forward", "transition-continuity"],
+          "isReview": true,
+          "oldSection": "Section 80",
+          "newSection": "Schedule XII"
+        },
+        {
+          "order": 4,
+          "question": "Why can't a belated loss return for FY 2025-26 carry forward the loss, even though the return itself may be validly filed?",
+          "options": [
+            { "text": "Because the new Act prohibits all loss carry-forward from prior years", "correct": false },
+            { "text": "Because belated returns never allowed carry-forward of business/capital losses under the old Act, and this rule continues", "correct": true },
+            { "text": "Because the loss must exceed Rs 10 lakh to carry forward", "correct": false },
+            { "text": "Because belated returns are invalid under the transition provisions", "correct": false }
+          ],
+          "explanation": "Under old Section 80, business and capital losses could only be carried forward if the return was filed within the due date under Section 139(1). A belated return under Section 139(4) forfeited the carry-forward right. This rule persists in the transition.",
+          "explanationWrong": "The old Act's Section 80 required timely filing for loss carry-forward. A belated return was valid for reporting income but forfeited the carry-forward benefit. The new Act hasn't changed this principle.",
+          "tier": 2,
+          "subConcepts": ["belated-loss-return", "section-80", "carry-forward-condition"],
+          "isReview": false,
+          "oldSection": "Section 80",
+          "newSection": "Section 263(4)"
+        },
+        {
+          "order": 5,
+          "question": "The 2025 Act extended the updated return window from 24 months to 48 months. What is the policy rationale?",
+          "options": [
+            { "text": "To allow more time for voluntary compliance and reduce litigation", "correct": true },
+            { "text": "To give the department more time to issue notices", "correct": false },
+            { "text": "To align with the GST return filing window", "correct": false },
+            { "text": "To replace the assessment and reassessment process entirely", "correct": false }
+          ],
+          "explanation": "The extended 48-month window for updated returns incentivises voluntary compliance. When taxpayers can self-correct for a longer period, it reduces the need for departmental reassessments and associated litigation.",
+          "explanationWrong": "The 48-month window is about voluntary compliance, not departmental convenience. The updated return mechanism encourages taxpayers to come forward rather than face reassessment proceedings.",
+          "tier": 2,
+          "subConcepts": ["updated-return-rationale", "voluntary-compliance", "litigation-reduction"],
+          "isReview": false,
+          "oldSection": "Section 139(8A)",
+          "newSection": "Section 263(6)"
+        }
+      ]
+    },
+    {
+      "title": "Form Mapping During Transition",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Form 16 (TDS certificate on salary) has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 168", "correct": false }
+          ],
+          "explanation": "Form 16 is now Form 130 under the 2025 Act. CAs and employers will need to use Form 130 for TDS certificates on salary for TY 2026-27 onwards.",
+          "explanationWrong": "Form 130 replaces old Form 16. Form 121 replaces Forms 15G/15H, Form 26 replaces 3CA/3CB/3CD, and Form 168 replaces 26AS.",
+          "tier": 2,
+          "subConcepts": ["form-mapping", "form-16-to-130", "tds-certificate"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Old Forms 3CA, 3CB, and 3CD (tax audit report forms) have been merged into which single form under the 2025 Act?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 128", "correct": false }
+          ],
+          "explanation": "Forms 3CA, 3CB, and 3CD — the three separate tax audit report forms — are now consolidated into a single Form 26. This simplification is significant for CAs who conduct tax audits.",
+          "explanationWrong": "Form 26 consolidates all three old tax audit forms (3CA for accounts audited under other law, 3CB for other audits, and 3CD the detailed particulars). One form instead of three.",
+          "tier": 2,
+          "subConcepts": ["form-merger", "form-26", "tax-audit-forms"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, which Act governs the carry-forward of depreciation for assets used in FY 2025-26?",
+          "options": [
+            { "text": "Only the new Act", "correct": false },
+            { "text": "Only the old Act", "correct": false },
+            { "text": "The old Act for computation, with carry-forward continuing under the new Act", "correct": true },
+            { "text": "Neither — depreciation must be recalculated from scratch", "correct": false }
+          ],
+          "explanation": "FY 2025-26 depreciation is computed under the old Act. The unabsorbed depreciation carries forward into the new Act regime through the transition/saving provisions. There's no recalculation from scratch.",
+          "explanationWrong": "Old Act governs computation for FY 2025-26; the carry-forward continues seamlessly into the new Act. The transition provisions ensure continuity — no need to start depreciation calculations afresh.",
+          "tier": 2,
+          "subConcepts": ["depreciation-carry-forward", "transition-continuity"],
+          "isReview": true,
+          "oldSection": "Section 32",
+          "newSection": "Schedule XII"
+        },
+        {
+          "order": 4,
+          "question": "Old Forms 15G and 15H (declarations for non-deduction of TDS) have been merged into which form?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 97", "correct": false }
+          ],
+          "explanation": "Forms 15G (for individuals below 60) and 15H (for senior citizens) are now combined into a single Form 121. The merger simplifies the self-declaration process for non-deduction of TDS.",
+          "explanationWrong": "Form 121 merges old Forms 15G and 15H. The distinction between the two (age-based eligibility) may still exist in the rules, but the form itself is consolidated.",
+          "tier": 2,
+          "subConcepts": ["form-merger", "form-121", "15G-15H"],
+          "isReview": false,
+          "oldSection": "Section 197A",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Old Form 26AS (Annual Tax Statement) has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 141", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 93", "correct": false }
+          ],
+          "explanation": "Form 26AS is now Form 168 under the 2025 Act. CAs reconciling TDS credits will reference Form 168 for TY 2026-27 returns onwards.",
+          "explanationWrong": "Form 168 replaces old Form 26AS. Form 141 replaces the 26QB/QC/QD/QE series, and Form 93 relates to PAN applications (old Form 49A for individuals).",
+          "tier": 2,
+          "subConcepts": ["form-mapping", "form-168", "26AS"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Late Filing and Penalties",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 234F (late filing fee) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 263", "correct": false },
+            { "text": "Section 428", "correct": true },
+            { "text": "Section 234", "correct": false },
+            { "text": "Section 500", "correct": false }
+          ],
+          "explanation": "Old Section 234F maps to Section 428 of the 2025 Act. The late filing fee amounts remain unchanged.",
+          "explanationWrong": "Section 428 is correct. It replaces old Section 234F with the same fee structure: Rs 1,000 for income up to Rs 5 lakh, Rs 5,000 for others.",
+          "tier": 2,
+          "subConcepts": ["late-filing-fee", "section-428", "penalty-mapping"],
+          "isReview": false,
+          "oldSection": "Section 234F",
+          "newSection": "Section 428"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 428 (old 234F), the late filing fee for a taxpayer with total income exceeding Rs 5 lakh is:",
+          "options": [
+            { "text": "Rs 1,000", "correct": false },
+            { "text": "Rs 5,000", "correct": true },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "1% of tax due", "correct": false }
+          ],
+          "explanation": "Section 428 prescribes Rs 5,000 for taxpayers with total income exceeding Rs 5 lakh, and Rs 1,000 for those with income up to Rs 5 lakh. These amounts are unchanged from old Section 234F.",
+          "explanationWrong": "Rs 5,000 for income above Rs 5 lakh. The reduced fee of Rs 1,000 applies only where total income does not exceed Rs 5 lakh. No percentage-based calculation applies here.",
+          "tier": 2,
+          "subConcepts": ["late-filing-fee-amount", "section-428"],
+          "isReview": false,
+          "oldSection": "Section 234F",
+          "newSection": "Section 428"
+        },
+        {
+          "order": 3,
+          "question": "Old Forms 26QB, 26QC, 26QD, and 26QE have been consolidated into which single form?",
+          "options": [
+            { "text": "Form 168", "correct": false },
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 141", "correct": true },
+            { "text": "Form 130", "correct": false }
+          ],
+          "explanation": "Forms 26QB (property TDS), 26QC (rent TDS), 26QD (contractor TDS under 194M), and 26QE (virtual digital assets TDS) are consolidated into Form 141.",
+          "explanationWrong": "Form 141 consolidates the 26Q series (QB/QC/QD/QE). Form 26 is for tax audit reports, Form 168 replaces 26AS, and Form 130 replaces Form 16.",
+          "tier": 2,
+          "subConcepts": ["form-merger", "form-141", "26QB-series"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Section 63 of the 2025 Act (old Section 44AB) requires a tax audit. The merged audit report form is Form 26. Which old forms does it replace?",
+          "options": [
+            { "text": "Form 3CA and Form 3CB only", "correct": false },
+            { "text": "Form 3CA, Form 3CB, and Form 3CD", "correct": true },
+            { "text": "Form 3CD and Form 29B only", "correct": false },
+            { "text": "Form 10B and Form 10BB", "correct": false }
+          ],
+          "explanation": "Form 26 merges all three tax audit forms: 3CA (for entities audited under another law), 3CB (for other entities), and 3CD (statement of particulars). CAs conducting tax audits will use a single Form 26.",
+          "explanationWrong": "All three — 3CA, 3CB, and 3CD — merge into Form 26. Form 29B (MAT audit) and Forms 10B/10BB (charitable trust audit) are separate forms with their own mappings.",
+          "tier": 2,
+          "subConcepts": ["tax-audit-form", "form-26", "section-63"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 49A (PAN application for Indian citizens) maps to which forms under the 2025 Act?",
+          "options": [
+            { "text": "Form 93 and Form 94", "correct": true },
+            { "text": "Form 95 and Form 96", "correct": false },
+            { "text": "Form 134 and Form 135", "correct": false },
+            { "text": "Form 97", "correct": false }
+          ],
+          "explanation": "Old Form 49A maps to Forms 93 and 94 under the 2025 Act. Old Form 49AA (PAN for foreign citizens) maps to Forms 95 and 96.",
+          "explanationWrong": "Forms 93/94 replace old Form 49A. Forms 95/96 replace old Form 49AA (foreign citizens). Forms 134/135 replace old Form 49B (TAN application). Form 97 replaces old Form 60 (declaration by non-PAN holders).",
+          "tier": 2,
+          "subConcepts": ["form-mapping", "PAN-forms", "form-49A"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Client Advisory Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A salaried client asks: 'I've already filed my AY 2025-26 return. Do I need to file anything again under the new Act?' What is your advice?",
+          "options": [
+            { "text": "Yes — re-file under the new Act by July 31, 2026", "correct": false },
+            { "text": "No — AY 2025-26 is fully governed by the old Act and your filed return is final (subject to revised/updated return options under old Act)", "correct": true },
+            { "text": "Yes — file a confirmatory return under Section 263", "correct": false },
+            { "text": "No action needed, but the return will be auto-migrated to the new Act format", "correct": false }
+          ],
+          "explanation": "AY 2025-26 return (FY 2024-25 income) is entirely under the old Act. No re-filing under the new Act is required. The only options are a revised return (if within time) or an updated return under old Section 139(8A).",
+          "explanationWrong": "No re-filing needed. AY 2025-26 stays under the old Act. There is no 'confirmatory return' concept, and returns are not auto-migrated. The old Act governs all aspects of that return.",
+          "tier": 3,
+          "subConcepts": ["client-advisory", "ay-2025-26", "no-re-filing"],
+          "isReview": false,
+          "oldSection": "Section 139",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Your client, a partnership firm with an October 31 due date, has FY 2025-26 income to report. When and under which Act do they file?",
+          "options": [
+            { "text": "By October 31, 2026, under the new Act using new ITR forms", "correct": false },
+            { "text": "By October 31, 2026, under the old Act using old ITR forms", "correct": true },
+            { "text": "By October 31, 2027, under the new Act", "correct": false },
+            { "text": "By July 31, 2026, under the old Act", "correct": false }
+          ],
+          "explanation": "FY 2025-26 income = AY 2026-27. The old Act applies. A firm requiring audit has an October 31 due date. So the return is due by October 31, 2026, using old Act forms and section references.",
+          "explanationWrong": "October 31, 2026, under the old Act. FY 2025-26 income falls under AY 2026-27, governed entirely by the old Act. The October 31 due date applies to audit cases (firms).",
+          "tier": 3,
+          "subConcepts": ["firm-filing", "audit-due-date", "old-act-return"],
+          "isReview": false,
+          "oldSection": "Section 139(1)",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, late filing fee under Section 428 for a taxpayer with income of Rs 4.5 lakh is:",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Nil — no fee below Rs 5 lakh", "correct": false },
+            { "text": "Rs 1,000", "correct": true },
+            { "text": "Rs 2,500", "correct": false }
+          ],
+          "explanation": "Under Section 428 (old 234F), the late filing fee for income up to Rs 5 lakh is Rs 1,000. It is not nil — the reduced fee still applies. Rs 5,000 applies only for income exceeding Rs 5 lakh.",
+          "explanationWrong": "Rs 1,000 is correct. Even for income up to Rs 5 lakh, the late filing fee is not zero — it's a reduced amount of Rs 1,000 under Section 428.",
+          "tier": 3,
+          "subConcepts": ["late-filing-fee", "section-428", "income-threshold"],
+          "isReview": true,
+          "oldSection": "Section 234F",
+          "newSection": "Section 428"
+        },
+        {
+          "order": 4,
+          "question": "A client has a capital loss of Rs 8 lakh from FY 2025-26 but missed the July 31, 2026 due date. They file a belated return on November 15, 2026. Can they carry forward the capital loss?",
+          "options": [
+            { "text": "Yes — belated returns allow all loss carry-forwards", "correct": false },
+            { "text": "No — capital loss carry-forward requires filing within the due date under Section 139(1)", "correct": true },
+            { "text": "Yes — but only if the loss exceeds Rs 10 lakh", "correct": false },
+            { "text": "No — capital losses can never be carried forward", "correct": false }
+          ],
+          "explanation": "Under old Section 80, capital losses (other than house property loss) can only be carried forward if the return is filed within the due date under Section 139(1). A belated return under 139(4) forfeits this right. The client loses the Rs 8 lakh carry-forward.",
+          "explanationWrong": "No carry-forward. Old Section 80 mandates timely filing for carrying forward business and capital losses. House property loss is the exception — it can be carried forward even with a belated return.",
+          "tier": 3,
+          "subConcepts": ["capital-loss-carry-forward", "belated-return-consequence", "due-date-importance"],
+          "isReview": false,
+          "oldSection": "Section 80",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client wants to revise their AY 2026-27 return (filed July 15, 2026 under the old Act). What is the last date to file the revised return?",
+          "options": [
+            { "text": "December 31, 2026", "correct": false },
+            { "text": "March 31, 2027", "correct": true },
+            { "text": "July 31, 2027", "correct": false },
+            { "text": "December 31, 2027", "correct": false }
+          ],
+          "explanation": "AY 2026-27 is the last assessment year under the old Act. Under old Section 139(5), a revised return can be filed before the end of the relevant assessment year — i.e., March 31, 2027.",
+          "explanationWrong": "March 31, 2027 is correct. Under the old Act, revised returns must be filed before the end of the AY (March 31, 2027 for AY 2026-27). The new Act's 12-month rule doesn't apply to old-Act returns.",
+          "tier": 3,
+          "subConcepts": ["revised-return-deadline", "ay-2026-27", "old-act-timeline"],
+          "isReview": false,
+          "oldSection": "Section 139(5)",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Portal and Compliance Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "In September 2027, a CA logs into the income tax portal. Which return types could they potentially be filing?",
+          "options": [
+            { "text": "Only TY 2026-27 returns under the new Act", "correct": false },
+            { "text": "Belated AY 2026-27 returns (old Act) and TY 2026-27 returns (new Act)", "correct": true },
+            { "text": "Only AY 2026-27 returns under the old Act", "correct": false },
+            { "text": "AY 2027-28 returns under the old Act", "correct": false }
+          ],
+          "explanation": "In September 2027, belated AY 2026-27 returns may still be within time (if extended or pending), and TY 2026-27 returns are due. The portal supports both AY and TY selections simultaneously.",
+          "explanationWrong": "Both return types coexist. Belated old-Act returns and current new-Act returns may both be in play in September 2027. There is no AY 2027-28 — the AY concept ends with AY 2026-27.",
+          "tier": 3,
+          "subConcepts": ["portal-coexistence", "dual-regime-filing"],
+          "isReview": false,
+          "oldSection": "Section 139(4)",
+          "newSection": "Section 263(1)"
+        },
+        {
+          "order": 2,
+          "question": "A client earned salary income in both FY 2025-26 and FY 2026-27. Which TDS certificate forms will they receive for each year?",
+          "options": [
+            { "text": "Form 16 for both years", "correct": false },
+            { "text": "Form 130 for both years", "correct": false },
+            { "text": "Form 16 for FY 2025-26, Form 130 for FY 2026-27", "correct": true },
+            { "text": "Form 130 for FY 2025-26, Form 16 for FY 2026-27", "correct": false }
+          ],
+          "explanation": "FY 2025-26 salary TDS is under the old Act — Form 16 applies. FY 2026-27 salary TDS is under the new Act — Form 130 applies. The form used depends on which Act governs the relevant period.",
+          "explanationWrong": "Form 16 for old Act (FY 2025-26), Form 130 for new Act (FY 2026-27). The form mapping follows the Act applicable to the income period, not the calendar date of issuance.",
+          "tier": 3,
+          "subConcepts": ["form-16-to-130", "tds-certificate-transition"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Old Form 13 (certificate for lower/nil TDS deduction) maps to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 128", "correct": true },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 141", "correct": false }
+          ],
+          "explanation": "Old Form 13 (application for lower/nil TDS certificate under old Section 197) maps to Form 128 under the 2025 Act.",
+          "explanationWrong": "Form 128 replaces old Form 13. Form 121 replaces 15G/15H, Form 130 replaces Form 16, and Form 141 replaces 26QB/QC/QD/QE.",
+          "tier": 3,
+          "subConcepts": ["form-13-to-128", "lower-tds-certificate"],
+          "isReview": true,
+          "oldSection": "Section 197",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A CA conducts a tax audit for a client for FY 2026-27 (TY 2026-27). Which form and section govern the audit report?",
+          "options": [
+            { "text": "Form 3CD under Section 44AB", "correct": false },
+            { "text": "Form 26 under Section 63", "correct": true },
+            { "text": "Form 3CA under Section 63", "correct": false },
+            { "text": "Form 26 under Section 44AB", "correct": false }
+          ],
+          "explanation": "FY 2026-27 falls under the new Act. Tax audit is governed by Section 63 (old 44AB), and the audit report form is Form 26 (merged from old 3CA/3CB/3CD).",
+          "explanationWrong": "Form 26 under Section 63. For TY 2026-27 onwards, old form numbers (3CA/3CB/3CD) and old section numbers (44AB) no longer apply. Both the section and the form are new.",
+          "tier": 3,
+          "subConcepts": ["tax-audit-new-act", "form-26", "section-63"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 60 (declaration by a person who does not have PAN) maps to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 93", "correct": false },
+            { "text": "Form 95", "correct": false },
+            { "text": "Form 97", "correct": true },
+            { "text": "Form 134", "correct": false }
+          ],
+          "explanation": "Old Form 60 maps to Form 97 under the 2025 Act. Form 93/94 replace Form 49A (PAN for Indians), Form 95/96 replace Form 49AA (PAN for foreigners), and Form 134/135 replace Form 49B (TAN).",
+          "explanationWrong": "Form 97 replaces old Form 60. The numbering system is entirely new — knowing the full mapping is essential for CAs during the transition period.",
+          "tier": 3,
+          "subConcepts": ["form-60-to-97", "non-PAN-declaration"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Complex Transition Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client discovers unreported income of Rs 15 lakh from FY 2023-24 in January 2027. Can they file an updated return?",
+          "options": [
+            { "text": "No — updated returns are only available under the new Act", "correct": false },
+            { "text": "Yes — under old Section 139(8A), as AY 2024-25 is within the 24-month window (due by March 31, 2027)", "correct": true },
+            { "text": "Yes — under new Section 263(6), as the 48-month window applies", "correct": false },
+            { "text": "No — only revised returns are available for old AYs", "correct": false }
+          ],
+          "explanation": "FY 2023-24 = AY 2024-25. The updated return under old Section 139(8A) is available within 24 months from the end of AY 2024-25 (i.e., by March 31, 2027). Since it's January 2027, the window is open. The new Act's 48-month rule applies only to TY 2026-27 onwards.",
+          "explanationWrong": "Old Section 139(8A) applies. AY 2024-25 ended March 31, 2025 — the 24-month window runs until March 31, 2027. The new Act's 48-month rule does NOT retroactively apply to old AYs.",
+          "tier": 3,
+          "subConcepts": ["updated-return-old-act", "24-month-window", "transition-timeline"],
+          "isReview": false,
+          "oldSection": "Section 139(8A)",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "For TY 2026-27, a taxpayer misses the July 31, 2027 due date. They file a belated return on October 15, 2027. What is the late filing fee under Section 428 if their total income is Rs 12 lakh?",
+          "options": [
+            { "text": "Rs 1,000", "correct": false },
+            { "text": "Rs 5,000", "correct": true },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Nil — first year under new Act is exempt", "correct": false }
+          ],
+          "explanation": "Income exceeds Rs 5 lakh, so the late filing fee under Section 428 is Rs 5,000. There is no exemption or concession for the first year under the new Act.",
+          "explanationWrong": "Rs 5,000. Section 428 (old 234F) applies the same fee structure: Rs 5,000 for income above Rs 5 lakh. No first-year exemption exists.",
+          "tier": 3,
+          "subConcepts": ["late-filing-fee-application", "section-428", "belated-return-penalty"],
+          "isReview": false,
+          "oldSection": "Section 234F",
+          "newSection": "Section 428"
+        },
+        {
+          "order": 3,
+          "question": "Old Form 49B (TAN application) maps to which forms under the 2025 Act?",
+          "options": [
+            { "text": "Form 93 and Form 94", "correct": false },
+            { "text": "Form 95 and Form 96", "correct": false },
+            { "text": "Form 134 and Form 135", "correct": true },
+            { "text": "Form 97", "correct": false }
+          ],
+          "explanation": "Old Form 49B (TAN application and allotment) maps to Forms 134 and 135 under the 2025 Act. Form 93/94 replace Form 49A (PAN for Indians) and Form 95/96 replace Form 49AA (PAN for foreigners).",
+          "explanationWrong": "Forms 134/135 replace old Form 49B. The complete PAN/TAN form mapping: 49A→93/94, 49AA→95/96, 49B→134/135.",
+          "tier": 3,
+          "subConcepts": ["form-49B-to-134-135", "TAN-application"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A CA is preparing returns in August 2027. Client A has FY 2025-26 income (belated), and Client B has FY 2026-27 income. What forms reference will each return use?",
+          "options": [
+            { "text": "Both use new Act forms and new section references", "correct": false },
+            { "text": "Client A: old ITR forms with old section references; Client B: new forms with new section references", "correct": true },
+            { "text": "Client A: old ITR forms with new section references; Client B: new forms with new section references", "correct": false },
+            { "text": "Both use old ITR forms until the portal is fully migrated", "correct": false }
+          ],
+          "explanation": "Client A (FY 2025-26, AY 2026-27) files under the old Act — old ITR forms, old section references. Client B (FY 2026-27, TY 2026-27) files under the new Act — new forms, new section references. The Act governing the return follows the income period, not the filing date.",
+          "explanationWrong": "Old forms/sections for old-Act income, new forms/sections for new-Act income. The filing date (August 2027) is irrelevant — what matters is which income period the return covers.",
+          "tier": 3,
+          "subConcepts": ["parallel-filing", "form-selection", "act-determination"],
+          "isReview": false,
+          "oldSection": "Section 139",
+          "newSection": "Section 263"
+        },
+        {
+          "order": 5,
+          "question": "A taxpayer files their TY 2026-27 return on July 25, 2027, and later discovers an error. Under the new Act, what is the last date to file a revised return?",
+          "options": [
+            { "text": "December 31, 2027", "correct": false },
+            { "text": "March 31, 2028", "correct": true },
+            { "text": "July 25, 2028", "correct": false },
+            { "text": "June 30, 2028", "correct": false }
+          ],
+          "explanation": "Under Section 263(5), a revised return can be filed within 12 months from the end of the tax year. TY 2026-27 ends March 31, 2027. So the deadline is March 31, 2028 (12 months from March 31, 2027).",
+          "explanationWrong": "March 31, 2028. The 12-month window runs from the end of TY 2026-27 (March 31, 2027), not from the date of original filing. This is a change from the old Act's 'end of AY' formulation, but lands on the same practical date.",
+          "tier": 3,
+          "subConcepts": ["revised-return-new-act", "12-month-window", "section-263-5"],
+          "isReview": false,
+          "oldSection": "Section 139(5)",
+          "newSection": "Section 263(5)"
+        }
+      ]
+    }
+  ]
+}

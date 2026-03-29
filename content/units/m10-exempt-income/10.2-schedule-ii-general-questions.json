@@ -1,0 +1,835 @@
+{
+  "unit": "10.2",
+  "title": "Schedule II — General Exemptions (17 Entries)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Schedule II Overview — The 17 Universal Exemptions",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Schedule II of the ITA 2025 contain?",
+          "options": [
+            { "text": "12", "correct": false },
+            { "text": "17", "correct": true },
+            { "text": "39", "correct": false },
+            { "text": "48", "correct": false }
+          ],
+          "explanation": "Schedule II has 17 entries — general exemptions available to all assessees regardless of status or entity type. These cover agricultural income, life insurance, PF, NPS, scholarships, gratuity, and more.",
+          "explanationWrong": "17 entries. Don't confuse with Schedule III (39 entries for individual/HUF) or Schedule VII (48 entries for exempt entities). Schedule II is the universal bucket — if an exemption applies to everyone, it lives here.",
+          "tier": 1,
+          "subConcepts": ["schedule-ii-count", "17-entries", "general-exemptions"],
+          "isReview": false,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule II"
+        },
+        {
+          "order": 2,
+          "question": "Agricultural income exemption (old Section 10(1)) is now found at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 2", "correct": false },
+            { "text": "S.No. 1", "correct": true },
+            { "text": "S.No. 5", "correct": false },
+            { "text": "S.No. 17", "correct": false }
+          ],
+          "explanation": "Agricultural income is S.No. 1 of Schedule II — the first entry in the first schedule. It remains fully exempt with no change in scope or definition. Agricultural income is defined under Section 2(1) of the 2025 Act (old Section 2(1A)).",
+          "explanationWrong": "S.No. 1 — the very first entry. Agricultural income retains its primacy in the exemption framework. The definition hasn't changed either — it's now at Section 2(1) of the 2025 Act instead of old Section 2(1A). The integration with non-agricultural income for rate purposes also continues unchanged.",
+          "tier": 1,
+          "subConcepts": ["agricultural-income", "schedule-ii-sno-1", "section-2-1"],
+          "isReview": false,
+          "oldSection": "Section 10(1)",
+          "newSection": "Schedule II, S.No. 1"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, Section 11 replaced old Section 10 as the gateway for exempt income. How many sub-sections does Section 11 have?",
+          "options": [
+            { "text": "3", "correct": false },
+            { "text": "5", "correct": true },
+            { "text": "10", "correct": false },
+            { "text": "17", "correct": false }
+          ],
+          "explanation": "Section 11 has 5 sub-sections — covered in Unit 10.1. This is the gateway provision that replaces old Section 10's 140+ clauses. Section 11(1) covers general exemptions (Schedules II–VI), Section 11(2) covers entity-level exemptions (Schedule VII).",
+          "explanationWrong": "5 sub-sections — this was covered in Unit 10.1. Section 11 is lean by design: (1) general exempt incomes, (2) exempt entities, (3) conditions, (4) withdrawal of exemption, (5) rule-making power. Compare this with old Section 10's 140+ clauses, 134 provisos, and 90 Explanations.",
+          "tier": 1,
+          "subConcepts": ["section-11-structure", "five-sub-sections", "gateway-provision"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 4,
+          "question": "Life insurance maturity/death proceeds (old Section 10(10D)) are now at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 1", "correct": false },
+            { "text": "S.No. 2", "correct": true },
+            { "text": "S.No. 5", "correct": false },
+            { "text": "S.No. 10", "correct": false }
+          ],
+          "explanation": "S.No. 2 covers life insurance proceeds. The exemption on maturity/death proceeds continues with the same conditions, including the Rs 5 lakh aggregate annual premium cap (above which maturity proceeds are taxable) — carried forward from Finance Act 2023.",
+          "explanationWrong": "S.No. 2. The Rs 5 lakh premium cap applies: if aggregate annual premiums on all policies issued after 1 April 2023 exceed Rs 5 lakh, maturity proceeds become taxable. This cap was introduced by Finance Act 2023, not the 2025 Act. Death proceeds remain fully exempt regardless of premium amount.",
+          "tier": 1,
+          "subConcepts": ["life-insurance", "schedule-ii-sno-2", "rs-5-lakh-cap"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Schedule II, S.No. 2"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is the only genuinely new entry in Schedule II — with no counterpart in old Section 10?",
+          "options": [
+            { "text": "S.No. 7 — Agniveer Corpus Fund", "correct": false },
+            { "text": "S.No. 15 — Equalisation levy refund", "correct": false },
+            { "text": "S.No. 16 — Unified Pension Scheme lump sum", "correct": true },
+            { "text": "S.No. 6 — NPS employer contribution", "correct": false }
+          ],
+          "explanation": "S.No. 16 — Unified Pension Scheme (UPS) lump sum — is the only genuinely new entry. Agniveer (S.No. 7) was introduced by FA 2023 and carried forward. NPS (S.No. 6) existed under old Section 10(12C). Equalisation levy (S.No. 15) is transitional.",
+          "explanationWrong": "S.No. 16 — UPS lump sum is the fresh insertion. Don't confuse with Agniveer (FA 2023 carry-forward) or NPS (existed under old Act). The UPS was notified in January 2025, and its lump sum exemption has no predecessor in the 1961 Act. This is the one genuinely new exemption in Schedule II.",
+          "tier": 1,
+          "subConcepts": ["ups-lump-sum", "schedule-ii-sno-16", "genuine-new-entry"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        }
+      ]
+    },
+    {
+      "title": "PF, NPS, and the Savings Trio",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Statutory Provident Fund accumulations (old Section 10(11)) are now at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 2", "correct": false },
+            { "text": "S.No. 3", "correct": true },
+            { "text": "S.No. 4", "correct": false },
+            { "text": "S.No. 6", "correct": false }
+          ],
+          "explanation": "S.No. 3 — Statutory PF accumulations. S.No. 4 covers Recognised PF accumulations. Both carry forward the same exemption basis from the old Act, including the interest taxability threshold from Finance Act 2021.",
+          "explanationWrong": "S.No. 3 for Statutory PF, S.No. 4 for Recognised PF. They sit consecutively in Schedule II. Don't confuse with NPS (S.No. 6) or Sukanya Samriddhi (S.No. 5). The PF interest threshold (Rs 2.5L/5L) applies to both — carried forward from Finance Act 2021.",
+          "tier": 1,
+          "subConcepts": ["statutory-pf", "schedule-ii-sno-3", "pf-accumulations"],
+          "isReview": false,
+          "oldSection": "Section 10(11)",
+          "newSection": "Schedule II, S.No. 3"
+        },
+        {
+          "order": 2,
+          "question": "What is the PF interest taxability threshold for private sector employees under the 2025 Act?",
+          "options": [
+            { "text": "Rs 1.5 lakh", "correct": false },
+            { "text": "Rs 2.5 lakh", "correct": true },
+            { "text": "Rs 5 lakh", "correct": false },
+            { "text": "No threshold — all PF interest is exempt", "correct": false }
+          ],
+          "explanation": "Rs 2.5 lakh for private employees, Rs 5 lakh for government employees. Above these thresholds, PF interest is taxable. This was introduced by Finance Act 2021 — the 2025 Act carries it forward unchanged.",
+          "explanationWrong": "Rs 2.5 lakh for private employees. Government employees get a higher threshold of Rs 5 lakh. This distinction was introduced by Finance Act 2021 and is simply absorbed into Schedule II, S.No. 3–4. The 2025 Act did not revise these limits — don't credit it for this change.",
+          "tier": 1,
+          "subConcepts": ["pf-interest-threshold", "rs-2-5-lakh", "fa-2021-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 10(11), 10(12)",
+          "newSection": "Schedule II, S.No. 3–4"
+        },
+        {
+          "order": 3,
+          "question": "The Sukanya Samriddhi Account enjoys which tax status under the 2025 Act?",
+          "options": [
+            { "text": "EET (Exempt-Exempt-Taxed)", "correct": false },
+            { "text": "EEE (Exempt-Exempt-Exempt)", "correct": true },
+            { "text": "TEE (Taxed-Exempt-Exempt)", "correct": false },
+            { "text": "TET (Taxed-Exempt-Taxed)", "correct": false }
+          ],
+          "explanation": "EEE status continues — contributions (within Section 123 limits), interest, and maturity proceeds are all exempt. Schedule II, S.No. 5 covers the Sukanya Samriddhi exemption, consolidating old Sections 10(12A) and 10(12B).",
+          "explanationWrong": "EEE — Exempt at all three stages: contribution (deduction under Section 123), accumulation (interest exempt under Schedule II, S.No. 5), and withdrawal (maturity exempt). This is unchanged from the old Act. Sukanya Samriddhi remains one of the most tax-efficient instruments available.",
+          "tier": 1,
+          "subConcepts": ["sukanya-samriddhi", "eee-status", "schedule-ii-sno-5"],
+          "isReview": true,
+          "oldSection": "Sections 10(12A), 10(12B)",
+          "newSection": "Schedule II, S.No. 5"
+        },
+        {
+          "order": 4,
+          "question": "NPS employer contribution exemption (Schedule II, S.No. 6) applies subject to what percentage cap for Central Government employees?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "14% of salary", "correct": true },
+            { "text": "12% of salary", "correct": false },
+            { "text": "No percentage cap", "correct": false }
+          ],
+          "explanation": "14% for Central Government employees, 10% for all others. The employer's contribution to NPS Tier I up to this cap is exempt. The Rs 7.5 lakh aggregate cap on employer PF + NPS + superannuation (Finance Act 2020) also continues.",
+          "explanationWrong": "14% for Central Government employees — a higher cap than the 10% available to private sector and state government employees. This differential existed under old Section 10(12C) and carries forward unchanged. Also remember the Rs 7.5 lakh aggregate cap on combined employer contributions to PF + NPS + superannuation.",
+          "tier": 1,
+          "subConcepts": ["nps-employer-contribution", "14-percent-cap", "schedule-ii-sno-6"],
+          "isReview": false,
+          "oldSection": "Section 10(12C)",
+          "newSection": "Schedule II, S.No. 6"
+        },
+        {
+          "order": 5,
+          "question": "The Agniveer Corpus Fund exemption at Schedule II, S.No. 7 was first introduced by which legislation?",
+          "options": [
+            { "text": "Income Tax Act, 2025", "correct": false },
+            { "text": "Finance Act 2022", "correct": false },
+            { "text": "Finance Act 2023", "correct": true },
+            { "text": "Finance Act 2024", "correct": false }
+          ],
+          "explanation": "Finance Act 2023 introduced the Agniveer Corpus Fund exemption (linked to old Section 10(12C) proviso and Section 80CCH). The 2025 Act carries it forward at S.No. 7 — no modification.",
+          "explanationWrong": "Finance Act 2023 — when the Agnipath scheme's tax provisions were enacted. The 2025 Act merely relocated it to Schedule II, S.No. 7. Don't attribute the Agniveer exemption to the 2025 Act — it's a carry-forward, not a new provision.",
+          "tier": 1,
+          "subConcepts": ["agniveer", "fa-2023", "schedule-ii-sno-7"],
+          "isReview": false,
+          "oldSection": "Section 10(12C) proviso / Section 80CCH",
+          "newSection": "Schedule II, S.No. 7"
+        }
+      ]
+    },
+    {
+      "title": "UPS, Scholarships, and the Remaining Entries",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The Unified Pension Scheme (UPS) lump sum exemption at S.No. 16 was introduced following which notification?",
+          "options": [
+            { "text": "CBDT Notification of March 2025", "correct": false },
+            { "text": "Central Government UPS Notification of January 2025", "correct": true },
+            { "text": "Finance Act 2024 amendment", "correct": false },
+            { "text": "PFRDA circular of December 2024", "correct": false }
+          ],
+          "explanation": "The UPS was notified by the Central Government in January 2025 as an alternative to NPS for government employees. S.No. 16 exempts the lump sum received on superannuation under UPS — a fresh insertion with no 1961 Act counterpart.",
+          "explanationWrong": "January 2025 Central Government notification. The UPS is a new pension scheme for government employees, offering a defined benefit alternative to NPS. The ITA 2025 created S.No. 16 specifically to accommodate this new scheme's lump sum component. The monthly pension under UPS remains taxable.",
+          "tier": 1,
+          "subConcepts": ["ups-notification", "january-2025", "government-employees"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 2,
+          "question": "Under the UPS lump sum exemption (S.No. 16), is the monthly pension received under UPS also exempt?",
+          "options": [
+            { "text": "Yes — both lump sum and monthly pension are exempt", "correct": false },
+            { "text": "No — only the lump sum on superannuation is exempt; monthly pension is taxable", "correct": true },
+            { "text": "Monthly pension is exempt up to Rs 5 lakh", "correct": false },
+            { "text": "Monthly pension is exempt for the first 3 years only", "correct": false }
+          ],
+          "explanation": "Only the lump sum component at superannuation is exempt under S.No. 16. The monthly pension is taxable as salary/pension income. This mirrors NPS treatment where partial withdrawal/commutation may be exempt but the ongoing annuity is taxable.",
+          "explanationWrong": "Only the lump sum — not the monthly pension. The monthly pension received under UPS is taxable as salary/pension income, just like the annuity component of NPS. S.No. 16 is specifically limited to the superannuation lump sum. Voluntary withdrawals before superannuation are also not covered.",
+          "tier": 1,
+          "subConcepts": ["ups-lump-sum-only", "monthly-pension-taxable", "superannuation-condition"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 3,
+          "question": "Which Schedule II entry covers scholarships for education?",
+          "options": [
+            { "text": "S.No. 7", "correct": false },
+            { "text": "S.No. 9", "correct": true },
+            { "text": "S.No. 11", "correct": false },
+            { "text": "S.No. 16", "correct": false }
+          ],
+          "explanation": "S.No. 9 — scholarships granted to meet the cost of education. Old Section 10(16) carried forward. No ceiling, no conditions beyond the educational purpose. Fully exempt.",
+          "explanationWrong": "S.No. 9. Scholarships remain one of the simplest exemptions — no monetary ceiling, no complex conditions. The only requirement is that the scholarship must be for meeting the cost of education. Carried forward from old Section 10(16) without any change.",
+          "tier": 1,
+          "subConcepts": ["scholarships", "schedule-ii-sno-9", "no-ceiling"],
+          "isReview": true,
+          "oldSection": "Section 10(16)",
+          "newSection": "Schedule II, S.No. 9"
+        },
+        {
+          "order": 4,
+          "question": "Death-cum-retirement gratuity exemption (old Section 10(10)) is at which Schedule II entry, and what is the current limit for non-government employees?",
+          "options": [
+            { "text": "S.No. 17; Rs 20 lakh", "correct": false },
+            { "text": "S.No. 17; Rs 25 lakh", "correct": true },
+            { "text": "S.No. 10; Rs 25 lakh", "correct": false },
+            { "text": "S.No. 14; Rs 20 lakh", "correct": false }
+          ],
+          "explanation": "S.No. 17 — gratuity exemption. Rs 25 lakh for non-government employees (per CBDT Notification 2024), full exemption for government employees. The 15-days-per-year formula is unchanged.",
+          "explanationWrong": "S.No. 17, Rs 25 lakh. The Rs 25 lakh limit was set by CBDT notification in 2024 — the 2025 Act carries it forward. Government employees get full exemption with no cap. The calculation formula (15 days' salary per completed year of service, last drawn salary basis) remains unchanged.",
+          "tier": 1,
+          "subConcepts": ["gratuity", "schedule-ii-sno-17", "rs-25-lakh"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Schedule II, S.No. 17"
+        },
+        {
+          "order": 5,
+          "question": "The equalisation levy refund entry at Schedule II, S.No. 15 is classified as what type of provision?",
+          "options": [
+            { "text": "Permanent exemption", "correct": false },
+            { "text": "Transitional entry — the levy itself was repealed by Finance Act 2025", "correct": true },
+            { "text": "New exemption introduced by the 2025 Act", "correct": false },
+            { "text": "Carried forward from old Section 10(6D)", "correct": false }
+          ],
+          "explanation": "Transitional. Finance Act 2025 repealed the equalisation levy. S.No. 15 exists solely to exempt any pending refunds. Once all refunds are processed, this entry becomes functionally dead. No action required unless a client has a pending refund claim.",
+          "explanationWrong": "Transitional — the equalisation levy is already repealed. S.No. 15 is housekeeping for pending refunds, nothing more. It will become a dead letter once all refund claims are settled. This is different from S.No. 16 (UPS), which is a permanent new entry.",
+          "tier": 1,
+          "subConcepts": ["equalisation-levy-refund", "transitional-entry", "schedule-ii-sno-15"],
+          "isReview": false,
+          "oldSection": "Section 10(6D) / Equalisation Levy Act",
+          "newSection": "Schedule II, S.No. 15"
+        }
+      ]
+    },
+    {
+      "title": "Life Insurance Cap and PF Interest — The FA 2021/2023 Legacy",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under what condition does the life insurance maturity proceeds exemption at S.No. 2 NOT apply?",
+          "options": [
+            { "text": "If the policy was issued before 1 April 2012", "correct": false },
+            { "text": "If aggregate annual premium on policies issued after 1 April 2023 exceeds Rs 5 lakh", "correct": true },
+            { "text": "If the policyholder is a non-resident", "correct": false },
+            { "text": "If the maturity amount exceeds Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "The Rs 5 lakh aggregate annual premium cap was introduced by Finance Act 2023 for policies issued on or after 1 April 2023. If premiums exceed this, maturity proceeds become taxable. Death proceeds remain fully exempt. The 2025 Act carries this forward unchanged.",
+          "explanationWrong": "Aggregate annual premium exceeding Rs 5 lakh on post-April 2023 policies. This was FA 2023's significant change to life insurance taxation. The 2025 Act absorbed it without modification. Key nuances: (1) the cap applies to aggregate premiums across all policies, not per policy; (2) only policies issued after 1 April 2023 are counted; (3) death proceeds are always exempt regardless.",
+          "tier": 2,
+          "subConcepts": ["life-insurance-taxability", "rs-5-lakh-aggregate", "fa-2023-cap"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Schedule II, S.No. 2"
+        },
+        {
+          "order": 2,
+          "question": "Why does the PF interest taxability threshold differ between private sector employees (Rs 2.5 lakh) and government employees (Rs 5 lakh)?",
+          "options": [
+            { "text": "Government employees have mandatory higher contribution rates, so the threshold is doubled", "correct": true },
+            { "text": "Private sector employees can opt out, so they get a lower threshold", "correct": false },
+            { "text": "The government threshold was set by CBDT notification, not by statute", "correct": false },
+            { "text": "There is no difference — both categories get Rs 5 lakh", "correct": false }
+          ],
+          "explanation": "Government employees have mandatory higher PF contribution rates (no employer matching flexibility), so Finance Act 2021 set a higher threshold of Rs 5 lakh for them versus Rs 2.5 lakh for private sector employees. This rationale carries forward unchanged into Schedule II.",
+          "explanationWrong": "Mandatory higher contribution rates for government employees justified the higher threshold. Private sector employees' PF contributions are capped at 12% of Rs 15,000 basic (unless the employer opts for higher contributions), while government employees contribute on full basic salary. The Rs 5 lakh vs Rs 2.5 lakh distinction recognises this structural difference.",
+          "tier": 2,
+          "subConcepts": ["pf-threshold-rationale", "government-vs-private", "fa-2021-design"],
+          "isReview": false,
+          "oldSection": "Section 10(11), 10(12)",
+          "newSection": "Schedule II, S.No. 3–4"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the new Section 10 covers which subject — a common trap for practitioners?",
+          "options": [
+            { "text": "Exempt income (same as old Section 10)", "correct": false },
+            { "text": "Portuguese Civil Code community property (old Section 5A)", "correct": true },
+            { "text": "Agricultural income definition", "correct": false },
+            { "text": "Tax rates for special income", "correct": false }
+          ],
+          "explanation": "New Section 10 = Portuguese Civil Code (old Section 5A), NOT exempt income. Exempt income is now Section 11. This is a critical trap — citing 'Section 10' for exempt income under the 2025 Act points to the wrong provision entirely.",
+          "explanationWrong": "Portuguese Civil Code — old Section 5A about community property in Goa, Daman, and Diu. This is the single most dangerous citation trap in the 2025 Act. Every time your muscle memory types 'Section 10' for exempt income, you're referencing the wrong provision. Exempt income = Section 11.",
+          "tier": 2,
+          "subConcepts": ["section-10-trap", "portuguese-civil-code", "citation-danger"],
+          "isReview": true,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        },
+        {
+          "order": 4,
+          "question": "The Rs 7.5 lakh aggregate cap on employer contributions to PF + NPS + superannuation was introduced by which Finance Act?",
+          "options": [
+            { "text": "Finance Act 2019", "correct": false },
+            { "text": "Finance Act 2020", "correct": true },
+            { "text": "Finance Act 2021", "correct": false },
+            { "text": "Finance Act 2025", "correct": false }
+          ],
+          "explanation": "Finance Act 2020 introduced the Rs 7.5 lakh aggregate cap. Above this combined limit, employer contributions to PF, NPS, and superannuation become taxable in the employee's hands. Carried forward into the 2025 Act schedule framework.",
+          "explanationWrong": "Finance Act 2020 — not 2021 (which introduced the PF interest cap) and not 2025 (which merely reorganised). The Rs 7.5 lakh aggregate cap sits across S.No. 3–4 (PF), S.No. 6 (NPS), and S.No. 8 (superannuation). It's a cross-entry limit that the schedule format doesn't change.",
+          "tier": 2,
+          "subConcepts": ["aggregate-employer-cap", "rs-7-5-lakh", "fa-2020"],
+          "isReview": false,
+          "oldSection": "Section 10(12C), 10(13)",
+          "newSection": "Schedule II, S.No. 3–4, 6, 8"
+        },
+        {
+          "order": 5,
+          "question": "Superannuation fund payments (old Section 10(13)) are at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 6", "correct": false },
+            { "text": "S.No. 7", "correct": false },
+            { "text": "S.No. 8", "correct": true },
+            { "text": "S.No. 10", "correct": false }
+          ],
+          "explanation": "S.No. 8 — superannuation fund payments. This covers employer contributions to approved superannuation funds, subject to the Rs 7.5 lakh aggregate cap (combined with PF and NPS employer contributions). No change from the old Act.",
+          "explanationWrong": "S.No. 8. Don't confuse with S.No. 6 (NPS employer contribution) or S.No. 7 (Agniveer). The superannuation entry is part of the 'employer retirement contribution trio' — PF (S.No. 3–4), NPS (S.No. 6), and superannuation (S.No. 8) — all subject to the Rs 7.5 lakh combined cap.",
+          "tier": 2,
+          "subConcepts": ["superannuation", "schedule-ii-sno-8", "employer-contribution-trio"],
+          "isReview": false,
+          "oldSection": "Section 10(13)",
+          "newSection": "Schedule II, S.No. 8"
+        }
+      ]
+    },
+    {
+      "title": "Gallantry Awards, Armed Forces Pension, and Government Awards",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Gallantry award exemption (Param Vir Chakra, Maha Vir Chakra, Vir Chakra etc.) is at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 9", "correct": false },
+            { "text": "S.No. 10", "correct": true },
+            { "text": "S.No. 14", "correct": false },
+            { "text": "S.No. 11", "correct": false }
+          ],
+          "explanation": "S.No. 10 — gallantry awards. Old Section 10(18) carried forward without change. The exemption covers the award amounts associated with specified gallantry decorations.",
+          "explanationWrong": "S.No. 10. Gallantry awards have always been exempt and remain so at Schedule II, S.No. 10. The renumbering from old Section 10(18) is straightforward — no conditions changed, no scope modified.",
+          "tier": 2,
+          "subConcepts": ["gallantry-awards", "schedule-ii-sno-10", "param-vir-chakra"],
+          "isReview": false,
+          "oldSection": "Section 10(18)",
+          "newSection": "Schedule II, S.No. 10"
+        },
+        {
+          "order": 2,
+          "question": "Awards instituted by Central or State Government (old Section 10(17A)) are covered by which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 10", "correct": false },
+            { "text": "S.No. 11", "correct": true },
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 14", "correct": false }
+          ],
+          "explanation": "S.No. 11 — government-instituted awards. Distinct from gallantry awards (S.No. 10) and from scholarships (S.No. 9). These cover awards in the public interest instituted by any Central or State Government.",
+          "explanationWrong": "S.No. 11. Three related but distinct exemptions sit nearby: scholarships (S.No. 9), gallantry awards (S.No. 10), and government-instituted awards (S.No. 11). Each has different coverage — don't conflate them. Government awards at S.No. 11 cover non-gallantry awards like Padma awards, national science awards, etc.",
+          "tier": 2,
+          "subConcepts": ["government-awards", "schedule-ii-sno-11", "section-10-17a"],
+          "isReview": false,
+          "oldSection": "Section 10(17A)",
+          "newSection": "Schedule II, S.No. 11"
+        },
+        {
+          "order": 3,
+          "question": "Family pension of armed forces personnel killed in war or operational duty (old Section 10(19)) is at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 13", "correct": false },
+            { "text": "S.No. 14", "correct": true },
+            { "text": "S.No. 17", "correct": false }
+          ],
+          "explanation": "S.No. 14 — family pension of armed forces personnel killed in war or operational areas. Old Section 10(19) carried forward. This is the full exemption for military family pensions, distinct from the general family pension deduction under Section 93.",
+          "explanationWrong": "S.No. 14. This covers family pensions of armed forces personnel killed in war or in the course of operational duties. It's a full exemption — no ceiling, no conditions beyond the military service requirement. Don't confuse with the general family pension deduction (Section 93, up to Rs 15,000/25,000).",
+          "tier": 2,
+          "subConcepts": ["armed-forces-family-pension", "schedule-ii-sno-14", "war-operational-duty"],
+          "isReview": false,
+          "oldSection": "Section 10(19)",
+          "newSection": "Schedule II, S.No. 14"
+        },
+        {
+          "order": 4,
+          "question": "Compensation received from Central/State Government for disasters or emergencies (old Section 10(10BC)) is at which Schedule II entry?",
+          "options": [
+            { "text": "S.No. 10", "correct": false },
+            { "text": "S.No. 12", "correct": true },
+            { "text": "S.No. 15", "correct": false },
+            { "text": "S.No. 17", "correct": false }
+          ],
+          "explanation": "S.No. 12 — disaster/emergency compensation from government. Old Section 10(10BC) carried forward. Covers compensation for damage caused by natural or man-made disasters.",
+          "explanationWrong": "S.No. 12. Government disaster compensation remains exempt. S.No. 13 sits right next to it — covering the historically specific Bhopal gas leak compensation (old Section 10(10BB)). Two consecutive entries covering government compensation, but for very different events.",
+          "tier": 2,
+          "subConcepts": ["disaster-compensation", "schedule-ii-sno-12", "government-relief"],
+          "isReview": true,
+          "oldSection": "Section 10(10BC)",
+          "newSection": "Schedule II, S.No. 12"
+        },
+        {
+          "order": 5,
+          "question": "The Bhopal gas leak compensation exemption (old Section 10(10BB)) continues under the 2025 Act at which entry?",
+          "options": [
+            { "text": "S.No. 12", "correct": false },
+            { "text": "S.No. 13", "correct": true },
+            { "text": "S.No. 14", "correct": false },
+            { "text": "Not carried forward — sunset expired", "correct": false }
+          ],
+          "explanation": "S.No. 13 — Bhopal gas leak compensation. Despite being decades old, this provision is still active because compensation claims continue to be processed. It was carried forward (not sunset-expired) into Schedule II.",
+          "explanationWrong": "S.No. 13 — the Bhopal gas leak compensation is still alive. Unlike the EOU/SEZ provisions (Sections 10A/10B/10C) which sunset-expired, Bhopal compensation claims are still being processed decades later. The 2025 Act correctly retains this provision for ongoing claimants.",
+          "tier": 2,
+          "subConcepts": ["bhopal-compensation", "schedule-ii-sno-13", "ongoing-claims"],
+          "isReview": false,
+          "oldSection": "Section 10(10BB)",
+          "newSection": "Schedule II, S.No. 13"
+        }
+      ]
+    },
+    {
+      "title": "UPS Deep Dive — The Only Genuine New Exemption",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The Unified Pension Scheme is an alternative to which existing pension scheme for government employees?",
+          "options": [
+            { "text": "Old Pension Scheme (OPS)", "correct": false },
+            { "text": "National Pension System (NPS)", "correct": true },
+            { "text": "Employees' Pension Scheme (EPS)", "correct": false },
+            { "text": "General Provident Fund (GPF)", "correct": false }
+          ],
+          "explanation": "UPS is an alternative to NPS for government employees — offering a defined benefit element that NPS lacks. Government employees can opt into UPS instead of NPS. The lump sum on superannuation under UPS is exempt at Schedule II, S.No. 16.",
+          "explanationWrong": "NPS — not OPS. The UPS was designed as a middle ground: defined benefit features (like OPS) within the NPS framework. Government employees choosing UPS get a guaranteed pension component plus a lump sum at superannuation. The lump sum exemption at S.No. 16 has no parallel in NPS provisions.",
+          "tier": 2,
+          "subConcepts": ["ups-vs-nps", "defined-benefit", "government-employee-option"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 2,
+          "question": "Which of the following is NOT exempt under S.No. 16 (Unified Pension Scheme)?",
+          "options": [
+            { "text": "Lump sum received on superannuation", "correct": false },
+            { "text": "Monthly pension received after superannuation", "correct": true },
+            { "text": "Neither — both are exempt", "correct": false },
+            { "text": "Both are taxable", "correct": false }
+          ],
+          "explanation": "Only the lump sum at superannuation is exempt. The monthly pension is taxable as salary/pension income. S.No. 16 specifically covers the lump sum component — it does not extend to recurring pension payments.",
+          "explanationWrong": "Monthly pension is taxable. S.No. 16 is narrow — it covers only the superannuation lump sum. The monthly pension under UPS is taxed as salary/pension income, same as NPS annuity. Voluntary withdrawals before superannuation are also not covered by this exemption.",
+          "tier": 2,
+          "subConcepts": ["ups-monthly-pension-taxable", "lump-sum-only", "exemption-scope"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 3,
+          "question": "How many genuinely new entries (no counterpart in old Section 10) does Schedule II contain?",
+          "options": [
+            { "text": "3 — UPS, Agniveer, and equalisation levy refund", "correct": false },
+            { "text": "1 — only UPS (S.No. 16)", "correct": true },
+            { "text": "5 — multiple new exemptions were added", "correct": false },
+            { "text": "0 — everything is carried forward", "correct": false }
+          ],
+          "explanation": "Only one — S.No. 16 (UPS lump sum). Agniveer (S.No. 7) was introduced by FA 2023 and is a carry-forward. Equalisation levy refund (S.No. 15) derives from the old equalisation levy provisions. The UPS entry is the sole fresh insertion.",
+          "explanationWrong": "One genuine new entry — UPS at S.No. 16. This is important: the 2025 Act's Schedule II is overwhelmingly a reorganization exercise, not a reform. Agniveer existed under FA 2023. PF interest cap existed under FA 2021. Life insurance cap existed under FA 2023. Only UPS is truly new to the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["genuine-new-count", "ups-only-new", "reorganization-not-reform"],
+          "isReview": true,
+          "oldSection": "Section 10 (various)",
+          "newSection": "Schedule II"
+        },
+        {
+          "order": 4,
+          "question": "For government-employee clients opting into UPS, what specific item should be added to the tax computation exemption section?",
+          "options": [
+            { "text": "Monthly UPS pension as exempt income", "correct": false },
+            { "text": "UPS lump sum on superannuation under Schedule II, S.No. 16", "correct": true },
+            { "text": "Full UPS corpus value as exempt", "correct": false },
+            { "text": "No addition needed — UPS is fully taxable", "correct": false }
+          ],
+          "explanation": "The superannuation lump sum under UPS should be listed as exempt income under Schedule II, S.No. 16 in the tax computation. The monthly pension goes into taxable salary/pension. Ensure tax software includes this new entry in its exemption dropdown.",
+          "explanationWrong": "UPS lump sum on superannuation — that's the specific exempt item. Not the monthly pension (taxable), not the entire corpus (only the superannuation lump sum). Tax computation software needs a new line item for this. It should appear alongside NPS partial withdrawal, gratuity, and leave encashment in the exemption section.",
+          "tier": 2,
+          "subConcepts": ["ups-tax-computation", "software-update", "exemption-dropdown"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 5,
+          "question": "Which Finance Act repealed the equalisation levy, making S.No. 15 a transitional entry?",
+          "options": [
+            { "text": "Finance Act 2023", "correct": false },
+            { "text": "Finance Act 2024", "correct": false },
+            { "text": "Finance Act 2025", "correct": true },
+            { "text": "The Income Tax Act 2025 itself", "correct": false }
+          ],
+          "explanation": "Finance Act 2025 repealed the equalisation levy. S.No. 15 is transitional — it exists only to exempt refunds of the now-repealed levy. Once pending refunds are processed, this entry becomes functionally dead.",
+          "explanationWrong": "Finance Act 2025 repealed the equalisation levy. The 2025 Income Tax Act then created S.No. 15 as a cleanup provision for pending refunds. These are two different pieces of legislation — the Finance Act repealed the levy, and the Income Tax Act provided the transitional exemption for refunds.",
+          "tier": 2,
+          "subConcepts": ["equalisation-levy-repeal", "fa-2025", "transitional-cleanup"],
+          "isReview": false,
+          "oldSection": "Equalisation Levy Act, 2016",
+          "newSection": "Schedule II, S.No. 15"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — PF, Insurance, and the Premium Cap Trap",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ravi, a private sector employee, has total employer contributions of Rs 4 lakh to PF, Rs 2.5 lakh to NPS, and Rs 1.5 lakh to superannuation in FY 2026-27. What amount is taxable as a perquisite?",
+          "options": [
+            { "text": "Nil — all contributions are within individual limits", "correct": false },
+            { "text": "Rs 50,000 — the amount exceeding Rs 7.5 lakh aggregate cap", "correct": true },
+            { "text": "Rs 2.5 lakh — only PF above Rs 2.5 lakh is taxable", "correct": false },
+            { "text": "Rs 8 lakh — the full amount is taxable", "correct": false }
+          ],
+          "explanation": "Total employer contributions: Rs 4L + 2.5L + 1.5L = Rs 8 lakh. The aggregate cap is Rs 7.5 lakh (FA 2020). Excess of Rs 50,000 becomes a taxable perquisite. Individual entry limits may be met, but the cross-entry aggregate cap applies.",
+          "explanationWrong": "Rs 50,000 taxable. The aggregate cap of Rs 7.5 lakh operates across PF, NPS, and superannuation combined. Even if each individual contribution is within its own limit, the combined total exceeding Rs 7.5 lakh triggers taxation. This is a cross-entry limit that the schedule reorganisation doesn't change — it spans S.No. 3–4, 6, and 8.",
+          "tier": 3,
+          "subConcepts": ["aggregate-cap-computation", "cross-entry-limit", "employer-contribution-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(12C), 10(13)",
+          "newSection": "Schedule II, S.No. 3–4, 6, 8"
+        },
+        {
+          "order": 2,
+          "question": "Ananya holds 3 life insurance policies issued after 1 April 2023 with annual premiums of Rs 2 lakh, Rs 1.5 lakh, and Rs 2 lakh. She receives maturity proceeds of Rs 50 lakh on one policy. Is the maturity amount exempt under Schedule II, S.No. 2?",
+          "options": [
+            { "text": "Yes — each policy is within Rs 5 lakh individually", "correct": false },
+            { "text": "No — aggregate annual premium (Rs 5.5 lakh) exceeds Rs 5 lakh; maturity proceeds are taxable", "correct": true },
+            { "text": "Yes — the Rs 5 lakh cap applies only to the maturing policy", "correct": false },
+            { "text": "Partially — Rs 45 lakh is exempt, Rs 5 lakh is taxable", "correct": false }
+          ],
+          "explanation": "The Rs 5 lakh cap is an aggregate cap across all policies issued after 1 April 2023. Ananya's aggregate premium is Rs 5.5 lakh (2 + 1.5 + 2), exceeding the cap. The maturity proceeds of Rs 50 lakh are fully taxable — no partial exemption applies.",
+          "explanationWrong": "Aggregate annual premium of Rs 5.5 lakh exceeds the Rs 5 lakh cap — so maturity proceeds are fully taxable. The cap is not per-policy, it's aggregate across all post-April 2023 policies. This catches many clients who hold multiple smaller policies thinking each is within the limit. Death proceeds would still be exempt regardless.",
+          "tier": 3,
+          "subConcepts": ["aggregate-premium-trap", "life-insurance-taxability", "multiple-policies"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Schedule II, S.No. 2"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the NPS employer contribution exemption at S.No. 6 is subject to which percentage cap for non-Central Government employees?",
+          "options": [
+            { "text": "14% of salary", "correct": false },
+            { "text": "10% of salary", "correct": true },
+            { "text": "12% of salary", "correct": false },
+            { "text": "No percentage cap", "correct": false }
+          ],
+          "explanation": "10% for non-Central Government employees. Central Government employees get the higher 14% cap. This differential was established under old Section 10(12C) and carries forward unchanged.",
+          "explanationWrong": "10% of salary for non-Central Government employees. The 14% cap is exclusively for Central Government employees. Private sector, state government, and other categories are limited to 10%. This is a carry-forward from the old Act — the 2025 Act did not modify these percentages.",
+          "tier": 3,
+          "subConcepts": ["nps-10-percent", "non-central-government", "percentage-differential"],
+          "isReview": true,
+          "oldSection": "Section 10(12C)",
+          "newSection": "Schedule II, S.No. 6"
+        },
+        {
+          "order": 4,
+          "question": "Suresh, a government employee, opts for UPS in April 2026. He retires in March 2032 and receives a lump sum of Rs 20 lakh and monthly pension of Rs 80,000. What is the tax treatment?",
+          "options": [
+            { "text": "Both lump sum and pension are exempt", "correct": false },
+            { "text": "Rs 20 lakh lump sum is exempt under S.No. 16; Rs 80,000/month pension is taxable as salary", "correct": true },
+            { "text": "Only the pension is exempt; lump sum is taxable", "correct": false },
+            { "text": "Neither is exempt — UPS has no tax benefits", "correct": false }
+          ],
+          "explanation": "The superannuation lump sum (Rs 20 lakh) is exempt under Schedule II, S.No. 16. The monthly pension (Rs 80,000/month) is taxable as salary/pension income. S.No. 16 is specific to the lump sum at superannuation — recurring pension payments are outside its scope.",
+          "explanationWrong": "Rs 20 lakh lump sum = exempt under S.No. 16. Rs 80,000/month pension = taxable as salary. The UPS lump sum exemption mirrors how NPS withdrawal is treated — the one-time superannuation payout gets tax relief, but the ongoing income stream is taxed normally. Suresh should factor the taxable pension into his post-retirement tax planning.",
+          "tier": 3,
+          "subConcepts": ["ups-retirement-scenario", "lump-sum-exempt", "pension-taxable"],
+          "isReview": false,
+          "oldSection": "None (new)",
+          "newSection": "Schedule II, S.No. 16"
+        },
+        {
+          "order": 5,
+          "question": "A government employee has PF interest of Rs 6 lakh in FY 2026-27. How much PF interest is taxable?",
+          "options": [
+            { "text": "Nil — government employees get full exemption on PF interest", "correct": false },
+            { "text": "Rs 1 lakh — the amount exceeding the Rs 5 lakh threshold", "correct": true },
+            { "text": "Rs 3.5 lakh — the amount exceeding Rs 2.5 lakh", "correct": false },
+            { "text": "Rs 6 lakh — all PF interest is taxable", "correct": false }
+          ],
+          "explanation": "Government employees get the Rs 5 lakh threshold. Rs 6 lakh interest minus Rs 5 lakh threshold = Rs 1 lakh taxable. If this were a private employee, the answer would be Rs 3.5 lakh (Rs 6 lakh minus Rs 2.5 lakh).",
+          "explanationWrong": "Rs 1 lakh — using the Rs 5 lakh government employee threshold. The key is identifying which threshold applies. Government employees get Rs 5 lakh; private employees get Rs 2.5 lakh. Same PF interest, very different tax outcomes depending on the employer category.",
+          "tier": 3,
+          "subConcepts": ["pf-interest-computation", "government-employee-threshold", "taxable-interest"],
+          "isReview": false,
+          "oldSection": "Section 10(11)",
+          "newSection": "Schedule II, S.No. 3"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Cross-Entry Interactions and Client Advisory",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA is preparing the FY 2026-27 tax computation for a client who received: (a) gratuity of Rs 30 lakh, (b) scholarship of Rs 2 lakh, and (c) UPS lump sum of Rs 15 lakh. What is the total exempt amount across Schedule II entries?",
+          "options": [
+            { "text": "Rs 47 lakh — all fully exempt", "correct": false },
+            { "text": "Rs 42 lakh — gratuity capped at Rs 25 lakh, plus full scholarship and UPS", "correct": true },
+            { "text": "Rs 30 lakh — only gratuity is exempt", "correct": false },
+            { "text": "Rs 45 lakh — gratuity Rs 30L + UPS Rs 15L", "correct": false }
+          ],
+          "explanation": "Gratuity (S.No. 17): Rs 25 lakh cap for non-government employees, so Rs 25 lakh exempt. Scholarship (S.No. 9): Rs 2 lakh fully exempt. UPS lump sum (S.No. 16): Rs 15 lakh fully exempt. Total: Rs 25L + 2L + 15L = Rs 42 lakh. The remaining Rs 5 lakh of gratuity is taxable.",
+          "explanationWrong": "Rs 42 lakh. The gratuity cap of Rs 25 lakh bites — Rs 5 lakh of the Rs 30 lakh gratuity is taxable. Scholarships have no cap. UPS lump sum at superannuation has no stated cap. Each Schedule II entry operates independently with its own limits. The cross-entry computation requires checking each entry's specific conditions.",
+          "tier": 3,
+          "subConcepts": ["multi-entry-computation", "gratuity-cap", "ups-plus-scholarship"],
+          "isReview": false,
+          "oldSection": "Section 10(10), 10(16), None",
+          "newSection": "Schedule II, S.No. 17, 9, 16"
+        },
+        {
+          "order": 2,
+          "question": "Nisha's client holds one LIC policy (issued 2020, premium Rs 3 lakh/year) and one HDFC Life policy (issued 2024, premium Rs 4 lakh/year). The LIC policy matures in FY 2026-27. Is the maturity exempt?",
+          "options": [
+            { "text": "No — combined premium exceeds Rs 5 lakh", "correct": false },
+            { "text": "Yes — the Rs 5 lakh cap only applies to policies issued after 1 April 2023; the LIC policy was issued in 2020", "correct": true },
+            { "text": "No — any policy with premium above Rs 2.5 lakh is taxable", "correct": false },
+            { "text": "Yes — all maturity proceeds are always exempt", "correct": false }
+          ],
+          "explanation": "The Rs 5 lakh aggregate premium cap applies only to policies issued on or after 1 April 2023. The LIC policy (issued 2020) is governed by the old rules — premium up to 10% of sum assured. The HDFC Life policy (2024) is subject to the new cap. They are assessed separately based on issue date.",
+          "explanationWrong": "Yes — the LIC policy is exempt. The Rs 5 lakh cap from FA 2023 applies only to policies issued after 1 April 2023. Pre-2023 policies follow the older rules (premium up to 10% or 15% of sum assured, depending on issue date). Nisha should check whether the LIC policy meets its own era's conditions, not the FA 2023 cap.",
+          "tier": 3,
+          "subConcepts": ["policy-issue-date-matters", "pre-2023-vs-post-2023", "life-insurance-granularity"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Schedule II, S.No. 2"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the definition of agricultural income sits in which section?",
+          "options": [
+            { "text": "Section 2(1A) — same as old Act", "correct": false },
+            { "text": "Section 2(1)", "correct": true },
+            { "text": "Section 11(1)", "correct": false },
+            { "text": "Schedule II, S.No. 1", "correct": false }
+          ],
+          "explanation": "Section 2(1) of the 2025 Act defines agricultural income — old Section 2(1A). The definition moved one sub-clause due to overall renumbering. Schedule II, S.No. 1 provides the exemption, but the definition is in Section 2(1).",
+          "explanationWrong": "Section 2(1) — not 2(1A) (that was the old Act). The 2025 Act's definition section uses cleaner numbering. Schedule II, S.No. 1 grants the exemption; Section 2(1) provides the definition. When advising on agricultural income, you need both citations.",
+          "tier": 3,
+          "subConcepts": ["agricultural-income-definition", "section-2-1", "definition-vs-exemption"],
+          "isReview": true,
+          "oldSection": "Section 2(1A)",
+          "newSection": "Section 2(1)"
+        },
+        {
+          "order": 4,
+          "question": "Vikram, a CA, has a client who received Rs 10 lakh as compensation from the State Government after floods destroyed his house. His articled clerk says it's taxable because 'disaster relief isn't in Section 10 anymore.' What should Vikram tell him?",
+          "options": [
+            { "text": "The clerk is right — disaster compensation exemption was removed", "correct": false },
+            { "text": "The exemption continues at Schedule II, S.No. 12 — old Section 10(10BC) was renumbered, not removed", "correct": true },
+            { "text": "The compensation is exempt under Section 12, Schedule VIII", "correct": false },
+            { "text": "Disaster compensation was never exempt under the old Act either", "correct": false }
+          ],
+          "explanation": "The clerk made the classic transition-period error. Old Section 10(10BC) wasn't removed — it was renumbered to Schedule II, S.No. 12. The disaster compensation exemption is very much alive. The Rs 10 lakh from the State Government is fully exempt.",
+          "explanationWrong": "Schedule II, S.No. 12 — alive and well. The articled clerk searched for 'Section 10(10BC)' in the new Act, didn't find it, and concluded it was removed. But it was reorganised into the schedule format. This scenario will play out in thousands of offices during the transition. Always check the schedule mapping before declaring a provision 'removed.'",
+          "tier": 3,
+          "subConcepts": ["disaster-compensation-scenario", "transition-error", "schedule-ii-sno-12"],
+          "isReview": false,
+          "oldSection": "Section 10(10BC)",
+          "newSection": "Schedule II, S.No. 12"
+        },
+        {
+          "order": 5,
+          "question": "Prashant advises both NPS and UPS clients. His NPS client commutes 60% of the corpus tax-free on retirement. Can his UPS client claim a similar 60% commutation exemption?",
+          "options": [
+            { "text": "Yes — UPS follows the same 60% commutation rule as NPS", "correct": false },
+            { "text": "No — UPS has its own exemption at S.No. 16 covering only the superannuation lump sum; the NPS 60% commutation rule is a separate provision", "correct": true },
+            { "text": "Yes — both NPS and UPS are governed by the same Schedule II entry", "correct": false },
+            { "text": "No — neither NPS nor UPS commutation is exempt under the 2025 Act", "correct": false }
+          ],
+          "explanation": "NPS and UPS have distinct tax provisions. NPS commutation follows its own rules (40% annuity, 60% commutable). UPS lump sum is covered by S.No. 16 — it's a defined benefit, not a commutation. Prashant cannot apply NPS rules to UPS or vice versa. Each has its own Schedule II entry.",
+          "explanationWrong": "They are separate provisions. NPS commutation (S.No. 6 and related provisions) and UPS lump sum (S.No. 16) operate independently. The 60% commutation concept comes from NPS's defined contribution structure. UPS is defined benefit — the lump sum is a fixed entitlement at superannuation, not a commutation of accumulated corpus. Different schemes, different rules, different Schedule II entries.",
+          "tier": 3,
+          "subConcepts": ["nps-vs-ups-taxation", "commutation-vs-lump-sum", "distinct-provisions"],
+          "isReview": false,
+          "oldSection": "Section 10(12C)",
+          "newSection": "Schedule II, S.No. 6 and S.No. 16"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — The Full Schedule II in Practice",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Megha's client, a retired Army colonel's widow, receives Rs 3 lakh/year as family pension and a Vir Chakra award amount of Rs 5 lakh. Under Schedule II, what is exempt?",
+          "options": [
+            { "text": "Only the Vir Chakra amount (Rs 5 lakh)", "correct": false },
+            { "text": "Only the family pension (Rs 3 lakh)", "correct": false },
+            { "text": "Both — Rs 3 lakh family pension (S.No. 14) and Rs 5 lakh Vir Chakra (S.No. 10) = Rs 8 lakh fully exempt", "correct": true },
+            { "text": "Neither — both are taxable post-2025", "correct": false }
+          ],
+          "explanation": "Both are fully exempt. War/operational family pension at S.No. 14 (no cap) and gallantry award at S.No. 10 (no cap) are independent exemptions. The widow's total exempt income under Schedule II is Rs 8 lakh. No conditions to check beyond the military service nexus.",
+          "explanationWrong": "Rs 8 lakh fully exempt — both entries apply independently. S.No. 14 covers family pension of armed forces personnel killed in operational duty (no ceiling). S.No. 10 covers gallantry awards (no ceiling). These are two of the most straightforward exemptions in Schedule II — no caps, no complex conditions, just verify the military service connection.",
+          "tier": 3,
+          "subConcepts": ["military-widow-scenario", "dual-exemption", "sno-10-and-14"],
+          "isReview": false,
+          "oldSection": "Sections 10(18), 10(19)",
+          "newSection": "Schedule II, S.No. 10 and 14"
+        },
+        {
+          "order": 2,
+          "question": "Ajay, an Agniveer, completes his 4-year stint and receives Rs 12 lakh from the Agniveer Corpus Fund. He also receives a superannuation fund payment of Rs 3 lakh. Under Schedule II, how much is exempt?",
+          "options": [
+            { "text": "Rs 12 lakh only — Agniveer corpus exempt, superannuation taxable", "correct": false },
+            { "text": "Rs 15 lakh — both fully exempt under S.No. 7 and S.No. 8 respectively", "correct": true },
+            { "text": "Rs 3 lakh only — superannuation exempt, Agniveer taxable", "correct": false },
+            { "text": "Nil — Agniveers don't get exemptions", "correct": false }
+          ],
+          "explanation": "Both exempt. Agniveer Corpus Fund at S.No. 7 (Rs 12 lakh, no cap). Superannuation fund payment at S.No. 8 (Rs 3 lakh, within limits). Total exempt: Rs 15 lakh. The Agniveer exemption was introduced by FA 2023 and carried forward.",
+          "explanationWrong": "Rs 15 lakh — both entries apply. S.No. 7 (Agniveer, FA 2023 origin) covers the corpus fund payout. S.No. 8 (superannuation, long-standing provision) covers approved fund payments. Each has its own conditions, but both amounts qualify here. Ajay gets full exemption on Rs 15 lakh.",
+          "tier": 3,
+          "subConcepts": ["agniveer-scenario", "dual-fund-payout", "sno-7-and-8"],
+          "isReview": false,
+          "oldSection": "Section 10(12C)/80CCH, Section 10(13)",
+          "newSection": "Schedule II, S.No. 7 and 8"
+        },
+        {
+          "order": 3,
+          "question": "How many of Schedule II's 17 entries are purely renumbered from old Section 10 with zero substantive change?",
+          "options": [
+            { "text": "10", "correct": false },
+            { "text": "14", "correct": false },
+            { "text": "15", "correct": true },
+            { "text": "17", "correct": false }
+          ],
+          "explanation": "15 entries are pure renumbering. S.No. 15 (equalisation levy refund) is transitional, and S.No. 16 (UPS) is genuinely new. All others — agricultural income, life insurance, PF, NPS, scholarships, gratuity, awards, and more — are renumbered only.",
+          "explanationWrong": "15 out of 17 are renumbered only. The two exceptions: S.No. 15 (transitional entry for equalisation levy refund — the levy is repealed) and S.No. 16 (UPS lump sum — genuinely new). This underscores the point: Schedule II is reorganization, not reform.",
+          "tier": 3,
+          "subConcepts": ["renumbering-count", "15-of-17", "minimal-substantive-change"],
+          "isReview": true,
+          "oldSection": "Section 10 (various)",
+          "newSection": "Schedule II (17 entries)"
+        },
+        {
+          "order": 4,
+          "question": "Divya's payroll software shows 'Section 10(10) — Gratuity' in the exemption dropdown. After updating to the 2025 Act format, what should it display?",
+          "options": [
+            { "text": "Section 11, Schedule III, S.No. 17", "correct": false },
+            { "text": "Section 11, Schedule II, S.No. 17", "correct": true },
+            { "text": "Section 10, Schedule II, S.No. 17", "correct": false },
+            { "text": "Section 12, Schedule II, S.No. 17", "correct": false }
+          ],
+          "explanation": "Section 11, Schedule II, S.No. 17. Gratuity is a general exemption (not individual/HUF-specific), so it's Schedule II, not III. And it's Section 11 (not 10 — that's the Portuguese Civil Code trap). Not Section 12 (that's political parties).",
+          "explanationWrong": "Section 11, Schedule II, S.No. 17. Three traps in one question: (1) Section 11, not Section 10 — new Section 10 is Portuguese Civil Code; (2) Schedule II, not Schedule III — gratuity is available to all, not just individuals/HUFs; (3) Not Section 12 — that's exclusively for political parties. Getting the format right matters for compliance.",
+          "tier": 3,
+          "subConcepts": ["payroll-software-update", "gratuity-citation", "triple-trap"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 11, Schedule II, S.No. 17"
+        },
+        {
+          "order": 5,
+          "question": "A client receives a pending equalisation levy refund of Rs 8 lakh in December 2026. His CA is unsure whether this is taxable because the levy was repealed. What is the correct treatment under Schedule II?",
+          "options": [
+            { "text": "Taxable — the levy is repealed so the refund has no exemption", "correct": false },
+            { "text": "Exempt under S.No. 15 — the transitional entry specifically covers refunds of the repealed levy", "correct": true },
+            { "text": "Partially exempt — Rs 5 lakh limit on equalisation levy refunds", "correct": false },
+            { "text": "Must be returned to the government — refunds are not allowed post-repeal", "correct": false }
+          ],
+          "explanation": "Exempt under S.No. 15. This is exactly why the transitional entry exists — to cover refunds of the repealed equalisation levy. The repeal of the levy doesn't make refunds taxable; S.No. 15 ensures they remain exempt. Once all refunds are processed, S.No. 15 becomes a dead letter.",
+          "explanationWrong": "Exempt under S.No. 15 — this is the transitional entry's entire purpose. The equalisation levy is dead, but refund claims from the pre-repeal period continue to be processed. S.No. 15 ensures these refunds aren't accidentally taxed. The entry will eventually become obsolete, but for now it protects clients with pending refund claims.",
+          "tier": 3,
+          "subConcepts": ["equalisation-refund-scenario", "transitional-protection", "sno-15-in-action"],
+          "isReview": false,
+          "oldSection": "Equalisation Levy Act, 2016",
+          "newSection": "Schedule II, S.No. 15"
+        }
+      ]
+    }
+  ]
+}

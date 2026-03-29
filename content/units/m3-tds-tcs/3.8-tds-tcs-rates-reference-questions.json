@@ -1,0 +1,835 @@
+{
+  "unit": "3.8",
+  "title": "TDS/TCS Rates & Thresholds Quick Reference",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Seven Rate Bands",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many distinct TDS rate bands exist across Section 393's three tables?",
+          "options": [
+            { "text": "4 bands", "correct": false },
+            { "text": "5 bands", "correct": false },
+            { "text": "7 bands: 0.1%, 1%, 2%, 5%, 10%, 20%, 30%", "correct": true },
+            { "text": "3 bands: low, medium, high", "correct": false }
+          ],
+          "explanation": "Seven distinct TDS rate bands: 0.1% (goods purchase/e-commerce), 1% (immovable property, VDA, rent-P&M, motor vehicle TCS), 2% (contractor-individual, rent-P&M, technical fees, most TCS), 5% (NR infra bonds, NR REIT), 10% (rent-land, professional, director, royalty, dividend, MF, partner salary), 20% (NR general, LRS other), 30% (winnings).",
+          "explanationWrong": "Seven bands spanning from 0.1% to 30%. Plus slab rates for salary under Section 392. Knowing which band a payment falls into is the foundation for correct TDS compliance.",
+          "tier": 1,
+          "subConcepts": ["rate-bands", "tds-rate-structure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 2,
+          "question": "Which payment type attracts the lowest TDS rate of 0.1%?",
+          "options": [
+            { "text": "Rent on plant and machinery", "correct": false },
+            { "text": "Sale of goods by specified persons (old 194Q)", "correct": true },
+            { "text": "Insurance commission", "correct": false },
+            { "text": "Interest on savings account", "correct": false }
+          ],
+          "explanation": "Sale of goods (old Section 194Q) attracts TDS at 0.1% under Table 1, Sl. 1, with a threshold of Rs 50 lakh aggregate per year. This is the lowest non-zero TDS rate in the framework.",
+          "explanationWrong": "0.1% applies to purchase of goods (old 194Q) under Table 1, Sl. 1. The threshold is Rs 50 lakh aggregate. This minimal rate creates an information trail without imposing a significant cash flow burden on buyers.",
+          "tier": 1,
+          "subConcepts": ["0.1-percent-rate", "goods-purchase-tds"],
+          "isReview": false,
+          "oldSection": "Section 194Q",
+          "newSection": "Section 393, Table 1, Sl. 1"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, which single section governs all TCS provisions?",
+          "options": [
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": true },
+            { "text": "Section 398", "correct": false }
+          ],
+          "explanation": "Section 394 consolidates all TCS into a single table. This is a review from Unit 3.6 where TCS rates were rationalized to a uniform 2% for most entries.",
+          "explanationWrong": "Section 394 = TCS. Section 392 = salary TDS. Section 393 = non-salary TDS (3 tables). Section 398 = defaults and interest.",
+          "tier": 1,
+          "subConcepts": ["section-394", "tcs-section"],
+          "isReview": true,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 4,
+          "question": "Which payments fall in the 30% rate band — the highest TDS rate?",
+          "options": [
+            { "text": "Professional fees and royalty", "correct": false },
+            { "text": "Lottery/crossword/card game winnings, online gaming winnings, and horse race winnings", "correct": true },
+            { "text": "All non-resident payments", "correct": false },
+            { "text": "Cash withdrawals above Rs 1 crore", "correct": false }
+          ],
+          "explanation": "The 30% rate applies exclusively to winnings: Table 3, Sl. 1 (lottery/card games), Sl. 2 (online gaming), and Sl. 3 (horse race). These are the highest-taxed TDS items because winnings income allows no deduction for expenses.",
+          "explanationWrong": "Only winnings attract 30%. Cash withdrawals are at 2%. NR payments can be at 20% (or DTAA rates). Professional fees and royalty are at 10%. The 30% rate reflects the nature of winnings as windfall income.",
+          "tier": 1,
+          "subConcepts": ["30-percent-band", "winnings-rate"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3, Sl. 1-3"
+        },
+        {
+          "order": 5,
+          "question": "The 10% rate band covers the most entries. Which of these is NOT at 10%?",
+          "options": [
+            { "text": "Professional fees (old 194J)", "correct": false },
+            { "text": "Dividend (old 194)", "correct": false },
+            { "text": "Partner salary (old 194T)", "correct": false },
+            { "text": "Contractor payment — individual (old 194C)", "correct": true }
+          ],
+          "explanation": "Individual contractor payments are at 2% (Table 1, Sl. 6(i)), not 10%. Professional fees, dividend, mutual fund income, partner salary, rent on land/building, royalty, director fees — all are at 10%. Contractor payments split: individual at 2%, advertising at 10%.",
+          "explanationWrong": "Individual contractor TDS is 2%, not 10%. The 10% band includes: professional fees, royalty, dividend, interest on securities, rent-land/building, MF income, JDA, EPF, partner salary, and director fees.",
+          "tier": 1,
+          "subConcepts": ["10-percent-band", "contractor-rate-distinction"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6(i)"
+        }
+      ]
+    },
+    {
+      "title": "1% and 2% Rate Bands",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which payments fall in the 1% TDS rate band?",
+          "options": [
+            { "text": "Immovable property transfer, VDA transfer, and rent on plant & machinery", "correct": true },
+            { "text": "Contractor payments and commission", "correct": false },
+            { "text": "Only immovable property transfer", "correct": false },
+            { "text": "All goods purchases", "correct": false }
+          ],
+          "explanation": "The 1% band includes: immovable property transfer (Table 1, Sl. 2(i), old 194-IA), VDA transfer (Table 1, Sl. 3, old 194S), and rent on plant & machinery (Table 1, Sl. 7(i), old 194-I). Motor vehicle TCS is also at 1% (Section 394, Sl. 6).",
+          "explanationWrong": "Three TDS entries at 1%: property transfer, VDA, and rent-P&M. Plus motor vehicle TCS at 1%. Contractor payments are at 2% (individual) or 10% (advertising). Commission is at 5%.",
+          "tier": 1,
+          "subConcepts": ["1-percent-band", "property-vda-rent"],
+          "isReview": false,
+          "oldSection": "Sections 194-IA, 194S, 194-I",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "The 2% TDS rate covers diverse entries across multiple tables. Which of these is at 2%?",
+          "options": [
+            { "text": "Dividend payments", "correct": false },
+            { "text": "E-commerce operator payments to participants (old 194-O)", "correct": true },
+            { "text": "Lottery winnings", "correct": false },
+            { "text": "Professional fees", "correct": false }
+          ],
+          "explanation": "E-commerce operator payments (old 194-O) are at 2% under Table 1, Sl. 8. Other 2% entries include: contractor-individual (Sl. 6(i)), rent by individual/HUF (Sl. 10), payment by individual/HUF to contractor (Sl. 11), lottery commission (Table 3, Sl. 4), and cash withdrawal (Table 3, Sl. 5).",
+          "explanationWrong": "E-commerce at 2%. Dividend is 10%. Lottery winnings are 30%. Professional fees are 10%. The 2% band spans Tables 1 and 3, covering several payment types.",
+          "tier": 1,
+          "subConcepts": ["2-percent-band", "e-commerce-tds"],
+          "isReview": false,
+          "oldSection": "Section 194-O",
+          "newSection": "Section 393, Table 1, Sl. 8"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what is the interest rate for failure to deposit TDS after deduction?",
+          "options": [
+            { "text": "1% per month", "correct": false },
+            { "text": "1.5% per month", "correct": true },
+            { "text": "2% per month", "correct": false },
+            { "text": "12% per annum", "correct": false }
+          ],
+          "explanation": "1.5% per month under Section 398(3)(a)(ii) for failure to deposit after deduction. Failure to deduct is lower at 1% per month. This is a review from Unit 3.7.",
+          "explanationWrong": "1.5% for deposit failure. 1% for deduction failure. The higher rate for deposit failure reflects that the deductor has withheld the payee's money and is effectively using both parties' funds.",
+          "tier": 1,
+          "subConcepts": ["interest-rates", "section-398"],
+          "isReview": true,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194C (contractor payments) maps to which entry in the new Act for individual/HUF contractors?",
+          "options": [
+            { "text": "Table 1, Sl. 6(i) at 2%", "correct": true },
+            { "text": "Table 1, Sl. 6(ii) at 10%", "correct": false },
+            { "text": "Table 3, Sl. 7 at 10%", "correct": false },
+            { "text": "Table 1, Sl. 11 at 2%", "correct": false }
+          ],
+          "explanation": "Individual/HUF contractor payments map to Table 1, Sl. 6(i) at 2%. Company/firm contractors and advertising payments map to Sl. 6(ii) at 10%. The old 194C split between 1% and 2% has been restructured.",
+          "explanationWrong": "Individual contractors → Sl. 6(i) at 2%. The old 194C rate for individuals was 1% — so this is actually a rate increase from 1% to 2% in the new Act. Advertising/company contractors are at 10% under Sl. 6(ii).",
+          "tier": 1,
+          "subConcepts": ["contractor-mapping", "194c-to-393"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6(i)"
+        },
+        {
+          "order": 5,
+          "question": "Which TCS entries are at 1% under the new Act?",
+          "options": [
+            { "text": "Alcoholic liquor and scrap", "correct": false },
+            { "text": "Motor vehicle only (Sl. 6)", "correct": true },
+            { "text": "Motor vehicle and coal", "correct": false },
+            { "text": "All goods entries", "correct": false }
+          ],
+          "explanation": "Only motor vehicle TCS remains at 1% (Section 394, Sl. 6, Rs 10 lakh threshold). All other goods entries that were at 1% (alcohol, scrap, coal) moved to 2% under Finance Bill 2026.",
+          "explanationWrong": "Motor vehicle is the sole 1% TCS entry. Alcohol, scrap, and coal all moved from 1% to 2%. Motor vehicle was deliberately excluded from the 2% rationalization.",
+          "tier": 1,
+          "subConcepts": ["1-percent-tcs", "motor-vehicle-exception"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        }
+      ]
+    },
+    {
+      "title": "5%, 10%, and 20% Rate Bands",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which payments are in the 5% TDS rate band under Section 393?",
+          "options": [
+            { "text": "Insurance commission, commission/brokerage, and rent on land & building/furniture", "correct": true },
+            { "text": "Professional fees and royalty", "correct": false },
+            { "text": "NR payments for infrastructure bonds", "correct": false },
+            { "text": "Lottery commission and cash withdrawal", "correct": false }
+          ],
+          "explanation": "The 5% band includes: insurance commission (Table 1, Sl. 4, old 194D), commission/brokerage (Table 1, Sl. 5, old 194H), and rent on land & building/furniture (Table 1, Sl. 7(ii), old 194-I). Some NR entries are also at 5% (infra bonds, REIT under Table 2).",
+          "explanationWrong": "Insurance commission, general commission, and rent-land/building are the Table 1 entries at 5%. Professional fees are at 10%. Lottery commission is at 2%. Cash withdrawal is at 2%.",
+          "tier": 1,
+          "subConcepts": ["5-percent-band", "commission-rent-rates"],
+          "isReview": false,
+          "oldSection": "Sections 194D, 194H, 194-I",
+          "newSection": "Section 393, Table 1, Sl. 4, 5, 7(ii)"
+        },
+        {
+          "order": 2,
+          "question": "The 20% rate band applies to which types of payments?",
+          "options": [
+            { "text": "All non-resident payments and all LRS remittances", "correct": false },
+            { "text": "NR general payments (where DTAA rate is higher or no DTAA), LRS other purposes, and immovable property consideration wholly in kind", "correct": true },
+            { "text": "Only winnings above Rs 1 lakh", "correct": false },
+            { "text": "Only partner salary above Rs 5 lakh", "correct": false }
+          ],
+          "explanation": "The 20% band includes: NR payments under Table 2 (general rate), LRS other purposes TCS (Section 394, Sl. 7(b)), and immovable property transfer where consideration is wholly in kind (Table 1, Sl. 2(iii)). The NR 20% applies where there is no DTAA or the DTAA rate is higher.",
+          "explanationWrong": "20% covers NR general, LRS-other, and property-in-kind. Not all NR payments are at 20% — some have lower DTAA rates. Not all LRS is at 20% — education/medical is 2%. The 20% band spans both TDS and TCS.",
+          "tier": 1,
+          "subConcepts": ["20-percent-band", "nr-lrs-rates"],
+          "isReview": false,
+          "oldSection": "Sections 195, 206C(1G)(b)",
+          "newSection": "Section 393 Table 2, Section 394 Sl. 7(b)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what form replaces old Form 26Q for filing non-salary TDS returns on residents?",
+          "options": [
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 140", "correct": true },
+            { "text": "Form 143", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 140 replaces old 26Q for non-salary TDS quarterly returns on residents. This is a review from Unit 3.7's compliance framework.",
+          "explanationWrong": "Form 140 is the new 26Q. Form 138 replaces 24Q (salary). Form 144 replaces 27Q (non-residents). Form 143 replaces 27EQ (TCS).",
+          "tier": 1,
+          "subConcepts": ["form-140", "return-forms"],
+          "isReview": true,
+          "oldSection": "Form 26Q",
+          "newSection": "Form 140"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194-IA for immovable property transfer maps to which serial number and what rate for standard cash consideration?",
+          "options": [
+            { "text": "Table 1, Sl. 2(i) at 1%", "correct": true },
+            { "text": "Table 1, Sl. 2(i) at 2%", "correct": false },
+            { "text": "Table 3, Sl. 5 at 2%", "correct": false },
+            { "text": "Table 1, Sl. 10 at 10%", "correct": false }
+          ],
+          "explanation": "Standard immovable property transfer (cash consideration) is Table 1, Sl. 2(i) at 1% with Rs 50 lakh threshold. Partly in kind is Sl. 2(ii) at 2%. Wholly in kind is Sl. 2(iii) at 20%. The rate escalates with the proportion of non-cash consideration.",
+          "explanationWrong": "Property transfer — cash = 1% (Sl. 2(i)), partly in kind = 2% (Sl. 2(ii)), wholly in kind = 20% (Sl. 2(iii)). The tiered approach based on consideration type is unique to immovable property transfers.",
+          "tier": 1,
+          "subConcepts": ["property-transfer-rates", "consideration-type-tiers"],
+          "isReview": false,
+          "oldSection": "Section 194-IA",
+          "newSection": "Section 393, Table 1, Sl. 2"
+        },
+        {
+          "order": 5,
+          "question": "The 10% rate band covers the most entries. Name three entries from different tables that share this rate.",
+          "options": [
+            { "text": "Professional fees (Table 1, Sl. 9), NSS deposits (Table 3, Sl. 6), and partner salary (Table 3, Sl. 7)", "correct": true },
+            { "text": "Contractor-individual (Table 1, Sl. 6), cash withdrawal (Table 3, Sl. 5), and lottery commission (Table 3, Sl. 4)", "correct": false },
+            { "text": "Rent-P&M (Table 1, Sl. 7(i)), VDA (Table 1, Sl. 3), and online gaming (Table 3, Sl. 2)", "correct": false },
+            { "text": "Insurance commission (Table 1, Sl. 4), horse race (Table 3, Sl. 3), and goods purchase (Table 1, Sl. 1)", "correct": false }
+          ],
+          "explanation": "Professional fees (Table 1, Sl. 9(i)) at 10%, NSS deposits (Table 3, Sl. 6) at 10%, and partner salary (Table 3, Sl. 7) at 10% — all share the 10% rate across Tables 1 and 3. Other 10% entries include dividend, MF income, rent-land, royalty, and interest on securities.",
+          "explanationWrong": "The correct trio spans Tables 1 and 3. Contractor-individual is 2%, cash withdrawal is 2%, lottery commission is 2%. Rent-P&M is 1%, VDA is 1%, online gaming is 30%. Insurance commission is 5%, horse race is 30%, goods purchase is 0.1%.",
+          "tier": 1,
+          "subConcepts": ["10-percent-cross-table", "rate-band-recall"],
+          "isReview": false,
+          "oldSection": "Sections 194J, 194EE, 194T",
+          "newSection": "Section 393, Table 1 Sl. 9 and Table 3 Sl. 6-7"
+        }
+      ]
+    },
+    {
+      "title": "Old Section Cross-Reference",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194A (interest other than on securities) maps to which new Act reference?",
+          "options": [
+            { "text": "Section 393, Table 1, Sl. 14", "correct": false },
+            { "text": "Section 393, Table 1, Sl. 16", "correct": true },
+            { "text": "Section 393, Table 3, Sl. 6", "correct": false },
+            { "text": "Section 392", "correct": false }
+          ],
+          "explanation": "Old 194A maps to Table 1, Sl. 16 at 10%. The threshold is Rs 1,00,000 for senior citizens (increased from Rs 50,000 by Finance Act 2025) and Rs 40,000 for others. Interest on securities (old 193) is a separate entry at Table 1, Sl. 14.",
+          "explanationWrong": "194A → Table 1, Sl. 16. Don't confuse with Sl. 14 (interest ON securities, old 193). 194A covers bank interest, FD interest, and similar — the most commonly encountered TDS provision for individuals.",
+          "tier": 2,
+          "subConcepts": ["194a-mapping", "interest-tds-reference"],
+          "isReview": false,
+          "oldSection": "Section 194A",
+          "newSection": "Section 393, Table 1, Sl. 16"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194K (mutual fund income) maps to which new reference and at what rate?",
+          "options": [
+            { "text": "Table 1, Sl. 15 at 10%", "correct": false },
+            { "text": "Table 1, Sl. 17 at 10%", "correct": true },
+            { "text": "Table 1, Sl. 9 at 10%", "correct": false },
+            { "text": "Table 3, Sl. 6 at 10%", "correct": false }
+          ],
+          "explanation": "Old 194K maps to Table 1, Sl. 17 at 10% with Rs 10,000 threshold. This covers income distributed by mutual funds and UTI. The rate and threshold are unchanged from the old Act.",
+          "explanationWrong": "194K → Table 1, Sl. 17 at 10%. Sl. 15 is dividend (old 194). Sl. 9 is professional fees (old 194J). Sl. 6 in Table 3 is NSS (old 194EE). Each has 10% but different serial numbers.",
+          "tier": 2,
+          "subConcepts": ["194k-mapping", "mutual-fund-tds"],
+          "isReview": false,
+          "oldSection": "Section 194K",
+          "newSection": "Section 393, Table 1, Sl. 17"
+        },
+        {
+          "order": 3,
+          "question": "TCS on overseas tour packages changed from a tiered 5%/20% structure to what under Finance Bill 2026?",
+          "options": [
+            { "text": "10% flat rate", "correct": false },
+            { "text": "Flat 2% with threshold removed", "correct": true },
+            { "text": "5% flat rate", "correct": false },
+            { "text": "20% flat rate", "correct": false }
+          ],
+          "explanation": "Overseas tour packages moved from tiered 5%/20% to a flat 2% with the threshold removed entirely. This is a review from Unit 3.6 — the most dramatic simplification in the TCS framework.",
+          "explanationWrong": "Flat 2%, no threshold. The old tiered structure (5% up to Rs 7 lakh, 20% above) was complex. The new flat 2% on all amounts is a massive simplification for tour operators.",
+          "tier": 2,
+          "subConcepts": ["overseas-tour-rate", "tcs-simplification"],
+          "isReview": true,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194 (dividend) maps to which new reference, and what are the thresholds?",
+          "options": [
+            { "text": "Table 1, Sl. 15 at 10%; Rs 10,000 for individuals, nil for others", "correct": true },
+            { "text": "Table 1, Sl. 14 at 10%; Rs 10,000 for all", "correct": false },
+            { "text": "Table 1, Sl. 13 at 10%; nil threshold for all", "correct": false },
+            { "text": "Table 3, Sl. 1 at 30%; Rs 10,000 for all", "correct": false }
+          ],
+          "explanation": "Dividend (old 194) maps to Table 1, Sl. 15 at 10%. The threshold differs by payee type: Rs 10,000 for individuals, nil for others (companies, etc.). Deemed dividend (old 2(22)(e)/194) is a separate entry at Sl. 13.",
+          "explanationWrong": "Sl. 15 at 10%. The dual threshold is important: individuals get Rs 10,000 exemption, non-individuals get none. Sl. 14 is interest on securities, Sl. 13 is deemed dividend. All are at 10% but with different entries.",
+          "tier": 2,
+          "subConcepts": ["dividend-mapping", "dual-threshold"],
+          "isReview": false,
+          "oldSection": "Section 194",
+          "newSection": "Section 393, Table 1, Sl. 15"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 195 (non-resident payments) maps to which table in the new Act?",
+          "options": [
+            { "text": "Table 1 — specified person payments", "correct": false },
+            { "text": "Table 2 — non-resident payments", "correct": true },
+            { "text": "Table 3 — any person payments", "correct": false },
+            { "text": "A separate Section 394 table", "correct": false }
+          ],
+          "explanation": "Section 195 maps to Table 2 of Section 393. This table covers all payments to non-residents, with rates determined by the nature of income and applicable DTAA provisions. The general rate is 20%.",
+          "explanationWrong": "Table 2 = non-resident payments (old 195). The general NR rate is 20% where no specific provision or DTAA applies. Specific NR rates exist for interest, royalty, and technical fees under DTAA.",
+          "tier": 2,
+          "subConcepts": ["195-mapping", "table-2-nr"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Key Thresholds Reference",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the threshold for TDS on immovable property transfer (old 194-IA)?",
+          "options": [
+            { "text": "Rs 30 lakh per transaction", "correct": false },
+            { "text": "Rs 50 lakh per transaction", "correct": true },
+            { "text": "Rs 1 crore per transaction", "correct": false },
+            { "text": "No threshold — applies to all property sales", "correct": false }
+          ],
+          "explanation": "Rs 50 lakh per transaction for immovable property transfer under Table 1, Sl. 2 (old 194-IA). If the sale consideration is below Rs 50 lakh, no TDS is required. The rate is 1% (cash), 2% (partly in kind), or 20% (wholly in kind).",
+          "explanationWrong": "Rs 50 lakh per transaction. This is a per-transaction threshold — each property sale is assessed independently. The threshold amount does not change based on the type of consideration (cash/kind).",
+          "tier": 2,
+          "subConcepts": ["property-threshold", "per-transaction-limit"],
+          "isReview": false,
+          "oldSection": "Section 194-IA",
+          "newSection": "Section 393, Table 1, Sl. 2"
+        },
+        {
+          "order": 2,
+          "question": "Contractor payments under old 194C have dual thresholds. What are they?",
+          "options": [
+            { "text": "Rs 30,000 per single payment/contract AND Rs 1 lakh aggregate per year", "correct": true },
+            { "text": "Rs 50,000 per payment AND Rs 2 lakh aggregate", "correct": false },
+            { "text": "Rs 10,000 per payment AND Rs 50,000 aggregate", "correct": false },
+            { "text": "Rs 1 lakh per payment only — no aggregate threshold", "correct": false }
+          ],
+          "explanation": "Contractor payments have a dual threshold: Rs 30,000 per single contract/payment OR Rs 1 lakh aggregate per year. TDS is triggered when either threshold is breached. Under the new Act, this maps to Table 1, Sl. 6.",
+          "explanationWrong": "Rs 30,000 per contract + Rs 1 lakh aggregate. The OR condition means even if no single payment exceeds Rs 30,000, TDS applies when aggregate payments to the same contractor cross Rs 1 lakh in the year.",
+          "tier": 2,
+          "subConcepts": ["contractor-dual-threshold", "single-vs-aggregate"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, Form 15G and Form 15H have been replaced by which single form?",
+          "options": [
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 133", "correct": false }
+          ],
+          "explanation": "Form 121 merges both 15G and 15H, eliminating the age-based distinction. This is a review from Unit 3.7's compliance framework.",
+          "explanationWrong": "Form 121 replaces both. Form 128 is for lower withholding (old Form 13). Form 130 is the salary certificate (old Form 16). Form 133 is the consolidated certificate (old 16C/D/E/27D).",
+          "tier": 2,
+          "subConcepts": ["form-121", "15g-15h-merger"],
+          "isReview": true,
+          "oldSection": "Forms 15G/15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 4,
+          "question": "Rent by specified persons (old 194-I) has a monthly threshold. What is it?",
+          "options": [
+            { "text": "Rs 20,000 per month", "correct": false },
+            { "text": "Rs 50,000 per month", "correct": true },
+            { "text": "Rs 1 lakh per month", "correct": false },
+            { "text": "Rs 2.4 lakh per year (Rs 20,000/month)", "correct": false }
+          ],
+          "explanation": "Rs 50,000 per month is the threshold for rent TDS under Table 1, Sl. 7 (old 194-I). Both plant & machinery rent (1%) and land/building rent (5%) share this monthly threshold. The monthly threshold for individual/HUF rent payers (old 194-IB, Sl. 10) is also Rs 50,000.",
+          "explanationWrong": "Rs 50,000 per month. This applies to both types of rent under specified persons. The threshold was previously Rs 2.4 lakh per year — the new monthly expression is equivalent but changes how the threshold is tracked.",
+          "tier": 2,
+          "subConcepts": ["rent-threshold", "monthly-basis"],
+          "isReview": false,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393, Table 1, Sl. 7"
+        },
+        {
+          "order": 5,
+          "question": "What are the VDA (virtual digital asset) transfer thresholds under the new Act?",
+          "options": [
+            { "text": "Rs 50,000 (specified person) / Rs 10,000 (others) aggregate per year", "correct": true },
+            { "text": "Rs 1 lakh for all payees", "correct": false },
+            { "text": "No threshold — applies from the first transaction", "correct": false },
+            { "text": "Rs 10,000 for all payees", "correct": false }
+          ],
+          "explanation": "VDA transfer (old 194S) has dual thresholds based on who the deductor is: Rs 50,000 aggregate per year if the deductor is a specified person, and Rs 10,000 aggregate per year for others. TDS rate is 1% under Table 1, Sl. 3.",
+          "explanationWrong": "Rs 50,000 for specified persons, Rs 10,000 for others. The lower threshold for non-specified persons ensures even P2P VDA transactions on smaller platforms are captured in the TDS net.",
+          "tier": 2,
+          "subConcepts": ["vda-threshold", "dual-threshold"],
+          "isReview": false,
+          "oldSection": "Section 194S",
+          "newSection": "Section 393, Table 1, Sl. 3"
+        }
+      ]
+    },
+    {
+      "title": "TCS Rate Comparison — Old vs New",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Summarize the TCS rate changes: how many entries increased, decreased, and remained unchanged?",
+          "options": [
+            { "text": "3 increased (1%→2%), 4 decreased, 3 unchanged", "correct": false },
+            { "text": "3 increased (alcohol, scrap, coal at 1%→2%), 4 decreased (tendu, timber, LRS-edu, overseas tour), 3 unchanged (motor vehicle, LRS-other, parking/toll)", "correct": true },
+            { "text": "All 9 entries changed", "correct": false },
+            { "text": "5 unchanged, 4 decreased", "correct": false }
+          ],
+          "explanation": "3 increased: alcohol (1%→2%), scrap (1%→2%), coal (1%→2%). 4 decreased: tendu (5%→2%), timber (2.5%→2%), LRS-education (5%→2%), overseas tour (5%/20%→2%). 3 unchanged: motor vehicle (1%), LRS-other (20%), parking/toll (2%).",
+          "explanationWrong": "3 up, 4 down, 3 same. The convergence pattern is clear: everything moved toward 2% from both directions, except motor vehicle (stayed at 1%), LRS-other (stayed at 20%, policy deterrent), and parking/toll (already at 2%).",
+          "tier": 2,
+          "subConcepts": ["tcs-change-summary", "rate-direction"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 2,
+          "question": "Which TCS entry saw the steepest rate DECREASE in absolute percentage points?",
+          "options": [
+            { "text": "Tendu leaves — 5% to 2% (3 percentage point drop)", "correct": true },
+            { "text": "Timber — 2.5% to 2% (0.5 percentage point drop)", "correct": false },
+            { "text": "LRS education — 5% to 2% (3 percentage point drop)", "correct": false },
+            { "text": "Overseas tour — 20% to 2% (18 percentage point drop)", "correct": false }
+          ],
+          "explanation": "Tendu leaves and LRS education both dropped 3 percentage points (5% to 2%). However, overseas tour's change is more nuanced — it went from a tiered 5%/20% to flat 2%, so the effective drop depends on the amount. Among single-rate entries, tendu and LRS-education tie at 3pp.",
+          "explanationWrong": "Tendu leaves and LRS education both dropped 3 percentage points. The overseas tour is complex because the old rate was tiered (5% up to Rs 7L, 20% above), so the effective decrease depends on the package value.",
+          "tier": 2,
+          "subConcepts": ["steepest-decrease", "percentage-point-change"],
+          "isReview": false,
+          "oldSection": "Section 206C(1), 206C(1G)(a)",
+          "newSection": "Section 394, Sl. 2, 7(a)"
+        },
+        {
+          "order": 3,
+          "question": "What is the key change in the cash withdrawal TDS under the new Act compared to the old?",
+          "options": [
+            { "text": "The rate increased from 2% to 5%", "correct": false },
+            { "text": "The 206AB higher rate for non-filers (5%) was removed — uniform 2% for all", "correct": true },
+            { "text": "The threshold was reduced from Rs 1 crore to Rs 50 lakh", "correct": false },
+            { "text": "Cash withdrawal TDS was abolished", "correct": false }
+          ],
+          "explanation": "The removal of 206AB eliminated the 5% non-filer rate. Under the new Act, 2% applies uniformly regardless of return-filing status. This is a review from Unit 3.5.",
+          "explanationWrong": "206AB removal is the key change. The 2% rate and Rs 1 crore threshold are unchanged. What changed is that non-filers no longer face a higher 5% rate — simplifying bank compliance significantly.",
+          "tier": 2,
+          "subConcepts": ["206ab-removal", "cash-withdrawal-change"],
+          "isReview": true,
+          "oldSection": "Section 194N, 206AB",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 4,
+          "question": "Which NR-specific TDS entries are at 5% in Table 2?",
+          "options": [
+            { "text": "Interest on infrastructure bonds and REIT/InvIT distributions to NRs", "correct": true },
+            { "text": "All NR dividend payments", "correct": false },
+            { "text": "NR contractor payments only", "correct": false },
+            { "text": "There are no 5% entries in Table 2", "correct": false }
+          ],
+          "explanation": "Infrastructure bond interest (old Section 194LC) and REIT/InvIT distributions to NRs attract 5% TDS under Table 2. These are specific concessions for NR investments in Indian infrastructure and real estate.",
+          "explanationWrong": "NR infra bonds and REIT/InvIT at 5%. These concessional rates encourage foreign investment in infrastructure. The general NR rate is higher at 20%, making these 5% entries notable exceptions.",
+          "tier": 2,
+          "subConcepts": ["nr-5-percent", "infrastructure-concession"],
+          "isReview": false,
+          "oldSection": "Section 194LC",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "For the 30% rate band, what distinguishes the threshold for online gaming (Sl. 2) from lottery (Sl. 1) and horse race (Sl. 3)?",
+          "options": [
+            { "text": "Online gaming has a Rs 50,000 threshold", "correct": false },
+            { "text": "Online gaming has no monetary threshold — TDS applies on net winnings at withdrawal/year-end; lottery and horse race trigger at Rs 10,000", "correct": true },
+            { "text": "All three have the same Rs 10,000 threshold", "correct": false },
+            { "text": "Online gaming threshold is Rs 1 lakh", "correct": false }
+          ],
+          "explanation": "Online gaming (Sl. 2) uses a net winnings concept with no fixed monetary threshold. TDS triggers at withdrawal or year-end. Lottery (Sl. 1) and horse race (Sl. 3) both have a Rs 10,000 per-event threshold. All share the 30% rate but differ in threshold mechanics.",
+          "explanationWrong": "No monetary threshold for online gaming. The net winnings approach (deposits minus withdrawals minus closing balance) replaces a fixed threshold, reflecting the continuous deposit-withdrawal cycle of gaming platforms.",
+          "tier": 2,
+          "subConcepts": ["threshold-mechanics", "online-gaming-vs-lottery"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3, Sl. 1-3"
+        }
+      ]
+    },
+    {
+      "title": "Rate Lookup Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company pays Rs 40,000 as professional fees to a resident CA. What TDS applies?",
+          "options": [
+            { "text": "Rs 4,000 (10% of Rs 40,000)", "correct": true },
+            { "text": "Rs 2,000 (5% of Rs 40,000)", "correct": false },
+            { "text": "Rs 800 (2% of Rs 40,000)", "correct": false },
+            { "text": "No TDS — below threshold", "correct": false }
+          ],
+          "explanation": "Professional fees at 10% under Table 1, Sl. 9(i). Rs 40,000 exceeds the Rs 30,000 threshold. TDS = 10% of Rs 40,000 = Rs 4,000. The full amount is subject to TDS once the threshold is crossed.",
+          "explanationWrong": "10% of Rs 40,000 = Rs 4,000. Professional fees are in the 10% band. The Rs 30,000 threshold is a trigger — once crossed, TDS applies on the entire payment, not just the excess.",
+          "tier": 3,
+          "subConcepts": ["professional-fees-scenario", "threshold-trigger"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393, Table 1, Sl. 9(i)"
+        },
+        {
+          "order": 2,
+          "question": "An individual pays Rs 55,000 monthly rent to a landlord. What is the TDS rate and which form is used?",
+          "options": [
+            { "text": "2% under Table 1, Sl. 10 (old 194-IB), filed via Form 141", "correct": true },
+            { "text": "5% under Table 1, Sl. 7 (old 194-I), filed via Form 140", "correct": false },
+            { "text": "10% under Table 1, Sl. 7(ii), filed via Form 138", "correct": false },
+            { "text": "No TDS — individuals are exempt from rent TDS", "correct": false }
+          ],
+          "explanation": "Individual/HUF paying rent above Rs 50,000/month uses Table 1, Sl. 10 (old 194-IB) at 2%. The challan-cum-statement is Form 141 (old 26QC). Sl. 7 at 5%/10% applies to specified persons (companies, etc.), not individual payers.",
+          "explanationWrong": "2% under Sl. 10, Form 141. Individual rent payers use a different provision (old 194-IB) than specified persons (old 194-I). The rate is lower (2% vs 5%/10%) and the compliance form is Form 141, not Form 140.",
+          "tier": 3,
+          "subConcepts": ["individual-rent-scenario", "form-selection"],
+          "isReview": false,
+          "oldSection": "Section 194-IB",
+          "newSection": "Section 393, Table 1, Sl. 10"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act's compliance framework, the quarterly return for non-resident TDS is filed using which form?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 143", "correct": false },
+            { "text": "Form 144", "correct": true },
+            { "text": "Form 138", "correct": false }
+          ],
+          "explanation": "Form 144 (old 27Q) for non-resident TDS returns. This is a review from Unit 3.7.",
+          "explanationWrong": "Form 144 = NR TDS return. Form 140 = resident non-salary. Form 143 = TCS. Form 138 = salary. The complete return form mapping: 24Q→138, 26Q→140, 27Q→144, 27EQ→143.",
+          "tier": 3,
+          "subConcepts": ["form-144", "nr-return"],
+          "isReview": true,
+          "oldSection": "Form 27Q",
+          "newSection": "Form 144"
+        },
+        {
+          "order": 4,
+          "question": "A bank pays Rs 1,20,000 interest to a senior citizen resident (age 68). What TDS applies?",
+          "options": [
+            { "text": "Rs 12,000 (10% of Rs 1,20,000)", "correct": false },
+            { "text": "Rs 2,000 (10% of Rs 20,000 excess over Rs 1,00,000 senior citizen threshold)", "correct": true },
+            { "text": "Rs 8,000 (10% of Rs 80,000 excess over Rs 40,000 general threshold)", "correct": false },
+            { "text": "No TDS — senior citizens are exempt", "correct": false }
+          ],
+          "explanation": "Senior citizens get a higher threshold of Rs 1,00,000 for interest TDS (Table 1, Sl. 16, old 194A) — increased from Rs 50,000 by Finance Act 2025. Excess = Rs 1,20,000 - Rs 1,00,000 = Rs 20,000. TDS = 10% of Rs 20,000 = Rs 2,000. The general threshold for non-seniors is Rs 40,000.",
+          "explanationWrong": "TDS = 10% of excess over Rs 1,00,000 (senior threshold, increased from Rs 50,000 by Finance Act 2025) = Rs 2,000. If this were a non-senior, the threshold would be Rs 40,000, yielding TDS of Rs 8,000. The enhanced senior citizen threshold saves Rs 6,000 in TDS.",
+          "tier": 3,
+          "subConcepts": ["senior-citizen-threshold", "interest-tds-computation"],
+          "isReview": false,
+          "oldSection": "Section 194A",
+          "newSection": "Section 393, Table 1, Sl. 16"
+        },
+        {
+          "order": 5,
+          "question": "A company pays Rs 15,000 dividend to an individual shareholder. Is TDS applicable?",
+          "options": [
+            { "text": "Yes — 10% on Rs 15,000 = Rs 1,500", "correct": false },
+            { "text": "Yes — 10% on Rs 5,000 excess over Rs 10,000 threshold = Rs 500", "correct": true },
+            { "text": "No — dividends are exempt from TDS", "correct": false },
+            { "text": "Yes — 30% on Rs 15,000 = Rs 4,500", "correct": false }
+          ],
+          "explanation": "Dividend TDS under Table 1, Sl. 15 at 10%. Individual shareholders have a Rs 10,000 threshold. Excess = Rs 15,000 - Rs 10,000 = Rs 5,000. TDS = 10% of Rs 5,000 = Rs 500.",
+          "explanationWrong": "TDS on the excess over Rs 10,000 = Rs 500. The Rs 10,000 threshold applies only to individual shareholders. For a company receiving the same dividend, TDS would apply on the full Rs 15,000 (nil threshold for non-individuals).",
+          "tier": 3,
+          "subConcepts": ["dividend-tds-computation", "individual-threshold"],
+          "isReview": false,
+          "oldSection": "Section 194",
+          "newSection": "Section 393, Table 1, Sl. 15"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Rate Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company pays a resident contractor Rs 2,00,000 for civil work and Rs 50,000 for advertising services. What is the total TDS?",
+          "options": [
+            { "text": "Rs 4,000 (2% on civil) + Rs 5,000 (10% on advertising) = Rs 9,000", "correct": true },
+            { "text": "Rs 15,000 (10% on combined Rs 2,50,000)", "correct": false },
+            { "text": "Rs 5,000 (2% on combined Rs 2,50,000)", "correct": false },
+            { "text": "Rs 25,000 (10% on Rs 2,50,000)", "correct": false }
+          ],
+          "explanation": "Civil work by individual contractor: Table 1, Sl. 6(i) at 2% = Rs 4,000. Advertising: Sl. 6(ii) at 10% = Rs 5,000. Total = Rs 9,000. Different contractor payment types have different rates within the same serial number.",
+          "explanationWrong": "Different rates for different contractor categories. Civil/transport/catering = 2% (for individuals). Advertising = 10%. You cannot combine them — each is computed separately at its applicable rate.",
+          "tier": 3,
+          "subConcepts": ["contractor-split-rates", "multi-rate-computation"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6"
+        },
+        {
+          "order": 2,
+          "question": "A company rents a machine for Rs 60,000/month and office space for Rs 80,000/month from the same landlord. What are the TDS rates?",
+          "options": [
+            { "text": "Machine: 1% (Sl. 7(i)); Office: 5% (Sl. 7(ii)) — different rates for different asset types", "correct": true },
+            { "text": "Both at 5% — rent is rent regardless of asset type", "correct": false },
+            { "text": "Both at 10% — commercial rental rate", "correct": false },
+            { "text": "Machine: 2%; Office: 10%", "correct": false }
+          ],
+          "explanation": "Rent on plant & machinery is 1% under Sl. 7(i). Rent on land & building/furniture is 5% under Sl. 7(ii). Both exceed the Rs 50,000/month threshold. Machine TDS = Rs 600, Office TDS = Rs 4,000. Different asset types attract different rates within the same serial number.",
+          "explanationWrong": "Machine rent = 1%, office rent = 5%. The split within Sl. 7 reflects the old 194-I distinction. Machine rent at 1% (reduced from old 2%) is one of the few genuine rate changes in the new Act.",
+          "tier": 3,
+          "subConcepts": ["rent-split-rates", "asset-type-distinction"],
+          "isReview": false,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393, Table 1, Sl. 7(i), 7(ii)"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 206AB imposed higher TDS for non-filers. What happened to this provision under the new Act?",
+          "options": [
+            { "text": "It was retained with modifications", "correct": false },
+            { "text": "It was entirely omitted — no higher rate for non-filers exists", "correct": true },
+            { "text": "It was merged into Section 398", "correct": false },
+            { "text": "The rate was increased to 10% for non-filers", "correct": false }
+          ],
+          "explanation": "Section 206AB was entirely omitted from the 2025 Act. No higher TDS/TCS rate for non-filers exists in the new framework. This is a review from Units 3.5 and 3.6.",
+          "explanationWrong": "206AB is gone completely. This eliminates the compliance burden of checking non-filer status before applying TDS rates. Uniform rates now apply regardless of the payee's return-filing history.",
+          "tier": 3,
+          "subConcepts": ["206ab-removal", "non-filer-change"],
+          "isReview": true,
+          "oldSection": "Section 206AB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A specified person pays Rs 2 lakh to a resident for professional fees and Rs 25,000 for commission/brokerage. What is the total TDS?",
+          "options": [
+            { "text": "Rs 20,000 (10% professional) + Rs 1,250 (5% commission) = Rs 21,250", "correct": true },
+            { "text": "Rs 16,875 (7.5% blended rate on Rs 2,25,000)", "correct": false },
+            { "text": "Rs 22,500 (10% on combined Rs 2,25,000)", "correct": false },
+            { "text": "Rs 20,000 (10% on professional only; commission below threshold)", "correct": false }
+          ],
+          "explanation": "Professional fees (Sl. 9(i)) at 10% on Rs 2,00,000 = Rs 20,000 (exceeds Rs 30,000 threshold). Commission (Sl. 5) at 5% on Rs 25,000 = Rs 1,250 (exceeds Rs 15,000 threshold). Total = Rs 21,250. Each entry has its own rate and threshold.",
+          "explanationWrong": "Rs 20,000 + Rs 1,250 = Rs 21,250. Professional fees at 10% (Sl. 9(i)) and commission at 5% (Sl. 5) are separate entries. You never blend rates — each is computed independently on its own amount.",
+          "tier": 3,
+          "subConcepts": ["multi-entry-computation", "independent-rates"],
+          "isReview": false,
+          "oldSection": "Sections 194J, 194H",
+          "newSection": "Section 393, Table 1, Sl. 9(i), Sl. 5"
+        },
+        {
+          "order": 5,
+          "question": "An NR receives Rs 10 lakh as technical service fees from an Indian company. No DTAA exists. What TDS rate applies?",
+          "options": [
+            { "text": "10% under Table 1", "correct": false },
+            { "text": "20% under Table 2 (NR general rate, no DTAA)", "correct": true },
+            { "text": "2% under Table 3", "correct": false },
+            { "text": "30% under Table 3 (winnings rate)", "correct": false }
+          ],
+          "explanation": "NR payments without a DTAA attract the general 20% rate under Table 2. If a DTAA existed, the lower treaty rate would apply. Table 1 rates apply to residents. Table 3 is for 'any person' entries like winnings and cash withdrawals.",
+          "explanationWrong": "20% under Table 2 for NR payments with no DTAA. The 10% Table 1 rate would apply if the payee were a resident. For NRs, Table 2 governs, and without a treaty, the domestic rate of 20% prevails.",
+          "tier": 3,
+          "subConcepts": ["nr-general-rate", "no-dtaa-scenario"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Cross-Reference Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company in a single month pays: (1) Rs 50,000 professional fees to a CA, (2) Rs 1,20,000 rent for office, (3) Rs 5,000 dividend to a shareholder. Calculate total TDS.",
+          "options": [
+            { "text": "Rs 5,000 (professional) + Rs 6,000 (rent) + Rs 0 (dividend below Rs 10,000) = Rs 11,000", "correct": true },
+            { "text": "Rs 5,000 + Rs 6,000 + Rs 500 = Rs 11,500", "correct": false },
+            { "text": "Rs 5,000 + Rs 12,000 + Rs 0 = Rs 17,000", "correct": false },
+            { "text": "Rs 10,000 + Rs 6,000 + Rs 500 = Rs 16,500", "correct": false }
+          ],
+          "explanation": "Professional: 10% of Rs 50,000 = Rs 5,000. Rent-office: 5% of Rs 1,20,000 = Rs 6,000 (exceeds Rs 50,000/month). Dividend: Rs 5,000 is below Rs 10,000 threshold for individuals — no TDS. Total = Rs 11,000.",
+          "explanationWrong": "Rs 11,000 total. Professional at 10%, rent-office at 5%, and dividend below the Rs 10,000 individual threshold. Each payment type has its own rate and threshold — you must check each independently.",
+          "tier": 3,
+          "subConcepts": ["multi-payment-scenario", "threshold-checking"],
+          "isReview": false,
+          "oldSection": "Sections 194J, 194-I, 194",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "Match old sections to rate bands: (A) 194-IA = ?, (B) 194H = ?, (C) 194B = ?, (D) 194A = ?",
+          "options": [
+            { "text": "A=1%, B=5%, C=30%, D=10%", "correct": true },
+            { "text": "A=2%, B=10%, C=20%, D=5%", "correct": false },
+            { "text": "A=1%, B=2%, C=10%, D=5%", "correct": false },
+            { "text": "A=5%, B=5%, C=30%, D=10%", "correct": false }
+          ],
+          "explanation": "194-IA (property) = 1%, 194H (commission/brokerage) = 5%, 194B (lottery winnings) = 30%, 194A (interest) = 10%. These span four different rate bands, demonstrating the diversity of TDS rates across payment types.",
+          "explanationWrong": "A=1%, B=5%, C=30%, D=10%. Property at 1%, commission at 5%, winnings at 30%, interest at 10%. Each old section maps to a specific rate band in the new framework.",
+          "tier": 3,
+          "subConcepts": ["section-rate-matching", "cross-reference"],
+          "isReview": false,
+          "oldSection": "Sections 194-IA, 194H, 194B, 194A",
+          "newSection": "Section 393"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, TDS on partner salary was introduced as old Section 194T. What rate and threshold apply?",
+          "options": [
+            { "text": "10% above Rs 20,000", "correct": true },
+            { "text": "5% above Rs 50,000", "correct": false },
+            { "text": "2% above Rs 1 lakh", "correct": false },
+            { "text": "30% with no threshold", "correct": false }
+          ],
+          "explanation": "Partner salary/remuneration/interest: 10% above Rs 20,000 under Table 3, Sl. 7. Introduced in 2024 as the newest TDS provision. This is a review from Unit 3.5.",
+          "explanationWrong": "10% above Rs 20,000. Section 194T (2024) covers salary, remuneration, commission, bonus, and interest paid by a firm to partners. It is the newest entry in the entire TDS framework.",
+          "tier": 3,
+          "subConcepts": ["partner-salary-rate", "section-194t"],
+          "isReview": true,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 4,
+          "question": "A business sells Rs 3 crore of coal and also buys Rs 60 lakh of goods from a vendor. What is the combined TDS/TCS obligation?",
+          "options": [
+            { "text": "TCS on coal: Rs 6 lakh (2%); TDS on goods purchase: Rs 1,000 (0.1% on Rs 10 lakh excess over Rs 50 lakh)", "correct": true },
+            { "text": "TCS on coal: Rs 3 lakh (1%); TDS on goods purchase: Rs 600 (0.1%)", "correct": false },
+            { "text": "TCS on coal: Rs 6 lakh (2%); No TDS on goods — below threshold", "correct": false },
+            { "text": "TCS on coal: Rs 15 lakh (5%); TDS on goods: Rs 6,000 (1%)", "correct": false }
+          ],
+          "explanation": "Coal TCS (Sl. 5): 2% of Rs 3 crore = Rs 6 lakh. Goods purchase TDS (Table 1, Sl. 1, old 194Q): 0.1% on excess over Rs 50 lakh = 0.1% of Rs 10 lakh = Rs 1,000. The business has both a TCS collection obligation (as seller) and a TDS deduction obligation (as buyer).",
+          "explanationWrong": "TCS = Rs 6 lakh (coal at 2%, old rate was 1%), TDS = Rs 1,000 (goods at 0.1% on excess over Rs 50 lakh). The coal rate doubled from 1% to 2%. Goods purchase TDS at 0.1% is the lowest rate in the framework.",
+          "tier": 3,
+          "subConcepts": ["combined-tds-tcs", "buyer-seller-obligations"],
+          "isReview": false,
+          "oldSection": "Sections 206C(1), 194Q",
+          "newSection": "Section 394 Sl. 5, Section 393 Table 1 Sl. 1"
+        },
+        {
+          "order": 5,
+          "question": "Rank these TDS rates from lowest to highest: professional fees, contractor-individual, lottery winnings, goods purchase, NR general.",
+          "options": [
+            { "text": "Goods purchase (0.1%) < contractor-individual (2%) < professional fees (10%) < NR general (20%) < lottery winnings (30%)", "correct": true },
+            { "text": "Contractor-individual (1%) < goods purchase (2%) < professional fees (5%) < NR general (10%) < lottery winnings (30%)", "correct": false },
+            { "text": "Goods purchase (0.1%) < contractor-individual (1%) < NR general (10%) < professional fees (20%) < lottery winnings (30%)", "correct": false },
+            { "text": "All are at 10% except lottery at 30%", "correct": false }
+          ],
+          "explanation": "The ranking spans all seven rate bands: 0.1% (goods purchase) < 2% (contractor-individual) < 10% (professional fees) < 20% (NR general) < 30% (lottery winnings). Understanding the rate hierarchy is essential for quick reference during compliance work.",
+          "explanationWrong": "0.1% → 2% → 10% → 20% → 30%. This sequence touches five of the seven rate bands (missing 1% and 5%). Each rate band serves a different policy purpose — from information trail (0.1%) to deterrence (30%).",
+          "tier": 3,
+          "subConcepts": ["rate-ranking", "comprehensive-reference"],
+          "isReview": false,
+          "oldSection": "Various",
+          "newSection": "Section 393"
+        }
+      ]
+    }
+  ]
+}

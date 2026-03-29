@@ -1,0 +1,835 @@
+{
+  "unit": "8.1",
+  "title": "Income from Other Sources (Sections 92-95)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Other Sources",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 56 (charging section for income from other sources) maps to which new section?",
+          "options": [
+            { "text": "Section 92", "correct": true },
+            { "text": "Section 56", "correct": false },
+            { "text": "Section 82", "correct": false },
+            { "text": "Section 96", "correct": false }
+          ],
+          "explanation": "Old Section 56 maps to new Section 92. The entire other-sources chapter shifts: 56→92, 57→93, old 58→94, 59→95. The residuary character of the head is preserved.",
+          "explanationWrong": "Not quite — Section 92 is the correct answer. The 2025 Act renumbers the other-sources chapter substantially. If you picked Section 56, you're thinking of the old Act numbering. The new Section 56 deals with a completely different provision.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "charging-section", "section-92"],
+          "isReview": false,
+          "oldSection": "Section 56",
+          "newSection": "Section 92"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 57 (deductions from other-sources income) has been renumbered to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 57", "correct": false },
+            { "text": "Section 93", "correct": true },
+            { "text": "Section 94", "correct": false },
+            { "text": "Section 95", "correct": false }
+          ],
+          "explanation": "Old Section 57 maps to new Section 93. This section continues to allow deductions from income chargeable under the other-sources head, including the family pension deduction (now enhanced under the new regime).",
+          "explanationWrong": "Section 93 is correct. The mapping follows a consistent pattern: 56→92, 57→93, old 58→94, 59→95. If you picked Section 94, that's the amounts-not-deductible provision (old Section 58 content).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deductions-other-sources", "section-93"],
+          "isReview": false,
+          "oldSection": "Section 57",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the employer NPS contribution deduction cap for private-sector employees has been harmonised to what percentage of salary?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "12% of salary", "correct": false },
+            { "text": "14% of salary", "correct": true },
+            { "text": "20% of salary", "correct": false }
+          ],
+          "explanation": "Section 124(2) harmonises the employer NPS contribution deduction at 14% for all employees — eliminating the old distinction where private-sector employees were limited to 10%. This was covered in the deductions module.",
+          "explanationWrong": "14% is correct. Under the old Act, private-sector employees were stuck at 10% while government employees got 14%. The 2025 Act levels the playing field at 14% for everyone under Section 124(2).",
+          "tier": 1,
+          "subConcepts": ["employer-nps", "section-124", "harmonisation"],
+          "isReview": true,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, new Section 58 deals with which subject matter?",
+          "options": [
+            { "text": "Amounts not deductible from other-sources income (old Section 58 content)", "correct": false },
+            { "text": "Presumptive taxation (old Sections 44AD/44ADA/44AE)", "correct": true },
+            { "text": "Deductions from income from other sources", "correct": false },
+            { "text": "Deemed profits from remission of liabilities", "correct": false }
+          ],
+          "explanation": "This is a critical renumbering trap. Under the 1961 Act, Section 58 dealt with amounts not deductible from other-sources income. Under the 2025 Act, Section 58 deals with presumptive taxation (old 44AD/44ADA/44AE). The old Section 58 content has moved to Section 94.",
+          "explanationWrong": "Watch out for this trap — it catches almost everyone. New Section 58 is about presumptive taxation, NOT amounts-not-deductible. That old Section 58 content now lives at Section 94. Citing Section 58 from muscle memory will land you on a completely different provision.",
+          "tier": 1,
+          "subConcepts": ["section-58-trap", "presumptive-taxation", "renumbering-trap"],
+          "isReview": false,
+          "oldSection": "Section 58",
+          "newSection": "Section 94 (old 58 content) / Section 58 (presumptive)"
+        },
+        {
+          "order": 5,
+          "question": "The old Section 58 content (amounts not deductible from other-sources income) has moved to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 92", "correct": false },
+            { "text": "Section 94", "correct": true },
+            { "text": "Section 95", "correct": false }
+          ],
+          "explanation": "Old Section 58 maps to new Section 94. The disallowances — personal expenses, interest/salary paid outside India without TDS — all continue under Section 94. No substantive change, just renumbering.",
+          "explanationWrong": "Section 94 is correct. This is the companion to the Section 58 trap. The old Section 58 content didn't disappear — it moved to Section 94. If you picked Section 58, that's now presumptive taxation under the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["section-94", "amounts-not-deductible", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 58",
+          "newSection": "Section 94"
+        }
+      ]
+    },
+    {
+      "title": "Gifts, Thresholds & VDA",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 92(2)(m), what is the threshold below which aggregate money received without consideration from non-relatives during a tax year is fully exempt?",
+          "options": [
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "If the aggregate value of money received without consideration from all persons during the tax year does not exceed Rs 50,000, the entire amount is exempt. If it exceeds Rs 50,000, the full amount (not just the excess) is taxable.",
+          "explanationWrong": "Rs 50,000 is the threshold. And here's the kicker — if the aggregate crosses Rs 50,000, the entire amount becomes taxable, not just the excess. So Rs 51,000 in gifts means Rs 51,000 is taxable, not Rs 1,000.",
+          "tier": 1,
+          "subConcepts": ["gifts-threshold", "section-92-2-m", "money-without-consideration"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 2,
+          "question": "For immovable property received for inadequate consideration, what is the tolerance band under Section 92(2)(m) before the gift provisions trigger?",
+          "options": [
+            { "text": "Rs 50,000 flat", "correct": false },
+            { "text": "Higher of Rs 50,000 or 10% of consideration", "correct": true },
+            { "text": "10% of stamp duty value", "correct": false },
+            { "text": "Higher of Rs 50,000 or 5% of consideration", "correct": false }
+          ],
+          "explanation": "For immovable property bought at inadequate consideration, the gift provision triggers only if the stamp duty value exceeds the consideration by more than the higher of Rs 50,000 or 10% of the consideration. The 10% tolerance band applies to immovable property only, not movable property.",
+          "explanationWrong": "The answer is the higher of Rs 50,000 or 10% of consideration. The 10% tolerance band is specific to immovable property — it doesn't apply to movable property, where only the Rs 50,000 flat threshold applies. This two-part test protects buyers from getting taxed on minor valuation differences.",
+          "tier": 1,
+          "subConcepts": ["immovable-property-tolerance", "10-percent-band", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the five heads of income are listed under which section?",
+          "options": [
+            { "text": "Section 14", "correct": false },
+            { "text": "Section 13", "correct": true },
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 12", "correct": false }
+          ],
+          "explanation": "Section 13 of the ITA 2025 lists the five heads of income, replacing old Section 14. Income from Other Sources continues as the residuary fifth head.",
+          "explanationWrong": "Section 13 is correct. Old Section 14 listed the five heads in the 1961 Act. The 2025 Act shifts this to Section 13. This foundational provision was covered in the early orientation modules.",
+          "tier": 1,
+          "subConcepts": ["heads-of-income", "section-13", "residuary-head"],
+          "isReview": true,
+          "oldSection": "Section 14",
+          "newSection": "Section 13"
+        },
+        {
+          "order": 4,
+          "question": "Is the inclusion of Virtual Digital Assets (VDAs) in the definition of 'property' under Section 92(2)(m) a new change introduced by the 2025 Act?",
+          "options": [
+            { "text": "Yes — VDAs were first included in the property definition by the 2025 Act", "correct": false },
+            { "text": "No — VDAs were included by Finance Act 2022 and are carried forward", "correct": true },
+            { "text": "Yes — but only for gifts exceeding Rs 10 lakh", "correct": false },
+            { "text": "No — VDAs have always been in the property definition since 1961", "correct": false }
+          ],
+          "explanation": "The inclusion of VDAs in the property definition was introduced by Finance Act 2022, not by the 2025 Act. The 2025 Act simply carries this forward. Practitioners should not flag this as a '2025 Act change' when advising clients.",
+          "explanationWrong": "This is an important distinction — VDAs in the property definition is a Finance Act 2022 change, carried forward by the 2025 Act. Treating it as a 2025 change would be misleading. The 2025 Act is a consolidation exercise for this particular provision.",
+          "tier": 1,
+          "subConcepts": ["vda-property", "not-2025-change", "finance-act-2022"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 92(2)(m), which of the following receipts is NOT exempt from the gift taxation provisions?",
+          "options": [
+            { "text": "Rs 3,00,000 received from a cousin (not on marriage, not a relative as defined)", "correct": true },
+            { "text": "Rs 5,00,000 received from a father under a will", "correct": false },
+            { "text": "Rs 10,00,000 received from a sister as a gift", "correct": false },
+            { "text": "Rs 8,00,000 received from a mother in contemplation of death", "correct": false }
+          ],
+          "explanation": "A cousin is NOT a 'relative' under the Act's definition (which covers parents, siblings, spouse, and their lineal ascendants/descendants). Since this gift is not on the occasion of marriage and not from a defined relative, the Rs 3,00,000 exceeds Rs 50,000 and is fully taxable. Father, sister, and mother are all defined relatives — their gifts are always exempt.",
+          "explanationWrong": "The cousin gift is taxable because: (1) cousin is not a 'relative' as defined under the Act, and (2) the gift is not on the occasion of marriage. The relative definition is narrower than most people assume — it covers parents, siblings, spouse, lineal ascendants/descendants, but NOT cousins, aunts, or uncles. Father, sister, and mother are all defined relatives.",
+          "tier": 1,
+          "subConcepts": ["gift-exemptions", "relative-definition", "marriage-gifts"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        }
+      ]
+    },
+    {
+      "title": "Family Pension & Dividend Deductions",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new (default) tax regime, what is the maximum family pension deduction available under Section 93?",
+          "options": [
+            { "text": "Rs 15,000", "correct": false },
+            { "text": "Rs 25,000", "correct": true },
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "One-third of family pension without any cap", "correct": false }
+          ],
+          "explanation": "Under the new regime, the family pension deduction has been enhanced to Rs 25,000 (from Rs 15,000). The deduction is one-third of the family pension or Rs 25,000, whichever is lower. This is a genuine improvement under the 2025 Act for new-regime assessees.",
+          "explanationWrong": "Rs 25,000 is correct for the new regime. This is one of the few genuine substantive improvements in the other-sources chapter. Under the old regime, the limit stays at Rs 15,000. The increase benefits family pension recipients who are on the default new regime.",
+          "tier": 1,
+          "subConcepts": ["family-pension", "section-93", "new-regime-enhancement"],
+          "isReview": false,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 2,
+          "question": "What is the family pension deduction limit under the OLD tax regime in the ITA 2025?",
+          "options": [
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 15,000", "correct": true },
+            { "text": "Rs 20,000", "correct": false },
+            { "text": "Rs 10,000", "correct": false }
+          ],
+          "explanation": "Under the old regime, the family pension deduction limit remains at Rs 15,000 — unchanged from the 1961 Act position. Only the new regime gets the enhanced Rs 25,000 limit.",
+          "explanationWrong": "Rs 15,000 is correct for the old regime. The enhancement to Rs 25,000 applies only under the new regime. This is an important distinction — the 2025 Act rewards new-regime assessees with a higher family pension deduction, while old-regime assessees stay at the pre-existing limit.",
+          "tier": 1,
+          "subConcepts": ["family-pension", "old-regime-limit", "section-93"],
+          "isReview": false,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Sections 80TTA and 80TTB have been merged into which single section?",
+          "options": [
+            { "text": "Section 150", "correct": false },
+            { "text": "Section 153", "correct": true },
+            { "text": "Section 155", "correct": false },
+            { "text": "Section 126", "correct": false }
+          ],
+          "explanation": "Section 153 merges old Sections 80TTA (Rs 10,000 for non-seniors) and 80TTB (Rs 50,000 for seniors) into a single provision. The limits and eligibility remain unchanged — it's a drafting consolidation.",
+          "explanationWrong": "Section 153 is the merged provision. This is a drafting exercise, not a substantive change — the Rs 10,000 limit for non-seniors and Rs 50,000 for seniors continue exactly as before, just under one section number instead of two.",
+          "tier": 1,
+          "subConcepts": ["savings-interest", "section-153", "80tta-80ttb-merger"],
+          "isReview": true,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 93(2), interest expenditure on dividend income is deductible but capped at what percentage of dividend income?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "15%", "correct": false },
+            { "text": "20%", "correct": true },
+            { "text": "No cap — full deduction allowed", "correct": false }
+          ],
+          "explanation": "Interest expenditure incurred to earn dividend income is capped at 20% of the dividend income. No other deduction is allowed against dividend income. This cap was introduced by Finance Act 2020 (when DDT was abolished) and is carried forward — not a 2025 Act change.",
+          "explanationWrong": "20% is correct. And here's a detail worth remembering: this cap was introduced by Finance Act 2020 alongside the abolition of DDT, not by the 2025 Act. It's carried forward. So if someone asks 'what changed for dividends in 2025?' — the answer regarding this cap is 'nothing.'",
+          "tier": 1,
+          "subConcepts": ["dividend-interest-cap", "section-93-2", "not-2025-change"],
+          "isReview": false,
+          "oldSection": "Section 57",
+          "newSection": "Section 93(2)"
+        },
+        {
+          "order": 5,
+          "question": "Is the 20% cap on dividend interest expense under Section 93(2) a new change introduced by the ITA 2025?",
+          "options": [
+            { "text": "Yes — the 2025 Act introduced this cap for the first time", "correct": false },
+            { "text": "No — this was introduced by Finance Act 2020 and is carried forward", "correct": true },
+            { "text": "Yes — the cap was 30% earlier and has been reduced to 20%", "correct": false },
+            { "text": "No — there has never been any cap on dividend interest deduction", "correct": false }
+          ],
+          "explanation": "The 20% cap was introduced by Finance Act 2020 when DDT was abolished and dividends became taxable in the hands of recipients. The 2025 Act carries this forward without change. Flagging this as a '2025 Act change' would be incorrect.",
+          "explanationWrong": "This is a Finance Act 2020 provision, carried forward. When DDT was abolished, the 20% cap was introduced simultaneously. The 2025 Act merely continues it. Getting the provenance right matters — clients need to know what actually changed in 2025 versus what was already in place.",
+          "tier": 1,
+          "subConcepts": ["dividend-interest-cap", "not-2025-change", "finance-act-2020"],
+          "isReview": false,
+          "oldSection": "Section 57",
+          "newSection": "Section 93(2)"
+        }
+      ]
+    },
+    {
+      "title": "Specific Inclusions & Deemed Profits",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 92(2)(a), dividends are taxable in the hands of the recipient. When was this classical system of dividend taxation introduced?",
+          "options": [
+            { "text": "Finance Act 2020 (abolishing DDT)", "correct": true },
+            { "text": "ITA 2025 (new provision)", "correct": false },
+            { "text": "Finance Act 2018", "correct": false },
+            { "text": "It has always been this way since 1961", "correct": false }
+          ],
+          "explanation": "The shift from DDT (company-level tax) to classical taxation (recipient-level tax) was introduced by Finance Act 2020. The 2025 Act carries this forward under Section 92(2)(a). This is not a 2025 Act change.",
+          "explanationWrong": "Finance Act 2020 is correct. Before that, companies paid DDT and dividends were tax-free in the shareholder's hands (for amounts up to Rs 10 lakh). The 2025 Act simply continues the post-2020 position — no further change.",
+          "tier": 2,
+          "subConcepts": ["dividend-taxation", "section-92-2-a", "not-2025-change"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(i)",
+          "newSection": "Section 92(2)(a)"
+        },
+        {
+          "order": 2,
+          "question": "Section 95 (old Section 59) deems certain amounts as income of the current year. Which scenario triggers this deemed-profits provision?",
+          "options": [
+            { "text": "A deduction was claimed for a trading liability in an earlier year, and that liability is subsequently remitted or ceases to exist", "correct": true },
+            { "text": "The assessee receives a windfall gain from cryptocurrency trading", "correct": false },
+            { "text": "A capital asset is sold at a profit exceeding Rs 10 lakh", "correct": false },
+            { "text": "The assessee receives interest on income-tax refund", "correct": false }
+          ],
+          "explanation": "Section 95 deems as income any amount where a deduction was obtained in an earlier year for a loss, expenditure, or trading liability under the other-sources head, and the assessee subsequently obtains a remission or cessation of that liability. The amount remitted/ceased is taxable in the year of remission.",
+          "explanationWrong": "The deemed-profits provision triggers on remission or cessation of a trading liability for which a deduction was previously claimed. It's a clawback mechanism — you got a tax benefit from the deduction, but if the liability disappears later, the tax benefit is reversed.",
+          "tier": 2,
+          "subConcepts": ["deemed-profits", "section-95", "remission-cessation"],
+          "isReview": false,
+          "oldSection": "Section 59",
+          "newSection": "Section 95"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the TDS rate on Virtual Digital Asset (VDA) transfers?",
+          "options": [
+            { "text": "2%", "correct": false },
+            { "text": "1%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "30%", "correct": false }
+          ],
+          "explanation": "TDS on VDA transfers continues at 1% under the 2025 Act (old Section 194S, now under Section 393). The 30% flat tax rate is the income-tax rate on VDA gains, not the TDS rate. Both provisions were introduced by Finance Act 2022 and are carried forward.",
+          "explanationWrong": "1% is the TDS rate on VDA transfers. Don't confuse this with the 30% income-tax rate on VDA gains — that's the tax rate, not TDS. Both were Finance Act 2022 introductions, carried forward by the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["vda-tds", "section-393", "tds-rate"],
+          "isReview": true,
+          "oldSection": "Section 194S",
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "An assessee receives Rs 60,000 in aggregate gifts (money without consideration) from non-relatives during the tax year, not on the occasion of marriage. Under Section 92(2)(m), what amount is taxable?",
+          "options": [
+            { "text": "Rs 10,000 (excess over Rs 50,000)", "correct": false },
+            { "text": "Rs 60,000 (full amount)", "correct": true },
+            { "text": "Nil (below taxable threshold)", "correct": false },
+            { "text": "Rs 50,000", "correct": false }
+          ],
+          "explanation": "Once the aggregate exceeds Rs 50,000, the ENTIRE amount is taxable — not just the excess. So Rs 60,000 received means Rs 60,000 is added to income, not Rs 10,000. This catches many practitioners off guard.",
+          "explanationWrong": "Rs 60,000 — the full amount. This is the most common mistake with the gift provisions. The Rs 50,000 is a threshold, not an exemption limit. Below Rs 50,000 = fully exempt. Above Rs 50,000 = fully taxable. There's no 'excess over Rs 50,000' calculation.",
+          "tier": 2,
+          "subConcepts": ["gifts-full-amount-taxable", "threshold-vs-exemption", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 92(2)(g), a forfeited advance received for transfer of a capital asset is taxable under which head?",
+          "options": [
+            { "text": "Capital Gains", "correct": false },
+            { "text": "Income from Other Sources", "correct": true },
+            { "text": "Profits and Gains of Business or Profession", "correct": false },
+            { "text": "It is not taxable — it reduces cost of acquisition", "correct": false }
+          ],
+          "explanation": "Since Finance Act 2014, a forfeited advance is taxable as income from other sources under Section 92(2)(g). It is no longer deducted from the cost of acquisition of the capital asset. This position continues under the 2025 Act.",
+          "explanationWrong": "Income from Other Sources is correct. Before Finance Act 2014, forfeited advances reduced the cost of acquisition. Now they're taxed upfront as other-sources income under Section 92(2)(g). The 2025 Act carries forward this post-2014 treatment.",
+          "tier": 2,
+          "subConcepts": ["forfeited-advance", "section-92-2-g", "head-classification"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(ix)",
+          "newSection": "Section 92(2)(g)"
+        }
+      ]
+    },
+    {
+      "title": "VDA Taxation & Section 153 Merger",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "VDA (Virtual Digital Asset) gains are taxed at what flat rate under the ITA 2025?",
+          "options": [
+            { "text": "20%", "correct": false },
+            { "text": "25%", "correct": false },
+            { "text": "30%", "correct": true },
+            { "text": "The applicable slab rate", "correct": false }
+          ],
+          "explanation": "VDA gains continue to be taxed at a flat 30% under Section 199(2), corresponding to old Section 115BBH. No deduction is allowed for any expenditure other than cost of acquisition. No set-off of VDA losses against any other income, and no carry-forward of VDA losses.",
+          "explanationWrong": "30% flat rate — no exceptions, no slab benefit. VDA taxation is deliberately punitive: flat 30%, no set-off of losses, no carry-forward, only cost of acquisition allowed as deduction. This was Finance Act 2022, carried forward by the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["vda-30-percent", "section-199-2", "no-loss-setoff"],
+          "isReview": false,
+          "oldSection": "Section 115BBH",
+          "newSection": "Section 199(2)"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 153, what is the savings account interest deduction limit for senior citizens?",
+          "options": [
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Section 153 (merging old 80TTA and 80TTB) provides senior citizens a deduction of up to Rs 50,000 for interest on deposits. Non-senior citizens get Rs 10,000 for savings account interest only. The limits are unchanged from the old Act.",
+          "explanationWrong": "Rs 50,000 for seniors — that's the old 80TTB limit, now housed under Section 153. Non-seniors get Rs 10,000 (old 80TTA). The merger is purely a drafting exercise — same limits, same eligibility, one section number instead of two.",
+          "tier": 2,
+          "subConcepts": ["section-153", "senior-citizen-interest", "80ttb-limit"],
+          "isReview": false,
+          "oldSection": "Section 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 59 (deemed profits from remission of trading liabilities under other sources) maps to which new section?",
+          "options": [
+            { "text": "Section 92", "correct": false },
+            { "text": "Section 93", "correct": false },
+            { "text": "Section 94", "correct": false },
+            { "text": "Section 95", "correct": true }
+          ],
+          "explanation": "Old Section 59 maps to new Section 95. This was covered in the section mapping lesson. The full mapping is: 56→92, 57→93, old 58→94, 59→95.",
+          "explanationWrong": "Section 95 is correct. A quick refresher on the mapping: 56→92 (charging), 57→93 (deductions), old 58→94 (disallowances), 59→95 (deemed profits). Don't confuse Section 94 (disallowances) with Section 95 (deemed profits).",
+          "tier": 2,
+          "subConcepts": ["section-95", "section-mapping", "deemed-profits"],
+          "isReview": true,
+          "oldSection": "Section 59",
+          "newSection": "Section 95"
+        },
+        {
+          "order": 4,
+          "question": "Can VDA losses be set off against salary income or any other head of income under the ITA 2025?",
+          "options": [
+            { "text": "Yes — VDA losses can be set off against any income", "correct": false },
+            { "text": "Yes — but only against other VDA gains", "correct": false },
+            { "text": "No — VDA losses cannot be set off against any income, including other VDA gains", "correct": true },
+            { "text": "Yes — VDA losses can be carried forward for 8 years", "correct": false }
+          ],
+          "explanation": "VDA losses get the harshest treatment in the Act: no set-off against any income (not even other VDA gains from different assets), and no carry-forward. This was introduced by Finance Act 2022 and continues under the 2025 Act.",
+          "explanationWrong": "No set-off, no carry-forward — that's the VDA loss regime. It's deliberately restrictive. You can't even set off a loss on one VDA against gains on another VDA. This harsh treatment was a Finance Act 2022 policy choice, carried forward without change.",
+          "tier": 2,
+          "subConcepts": ["vda-loss-restriction", "no-set-off", "no-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 115BBH",
+          "newSection": "Section 199(2)"
+        },
+        {
+          "order": 5,
+          "question": "The 30% flat tax on VDA gains and the 'no loss set-off' restriction were introduced by which legislation?",
+          "options": [
+            { "text": "ITA 2025 (new provision)", "correct": false },
+            { "text": "Finance Act 2022", "correct": true },
+            { "text": "Finance Act 2020", "correct": false },
+            { "text": "Finance Act 2023", "correct": false }
+          ],
+          "explanation": "Finance Act 2022 introduced the VDA taxation framework: 30% flat rate, no deductions other than cost of acquisition, no loss set-off, no carry-forward, and 1% TDS. The 2025 Act carries all of this forward — none of it is a 2025 Act change.",
+          "explanationWrong": "Finance Act 2022 is the answer. The entire VDA regime — the 30% rate, the loss restrictions, the 1% TDS — all came in one package in 2022. The 2025 Act simply preserves it. Don't credit (or blame) the 2025 Act for VDA taxation rules.",
+          "tier": 2,
+          "subConcepts": ["vda-provenance", "finance-act-2022", "not-2025-change"],
+          "isReview": false,
+          "oldSection": "Section 115BBH",
+          "newSection": "Section 199(2)"
+        }
+      ]
+    },
+    {
+      "title": "Section 58 Trap & Practical Distinctions",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A practitioner drafts a written submission citing 'Section 58' as the basis for disallowing personal expenses from other-sources income under the ITA 2025. Is this citation correct?",
+          "options": [
+            { "text": "Yes — Section 58 still deals with amounts not deductible from other sources", "correct": false },
+            { "text": "No — Section 58 now deals with presumptive taxation; the correct citation is Section 94", "correct": true },
+            { "text": "No — the correct citation is Section 92", "correct": false },
+            { "text": "Yes — but only if combined with Section 93", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, Section 58 is about presumptive taxation (old 44AD/44ADA/44AE). The old Section 58 content (amounts not deductible from other-sources income) has moved to Section 94. Citing Section 58 for disallowances would reference the wrong provision entirely.",
+          "explanationWrong": "Section 94 is the correct citation, not Section 58. This is perhaps the most dangerous renumbering trap in the other-sources chapter. A submission citing Section 58 for disallowances would actually be citing the presumptive taxation provision — a completely unrelated topic.",
+          "tier": 2,
+          "subConcepts": ["section-58-trap", "section-94", "practitioner-error"],
+          "isReview": false,
+          "oldSection": "Section 58",
+          "newSection": "Section 94"
+        },
+        {
+          "order": 2,
+          "question": "The family pension deduction under Section 93 is calculated as one-third of the family pension or the applicable limit — whichever is?",
+          "options": [
+            { "text": "Higher", "correct": false },
+            { "text": "Lower", "correct": true },
+            { "text": "Average of the two", "correct": false },
+            { "text": "It's always the fixed limit regardless of one-third calculation", "correct": false }
+          ],
+          "explanation": "The deduction is the LOWER of one-third of family pension or the applicable limit (Rs 25,000 new regime / Rs 15,000 old regime). So for a family pension of Rs 60,000, the one-third is Rs 20,000, and the deduction under the new regime would be Rs 20,000 (lower of Rs 20,000 and Rs 25,000).",
+          "explanationWrong": "Lower — always the lower of the two. This 'whichever is lower' formulation means that for small family pensions, one-third of the pension will be the binding constraint, while for larger pensions, the Rs 25,000/Rs 15,000 cap kicks in.",
+          "tier": 2,
+          "subConcepts": ["family-pension-computation", "whichever-lower", "section-93"],
+          "isReview": false,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the general deduction available for expenditure incurred to earn income from other sources under Section 93?",
+          "options": [
+            { "text": "Only specified deductions are available — no general deduction", "correct": false },
+            { "text": "Revenue expenditure wholly and exclusively incurred for earning such income", "correct": true },
+            { "text": "30% standard deduction from gross income", "correct": false },
+            { "text": "Actual expenditure without any condition", "correct": false }
+          ],
+          "explanation": "Section 93 allows any revenue expenditure (not capital expenditure) incurred wholly and exclusively for earning income from other sources. This general deduction continues alongside specific deductions like the family pension deduction. Same as old Section 57.",
+          "explanationWrong": "Revenue expenditure wholly and exclusively incurred — that's the test. Unlike house property (which has a flat 30% standard deduction), other sources allows actual revenue expenditure. But the 'wholly and exclusively' test must be met, and capital expenditure is out.",
+          "tier": 2,
+          "subConcepts": ["revenue-expenditure", "wholly-exclusively", "section-93"],
+          "isReview": true,
+          "oldSection": "Section 57",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 4,
+          "question": "For movable property received without consideration, the gift provision under Section 92(2)(m) triggers when the aggregate FMV exceeds what threshold?",
+          "options": [
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Higher of Rs 50,000 or 10% of FMV", "correct": false }
+          ],
+          "explanation": "For movable property received without consideration, the trigger is aggregate FMV exceeding Rs 50,000. Note: the 10% tolerance band does NOT apply to movable property — that's only for immovable property received for inadequate consideration.",
+          "explanationWrong": "Rs 50,000 is correct, and there's no 10% tolerance band for movable property. The 10% tolerance applies only to immovable property received at inadequate consideration. For movable property, it's a straightforward Rs 50,000 threshold — both for 'without consideration' and 'inadequate consideration' scenarios.",
+          "tier": 2,
+          "subConcepts": ["movable-property-gifts", "fmv-threshold", "no-10-percent-band"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following specific inclusions under Section 92(2) is correctly matched with its clause?",
+          "options": [
+            { "text": "92(2)(a) — Dividends", "correct": true },
+            { "text": "92(2)(a) — Winnings from lotteries", "correct": false },
+            { "text": "92(2)(b) — Dividends", "correct": false },
+            { "text": "92(2)(m) — Keyman insurance proceeds", "correct": false }
+          ],
+          "explanation": "Section 92(2)(a) deals with dividends. Winnings from lotteries are under 92(2)(b), keyman insurance is 92(2)(d), and gifts are 92(2)(m). The clause ordering broadly follows the old Section 56(2) numbering.",
+          "explanationWrong": "92(2)(a) = Dividends is the correct match. The clauses follow a logical sequence: (a) dividends, (b) lottery/gambling winnings, (c) employee contributions to welfare schemes, (d) keyman insurance, and so on through to (m) gifts.",
+          "tier": 2,
+          "subConcepts": ["specific-inclusions", "section-92-2", "clause-mapping"],
+          "isReview": false,
+          "oldSection": "Section 56(2)",
+          "newSection": "Section 92(2)"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Family Pension & Gift Taxation",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mrs. Sharma, a widow aged 55, receives a family pension of Rs 1,20,000 per year and is on the new (default) tax regime. What is her family pension deduction under Section 93?",
+          "options": [
+            { "text": "Rs 40,000 (one-third of Rs 1,20,000)", "correct": false },
+            { "text": "Rs 25,000 (the new regime cap)", "correct": true },
+            { "text": "Rs 15,000 (the old cap)", "correct": false },
+            { "text": "Rs 1,20,000 (full deduction)", "correct": false }
+          ],
+          "explanation": "One-third of Rs 1,20,000 = Rs 40,000. The new regime cap is Rs 25,000. The deduction is the LOWER of the two = Rs 25,000. The cap is the binding constraint here, not one-third of the pension.",
+          "explanationWrong": "Careful with the computation! One-third of Rs 1,20,000 is Rs 40,000, but the new regime cap is Rs 25,000. Since the deduction is the lower of one-third or the cap, the answer is Rs 25,000. If you picked Rs 40,000, you forgot to apply the cap. If you picked Rs 15,000, that's the old regime limit.",
+          "tier": 3,
+          "subConcepts": ["family-pension-computation", "new-regime-cap", "section-93"],
+          "isReview": false,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 2,
+          "question": "Mr. Patel receives Rs 45,000 from a friend and Rs 8,000 from a colleague as gifts (not on marriage, not from relatives). Under Section 92(2)(m), what is the taxable amount?",
+          "options": [
+            { "text": "Rs 53,000", "correct": true },
+            { "text": "Rs 3,000 (excess over Rs 50,000)", "correct": false },
+            { "text": "Nil (each individual gift is below Rs 50,000)", "correct": false },
+            { "text": "Rs 45,000 (only the larger gift)", "correct": false }
+          ],
+          "explanation": "Aggregate gifts = Rs 45,000 + Rs 8,000 = Rs 53,000. Since this exceeds Rs 50,000, the ENTIRE Rs 53,000 is taxable — not just the Rs 3,000 excess. Individual gift amounts don't matter; it's the aggregate from all non-relatives that counts.",
+          "explanationWrong": "Rs 53,000 — the full aggregate. Two traps here: (1) gifts are aggregated across all persons, not looked at individually, and (2) once the aggregate crosses Rs 50,000, the entire amount is taxable, not the excess. Both traps catch practitioners who think it works like a basic exemption.",
+          "tier": 3,
+          "subConcepts": ["aggregate-gifts", "full-amount-taxable", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "A senior citizen (aged 68) earns Rs 55,000 as savings account interest during the tax year. Under Section 153, what deduction is available?",
+          "options": [
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 55,000", "correct": false },
+            { "text": "Nil — savings interest is fully taxable", "correct": false }
+          ],
+          "explanation": "Under Section 153 (merged 80TTA + 80TTB), senior citizens get a deduction of up to Rs 50,000 on deposit interest. So out of Rs 55,000, the deduction is Rs 50,000 and only Rs 5,000 is taxable. The Rs 10,000 limit applies to non-senior citizens.",
+          "explanationWrong": "Rs 50,000 — that's the senior citizen limit under Section 153 (old 80TTB). The Rs 10,000 limit is for non-seniors (old 80TTA). Both limits are housed under the merged Section 153 now, but the eligibility criteria remain exactly the same.",
+          "tier": 3,
+          "subConcepts": ["section-153", "senior-citizen-deduction", "savings-interest"],
+          "isReview": true,
+          "oldSection": "Section 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 4,
+          "question": "Mr. Roy buys a flat from Mr. Das for Rs 40,00,000. The stamp duty value is Rs 48,00,000. Is the difference taxable under Section 92(2)(m) in Mr. Roy's hands?",
+          "options": [
+            { "text": "Yes — the full Rs 8,00,000 difference is taxable", "correct": false },
+            { "text": "Yes — but only Rs 3,00,000 (excess over Rs 50,000) is taxable", "correct": false },
+            { "text": "No — the difference is within the 10% tolerance band", "correct": false },
+            { "text": "Yes — Rs 8,00,000 is taxable because it exceeds both Rs 50,000 and 10% of consideration", "correct": true }
+          ],
+          "explanation": "Consideration = Rs 40,00,000. Stamp duty = Rs 48,00,000. Difference = Rs 8,00,000. The tolerance is the higher of Rs 50,000 or 10% of Rs 40,00,000 (= Rs 4,00,000). Since Rs 8,00,000 exceeds Rs 4,00,000, the difference of Rs 8,00,000 is taxable in the buyer's hands.",
+          "explanationWrong": "Rs 8,00,000 is taxable. Here's the computation: 10% of consideration (Rs 40L) = Rs 4,00,000. This is higher than Rs 50,000, so the tolerance is Rs 4,00,000. The actual difference (Rs 8,00,000) exceeds this tolerance, so the full Rs 8,00,000 is taxable as a deemed gift in Mr. Roy's hands.",
+          "tier": 3,
+          "subConcepts": ["immovable-property-computation", "10-percent-tolerance", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Mrs. Mehta receives a family pension of Rs 60,000 per year and opts for the OLD tax regime. What is her family pension deduction under Section 93?",
+          "options": [
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 20,000 (one-third of Rs 60,000)", "correct": false },
+            { "text": "Rs 15,000", "correct": true },
+            { "text": "Rs 60,000", "correct": false }
+          ],
+          "explanation": "One-third of Rs 60,000 = Rs 20,000. Old regime cap = Rs 15,000. The deduction is the LOWER = Rs 15,000. Under the old regime, the enhanced Rs 25,000 cap does not apply — that's a new-regime-only benefit.",
+          "explanationWrong": "Rs 15,000 — the old regime cap is the binding constraint. One-third of Rs 60,000 = Rs 20,000, but the old-regime limit is Rs 15,000, which is lower. The Rs 25,000 cap is exclusively for the new regime. This is a key distinction the 2025 Act introduces.",
+          "tier": 3,
+          "subConcepts": ["family-pension-old-regime", "rs-15000-cap", "section-93"],
+          "isReview": false,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Immovable Property & Tolerance Bands",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ms. Joshi buys a plot for Rs 25,00,000. Stamp duty value is Rs 27,00,000. Is the Rs 2,00,000 difference taxable under Section 92(2)(m)?",
+          "options": [
+            { "text": "Yes — it exceeds Rs 50,000", "correct": false },
+            { "text": "No — the difference is within the 10% tolerance band (10% of Rs 25L = Rs 2.5L)", "correct": true },
+            { "text": "Yes — the full Rs 27,00,000 is taxable", "correct": false },
+            { "text": "No — immovable property is exempt from gift provisions", "correct": false }
+          ],
+          "explanation": "The tolerance for immovable property is the higher of Rs 50,000 or 10% of consideration. Here, 10% of Rs 25,00,000 = Rs 2,50,000. The difference (Rs 2,00,000) is WITHIN this tolerance, so nothing is taxable. The 10% band protects buyers from minor valuation mismatches.",
+          "explanationWrong": "Not taxable — the 10% tolerance saves Ms. Joshi. The difference (Rs 2L) is less than 10% of the consideration (Rs 2.5L). This tolerance band exists precisely for situations like this, where stamp duty values might slightly exceed the actual transaction price.",
+          "tier": 3,
+          "subConcepts": ["10-percent-tolerance-applied", "immovable-property", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 2,
+          "question": "Mr. Gupta, a crypto trader, sells Bitcoin for Rs 15,00,000 (cost of acquisition: Rs 10,00,000) and sells Ethereum at a loss of Rs 3,00,000. What is his net taxable VDA income?",
+          "options": [
+            { "text": "Rs 2,00,000 (Rs 5L profit minus Rs 3L loss)", "correct": false },
+            { "text": "Rs 5,00,000 (Bitcoin profit only — no set-off of Ethereum loss)", "correct": true },
+            { "text": "Rs 15,00,000 (gross sale proceeds)", "correct": false },
+            { "text": "Nil (losses exceed threshold)", "correct": false }
+          ],
+          "explanation": "Bitcoin gain = Rs 5,00,000 (15L - 10L). Ethereum loss = Rs 3,00,000. But VDA losses CANNOT be set off against gains from another VDA. So the taxable amount is Rs 5,00,000 at 30% = Rs 1,50,000 tax. The Rs 3L Ethereum loss is simply lost — no set-off, no carry-forward.",
+          "explanationWrong": "Rs 5,00,000 — the Bitcoin profit stands alone. The Ethereum loss cannot reduce it. This is the harshest feature of VDA taxation: losses on one VDA cannot offset gains on another VDA. The Rs 3L loss simply evaporates. Tax = Rs 5L x 30% = Rs 1.5L.",
+          "tier": 3,
+          "subConcepts": ["vda-no-cross-setoff", "vda-computation", "section-199-2"],
+          "isReview": false,
+          "oldSection": "Section 115BBH",
+          "newSection": "Section 199(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section lists the five heads of income including 'Income from Other Sources'?",
+          "options": [
+            { "text": "Section 14", "correct": false },
+            { "text": "Section 13", "correct": true },
+            { "text": "Section 92", "correct": false },
+            { "text": "Section 12", "correct": false }
+          ],
+          "explanation": "Section 13 lists the five heads of income in the 2025 Act. This is a foundational provision covered in the orientation modules. Income from Other Sources is the residuary fifth head.",
+          "explanationWrong": "Section 13 — replacing old Section 14. This foundational mapping (14→13) has been tested before. Section 92 is the charging section for the other-sources head specifically, not the provision listing all five heads.",
+          "tier": 3,
+          "subConcepts": ["heads-of-income", "section-13"],
+          "isReview": true,
+          "oldSection": "Section 14",
+          "newSection": "Section 13"
+        },
+        {
+          "order": 4,
+          "question": "Mr. Verma receives Rs 8,00,000 in dividend income and incurs Rs 2,50,000 as interest on a loan taken to acquire the shares. What is the deductible interest under Section 93(2)?",
+          "options": [
+            { "text": "Rs 2,50,000 (actual interest incurred)", "correct": false },
+            { "text": "Rs 1,60,000 (20% of Rs 8,00,000)", "correct": true },
+            { "text": "Rs 80,000 (10% of dividend income)", "correct": false },
+            { "text": "Nil — no interest deduction is allowed against dividends", "correct": false }
+          ],
+          "explanation": "Interest on dividend income is capped at 20% of the dividend. 20% of Rs 8,00,000 = Rs 1,60,000. Even though Mr. Verma actually incurred Rs 2,50,000, only Rs 1,60,000 is deductible. The remaining Rs 90,000 is a dead cost.",
+          "explanationWrong": "Rs 1,60,000 — the 20% cap bites. Mr. Verma incurred Rs 2,50,000 but can only claim Rs 1,60,000 (20% of Rs 8L). The balance Rs 90,000 gets no tax benefit. This cap ensures that leveraged dividend arbitrage doesn't erode the tax base.",
+          "tier": 3,
+          "subConcepts": ["dividend-interest-cap-applied", "20-percent-cap", "section-93-2"],
+          "isReview": false,
+          "oldSection": "Section 57",
+          "newSection": "Section 93(2)"
+        },
+        {
+          "order": 5,
+          "question": "A junior CA drafts an opinion citing 'Section 58 of the ITA 2025' for disallowing a client's personal expenses from interest income taxable under the other-sources head. What should the reviewing partner flag?",
+          "options": [
+            { "text": "The opinion is correct — Section 58 deals with disallowances", "correct": false },
+            { "text": "The section reference is wrong — Section 58 now deals with presumptive taxation; the correct section is 94", "correct": true },
+            { "text": "Personal expenses are not disallowed under any section", "correct": false },
+            { "text": "The section reference is wrong — the correct section is Section 93", "correct": false }
+          ],
+          "explanation": "The partner should flag the Section 58 citation as incorrect. Under the 2025 Act, Section 58 = presumptive taxation. The disallowance provision the junior intended to cite is Section 94 (old Section 58 content). This muscle-memory error could be embarrassing in a professional opinion.",
+          "explanationWrong": "Section 94 is what the junior should have cited. This is the classic Section 58 renumbering trap in action. An opinion citing Section 58 for disallowances would actually be referencing presumptive taxation — an entirely different topic. The partner would rightly send this back for correction.",
+          "tier": 3,
+          "subConcepts": ["section-58-trap-applied", "professional-opinion", "section-94"],
+          "isReview": false,
+          "oldSection": "Section 58",
+          "newSection": "Section 94"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Comprehensive Other Sources Problems",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Khan (aged 62, new regime) has the following income: family pension Rs 1,80,000, savings account interest Rs 60,000, and dividend income Rs 4,00,000 (with interest expense of Rs 1,20,000 on loan for shares). What is his total other-sources income after deductions?",
+          "options": [
+            { "text": "Rs 5,95,000", "correct": false },
+            { "text": "Rs 4,85,000", "correct": true },
+            { "text": "Rs 6,40,000", "correct": false },
+            { "text": "Rs 5,30,000", "correct": false }
+          ],
+          "explanation": "Family pension: Rs 1,80,000 minus Rs 25,000 (lower of 1/3 = Rs 60,000 and new regime cap Rs 25,000) = Rs 1,55,000. Savings interest: Rs 60,000 minus Rs 50,000 (senior citizen, Section 153) = Rs 10,000. Dividend: Rs 4,00,000 minus Rs 80,000 (20% cap under Section 93(2) — actual interest Rs 1,20,000 but capped at 20% of Rs 4L) = Rs 3,20,000. Total = Rs 1,55,000 + Rs 10,000 + Rs 3,20,000 = Rs 4,85,000.",
+          "explanationWrong": "Let's break it down: (1) Family pension Rs 1,80,000 minus Rs 25,000 deduction (new regime cap) = Rs 1,55,000. (2) Savings interest Rs 60,000 minus Rs 50,000 (senior citizen under Section 153) = Rs 10,000. (3) Dividends Rs 4,00,000 minus Rs 80,000 (20% of Rs 4L, lower than actual interest Rs 1,20,000) = Rs 3,20,000. Total = Rs 4,85,000. Three different deduction mechanisms applied to three different income streams.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-computation", "multiple-deductions", "new-regime"],
+          "isReview": false,
+          "oldSection": "Sections 56, 57",
+          "newSection": "Sections 92, 93, 153"
+        },
+        {
+          "order": 2,
+          "question": "Ms. Nair receives a painting (movable property) worth Rs 8,00,000 from a friend (non-relative, not on marriage). What is the taxable amount under Section 92(2)(m)?",
+          "options": [
+            { "text": "Rs 7,50,000 (excess over Rs 50,000)", "correct": false },
+            { "text": "Rs 8,00,000 (full FMV)", "correct": true },
+            { "text": "Nil (artwork is exempt from gift provisions)", "correct": false },
+            { "text": "Rs 50,000 (threshold amount only)", "correct": false }
+          ],
+          "explanation": "Movable property received without consideration: the FMV (Rs 8,00,000) exceeds the Rs 50,000 threshold, so the ENTIRE Rs 8,00,000 is taxable — not just the excess. There is no special exemption for artwork or collectibles under the gift provisions.",
+          "explanationWrong": "Rs 8,00,000 — the full FMV. The Rs 50,000 is a threshold, not an exemption. Once crossed, the entire value is taxable. And there's no carve-out for artwork — a painting, a car, jewellery, or any other movable property all get the same treatment under Section 92(2)(m).",
+          "tier": 3,
+          "subConcepts": ["movable-property-gift", "full-fmv-taxable", "section-92-2-m"],
+          "isReview": false,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 92(2)(b) deals with winnings from lotteries, crossword puzzles, and gambling. These are taxed at a special rate under which section?",
+          "options": [
+            { "text": "Section 115BB", "correct": false },
+            { "text": "Section 199(1)", "correct": true },
+            { "text": "Section 92(3)", "correct": false },
+            { "text": "Normal slab rates apply", "correct": false }
+          ],
+          "explanation": "Winnings from lotteries, puzzles, races, gambling, and betting are taxed at a special rate under Section 199(1) of the 2025 Act, corresponding to old Section 115BB. This was covered in the rates and special provisions modules.",
+          "explanationWrong": "Section 199(1) is correct — replacing old Section 115BB. These winnings are taxed at a flat special rate, not at slab rates. The income is included under the other-sources head via Section 92(2)(b), but the rate comes from Section 199(1).",
+          "tier": 3,
+          "subConcepts": ["lottery-winnings", "section-199-1", "special-rate"],
+          "isReview": true,
+          "oldSection": "Section 115BB",
+          "newSection": "Section 199(1)"
+        },
+        {
+          "order": 4,
+          "question": "XYZ Ltd owed Rs 15,00,000 to a creditor, which was claimed as a deduction under the other-sources head in AY 2024-25. In AY 2027-28 (under the 2025 Act), the creditor waives Rs 10,00,000. Under Section 95, what happens?",
+          "options": [
+            { "text": "Rs 10,00,000 is deemed income in AY 2027-28", "correct": true },
+            { "text": "Rs 15,00,000 is deemed income (full original liability)", "correct": false },
+            { "text": "Nothing — the waiver is a capital receipt", "correct": false },
+            { "text": "Rs 10,00,000 is taxable only if XYZ Ltd is on the old regime", "correct": false }
+          ],
+          "explanation": "Under Section 95, the Rs 10,00,000 waived is deemed income of the year of waiver (AY 2027-28). Only the amount actually remitted/ceased (Rs 10L) is taxable, not the full original liability (Rs 15L). This applies regardless of the tax regime — Section 95 is a charging provision, not a deduction.",
+          "explanationWrong": "Rs 10,00,000 — the amount actually waived. Section 95 deems the remitted/ceased amount as income in the year of remission. It doesn't reopen the original deduction or tax the entire liability — just the portion that was waived. And this is a charging provision, so it applies under both regimes.",
+          "tier": 3,
+          "subConcepts": ["deemed-profits-applied", "remission-amount", "section-95"],
+          "isReview": false,
+          "oldSection": "Section 59",
+          "newSection": "Section 95"
+        },
+        {
+          "order": 5,
+          "question": "Mrs. Singh (aged 45, new regime) receives Rs 48,000 in aggregate cash gifts from non-relatives during the year (not on marriage). She also earns Rs 12,000 in savings bank interest. What is her total taxable other-sources income?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 2,000", "correct": true },
+            { "text": "Rs 60,000", "correct": false },
+            { "text": "Rs 12,000", "correct": false }
+          ],
+          "explanation": "Gifts: Rs 48,000 aggregate is BELOW Rs 50,000 threshold — fully exempt (Rs 0 taxable). Savings interest: Rs 12,000 minus Rs 10,000 (Section 153 deduction for non-senior citizens) = Rs 2,000. Total taxable = Rs 0 + Rs 2,000 = Rs 2,000.",
+          "explanationWrong": "Rs 2,000 is correct. The gifts (Rs 48,000) are fully exempt because the aggregate stays under Rs 50,000. The savings interest (Rs 12,000) gets a Rs 10,000 deduction under Section 153 (non-senior citizen limit), leaving Rs 2,000 taxable. A simple problem, but it tests whether you apply the right thresholds.",
+          "tier": 3,
+          "subConcepts": ["below-threshold-exempt", "section-153-non-senior", "comprehensive"],
+          "isReview": false,
+          "oldSection": "Sections 56(2)(x), 80TTA",
+          "newSection": "Sections 92(2)(m), 153"
+        }
+      ]
+    }
+  ]
+}

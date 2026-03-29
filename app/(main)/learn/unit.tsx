@@ -47,9 +47,6 @@ export const Unit = ({
     tierProgressMap.set(tp.tier, tp);
   }
 
-  // Determine if this unit has any unlocked tiers
-  const hasAnyUnlockedTier = tierProgress.some((tp) => tp.unlockedAt);
-
   const tiers = [1, 2, 3] as const;
 
   return (
@@ -58,10 +55,9 @@ export const Unit = ({
 
       {tiers.map((tier) => {
         const tierLessons = lessonsByTier.get(tier) ?? [];
-        if (tierLessons.length === 0 && !hasAnyUnlockedTier) return null;
+        if (tierLessons.length === 0) return null;
 
         const tp = tierProgressMap.get(tier);
-        const isUnlocked = !!tp?.unlockedAt;
         const isCompleted = !!tp?.completedAt;
         const label = TIER_LABELS[tier] ?? `Tier ${tier}`;
 
@@ -70,38 +66,6 @@ export const Unit = ({
         const totalCount = tierLessons.length;
         const percentage =
           totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
-
-        // If tier has no lessons seeded yet, show as coming soon
-        if (tierLessons.length === 0) {
-          return (
-            <TierBadge
-              key={tier}
-              tier={tier}
-              label={label}
-              isUnlocked={false}
-              isCompleted={false}
-              percentage={0}
-              completedCount={0}
-              totalCount={0}
-            />
-          );
-        }
-
-        // Locked tier
-        if (!isUnlocked) {
-          return (
-            <TierBadge
-              key={tier}
-              tier={tier}
-              label={label}
-              isUnlocked={false}
-              isCompleted={false}
-              percentage={0}
-              completedCount={0}
-              totalCount={totalCount}
-            />
-          );
-        }
 
         return (
           <div key={tier}>
@@ -115,11 +79,9 @@ export const Unit = ({
               totalCount={totalCount}
             />
 
-            {/* Show lesson buttons for unlocked tiers */}
             <div className="relative flex flex-col items-center">
               {tierLessons.map((lesson, i) => {
                 const isCurrent = lesson.id === activeLesson?.id;
-                const isLocked = !lesson.completed && !isCurrent;
 
                 return (
                   <LessonButton
@@ -128,7 +90,7 @@ export const Unit = ({
                     index={i}
                     totalCount={tierLessons.length - 1}
                     current={isCurrent}
-                    locked={isLocked}
+                    locked={false}
                     percentage={activeLessonPercentage}
                   />
                 );

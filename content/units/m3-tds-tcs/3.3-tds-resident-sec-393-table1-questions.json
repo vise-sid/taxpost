@@ -1,0 +1,835 @@
+{
+  "unit": "3.3",
+  "title": "TDS on Residents — Section 393, Table 1",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Table 1 Overview and Insurance/Commission",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Table 1 of Section 393 contain for TDS on payments to residents?",
+          "options": [
+            { "text": "10 entries", "correct": false },
+            { "text": "26 entries across 8 categories", "correct": true },
+            { "text": "50 entries", "correct": false },
+            { "text": "15 entries across 3 categories", "correct": false }
+          ],
+          "explanation": "Table 1 of Section 393 has 26 entries organised into 8 categories. Each entry corresponds to a specific payment type with its rate and threshold, replacing numerous individual old sections.",
+          "explanationWrong": "26 entries in 8 categories. This consolidation replaces over a dozen individual old Act sections, each of which had their own dedicated provisions.",
+          "tier": 1,
+          "subConcepts": ["table-1-structure", "26-entries", "8-categories"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194D for TDS on insurance commission maps to which entry in Table 1?",
+          "options": [
+            { "text": "Serial 1(ii)", "correct": false },
+            { "text": "Serial 1(i)", "correct": true },
+            { "text": "Serial 2", "correct": false },
+            { "text": "Serial 5(i)", "correct": false }
+          ],
+          "explanation": "Old Section 194D (insurance commission) maps to Serial 1(i) of Table 1 in Section 393. This is the first entry in the first category of the table.",
+          "explanationWrong": "Serial 1(i) is correct. Insurance commission (old 194D) is the opening entry of Table 1. Commission/brokerage (old 194H) maps to Serial 1(ii).",
+          "tier": 1,
+          "subConcepts": ["section-194d-mapping", "serial-1-i", "insurance-commission"],
+          "isReview": false,
+          "oldSection": "Section 194D",
+          "newSection": "Section 393, Table 1, Serial 1(i)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new TDS architecture (Unit 3.1), Section 393 organises non-salary TDS into how many tables?",
+          "options": [
+            { "text": "3 tables", "correct": false },
+            { "text": "6 tables", "correct": true },
+            { "text": "2 tables", "correct": false },
+            { "text": "1 table", "correct": false }
+          ],
+          "explanation": "Section 393 has 6 tables. Tables 1-3 categorise by payee type (resident, non-resident, any person), and Tables 4-6 provide thresholds and supporting details.",
+          "explanationWrong": "6 tables in total. This was covered in Unit 3.1 on the new TDS architecture.",
+          "tier": 1,
+          "subConcepts": ["6-tables", "section-393-structure"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "A company pays Rs 20,000 as brokerage to a resident broker. Under Table 1, which serial number governs TDS on this commission/brokerage?",
+          "options": [
+            { "text": "Serial 1(i)", "correct": false },
+            { "text": "Serial 1(ii) (mapping from old Section 194H)", "correct": true },
+            { "text": "Serial 6(ii)", "correct": false },
+            { "text": "Serial 8(ii)", "correct": false }
+          ],
+          "explanation": "Commission/brokerage (old Section 194H) maps to Serial 1(ii) of Table 1. Serial 1(i) is for insurance commission specifically (old 194D).",
+          "explanationWrong": "Serial 1(ii) is correct — it covers commission and brokerage, replacing old Section 194H. The distinction between insurance commission (1(i)) and general commission/brokerage (1(ii)) is maintained.",
+          "tier": 1,
+          "subConcepts": ["section-194h-mapping", "serial-1-ii", "commission-brokerage"],
+          "isReview": false,
+          "oldSection": "Section 194H",
+          "newSection": "Section 393, Table 1, Serial 1(ii)"
+        },
+        {
+          "order": 5,
+          "question": "Have the TDS rates and thresholds for Table 1 entries changed compared to the old Act provisions they replace?",
+          "options": [
+            { "text": "Yes — rates have been uniformly reduced by 1%", "correct": false },
+            { "text": "No — no rate or threshold changes; it is a structural reorganisation only", "correct": true },
+            { "text": "Yes — thresholds have been doubled", "correct": false },
+            { "text": "Rates are the same but thresholds have changed", "correct": false }
+          ],
+          "explanation": "Table 1 carries forward the same rates and thresholds from the corresponding old sections. The change is purely structural — from scattered sections to a consolidated table.",
+          "explanationWrong": "No changes to rates or thresholds. The consolidation is a reorganisation exercise. Old 194H's rate continues in Serial 1(ii), old 194C's rate continues in Serial 6(i), and so on.",
+          "tier": 1,
+          "subConcepts": ["no-rate-change", "structural-reorganisation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        }
+      ]
+    },
+    {
+      "title": "Rent and Immovable Property (Category 2-3)",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194I for TDS on rent maps to which serial number in Table 1 of Section 393?",
+          "options": [
+            { "text": "Serial 1(ii)", "correct": false },
+            { "text": "Serial 2", "correct": true },
+            { "text": "Serial 3(i)", "correct": false },
+            { "text": "Serial 5(ii)", "correct": false }
+          ],
+          "explanation": "Old Section 194I (rent) maps to Serial 2 of Table 1. This is the Category 2 entry covering TDS on rental payments to residents.",
+          "explanationWrong": "Serial 2 in Table 1 replaces old Section 194I. The rent TDS provisions — including the differential rates for plant/machinery vs land/building — continue at the same levels.",
+          "tier": 1,
+          "subConcepts": ["section-194i-mapping", "serial-2", "rent-tds"],
+          "isReview": false,
+          "oldSection": "Section 194I",
+          "newSection": "Section 393, Table 1, Serial 2"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194IA for TDS on purchase of immovable property maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 2", "correct": false },
+            { "text": "Serial 3(i)", "correct": true },
+            { "text": "Serial 3(ii)", "correct": false },
+            { "text": "Serial 3(iii)", "correct": false }
+          ],
+          "explanation": "Old Section 194IA (TDS on purchase of immovable property exceeding Rs 50 lakh) maps to Serial 3(i) of Table 1, in the immovable property category.",
+          "explanationWrong": "Serial 3(i) is correct. Category 3 groups immovable property-related TDS: 3(i) = purchase (old 194IA), 3(ii) = JDA payments (old 194IC), 3(iii) = compulsory acquisition (old 194LA).",
+          "tier": 1,
+          "subConcepts": ["section-194ia-mapping", "serial-3-i", "immovable-property-tds"],
+          "isReview": false,
+          "oldSection": "Section 194IA",
+          "newSection": "Section 393, Table 1, Serial 3(i)"
+        },
+        {
+          "order": 3,
+          "question": "Under the salary TDS provisions (Unit 3.2), Section 392(1) requires deduction at which rate?",
+          "options": [
+            { "text": "A flat 10%", "correct": false },
+            { "text": "The average rate of income-tax", "correct": true },
+            { "text": "The maximum marginal rate", "correct": false },
+            { "text": "The rate specified in Table 1", "correct": false }
+          ],
+          "explanation": "Section 392(1) requires salary TDS at the average rate of income-tax computed on the estimated total income. This was covered in Unit 3.2.",
+          "explanationWrong": "Average rate applies for salary TDS. Table 1 rates are for non-salary payments under Section 393, not for salary under Section 392.",
+          "tier": 1,
+          "subConcepts": ["average-rate", "salary-tds"],
+          "isReview": true,
+          "oldSection": "Section 192(1)",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194IC (TDS on payment under Joint Development Agreement) maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 3(i)", "correct": false },
+            { "text": "Serial 3(ii)", "correct": true },
+            { "text": "Serial 3(iii)", "correct": false },
+            { "text": "Serial 2", "correct": false }
+          ],
+          "explanation": "Old Section 194IC (JDA payments) maps to Serial 3(ii) of Table 1. It sits alongside 3(i) for property purchase and 3(iii) for compulsory acquisition — all in the immovable property category.",
+          "explanationWrong": "Serial 3(ii) is correct. Category 3 groups all immovable property TDS: purchase (3(i)), JDA (3(ii)), and compulsory acquisition (3(iii)).",
+          "tier": 1,
+          "subConcepts": ["section-194ic-mapping", "serial-3-ii", "jda-tds"],
+          "isReview": false,
+          "oldSection": "Section 194IC",
+          "newSection": "Section 393, Table 1, Serial 3(ii)"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 194LA for TDS on compensation for compulsory acquisition of immovable property maps to which serial?",
+          "options": [
+            { "text": "Serial 3(i)", "correct": false },
+            { "text": "Serial 3(ii)", "correct": false },
+            { "text": "Serial 3(iii)", "correct": true },
+            { "text": "Serial 4(i)", "correct": false }
+          ],
+          "explanation": "Old Section 194LA maps to Serial 3(iii) — the third entry in Category 3 (immovable property). This covers TDS on compensation paid for compulsory land acquisition.",
+          "explanationWrong": "Serial 3(iii) is correct. The logical grouping puts all immovable property entries together: purchase, JDA, and compulsory acquisition.",
+          "tier": 1,
+          "subConcepts": ["section-194la-mapping", "serial-3-iii", "compulsory-acquisition"],
+          "isReview": false,
+          "oldSection": "Section 194LA",
+          "newSection": "Section 393, Table 1, Serial 3(iii)"
+        }
+      ]
+    },
+    {
+      "title": "Investment Income and Interest (Categories 4-5)",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194K for TDS on mutual fund income maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 3(iii)", "correct": false },
+            { "text": "Serial 4(i)", "correct": true },
+            { "text": "Serial 5(i)", "correct": false },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old Section 194K (TDS on income from mutual fund units) maps to Serial 4(i) in Table 1, in the investment income category.",
+          "explanationWrong": "Serial 4(i) is correct. Category 4 covers investment-related income, with mutual fund income being the first entry.",
+          "tier": 1,
+          "subConcepts": ["section-194k-mapping", "serial-4-i", "mutual-fund-tds"],
+          "isReview": false,
+          "oldSection": "Section 194K",
+          "newSection": "Section 393, Table 1, Serial 4(i)"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 193 for TDS on interest on securities maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 4(i)", "correct": false },
+            { "text": "Serial 5(i)", "correct": true },
+            { "text": "Serial 5(ii)", "correct": false },
+            { "text": "Serial 1(i)", "correct": false }
+          ],
+          "explanation": "Old Section 193 (interest on securities like debentures) maps to Serial 5(i) of Table 1. Category 5 groups all interest-related TDS entries.",
+          "explanationWrong": "Serial 5(i) is correct. The interest category (Category 5) includes: 5(i) = securities interest (old 193), 5(ii) = bank/other interest (old 194A for certain payees), 5(iii) = other interest under old 194A.",
+          "tier": 1,
+          "subConcepts": ["section-193-mapping", "serial-5-i", "interest-securities"],
+          "isReview": false,
+          "oldSection": "Section 193",
+          "newSection": "Section 393, Table 1, Serial 5(i)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, which supporting section in the new Act handles higher TDS rates when PAN is not furnished?",
+          "options": [
+            { "text": "Section 395", "correct": false },
+            { "text": "Section 397", "correct": true },
+            { "text": "Section 398", "correct": false },
+            { "text": "Section 393 itself", "correct": false }
+          ],
+          "explanation": "Section 397 provides higher TDS rates for non-PAN cases, replacing old Section 206AA. This is a supporting section that operates alongside Section 393.",
+          "explanationWrong": "Section 397 is correct. This review from Unit 3.1 reinforces that the higher PAN rate is a separate override, not built into the Table 1 entries.",
+          "tier": 1,
+          "subConcepts": ["section-397", "higher-pan-rate"],
+          "isReview": true,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194A covered TDS on interest other than interest on securities. In Table 1, this maps to which serial numbers?",
+          "options": [
+            { "text": "Serial 5(i) only", "correct": false },
+            { "text": "Serials 5(ii) and 5(iii)", "correct": true },
+            { "text": "Serial 4(i) only", "correct": false },
+            { "text": "Serial 6(i) only", "correct": false }
+          ],
+          "explanation": "Old Section 194A splits into two entries in Table 1: Serial 5(ii) and Serial 5(iii). This reflects different categories of payees or interest types that were previously under the single umbrella of 194A.",
+          "explanationWrong": "Both 5(ii) and 5(iii) cover old 194A. The consolidation actually expanded the granularity here — splitting one section into two serial entries for clarity.",
+          "tier": 1,
+          "subConcepts": ["section-194a-mapping", "serial-5-ii", "serial-5-iii", "interest-other"],
+          "isReview": false,
+          "oldSection": "Section 194A",
+          "newSection": "Section 393, Table 1, Serials 5(ii) and 5(iii)"
+        },
+        {
+          "order": 5,
+          "question": "Which category number in Table 1 groups all interest-related TDS entries together?",
+          "options": [
+            { "text": "Category 3", "correct": false },
+            { "text": "Category 4", "correct": false },
+            { "text": "Category 5", "correct": true },
+            { "text": "Category 8", "correct": false }
+          ],
+          "explanation": "Category 5 in Table 1 groups all interest-related entries: 5(i) for interest on securities (old 193), 5(ii) and 5(iii) for other interest (old 194A). This logical grouping is a benefit of the table structure.",
+          "explanationWrong": "Category 5 is the interest category. Category 3 is immovable property, Category 4 is investment income, Category 8 is miscellaneous.",
+          "tier": 1,
+          "subConcepts": ["category-5", "interest-grouping", "table-organisation"],
+          "isReview": false,
+          "oldSection": "Sections 193, 194A",
+          "newSection": "Section 393, Table 1, Category 5"
+        }
+      ]
+    },
+    {
+      "title": "Contractors, Professionals, and Fees (Category 6)",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194C for TDS on contractor payments maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 5(iii)", "correct": false },
+            { "text": "Serial 6(i)", "correct": true },
+            { "text": "Serial 6(ii)", "correct": false },
+            { "text": "Serial 8(ii)", "correct": false }
+          ],
+          "explanation": "Old Section 194C (contractor payments) maps to Serial 6(i) of Table 1. Category 6 groups all work/service-related TDS: contractors, certain commissions (old 194M), and professional fees (old 194J).",
+          "explanationWrong": "Serial 6(i) is correct. The work/service category logically groups contractors (6(i)), certain commissions under old 194M (6(ii)), and professional/technical fees under old 194J (6(iii)).",
+          "tier": 2,
+          "subConcepts": ["section-194c-mapping", "serial-6-i", "contractor-tds"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Serial 6(i)"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194M (TDS on payments by individuals/HUFs to contractors/professionals) maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 6(i)", "correct": false },
+            { "text": "Serial 6(ii)", "correct": true },
+            { "text": "Serial 6(iii)", "correct": false },
+            { "text": "Serial 8(v)", "correct": false }
+          ],
+          "explanation": "Old Section 194M maps to Serial 6(ii). This provision required individuals/HUFs paying more than Rs 50 lakh to contractors/professionals to deduct TDS, and it continues at the same threshold in the table.",
+          "explanationWrong": "Serial 6(ii) replaces old 194M. It sits between contractor payments (6(i) from 194C) and professional fees (6(iii) from 194J) in the work/service category.",
+          "tier": 2,
+          "subConcepts": ["section-194m-mapping", "serial-6-ii"],
+          "isReview": false,
+          "oldSection": "Section 194M",
+          "newSection": "Section 393, Table 1, Serial 6(ii)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, old Section 192(1A) for employer-paid perquisite tax maps to which new sub-section?",
+          "options": [
+            { "text": "Section 392(1)", "correct": false },
+            { "text": "Section 392(2)", "correct": true },
+            { "text": "Section 392(3)", "correct": false },
+            { "text": "Section 393(1)", "correct": false }
+          ],
+          "explanation": "Old Section 192(1A) maps to Section 392(2) in the new Act. This was covered in Unit 3.2 on salary TDS.",
+          "explanationWrong": "Section 392(2) is correct. This review reinforces the 192(1A) → 392(2) mapping for employer-paid perquisite tax.",
+          "tier": 2,
+          "subConcepts": ["section-192-1a-mapping", "section-392-2"],
+          "isReview": true,
+          "oldSection": "Section 192(1A)",
+          "newSection": "Section 392(2)"
+        },
+        {
+          "order": 4,
+          "question": "ABC Ltd pays Rs 40,000 to a resident contractor (individual) for website design. Under Table 1, Serial 6(i), is TDS applicable?",
+          "options": [
+            { "text": "Yes — TDS applies on all contractor payments regardless of amount", "correct": false },
+            { "text": "It depends on the threshold for single payment and aggregate annual payments (same as old 194C thresholds)", "correct": true },
+            { "text": "No — TDS applies only above Rs 1 lakh", "correct": false },
+            { "text": "Yes — at 20% since it's a digital service", "correct": false }
+          ],
+          "explanation": "The thresholds from old Section 194C continue in Table 1: Rs 30,000 per single payment and Rs 1,00,000 aggregate in a year. A Rs 40,000 single payment exceeds the Rs 30,000 threshold, so TDS applies.",
+          "explanationWrong": "Thresholds carry forward unchanged. For contractors, the single-payment threshold (Rs 30,000) and annual aggregate (Rs 1,00,000) from old 194C apply. Since Rs 40,000 exceeds Rs 30,000, TDS is deductible.",
+          "tier": 2,
+          "subConcepts": ["contractor-threshold", "serial-6-i", "threshold-application"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Serial 6(i)"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 194J for TDS on professional/technical fees maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 6(i)", "correct": false },
+            { "text": "Serial 6(ii)", "correct": false },
+            { "text": "Serial 6(iii)", "correct": true },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old Section 194J (professional/technical fees) maps to Serial 6(iii). The 10% rate for professional fees and the 2% rate for technical services/call centres continue unchanged.",
+          "explanationWrong": "Serial 6(iii) is correct. The Category 6 grouping is: 6(i) = contractors (194C), 6(ii) = individual/HUF payments (194M), 6(iii) = professional/technical fees (194J).",
+          "tier": 2,
+          "subConcepts": ["section-194j-mapping", "serial-6-iii", "professional-fees"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393, Table 1, Serial 6(iii)"
+        }
+      ]
+    },
+    {
+      "title": "Dividends and Miscellaneous (Categories 7-8)",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194 for TDS on dividends maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 6(iii)", "correct": false },
+            { "text": "Serial 7", "correct": true },
+            { "text": "Serial 8(i)", "correct": false },
+            { "text": "Serial 4(i)", "correct": false }
+          ],
+          "explanation": "Old Section 194 (dividends) maps to Serial 7 of Table 1. This is a standalone entry in Category 7, reflecting the importance of dividend TDS after the abolition of DDT.",
+          "explanationWrong": "Serial 7 is correct. Dividends get their own category (7) rather than being grouped with other investment income (Category 4) or interest (Category 5).",
+          "tier": 2,
+          "subConcepts": ["section-194-mapping", "serial-7", "dividend-tds"],
+          "isReview": false,
+          "oldSection": "Section 194",
+          "newSection": "Section 393, Table 1, Serial 7"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194DA for TDS on life insurance maturity proceeds maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 7", "correct": false },
+            { "text": "Serial 8(i)", "correct": true },
+            { "text": "Serial 8(ii)", "correct": false },
+            { "text": "Serial 1(i)", "correct": false }
+          ],
+          "explanation": "Old Section 194DA maps to Serial 8(i) of Table 1. Category 8 is the miscellaneous category covering diverse payment types that did not fit neatly into Categories 1-7.",
+          "explanationWrong": "Serial 8(i) is correct. Category 8 covers miscellaneous items: 8(i) = life insurance (194DA), 8(ii) = purchase of goods (194Q), and several others.",
+          "tier": 2,
+          "subConcepts": ["section-194da-mapping", "serial-8-i", "life-insurance-tds"],
+          "isReview": false,
+          "oldSection": "Section 194DA",
+          "newSection": "Section 393, Table 1, Serial 8(i)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new TDS architecture (Unit 3.1), what determines which TABLE of Section 393 applies to a particular payment?",
+          "options": [
+            { "text": "The payment amount", "correct": false },
+            { "text": "The payee's residential status", "correct": true },
+            { "text": "The deductor's PAN status", "correct": false },
+            { "text": "The nature of the payment only", "correct": false }
+          ],
+          "explanation": "The payee's residential status determines the table: Table 1 for residents, Table 2 for non-residents, Table 3 for any person. Within each table, the nature of payment determines the serial number.",
+          "explanationWrong": "Payee residential status selects the table. This two-level classification was explained in Unit 3.1. Table 1 applies because all entries here are for resident payees.",
+          "tier": 2,
+          "subConcepts": ["table-selection", "payee-status"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194Q for TDS on purchase of goods maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 8(i)", "correct": false },
+            { "text": "Serial 8(ii)", "correct": true },
+            { "text": "Serial 8(iv)", "correct": false },
+            { "text": "Serial 6(i)", "correct": false }
+          ],
+          "explanation": "Old Section 194Q (TDS on purchase of goods exceeding Rs 50 lakh) maps to Serial 8(ii) in the miscellaneous Category 8 of Table 1.",
+          "explanationWrong": "Serial 8(ii) is correct. 194Q's purchase-of-goods TDS provision sits in the miscellaneous category alongside other diverse entries.",
+          "tier": 2,
+          "subConcepts": ["section-194q-mapping", "serial-8-ii", "purchase-of-goods-tds"],
+          "isReview": false,
+          "oldSection": "Section 194Q",
+          "newSection": "Section 393, Table 1, Serial 8(ii)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following old sections maps to Serial 8(iv) in Table 1 — TDS on benefits/perquisites?",
+          "options": [
+            { "text": "Section 194O", "correct": false },
+            { "text": "Section 194R", "correct": true },
+            { "text": "Section 194S", "correct": false },
+            { "text": "Section 194Q", "correct": false }
+          ],
+          "explanation": "Old Section 194R (TDS on benefits/perquisites provided in the course of business) maps to Serial 8(iv). This relatively newer provision (inserted in 2022) finds its place in the miscellaneous category.",
+          "explanationWrong": "Serial 8(iv) is Section 194R. Section 194O (e-commerce) maps to 8(v), Section 194S (digital assets) maps to 8(vi), and Section 194Q (purchase of goods) maps to 8(ii).",
+          "tier": 2,
+          "subConcepts": ["section-194r-mapping", "serial-8-iv", "benefit-perquisite-tds"],
+          "isReview": false,
+          "oldSection": "Section 194R",
+          "newSection": "Section 393, Table 1, Serial 8(iv)"
+        }
+      ]
+    },
+    {
+      "title": "E-Commerce and Digital Assets (Category 8 continued)",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194O for TDS on e-commerce operator payments maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 8(iv)", "correct": false },
+            { "text": "Serial 8(v)", "correct": true },
+            { "text": "Serial 8(vi)", "correct": false },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old Section 194O (TDS by e-commerce operators on payments to e-commerce participants) maps to Serial 8(v) of Table 1.",
+          "explanationWrong": "Serial 8(v) is correct. The e-commerce TDS provision (194O, introduced in 2020) continues with the same mechanism under Table 1.",
+          "tier": 2,
+          "subConcepts": ["section-194o-mapping", "serial-8-v", "ecommerce-tds"],
+          "isReview": false,
+          "oldSection": "Section 194O",
+          "newSection": "Section 393, Table 1, Serial 8(v)"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194S for TDS on transfer of virtual digital assets (crypto) maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 8(v)", "correct": false },
+            { "text": "Serial 8(vi)", "correct": true },
+            { "text": "Serial 8(i)", "correct": false },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old Section 194S (TDS on virtual digital assets, i.e., cryptocurrency and NFTs) maps to Serial 8(vi) — the last entry in Category 8 and in Table 1.",
+          "explanationWrong": "Serial 8(vi) is correct. The crypto TDS provision (194S, introduced in 2022) continues as the final entry in the miscellaneous category of Table 1.",
+          "tier": 2,
+          "subConcepts": ["section-194s-mapping", "serial-8-vi", "crypto-tds", "vda-tds"],
+          "isReview": false,
+          "oldSection": "Section 194S",
+          "newSection": "Section 393, Table 1, Serial 8(vi)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, which new section replaces old Section 87A as the rebate provision?",
+          "options": [
+            { "text": "Section 155", "correct": false },
+            { "text": "Section 157", "correct": true },
+            { "text": "Section 202", "correct": false },
+            { "text": "Section 392(4)", "correct": false }
+          ],
+          "explanation": "Section 157 replaces old Section 87A as the rebate provision. This was covered in Unit 3.2 on salary TDS adjustments.",
+          "explanationWrong": "Section 157 is correct. Section 202 is the new tax regime (replacing 115BAC), not the rebate provision.",
+          "tier": 2,
+          "subConcepts": ["section-157", "rebate-mapping"],
+          "isReview": true,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 4,
+          "question": "A fintech platform facilitates sale of crypto worth Rs 12 lakh from a resident seller. Under Table 1, Serial 8(vi), at what rate should TDS be deducted?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "1%", "correct": true },
+            { "text": "2%", "correct": false },
+            { "text": "30%", "correct": false }
+          ],
+          "explanation": "TDS on virtual digital assets continues at 1% (the same rate as under old Section 194S). The rate has not changed in the transition to Table 1, Serial 8(vi).",
+          "explanationWrong": "1% is the TDS rate for VDA transfers. The 30% rate is the income-tax rate on crypto gains (Section 115BBH/equivalent), not the TDS rate. Rates are unchanged in the new Act.",
+          "tier": 2,
+          "subConcepts": ["crypto-tds-rate", "serial-8-vi", "1-percent-rate"],
+          "isReview": false,
+          "oldSection": "Section 194S",
+          "newSection": "Section 393, Table 1, Serial 8(vi)"
+        },
+        {
+          "order": 5,
+          "question": "Category 8 of Table 1 contains how many serial entries, making it the largest category?",
+          "options": [
+            { "text": "3 entries", "correct": false },
+            { "text": "6 entries (8(i) through 8(vi))", "correct": true },
+            { "text": "4 entries", "correct": false },
+            { "text": "8 entries", "correct": false }
+          ],
+          "explanation": "Category 8 has 6 entries: 8(i) life insurance (194DA), 8(ii) purchase of goods (194Q), 8(iii) [another entry], 8(iv) benefits/perquisites (194R), 8(v) e-commerce (194O), and 8(vi) digital assets (194S).",
+          "explanationWrong": "6 entries make Category 8 the largest in Table 1. It's a catch-all category for diverse payment types that entered the TDS framework at different times.",
+          "tier": 2,
+          "subConcepts": ["category-8-size", "miscellaneous-entries"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1, Category 8"
+        }
+      ]
+    },
+    {
+      "title": "Practical Mapping Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA prepares a TDS compliance matrix for a manufacturing company. The company makes payments to resident contractors (old 194C), professionals (old 194J), and for goods purchase (old 194Q). What are the correct Table 1 serial mappings?",
+          "options": [
+            { "text": "Contractors = 6(i), Professionals = 6(iii), Goods = 8(ii)", "correct": true },
+            { "text": "Contractors = 6(ii), Professionals = 6(i), Goods = 8(i)", "correct": false },
+            { "text": "All three under Serial 6(i)", "correct": false },
+            { "text": "Contractors = 8(ii), Professionals = 6(iii), Goods = 6(i)", "correct": false }
+          ],
+          "explanation": "194C → Serial 6(i), 194J → Serial 6(iii), 194Q → Serial 8(ii). Contractors and professionals are in Category 6 (work/services), while goods purchase is in Category 8 (miscellaneous).",
+          "explanationWrong": "6(i), 6(iii), and 8(ii) respectively. Understanding this mapping is essential for TDS return filing post 1 April 2026.",
+          "tier": 3,
+          "subConcepts": ["practical-mapping", "manufacturing-company", "multiple-payments"],
+          "isReview": false,
+          "oldSection": "Sections 194C, 194J, 194Q",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "An e-commerce company (Flipkart-type) makes payments to sellers and also pays rent for warehouses. Under Table 1, which serials apply?",
+          "options": [
+            { "text": "Seller payments = Serial 8(v); Warehouse rent = Serial 2", "correct": true },
+            { "text": "Both under Serial 8(v) since it's an e-commerce company", "correct": false },
+            { "text": "Seller payments = Serial 6(i); Warehouse rent = Serial 8(v)", "correct": false },
+            { "text": "Seller payments = Serial 7; Warehouse rent = Serial 3(i)", "correct": false }
+          ],
+          "explanation": "E-commerce operator payments to sellers (old 194O) = Serial 8(v). Warehouse rent (old 194I) = Serial 2. Each payment type is independently mapped regardless of the payer being an e-commerce company.",
+          "explanationWrong": "8(v) for seller payments, Serial 2 for rent. The payer's nature does not determine the serial — the nature of each payment does.",
+          "tier": 3,
+          "subConcepts": ["ecommerce-mapping", "independent-classification"],
+          "isReview": false,
+          "oldSection": "Sections 194O, 194I",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, old Sections 206AB and 206CCA (higher TDS/TCS on non-filers) have been treated how in the new Act?",
+          "options": [
+            { "text": "Consolidated into Table 1", "correct": false },
+            { "text": "Omitted from the new Act entirely", "correct": true },
+            { "text": "Merged into Section 397", "correct": false },
+            { "text": "Retained as separate sections", "correct": false }
+          ],
+          "explanation": "206AB and 206CCA were omitted. They are not in any table or supporting section. The higher rate for no-PAN (Section 397) is a different concept.",
+          "explanationWrong": "Omitted entirely. This is a review from Unit 3.1 — these provisions for non-filer higher rates were dropped from the new Act.",
+          "tier": 3,
+          "subConcepts": ["206ab-omitted", "206cca-omitted"],
+          "isReview": true,
+          "oldSection": "Sections 206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A real estate developer sells a flat for Rs 80 lakh to an individual buyer and also enters a JDA with a landowner. The buyer and the developer need to deduct TDS under which Table 1 serials respectively?",
+          "options": [
+            { "text": "Buyer deducts under Serial 3(i) (old 194IA); Developer deducts under Serial 3(ii) (old 194IC)", "correct": true },
+            { "text": "Both under Serial 2 (rent)", "correct": false },
+            { "text": "Buyer under Serial 8(ii); Developer under Serial 3(i)", "correct": false },
+            { "text": "No TDS required in either case", "correct": false }
+          ],
+          "explanation": "Buyer of property (>Rs 50L) deducts under Serial 3(i) replacing old 194IA. Developer under JDA deducts under Serial 3(ii) replacing old 194IC. Both are in Category 3 (immovable property).",
+          "explanationWrong": "3(i) for property purchase and 3(ii) for JDA. Category 3 neatly groups all immovable property transactions.",
+          "tier": 3,
+          "subConcepts": ["real-estate-tds", "serial-3-i", "serial-3-ii", "immovable-property"],
+          "isReview": false,
+          "oldSection": "Sections 194IA, 194IC",
+          "newSection": "Section 393, Table 1, Category 3"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is the correct complete list of Category 3 (immovable property) entries in Table 1?",
+          "options": [
+            { "text": "3(i) = Purchase of property (194IA), 3(ii) = JDA (194IC), 3(iii) = Compulsory acquisition (194LA)", "correct": true },
+            { "text": "3(i) = Rent (194I), 3(ii) = Purchase (194IA), 3(iii) = JDA (194IC)", "correct": false },
+            { "text": "3(i) = Purchase (194IA), 3(ii) = Rent (194I), 3(iii) = Compulsory acquisition (194LA)", "correct": false },
+            { "text": "3(i) = JDA (194IC), 3(ii) = Purchase (194IA), 3(iii) = Rent (194I)", "correct": false }
+          ],
+          "explanation": "Category 3 has exactly three entries: 3(i) = purchase of immovable property (old 194IA), 3(ii) = JDA payments (old 194IC), 3(iii) = compulsory acquisition compensation (old 194LA). Rent (194I) is separately in Serial 2.",
+          "explanationWrong": "The correct order is 3(i) purchase, 3(ii) JDA, 3(iii) compulsory acquisition. Rent is NOT in Category 3 — it has its own Serial 2.",
+          "tier": 3,
+          "subConcepts": ["category-3-complete", "immovable-property-entries"],
+          "isReview": false,
+          "oldSection": "Sections 194IA, 194IC, 194LA",
+          "newSection": "Section 393, Table 1, Category 3"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Category Application",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A hospital pays salary (Rs 50L), rent (Rs 12L), professional fees to a doctor (Rs 8L), and buys medical equipment (Rs 60L). Which sections/serials apply to each?",
+          "options": [
+            { "text": "Salary = 392; Rent = Serial 2; Professional = Serial 6(iii); Equipment = Serial 8(ii)", "correct": true },
+            { "text": "All under Section 393, Table 1", "correct": false },
+            { "text": "Salary = 393; Rent = Serial 2; Professional = Serial 6(i); Equipment = Serial 8(ii)", "correct": false },
+            { "text": "Salary = 392; Rest all under Serial 6", "correct": false }
+          ],
+          "explanation": "Salary goes under Section 392 (not 393). Rent = Table 1, Serial 2. Professional fees = Table 1, Serial 6(iii). Equipment purchase (>Rs 50L) = Table 1, Serial 8(ii). Each payment has its own classification.",
+          "explanationWrong": "392 for salary, then Table 1 serials 2, 6(iii), and 8(ii) for the rest. Salary is NEVER under Section 393 — it has its own dedicated Section 392.",
+          "tier": 3,
+          "subConcepts": ["multi-payment-classification", "hospital-scenario", "cross-section"],
+          "isReview": false,
+          "oldSection": "Sections 192, 194I, 194J, 194Q",
+          "newSection": "Section 392; Section 393 Table 1"
+        },
+        {
+          "order": 2,
+          "question": "A company declares a dividend of Rs 50 lakh to a resident shareholder and also pays interest of Rs 3 lakh on debentures. Under Table 1, which serials apply?",
+          "options": [
+            { "text": "Dividend = Serial 7; Debenture interest = Serial 5(i)", "correct": true },
+            { "text": "Both under Serial 7 since they are investment income", "correct": false },
+            { "text": "Dividend = Serial 4(i); Debenture interest = Serial 5(ii)", "correct": false },
+            { "text": "Dividend = Serial 8(i); Debenture interest = Serial 5(i)", "correct": false }
+          ],
+          "explanation": "Dividend (old 194) = Serial 7. Debenture interest (old 193 — interest on securities) = Serial 5(i). They are in different categories despite both being investment returns.",
+          "explanationWrong": "Serial 7 for dividends, Serial 5(i) for debenture interest. The table separates them: dividends get their own Category 7, while interest on securities is in Category 5.",
+          "tier": 3,
+          "subConcepts": ["dividend-vs-interest", "serial-7", "serial-5-i"],
+          "isReview": false,
+          "oldSection": "Sections 194, 193",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, what is the default tax regime for salary TDS computation under the new Act?",
+          "options": [
+            { "text": "Old regime with all deductions", "correct": false },
+            { "text": "New regime under Section 202", "correct": true },
+            { "text": "The employer decides", "correct": false },
+            { "text": "Both regimes simultaneously", "correct": false }
+          ],
+          "explanation": "Section 202 (new tax regime) is the default. Unless the employee opts out, the employer computes salary TDS under Section 202 rates.",
+          "explanationWrong": "Section 202 (new regime) is the default. This was covered in Unit 3.2.",
+          "tier": 3,
+          "subConcepts": ["section-202", "default-regime"],
+          "isReview": true,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 4,
+          "question": "A company sponsors a dealer conference and provides free trips (perquisites) worth Rs 25 lakh to dealers, and also pays commission of Rs 10 lakh. Under Table 1, TDS applies under which serials?",
+          "options": [
+            { "text": "Trip perquisites = Serial 8(iv) (old 194R); Commission = Serial 1(ii) (old 194H)", "correct": true },
+            { "text": "Both under Serial 1(ii) since they relate to dealers", "correct": false },
+            { "text": "Trip perquisites = Serial 6(iii); Commission = Serial 6(ii)", "correct": false },
+            { "text": "No TDS on trip perquisites — only on commission", "correct": false }
+          ],
+          "explanation": "Business perquisites/benefits (old 194R) = Serial 8(iv). Commission/brokerage (old 194H) = Serial 1(ii). Each payment type has its own serial regardless of the payee being the same person.",
+          "explanationWrong": "8(iv) for perquisites and 1(ii) for commission. The nature of the payment — not the payee relationship — determines the serial number.",
+          "tier": 3,
+          "subConcepts": ["dealer-perquisite", "commission-tds", "serial-8-iv", "serial-1-ii"],
+          "isReview": false,
+          "oldSection": "Sections 194R, 194H",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 5,
+          "question": "If a deductor cannot find a specific payment type in Table 1 (resident payments) or Table 2 (non-resident payments), where should they look?",
+          "options": [
+            { "text": "The old Act — it still applies as fallback", "correct": false },
+            { "text": "Table 3 of Section 393 (payments to any person regardless of status)", "correct": true },
+            { "text": "Section 392 (salary)", "correct": false },
+            { "text": "No TDS applies if not in Tables 1 or 2", "correct": false }
+          ],
+          "explanation": "Table 3 covers payments to 'any person' regardless of residential status. If a payment type is not in Table 1 (resident) or Table 2 (non-resident), it may be in Table 3. The old Act is not a fallback.",
+          "explanationWrong": "Table 3 is the catch-all for payments regardless of payee status. The three tables together cover the full universe of non-salary TDS obligations.",
+          "tier": 3,
+          "subConcepts": ["table-3-fallback", "any-person-payments"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 3"
+        }
+      ]
+    },
+    {
+      "title": "Table 1 Mastery — Complete Mapping",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A newly qualified CA needs to memorise the 8 categories of Table 1. Which of the following is the correct category sequence?",
+          "options": [
+            { "text": "1-Commission, 2-Rent, 3-Property, 4-Investment, 5-Interest, 6-Work/Service, 7-Dividends, 8-Misc", "correct": true },
+            { "text": "1-Salary, 2-Rent, 3-Property, 4-Interest, 5-Dividends, 6-Commission, 7-Work, 8-Misc", "correct": false },
+            { "text": "1-Rent, 2-Commission, 3-Interest, 4-Property, 5-Work, 6-Dividends, 7-Investment, 8-Misc", "correct": false },
+            { "text": "1-Interest, 2-Rent, 3-Commission, 4-Dividends, 5-Property, 6-Work, 7-Investment, 8-Misc", "correct": false }
+          ],
+          "explanation": "The 8 categories in order: (1) Commission/Insurance, (2) Rent, (3) Immovable Property transfers, (4) Investment Income, (5) Interest, (6) Work/Services, (7) Dividends, (8) Miscellaneous. Salary is NOT in Table 1 — it's under Section 392.",
+          "explanationWrong": "The correct sequence starts with Commission, then Rent, Property, Investment, Interest, Work/Service, Dividends, Miscellaneous. Salary is never in Table 1.",
+          "tier": 3,
+          "subConcepts": ["category-sequence", "table-1-memorisation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "A company's ERP system currently has 12 old TDS section codes for resident payments (193, 194, 194A, 194C, 194D, 194H, 194I, 194IA, 194J, 194Q, 194R, 194S). How many Table 1 serial entries do these 12 sections map to?",
+          "options": [
+            { "text": "12 — one-to-one mapping", "correct": false },
+            { "text": "More than 12 — some old sections split into multiple entries", "correct": true },
+            { "text": "Fewer than 12 — some old sections were merged", "correct": false },
+            { "text": "Exactly 8 — one per category", "correct": false }
+          ],
+          "explanation": "Some old sections split into multiple entries (e.g., 194A splits into 5(ii) and 5(iii)), so the total serial entries exceed the 12 old section codes. The mapping is not always one-to-one.",
+          "explanationWrong": "More than 12 entries because some old sections (like 194A) map to multiple serials. The table adds granularity in some cases, even as it consolidates the overall structure.",
+          "tier": 3,
+          "subConcepts": ["one-to-many-mapping", "erp-migration"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, Section 392(3) provides deferred TDS for ESOPs of eligible startups. What are the three trigger events?",
+          "options": [
+            { "text": "Allotment, vesting, and exercise", "correct": false },
+            { "text": "Sale of shares, cessation of employment, or 5 years from allotment", "correct": true },
+            { "text": "Exercise, assessment, and filing of return", "correct": false },
+            { "text": "IPO, delisting, or merger", "correct": false }
+          ],
+          "explanation": "The three trigger events under Section 392(3) are: sale of shares, cessation of employment, or expiry of 5 years from allotment — whichever is earliest. This was covered in Unit 3.2.",
+          "explanationWrong": "Sale, cessation, or 5-year expiry. These are the same triggers as under old Section 192(1C).",
+          "tier": 3,
+          "subConcepts": ["esop-triggers", "section-392-3"],
+          "isReview": true,
+          "oldSection": "Section 192(1C)",
+          "newSection": "Section 392(3)"
+        },
+        {
+          "order": 4,
+          "question": "An auditor reviewing TDS compliance for FY 2026-27 notices that old Section 194H (commission) was quoted in Q1 returns. What corrective action is needed?",
+          "options": [
+            { "text": "No action — old numbers are accepted for the first year", "correct": false },
+            { "text": "File a correction statement replacing 194H with Section 393, Table 1, Serial 1(ii)", "correct": true },
+            { "text": "Re-file the entire return from scratch", "correct": false },
+            { "text": "Write a letter to the AO explaining the error", "correct": false }
+          ],
+          "explanation": "A correction statement (revised TDS return) must be filed replacing the old Section 194H reference with the correct Section 393, Table 1, Serial 1(ii). The system will expect new Act references post 1 April 2026.",
+          "explanationWrong": "Correction statement is needed. The TRACES system will be updated for new section numbers, and using old numbers will cause validation issues or processing delays.",
+          "tier": 3,
+          "subConcepts": ["correction-statement", "section-194h-to-serial-1-ii", "compliance-fix"],
+          "isReview": false,
+          "oldSection": "Section 194H",
+          "newSection": "Section 393, Table 1, Serial 1(ii)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is the single most important takeaway about Table 1 for a practising CA advising clients on the transition?",
+          "options": [
+            { "text": "All rates have changed and must be re-verified", "correct": false },
+            { "text": "New compliance deadlines have been introduced", "correct": false },
+            { "text": "The substance is unchanged — same rates, thresholds, and obligations — but every section reference must be updated to the new table/serial format", "correct": true },
+            { "text": "Table 1 only applies to companies, not individuals", "correct": false }
+          ],
+          "explanation": "The critical message is: substance unchanged, references changed. Every old section number (194C, 194H, 194J, etc.) must be mapped to its Table 1 serial number. Rates, thresholds, and compliance remain the same.",
+          "explanationWrong": "Substance unchanged, references changed. This is the key advisory point — clients do not need to worry about new rates or obligations, but their systems and processes must use the new section references.",
+          "tier": 3,
+          "subConcepts": ["key-takeaway", "substance-vs-form", "client-advisory"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        }
+      ]
+    }
+  ]
+}

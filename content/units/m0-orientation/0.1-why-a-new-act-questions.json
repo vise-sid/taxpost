@@ -1,0 +1,835 @@
+{
+  "unit": "0.1",
+  "title": "Why a New Act?",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Old Act by the Numbers",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many sections did the Income Tax Act, 1961 have by the time it was replaced?",
+          "options": [
+            { "text": "536", "correct": false },
+            { "text": "819", "correct": true },
+            { "text": "298", "correct": false },
+            { "text": "700", "correct": false }
+          ],
+          "explanation": "The 1961 Act ballooned from ~298 sections at inception to 819 sections over 63 years of amendments. This is the number you'll see cited in every comparison — 819 down to 536.",
+          "explanationWrong": "The 1961 Act had grown to 819 sections by the time it was replaced. It started at ~298 sections but accumulated amendments over 63 years. The new Act has 536 sections — a 35% reduction.",
+          "tier": 1,
+          "subConcepts": ["old-act-complexity", "section-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Approximately how many provisos existed in the 1961 Act before it was replaced?",
+          "options": [
+            { "text": "~600", "correct": false },
+            { "text": "~900", "correct": false },
+            { "text": "~1,200", "correct": true },
+            { "text": "~300", "correct": false }
+          ],
+          "explanation": "The 1961 Act had roughly 1,200 provisos — exceptions bolted onto existing sections instead of clean rewrites. The new Act eliminates all of them, converting necessary ones into sub-sections.",
+          "explanationWrong": "There were approximately 1,200 provisos in the old Act. Provisos were a major source of complexity — each one added an exception or qualification to an existing section. Don't confuse with ~900, which was the count of explanations, not provisos.",
+          "tier": 1,
+          "subConcepts": ["old-act-complexity", "provisos"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "How many chapters does the new Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "47", "correct": false },
+            { "text": "36", "correct": false },
+            { "text": "23", "correct": true },
+            { "text": "16", "correct": false }
+          ],
+          "explanation": "The new Act has 23 chapters, down from 47 in the old Act — a 51% reduction. 16 is the number of schedules, not chapters.",
+          "explanationWrong": "The new Act has 23 chapters (down from 47 — a 51% reduction). A common mix-up: 16 is the number of schedules, and 47 is the old chapter count. Remember: 23 chapters, 16 schedules.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "chapter-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many new tables were introduced in the Income Tax Act, 2025 to present complex provisions in structured format?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "52", "correct": false }
+          ],
+          "explanation": "39 new tables were introduced for provisions like TDS rates, perquisite values, and presumptive thresholds. Tables replace long prose — you'll encounter them constantly in practice.",
+          "explanationWrong": "The new Act introduces 39 tables for structured presentation of complex provisions. Don't confuse with 23 (chapter count) or 16 (schedule count). These tables are one of the most practically useful changes — TDS rates, for instance, are now in a single table instead of scattered across 30+ sections.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "tables"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "By what percentage were the total number of sections reduced from the old Act to the new Act?",
+          "options": [
+            { "text": "About 25%", "correct": false },
+            { "text": "About 35%", "correct": true },
+            { "text": "About 50%", "correct": false },
+            { "text": "About 65%", "correct": false }
+          ],
+          "explanation": "Sections went from 819 to 536 — a reduction of about 35%. The word count dropped by ~49%, which is the ~50% figure. Sections and words are different metrics — keep them separate.",
+          "explanationWrong": "The section count dropped from 819 to 536, which is approximately a 35% reduction. The ~50% reduction applies to word count (5.12 lakh to 2.6 lakh), not section count. These are easy to mix up — remember: 35% fewer sections, 49% fewer words.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "section-reduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "What the New Act Looks Like",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What happened to the ~1,200 provisos from the old Act in the new Income Tax Act, 2025?",
+          "options": [
+            { "text": "Retained as-is for continuity", "correct": false },
+            { "text": "Moved to a separate schedule", "correct": false },
+            { "text": "Eliminated — converted into sub-sections or removed", "correct": true },
+            { "text": "Consolidated into 100 master provisos", "correct": false }
+          ],
+          "explanation": "All ~1,200 provisos were eliminated. Where the substance was necessary, it was converted into standalone sub-sections. Redundant provisos were simply removed. This is one of the biggest structural wins for readability.",
+          "explanationWrong": "The new Act eliminated all provisos entirely. Necessary exceptions were rewritten as regular sub-sections within the main section text. Redundant ones were dropped. No provisos survive in any form — not in schedules, not consolidated. Clean slate.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "provisos-eliminated"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "How does the new Act handle section numbering compared to the old Act's style of 80C, 80CCA, 80CCD(1B)?",
+          "options": [
+            { "text": "Same alphabetical suffix system, just renumbered", "correct": false },
+            { "text": "Sequential numbering from 1 to 536 without alphabetical suffixes", "correct": true },
+            { "text": "Roman numeral sub-sections (I, II, III)", "correct": false },
+            { "text": "Alphanumeric codes like 'TDS-01', 'CG-01'", "correct": false }
+          ],
+          "explanation": "The new Act uses clean sequential numbering — Section 1 through Section 536. No more navigating the maze of 80C, 80CC, 80CCA, 80CCB, 80CCC, 80CCD, 80CCE. Sub-sections use simple numbers.",
+          "explanationWrong": "The new Act uses straightforward sequential numbering from Section 1 to Section 536. The old alphabetical suffix system (80C, 80CCA, 80CCD) was a direct result of cramming new provisions between existing ones. With a clean rewrite, every section gets its own number in logical order.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "sequential-numbering"],
+          "isReview": false,
+          "oldSection": "Section 80C-80U",
+          "newSection": "Sections 123-154"
+        },
+        {
+          "order": 3,
+          "question": "How many sections did the old Income Tax Act, 1961 originally have when it was first enacted?",
+          "options": [
+            { "text": "About 150", "correct": false },
+            { "text": "About 298", "correct": true },
+            { "text": "About 500", "correct": false },
+            { "text": "About 819", "correct": false }
+          ],
+          "explanation": "The 1961 Act started with approximately 298 sections and grew to 819 over 63 years. That's nearly a 3x increase through amendments — which is exactly why a rewrite was needed.",
+          "explanationWrong": "The original 1961 Act had approximately 298 sections. It grew to 819 through 63 years of amendments — almost tripling in size. 819 is where it ended, not where it started. This growth is the core reason for the rewrite.",
+          "tier": 1,
+          "subConcepts": ["old-act-complexity", "original-section-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many schedules does the new Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "14 (same as old Act)", "correct": false },
+            { "text": "12 (reduced)", "correct": false },
+            { "text": "16", "correct": true },
+            { "text": "23", "correct": false }
+          ],
+          "explanation": "The new Act has 16 schedules, up from 14 in the old Act. This is one of the few metrics that actually increased — because complex exemption provisions (like old Section 10's 140 clauses) were moved into schedules for cleaner organization.",
+          "explanationWrong": "The new Act has 16 schedules — actually an increase from 14 in the old Act. While everything else shrank (sections, chapters, words), schedules grew by 2 because bulky provisions like Section 10's exemptions were moved out of the main text and into dedicated schedules. 23 is the chapter count, not schedules.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "schedule-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "By approximately how much did the word count decrease from the old Act to the new Act?",
+          "options": [
+            { "text": "About 25% (from 5.12 lakh to 3.8 lakh)", "correct": false },
+            { "text": "About 35% (from 5.12 lakh to 3.3 lakh)", "correct": false },
+            { "text": "About 49% (from 5.12 lakh to 2.6 lakh)", "correct": true },
+            { "text": "About 70% (from 5.12 lakh to 1.5 lakh)", "correct": false }
+          ],
+          "explanation": "The word count dropped from ~5.12 lakh to ~2.6 lakh — a 49% reduction. Nearly half the words were eliminated. Remember: sections dropped 35%, but words dropped 49% because provisos and explanations were especially verbose.",
+          "explanationWrong": "Word count fell by approximately 49% — from 5.12 lakh words to 2.6 lakh words. The word reduction (49%) is larger than the section reduction (35%) because the eliminated provisos and explanations were particularly wordy. The Act literally became half as long to read.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "word-reduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "The Timeline That Matters",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "When does the Income Tax Act, 2025 come into effect?",
+          "options": [
+            { "text": "April 1, 2025", "correct": false },
+            { "text": "April 1, 2026", "correct": true },
+            { "text": "August 18, 2025", "correct": false },
+            { "text": "January 1, 2026", "correct": false }
+          ],
+          "explanation": "The effective date is April 1, 2026, applying from Tax Year 2026-27 onwards. August 18, 2025 is when it received Presidential assent — but assent and effectiveness are different dates. This is one date every CA must know cold.",
+          "explanationWrong": "The Act comes into effect on April 1, 2026 — the start of Tax Year 2026-27. Don't confuse with August 18, 2025 (Presidential assent date) or April 1, 2025 (a year too early). The Act was passed in 2025 but applies from 2026, giving practitioners time to prepare.",
+          "tier": 1,
+          "subConcepts": ["effective-date", "timeline"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 2,
+          "question": "How many substantive amendments did the Select Committee make to the original Income Tax Bill, 2025?",
+          "options": [
+            { "text": "285", "correct": false },
+            { "text": "84", "correct": true },
+            { "text": "31", "correct": false },
+            { "text": "142", "correct": false }
+          ],
+          "explanation": "The Select Committee accepted 84 substantive amendments out of 285 total recommendations received. 285 is the number of recommendations submitted, not accepted. 31 is the number of Committee members.",
+          "explanationWrong": "The Committee made 84 substantive changes. Common mix-up: 285 is the total recommendations received from stakeholders, not the number accepted. And 31 is the number of Committee members. The 84 changes were significant enough that CAs who read the original February bill need to re-read the enacted version.",
+          "tier": 1,
+          "subConcepts": ["select-committee", "amendments"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "What is the total number of new tables introduced in the Income Tax Act, 2025?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "47", "correct": false }
+          ],
+          "explanation": "39 new tables — you saw this in an earlier lesson. Repetition helps it stick. These tables cover TDS rates, perquisite values, presumptive thresholds, and more. They're one of the most practically useful changes.",
+          "explanationWrong": "39 tables were introduced in the new Act. Quick way to keep the numbers straight: 23 chapters, 16 schedules, 39 tables. The tables organize complex rate structures (like TDS) that were previously scattered across prose in multiple sections.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "tables"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "When was the Income Tax Bill, 2025 first introduced in Lok Sabha?",
+          "options": [
+            { "text": "July 23, 2024", "correct": false },
+            { "text": "February 13, 2025", "correct": true },
+            { "text": "August 18, 2025", "correct": false },
+            { "text": "April 1, 2025", "correct": false }
+          ],
+          "explanation": "The bill was introduced on February 13, 2025. July 23, 2024 was the Budget speech announcing the review. August 18, 2025 was Presidential assent. Knowing the introduction date matters because the original bill was later withdrawn and replaced with a revised version after the Select Committee's 84 amendments.",
+          "explanationWrong": "The bill was introduced in Lok Sabha on February 13, 2025. This date matters because the original February bill was later withdrawn and replaced with a revised version incorporating the Select Committee's 84 substantive changes. July 2024 = announcement, February 2025 = bill introduced, August 2025 = assent, April 2026 = effective.",
+          "tier": 1,
+          "subConcepts": ["timeline", "bill-introduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Which is the last financial year to be governed by the Income Tax Act, 1961?",
+          "options": [
+            { "text": "FY 2024-25", "correct": false },
+            { "text": "FY 2025-26", "correct": true },
+            { "text": "FY 2026-27", "correct": false },
+            { "text": "FY 2023-24", "correct": false }
+          ],
+          "explanation": "FY 2025-26 (April 2025 to March 2026) is the last year under the old Act. From April 1, 2026, the new Act applies — and it's called Tax Year 2026-27, not FY 2026-27.",
+          "explanationWrong": "FY 2025-26 is the last year under the 1961 Act. The new Act kicks in on April 1, 2026. So returns filed in July 2026 (for FY 2025-26) still use old section numbers, but returns filed in July 2027 (for Tax Year 2026-27) use the new Act entirely.",
+          "tier": 1,
+          "subConcepts": ["effective-date", "transition-timing"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1"
+        }
+      ]
+    },
+    {
+      "title": "Why the Old Act Failed",
+      "tier": 2,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the primary reason Parliament kept adding provisos to existing sections instead of rewriting them cleanly?",
+          "options": [
+            { "text": "It was faster to add exceptions than to restructure the entire section", "correct": true },
+            { "text": "The Constitution required amendments to be in proviso format", "correct": false },
+            { "text": "Provisos were easier for taxpayers to understand", "correct": false },
+            { "text": "The CBDT preferred provisos for administrative reasons", "correct": false }
+          ],
+          "explanation": "Adding a proviso was the path of least resistance — it modified behavior without needing to rewrite and re-examine the entire section. Over 63 years, this quick-fix approach accumulated ~1,200 provisos, making sections nearly unreadable. The new Act proves a clean rewrite was always possible — it just required political will.",
+          "explanationWrong": "Provisos were added because they were the quickest way to modify a section's behavior without restructuring it. There's no constitutional requirement for proviso format, and they certainly weren't easier to understand — they were a legislative shortcut that accumulated into 1,200 layers of complexity over 63 years.",
+          "tier": 2,
+          "subConcepts": ["old-act-complexity", "provisos", "legislative-process"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Old Section 10 had 140+ clauses granting various exemptions. How does the new Act handle this?",
+          "options": [
+            { "text": "All 140 exemptions were removed", "correct": false },
+            { "text": "They remain in a single section but with cleaner language", "correct": false },
+            { "text": "The exemptions were moved into dedicated schedules (Schedules II-VII)", "correct": true },
+            { "text": "They were distributed equally across all 23 chapters", "correct": false }
+          ],
+          "explanation": "Section 10's 140+ exemption clauses were reorganized into Schedules II through VII, grouped by category. The exemptions themselves largely survive — it's the way they're organized that changed. This is why the schedule count increased from 14 to 16.",
+          "explanationWrong": "The new Act moved Section 10's exemptions into Schedules II-VII, organized by category. The exemptions weren't removed — the substance was preserved. And they weren't kept in one bloated section either. This reorganization into schedules is one reason the new Act has 16 schedules (up from 14) despite everything else shrinking.",
+          "tier": 2,
+          "subConcepts": ["section-10-transformation", "schedule-reorganization"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedules II-VII"
+        },
+        {
+          "order": 3,
+          "question": "The new Act has 536 sections compared to the old Act's 819. Which best describes why?",
+          "options": [
+            { "text": "283 provisions were repealed as they dealt with taxes that no longer exist", "correct": false },
+            { "text": "Redundant, dead, and scattered provisions were consolidated or removed, and the remainder was restructured", "correct": true },
+            { "text": "The government simplified tax policy by eliminating 283 types of income", "correct": false },
+            { "text": "Only sections relevant to the new tax regime were retained", "correct": false }
+          ],
+          "explanation": "The reduction came from removing dead provisions (like Section 10A), consolidating scattered ones (30+ TDS sections into 3), and restructuring complex sections into tables and schedules. No tax types or income categories were eliminated — it's the same law, organized better.",
+          "explanationWrong": "The section reduction is from consolidation and cleanup, not policy changes. Dead provisions were removed, scattered provisions were consolidated (e.g., 30+ TDS sections → 3), and complex sections were restructured into tables. The substantive law — what's taxable, at what rate — is essentially unchanged.",
+          "tier": 2,
+          "subConcepts": ["section-reduction", "consolidation-vs-reform"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "TDS provisions in the old Act were spread across 30+ sections (192 to 196D). What was the practical compliance problem this created?",
+          "options": [
+            { "text": "Each section had a different due date for TDS deposit", "correct": false },
+            { "text": "Professionals had to cross-reference dozens of sections, thresholds, and rates scattered across the Act to handle a single TDS obligation", "correct": true },
+            { "text": "TDS certificates could only cite one section, so multi-payment deductors couldn't issue them", "correct": false },
+            { "text": "The sections frequently contradicted each other on rate applicability", "correct": false }
+          ],
+          "explanation": "The core problem was fragmentation. To handle TDS on even a mid-sized company's payments, a CA needed to look up 194C (contractors), 194H (commission), 194I (rent), 194J (professionals), 194A (interest) — each with its own threshold and rate. One consolidated table is dramatically more efficient.",
+          "explanationWrong": "The problem was lookup complexity — a single company's TDS obligations could require checking 10+ separate sections, each with its own threshold and rate. Due dates and TDS certificate formats were actually standardized across sections. The issue wasn't contradiction; it was fragmentation making compliance unnecessarily time-consuming and error-prone.",
+          "tier": 2,
+          "subConcepts": ["tds-fragmentation", "compliance-burden"],
+          "isReview": false,
+          "oldSection": "Sections 192-196D",
+          "newSection": "Sections 392-394"
+        },
+        {
+          "order": 5,
+          "question": "The old Act used terms \"Previous Year\" and \"Assessment Year.\" What fundamental confusion did this dual-year system create?",
+          "options": [
+            { "text": "Taxpayers often filed returns for the wrong year because the assessment year didn't match the earning year", "correct": true },
+            { "text": "The two years had different start dates (April vs January)", "correct": false },
+            { "text": "Tax rates differed between the previous year and assessment year", "correct": false },
+            { "text": "Only CAs understood the difference, so laypersons didn't need to worry about it", "correct": false }
+          ],
+          "explanation": "\"AY 2025-26\" meant income earned in \"PY 2024-25\" — a one-year offset that confused even seasoned professionals. Tax rates were the same for both; the confusion was about which year you were referring to. The new Act solves this with a single \"Tax Year\" concept.",
+          "explanationWrong": "The Previous Year/Assessment Year system created a one-year offset confusion. Income earned in April 2024-March 2025 (PY) was assessed in AY 2025-26. Both years started in April and used the same rates — the problem was purely the labeling. The new \"Tax Year\" concept eliminates this by using a single reference year.",
+          "tier": 2,
+          "subConcepts": ["previous-year-assessment-year", "tax-year-concept"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        }
+      ]
+    },
+    {
+      "title": "Rewrite vs Reform",
+      "tier": 2,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A colleague says: \"The new Act changed all the tax rates.\" Which response is most accurate?",
+          "options": [
+            { "text": "Correct — rates were revised as part of the simplification", "correct": false },
+            { "text": "Partially correct — only TDS rates changed", "correct": false },
+            { "text": "Incorrect — the new Act is a rewrite of the law's language and structure, not a change in tax policy or rates", "correct": true },
+            { "text": "Incorrect — the new Act only changed section numbers, nothing else", "correct": false }
+          ],
+          "explanation": "The 2025 Act is a structural rewrite — same substance, clearer drafting. Tax rates, slabs, deduction limits, and policy are unchanged. Option D is also wrong because the rewrite went beyond just renumbering — it restructured how provisions are organized (tables, schedules, eliminated provisos).",
+          "explanationWrong": "The new Act is a rewrite, not a reform. Tax rates, slabs, thresholds, and deduction limits remain as set by Finance Act 2024/2025. What changed is the language, structure, and organization — provisos eliminated, tables introduced, sections consolidated. It's more than just renumbering, but it's not a policy overhaul.",
+          "tier": 2,
+          "subConcepts": ["rewrite-not-reform", "rates-unchanged"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Deductions under old Section 80C are now under Section 123 in the new Act. What does this change mean practically?",
+          "options": [
+            { "text": "The deduction limit has been revised under Section 123", "correct": false },
+            { "text": "The eligible investments for deduction have been updated", "correct": false },
+            { "text": "The section number and language changed, but the deduction rules and limits remain the same", "correct": true },
+            { "text": "Section 123 only applies under the new tax regime", "correct": false }
+          ],
+          "explanation": "This is the \"rewrite, not reform\" principle in action. Section 80C → Section 123 is a renumbering with cleaner drafting. The deduction limits, eligible investments, and rules remain the same as under the Finance Act amendments. When clients ask \"did 80C change?\", the answer is: \"the number changed, the benefit didn't.\"",
+          "explanationWrong": "Section 80C → Section 123 is a clean example of renumbering without substantive change. The deduction limits, eligible investments, and regime applicability remain exactly as they were. The new Act rewrites the provision in simpler language with a new number, but the substance is preserved. This applies to most provisions across the Act.",
+          "tier": 2,
+          "subConcepts": ["rewrite-not-reform", "section-renumbering"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 3,
+          "question": "The new Act comes into effect on April 1, 2026. Which Act governs returns filed in July 2026 for income earned in FY 2025-26?",
+          "options": [
+            { "text": "The new Income Tax Act, 2025", "correct": false },
+            { "text": "The old Income Tax Act, 1961", "correct": true },
+            { "text": "Both Acts apply simultaneously", "correct": false },
+            { "text": "Whichever Act the taxpayer chooses", "correct": false }
+          ],
+          "explanation": "FY 2025-26 income falls entirely under the old Act. Even though the return is physically filed after April 1, 2026, the applicable law is determined by the year of income, not the filing date. The new Act applies from Tax Year 2026-27 onwards.",
+          "explanationWrong": "The old Act governs FY 2025-26, regardless of when the return is filed. The applicable law follows the year of income. Returns filed in July 2026 are for the last year under the old Act (FY 2025-26). The new Act applies starting Tax Year 2026-27 — returns for which would be filed in July 2027.",
+          "tier": 2,
+          "subConcepts": ["effective-date", "transition-timing"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 4,
+          "question": "Which statement best captures what the Income Tax Act, 2025 actually does?",
+          "options": [
+            { "text": "Introduces a flat tax system replacing the progressive slab structure", "correct": false },
+            { "text": "Rewrites the same tax law in simpler language with better organization, without changing tax policy", "correct": true },
+            { "text": "Merges direct and indirect tax laws into a single code", "correct": false },
+            { "text": "Replaces the old tax regime with only the new tax regime", "correct": false }
+          ],
+          "explanation": "The 2025 Act is a plain-language rewrite with better structural organization — tables, fewer sections, no provisos. Tax policy, rates, deductions, and exemptions remain substantively the same. Both old and new tax regimes continue to exist. It has nothing to do with indirect taxes (GST remains separate).",
+          "explanationWrong": "The Act is a language and structure overhaul — same law, clearer drafting. The progressive slab structure continues, both tax regimes exist, and GST/indirect taxes remain entirely separate. Think of it as the same book translated into plain English and reorganized — the story (tax policy) hasn't changed.",
+          "tier": 2,
+          "subConcepts": ["rewrite-not-reform", "act-purpose"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "The new Act introduces 39 tables. What advantage do tables have over the old prose-based sections for a provision like TDS rates?",
+          "options": [
+            { "text": "Tables allow different rates for different states", "correct": false },
+            { "text": "Tables make it faster to look up the correct rate, threshold, and section — reducing errors and compliance time", "correct": true },
+            { "text": "Tables are legally non-binding, giving more flexibility to officers", "correct": false },
+            { "text": "Tables can be updated by CBDT notification without Parliament approval", "correct": false }
+          ],
+          "explanation": "Tables organize information in rows and columns, making lookup instant. Instead of reading through 30+ prose sections to find the TDS rate for a contractor payment, you scan one table. Same legal weight as prose — but dramatically faster and less error-prone for daily compliance.",
+          "explanationWrong": "Tables have the same legal force as any other provision — they're part of the Act, not subordinate legislation. Their advantage is purely practical: structured rows and columns make it far quicker to find the right rate, threshold, and applicable section. For TDS alone, this replaces cross-referencing 30+ separate sections.",
+          "tier": 2,
+          "subConcepts": ["tables", "compliance-efficiency"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "The Select Committee's Impact",
+      "tier": 2,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why is the Select Committee's report considered a valuable tool for interpreting the new Act?",
+          "options": [
+            { "text": "It contains the official tax rates for each section", "correct": false },
+            { "text": "It provides insight into legislative intent behind specific provisions — useful when sections are ambiguous", "correct": true },
+            { "text": "It is legally binding on all courts and tribunals", "correct": false },
+            { "text": "It replaces the need for CBDT circulars", "correct": false }
+          ],
+          "explanation": "Committee reports are a recognized tool for understanding legislative intent. When a provision's meaning is disputed, courts often look at what the Committee discussed and why changes were made. It's persuasive, not binding — but practically very useful for argumentation.",
+          "explanationWrong": "The Committee's report reveals the reasoning behind specific provisions and amendments. It's not legally binding on courts, but it is persuasive evidence of legislative intent — courts regularly reference committee reports when interpreting ambiguous provisions. It doesn't replace CBDT circulars or contain rate tables.",
+          "tier": 2,
+          "subConcepts": ["select-committee", "legislative-intent"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "The original Income Tax Bill (February 2025) was withdrawn and replaced with a revised version. Why does this matter for CAs?",
+          "options": [
+            { "text": "The February bill had different tax rates than the final Act", "correct": false },
+            { "text": "CAs who read only the original bill may be working with provisions that were changed by the Committee's 84 amendments", "correct": true },
+            { "text": "The withdrawal means the February bill is now classified information", "correct": false },
+            { "text": "It doesn't matter — both versions are identical in substance", "correct": false }
+          ],
+          "explanation": "This is a practical warning: the enacted Act is materially different from the February 2025 draft in 84 places. CAs who studied the original bill and didn't revisit the final Act may have incorrect understanding of specific provisions. Always work from the enacted text, not the draft.",
+          "explanationWrong": "The 84 substantive amendments mean the final Act differs from the February draft in meaningful ways — transition provisions, cross-references, and definitions were all affected. CAs who rely on early analyses of the original bill risk working with outdated understanding. The enacted version (post-Committee) is the only authoritative text.",
+          "tier": 2,
+          "subConcepts": ["select-committee", "bill-vs-act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "What was the stated objective of the comprehensive review announced in the Budget 2024 speech?",
+          "options": [
+            { "text": "To increase tax revenue by broadening the tax base", "correct": false },
+            { "text": "To make the Act concise, clear, and easy to understand — reducing disputes and compliance burden", "correct": true },
+            { "text": "To merge direct and indirect tax legislation", "correct": false },
+            { "text": "To eliminate all tax exemptions and deductions", "correct": false }
+          ],
+          "explanation": "The stated goals were conciseness, clarity, and ease of understanding — with the aim of reducing disputes, litigation, and compliance burden. Not revenue enhancement, not merger with GST, and not elimination of exemptions. The mandate was about form, not substance.",
+          "explanationWrong": "The review's objective was specifically about simplifying language and reducing complexity — making the law concise, clear, and easy to understand. The goal was to reduce disputes, litigation, and compliance burden. It was never about increasing revenue, merging tax codes, or removing exemptions.",
+          "tier": 2,
+          "subConcepts": ["simplification-mandate", "budget-2024"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "The Select Committee had 31 members from both houses of Parliament. Who submitted the 285 recommendations they reviewed?",
+          "options": [
+            { "text": "Only ICAI and ICSI members", "correct": false },
+            { "text": "Professional bodies, industry associations, tax practitioners, and the public", "correct": true },
+            { "text": "Only sitting Members of Parliament", "correct": false },
+            { "text": "The Income Tax Department's officers", "correct": false }
+          ],
+          "explanation": "The Committee invited memoranda from a wide range of stakeholders — ICAI, bar councils, industry bodies, individual practitioners, and the general public. This broad consultation is why the Committee process matters — the profession had a direct voice in shaping the final Act.",
+          "explanationWrong": "Recommendations came from professional bodies (like ICAI and bar councils), industry associations, individual tax practitioners, and the general public. The process was open to all stakeholders, not limited to any single group. This broad consultation produced 285 recommendations, of which 84 were accepted as substantive amendments.",
+          "tier": 2,
+          "subConcepts": ["select-committee", "stakeholder-consultation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "The new Act was passed approximately 18 months after the simplification mandate was announced. What does this timeline suggest about the nature of the exercise?",
+          "options": [
+            { "text": "It was rushed through without adequate review", "correct": false },
+            { "text": "It was a straightforward renumbering that didn't need much time", "correct": false },
+            { "text": "It was a substantial drafting effort that went through internal review, parliamentary introduction, committee examination, and revision before enactment", "correct": true },
+            { "text": "The delay was caused by political opposition to changing tax rates", "correct": false }
+          ],
+          "explanation": "The 18-month timeline (July 2024 announcement → August 2025 assent) included internal drafting, bill introduction, Select Committee review with public consultation, 84 amendments, bill withdrawal, and re-introduction. This wasn't a simple find-and-replace — it was a genuine legislative effort with multiple review stages.",
+          "explanationWrong": "The timeline reflects a thorough multi-stage process: internal review (Aug-Dec 2024), bill introduction (Feb 2025), Select Committee examination with public input (Mar-Jul 2025), and revision before final passage. It wasn't rushed (the Committee made 84 changes), and the timeline wasn't about political opposition — it was about getting the rewrite right.",
+          "tier": 2,
+          "subConcepts": ["timeline", "legislative-process"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Explaining the Change to Clients",
+      "tier": 3,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your client, a salaried individual, calls you in panic: \"I heard there's a new Income Tax Act — will my taxes go up?\" What is the most accurate response?",
+          "options": [
+            { "text": "\"Yes, the new Act has revised all tax slabs upward.\"", "correct": false },
+            { "text": "\"No — the new Act is a rewrite of the same law in simpler language. Your tax rates, deductions, and exemptions remain the same. Only the section numbers and organization have changed.\"", "correct": true },
+            { "text": "\"It depends on your income bracket — some slabs changed and some didn't.\"", "correct": false },
+            { "text": "\"Don't worry, the new Act only affects companies, not individuals.\"", "correct": false }
+          ],
+          "explanation": "This is the single most common client question CAs will face. The answer must be clear and reassuring: it's a rewrite, not a reform. Rates, slabs, deductions — all unchanged. What changed is how the law is written and organized. A CA who can explain this confidently builds trust instantly.",
+          "explanationWrong": "The correct response reassures the client that their taxes are unaffected. The new Act is a structural rewrite — same policy, clearer language. Tax slabs were not revised by this Act (they're set by the annual Finance Act). The Act applies to everyone, not just companies. Being able to explain this calmly and clearly is a key professional skill during the transition.",
+          "tier": 3,
+          "subConcepts": ["rewrite-not-reform", "client-communication"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A business owner client says: \"My accountant told me Section 194C doesn't exist anymore, so I don't need to deduct TDS on contractor payments.\" How should you respond?",
+          "options": [
+            { "text": "\"Your accountant is right — contractor TDS has been abolished.\"", "correct": false },
+            { "text": "\"The section number changed, not the obligation. TDS on contractor payments continues under Section 393, Table 1. The rates and thresholds are the same.\"", "correct": true },
+            { "text": "\"TDS on contractors is now optional under the new Act.\"", "correct": false },
+            { "text": "\"Section 194C was merged into Section 392, which covers all TDS.\"", "correct": false }
+          ],
+          "explanation": "This scenario will happen frequently — people confusing renumbering with repeal. Section 194C's provisions now live in Section 393, Table 1 (payments to residents). The TDS obligation, rate, and threshold are unchanged. 392 is salary-specific, not all TDS. A clear, specific correction builds your credibility.",
+          "explanationWrong": "Section 194C was not abolished — it was renumbered and consolidated into Section 393, Table 1 (TDS on payments to residents). The obligation, rate, and threshold remain the same. This is a dangerous misconception: if a business stops deducting TDS because they think the section \"doesn't exist,\" they'll face penalties. Section 392 covers salary only, not all TDS.",
+          "tier": 3,
+          "subConcepts": ["section-renumbering", "tds-continuity", "client-communication"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "How many sections does the new Income Tax Act, 2025 contain?",
+          "options": [
+            { "text": "819", "correct": false },
+            { "text": "298", "correct": false },
+            { "text": "536", "correct": true },
+            { "text": "622", "correct": false }
+          ],
+          "explanation": "536 sections — down from 819 in the old Act. 622 is the page count, not the section count. This number comes up frequently when explaining the scope of the rewrite to clients and colleagues.",
+          "explanationWrong": "The new Act has 536 sections. 819 was the old Act's count, 298 was the old Act's original count at inception, and 622 is the new Act's page count. Quick reference: 536 sections, 23 chapters, 16 schedules, 622 pages.",
+          "tier": 3,
+          "subConcepts": ["new-act-structure", "section-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Your senior partner, who has been practicing for 35 years, insists on continuing to cite old section numbers in opinions and certificates issued after April 1, 2026. What's the professional risk?",
+          "options": [
+            { "text": "No risk — old section numbers are still legally valid after April 1, 2026", "correct": false },
+            { "text": "Opinions and certificates citing repealed section numbers could be challenged as inaccurate, and TDS certificates with wrong section references may cause processing issues", "correct": true },
+            { "text": "The risk is only reputational — there are no legal consequences", "correct": false },
+            { "text": "Old section numbers automatically redirect to new ones, so there's no issue", "correct": false }
+          ],
+          "explanation": "After April 1, 2026, the 1961 Act stands repealed for new transactions. Citing old sections in professional documents isn't just outdated — it's incorrect. TDS certificates, opinions, and compliance documents must reference the governing law. There's no automatic redirect. This is a real conversation many juniors will need to have with seniors.",
+          "explanationWrong": "Old section numbers won't be legally valid for transactions under the new Act. Professional documents must cite the correct governing law. TDS certificates with wrong section references can cause processing issues at the CPC. There's no \"automatic redirect\" — the old Act is repealed for new transactions. The risk is both legal (incorrect citations) and reputational (appearing unprepared for the transition).",
+          "tier": 3,
+          "subConcepts": ["transition-timing", "professional-practice", "section-renumbering"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client emails you in March 2026: \"Should I rush to file my ITR before April 1 to avoid the new Act?\" What's your advice?",
+          "options": [
+            { "text": "\"Yes, file immediately — the new Act may change your tax liability.\"", "correct": false },
+            { "text": "\"Your FY 2025-26 return will be governed by the old Act regardless of when you file it. There's no need to rush — the new Act applies only from Tax Year 2026-27 onwards, and it doesn't change your tax liability anyway.\"", "correct": true },
+            { "text": "\"You can't file in March — the return period hasn't opened yet.\"", "correct": false },
+            { "text": "\"File under whichever Act gives you a lower tax liability.\"", "correct": false }
+          ],
+          "explanation": "Two reassurances here: (1) FY 2025-26 is governed by the old Act regardless of filing date, and (2) even the new Act doesn't change tax liability — it's a rewrite, not a reform. The client's panic is based on a double misconception. A good CA addresses both clearly. Note: Option C has a kernel of truth (returns for FY 2025-26 due date is July 2026), but doesn't address the actual concern.",
+          "explanationWrong": "The correct response addresses both misconceptions: the applicable Act follows the income year (FY 2025-26 = old Act), and the new Act doesn't change tax liability anyway. There's no scenario where rushing to file helps. Option C is technically relevant (the return period for FY 2025-26 opens in April 2026), but it dodges the client's real concern about the new Act.",
+          "tier": 3,
+          "subConcepts": ["effective-date", "transition-timing", "client-communication"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1"
+        }
+      ]
+    },
+    {
+      "title": "Managing the Transition",
+      "tier": 3,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "It's May 2026. You're reviewing a TDS certificate issued by a client's employer for April 2026 salary. It cites \"Section 192.\" Is this correct?",
+          "options": [
+            { "text": "Yes — Section 192 is still valid for salary TDS", "correct": false },
+            { "text": "No — April 2026 salary falls under Tax Year 2026-27, governed by the new Act. The certificate should cite Section 392.", "correct": true },
+            { "text": "No — TDS on salary has been abolished under the new Act", "correct": false },
+            { "text": "Yes — employers have a 1-year grace period to transition to new section numbers", "correct": false }
+          ],
+          "explanation": "April 2026 is the first month of Tax Year 2026-27 — fully under the new Act. Section 192 of the old Act no longer governs. The correct reference is Section 392 of the Income Tax Act, 2025. There is no grace period for using old section numbers. This will be one of the most common errors in the first few months of transition.",
+          "explanationWrong": "April 2026 falls in Tax Year 2026-27, which is governed entirely by the new Act. Section 192 is repealed for new transactions. The correct citation is Section 392. There's no grace period — from day one of April 2026, all new TDS deductions, certificates, and returns must reference the new Act's sections.",
+          "tier": 3,
+          "subConcepts": ["transition-timing", "section-renumbering", "tds-certificates"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        },
+        {
+          "order": 2,
+          "question": "A client has a pending income tax assessment for AY 2024-25 that hasn't been completed yet. It's now June 2026. Which Act governs this assessment?",
+          "options": [
+            { "text": "The new Income Tax Act, 2025 — since it's after April 1, 2026", "correct": false },
+            { "text": "The old Income Tax Act, 1961 — because the income year and proceedings relate to the pre-transition period", "correct": true },
+            { "text": "Both Acts apply simultaneously to pending assessments", "correct": false },
+            { "text": "The assessing officer chooses which Act to apply", "correct": false }
+          ],
+          "explanation": "Pending assessments for years under the old Act continue under the old Act. The transition provisions preserve continuity — you don't suddenly apply new section numbers to old-year proceedings. This is a critical practical detail: CAs will manage old-Act and new-Act proceedings simultaneously for several years.",
+          "explanationWrong": "The old Act continues to govern assessments for income years that fell under it. AY 2024-25 income was earned under the 1961 Act, and the assessment proceeds under that Act's provisions. The assessing officer doesn't get to choose. CAs will need to be fluent in both Acts simultaneously during the transition period — old-year proceedings under old sections, new-year compliance under new sections.",
+          "tier": 3,
+          "subConcepts": ["transition-timing", "pending-proceedings"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The Select Committee made 84 substantive changes to the original Income Tax Bill. Why is this relevant for CAs in practice?",
+          "options": [
+            { "text": "CAs must memorize all 84 changes", "correct": false },
+            { "text": "CAs who studied the original February 2025 bill may have incorrect understanding of specific provisions and should refer to the enacted text", "correct": true },
+            { "text": "The 84 changes only affected corporate tax provisions", "correct": false },
+            { "text": "It's only relevant for tax litigation, not compliance work", "correct": false }
+          ],
+          "explanation": "Many CAs and commentators analyzed the original February 2025 bill. But 84 substantive amendments later, the enacted Act is materially different in places. Working from early analyses without cross-checking the final Act could lead to errors in advice and compliance. Always use the enacted text as your source of truth.",
+          "explanationWrong": "The practical relevance is that early analyses (based on the February bill) may be outdated in 84 specific areas. You don't need to memorize all 84 changes, but you do need to ensure you're working from the enacted version, not the draft. The changes affected provisions across the Act, not just corporate tax, and are relevant for both compliance and litigation.",
+          "tier": 3,
+          "subConcepts": ["select-committee", "bill-vs-act", "professional-practice"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Your firm is updating its standard engagement letter template in March 2026. The current template references \"Income Tax Act, 1961\" throughout. A partner suggests just doing a find-and-replace to \"Income Tax Act, 2025.\" What's the problem with this approach?",
+          "options": [
+            { "text": "There's no problem — a simple find-and-replace is sufficient", "correct": false },
+            { "text": "The 1961 Act reference should be retained for engagements covering pre-April 2026 work, and specific section references in the template also need updating to new numbers", "correct": true },
+            { "text": "Engagement letters don't need to reference any specific Act", "correct": false },
+            { "text": "The firm should wait until 2027 to update templates", "correct": false }
+          ],
+          "explanation": "Two issues: (1) Engagements for FY 2025-26 work still reference the old Act — you can't retroactively change the governing law. (2) If the template cites specific sections (like 44AB for tax audit), those numbers changed too (44AB → Section 63). A proper update requires reviewing every section reference, not just the Act name. Most firms will need two template versions during transition.",
+          "explanationWrong": "A simple find-and-replace misses two critical points: (a) work relating to pre-April 2026 years is still governed by the 1961 Act, and (b) individual section references within the template (like Section 44AB, Section 139) also need updating to their new equivalents (Section 63, Section 263). The firm will likely need parallel templates during the transition period.",
+          "tier": 3,
+          "subConcepts": ["transition-timing", "professional-practice", "section-renumbering"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 5,
+          "question": "A junior in your firm asks: \"If the new Act doesn't change any tax rates or policies, why do we need to learn it at all?\" What's the best response?",
+          "options": [
+            { "text": "\"You're right — there's nothing new to learn, just use the old section numbers.\"", "correct": false },
+            { "text": "\"Every section number, cross-reference, and form will change. From April 2026, you'll cite new sections daily — in TDS certificates, returns, opinions, and client advice. CAs who don't relearn the map will make errors and lose credibility.\"", "correct": true },
+            { "text": "\"It's only important for senior partners; juniors can learn gradually.\"", "correct": false },
+            { "text": "\"Just bookmark a section mapping table and look things up as needed — no need to actually learn anything.\"", "correct": false }
+          ],
+          "explanation": "The substance didn't change, but the entire reference system did. CAs cite section numbers dozens of times daily — in certificates, returns, opinions, and client conversations. Using wrong section numbers after April 2026 isn't just embarrassing; it can cause processing errors and undermine professional credibility. This is exactly why Taxpost exists — to build that new muscle memory.",
+          "explanationWrong": "While the tax policy is unchanged, the entire reference framework is new. Every section number CAs use daily — in TDS certificates, returns, audit reports, and legal opinions — changes on April 1, 2026. A lookup table helps initially, but CAs who rely on it long-term will be slower and less confident than those who internalize the new numbers. Both juniors and seniors need to relearn.",
+          "tier": 3,
+          "subConcepts": ["professional-practice", "why-learn-new-act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Real-World Judgment Calls",
+      "tier": 3,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A tax journalist publishes an article in January 2026 analyzing the Income Tax Bill, 2025 as introduced in February 2025. A client forwards it to you asking if the analysis is reliable. What's your assessment?",
+          "options": [
+            { "text": "Fully reliable — the bill didn't change between introduction and enactment", "correct": false },
+            { "text": "Unreliable — all pre-2026 analysis is outdated", "correct": false },
+            { "text": "Partially reliable — the broad themes are likely correct, but specific provisions may differ due to the 84 substantive amendments made by the Select Committee", "correct": true },
+            { "text": "Reliable only if the journalist is a CA", "correct": false }
+          ],
+          "explanation": "The February bill and the enacted Act share the same structure and intent, so big-picture analysis holds. But 84 substantive changes mean specific provisions, cross-references, and transition rules may have changed. The right approach: read the analysis for context, then verify specific claims against the enacted text.",
+          "explanationWrong": "Early analyses based on the February 2025 bill are directionally correct on big themes (consolidation, simplification, renumbering) but may be wrong on specific provisions. The Select Committee made 84 substantive amendments. The professional approach is to use such articles for general understanding while always verifying specifics against the final enacted text.",
+          "tier": 3,
+          "subConcepts": ["select-committee", "bill-vs-act", "professional-judgment"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "You're conducting a tax planning session for a client in February 2026. The client asks whether they should structure a transaction differently to take advantage of the \"new Act's benefits.\" What's the fundamental issue with this question?",
+          "options": [
+            { "text": "Tax planning is not allowed under the new Act", "correct": false },
+            { "text": "The new Act doesn't offer different benefits — it's a rewrite with the same substantive provisions, so there's nothing new to \"take advantage of\"", "correct": true },
+            { "text": "The new Act only applies to companies, not individuals", "correct": false },
+            { "text": "Tax planning must be completed before January 31", "correct": false }
+          ],
+          "explanation": "The client's question assumes the new Act changes tax policy — it doesn't. Same deductions, same exemptions, same rates, different section numbers. The correct advisory is that tax planning strategies remain the same; only the section references change. A CA who understands this distinction provides better advice than one who chases phantom \"new benefits.\"",
+          "explanationWrong": "The client is operating on the common misconception that a new Act means new policy. The Income Tax Act 2025 is a rewrite — same substance, new packaging. There are no \"new benefits\" to exploit. Tax planning strategies that worked under the old Act continue to work under the new one, just with different section references. Clarifying this misconception is a key advisory responsibility.",
+          "tier": 3,
+          "subConcepts": ["rewrite-not-reform", "client-communication", "tax-planning"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "From which date does the Income Tax Act, 2025 apply?",
+          "options": [
+            { "text": "February 13, 2025", "correct": false },
+            { "text": "August 18, 2025", "correct": false },
+            { "text": "January 1, 2026", "correct": false },
+            { "text": "April 1, 2026", "correct": true }
+          ],
+          "explanation": "April 1, 2026 — the start of Tax Year 2026-27. This is the date that governs everything: which Act applies to income, which section numbers to cite, which forms to use. February 2025 was introduction, August 2025 was assent.",
+          "explanationWrong": "The effective date is April 1, 2026. February 13, 2025 is when the bill was introduced in Parliament. August 18, 2025 is when it received Presidential assent. There's a gap between assent and effectiveness to allow the ecosystem (forms, software, professionals) to prepare.",
+          "tier": 3,
+          "subConcepts": ["effective-date", "timeline"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 4,
+          "question": "Your firm handles tax compliance for 200+ clients. It's January 2026 — three months before the new Act kicks in. Which preparation step is LEAST important?",
+          "options": [
+            { "text": "Updating all document templates with new section references", "correct": false },
+            { "text": "Training staff on key section number mappings they use daily", "correct": false },
+            { "text": "Memorizing the exact dates of the Select Committee proceedings", "correct": true },
+            { "text": "Communicating to clients that their tax liability is unaffected", "correct": false }
+          ],
+          "explanation": "Templates, staff training, and client communication are all critical operational preparations. Memorizing Select Committee dates is trivia — it's the Committee's substantive amendments that matter, not when they met. In a time-constrained transition, focus on what affects daily practice.",
+          "explanationWrong": "With three months to prepare, the priority is operational readiness: updating templates with new section numbers, training staff on the mappings they'll use daily (TDS sections, return filing sections), and proactively communicating to clients that nothing changes substantively. Select Committee dates are historical context — useful for understanding the Act's development, but not a preparation priority.",
+          "tier": 3,
+          "subConcepts": ["professional-practice", "transition-preparation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Two CAs are debating at a conference in July 2026. CA-1 says: \"The new Act is just a cosmetic renumbering.\" CA-2 says: \"The new Act is a comprehensive structural overhaul that changes how provisions are organized.\" Who is closer to being right?",
+          "options": [
+            { "text": "CA-1 — it's just new numbers for the same sections", "correct": false },
+            { "text": "CA-2 — while the substance is unchanged, the elimination of 1,200 provisos, introduction of 39 tables, and reorganization into schedules goes well beyond simple renumbering", "correct": true },
+            { "text": "Both are equally right", "correct": false },
+            { "text": "Neither — the new Act also changes tax policy significantly", "correct": false }
+          ],
+          "explanation": "CA-2 is closer to the truth. Calling it \"just renumbering\" undersells the structural changes — proviso elimination, table-based presentation, schedule reorganization, and sequential numbering are genuine improvements to how practitioners interact with the law. But it's not a policy overhaul either. The most accurate description: a comprehensive structural rewrite with the same substantive law.",
+          "explanationWrong": "CA-2's characterization is more accurate. The changes go far beyond renumbering: ~1,200 provisos eliminated, ~900 explanations converted to sub-sections, 39 tables introduced, complex provisions moved to schedules, and sequential numbering adopted. These structural changes genuinely improve how CAs interact with the law daily. But CA-2 should also clarify that the substance — rates, deductions, exemptions — remains unchanged.",
+          "tier": 3,
+          "subConcepts": ["rewrite-not-reform", "structural-changes", "professional-judgment"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "10.1",
+  "title": "New Architecture — Old Section 10 → Section 11 + Schedules II–VII",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 10 Demolished — The Schedule Architecture",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 10 (140+ clauses) has been replaced by which gateway provision?",
+          "options": [
+            { "text": "Section 10 (retained)", "correct": false },
+            { "text": "Section 11", "correct": true },
+            { "text": "Section 12", "correct": false },
+            { "text": "Section 15", "correct": false }
+          ],
+          "explanation": "Section 11 is the new gateway to exempt income. It has just 5 sub-sections and points to Schedules II through VII for the actual exemptions. Old Section 10's 140+ clauses, 134 provisos, and 90 Explanations are gone.",
+          "explanationWrong": "Section 11 is correct — not Section 10. This is one of the most fundamental numbering changes in the 2025 Act. Old Section 10 (exempt income) is now Section 11. Be careful: the new Section 10 exists but covers something completely different (Portuguese Civil Code income, the old Section 5A).",
+          "tier": 1,
+          "subConcepts": ["section-11-gateway", "exempt-income-architecture", "section-10-replacement"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 2,
+          "question": "How many schedules does Section 11 reference for categorising exempt income?",
+          "options": [
+            { "text": "4 (Schedules II–V)", "correct": false },
+            { "text": "6 (Schedules II–VII)", "correct": true },
+            { "text": "7 (Schedules I–VII)", "correct": false },
+            { "text": "8 (Schedules I–VIII)", "correct": false }
+          ],
+          "explanation": "Section 11 references six schedules: II (general), III (individual/HUF), IV (non-resident), V (government/sovereign), VI (miscellaneous), and VII (exempt entities). Schedule VIII is under Section 12, not Section 11.",
+          "explanationWrong": "Six schedules — II through VII. Don't count Schedule I (that's the tax rate schedule) or Schedule VIII (that's under Section 12 for political parties, not Section 11). This is a common trap in the new Act's architecture.",
+          "tier": 1,
+          "subConcepts": ["schedule-count", "schedules-ii-vii", "section-11"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11, Schedules II–VII"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, how many sub-sections does the gateway provision for exempt income (Section 11) contain?",
+          "options": [
+            { "text": "3", "correct": false },
+            { "text": "5", "correct": true },
+            { "text": "10", "correct": false },
+            { "text": "140+", "correct": false }
+          ],
+          "explanation": "Section 11 has exactly 5 sub-sections — a gateway provision that points to schedules. This replaces old Section 10's 140+ clauses. The difference is night and day in terms of navigability.",
+          "explanationWrong": "5 sub-sections — that's it. Section 11 is a lean gateway, not a mega-list. Sub-section (1) covers general exemptions (Schedules II–VI), sub-section (2) covers exempt entities (Schedule VII), sub-sections (3)–(5) handle conditions, withdrawal of exemption, and rule-making power. If you picked 140+, that was the old Section 10.",
+          "tier": 1,
+          "subConcepts": ["section-11-structure", "five-sub-sections", "gateway-provision"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 10 had 134 provisos and 90 Explanations. How many provisos does the new schedule-based architecture under Section 11 contain?",
+          "options": [
+            { "text": "90 — only Explanations removed", "correct": false },
+            { "text": "50 — consolidated from 134", "correct": false },
+            { "text": "Zero — conditions sit in table columns", "correct": true },
+            { "text": "134 — carried forward as-is", "correct": false }
+          ],
+          "explanation": "Zero provisos. The 2025 Act eliminates every proviso from the exempt income framework. Each schedule entry is a table row with structured columns: S.No., description, conditions/limits, and applicable person. Conditions that were buried in provisos now sit in a dedicated column.",
+          "explanationWrong": "Zero. This is not a partial cleanup — every single proviso is gone. The new schedule format uses table columns for conditions and limits. For the first time, a CA can scan a schedule entry and see all applicable conditions in one row, without chasing nested provisos across pages.",
+          "tier": 1,
+          "subConcepts": ["proviso-elimination", "table-format", "structural-reform"],
+          "isReview": false,
+          "oldSection": "Section 10 (134 provisos)",
+          "newSection": "Section 11 + Schedules (zero provisos)"
+        },
+        {
+          "order": 5,
+          "question": "How many total entries exist across Schedules II through VII?",
+          "options": [
+            { "text": "100", "correct": false },
+            { "text": "120", "correct": false },
+            { "text": "140", "correct": false },
+            { "text": "138", "correct": true }
+          ],
+          "explanation": "The total is 138: Schedule II (17) + III (39) + IV (14) + V (8) + VI (12) + VII (48) = 138 entries. These replace the old 140+ clauses. Add Schedule VIII's 2 entries under Section 12, and the grand total is 140.",
+          "explanationWrong": "138 entries across Schedules II–VII. The math: 17 + 39 + 14 + 8 + 12 + 48 = 138. With Schedule VIII's 2 entries for political parties under Section 12, the overall total reaches 140 — coincidentally matching old Section 10's 140+ clauses, but now in clean tabular format.",
+          "tier": 1,
+          "subConcepts": ["schedule-entry-counts", "total-entries", "schedules-ii-vii"],
+          "isReview": false,
+          "oldSection": "Section 10 (140+ clauses)",
+          "newSection": "Schedules II–VII (138 entries)"
+        }
+      ]
+    },
+    {
+      "title": "Section 12, Schedule VIII, and the Dead Provisions",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Political party income (old Section 13A) is now governed by which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 11(1)", "correct": false },
+            { "text": "Section 12", "correct": true },
+            { "text": "Section 13A (retained)", "correct": false },
+            { "text": "Section 11(2)", "correct": false }
+          ],
+          "explanation": "Section 12 is a standalone provision for political party income, referencing Schedule VIII. This is a deliberate architectural separation — political party exemptions no longer sit alongside agricultural income and PF. The distinct compliance framework justifies a separate section.",
+          "explanationWrong": "Section 12 — carved out separately from Section 11. Old Section 13A is gone. The 2025 Act recognises that political party income has a distinct compliance framework (accounts, audit, donation receipts), so it gets its own section rather than being mixed with other exempt incomes.",
+          "tier": 1,
+          "subConcepts": ["section-12", "political-parties", "schedule-viii"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Section 12"
+        },
+        {
+          "order": 2,
+          "question": "How many entries does Schedule VIII (political parties) contain?",
+          "options": [
+            { "text": "1", "correct": false },
+            { "text": "2", "correct": true },
+            { "text": "5", "correct": false },
+            { "text": "12", "correct": false }
+          ],
+          "explanation": "Just 2 entries: registered political parties and electoral trusts. Schedule VIII is the smallest schedule in the exempt income architecture.",
+          "explanationWrong": "Two entries only — registered political parties and electoral trusts. Schedule VIII is deliberately minimal. Compare this with old Section 13A which had grown over the years with provisos about donation limits, disclosure requirements, and filing conditions — all now restructured into the table format.",
+          "tier": 1,
+          "subConcepts": ["schedule-viii", "electoral-trusts", "political-party-entries"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Section 12, Schedule VIII"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following provisions has NOT been carried forward into the 2025 Act?",
+          "options": [
+            { "text": "Section 10(1) — Agricultural income", "correct": false },
+            { "text": "Section 10B — 100% EOU profits", "correct": true },
+            { "text": "Section 10(10D) — Life insurance proceeds", "correct": false },
+            { "text": "Section 10(13A) — HRA", "correct": false }
+          ],
+          "explanation": "Section 10B (100% EOU profits) had sunset-expired and is not carried forward. Over 300 provisions including Sections 10A, 10B, 10BA, 10BB, and 10C have been eliminated — all sunset-expired or obsolete.",
+          "explanationWrong": "Section 10B — 100% EOU profits exemption had already sunset-expired. The 2025 Act simply did not re-enact it. Agricultural income, life insurance, and HRA all continue in the new schedules. The dead provisions (10A, 10B, 10BA, 10BB, 10C) were bloating the 1961 Act without serving any current purpose.",
+          "tier": 1,
+          "subConcepts": ["dead-provisions", "section-10b", "sunset-expired"],
+          "isReview": true,
+          "oldSection": "Section 10B",
+          "newSection": "Not carried forward"
+        },
+        {
+          "order": 4,
+          "question": "Which of these old provisions was eliminated because it had become obsolete (not sunset-expired)?",
+          "options": [
+            { "text": "Section 10A — Free trade zone units", "correct": false },
+            { "text": "Section 10C — Relocation to SEZ", "correct": false },
+            { "text": "Section 10BB — NABARD refinance", "correct": true },
+            { "text": "Section 10B — 100% EOU profits", "correct": false }
+          ],
+          "explanation": "Section 10BB (NABARD refinance) was eliminated as obsolete. Sections 10A, 10B, and 10C were sunset-expired. The distinction matters — obsolete means the provision lost relevance without a formal sunset clause; sunset-expired means the provision had a built-in expiry date that passed.",
+          "explanationWrong": "Section 10BB — NABARD refinance is the obsolete one. The others (10A, 10B, 10C) had formal sunset clauses that expired. Section 10BA (handicraft exports) was also sunset-expired. The 2025 Act uses the reorganization to clean out all categories of dead wood, not just sunset provisions.",
+          "tier": 1,
+          "subConcepts": ["section-10bb", "obsolete-provisions", "nabard-refinance"],
+          "isReview": false,
+          "oldSection": "Section 10BB",
+          "newSection": "Not carried forward"
+        },
+        {
+          "order": 5,
+          "question": "Under the 2025 Act citation format, how would agricultural income exemption be referenced?",
+          "options": [
+            { "text": "Section 10(1)", "correct": false },
+            { "text": "Section 11, Schedule II, S.No. 1", "correct": true },
+            { "text": "Section 11(1), Schedule III, S.No. 1", "correct": false },
+            { "text": "Section 12, Schedule II, S.No. 1", "correct": false }
+          ],
+          "explanation": "Section 11, Schedule II, S.No. 1. Agricultural income is a general exemption (available to all assessees), so it lands in Schedule II. The new citation format follows the pattern: Section 11, Schedule [X], S.No. [Y].",
+          "explanationWrong": "Section 11, Schedule II, S.No. 1 is the correct new citation. Not Section 10(1) — that's the old Act. Not Schedule III — that's for individual/HUF-specific exemptions. Not Section 12 — that's for political parties only. Every tax opinion, template, and advisory letter must switch to this new format.",
+          "tier": 1,
+          "subConcepts": ["citation-format", "agricultural-income", "schedule-ii-sno-1"],
+          "isReview": false,
+          "oldSection": "Section 10(1)",
+          "newSection": "Section 11, Schedule II, S.No. 1"
+        }
+      ]
+    },
+    {
+      "title": "Schedule Categorisation — Which Schedule, Which Assessee?",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Schedule II exemptions are available to which category of assessees?",
+          "options": [
+            { "text": "Only individuals and HUFs", "correct": false },
+            { "text": "Only non-residents", "correct": false },
+            { "text": "All assessees regardless of status or entity type", "correct": true },
+            { "text": "Only companies", "correct": false }
+          ],
+          "explanation": "Schedule II contains general exemptions — agricultural income, life insurance, PF, scholarships, gratuity — available to all assessees without restriction by residential status or entity type.",
+          "explanationWrong": "All assessees — that's the defining characteristic of Schedule II. If an exemption is restricted to individuals/HUFs, it goes to Schedule III. If restricted to non-residents, Schedule IV. Schedule II is the unrestricted, universally-available bucket.",
+          "tier": 1,
+          "subConcepts": ["schedule-ii-scope", "general-exemptions", "all-assessees"],
+          "isReview": false,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule II"
+        },
+        {
+          "order": 2,
+          "question": "Which schedule would you check for HRA exemption under the 2025 Act?",
+          "options": [
+            { "text": "Schedule II", "correct": false },
+            { "text": "Schedule III", "correct": true },
+            { "text": "Schedule IV", "correct": false },
+            { "text": "Schedule VI", "correct": false }
+          ],
+          "explanation": "HRA exemption is in Schedule III (Individual/HUF exemptions) at S.No. 11. Only individuals and HUFs can claim HRA, so it belongs in Schedule III, not the general Schedule II.",
+          "explanationWrong": "Schedule III — individual/HUF exemptions. HRA is an allowance specific to salaried individuals, so it cannot sit in Schedule II (general) or Schedule IV (non-residents). The 2025 Act's schedule categorisation forces you to think about which assessee category an exemption applies to — a useful mental model.",
+          "tier": 1,
+          "subConcepts": ["schedule-iii", "hra-location", "individual-huf-exemptions"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Schedule III, S.No. 11"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, NRE account interest exemption for a person resident outside India is found in which schedule?",
+          "options": [
+            { "text": "Schedule II", "correct": false },
+            { "text": "Schedule III", "correct": false },
+            { "text": "Schedule IV", "correct": true },
+            { "text": "Schedule V", "correct": false }
+          ],
+          "explanation": "Schedule IV covers non-resident-specific exemptions. NRE interest (old Section 10(4)(i)) is at Schedule IV, S.No. 1. The exemption applies only to persons resident outside India.",
+          "explanationWrong": "Schedule IV — non-resident exemptions. NRE interest is exclusively for non-residents, so it cannot be in Schedule II (general, all assessees) or Schedule III (individual/HUF). This is a good example of how the schedule architecture makes the assessee-scope immediately visible.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv", "nre-interest", "non-resident-exemptions"],
+          "isReview": true,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Schedule IV, S.No. 1"
+        },
+        {
+          "order": 4,
+          "question": "Which schedule has the most entries in the exempt income architecture?",
+          "options": [
+            { "text": "Schedule II (17 entries)", "correct": false },
+            { "text": "Schedule III (39 entries)", "correct": false },
+            { "text": "Schedule VII (48 entries)", "correct": true },
+            { "text": "Schedule VI (12 entries)", "correct": false }
+          ],
+          "explanation": "Schedule VII has 48 entries — the largest schedule. It covers exempt entities (entire income not chargeable to tax), replacing old Section 10(23C) and related provisions. Schedule III (39 entries) is the second largest.",
+          "explanationWrong": "Schedule VII with 48 entries. This schedule covers entity-level exemptions — universities, hospitals, educational institutions, funds, trusts. It replaced old Section 10(23C) which had become enormously complex with nested provisos. Don't confuse it with Schedule III (39 entries) which covers individual/HUF exemptions.",
+          "tier": 1,
+          "subConcepts": ["schedule-vii", "largest-schedule", "exempt-entities"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "Schedule V covers exemptions for which category?",
+          "options": [
+            { "text": "Non-residents", "correct": false },
+            { "text": "Government and sovereign bodies", "correct": true },
+            { "text": "Individual/HUF", "correct": false },
+            { "text": "Business trusts", "correct": false }
+          ],
+          "explanation": "Schedule V has 8 entries covering income of specified sovereign and international bodies — a niche but important category kept separate from other schedules.",
+          "explanationWrong": "Government and sovereign bodies — Schedule V with 8 entries. Don't confuse with Schedule IV (non-residents) or Schedule VI (miscellaneous). The schedule architecture creates clean buckets: II = general, III = individual/HUF, IV = non-resident, V = sovereign, VI = miscellaneous, VII = exempt entities.",
+          "tier": 1,
+          "subConcepts": ["schedule-v", "sovereign-exemptions", "government-bodies"],
+          "isReview": false,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule V"
+        }
+      ]
+    },
+    {
+      "title": "Section 11 vs Old Section 10 — Conceptual Shifts",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 1961 Act, Section 10 served as both the gateway and the exhaustive list of exemptions. How does the 2025 Act split these roles?",
+          "options": [
+            { "text": "Section 11 is both gateway and list, like old Section 10", "correct": false },
+            { "text": "Section 11 is the gateway; Schedules II–VII contain the list", "correct": true },
+            { "text": "Section 12 is the gateway; Section 11 contains the list", "correct": false },
+            { "text": "No gateway exists — schedules are self-contained", "correct": false }
+          ],
+          "explanation": "The 2025 Act splits the dual role: Section 11 serves purely as a gateway provision (5 sub-sections), while Schedules II–VII contain the actual exemptions in tabular format. This is a genuine architectural improvement, not just renumbering.",
+          "explanationWrong": "Gateway (Section 11) and list (Schedules II–VII) are separated. Old Section 10 was both in one — you had to read through 140+ clauses to find your exemption. Now Section 11 directs you to the relevant schedule based on assessee category, and the schedule gives you a clean table.",
+          "tier": 2,
+          "subConcepts": ["gateway-vs-list", "architectural-split", "section-11-role"],
+          "isReview": false,
+          "oldSection": "Section 10 (dual role)",
+          "newSection": "Section 11 (gateway) + Schedules (list)"
+        },
+        {
+          "order": 2,
+          "question": "What is the conceptual difference between Section 11(1) and Section 11(2)?",
+          "options": [
+            { "text": "11(1) covers residents; 11(2) covers non-residents", "correct": false },
+            { "text": "11(1) covers income-level exemptions (Schedules II–VI); 11(2) covers entity-level exemptions (Schedule VII)", "correct": true },
+            { "text": "11(1) covers individuals; 11(2) covers companies", "correct": false },
+            { "text": "11(1) is mandatory; 11(2) is optional", "correct": false }
+          ],
+          "explanation": "Section 11(1) exempts specific types of income (Schedules II–VI). Section 11(2) exempts the entire income of specified entities (Schedule VII). This is a conceptual shift — under the old Act, Section 10(23C) mixed income-level and entity-level exemptions together.",
+          "explanationWrong": "Income-level vs entity-level is the key distinction. Section 11(1) says 'this type of income is exempt.' Section 11(2) says 'this entity's total income is not chargeable to tax.' Old Section 10(23C) blurred these lines. The 2025 Act's clean separation has real interpretive consequences.",
+          "tier": 2,
+          "subConcepts": ["section-11-1-vs-11-2", "income-level-vs-entity-level", "schedule-vii-concept"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Section 11(1) and 11(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the new Section 10 covers which subject?",
+          "options": [
+            { "text": "Exempt income (same as old Section 10)", "correct": false },
+            { "text": "Portuguese Civil Code income (old Section 5A)", "correct": true },
+            { "text": "Agricultural income", "correct": false },
+            { "text": "Political party income", "correct": false }
+          ],
+          "explanation": "TRAP: New Section 10 is NOT old Section 10. It covers income of individuals governed by the Portuguese Civil Code (applicable in Goa, Daman, Diu), replacing old Section 5A. Old Section 10's exempt income is now Section 11.",
+          "explanationWrong": "Portuguese Civil Code income — the old Section 5A. This is a classic trap in the 2025 Act. If someone says 'Section 10' under the new Act, they mean the Goa/Daman/Diu community of property rules, NOT exempt income. Exempt income is now Section 11. Memorise this — it will save you from embarrassing citation errors.",
+          "tier": 2,
+          "subConcepts": ["new-section-10-trap", "portuguese-civil-code", "section-5a-replacement"],
+          "isReview": true,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        },
+        {
+          "order": 4,
+          "question": "Why is the entity-level exemption under Schedule VII considered a conceptual shift from old Section 10(23C)?",
+          "options": [
+            { "text": "Schedule VII has more entries than old Section 10(23C)", "correct": false },
+            { "text": "Old Section 10(23C) exempted specific income of entities; Schedule VII exempts the entity's total income from charge", "correct": true },
+            { "text": "Schedule VII applies to all entities; old Section 10(23C) applied to only 5", "correct": false },
+            { "text": "There is no conceptual shift — only the section number changed", "correct": false }
+          ],
+          "explanation": "Under old Section 10(23C), the exemption was framed as exempting specific categories of income of certain entities. Schedule VII under Section 11(2) declares that the entire income of specified entities is not chargeable to tax. If a Schedule VII entity earns income outside its stated purpose, the treatment may differ from old practice.",
+          "explanationWrong": "The framing changed from 'this income of this entity is exempt' to 'this entity's total income is not chargeable.' This matters when an exempt entity earns income outside its core purpose — old Section 10(23C) left room to argue only purpose-aligned income was exempt. Schedule VII's entity-level approach may be broader. Watch for CBDT circulars on this.",
+          "tier": 2,
+          "subConcepts": ["entity-level-exemption", "schedule-vii-shift", "section-10-23c-comparison"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Section 11(2), Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "Under the 2025 Act, conditions that were buried in provisos under old Section 10 are now found where?",
+          "options": [
+            { "text": "In separate CBDT notifications", "correct": false },
+            { "text": "In Explanation sections below each schedule", "correct": false },
+            { "text": "In dedicated columns within schedule table rows", "correct": true },
+            { "text": "In Section 11 sub-sections", "correct": false }
+          ],
+          "explanation": "The schedule format uses structured table columns — S.No., description, conditions/limits, and applicable person. Conditions that previously required reading through nested provisos now sit in a single table row. This is the practical payoff of the reorganization.",
+          "explanationWrong": "Dedicated columns within the table row. No more proviso-chasing. A CA can scan a schedule entry and identify all applicable conditions in one place. This is not cosmetic — it genuinely reduces the risk of missing a proviso-buried condition, which was a real problem under old Section 10.",
+          "tier": 2,
+          "subConcepts": ["table-format", "conditions-in-columns", "proviso-elimination"],
+          "isReview": false,
+          "oldSection": "Section 10 provisos",
+          "newSection": "Schedule table columns"
+        }
+      ]
+    },
+    {
+      "title": "Impact on Practice — Citations, Software, and Opinions",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A tax advisory letter currently cites 'Section 10(10D)' for life insurance exemption. Under the 2025 Act, the correct citation would be:",
+          "options": [
+            { "text": "Section 10(10D) — unchanged", "correct": false },
+            { "text": "Section 11, Schedule II, S.No. 2", "correct": true },
+            { "text": "Section 11, Schedule III, S.No. 2", "correct": false },
+            { "text": "Section 12, Schedule II, S.No. 2", "correct": false }
+          ],
+          "explanation": "Life insurance proceeds (old Section 10(10D)) are now at Schedule II, S.No. 2 — a general exemption available to all assessees. The citation format is: Section 11, Schedule [X], S.No. [Y].",
+          "explanationWrong": "Section 11, Schedule II, S.No. 2. Life insurance is a general exemption (not individual/HUF-specific), so it's Schedule II, not Schedule III. And it's under Section 11, not Section 12 (which is only for political parties). Every template, opinion letter, and ITR utility reference needs this kind of update.",
+          "tier": 2,
+          "subConcepts": ["citation-update", "life-insurance", "schedule-ii-sno-2"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Section 11, Schedule II, S.No. 2"
+        },
+        {
+          "order": 2,
+          "question": "Can a blanket find-and-replace of 'Section 10' references in tax templates correctly update all citations to the 2025 Act format?",
+          "options": [
+            { "text": "Yes — all Section 10 clauses map to Section 11", "correct": false },
+            { "text": "No — different clauses map to different schedules based on category", "correct": true },
+            { "text": "Yes — all map to Schedule II", "correct": false },
+            { "text": "No — some map to Section 12 and some to Section 11", "correct": false }
+          ],
+          "explanation": "A blanket find-and-replace will not work. Old Section 10(1) goes to Schedule II, 10(13A) to Schedule III, 10(4)(i) to Schedule IV — each clause maps to a different schedule based on its assessee category. Manual mapping is required.",
+          "explanationWrong": "No blanket replace works. Each old Section 10 clause lands in a different schedule: general exemptions in II, individual/HUF in III, non-resident in IV, sovereign in V, miscellaneous in VI, entities in VII. Plus Section 13A goes to Section 12 entirely. Every reference needs individual attention.",
+          "tier": 2,
+          "subConcepts": ["citation-migration", "no-blanket-replace", "schedule-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10 (various)",
+          "newSection": "Schedules II–VII"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, how many provisos did Section 10 contain?",
+          "options": [
+            { "text": "90", "correct": false },
+            { "text": "134", "correct": true },
+            { "text": "140", "correct": false },
+            { "text": "224", "correct": false }
+          ],
+          "explanation": "134 provisos — accumulated over six decades of amendments. The 2025 Act eliminates all of them by moving to a table-based schedule format.",
+          "explanationWrong": "134 provisos. Don't confuse with 140+ clauses or 90 Explanations — those are separate counts. Section 10 had 140+ clauses, 134 provisos, AND 90 Explanations. The new architecture eliminates all three categories of complexity.",
+          "tier": 2,
+          "subConcepts": ["proviso-count", "section-10-complexity", "134-provisos"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Section 11 + Schedules"
+        },
+        {
+          "order": 4,
+          "question": "If a Schedule VII entity earns income outside its stated purpose, how might the 2025 Act treatment differ from old Section 10(23C)?",
+          "options": [
+            { "text": "No difference — both exempt all income", "correct": false },
+            { "text": "Schedule VII's entity-level exemption may cover such income; old Section 10(23C) arguably covered only purpose-aligned income", "correct": true },
+            { "text": "Schedule VII denies all exemption if any non-purpose income exists", "correct": false },
+            { "text": "Old Section 10(23C) was broader than Schedule VII", "correct": false }
+          ],
+          "explanation": "Schedule VII declares the entity's total income not chargeable to tax — entity-level exemption. Old Section 10(23C) exempted specific categories of income, leaving room to argue non-purpose income was taxable. This is an emerging interpretation issue — monitor CBDT circulars.",
+          "explanationWrong": "Schedule VII may be broader for non-purpose income. The entity-level framing ('total income not chargeable') is different from old Section 10(23C)'s income-category framing. A university earning rental income from commercial property might get different treatment under the two approaches. This is live territory — CBDT clarification expected.",
+          "tier": 2,
+          "subConcepts": ["non-purpose-income", "entity-level-interpretation", "schedule-vii-breadth"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Section 11(2), Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "The 2025 Act uses the term 'total income not chargeable to tax' in Section 11(2) for Schedule VII entities. Under the old Act, Section 10(23C) used which framing?",
+          "options": [
+            { "text": "'Income of specified persons exempt from tax'", "correct": false },
+            { "text": "'Income shall not be included in computing total income'", "correct": true },
+            { "text": "'Total income not chargeable to tax'", "correct": false },
+            { "text": "'Entity exempt from filing returns'", "correct": false }
+          ],
+          "explanation": "Old Section 10 framing: income 'shall not be included in computing total income.' New Section 11(2): 'total income not chargeable to tax.' The new framing is entity-focused rather than income-focused — a subtle but significant shift for exempt entities.",
+          "explanationWrong": "'Shall not be included in computing total income' was the old Section 10 language. The new Act says 'total income not chargeable to tax' — which applies to the entity as a whole. The difference may seem semantic, but it affects how you treat income streams outside the entity's core purpose.",
+          "tier": 2,
+          "subConcepts": ["legislative-framing", "not-included-vs-not-chargeable", "section-11-2-language"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Section 11(2)"
+        }
+      ]
+    },
+    {
+      "title": "The Reorganization in Practice — What Didn't Change",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The PF interest taxability threshold (Rs 2.5L/5L) was introduced by which Finance Act and what happened to it in the 2025 Act?",
+          "options": [
+            { "text": "Finance Act 2025 — newly introduced", "correct": false },
+            { "text": "Finance Act 2021 — carried forward without change", "correct": true },
+            { "text": "Finance Act 2023 — revised upward", "correct": false },
+            { "text": "Finance Act 2019 — repealed by 2025 Act", "correct": false }
+          ],
+          "explanation": "Finance Act 2021 introduced the PF interest cap (Rs 2.5 lakh for private employees, Rs 5 lakh for government employees). The 2025 Act carries this forward unchanged. No further revision.",
+          "explanationWrong": "Finance Act 2021 — carried forward. Don't credit the 2025 Act for this change. The PF interest cap was one of FA 2021's significant amendments. The 2025 Act merely absorbed it into the new schedule format at Schedule II, S.No. 3–4.",
+          "tier": 2,
+          "subConcepts": ["pf-interest-cap", "fa-2021", "carried-forward"],
+          "isReview": false,
+          "oldSection": "Section 10(11), 10(12)",
+          "newSection": "Schedule II, S.No. 3–4"
+        },
+        {
+          "order": 2,
+          "question": "The life insurance maturity proceeds Rs 5 lakh premium cap was introduced by which Finance Act?",
+          "options": [
+            { "text": "Finance Act 2021", "correct": false },
+            { "text": "Finance Act 2023", "correct": true },
+            { "text": "Finance Act 2025", "correct": false },
+            { "text": "Finance Act 2020", "correct": false }
+          ],
+          "explanation": "Finance Act 2023 introduced the Rs 5 lakh aggregate annual premium cap on life insurance (above which maturity proceeds become taxable). Carried forward to Schedule II, S.No. 2 — no change by the 2025 Act.",
+          "explanationWrong": "Finance Act 2023 — not 2025. The 2025 Act inherited this cap. If a client's aggregate annual premium exceeds Rs 5 lakh, maturity proceeds are taxable regardless of which Act you're working under. The schedule format didn't change this rule one bit.",
+          "tier": 2,
+          "subConcepts": ["life-insurance-cap", "fa-2023", "rs-5-lakh-premium"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Schedule II, S.No. 2"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the Agniveer Corpus Fund exemption at Schedule II, S.No. 7 was originally introduced by which legislation?",
+          "options": [
+            { "text": "Income Tax Act, 2025", "correct": false },
+            { "text": "Finance Act 2023", "correct": true },
+            { "text": "Finance Act 2021", "correct": false },
+            { "text": "Armed Forces Act, 2024", "correct": false }
+          ],
+          "explanation": "Finance Act 2023 introduced the Agniveer Corpus Fund exemption (linked to old Section 10(12C)/80CCH). The 2025 Act carries it forward at Schedule II, S.No. 7 — no modification.",
+          "explanationWrong": "Finance Act 2023 — when the Agnipath scheme was operationalised. The 2025 Act simply re-enacted the exemption in its new schedule format. Don't attribute Agniveer's tax exemption to the 2025 Act — it predates it by two years.",
+          "tier": 2,
+          "subConcepts": ["agniveer", "fa-2023", "schedule-ii-sno-7"],
+          "isReview": true,
+          "oldSection": "Section 10(12C)/80CCH",
+          "newSection": "Schedule II, S.No. 7"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following statements about the 2025 Act's exempt income framework is accurate?",
+          "options": [
+            { "text": "The 2025 Act introduced major new exemptions alongside the reorganization", "correct": false },
+            { "text": "The change is primarily architectural — substantive exemptions are overwhelmingly carried forward", "correct": true },
+            { "text": "All exemption limits were revised upward as part of the 2025 Act", "correct": false },
+            { "text": "The 2025 Act removed several popular exemptions like HRA and LTC", "correct": false }
+          ],
+          "explanation": "The 2025 Act's exempt income reform is architectural, not substantive. Agricultural income, LTC, HRA, PF, NPS, gratuity — all continue with the same limits and conditions. Limited exceptions exist in Schedules II (UPS) and III (Rules 2026 changes).",
+          "explanationWrong": "Architectural, not substantive. This is the most important thing to tell clients: your exemptions haven't changed. The same income that was exempt under old Section 10 remains exempt — just in a different format. HRA, LTC, PF, gratuity, agricultural income — all intact. Only the citation changes.",
+          "tier": 2,
+          "subConcepts": ["architectural-change", "substance-preserved", "no-major-new-exemptions"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11 + Schedules II–VII"
+        },
+        {
+          "order": 5,
+          "question": "The equalisation levy refund exemption at Schedule II, S.No. 15 is described as a 'transitional entry.' Why?",
+          "options": [
+            { "text": "It phases out over 5 years", "correct": false },
+            { "text": "The equalisation levy was repealed by Finance Act 2025; the entry covers pending refunds only", "correct": true },
+            { "text": "It applies only during the parallel operation period", "correct": false },
+            { "text": "CBDT can withdraw it anytime", "correct": false }
+          ],
+          "explanation": "Finance Act 2025 repealed the equalisation levy. S.No. 15 exists solely to exempt any refunds of the repealed levy that assessees may still receive. Once all pending refunds are processed, this entry becomes functionally dead.",
+          "explanationWrong": "The levy itself is dead — repealed by FA 2025. S.No. 15 is just cleanup for pending refunds. It's a one-time transitional provision, not an ongoing exemption. No action needed unless a client has a pending equalisation levy refund claim.",
+          "tier": 2,
+          "subConcepts": ["equalisation-levy", "transitional-entry", "schedule-ii-sno-15"],
+          "isReview": false,
+          "oldSection": "Section 10(6D)/Equalisation Levy",
+          "newSection": "Schedule II, S.No. 15"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Template Migration and Citation Overhaul",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your firm's tax computation template has a dropdown for 'Section 10(23C) — educational institution.' Under the 2025 Act, which schedule and entry replaces this?",
+          "options": [
+            { "text": "Schedule III, S.No. 29", "correct": false },
+            { "text": "Schedule VII (entity-level exemption)", "correct": true },
+            { "text": "Schedule VI, S.No. 5", "correct": false },
+            { "text": "Schedule II, S.No. 15", "correct": false }
+          ],
+          "explanation": "Old Section 10(23C) educational institutions move to Schedule VII — entity-level exemptions. The entire income of the entity is not chargeable to tax under Section 11(2). Note: government-funded educational institutions (old 10(23C)(iiiab)) go to Schedule III, S.No. 29.",
+          "explanationWrong": "Schedule VII for most Section 10(23C) entities. But watch out — government-funded educational/medical institutions (old Section 10(23C)(iiiab)/(iiiac)) land in Schedule III, S.No. 29, not Schedule VII. This split reflects the conceptual difference: Schedule VII is for wholly exempt entities, while Schedule III, S.No. 29 is for conditional, government-funded institutions.",
+          "tier": 3,
+          "subConcepts": ["10-23c-migration", "schedule-vii-entities", "template-update"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Schedule VII / Schedule III, S.No. 29"
+        },
+        {
+          "order": 2,
+          "question": "A junior associate drafts a tax opinion citing 'Section 10, Schedule II, S.No. 1' for agricultural income exemption. What error did they make?",
+          "options": [
+            { "text": "Wrong schedule — should be Schedule III", "correct": false },
+            { "text": "Wrong section — should be Section 11, not Section 10", "correct": true },
+            { "text": "Wrong S.No. — agricultural income is S.No. 2", "correct": false },
+            { "text": "No error — the citation is correct", "correct": false }
+          ],
+          "explanation": "Section 10 in the 2025 Act covers Portuguese Civil Code income (old Section 5A), NOT exempt income. The correct citation is Section 11, Schedule II, S.No. 1. This is one of the most common errors in the transition period — citing Section 10 out of habit.",
+          "explanationWrong": "Section 10 is wrong — it should be Section 11. Under the 2025 Act, Section 10 covers Portuguese Civil Code (Goa/Daman/Diu) community property rules. Exempt income lives in Section 11. The schedule and S.No. were correct, but the section number error makes the entire citation point to the wrong provision. This is exactly the kind of muscle-memory mistake that will plague practitioners during transition.",
+          "tier": 3,
+          "subConcepts": ["section-10-vs-11-trap", "citation-error", "portuguese-civil-code"],
+          "isReview": false,
+          "oldSection": "Section 10(1)",
+          "newSection": "Section 11, Schedule II, S.No. 1"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, how many Explanations does Section 10 of the old Act have?",
+          "options": [
+            { "text": "0 — the 2025 Act removed all Explanations", "correct": false },
+            { "text": "90", "correct": true },
+            { "text": "134", "correct": false },
+            { "text": "140", "correct": false }
+          ],
+          "explanation": "Old Section 10 had 90 Explanations (along with 134 provisos and 140+ clauses). The 2025 Act's schedule format eliminates all of them — conditions now sit in table columns.",
+          "explanationWrong": "90 Explanations — separate from the 134 provisos and 140+ clauses. Three different counts, three different types of complexity. All eliminated by the 2025 Act's tabular schedule format. The numbers: 140+ clauses, 134 provisos, 90 Explanations — that's the scale of the cleanup.",
+          "tier": 3,
+          "subConcepts": ["explanation-count", "old-section-10-complexity", "90-explanations"],
+          "isReview": true,
+          "oldSection": "Section 10 (90 Explanations)",
+          "newSection": "Schedules II–VII (zero Explanations)"
+        },
+        {
+          "order": 4,
+          "question": "Priya, a CA, is updating her firm's tax software. The old dropdown listed 'Section 10(13A) — HRA' and 'Section 10(2A) — Partner's profit share.' Both are individual/HUF exemptions. Under the 2025 Act, where do these land?",
+          "options": [
+            { "text": "Both in Schedule II (general exemptions)", "correct": false },
+            { "text": "Both in Schedule III — S.No. 11 (HRA) and S.No. 2 (partner's share)", "correct": true },
+            { "text": "HRA in Schedule III, partner's share in Schedule II", "correct": false },
+            { "text": "HRA in Schedule III, partner's share in Schedule VII", "correct": false }
+          ],
+          "explanation": "Both are in Schedule III (individual/HUF exemptions). HRA is S.No. 11, and partner's share of profit is S.No. 2. The 2025 Act categorises by assessee type — both apply to individuals/HUFs, so both go to Schedule III.",
+          "explanationWrong": "Both in Schedule III. HRA (old 10(13A)) is at S.No. 11 and partner's profit share (old 10(2A)) is at S.No. 2. Neither belongs in Schedule II (that's for general exemptions available to all assessees). The categorisation logic is simple: if it's specific to individuals/HUFs, it's Schedule III.",
+          "tier": 3,
+          "subConcepts": ["schedule-iii-mapping", "hra-sno-11", "partner-profit-sno-2"],
+          "isReview": false,
+          "oldSection": "Section 10(13A), Section 10(2A)",
+          "newSection": "Schedule III, S.No. 11 and S.No. 2"
+        },
+        {
+          "order": 5,
+          "question": "Amit's client runs a charitable hospital previously exempt under Section 10(23C)(iiiae). During FY 2026-27, the hospital earns Rs 2 crore from patient fees and Rs 50 lakh from renting out a commercial wing. Under the 2025 Act's Schedule VII entity-level framing, what is the likely treatment?",
+          "options": [
+            { "text": "Only Rs 2 crore from patient fees is exempt; Rs 50 lakh rental income is taxable", "correct": false },
+            { "text": "The entire Rs 2.5 crore is potentially exempt — Schedule VII exempts the entity's total income, not specific income streams", "correct": true },
+            { "text": "Neither amount is exempt — the commercial activity disqualifies the hospital entirely", "correct": false },
+            { "text": "Rs 50 lakh is exempt up to 15% of total receipts", "correct": false }
+          ],
+          "explanation": "Schedule VII's entity-level framing declares the entity's total income not chargeable to tax. Unlike old Section 10(23C) which arguably covered only purpose-aligned income, Schedule VII's language may exempt all income including the commercial rental. This is an emerging interpretation area — monitor CBDT circulars.",
+          "explanationWrong": "Under Schedule VII, the entity's total income is not chargeable — not just its purpose-aligned income. The commercial rental of Rs 50 lakh would have been debatable under old Section 10(23C), but the 2025 Act's broader entity-level language tilts toward full exemption. That said, this is untested territory. CBDT may issue circulars distinguishing incidental commercial income from systematic commercial exploitation.",
+          "tier": 3,
+          "subConcepts": ["entity-level-exemption-scenario", "non-purpose-income", "schedule-vii-interpretation"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)(iiiae)",
+          "newSection": "Section 11(2), Schedule VII"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — The Section 10 Trap and Dead Provision Audit",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client's old tax opinion states: 'Income is exempt under Section 10 of the Income Tax Act.' Under the 2025 Act, this statement now refers to:",
+          "options": [
+            { "text": "Exempt income provisions (unchanged)", "correct": false },
+            { "text": "Portuguese Civil Code community property provisions for Goa/Daman/Diu residents", "correct": true },
+            { "text": "Agricultural income exemption", "correct": false },
+            { "text": "Political party income", "correct": false }
+          ],
+          "explanation": "New Section 10 covers Portuguese Civil Code income (old Section 5A). The old client opinion is now technically pointing to the wrong provision entirely. Exempt income is under Section 11. Every legacy opinion citing 'Section 10' needs correction.",
+          "explanationWrong": "Portuguese Civil Code — the old Section 5A about community of property rules in Goa, Daman, and Diu. Your client's opinion, if not updated, now technically claims exemption under a provision about marital property sharing in former Portuguese territories. Not exactly what they intended. This is why every legacy document must be reviewed.",
+          "tier": 3,
+          "subConcepts": ["legacy-opinion-trap", "section-10-reallocation", "citation-risk"],
+          "isReview": false,
+          "oldSection": "Section 10 / Section 5A",
+          "newSection": "Section 10 (Portuguese Civil Code) / Section 11 (exempt income)"
+        },
+        {
+          "order": 2,
+          "question": "Rakesh, a CA, is advising a 100% EOU (Export Oriented Unit) client who claims ongoing tax exemption. Under the 2025 Act, what should Rakesh communicate?",
+          "options": [
+            { "text": "The exemption continues under Schedule VI", "correct": false },
+            { "text": "Old Section 10B is not carried forward — the provision had sunset-expired and the 2025 Act does not re-enact it", "correct": true },
+            { "text": "The exemption continues under Schedule VII as an entity-level exemption", "correct": false },
+            { "text": "CBDT will issue a notification to extend the exemption", "correct": false }
+          ],
+          "explanation": "Section 10B (100% EOU profits) had sunset-expired before the 2025 Act. It is among 300+ provisions not carried forward. Rakesh must inform the client that no exemption exists under the new Act — the client needs to restructure tax planning.",
+          "explanationWrong": "Not carried forward. The EOU exemption under old Section 10B expired years ago — the 2025 Act simply formalised its death by not re-enacting it. If the client was still claiming it under some transitional provision, that window is now definitively closed. Time for a fresh tax planning conversation.",
+          "tier": 3,
+          "subConcepts": ["eou-exemption-death", "section-10b-sunset", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 10B",
+          "newSection": "Not carried forward"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is the correct schedule entry count for Schedule III (Individual/HUF)?",
+          "options": [
+            { "text": "17 entries", "correct": false },
+            { "text": "39 entries", "correct": true },
+            { "text": "48 entries", "correct": false },
+            { "text": "14 entries", "correct": false }
+          ],
+          "explanation": "Schedule III has 39 entries — the second largest schedule after Schedule VII (48). Schedule II has 17, and Schedule IV has 14.",
+          "explanationWrong": "39 entries. The full count: II (17), III (39), IV (14), V (8), VI (12), VII (48), VIII (2). Schedule III's 39 entries cover everything from HUF member's share to HRA, LTC, leave encashment, pensions, special allowances, and institutional entities like trade unions and research associations.",
+          "tier": 3,
+          "subConcepts": ["schedule-iii-count", "entry-counts", "39-entries"],
+          "isReview": true,
+          "oldSection": "Section 10 (various individual/HUF clauses)",
+          "newSection": "Schedule III (39 entries)"
+        },
+        {
+          "order": 4,
+          "question": "Sunita is preparing a Form 10F for a non-resident client claiming NRE interest exemption. She cites 'Section 10(4)(i).' What problem will this create?",
+          "options": [
+            { "text": "No problem — old citation is still valid during the transition", "correct": false },
+            { "text": "The citation references a non-existent provision; the correct reference is Section 11, Schedule IV, S.No. 1", "correct": true },
+            { "text": "Section 10(4)(i) now refers to a different exemption", "correct": false },
+            { "text": "The NRE interest exemption was removed by the 2025 Act", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, Section 10 covers Portuguese Civil Code, not exempt income. Old Section 10(4)(i) doesn't exist. The correct citation for NRE interest is Section 11, Schedule IV, S.No. 1. For Form 10F filed from 1 April 2026, the old citation is incorrect.",
+          "explanationWrong": "Section 10(4)(i) is a ghost provision — it doesn't exist in the 2025 Act. NRE interest exemption is alive and well, but at Section 11, Schedule IV, S.No. 1. If Sunita files Form 10F with the old citation, it references a provision about Portuguese Civil Code community property. The exemption claim would need correction.",
+          "tier": 3,
+          "subConcepts": ["form-10f-citation", "nre-interest-migration", "schedule-iv-sno-1"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Section 11, Schedule IV, S.No. 1"
+        },
+        {
+          "order": 5,
+          "question": "A large CA firm is auditing its template library. They find 47 templates referencing various Section 10 clauses. What is the minimum number of different schedules they need to map these references to?",
+          "options": [
+            { "text": "1 — all go to Section 11", "correct": false },
+            { "text": "2 — Schedule II and Schedule III only", "correct": false },
+            { "text": "Up to 7 — Schedules II through VIII, depending on which clauses the templates reference", "correct": true },
+            { "text": "6 — Schedules II through VII", "correct": false }
+          ],
+          "explanation": "Up to 7 schedules. Schedules II–VII are under Section 11 for general exempt income. If any template references old Section 13A (political party income), that maps to Section 12 + Schedule VIII. The firm needs to individually map each old Section 10 clause to its new schedule location.",
+          "explanationWrong": "Up to 7 schedules. Most Section 10 clauses map to Schedules II–VI (under Section 11). Entity exemptions go to Schedule VII. And if any template covers political party income (old Section 13A), that's Schedule VIII under Section 12. You can't assume everything lands in one or two schedules — the whole point of the reorganization is categorisation.",
+          "tier": 3,
+          "subConcepts": ["template-audit", "multi-schedule-mapping", "section-13a-to-schedule-viii"],
+          "isReview": false,
+          "oldSection": "Section 10 / Section 13A",
+          "newSection": "Schedules II–VIII"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Real-World Architecture Challenges",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mehul, a senior partner, tells his team: 'Just update Section 10 references to Section 11 — the rest is the same.' Why is this instruction dangerously incomplete?",
+          "options": [
+            { "text": "Section 11 uses different language for the exemption formula", "correct": false },
+            { "text": "Each old Section 10 clause maps to a specific schedule and S.No. — changing just '10' to '11' without specifying the schedule reference creates incomplete citations", "correct": true },
+            { "text": "Section 11 only covers individuals, not companies", "correct": false },
+            { "text": "The instruction is actually correct and sufficient", "correct": false }
+          ],
+          "explanation": "A citation like 'Section 11' without the schedule and S.No. is meaningless — Section 11 is just a gateway. The correct citation must include the specific schedule (II–VII) and the S.No. within that schedule. Mehul's shortcut will produce incomplete, unusable citations.",
+          "explanationWrong": "Dangerously incomplete because the schedule and S.No. are essential. 'Section 11' alone tells you nothing — it's like saying 'the Companies Act' without specifying the section. Each old Section 10 clause maps to a specific Schedule (II through VII) and a specific S.No. within that schedule. Mehul needs a full mapping table, not a find-and-replace instruction.",
+          "tier": 3,
+          "subConcepts": ["incomplete-citation-risk", "schedule-specificity", "partner-instruction-error"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11 + Schedule [X], S.No. [Y]"
+        },
+        {
+          "order": 2,
+          "question": "Kavita discovers that her firm's ITR utility still uses 'Section 10(23C)' for a university client. She needs to update it. But old Section 10(23C) doesn't map to a single schedule — why not?",
+          "options": [
+            { "text": "Some 10(23C) entities go to Schedule VII (entity-level), while government-funded institutions go to Schedule III, S.No. 29", "correct": true },
+            { "text": "Section 10(23C) was repealed entirely with no replacement", "correct": false },
+            { "text": "All 10(23C) entities go to Schedule VII — there's only one mapping", "correct": false },
+            { "text": "Section 10(23C) maps to Section 12, not Section 11", "correct": false }
+          ],
+          "explanation": "Old Section 10(23C) splits in the 2025 Act. Most entities (universities, hospitals, etc.) go to Schedule VII (entity-level exemption). But government-funded educational/medical institutions — old 10(23C)(iiiab)/(iiiac) — go to Schedule III, S.No. 29 as conditional exemptions. Kavita needs to check which specific sub-clause applied to her university client.",
+          "explanationWrong": "The split is the key insight. Old Section 10(23C) was a catch-all for institutional exemptions. The 2025 Act disaggregates it: wholly exempt entities go to Schedule VII; government-funded institutions with conditional exemptions go to Schedule III, S.No. 29. Kavita must verify whether her university was under 10(23C)(iiiad) (Schedule VII) or 10(23C)(iiiab) (Schedule III).",
+          "tier": 3,
+          "subConcepts": ["10-23c-split", "schedule-vii-vs-iii", "university-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Schedule VII / Schedule III, S.No. 29"
+        },
+        {
+          "order": 3,
+          "question": "A research association was exempt under old Section 10(21). Under the 2025 Act, where does this exemption sit?",
+          "options": [
+            { "text": "Schedule VII (entity-level exemption)", "correct": false },
+            { "text": "Schedule III, S.No. 23", "correct": true },
+            { "text": "Schedule II, S.No. 11", "correct": false },
+            { "text": "Schedule VI, S.No. 8", "correct": false }
+          ],
+          "explanation": "Research associations (old Section 10(21)) land in Schedule III at S.No. 23. Despite being institutional, they're in Schedule III because their exemption is conditional and they are not wholly exempt entities like those in Schedule VII.",
+          "explanationWrong": "Schedule III, S.No. 23. This trips people up — you'd expect institutional exemptions to be in Schedule VII. But research associations have conditional exemptions tied to their approved research activities. Schedule VII is for entities whose total income is not chargeable at all. The distinction matters for how non-research income is treated.",
+          "tier": 3,
+          "subConcepts": ["research-association", "schedule-iii-sno-23", "conditional-vs-entity-exemption"],
+          "isReview": true,
+          "oldSection": "Section 10(21)",
+          "newSection": "Schedule III, S.No. 23"
+        },
+        {
+          "order": 4,
+          "question": "Deepak, a tax consultant in Goa, has a client governed by the Portuguese Civil Code. The client asks about their 'Section 10 exemption.' Under the 2025 Act, which two entirely different provisions does 'Section 10' refer to depending on which Act they're discussing?",
+          "options": [
+            { "text": "Old Act: exempt income; New Act: Portuguese Civil Code community property", "correct": true },
+            { "text": "Old Act: Portuguese Civil Code; New Act: exempt income", "correct": false },
+            { "text": "Both Acts: exempt income (same provision)", "correct": false },
+            { "text": "Old Act: residential status; New Act: Portuguese Civil Code", "correct": false }
+          ],
+          "explanation": "Under the old Act, Section 10 = exempt income. Under the 2025 Act, Section 10 = Portuguese Civil Code income (old Section 5A). Deepak's Goa client might legitimately reference both meanings — exempt income under the old Act and Portuguese Civil Code under the new Act. Context is everything.",
+          "explanationWrong": "Old Act Section 10 = exempt income. New Act Section 10 = Portuguese Civil Code (old Section 5A). Deepak faces a unique problem in Goa — his clients may need both provisions: exempt income (now Section 11) and Portuguese Civil Code community property (now Section 10). He must be precise about which Act and which section he's referencing in every conversation.",
+          "tier": 3,
+          "subConcepts": ["dual-section-10-meaning", "goa-practitioner", "context-sensitivity"],
+          "isReview": false,
+          "oldSection": "Section 10 (exempt income) / Section 5A (Portuguese Civil Code)",
+          "newSection": "Section 11 (exempt income) / Section 10 (Portuguese Civil Code)"
+        },
+        {
+          "order": 5,
+          "question": "A CA firm is building a migration checklist for the 2025 Act transition. They list: (1) update Section 10 citations, (2) remove dead provisions, (3) remap entity exemptions. What critical fourth item are they missing?",
+          "options": [
+            { "text": "Update TDS rates", "correct": false },
+            { "text": "Separate Section 13A references into Section 12 + Schedule VIII citations", "correct": true },
+            { "text": "File revised returns under old Act", "correct": false },
+            { "text": "Register all clients under the new Act", "correct": false }
+          ],
+          "explanation": "Section 13A (political parties) doesn't map to Section 11 — it maps to Section 12 + Schedule VIII. This is a separate provision outside the Section 11 framework. A checklist that only covers Section 10 → Section 11 migration will miss this entirely. Any template or opinion referencing Section 13A needs separate treatment.",
+          "explanationWrong": "Section 13A → Section 12 + Schedule VIII. This is easy to miss because everyone focuses on the Section 10 → Section 11 migration. But Section 13A was a standalone provision for political parties, and it maps to a different section (12, not 11) with its own schedule (VIII). If the firm handles any political party clients or electoral trust work, this is a critical gap.",
+          "tier": 3,
+          "subConcepts": ["migration-checklist", "section-13a-oversight", "section-12-separation"],
+          "isReview": false,
+          "oldSection": "Section 13A",
+          "newSection": "Section 12, Schedule VIII"
+        }
+      ]
+    }
+  ]
+}

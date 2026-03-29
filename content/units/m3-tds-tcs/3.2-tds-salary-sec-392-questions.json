@@ -1,0 +1,835 @@
+{
+  "unit": "3.2",
+  "title": "TDS on Salary — Section 392",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 392(1) — Salary TDS at Average Rate",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 192(1) for TDS on salary at the time of payment maps to which new section?",
+          "options": [
+            { "text": "Section 393(1)", "correct": false },
+            { "text": "Section 392(1)", "correct": true },
+            { "text": "Section 394(1)", "correct": false },
+            { "text": "Section 391(1)", "correct": false }
+          ],
+          "explanation": "Old Section 192(1) — the primary salary TDS provision requiring deduction at the average rate of income-tax — maps directly to Section 392(1) of the new Act.",
+          "explanationWrong": "Section 392(1) replaces old 192(1). Section 393 is for non-salary TDS, Section 394 is for TCS, and Section 391 is the charging provision.",
+          "tier": 1,
+          "subConcepts": ["section-192-1-mapping", "salary-tds", "average-rate"],
+          "isReview": false,
+          "oldSection": "Section 192(1)",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 392(1), at what rate must an employer deduct TDS on salary?",
+          "options": [
+            { "text": "A flat 10% rate", "correct": false },
+            { "text": "The average rate of income-tax computed on the estimated total income", "correct": true },
+            { "text": "The maximum marginal rate of 30%", "correct": false },
+            { "text": "The rate specified in Table 1 of Section 393", "correct": false }
+          ],
+          "explanation": "Section 392(1) requires TDS on salary at the average rate of income-tax. This is identical to old Section 192(1) — the employer estimates total salary income and computes TDS at the average rate applicable to the employee.",
+          "explanationWrong": "The average rate of income-tax applies, not a flat rate. The employer estimates the employee's total salary for the year, computes tax on it, and deducts proportionally each month.",
+          "tier": 1,
+          "subConcepts": ["average-rate-tds", "salary-estimation"],
+          "isReview": false,
+          "oldSection": "Section 192(1)",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 3,
+          "question": "In the new TDS architecture (Unit 3.1), how many main sections replace 30+ old TDS/TCS sections?",
+          "options": [
+            { "text": "1 section", "correct": false },
+            { "text": "3 sections (392, 393, 394)", "correct": true },
+            { "text": "5 sections", "correct": false },
+            { "text": "10 sections", "correct": false }
+          ],
+          "explanation": "Three sections — 392 (salary), 393 (non-salary TDS), and 394 (TCS) — replace over 30 individual sections from the old Act.",
+          "explanationWrong": "3 sections form the new core. This was covered in Unit 3.1 on the new TDS architecture.",
+          "tier": 1,
+          "subConcepts": ["tds-architecture", "consolidation"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Sections 392, 393, 394"
+        },
+        {
+          "order": 4,
+          "question": "An employer pays a monthly salary of Rs 1,50,000. Total estimated annual salary is Rs 18,00,000. Under Section 392(1), how should TDS be calculated?",
+          "options": [
+            { "text": "Deduct 10% flat on each monthly payment", "correct": false },
+            { "text": "Compute tax on Rs 18,00,000 under the applicable regime, then deduct 1/12th each month", "correct": true },
+            { "text": "Deduct TDS only on salary exceeding the basic exemption limit", "correct": false },
+            { "text": "Apply the table rates from Section 393", "correct": false }
+          ],
+          "explanation": "The employer computes total tax on the estimated annual salary of Rs 18,00,000 under the applicable tax regime (new regime by default), then deducts 1/12th of that tax from each monthly salary payment.",
+          "explanationWrong": "The average rate method means: compute full-year tax, divide by 12 months. This ensures even monthly deductions. Section 393 tables do not apply to salary — Section 392 has its own mechanism.",
+          "tier": 1,
+          "subConcepts": ["monthly-tds-computation", "average-rate-method"],
+          "isReview": false,
+          "oldSection": "Section 192(1)",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 5,
+          "question": "What is the key similarity between old Section 192(1) and new Section 392(1)?",
+          "options": [
+            { "text": "Both use flat TDS rates from a schedule", "correct": false },
+            { "text": "The substantive obligation is identical — TDS at average rate on salary", "correct": true },
+            { "text": "Both apply only to government employees", "correct": false },
+            { "text": "Both require quarterly payment to the government", "correct": false }
+          ],
+          "explanation": "Section 392(1) is a direct carry-forward of old 192(1). The obligation — deduct TDS on salary at the average rate of income-tax — is substantively unchanged. Only the section number has changed.",
+          "explanationWrong": "The substance is identical. The new Act's Section 392(1) replicates the old 192(1) obligation without any change in the TDS mechanism for salary.",
+          "tier": 1,
+          "subConcepts": ["no-substantive-change", "section-renumbering"],
+          "isReview": false,
+          "oldSection": "Section 192(1)",
+          "newSection": "Section 392(1)"
+        }
+      ]
+    },
+    {
+      "title": "Section 392(2)–(3) — Perquisite Tax and Startup Shares",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 192(1A), which allowed employers to pay tax on non-monetary perquisites on behalf of employees, maps to which new sub-section?",
+          "options": [
+            { "text": "Section 392(1)", "correct": false },
+            { "text": "Section 392(2)", "correct": true },
+            { "text": "Section 392(3)", "correct": false },
+            { "text": "Section 393(1)", "correct": false }
+          ],
+          "explanation": "Old Section 192(1A) for employer-paid tax on perquisites maps to Section 392(2) of the new Act. This allows employers to bear the tax on non-monetary benefits provided to employees.",
+          "explanationWrong": "Section 392(2) replaces old 192(1A). Section 392(1) is for basic salary TDS, and 392(3) is for startup ESOP shares.",
+          "tier": 1,
+          "subConcepts": ["section-192-1a-mapping", "perquisite-tax", "employer-paid-tax"],
+          "isReview": false,
+          "oldSection": "Section 192(1A)",
+          "newSection": "Section 392(2)"
+        },
+        {
+          "order": 2,
+          "question": "Section 392(3) of the new Act deals with deferred TDS on shares allotted by eligible startups. Which old section did this replace?",
+          "options": [
+            { "text": "Section 192(1)", "correct": false },
+            { "text": "Section 192(1A)", "correct": false },
+            { "text": "Section 192(1C)", "correct": true },
+            { "text": "Section 194", "correct": false }
+          ],
+          "explanation": "Old Section 192(1C) provided for deferred TDS on ESOP shares allotted by eligible startups. This maps to Section 392(3) in the new Act.",
+          "explanationWrong": "Section 192(1C) maps to 392(3). The startup ESOP TDS deferral provision is retained with the same substance — only the section number changes.",
+          "tier": 1,
+          "subConcepts": ["section-192-1c-mapping", "startup-esop", "deferred-tds"],
+          "isReview": false,
+          "oldSection": "Section 192(1C)",
+          "newSection": "Section 392(3)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, which of the following old provisions has been OMITTED from the new Act rather than consolidated?",
+          "options": [
+            { "text": "Section 192 (salary TDS)", "correct": false },
+            { "text": "Section 206AB (higher TDS for non-filers)", "correct": true },
+            { "text": "Section 194C (contractor TDS)", "correct": false },
+            { "text": "Section 195 (non-resident TDS)", "correct": false }
+          ],
+          "explanation": "Section 206AB for higher TDS on non-filers was omitted from the new Act. It was not consolidated — it was dropped entirely as impractical.",
+          "explanationWrong": "206AB was omitted. Sections 192, 194C, and 195 were all consolidated into the new framework (392 and 393 respectively). Only 206AB and 206CCA were dropped.",
+          "tier": 1,
+          "subConcepts": ["206ab-omitted", "omission-vs-consolidation"],
+          "isReview": true,
+          "oldSection": "Section 206AB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "An eligible startup allots ESOP shares to an employee worth Rs 10 lakh. Under Section 392(3), when must TDS be deducted?",
+          "options": [
+            { "text": "Immediately upon allotment of shares", "correct": false },
+            { "text": "On a deferred basis — at the earliest of sale, cessation of employment, or 5 years from allotment", "correct": true },
+            { "text": "At the end of the financial year of allotment", "correct": false },
+            { "text": "When the employee files the return of income", "correct": false }
+          ],
+          "explanation": "Section 392(3) continues the deferred TDS mechanism for startup ESOPs. TDS is deferred to the earliest of: (a) sale of shares, (b) ceasing employment, or (c) 5 years from allotment — identical to old Section 192(1C).",
+          "explanationWrong": "Deferred TDS applies. The three trigger events (sale, cessation, 5-year expiry) remain unchanged from the old Act's 192(1C). This deferral helps cash-strapped startup employees.",
+          "tier": 1,
+          "subConcepts": ["esop-deferred-tds", "trigger-events", "startup-relief"],
+          "isReview": false,
+          "oldSection": "Section 192(1C)",
+          "newSection": "Section 392(3)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 392(2), if an employer provides a car as a perquisite and opts to pay the tax on behalf of the employee, what is the effect on the employee's salary income?",
+          "options": [
+            { "text": "The perquisite value is excluded from salary income", "correct": false },
+            { "text": "The tax paid by the employer is also treated as a perquisite, creating a gross-up", "correct": true },
+            { "text": "The employee gets a refund of the tax paid", "correct": false },
+            { "text": "No effect — employer-paid tax is a deductible expense for the employer only", "correct": false }
+          ],
+          "explanation": "When the employer pays tax on perquisites under Section 392(2), the tax amount itself becomes an additional perquisite (gross-up). This is the same treatment as under old Section 192(1A).",
+          "explanationWrong": "Gross-up applies. The employer-paid tax is itself a benefit to the employee and gets added to the perquisite value. This creates a cascading effect that must be computed correctly.",
+          "tier": 1,
+          "subConcepts": ["gross-up-effect", "employer-perquisite-tax"],
+          "isReview": false,
+          "oldSection": "Section 192(1A)",
+          "newSection": "Section 392(2)"
+        }
+      ]
+    },
+    {
+      "title": "Section 392(4)–(5) — Adjustments and Perquisite Statements",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 392(4) of the new Act allows adjustments to salary TDS. Which old Act provision for rebate under Section 87A is now replaced by which new section?",
+          "options": [
+            { "text": "Section 155", "correct": false },
+            { "text": "Section 157", "correct": true },
+            { "text": "Section 160", "correct": false },
+            { "text": "Section 87A continues unchanged", "correct": false }
+          ],
+          "explanation": "Old Section 87A (rebate for individuals) is replaced by Section 157 in the new Act. When computing salary TDS under Section 392(4), the employer must factor in the rebate under Section 157 instead of 87A.",
+          "explanationWrong": "Section 157 replaces Section 87A. This is a key mapping to remember for salary TDS computation — the rebate reference changes even though the amount/eligibility may remain similar.",
+          "tier": 1,
+          "subConcepts": ["section-87a-mapping", "section-157", "rebate-adjustment"],
+          "isReview": false,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 2,
+          "question": "Section 392(5) requires the employer to provide which document to the employee regarding perquisites?",
+          "options": [
+            { "text": "Form 16", "correct": false },
+            { "text": "A perquisite statement detailing the value of each perquisite provided", "correct": true },
+            { "text": "Form 12BA only", "correct": false },
+            { "text": "No separate document is required", "correct": false }
+          ],
+          "explanation": "Section 392(5) mandates a perquisite statement from the employer, detailing each perquisite and its value. This is a disclosure requirement to ensure transparency in salary TDS computation.",
+          "explanationWrong": "A perquisite statement is required. While Form 16 is the TDS certificate and Form 12BA is related, Section 392(5) specifically requires a statement of perquisites.",
+          "tier": 1,
+          "subConcepts": ["perquisite-statement", "employer-disclosure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 392(5)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, which section in the new Act provides for a lower/nil TDS deduction certificate (replacing old Section 197)?",
+          "options": [
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 395", "correct": true },
+            { "text": "Section 397", "correct": false },
+            { "text": "Section 399", "correct": false }
+          ],
+          "explanation": "Section 395 replaces old Section 197 for lower/nil TDS certificates. This was covered in Unit 3.1 on the new TDS architecture.",
+          "explanationWrong": "Section 395 is correct. Section 397 is for higher rates when PAN is not furnished — a different concept from the lower deduction certificate.",
+          "tier": 1,
+          "subConcepts": ["section-395", "lower-tds-certificate"],
+          "isReview": true,
+          "oldSection": "Section 197",
+          "newSection": "Section 395"
+        },
+        {
+          "order": 4,
+          "question": "An employee claims a home loan interest deduction of Rs 2 lakh while computing salary TDS. Under Section 392(4), how should the employer handle this?",
+          "options": [
+            { "text": "Ignore it — only salary income matters for TDS", "correct": false },
+            { "text": "Adjust the estimated total income by considering the loss from house property, then compute TDS at the reduced average rate", "correct": true },
+            { "text": "Deduct TDS at full rate and let the employee claim refund", "correct": false },
+            { "text": "Apply a flat 10% on the interest amount", "correct": false }
+          ],
+          "explanation": "Section 392(4) allows employers to adjust TDS computation for deductions and losses declared by the employee, including loss from house property. The employer reduces estimated total income and recalculates the average rate.",
+          "explanationWrong": "The employer must adjust. Section 392(4) specifically permits considering other income, deductions, and losses that the employee declares, reducing the effective TDS burden.",
+          "tier": 1,
+          "subConcepts": ["tds-adjustments", "house-property-loss", "average-rate-recalculation"],
+          "isReview": false,
+          "oldSection": "Section 192(2B)",
+          "newSection": "Section 392(4)"
+        },
+        {
+          "order": 5,
+          "question": "Under the new Act, where are the rules for valuation of perquisites (like car, rent-free accommodation) located?",
+          "options": [
+            { "text": "In Section 392 itself", "correct": false },
+            { "text": "In the Income-tax Rules, not in the Act", "correct": true },
+            { "text": "In Section 393, Table 1", "correct": false },
+            { "text": "In a separate Schedule to the Act", "correct": false }
+          ],
+          "explanation": "Perquisite valuation rules remain in the Income-tax Rules, not in the Act. The Act (Section 392) provides the TDS obligation, but the detailed valuation methodology for each type of perquisite is prescribed in the Rules.",
+          "explanationWrong": "The Rules contain perquisite valuation. This is unchanged from the old Act — the Act prescribes the obligation, the Rules prescribe the computation methodology.",
+          "tier": 1,
+          "subConcepts": ["perquisite-valuation", "rules-not-act"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rules (not in Act)"
+        }
+      ]
+    },
+    {
+      "title": "New Tax Regime and Salary TDS",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new Act, which tax regime is the default for computing salary TDS?",
+          "options": [
+            { "text": "Old regime (with deductions under Chapter VI-A)", "correct": false },
+            { "text": "New regime under Section 202", "correct": true },
+            { "text": "The employer can choose whichever regime results in lower TDS", "correct": false },
+            { "text": "Both regimes apply simultaneously", "correct": false }
+          ],
+          "explanation": "Section 202 (the new tax regime, replacing old Section 115BAC) is the default regime. Unless the employee specifically opts for the old regime, the employer must compute salary TDS under the new regime's rates and rules.",
+          "explanationWrong": "Section 202 (new regime) is the default. The employee must actively opt out to use the old regime. The employer cannot choose — it is driven by the employee's election.",
+          "tier": 2,
+          "subConcepts": ["section-202", "default-regime", "new-tax-regime"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "If an employee does not communicate any regime preference to the employer, which regime must the employer use for Section 392(1) TDS computation?",
+          "options": [
+            { "text": "Old regime with full deductions", "correct": false },
+            { "text": "New regime under Section 202", "correct": true },
+            { "text": "Maximum marginal rate", "correct": false },
+            { "text": "The employer must compulsorily ask the employee", "correct": false }
+          ],
+          "explanation": "In the absence of an explicit opt-out, the new regime (Section 202) applies by default. The employer computes TDS at the new regime rates without allowing old-regime deductions like Section 80C.",
+          "explanationWrong": "New regime (Section 202) is the default. The burden is on the employee to opt out. If no communication is received, the employer proceeds with new regime computation.",
+          "tier": 2,
+          "subConcepts": ["default-new-regime", "employee-opt-out"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, Section 192(1A) allowed employer-paid perquisite tax. In the new Act, which sub-section continues this?",
+          "options": [
+            { "text": "Section 392(1)", "correct": false },
+            { "text": "Section 392(2)", "correct": true },
+            { "text": "Section 392(4)", "correct": false },
+            { "text": "Section 393(2)", "correct": false }
+          ],
+          "explanation": "Section 392(2) continues the employer-paid perquisite tax facility from old Section 192(1A). This is a review of the mapping covered earlier in this unit.",
+          "explanationWrong": "Section 392(2) is correct. This maps directly from old 192(1A). Section 392(1) is for basic salary TDS, and 392(4) is for adjustments.",
+          "tier": 2,
+          "subConcepts": ["section-392-2", "perquisite-tax-mapping"],
+          "isReview": true,
+          "oldSection": "Section 192(1A)",
+          "newSection": "Section 392(2)"
+        },
+        {
+          "order": 4,
+          "question": "An employee under the new regime (Section 202) claims HRA exemption while filing Form 12BB with the employer. How should the employer handle this for Section 392 TDS?",
+          "options": [
+            { "text": "Allow the HRA exemption since the employee has documentary proof", "correct": false },
+            { "text": "Disallow it — HRA exemption is not available under the new regime (Section 202)", "correct": true },
+            { "text": "Allow 50% of the HRA exemption as a transition relief", "correct": false },
+            { "text": "Allow it and let the AO decide during assessment", "correct": false }
+          ],
+          "explanation": "Under the new regime (Section 202), most exemptions including HRA are not available. The employer must disallow this claim for TDS computation. The employee would need to opt for the old regime to claim HRA.",
+          "explanationWrong": "HRA exemption is not available under Section 202 (new regime). The employer must compute TDS without this exemption. If the employee wants HRA relief, they must opt out of the new regime.",
+          "tier": 2,
+          "subConcepts": ["hra-new-regime", "section-202-restrictions", "employer-responsibility"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 5,
+          "question": "What is the practical impact on payroll teams of the change from old Section 192 to new Section 392?",
+          "options": [
+            { "text": "Complete overhaul of TDS computation logic", "correct": false },
+            { "text": "Minimal — same computation, different section reference in challans and returns", "correct": true },
+            { "text": "New monthly TDS rates replace the average rate method", "correct": false },
+            { "text": "TDS on salary is now optional", "correct": false }
+          ],
+          "explanation": "The change is primarily a renumbering exercise for payroll. The computation method (average rate), the perquisite rules, the adjustment mechanism — all remain the same. Only the section reference in challans, returns, and Form 16 changes.",
+          "explanationWrong": "Minimal impact on computation. The payroll system needs to update section references (192 → 392) in forms and returns, but the actual TDS calculation logic is unchanged.",
+          "tier": 2,
+          "subConcepts": ["payroll-impact", "section-renumbering", "practical-transition"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        }
+      ]
+    },
+    {
+      "title": "RPF, EPF, and Foreign Currency",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 392(6) and 392(7) of the new Act deal with TDS on which types of contributions?",
+          "options": [
+            { "text": "PPF and NSC", "correct": false },
+            { "text": "RPF (Recognised Provident Fund) and EPF (Employees' Provident Fund)", "correct": true },
+            { "text": "NPS and superannuation fund", "correct": false },
+            { "text": "Gratuity and leave encashment", "correct": false }
+          ],
+          "explanation": "Sections 392(6) and 392(7) specifically cover TDS provisions for RPF (Recognised Provident Fund) and EPF (Employees' Provident Fund) withdrawals, continuing the treatment from the old Act.",
+          "explanationWrong": "RPF and EPF are covered in 392(6) and 392(7). These provisions address TDS on provident fund withdrawals in specific circumstances.",
+          "tier": 2,
+          "subConcepts": ["rpf-tds", "epf-tds", "section-392-6-7"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Sections 392(6), 392(7)"
+        },
+        {
+          "order": 2,
+          "question": "Section 392(8) of the new Act deals with salary TDS in which specific situation?",
+          "options": [
+            { "text": "When salary is paid in kind", "correct": false },
+            { "text": "When salary is paid in foreign currency", "correct": true },
+            { "text": "When salary exceeds Rs 1 crore", "correct": false },
+            { "text": "When salary is paid to a non-resident", "correct": false }
+          ],
+          "explanation": "Section 392(8) addresses TDS computation when salary is paid in foreign currency, providing rules for conversion and rate application. This continues the old Act's provision for such situations.",
+          "explanationWrong": "Foreign currency salary payments are addressed in 392(8). This covers situations like expat employees or overseas assignments where salary is disbursed in a foreign currency.",
+          "tier": 2,
+          "subConcepts": ["foreign-currency-salary", "section-392-8"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 392(8)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, which section of the new Act handles higher TDS rates when PAN is not furnished by the deductee?",
+          "options": [
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 395", "correct": false },
+            { "text": "Section 397", "correct": true },
+            { "text": "Section 399", "correct": false }
+          ],
+          "explanation": "Section 397 provides for higher TDS rates when PAN is not furnished. This replaces the old Section 206AA mechanism.",
+          "explanationWrong": "Section 397 handles no-PAN higher rates. This was covered in Unit 3.1 on the new TDS architecture.",
+          "tier": 2,
+          "subConcepts": ["section-397", "no-pan-rate"],
+          "isReview": true,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 4,
+          "question": "An employee withdraws Rs 8 lakh from their EPF after 3 years of service (less than 5 years). Under Section 392(7), is TDS applicable?",
+          "options": [
+            { "text": "No — EPF withdrawals are always exempt", "correct": false },
+            { "text": "Yes — TDS applies on EPF withdrawals before completing 5 years of continuous service", "correct": true },
+            { "text": "Only if the withdrawal exceeds Rs 10 lakh", "correct": false },
+            { "text": "TDS applies only on the interest component, not principal", "correct": false }
+          ],
+          "explanation": "TDS applies on EPF withdrawals when the employee has less than 5 years of continuous service. The Rs 50,000 threshold applies. This provision continues unchanged from the old Act into Section 392(7).",
+          "explanationWrong": "TDS applies on premature EPF withdrawal (less than 5 years of service). The entire withdrawal (not just interest) is subject to TDS if the conditions are met.",
+          "tier": 2,
+          "subConcepts": ["epf-premature-withdrawal", "5-year-rule", "section-392-7"],
+          "isReview": false,
+          "oldSection": "Section 192A",
+          "newSection": "Section 392(7)"
+        },
+        {
+          "order": 5,
+          "question": "A company pays its expatriate employee's salary in USD. Under Section 392(8), at which exchange rate should the salary be converted for TDS computation?",
+          "options": [
+            { "text": "The rate prescribed by the RBI or as specified in the Rules", "correct": true },
+            { "text": "The rate prevailing on 1 April of the financial year", "correct": false },
+            { "text": "Any rate chosen by the employer", "correct": false },
+            { "text": "The rate on the date of the employee's joining", "correct": false }
+          ],
+          "explanation": "Section 392(8) requires conversion at the prescribed rate (RBI reference rate or as specified in Rules). The employer cannot use an arbitrary rate — the prescribed conversion mechanism must be followed.",
+          "explanationWrong": "The RBI/prescribed rate applies. Using the rate on a fixed date or an employer-chosen rate would not comply with Section 392(8)'s requirements.",
+          "tier": 2,
+          "subConcepts": ["foreign-currency-conversion", "rbi-rate", "section-392-8"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 392(8)"
+        }
+      ]
+    },
+    {
+      "title": "Section 157 Rebate and TDS Adjustments",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 87A provided a rebate for individuals with income up to a certain limit. In the new Act, this rebate is provided under which section?",
+          "options": [
+            { "text": "Section 87A continues in the new Act", "correct": false },
+            { "text": "Section 157", "correct": true },
+            { "text": "Section 202", "correct": false },
+            { "text": "Section 392(4)", "correct": false }
+          ],
+          "explanation": "Section 157 replaces old Section 87A as the rebate provision. When computing salary TDS under Section 392(4), the employer must apply the rebate under Section 157 (not 87A) for eligible employees.",
+          "explanationWrong": "Section 157 is the new rebate provision. Section 202 is the new tax regime section, and 392(4) is the adjustment mechanism that references Section 157.",
+          "tier": 2,
+          "subConcepts": ["section-157", "rebate-mapping", "section-87a-replaced"],
+          "isReview": false,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 392(4), which of the following can an employer consider while adjusting salary TDS computation?",
+          "options": [
+            { "text": "Only salary income from the current employer", "correct": false },
+            { "text": "Loss from house property, Chapter VI-A deductions (if old regime), rebate under Section 157", "correct": true },
+            { "text": "Capital gains from share trading", "correct": false },
+            { "text": "Business losses of the employee's proprietorship", "correct": false }
+          ],
+          "explanation": "Section 392(4) allows adjustments for: loss from house property (up to Rs 2 lakh under old regime), eligible deductions under Chapter VI-A (old regime only), and rebate under Section 157. Capital gains and business income are not adjusted in salary TDS.",
+          "explanationWrong": "House property loss, Chapter VI-A deductions (old regime), and Section 157 rebate are adjustable. Capital gains and business income are excluded from salary TDS adjustments — the employee must pay advance tax on those separately.",
+          "tier": 2,
+          "subConcepts": ["tds-adjustments", "section-392-4", "permissible-adjustments"],
+          "isReview": false,
+          "oldSection": "Section 192(2B)",
+          "newSection": "Section 392(4)"
+        },
+        {
+          "order": 3,
+          "question": "In the new tax regime structure, old Section 115BAC providing the concessional rate regime is replaced by which new section?",
+          "options": [
+            { "text": "Section 200", "correct": false },
+            { "text": "Section 202", "correct": true },
+            { "text": "Section 205", "correct": false },
+            { "text": "Section 157", "correct": false }
+          ],
+          "explanation": "Section 202 replaces old Section 115BAC as the new/concessional tax regime provision. This is the default regime under the new Act.",
+          "explanationWrong": "Section 202 replaces 115BAC. Section 157 is the rebate provision (replacing 87A), not the regime provision.",
+          "tier": 2,
+          "subConcepts": ["section-115bac-mapping", "section-202"],
+          "isReview": true,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 4,
+          "question": "Employee A has total salary of Rs 7.5 lakh under the new regime (Section 202). They are eligible for rebate under Section 157. What is the effective TDS the employer must deduct under Section 392?",
+          "options": [
+            { "text": "TDS at the slab rate applicable to Rs 7.5 lakh", "correct": false },
+            { "text": "Nil — the rebate under Section 157 reduces tax to zero for eligible income levels", "correct": true },
+            { "text": "TDS at 5% flat", "correct": false },
+            { "text": "TDS at maximum marginal rate", "correct": false }
+          ],
+          "explanation": "For income up to the rebate threshold under Section 157 (new regime), the effective tax is nil. The employer must factor in this rebate under Section 392(4) and deduct zero TDS.",
+          "explanationWrong": "Nil TDS. The rebate under Section 157 wipes out the tax liability for income within the eligible threshold. The employer must compute this rebate effect when determining salary TDS.",
+          "tier": 2,
+          "subConcepts": ["nil-tds-rebate", "section-157-application", "salary-computation"],
+          "isReview": false,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 5,
+          "question": "How does the new Act handle the situation where an employee has two employers simultaneously (concurrent employment)?",
+          "options": [
+            { "text": "Each employer independently computes TDS without coordination", "correct": false },
+            { "text": "The employee must furnish salary details from one employer to the other for combined TDS computation", "correct": true },
+            { "text": "Only the primary employer deducts TDS", "correct": false },
+            { "text": "Neither employer deducts TDS — the employee pays advance tax", "correct": false }
+          ],
+          "explanation": "Section 392(4) continues the mechanism where an employee with concurrent employment furnishes details of salary from one employer to the other, who then computes TDS on the combined income. This is unchanged from old Section 192(2).",
+          "explanationWrong": "The employee must furnish salary details for combined computation. This ensures correct average rate application across total salary. Independent computation would result in under-deduction due to lower slab utilisation.",
+          "tier": 2,
+          "subConcepts": ["concurrent-employment", "combined-tds", "section-392-4"],
+          "isReview": false,
+          "oldSection": "Section 192(2)",
+          "newSection": "Section 392(4)"
+        }
+      ]
+    },
+    {
+      "title": "Salary TDS Computation Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Employee B has CTC of Rs 24 lakh (Rs 2 lakh/month) and opts for the new regime (Section 202). Standard deduction is Rs 75,000. What is the taxable salary for TDS under Section 392(1)?",
+          "options": [
+            { "text": "Rs 24,00,000", "correct": false },
+            { "text": "Rs 23,25,000 (after standard deduction of Rs 75,000)", "correct": true },
+            { "text": "Rs 22,50,000 (after deduction of Rs 1,50,000 under 80C)", "correct": false },
+            { "text": "Rs 24,75,000 (standard deduction adds to income)", "correct": false }
+          ],
+          "explanation": "Under the new regime (Section 202), only the standard deduction of Rs 75,000 is available. No Chapter VI-A deductions (80C, 80D, etc.) apply. Taxable salary = Rs 24,00,000 − Rs 75,000 = Rs 23,25,000.",
+          "explanationWrong": "Rs 23,25,000 is correct. Under Section 202 (new regime), 80C deductions are not available. Only the standard deduction of Rs 75,000 reduces the salary income for TDS computation.",
+          "tier": 3,
+          "subConcepts": ["standard-deduction", "new-regime-computation", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "An employer provides free meals worth Rs 50 per meal through a canteen. Under the Rules, meals up to Rs 50 are exempt. How should this be treated for Section 392 TDS?",
+          "options": [
+            { "text": "Full value taxable as perquisite", "correct": false },
+            { "text": "Exempt — no perquisite value to add for TDS computation", "correct": true },
+            { "text": "Taxable at 10% flat rate", "correct": false },
+            { "text": "50% of value is taxable", "correct": false }
+          ],
+          "explanation": "Meals up to the prescribed limit (Rs 50 per meal in the Rules) are exempt from perquisite valuation. Since the per-meal cost equals the exemption limit, no perquisite value is added. The valuation is governed by Rules, not the Act.",
+          "explanationWrong": "Exempt. The Rules prescribe exemption limits for various perquisites. Meals at or below the prescribed limit have zero taxable perquisite value.",
+          "tier": 3,
+          "subConcepts": ["meal-perquisite", "rules-based-valuation", "exempt-perquisites"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rules (not in Act)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new TDS architecture (Unit 3.1), Section 393's tables categorise non-salary TDS payments primarily by what criterion?",
+          "options": [
+            { "text": "The payment amount", "correct": false },
+            { "text": "The payee's residential status (resident, non-resident, any person)", "correct": true },
+            { "text": "The payer's PAN category", "correct": false },
+            { "text": "The financial year of payment", "correct": false }
+          ],
+          "explanation": "Section 393's tables are organised by payee status: Table 1 for residents, Table 2 for non-residents, Table 3 for any person. Within each table, serial numbers differentiate by payment type.",
+          "explanationWrong": "Payee residential status determines the table. This two-level classification (table by status, serial by payment type) is the design principle of Section 393, covered in Unit 3.1.",
+          "tier": 3,
+          "subConcepts": ["table-classification", "payee-status", "section-393"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "A startup employee receives ESOP shares worth Rs 15 lakh in July 2026. They leave the company in March 2028 without selling the shares. Under Section 392(3), when does TDS trigger?",
+          "options": [
+            { "text": "July 2026 — at the time of allotment", "correct": false },
+            { "text": "March 2028 — on cessation of employment (earlier of sale, cessation, or 5 years)", "correct": true },
+            { "text": "July 2031 — exactly 5 years from allotment", "correct": false },
+            { "text": "No TDS applies to startup ESOPs", "correct": false }
+          ],
+          "explanation": "TDS triggers at the earliest of: sale, cessation of employment, or 5 years from allotment. Since the employee leaves in March 2028 (cessation) without selling, cessation is the earliest trigger event.",
+          "explanationWrong": "Cessation of employment (March 2028) triggers TDS. Among the three events — sale (not happened), cessation (March 2028), and 5-year expiry (July 2031) — cessation comes first.",
+          "tier": 3,
+          "subConcepts": ["esop-cessation-trigger", "section-392-3", "startup-tds"],
+          "isReview": false,
+          "oldSection": "Section 192(1C)",
+          "newSection": "Section 392(3)"
+        },
+        {
+          "order": 5,
+          "question": "Company C's payroll system correctly deducts TDS under Section 392(1) each month. In March, an employee declares additional rental income of Rs 4 lakh. How should the employer adjust?",
+          "options": [
+            { "text": "Ignore it — rental income is not the employer's concern", "correct": false },
+            { "text": "Recalculate full-year tax including the rental income, adjust excess/shortfall in remaining salary payments", "correct": true },
+            { "text": "Deduct an additional 30% on the Rs 4 lakh", "correct": false },
+            { "text": "Report it to the tax department without adjusting TDS", "correct": false }
+          ],
+          "explanation": "Under Section 392(4), the employer can consider other income declared by the employee. The full-year tax must be recalculated including the Rs 4 lakh rental income, and the shortfall adjusted in the remaining month(s).",
+          "explanationWrong": "Recalculation and adjustment is the correct approach. Section 392(4) permits the employer to consider other income sources declared by the employee for more accurate TDS computation.",
+          "tier": 3,
+          "subConcepts": ["other-income-adjustment", "march-tds-correction", "section-392-4"],
+          "isReview": false,
+          "oldSection": "Section 192(2B)",
+          "newSection": "Section 392(4)"
+        }
+      ]
+    },
+    {
+      "title": "Perquisite Valuation Challenges",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employer provides a rent-free furnished apartment (monthly rent Rs 1 lakh) to a senior employee. Under the Rules, the perquisite value is computed as a percentage of salary. Where is this computation methodology found?",
+          "options": [
+            { "text": "In Section 392 of the Act", "correct": false },
+            { "text": "In the Income-tax Rules (Rule 3)", "correct": true },
+            { "text": "In Section 393, Table 1", "correct": false },
+            { "text": "In a CBDT circular", "correct": false }
+          ],
+          "explanation": "Perquisite valuation methodology is in the Income-tax Rules (Rule 3), not in the Act. The Act provides the TDS obligation; the Rules prescribe how to value each type of perquisite.",
+          "explanationWrong": "Rule 3 of the Income-tax Rules contains the valuation methodology. This is a key point — the Act and Rules must be read together for perquisite TDS computation.",
+          "tier": 3,
+          "subConcepts": ["rule-3", "perquisite-valuation", "act-vs-rules"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rules (not in Act)"
+        },
+        {
+          "order": 2,
+          "question": "Employee D receives a company car used for both official and personal purposes. For TDS under Section 392, the perquisite value for personal use is determined by:",
+          "options": [
+            { "text": "The full cost of the car divided by its useful life", "correct": false },
+            { "text": "Prescribed rates in the Rules based on engine capacity and whether a chauffeur is provided", "correct": true },
+            { "text": "The employee's self-declaration of personal use percentage", "correct": false },
+            { "text": "Market rental value of a similar car", "correct": false }
+          ],
+          "explanation": "The Rules prescribe fixed rates for car perquisites based on engine capacity (below/above 1600cc for petrol) and whether a chauffeur is provided. These rates, not actual costs, determine the perquisite value for TDS.",
+          "explanationWrong": "Prescribed rates in the Rules apply. The valuation is standardised — not based on actual cost, employee declaration, or market rental. Engine capacity and chauffeur provision determine the monthly perquisite amount.",
+          "tier": 3,
+          "subConcepts": ["car-perquisite", "engine-capacity-rates", "chauffeur-perquisite"],
+          "isReview": false,
+          "oldSection": "Rule 3(2)",
+          "newSection": "Rules (not in Act)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, Section 392(4) allows which type of adjustment that reduces the effective TDS on salary?",
+          "options": [
+            { "text": "Claiming capital gains exemption", "correct": false },
+            { "text": "Adjustment for rebate under Section 157 (replacing old Section 87A)", "correct": true },
+            { "text": "Deducting business expenses", "correct": false },
+            { "text": "Claiming double taxation relief", "correct": false }
+          ],
+          "explanation": "Section 392(4) allows the employer to factor in the rebate under Section 157 (new Act equivalent of old 87A) while computing salary TDS, reducing or eliminating TDS for eligible income levels.",
+          "explanationWrong": "Section 157 rebate adjustment is correct. Capital gains and business expenses cannot be adjusted in salary TDS. Double taxation relief is a separate mechanism.",
+          "tier": 3,
+          "subConcepts": ["section-157-adjustment", "section-392-4"],
+          "isReview": true,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 4,
+          "question": "A multinational pays its India-based CFO a salary of USD 15,000/month. Under Section 392(8), the employer must convert this at the prescribed rate. If the rate fluctuates significantly mid-year, what should the employer do for TDS?",
+          "options": [
+            { "text": "Use the exchange rate prevailing on the first day of the year for all months", "correct": false },
+            { "text": "Recalculate the estimated annual salary in INR at the prescribed rate for each payment and adjust TDS accordingly", "correct": true },
+            { "text": "Use the rate that gives the lowest TDS", "correct": false },
+            { "text": "Convert at the UN exchange rate", "correct": false }
+          ],
+          "explanation": "The employer must use the prescribed exchange rate for each payment and recalculate the annual estimate. As the rate fluctuates, the estimated total income in INR changes, requiring TDS adjustments through the year.",
+          "explanationWrong": "Recalculation at each payment using the prescribed rate is required. Using a fixed rate for the entire year would not comply with Section 392(8). The employer must track rate movements and adjust TDS.",
+          "tier": 3,
+          "subConcepts": ["forex-fluctuation", "tds-recalculation", "section-392-8"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 392(8)"
+        },
+        {
+          "order": 5,
+          "question": "Employee E switches from old regime to new regime (Section 202) mid-year in October. How should the employer handle TDS already deducted under the old regime (April–September)?",
+          "options": [
+            { "text": "No change — once deducted, TDS cannot be revised", "correct": false },
+            { "text": "Recalculate full-year TDS under the new regime and adjust excess deduction in remaining months", "correct": true },
+            { "text": "Refund the excess TDS directly to the employee", "correct": false },
+            { "text": "Continue old regime for April–September and new regime for October–March", "correct": false }
+          ],
+          "explanation": "The regime choice applies for the full year. The employer must recalculate TDS for the entire year under Section 202 (new regime) and adjust the excess/shortfall in the remaining salary payments (October–March).",
+          "explanationWrong": "Full recalculation is needed. The tax regime is an annual choice, not monthly. The employer recalculates total tax under the new regime and adjusts the difference in remaining months.",
+          "tier": 3,
+          "subConcepts": ["regime-switch", "full-year-recalculation", "tds-adjustment"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Section 392 Mastery — Complex Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A government employee receives arrear salary of Rs 5 lakh relating to the previous 3 years. Under Section 392, the employer should compute TDS how?",
+          "options": [
+            { "text": "Add full Rs 5 lakh to current year salary and deduct TDS", "correct": false },
+            { "text": "Allow relief under Section 192 (old Section 89) by computing TDS considering the spread-over of arrears", "correct": true },
+            { "text": "Deduct TDS at 30% on the entire arrear amount", "correct": false },
+            { "text": "No TDS on arrears — the employee must pay advance tax", "correct": false }
+          ],
+          "explanation": "The employer must compute relief (old Section 89 concept) by spreading the arrears over the relevant years and computing the differential tax. This reduces the TDS burden compared to adding the full amount to the current year.",
+          "explanationWrong": "Relief computation is required. Simply adding Rs 5 lakh to current salary would over-tax the employee due to progressive slab rates. The spread-over method provides fair taxation of arrears.",
+          "tier": 3,
+          "subConcepts": ["arrear-salary", "section-89-relief", "salary-tds"],
+          "isReview": false,
+          "oldSection": "Section 89",
+          "newSection": "Section 392"
+        },
+        {
+          "order": 2,
+          "question": "Employee F has two concurrent employers: Employer A (salary Rs 12 lakh) and Employer B (salary Rs 8 lakh). F furnishes Employer A's salary details to Employer B. Under Section 392(4), how should Employer B compute TDS?",
+          "options": [
+            { "text": "Compute TDS only on Rs 8 lakh", "correct": false },
+            { "text": "Compute TDS on the combined Rs 20 lakh salary, deduct the portion already covered by Employer A", "correct": true },
+            { "text": "Deduct TDS at the maximum rate on Rs 8 lakh", "correct": false },
+            { "text": "Ask Employee F to choose one employer for TDS", "correct": false }
+          ],
+          "explanation": "Employer B must compute tax on the combined salary of Rs 20 lakh, then deduct from its own salary (Rs 8 lakh) the proportionate TDS after accounting for the amount already deducted by Employer A. This ensures correct progressive rate application.",
+          "explanationWrong": "Combined computation is required. If Employer B only computed on Rs 8 lakh, the progressive slab rates would not be correctly applied, leading to under-deduction of TDS.",
+          "tier": 3,
+          "subConcepts": ["concurrent-employment", "combined-computation", "section-392-4"],
+          "isReview": false,
+          "oldSection": "Section 192(2)",
+          "newSection": "Section 392(4)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, old Sections 206AB and 206CCA (higher TDS/TCS for non-filers) were:",
+          "options": [
+            { "text": "Consolidated into Section 393", "correct": false },
+            { "text": "Omitted from the new Act entirely", "correct": true },
+            { "text": "Merged into Section 397", "correct": false },
+            { "text": "Made optional under the new Act", "correct": false }
+          ],
+          "explanation": "Both 206AB and 206CCA were omitted — not consolidated or merged, but dropped entirely. The higher rate for non-PAN (Section 397) is a different concept from the non-filer provisions.",
+          "explanationWrong": "Omitted entirely. This is a key change — the non-filer higher rate provisions (206AB/206CCA) are gone. Section 397 addresses PAN non-furnishing, which is distinct from return non-filing.",
+          "tier": 3,
+          "subConcepts": ["206ab-206cca-omitted", "no-non-filer-surcharge"],
+          "isReview": true,
+          "oldSection": "Sections 206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "An HR head asks: 'Our payroll system uses Section 192 references everywhere — in monthly payslips, Form 16, challans, and vendor letters. What needs to change post 1 April 2026?' What is the comprehensive answer?",
+          "options": [
+            { "text": "Only challans need updating; everything else stays the same", "correct": false },
+            { "text": "All references must change from 192 to 392: payslips, Form 16, challans, and any compliance documents", "correct": true },
+            { "text": "Nothing changes — the old section numbers are still accepted", "correct": false },
+            { "text": "Only Form 16 needs the new section number", "correct": false }
+          ],
+          "explanation": "Every document referencing the salary TDS section must be updated: payslips, Form 16, challans, TDS returns (Form 24Q), and any correspondence. Using old Section 192 after 1 April 2026 is incorrect.",
+          "explanationWrong": "Comprehensive update is needed. All references — payslips, Form 16, challans, TDS returns — must reflect Section 392. This is a system-wide change, not limited to one document type.",
+          "tier": 3,
+          "subConcepts": ["system-update", "section-392-transition", "comprehensive-compliance"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        },
+        {
+          "order": 5,
+          "question": "An eligible startup employee receives ESOPs in June 2026. They sell 50% of shares in January 2028 and continue employment until March 2031. Under Section 392(3), when does TDS apply on each tranche?",
+          "options": [
+            { "text": "Full TDS in January 2028 when shares are partially sold", "correct": false },
+            { "text": "TDS on sold shares in January 2028; TDS on remaining shares in June 2031 (5 years from allotment)", "correct": true },
+            { "text": "Full TDS deferred until June 2031 for all shares", "correct": false },
+            { "text": "TDS on both tranches in March 2031 when employment continues", "correct": false }
+          ],
+          "explanation": "Each tranche is tracked separately. For the 50% sold in January 2028: sale is the earliest trigger (before cessation or 5-year expiry). For the remaining 50%: no sale and no cessation, so the 5-year rule triggers in June 2031.",
+          "explanationWrong": "Two different trigger events apply. Sold shares trigger TDS at sale (January 2028). Unsold shares held through employment trigger at the 5-year mark (June 2031). Each tranche follows its own earliest trigger.",
+          "tier": 3,
+          "subConcepts": ["esop-partial-sale", "multiple-trigger-events", "section-392-3"],
+          "isReview": false,
+          "oldSection": "Section 192(1C)",
+          "newSection": "Section 392(3)"
+        }
+      ]
+    }
+  ]
+}

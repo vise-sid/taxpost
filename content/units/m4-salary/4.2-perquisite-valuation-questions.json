@@ -1,0 +1,835 @@
+{
+  "unit": "4.2",
+  "title": "Perquisite Valuation — New Rules & Thresholds",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Rule Numbers & Salary Threshold",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, perquisite valuation rules were in Rule 3. What is the new rule number?",
+          "options": [
+            { "text": "Rule 3", "correct": false },
+            { "text": "Rule 15", "correct": true },
+            { "text": "Rule 10", "correct": false },
+            { "text": "Rule 17", "correct": false }
+          ],
+          "explanation": "Perquisite valuation moved from Rule 3 to Rule 15. This is a major renumbering — all the familiar perquisite valuation calculations now live in Rule 15.",
+          "explanationWrong": "The valuation rules moved from Rule 3 to Rule 15. When looking up motor car, accommodation, or other perquisite valuations, you now reference Rule 15, not Rule 3.",
+          "tier": 1,
+          "subConcepts": ["rule-mapping", "perquisite-valuation"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "The threshold for 'specified employee' (below which certain perquisites are not taxed) has changed. What is the new salary threshold?",
+          "options": [
+            { "text": "Rs 50,000 per month", "correct": false },
+            { "text": "Rs 4,00,000 per annum", "correct": true },
+            { "text": "Rs 2,00,000 per annum", "correct": false },
+            { "text": "Rs 50,000 per annum", "correct": false }
+          ],
+          "explanation": "The salary threshold has been increased from Rs 50,000 per month (effectively ~Rs 6 lakh/year) to Rs 4,00,000 per annum. This is a significant jump — more employees may now fall below this threshold and escape perquisite taxation on certain items.",
+          "explanationWrong": "The new threshold is Rs 4,00,000 per annum, replacing the old Rs 50,000 per month threshold. The old threshold was monthly; the new one is annual. At Rs 4 lakh per year, this is lower than the old effective annual amount (~Rs 6 lakh), so fewer employees fall below the threshold now.",
+          "tier": 1,
+          "subConcepts": ["salary-threshold", "specified-employee"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what section defines 'perquisites'?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 17", "correct": true },
+            { "text": "Section 18", "correct": false },
+            { "text": "Section 19", "correct": false }
+          ],
+          "explanation": "Perquisites are defined in Section 17 (moved from old Section 17(2)). The valuation of perquisites is then detailed in Rule 15 (moved from old Rule 3).",
+          "explanationWrong": "Section 17 defines perquisites in the new Act (old Section 17(2)). Section 16 is salary definition, Section 18 is profits in lieu, and Section 19 is deductions.",
+          "tier": 1,
+          "subConcepts": ["perquisites", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 17(2)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 4,
+          "question": "Under the old Act, the salary threshold for 'specified employee' was Rs 50,000. What was the measurement period for this threshold?",
+          "options": [
+            { "text": "Per annum", "correct": false },
+            { "text": "Per month", "correct": true },
+            { "text": "Per quarter", "correct": false },
+            { "text": "Per day", "correct": false }
+          ],
+          "explanation": "The old threshold was Rs 50,000 PER MONTH. The new Act changed this to Rs 4,00,000 PER ANNUM. This is a shift from monthly to annual measurement — an important detail when comparing the two thresholds.",
+          "explanationWrong": "The old threshold was monthly (Rs 50,000/month), while the new threshold is annual (Rs 4,00,000/year). This changes how the threshold is applied — you now compare annual salary against Rs 4 lakh instead of monthly salary against Rs 50,000.",
+          "tier": 1,
+          "subConcepts": ["salary-threshold", "old-vs-new"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "The perquisite valuation rules moved from Rule 3 to Rule 15. Under which section are these rules prescribed?",
+          "options": [
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 17", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Section 16", "correct": false }
+          ],
+          "explanation": "Rule 15 is prescribed under Section 17 (perquisites). Section 17 defines what perquisites are, and Rule 15 prescribes how to value them — the same structure as old Section 17(2) + Rule 3.",
+          "explanationWrong": "Rule 15 operates under Section 17. The structure is: Section 17 defines perquisites → Rule 15 prescribes their valuation. This mirrors the old structure (Section 17(2) → Rule 3) with updated numbers.",
+          "tier": 1,
+          "subConcepts": ["perquisite-valuation", "section-rule-link"],
+          "isReview": false,
+          "oldSection": "Section 17(2), Rule 3",
+          "newSection": "Section 17, Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Motor Car & Transport Changes",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the new perquisite value for employer-provided motor car (small car, used for official + personal) per month?",
+          "options": [
+            { "text": "Rs 1,800", "correct": false },
+            { "text": "Rs 5,000", "correct": true },
+            { "text": "Rs 2,400", "correct": false },
+            { "text": "Rs 7,000", "correct": false }
+          ],
+          "explanation": "The motor car perquisite for small cars increased from Rs 1,800 to Rs 5,000 per month. This is nearly a 3x increase, reflecting inflation since the old rates were last set. Rs 7,000 is the rate for large cars.",
+          "explanationWrong": "Small car perquisite is now Rs 5,000/month (was Rs 1,800). Rs 7,000/month is for large/luxury cars (was Rs 2,400). The old rates were set decades ago and were unrealistically low — the new rates are more realistic.",
+          "tier": 1,
+          "subConcepts": ["motor-car", "perquisite-rates"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "What is the new monthly perquisite value for a large/luxury motor car provided by the employer?",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 7,000", "correct": true },
+            { "text": "Rs 2,400", "correct": false },
+            { "text": "Rs 10,000", "correct": false }
+          ],
+          "explanation": "Large/luxury car perquisite increased from Rs 2,400 to Rs 7,000 per month. The old rate of Rs 2,400 was set when the rules were drafted and hadn't kept pace with actual car costs. Remember: small car = Rs 5,000, large car = Rs 7,000.",
+          "explanationWrong": "Large car perquisite is Rs 7,000/month (was Rs 2,400). Rs 5,000 is for small cars. The gap between small and large car rates is now Rs 2,000/month (vs Rs 600 under the old rules).",
+          "tier": 1,
+          "subConcepts": ["motor-car", "perquisite-rates"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, perquisite valuation was done under which Rule?",
+          "options": [
+            { "text": "Rule 15", "correct": false },
+            { "text": "Rule 3", "correct": true },
+            { "text": "Rule 11", "correct": false },
+            { "text": "Rule 8", "correct": false }
+          ],
+          "explanation": "Old Rule 3 handled all perquisite valuations. In the new Act, this is Rule 15. If you see old references to 'Rule 3,' mentally substitute 'Rule 15.'",
+          "explanationWrong": "Old perquisite valuation was in Rule 3, now Rule 15. This is a key mapping: whenever old texts reference Rule 3 for perquisites, the new equivalent is Rule 15.",
+          "tier": 1,
+          "subConcepts": ["rule-mapping"],
+          "isReview": true,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "The new Act introduces a specific exclusion for commuting costs. Under which clause is employer-provided commuting NOT treated as a perquisite?",
+          "options": [
+            { "text": "Section 17(2)(a)", "correct": false },
+            { "text": "Section 17(2)(e)", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Rule 15(3)", "correct": false }
+          ],
+          "explanation": "Section 17(2)(e) introduces a new exclusion for employer-provided commuting costs. This had no equivalent in the old Act — it's a genuinely new provision recognizing that commuting to work shouldn't be a taxable perquisite.",
+          "explanationWrong": "The commuting cost exclusion is in Section 17(2)(e). This is a NEW provision — the old Act had no explicit exclusion for commuting costs. It means employer-arranged transport to and from workplace is not a perquisite.",
+          "tier": 1,
+          "subConcepts": ["commuting-exclusion", "new-provision"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        },
+        {
+          "order": 5,
+          "question": "By what factor did the small car perquisite value increase from the old Act to the new Act?",
+          "options": [
+            { "text": "About 2x (Rs 1,800 to Rs 3,600)", "correct": false },
+            { "text": "About 3x (Rs 1,800 to Rs 5,000)", "correct": true },
+            { "text": "About 5x (Rs 1,800 to Rs 9,000)", "correct": false },
+            { "text": "No change", "correct": false }
+          ],
+          "explanation": "The small car perquisite went from Rs 1,800 to Rs 5,000 — roughly a 2.8x increase. The large car went from Rs 2,400 to Rs 7,000 — roughly a 2.9x increase. Both are approximately 3x jumps.",
+          "explanationWrong": "Small car: Rs 1,800 → Rs 5,000 is approximately 2.8x (roughly 3x). Large car: Rs 2,400 → Rs 7,000 is approximately 2.9x. Both rates were inflated by about the same factor.",
+          "tier": 1,
+          "subConcepts": ["motor-car", "rate-comparison"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Meals, Education & Gifts",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the new tax-free limit for meals provided by the employer per meal?",
+          "options": [
+            { "text": "Rs 50", "correct": false },
+            { "text": "Rs 200", "correct": true },
+            { "text": "Rs 100", "correct": false },
+            { "text": "Rs 500", "correct": false }
+          ],
+          "explanation": "The meal perquisite exemption increased from Rs 50 to Rs 200 per meal. At Rs 50, even a basic canteen meal exceeded the old limit. Rs 200 is more realistic for current food costs.",
+          "explanationWrong": "Tax-free meal limit is now Rs 200/meal (was Rs 50). The old Rs 50 limit was set decades ago and was absurdly low — most office meals cost more than Rs 50. The 4x increase to Rs 200 is the new Act's inflation adjustment.",
+          "tier": 1,
+          "subConcepts": ["meals-perquisite", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "The tax-free limit for children's education facility provided by the employer has changed. What is the new limit per child per month?",
+          "options": [
+            { "text": "Rs 1,000", "correct": false },
+            { "text": "Rs 3,000", "correct": true },
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 2,000", "correct": false }
+          ],
+          "explanation": "Education facility perquisite exemption increased from Rs 1,000 to Rs 3,000 per child per month. This is a 3x increase. The old Rs 1,000 limit was unrealistic given current school fee levels.",
+          "explanationWrong": "Education facility exemption is now Rs 3,000/child/month (was Rs 1,000). Like most perquisite thresholds, this has been tripled to account for inflation. The limit applies when the employer directly provides educational facilities.",
+          "tier": 1,
+          "subConcepts": ["education-perquisite", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(5)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "What is the new motor car perquisite value for a small car per month?",
+          "options": [
+            { "text": "Rs 1,800", "correct": false },
+            { "text": "Rs 5,000", "correct": true },
+            { "text": "Rs 2,400", "correct": false },
+            { "text": "Rs 7,000", "correct": false }
+          ],
+          "explanation": "Small car perquisite is Rs 5,000/month (was Rs 1,800). Rs 7,000 is for large cars. This was covered in the previous lesson.",
+          "explanationWrong": "Small car is Rs 5,000/month (up from Rs 1,800). Rs 7,000 is the large car rate. Remember: 5K small, 7K large.",
+          "tier": 1,
+          "subConcepts": ["motor-car", "perquisite-rates"],
+          "isReview": true,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "What is the new aggregate limit for tax-free gifts from the employer to an employee per year?",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 15,000", "correct": true },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Rs 50,000", "correct": false }
+          ],
+          "explanation": "The gift exemption increased from Rs 5,000 to Rs 15,000 per year aggregate. Gifts exceeding Rs 15,000 in aggregate during the year are fully taxable as perquisites (not just the excess — the entire amount becomes taxable if it crosses Rs 15,000).",
+          "explanationWrong": "Tax-free gift limit is now Rs 15,000/year (was Rs 5,000). This is a 3x increase. Important: if total gifts exceed Rs 15,000 in a year, the ENTIRE amount becomes a perquisite — not just the excess over Rs 15,000.",
+          "tier": 1,
+          "subConcepts": ["gifts-perquisite", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iv)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "By what factor did the meal perquisite exemption increase from old to new?",
+          "options": [
+            { "text": "2x (Rs 50 to Rs 100)", "correct": false },
+            { "text": "3x (Rs 50 to Rs 150)", "correct": false },
+            { "text": "4x (Rs 50 to Rs 200)", "correct": true },
+            { "text": "10x (Rs 50 to Rs 500)", "correct": false }
+          ],
+          "explanation": "Meals went from Rs 50 to Rs 200 — a 4x increase. This is the largest proportional increase among the common perquisite thresholds. Motor car (~3x), education (3x), and gifts (3x) all had smaller multipliers.",
+          "explanationWrong": "Meals: Rs 50 → Rs 200 = 4x increase. Compare with motor car (~3x), education (3x), and gifts (3x). The meal limit had the biggest proportional jump, likely because Rs 50 was the most outdated threshold.",
+          "tier": 1,
+          "subConcepts": ["meals-perquisite", "rate-comparison"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Threshold Increases",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why were most perquisite valuation thresholds increased by roughly 3x in the new Act?",
+          "options": [
+            { "text": "To increase tax collection", "correct": false },
+            { "text": "To adjust for inflation — the old rates hadn't been updated in decades", "correct": true },
+            { "text": "To align with international standards", "correct": false },
+            { "text": "To discourage employers from providing perquisites", "correct": false }
+          ],
+          "explanation": "The old perquisite rates (Rs 50 meals, Rs 1,800 car, Rs 5,000 gifts) were set decades ago and were wildly out of sync with current costs. The ~3x increase is essentially an inflation catch-up. This actually REDUCES the perquisite tax burden since higher thresholds mean less taxable value.",
+          "explanationWrong": "The increases are inflation adjustments. Higher thresholds mean MORE is tax-free — this reduces perquisite tax burden, not increases it. The old rates were so outdated that even basic perquisites triggered tax, which wasn't the original intent.",
+          "tier": 2,
+          "subConcepts": ["threshold-rationale", "inflation-adjustment"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "The medical loan threshold increased from Rs 20,000 to Rs 2,00,000. What does this threshold determine?",
+          "options": [
+            { "text": "Maximum medical reimbursement allowed", "correct": false },
+            { "text": "Salary level below which medical perquisite is exempt", "correct": false },
+            { "text": "Loan amount below which interest-free medical loan is not a perquisite", "correct": true },
+            { "text": "Annual medical insurance premium limit", "correct": false }
+          ],
+          "explanation": "Medical loans up to Rs 2,00,000 (was Rs 20,000) are excluded from perquisite valuation for interest-free/concessional loans. This is a 10x increase. If the employer gives a medical loan below this threshold, the interest benefit is not a taxable perquisite.",
+          "explanationWrong": "The Rs 2,00,000 threshold (was Rs 20,000) is for interest-free medical loans. Below this amount, the interest benefit on employer-provided medical loans is not treated as a perquisite. This is a 10x increase — the largest jump among all perquisite thresholds.",
+          "tier": 2,
+          "subConcepts": ["medical-loan", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(i)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "What is the new tax-free limit for gifts from employer per year?",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 15,000", "correct": true },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Rs 25,000", "correct": false }
+          ],
+          "explanation": "Gift limit is Rs 15,000/year (was Rs 5,000). This was covered in Tier 1 — a 3x increase.",
+          "explanationWrong": "Rs 15,000 is the annual gift exemption limit (up from Rs 5,000). Remember: if total gifts exceed this, the ENTIRE amount is taxable as a perquisite.",
+          "tier": 2,
+          "subConcepts": ["gifts-perquisite", "threshold-change"],
+          "isReview": true,
+          "oldSection": "Rule 3(7)(iv)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "An employer provides an interest-free housing loan of Rs 30 lakh and a medical loan of Rs 1.5 lakh to an employee. Under the new rules, which loan triggers perquisite valuation?",
+          "options": [
+            { "text": "Both loans", "correct": false },
+            { "text": "Only the housing loan — medical loan is below Rs 2 lakh threshold", "correct": true },
+            { "text": "Only the medical loan", "correct": false },
+            { "text": "Neither — all employer loans are exempt", "correct": false }
+          ],
+          "explanation": "The medical loan (Rs 1.5 lakh) is below the new Rs 2,00,000 threshold, so no perquisite arises. The housing loan (Rs 30 lakh) exceeds the threshold, so the interest benefit is a taxable perquisite calculated at SBI lending rate.",
+          "explanationWrong": "Only the housing loan triggers perquisite valuation. The medical loan at Rs 1.5 lakh is under the new Rs 2 lakh threshold (was Rs 20,000 under old rules). Under the OLD rules, this Rs 1.5 lakh medical loan would have been a perquisite since it exceeded the Rs 20,000 threshold — the new rules are more employee-friendly.",
+          "tier": 2,
+          "subConcepts": ["medical-loan", "loan-perquisite", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(i)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "The medical loan exemption threshold increased from Rs 20,000 to Rs 2,00,000. By what factor is this increase?",
+          "options": [
+            { "text": "3x", "correct": false },
+            { "text": "5x", "correct": false },
+            { "text": "10x", "correct": true },
+            { "text": "20x", "correct": false }
+          ],
+          "explanation": "Rs 20,000 to Rs 2,00,000 is a 10x increase — the largest proportional increase among all perquisite thresholds. Compare: meals (4x), motor car (~3x), education (3x), gifts (3x).",
+          "explanationWrong": "Medical loan threshold increased 10x (Rs 20K to Rs 2L). This is the biggest jump. The ranking: medical loan (10x) > meals (4x) > motor car, education, gifts (all ~3x).",
+          "tier": 2,
+          "subConcepts": ["medical-loan", "rate-comparison"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(i)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "PF/NPS Cap & New Provisions",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the annual aggregate cap on employer contributions to PF, NPS, and superannuation that is tax-free?",
+          "options": [
+            { "text": "Rs 5 lakh", "correct": false },
+            { "text": "Rs 7.5 lakh", "correct": true },
+            { "text": "Rs 10 lakh", "correct": false },
+            { "text": "Rs 12 lakh", "correct": false }
+          ],
+          "explanation": "The Rs 7.5 lakh annual cap on aggregate employer contributions to PF + NPS + superannuation is UNCHANGED in the new Act. Any excess over Rs 7.5 lakh is taxable as a perquisite. This cap was introduced in 2020 and continues as-is.",
+          "explanationWrong": "The cap remains Rs 7.5 lakh — no change from the 2020 amendment. Employer contributions to PF, NPS, and superannuation funds are tax-free up to this aggregate limit. Anything above Rs 7.5 lakh combined is a taxable perquisite.",
+          "tier": 2,
+          "subConcepts": ["pf-nps-cap", "unchanged-provision"],
+          "isReview": false,
+          "oldSection": "Section 17(2)(vii)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 2,
+          "question": "Has the Rs 7.5 lakh cap on PF/NPS/superannuation employer contributions changed in the new Act?",
+          "options": [
+            { "text": "Yes, increased to Rs 10 lakh", "correct": false },
+            { "text": "Yes, reduced to Rs 5 lakh", "correct": false },
+            { "text": "No, it remains at Rs 7.5 lakh", "correct": true },
+            { "text": "The cap has been abolished", "correct": false }
+          ],
+          "explanation": "No change — the Rs 7.5 lakh cap is carried forward unchanged. Not everything changed in the new Act. This is a 'no change' item worth remembering, because exam questions often test whether candidates assume everything changed.",
+          "explanationWrong": "The Rs 7.5 lakh cap is unchanged. The new Act retained this 2020 provision as-is. Remember: not all provisions changed — some were carried forward. The PF/NPS/superannuation cap is one such provision.",
+          "tier": 2,
+          "subConcepts": ["pf-nps-cap", "unchanged-provision"],
+          "isReview": false,
+          "oldSection": "Section 17(2)(vii)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 3,
+          "question": "What is the new perquisite value for a large/luxury motor car per month?",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 7,000", "correct": true },
+            { "text": "Rs 2,400", "correct": false },
+            { "text": "Rs 10,000", "correct": false }
+          ],
+          "explanation": "Large car perquisite is Rs 7,000/month (was Rs 2,400). This was covered in Tier 1.",
+          "explanationWrong": "Rs 7,000/month for large cars (was Rs 2,400). Rs 5,000 is the small car rate.",
+          "tier": 2,
+          "subConcepts": ["motor-car", "perquisite-rates"],
+          "isReview": true,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "An employer provides commuting transport (bus service) from employees' residences to the office. Under the new Act, is this a taxable perquisite?",
+          "options": [
+            { "text": "Yes, fully taxable at cost to employer", "correct": false },
+            { "text": "No, excluded under Section 17(2)(e) as commuting cost", "correct": true },
+            { "text": "Taxable only if employee salary exceeds Rs 4 lakh", "correct": false },
+            { "text": "Partially taxable — first Rs 1,800/month is exempt", "correct": false }
+          ],
+          "explanation": "Section 17(2)(e) provides a NEW exclusion for employer-provided commuting. This is a genuinely new provision — the old Act had no specific exclusion for commuting costs. Office bus services, shuttle services, etc., are now explicitly excluded from perquisite taxation.",
+          "explanationWrong": "Commuting costs are excluded under Section 17(2)(e). This is brand new — the old Act had no such exclusion. Under the old Act, employer-provided transport could potentially be taxed as a perquisite. The new Act explicitly carves out commuting from perquisite taxation.",
+          "tier": 2,
+          "subConcepts": ["commuting-exclusion", "new-provision", "scenario"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        },
+        {
+          "order": 5,
+          "question": "Which of these perquisite-related provisions is genuinely NEW in the new Act (no old Act equivalent)?",
+          "options": [
+            { "text": "Motor car valuation", "correct": false },
+            { "text": "Meal exemption", "correct": false },
+            { "text": "Commuting cost exclusion under Section 17(2)(e)", "correct": true },
+            { "text": "Gift exemption", "correct": false }
+          ],
+          "explanation": "The commuting cost exclusion under Section 17(2)(e) is the only genuinely new perquisite-related provision. Motor car valuation, meal exemption, and gift exemption all existed before — they just had their thresholds updated. Section 17(2)(e) creates an entirely new exclusion category.",
+          "explanationWrong": "Section 17(2)(e) commuting exclusion is the only brand new provision. Everything else (motor car, meals, education, gifts, medical loans) existed under the old rules — they just got updated thresholds. The commuting exclusion addresses a gap that previously existed.",
+          "tier": 2,
+          "subConcepts": ["commuting-exclusion", "new-provision"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        }
+      ]
+    },
+    {
+      "title": "Comparing All Threshold Changes",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which perquisite threshold had the largest proportional increase from old to new Act?",
+          "options": [
+            { "text": "Motor car (1,800 → 5,000)", "correct": false },
+            { "text": "Meals (50 → 200)", "correct": false },
+            { "text": "Medical loan (20,000 → 2,00,000)", "correct": true },
+            { "text": "Gifts (5,000 → 15,000)", "correct": false }
+          ],
+          "explanation": "Medical loan threshold had a 10x increase (Rs 20,000 → Rs 2,00,000). Compare: meals (4x), motor car (~3x), education (3x), gifts (3x). The medical loan threshold was the most outdated.",
+          "explanationWrong": "Medical loan wins with a 10x increase. The ranking by proportional increase: medical loan (10x) > meals (4x) > motor car, education, gifts (all ~3x). In absolute terms, medical loan also had the largest increase (Rs 1.8 lakh jump).",
+          "tier": 2,
+          "subConcepts": ["threshold-comparison", "rate-changes"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "An employer provides meals worth Rs 180 per meal in the office canteen. Under the new Act, what is the taxable perquisite per meal?",
+          "options": [
+            { "text": "Rs 180 (fully taxable)", "correct": false },
+            { "text": "Rs 130 (Rs 180 minus Rs 50)", "correct": false },
+            { "text": "Nil (below Rs 200 threshold)", "correct": true },
+            { "text": "Rs 80 (Rs 180 minus Rs 100)", "correct": false }
+          ],
+          "explanation": "Under the new rules, meals up to Rs 200 are tax-free. Since the meal costs Rs 180, which is below the Rs 200 threshold, no perquisite arises. Under the OLD rules, Rs 130 would have been taxable (Rs 180 – Rs 50 old threshold).",
+          "explanationWrong": "No perquisite arises — Rs 180 is below the new Rs 200 threshold. Under the old rules, Rs 130 would have been taxable (Rs 180 – Rs 50). This illustrates how the updated thresholds reduce perquisite tax burden for employees.",
+          "tier": 2,
+          "subConcepts": ["meals-perquisite", "scenario", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "The Rs 7.5 lakh cap on employer PF/NPS/superannuation contributions is unchanged. When was this cap first introduced?",
+          "options": [
+            { "text": "2018", "correct": false },
+            { "text": "2020", "correct": true },
+            { "text": "2022", "correct": false },
+            { "text": "2025 (new Act)", "correct": false }
+          ],
+          "explanation": "The Rs 7.5 lakh cap was introduced in 2020 via Section 17(2)(viia) of the old Act. The new Act simply carried it forward unchanged. It was not a new Act introduction.",
+          "explanationWrong": "The cap was introduced in 2020, not by the new Act. It was added to curb high employer contributions to retirement funds for senior executives. The new Act retained it as-is in Section 17.",
+          "tier": 2,
+          "subConcepts": ["pf-nps-cap", "historical-context"],
+          "isReview": true,
+          "oldSection": "Section 17(2)(viia)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 4,
+          "question": "An employer gives gifts worth Rs 12,000 to an employee on Diwali and Rs 5,000 on the employee's birthday. Under the new rules, what is the taxable perquisite?",
+          "options": [
+            { "text": "Nil — total is within Rs 15,000 limit", "correct": false },
+            { "text": "Rs 2,000 (excess over Rs 15,000)", "correct": false },
+            { "text": "Rs 17,000 (entire amount, since it exceeds Rs 15,000)", "correct": true },
+            { "text": "Rs 12,000 (only the Diwali gift)", "correct": false }
+          ],
+          "explanation": "Total gifts = Rs 17,000 (Rs 12,000 + Rs 5,000). Since this exceeds the Rs 15,000 annual limit, the ENTIRE Rs 17,000 is taxable as a perquisite. The gift exemption works on an aggregate basis, and once exceeded, the full amount is taxable — not just the excess.",
+          "explanationWrong": "The entire Rs 17,000 is taxable. This is a common trap — the gift exemption is NOT a basic exemption where only the excess is taxed. Once the aggregate crosses Rs 15,000, the entire amount becomes a perquisite. Under old rules, the threshold was Rs 5,000 — the Rs 12,000 Diwali gift alone would have triggered full taxation.",
+          "tier": 2,
+          "subConcepts": ["gifts-perquisite", "scenario", "threshold-application"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iv)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "Under the new Act, if an employer provides education for an employee's child at a facility run by the employer, what is the monthly exemption limit per child?",
+          "options": [
+            { "text": "Rs 1,000", "correct": false },
+            { "text": "Rs 3,000", "correct": true },
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 2,000", "correct": false }
+          ],
+          "explanation": "Rs 3,000 per child per month (was Rs 1,000). If the cost of education exceeds Rs 3,000/month, only the excess is a taxable perquisite. This applies specifically to employer-run educational facilities.",
+          "explanationWrong": "The education perquisite exemption is Rs 3,000/child/month (was Rs 1,000). This is a 3x increase. It applies to education provided at an institution owned or financed by the employer. External school fees reimbursement has different treatment.",
+          "tier": 2,
+          "subConcepts": ["education-perquisite", "threshold-change"],
+          "isReview": false,
+          "oldSection": "Rule 3(5)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Perquisite Computation Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employer provides a small car (engine capacity ≤ 1600cc) for both official and personal use. The employee uses it for 12 months. What is the annual perquisite value under the new rules?",
+          "options": [
+            { "text": "Rs 21,600 (Rs 1,800 × 12)", "correct": false },
+            { "text": "Rs 60,000 (Rs 5,000 × 12)", "correct": true },
+            { "text": "Rs 84,000 (Rs 7,000 × 12)", "correct": false },
+            { "text": "Rs 36,000 (Rs 3,000 × 12)", "correct": false }
+          ],
+          "explanation": "Small car at Rs 5,000/month × 12 months = Rs 60,000 annual perquisite. Under old rules, this was Rs 21,600 (Rs 1,800 × 12). The increase in perquisite value is Rs 38,400 per year.",
+          "explanationWrong": "Rs 5,000 × 12 = Rs 60,000 for a small car. Rs 84,000 (Rs 7,000 × 12) would be the large car perquisite. Under the old rules, this was only Rs 21,600 (Rs 1,800 × 12) — so the perquisite has nearly tripled.",
+          "tier": 3,
+          "subConcepts": ["motor-car", "perquisite-computation", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 2,
+          "question": "Company X provides daily meals at Rs 250/meal to employees (22 working days/month). Under the new rules, what is the monthly taxable meal perquisite per employee?",
+          "options": [
+            { "text": "Rs 5,500 (entire amount)", "correct": false },
+            { "text": "Rs 1,100 (Rs 50 excess × 22 days)", "correct": true },
+            { "text": "Nil (meals at workplace are exempt)", "correct": false },
+            { "text": "Rs 4,400 (Rs 200 excess × 22 days)", "correct": false }
+          ],
+          "explanation": "Each meal costs Rs 250. Tax-free limit is Rs 200/meal. Excess per meal = Rs 50. Monthly taxable perquisite = Rs 50 × 22 days = Rs 1,100. Under old rules, the excess would have been Rs 200/meal (Rs 250 – Rs 50), making the monthly perquisite Rs 4,400 — 4x higher.",
+          "explanationWrong": "Taxable amount = (Rs 250 – Rs 200) × 22 = Rs 1,100/month. Under old rules, it would be (Rs 250 – Rs 50) × 22 = Rs 4,400/month. The new threshold reduces the monthly meal perquisite by Rs 3,300 — a significant reduction for employees.",
+          "tier": 3,
+          "subConcepts": ["meals-perquisite", "perquisite-computation", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "What is the new exclusion for commuting costs provided by the employer?",
+          "options": [
+            { "text": "Excluded under Section 17(2)(e)", "correct": true },
+            { "text": "Taxable as a perquisite at cost", "correct": false },
+            { "text": "Exempt up to Rs 1,600/month", "correct": false },
+            { "text": "Deductible under Section 19", "correct": false }
+          ],
+          "explanation": "Section 17(2)(e) excludes commuting costs. This is a new provision with no old Act equivalent — reviewed from earlier lesson.",
+          "explanationWrong": "Commuting costs are excluded under Section 17(2)(e). There's no monetary cap — it's a blanket exclusion for employer-provided commuting transport. This is a genuinely new provision.",
+          "tier": 3,
+          "subConcepts": ["commuting-exclusion", "new-provision"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        },
+        {
+          "order": 4,
+          "question": "An employee earning Rs 3.5 lakh per annum receives a large company car for personal use. Under the new Act, is the car perquisite taxable?",
+          "options": [
+            { "text": "Yes, at Rs 7,000/month regardless of salary", "correct": true },
+            { "text": "No, salary is below Rs 4 lakh threshold", "correct": false },
+            { "text": "Yes, but at a reduced rate of Rs 3,500/month", "correct": false },
+            { "text": "No, car perquisites are exempt for all employees", "correct": false }
+          ],
+          "explanation": "The Rs 4 lakh salary threshold applies to certain perquisites but the motor car provided for personal use is taxable regardless of salary level. The specified employee threshold determines perquisite taxation for some items, but a car provided for personal use is always a perquisite.",
+          "explanationWrong": "Motor car for personal use is taxable at Rs 7,000/month for large cars regardless of salary threshold. The Rs 4 lakh threshold exempts certain minor perquisites for lower-paid employees, but car provided for personal use is not one of them. Don't confuse the salary threshold with a blanket exemption.",
+          "tier": 3,
+          "subConcepts": ["motor-car", "salary-threshold", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "Under the new rules, an employer gives an employee gifts worth Rs 14,500 over the year. Is any perquisite taxable?",
+          "options": [
+            { "text": "Yes, Rs 14,500 is fully taxable", "correct": false },
+            { "text": "No, it's within the Rs 15,000 limit", "correct": true },
+            { "text": "Yes, the excess over Rs 5,000 is taxable", "correct": false },
+            { "text": "Yes, Rs 9,500 is taxable (excess over old Rs 5,000 limit)", "correct": false }
+          ],
+          "explanation": "Rs 14,500 is within the Rs 15,000 annual gift threshold — no perquisite arises. Under OLD rules, Rs 14,500 would have been fully taxable since it exceeded the Rs 5,000 old threshold. This is a clear benefit of the increased threshold.",
+          "explanationWrong": "No perquisite — Rs 14,500 is below Rs 15,000. Under old rules, Rs 14,500 exceeded the Rs 5,000 limit, making the ENTIRE Rs 14,500 taxable. The new Rs 15,000 threshold saves this employee from perquisite tax entirely.",
+          "tier": 3,
+          "subConcepts": ["gifts-perquisite", "scenario", "threshold-comparison"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iv)",
+          "newSection": "Rule 15"
+        }
+      ]
+    },
+    {
+      "title": "Complex Perquisite Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An employer contributes Rs 3 lakh to PF, Rs 3 lakh to NPS, and Rs 2 lakh to superannuation for an employee. What is the taxable perquisite under the aggregate cap?",
+          "options": [
+            { "text": "Nil — total is within limits", "correct": false },
+            { "text": "Rs 50,000 (excess over Rs 7.5 lakh)", "correct": true },
+            { "text": "Rs 2 lakh (superannuation is fully taxable)", "correct": false },
+            { "text": "Rs 8 lakh (entire amount is taxable)", "correct": false }
+          ],
+          "explanation": "Total employer contributions = Rs 3L + Rs 3L + Rs 2L = Rs 8 lakh. Cap is Rs 7.5 lakh. Excess = Rs 50,000, which is a taxable perquisite. The cap applies to the aggregate of all three funds — not individually.",
+          "explanationWrong": "Total = Rs 8 lakh. Cap = Rs 7.5 lakh. Taxable excess = Rs 50,000. The cap is AGGREGATE across PF + NPS + superannuation — each fund's contribution is not assessed separately. This is unchanged from the old Act.",
+          "tier": 3,
+          "subConcepts": ["pf-nps-cap", "perquisite-computation", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 17(2)(viia)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 2,
+          "question": "An employer provides education at an employer-run school costing Rs 4,500/month per child. Employee has 2 children. What is the total monthly taxable education perquisite?",
+          "options": [
+            { "text": "Rs 7,000 (Rs 3,500 × 2)", "correct": false },
+            { "text": "Rs 3,000 (Rs 1,500 × 2)", "correct": true },
+            { "text": "Rs 9,000 (Rs 4,500 × 2)", "correct": false },
+            { "text": "Rs 1,500 (only one child eligible)", "correct": false }
+          ],
+          "explanation": "Per child: Rs 4,500 – Rs 3,000 (exemption) = Rs 1,500 taxable. For 2 children: Rs 1,500 × 2 = Rs 3,000/month. Under old rules: Rs 4,500 – Rs 1,000 = Rs 3,500 per child, Rs 7,000 for 2 children. The new threshold saves Rs 4,000/month.",
+          "explanationWrong": "Taxable per child = Rs 4,500 – Rs 3,000 = Rs 1,500. For 2 children = Rs 3,000/month. Under old rules, it would be Rs 3,500 × 2 = Rs 7,000/month. The Rs 2,000 increase in exemption (Rs 1,000 to Rs 3,000) saves Rs 4,000/month for a two-child family.",
+          "tier": 3,
+          "subConcepts": ["education-perquisite", "perquisite-computation", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3(5)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 3,
+          "question": "What is the education facility perquisite exemption per child per month under the new rules?",
+          "options": [
+            { "text": "Rs 1,000", "correct": false },
+            { "text": "Rs 3,000", "correct": true },
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 2,000", "correct": false }
+          ],
+          "explanation": "Rs 3,000/child/month — reviewed from Tier 1. Up from Rs 1,000 under old rules.",
+          "explanationWrong": "Rs 3,000 per child per month (was Rs 1,000). A 3x increase to reflect current education costs.",
+          "tier": 3,
+          "subConcepts": ["education-perquisite", "threshold-change"],
+          "isReview": true,
+          "oldSection": "Rule 3(5)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "A company provides its employees with an interest-free loan of Rs 1,80,000 for medical treatment and a car loan of Rs 8,00,000. Under the new rules, for which loan(s) must the employer compute a perquisite?",
+          "options": [
+            { "text": "Both loans", "correct": false },
+            { "text": "Only the car loan — medical loan is below Rs 2 lakh threshold", "correct": true },
+            { "text": "Only the medical loan", "correct": false },
+            { "text": "Neither — all employer loans below Rs 10 lakh are exempt", "correct": false }
+          ],
+          "explanation": "Medical loan (Rs 1.8 lakh) is below the new Rs 2 lakh threshold — no perquisite. Car loan (Rs 8 lakh) has no such exclusion — the interest benefit (computed at SBI rate) is a taxable perquisite. Under OLD rules, the medical loan would have triggered a perquisite since Rs 1.8 lakh > old Rs 20,000 threshold.",
+          "explanationWrong": "Only the car loan triggers a perquisite. The medical loan at Rs 1.8 lakh is within the new Rs 2 lakh threshold. Under OLD rules, this same Rs 1.8 lakh medical loan would have been a perquisite (old threshold was only Rs 20,000). The 10x increase in medical loan threshold makes a real difference here.",
+          "tier": 3,
+          "subConcepts": ["medical-loan", "loan-perquisite", "scenario"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(i)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "A payroll team is updating their perquisite computation for April 2026. They need to change 6 threshold values. Which of these is NOT one of the changed thresholds?",
+          "options": [
+            { "text": "Meal exemption (Rs 50 → Rs 200)", "correct": false },
+            { "text": "Gift exemption (Rs 5,000 → Rs 15,000)", "correct": false },
+            { "text": "PF/NPS/superannuation cap (unchanged at Rs 7.5 lakh)", "correct": true },
+            { "text": "Motor car — small (Rs 1,800 → Rs 5,000)", "correct": false }
+          ],
+          "explanation": "The Rs 7.5 lakh PF/NPS/superannuation cap is UNCHANGED — it doesn't need updating. All the other options changed: meals (50→200), gifts (5,000→15,000), motor car small (1,800→5,000), plus motor car large (2,400→7,000), education (1,000→3,000), medical loan (20,000→2,00,000).",
+          "explanationWrong": "The PF/NPS/superannuation cap at Rs 7.5 lakh did NOT change — it was introduced in 2020 and carried forward. All other perquisite thresholds were updated: meals, gifts, motor car (both), education, medical loan, and salary threshold.",
+          "tier": 3,
+          "subConcepts": ["threshold-summary", "unchanged-provision", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Rule 3, Section 17(2)(viia)",
+          "newSection": "Rule 15, Section 17"
+        }
+      ]
+    },
+    {
+      "title": "Practical Application & Edge Cases",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new Act, employer-provided commuting is excluded from perquisites. Which section provides this exclusion?",
+          "options": [
+            { "text": "Section 10(14)", "correct": false },
+            { "text": "Section 17(2)(e)", "correct": true },
+            { "text": "Section 19", "correct": false },
+            { "text": "Rule 15", "correct": false }
+          ],
+          "explanation": "Section 17(2)(e) provides the commuting exclusion. This is a section-level exclusion, not a rule-level threshold like the other perquisite items. It's genuinely new — no old Act equivalent.",
+          "explanationWrong": "Section 17(2)(e) is the commuting exclusion. Don't confuse with Rule 15 (valuation rules) or Section 10(14) (old special allowances). The exclusion is in the perquisites definition section itself.",
+          "tier": 3,
+          "subConcepts": ["commuting-exclusion", "section-reference"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        },
+        {
+          "order": 2,
+          "question": "A company with 500 employees operates a bus shuttle from a central location to the office. Under old Act rules, could this have been taxed as a perquisite?",
+          "options": [
+            { "text": "No, it was always exempt", "correct": false },
+            { "text": "Potentially yes — there was no specific exclusion for commuting in the old Act", "correct": true },
+            { "text": "Only if the bus cost exceeded Rs 800/month per employee", "correct": false },
+            { "text": "Only for employees earning above Rs 50,000/month", "correct": false }
+          ],
+          "explanation": "The old Act had no explicit exclusion for commuting transport. While practically most employers treated it as non-taxable, there was legal ambiguity. The new Act's Section 17(2)(e) resolves this by explicitly excluding commuting costs — providing legal certainty.",
+          "explanationWrong": "Under the old Act, there was no specific commuting exclusion — it was a grey area. Technically, employer-provided transport could be considered a perquisite. Section 17(2)(e) in the new Act fixes this ambiguity by creating an explicit exclusion.",
+          "tier": 3,
+          "subConcepts": ["commuting-exclusion", "old-act-ambiguity"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 17(2)(e)"
+        },
+        {
+          "order": 3,
+          "question": "The medical loan perquisite threshold increased from Rs 20,000 to Rs 2,00,000. By what factor?",
+          "options": [
+            { "text": "5x", "correct": false },
+            { "text": "10x", "correct": true },
+            { "text": "3x", "correct": false },
+            { "text": "20x", "correct": false }
+          ],
+          "explanation": "Rs 20,000 to Rs 2,00,000 is a 10x increase — the largest proportional jump. Reviewed from earlier lessons.",
+          "explanationWrong": "10x increase for medical loan threshold — the biggest jump among all perquisite thresholds.",
+          "tier": 3,
+          "subConcepts": ["medical-loan", "rate-comparison"],
+          "isReview": true,
+          "oldSection": "Rule 3(7)(i)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 4,
+          "question": "Deepa earns Rs 3.8 lakh per annum. Her employer provides free meals at Rs 180/meal, a Diwali gift of Rs 8,000, and medical insurance of Rs 25,000. Under the new Act, calculate her total taxable perquisite for meals (assuming 250 working days).",
+          "options": [
+            { "text": "Rs 45,000 (Rs 180 × 250)", "correct": false },
+            { "text": "Nil — meals are below Rs 200 threshold", "correct": true },
+            { "text": "Rs 32,500 (Rs 130 × 250)", "correct": false },
+            { "text": "Rs 25,000 (medical insurance)", "correct": false }
+          ],
+          "explanation": "Meals at Rs 180/meal are below the Rs 200 threshold — no perquisite on meals. Under OLD rules, Rs 130/meal excess (Rs 180 – Rs 50) × 250 days = Rs 32,500 would have been taxable. The new threshold eliminates this perquisite entirely for Deepa.",
+          "explanationWrong": "Meal perquisite is Nil — Rs 180 is under the Rs 200 limit. Under old rules, Deepa would have paid tax on Rs 32,500 of meal perquisite annually. The question only asks about meals — the gift (Rs 8,000, within Rs 15,000 limit) and medical insurance need separate analysis.",
+          "tier": 3,
+          "subConcepts": ["meals-perquisite", "scenario", "computation"],
+          "isReview": false,
+          "oldSection": "Rule 3(7)(iii)",
+          "newSection": "Rule 15"
+        },
+        {
+          "order": 5,
+          "question": "A CA is preparing a summary of all perquisite threshold changes for a client. Which statement correctly captures ALL the key changes?",
+          "options": [
+            { "text": "Only motor car rates changed; everything else stayed the same", "correct": false },
+            { "text": "Rule 3→15, motor car (1800/2400→5000/7000), meals (50→200), education (1000→3000), gifts (5000→15000), medical loan (20000→200000), salary threshold (50000/month→400000/year), NEW: commuting exclusion", "correct": true },
+            { "text": "All thresholds tripled and PF cap increased to Rs 10 lakh", "correct": false },
+            { "text": "Only the rule number changed from Rule 3 to Rule 15; all values are identical", "correct": false }
+          ],
+          "explanation": "The comprehensive list: Rule 3→15, motor car small (1800→5000) and large (2400→7000), meals (50→200), education (1000→3000), gifts (5000→15000), medical loan (20000→200000), salary threshold (50000/month→400000/year), plus the genuinely new commuting exclusion under Section 17(2)(e). PF/NPS/superannuation cap unchanged at Rs 7.5 lakh.",
+          "explanationWrong": "The complete summary includes rule renumbering, six threshold increases, salary threshold restructuring, and one new provision. The PF cap did NOT change. Not all thresholds tripled — meals increased 4x, medical loan 10x. The changes are varied, not uniform.",
+          "tier": 3,
+          "subConcepts": ["threshold-summary", "comprehensive-review"],
+          "isReview": false,
+          "oldSection": "Rule 3, Section 17(2)",
+          "newSection": "Rule 15, Section 17"
+        }
+      ]
+    }
+  ]
+}

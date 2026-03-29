@@ -5,42 +5,45 @@ import { and, eq, sql } from "drizzle-orm";
 
 import db from "@/db/drizzle";
 import { lessons, units, unitTierProgress } from "@/db/schema";
-import { TIER_ACCURACY_THRESHOLDS } from "@/constants";
 
 /**
- * Ensure Tier 1 of ALL units in a course is unlocked for the user.
- * Called when a user selects a course or loads the learn page.
+ * Ensure ALL tiers (1, 2, 3) of ALL units in a course are unlocked for the user.
+ * No locking — everything is accessible from the start.
  */
 export const ensureDefaultTierUnlocks = async (courseId: number) => {
   const { userId } = await auth();
   if (!userId) return;
 
-  // Get all units in this course
   const allUnits = await db.query.units.findMany({
     where: eq(units.courseId, courseId),
   });
 
   if (allUnits.length === 0) return;
 
-  // Get existing tier 1 progress for this user across all units
+  // Get all existing tier progress for this user
   const existingProgress = await db.query.unitTierProgress.findMany({
-    where: and(
-      eq(unitTierProgress.userId, userId),
-      eq(unitTierProgress.tier, 1)
-    ),
+    where: eq(unitTierProgress.userId, userId),
   });
 
-  const unlockedUnitIds = new Set(existingProgress.map((p) => p.unitId));
+  const existingSet = new Set(
+    existingProgress.map((p) => `${p.unitId}:${p.tier}`)
+  );
 
-  // Unlock Tier 1 for any unit that doesn't have it yet
-  const toInsert = allUnits
-    .filter((unit) => !unlockedUnitIds.has(unit.id))
-    .map((unit) => ({
-      userId,
-      unitId: unit.id,
-      tier: 1,
-      unlockedAt: new Date(),
-    }));
+  // Unlock all 3 tiers for every unit
+  const toInsert: { userId: string; unitId: number; tier: number; unlockedAt: Date }[] = [];
+
+  for (const unit of allUnits) {
+    for (const tier of [1, 2, 3]) {
+      if (!existingSet.has(`${unit.id}:${tier}`)) {
+        toInsert.push({
+          userId,
+          unitId: unit.id,
+          tier,
+          unlockedAt: new Date(),
+        });
+      }
+    }
+  }
 
   if (toInsert.length > 0) {
     await db.insert(unitTierProgress).values(toInsert);
@@ -49,10 +52,7 @@ export const ensureDefaultTierUnlocks = async (courseId: number) => {
 
 /**
  * Update tier progress after a lesson is completed.
- * Handles tier unlock logic:
- * - Tier 1 complete (≥80%) → unlock Tier 2 of same unit + Tier 1 of next unit
- * - Tier 2 complete (≥75%) → unlock Tier 3
- * - Tier 3 complete (≥70%) → mastery
+ * Tracks completion stats — no locking/unlocking needed since everything is open.
  */
 export const updateTierProgress = async (
   lessonId: number,
@@ -62,7 +62,6 @@ export const updateTierProgress = async (
   const { userId } = await auth();
   if (!userId) throw new Error("Unauthorized.");
 
-  // Get the lesson's unit and tier
   const lesson = await db.query.lessons.findFirst({
     where: eq(lessons.id, lessonId),
     with: { unit: true },
@@ -119,54 +118,28 @@ export const updateTierProgress = async (
   });
   const totalLessonsInTier = tierLessons.length;
 
-  // Calculate accuracy
   const accuracy =
     progress.totalQuestions > 0
       ? Math.round((progress.totalCorrect / progress.totalQuestions) * 100)
       : 0;
 
-  let tierJustUnlocked: number | null = null;
+  // Mark tier as completed if all lessons done (no accuracy gating)
+  let tierJustCompleted = false;
   let unitMastered = false;
 
-  // Check if tier is complete (all lessons done + accuracy threshold met)
   if (
     progress.lessonsCompleted >= totalLessonsInTier &&
     !progress.completedAt
   ) {
-    const threshold = TIER_ACCURACY_THRESHOLDS[tier] ?? 70;
+    await db
+      .update(unitTierProgress)
+      .set({ completedAt: new Date() })
+      .where(eq(unitTierProgress.id, progress.id));
 
-    if (accuracy >= threshold) {
-      // Mark tier as completed
-      await db
-        .update(unitTierProgress)
-        .set({ completedAt: new Date() })
-        .where(eq(unitTierProgress.id, progress.id));
+    tierJustCompleted = true;
 
-      if (tier < 3) {
-        // Unlock next tier of same unit
-        const nextTier = tier + 1;
-        const existingNext = await db.query.unitTierProgress.findFirst({
-          where: and(
-            eq(unitTierProgress.userId, userId),
-            eq(unitTierProgress.unitId, unitId),
-            eq(unitTierProgress.tier, nextTier)
-          ),
-        });
-
-        if (!existingNext) {
-          await db.insert(unitTierProgress).values({
-            userId,
-            unitId,
-            tier: nextTier,
-            unlockedAt: new Date(),
-          });
-          tierJustUnlocked = nextTier;
-        }
-      }
-
-      if (tier === 3) {
-        unitMastered = true;
-      }
+    if (tier === 3) {
+      unitMastered = true;
     }
   }
 
@@ -175,7 +148,7 @@ export const updateTierProgress = async (
     lessonsCompleted: progress.lessonsCompleted,
     totalLessonsInTier,
     accuracy,
-    tierJustUnlocked,
+    tierJustUnlocked: null, // No locking — everything is always unlocked
     unitMastered,
   };
 };

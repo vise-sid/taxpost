@@ -1,0 +1,835 @@
+{
+  "unit": "2.1",
+  "title": "The Parallel Operation",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 536 — The Repeal",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which section of the Income Tax Act, 2025 repeals the Income Tax Act, 1961?",
+          "options": [
+            { "text": "Section 1", "correct": false },
+            { "text": "Section 536(1)", "correct": true },
+            { "text": "Section 298", "correct": false },
+            { "text": "Section 535", "correct": false }
+          ],
+          "explanation": "Section 536(1) of the 2025 Act states: 'The Income-tax Act, 1961 is hereby repealed.' This is the formal repeal provision.",
+          "explanationWrong": "Section 536(1) repeals the 1961 Act. It is the last section of the 2025 Act and contains the entire repeal-and-savings framework across four sub-sections.",
+          "tier": 1,
+          "subConcepts": ["section-536", "repeal"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 2,
+          "question": "How many sub-clauses does Section 536(2) contain to preserve rights and proceedings under the repealed Act?",
+          "options": [
+            { "text": "10 sub-clauses", "correct": false },
+            { "text": "15 sub-clauses", "correct": false },
+            { "text": "22 sub-clauses", "correct": true },
+            { "text": "30 sub-clauses", "correct": false }
+          ],
+          "explanation": "Section 536(2) contains 22 sub-clauses (a) through (v), each preserving a specific category of rights, proceedings, losses, approvals, or options from the old Act.",
+          "explanationWrong": "22 sub-clauses. Section 536(2) is exhaustive — it covers pending proceedings, losses, approvals, elections, circulars, limitation, search proceedings, and more across 22 sub-clauses.",
+          "tier": 1,
+          "subConcepts": ["section-536-2", "savings-clause"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, how many sections does the new Act contain compared to the 1961 Act's 819+ sections (after amendments)?",
+          "options": [
+            { "text": "298 sections", "correct": false },
+            { "text": "425 sections", "correct": false },
+            { "text": "536 sections", "correct": true },
+            { "text": "650 sections", "correct": false }
+          ],
+          "explanation": "The 2025 Act has 536 sections. The 1961 Act started with 298 but expanded to 819+ over six decades. The reduction comes from consolidation of provisions, not removal of substance.",
+          "explanationWrong": "536 sections. The 2025 Act consolidates many fragmented provisions (e.g., 30+ TDS sections into tables) to reduce the total from 819+ back to 536.",
+          "tier": 1,
+          "subConcepts": ["act-structure", "consolidation"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Section 536(4) invokes Section 6 of which legislation as a safety net for the repeal?",
+          "options": [
+            { "text": "The Constitution of India", "correct": false },
+            { "text": "The General Clauses Act, 1897", "correct": true },
+            { "text": "The Finance Act, 2025", "correct": false },
+            { "text": "The Limitation Act, 1963", "correct": false }
+          ],
+          "explanation": "Section 536(4) applies Section 6 of the General Clauses Act, 1897 to the repeal. This is a safety net covering any unforeseen transitional situation not specifically addressed in Section 536(2)'s 22 sub-clauses.",
+          "explanationWrong": "The General Clauses Act, 1897. Section 6 of the GCA provides default rules when any Central Act is repealed — preserving rights, obligations, and proceedings unless the repealing Act says otherwise. Section 536(4) invokes this as a backstop.",
+          "tier": 1,
+          "subConcepts": ["section-536-4", "general-clauses-act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(4)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 536(2), which of the following is NOT one of the categories preserved by the savings clause?",
+          "options": [
+            { "text": "Pending proceedings and assessments", "correct": false },
+            { "text": "Rights, privileges, and obligations acquired under old Act", "correct": false },
+            { "text": "Future tax rates for post-2026 income", "correct": true },
+            { "text": "Losses brought forward from old Act years", "correct": false }
+          ],
+          "explanation": "Section 536(2) preserves past rights, pending proceedings, and carry-forward losses — but does NOT lock in future tax rates. Tax rates for Tax Year 2026-27 onwards are governed entirely by the 2025 Act and annual Finance Acts.",
+          "explanationWrong": "Future tax rates are NOT preserved. The savings clause is backward-looking — it preserves what already existed or was in progress under the old Act. Tax rates for new tax years are determined under the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["section-536-2", "savings-scope"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        }
+      ]
+    },
+    {
+      "title": "The Dual-Track System",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "From April 1, 2026, the income tax return for FY 2025-26 income must be filed under which Act?",
+          "options": [
+            { "text": "Income Tax Act, 2025", "correct": false },
+            { "text": "Income Tax Act, 1961", "correct": true },
+            { "text": "Either Act, at the taxpayer's option", "correct": false },
+            { "text": "The Finance Act, 2026", "correct": false }
+          ],
+          "explanation": "FY 2025-26 income relates to AY 2026-27. Even though the return is filed after April 1, 2026, it is governed by the 1961 Act because the income was earned before April 2026.",
+          "explanationWrong": "The 1961 Act. The governing Act is determined by when the income was earned, not when the return is filed. FY 2025-26 income = old Act, regardless of filing date.",
+          "tier": 1,
+          "subConcepts": ["dual-track", "income-year-rule"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 2,
+          "question": "AY 2026-27 and Tax Year 2026-27 cover which income periods respectively?",
+          "options": [
+            { "text": "Both cover Apr 2026 – Mar 2027", "correct": false },
+            { "text": "AY 2026-27 covers Apr 2025 – Mar 2026; Tax Year 2026-27 covers Apr 2026 – Mar 2027", "correct": true },
+            { "text": "AY 2026-27 covers Apr 2026 – Mar 2027; Tax Year 2026-27 covers Apr 2025 – Mar 2026", "correct": false },
+            { "text": "Both cover Apr 2025 – Mar 2026", "correct": false }
+          ],
+          "explanation": "AY 2026-27 is the assessment year for FY 2025-26 income (Apr 2025 – Mar 2026) under the old Act. Tax Year 2026-27 is the earning period itself (Apr 2026 – Mar 2027) under the new Act. They are two separate obligations covering different income periods.",
+          "explanationWrong": "AY 2026-27 = FY 2025-26 income (old Act). Tax Year 2026-27 = FY 2026-27 income (new Act). The numbers look similar but cover entirely different twelve-month income periods under different Acts.",
+          "tier": 1,
+          "subConcepts": ["ay-vs-ty", "dual-track"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, what replaced the concept of 'Previous Year' defined in old Section 3?",
+          "options": [
+            { "text": "Financial Year", "correct": false },
+            { "text": "Tax Year", "correct": true },
+            { "text": "Assessment Period", "correct": false },
+            { "text": "Income Year", "correct": false }
+          ],
+          "explanation": "New Section 3 defines 'Tax Year' — replacing the old concept of 'Previous Year.' The section number is the same, but the terminology changed. 'Financial Year' is not the formal replacement.",
+          "explanationWrong": "'Tax Year' under new Section 3 replaces 'Previous Year' under old Section 3. The 2025 Act also eliminates 'Assessment Year' entirely — there is no AY concept in the new Act.",
+          "tier": 1,
+          "subConcepts": ["tax-year-definition", "previous-year-replaced"],
+          "isReview": true,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 4,
+          "question": "A taxpayer earns salary income from April 2025 to March 2026 but receives a delayed Form 16 in August 2026. The return for this income is filed under:",
+          "options": [
+            { "text": "The 2025 Act because the return is filed after April 2026", "correct": false },
+            { "text": "The 1961 Act because the income was earned in FY 2025-26", "correct": true },
+            { "text": "The 2025 Act because Form 16 was issued after April 2026", "correct": false },
+            { "text": "Either Act — the taxpayer can choose", "correct": false }
+          ],
+          "explanation": "The income-year rule governs: the Act applicable is determined by the year in which the income was earned, not when the form is issued or the return is filed. FY 2025-26 income = 1961 Act, always.",
+          "explanationWrong": "The 1961 Act governs. Even though both the Form 16 and the return filing happen after April 2026, the income relates to FY 2025-26. The date of the proceeding or document is irrelevant — only the income year matters.",
+          "tier": 1,
+          "subConcepts": ["income-year-rule", "governing-act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 5,
+          "question": "Under Track 1 (old Act), which ITR forms are used for AY 2026-27 returns?",
+          "options": [
+            { "text": "New forms under IT Rules, 2026", "correct": false },
+            { "text": "Old forms — ITR-1 through ITR-7", "correct": true },
+            { "text": "A combined hybrid form", "correct": false },
+            { "text": "Form 26 (new audit report)", "correct": false }
+          ],
+          "explanation": "AY 2026-27 returns use the old ITR forms (ITR-1 through ITR-7), old section numbers, and old Act procedures. New forms under IT Rules, 2026 are for Tax Year 2026-27 onwards.",
+          "explanationWrong": "Old forms — ITR-1 through ITR-7. Even though these returns may be filed in late 2026, they use old forms because AY 2026-27 relates to FY 2025-26 income governed by the 1961 Act.",
+          "tier": 1,
+          "subConcepts": ["old-forms", "dual-track"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Which Act, When?",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The governing Act for any income-related matter is determined by:",
+          "options": [
+            { "text": "The date the assessment order is passed", "correct": false },
+            { "text": "The year in which the income was earned", "correct": true },
+            { "text": "The date the return is filed", "correct": false },
+            { "text": "The date the notice is issued", "correct": false }
+          ],
+          "explanation": "This is the income-year rule: the Act applicable to any matter is determined by the year in which the income was earned, not by the date of the proceeding, filing, or order.",
+          "explanationWrong": "The year in which the income was earned. This is the foundational rule for the parallel operation. A reassessment order passed in 2028 for FY 2024-25 income still follows the 1961 Act.",
+          "tier": 1,
+          "subConcepts": ["income-year-rule"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 2,
+          "question": "For TDS purposes, the governing Act depends on when the earlier of __________ occurs.",
+          "options": [
+            { "text": "Invoice date or payment date", "correct": false },
+            { "text": "Credit or payment", "correct": true },
+            { "text": "Deduction or deposit", "correct": false },
+            { "text": "Assessment or filing", "correct": false }
+          ],
+          "explanation": "The earlier-event rule for TDS: the governing Act depends on when the earlier of credit to the payee's account or actual payment occurs. If that event is on or before 31 March 2026 → old Act; on or after 1 April 2026 → new Act.",
+          "explanationWrong": "Credit or payment — whichever is earlier. This is per KarSetu FAQ Q6.1. The invoice date is not relevant for determining the governing Act. The deposit date (when TDS is remitted to government) is also not the trigger.",
+          "tier": 1,
+          "subConcepts": ["earlier-event-rule", "tds-transition"],
+          "isReview": false,
+          "oldSection": "Section 192-194T",
+          "newSection": "Section 392/393/394"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, the concept of 'Assessment Year' was defined in which section?",
+          "options": [
+            { "text": "Section 3", "correct": false },
+            { "text": "Section 2(9)", "correct": true },
+            { "text": "Section 2(7)", "correct": false },
+            { "text": "Section 4", "correct": false }
+          ],
+          "explanation": "Old Section 2(9) defined 'Assessment Year' as the twelve-month period commencing April 1. This concept has been completely eliminated in the 2025 Act with no equivalent definition.",
+          "explanationWrong": "Section 2(9) of the 1961 Act. Knowing this is essential when reading old Act provisions that reference 'assessment year' — in the new Act, the equivalent language uses 'succeeding tax year' or similar phrases.",
+          "tier": 1,
+          "subConcepts": ["assessment-year-eliminated", "old-section-2-9"],
+          "isReview": true,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "An assessee receives a reassessment notice in November 2027 for income earned in FY 2023-24. Which Act governs this reassessment?",
+          "options": [
+            { "text": "Income Tax Act, 2025 — because the notice is issued after April 2026", "correct": false },
+            { "text": "Income Tax Act, 1961 — because the income relates to a pre-April 2026 year", "correct": true },
+            { "text": "The Finance Act applicable to the year of the notice", "correct": false },
+            { "text": "Either Act — the AO can choose", "correct": false }
+          ],
+          "explanation": "The income-year rule applies. FY 2023-24 income is governed by the 1961 Act regardless of when the reassessment notice is issued. Section 536(2)(c) preserves the old Act for pending and future proceedings relating to pre-April 2026 years.",
+          "explanationWrong": "The 1961 Act governs. Even though the notice is issued in November 2027 — well into the new Act era — the income relates to FY 2023-24. The reassessment follows old Section 148/148A procedures.",
+          "tier": 1,
+          "subConcepts": ["income-year-rule", "reassessment-old-act"],
+          "isReview": false,
+          "oldSection": "Section 148/148A",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 5,
+          "question": "How long will the parallel operation of both Acts continue?",
+          "options": [
+            { "text": "Until March 31, 2027", "correct": false },
+            { "text": "For exactly five years", "correct": false },
+            { "text": "Until all pre-April 2026 proceedings reach final resolution", "correct": true },
+            { "text": "Until a notification is issued terminating the old Act", "correct": false }
+          ],
+          "explanation": "The parallel operation continues until all assessments, appeals, and other proceedings for pre-April 2026 years reach final resolution — including cases before CIT(A), ITAT, High Courts, and the Supreme Court. This could persist for several years.",
+          "explanationWrong": "Until final resolution. There is no fixed sunset date. Pending appeals before the Supreme Court for old-Act years could keep the 1961 Act relevant for a decade or more.",
+          "tier": 1,
+          "subConcepts": ["parallel-duration", "final-resolution"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(e)"
+        }
+      ]
+    },
+    {
+      "title": "Elections, Options, and Circulars",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 536(2)(f), elections and options exercised under the old Act are:",
+          "options": [
+            { "text": "Void and must be re-exercised under the new Act", "correct": false },
+            { "text": "Deemed exercised under the corresponding new Act provision", "correct": true },
+            { "text": "Valid only until March 31, 2027", "correct": false },
+            { "text": "Subject to fresh approval by the AO", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) provides that elections, declarations, and options exercised under the old Act are deemed to have been exercised under the corresponding provision of the new Act — provided such a corresponding provision exists.",
+          "explanationWrong": "Deemed exercised under the corresponding new Act provision. There is no need to re-exercise or seek fresh approval. This ensures continuity — for example, a choice of depreciation method under the old Act carries forward automatically.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "elections-options"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 2,
+          "question": "A CBDT circular issued under the 1961 Act clarifying TDS on transport payments continues to apply under the 2025 Act if:",
+          "options": [
+            { "text": "It is re-notified by CBDT", "correct": false },
+            { "text": "It is not inconsistent with the new Act", "correct": true },
+            { "text": "The taxpayer specifically invokes it", "correct": false },
+            { "text": "It was issued after January 1, 2020", "correct": false }
+          ],
+          "explanation": "Section 536(2)(j) provides that old circulars, notifications, and approvals continue if they are not inconsistent with the new Act. No re-notification is needed — they continue automatically unless contradicted by the new Act.",
+          "explanationWrong": "Not inconsistent with the new Act. Per Section 536(2)(j), old circulars survive the repeal automatically. Only if a circular contradicts a new Act provision does it cease to apply.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-j", "old-circulars"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(j)"
+        },
+        {
+          "order": 3,
+          "question": "Section 536(3) of the 2025 Act provides that references to 'tax year' for years before April 1, 2026 shall be construed as references to the corresponding:",
+          "options": [
+            { "text": "Assessment Year", "correct": false },
+            { "text": "Previous Year", "correct": true },
+            { "text": "Financial Year", "correct": false },
+            { "text": "Calendar Year", "correct": false }
+          ],
+          "explanation": "Section 536(3) bridges terminology: where the 2025 Act refers to a 'tax year' commencing on or before April 1, 2025, that reference is construed as the corresponding 'previous year' under the repealed 1961 Act.",
+          "explanationWrong": "'Previous Year' — the terminology used in the 1961 Act. Section 536(3) ensures that new Act provisions referencing old periods (e.g., for carry-forward calculations) connect correctly to the old Act's framework.",
+          "tier": 2,
+          "subConcepts": ["section-536-3", "terminology-bridge"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee exercised an option under old Section 115BAC to pay tax at concessional rates. Under the 2025 Act, this option is:",
+          "options": [
+            { "text": "Automatically revoked from Tax Year 2026-27", "correct": false },
+            { "text": "Deemed exercised under the corresponding new Act provision per Section 536(2)(f)", "correct": true },
+            { "text": "Valid only if the assessee files a fresh declaration", "correct": false },
+            { "text": "Converted to the old regime by default", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) deems old elections exercised under corresponding new Act provisions. If a corresponding provision exists in the 2025 Act, the option carries forward automatically — no fresh declaration needed.",
+          "explanationWrong": "Deemed exercised under the new Act per Section 536(2)(f). The key condition is that a corresponding provision must exist in the new Act. Where it does, the old election survives seamlessly.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "regime-election-continuity"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 5,
+          "question": "Section 536(2)(j) preserves old circulars and notifications. Which word in the provision limits this preservation?",
+          "options": [
+            { "text": "Inconsistent", "correct": true },
+            { "text": "Material", "correct": false },
+            { "text": "Substantial", "correct": false },
+            { "text": "Temporary", "correct": false }
+          ],
+          "explanation": "The limiting word is 'inconsistent.' Old circulars and notifications continue only if they are 'not inconsistent' with the new Act. If a circular contradicts a new provision, it ceases to apply.",
+          "explanationWrong": "'Inconsistent' is the operative word. Section 536(2)(j) preserves old circulars 'if not inconsistent' with the new Act. This is the only test — there is no materiality or substantiality threshold.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-j", "inconsistency-test"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(j)"
+        }
+      ]
+    },
+    {
+      "title": "Limitation, Losses, and Continuity",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 536(2)(k), a right or limitation that expired under the old Act is:",
+          "options": [
+            { "text": "Revived with a fresh limitation period under the new Act", "correct": false },
+            { "text": "NOT revived by the new Act", "correct": true },
+            { "text": "Extended by one year under the transition provisions", "correct": false },
+            { "text": "Subject to the AO's discretion", "correct": false }
+          ],
+          "explanation": "Section 536(2)(k) is clear: expired limitation is NOT revived. If the time to file an appeal or initiate a proceeding expired under the old Act, the new Act does not create a fresh window.",
+          "explanationWrong": "NOT revived. This is a critical protection — the new Act cannot be used to reopen matters where limitation had already expired under the old Act. No discretion, no extension, no revival.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-k", "expired-limitation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(k)"
+        },
+        {
+          "order": 2,
+          "question": "Losses brought forward from pre-2026 years continue to be carried forward and set off under the new Act pursuant to:",
+          "options": [
+            { "text": "Section 536(2)(b)", "correct": false },
+            { "text": "Section 536(2)(m) and (n)", "correct": true },
+            { "text": "Section 536(2)(f)", "correct": false },
+            { "text": "Section 536(4)", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m) and (n) specifically preserve the carry-forward and set-off of losses from old Act years. These losses retain their character and continue under the new Act's set-off provisions.",
+          "explanationWrong": "Section 536(2)(m) and (n). These sub-clauses ensure that business losses, capital losses, and other brought-forward losses from old Act years are not extinguished by the repeal.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-mn", "loss-carry-forward"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(m), (n)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, TDS on payments made on or after April 1, 2026 is governed by which sections?",
+          "options": [
+            { "text": "Old Sections 192-194T", "correct": false },
+            { "text": "Sections 392, 393, and 394", "correct": true },
+            { "text": "Section 536(2)(c)", "correct": false },
+            { "text": "Old Section 195 only", "correct": false }
+          ],
+          "explanation": "TDS under the new Act is consolidated into three sections: 392 (salary), 393 (other TDS via three tables), and 394 (TCS). These apply to credits/payments from April 1, 2026 onwards.",
+          "explanationWrong": "Sections 392, 393, and 394. The 2025 Act consolidates 30+ old TDS sections (192-194T) into just three sections with tables. Section 536(2)(c) is a savings clause, not a TDS provision.",
+          "tier": 2,
+          "subConcepts": ["new-tds-sections", "tds-consolidation"],
+          "isReview": true,
+          "oldSection": "Section 192-194T",
+          "newSection": "Section 392/393/394"
+        },
+        {
+          "order": 4,
+          "question": "An assessee had an appeal pending before ITAT for AY 2022-23 as of April 1, 2026. Under which provision does this appeal continue under the old Act?",
+          "options": [
+            { "text": "Section 536(2)(b) — preservation of rights", "correct": false },
+            { "text": "Section 536(2)(e) — proceedings pending before Tribunal continue as if new Act not enacted", "correct": true },
+            { "text": "Section 536(2)(k) — limitation provision", "correct": false },
+            { "text": "Section 536(4) — General Clauses Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(e) specifically covers proceedings pending before any authority, Tribunal, or Court — they continue as if the new Act had not been enacted. This ensures that pending ITAT appeals for old years proceed under old Act procedures.",
+          "explanationWrong": "Section 536(2)(e). While 536(2)(b) preserves general rights and 536(2)(c) covers assessments, sub-clause (e) specifically addresses proceedings before Tribunals and Courts — the precise scenario here.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-e", "pending-proceedings"],
+          "isReview": false,
+          "oldSection": "Section 246A",
+          "newSection": "Section 536(2)(e)"
+        },
+        {
+          "order": 5,
+          "question": "Multi-year deductions like those under old Sections 35ABA and 35ABB continue under the new Act pursuant to Section 536(2)(__).",
+          "options": [
+            { "text": "(f)", "correct": false },
+            { "text": "(m)", "correct": false },
+            { "text": "(s)", "correct": true },
+            { "text": "(v)", "correct": false }
+          ],
+          "explanation": "Section 536(2)(s) specifically preserves multi-year deductions that were claimed over several years under old Act provisions like 35ABA and 35ABB. The remaining instalments continue under the new Act.",
+          "explanationWrong": "Sub-clause (s). This is distinct from (f) which covers elections, (m) which covers loss carry-forwards, and (v) which covers search proceedings. Section 536(2)(s) is specifically for multi-year deductions.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-s", "multi-year-deductions"],
+          "isReview": false,
+          "oldSection": "Section 35ABA, 35ABB",
+          "newSection": "Section 536(2)(s)"
+        }
+      ]
+    },
+    {
+      "title": "Portal and Compliance Mechanics",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "On the e-filing portal, the taxpayer must select __________ for filing a return for FY 2025-26 income.",
+          "options": [
+            { "text": "Tax Year 2026-27", "correct": false },
+            { "text": "AY 2026-27", "correct": true },
+            { "text": "FY 2025-26", "correct": false },
+            { "text": "Tax Year 2025-26", "correct": false }
+          ],
+          "explanation": "For FY 2025-26 income, the taxpayer selects 'AY 2026-27' on the portal. This triggers the old Act forms and procedures. Selecting 'Tax Year 2026-27' would be wrong — that covers FY 2026-27 income under the new Act.",
+          "explanationWrong": "'AY 2026-27.' The portal distinguishes between Assessment Year (old Act) and Tax Year (new Act) selections. FY 2025-26 income = AY 2026-27 = old Act forms and procedures.",
+          "tier": 2,
+          "subConcepts": ["portal-selection", "ay-vs-ty"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What is the consequence of selecting the wrong year (AY instead of TY, or vice versa) on a tax challan during the transition period?",
+          "options": [
+            { "text": "The payment is automatically rejected", "correct": false },
+            { "text": "Tax credit is applied to the wrong year", "correct": true },
+            { "text": "The AO corrects it automatically", "correct": false },
+            { "text": "A penalty is imposed under both Acts", "correct": false }
+          ],
+          "explanation": "Incorrect AY/TY selection on a challan results in the tax credit being applied to the wrong year. This can cause demands under one Act and excess credit under another — requiring rectification applications to fix.",
+          "explanationWrong": "Credit misallocation. The payment goes through, but the credit lands in the wrong year's account. For example, advance tax for TY 2026-27 mistakenly credited to AY 2026-27 would not reflect against new Act liability.",
+          "tier": 2,
+          "subConcepts": ["challan-selection", "credit-misallocation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the old Form 16 for salary TDS is replaced by:",
+          "options": [
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 168", "correct": false },
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 16A", "correct": false }
+          ],
+          "explanation": "Form 130 replaces the old Form 16 for salary TDS certificates under the new Act. Form 168 replaces Form 26AS, and Form 26 replaces old Form 3CA/3CB/3CD for audit reports.",
+          "explanationWrong": "Form 130. Under the new Act: Form 130 = old Form 16, Form 168 = old Form 26AS, Form 26 = old Form 3CA/3CB/3CD. These new form numbers apply only for Tax Year 2026-27 onwards.",
+          "tier": 2,
+          "subConcepts": ["new-forms", "form-mapping"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "During FY 2026-27, an assessee must pay self-assessment tax for FY 2025-26 and advance tax for TY 2026-27. On the portal, these require selecting:",
+          "options": [
+            { "text": "AY 2026-27 for both", "correct": false },
+            { "text": "Tax Year 2026-27 for both", "correct": false },
+            { "text": "AY 2026-27 for self-assessment tax and Tax Year 2026-27 for advance tax", "correct": true },
+            { "text": "FY 2025-26 for self-assessment tax and FY 2026-27 for advance tax", "correct": false }
+          ],
+          "explanation": "Self-assessment tax for FY 2025-26 income must select 'AY 2026-27' (old Act). Advance tax for TY 2026-27 income must select 'Tax Year 2026-27' (new Act). Different payments, different selections, different Acts.",
+          "explanationWrong": "AY 2026-27 for self-assessment tax, Tax Year 2026-27 for advance tax. This is a practical trap during transition — both payments happen in the same financial year but relate to different income periods under different Acts.",
+          "tier": 2,
+          "subConcepts": ["portal-selection", "dual-payments"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Per KarSetu FAQ, the e-filing portal during the transition period will:",
+          "options": [
+            { "text": "Only accept new Act filings from April 2026", "correct": false },
+            { "text": "Support both Acts simultaneously with correct forms served based on AY/TY selection", "correct": true },
+            { "text": "Require a separate login for old Act filings", "correct": false },
+            { "text": "Phase out old Act filings within six months", "correct": false }
+          ],
+          "explanation": "Per KarSetu FAQ Q3.27, the portal supports both Acts simultaneously. When a taxpayer selects an Assessment Year, the portal serves old forms; when Tax Year is selected, new forms are served. Both can be filed concurrently.",
+          "explanationWrong": "Both Acts simultaneously. No separate login, no phaseout. The portal dynamically serves the correct forms based on whether the taxpayer selects an Assessment Year or Tax Year.",
+          "tier": 2,
+          "subConcepts": ["portal-dual-support", "e-filing"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "TDS Transition Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the earlier-event rule, TDS on a payment credited to the payee's account on March 28, 2026 but actually paid on April 5, 2026 is governed by:",
+          "options": [
+            { "text": "The 2025 Act — because payment is after April 1", "correct": false },
+            { "text": "The 1961 Act — because credit (the earlier event) is before April 1", "correct": true },
+            { "text": "Both Acts — split between the two dates", "correct": false },
+            { "text": "The 2025 Act — because the new Act supersedes", "correct": false }
+          ],
+          "explanation": "The earlier-event rule looks at whichever comes first — credit or payment. Credit occurred on March 28, 2026 (before April 1), so the 1961 Act governs. The later payment date on April 5 is irrelevant.",
+          "explanationWrong": "The 1961 Act. Credit (March 28) is the earlier event and falls before the April 1, 2026 cut-off. Under the earlier-event rule, the governing Act is locked when the first of credit or payment occurs.",
+          "tier": 3,
+          "subConcepts": ["earlier-event-rule", "tds-credit-date"],
+          "isReview": false,
+          "oldSection": "Section 192-194T",
+          "newSection": "Section 392/393/394"
+        },
+        {
+          "order": 2,
+          "question": "A contractor invoice dated March 15, 2026 is credited on March 25, 2026 but payment is released on April 10, 2026. TDS must be deducted under:",
+          "options": [
+            { "text": "Old Section 194C — because credit is the earlier event and occurs before April 1", "correct": true },
+            { "text": "New Section 393 — because payment is after April 1", "correct": false },
+            { "text": "Old Section 194C — because the invoice is dated before April 1", "correct": false },
+            { "text": "New Section 393 — because the new Act applies to all 2026 transactions", "correct": false }
+          ],
+          "explanation": "Credit (March 25) is the earlier event and falls before April 1, 2026 — so old Section 194C governs. Note: the correct reason is the credit date, not the invoice date. The invoice date is not part of the earlier-event test.",
+          "explanationWrong": "Old Section 194C, but for the right reason — the credit date (March 25), not the invoice date. The earlier-event rule tests credit vs. payment, not invoice date vs. payment. Both option A and C point to 194C, but option A states the correct reasoning.",
+          "tier": 3,
+          "subConcepts": ["earlier-event-rule", "section-194C-transition"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393"
+        },
+        {
+          "order": 3,
+          "question": "Section 536(2)(h) provides that if conditions for a deduction under the old Act are violated after April 2026, the recaptured amount is:",
+          "options": [
+            { "text": "Taxed under the old Act in the year of violation", "correct": false },
+            { "text": "Deemed income of the tax year of violation under the new Act", "correct": true },
+            { "text": "Exempt from tax under both Acts", "correct": false },
+            { "text": "Added to income of the original deduction year under the old Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) provides that when conditions for old Act deductions/exemptions are violated after April 2026, the amount is deemed income under the new Act in the year of violation. The new Act governs because the violation occurs in a new Act year.",
+          "explanationWrong": "Deemed income under the new Act. The violation occurs after April 2026, so it falls in a tax year governed by the 2025 Act. The amount is recaptured as income of that tax year under new Act provisions.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "condition-violation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 4,
+          "question": "A company received approval for Section 80-IA deduction under the old Act with conditions. In TY 2027-28, one condition is violated. Under which Act is the clawback computed, and why?",
+          "options": [
+            { "text": "Old Act — the original approval was under old Act", "correct": false },
+            { "text": "New Act — per Section 536(2)(h), the violation year determines the governing Act", "correct": true },
+            { "text": "Old Act — the deduction section is from the old Act", "correct": false },
+            { "text": "Both Acts — proportionally allocated", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) is explicit: if old Act deduction conditions are violated after April 2026, the amount is deemed income under the new Act in the tax year of violation. The violation occurs in TY 2027-28, so the 2025 Act governs the clawback.",
+          "explanationWrong": "The new Act governs. Although the original deduction was under old Section 80-IA, the violation occurs in a new Act tax year. Section 536(2)(h) routes the clawback to the 2025 Act — the year of violation, not the year of the deduction, determines the governing Act.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "deduction-clawback"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 5,
+          "question": "Rent of Rs 60,000 per month is credited to the landlord's account on March 31, 2026 and paid on April 1, 2026. TDS is governed by:",
+          "options": [
+            { "text": "New Section 393 — the payment date governs", "correct": false },
+            { "text": "Old Section 194-I — credit is the earlier event", "correct": true },
+            { "text": "Both — split 50-50 between old and new Acts", "correct": false },
+            { "text": "Whichever Act gives a lower TDS rate", "correct": false }
+          ],
+          "explanation": "Credit (March 31) is the earlier event and falls on or before March 31, 2026. Under the earlier-event rule, old Section 194-I governs. The payment on April 1 is irrelevant once credit has already occurred.",
+          "explanationWrong": "Old Section 194-I. The earlier-event rule: credit on March 31 is the earlier event. Since it falls on or before March 31, 2026, the old Act applies. There is no splitting or rate comparison — one Act governs the entire transaction.",
+          "tier": 3,
+          "subConcepts": ["earlier-event-rule", "section-194I-transition"],
+          "isReview": false,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393"
+        }
+      ]
+    },
+    {
+      "title": "Proceedings and Appeals Transition",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Search proceedings initiated under old Section 132 before April 2026 continue under which provision of the savings clause?",
+          "options": [
+            { "text": "Section 536(2)(c)", "correct": false },
+            { "text": "Section 536(2)(v)", "correct": true },
+            { "text": "Section 536(2)(e)", "correct": false },
+            { "text": "Section 536(4)", "correct": false }
+          ],
+          "explanation": "Section 536(2)(v) specifically provides that search proceedings under old Section 132 — the entire proceeding from search to assessment — continue under the old Act. This is a dedicated sub-clause, separate from the general proceedings clauses.",
+          "explanationWrong": "Section 536(2)(v). While (c) covers general assessments and (e) covers Tribunal/Court proceedings, sub-clause (v) is specifically carved out for search proceedings under Section 132. The entire search-to-assessment chain stays under old Act.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-v", "search-proceedings"],
+          "isReview": false,
+          "oldSection": "Section 132",
+          "newSection": "Section 536(2)(v)"
+        },
+        {
+          "order": 2,
+          "question": "An appeal before the High Court for AY 2019-20 is pending as of April 2026. Under Section 536(2)(e), this appeal:",
+          "options": [
+            { "text": "Must be transferred to the new Act's appellate framework", "correct": false },
+            { "text": "Continues as if the new Act had not been enacted", "correct": true },
+            { "text": "Is automatically dismissed", "correct": false },
+            { "text": "Must be refiled under new Act procedures", "correct": false }
+          ],
+          "explanation": "Section 536(2)(e) provides that proceedings pending before any authority, Tribunal, or Court continue 'as if the new Act had not been enacted.' The appeal proceeds entirely under old Act provisions and procedures.",
+          "explanationWrong": "Continues as if the new Act had not been enacted — this is the exact language of Section 536(2)(e). No transfer, no refiling, no dismissal. The old Act procedures apply in full for this pending appeal.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-e", "pending-appeals"],
+          "isReview": false,
+          "oldSection": "Section 246A",
+          "newSection": "Section 536(2)(e)"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, penalty proceedings for concealment of income were governed by Section 271(1)(c). For pre-April 2026 years, penalties are still imposed under:",
+          "options": [
+            { "text": "New Act penalty provisions", "correct": false },
+            { "text": "Old Section 271(1)(c)", "correct": true },
+            { "text": "Either Act — at the AO's discretion", "correct": false },
+            { "text": "A combined penalty framework", "correct": false }
+          ],
+          "explanation": "Section 536(2)(d) preserves the old Act's penalty framework for pre-April 2026 years. Penalty proceedings for those years are initiated and imposed under old Act provisions like Section 271(1)(c).",
+          "explanationWrong": "Old Section 271(1)(c). Per Section 536(2)(d), the old Act's penalty provisions continue to apply for pre-April 2026 years. The AO has no discretion to apply new Act penalties to old year matters.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-d", "old-penalties"],
+          "isReview": true,
+          "oldSection": "Section 271(1)(c)",
+          "newSection": "Section 536(2)(d)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee's time to file an appeal against a CPC intimation for AY 2021-22 expired on February 15, 2026 under old Act limitation. Can the assessee file this appeal after April 1, 2026 citing the new Act?",
+          "options": [
+            { "text": "Yes — the new Act provides a fresh limitation period", "correct": false },
+            { "text": "Yes — Section 536(4) and the General Clauses Act revive the right", "correct": false },
+            { "text": "No — Section 536(2)(k) provides that expired limitation is NOT revived by the new Act", "correct": true },
+            { "text": "Yes — if the assessee shows sufficient cause", "correct": false }
+          ],
+          "explanation": "Section 536(2)(k) is unambiguous: a right that expired under the old Act's limitation framework is NOT revived by the new Act. The appeal window closed on February 15, 2026, and the new Act cannot reopen it.",
+          "explanationWrong": "No — Section 536(2)(k) bars revival. Neither the new Act's provisions nor the General Clauses Act safety net under Section 536(4) can override this specific bar. Expired limitation stays expired.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-k", "expired-limitation", "no-revival"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(k)"
+        },
+        {
+          "order": 5,
+          "question": "Amalgamation conditions were imposed under old Act Section 72A. The amalgamated company violates a condition in Tax Year 2028-29. The consequences are governed by:",
+          "options": [
+            { "text": "Old Act — because the original approval was under old Act", "correct": false },
+            { "text": "New Act in the year of violation — per Section 536(2)(o)", "correct": true },
+            { "text": "Both Acts proportionally", "correct": false },
+            { "text": "Neither — the condition lapses on repeal of old Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(o) provides that amalgamation/demerger condition violations are governed by the 2025 Act in the tax year of violation. Similar to Section 536(2)(h) for deduction clawbacks, the violation year determines the governing Act.",
+          "explanationWrong": "New Act per Section 536(2)(o). The violation occurs in TY 2028-29 — a new Act year. The consequences (including any recapture of losses or deductions) are computed under 2025 Act provisions.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-o", "amalgamation-violation"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 536(2)(o)"
+        }
+      ]
+    },
+    {
+      "title": "Complex Transition Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A charitable trust registered under old Section 12AA must its registration be renewed under the 2025 Act?",
+          "options": [
+            { "text": "Yes — all old registrations are void from April 2026", "correct": false },
+            { "text": "No — per Section 536(2)(j), old approvals continue if not inconsistent with the new Act", "correct": true },
+            { "text": "Yes — within six months of the new Act's commencement", "correct": false },
+            { "text": "No — but only if renewed under Section 12AB before March 2026", "correct": false }
+          ],
+          "explanation": "Section 536(2)(j) preserves old approvals, registrations, and notifications if they are not inconsistent with the new Act. A Section 12AA registration continues without re-registration, subject to the inconsistency test.",
+          "explanationWrong": "Per Section 536(2)(j), old approvals continue automatically. The inconsistency test is the only filter — if the new Act has a corresponding provision and the registration is not contradicted, it survives.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-j", "charitable-trust-registration"],
+          "isReview": false,
+          "oldSection": "Section 12AA",
+          "newSection": "Section 536(2)(j)"
+        },
+        {
+          "order": 2,
+          "question": "A taxpayer has unabsorbed depreciation from FY 2020-21 carried forward under old Section 32(2). Under the new Act, this loss:",
+          "options": [
+            { "text": "Expires on April 1, 2026", "correct": false },
+            { "text": "Retains its character and continues to be set off under the new Act per Section 536(2)(m) and (n)", "correct": true },
+            { "text": "Must be converted to a business loss under new Act categories", "correct": false },
+            { "text": "Can only be set off against depreciation income", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m) and (n) preserve brought-forward losses including unabsorbed depreciation. These losses retain their character and continue to be available for set-off under the new Act's provisions.",
+          "explanationWrong": "Retains character and continues per Section 536(2)(m) and (n). Old Act losses do not expire, convert, or get restricted merely because of the repeal. The carry-forward continues seamlessly under the new Act.",
+          "tier": 3,
+          "subConcepts": ["loss-carry-forward", "unabsorbed-depreciation"],
+          "isReview": false,
+          "oldSection": "Section 32(2)",
+          "newSection": "Section 536(2)(m), (n)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, Form 26AS (annual tax statement) is replaced by:",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 16A", "correct": false }
+          ],
+          "explanation": "Form 168 replaces old Form 26AS under the new Act. Form 130 replaces Form 16 (salary TDS certificate), and Form 26 replaces old Form 3CA/3CB/3CD (audit report).",
+          "explanationWrong": "Form 168. The form number mapping under the new Act: Form 130 = old Form 16, Form 168 = old Form 26AS, Form 26 = old Form 3CA/3CB/3CD.",
+          "tier": 3,
+          "subConcepts": ["new-forms", "form-mapping"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A lower TDS certificate was issued under old Section 197 valid through March 2027. Under Section 536(2)(j), this certificate:",
+          "options": [
+            { "text": "Becomes void from April 1, 2026", "correct": false },
+            { "text": "Continues to be valid if not inconsistent with the new Act", "correct": true },
+            { "text": "Must be surrendered and reapplied for under the new Act", "correct": false },
+            { "text": "Is valid only for old Act TDS deductions before April 2026", "correct": false }
+          ],
+          "explanation": "Section 536(2)(j) preserves old approvals and certificates if not inconsistent with the new Act. A lower TDS certificate issued under old Section 197 continues to be valid for its original validity period, subject to the inconsistency test.",
+          "explanationWrong": "Continues if not inconsistent. Section 536(2)(j) does not void existing certificates on the repeal date. The certificate's validity period and terms continue unless they contradict a new Act provision.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-j", "lower-tds-certificate"],
+          "isReview": false,
+          "oldSection": "Section 197",
+          "newSection": "Section 536(2)(j)"
+        },
+        {
+          "order": 5,
+          "question": "During FY 2026-27, a CA firm must file audit reports for both AY 2026-27 (belated) and TY 2026-27. Which forms are used respectively?",
+          "options": [
+            { "text": "Form 3CA/3CD for AY 2026-27; Form 26 for TY 2026-27", "correct": true },
+            { "text": "Form 26 for both", "correct": false },
+            { "text": "Form 3CA/3CD for both", "correct": false },
+            { "text": "Form 26 for AY 2026-27; Form 3CA/3CD for TY 2026-27", "correct": false }
+          ],
+          "explanation": "AY 2026-27 uses old forms (3CA/3CD) because it relates to FY 2025-26 income under the 1961 Act. TY 2026-27 uses new Form 26 under the 2025 Act. The dual-track system means different forms for different years filed in the same period.",
+          "explanationWrong": "Old Form 3CA/3CD for AY 2026-27, new Form 26 for TY 2026-27. This is the dual-track system in practice — a CA firm filing audit reports in the same period must use entirely different form sets depending on which income year the report covers.",
+          "tier": 3,
+          "subConcepts": ["dual-track", "audit-report-forms"],
+          "isReview": false,
+          "oldSection": "Form 3CA/3CD",
+          "newSection": "Form 26"
+        }
+      ]
+    }
+  ]
+}

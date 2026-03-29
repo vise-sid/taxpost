@@ -1,0 +1,835 @@
+{
+  "unit": "5.1",
+  "title": "Income from House Property",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Old to New",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 22 (chargeability of income from house property) maps to which new section?",
+          "options": [
+            { "text": "Section 20", "correct": true },
+            { "text": "Section 21", "correct": false },
+            { "text": "Section 22", "correct": false },
+            { "text": "Section 19", "correct": false }
+          ],
+          "explanation": "Old Section 22 (chargeability) maps to new Section 20. The entire HP chapter shifts: 22→20, 23→21, 24→22, 25A→23, 26→24, 27→25. Six sections replace the original eight.",
+          "explanationWrong": "Section 20 is correct. The HP chapter renumbering follows a consistent downward shift: old 22→new 20, old 23→new 21, old 24→new 22. Section 22 in the new Act actually corresponds to old Section 24 (deductions).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "chargeability-hp"],
+          "isReview": false,
+          "oldSection": "Section 22",
+          "newSection": "Section 20"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 24 (deductions from house property income — standard deduction and interest on borrowed capital) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 20", "correct": false },
+            { "text": "Section 22", "correct": true },
+            { "text": "Section 24", "correct": false },
+            { "text": "Section 21", "correct": false }
+          ],
+          "explanation": "Old Section 24 (deductions — 30% standard deduction and interest on borrowed capital) maps to new Section 22. This section also absorbs the unrealised rent provisions from old Section 25.",
+          "explanationWrong": "Section 22 is correct. Old Section 24 becomes new Section 22 — covering both the 30% standard deduction (sub-section 1) and interest on borrowed capital (sub-section 2). New Section 24 actually corresponds to old Section 26 (co-owners).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deductions-hp"],
+          "isReview": false,
+          "oldSection": "Section 24",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025 transition provisions, which section establishes that the old Income-tax Act, 1961 continues to apply for assessment of income earned before April 1, 2026?",
+          "options": [
+            { "text": "Section 536(1)", "correct": true },
+            { "text": "Section 536(2)", "correct": false },
+            { "text": "Section 535", "correct": false },
+            { "text": "Section 202", "correct": false }
+          ],
+          "explanation": "Section 536(1) establishes the parallel operation rule — the old Act continues to govern assessment of income earned in any tax year before April 1, 2026. This was covered in Unit 2.1.",
+          "explanationWrong": "Section 536(1) is correct. This is the core parallel operation provision from the transition module. Section 536(2) deals with specific transitional matters like carry-forward of losses. Section 202 governs the new tax regime, not transition.",
+          "tier": 1,
+          "subConcepts": ["parallel-operation", "section-536"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 27 (deemed ownership provisions) has been restructured in the ITA 2025. Where do the deemed ownership situations and the definition of 'owner' now reside?",
+          "options": [
+            { "text": "Entirely in Section 20", "correct": false },
+            { "text": "Section 21 (partly) and Section 25 (definition of owner)", "correct": true },
+            { "text": "Entirely in Section 25", "correct": false },
+            { "text": "Section 22 and Section 23", "correct": false }
+          ],
+          "explanation": "Old Section 27 has been split. Deemed ownership situations are partly folded into Section 21 (annual value determination), while the definition of 'owner' is placed in Section 25 (interpretation). This is structural reorganisation — the six deemed ownership categories are unchanged.",
+          "explanationWrong": "Section 21 (partly) and Section 25 is correct. The old Act lumped everything into Section 27 with provisos. The 2025 Act splits it logically — deemed ownership conditions into the annual value section and the interpretive definition of 'owner' into a standalone section.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deemed-ownership"],
+          "isReview": false,
+          "oldSection": "Section 27",
+          "newSection": "Section 21, Section 25"
+        },
+        {
+          "order": 5,
+          "question": "How many sections comprise the house property chapter in the ITA 2025, compared to the 1961 Act?",
+          "options": [
+            { "text": "8 sections in both Acts", "correct": false },
+            { "text": "6 sections (new) replacing 8 sections (old)", "correct": true },
+            { "text": "5 sections (new) replacing 7 sections (old)", "correct": false },
+            { "text": "7 sections (new) replacing 9 sections (old)", "correct": false }
+          ],
+          "explanation": "The HP chapter has been compressed from 8 sections (old Sections 22-27, including 25 and 25A) to 6 sections (new Sections 20-25). The word count dropped from 1,658 to 1,177. Most of this compression comes from merging unrealised rent into deductions and restructuring deemed ownership.",
+          "explanationWrong": "6 replacing 8 is correct. The old Act had Sections 22, 23, 24, 25, 25A, 26, and 27 (eight sections). The new Act has Sections 20 through 25 (six sections). Unrealised rent (old Section 25) was merged into Section 22, contributing to the reduction.",
+          "tier": 1,
+          "subConcepts": ["chapter-structure", "section-count"],
+          "isReview": false,
+          "oldSection": "Sections 22-27",
+          "newSection": "Sections 20-25"
+        }
+      ]
+    },
+    {
+      "title": "Pre-Construction Interest — Combined Cap",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under new Section 22(2), the Rs 2,00,000 interest deduction cap for self-occupied property explicitly includes which components?",
+          "options": [
+            { "text": "Current-year interest AND the 1/5th pre-construction interest instalment, combined", "correct": true },
+            { "text": "Current-year interest only; pre-construction interest is separate", "correct": false },
+            { "text": "Pre-construction interest only; current-year interest has no cap", "correct": false },
+            { "text": "Current-year interest AND municipal taxes combined", "correct": false }
+          ],
+          "explanation": "Section 22(2) settles a long-standing ambiguity. The Rs 2,00,000 cap is now an explicit combined cap covering both current-year interest and the 1/5th pre-construction interest instalment for that year. The aggregate of both cannot exceed Rs 2,00,000.",
+          "explanationWrong": "The combined cap is correct. Under the old Act (Section 24(b)), the interaction between current-year interest and pre-construction interest was never explicitly stated, leading to conflicting ITAT decisions. Section 22(2) resolves this — both are included within the Rs 2L cap.",
+          "tier": 1,
+          "subConcepts": ["pre-construction-interest", "combined-cap", "section-22-2"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act (Section 24(b)), the statutory text on whether the Rs 2,00,000 cap covered pre-construction interest was:",
+          "options": [
+            { "text": "Explicitly stated as a combined cap", "correct": false },
+            { "text": "Ambiguous — ITAT decisions went both ways", "correct": true },
+            { "text": "Clearly excluded pre-construction interest from the cap", "correct": false },
+            { "text": "Settled by a CBDT circular with binding force", "correct": false }
+          ],
+          "explanation": "The old Act left the interaction between the Rs 2L cap and pre-construction interest unstated. ITAT decisions were split. Most practitioners applied a combined cap, but the statutory text left room for argument. Section 22(2) of the 2025 Act eliminates this ambiguity by codifying the combined limit.",
+          "explanationWrong": "The ambiguity is correct. This was a genuine gap in old Section 24(b). The proviso capped interest at Rs 2,00,000 for self-occupied property, but the pre-construction interest provision did not specify whether the 1/5th instalment fell within or outside that cap. The new Act settles this.",
+          "tier": 1,
+          "subConcepts": ["pre-construction-interest", "old-act-ambiguity"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, for how many equal annual instalments was pre-construction interest deductible from the year of completion?",
+          "options": [
+            { "text": "3 instalments", "correct": false },
+            { "text": "5 instalments", "correct": true },
+            { "text": "8 instalments", "correct": false },
+            { "text": "10 instalments", "correct": false }
+          ],
+          "explanation": "Pre-construction interest was — and continues to be — deductible in 5 equal annual instalments starting from the year of completion. This provision is unchanged in the 2025 Act. What changed is the clarity that each instalment falls within the Rs 2L combined cap for self-occupied property.",
+          "explanationWrong": "5 instalments is correct. This is a retained provision — the pre-construction interest treatment (5 equal annual instalments from the year of completion) carries over unchanged from old Section 24(b) to new Section 22(2). The only change is the explicit combined cap.",
+          "tier": 1,
+          "subConcepts": ["pre-construction-interest", "instalment-period"],
+          "isReview": true,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 4,
+          "question": "A client has a self-occupied property with current-year interest of Rs 1,80,000 and a pre-construction interest instalment of Rs 40,000 for the year. Under Section 22(2) of the ITA 2025, what is the allowable deduction?",
+          "options": [
+            { "text": "Rs 2,20,000 (full amount of both)", "correct": false },
+            { "text": "Rs 2,00,000 (combined cap applies)", "correct": true },
+            { "text": "Rs 1,80,000 (current-year interest only)", "correct": false },
+            { "text": "Rs 2,40,000 (separate caps for each)", "correct": false }
+          ],
+          "explanation": "The combined cap under Section 22(2) limits the aggregate of current-year interest (Rs 1,80,000) and pre-construction interest instalment (Rs 40,000) to Rs 2,00,000. The total of Rs 2,20,000 is capped at Rs 2,00,000. The excess Rs 20,000 is not deductible.",
+          "explanationWrong": "Rs 2,00,000 is correct. Under the explicit combined cap in Section 22(2), the aggregate of Rs 1,80,000 + Rs 40,000 = Rs 2,20,000 is capped at Rs 2,00,000. Clients who previously claimed the full Rs 2,20,000 by treating pre-construction interest as separate are no longer on defensible ground.",
+          "tier": 1,
+          "subConcepts": ["pre-construction-interest", "combined-cap", "computation"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 5,
+          "question": "The pre-construction interest combined cap under Section 22(2) applies to which category of property?",
+          "options": [
+            { "text": "Self-occupied property only", "correct": true },
+            { "text": "Let-out property only", "correct": false },
+            { "text": "Both self-occupied and let-out property", "correct": false },
+            { "text": "Deemed let-out property only", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 combined cap applies only to self-occupied property. For let-out property, there is no cap on interest deduction — the full amount of current-year interest and pre-construction interest instalments is deductible. This distinction is unchanged from the old Act.",
+          "explanationWrong": "Self-occupied property only is correct. The Rs 2L cap has always applied exclusively to self-occupied property. Let-out property has no cap on interest deduction — the entire interest amount (including pre-construction instalments) is deductible against rental income.",
+          "tier": 1,
+          "subConcepts": ["pre-construction-interest", "self-occupied-vs-let-out"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        }
+      ]
+    },
+    {
+      "title": "Self-Occupied Property — 'Any Reason' Liberalisation",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025 (Section 21), nil annual value for a self-occupied property can now be claimed when the owner cannot occupy it for:",
+          "options": [
+            { "text": "Any reason", "correct": true },
+            { "text": "Employment at another place only", "correct": false },
+            { "text": "Business or profession at another place only", "correct": false },
+            { "text": "Government transfer only", "correct": false }
+          ],
+          "explanation": "Section 21 of the 2025 Act broadens the eligibility for nil annual value. This 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26; the 2025 Act carries it forward into Section 21. Under old Section 23(2) (pre-amendment), non-occupation had to be due to employment, business, or profession at another place.",
+          "explanationWrong": "Any reason is correct. This was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26; carried forward by the 2025 Act into Section 21. The old Act (Section 23(2) pre-amendment) was restrictive — only employment/business/profession at another place qualified.",
+          "tier": 1,
+          "subConcepts": ["self-occupied-property", "any-reason", "section-21"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 2,
+          "question": "Under old Section 23(2), what specific condition had to be met for a property to qualify for nil annual value when the owner was not occupying it?",
+          "options": [
+            { "text": "Non-occupation due to employment, business, or profession at another place, and residence in a building not owned by the owner", "correct": true },
+            { "text": "Non-occupation for any reason whatsoever", "correct": false },
+            { "text": "Non-occupation due to natural disaster or force majeure", "correct": false },
+            { "text": "Non-occupation for a continuous period of 6 months or more", "correct": false }
+          ],
+          "explanation": "Old Section 23(2) had a two-part condition: (1) non-occupation had to be because of employment, business, or profession at another place, AND (2) the owner had to reside in a building not belonging to him at that other place. Finance Act 2025 amended old Section 23(2) to remove these restrictions (operative from AY 2025-26); the 2025 Act carries this forward in Section 21.",
+          "explanationWrong": "Employment/business/profession at another place plus residing in a non-owned building is correct. This was the narrow condition under old Section 23(2). The 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26; the 2025 Act carries it forward.",
+          "tier": 1,
+          "subConcepts": ["self-occupied-property", "old-act-conditions"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 3,
+          "question": "How many self-occupied properties can a taxpayer claim for nil annual value treatment under the ITA 2025?",
+          "options": [
+            { "text": "1 property", "correct": false },
+            { "text": "2 properties", "correct": true },
+            { "text": "3 properties", "correct": false },
+            { "text": "Unlimited", "correct": false }
+          ],
+          "explanation": "The 2-property limit for self-occupied treatment is retained in the 2025 Act. This was introduced by Finance Act 2019 under the old Act and carries forward unchanged. The 'any reason' liberalisation expands who can claim nil annual value, not how many properties qualify.",
+          "explanationWrong": "2 properties is correct. The 2-property cap (introduced by Finance Act 2019) is unchanged. If a client owns three or more properties, at least one must be treated as deemed let-out regardless of the reason for non-occupation. The 'any reason' liberalisation does not override this limit.",
+          "tier": 1,
+          "subConcepts": ["self-occupied-property", "two-property-limit"],
+          "isReview": true,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21(2)"
+        },
+        {
+          "order": 4,
+          "question": "An NRI owns a flat in Mumbai that has been unoccupied for three years while the NRI resides in Dubai for personal reasons (not employment). Under the old Act (Section 23(2)), this property would be treated as:",
+          "options": [
+            { "text": "Self-occupied with nil annual value", "correct": false },
+            { "text": "Deemed let-out with notional rent taxable", "correct": true },
+            { "text": "Exempt from tax entirely", "correct": false },
+            { "text": "Subject to vacancy allowance only", "correct": false }
+          ],
+          "explanation": "Under old Section 23(2) (pre-Finance Act 2025 amendment), the NRI could not claim self-occupied status because the non-occupation was for personal reasons, not employment/business/profession. The property would be treated as deemed let-out with notional rent taxable. The 'any reason' amendment — introduced by Finance Act 2025, already operative from AY 2025-26, and carried forward by the 2025 Act into Section 21 — means this property now qualifies for nil annual value.",
+          "explanationWrong": "Deemed let-out is correct under the old Act (pre-amendment). The NRI's reason for non-occupation (personal, not employment) did not satisfy old Section 23(2). The 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2) (operative from AY 2025-26) and carried forward by the 2025 Act into Section 21.",
+          "tier": 1,
+          "subConcepts": ["self-occupied-property", "nri-impact", "deemed-let-out"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 5,
+          "question": "The 'any reason' liberalisation under Section 21 of the ITA 2025 primarily benefits which categories of taxpayers?",
+          "options": [
+            { "text": "Corporate taxpayers with commercial property", "correct": false },
+            { "text": "NRIs and multi-city professionals", "correct": true },
+            { "text": "Tenants claiming HRA deduction", "correct": false },
+            { "text": "Developers holding unsold inventory", "correct": false }
+          ],
+          "explanation": "NRIs with properties in India who could not prove employment abroad as the reason for non-occupation, and multi-city professionals with ancestral homes or secondary properties not occupied for personal reasons, are the primary beneficiaries. Both groups previously struggled to satisfy the narrow conditions of old Section 23(2).",
+          "explanationWrong": "NRIs and multi-city professionals is correct. These two groups were most affected by old Section 23(2)'s restrictive conditions. Corporate taxpayers, HRA claimants, and developers are not affected by the self-occupied property provisions — those operate under different sections entirely.",
+          "tier": 1,
+          "subConcepts": ["self-occupied-property", "any-reason", "beneficiaries"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        }
+      ]
+    },
+    {
+      "title": "Retained Provisions — Standard Deduction and Interest",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the standard deduction available from Net Annual Value under the ITA 2025?",
+          "options": [
+            { "text": "30% of Net Annual Value", "correct": true },
+            { "text": "50% of Net Annual Value", "correct": false },
+            { "text": "Rs 50,000 flat deduction", "correct": false },
+            { "text": "25% of Gross Annual Value", "correct": false }
+          ],
+          "explanation": "The 30% standard deduction from Net Annual Value is retained under Section 22(1) of the 2025 Act. This is unchanged from old Section 24(a). No actual expenses need to be proved — the 30% is a flat statutory deduction.",
+          "explanationWrong": "30% of Net Annual Value is correct. This provision carries over verbatim from old Section 24(a) to new Section 22(1). The rate has not changed. Net Annual Value = Gross Annual Value minus municipal taxes actually paid.",
+          "tier": 2,
+          "subConcepts": ["standard-deduction", "retained-provisions"],
+          "isReview": false,
+          "oldSection": "Section 24(a)",
+          "newSection": "Section 22(1)"
+        },
+        {
+          "order": 2,
+          "question": "For a let-out property under the ITA 2025, is there a cap on the deduction for interest on borrowed capital?",
+          "options": [
+            { "text": "Yes, Rs 2,00,000", "correct": false },
+            { "text": "No, the full interest amount is deductible", "correct": true },
+            { "text": "Yes, Rs 3,00,000", "correct": false },
+            { "text": "Yes, 30% of Net Annual Value", "correct": false }
+          ],
+          "explanation": "For let-out property, there is no cap on interest deduction. The full amount of interest on borrowed capital is deductible. The Rs 2,00,000 cap applies only to self-occupied property. This distinction is unchanged from the old Act.",
+          "explanationWrong": "No cap is correct. The Rs 2,00,000 cap applies only to self-occupied property under Section 22(2). Let-out property has always had unlimited interest deduction — the entire interest amount reduces the income from that property, and any resulting loss can be carried forward.",
+          "tier": 2,
+          "subConcepts": ["interest-deduction", "let-out-property", "no-cap"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under old Section 24(a), the standard deduction from house property income was 30% of Net Annual Value. In new Section 22(1), this standard deduction is:",
+          "options": [
+            { "text": "Increased to 40%", "correct": false },
+            { "text": "Reduced to 20%", "correct": false },
+            { "text": "Retained at 30%", "correct": true },
+            { "text": "Replaced with actual expenses", "correct": false }
+          ],
+          "explanation": "The 30% standard deduction is retained exactly as it was. This is one of many HP provisions that are pure renumbering with no substantive change. Old Section 24(a) maps to new Section 22(1).",
+          "explanationWrong": "Retained at 30% is correct. The HP chapter has only two substantive changes (pre-construction interest cap and self-occupied 'any reason'). The standard deduction is not one of them — it continues at 30% without modification.",
+          "tier": 2,
+          "subConcepts": ["standard-deduction", "unchanged-provisions"],
+          "isReview": true,
+          "oldSection": "Section 24(a)",
+          "newSection": "Section 22(1)"
+        },
+        {
+          "order": 4,
+          "question": "Municipal taxes are deductible from Gross Annual Value under the ITA 2025. On what basis are they deductible?",
+          "options": [
+            { "text": "Accrual basis — taxes due for the year", "correct": false },
+            { "text": "Actual payment basis — taxes actually paid during the year", "correct": true },
+            { "text": "Proportionate basis — based on occupancy period", "correct": false },
+            { "text": "Estimated basis — as determined by the assessing officer", "correct": false }
+          ],
+          "explanation": "Municipal taxes are deductible on actual payment basis — only taxes actually paid during the year are deducted from Gross Annual Value to arrive at Net Annual Value. This is unchanged from old Section 23(1) to new Section 21(1). Taxes merely due but not paid are not deductible.",
+          "explanationWrong": "Actual payment basis is correct. This is a retained provision — municipal taxes are deductible only when actually paid, not when they become due. If a taxpayer has outstanding municipal tax arrears, those are not deductible until the year of actual payment.",
+          "tier": 2,
+          "subConcepts": ["municipal-taxes", "actual-payment-basis"],
+          "isReview": false,
+          "oldSection": "Section 23(1)",
+          "newSection": "Section 21(1)"
+        },
+        {
+          "order": 5,
+          "question": "Vacancy allowance for a let-out property that was vacant for part of the year is:",
+          "options": [
+            { "text": "A new provision introduced in the ITA 2025", "correct": false },
+            { "text": "Retained unchanged from the old Act", "correct": true },
+            { "text": "Abolished in the 2025 Act", "correct": false },
+            { "text": "Available only for commercial property", "correct": false }
+          ],
+          "explanation": "Vacancy allowance is retained. If a let-out property was vacant for part of the year and the actual rent received is less than the expected rent, the actual rent received is taken as the Gross Annual Value for that property. This provision continues from old Section 23(1)(c) to Section 21(1).",
+          "explanationWrong": "Retained unchanged is correct. Vacancy allowance is not one of the two substantive changes. It carries over in the same form — if a property is let out but remains vacant for part of the year, the annual value can be reduced to reflect the actual rent received.",
+          "tier": 2,
+          "subConcepts": ["vacancy-allowance", "retained-provisions"],
+          "isReview": false,
+          "oldSection": "Section 23(1)(c)",
+          "newSection": "Section 21(1)"
+        }
+      ]
+    },
+    {
+      "title": "Deemed Ownership and Structural Changes",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many categories of deemed ownership are recognised under the ITA 2025?",
+          "options": [
+            { "text": "4 categories", "correct": false },
+            { "text": "6 categories", "correct": true },
+            { "text": "8 categories", "correct": false },
+            { "text": "3 categories", "correct": false }
+          ],
+          "explanation": "All 6 categories of deemed ownership from old Section 27 are retained: (1) transfer for inadequate consideration, (2) holder of impartible estate, (3) member of co-operative society allotted a flat, (4) possession under part performance, (5) rights under power of attorney, (6) lessee with leasehold rights. The substance is unchanged — only the structure changed from provisos to sub-sections.",
+          "explanationWrong": "6 categories is correct. The 2025 Act retains all six deemed ownership situations from old Section 27. They have been restructured from provisos into proper sub-sections across Sections 21 and 25, but no category has been added or removed.",
+          "tier": 2,
+          "subConcepts": ["deemed-ownership", "section-25"],
+          "isReview": false,
+          "oldSection": "Section 27",
+          "newSection": "Section 25"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 25 (unrealised rent) has been treated how in the ITA 2025?",
+          "options": [
+            { "text": "Retained as a standalone section", "correct": false },
+            { "text": "Merged into Section 22 (deductions)", "correct": true },
+            { "text": "Abolished entirely", "correct": false },
+            { "text": "Moved to the capital gains chapter", "correct": false }
+          ],
+          "explanation": "Unrealised rent, which was a standalone section (old Section 25), has been merged into the deductions section (new Section 22). The substance is unchanged — only the placement within the chapter has shifted. This is part of the overall structural streamlining that reduced the HP chapter from 8 to 6 sections.",
+          "explanationWrong": "Merged into Section 22 is correct. Old Section 25 (unrealised rent) no longer exists as a standalone provision. Its content is absorbed into new Section 22. Meanwhile, old Section 25A (arrears/unrealised rent received subsequently) maps to new Section 23.",
+          "tier": 2,
+          "subConcepts": ["unrealised-rent", "structural-change"],
+          "isReview": false,
+          "oldSection": "Section 25",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section governs the taxation of arrears of rent or unrealised rent received subsequently?",
+          "options": [
+            { "text": "Section 22", "correct": false },
+            { "text": "Section 23", "correct": true },
+            { "text": "Section 25", "correct": false },
+            { "text": "Section 20", "correct": false }
+          ],
+          "explanation": "Old Section 25A (arrears/unrealised rent received subsequently) maps to new Section 23. A 30% standard deduction continues to be available on such receipts — this is unchanged.",
+          "explanationWrong": "Section 23 is correct. The mapping is: old 25A → new 23. Section 22 covers deductions (old Section 24), Section 25 covers interpretation and deemed ownership (old Section 27), and Section 20 covers chargeability (old Section 22).",
+          "tier": 2,
+          "subConcepts": ["arrears-rent", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 25A",
+          "newSection": "Section 23"
+        },
+        {
+          "order": 4,
+          "question": "The HP chapter in the 1961 Act extensively used provisos and explanations. How has the 2025 Act treated these?",
+          "options": [
+            { "text": "Retained all provisos as-is", "correct": false },
+            { "text": "Converted provisos and explanations into numbered sub-sections", "correct": true },
+            { "text": "Deleted all provisos without replacement", "correct": false },
+            { "text": "Moved all provisos to a separate Schedule", "correct": false }
+          ],
+          "explanation": "The 2025 Act converts provisos and explanations into numbered sub-sections throughout the HP chapter. This is a structural-only change — the legal effect is identical, but the drafting is cleaner and easier to navigate. This approach is consistent across the entire 2025 Act, not just the HP chapter.",
+          "explanationWrong": "Conversion to numbered sub-sections is correct. This is one of the key drafting improvements in the 2025 Act. Provisos (which in the old Act created exceptions within exceptions) are now standalone sub-sections, making the law more readable without changing its effect.",
+          "tier": 2,
+          "subConcepts": ["structural-change", "provisos-to-subsections"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Co-owner taxation under the ITA 2025 is governed by which section?",
+          "options": [
+            { "text": "Section 22", "correct": false },
+            { "text": "Section 24", "correct": true },
+            { "text": "Section 20", "correct": false },
+            { "text": "Section 25", "correct": false }
+          ],
+          "explanation": "Old Section 26 (co-owners) maps to new Section 24. Each co-owner continues to be taxed on their proportionate share of income from the property. This provision is unchanged in substance.",
+          "explanationWrong": "Section 24 is correct. The mapping is old 26 → new 24. The principle remains the same: each co-owner is assessed separately on their share of income from the jointly owned property.",
+          "tier": 2,
+          "subConcepts": ["co-owner-taxation", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 26",
+          "newSection": "Section 24"
+        }
+      ]
+    },
+    {
+      "title": "Why the Changes Matter — Conceptual Understanding",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why is the pre-construction interest combined cap in Section 22(2) considered significant, even though most practitioners were already applying a combined cap?",
+          "options": [
+            { "text": "It eliminates the litigation risk from taxpayers challenging the combined cap position", "correct": true },
+            { "text": "It increases the cap amount from Rs 1,50,000 to Rs 2,00,000", "correct": false },
+            { "text": "It introduces pre-construction interest deduction for the first time", "correct": false },
+            { "text": "It changes the instalment period from 5 years to 3 years", "correct": false }
+          ],
+          "explanation": "The significance is not in changing practice — most practitioners already applied the combined cap. The significance is that the statutory ambiguity is eliminated. Clients who were claiming pre-construction interest as additional to the Rs 2L cap can no longer argue their position. The litigation risk disappears from both sides.",
+          "explanationWrong": "Eliminating litigation risk is correct. The cap amount remains Rs 2,00,000 and the instalment period remains 5 years — neither changed. The value of Section 22(2) is purely in codifying what was previously an interpretive position, removing the basis for conflicting ITAT decisions.",
+          "tier": 2,
+          "subConcepts": ["pre-construction-interest", "litigation-risk", "codification"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 2,
+          "question": "What is the primary practical action required for practitioners regarding NRI clients following the 'any reason' liberalisation?",
+          "options": [
+            { "text": "Reassess properties classified as deemed let-out that failed the old employment condition", "correct": true },
+            { "text": "File revised returns for all prior years", "correct": false },
+            { "text": "Reclassify all NRI properties as exempt", "correct": false },
+            { "text": "Obtain NOC from the municipal authority", "correct": false }
+          ],
+          "explanation": "Properties that were treated as deemed let-out solely because the NRI could not satisfy the 'employment at another place' condition may now qualify for nil annual value under Section 21. The practical step is to review NRI portfolios and reassess classification — subject to the 2-property cap.",
+          "explanationWrong": "Reassessing deemed let-out properties is correct. This is a forward-looking exercise — the liberalisation applies from Tax Year 2026-27 onwards. Prior years filed under the old Act remain governed by old Section 23(2). The action is to reclassify eligible properties going forward.",
+          "tier": 2,
+          "subConcepts": ["self-occupied-property", "nri-review", "practice-action"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, old Section 22 was the charging section for income from house property. In the ITA 2025, the charging section is:",
+          "options": [
+            { "text": "Section 20", "correct": true },
+            { "text": "Section 22", "correct": false },
+            { "text": "Section 21", "correct": false },
+            { "text": "Section 25", "correct": false }
+          ],
+          "explanation": "Old Section 22 (chargeability) maps to new Section 20. This is the starting point of the HP chapter in both Acts — income from house property is chargeable to tax under the head 'Income from House Property.'",
+          "explanationWrong": "Section 20 is correct. The mapping is straightforward: old 22→new 20. Note that Section 22 in the new Act is not the charging section — it corresponds to old Section 24 (deductions). This is a common source of confusion given that the old charging section number (22) is reused for a different purpose in the new Act.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "chargeability"],
+          "isReview": true,
+          "oldSection": "Section 22",
+          "newSection": "Section 20"
+        },
+        {
+          "order": 4,
+          "question": "The HP chapter word count dropped from 1,658 to 1,177 words. What primarily drove this reduction?",
+          "options": [
+            { "text": "Abolition of several HP provisions", "correct": false },
+            { "text": "Conversion of provisos to sub-sections and merger of unrealised rent into the deductions section", "correct": true },
+            { "text": "Removal of deemed ownership provisions", "correct": false },
+            { "text": "Elimination of the standard deduction", "correct": false }
+          ],
+          "explanation": "The word count reduction is primarily structural — provisos and explanations (which tend to be verbose) were converted into numbered sub-sections, and unrealised rent was merged from a standalone section into the deductions section. No substantive provisions were abolished. All six deemed ownership categories, the standard deduction, and all other provisions are retained.",
+          "explanationWrong": "Structural streamlining is correct. The reduction is about better drafting, not fewer provisions. Provisos in the old Act were wordy by nature ('Provided that... provided further that...'). Converting them to numbered sub-sections achieves the same legal effect in fewer words.",
+          "tier": 2,
+          "subConcepts": ["structural-change", "word-count", "drafting-improvement"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A CA with an ancestral home in Jaipur lives in Mumbai for personal reasons (family preference, not professional). Under the old Act, this property would typically be treated as:",
+          "options": [
+            { "text": "Self-occupied with nil annual value", "correct": false },
+            { "text": "Deemed let-out, because non-occupation was not for employment/business/profession", "correct": true },
+            { "text": "Exempt from tax as ancestral property", "correct": false },
+            { "text": "Taxable under capital gains", "correct": false }
+          ],
+          "explanation": "Under old Section 23(2), non-occupation had to be due to employment, business, or profession at another place. Living in Mumbai for personal/family reasons would not satisfy this condition, making the Jaipur property deemed let-out. Under new Section 21, the 'any reason' liberalisation means this property can now qualify for nil annual value.",
+          "explanationWrong": "Deemed let-out is correct under the old Act. The CA's reason for non-occupation (family preference) is personal, not professional. Old Section 23(2) required a professional nexus. This is exactly the type of scenario where the 'any reason' liberalisation in new Section 21 makes a real difference.",
+          "tier": 2,
+          "subConcepts": ["self-occupied-property", "any-reason", "multi-city-professional"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        }
+      ]
+    },
+    {
+      "title": "HP Computation — Applied Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A taxpayer owns a self-occupied property with Gross Annual Value of nil, municipal taxes paid of Rs 15,000, current-year interest of Rs 1,50,000, and pre-construction interest instalment of Rs 60,000. Under Section 22(2), the loss from house property is:",
+          "options": [
+            { "text": "Rs 2,10,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,25,000", "correct": false }
+          ],
+          "explanation": "Self-occupied property: GAV = Nil, so NAV = Nil (municipal taxes not relevant when GAV is nil). Standard deduction = nil (30% of nil). Interest: Rs 1,50,000 + Rs 60,000 = Rs 2,10,000, but combined cap limits this to Rs 2,00,000. Loss = Rs 2,00,000.",
+          "explanationWrong": "Rs 2,00,000 is correct. The total interest of Rs 2,10,000 (Rs 1,50,000 current + Rs 60,000 pre-construction) exceeds the Rs 2L combined cap. For self-occupied property, GAV is nil, so the loss equals the capped interest deduction of Rs 2,00,000.",
+          "tier": 3,
+          "subConcepts": ["hp-computation", "combined-cap", "self-occupied"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 2,
+          "question": "A let-out property has actual rent of Rs 3,60,000 per annum, municipal taxes paid of Rs 60,000, and interest on housing loan of Rs 3,50,000. Under the ITA 2025, the income (or loss) from this property is:",
+          "options": [
+            { "text": "Loss of Rs 2,00,000", "correct": false },
+            { "text": "Loss of Rs 1,40,000", "correct": true },
+            { "text": "Loss of Rs 1,60,000", "correct": false },
+            { "text": "Income of Rs 2,10,000", "correct": false }
+          ],
+          "explanation": "GAV = Rs 3,60,000. Less municipal taxes paid Rs 60,000 = NAV Rs 3,00,000. Less 30% standard deduction (Rs 90,000) = Rs 2,10,000. Less interest Rs 3,50,000 (no cap for let-out property) = Loss of Rs 1,40,000. The full interest is deductible because there is no cap for let-out property.",
+          "explanationWrong": "Loss of Rs 1,40,000 is correct. Step-by-step: GAV Rs 3,60,000 minus municipal taxes Rs 60,000 = NAV Rs 3,00,000. Less 30% SD (Rs 90,000) = Rs 2,10,000. Less full interest Rs 3,50,000 (no cap for let-out) = Loss Rs 1,40,000. The Rs 2L cap applies only to self-occupied property, not let-out.",
+          "tier": 3,
+          "subConcepts": ["hp-computation", "let-out-property", "no-interest-cap"],
+          "isReview": false,
+          "oldSection": "Section 24",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the Rs 2,00,000 cap on inter-head set-off of house property loss is found in which section?",
+          "options": [
+            { "text": "Section 71(3A)", "correct": false },
+            { "text": "Section 109(1)(b)", "correct": true },
+            { "text": "Section 110", "correct": false },
+            { "text": "Section 22(2)", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 cap on inter-head set-off of HP loss maps from old Section 71(3A) to new Section 109(1)(b). This is a renumbering — the cap amount and mechanism are unchanged. Section 22(2) is the interest deduction cap within the HP computation, not the loss set-off cap.",
+          "explanationWrong": "Section 109(1)(b) is correct. The mapping is 71(3A) → 109(1)(b). Do not confuse this with Section 22(2) — that governs the interest deduction cap within the HP income computation. Section 109(1)(b) governs the inter-head loss set-off cap, which operates after HP income/loss is computed.",
+          "tier": 3,
+          "subConcepts": ["loss-set-off", "inter-head-cap", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109(1)(b)"
+        },
+        {
+          "order": 4,
+          "question": "An NRI owns three properties in India — all unoccupied. Under the ITA 2025 (Section 21), how should these be classified?",
+          "options": [
+            { "text": "All three as self-occupied with nil annual value", "correct": false },
+            { "text": "Two as self-occupied (nil annual value) and one as deemed let-out (notional rent taxable)", "correct": true },
+            { "text": "All three as deemed let-out", "correct": false },
+            { "text": "One as self-occupied and two as deemed let-out", "correct": false }
+          ],
+          "explanation": "The 'any reason' liberalisation allows the NRI to claim self-occupied status for non-occupation regardless of reason. However, the 2-property cap still applies. The NRI can designate any two properties as self-occupied (nil annual value), but the third must be treated as deemed let-out with notional rent computed and taxed.",
+          "explanationWrong": "Two self-occupied and one deemed let-out is correct. The 'any reason' liberalisation expands who can claim nil annual value, but does not override the 2-property limit. Even with the broader eligibility, a maximum of two properties can be treated as self-occupied.",
+          "tier": 3,
+          "subConcepts": ["self-occupied-property", "two-property-limit", "nri-impact"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 5,
+          "question": "A client has current-year interest of Rs 2,00,000 on a self-occupied property and a pre-construction interest instalment of Rs 50,000 for the same property. Under Section 22(2), the deductible interest and the non-deductible portion are:",
+          "options": [
+            { "text": "Deductible: Rs 2,50,000; Non-deductible: Nil", "correct": false },
+            { "text": "Deductible: Rs 2,00,000; Non-deductible: Rs 50,000", "correct": true },
+            { "text": "Deductible: Rs 2,00,000; Non-deductible: Nil (pre-construction claimed separately)", "correct": false },
+            { "text": "Deductible: Rs 1,50,000; Non-deductible: Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "The combined cap of Rs 2,00,000 applies to the aggregate of current-year interest and pre-construction interest. Total = Rs 2,00,000 + Rs 50,000 = Rs 2,50,000. Cap = Rs 2,00,000. Deductible = Rs 2,00,000. Non-deductible = Rs 50,000. The client cannot claim the pre-construction instalment as a separate deduction above the cap.",
+          "explanationWrong": "Deductible Rs 2,00,000 and non-deductible Rs 50,000 is correct. Under the old Act's ambiguity, some taxpayers argued for separate treatment. Section 22(2) forecloses that argument — the combined cap is explicit. The Rs 50,000 excess is simply lost; it cannot be carried forward or claimed elsewhere.",
+          "tier": 3,
+          "subConcepts": ["pre-construction-interest", "combined-cap", "excess-interest"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Property Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A taxpayer owns two properties — Property A (self-occupied, interest Rs 1,50,000) and Property B (let-out, rent Rs 2,40,000 per annum, interest Rs 2,00,000, municipal taxes paid Rs 40,000). What is the total income/loss from house property under the ITA 2025?",
+          "options": [
+            { "text": "Loss of Rs 2,90,000", "correct": false },
+            { "text": "Loss of Rs 2,10,000", "correct": true },
+            { "text": "Loss of Rs 1,50,000", "correct": false },
+            { "text": "Loss of Rs 60,000", "correct": false }
+          ],
+          "explanation": "Property A (self-occupied): GAV = nil, standard deduction = nil. Interest = Rs 1,50,000 (within Rs 2L cap). Loss = Rs 1,50,000. Property B (let-out): GAV = Rs 2,40,000. Less municipal taxes Rs 40,000 = NAV Rs 2,00,000. Less 30% SD (Rs 60,000) = Rs 1,40,000. Less interest Rs 2,00,000 (no cap for let-out) = Loss Rs 60,000. Total HP loss = Rs 1,50,000 + Rs 60,000 = Rs 2,10,000.",
+          "explanationWrong": "Loss of Rs 2,10,000 is correct. Property A (self-occupied): Loss = Rs 1,50,000 (interest within Rs 2L cap, no standard deduction on nil GAV). Property B (let-out): GAV Rs 2,40,000 minus municipal taxes Rs 40,000 = NAV Rs 2,00,000. Less 30% SD (Rs 60,000) = Rs 1,40,000. Less interest Rs 2,00,000 (no cap for let-out) = Loss Rs 60,000. Total = Rs 1,50,000 + Rs 60,000 = Rs 2,10,000.",
+          "tier": 3,
+          "subConcepts": ["multi-property", "hp-computation", "aggregation"],
+          "isReview": false,
+          "oldSection": "Section 24",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 2,
+          "question": "When arrears of rent are received in a subsequent year under Section 23 of the ITA 2025, what deduction is available?",
+          "options": [
+            { "text": "No deduction — full amount is taxable", "correct": false },
+            { "text": "30% standard deduction", "correct": true },
+            { "text": "50% standard deduction", "correct": false },
+            { "text": "Deduction of actual expenses incurred in recovery", "correct": false }
+          ],
+          "explanation": "When arrears of rent or unrealised rent is received subsequently, a 30% standard deduction is available under Section 23 (corresponding to old Section 25A). The remaining 70% is taxable as income from house property in the year of receipt. This provision is unchanged.",
+          "explanationWrong": "30% standard deduction is correct. This carries over from old Section 25A to new Section 23 without change. The 30% is a flat statutory deduction — no actual expenses need to be proved. The receipt is taxable regardless of whether the taxpayer still owns the property.",
+          "tier": 3,
+          "subConcepts": ["arrears-rent", "standard-deduction", "subsequent-receipt"],
+          "isReview": false,
+          "oldSection": "Section 25A",
+          "newSection": "Section 23"
+        },
+        {
+          "order": 3,
+          "question": "The 'any reason' liberalisation for self-occupied property in Section 21 of the ITA 2025 was originally introduced by which legislation?",
+          "options": [
+            { "text": "Finance Act 2024", "correct": false },
+            { "text": "Finance Act 2025", "correct": true },
+            { "text": "Income Tax Amendment Act 2023", "correct": false },
+            { "text": "It was first introduced in the ITA 2025 itself", "correct": false }
+          ],
+          "explanation": "The 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26. The ITA 2025 carries it forward into new Section 21. It was not an original feature of either the old Act or the 2025 Act independently.",
+          "explanationWrong": "Finance Act 2025 is correct. The amendment was made to old Section 23(2) and was already operative from AY 2025-26 before the 2025 Act codified it into Section 21. This is not a new 2025 Act change — it was already in effect under the old Act.",
+          "tier": 3,
+          "subConcepts": ["self-occupied-property", "any-reason", "legislative-history"],
+          "isReview": true,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 4,
+          "question": "A taxpayer under the old Act claimed current-year interest of Rs 2,00,000 plus a pre-construction instalment of Rs 35,000 (total Rs 2,35,000) on a self-occupied property. Under the ITA 2025, what is the maximum annual interest deduction claim for this property going forward?",
+          "options": [
+            { "text": "Rs 2,35,000 — grandfathered from the old position", "correct": false },
+            { "text": "Rs 2,00,000 — combined cap applies with no grandfathering", "correct": true },
+            { "text": "Rs 2,00,000 for current interest plus Rs 35,000 pre-construction separately", "correct": false },
+            { "text": "Rs 1,50,000 — reduced cap under the new Act", "correct": false }
+          ],
+          "explanation": "There is no grandfathering of the old position. From Tax Year 2026-27, the explicit combined cap of Rs 2,00,000 under Section 22(2) applies. The aggregate of current-year interest and pre-construction instalment cannot exceed Rs 2,00,000. The old claim of Rs 2,35,000 is no longer defensible.",
+          "explanationWrong": "Rs 2,00,000 combined cap with no grandfathering is correct. The 2025 Act does not preserve the old ambiguous position. Clients who were claiming separately must adjust their computations downward. The cap amount itself is unchanged — what changed is the explicit inclusion of pre-construction interest within it.",
+          "tier": 3,
+          "subConcepts": ["pre-construction-interest", "combined-cap", "no-grandfathering"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 5,
+          "question": "A person is deemed owner of a property under Section 25 of the ITA 2025 by virtue of holding possession under a transaction of part performance (old Section 53A of the Transfer of Property Act). The income from this property is taxable under:",
+          "options": [
+            { "text": "Capital Gains, since the property is not legally owned", "correct": false },
+            { "text": "Income from House Property, under the deemed ownership provisions", "correct": true },
+            { "text": "Income from Other Sources, as the person is not the legal owner", "correct": false },
+            { "text": "Business Income, if the property is used for business", "correct": false }
+          ],
+          "explanation": "Deemed ownership under Section 25 (old Section 27) means the person is treated as the owner for the purposes of the HP chapter. Income from the property is therefore taxable under the head 'Income from House Property' under Section 20 (chargeability), exactly as if the person were the legal owner. All six deemed ownership categories receive this treatment.",
+          "explanationWrong": "Income from House Property is correct. The entire purpose of the deemed ownership provision is to bring properties into the HP head even when legal ownership has not transferred. The deemed owner computes HP income using the same rules — GAV, NAV, standard deduction, interest — as a legal owner.",
+          "tier": 3,
+          "subConcepts": ["deemed-ownership", "chargeability", "part-performance"],
+          "isReview": false,
+          "oldSection": "Section 27",
+          "newSection": "Section 25"
+        }
+      ]
+    },
+    {
+      "title": "Section Reference Updates in Practice",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "In a return filed under the ITA 2025, references to the standard deduction from HP income should cite:",
+          "options": [
+            { "text": "Section 22(1)", "correct": true },
+            { "text": "Section 24(a)", "correct": false },
+            { "text": "Section 20(1)", "correct": false },
+            { "text": "Section 21(1)", "correct": false }
+          ],
+          "explanation": "Old Section 24(a) (standard deduction) maps to new Section 22(1). Using old section numbers in returns filed under the 2025 Act will create processing mismatches and potential notices. Update all computation sheets and templates.",
+          "explanationWrong": "Section 22(1) is correct. The critical reference updates: 24(a)→22(1) for standard deduction, 24(b)→22(2) for interest deduction, 23(2)→21(2) for self-occupied property, 71(3A)→109(1)(b) for HP loss set-off cap.",
+          "tier": 3,
+          "subConcepts": ["section-reference-update", "standard-deduction"],
+          "isReview": false,
+          "oldSection": "Section 24(a)",
+          "newSection": "Section 22(1)"
+        },
+        {
+          "order": 2,
+          "question": "A computation sheet references 'Section 24(b)' for interest on borrowed capital in a return for Tax Year 2026-27. This is:",
+          "options": [
+            { "text": "Correct — the old section numbers continue to apply", "correct": false },
+            { "text": "Incorrect — should reference Section 22(2) under the ITA 2025", "correct": true },
+            { "text": "Acceptable — either reference is valid", "correct": false },
+            { "text": "Correct for self-occupied property but incorrect for let-out", "correct": false }
+          ],
+          "explanation": "From Tax Year 2026-27, the ITA 2025 governs. All section references must use the new numbering. Old Section 24(b) is now Section 22(2). Using outdated references creates processing mismatches and may trigger notices.",
+          "explanationWrong": "Section 22(2) is the correct reference. The old Act section numbers have no legal standing in returns filed under the 2025 Act. This applies uniformly — whether the property is self-occupied or let-out, the interest deduction provision is Section 22(2).",
+          "tier": 3,
+          "subConcepts": ["section-reference-update", "interest-deduction", "compliance"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 3,
+          "question": "How many substantive changes does the HP chapter contain in the ITA 2025 compared to the 1961 Act?",
+          "options": [
+            { "text": "Five substantive changes", "correct": false },
+            { "text": "Two substantive changes", "correct": true },
+            { "text": "No substantive changes — all renumbering", "correct": false },
+            { "text": "Three substantive changes", "correct": false }
+          ],
+          "explanation": "The HP chapter contains exactly two substantive changes: (1) the pre-construction interest combined cap clarification in Section 22(2), and (2) the self-occupied 'any reason' liberalisation in Section 21. Everything else — standard deduction, interest caps, deemed ownership, co-owner rules, vacancy allowance — is unchanged in substance.",
+          "explanationWrong": "Two substantive changes is correct. This is the central takeaway of Unit 5.1. Despite the structural overhaul (8 sections to 6, provisos to sub-sections, 1,658 to 1,177 words), the actual legal changes are limited to two provisions. Knowing this prevents over-reaction to the renumbering.",
+          "tier": 3,
+          "subConcepts": ["substantive-changes", "summary"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A multi-city professional owns a flat in Delhi (occupied) and a villa in Goa (unoccupied, personal use only — not employment-related). Under the ITA 2025, the Goa villa should be classified as:",
+          "options": [
+            { "text": "Deemed let-out with notional rent", "correct": false },
+            { "text": "Self-occupied with nil annual value (if within the 2-property limit)", "correct": true },
+            { "text": "Exempt from house property tax", "correct": false },
+            { "text": "Taxable under Income from Other Sources", "correct": false }
+          ],
+          "explanation": "Under the 'any reason' liberalisation in Section 21, the Goa villa qualifies for nil annual value even though non-occupation is for personal (not professional) reasons. Since the taxpayer owns only two properties, both are within the 2-property limit. Under the old Act, the Goa villa would have been deemed let-out because the reason was not employment-related.",
+          "explanationWrong": "Self-occupied with nil annual value is correct. Two conditions are satisfied: (1) the 'any reason' rule means personal non-occupation qualifies, and (2) only two properties are owned, so both can be self-occupied. This is a direct benefit of the Section 21 liberalisation.",
+          "tier": 3,
+          "subConcepts": ["self-occupied-property", "any-reason", "two-property-limit", "multi-city"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 5,
+          "question": "The HP computation framework under the ITA 2025 follows this sequence: (1) Determine GAV, (2) Deduct municipal taxes paid to arrive at NAV, (3) Deduct 30% standard deduction, (4) Deduct interest on borrowed capital. This sequence is:",
+          "options": [
+            { "text": "Newly introduced in the 2025 Act", "correct": false },
+            { "text": "Modified — step 3 now comes before step 2", "correct": false },
+            { "text": "Identical to the old Act — only section references have changed", "correct": true },
+            { "text": "Applicable only to let-out property", "correct": false }
+          ],
+          "explanation": "The HP computation sequence is completely unchanged. The framework is identical: GAV → less municipal taxes = NAV → less 30% SD → less interest = Income/Loss from HP. Only the section references have changed (old 23/24 → new 21/22). If you know how to compute HP income under the old Act, you know how to compute it under the new Act.",
+          "explanationWrong": "Identical to the old Act is correct. This is the bottom line of Unit 5.1 — the computation itself is unchanged. Update section numbers, apply the two substantive changes (combined cap and 'any reason'), and everything else carries over. The HP chapter is one of the cleanest migrations in the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["hp-computation", "unchanged-framework", "summary"],
+          "isReview": false,
+          "oldSection": "Sections 23-24",
+          "newSection": "Sections 21-22"
+        }
+      ]
+    }
+  ]
+}

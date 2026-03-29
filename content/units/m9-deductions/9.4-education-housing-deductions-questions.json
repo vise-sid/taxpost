@@ -1,0 +1,835 @@
+{
+  "unit": "9.4",
+  "title": "Education & Housing Deductions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 129 — Education Loan Interest Basics",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80E (interest on education loan) maps to which section under the ITA 2025?",
+          "options": [
+            { "text": "Section 129", "correct": true },
+            { "text": "Section 130", "correct": false },
+            { "text": "Section 134", "correct": false },
+            { "text": "Section 132", "correct": false }
+          ],
+          "explanation": "Old Section 80E maps to Section 129 under the ITA 2025. This is a straight renumbering — all conditions, the no-cap structure, and the 8-year window continue unchanged. Section 130 is the first-time homebuyer section (old 80EE), Section 132 is for electric vehicles (old 80EEB), and Section 134 is for rent without HRA (old 80GG).",
+          "explanationWrong": "Section 129 is correct. The mapping is: 80E → 129, 80EE → 130, 80EEA → 131, 80EEB → 132, 80GG → 134. All five sections in this cluster are renumbered only — no substantive changes. Getting the number mapping right is the foundation for everything else in this unit.",
+          "tier": 1,
+          "subConcepts": ["section-129-mapping", "old-80E"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 2,
+          "question": "What is the maximum monetary limit on the deduction available under Section 129 for interest on an education loan?",
+          "options": [
+            { "text": "Rs 1,50,000 per year", "correct": false },
+            { "text": "Rs 2,00,000 per year", "correct": false },
+            { "text": "No monetary cap — the entire interest amount is deductible", "correct": true },
+            { "text": "Rs 50,000 per year", "correct": false }
+          ],
+          "explanation": "Section 129 allows deduction of the entire interest component paid on the education loan — there is no monetary cap. This makes it one of the more generous deductions in the Act. The deduction is available for 8 consecutive assessment years starting from the year in which interest is first paid, or until fully repaid, whichever is earlier.",
+          "explanationWrong": "There is no monetary cap under Section 129. The entire interest paid is deductible. Do not confuse this with Section 131 or 132 (Rs 1,50,000 cap) or Section 130 (Rs 50,000 cap). The no-cap feature is a distinctive strength of the education loan deduction — the only limit is the 8-year time window.",
+          "tier": 1,
+          "subConcepts": ["section-129-no-cap", "education-loan-interest"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.3 (Health & Disability Deductions), old Section 80DDB mapped to which new section for medical treatment of specified diseases?",
+          "options": [
+            { "text": "Section 128", "correct": true },
+            { "text": "Section 129", "correct": false },
+            { "text": "Section 126", "correct": false },
+            { "text": "Section 134", "correct": false }
+          ],
+          "explanation": "Old Section 80DDB (medical treatment of specified diseases) maps to Section 128 under the ITA 2025. Section 129 is for education loan interest (old 80E), which is this unit's topic. Getting cross-unit mappings right builds the complete mental map of Chapter VIII deductions.",
+          "explanationWrong": "Section 128 is the correct mapping for old 80DDB. Section 129 is for education loan interest (old 80E) — a different deduction entirely. The numbering in the 2025 Act follows a logical sequence within the deductions chapter, so health-related sections (126-128) precede education and housing sections (129-134).",
+          "tier": 1,
+          "subConcepts": ["section-128-review", "cross-unit-mapping"],
+          "isReview": true,
+          "oldSection": "Section 80DDB",
+          "newSection": "Section 128"
+        },
+        {
+          "order": 4,
+          "question": "For how many consecutive assessment years is the deduction under Section 129 (education loan interest) available?",
+          "options": [
+            { "text": "5 years from the date of taking the loan", "correct": false },
+            { "text": "10 years from the first repayment", "correct": false },
+            { "text": "8 years starting from the year interest is first paid, or until fully repaid — whichever is earlier", "correct": true },
+            { "text": "No time limit — available throughout the loan tenure", "correct": false }
+          ],
+          "explanation": "The deduction under Section 129 is available for 8 consecutive assessment years, starting from the assessment year in which interest is first paid, or until the interest is fully repaid, whichever is earlier. This 8-year window is unchanged from old Section 80E. Note the trigger: it starts from when interest is first paid, not from when the loan is sanctioned.",
+          "explanationWrong": "8 years is the correct window. The start date is the assessment year in which interest is first paid — not the year the loan is taken or the year of course completion. If a moratorium delays interest payments, the 8-year clock starts only when actual payment begins. This distinction matters in practice for education loans with grace periods.",
+          "tier": 1,
+          "subConcepts": ["section-129-duration", "8-year-window"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 5,
+          "question": "Who can claim the deduction under Section 129 for education loan interest?",
+          "options": [
+            { "text": "Any assessee — individual, HUF, or firm", "correct": false },
+            { "text": "Individual only", "correct": true },
+            { "text": "Individual and HUF", "correct": false },
+            { "text": "The educational institution that receives the loan proceeds", "correct": false }
+          ],
+          "explanation": "Section 129 is available to individuals only. The individual can claim the deduction for a loan taken for higher education of self, spouse, children, or a student for whom the assessee is the legal guardian. No other category of assessee — HUF, firm, company, or trust — can claim this deduction.",
+          "explanationWrong": "Only individuals can claim Section 129. HUFs are specifically excluded — a common trap, since some Chapter VIII deductions are available to both individuals and HUFs (e.g., Section 123 for life insurance, PPF). Always check the eligible assessee category for each deduction separately.",
+          "tier": 1,
+          "subConcepts": ["section-129-eligible-assessee", "individual-only"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        }
+      ]
+    },
+    {
+      "title": "Sunset Sections 130, 131, 132 — Housing & EV Deductions",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 130 (old 80EE) provides an additional deduction for first-time homebuyers. What is the maximum annual deduction amount?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": false }
+          ],
+          "explanation": "Section 130 allows an additional deduction of Rs 50,000 per year on housing loan interest for first-time homebuyers. This is over and above the Section 44 (old Section 24(b)) limit of Rs 2,00,000. However, this section is sunset — only loans sanctioned during FY 2016-17 qualify, so no new claims can arise.",
+          "explanationWrong": "Rs 50,000 is the correct amount for Section 130. Do not confuse it with Section 131 (Rs 1,50,000 for affordable housing) or Section 132 (Rs 1,50,000 for electric vehicles). The Rs 50,000 limit for Section 130 is the lowest among the three sunset sections, reflecting its older vintage — it was introduced for FY 2016-17 loans only.",
+          "tier": 1,
+          "subConcepts": ["section-130-limit", "first-time-homebuyer"],
+          "isReview": false,
+          "oldSection": "Section 80EE",
+          "newSection": "Section 130"
+        },
+        {
+          "order": 2,
+          "question": "What is the loan sanction window for Section 131 (affordable housing deduction)?",
+          "options": [
+            { "text": "1 April 2016 to 31 March 2017", "correct": false },
+            { "text": "1 April 2019 to 31 March 2022", "correct": true },
+            { "text": "1 April 2019 to 31 March 2023", "correct": false },
+            { "text": "1 April 2017 to 31 March 2021", "correct": false }
+          ],
+          "explanation": "Section 131 (old 80EEA) required loans to be sanctioned between 1 April 2019 and 31 March 2022. This window has closed, making the section sunset. The stamp duty value of the property must not exceed Rs 45,00,000. Existing claims from loans sanctioned within this window continue under transitional provisions.",
+          "explanationWrong": "1 April 2019 to 31 March 2022 is the correct window for Section 131. The trap is confusing it with Section 132 (EV loans: 2019-2023) or Section 130 (first-time homebuyers: FY 2016-17 only). Each sunset section has a different window — memorise the end dates: 2017, 2022, 2023.",
+          "tier": 1,
+          "subConcepts": ["section-131-window", "affordable-housing"],
+          "isReview": false,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.2, which new section replaced old Section 80C for deductions on investments and savings up to Rs 1,50,000?",
+          "options": [
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 129", "correct": false },
+            { "text": "Section 131", "correct": false },
+            { "text": "Section 134", "correct": false }
+          ],
+          "explanation": "Old Section 80C maps to Section 123 under the ITA 2025, covering the Rs 1,50,000 investment and savings deduction (life insurance, PPF, ELSS, etc.). This is separate from the education and housing deductions in the current unit. Section 123 remains one of the most widely used deductions in practice.",
+          "explanationWrong": "Section 123 is the correct mapping for old 80C. Section 129 is education loan interest (old 80E), Section 131 is affordable housing (old 80EEA), and Section 134 is rent without HRA (old 80GG). These are all Chapter VIII deductions but serve completely different purposes.",
+          "tier": 1,
+          "subConcepts": ["section-123-review", "80C-mapping"],
+          "isReview": true,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 4,
+          "question": "Section 132 (old 80EEB) provides a deduction for interest on electric vehicle loans. What is the maximum stamp duty value condition for this section?",
+          "options": [
+            { "text": "Stamp duty value must not exceed Rs 45,00,000", "correct": false },
+            { "text": "Property value must not exceed Rs 50,00,000", "correct": false },
+            { "text": "There is no stamp duty or value condition — it applies to any electric vehicle", "correct": true },
+            { "text": "Vehicle cost must not exceed Rs 15,00,000", "correct": false }
+          ],
+          "explanation": "Section 132 has no stamp duty or vehicle value condition. The only conditions are: (a) the loan must be sanctioned between 1 April 2019 and 31 March 2023, (b) the vehicle must be electric, and (c) the assessee must be an individual. The deduction is up to Rs 1,50,000 on the interest component. The stamp duty condition of Rs 45,00,000 belongs to Section 131 (affordable housing), not Section 132.",
+          "explanationWrong": "Section 132 has no stamp duty or value condition. The Rs 45,00,000 stamp duty limit belongs to Section 131 (affordable housing). The Rs 50,00,000 property value limit belongs to Section 130 (first-time homebuyer). Section 132 applies to any electric vehicle regardless of cost — the only gating factor is the loan sanction window (2019-2023).",
+          "tier": 1,
+          "subConcepts": ["section-132-conditions", "ev-loan-no-value-cap"],
+          "isReview": false,
+          "oldSection": "Section 80EEB",
+          "newSection": "Section 132"
+        },
+        {
+          "order": 5,
+          "question": "How many of the five sections in this unit (129, 130, 131, 132, 134) are fully operative and accept new claims?",
+          "options": [
+            { "text": "One — only Section 129", "correct": false },
+            { "text": "Two — Sections 129 and 134", "correct": true },
+            { "text": "Three — Sections 129, 132, and 134", "correct": false },
+            { "text": "All five remain operative", "correct": false }
+          ],
+          "explanation": "Only two sections are fully operative: Section 129 (education loan interest) and Section 134 (rent without HRA). The other three — Sections 130, 131, and 132 — are sunset. Their eligibility windows have closed, so no new claims can arise, though existing qualifying claims continue under transitional provisions.",
+          "explanationWrong": "Two sections are operative — Sections 129 and 134. A common mistake is to include Section 132 (electric vehicles) because EV adoption is still growing, but the loan sanction window for Section 132 closed on 31 March 2023. The operative-vs-sunset distinction is the single most important framework for this unit.",
+          "tier": 1,
+          "subConcepts": ["operative-vs-sunset", "sections-129-134-operative"],
+          "isReview": false,
+          "oldSection": "Sections 80E, 80EE, 80EEA, 80EEB, 80GG",
+          "newSection": "Sections 129, 130, 131, 132, 134"
+        }
+      ]
+    },
+    {
+      "title": "Section 134 — Rent Without HRA",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 134 (old 80GG) provides a deduction for rent paid. What is the per-month cap under this section?",
+          "options": [
+            { "text": "Rs 10,000 per month", "correct": false },
+            { "text": "Rs 5,000 per month", "correct": true },
+            { "text": "Rs 8,333 per month (Rs 1,00,000 per year)", "correct": false },
+            { "text": "No monthly cap — the entire rent is deductible", "correct": false }
+          ],
+          "explanation": "Section 134 has a cap of Rs 5,000 per month (Rs 60,000 per year) as one of the three limbs in the least-of computation. The actual deduction is the least of: (a) rent paid minus 10% of Adjusted Total Income, (b) Rs 5,000 per month, and (c) 25% of Adjusted Total Income. This cap is unchanged from old Section 80GG.",
+          "explanationWrong": "Rs 5,000 per month is the correct cap. This figure has remained unchanged for years despite inflation, making Section 134 progressively less generous in real terms. The Rs 5,000/month is one of three limbs — the actual deduction could be even lower if one of the other two limbs (rent minus 10% of ATI, or 25% of ATI) yields a smaller amount.",
+          "tier": 1,
+          "subConcepts": ["section-134-cap", "rent-deduction-limit"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 2,
+          "question": "Who is the primary target assessee for Section 134 (rent without HRA)?",
+          "options": [
+            { "text": "Any individual paying rent above Rs 1,00,000 per year", "correct": false },
+            { "text": "Individuals who do not receive HRA from their employer — self-employed, pensioners, or employees without HRA in their salary structure", "correct": true },
+            { "text": "Only self-employed professionals", "correct": false },
+            { "text": "Any assessee including HUFs and firms", "correct": false }
+          ],
+          "explanation": "Section 134 is designed for individuals who do not receive House Rent Allowance (HRA) that qualifies for exemption. This typically includes self-employed individuals, pensioners, and salaried employees whose salary structure does not include HRA. If an individual receives HRA, they should claim the HRA exemption under Section 15(14)(ii) instead — they cannot claim Section 134.",
+          "explanationWrong": "The key qualifier is not receiving HRA. If an employee receives HRA (even a small amount), they must claim the HRA exemption route instead of Section 134. The section exists specifically to cover the gap for those without HRA — primarily self-employed persons and pensioners. It is available to individuals only, not HUFs or firms.",
+          "tier": 1,
+          "subConcepts": ["section-134-eligibility", "no-hra-individuals"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 9.3, which section provides a deduction for health insurance premiums (old Section 80D)?",
+          "options": [
+            { "text": "Section 125", "correct": true },
+            { "text": "Section 129", "correct": false },
+            { "text": "Section 134", "correct": false },
+            { "text": "Section 131", "correct": false }
+          ],
+          "explanation": "Old Section 80D (health insurance premiums) maps to Section 125 under the ITA 2025. This is a high-usage deduction allowing up to Rs 25,000 (Rs 50,000 for senior citizens) for health insurance premiums. Section 129 is education loan interest and Section 134 is rent without HRA — both from the current unit.",
+          "explanationWrong": "Section 125 is the correct mapping for old 80D. The deduction numbering in Chapter VIII follows a logical sequence: 123 (investments/80C), 125 (health insurance/80D), 126-128 (disability and medical/80DD, 80U, 80DDB), 129 (education loan/80E), 130-132 (housing and EV sunset), 134 (rent/80GG).",
+          "tier": 1,
+          "subConcepts": ["section-125-review", "80D-mapping"],
+          "isReview": true,
+          "oldSection": "Section 80D",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 4,
+          "question": "What mandatory filing is required to claim the deduction under Section 134 (rent without HRA)?",
+          "options": [
+            { "text": "Form 12BB submitted to the employer", "correct": false },
+            { "text": "Form 10BA — a declaration of rent paid", "correct": true },
+            { "text": "Rent receipts stamped by the landlord only — no separate form required", "correct": false },
+            { "text": "Form 10A submitted to the Assessing Officer", "correct": false }
+          ],
+          "explanation": "Section 134 requires the filing of Form 10BA — a declaration confirming the rent paid. This is a specific procedural requirement that must be complied with to claim the deduction. Rent receipts are supporting evidence but Form 10BA is the mandatory form. This requirement is unchanged from old Section 80GG.",
+          "explanationWrong": "Form 10BA is the mandatory requirement. Many assessees (and some practitioners) assume rent receipts alone suffice — they do not. Form 10BA is a separate declaration that must be filed. Form 12BB is for employees to declare investment proofs to their employer for TDS purposes, which is a different context entirely.",
+          "tier": 1,
+          "subConcepts": ["form-10BA", "section-134-compliance"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 134, does the assessee need to meet any condition regarding property ownership?",
+          "options": [
+            { "text": "No ownership condition — anyone paying rent can claim", "correct": false },
+            { "text": "Must not own any residential house anywhere in India", "correct": false },
+            { "text": "Must not own a residential house at the place of employment/business; if property is owned elsewhere, it must be treated as self-occupied", "correct": true },
+            { "text": "Must not own more than two residential houses", "correct": false }
+          ],
+          "explanation": "Section 134 requires that the assessee must not own a residential house at the place of employment or business. If the assessee owns property at another place, it must be treated as self-occupied and no rental income should be claimed from it under 'Income from House Property.' This is a nuanced condition — it is not a blanket ban on owning any property.",
+          "explanationWrong": "The condition is location-specific, not absolute. The assessee can own property elsewhere, but (a) must not own at the place of work, and (b) the other property must be treated as self-occupied. A blanket 'no property anywhere' answer is too strict, while 'anyone paying rent' ignores the ownership condition entirely. This nuance frequently trips up both assessees and advisors.",
+          "tier": 1,
+          "subConcepts": ["section-134-ownership-condition", "place-of-employment"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        }
+      ]
+    },
+    {
+      "title": "Operative vs Sunset — Why It Matters",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why are Sections 130, 131, and 132 classified as 'sunset' under the ITA 2025?",
+          "options": [
+            { "text": "The 2025 Act explicitly repealed these sections", "correct": false },
+            { "text": "Their eligibility windows (loan sanction periods) have closed, so no new claims can arise — but existing claims continue", "correct": true },
+            { "text": "CBDT issued a notification withdrawing these deductions", "correct": false },
+            { "text": "They were merged into Section 129 as a consolidated education-housing deduction", "correct": false }
+          ],
+          "explanation": "These sections are sunset because their eligibility was tied to specific loan sanction windows that have now closed. Section 130 required loans sanctioned in FY 2016-17, Section 131 required loans sanctioned 2019-2022, and Section 132 required loans sanctioned 2019-2023. The 2025 Act did not repeal them — it carried them forward with their original conditions intact, including transitional provisions for continuing claims.",
+          "explanationWrong": "The sunset nature is inherent in the original provisions' design, not a 2025 Act decision. The loan sanction windows were already closed before the 2025 Act came into effect. The 2025 Act simply renumbered these provisions faithfully. Existing qualifying loans continue to get the deduction — the sections are not dead, just not accepting new entrants.",
+          "tier": 2,
+          "subConcepts": ["sunset-rationale", "eligibility-windows"],
+          "isReview": false,
+          "oldSection": "Sections 80EE, 80EEA, 80EEB",
+          "newSection": "Sections 130, 131, 132"
+        },
+        {
+          "order": 2,
+          "question": "A client took a housing loan sanctioned in March 2021 for a property with stamp duty value of Rs 42,00,000. Which sunset deduction can they continue to claim under the ITA 2025?",
+          "options": [
+            { "text": "Section 130 — first-time homebuyer deduction", "correct": false },
+            { "text": "Section 131 — affordable housing deduction of up to Rs 1,50,000", "correct": true },
+            { "text": "Section 132 — electric vehicle deduction", "correct": false },
+            { "text": "No sunset deduction — only operative sections can be claimed under the 2025 Act", "correct": false }
+          ],
+          "explanation": "The loan was sanctioned in March 2021, which falls within the Section 131 window (1 April 2019 to 31 March 2022). The stamp duty value of Rs 42,00,000 is below the Rs 45,00,000 threshold. Therefore, this is a valid existing claim that continues under transitional provisions. The deduction is up to Rs 1,50,000 per year on interest paid.",
+          "explanationWrong": "Section 131 is the correct answer. Section 130 requires a loan sanctioned in FY 2016-17 (not 2021). Section 132 is for electric vehicles, not housing. The last option is factually wrong — sunset sections do continue to honour existing claims through transitional provisions. That is precisely the point of the sunset-with-transition framework.",
+          "tier": 2,
+          "subConcepts": ["section-131-continuing-claim", "transitional-provisions"],
+          "isReview": false,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 129, 'higher education' means any course pursued after passing which examination?",
+          "options": [
+            { "text": "Class 10 (Secondary) examination", "correct": false },
+            { "text": "Senior Secondary (Class 12) examination or equivalent", "correct": true },
+            { "text": "Any graduation degree", "correct": false },
+            { "text": "Any postgraduate entrance examination", "correct": false }
+          ],
+          "explanation": "Under Section 129, 'higher education' is defined as any course of study pursued after passing the Senior Secondary Examination (Class 12) or its equivalent, from a recognised institution in India or abroad. This is a broad definition — it covers undergraduate, postgraduate, professional, and vocational courses. The key threshold is Class 12 completion, not graduation.",
+          "explanationWrong": "Senior Secondary (Class 12) is the correct threshold. A course after Class 10 would be too early — that would include Class 11 and 12 themselves, which are not 'higher education.' Requiring graduation or postgraduate entrance would be too restrictive — many professional courses (CA, engineering, medicine) begin immediately after Class 12.",
+          "tier": 2,
+          "subConcepts": ["higher-education-definition", "section-129-scope"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 4,
+          "question": "Section 129 (education loan interest) is available under which tax regime(s)?",
+          "options": [
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "New regime, but with a reduced cap of Rs 1,50,000", "correct": false }
+          ],
+          "explanation": "Section 129 is one of the rare Chapter VIII deductions available under both the old and new tax regimes. Most other deductions in this unit (Sections 130, 131, 132, 134) are available only under the old regime. This dual-regime availability makes Section 129 particularly valuable for assessees who have opted for the new regime.",
+          "explanationWrong": "Both regimes is correct. This is a crucial distinction. Of the five sections in this unit, only Section 129 enjoys dual-regime availability. Sections 130, 131, 132, and 134 are all old-regime-only. For a CA advising clients on regime choice, Section 129's dual availability can be a deciding factor when education loan interest is significant.",
+          "tier": 2,
+          "subConcepts": ["section-129-regime", "dual-regime-availability"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 5,
+          "question": "Sections 130, 131, and 132 (the sunset sections) are available under which tax regime?",
+          "options": [
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "Old regime only (for continuing claims)", "correct": true },
+            { "text": "New regime only", "correct": false },
+            { "text": "Neither — they have been fully withdrawn", "correct": false }
+          ],
+          "explanation": "All three sunset sections (130, 131, 132) are available only under the old tax regime, and only for continuing claims where the loan was sanctioned within the eligible window. They are not available under the new regime at all. This is consistent with the general principle that most Chapter VIII deductions are old-regime-only, with Section 129 being a notable exception.",
+          "explanationWrong": "Old regime only is correct. These sections have not been fully withdrawn — existing claims continue. But they are not available under the new regime. A client with a qualifying 2020 housing loan (Section 131) must stay in the old regime to claim the Rs 1,50,000 deduction. This can significantly influence regime choice for affected assessees.",
+          "tier": 2,
+          "subConcepts": ["sunset-regime-availability", "old-regime-only"],
+          "isReview": false,
+          "oldSection": "Sections 80EE, 80EEA, 80EEB",
+          "newSection": "Sections 130, 131, 132"
+        }
+      ]
+    },
+    {
+      "title": "Section 129 — Deeper Mechanics",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 129, can a parent claim the deduction for interest on an education loan taken for their child's higher education?",
+          "options": [
+            { "text": "No — only the student can claim the deduction", "correct": false },
+            { "text": "Yes — the individual who repays the loan can claim it, including for loans taken for their children's education", "correct": true },
+            { "text": "Only if the child is a minor", "correct": false },
+            { "text": "Only if the child is a dependent with no income", "correct": false }
+          ],
+          "explanation": "Section 129 allows deduction for interest paid on a loan taken for higher education of self, spouse, children, or a student for whom the assessee is the legal guardian. The deduction is claimed by the person who repays the loan. There is no requirement that the child be a minor or dependent — the relationship (parent-child) is sufficient.",
+          "explanationWrong": "Parents can claim the deduction for loans taken for their children's education. There is no minor-only or dependency condition. The eligible relationships are: self, spouse, children, and students under legal guardianship. The key requirement is that the individual claiming the deduction must be the one actually paying the interest.",
+          "tier": 2,
+          "subConcepts": ["section-129-relationships", "parent-child-loan"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 2,
+          "question": "From which entities must the education loan be taken to qualify for deduction under Section 129?",
+          "options": [
+            { "text": "Any bank, NBFC, or private lender", "correct": false },
+            { "text": "A financial institution or an approved charitable institution", "correct": true },
+            { "text": "Only scheduled commercial banks", "correct": false },
+            { "text": "Any source — including loans from relatives", "correct": false }
+          ],
+          "explanation": "The loan must be taken from a financial institution or an approved charitable institution. 'Financial institution' includes banks and notified financial institutions. Loans from relatives, friends, or employers do not qualify. This is a critical eligibility condition — the source of the loan matters, not just its purpose.",
+          "explanationWrong": "Financial institution or approved charitable institution is the correct answer. Private lenders and relatives do not qualify. 'Only scheduled commercial banks' is too narrow — NBFCs notified as financial institutions and approved charitable institutions also qualify. Always verify the lender's status before advising a client on Section 129 eligibility.",
+          "tier": 2,
+          "subConcepts": ["section-129-loan-source", "financial-institution"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 130 (old 80EE), what was the maximum loan amount condition for first-time homebuyer eligibility?",
+          "options": [
+            { "text": "Rs 25,00,000", "correct": false },
+            { "text": "Rs 35,00,000", "correct": true },
+            { "text": "Rs 45,00,000", "correct": false },
+            { "text": "Rs 50,00,000", "correct": false }
+          ],
+          "explanation": "Section 130 required the loan amount to not exceed Rs 35,00,000 and the property value to not exceed Rs 50,00,000. These were the twin value conditions in addition to the FY 2016-17 loan sanction window. The Rs 45,00,000 figure belongs to Section 131 (stamp duty value condition for affordable housing).",
+          "explanationWrong": "Rs 35,00,000 is the correct loan amount limit for Section 130. The property value limit was Rs 50,00,000 — a separate condition. Do not confuse with Section 131's Rs 45,00,000 stamp duty threshold. Section 130 had both a loan cap and a property value cap; Section 131 had only a stamp duty cap.",
+          "tier": 2,
+          "subConcepts": ["section-130-loan-limit", "value-conditions"],
+          "isReview": true,
+          "oldSection": "Section 80EE",
+          "newSection": "Section 130"
+        },
+        {
+          "order": 4,
+          "question": "Is the principal repayment on an education loan deductible under Section 129?",
+          "options": [
+            { "text": "Yes — both principal and interest are deductible under Section 129", "correct": false },
+            { "text": "No — only the interest component is deductible under Section 129; principal may qualify under Section 123", "correct": true },
+            { "text": "Principal is deductible only in the first 3 years", "correct": false },
+            { "text": "Principal is deductible only if the loan is from a scheduled bank", "correct": false }
+          ],
+          "explanation": "Section 129 covers only the interest component of the education loan repayment. The principal repayment is not deductible under this section. However, the principal component may qualify for deduction under Section 123 (old 80C) if other conditions are met — though this is subject to the overall Rs 1,50,000 cap under Section 123.",
+          "explanationWrong": "Only interest is deductible under Section 129. This is a frequent source of confusion — assessees often assume the entire EMI qualifies. The interest portion has no cap (Section 129), while the principal portion competes with other investments under the Rs 1,50,000 cap of Section 123. Splitting the EMI correctly between principal and interest is essential.",
+          "tier": 2,
+          "subConcepts": ["section-129-interest-only", "principal-vs-interest"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 5,
+          "question": "Can Sections 130 and 131 be claimed simultaneously for the same property?",
+          "options": [
+            { "text": "Yes — they serve different purposes and can be stacked", "correct": false },
+            { "text": "No — Section 131 explicitly bars concurrent claims with Section 130 for the same property", "correct": true },
+            { "text": "Yes, but only if the total deduction does not exceed Rs 2,00,000", "correct": false },
+            { "text": "Yes, if the loan was sanctioned in the overlapping period", "correct": false }
+          ],
+          "explanation": "Section 131 explicitly provides that the deduction cannot be claimed if a deduction under Section 130 (old 80EE) is claimed for the same property. This prevents double-dipping on the additional interest deduction for the same housing loan. An assessee must choose one or the other, not both.",
+          "explanationWrong": "They cannot be claimed simultaneously for the same property. Section 131 contains an explicit anti-overlap provision. In practice, this rarely arises because the loan sanction windows (FY 2016-17 for Section 130 vs 2019-2022 for Section 131) do not overlap — but the provision exists as a safeguard against unusual factual situations.",
+          "tier": 2,
+          "subConcepts": ["section-130-131-mutual-exclusion", "anti-overlap"],
+          "isReview": false,
+          "oldSection": "Sections 80EE, 80EEA",
+          "newSection": "Sections 130, 131"
+        }
+      ]
+    },
+    {
+      "title": "Section 134 Computation & Regime Analysis",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The deduction under Section 134 is computed as the least of three amounts. Which of the following is NOT one of the three limbs?",
+          "options": [
+            { "text": "Rent paid minus 10% of Adjusted Total Income", "correct": false },
+            { "text": "Rs 5,000 per month", "correct": false },
+            { "text": "25% of Adjusted Total Income", "correct": false },
+            { "text": "50% of Adjusted Total Income", "correct": true }
+          ],
+          "explanation": "The three limbs for Section 134 are: (a) rent paid minus 10% of ATI, (b) Rs 5,000 per month (Rs 60,000 per year), and (c) 25% of ATI. '50% of Adjusted Total Income' is not one of the limbs — 50% of basic salary is used in the HRA exemption computation under Section 15(14)(ii), which is an entirely different provision for employees who receive HRA.",
+          "explanationWrong": "50% of ATI is not a Section 134 limb. The three actual limbs are: rent minus 10% of ATI, Rs 5,000/month, and 25% of ATI. The 50% figure is a distractor from the HRA exemption computation (Section 15(14)(ii)), which uses 50% of salary for metro cities. Section 134 and HRA exemption are mutually exclusive — an assessee claims one or the other, never both.",
+          "tier": 2,
+          "subConcepts": ["section-134-computation", "three-limb-formula"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 2,
+          "question": "What does 'Adjusted Total Income' (ATI) mean in the context of Section 134?",
+          "options": [
+            { "text": "Gross total income before any deductions", "correct": false },
+            { "text": "Total income after all deductions including Section 134", "correct": false },
+            { "text": "Gross total income after deducting all Chapter VIII deductions except Section 134 itself", "correct": true },
+            { "text": "Net taxable income after applying slab rates", "correct": false }
+          ],
+          "explanation": "Adjusted Total Income for Section 134 means gross total income after deducting all deductions under Chapter VIII except the Section 134 deduction itself. This is a circular-avoidance mechanism — you compute all other deductions first, then use that adjusted figure to compute Section 134. It ensures that Section 134 does not reference its own result in the calculation.",
+          "explanationWrong": "ATI is gross total income minus all Chapter VIII deductions except Section 134 itself. It is not gross total income (too high) nor total income after all deductions (too low, and circular). This adjusted figure is used in two of the three limbs: rent minus 10% of ATI, and 25% of ATI. Getting the ATI right is essential for accurate computation.",
+          "tier": 2,
+          "subConcepts": ["adjusted-total-income", "section-134-ati"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following sunset sections had the longest loan sanction window?",
+          "options": [
+            { "text": "Section 130 — FY 2016-17 (1 year)", "correct": false },
+            { "text": "Section 131 — 2019-2022 (3 years)", "correct": false },
+            { "text": "Section 132 — 2019-2023 (4 years)", "correct": true },
+            { "text": "All three had the same window length", "correct": false }
+          ],
+          "explanation": "Section 132 (EV loans) had the longest window at 4 years (1 April 2019 to 31 March 2023). Section 131 (affordable housing) had a 3-year window (2019-2022), and Section 130 (first-time homebuyer) had only a 1-year window (FY 2016-17). The varying window lengths reflect different policy objectives and timelines.",
+          "explanationWrong": "Section 132 had the longest window at 4 years. The ranking is: Section 132 (4 years) > Section 131 (3 years) > Section 130 (1 year). This is a useful review of the sunset window dates covered in Tier 1. Understanding the relative lengths helps build intuition about which section has the largest pool of continuing claims.",
+          "tier": 2,
+          "subConcepts": ["sunset-window-comparison", "section-132-longest"],
+          "isReview": true,
+          "oldSection": "Sections 80EE, 80EEA, 80EEB",
+          "newSection": "Sections 130, 131, 132"
+        },
+        {
+          "order": 4,
+          "question": "Section 134 is available under which tax regime?",
+          "options": [
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "Old regime only", "correct": true },
+            { "text": "New regime only", "correct": false },
+            { "text": "New regime with a reduced cap of Rs 3,000 per month", "correct": false }
+          ],
+          "explanation": "Section 134 is available only under the old tax regime. This is significant because self-employed individuals and pensioners (the primary users of Section 134) who opt for the new regime lose this deduction entirely. For someone paying significant rent without HRA, this could be a factor in the regime choice decision.",
+          "explanationWrong": "Old regime only is correct. Despite being a fully operative section (unlike the sunset sections), Section 134 is still old-regime-only. Among the five sections in this unit, only Section 129 (education loan interest) enjoys dual-regime availability. This makes Section 129 uniquely valuable in the new regime landscape.",
+          "tier": 2,
+          "subConcepts": ["section-134-regime", "old-regime-only"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 5,
+          "question": "If a self-employed individual pays rent of Rs 15,000 per month and has an Adjusted Total Income of Rs 6,00,000, what is the Section 134 deduction?",
+          "options": [
+            { "text": "Rs 1,80,000 (full rent paid)", "correct": false },
+            { "text": "Rs 60,000 (Rs 5,000/month cap)", "correct": true },
+            { "text": "Rs 1,20,000 (rent minus 10% of ATI)", "correct": false },
+            { "text": "Rs 1,50,000 (25% of ATI)", "correct": false }
+          ],
+          "explanation": "Compute the three limbs: (a) Rs 1,80,000 minus Rs 60,000 (10% of Rs 6,00,000) = Rs 1,20,000; (b) Rs 5,000 × 12 = Rs 60,000; (c) 25% of Rs 6,00,000 = Rs 1,50,000. The least is Rs 60,000 (limb b). In practice, the Rs 5,000/month cap is often the binding constraint, especially for assessees paying moderate to high rent.",
+          "explanationWrong": "Rs 60,000 is correct — the Rs 5,000/month cap is the binding constraint here. The full computation: limb (a) = Rs 1,20,000, limb (b) = Rs 60,000, limb (c) = Rs 1,50,000. Least of three = Rs 60,000. This example illustrates why Section 134 often provides modest relief relative to actual rent paid — the Rs 5,000/month cap has not been revised despite rising rental costs.",
+          "tier": 2,
+          "subConcepts": ["section-134-calculation", "binding-constraint"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        }
+      ]
+    },
+    {
+      "title": "Client Advisory — Education Loan Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Priya took an education loan from HDFC Bank in 2020 for her MBA at IIM Ahmedabad. She started repaying interest in AY 2022-23. By which assessment year must she exhaust her Section 129 deduction?",
+          "options": [
+            { "text": "AY 2028-29 — 8 years from loan sanction", "correct": false },
+            { "text": "AY 2029-30 — 8 years from the AY interest was first paid", "correct": true },
+            { "text": "AY 2030-31 — 8 years from course completion", "correct": false },
+            { "text": "No time limit — available until the loan is fully repaid", "correct": false }
+          ],
+          "explanation": "The 8-year window starts from the assessment year in which interest is first paid. Priya first paid interest in AY 2022-23, so the window runs AY 2022-23 through AY 2029-30 (8 consecutive years). The trigger is when interest payment begins, not when the loan is sanctioned or the course is completed. If she repays the loan fully before AY 2029-30, the deduction ends at that point.",
+          "explanationWrong": "AY 2029-30 is correct — 8 years from AY 2022-23 when interest was first paid. Many practitioners mistakenly count from the loan sanction date or course completion date. The statute is clear: the clock starts from the assessment year in which interest payment begins. For MBA loans with moratorium periods, this distinction can add 1-2 extra years of deduction.",
+          "tier": 3,
+          "subConcepts": ["section-129-8-year-start", "moratorium-impact"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 2,
+          "question": "Rakesh's father took an education loan from SBI in 2019 for Rakesh's engineering degree. Rakesh has now started working and wants to claim the Section 129 deduction himself. Can he?",
+          "options": [
+            { "text": "Yes — any family member can claim the deduction regardless of who took the loan", "correct": false },
+            { "text": "No — only the person who took the loan and is repaying it can claim the deduction; if the father is the borrower, only the father can claim", "correct": true },
+            { "text": "Yes — because the education was for Rakesh, he automatically qualifies", "correct": false },
+            { "text": "Yes — once the student starts earning, the deduction transfers to the student", "correct": false }
+          ],
+          "explanation": "The deduction under Section 129 is available to the individual who has taken the loan for higher education. Since the father took the loan, only the father can claim the deduction — provided the father is repaying the interest. The deduction does not transfer to the student upon employment. If Rakesh wanted to claim it himself, he would have needed to take the loan in his own name.",
+          "explanationWrong": "Only the borrower can claim the deduction. The loan is in the father's name, so only the father claims. There is no provision for transfer of the deduction to the student. This is a common advisory scenario — parents should consider whether the loan should be in the parent's name or the student's name based on who will have taxable income during the repayment period.",
+          "tier": 3,
+          "subConcepts": ["section-129-borrower-claims", "loan-name-advisory"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is a key condition for claiming Section 134 deduction that is NOT required for the HRA exemption under Section 15(14)(ii)?",
+          "options": [
+            { "text": "The assessee must actually pay rent", "correct": false },
+            { "text": "The assessee must file Form 10BA", "correct": true },
+            { "text": "The assessee must be an individual", "correct": false },
+            { "text": "The rent must be paid for a residential premises", "correct": false }
+          ],
+          "explanation": "Form 10BA is a specific requirement for Section 134 that has no equivalent in the HRA exemption computation. HRA exemption under Section 15(14)(ii) requires rent receipts and, for rent exceeding Rs 1,00,000 per year, the landlord's PAN — but not Form 10BA. This distinction is important for compliance: missing Form 10BA can invalidate an otherwise valid Section 134 claim.",
+          "explanationWrong": "Form 10BA is uniquely required for Section 134. Both Section 134 and HRA exemption require actual rent payment and individual status, so those are not distinguishing factors. Form 10BA is a specific declaration of rent paid that must be filed with the return — failing to file it is a common compliance lapse, especially among self-employed assessees unfamiliar with the requirement.",
+          "tier": 3,
+          "subConcepts": ["form-10BA-requirement", "section-134-vs-hra"],
+          "isReview": true,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 4,
+          "question": "Meera, a freelance graphic designer, pays rent of Rs 25,000/month in Mumbai. She does not receive HRA. Her Adjusted Total Income is Rs 8,00,000. She is considering switching to the new tax regime. What would she lose regarding rent deduction?",
+          "options": [
+            { "text": "Nothing — Section 134 is available under both regimes", "correct": false },
+            { "text": "She would lose the Section 134 deduction of Rs 60,000 (Rs 5,000/month cap is the binding constraint at her income level)", "correct": true },
+            { "text": "She would lose Rs 2,00,000 — the full rent paid", "correct": false },
+            { "text": "She would lose Rs 3,00,000 — 25% of her ATI plus rent paid", "correct": false }
+          ],
+          "explanation": "Under the old regime, Meera's Section 134 deduction would be the least of: (a) Rs 3,00,000 minus Rs 80,000 = Rs 2,20,000; (b) Rs 60,000 (Rs 5,000 × 12); (c) Rs 2,00,000 (25% of Rs 8,00,000). The least is Rs 60,000. By switching to the new regime, she would forfeit this Rs 60,000 deduction since Section 134 is old-regime-only. The regime choice decision should weigh this loss against the lower slab rates of the new regime.",
+          "explanationWrong": "Rs 60,000 is the correct amount she would lose. The Rs 5,000/month cap (Rs 60,000/year) is the binding constraint at her income and rent level. While she pays Rs 3,00,000 in annual rent, the actual deduction she gets is only Rs 60,000. This makes the regime switch less costly than it might first appear — she loses only Rs 60,000, not the full rent amount.",
+          "tier": 3,
+          "subConcepts": ["section-134-regime-choice", "freelancer-advisory"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 5,
+          "question": "Anand took an education loan from his uncle (a private individual, not a financial institution) for his son's MBBS degree abroad. Can he claim Section 129 deduction?",
+          "options": [
+            { "text": "Yes — the loan purpose qualifies and the relationship (father-son) is eligible", "correct": false },
+            { "text": "No — the loan must be from a financial institution or approved charitable institution, not a private individual", "correct": true },
+            { "text": "Yes — any loan for higher education qualifies regardless of the lender", "correct": false },
+            { "text": "Yes — but only if the uncle charges market-rate interest", "correct": false }
+          ],
+          "explanation": "Section 129 requires the loan to be from a financial institution or an approved charitable institution. A loan from a private individual — whether a relative or otherwise — does not qualify, regardless of the interest rate charged or the educational purpose. Anand should have obtained the loan from a bank or notified financial institution to be eligible. The relationship (parent-child) and the course (MBBS abroad) both qualify, but the lender disqualifies the claim.",
+          "explanationWrong": "The loan source is fatal to the claim. Despite the eligible relationship (father-son) and the qualifying course (MBBS after Class 12 from a recognised institution abroad), the uncle is not a financial institution or approved charitable institution. This is a classic advisory scenario — always check the lender identity before assuming Section 129 eligibility. The fix is to refinance through a bank.",
+          "tier": 3,
+          "subConcepts": ["section-129-loan-source-scenario", "private-lender-disqualification"],
+          "isReview": false,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        }
+      ]
+    },
+    {
+      "title": "Sunset Section Traps & Transitional Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client bought an electric vehicle with a loan sanctioned on 15 April 2023. Can they claim Section 132 deduction under the ITA 2025?",
+          "options": [
+            { "text": "No — the loan sanction window for Section 132 closed on 31 March 2023", "correct": true },
+            { "text": "Yes — the 2025 Act extended the EV loan window", "correct": false },
+            { "text": "Yes — Section 132 is operative and accepts new claims", "correct": false },
+            { "text": "Yes — but only for the first year of the loan", "correct": false }
+          ],
+          "explanation": "The loan sanction window for Section 132 closed on 31 March 2023. A loan sanctioned on 15 April 2023 falls outside this window by just 15 days. The ITA 2025 did not extend the window — it carried forward the original provision as-is. Despite the government's ongoing push for EV adoption, the deduction window was not reopened. This is a hard cut-off with no exceptions.",
+          "explanationWrong": "The window closed on 31 March 2023 — no extensions. Missing the deadline by even one day is fatal. The 2025 Act is a renumbering exercise for these sunset provisions, not a policy extension. CAs must be especially careful with clients who purchased EVs in early FY 2023-24 assuming the deduction would continue — it does not.",
+          "tier": 3,
+          "subConcepts": ["section-132-window-cutoff", "ev-loan-deadline"],
+          "isReview": false,
+          "oldSection": "Section 80EEB",
+          "newSection": "Section 132"
+        },
+        {
+          "order": 2,
+          "question": "Sunita took a housing loan sanctioned in January 2020 for a flat with stamp duty value of Rs 48,00,000. She is claiming the Section 131 deduction. Is her claim valid?",
+          "options": [
+            { "text": "Yes — the loan was sanctioned within the 2019-2022 window", "correct": false },
+            { "text": "No — the stamp duty value exceeds the Rs 45,00,000 threshold for Section 131", "correct": true },
+            { "text": "Yes — the stamp duty condition only applies to Section 130, not 131", "correct": false },
+            { "text": "Yes — the Rs 45,00,000 limit applies to the loan amount, not the stamp duty value", "correct": false }
+          ],
+          "explanation": "Section 131 requires the stamp duty value of the property to not exceed Rs 45,00,000. Sunita's property has a stamp duty value of Rs 48,00,000, which breaches this threshold. Even though the loan was sanctioned within the eligible window (January 2020), the stamp duty value condition is an independent eligibility requirement that must also be satisfied. The claim is invalid.",
+          "explanationWrong": "The claim fails on the stamp duty value condition. Rs 48,00,000 exceeds the Rs 45,00,000 cap. Both conditions — loan sanction within the window AND stamp duty value within limits — must be met simultaneously. This is a common trap: clients focus on the time window and overlook the value threshold. The Rs 45,00,000 applies to stamp duty value, not the loan amount.",
+          "tier": 3,
+          "subConcepts": ["section-131-stamp-duty-trap", "dual-condition"],
+          "isReview": false,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 129, for which of the following persons can an individual NOT claim the education loan interest deduction?",
+          "options": [
+            { "text": "Spouse", "correct": false },
+            { "text": "Sibling (brother or sister)", "correct": true },
+            { "text": "Children", "correct": false },
+            { "text": "Student under legal guardianship", "correct": false }
+          ],
+          "explanation": "Section 129 covers loans taken for higher education of self, spouse, children, or a student for whom the assessee is the legal guardian. Siblings are not included in this list. A brother or sister's education loan interest is not deductible under Section 129 unless the individual is the sibling's legal guardian — a rare situation for adult siblings.",
+          "explanationWrong": "Siblings are excluded from Section 129 unless the individual is their legal guardian. The eligible relationships are strictly defined: self, spouse, children, and wards under legal guardianship. No extension to siblings, parents, or in-laws. This is a frequently tested distinction and a common advisory mistake — always verify the relationship before confirming eligibility.",
+          "tier": 3,
+          "subConcepts": ["section-129-eligible-relationships", "sibling-exclusion"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 4,
+          "question": "Vikram claimed Section 130 deduction for a housing loan sanctioned in FY 2016-17. He now wants to refinance with a new bank in 2025. Will his Section 130 deduction continue?",
+          "options": [
+            { "text": "Yes — refinancing does not affect the deduction as long as the original loan met all conditions", "correct": false },
+            { "text": "This is a grey area — the refinanced loan is technically a new loan sanctioned outside the FY 2016-17 window, potentially jeopardising the claim", "correct": true },
+            { "text": "No — Section 130 deductions end immediately upon any change in lender", "correct": false },
+            { "text": "Yes — the 2025 Act specifically permits refinancing for all sunset sections", "correct": false }
+          ],
+          "explanation": "Refinancing creates a potential issue because the new loan is technically sanctioned outside the FY 2016-17 window. The statute requires the loan to be sanctioned during FY 2016-17. A refinanced loan from a different bank in 2025 may not satisfy this condition on a literal reading. There is no specific carve-out for refinancing in Sections 130, 131, or 132. This is a genuine advisory risk that CAs must flag to clients considering refinancing.",
+          "explanationWrong": "This is indeed a grey area. The statute ties eligibility to the loan sanction date, and refinancing creates a new loan with a new sanction date. Neither blanket continuation nor immediate termination is clearly supported by the statute. CAs should advise clients that refinancing may jeopardise their sunset deduction and recommend seeking an advance ruling or opinion before proceeding.",
+          "tier": 3,
+          "subConcepts": ["refinancing-risk", "sunset-loan-continuity"],
+          "isReview": false,
+          "oldSection": "Section 80EE",
+          "newSection": "Section 130"
+        },
+        {
+          "order": 5,
+          "question": "Deepa has both a qualifying Section 131 housing loan (sanctioned 2020, stamp duty Rs 40L) and an education loan under Section 129 (taken 2022 for her daughter's MSc). She opts for the new tax regime for AY 2026-27. Which deductions can she claim?",
+          "options": [
+            { "text": "Both Section 129 and Section 131", "correct": false },
+            { "text": "Only Section 129 — education loan interest is available under both regimes; Section 131 is old-regime-only", "correct": true },
+            { "text": "Only Section 131 — sunset claims are protected regardless of regime", "correct": false },
+            { "text": "Neither — no Chapter VIII deductions are available under the new regime", "correct": false }
+          ],
+          "explanation": "Under the new tax regime, only Section 129 (education loan interest) remains available from this unit's sections. Section 131 is available only under the old regime, even for continuing claims from within the eligible window. By choosing the new regime, Deepa forfeits Section 131's Rs 1,50,000 deduction but retains Section 129's uncapped interest deduction. This trade-off must be factored into regime choice advice.",
+          "explanationWrong": "Only Section 129 survives in the new regime. Section 131's sunset nature does not grant it regime-neutral status — sunset sections are still old-regime-only. Deepa must weigh losing Rs 1,50,000 (Section 131) against the lower slab rates of the new regime. If her education loan interest is substantial, the new regime might still be beneficial overall, but the Section 131 loss is real.",
+          "tier": 3,
+          "subConcepts": ["regime-choice-combined", "section-129-new-regime"],
+          "isReview": false,
+          "oldSection": "Sections 80E, 80EEA",
+          "newSection": "Sections 129, 131"
+        }
+      ]
+    },
+    {
+      "title": "Multi-Section Advisory & Regime Optimization",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Karan is a salaried employee receiving HRA of Rs 8,000/month. He also pays rent of Rs 20,000/month. Can he claim Section 134 deduction for the excess rent not covered by HRA exemption?",
+          "options": [
+            { "text": "Yes — Section 134 covers rent paid in excess of HRA exemption", "correct": false },
+            { "text": "No — Section 134 is available only to individuals who do NOT receive HRA; since Karan receives HRA, he is ineligible regardless of the amount", "correct": true },
+            { "text": "Yes — but only for the rent amount exceeding HRA", "correct": false },
+            { "text": "Yes — if he forgoes HRA exemption and claims Section 134 instead", "correct": false }
+          ],
+          "explanation": "Section 134 is categorically unavailable to anyone receiving HRA that is exempt under Section 15(14)(ii). Even if the HRA exemption covers only a fraction of the rent, Karan cannot claim Section 134. The two provisions are mutually exclusive at the eligibility level, not at the amount level. Karan must rely entirely on the HRA exemption for his rent deduction.",
+          "explanationWrong": "Section 134 is completely blocked if HRA is received. There is no partial claim, no excess rent provision, and no option to forfeit HRA to use Section 134 instead. The statute creates a binary gate: receive HRA → claim HRA exemption. No HRA → claim Section 134. Karan's only option is to maximise his HRA exemption under Section 15(14)(ii).",
+          "tier": 3,
+          "subConcepts": ["section-134-hra-exclusion", "mutual-exclusivity"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 2,
+          "question": "Dr. Sharma, a retired professor and pensioner, pays rent of Rs 12,000/month. His pension is Rs 60,000/month. He does not receive HRA. His ATI (after all other Chapter VIII deductions) is Rs 5,50,000. What is his Section 134 deduction?",
+          "options": [
+            { "text": "Rs 60,000 — Rs 5,000/month cap", "correct": true },
+            { "text": "Rs 89,000 — rent minus 10% of ATI", "correct": false },
+            { "text": "Rs 1,37,500 — 25% of ATI", "correct": false },
+            { "text": "Rs 1,44,000 — full rent paid", "correct": false }
+          ],
+          "explanation": "Compute the three limbs: (a) Rs 1,44,000 minus Rs 55,000 (10% of Rs 5,50,000) = Rs 89,000; (b) Rs 5,000 × 12 = Rs 60,000; (c) 25% of Rs 5,50,000 = Rs 1,37,500. The least is Rs 60,000 (limb b). Once again, the Rs 5,000/month cap is the binding constraint. For a pensioner paying Rs 12,000/month rent, Section 134 recovers less than half the rent — but it is the only available deduction since pensioners typically do not receive HRA.",
+          "explanationWrong": "Rs 60,000 is the correct answer — the Rs 5,000/month cap dominates. Dr. Sharma's scenario is textbook Section 134: pensioner, no HRA, paying moderate rent. The deduction helps but is limited. At Rs 60,000 on Rs 1,44,000 rent, the effective relief is only 42% of actual rent. This is a practical limitation CAs should communicate to retired clients.",
+          "tier": 3,
+          "subConcepts": ["section-134-pensioner", "computation-practice"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 131 (affordable housing), what is the stamp duty value threshold for the property?",
+          "options": [
+            { "text": "Rs 35,00,000", "correct": false },
+            { "text": "Rs 50,00,000", "correct": false },
+            { "text": "Rs 45,00,000", "correct": true },
+            { "text": "Rs 40,00,000", "correct": false }
+          ],
+          "explanation": "Section 131 requires the stamp duty value of the property to not exceed Rs 45,00,000. This is distinct from Section 130, where the property value cap is Rs 50,00,000 and the loan cap is Rs 35,00,000. Each section has its own value thresholds — confusing them across sections is a common error.",
+          "explanationWrong": "Rs 45,00,000 is the correct stamp duty threshold for Section 131. The value limits differ across sections: Section 130 has a Rs 50,00,000 property value cap and Rs 35,00,000 loan cap; Section 131 has only the Rs 45,00,000 stamp duty value cap; Section 132 has no value cap at all. These distinctions are directly testable and practically important.",
+          "tier": 3,
+          "subConcepts": ["section-131-stamp-duty-review", "value-thresholds"],
+          "isReview": true,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        },
+        {
+          "order": 4,
+          "question": "Neha is advising a client who has: (1) an education loan with Rs 2,80,000 annual interest, (2) a qualifying Section 131 housing loan with Rs 1,20,000 interest, and (3) rent of Rs 18,000/month with no HRA and ATI of Rs 7,00,000. The client is in the old regime. What is the total deduction across Sections 129, 131, and 134?",
+          "options": [
+            { "text": "Rs 4,60,000", "correct": true },
+            { "text": "Rs 4,00,000", "correct": false },
+            { "text": "Rs 3,40,000", "correct": false },
+            { "text": "Rs 5,50,000", "correct": false }
+          ],
+          "explanation": "Section 129: Rs 2,80,000 (no cap — full interest deductible). Section 131: Rs 1,20,000 (within the Rs 1,50,000 annual limit). Section 134: ATI = Rs 7,00,000 minus Rs 2,80,000 minus Rs 1,20,000 = Rs 3,00,000 (GTI minus all Chapter VIII deductions except Section 134). Three limbs: (a) Rs 2,16,000 minus Rs 30,000 (10% of ATI) = Rs 1,86,000; (b) Rs 60,000 (Rs 5,000 × 12); (c) Rs 75,000 (25% of ATI). Least = Rs 60,000. Total: Rs 2,80,000 + Rs 1,20,000 + Rs 60,000 = Rs 4,60,000. The ATI recomputation after other deductions is the critical step most miss.",
+          "explanationWrong": "Rs 4,60,000 is correct. The common error is using the original ATI of Rs 7,00,000 for the Section 134 computation instead of first deducting Sections 129 and 131. After those deductions, ATI drops to Rs 3,00,000, which changes limb (c) from Rs 1,75,000 to Rs 75,000. However, the Rs 5,000/month cap (Rs 60,000) still dominates as the binding constraint. The interaction between sections — where earlier deductions reduce ATI for Section 134 — is a key multi-section advisory skill.",
+          "tier": 3,
+          "subConcepts": ["multi-section-computation", "ati-interaction"],
+          "isReview": false,
+          "oldSection": "Sections 80E, 80EEA, 80GG",
+          "newSection": "Sections 129, 131, 134"
+        },
+        {
+          "order": 5,
+          "question": "A CA has two clients: Client A has a housing loan sanctioned in March 2022 (stamp duty Rs 43L) and Client B has a housing loan sanctioned in April 2022 (stamp duty Rs 43L). Both are otherwise identical. What is the deduction difference between them?",
+          "options": [
+            { "text": "No difference — both qualify for Section 131", "correct": false },
+            { "text": "Client A gets up to Rs 1,50,000 under Section 131; Client B gets nothing — the window closed on 31 March 2022", "correct": true },
+            { "text": "Client B gets a reduced deduction of Rs 75,000 under a transitional provision", "correct": false },
+            { "text": "Both qualify, but Client B must file a special application", "correct": false }
+          ],
+          "explanation": "Client A's loan was sanctioned in March 2022, within the Section 131 window (1 April 2019 to 31 March 2022). Client B's loan was sanctioned in April 2022 — one month after the window closed. The difference is stark: Client A gets up to Rs 1,50,000 per year; Client B gets nothing. There is no transitional provision, pro-rating, or grace period for loans sanctioned after 31 March 2022. This is the brutal reality of sunset provisions.",
+          "explanationWrong": "Client A gets up to Rs 1,50,000; Client B gets zero. One month's difference in loan sanction date creates a Rs 1,50,000/year gap. There is no pro-rating, no grace period, and no special application. Sunset dates are hard cut-offs. This scenario is the most vivid illustration of why CAs must know the exact window dates — advising a client to delay even briefly can result in permanently losing a substantial deduction.",
+          "tier": 3,
+          "subConcepts": ["sunset-hard-cutoff", "section-131-window-advisory"],
+          "isReview": false,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        }
+      ]
+    }
+  ]
+}

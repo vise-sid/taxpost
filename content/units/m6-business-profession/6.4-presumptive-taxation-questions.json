@@ -1,0 +1,835 @@
+{
+  "unit": "6.4",
+  "title": "Presumptive Taxation",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 58 — Presumptive Taxation Structure",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, presumptive taxation for eligible businesses and professions is consolidated in which single section?",
+          "options": [
+            { "text": "Section 44AD", "correct": false },
+            { "text": "Section 58", "correct": true },
+            { "text": "Section 44ADA", "correct": false },
+            { "text": "Section 26", "correct": false }
+          ],
+          "explanation": "Presumptive taxation is consolidated in new Section 58, replacing old Sections 44AD (business), 44ADA (profession), and 44AE (transport). The 2025 Act uses a table format with 3 serial numbers for the three categories.",
+          "explanationWrong": "Common mix-up! Sections 44AD, 44ADA, and 44AE don't exist in the new Act — they're all in Section 58. If you cite '44AD' in a new Act return, it will be incorrect. This is the single biggest numbering change for small assessees.",
+          "tier": 1,
+          "subConcepts": ["section-58", "presumptive-taxation", "consolidation"],
+          "isReview": false,
+          "oldSection": "Section 44AD, 44ADA, 44AE",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 58, what is the turnover threshold for a business to opt for presumptive taxation?",
+          "options": [
+            { "text": "Rs 1 crore", "correct": false },
+            { "text": "Rs 2 crore (or Rs 3 crore if cash receipts do not exceed 5% of total receipts)", "correct": true },
+            { "text": "Rs 5 crore", "correct": false },
+            { "text": "Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "The business threshold is Rs 2 crore, extendable to Rs 3 crore if cash receipts ≤ 5% of total receipts. These thresholds are unchanged from old Section 44AD. The higher limit for digital payments was introduced by FA 2023.",
+          "explanationWrong": "This trips up most CAs. The Rs 2Cr/3Cr distinction depends on the mode of receipt, not the type of business. If a trader receives 96% digitally and 4% in cash, the Rs 3 crore limit applies. If cash exceeds 5%, it's Rs 2 crore.",
+          "tier": 1,
+          "subConcepts": ["business-threshold", "rs-2cr-3cr", "digital-payment-incentive"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section contains the PGBP chargeability provision listing 11 categories of income?",
+          "options": [
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 26", "correct": true },
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 27", "correct": false }
+          ],
+          "explanation": "Section 26 is the PGBP chargeability section (old Section 28) with 11 income categories. This was covered in Unit 6.1. Section 58 is presumptive taxation — a special computation method, not a chargeability section.",
+          "explanationWrong": "This trips up most CAs. Section 26 (chargeability) and Section 58 (presumptive computation) serve different functions. Section 26 determines WHAT is taxable as PGBP. Section 58 determines HOW to compute it for eligible small assessees.",
+          "tier": 1,
+          "subConcepts": ["section-26", "chargeability-vs-computation", "pgbp-structure"],
+          "isReview": true,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 58, what are the deemed profit rates for an eligible business?",
+          "options": [
+            { "text": "8% flat on all receipts", "correct": false },
+            { "text": "6% on digital receipts and 8% on cash receipts", "correct": true },
+            { "text": "10% flat on all receipts", "correct": false },
+            { "text": "50% on all receipts", "correct": false }
+          ],
+          "explanation": "Section 58 maintains the dual-rate structure: 6% on amounts received by digital mode (account payee cheque/draft, ECS, or through prescribed electronic modes) and 8% on cash receipts. These rates are unchanged from old Section 44AD.",
+          "explanationWrong": "Common mix-up! The 6%/8% split incentivises digital payments. Cash receipts attract the higher 8% deemed profit rate. A business receiving Rs 1 crore digitally and Rs 50 lakh in cash would compute: (Rs 1Cr × 6%) + (Rs 50L × 8%) = Rs 6L + Rs 4L = Rs 10L deemed profit.",
+          "tier": 1,
+          "subConcepts": ["deemed-profit-rates", "6-percent-8-percent", "digital-incentive"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 58, what is the gross receipts threshold for a profession to opt for presumptive taxation?",
+          "options": [
+            { "text": "Rs 2 crore", "correct": false },
+            { "text": "Rs 50 lakh (or Rs 75 lakh if cash receipts ≤ 5% of total receipts)", "correct": true },
+            { "text": "Rs 25 lakh", "correct": false },
+            { "text": "Rs 1 crore", "correct": false }
+          ],
+          "explanation": "Professional presumptive taxation has a Rs 50 lakh threshold, extendable to Rs 75 lakh if cash receipts ≤ 5%. The deemed profit rate is 50% of gross receipts. These are unchanged from old Section 44ADA.",
+          "explanationWrong": "This trips up most CAs. Business (Rs 2Cr/3Cr at 6%/8%) and profession (Rs 50L/75L at 50%) have very different thresholds AND rates. The professional rate is much higher (50%) because professional margins are typically higher than trading margins.",
+          "tier": 1,
+          "subConcepts": ["profession-threshold", "rs-50L-75L", "50-percent-rate"],
+          "isReview": false,
+          "oldSection": "Section 44ADA",
+          "newSection": "Section 58"
+        }
+      ]
+    },
+    {
+      "title": "Change #1 — Assessee-Level Disqualification",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under new Section 58, what is the FIRST substantive change from the old Act regarding eligibility for presumptive taxation?",
+          "options": [
+            { "text": "Thresholds have been doubled", "correct": false },
+            { "text": "Assessee-level disqualification — if an assessee earns ANY commission/agency income or specified professional income, the ENTIRE assessee is disqualified from presumptive taxation", "correct": true },
+            { "text": "Only individuals can opt; partnerships are excluded", "correct": false },
+            { "text": "No change — same eligibility rules", "correct": false }
+          ],
+          "explanation": "Section 58 introduces assessee-level disqualification. Under the old Act, commission/agency or professional income simply didn't qualify for 44AD — but the rest of the business could. Under Section 58, ANY such income disqualifies the assessee ENTIRELY from the presumptive regime.",
+          "explanationWrong": "This trips up most CAs. The old Act said: 'Commission/agency income doesn't qualify for presumptive.' The new Act says: 'If you have commission/agency income, YOU don't qualify for presumptive — at all.' The shift from income-level to assessee-level is the critical difference.",
+          "tier": 1,
+          "subConcepts": ["assessee-level-disqualification", "commission-agency", "section-58-change-1"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act (Section 44AD), if a person ran a grocery store AND earned insurance commission, what was the presumptive taxation eligibility?",
+          "options": [
+            { "text": "Both qualified for presumptive taxation", "correct": false },
+            { "text": "Grocery store qualified for 44AD; insurance commission did not — but the grocery store deduction was unaffected", "correct": true },
+            { "text": "Neither qualified", "correct": false },
+            { "text": "Only the insurance commission qualified", "correct": false }
+          ],
+          "explanation": "Under old Section 44AD, commission/agency income was excluded but it didn't disqualify the other business. The grocery store could still use presumptive taxation. This was an income-level exclusion, not an assessee-level disqualification.",
+          "explanationWrong": "Common mix-up! Under the OLD Act, the exclusion was surgical — only commission income was excluded. The grocery store was unaffected. Compare this with the NEW Act (Section 58) where commission income disqualifies the entire assessee.",
+          "tier": 1,
+          "subConcepts": ["old-act-exclusion", "income-level-vs-assessee-level", "grocery-commission"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the MSME payment compliance rule in Section 37 (old 43B) removes the grace period for payments to micro and small enterprises. What is the MSMED Act timeline for a payment WITHOUT a written agreement?",
+          "options": [
+            { "text": "30 days", "correct": false },
+            { "text": "45 days", "correct": false },
+            { "text": "15 days", "correct": true },
+            { "text": "60 days", "correct": false }
+          ],
+          "explanation": "Without a written agreement, the MSMED Act requires payment within 15 days from date of acceptance. This is the strictest timeline. With a written agreement, 45 days is allowed. This was covered in Unit 6.2.",
+          "explanationWrong": "This trips up most CAs. The 15-day rule without agreement catches many assessees off guard. Most businesses assume 45 days is the universal MSME deadline, but that requires a written agreement. Without one, you have only 15 days.",
+          "tier": 1,
+          "subConcepts": ["msme-15-day-rule", "no-written-agreement", "section-37"],
+          "isReview": true,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 58, a shopkeeper earns Rs 1.5 crore from retail trade AND Rs 2 lakh from being a commission agent for a consumer goods company. Under the 2025 Act, what is the impact?",
+          "options": [
+            { "text": "Retail trade qualifies for presumptive; commission is computed normally — partial presumptive", "correct": false },
+            { "text": "The entire assessee is disqualified from presumptive taxation due to the Rs 2 lakh commission income — must maintain books and get audit done if required", "correct": true },
+            { "text": "Both qualify for presumptive taxation at 8%", "correct": false },
+            { "text": "The commission income is exempt, so no impact", "correct": false }
+          ],
+          "explanation": "Under Section 58's assessee-level disqualification, even Rs 2 lakh of commission income disqualifies the shopkeeper ENTIRELY. The Rs 1.5 crore retail trade — which would normally qualify — now requires regular books and computation. This is a harsh but deliberate change.",
+          "explanationWrong": "This trips up most CAs. Under the old Act, only the Rs 2 lakh commission was excluded; the retail business was fine under 44AD. Under Section 58, the Rs 2 lakh commission poisons the entire basket. The shopkeeper must now maintain full books for all income.",
+          "tier": 1,
+          "subConcepts": ["commission-poison-pill", "entire-disqualification", "shopkeeper-scenario"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 5,
+          "question": "Section 58's assessee-level disqualification also covers profession income. If a CA earns professional fees AND runs a separate coaching centre, under the 2025 Act:",
+          "options": [
+            { "text": "Both can use presumptive taxation independently", "correct": false },
+            { "text": "The CA profession income disqualifies the coaching centre from presumptive taxation for business too — entire assessee is disqualified", "correct": true },
+            { "text": "Only the CA profession income uses presumptive; coaching is regular", "correct": false },
+            { "text": "Only the coaching centre can use presumptive; CA profession cannot", "correct": false }
+          ],
+          "explanation": "If a CA has professional income (which falls under specified profession), it disqualifies the assessee from presumptive taxation for the business too. Under the old Act, the coaching centre could use 44AD independently. Section 58 removes this cherry-picking.",
+          "explanationWrong": "Common mix-up! The assessee-level rule prevents splitting: you can't be 'presumptive for business A' and 'regular for profession B'. If ANY income triggers the disqualification (commission, agency, or specified profession), the entire assessee exits the presumptive regime.",
+          "tier": 1,
+          "subConcepts": ["profession-disqualification", "ca-coaching-scenario", "no-cherry-picking"],
+          "isReview": false,
+          "oldSection": "Section 44AD/44ADA",
+          "newSection": "Section 58"
+        }
+      ]
+    },
+    {
+      "title": "Change #2 — Broader Loss/Deduction Bar",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under old Section 44AD(2), when an assessee opted for presumptive taxation, deductions under Sections 30 to 38 were deemed to have been allowed. Under new Section 58(4), what is the scope of the bar?",
+          "options": [
+            { "text": "Same — Sections 30 to 38 only", "correct": false },
+            { "text": "Broader — ALL deductions under the PGBP head are barred, not just 30-38", "correct": true },
+            { "text": "Narrower — only depreciation is barred", "correct": false },
+            { "text": "No deductions are barred — presumptive assessees can claim all deductions", "correct": false }
+          ],
+          "explanation": "Section 58(4) broadens the bar from 'Sections 30-38' to ALL deductions/allowances under PGBP. This means deductions that fell outside old 30-38 (like certain specific business deductions) are also deemed allowed. The deemed profit is truly the final word.",
+          "explanationWrong": "This trips up most CAs. Under the old Act, some practitioners argued that deductions under Sections 40, 40A, or 43B weren't covered by the 30-38 bar and could be separately claimed. Section 58(4) closes this loophole by barring ALL PGBP deductions.",
+          "tier": 1,
+          "subConcepts": ["broader-deduction-bar", "section-58-4", "all-deductions"],
+          "isReview": false,
+          "oldSection": "Section 44AD(2)",
+          "newSection": "Section 58(4)"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act, some tax practitioners argued that a presumptive taxation assessee could claim Section 40(a)(ia) disallowance reversal separately because it wasn't in the 30-38 range. Under Section 58(4), is this still possible?",
+          "options": [
+            { "text": "Yes — Section 40 disallowance is a separate computation outside presumptive", "correct": false },
+            { "text": "No — Section 58(4) bars ALL deductions under PGBP, including any adjustments related to old Sections 40/40A/43B. The deemed profit is final.", "correct": true },
+            { "text": "Only if the TDS is subsequently deposited", "correct": false },
+            { "text": "This argument was never valid even under the old Act", "correct": false }
+          ],
+          "explanation": "Section 58(4) is comprehensive — ALL deductions, allowances, and adjustments under the PGBP head are deemed allowed within the presumptive profit. No separate claims for items outside old 30-38 are possible. The broader bar closes the loophole.",
+          "explanationWrong": "This trips up most CAs. The broader bar is the single most important clarification. Under the old Act, the argument had SOME basis because old 44AD(2) specifically said '30 to 38'. The 2025 Act's wording is deliberately wider to prevent any similar argument.",
+          "tier": 1,
+          "subConcepts": ["loophole-closure", "section-40-argument", "deemed-profit-final"],
+          "isReview": false,
+          "oldSection": "Section 44AD(2)",
+          "newSection": "Section 58(4)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section governs the method of accounting (cash vs mercantile) for PGBP income computation?",
+          "options": [
+            { "text": "Section 145", "correct": false },
+            { "text": "Section 276", "correct": true },
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 26", "correct": false }
+          ],
+          "explanation": "Section 276 (old Section 145) governs the method of accounting. This was covered in Unit 6.1. Presumptive assessees under Section 58 are generally relieved from maintaining detailed books, but the accounting method itself is in Section 276.",
+          "explanationWrong": "This trips up most CAs. Section 145 doesn't exist in the new Act — it's renumbered to Section 276. The dramatic number jump (145→276) makes this one of the harder mappings to remember.",
+          "tier": 1,
+          "subConcepts": ["method-of-accounting", "section-276", "section-145-mapping"],
+          "isReview": true,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 58(4), the broader loss/deduction bar also covers losses. What does this mean for a presumptive assessee?",
+          "options": [
+            { "text": "Business losses from prior years can still be set off against presumptive income", "correct": false },
+            { "text": "No deduction for any loss is allowed against the deemed income — the 6%/8%/50% figure is the minimum taxable profit, and no PGBP losses can reduce it", "correct": true },
+            { "text": "Only speculative losses are barred; regular business losses can be set off", "correct": false },
+            { "text": "Losses are allowed but only up to 50% of deemed income", "correct": false }
+          ],
+          "explanation": "Section 58(4) bars ALL deductions INCLUDING losses. If your deemed profit is Rs 12 lakh (8% of Rs 1.5 crore), you cannot reduce it by prior-year business losses or current-year losses from other businesses. The deemed profit stands as-is.",
+          "explanationWrong": "Common mix-up! The broader bar covers losses too. Under presumptive taxation, you trade simplicity for accuracy. The deemed profit is a floor — you can declare higher but not lower (unless you exit the presumptive regime entirely).",
+          "tier": 1,
+          "subConcepts": ["loss-bar", "minimum-profit", "no-setoff-allowed"],
+          "isReview": false,
+          "oldSection": "Section 44AD(2)",
+          "newSection": "Section 58(4)"
+        },
+        {
+          "order": 5,
+          "question": "A presumptive taxation assessee declares income of Rs 10 lakh (8% of Rs 1.25 crore turnover). He also wants to separately claim depreciation of Rs 3 lakh on his delivery vehicle. Under Section 58(4), is this allowed?",
+          "options": [
+            { "text": "Yes — depreciation is a capital allowance, not a revenue deduction", "correct": false },
+            { "text": "No — ALL deductions including depreciation are deemed allowed within the Rs 10 lakh presumptive profit. Separate depreciation claim is barred.", "correct": true },
+            { "text": "Yes — but only at half the normal depreciation rate", "correct": false },
+            { "text": "Depreciation can be carried forward as unabsorbed depreciation", "correct": false }
+          ],
+          "explanation": "Under Section 58(4), depreciation is deemed to have been fully allowed within the presumptive income. No separate claim is possible. The trade-off: you don't need to maintain asset registers or compute WDV, but you also can't claim actual depreciation on top.",
+          "explanationWrong": "This trips up most CAs. Depreciation (old Section 32, now 33) falls within the broader bar. Under the old Act, old 44AD(2) specifically mentioned '30 to 38' which included 32. Under the new 58(4), it's even broader — ALL allowances are covered.",
+          "tier": 1,
+          "subConcepts": ["depreciation-barred", "deemed-allowed", "no-separate-claim"],
+          "isReview": false,
+          "oldSection": "Section 44AD(2)/32",
+          "newSection": "Section 58(4)/33"
+        }
+      ]
+    },
+    {
+      "title": "Change #3 — Outcome-Based Audit Trigger",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under old Section 44AD(4)/(5), what triggered the mandatory tax audit for a presumptive assessee?",
+          "options": [
+            { "text": "Declaring income below 8% AND not opting for presumptive for 5 consecutive years", "correct": false },
+            { "text": "Not opting for presumptive for 5 consecutive years after opting once — the 'continuity rule' was the ONLY trigger", "correct": true },
+            { "text": "Declaring income below 8% was sufficient by itself", "correct": false },
+            { "text": "No audit trigger existed under the old Act", "correct": false }
+          ],
+          "explanation": "Under the old Act, the audit trigger was purely the continuity rule: if you opted for presumptive and then opted out within 5 years, you had to maintain books and get audited for the next 5 years. Declaring income below 8% alone didn't trigger audit.",
+          "explanationWrong": "This trips up most CAs. Under the OLD Act, declaring income below 8% simply meant you couldn't use 44AD — you had to compute normally. But the AUDIT mandate came only from the continuity violation. The new Act changes this significantly.",
+          "tier": 2,
+          "subConcepts": ["old-audit-trigger", "continuity-rule", "5-year-rule"],
+          "isReview": false,
+          "oldSection": "Section 44AD(4)/(5)",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 58 in the ITA 2025, what triggers the mandatory tax audit? This is the THIRD substantive change.",
+          "options": [
+            { "text": "Only the continuity violation (same as old Act)", "correct": false },
+            { "text": "EITHER a continuity violation (opting out within 5 years) OR declaring income below the deemed rate (6%/8%/50%) — two independent triggers", "correct": true },
+            { "text": "Only declaring income below the deemed rate", "correct": false },
+            { "text": "The audit is mandatory for all presumptive assessees regardless", "correct": false }
+          ],
+          "explanation": "Section 58 introduces an outcome-based audit trigger alongside the continuity trigger. Now, EITHER (1) breaking the 5-year continuity, OR (2) declaring income below 6%/8%/50% of turnover, triggers mandatory audit. This is a significant tightening.",
+          "explanationWrong": "Common mix-up! It's OR, not AND. Under the old Act, only continuity violation triggered audit. The new Act adds a second trigger: declaring income below the deemed rate. So even if you've been in presumptive for 10 consecutive years, declaring below 8% now requires audit.",
+          "tier": 2,
+          "subConcepts": ["outcome-based-trigger", "dual-trigger", "section-58-change-3"],
+          "isReview": false,
+          "oldSection": "Section 44AD(4)/(5)",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 40 (non-deductible amounts — payments to non-residents without TDS) maps to which new section?",
+          "options": [
+            { "text": "Section 34", "correct": false },
+            { "text": "Section 35", "correct": true },
+            { "text": "Section 36", "correct": false },
+            { "text": "Section 40", "correct": false }
+          ],
+          "explanation": "Old Section 40 → new Section 35. This was covered in Unit 6.2. The PGBP disallowance mapping: old 37→new 34, old 40→new 35, old 40A→new 36, old 43B→new 37.",
+          "explanationWrong": "This trips up most CAs. Section 35 in the new Act = old Section 40 (non-deductible amounts). New Section 35 ≠ old Section 35 (scientific research, which is now Section 45). This is the second-most confusing number reuse after Section 37.",
+          "tier": 2,
+          "subConcepts": ["section-40-mapping", "section-35-new", "disallowance-sequence"],
+          "isReview": true,
+          "oldSection": "Section 40",
+          "newSection": "Section 35"
+        },
+        {
+          "order": 4,
+          "question": "A small retailer with Rs 1.8 crore turnover opts for presumptive taxation under Section 58. His actual profit is only Rs 5 lakh (approximately 2.8% of turnover). He declares Rs 5 lakh as income. Under the 2025 Act, what happens?",
+          "options": [
+            { "text": "Accepted — presumptive assessees can declare any income", "correct": false },
+            { "text": "The income is below the 8% deemed rate. Under Section 58, declaring below the deemed rate triggers mandatory audit — the retailer must maintain books and get audited.", "correct": true },
+            { "text": "The income is automatically increased to 8% by the AO", "correct": false },
+            { "text": "Only a penalty is levied; no audit requirement", "correct": false }
+          ],
+          "explanation": "Rs 5 lakh is below 8% of Rs 1.8 crore (= Rs 14.4 lakh). Under Section 58's outcome-based audit trigger, declaring income below the deemed rate makes the assessee liable for maintaining books and getting them audited. This is the NEW trigger — it didn't exist in the old Act.",
+          "explanationWrong": "This trips up most CAs. Under the old Act, declaring below 8% meant you computed normally (not using 44AD) — but no automatic audit. Under Section 58, it's an audit trigger. The retailer with Rs 1.8 crore turnover and Rs 5 lakh declared income must now bear audit costs.",
+          "tier": 2,
+          "subConcepts": ["below-deemed-rate", "audit-trigger-application", "retailer-scenario"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 58, a professional (CA) with gross receipts of Rs 40 lakh opts for presumptive taxation and declares 50% (Rs 20 lakh) as income. Her actual income is Rs 25 lakh. Is there any audit issue?",
+          "options": [
+            { "text": "Yes — she must declare actual income of Rs 25 lakh", "correct": false },
+            { "text": "No — she declared at or above the 50% deemed rate. No audit trigger. She may declare higher (Rs 25 lakh) but is not required to.", "correct": true },
+            { "text": "No — but she must declare exactly 50%, not more or less", "correct": false },
+            { "text": "Yes — professionals cannot use presumptive taxation", "correct": false }
+          ],
+          "explanation": "Declaring at or above the deemed rate (50% for professionals) keeps you within the safe harbour. The CA declared Rs 20 lakh (50% of Rs 40 lakh), which meets the minimum. She can declare higher but isn't required to. No audit trigger since she's at the deemed rate.",
+          "explanationWrong": "Common mix-up! The deemed rate is a FLOOR, not a ceiling. Declaring 50% exactly is fine. Declaring above 50% is also fine (and might be prudent if actual income is higher). Only declaring BELOW 50% triggers the audit requirement.",
+          "tier": 2,
+          "subConcepts": ["deemed-rate-floor", "professional-safe-harbour", "no-audit-trigger"],
+          "isReview": false,
+          "oldSection": "Section 44ADA",
+          "newSection": "Section 58"
+        }
+      ]
+    },
+    {
+      "title": "Transport Operators & Table Format",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 44AE (presumptive taxation for transport operators) is now part of which section?",
+          "options": [
+            { "text": "A separate Section 59", "correct": false },
+            { "text": "Section 58 — consolidated with business (old 44AD) and profession (old 44ADA) in a table with 3 serial numbers", "correct": true },
+            { "text": "Section 44AE continues in the new Act", "correct": false },
+            { "text": "Transport operators are excluded from presumptive taxation", "correct": false }
+          ],
+          "explanation": "Section 58 uses a table format with 3 serial numbers: S.No. 1 for business (old 44AD), S.No. 2 for profession (old 44ADA), S.No. 3 for transport operators (old 44AE). All three are now in one section.",
+          "explanationWrong": "Common mix-up! There's no separate section for transport operators. Section 58's table format is one of the structural innovations of the 2025 Act — three related provisions in one section, distinguished by serial numbers rather than separate sections.",
+          "tier": 2,
+          "subConcepts": ["transport-operators", "table-format", "3-serial-numbers"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 58 (S.No. 3, old 44AE), what is the deemed income for a goods carriage owner?",
+          "options": [
+            { "text": "8% of gross receipts", "correct": false },
+            { "text": "Rs 1,000 per ton of gross vehicle weight per month (heavy goods vehicle) or Rs 7,500 per vehicle per month (other vehicles)", "correct": true },
+            { "text": "50% of gross receipts", "correct": false },
+            { "text": "Rs 10,000 per vehicle per month flat", "correct": false }
+          ],
+          "explanation": "Transport operator deemed income is per-vehicle, not percentage-based: Rs 1,000/ton/month for heavy goods vehicles and Rs 7,500/vehicle/month for others. This is unchanged from old Section 44AE.",
+          "explanationWrong": "This trips up most CAs. Transport operator presumptive taxation uses a per-vehicle basis, unlike business (% of turnover) and profession (% of receipts). The per-vehicle method reflects the practical reality of the trucking industry.",
+          "tier": 2,
+          "subConcepts": ["per-vehicle-income", "heavy-goods-vehicle", "rs-1000-per-ton"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the presumptive taxation section is Section 58. In the old Act, three separate sections (44AD, 44ADA, 44AE) covered the same ground. What structural innovation does the 2025 Act use?",
+          "options": [
+            { "text": "Sub-sections (58(1), 58(2), 58(3))", "correct": false },
+            { "text": "A table format with 3 serial numbers — each row covers one category (business, profession, transport)", "correct": true },
+            { "text": "Three separate chapters", "correct": false },
+            { "text": "Cross-references between the sections", "correct": false }
+          ],
+          "explanation": "Section 58 uses a table format — a structural innovation. Instead of three separate sections with overlapping language, one table covers all three categories. Each row specifies the eligible assessee, threshold, and deemed profit rate. This is cleaner drafting.",
+          "explanationWrong": "This trips up most CAs. The table format is new to this provision. Under the old Act, 44AD, 44ADA, and 44AE had significant textual overlap (eligibility conditions, audit triggers, continuity rules). The table eliminates repetition.",
+          "tier": 2,
+          "subConcepts": ["table-format-innovation", "structural-drafting", "no-repetition"],
+          "isReview": true,
+          "oldSection": "Sections 44AD, 44ADA, 44AE",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 58, transport operators get a NEW provision regarding audit relief. What is it?",
+          "options": [
+            { "text": "Transport operators are fully exempt from tax audit", "correct": false },
+            { "text": "Transport operators declaring income at or above the per-vehicle deemed rate get audit relief — they don't need audit even if total receipts exceed Rs 1 crore", "correct": true },
+            { "text": "Transport operators must always get audited regardless of income", "correct": false },
+            { "text": "No change from old Act — same audit rules", "correct": false }
+          ],
+          "explanation": "Section 58 provides explicit audit relief for transport operators who declare at or above the deemed per-vehicle rate. Under old 44AE, the audit position was ambiguous when total receipts crossed Rs 1 crore. Section 58 clarifies: deemed rate compliance = no audit.",
+          "explanationWrong": "Common mix-up! Transport operators aren't exempt from audit — they get relief IF they declare at the deemed rate. The relief addresses a practical problem: a fleet owner with 20 trucks could easily cross Rs 1 crore gross receipts, but shouldn't need audit if using presumptive.",
+          "tier": 2,
+          "subConcepts": ["transport-audit-relief", "deemed-rate-compliance", "fleet-owner"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 58, a transport operator owns 8 heavy goods vehicles (each 15 tons GVW) for the full year. What is the minimum presumptive income?",
+          "options": [
+            { "text": "Rs 7,200 per month per vehicle = Rs 6,91,200 per year", "correct": false },
+            { "text": "Rs 15,000 per month per vehicle (Rs 1,000 × 15 tons) × 8 vehicles × 12 months = Rs 14,40,000", "correct": true },
+            { "text": "Rs 7,500 per month per vehicle × 8 × 12 = Rs 7,20,000", "correct": false },
+            { "text": "8% of gross receipts", "correct": false }
+          ],
+          "explanation": "Heavy goods vehicles: Rs 1,000 per ton per month. Each vehicle is 15 tons = Rs 15,000/month. 8 vehicles × Rs 15,000 × 12 months = Rs 14,40,000. The Rs 7,500/month rate applies to non-heavy vehicles only.",
+          "explanationWrong": "This trips up most CAs. Heavy vehicles use the per-ton rate (Rs 1,000/ton/month), not the flat Rs 7,500/month. For a 15-ton truck, the monthly deemed income is Rs 15,000 — double the Rs 7,500 flat rate for lighter vehicles. Getting the rate wrong halves/doubles the declared income.",
+          "tier": 2,
+          "subConcepts": ["per-ton-computation", "heavy-vehicle-rate", "fleet-calculation"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        }
+      ]
+    },
+    {
+      "title": "Summary — Three Changes at a Glance",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following correctly lists the THREE substantive changes in presumptive taxation under Section 58 compared to old Sections 44AD/44ADA/44AE?",
+          "options": [
+            { "text": "Higher thresholds, lower rates, new businesses added", "correct": false },
+            { "text": "(1) Assessee-level disqualification for commission/agency/profession income, (2) Broader loss/deduction bar (ALL, not just 30-38), (3) Outcome-based audit trigger (below deemed rate OR continuity violation)", "correct": true },
+            { "text": "Only structural consolidation into one section; no substantive changes", "correct": false },
+            { "text": "Thresholds reduced, rates increased, transport operators excluded", "correct": false }
+          ],
+          "explanation": "The three changes: (1) Assessee-level disqualification (any commission/agency/profession = entire assessee out), (2) Broader bar (ALL deductions, not just Sections 30-38), (3) Dual audit trigger (below deemed rate OR continuity break). Thresholds and rates are UNCHANGED.",
+          "explanationWrong": "Common mix-up! Thresholds are unchanged (Rs 2Cr/3Cr, Rs 50L/75L). Rates are unchanged (6%/8%/50%). Transport operators are NOT excluded — they're in S.No. 3. The three changes are all about eligibility, deduction scope, and audit compliance.",
+          "tier": 2,
+          "subConcepts": ["three-changes-summary", "unchanged-thresholds", "unchanged-rates"],
+          "isReview": false,
+          "oldSection": "Section 44AD/44ADA/44AE",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 58, the thresholds for business presumptive taxation (Rs 2Cr/3Cr) are unchanged from the old Act. When was the Rs 3 crore threshold introduced?",
+          "options": [
+            { "text": "Finance Act, 2016", "correct": false },
+            { "text": "Finance Act, 2023", "correct": true },
+            { "text": "Finance Act, 2020", "correct": false },
+            { "text": "It was always Rs 3 crore", "correct": false }
+          ],
+          "explanation": "The Rs 3 crore threshold (for assessees with ≤5% cash receipts) was introduced by FA 2023, effective AY 2024-25. Previously, the limit was Rs 2 crore for all. The 2025 Act carries this forward unchanged.",
+          "explanationWrong": "This trips up most CAs. Before FA 2023, the limit was Rs 2 crore for everyone. FA 2016 raised it from Rs 1 crore to Rs 2 crore. FA 2023 introduced the Rs 3 crore digital-payment incentive. The 2025 Act doesn't change either threshold.",
+          "tier": 2,
+          "subConcepts": ["threshold-history", "fa-2023", "digital-payment-incentive"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, new Section 28 merges old Sections 30, 31, and 38 into one deduction section. What deduction concepts does new Section 28 cover?",
+          "options": [
+            { "text": "Depreciation and amortisation", "correct": false },
+            { "text": "Rent, rates, taxes, repairs for premises; repairs and insurance for machinery; and proportionate business-use apportionment", "correct": true },
+            { "text": "Bad debts and provisions for doubtful debts", "correct": false },
+            { "text": "Scientific research expenditure", "correct": false }
+          ],
+          "explanation": "New Section 28 covers premises costs (old 30), machinery costs (old 31), and proportionate business use (old 38) — all merged. This was covered in Unit 6.2.",
+          "explanationWrong": "This trips up most CAs. New Section 28 = merged rent/repairs/insurance + proportionate use. Depreciation is Section 33. Bad debts are Section 31. Scientific research is Section 45. Getting these right is essential for correct PGBP computation.",
+          "tier": 2,
+          "subConcepts": ["section-28-new-content", "merger-recap", "rent-repairs-insurance"],
+          "isReview": true,
+          "oldSection": "Section 30, 31, 38",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 58, a doctor (specified profession) with Rs 60 lakh gross receipts opts for presumptive taxation. The deemed profit is 50% = Rs 30 lakh. Can she additionally claim rent deduction for her clinic under Section 28?",
+          "options": [
+            { "text": "Yes — rent is a separate deduction not covered by presumptive", "correct": false },
+            { "text": "No — Section 58(4) bars ALL deductions under PGBP. Clinic rent is deemed allowed within the Rs 30 lakh deemed profit.", "correct": true },
+            { "text": "Yes — but only up to Rs 5 lakh", "correct": false },
+            { "text": "Only if the clinic rent exceeds Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "Section 58(4)'s broader bar covers ALL deductions — including rent under Section 28. The Rs 30 lakh deemed profit is treated as net of all expenses. The doctor cannot claim any additional PGBP deduction. This is clearer than the old Act's '30-38' limitation.",
+          "explanationWrong": "This trips up most CAs. Under the broader bar, there's no scope for cherry-picking deductions on top of presumptive income. Rent, repairs, depreciation, bad debts, salary — everything is deemed included in the Rs 30 lakh.",
+          "tier": 2,
+          "subConcepts": ["broader-bar-application", "doctor-scenario", "no-separate-rent"],
+          "isReview": false,
+          "oldSection": "Section 44ADA",
+          "newSection": "Section 58(4)"
+        },
+        {
+          "order": 5,
+          "question": "A business with Rs 2.5 crore turnover (95% digital receipts) uses presumptive taxation under Section 58. The assessee declares 7% profit (instead of the deemed 6% on digital + 8% on cash). Is an audit triggered?",
+          "options": [
+            { "text": "No — 7% is above 6% for the digital portion", "correct": false },
+            { "text": "Yes — the effective deemed rate on the blended receipts exceeds 7%. With 95% digital (6%) and 5% cash (8%), the blended rate is 6.1%. Wait — 7% > 6.1%, so no audit is triggered.", "correct": true },
+            { "text": "Yes — the rate must be exactly 8% on total receipts", "correct": false },
+            { "text": "No audit under any circumstances if turnover is below Rs 3 crore", "correct": false }
+          ],
+          "explanation": "The blended deemed rate: (95% × 6%) + (5% × 8%) = 5.7% + 0.4% = 6.1%. Declared 7% > 6.1%, so the income is above the deemed rate. No audit trigger. The computation is per-receipt-type, not a flat rate on total turnover.",
+          "explanationWrong": "Common mix-up! The deemed rate isn't a flat 8% on everything. It's 6% on digital and 8% on cash. You must compute the blended rate based on actual receipt mix. Here, 7% declared exceeds the 6.1% blended minimum. No audit.",
+          "tier": 2,
+          "subConcepts": ["blended-rate-computation", "digital-cash-mix", "audit-threshold-test"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        }
+      ]
+    },
+    {
+      "title": "Client Calls — Presumptive Eligibility",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client calls: 'I run a kirana store (Rs 1.2 crore turnover) and also earn Rs 50,000/year as a LIC agent. Under the old Act, my kirana used 44AD. Can I still use presumptive under the new Act?' What do you tell him?",
+          "options": [
+            { "text": "Yes — the LIC commission is too small to matter", "correct": false },
+            { "text": "No — under Section 58's assessee-level disqualification, ANY commission/agency income (even Rs 50,000) disqualifies the ENTIRE assessee. Your kirana store income must now be computed normally.", "correct": true },
+            { "text": "Yes — commission below Rs 1 lakh is exempt from the disqualification rule", "correct": false },
+            { "text": "Only the LIC commission is excluded; the kirana store stays presumptive", "correct": false }
+          ],
+          "explanation": "Even Rs 50,000 of commission income triggers assessee-level disqualification under Section 58. The client loses presumptive for the kirana store AND must maintain books for all income. The size of the commission is irrelevant — any amount disqualifies.",
+          "explanationWrong": "This trips up most CAs. There's NO de minimis threshold. Rs 50,000 or Rs 50 lakh — the disqualification is binary. This is the harshest aspect of Section 58's Change #1. The client may need to resign the LIC agency to preserve presumptive status for the kirana store.",
+          "tier": 3,
+          "subConcepts": ["no-de-minimis", "lic-agency-disqualification", "client-call"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "A partner disputes your advice to a small trader client. The partner says: 'Under the new Act, the trader can claim depreciation on his shop furniture separately since Section 58(4) only bars Sections 30-38, just like the old Act.' Is the partner correct?",
+          "options": [
+            { "text": "Yes — Section 58(4) bars only Sections 30-38", "correct": false },
+            { "text": "No — Section 58(4) bars ALL deductions under PGBP, not just old 30-38. The broader bar is one of the three substantive changes. The partner is applying old Act language to the new Act.", "correct": true },
+            { "text": "Yes — depreciation is specifically exempted from the bar", "correct": false },
+            { "text": "The partner is correct if the furniture costs less than Rs 5,000", "correct": false }
+          ],
+          "explanation": "The partner is applying old Section 44AD(2) language ('Sections 30 to 38') to the new Act. Section 58(4) deliberately uses broader language barring ALL deductions. This is Change #2 — the broader loss/deduction bar.",
+          "explanationWrong": "This trips up most CAs. The partner's error is reading old Act into new Act — a systematic mistake. Under the old Act, the '30-38' limitation left room for arguments about Sections 40, 40A, 43B. Section 58(4) closes all those arguments.",
+          "tier": 3,
+          "subConcepts": ["partner-dispute", "broader-bar-correction", "old-act-language-error"],
+          "isReview": false,
+          "oldSection": "Section 44AD(2)",
+          "newSection": "Section 58(4)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, for a business declaring income below the deemed rate under Section 58, what additional compliance is triggered?",
+          "options": [
+            { "text": "Only a penalty for underreporting", "correct": false },
+            { "text": "Mandatory maintenance of books of account AND tax audit", "correct": true },
+            { "text": "Only maintenance of books, no audit", "correct": false },
+            { "text": "No additional compliance — just compute income normally", "correct": false }
+          ],
+          "explanation": "Declaring below the deemed rate triggers BOTH book maintenance AND tax audit under Section 58. This is the outcome-based audit trigger (Change #3). Under the old Act, this specific trigger didn't exist.",
+          "explanationWrong": "This trips up most CAs. It's not just books OR audit — it's both. The outcome-based trigger is binary: at or above deemed rate = no books, no audit. Below deemed rate = books + audit. This is the practical cost of declaring lower income.",
+          "tier": 3,
+          "subConcepts": ["books-plus-audit", "outcome-based-trigger", "compliance-cost"],
+          "isReview": true,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 4,
+          "question": "A small business owner with Rs 2.8 crore turnover (98% digital) calls: 'My actual profit is only 4% due to thin margins in trading. Under the new Act, should I declare 6% and overpay tax, or declare 4% and face audit?' What's the practical advice?",
+          "options": [
+            { "text": "Always declare 6% — avoiding audit is worth the extra tax", "correct": false },
+            { "text": "Compare the cost: (1) Extra tax on 2% gap (Rs 56,000 × 25% = Rs 14,000) vs (2) Audit cost + book-keeping cost (Rs 50,000-1,00,000 typically). If audit cost exceeds extra tax, declare 6% and save on compliance.", "correct": true },
+            { "text": "Declare 4% — the AO won't actually audit small cases", "correct": false },
+            { "text": "Declare 8% to be safe", "correct": false }
+          ],
+          "explanation": "This is a cost-benefit analysis. Extra tax on 2% of Rs 2.8 crore = Rs 5.6 lakh × 25% ≈ Rs 1.4 lakh. Audit + book-keeping cost ≈ Rs 50K-1L. Here, the extra tax EXCEEDS the audit cost, so declaring actual (4%) and getting audited may be cheaper. But factor in AO scrutiny risk.",
+          "explanationWrong": "This trips up most CAs. It's not a blanket answer — it depends on the numbers. For this client (Rs 2.8 crore × 2% gap = Rs 5.6 lakh differential × 25% tax = Rs 1.4 lakh extra tax vs Rs 50K-1L audit cost), the audit route might be cheaper. But AO scrutiny risk tilts the balance.",
+          "tier": 3,
+          "subConcepts": ["cost-benefit-analysis", "practical-advice", "declare-vs-audit"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 5,
+          "question": "An article clerk processes a presumptive return for a transport operator with 5 heavy goods vehicles (12 tons each). The clerk computes income as Rs 7,500 × 5 × 12 = Rs 4,50,000. The senior rejects this. What error did the clerk make?",
+          "options": [
+            { "text": "The clerk used Rs 7,500/month (light vehicle rate) instead of Rs 1,000/ton/month (heavy vehicle rate). Correct: Rs 1,000 × 12 tons × 5 vehicles × 12 months = Rs 7,20,000.", "correct": true },
+            { "text": "The clerk should have used 8% of gross receipts", "correct": false },
+            { "text": "The clerk forgot to add GST", "correct": false },
+            { "text": "The computation is correct; the senior is wrong", "correct": false }
+          ],
+          "explanation": "Classic article clerk error! Heavy goods vehicles use the per-ton rate (Rs 1,000/ton/month), not the flat Rs 7,500/month rate. For 12-ton vehicles: Rs 12,000/month per vehicle, not Rs 7,500. The correct income: Rs 12,000 × 5 × 12 = Rs 7,20,000 — Rs 2,70,000 more than the clerk computed.",
+          "explanationWrong": "This trips up most CAs. The two rates in Section 58 (S.No. 3): Rs 1,000/ton/month for heavy vehicles, Rs 7,500/month for others. The clerk applied the wrong rate. In practice, this under-declares income by Rs 2,70,000 — enough to trigger AO scrutiny.",
+          "tier": 3,
+          "subConcepts": ["rate-error", "heavy-vs-light-vehicle", "article-clerk-scenario"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        }
+      ]
+    },
+    {
+      "title": "Practice Scenarios — Audit Triggers & Disqualification",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA firm's client used presumptive taxation under old 44AD for 3 consecutive years (AY 2022-23 to 2024-25). For TY 2026-27 (first year under the new Act), the client opts out and computes income normally. Under Section 58, what is the consequence?",
+          "options": [
+            { "text": "No consequence — the new Act starts fresh", "correct": false },
+            { "text": "The continuity rule carries forward. Having opted for presumptive for 3 years and then opting out, the client must maintain books and get audited for the next 5 years.", "correct": true },
+            { "text": "Only 2 more years of audit requirement (5 total minus 3 already done)", "correct": false },
+            { "text": "The client can re-opt next year without consequence", "correct": false }
+          ],
+          "explanation": "The continuity rule (5-year lock-in) carries forward from the old Act into Section 58. Opting out in TY 2026-27 after 3 years of presumptive means the client must maintain books and get audited for the next 5 years (TY 2026-27 to 2030-31).",
+          "explanationWrong": "This trips up most CAs. The transition to the new Act doesn't reset the continuity clock. If you opted in under old 44AD, the 5-year commitment carries into Section 58. This is a transition trap — many clients may not realise the old commitment follows them.",
+          "tier": 3,
+          "subConcepts": ["continuity-carryover", "transition-trap", "5-year-lockout"],
+          "isReview": false,
+          "oldSection": "Section 44AD(4)",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "A client runs a grocery business (Rs 80 lakh turnover) and his wife runs an insurance agency from the same premises. The client asks: 'Does my wife's commission income affect MY presumptive eligibility?' Under Section 58, what's the answer?",
+          "options": [
+            { "text": "Yes — family members' income is clubbed, so the commission disqualifies the husband", "correct": false },
+            { "text": "No — assessee-level disqualification applies to the INDIVIDUAL assessee. The wife's commission doesn't affect the husband's presumptive eligibility, as they are separate assessees.", "correct": true },
+            { "text": "Yes — if they share premises, income is deemed combined", "correct": false },
+            { "text": "Only if the wife's commission exceeds Rs 2.5 lakh", "correct": false }
+          ],
+          "explanation": "Assessee-level disqualification applies to each person individually. The husband is a separate assessee from the wife. His grocery business can use presumptive even though his wife earns commission — they are different assessees. Sharing premises doesn't merge their tax identities.",
+          "explanationWrong": "This trips up most CAs. The word 'assessee' means the individual person/entity assessed to tax. Clubbing applies in specific circumstances (minor child, spouse with no consideration), but a wife's independent commission income from her own agency is HER income, not the husband's.",
+          "tier": 3,
+          "subConcepts": ["separate-assessees", "spousal-independence", "assessee-definition"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the deemed profit rate for professional presumptive taxation is 50% of gross receipts. This rate applies to which professions?",
+          "options": [
+            { "text": "All professions including architects, fashion designers, and event managers", "correct": false },
+            { "text": "Only specified professions: legal, medical, engineering, architecture, accountancy, technical consultancy, interior decoration, and other notified professions", "correct": true },
+            { "text": "Any self-employed individual regardless of profession", "correct": false },
+            { "text": "Only CAs and lawyers", "correct": false }
+          ],
+          "explanation": "The 50% rate applies to specified professions listed in Section 44AA(1) of the old Act — legal, medical, engineering, architecture, accountancy, technical consultancy, interior decoration, and any other notified profession. Not all professions qualify.",
+          "explanationWrong": "This trips up most CAs. The list is specific. Fashion designers and event managers are NOT specified professions (unless CBDT notifies them). Only the listed professions can use the 50% presumptive rate under Section 58.",
+          "tier": 3,
+          "subConcepts": ["specified-professions-list", "50-percent-rate", "notified-professions"],
+          "isReview": true,
+          "oldSection": "Section 44ADA/44AA(1)",
+          "newSection": "Section 58 (S.No. 2)"
+        },
+        {
+          "order": 4,
+          "question": "During a client review, you discover that a small trader has been using presumptive taxation for 6 years. His turnover grew from Rs 80 lakh to Rs 3.5 crore (with 15% cash receipts). For TY 2026-27, can he continue using Section 58?",
+          "options": [
+            { "text": "Yes — he's been using presumptive for 6 years, so he's grandfathered", "correct": false },
+            { "text": "No — Rs 3.5 crore exceeds the Rs 3 crore limit, AND 15% cash receipts exceed the 5% threshold for the Rs 3 crore limit. At 15% cash, his threshold is Rs 2 crore. He's out of presumptive entirely.", "correct": true },
+            { "text": "Yes — the Rs 3 crore limit applies since he accepts some digital payments", "correct": false },
+            { "text": "He can use presumptive but must declare at 8% on the full Rs 3.5 crore", "correct": false }
+          ],
+          "explanation": "Two problems: (1) Cash receipts are 15% (exceeds 5%), so the higher Rs 3 crore limit doesn't apply — the threshold is Rs 2 crore. (2) Rs 3.5 crore exceeds even Rs 3 crore. The trader is out of presumptive regardless. He must maintain books and compute normally.",
+          "explanationWrong": "This trips up most CAs. The Rs 3 crore limit has a condition: cash receipts ≤ 5%. If cash exceeds 5%, you're back to Rs 2 crore. This trader fails both thresholds. Six years of presumptive doesn't create any grandfathering right — you must qualify each year.",
+          "tier": 3,
+          "subConcepts": ["threshold-breach", "cash-receipt-test", "annual-qualification"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 5,
+          "question": "A client's accountant prepares two scenarios for TY 2026-27: Scenario A — declare 8% profit (Rs 16 lakh on Rs 2 crore turnover, no audit). Scenario B — declare actual 5% profit (Rs 10 lakh, with audit). The incremental tax on Scenario A is Rs 1.5 lakh. Audit cost is Rs 40,000. Which is better from a pure cost perspective?",
+          "options": [
+            { "text": "Scenario A — always declare higher to avoid audit", "correct": false },
+            { "text": "Scenario B — Rs 40,000 audit cost is less than Rs 1.5 lakh extra tax. But factor in: book-keeping cost throughout the year (Rs 24,000-48,000), potential AO scrutiny risk, and professional time. Total Scenario B cost may approach or exceed Rs 1.5 lakh.", "correct": true },
+            { "text": "Scenario A — because Rs 1.5 lakh is always less than audit cost", "correct": false },
+            { "text": "Neither — the client should close the business", "correct": false }
+          ],
+          "explanation": "Pure audit fee (Rs 40K) favours Scenario B. But total compliance cost (books + audit + AO risk + professional time) could be Rs 1-1.5 lakh, making it close to break-even. The right advice depends on the client's specific situation — risk appetite, compliance capacity, and AO scrutiny likelihood.",
+          "explanationWrong": "This trips up most CAs. Don't compare just audit fee vs extra tax. Include: (1) monthly book-keeping cost (Rs 2-4K/month = Rs 24-48K/year), (2) time spent on audit and queries, (3) AO scrutiny risk (higher for below-deemed declarations), (4) stress and distraction cost.",
+          "tier": 3,
+          "subConcepts": ["total-compliance-cost", "scenario-comparison", "practical-advisory"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Application — Section 58 Under Pressure",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "You're training 10 article clerks on Section 58. A clerk asks: 'Is the deemed rate a ceiling or a floor?' How do you answer?",
+          "options": [
+            { "text": "Ceiling — you cannot declare more than the deemed rate", "correct": false },
+            { "text": "Floor — the deemed rate (6%/8%/50%) is the MINIMUM you must declare. You CAN declare higher if your actual income exceeds it. You CANNOT declare lower without triggering audit.", "correct": true },
+            { "text": "Neither — it's a fixed rate that cannot be changed", "correct": false },
+            { "text": "It depends on the AO's discretion", "correct": false }
+          ],
+          "explanation": "The deemed rate is a floor, not a ceiling. If actual income is 12% and deemed is 8%, you should declare 12% (or at least 8% if you want to avoid audit). You can always declare more than the deemed rate. Declaring less triggers the outcome-based audit.",
+          "explanationWrong": "Common mix-up! Declaring BELOW the floor triggers audit. Declaring ABOVE is always safe. The deemed rate provides a safe harbour — stay at or above it and you don't need books or audit. It's a minimum, not a maximum.",
+          "tier": 3,
+          "subConcepts": ["floor-not-ceiling", "training-question", "safe-harbour-concept"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 2,
+          "question": "A partnership firm runs a hardware store (Rs 1.5 crore turnover, 100% digital) and one partner also provides interior decoration consultancy (Rs 20 lakh gross receipts) through the same firm. Under Section 58, what is the presumptive taxation status?",
+          "options": [
+            { "text": "Both hardware and interior decoration can use presumptive independently", "correct": false },
+            { "text": "The firm is disqualified entirely — interior decoration is a specified profession, triggering assessee-level disqualification. The hardware store income must also be computed normally.", "correct": true },
+            { "text": "Only the hardware store can use presumptive", "correct": false },
+            { "text": "The firm should split into two entities", "correct": false }
+          ],
+          "explanation": "Interior decoration is a specified profession. Under Section 58's assessee-level disqualification, the entire firm (as one assessee) is disqualified from presumptive taxation. Both the hardware store AND the interior decoration consultancy must be computed normally with books and audit.",
+          "explanationWrong": "This trips up most CAs. The firm is ONE assessee. One partner's professional activity through the firm disqualifies the firm entirely. If the interior decoration were done through a separate entity (sole proprietorship of that partner), the hardware firm wouldn't be affected.",
+          "tier": 3,
+          "subConcepts": ["partnership-disqualification", "one-assessee-rule", "interior-decoration"],
+          "isReview": false,
+          "oldSection": "Section 44AD/44ADA",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 58 consolidates three old sections into one. What is the table format used?",
+          "options": [
+            { "text": "3 sub-sections for 3 categories", "correct": false },
+            { "text": "3 serial numbers in a table: S.No. 1 (business), S.No. 2 (profession), S.No. 3 (transport)", "correct": true },
+            { "text": "3 separate schedules", "correct": false },
+            { "text": "3 provisos", "correct": false }
+          ],
+          "explanation": "Section 58 uses a table with 3 serial numbers — a structural innovation. Each row specifies the assessee type, threshold, and deemed rate. This was covered in the earlier lesson on Section 58's table format.",
+          "explanationWrong": "This trips up most CAs. The table format is a deliberate drafting choice. Sub-sections would require repeating common provisions (audit trigger, continuity rule, deduction bar) for each category. The table avoids repetition by stating common rules once, with category-specific details in rows.",
+          "tier": 3,
+          "subConcepts": ["table-format", "structural-innovation", "3-serial-numbers"],
+          "isReview": true,
+          "oldSection": "Sections 44AD, 44ADA, 44AE",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 4,
+          "question": "A client operates a fleet of 12 goods carriages — 8 heavy (10 tons each) and 4 light vehicles. For TY 2026-27, he wants to use presumptive under Section 58 (S.No. 3). What is his MINIMUM annual deemed income?",
+          "options": [
+            { "text": "Rs 7,500 × 12 × 12 = Rs 10,80,000", "correct": false },
+            { "text": "Heavy: Rs 1,000 × 10 × 8 × 12 = Rs 9,60,000. Light: Rs 7,500 × 4 × 12 = Rs 3,60,000. Total: Rs 13,20,000.", "correct": true },
+            { "text": "8% of total freight receipts", "correct": false },
+            { "text": "Rs 1,000 × 10 × 12 × 12 = Rs 14,40,000", "correct": false }
+          ],
+          "explanation": "Mixed fleet calculation: Heavy vehicles at Rs 1,000/ton/month (10 tons × 8 vehicles × 12 months = Rs 9,60,000). Light vehicles at Rs 7,500/month (4 vehicles × 12 months = Rs 3,60,000). Total minimum: Rs 13,20,000.",
+          "explanationWrong": "This trips up most CAs. You MUST apply different rates for heavy and light vehicles. Using Rs 7,500 for all (option A) understates heavy vehicle income. Using Rs 1,000/ton for all (option D) overstates light vehicle income. Mixed fleets require split computation.",
+          "tier": 3,
+          "subConcepts": ["mixed-fleet-computation", "split-rate-calculation", "heavy-light-vehicle"],
+          "isReview": false,
+          "oldSection": "Section 44AE",
+          "newSection": "Section 58 (S.No. 3)"
+        },
+        {
+          "order": 5,
+          "question": "Your firm is advising 50 small business clients on the transition to Section 58. A senior partner asks: 'What's the ONE thing every client needs to know about the new presumptive regime?' What's the most important point?",
+          "options": [
+            { "text": "Thresholds have changed — recalculate eligibility", "correct": false },
+            { "text": "Rates have changed — recalculate deemed income", "correct": false },
+            { "text": "Check for ANY commission, agency, or specified professional income — even a small amount disqualifies the ENTIRE assessee from presumptive taxation under Section 58. This is the most common trap.", "correct": true },
+            { "text": "All clients should switch to regular computation to be safe", "correct": false }
+          ],
+          "explanation": "The assessee-level disqualification is the #1 transition risk. Many small businesses earn incidental commission or agency income. Under the old Act, this didn't affect their main business's presumptive status. Under Section 58, it does. Every client needs a commission/agency income audit.",
+          "explanationWrong": "Common mix-up! Thresholds and rates are UNCHANGED (Rs 2Cr/3Cr, Rs 50L/75L, 6%/8%/50%). The real risk is the disqualification rule. A kirana store owner who also sells mobile recharges on commission (agency income) is suddenly disqualified. This requires proactive client communication.",
+          "tier": 3,
+          "subConcepts": ["transition-advisory", "commission-audit", "proactive-communication"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 58"
+        }
+      ]
+    }
+  ]
+}

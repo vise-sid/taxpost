@@ -1,4 +1,4 @@
-import { Check, Lightbulb, Brain, Zap, Lock } from "lucide-react";
+import { Check, Lightbulb, Brain, Zap } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 
@@ -21,29 +21,11 @@ const tierConfig: Record<number, { icon: typeof Lightbulb; color: string; lineCo
 export const TierBadge = ({
   tier,
   label,
-  isUnlocked,
   isCompleted,
   completedCount,
   totalCount,
 }: TierBadgeProps) => {
   const config = tierConfig[tier] ?? tierConfig[1];
-
-  // Locked tier
-  if (!isUnlocked) {
-    return (
-      <div className="flex items-center gap-3 py-3">
-        <div className="h-[1px] flex-1 bg-gray-200" />
-        <Lock className="h-4 w-4 text-gray-300" />
-        <span className="text-xs font-semibold uppercase tracking-wider text-gray-300">
-          {label}
-        </span>
-        {totalCount === 0 && (
-          <span className="text-[10px] text-gray-300">Coming soon</span>
-        )}
-        <div className="h-[1px] flex-1 bg-gray-200" />
-      </div>
-    );
-  }
 
   // Completed tier
   if (isCompleted) {
@@ -62,7 +44,7 @@ export const TierBadge = ({
     );
   }
 
-  // Unlocked (active) tier
+  // Active tier (always unlocked)
   const Icon = config.icon;
 
   return (

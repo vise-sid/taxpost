@@ -1,0 +1,835 @@
+{
+  "unit": "6.5",
+  "title": "Non-Resident Special Provisions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 61 — The Consolidated Table",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, how many old sections governing non-resident presumptive taxation are consolidated into Section 61?",
+          "options": [
+            { "text": "Three — 44B, 44BB, 44BBA", "correct": false },
+            { "text": "Four — 44B, 44BB, 44BBA, 44BBB", "correct": true },
+            { "text": "Six — all non-resident provisions", "correct": false },
+            { "text": "Two — 44B and 44BB only", "correct": false }
+          ],
+          "explanation": "Four old sections — 44B (shipping), 44BB (mineral oil), 44BBA (aircraft), and 44BBB (turnkey power) — are consolidated into Section 61. The table has six serial numbers because two entirely new categories (cruise ships and electronics manufacturing) are added. Sections 44C and 44DA map separately to Sections 60 and 59.",
+          "explanationWrong": "Four old sections is correct. Do not confuse the number of old sections consolidated (four) with the total serial numbers in the Section 61 table (six). The additional two are new categories with no 1961 Act equivalent. Sections 44C and 44DA are not part of Section 61 — they map to Sections 60 and 59 respectively.",
+          "tier": 1,
+          "subConcepts": ["section-61-consolidation", "old-to-new-mapping"],
+          "isReview": false,
+          "oldSection": "Sections 44B, 44BB, 44BBA, 44BBB",
+          "newSection": "Section 61"
+        },
+        {
+          "order": 2,
+          "question": "How many categories (serial numbers) does the Section 61 presumptive income table contain?",
+          "options": [
+            { "text": "Four", "correct": false },
+            { "text": "Five", "correct": false },
+            { "text": "Six", "correct": true },
+            { "text": "Eight", "correct": false }
+          ],
+          "explanation": "Section 61 contains six serial numbers: (1) ship operations at 7.5%, (2) cruise ship operations at 20%, (3) aircraft operations at 5%, (4) turnkey power projects at 10%, (5) mineral oil exploration at 10%, and (6) electronics manufacturing at 25%. Serial numbers 2 and 6 are entirely new categories.",
+          "explanationWrong": "Six serial numbers is correct. Four would account only for the carried-over categories from the 1961 Act. The two new additions — cruise ships (Sl. 2) and electronics manufacturing (Sl. 6) — bring the total to six. This is a key structural change: the table format replaces scattered standalone sections.",
+          "tier": 1,
+          "subConcepts": ["section-61-table", "six-categories"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 6.4, which section governs presumptive taxation for resident small businesses and professionals?",
+          "options": [
+            { "text": "Section 58 (old Sections 44AD and 44ADA)", "correct": true },
+            { "text": "Section 61 (old Sections 44B/44BB/44BBA/44BBB)", "correct": false },
+            { "text": "Section 59 (old Section 44DA)", "correct": false },
+            { "text": "Section 63 (old Section 44AB)", "correct": false }
+          ],
+          "explanation": "Section 58 consolidates old Sections 44AD (business) and 44ADA (profession) for resident presumptive taxation. Section 61 covers non-resident presumptive categories — a completely different regime with different rates and different rules. The two should never be confused.",
+          "explanationWrong": "Section 58 is correct. The presumptive taxation framework under the ITA 2025 splits into two distinct regimes: Section 58 for residents (small business/profession) and Section 61 for non-residents (shipping, aircraft, power, mineral oil, cruise, electronics). Different assessees, different rates, different rules.",
+          "tier": 1,
+          "subConcepts": ["presumptive-taxation-review", "section-58-vs-61"],
+          "isReview": true,
+          "oldSection": "Sections 44AD, 44ADA",
+          "newSection": "Section 58"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 44B (shipping operations of non-residents) maps to which serial number in Section 61?",
+          "options": [
+            { "text": "Sl. 2", "correct": false },
+            { "text": "Sl. 1", "correct": true },
+            { "text": "Sl. 3", "correct": false },
+            { "text": "Sl. 5", "correct": false }
+          ],
+          "explanation": "Old Section 44B maps to Section 61, Sl. 1 — ship operations at 7.5% deemed profit on gross receipts. Sl. 2 is the new cruise ship category. The distinction matters: regular shipping (carriage of passengers, livestock, mail, goods) is Sl. 1; cruise operations are carved out separately into Sl. 2 with a much higher rate.",
+          "explanationWrong": "Sl. 1 is correct. Do not confuse with Sl. 2 (cruise ships — new category at 20%) or Sl. 3 (aircraft — old 44BBA at 5%). The old Section 44B covered regular shipping only; cruise operations were not separately addressed and are now carved out with their own deemed profit rate.",
+          "tier": 1,
+          "subConcepts": ["section-44B-mapping", "shipping-sl-1"],
+          "isReview": false,
+          "oldSection": "Section 44B",
+          "newSection": "Section 61 (Sl. 1)"
+        },
+        {
+          "order": 5,
+          "question": "The deemed profit rate for non-resident aircraft operations under Section 61 (Sl. 3) is:",
+          "options": [
+            { "text": "7.5% of gross receipts", "correct": false },
+            { "text": "10% of gross receipts", "correct": false },
+            { "text": "5% of gross receipts", "correct": true },
+            { "text": "20% of gross receipts", "correct": false }
+          ],
+          "explanation": "Aircraft operations (Sl. 3, old Section 44BBA) carry a deemed profit of 5% of gross receipts — the lowest rate in the Section 61 table. This rate is unchanged from old Section 44BBA. The low rate reflects the thin-margin, high-capital nature of airline operations.",
+          "explanationWrong": "5% is correct. The full rate card: ship 7.5%, cruise 20%, aircraft 5%, turnkey power 10%, mineral oil 10%, electronics 25%. Aircraft at 5% is the lowest; electronics at 25% is the highest. These rates should be memorised — they are directly testable and frequently referenced in practice.",
+          "tier": 1,
+          "subConcepts": ["aircraft-rate", "section-44BBA-to-sl-3"],
+          "isReview": false,
+          "oldSection": "Section 44BBA",
+          "newSection": "Section 61 (Sl. 3)"
+        }
+      ]
+    },
+    {
+      "title": "Two New Categories and Rate Card",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The deemed profit rate for non-resident cruise ship operations under Section 61 (Sl. 2) is:",
+          "options": [
+            { "text": "7.5% — same as regular shipping", "correct": false },
+            { "text": "10%", "correct": false },
+            { "text": "20%", "correct": true },
+            { "text": "15%", "correct": false }
+          ],
+          "explanation": "Cruise ship operations carry a deemed profit of 20% — nearly three times the 7.5% rate for regular shipping (Sl. 1). This reflects the high-margin nature of cruise tourism compared to freight shipping. This category is entirely new; the 1961 Act had no separate provision for cruise operators.",
+          "explanationWrong": "20% is correct. The contrast with regular shipping (7.5%) is deliberate: cruise operations involve premium passenger services with significantly higher margins than cargo/freight. Applying the 7.5% shipping rate to cruise tourism would substantially undertax the activity.",
+          "tier": 1,
+          "subConcepts": ["cruise-ship-rate", "new-category"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 2)"
+        },
+        {
+          "order": 2,
+          "question": "The deemed profit rate for non-resident electronics manufacturing under Section 61 (Sl. 6) is:",
+          "options": [
+            { "text": "20%", "correct": false },
+            { "text": "25%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "15%", "correct": false }
+          ],
+          "explanation": "Electronics manufacturing at 25% is the highest deemed profit rate in the Section 61 table. This new category targets non-resident entities manufacturing electronic equipment in India — a sector that gained prominence with the PLI scheme attracting foreign electronics manufacturers. No equivalent existed in the 1961 Act.",
+          "explanationWrong": "25% is correct — the highest rate in the table. The policy rationale: electronics manufacturing involves significant value-add (design, assembly, testing) with high embedded margins, unlike freight shipping (7.5%) or airline operations (5%). The 25% rate reflects the economic profile of this sector.",
+          "tier": 1,
+          "subConcepts": ["electronics-manufacturing-rate", "new-category"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 6)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 6.4, what happens when a resident assessee under presumptive taxation (Section 58) declares income below the presumptive rate?",
+          "options": [
+            { "text": "Tax audit under Section 63 becomes mandatory", "correct": true },
+            { "text": "No consequence — the lower income is accepted", "correct": false },
+            { "text": "A penalty is automatically levied", "correct": false },
+            { "text": "The presumptive rate is applied regardless", "correct": false }
+          ],
+          "explanation": "Under Section 58 (old 44AD/44ADA), a resident declaring income below the presumptive rate must maintain books and get them audited under Section 63. This is the quid pro quo of the presumptive regime — simplified computation in exchange for accepting the minimum deemed profit.",
+          "explanationWrong": "Tax audit becomes mandatory is correct. This is the enforcement mechanism: if you opt for presumptive but declare lower income, you must justify it with books and audit. Compare this with Section 61 for non-residents, where only Sl. 4 and Sl. 5 permit lower-profit claims (also with audit).",
+          "tier": 1,
+          "subConcepts": ["presumptive-audit-trigger", "section-58-review"],
+          "isReview": true,
+          "oldSection": "Section 44AD/44ADA",
+          "newSection": "Section 58, Section 63"
+        },
+        {
+          "order": 4,
+          "question": "Which two categories in the Section 61 table are entirely new — with no equivalent in the 1961 Act?",
+          "options": [
+            { "text": "Sl. 1 (shipping) and Sl. 3 (aircraft)", "correct": false },
+            { "text": "Sl. 4 (turnkey power) and Sl. 5 (mineral oil)", "correct": false },
+            { "text": "Sl. 2 (cruise ships) and Sl. 6 (electronics manufacturing)", "correct": true },
+            { "text": "Sl. 3 (aircraft) and Sl. 6 (electronics)", "correct": false }
+          ],
+          "explanation": "Sl. 2 (cruise ships at 20%) and Sl. 6 (electronics manufacturing at 25%) are entirely new. The remaining four — Sl. 1 (shipping/44B), Sl. 3 (aircraft/44BBA), Sl. 4 (turnkey power/44BBB), Sl. 5 (mineral oil/44BB) — are carried over from the 1961 Act at unchanged rates.",
+          "explanationWrong": "Sl. 2 and Sl. 6 is correct. The four carried-over categories retain their old rates: 7.5%, 5%, 10%, 10%. The two new categories have higher rates (20% and 25%) reflecting the high-margin sectors they target. This expansion of the presumptive net is the substantive change in Section 61.",
+          "tier": 1,
+          "subConcepts": ["new-categories", "no-old-equivalent"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 2, Sl. 6)"
+        },
+        {
+          "order": 5,
+          "question": "The deemed profit rate for turnkey power projects (Sl. 4) and mineral oil exploration services (Sl. 5) under Section 61 is:",
+          "options": [
+            { "text": "5% for both", "correct": false },
+            { "text": "7.5% for both", "correct": false },
+            { "text": "10% for both", "correct": true },
+            { "text": "10% for turnkey, 7.5% for mineral oil", "correct": false }
+          ],
+          "explanation": "Both turnkey power projects (Sl. 4, old Section 44BBB) and mineral oil exploration services (Sl. 5, old Section 44BB) carry a 10% deemed profit rate — unchanged from the 1961 Act. These two categories also share another feature: they are the only ones that permit lower-profit claims with audit.",
+          "explanationWrong": "10% for both is correct. These two categories are the middle tier of the rate card — between aircraft (5%) and cruise/electronics (20%/25%). They are also the only two that allow the assessee to claim actual profits lower than the deemed percentage, subject to maintaining books under Section 62 and audit under Section 63.",
+          "tier": 1,
+          "subConcepts": ["turnkey-mineral-oil-rates", "sl-4-sl-5"],
+          "isReview": false,
+          "oldSection": "Sections 44BBB, 44BB",
+          "newSection": "Section 61 (Sl. 4, Sl. 5)"
+        }
+      ]
+    },
+    {
+      "title": "Lower Profit Claims, Losses, and Deductions",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which serial numbers in the Section 61 table permit the assessee to claim actual profits lower than the deemed percentage?",
+          "options": [
+            { "text": "All six serial numbers", "correct": false },
+            { "text": "Sl. 1 and Sl. 3 only", "correct": false },
+            { "text": "Sl. 4 and Sl. 5 only", "correct": true },
+            { "text": "Sl. 2 and Sl. 6 only", "correct": false }
+          ],
+          "explanation": "Only turnkey power projects (Sl. 4, old 44BBB) and mineral oil exploration services (Sl. 5, old 44BB) permit lower-profit claims. This replicates the old position — Sections 44BBB and 44BB allowed lower claims with audit. The remaining four categories (including both new ones) are locked to their deemed percentages.",
+          "explanationWrong": "Sl. 4 and Sl. 5 only is correct. The four locked categories — shipping (Sl. 1), cruise (Sl. 2), aircraft (Sl. 3), and electronics (Sl. 6) — do not permit lower claims. For these, the deemed percentage is final. This distinction carries significant practical consequences for non-residents in these sectors.",
+          "tier": 1,
+          "subConcepts": ["lower-profit-claims", "sl-4-sl-5-audit"],
+          "isReview": false,
+          "oldSection": "Sections 44BB, 44BBB",
+          "newSection": "Section 61 (Sl. 4, Sl. 5)"
+        },
+        {
+          "order": 2,
+          "question": "To claim actual profits lower than the deemed percentage under Sl. 4 or Sl. 5, the assessee must:",
+          "options": [
+            { "text": "Simply file a declaration with the return", "correct": false },
+            { "text": "Maintain books under Section 62 and get audited under Section 63", "correct": true },
+            { "text": "Obtain prior approval from the Assessing Officer", "correct": false },
+            { "text": "Apply for an advance ruling", "correct": false }
+          ],
+          "explanation": "Lower-profit claims for Sl. 4 and Sl. 5 require: (1) maintenance of books of account as prescribed under Section 62, and (2) audit of those books under Section 63 with the report furnished by the due date. A mere declaration is insufficient. This replicates the old requirements under Sections 44BBB and 44BB.",
+          "explanationWrong": "Books under Section 62 and audit under Section 63 is correct. The lower-profit claim is not administrative (no AO approval, no advance ruling). It is compliance-driven: maintain proper books and get them audited. Without audit, the deemed percentage applies regardless of actual profits.",
+          "tier": 1,
+          "subConcepts": ["lower-profit-compliance", "books-and-audit"],
+          "isReview": false,
+          "oldSection": "Sections 44BB, 44BBB",
+          "newSection": "Sections 61, 62, 63"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 61, can a non-resident shipping company claim a loss from its Indian shipping operations?",
+          "options": [
+            { "text": "Yes — losses are permitted if actual accounts are maintained", "correct": false },
+            { "text": "No — there is a complete bar on losses against deemed income under Section 61", "correct": true },
+            { "text": "Yes — up to the extent of the 7.5% deemed profit", "correct": false },
+            { "text": "Only if the loss is carried forward from the 1961 Act regime", "correct": false }
+          ],
+          "explanation": "Section 61 imposes a complete bar on losses for all six categories. No loss can be claimed from any business covered by the section. This is the standard presumptive trade-off: simplified computation at a fixed percentage in exchange for a total bar on losses and deductions. The bar applies uniformly — even to Sl. 4 and Sl. 5 when deemed profits are accepted.",
+          "explanationWrong": "Complete bar on losses is correct. This bar is absolute. Even if actual expenses exceed gross receipts, the assessee cannot report a loss. The deemed profit is the minimum floor. For Sl. 4 and Sl. 5, a lower profit can be claimed (with audit), but never a loss.",
+          "tier": 1,
+          "subConcepts": ["loss-bar", "presumptive-trade-off"],
+          "isReview": false,
+          "oldSection": "Sections 44B, 44BB, 44BBA, 44BBB",
+          "newSection": "Section 61"
+        },
+        {
+          "order": 4,
+          "question": "Can deductions under Sections 44 through 58 (general PGBP deductions) be claimed against deemed income computed under Section 61?",
+          "options": [
+            { "text": "Yes — all normal deductions apply", "correct": false },
+            { "text": "Only depreciation is allowed", "correct": false },
+            { "text": "No — there is a complete bar on deductions against deemed income", "correct": true },
+            { "text": "Only for the two new categories", "correct": false }
+          ],
+          "explanation": "No deduction under Sections 44 through 58 is available against deemed income under Section 61. This means no depreciation, no business expenditure deductions, and no allowances can reduce the deemed profit. The bar is uniform across all six categories and replicates the position under the old standalone sections.",
+          "explanationWrong": "Complete bar on deductions is correct. The deemed profit percentages (7.5% to 25%) already factor in a reasonable expense ratio. Allowing separate deductions on top would defeat the purpose of the presumptive regime. This bar existed under each old section individually; Section 61 consolidates it into one uniform rule.",
+          "tier": 1,
+          "subConcepts": ["deduction-bar", "sections-44-to-58-excluded"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 44DA (royalty/FTS with PE) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 61 (Sl. 1)", "correct": false },
+            { "text": "Section 60", "correct": false },
+            { "text": "Section 59", "correct": true },
+            { "text": "Section 58", "correct": false }
+          ],
+          "explanation": "Old Section 44DA maps to new Section 59 — covering non-residents earning royalty or FTS through a permanent establishment in India. This is separate from the presumptive table in Section 61. Income under Section 59 is computed under PGBP on an actual-profit basis with mandatory audit, not on a deemed percentage basis.",
+          "explanationWrong": "Section 59 is correct. Do not conflate Section 59 (PE-based royalty/FTS — actual profit computation) with Section 61 (presumptive percentage). Section 60 is head office expenses (old 44C), and Section 58 is the resident presumptive regime (old 44AD/44ADA).",
+          "tier": 1,
+          "subConcepts": ["section-44DA-to-59", "pe-based-income"],
+          "isReview": false,
+          "oldSection": "Section 44DA",
+          "newSection": "Section 59"
+        }
+      ]
+    },
+    {
+      "title": "Section 59 and Section 60 — Substance and Structure",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 59 (old 44DA), income of a non-resident from royalty/FTS connected with a PE is computed under which head?",
+          "options": [
+            { "text": "Income from Other Sources", "correct": false },
+            { "text": "Profits and Gains of Business or Profession", "correct": true },
+            { "text": "Capital Gains", "correct": false },
+            { "text": "No specific head — taxed at a flat treaty rate", "correct": false }
+          ],
+          "explanation": "When royalty/FTS is effectively connected with a PE in India, the income is computed under the PGBP head — not under Income from Other Sources and not at the concessional treaty rate applicable to non-PE royalty/FTS. This means full PGBP computation: actual income minus allowable expenditure, with mandatory audit under Section 63.",
+          "explanationWrong": "PGBP head is correct. The PE connection is the trigger: if royalty/FTS flows through a PE, it is treated as business income. Without a PE, the same income would typically be taxed under IFOS at a flat rate (or treaty rate). This distinction is unchanged from old Section 44DA.",
+          "tier": 2,
+          "subConcepts": ["section-59-pgbp-head", "pe-connection"],
+          "isReview": false,
+          "oldSection": "Section 44DA",
+          "newSection": "Section 59"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 60 (old 44C), the cap on head office expenditure allocated to an Indian branch is:",
+          "options": [
+            { "text": "10% of adjusted total income", "correct": false },
+            { "text": "5% of adjusted total income", "correct": true },
+            { "text": "No cap — full allocation permitted", "correct": false },
+            { "text": "3% of turnover", "correct": false }
+          ],
+          "explanation": "The 5% cap on head office expenditure allocation is unchanged from old Section 44C. Only the lower of (a) HO expenditure attributable to Indian business on a reasonable basis, or (b) 5% of adjusted total income, is deductible. This prevents excessive allocation of global overheads to the Indian branch.",
+          "explanationWrong": "5% of adjusted total income is correct. This is a pure renumber from Section 44C to Section 60. The methodology, the percentage, and the definition of adjusted total income are all unchanged. No relearning required — just update the section reference.",
+          "tier": 2,
+          "subConcepts": ["head-office-cap", "section-44C-to-60"],
+          "isReview": false,
+          "oldSection": "Section 44C",
+          "newSection": "Section 60"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 61, what is the complete bar that applies uniformly across all six categories?",
+          "options": [
+            { "text": "Bar on claiming losses and deductions against deemed income", "correct": true },
+            { "text": "Bar on claiming lower actual profits", "correct": false },
+            { "text": "Bar on filing returns", "correct": false },
+            { "text": "Bar on DTAA benefits", "correct": false }
+          ],
+          "explanation": "The complete bar on losses and deductions applies to all six categories uniformly. No loss can be claimed, and no deduction under Sections 44-58 is available against deemed income. This is the standard presumptive trade-off. The bar on claiming lower profits applies only to four categories (Sl. 1, 2, 3, 6) — Sl. 4 and Sl. 5 can claim lower actual profits.",
+          "explanationWrong": "Bar on losses and deductions is correct. The bar on claiming lower profits is NOT uniform — Sl. 4 and Sl. 5 are exceptions. The loss/deduction bar, however, applies even to Sl. 4 and Sl. 5 when deemed profits are accepted. DTAA benefits are a separate question entirely — the Act provision operates independently of treaty protection.",
+          "tier": 2,
+          "subConcepts": ["uniform-bar", "loss-deduction-bar-review"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 61"
+        },
+        {
+          "order": 4,
+          "question": "Why does the ITA 2025 assign a 20% deemed profit rate to cruise ships (Sl. 2) versus 7.5% for regular shipping (Sl. 1)?",
+          "options": [
+            { "text": "Cruise tourism involves premium passenger services with significantly higher margins than freight shipping", "correct": true },
+            { "text": "Cruise ships are taxed at a higher rate to discourage tourism", "correct": false },
+            { "text": "The 20% rate is a transitional rate that will reduce to 7.5% over time", "correct": false },
+            { "text": "Cruise ships were already taxed at 20% under the old Act", "correct": false }
+          ],
+          "explanation": "The rate differential reflects economic reality. Regular shipping (freight, cargo, mail) operates on thin margins — 7.5% deemed profit. Cruise operations involve premium passenger services, onboard hospitality, entertainment, and retail — activities with substantially higher profit margins. The 20% rate is calibrated to this margin profile. There was no old Act equivalent; this is a fresh legislative determination.",
+          "explanationWrong": "Higher margins from premium services is correct. This is not a discouragement measure or a transitional rate. The legislature is calibrating deemed profit to the economic profile of the activity — a principle that applies across all six categories. Freight shipping at 7.5% and cruise tourism at 20% reflect genuinely different margin structures.",
+          "tier": 2,
+          "subConcepts": ["rate-rationale", "cruise-vs-shipping"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 1, Sl. 2)"
+        },
+        {
+          "order": 5,
+          "question": "The structural advantage of consolidating four old sections into the Section 61 table is:",
+          "options": [
+            { "text": "One section, one table, one set of overarching rules — instead of four separate sections with separate conditions", "correct": true },
+            { "text": "The rates have been reduced across all categories", "correct": false },
+            { "text": "Non-residents are now exempt from audit requirements", "correct": false },
+            { "text": "All categories now permit lower-profit claims", "correct": false }
+          ],
+          "explanation": "The table format creates a uniform framework. Under the old Act, a practitioner needed to navigate four separate sections (44B, 44BB, 44BBA, 44BBB), each with its own provisos and cross-references. Section 61 houses everything in one table with uniform overarching rules for loss bar, deduction bar, and lower-profit eligibility. The rates are unchanged for carried-over categories.",
+          "explanationWrong": "Uniform framework is correct. This is a structural improvement, not a substantive change in rates, audit requirements, or lower-profit eligibility. The rates are identical for the four old categories. The lower-profit claim is still limited to Sl. 4 and Sl. 5. Audit requirements continue where applicable. The gain is navigational simplicity.",
+          "tier": 2,
+          "subConcepts": ["structural-consolidation", "navigational-improvement"],
+          "isReview": false,
+          "oldSection": "Sections 44B, 44BB, 44BBA, 44BBB",
+          "newSection": "Section 61"
+        }
+      ]
+    },
+    {
+      "title": "Why These Rates? Policy and Comparisons",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The electronics manufacturing category (Sl. 6) at 25% deemed profit was likely introduced in response to which government initiative?",
+          "options": [
+            { "text": "Make in India — general manufacturing incentive", "correct": false },
+            { "text": "Production Linked Incentive (PLI) scheme attracting foreign electronics manufacturers", "correct": true },
+            { "text": "Digital India — software development focus", "correct": false },
+            { "text": "Semiconductor Mission — chip fabrication only", "correct": false }
+          ],
+          "explanation": "The PLI scheme attracted significant non-resident electronics manufacturers to establish Indian operations (assembly, testing, manufacturing). As these operations grew, a presumptive framework became necessary to simplify taxation for non-residents engaged in electronics manufacturing. The 25% rate reflects the value-add in electronics (design + assembly + testing).",
+          "explanationWrong": "PLI scheme is correct. While Make in India is the broader umbrella, the PLI scheme specifically targeted electronics manufacturing with financial incentives that brought foreign manufacturers to India. The resulting need for a clear tax framework for these non-resident operations drove the creation of Sl. 6.",
+          "tier": 2,
+          "subConcepts": ["electronics-policy-rationale", "pli-scheme"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 6)"
+        },
+        {
+          "order": 2,
+          "question": "Across the Section 61 table, the rates from lowest to highest are:",
+          "options": [
+            { "text": "5% (aircraft), 7.5% (ship), 10% (turnkey/mineral oil), 20% (cruise), 25% (electronics)", "correct": true },
+            { "text": "7.5% (ship), 5% (aircraft), 10% (turnkey/mineral oil), 20% (cruise), 25% (electronics)", "correct": false },
+            { "text": "5% (aircraft), 7.5% (ship), 10% (turnkey/mineral oil), 25% (electronics), 20% (cruise)", "correct": false },
+            { "text": "5% (aircraft), 10% (ship), 10% (turnkey/mineral oil), 20% (cruise), 25% (electronics)", "correct": false }
+          ],
+          "explanation": "The correct ascending order: aircraft 5%, ship 7.5%, turnkey/mineral oil 10% each, cruise 20%, electronics 25%. Each rate reflects the economic margin profile of the activity. The spread from 5% to 25% is substantial — a five-fold difference between the lowest (aircraft) and highest (electronics).",
+          "explanationWrong": "The correct sequence starts with aircraft at 5%, then ship at 7.5%. A common error is placing ship before aircraft. Ship operations carry a higher margin than aircraft operations, reflected in the 2.5 percentage-point difference. Turnkey and mineral oil are equal at 10%; cruise and electronics are the two highest at 20% and 25%.",
+          "tier": 2,
+          "subConcepts": ["rate-hierarchy", "margin-profiles"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 44C governed head office expenditure allocation for non-residents. In the ITA 2025, this provision is found in:",
+          "options": [
+            { "text": "Section 59", "correct": false },
+            { "text": "Section 60", "correct": true },
+            { "text": "Section 61", "correct": false },
+            { "text": "Section 62", "correct": false }
+          ],
+          "explanation": "Old Section 44C maps to new Section 60. This is a pure renumber — the 5% cap on head office expenditure allocation to the Indian branch is unchanged. Section 59 is royalty/FTS with PE (old 44DA), Section 61 is the presumptive table, and Section 62 is books of account (old 44AA).",
+          "explanationWrong": "Section 60 is correct. The non-resident provisions in the ITA 2025 run sequentially: 59 (PE-based royalty/FTS), 60 (head office expenses), 61 (presumptive table). Section 62 is not a non-resident provision — it is the general books of account requirement.",
+          "tier": 2,
+          "subConcepts": ["section-44C-to-60-review", "sequential-numbering"],
+          "isReview": true,
+          "oldSection": "Section 44C",
+          "newSection": "Section 60"
+        },
+        {
+          "order": 4,
+          "question": "For non-resident ship operators, the deemed profit of 7.5% is computed on what base?",
+          "options": [
+            { "text": "Net profit after expenses", "correct": false },
+            { "text": "Gross receipts from carriage of passengers, livestock, mail, or goods shipped at any Indian port", "correct": true },
+            { "text": "Turnover excluding freight income", "correct": false },
+            { "text": "Total income from worldwide operations", "correct": false }
+          ],
+          "explanation": "The 7.5% is computed on gross receipts — specifically from carriage of passengers, livestock, mail, or goods shipped at any Indian port. It is a percentage of Indian-sourced gross receipts, not global turnover and not net profit. This is unchanged from old Section 44B.",
+          "explanationWrong": "Gross receipts from Indian port carriage is correct. Presumptive taxation always operates on a gross basis — applying a percentage to top-line receipts, not bottom-line profit. The scope is limited to Indian port activity; receipts from carriage between two foreign ports are not included.",
+          "tier": 2,
+          "subConcepts": ["gross-receipts-base", "indian-port-scope"],
+          "isReview": false,
+          "oldSection": "Section 44B",
+          "newSection": "Section 61 (Sl. 1)"
+        },
+        {
+          "order": 5,
+          "question": "Why are turnkey power (Sl. 4) and mineral oil (Sl. 5) the only categories in Section 61 that permit lower-profit claims?",
+          "options": [
+            { "text": "These are project-based activities with highly variable costs, making a fixed percentage potentially punitive", "correct": true },
+            { "text": "These categories have the highest deemed rates", "correct": false },
+            { "text": "The government wants to encourage these activities over others", "correct": false },
+            { "text": "These categories were added most recently to the old Act", "correct": false }
+          ],
+          "explanation": "Turnkey power projects and mineral oil exploration are inherently project-based with costs that vary dramatically between projects. A fixed 10% deemed profit could be punitive for projects with genuinely high costs (remote locations, complex engineering, environmental compliance). The lower-claim provision recognises this cost variability — unlike shipping or aircraft, where margin structures are more predictable.",
+          "explanationWrong": "Project-based cost variability is correct. These two activities involve large capital outlays, site-specific engineering, and variable completion timelines — making actual costs highly unpredictable. Shipping and aircraft operations, by contrast, have more standardised cost structures. The lower-claim option existed under old Sections 44BB and 44BBB for the same reason.",
+          "tier": 2,
+          "subConcepts": ["lower-claim-rationale", "cost-variability"],
+          "isReview": false,
+          "oldSection": "Sections 44BB, 44BBB",
+          "newSection": "Section 61 (Sl. 4, Sl. 5)"
+        }
+      ]
+    },
+    {
+      "title": "Sections 59-61 — Mapping and Cross-Reference Drill",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A non-resident foreign company earns royalty through its PE in India. Under the ITA 2025, the mandatory audit requirement falls under:",
+          "options": [
+            { "text": "Section 61 (presumptive table)", "correct": false },
+            { "text": "Section 63 (old Section 44AB), triggered by Section 59", "correct": true },
+            { "text": "Section 62 (books of account)", "correct": false },
+            { "text": "No audit is required for PE-based income", "correct": false }
+          ],
+          "explanation": "Section 59 (old 44DA) mandates audit under Section 63 (old 44AB) for PE-based royalty/FTS income. The audit requirement is embedded in Section 59 by cross-reference to Section 63. Section 61 is the presumptive table — it does not apply to PE-based royalty/FTS.",
+          "explanationWrong": "Section 63 triggered by Section 59 is correct. The chain is: Section 59 governs the computation, and Section 59 requires compliance with Section 63 (audit). Section 62 is the books of account obligation — necessary but not the audit provision itself.",
+          "tier": 2,
+          "subConcepts": ["pe-audit-chain", "section-59-to-63"],
+          "isReview": false,
+          "oldSection": "Section 44DA, Section 44AB",
+          "newSection": "Section 59, Section 63"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 59, head office expenditure allocated to the Indian PE is subject to the limitation in:",
+          "options": [
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 60", "correct": true },
+            { "text": "Section 61", "correct": false },
+            { "text": "No limitation applies", "correct": false }
+          ],
+          "explanation": "Section 59 explicitly subjects head office expenditure to the Section 60 limitation (5% of adjusted total income). This cross-reference replaces old Section 44DA's reference to Section 44C. The expenditure must also be wholly and exclusively incurred for earning royalty/FTS through the PE.",
+          "explanationWrong": "Section 60 is correct. The cross-reference chain: Section 59 (computation) → Section 60 (HO expense cap). The 5% cap in Section 60 is the same as old Section 44C. Section 58 is the resident presumptive regime — entirely inapplicable to PE-based non-resident income.",
+          "tier": 2,
+          "subConcepts": ["ho-expense-cross-reference", "section-59-to-60"],
+          "isReview": false,
+          "oldSection": "Section 44DA, Section 44C",
+          "newSection": "Section 59, Section 60"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 61, which category carries the highest deemed profit rate?",
+          "options": [
+            { "text": "Sl. 2 — cruise ships at 20%", "correct": false },
+            { "text": "Sl. 6 — electronics manufacturing at 25%", "correct": true },
+            { "text": "Sl. 4 — turnkey power at 10%", "correct": false },
+            { "text": "Sl. 1 — shipping at 7.5%", "correct": false }
+          ],
+          "explanation": "Electronics manufacturing (Sl. 6) at 25% is the highest rate in the table. Cruise ships (Sl. 2) at 20% is the second highest. Both are new categories — the carried-over categories range from 5% (aircraft) to 10% (turnkey/mineral oil).",
+          "explanationWrong": "Sl. 6 at 25% is correct. The full rate ladder: aircraft 5% < ship 7.5% < turnkey/mineral oil 10% < cruise 20% < electronics 25%. Both new categories (cruise and electronics) sit at the top of the rate ladder, reflecting higher-margin activities.",
+          "tier": 2,
+          "subConcepts": ["highest-rate", "electronics-25-percent"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 6)"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following mappings is INCORRECT?",
+          "options": [
+            { "text": "Old 44B → New Section 61 (Sl. 1)", "correct": false },
+            { "text": "Old 44BB → New Section 61 (Sl. 3)", "correct": true },
+            { "text": "Old 44BBA → New Section 61 (Sl. 3)", "correct": false },
+            { "text": "Old 44BBB → New Section 61 (Sl. 4)", "correct": false }
+          ],
+          "explanation": "Old 44BB (mineral oil exploration) maps to Section 61 (Sl. 5), NOT Sl. 3. Sl. 3 is aircraft operations (old 44BBA). The confusion arises because 44BB and 44BBA sound similar — but 44BB is mineral oil, 44BBA is aircraft. This is a classic mapping trap.",
+          "explanationWrong": "Old 44BB → Sl. 3 is incorrect. The correct mapping for 44BB is Sl. 5 (mineral oil at 10%). Old 44BBA → Sl. 3 (aircraft at 5%) is the correct mapping. These two old sections — 44BB and 44BBA — are frequently confused because of the similar section numbers. Remember: the extra 'A' in 44BBA = Aircraft.",
+          "tier": 2,
+          "subConcepts": ["mapping-trap", "44BB-vs-44BBA"],
+          "isReview": false,
+          "oldSection": "Section 44BB",
+          "newSection": "Section 61 (Sl. 5)"
+        },
+        {
+          "order": 5,
+          "question": "Under the 1961 Act, a practitioner handling non-resident shipping, aircraft, and mineral oil clients needed to navigate how many separate sections?",
+          "options": [
+            { "text": "One — they were all in a single section", "correct": false },
+            { "text": "Two — shipping and aircraft in one, mineral oil in another", "correct": false },
+            { "text": "Three — 44B, 44BBA, and 44BB", "correct": true },
+            { "text": "Four — including 44BBB", "correct": false }
+          ],
+          "explanation": "Three separate sections: 44B (shipping), 44BBA (aircraft), and 44BB (mineral oil). Each had its own set of conditions, provisos, and cross-references. Under the ITA 2025, all three (plus turnkey power and two new categories) sit in a single Section 61 table. The navigational improvement is significant.",
+          "explanationWrong": "Three sections is correct for the specific client types listed (shipping, aircraft, mineral oil). Adding turnkey power (44BBB) would make it four. The question tests precision — not all non-resident provisions, but the specific ones relevant to the described client set.",
+          "tier": 2,
+          "subConcepts": ["old-act-fragmentation", "consolidation-benefit"],
+          "isReview": false,
+          "oldSection": "Sections 44B, 44BB, 44BBA",
+          "newSection": "Section 61"
+        }
+      ]
+    },
+    {
+      "title": "Cruise and Electronics — Assessing the New Entrants",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A non-resident cruise line operates a ship carrying 2,000 passengers from Mumbai port during the season, earning gross receipts of Rs 80 crore from Indian operations. The deemed profit under Section 61 (Sl. 2) is:",
+          "options": [
+            { "text": "Rs 6 crore (7.5%)", "correct": false },
+            { "text": "Rs 16 crore (20%)", "correct": true },
+            { "text": "Rs 8 crore (10%)", "correct": false },
+            { "text": "Rs 20 crore (25%)", "correct": false }
+          ],
+          "explanation": "Cruise ship operations fall under Sl. 2 at 20%. Rs 80 crore x 20% = Rs 16 crore deemed profit. If this were regular shipping (Sl. 1 at 7.5%), the deemed profit would be only Rs 6 crore — a difference of Rs 10 crore. The cruise carve-out has real financial consequences for operators accustomed to the old shipping rate.",
+          "explanationWrong": "Rs 16 crore (20%) is correct. The 7.5% rate would apply only if this were regular freight shipping (carriage of goods/mail). Cruise operations are explicitly carved out at 20%. The operator cannot argue that it is 'shipping' under Sl. 1 — the table specifically distinguishes cruise from regular shipping.",
+          "tier": 3,
+          "subConcepts": ["cruise-computation", "rate-application"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 2)"
+        },
+        {
+          "order": 2,
+          "question": "A non-resident electronics company assembles smartphones at its Indian facility, earning gross receipts of Rs 500 crore. Its actual manufacturing costs are Rs 450 crore. The deemed profit under Sl. 6 is Rs 125 crore, but actual profit is Rs 50 crore. Can the company claim the lower actual profit?",
+          "options": [
+            { "text": "Yes — lower-profit claims are available for all categories with audit", "correct": false },
+            { "text": "No — Sl. 6 does not permit lower-profit claims; the Rs 125 crore deemed profit is final", "correct": true },
+            { "text": "Yes — if the company maintains books under Section 62", "correct": false },
+            { "text": "Yes — but only if the actual profit is below 10%", "correct": false }
+          ],
+          "explanation": "Electronics manufacturing (Sl. 6) is one of the four locked categories — no lower-profit claim is permitted. The deemed profit of Rs 125 crore (25% of Rs 500 crore) is final, even though actual profit is only Rs 50 crore. The company pays tax on Rs 125 crore, not Rs 50 crore. This is a Rs 75 crore overtaxation gap that the company cannot challenge within the presumptive framework.",
+          "explanationWrong": "No lower-profit claim is correct. Only Sl. 4 (turnkey power) and Sl. 5 (mineral oil) permit lower claims. For Sl. 6, the 25% deemed profit is absolute. The company's options: (1) accept the deemed profit, or (2) explore whether a PE-based regular computation under non-presumptive provisions would yield a lower tax outgo — requiring full books, audit, and actual profit determination.",
+          "tier": 3,
+          "subConcepts": ["electronics-locked-rate", "overtaxation-gap"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 6)"
+        },
+        {
+          "order": 3,
+          "question": "For which serial numbers in Section 61 is the assessee permitted to claim actual profits lower than the deemed percentage?",
+          "options": [
+            { "text": "Sl. 1 and Sl. 2 only", "correct": false },
+            { "text": "Sl. 4 and Sl. 5 only", "correct": true },
+            { "text": "All six serial numbers", "correct": false },
+            { "text": "Sl. 2 and Sl. 6 (new categories only)", "correct": false }
+          ],
+          "explanation": "Only Sl. 4 (turnkey power projects) and Sl. 5 (mineral oil exploration) permit lower-profit claims, subject to books under Section 62 and audit under Section 63. This replicates old Sections 44BBB and 44BB. The other four categories are locked to their deemed percentages.",
+          "explanationWrong": "Sl. 4 and Sl. 5 only is correct. This is a core structural feature of Section 61 worth reinforcing: the lower-claim option is reserved for project-based activities with variable costs. Shipping, cruise, aircraft, and electronics have more predictable margin structures, so the deemed percentage is final.",
+          "tier": 3,
+          "subConcepts": ["lower-profit-review", "sl-4-sl-5"],
+          "isReview": true,
+          "oldSection": "Sections 44BB, 44BBB",
+          "newSection": "Section 61 (Sl. 4, Sl. 5)"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident turnkey contractor builds a 500 MW power plant in Rajasthan. Gross receipts are Rs 200 crore. Actual profit after site costs, labour, and equipment is Rs 8 crore. Can the contractor claim the actual Rs 8 crore instead of the deemed Rs 20 crore?",
+          "options": [
+            { "text": "Yes — Sl. 4 permits lower claims with books under Section 62 and audit under Section 63", "correct": true },
+            { "text": "No — the 10% deemed profit is mandatory", "correct": false },
+            { "text": "Yes — but only if actual profit is below 5%", "correct": false },
+            { "text": "No — lower claims are only for mineral oil, not turnkey", "correct": false }
+          ],
+          "explanation": "Sl. 4 (turnkey power) permits the contractor to claim actual profit of Rs 8 crore instead of deemed Rs 20 crore (10% of Rs 200 crore), saving tax on Rs 12 crore. The conditions: maintain prescribed books under Section 62, get them audited under Section 63, and furnish the report by the due date. This replicates old Section 44BBB exactly.",
+          "explanationWrong": "Yes, with books and audit, is correct. Both Sl. 4 (turnkey) and Sl. 5 (mineral oil) permit lower claims — not just one of them. There is no minimum threshold for how low the actual profit can be. The contractor can claim actual profit even if it is 1% or 2%, as long as it is supported by audited books. However, a loss cannot be claimed — the floor is zero.",
+          "tier": 3,
+          "subConcepts": ["turnkey-lower-claim", "computation", "audit-condition"],
+          "isReview": false,
+          "oldSection": "Section 44BBB",
+          "newSection": "Section 61 (Sl. 4)"
+        },
+        {
+          "order": 5,
+          "question": "A non-resident shipping line operates both freight vessels and a cruise ship from Indian ports. Freight gross receipts are Rs 40 crore, cruise gross receipts are Rs 30 crore. The total deemed profit under Section 61 is:",
+          "options": [
+            { "text": "Rs 5.25 crore — 7.5% on the combined Rs 70 crore", "correct": false },
+            { "text": "Rs 9 crore — Rs 3 crore (freight at 7.5%) + Rs 6 crore (cruise at 20%)", "correct": true },
+            { "text": "Rs 14 crore — 20% on the combined Rs 70 crore", "correct": false },
+            { "text": "Rs 7 crore — 10% on the combined Rs 70 crore", "correct": false }
+          ],
+          "explanation": "Each category is computed separately: freight under Sl. 1 at 7.5% (Rs 40 crore x 7.5% = Rs 3 crore) and cruise under Sl. 2 at 20% (Rs 30 crore x 20% = Rs 6 crore). Total deemed profit = Rs 9 crore. The categories cannot be combined and subjected to a single rate — each serial number operates independently.",
+          "explanationWrong": "Rs 9 crore (Rs 3 crore + Rs 6 crore) is correct. The table structure is clear: each serial number has its own rate applied to its own gross receipts. Combining receipts and applying a blended rate would be incorrect. This is precisely why the cruise carve-out matters — without it, the entire Rs 70 crore would attract only 7.5%.",
+          "tier": 3,
+          "subConcepts": ["split-computation", "freight-plus-cruise"],
+          "isReview": false,
+          "oldSection": "Section 44B",
+          "newSection": "Section 61 (Sl. 1, Sl. 2)"
+        }
+      ]
+    },
+    {
+      "title": "PE-Based vs Presumptive — Advisory Decisions",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A non-resident electronics manufacturer has Indian gross receipts of Rs 1,000 crore and actual costs of Rs 920 crore. Under Section 61 (Sl. 6), deemed profit is Rs 250 crore. If the manufacturer has a PE in India and can compute actual profits, which route is more tax-efficient?",
+          "options": [
+            { "text": "Presumptive (Section 61) — deemed profit Rs 250 crore", "correct": false },
+            { "text": "PE-based regular computation — actual profit Rs 80 crore", "correct": true },
+            { "text": "Both produce the same result", "correct": false },
+            { "text": "PE-based computation is not available if Section 61 applies", "correct": false }
+          ],
+          "explanation": "PE-based regular computation (actual profit Rs 80 crore) produces a significantly lower tax base than the Sl. 6 deemed profit of Rs 250 crore. The tax saving is on Rs 170 crore of income. For non-residents with a PE and genuine high costs, exploring the regular computation route is essential advisory work — but it requires full books, audit, and exposure to full PGBP scrutiny.",
+          "explanationWrong": "PE-based computation at Rs 80 crore is more tax-efficient. The trade-off: presumptive offers simplicity (no detailed books, no scrutiny beyond the deemed percentage) but at a much higher tax cost. PE-based computation offers lower tax but demands full compliance infrastructure. This is a key advisory decision for electronics manufacturers entering India under PLI.",
+          "tier": 3,
+          "subConcepts": ["pe-vs-presumptive", "advisory-decision", "electronics"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 6)"
+        },
+        {
+          "order": 2,
+          "question": "A mineral oil exploration company has gross receipts of Rs 150 crore and actual profit of Rs 7 crore (4.67%). Under Sl. 5, can the company claim the actual 4.67% instead of the deemed 10%?",
+          "options": [
+            { "text": "Yes — Sl. 5 permits lower claims; actual profit of Rs 7 crore can be claimed with audit", "correct": true },
+            { "text": "No — the 10% is mandatory for all assessees under Sl. 5", "correct": false },
+            { "text": "Yes — but only if profit is below 8%", "correct": false },
+            { "text": "No — lower claims are only for turnkey, not mineral oil", "correct": false }
+          ],
+          "explanation": "Sl. 5 (mineral oil) permits lower actual-profit claims. The company can claim Rs 7 crore instead of the deemed Rs 15 crore (10% of Rs 150 crore), provided it maintains books under Section 62 and furnishes an audited report under Section 63. There is no minimum floor below which the claim cannot be made — except that losses are barred.",
+          "explanationWrong": "Yes, with audit, is correct. Both Sl. 4 and Sl. 5 permit lower claims with no minimum percentage floor. The only absolute floor is zero — the company cannot claim a loss. At 4.67% actual profit, the claim is valid as long as it is supported by proper books and audit.",
+          "tier": 3,
+          "subConcepts": ["mineral-oil-lower-claim", "no-minimum-floor"],
+          "isReview": false,
+          "oldSection": "Section 44BB",
+          "newSection": "Section 61 (Sl. 5)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 60, the head office expenditure allocation for an Indian PE is capped at what percentage of adjusted total income?",
+          "options": [
+            { "text": "3%", "correct": false },
+            { "text": "5%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "No cap — full allocation", "correct": false }
+          ],
+          "explanation": "The 5% cap from old Section 44C is carried forward unchanged into Section 60. This review question reinforces the link: Section 59 (PE-based computation) cross-references Section 60 (HO expense cap) — a chain that practitioners must understand for PE advisory work.",
+          "explanationWrong": "5% is correct. This cap prevents excessive allocation of global overheads to the Indian PE. It has not changed in the ITA 2025 — same percentage, same methodology, same definition of adjusted total income. The only change is the section number: 44C → 60.",
+          "tier": 3,
+          "subConcepts": ["ho-expense-cap-review", "5-percent"],
+          "isReview": true,
+          "oldSection": "Section 44C",
+          "newSection": "Section 60"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident cruise operator earns Rs 120 crore from Indian ports. It incurs heavy fuel, port charges, and crew costs totalling Rs 110 crore. Its actual profit margin is only 8.3%. The deemed profit under Sl. 2 is Rs 24 crore, but actual profit is Rs 10 crore. What are the operator's options?",
+          "options": [
+            { "text": "Accept the Rs 24 crore deemed profit — lower claims are not permitted for Sl. 2", "correct": true },
+            { "text": "Claim the Rs 10 crore actual profit with audit", "correct": false },
+            { "text": "Apply for an exemption from the Assessing Officer", "correct": false },
+            { "text": "Use Section 59 instead to compute PE-based actual profit", "correct": false }
+          ],
+          "explanation": "Cruise ships (Sl. 2) are locked to the 20% deemed rate. No lower-profit claim is permitted — unlike Sl. 4 and Sl. 5. The operator's only domestic option is to accept the Rs 24 crore deemed profit. DTAA relief may provide an alternative if the applicable treaty offers a more favourable treatment. Section 59 applies to royalty/FTS — it is not a general escape route from the presumptive table.",
+          "explanationWrong": "Accept Rs 24 crore is the only domestic option. The operator pays tax on Rs 24 crore despite earning only Rs 10 crore — an overtaxation gap of Rs 14 crore. This is the presumptive trade-off at its harshest for high-cost operators. The advisory response: evaluate DTAA provisions of the operator's home country for potential treaty override.",
+          "tier": 3,
+          "subConcepts": ["cruise-locked-rate", "dtaa-consideration", "overtaxation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 2)"
+        },
+        {
+          "order": 5,
+          "question": "A non-resident operates three activities from India: aircraft (Rs 200 crore receipts), mineral oil services (Rs 100 crore receipts), and electronics manufacturing (Rs 300 crore receipts). The total deemed profit under Section 61 is:",
+          "options": [
+            { "text": "Rs 95 crore — computed separately per serial number", "correct": true },
+            { "text": "Rs 60 crore — 10% on the combined Rs 600 crore", "correct": false },
+            { "text": "Rs 150 crore — 25% on the combined Rs 600 crore", "correct": false },
+            { "text": "Rs 30 crore — 5% on the combined Rs 600 crore", "correct": false }
+          ],
+          "explanation": "Each category is computed at its own rate: aircraft Rs 200 crore x 5% = Rs 10 crore (Sl. 3), mineral oil Rs 100 crore x 10% = Rs 10 crore (Sl. 5), electronics Rs 300 crore x 25% = Rs 75 crore (Sl. 6). Total = Rs 95 crore. The mineral oil component could potentially be lower if the assessee claims actual profits with audit — but the aircraft and electronics components are locked.",
+          "explanationWrong": "Rs 95 crore is correct. The computation must be done serial-number by serial-number. Combining all receipts and applying a single rate is wrong. Note that the mineral oil component (Rs 10 crore deemed) could be reduced if actual profit is lower — but the assessee would need books and audit. Aircraft and electronics are non-negotiable.",
+          "tier": 3,
+          "subConcepts": ["multi-activity-computation", "serial-number-separation"],
+          "isReview": false,
+          "oldSection": "Sections 44BB, 44BBA",
+          "newSection": "Section 61 (Sl. 3, Sl. 5, Sl. 6)"
+        }
+      ]
+    },
+    {
+      "title": "DTAA Interplay and Transition Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A non-resident shipping company was assessed under old Section 44B at 7.5% for AY 2025-26. For Tax Year 2026-27, the same activity is now governed by:",
+          "options": [
+            { "text": "Section 61 (Sl. 1) at 7.5% — same rate, new section", "correct": true },
+            { "text": "Section 61 (Sl. 2) at 20% — reclassified as cruise", "correct": false },
+            { "text": "Section 59 — PE-based computation", "correct": false },
+            { "text": "Section 44B continues to apply", "correct": false }
+          ],
+          "explanation": "Regular shipping (carriage of passengers, goods, mail from Indian ports) transitions from old Section 44B to Section 61, Sl. 1 at the same 7.5% rate. There is no change in substance — only the section reference. The company is not reclassified as cruise operations (Sl. 2) unless it actually operates cruise ships. Old Section 44B ceases to exist for Tax Year 2026-27 onwards.",
+          "explanationWrong": "Section 61, Sl. 1 at 7.5% is correct. The transition is straightforward for this category: same activity, same rate, new section number. The company does not move to Sl. 2 (cruise) unless its operations involve cruise ships specifically. Old Section 44B does not survive into the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["transition-shipping", "section-44B-to-sl-1"],
+          "isReview": false,
+          "oldSection": "Section 44B",
+          "newSection": "Section 61 (Sl. 1)"
+        },
+        {
+          "order": 2,
+          "question": "A non-resident cruise operator from Country X has a DTAA with India that provides for shipping income to be taxed only in the country of residence. Does the 20% deemed profit under Sl. 2 still apply?",
+          "options": [
+            { "text": "The DTAA shipping article may not cover cruise operations — treaty analysis is required", "correct": true },
+            { "text": "Yes — the domestic provision always overrides the treaty", "correct": false },
+            { "text": "No — all shipping income is exempt under DTAA", "correct": false },
+            { "text": "The 20% rate is reduced to 7.5% if a DTAA exists", "correct": false }
+          ],
+          "explanation": "DTAA shipping articles (typically based on Article 8 of the OECD Model) may or may not cover cruise operations. The treaty term is usually 'profits from operation of ships in international traffic.' Whether cruise tourism constitutes 'international traffic' or falls outside the treaty scope requires specific treaty analysis. If the treaty does not cover cruise, the domestic 20% rate applies in full.",
+          "explanationWrong": "Treaty analysis required is correct. The interaction between domestic presumptive provisions and DTAA is nuanced. Treaties cannot be assumed to automatically exempt cruise income — the treaty language, protocol notes, and mutual agreement procedures must be examined. Domestic law does not always override (Section 90/90A benefit), but the treaty must actually cover the specific activity.",
+          "tier": 3,
+          "subConcepts": ["dtaa-cruise-interaction", "treaty-scope-analysis"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 61 (Sl. 2)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 61, can a non-resident assessee claim a loss from one serial number category against deemed profit from another serial number?",
+          "options": [
+            { "text": "Yes — intra-section set-off is permitted", "correct": false },
+            { "text": "No — there is a complete bar on losses under Section 61; no loss can arise in the first place", "correct": true },
+            { "text": "Yes — but only within the same tier (e.g., Sl. 4 against Sl. 5)", "correct": false },
+            { "text": "Only if the combined net result is positive", "correct": false }
+          ],
+          "explanation": "The question contains a built-in trap: no loss can ever arise under Section 61 because the deemed profit is a minimum floor. The complete bar on losses means the question of cross-category set-off is moot. Even for Sl. 4 and Sl. 5 with lower actual claims, the floor is zero profit — not a loss.",
+          "explanationWrong": "No loss can arise is the key insight. The bar is not just on set-off — it is on the existence of a loss itself. Every category under Section 61 produces a minimum deemed profit (or, for Sl. 4/5 with lower claims, a minimum of zero). Cross-category set-off is impossible because there is never a negative number to set off.",
+          "tier": 3,
+          "subConcepts": ["loss-bar-absolute", "no-cross-category-set-off"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 61"
+        },
+        {
+          "order": 4,
+          "question": "A global conglomerate's Indian PE earns royalty of Rs 50 crore (connected with the PE) and also provides mineral oil exploration services with receipts of Rs 80 crore. How should these two income streams be computed?",
+          "options": [
+            { "text": "Royalty under Section 59 (actual profit, mandatory audit) and mineral oil under Section 61 Sl. 5 (deemed 10% or lower actual with audit)", "correct": true },
+            { "text": "Both under Section 61 — the presumptive table covers all non-resident income", "correct": false },
+            { "text": "Both under Section 59 — PE-based computation applies to all PE income", "correct": false },
+            { "text": "Combined under one provision — the higher income determines the applicable section", "correct": false }
+          ],
+          "explanation": "Each income stream follows its own provision. PE-connected royalty falls under Section 59 (actual profit computation, PGBP head, mandatory audit, HO expenses capped under Section 60). Mineral oil services fall under Section 61, Sl. 5 (deemed 10% or lower actual with audit). The two provisions operate independently and are not combined.",
+          "explanationWrong": "Separate computation under respective sections is correct. Section 59 and Section 61 are not mutually exclusive — a single non-resident can have income falling under both. The key is to identify which provision governs each income stream and compute accordingly. Combining them under a single section would misapply the law.",
+          "tier": 3,
+          "subConcepts": ["dual-provision-scenario", "section-59-and-61-coexistence"],
+          "isReview": false,
+          "oldSection": "Sections 44DA, 44BB",
+          "newSection": "Sections 59, 61 (Sl. 5)"
+        },
+        {
+          "order": 5,
+          "question": "An airline operating from Indian airports has gross receipts of Rs 600 crore. Under old Section 44BBA, deemed profit was 5%. Under the ITA 2025, the deemed profit is:",
+          "options": [
+            { "text": "Rs 30 crore — 5% under Section 61 (Sl. 3), unchanged", "correct": true },
+            { "text": "Rs 60 crore — rate increased to 10%", "correct": false },
+            { "text": "Rs 45 crore — rate increased to 7.5%", "correct": false },
+            { "text": "Rs 120 crore — rate increased to 20%", "correct": false }
+          ],
+          "explanation": "Aircraft operations (Sl. 3) retain the 5% rate from old Section 44BBA. Rs 600 crore x 5% = Rs 30 crore. All four carried-over categories retain their old rates: ship 7.5%, aircraft 5%, turnkey 10%, mineral oil 10%. Only the two new categories (cruise 20%, electronics 25%) introduce new rates. This is a pure consolidation — not a rate revision.",
+          "explanationWrong": "Rs 30 crore at 5% is correct. The ITA 2025 did not revise any existing non-resident presumptive rates. The rates for the four old categories are frozen at their 1961 Act levels. The structural change is the consolidation into one table; the substantive changes are limited to the two new categories.",
+          "tier": 3,
+          "subConcepts": ["aircraft-rate-unchanged", "consolidation-not-revision"],
+          "isReview": false,
+          "oldSection": "Section 44BBA",
+          "newSection": "Section 61 (Sl. 3)"
+        }
+      ]
+    }
+  ]
+}

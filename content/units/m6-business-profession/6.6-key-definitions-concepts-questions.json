@@ -1,0 +1,835 @@
+{
+  "unit": "6.6",
+  "title": "Key Definitions & Concepts",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Actual Cost and WDV — Section Mapping",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 43(1) — the definition of 'actual cost' — maps to which new section?",
+          "options": [
+            { "text": "Section 38", "correct": false },
+            { "text": "Section 39", "correct": true },
+            { "text": "Section 41", "correct": false },
+            { "text": "Section 43", "correct": false }
+          ],
+          "explanation": "Old Section 43(1) maps to new Section 39. This section defines actual cost of an asset for depreciation and capital allowance purposes. The Rs 10,000 cash payment cap and all 13 special circumstances are carried forward unchanged — the only difference is structure (sub-sections instead of explanations).",
+          "explanationWrong": "Section 39 is correct. Do not confuse with Section 38 (old Section 41 — deemed profits), Section 41 (WDV definition — old Section 43(6)), or Section 43 (forex taxation — old Section 43AA). The omnibus Section 43 of the old Act has been unbundled into multiple dedicated sections.",
+          "tier": 1,
+          "subConcepts": ["actual-cost-mapping", "section-43-1-to-39"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 2,
+          "question": "The WDV (written-down value) definition, previously embedded in Section 43, now sits in which dedicated section of the ITA 2025?",
+          "options": [
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 40", "correct": false },
+            { "text": "Section 41", "correct": true },
+            { "text": "Section 42", "correct": false }
+          ],
+          "explanation": "The WDV definition moves to Section 41. The key improvement: the WDV formula [(A-D)+B-C]-E is now explicitly codified rather than being inferred from sub-sections and explanations. The computation produces identical results — it is a drafting improvement, not a substantive change.",
+          "explanationWrong": "Section 41 is correct. The sequential mapping in this block: 39 (actual cost), 40 (amalgamation cost — old 43C), 41 (WDV), 42 (forex capitalisation — old 43A), 43 (forex taxation — old 43AA). Each concept that was crammed into omnibus Section 43 now has its own section.",
+          "tier": 1,
+          "subConcepts": ["wdv-mapping", "section-43-to-41"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 6.5, old Section 44B (non-resident shipping) maps to which provision in the ITA 2025?",
+          "options": [
+            { "text": "Section 59", "correct": false },
+            { "text": "Section 61 (Sl. 1)", "correct": true },
+            { "text": "Section 60", "correct": false },
+            { "text": "Section 58", "correct": false }
+          ],
+          "explanation": "Old Section 44B maps to Section 61, Sl. 1 — the shipping category in the consolidated non-resident presumptive table at 7.5% deemed profit. This review reinforces the distinction between the non-resident presumptive regime (Section 61) and the definitions discussed in this unit (Sections 39-43).",
+          "explanationWrong": "Section 61 (Sl. 1) is correct. Section 59 covers PE-based royalty/FTS (old 44DA), Section 60 covers head office expenses (old 44C), and Section 58 covers resident presumptive taxation (old 44AD/44ADA). The non-resident presumptive table in Section 61 is the consolidation of old Sections 44B, 44BB, 44BBA, and 44BBB.",
+          "tier": 1,
+          "subConcepts": ["unit-6-5-review", "non-resident-presumptive"],
+          "isReview": true,
+          "oldSection": "Section 44B",
+          "newSection": "Section 61 (Sl. 1)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 41 — the 'deemed profits' provision (recovery of previously allowed deductions) — maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 41 (same number)", "correct": false },
+            { "text": "Section 38", "correct": true },
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 53", "correct": false }
+          ],
+          "explanation": "Old Section 41 maps to new Section 38 — a potential confusion point because the old section number (41) is reused for a different provision (WDV definition) in the new Act. Deemed profits (bad debt recovery, balancing charges) are now in Section 38. The mechanism is unchanged — only the number has moved.",
+          "explanationWrong": "Section 38 is correct. Watch the number trap: old Section 41 (deemed profits) becomes new Section 38, while new Section 41 corresponds to the old WDV definition from Section 43. The numbers are reused with different meanings — a source of confusion that practitioners must navigate carefully.",
+          "tier": 1,
+          "subConcepts": ["deemed-profits-mapping", "section-41-to-38", "number-reuse"],
+          "isReview": false,
+          "oldSection": "Section 41",
+          "newSection": "Section 38"
+        },
+        {
+          "order": 5,
+          "question": "The stamp duty value deeming provision for stock-in-trade transfers (old Section 43CA) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 42", "correct": false },
+            { "text": "Section 53", "correct": true },
+            { "text": "Section 56", "correct": false }
+          ],
+          "explanation": "Old Section 43CA maps to new Section 53. The 110% SDV tolerance threshold is unchanged — if consideration is at least 110% of stamp duty value, the deeming provision does not trigger. This primarily affects real estate developers holding property as stock-in-trade.",
+          "explanationWrong": "Section 53 is correct. This provision sits outside the 39-43 cluster — it jumped to Section 53 in the new Act. Section 56 is financial institution income (old 43D), and Section 42 is forex capitalisation (old 43A). The new numbering spreads the old Section 43 sub-provisions across a wider range.",
+          "tier": 1,
+          "subConcepts": ["sdv-deeming-mapping", "section-43CA-to-53"],
+          "isReview": false,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        }
+      ]
+    },
+    {
+      "title": "The Section 43 Unbundling",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 1961 Act, Section 43 was an omnibus provision housing multiple definitions and concepts. The ITA 2025 unbundles it into dedicated sections. Which of the following is the correct mapping for forex capitalisation?",
+          "options": [
+            { "text": "Old 43A → New Section 42", "correct": true },
+            { "text": "Old 43A → New Section 43", "correct": false },
+            { "text": "Old 43A → New Section 39", "correct": false },
+            { "text": "Old 43A → New Section 40", "correct": false }
+          ],
+          "explanation": "Old Section 43A (forex capitalisation — adjusting actual cost for exchange rate changes on capital assets acquired from abroad) maps to new Section 42. This is a straight renumber with no substantive change. Old 43AA (forex taxation of monetary items) maps to new Section 43.",
+          "explanationWrong": "Old 43A → Section 42 is correct. The adjacent mapping: old 43AA → Section 43. The 'A' in 43A is for capitalisation (capital assets), while 43AA dealt with monetary items (receivables, payables). Both are renumbered without substantive change.",
+          "tier": 1,
+          "subConcepts": ["forex-capitalisation-mapping", "section-43A-to-42"],
+          "isReview": false,
+          "oldSection": "Section 43A",
+          "newSection": "Section 42"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 43AA (taxation of foreign exchange fluctuations on monetary items) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 42", "correct": false },
+            { "text": "Section 43", "correct": true },
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 53", "correct": false }
+          ],
+          "explanation": "Old Section 43AA maps to new Section 43. This provision deals with gains and losses from forex fluctuations on monetary items (receivables, payables, loans) — as distinct from Section 42 which handles capital items. Forex differences on monetary items follow the applicable accounting standard (Ind AS or old AS). No substantive change.",
+          "explanationWrong": "Section 43 is correct. Note the mapping symmetry: old 43A → new 42, old 43AA → new 43. The new section numbers are sequential and easier to navigate than the old sub-lettered system. The distinction between capital forex (Section 42) and monetary forex (Section 43) is preserved.",
+          "tier": 1,
+          "subConcepts": ["forex-taxation-mapping", "section-43AA-to-43"],
+          "isReview": false,
+          "oldSection": "Section 43AA",
+          "newSection": "Section 43"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which provision governs income recognition for financial institutions on NPAs?",
+          "options": [
+            { "text": "Section 53 (old 43CA)", "correct": false },
+            { "text": "Section 56 (old 43D)", "correct": true },
+            { "text": "Section 57 (old 43CB)", "correct": false },
+            { "text": "Section 38 (old 41)", "correct": false }
+          ],
+          "explanation": "Old Section 43D (financial institution income — NPA interest recognition on receipt basis) maps to new Section 56. Scheduled banks and public financial institutions recognise interest on NPAs only on actual receipt, not on accrual. This carve-out from the accrual principle is unchanged.",
+          "explanationWrong": "Section 56 is correct. This provision sits outside the core 39-43 cluster, as does Section 53 (SDV deeming) and Section 57 (construction contracts). The old Section 43 sub-provisions have been dispersed across a wider range of sections for better organisation.",
+          "tier": 1,
+          "subConcepts": ["financial-institution-npa", "section-43D-to-56"],
+          "isReview": false,
+          "oldSection": "Section 43D",
+          "newSection": "Section 56"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, old Section 43CB (construction contract accounting — percentage of completion method) maps to:",
+          "options": [
+            { "text": "Section 56", "correct": false },
+            { "text": "Section 57", "correct": true },
+            { "text": "Section 53", "correct": false },
+            { "text": "Section 41", "correct": false }
+          ],
+          "explanation": "Old Section 43CB maps to new Section 57. The percentage-of-completion method for construction and service contracts extending beyond one financial year continues unchanged. This aligns with Ind AS 115 / old AS 7 accounting treatment.",
+          "explanationWrong": "Section 57 is correct. The full dispersal mapping for the old Section 43 cluster: 43(1)→39, 43C→40, 43(WDV)→41, 43A→42, 43AA→43, 43CA→53, 43CB→57, 43D→56. Each concept now has a dedicated section number.",
+          "tier": 1,
+          "subConcepts": ["construction-contract-mapping", "section-43CB-to-57"],
+          "isReview": false,
+          "oldSection": "Section 43CB",
+          "newSection": "Section 57"
+        },
+        {
+          "order": 5,
+          "question": "How many substantive changes (altered thresholds, new formulas, or new concepts) were introduced in the reorganisation of Sections 39-43 and related provisions?",
+          "options": [
+            { "text": "Several — including new cash payment thresholds and altered WDV formula", "correct": false },
+            { "text": "None — this is reorganisation only; all rules, thresholds, and formulas are unchanged", "correct": true },
+            { "text": "One — the WDV formula has been modified", "correct": false },
+            { "text": "Two — cash cap increased and SDV tolerance changed", "correct": false }
+          ],
+          "explanation": "Zero substantive changes. Every definition and concept has been renumbered and restructured, but none has been substantively amended. The Rs 10,000 cash cap is unchanged, the WDV formula produces identical results (it is now codified explicitly but not altered), and the 110% SDV tolerance is unchanged. The practitioner's task is limited to updating section references.",
+          "explanationWrong": "None is correct. This is pure reorganisation. The WDV formula [(A-D)+B-C]-E in Section 41 is not new — it is the same computation that was implicit under old Section 43. The codification makes it explicit, not different. No thresholds were touched.",
+          "tier": 1,
+          "subConcepts": ["reorganisation-only", "no-substantive-change"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 38-43, 53, 56, 57"
+        }
+      ]
+    },
+    {
+      "title": "Actual Cost Deep Dive — Section 39",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 39 (old 43(1)), the cash payment cap for inclusion in actual cost is:",
+          "options": [
+            { "text": "Rs 20,000 per day", "correct": false },
+            { "text": "Rs 10,000 per day", "correct": true },
+            { "text": "Rs 50,000 per transaction", "correct": false },
+            { "text": "No cash payment restriction", "correct": false }
+          ],
+          "explanation": "Any payment exceeding Rs 10,000 in a single day made otherwise than by account payee cheque, account payee bank draft, or electronic clearing system is excluded from actual cost. This threshold is unchanged from old Section 43(1) read with Rule 6DD. The cap applies per day, not per transaction.",
+          "explanationWrong": "Rs 10,000 per day is correct. This is the same threshold from the old Act. Do not confuse with the Rs 20,000 limit that applies in some other contexts. For actual cost determination, the cap is Rs 10,000 per day — payments above this in cash are excluded from the depreciable cost base.",
+          "tier": 1,
+          "subConcepts": ["cash-payment-cap", "rs-10000"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 2,
+          "question": "Section 39 enumerates how many special circumstances under which actual cost is determined differently from the price paid?",
+          "options": [
+            { "text": "8", "correct": false },
+            { "text": "10", "correct": false },
+            { "text": "13", "correct": true },
+            { "text": "15", "correct": false }
+          ],
+          "explanation": "Section 39 enumerates 13 special circumstances — covering gifts, inheritance, related-party transactions, amalgamation, demerger, government subsidy, hire-purchase, conversion of personal to business asset, and more. These correspond to the 13 Explanations appended to old Section 43(1), now restructured as sub-sections.",
+          "explanationWrong": "13 is correct. These 13 circumstances were previously crammed into Explanations to Section 43(1) — a notoriously difficult format to navigate. The ITA 2025 converts them into structured sub-sections of Section 39, improving readability without altering any rule.",
+          "tier": 1,
+          "subConcepts": ["special-circumstances", "13-explanations"],
+          "isReview": false,
+          "oldSection": "Section 43(1), Explanations 1-13",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 6.5, the deemed profit for non-resident aircraft operations under old Section 44BBA was 5%. Under the ITA 2025, this rate is found in:",
+          "options": [
+            { "text": "Section 61 (Sl. 3) — unchanged at 5%", "correct": true },
+            { "text": "Section 59 — increased to 10%", "correct": false },
+            { "text": "Section 61 (Sl. 1) — decreased to 5%", "correct": false },
+            { "text": "Section 60 — unchanged at 5%", "correct": false }
+          ],
+          "explanation": "Aircraft operations moved from standalone Section 44BBA to the consolidated table at Section 61 (Sl. 3), retaining the 5% deemed profit rate. No rate change — only structural consolidation into the unified table.",
+          "explanationWrong": "Section 61 (Sl. 3) at 5% is correct. Sl. 1 is shipping (7.5%), not aircraft. Section 59 is PE-based royalty/FTS, and Section 60 is head office expenses — neither applies to aircraft operations. The 5% rate is the lowest in the Section 61 table.",
+          "tier": 1,
+          "subConcepts": ["unit-6-5-aircraft-review", "rate-unchanged"],
+          "isReview": true,
+          "oldSection": "Section 44BBA",
+          "newSection": "Section 61 (Sl. 3)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 39, when a personal asset is converted to a business asset, the actual cost for depreciation purposes is:",
+          "options": [
+            { "text": "The original purchase price of the personal asset", "correct": false },
+            { "text": "The fair market value on the date of conversion", "correct": true },
+            { "text": "The WDV as computed under Section 41", "correct": false },
+            { "text": "Zero — personal assets cannot be depreciated", "correct": false }
+          ],
+          "explanation": "When a personal asset is converted to business use, the actual cost is the fair market value (FMV) on the date of conversion. This is one of the 13 special circumstances in Section 39, carried forward from old Section 43(1). The FMV determination date is the date of conversion, not the date of original purchase.",
+          "explanationWrong": "FMV on date of conversion is correct. The original purchase price is irrelevant — FMV at conversion is used to establish the depreciable cost base. WDV under Section 41 applies only after the asset enters the block; it does not determine the initial cost. Personal assets can be depreciated once converted to business use.",
+          "tier": 1,
+          "subConcepts": ["personal-to-business-conversion", "fmv-rule"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 5,
+          "question": "The 13 special circumstances in Section 39 were previously structured as:",
+          "options": [
+            { "text": "Explanations appended to old Section 43(1)", "correct": true },
+            { "text": "Separate rules in the Income Tax Rules", "correct": false },
+            { "text": "CBDT circulars", "correct": false },
+            { "text": "Provisos to old Section 32", "correct": false }
+          ],
+          "explanation": "The 13 special circumstances were Explanations 1 through 13 to old Section 43(1). This was a notoriously difficult structure to navigate — explanations appended to a sub-section of an omnibus section. The ITA 2025 restructures them as sub-sections of Section 39, making them far more accessible.",
+          "explanationWrong": "Explanations to Section 43(1) is correct. This is a classic example of the ITA 2025's structural improvement: converting deeply nested explanations and provisos into standalone sub-sections. The rules themselves have not changed — only their housing within the statute.",
+          "tier": 1,
+          "subConcepts": ["structural-improvement", "explanations-to-subsections"],
+          "isReview": false,
+          "oldSection": "Section 43(1), Explanations",
+          "newSection": "Section 39"
+        }
+      ]
+    },
+    {
+      "title": "WDV Formula and Deemed Profits — Understanding the Codification",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The WDV formula explicitly codified in Section 41 of the ITA 2025 is:",
+          "options": [
+            { "text": "WDV = A - B + C - D", "correct": false },
+            { "text": "WDV = [(A-D)+B-C]-E", "correct": true },
+            { "text": "WDV = A + B - C - D - E", "correct": false },
+            { "text": "WDV = (A+B) - (C+D+E)", "correct": false }
+          ],
+          "explanation": "The codified formula is WDV = [(A-D)+B-C]-E, where A = opening WDV, B = additions, C = sale/disposal proceeds, D = depreciation allowed, E = corporate transfer adjustments. This formula was always the underlying computation — the ITA 2025 merely states it explicitly rather than leaving practitioners to derive it from scattered sub-sections.",
+          "explanationWrong": "[(A-D)+B-C]-E is correct. The formula is computed in stages: first reduce opening WDV by depreciation (A-D), then add acquisitions (B) and subtract disposals (C), then adjust for corporate transfers (E). Each variable corresponds to a clearly defined component in Section 41.",
+          "tier": 2,
+          "subConcepts": ["wdv-formula", "codification"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 2,
+          "question": "In the WDV formula [(A-D)+B-C]-E, what does the variable 'E' represent?",
+          "options": [
+            { "text": "Expenditure on repairs during the year", "correct": false },
+            { "text": "Adjustments on account of corporate transfers (amalgamation, demerger, succession)", "correct": true },
+            { "text": "Additional depreciation for new plant and machinery", "correct": false },
+            { "text": "Exchange rate adjustments under Section 42", "correct": false }
+          ],
+          "explanation": "E represents adjustments for corporate transfers — amalgamation, demerger, or succession of a firm/sole proprietorship to a company. When assets are transferred in such reorganisations, the WDV continues without reset in the transferee's hands. The E adjustment ensures depreciation continuity across corporate restructuring.",
+          "explanationWrong": "Corporate transfer adjustments is correct. E is specific to reorganisation scenarios. Exchange rate adjustments are handled by Section 42 (a separate provision), not within the WDV formula. Additional depreciation and repair expenditure are addressed by other provisions entirely.",
+          "tier": 2,
+          "subConcepts": ["wdv-variable-E", "corporate-transfer-continuity"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 39, the cash payment cap for inclusion in actual cost is Rs 10,000 per day. What mode of payment is required for amounts exceeding this threshold?",
+          "options": [
+            { "text": "Account payee cheque, account payee bank draft, or electronic clearing system", "correct": true },
+            { "text": "Any cheque (including bearer cheque)", "correct": false },
+            { "text": "Only RTGS/NEFT", "correct": false },
+            { "text": "Demand draft only", "correct": false }
+          ],
+          "explanation": "Payments exceeding Rs 10,000 per day must be made by account payee cheque, account payee bank draft, or electronic clearing system to be included in actual cost. Bearer cheques do not qualify — the 'account payee' crossing is essential. This replicates the old position under Section 43(1) read with Rule 6DD.",
+          "explanationWrong": "Account payee cheque, account payee bank draft, or electronic clearing system is correct. The key word is 'account payee' — a bearer cheque, even if for the exact amount, does not satisfy the requirement. Electronic clearing (NEFT, RTGS, UPI, etc.) is an acceptable alternative, but it is not the only acceptable mode.",
+          "tier": 2,
+          "subConcepts": ["payment-mode-requirement", "account-payee"],
+          "isReview": true,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 4,
+          "question": "Does the explicit codification of the WDV formula in Section 41 change any depreciation computation?",
+          "options": [
+            { "text": "Yes — the formula introduces a new adjustment variable", "correct": false },
+            { "text": "No — the formula produces identical results to the old implicit computation", "correct": true },
+            { "text": "Yes — the order of operations has changed", "correct": false },
+            { "text": "Partially — only the corporate transfer component is new", "correct": false }
+          ],
+          "explanation": "No computation changes. The formula [(A-D)+B-C]-E is the same calculation that practitioners have always performed under old Section 43. The 2025 Act merely states it as a single expression. The corporate transfer component (E) was always present in the old provisos — it is now visible in the formula rather than hidden in subordinate clauses.",
+          "explanationWrong": "No change is correct. This is a drafting improvement, not a computational change. Every variable in the formula corresponds to an existing element of the old depreciation computation. The order of operations is the same. The codification is helpful for teaching and reference, but does not alter any result.",
+          "tier": 2,
+          "subConcepts": ["no-computation-change", "drafting-improvement"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 38 (old Section 41), deemed profit arises when:",
+          "options": [
+            { "text": "A deduction or allowance previously granted is subsequently recovered or a benefit is obtained", "correct": true },
+            { "text": "Presumptive taxation applies to the assessee's income", "correct": false },
+            { "text": "An asset is acquired below fair market value", "correct": false },
+            { "text": "Turnover exceeds the audit threshold", "correct": false }
+          ],
+          "explanation": "Section 38 triggers when a recovery or benefit arises in respect of a deduction previously allowed — for example, bad debt recovery after write-off, or a balancing charge on sale of a depreciable asset above WDV. The recovery is deemed PGBP income of the year of receipt. This is unchanged from old Section 41.",
+          "explanationWrong": "Recovery of previously allowed deduction is correct. Classic examples: bad debt written off in Year 1, recovered in Year 3 — the recovery is deemed income in Year 3. Sale of machinery above WDV — the excess is a balancing charge, deemed profit under Section 38. The mechanism is identical to old Section 41.",
+          "tier": 2,
+          "subConcepts": ["deemed-profit-trigger", "bad-debt-recovery", "balancing-charge"],
+          "isReview": false,
+          "oldSection": "Section 41",
+          "newSection": "Section 38"
+        }
+      ]
+    },
+    {
+      "title": "Forex, SDV, and Financial Institutions — Mapping Drill",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 42 (old 43A) handles forex adjustments on which type of items?",
+          "options": [
+            { "text": "Monetary items (receivables, payables)", "correct": false },
+            { "text": "Capital items (assets acquired in foreign currency)", "correct": true },
+            { "text": "Both capital and monetary items", "correct": false },
+            { "text": "Revenue expenses paid in foreign currency", "correct": false }
+          ],
+          "explanation": "Section 42 specifically handles capital items — assets acquired from outside India where exchange rate changes between acquisition and payment affect the cost. The forex difference is capitalised into the asset cost. Monetary items (receivables, payables, loans) are handled separately by Section 43 (old 43AA).",
+          "explanationWrong": "Capital items is correct. The capital/monetary distinction is critical: Section 42 capitalises forex differences into asset cost (affecting depreciation), while Section 43 recognises monetary forex differences as revenue income/expenditure (affecting P&L). Both are renumbered without change.",
+          "tier": 2,
+          "subConcepts": ["forex-capital-vs-monetary", "section-42-scope"],
+          "isReview": false,
+          "oldSection": "Section 43A",
+          "newSection": "Section 42"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 53 (old 43CA), the stamp duty value deeming provision does NOT apply if actual consideration is at least:",
+          "options": [
+            { "text": "100% of stamp duty value", "correct": false },
+            { "text": "105% of stamp duty value", "correct": false },
+            { "text": "110% of stamp duty value", "correct": true },
+            { "text": "120% of stamp duty value", "correct": false }
+          ],
+          "explanation": "The 110% tolerance threshold means that if actual consideration is at least 110% of SDV (i.e., within a 10% band), the deeming provision does not trigger. For example, SDV Rs 50 lakh, sale at Rs 55 lakh (110%) — no deeming. Sale at Rs 54 lakh (108%) — deeming applies, and SDV becomes the deemed consideration.",
+          "explanationWrong": "110% is correct. This tolerance was introduced by Finance Act 2020 for old Section 43CA and is carried forward unchanged. The 10% band prevents minor valuation differences from triggering the deeming provision — a practical safeguard for real estate developers.",
+          "tier": 2,
+          "subConcepts": ["sdv-tolerance", "110-percent-threshold"],
+          "isReview": false,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 43C, which determined the cost of a depreciable asset acquired on amalgamation or gift, maps to:",
+          "options": [
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 40", "correct": true },
+            { "text": "Section 41", "correct": false },
+            { "text": "Section 42", "correct": false }
+          ],
+          "explanation": "Old Section 43C maps to new Section 40. The rule: the successor's cost equals the WDV in the predecessor's hands on the date of transfer. This ensures depreciation continuity — no step-up in cost base on amalgamation or gift. The provision is unchanged.",
+          "explanationWrong": "Section 40 is correct. Section 40 sits between Section 39 (actual cost) and Section 41 (WDV) — logically placed as it determines the cost input that feeds into the WDV computation for successors. The sequential numbering reflects the functional sequence: define cost → determine successor cost → compute WDV.",
+          "tier": 2,
+          "subConcepts": ["amalgamation-cost-mapping", "section-43C-to-40"],
+          "isReview": true,
+          "oldSection": "Section 43C",
+          "newSection": "Section 40"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 56 (old 43D), interest income on NPAs for scheduled banks is recognised on:",
+          "options": [
+            { "text": "Accrual basis — same as other income", "correct": false },
+            { "text": "Receipt basis — only when actually collected", "correct": true },
+            { "text": "Due date basis — when the instalment was due", "correct": false },
+            { "text": "Assessment year basis — at year end regardless of receipt", "correct": false }
+          ],
+          "explanation": "Section 56 provides a carve-out from the accrual principle: interest income on NPAs for scheduled banks and public financial institutions is recognised only on actual receipt. This prevents banks from paying tax on interest that may never be collected. The provision is a straight renumber from old Section 43D.",
+          "explanationWrong": "Receipt basis is correct. The accrual principle — which normally requires income recognition when the right to receive arises — is set aside for NPA interest. The policy rationale: NPAs by definition involve doubtful recovery, and taxing accrued but uncollected interest would be inequitable.",
+          "tier": 2,
+          "subConcepts": ["npa-receipt-basis", "accrual-carve-out"],
+          "isReview": false,
+          "oldSection": "Section 43D",
+          "newSection": "Section 56"
+        },
+        {
+          "order": 5,
+          "question": "Section 57 (old 43CB) mandates which method for recognising income from construction contracts extending beyond one financial year?",
+          "options": [
+            { "text": "Completed contract method", "correct": false },
+            { "text": "Cash basis method", "correct": false },
+            { "text": "Percentage-of-completion method (POCM)", "correct": true },
+            { "text": "Milestone-based method", "correct": false }
+          ],
+          "explanation": "Section 57 mandates the percentage-of-completion method (POCM) for construction and service contracts spanning multiple years. This aligns tax recognition with accounting standard treatment (Ind AS 115 / old AS 7). Revenue is recognised proportionally based on the stage of completion, not on contract completion or cash receipt.",
+          "explanationWrong": "POCM is correct. The completed contract method — which defers all revenue to project completion — is not permissible for tax purposes. The POCM requirement was introduced under old Section 43CB and continues unchanged in Section 57. This ensures revenue recognition across the life of the project.",
+          "tier": 2,
+          "subConcepts": ["pocm-mandate", "construction-contracts"],
+          "isReview": false,
+          "oldSection": "Section 43CB",
+          "newSection": "Section 57"
+        }
+      ]
+    },
+    {
+      "title": "Number Reuse Traps and Cross-Reference Updates",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 41 was 'deemed profits.' In the ITA 2025, Section 41 is:",
+          "options": [
+            { "text": "Still deemed profits — the same provision", "correct": false },
+            { "text": "Written-down value definition (old Section 43)", "correct": true },
+            { "text": "Actual cost definition (old Section 43(1))", "correct": false },
+            { "text": "Forex capitalisation (old Section 43A)", "correct": false }
+          ],
+          "explanation": "This is a classic number reuse trap. Old Section 41 (deemed profits) → new Section 38. New Section 41 corresponds to the old WDV definition from Section 43. A practitioner who sees 'Section 41' and assumes it still means deemed profits will apply the wrong provision entirely.",
+          "explanationWrong": "WDV definition is what Section 41 means in the ITA 2025. The old meaning (deemed profits) has moved to Section 38. This reuse of numbers across the two Acts is one of the most common sources of confusion in the transition. All working papers, opinions, and computation templates must be updated.",
+          "tier": 2,
+          "subConcepts": ["number-reuse-trap", "section-41-confusion"],
+          "isReview": false,
+          "oldSection": "Section 41 (old), Section 43 (old)",
+          "newSection": "Section 38, Section 41"
+        },
+        {
+          "order": 2,
+          "question": "A practitioner's computation template references 'Section 43(1)' for actual cost. Under the ITA 2025, this reference should be updated to:",
+          "options": [
+            { "text": "Section 43 — the section number is unchanged", "correct": false },
+            { "text": "Section 39", "correct": true },
+            { "text": "Section 41", "correct": false },
+            { "text": "Section 38", "correct": false }
+          ],
+          "explanation": "Old Section 43(1) → new Section 39. In the ITA 2025, Section 43 now means forex taxation (old Section 43AA) — a completely different provision. Using 'Section 43' for actual cost in a 2025 Act computation would be incorrect and could trigger processing issues.",
+          "explanationWrong": "Section 39 is correct. Another number reuse trap: old Section 43 was the omnibus definition section; new Section 43 is exclusively forex taxation of monetary items (old 43AA). The actual cost definition has moved to its own dedicated Section 39.",
+          "tier": 2,
+          "subConcepts": ["template-update", "section-43-reuse"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 3,
+          "question": "The WDV formula [(A-D)+B-C]-E under Section 41 produces which outcome compared to the old Section 43 computation?",
+          "options": [
+            { "text": "Higher WDV due to the explicit E adjustment", "correct": false },
+            { "text": "Lower WDV due to a changed depreciation sequence", "correct": false },
+            { "text": "Identical results — the codification does not alter the computation", "correct": true },
+            { "text": "Variable — depends on the asset class", "correct": false }
+          ],
+          "explanation": "Identical results. The formula is a restatement of the existing computation in a single algebraic expression. Every variable (A, B, C, D, E) maps to an existing element of the old depreciation computation. The E component (corporate transfers) was always present in the old provisos — it is now visible in the formula.",
+          "explanationWrong": "Identical results is correct. This is the key message of this unit: reorganisation, not reform. The formula neither increases nor decreases WDV compared to the old method. It is purely a presentational improvement — useful for clarity and reference, but arithmetically neutral.",
+          "tier": 2,
+          "subConcepts": ["wdv-identical-results", "reorganisation-message"],
+          "isReview": true,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following mappings from the old omnibus Section 43 is INCORRECT?",
+          "options": [
+            { "text": "Old 43(1) → New 39 (actual cost)", "correct": false },
+            { "text": "Old 43A → New 42 (forex capitalisation)", "correct": false },
+            { "text": "Old 43AA → New 42 (forex taxation)", "correct": true },
+            { "text": "Old 43C → New 40 (amalgamation cost)", "correct": false }
+          ],
+          "explanation": "Old 43AA maps to new Section 43, NOT new Section 42. New Section 42 corresponds to old 43A (forex capitalisation on capital assets). New Section 43 corresponds to old 43AA (forex taxation of monetary items). The 43A/43AA → 42/43 mapping requires careful attention — one letter makes the difference.",
+          "explanationWrong": "Old 43AA → New 42 is the incorrect mapping. The correct mapping is old 43AA → new 43. The trap: 43A (with one A) maps to 42, and 43AA (with two As) maps to 43. The sequential logic: capital forex (43A→42) comes before monetary forex (43AA→43), just as it did in the old Act.",
+          "tier": 2,
+          "subConcepts": ["mapping-error-detection", "43A-vs-43AA"],
+          "isReview": false,
+          "oldSection": "Section 43AA",
+          "newSection": "Section 43"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 43C determined the cost of depreciable assets on amalgamation. The successor's cost is:",
+          "options": [
+            { "text": "The fair market value on the date of amalgamation", "correct": false },
+            { "text": "The WDV in the predecessor's hands on the date of transfer", "correct": true },
+            { "text": "The original cost to the predecessor", "correct": false },
+            { "text": "The book value in the successor's financial statements", "correct": false }
+          ],
+          "explanation": "The WDV in the predecessor's hands is the successor's cost — ensuring depreciation continuity without a step-up. This rule prevents a tax benefit from simply restructuring ownership. The provision is unchanged in Section 40 of the ITA 2025.",
+          "explanationWrong": "WDV in predecessor's hands is correct. FMV would allow a step-up, which is not permitted. Original cost to predecessor would ignore depreciation already claimed. Book value in successor's financials is an accounting concept, not the tax determination. The tax rule is clear: WDV of predecessor = cost base for successor.",
+          "tier": 2,
+          "subConcepts": ["amalgamation-wdv-continuity", "no-step-up"],
+          "isReview": false,
+          "oldSection": "Section 43C",
+          "newSection": "Section 40"
+        }
+      ]
+    },
+    {
+      "title": "Actual Cost Scenarios — The 13 Circumstances",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA's client buys a machine for Rs 8,00,000 and pays Rs 3,00,000 in cash on a single day. Under Section 39, the actual cost for depreciation is:",
+          "options": [
+            { "text": "Rs 8,00,000 — full purchase price", "correct": false },
+            { "text": "Rs 5,00,000 — cash portion exceeding Rs 10,000 excluded", "correct": true },
+            { "text": "Rs 7,90,000 — only Rs 10,000 cash excluded", "correct": false },
+            { "text": "Rs 5,10,000 — only cash above Rs 10,000 allowed", "correct": false }
+          ],
+          "explanation": "The entire Rs 3,00,000 cash payment exceeds the Rs 10,000/day cap, so the full cash portion is excluded from actual cost. Actual cost = Rs 8,00,000 - Rs 3,00,000 = Rs 5,00,000. The cap operates on the total cash payment in a day, not on the excess over Rs 10,000. Any cash payment exceeding Rs 10,000 is excluded entirely, not just the excess.",
+          "explanationWrong": "Rs 5,00,000 is correct. A common mistake is to exclude only the amount above Rs 10,000 (i.e., Rs 2,90,000) — but the provision disqualifies the entire cash payment when it exceeds the threshold, not just the excess. This has significant depreciation and WDV implications.",
+          "tier": 3,
+          "subConcepts": ["cash-cap-computation", "entire-payment-excluded"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 2,
+          "question": "A sole proprietor converts her personal car (FMV Rs 6,00,000, original cost Rs 9,00,000) to business use. The actual cost for depreciation under Section 39 is:",
+          "options": [
+            { "text": "Rs 9,00,000 — original purchase price", "correct": false },
+            { "text": "Rs 6,00,000 — FMV on date of conversion", "correct": true },
+            { "text": "Rs 7,50,000 — average of cost and FMV", "correct": false },
+            { "text": "Rs 0 — personal assets cannot enter the block", "correct": false }
+          ],
+          "explanation": "When a personal asset is converted to business use, actual cost = FMV on the date of conversion (Rs 6,00,000). The original cost (Rs 9,00,000) is irrelevant for depreciation — what matters is the value at the point of business entry. This is one of the 13 special circumstances under Section 39, unchanged from old Section 43(1).",
+          "explanationWrong": "Rs 6,00,000 (FMV) is correct. The decline from Rs 9,00,000 to Rs 6,00,000 represents personal use depreciation — the tax system does not give credit for value erosion during personal use. The business block begins at FMV, and depreciation under Section 46 starts from this base.",
+          "tier": 3,
+          "subConcepts": ["personal-to-business-fmv", "computation"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 53 (old 43CA), what is the tolerance threshold below which the stamp duty value deeming does NOT trigger?",
+          "options": [
+            { "text": "105% of SDV", "correct": false },
+            { "text": "110% of SDV", "correct": true },
+            { "text": "115% of SDV", "correct": false },
+            { "text": "100% of SDV — any shortfall triggers deeming", "correct": false }
+          ],
+          "explanation": "The 110% tolerance threshold continues unchanged. If actual consideration is at least 110% of stamp duty value, no deeming applies. This 10% band provides practical relief for minor valuation differences in stock-in-trade property transfers.",
+          "explanationWrong": "110% is correct. This threshold was introduced by Finance Act 2020 for Section 43CA and is retained in Section 53. It applies specifically to stock-in-trade property transfers (primarily real estate developers). A parallel provision exists in capital gains for capital asset transfers.",
+          "tier": 3,
+          "subConcepts": ["sdv-tolerance-review", "110-percent"],
+          "isReview": true,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        },
+        {
+          "order": 4,
+          "question": "Company A acquires Company B through amalgamation. Company B had a block of plant and machinery with WDV Rs 2 crore. Company A's records show the plant at FMV Rs 3.5 crore. Under Section 40, the actual cost for Company A's depreciation block is:",
+          "options": [
+            { "text": "Rs 3.5 crore — FMV in Company A's books", "correct": false },
+            { "text": "Rs 2 crore — WDV in Company B's hands on date of transfer", "correct": true },
+            { "text": "Rs 2.75 crore — average of WDV and FMV", "correct": false },
+            { "text": "Rs 3.5 crore minus accumulated depreciation", "correct": false }
+          ],
+          "explanation": "Section 40 (old 43C) mandates: successor's cost = predecessor's WDV on transfer date = Rs 2 crore. Company A's financial statement valuation (FMV Rs 3.5 crore) is irrelevant for tax depreciation. The WDV continuity rule prevents step-up in cost base on amalgamation, ensuring the tax system does not confer a depreciation benefit merely because of corporate restructuring.",
+          "explanationWrong": "Rs 2 crore (predecessor's WDV) is correct. The Rs 1.5 crore gap between FMV and WDV creates a book-tax difference — Company A's books may show Rs 3.5 crore, but tax depreciation starts from Rs 2 crore. This difference must be tracked in the depreciation schedule and reconciled in the tax audit report.",
+          "tier": 3,
+          "subConcepts": ["amalgamation-wdv-scenario", "book-tax-difference"],
+          "isReview": false,
+          "oldSection": "Section 43C",
+          "newSection": "Section 40"
+        },
+        {
+          "order": 5,
+          "question": "A real estate developer sells a flat (stock-in-trade) for Rs 52 lakh. The stamp duty value is Rs 50 lakh. Under Section 53, the consideration for PGBP computation is:",
+          "options": [
+            { "text": "Rs 50 lakh — SDV is deemed consideration", "correct": false },
+            { "text": "Rs 52 lakh — actual consideration accepted (within 110% tolerance)", "correct": true },
+            { "text": "Rs 55 lakh — 110% of SDV is deemed minimum", "correct": false },
+            { "text": "Rs 51 lakh — average of SDV and actual", "correct": false }
+          ],
+          "explanation": "Rs 52 lakh is Rs 52/50 = 104% of SDV. Since 104% < 110%, wait — actually Rs 52 lakh IS above SDV. The test: is actual consideration ≥ SDV? Yes (Rs 52 > Rs 50). And is actual consideration ≥ 110% of SDV (Rs 55 lakh)? No. But the deeming triggers only when consideration < SDV. Here, Rs 52 lakh > Rs 50 lakh (SDV), so the deeming does not trigger at all. Actual consideration Rs 52 lakh is accepted.",
+          "explanationWrong": "Rs 52 lakh (actual consideration) is correct. The 110% tolerance applies when consideration is BELOW SDV — it gives a 10% cushion before deeming kicks in. Here, consideration (Rs 52 lakh) exceeds SDV (Rs 50 lakh), so the deeming provision is not even triggered. The tolerance band is relevant only in borderline cases where consideration is below SDV.",
+          "tier": 3,
+          "subConcepts": ["sdv-computation", "tolerance-application"],
+          "isReview": false,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        }
+      ]
+    },
+    {
+      "title": "WDV Block Computation Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A block of plant and machinery has: opening WDV (A) = Rs 20 lakh, depreciation allowed (D) = Rs 3 lakh, additions (B) = Rs 5 lakh, disposals (C) = Rs 8 lakh, no corporate transfers (E = 0). The closing WDV under Section 41 is:",
+          "options": [
+            { "text": "Rs 14 lakh", "correct": true },
+            { "text": "Rs 12 lakh", "correct": false },
+            { "text": "Rs 24 lakh", "correct": false },
+            { "text": "Rs 17 lakh", "correct": false }
+          ],
+          "explanation": "WDV = [(A-D)+B-C]-E = [(20-3)+5-8]-0 = [17+5-8]-0 = 14-0 = Rs 14 lakh. Following the formula step by step: reduce opening WDV by depreciation (20-3=17), add acquisitions (17+5=22), subtract disposal proceeds (22-8=14), adjust for corporate transfers (14-0=14).",
+          "explanationWrong": "Rs 14 lakh is correct. Apply the formula mechanically: [(20-3)+5-8]-0 = 14. A common error is forgetting to subtract depreciation first (A-D) before adding acquisitions. The formula's bracketing ensures depreciation is applied to the opening balance, not to the post-acquisition balance.",
+          "tier": 3,
+          "subConcepts": ["wdv-computation", "formula-application"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 2,
+          "question": "Same block: if disposal proceeds (C) were Rs 25 lakh instead of Rs 8 lakh, the result under Section 41 would be:",
+          "options": [
+            { "text": "Negative WDV of Rs 3 lakh — treated as short-term capital gain", "correct": true },
+            { "text": "WDV of zero — the block continues", "correct": false },
+            { "text": "Negative WDV of Rs 3 lakh — treated as business loss", "correct": false },
+            { "text": "WDV of Rs 25 lakh — disposal proceeds replace the block", "correct": false }
+          ],
+          "explanation": "WDV = [(20-3)+5-25]-0 = [17+5-25]-0 = -3. When the block turns negative, the negative amount (Rs 3 lakh) is treated as short-term capital gain under Section 67 (old Section 50), not as business income or loss. The block ceases to exist. This treatment is unchanged from the old Act.",
+          "explanationWrong": "Negative WDV = short-term capital gain is correct. This is the balancing charge mechanism: when disposal proceeds exceed the depreciated block value, the excess represents recovery of depreciation previously claimed. It is taxed as STCG, not as business income. The block is extinguished.",
+          "tier": 3,
+          "subConcepts": ["negative-wdv", "short-term-capital-gain", "block-extinction"],
+          "isReview": false,
+          "oldSection": "Section 43, Section 50",
+          "newSection": "Section 41, Section 67"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 38 (old Section 41), a bad debt of Rs 5 lakh was written off in Year 1. In Year 3, Rs 3 lakh is recovered. The deemed profit in Year 3 is:",
+          "options": [
+            { "text": "Rs 5 lakh — the full original write-off", "correct": false },
+            { "text": "Rs 3 lakh — the amount actually recovered", "correct": true },
+            { "text": "Rs 2 lakh — the unrecovered portion", "correct": false },
+            { "text": "Nil — recovery does not trigger deemed profit", "correct": false }
+          ],
+          "explanation": "The deemed profit equals the amount recovered (Rs 3 lakh), not the full write-off. Section 38 taxes the recovery, not the original deduction. If a further Rs 1 lakh is recovered in Year 5, that Rs 1 lakh would be deemed profit of Year 5. Each recovery triggers deemed profit in the year of receipt.",
+          "explanationWrong": "Rs 3 lakh (amount recovered) is correct. The deemed profit mechanism is recovery-based, not write-off-based. Only the actual recovery is taxed. The remaining Rs 2 lakh unrecovered portion does not trigger any deemed profit unless and until it is actually recovered.",
+          "tier": 3,
+          "subConcepts": ["bad-debt-recovery-computation", "deemed-profit-timing"],
+          "isReview": true,
+          "oldSection": "Section 41",
+          "newSection": "Section 38"
+        },
+        {
+          "order": 4,
+          "question": "A firm merges into a company. The firm's machinery block has WDV Rs 10 lakh. Under Section 41, the E adjustment ensures the company's block starts at:",
+          "options": [
+            { "text": "Rs 10 lakh — WDV continues without reset", "correct": true },
+            { "text": "FMV of the machinery on merger date", "correct": false },
+            { "text": "Zero — the block resets on succession", "correct": false },
+            { "text": "Rs 10 lakh plus stamp duty on transfer", "correct": false }
+          ],
+          "explanation": "The E variable in the WDV formula handles corporate transfers. When a firm succeeds to a company, the WDV continues at Rs 10 lakh — as if the transfer had not taken place. No reset, no step-up, no stamp duty addition. Depreciation continuity is maintained across the reorganisation.",
+          "explanationWrong": "Rs 10 lakh (WDV continues) is correct. The corporate transfer continuity principle: the transferee steps into the transferor's shoes for depreciation purposes. This prevents a succession from being used as a depreciation refresh. The E adjustment in the formula accounts for this seamless transition.",
+          "tier": 3,
+          "subConcepts": ["corporate-transfer-e-adjustment", "depreciation-continuity"],
+          "isReview": false,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 5,
+          "question": "A CA is updating all working papers for the ITA 2025 transition. For the old omnibus Section 43, how many distinct new section references must be tracked?",
+          "options": [
+            { "text": "3 — Sections 39, 41, 42", "correct": false },
+            { "text": "5 — Sections 39, 40, 41, 42, 43", "correct": false },
+            { "text": "8 — Sections 38, 39, 40, 41, 42, 43, 53, 56, 57 (including related provisions)", "correct": false },
+            { "text": "At least 8 distinct references spanning Sections 38-43, 53, 56, and 57", "correct": true }
+          ],
+          "explanation": "The full mapping from the old Section 43 cluster: 43(1)→39, 43C→40, 43(WDV)→41, 43A→42, 43AA→43, 43CA→53, 43CB→57, 43D→56, plus old 41→38. That is at least 8 distinct new section references that must be tracked across working papers, computation templates, and client correspondence.",
+          "explanationWrong": "At least 8 references is correct. This is the scale of the reference update required. Each old sub-section, lettered section, or standalone provision now has its own dedicated section number. The practitioner's checklist must cover every one of these mappings to avoid incorrect references in returns and audit reports.",
+          "tier": 3,
+          "subConcepts": ["reference-update-scope", "8-mappings"],
+          "isReview": false,
+          "oldSection": "Section 43 (omnibus)",
+          "newSection": "Sections 38-43, 53, 56, 57"
+        }
+      ]
+    },
+    {
+      "title": "Client Advisory — SDV, NPA, and Transition",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A real estate developer sells a flat (stock-in-trade) for Rs 45 lakh. SDV is Rs 50 lakh. Under Section 53, the deemed consideration for PGBP computation is:",
+          "options": [
+            { "text": "Rs 45 lakh — actual consideration", "correct": false },
+            { "text": "Rs 50 lakh — SDV is deemed consideration since Rs 45 lakh < 110% of Rs 50 lakh", "correct": true },
+            { "text": "Rs 55 lakh — 110% of SDV", "correct": false },
+            { "text": "Rs 47.50 lakh — average of actual and SDV", "correct": false }
+          ],
+          "explanation": "Actual consideration Rs 45 lakh is 90% of SDV Rs 50 lakh. Since 90% is below 110% (and indeed below 100%), the deeming applies. The stamp duty value (Rs 50 lakh) becomes the deemed consideration. The developer pays tax on Rs 50 lakh, not Rs 45 lakh — a Rs 5 lakh addition to taxable income.",
+          "explanationWrong": "Rs 50 lakh (SDV) is correct. The 110% tolerance means the deeming would NOT apply if consideration were at least Rs 55 lakh (110% of Rs 50 lakh). At Rs 45 lakh, the consideration is well below this threshold, so the deeming triggers in full. The developer's PGBP income is computed as if the sale were at Rs 50 lakh.",
+          "tier": 3,
+          "subConcepts": ["sdv-deeming-scenario", "developer-impact"],
+          "isReview": false,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        },
+        {
+          "order": 2,
+          "question": "A scheduled bank has NPA interest accrued of Rs 12 crore over two years. Of this, Rs 4 crore is actually collected in the current year. Under Section 56, the taxable interest income for the current year is:",
+          "options": [
+            { "text": "Rs 12 crore — full accrued amount", "correct": false },
+            { "text": "Rs 4 crore — only the amount actually received", "correct": true },
+            { "text": "Rs 6 crore — half of accrued amount", "correct": false },
+            { "text": "Nil — NPA interest is exempt", "correct": false }
+          ],
+          "explanation": "Section 56 (old 43D) taxes NPA interest on receipt basis only. The bank recognises only Rs 4 crore — the amount actually collected. The remaining Rs 8 crore accrued but uncollected interest is not taxable until received. If it is never collected (write-off), it is never taxed. NPA interest is not exempt — it is merely deferred to the year of receipt.",
+          "explanationWrong": "Rs 4 crore (amount received) is correct. The receipt-basis carve-out is specific to NPA interest for scheduled banks and public financial institutions. Non-NPA interest follows the normal accrual principle. The distinction between NPA and performing loans is critical for this provision's application.",
+          "tier": 3,
+          "subConcepts": ["npa-receipt-basis-scenario", "bank-taxation"],
+          "isReview": false,
+          "oldSection": "Section 43D",
+          "newSection": "Section 56"
+        },
+        {
+          "order": 3,
+          "question": "The WDV formula under Section 41 is [(A-D)+B-C]-E. What does the variable 'C' represent?",
+          "options": [
+            { "text": "Cost of assets acquired during the year", "correct": false },
+            { "text": "Moneys payable on assets sold, discarded, demolished, or destroyed (plus insurance/compensation)", "correct": true },
+            { "text": "Corporate transfer adjustments", "correct": false },
+            { "text": "Cumulative depreciation from prior years", "correct": false }
+          ],
+          "explanation": "C = moneys payable in respect of assets that left the block during the year — through sale, discarding, demolition, or destruction. Insurance and compensation received are also included in C. This variable reduces the block value when assets exit. If C exceeds the net block (after depreciation and additions), the block turns negative — triggering STCG.",
+          "explanationWrong": "Moneys payable on disposed assets is correct. B (not C) is the cost of acquisitions. E (not C) is the corporate transfer adjustment. D (not C) is depreciation. Each variable in the formula has a precise, non-overlapping meaning. C captures all exits from the block during the year.",
+          "tier": 3,
+          "subConcepts": ["wdv-variable-C-review", "disposal-proceeds"],
+          "isReview": true,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 4,
+          "question": "A client receives a government subsidy of Rs 2 lakh towards the cost of a machine purchased for Rs 10 lakh. Under Section 39, the actual cost for depreciation is:",
+          "options": [
+            { "text": "Rs 10 lakh — subsidy is separate income", "correct": false },
+            { "text": "Rs 8 lakh — subsidy deducted from actual cost", "correct": true },
+            { "text": "Rs 12 lakh — subsidy added to cost", "correct": false },
+            { "text": "Rs 10 lakh, with subsidy taxed separately under IFOS", "correct": false }
+          ],
+          "explanation": "When a portion of the cost is met by government subsidy or grant, the subsidy is deducted from actual cost under Section 39. Actual cost = Rs 10 lakh - Rs 2 lakh = Rs 8 lakh. Depreciation is computed on Rs 8 lakh. This is one of the 13 special circumstances — the subsidy reduces the depreciable base rather than being taxed as separate income.",
+          "explanationWrong": "Rs 8 lakh is correct. The subsidy treatment under Section 39 follows the 'netted off' approach: the government contribution reduces the cost base rather than being recognised as income. This prevents double benefit — claiming depreciation on the full cost while also retaining a tax-free subsidy.",
+          "tier": 3,
+          "subConcepts": ["subsidy-netting", "actual-cost-reduction"],
+          "isReview": false,
+          "oldSection": "Section 43(1)",
+          "newSection": "Section 39"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner uses 'Section 43(6)' for WDV in a computation filed under the ITA 2025. What issue does this create?",
+          "options": [
+            { "text": "No issue — Section 43(6) is valid under both Acts", "correct": false },
+            { "text": "Processing mismatch — Section 43 in the ITA 2025 means forex taxation, not WDV; the correct reference is Section 41", "correct": true },
+            { "text": "Automatic penalty for incorrect reference", "correct": false },
+            { "text": "The return will be rejected outright", "correct": false }
+          ],
+          "explanation": "In the ITA 2025, Section 43 is forex taxation (old 43AA), not the WDV definition. Using 43(6) in a 2025 Act computation references a non-existent sub-section of a forex provision. The correct reference is Section 41. This creates a processing mismatch — not an automatic rejection or penalty, but a compliance friction that can trigger notices.",
+          "explanationWrong": "Processing mismatch is correct. This is the practical consequence of number reuse: old Section 43(6) (WDV) becomes new Section 41, while new Section 43 is an entirely different provision (forex). The return processing system will flag references to provisions that do not exist in the cited Act.",
+          "tier": 3,
+          "subConcepts": ["number-reuse-practical-risk", "section-43-6-trap"],
+          "isReview": false,
+          "oldSection": "Section 43(6)",
+          "newSection": "Section 41"
+        }
+      ]
+    }
+  ]
+}

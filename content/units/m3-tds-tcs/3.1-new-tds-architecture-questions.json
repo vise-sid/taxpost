@@ -1,0 +1,835 @@
+{
+  "unit": "3.1",
+  "title": "New TDS Architecture",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Big Consolidation",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many individual TDS/TCS sections from the 1961 Act have been consolidated into the new 2025 Act's framework?",
+          "options": [
+            { "text": "10 sections", "correct": false },
+            { "text": "Over 30 sections", "correct": true },
+            { "text": "5 sections", "correct": false },
+            { "text": "50 sections", "correct": false }
+          ],
+          "explanation": "Over 30 individual TDS/TCS sections (192 through 196D, plus 206C) have been collapsed into just 3 main sections — 392, 393, and 394. This is the single biggest structural change in the TDS/TCS framework.",
+          "explanationWrong": "Over 30 sections were consolidated. The old Act had individual sections for each payment type (194C for contractors, 194J for professionals, etc.), all now merged into a compact 3-section architecture.",
+          "tier": 1,
+          "subConcepts": ["tds-consolidation", "new-architecture"],
+          "isReview": false,
+          "oldSection": "Sections 192–206C",
+          "newSection": "Sections 392–394"
+        },
+        {
+          "order": 2,
+          "question": "The new TDS/TCS architecture uses how many main sections to replace the entire old framework?",
+          "options": [
+            { "text": "5 sections (392–396)", "correct": false },
+            { "text": "3 sections (392, 393, 394)", "correct": true },
+            { "text": "2 sections (392, 393)", "correct": false },
+            { "text": "10 sections (391–400)", "correct": false }
+          ],
+          "explanation": "The three pillars are: Section 392 (salary TDS), Section 393 (non-salary TDS via tables), and Section 394 (TCS). This compact structure replaces 30+ individual sections.",
+          "explanationWrong": "Just 3 sections — 392, 393, and 394 — form the new core. Section 392 handles salary, 393 handles all other TDS via tables, and 394 handles TCS.",
+          "tier": 1,
+          "subConcepts": ["section-392", "section-393", "section-394"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 392, 393, 394"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition framework (Unit 2.4), which event determines whether TDS is governed by the old or new Act?",
+          "options": [
+            { "text": "The date of invoice", "correct": false },
+            { "text": "The earlier of credit or payment", "correct": true },
+            { "text": "The date of TDS return filing", "correct": false },
+            { "text": "The date of TAN registration", "correct": false }
+          ],
+          "explanation": "The earlier-event rule determines which Act applies: if the earlier of credit or payment falls on or before 31 March 2026, the old Act governs; from 1 April 2026, the new Act applies.",
+          "explanationWrong": "The earlier-event rule (credit or payment, whichever is earlier) is the transition test. This was covered in Unit 2.4 on TDS during transition.",
+          "tier": 1,
+          "subConcepts": ["earlier-event-rule", "transition-tds"],
+          "isReview": true,
+          "oldSection": "Section 190",
+          "newSection": "Section 391"
+        },
+        {
+          "order": 4,
+          "question": "A CA firm currently cites Section 194J when advising clients on TDS for professional fees. After 1 April 2026, which section must they cite instead?",
+          "options": [
+            { "text": "Section 194J still applies unchanged", "correct": false },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 393 (with the relevant Table and serial number)", "correct": true },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "All non-salary TDS, including professional fees (old 194J), is now under Section 393 with table-based serial numbers. Section 392 is only for salary. Section 394 is for TCS.",
+          "explanationWrong": "Section 393 with the specific table and serial number replaces Section 194J. After 1 April 2026, the old section numbers have no legal validity for quoting in TDS returns.",
+          "tier": 1,
+          "subConcepts": ["section-393", "section-194j-mapping"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following correctly describes the three main sections in the new TDS/TCS architecture?",
+          "options": [
+            { "text": "392 = resident TDS, 393 = non-resident TDS, 394 = TCS", "correct": false },
+            { "text": "392 = salary TDS, 393 = non-salary TDS (tables), 394 = TCS", "correct": true },
+            { "text": "392 = TDS, 393 = TCS, 394 = salary", "correct": false },
+            { "text": "392 = individuals, 393 = companies, 394 = other persons", "correct": false }
+          ],
+          "explanation": "Section 392 covers salary TDS (replacing old 192), Section 393 covers all other TDS through 6 tables (replacing old 193–196D), and Section 394 covers TCS (replacing old 206C).",
+          "explanationWrong": "The split is by payment type, not by payer or payee type: 392 = salary, 393 = all non-salary TDS via tables, 394 = TCS. Resident vs non-resident payments are handled within different tables of Section 393.",
+          "tier": 1,
+          "subConcepts": ["section-392", "section-393", "section-394", "architecture-overview"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 392, 393, 394"
+        }
+      ]
+    },
+    {
+      "title": "Section 393's Table Structure",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many tables does Section 393 contain for non-salary TDS provisions?",
+          "options": [
+            { "text": "3 tables", "correct": false },
+            { "text": "6 tables", "correct": true },
+            { "text": "4 tables", "correct": false },
+            { "text": "1 table", "correct": false }
+          ],
+          "explanation": "Section 393 organises all non-salary TDS into 6 tables. Tables 1–3 categorise by payee type (resident, non-resident, any person), while Tables 4–6 provide thresholds and related details.",
+          "explanationWrong": "6 tables — this is the heart of the new architecture. Each table serves a distinct purpose within the consolidated non-salary TDS framework.",
+          "tier": 1,
+          "subConcepts": ["section-393", "table-structure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 194C for contractor payments is now located in which part of the new Act?",
+          "options": [
+            { "text": "Section 392(3)", "correct": false },
+            { "text": "Section 393, Table 1 (resident payments)", "correct": true },
+            { "text": "Section 394, Table 1", "correct": false },
+            { "text": "Section 393, Table 2 (non-resident payments)", "correct": false }
+          ],
+          "explanation": "Contractor payments to residents (old 194C) are now a serial entry in Table 1 of Section 393. Table 1 covers all TDS on payments to residents.",
+          "explanationWrong": "Section 393, Table 1 is the correct location. Table 1 is for resident payees, Table 2 is for non-resident payees. Contractor payments to residents naturally fall under Table 1.",
+          "tier": 1,
+          "subConcepts": ["section-194c-mapping", "table-1"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act's structure (Unit 0.2), how many Chapters does the 2025 Act contain compared to the old Act?",
+          "options": [
+            { "text": "23 Chapters (same as the old Act)", "correct": false },
+            { "text": "Fewer chapters than the old Act", "correct": false },
+            { "text": "The old Act had no formal Chapters, but the new Act introduces them", "correct": false },
+            { "text": "The new Act uses Parts and Chapters, reorganising the old Chapter structure", "correct": true }
+          ],
+          "explanation": "The 2025 Act reorganises the structure using Parts and Chapters, replacing the old Act's Chapter-based layout. This structural redesign is what enables consolidation like the TDS tables.",
+          "explanationWrong": "The new Act uses a Parts-and-Chapters hierarchy, a significant structural redesign from the old Act. This was covered in Unit 0.2 on the new structure.",
+          "tier": 1,
+          "subConcepts": ["act-structure", "parts-chapters"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "If you need to determine the TDS rate on rent paid to a resident landlord post 1 April 2026, which section and table would you consult?",
+          "options": [
+            { "text": "Section 194I of the old Act", "correct": false },
+            { "text": "Section 393, Table 2", "correct": false },
+            { "text": "Section 393, Table 1", "correct": true },
+            { "text": "Section 392", "correct": false }
+          ],
+          "explanation": "Rent to a resident landlord (old 194I) is now in Table 1 of Section 393, which covers all TDS on payments to resident persons. Table 2 is for non-residents.",
+          "explanationWrong": "Section 393, Table 1 — since the landlord is a resident, Table 1 applies. Old Section 194I is no longer valid after 1 April 2026. Section 392 is only for salary.",
+          "tier": 1,
+          "subConcepts": ["section-194i-mapping", "table-1", "resident-tds"],
+          "isReview": false,
+          "oldSection": "Section 194I",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following old Act sections does NOT map to Section 393 of the new Act?",
+          "options": [
+            { "text": "Section 194C (contractors)", "correct": false },
+            { "text": "Section 194J (professionals)", "correct": false },
+            { "text": "Section 192 (salary)", "correct": true },
+            { "text": "Section 195 (non-residents)", "correct": false }
+          ],
+          "explanation": "Section 192 (salary TDS) maps to Section 392 of the new Act, not Section 393. Section 393 consolidates all non-salary TDS provisions — 193 through 196D.",
+          "explanationWrong": "Section 192 (salary) maps to Section 392, not 393. Sections 194C, 194J, and 195 all map to various tables within Section 393.",
+          "tier": 1,
+          "subConcepts": ["section-192-mapping", "section-392", "section-393"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        }
+      ]
+    },
+    {
+      "title": "Supporting Sections and What's Omitted",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which old Act provisions for higher TDS on non-filers (206AB and 206CCA) have been treated how in the new Act?",
+          "options": [
+            { "text": "Retained as separate sections", "correct": false },
+            { "text": "Merged into Section 393", "correct": false },
+            { "text": "Omitted from the new Act entirely", "correct": true },
+            { "text": "Moved to Section 394 (TCS)", "correct": false }
+          ],
+          "explanation": "Sections 206AB and 206CCA were removed from the 1961 Act by Finance Act 2025 (effective 1 April 2025); the 2025 Act does not re-enact them. However, the concept of higher rates for non-PAN cases survives under Section 397.",
+          "explanationWrong": "206AB and 206CCA were removed from the 1961 Act by Finance Act 2025 (effective 1 April 2025); the 2025 Act does not re-enact them. These provisions for higher TDS/TCS on non-filers of returns were dropped. The higher PAN-related rates continue under a different mechanism (Section 397).",
+          "tier": 1,
+          "subConcepts": ["206ab-omitted", "206cca-omitted", "section-397"],
+          "isReview": false,
+          "oldSection": "Sections 206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Which supporting section in the new Act deals with higher TDS rates when the deductee does not furnish PAN?",
+          "options": [
+            { "text": "Section 395", "correct": false },
+            { "text": "Section 206AB", "correct": false },
+            { "text": "Section 397", "correct": true },
+            { "text": "Section 398", "correct": false }
+          ],
+          "explanation": "Section 397 provides for higher TDS rates when the deductee fails to furnish PAN. This replaces the old Section 206AA concept (not 206AB which was for non-filers). 206AB was removed from the 1961 Act by Finance Act 2025 and is not re-enacted in the 2025 Act.",
+          "explanationWrong": "Section 397 handles higher PAN-related rates. Section 206AB (non-filer higher rates) was removed from the 1961 Act by Finance Act 2025 (effective 1 April 2025) and is not re-enacted. Section 395 and 398 serve other supporting functions.",
+          "tier": 1,
+          "subConcepts": ["section-397", "higher-pan-rate", "pan-compliance"],
+          "isReview": false,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.1, what is the key date from which the Income-tax Act, 2025 comes into force?",
+          "options": [
+            { "text": "1 January 2026", "correct": false },
+            { "text": "1 April 2025", "correct": false },
+            { "text": "1 April 2026", "correct": true },
+            { "text": "1 July 2026", "correct": false }
+          ],
+          "explanation": "The 2025 Act comes into force on 1 April 2026. From this date, the new sections (392, 393, 394) replace the old TDS/TCS provisions.",
+          "explanationWrong": "1 April 2026 is the effective date. The Act was passed in 2025 but commences from the start of FY 2026-27. This was covered in Unit 2.1 on parallel operation.",
+          "tier": 1,
+          "subConcepts": ["effective-date", "commencement"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 1(3)"
+        },
+        {
+          "order": 4,
+          "question": "A deductee does not have PAN and receives a professional fee payment post 1 April 2026. Under which section does the deductor apply the higher TDS rate?",
+          "options": [
+            { "text": "Section 206AA of the old Act", "correct": false },
+            { "text": "Section 393 alone — the table already has higher rates built in", "correct": false },
+            { "text": "Section 397 of the new Act", "correct": true },
+            { "text": "Section 395 of the new Act", "correct": false }
+          ],
+          "explanation": "Section 397 mandates higher TDS rates when PAN is not furnished. The deductor must first determine the base rate from Section 393's tables, then apply Section 397's higher rate override.",
+          "explanationWrong": "Section 397 is the correct provision. The base TDS obligation comes from Section 393, but the higher rate for no-PAN cases is separately governed by Section 397. Old Section 206AA is no longer valid.",
+          "tier": 1,
+          "subConcepts": ["section-397", "no-pan-higher-rate", "professional-fees"],
+          "isReview": false,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following sections are the supporting/procedural sections in the new TDS architecture alongside 392, 393, and 394?",
+          "options": [
+            { "text": "Sections 395, 397, and 398", "correct": true },
+            { "text": "Sections 206AB, 206CCA, and 206AA", "correct": false },
+            { "text": "Sections 400, 401, and 402", "correct": false },
+            { "text": "Sections 195, 196, and 197", "correct": false }
+          ],
+          "explanation": "Sections 395, 397, and 398 are the key supporting sections. They handle procedural aspects like certificates, higher PAN rates, and other compliance requirements alongside the three main sections.",
+          "explanationWrong": "Sections 395, 397, and 398 are the supporting provisions. The old section numbers (206AB, 206AA, etc.) are no longer part of the framework. 195/196/197 are old Act numbers.",
+          "tier": 1,
+          "subConcepts": ["section-395", "section-397", "section-398", "supporting-sections"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 395, 397, 398"
+        }
+      ]
+    },
+    {
+      "title": "Why the Restructuring",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the primary problem with having 30+ separate TDS sections in the old Act?",
+          "options": [
+            { "text": "The rates were too high", "correct": false },
+            { "text": "Fragmented provisions made compliance complex and error-prone", "correct": true },
+            { "text": "The sections contradicted each other", "correct": false },
+            { "text": "There was no provision for digital filing", "correct": false }
+          ],
+          "explanation": "Having 30+ separate sections meant practitioners had to navigate dozens of provisions with different thresholds, rates, and conditions scattered across the Act. The table-based consolidation addresses this by putting everything in one place.",
+          "explanationWrong": "Fragmentation was the core issue. Each payment type had its own section with unique rules, making it easy to miss a provision or misquote a section. The rates themselves did not change — only the organisational structure did.",
+          "tier": 2,
+          "subConcepts": ["rationale-consolidation", "compliance-complexity"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Despite the massive structural overhaul, what aspect of TDS has notably NOT changed in the new Act?",
+          "options": [
+            { "text": "The section numbers", "correct": false },
+            { "text": "The TDS rates and thresholds", "correct": true },
+            { "text": "The compliance deadlines", "correct": false },
+            { "text": "The penalty provisions", "correct": false }
+          ],
+          "explanation": "The rates and thresholds remain the same — the new Act is a structural reorganisation, not a rate revision. Old 194C's 1%/2% rates, old 194J's 10%, etc., all continue at the same levels in the new tables.",
+          "explanationWrong": "No rate changes. The consolidation is purely structural — moving from scattered sections to organised tables. The rates, thresholds, and exemption limits have been carried forward as-is.",
+          "tier": 2,
+          "subConcepts": ["no-rate-change", "structural-change-only"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "In the old Act, what form was required for reporting TDS deducted on salary under Section 192?",
+          "options": [
+            { "text": "Form 26Q", "correct": false },
+            { "text": "Form 24Q", "correct": true },
+            { "text": "Form 27Q", "correct": false },
+            { "text": "Form 16A", "correct": false }
+          ],
+          "explanation": "Form 24Q was the quarterly TDS return for salary deductions under old Section 192. This is a review of TDS compliance basics from earlier modules.",
+          "explanationWrong": "Form 24Q is the salary TDS return. Form 26Q is for non-salary resident payments, Form 27Q is for non-resident payments. Form 16A is a TDS certificate, not a return.",
+          "tier": 2,
+          "subConcepts": ["form-24q", "salary-tds-return"],
+          "isReview": true,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        },
+        {
+          "order": 4,
+          "question": "Why was Section 206AB (higher TDS for non-filers) omitted from the new Act rather than being consolidated into Section 393?",
+          "options": [
+            { "text": "It was unconstitutional", "correct": false },
+            { "text": "The provision was found to be impractical and burdensome for deductors", "correct": true },
+            { "text": "Non-filers no longer exist under the new Act", "correct": false },
+            { "text": "It was merged into Section 397 without any changes", "correct": false }
+          ],
+          "explanation": "Section 206AB was removed from the 1961 Act by Finance Act 2025 (effective 1 April 2025) because it required deductors to verify the filing status of every deductee — an impractical burden. The 2025 Act does not re-enact it. Note: Section 397 (higher rate for no-PAN) is a different concept and survives.",
+          "explanationWrong": "Impracticality was the reason. 206AB was removed from the 1961 Act by Finance Act 2025 (effective 1 April 2025); the 2025 Act does not re-enact it. Requiring deductors to check each deductee's return-filing status was operationally burdensome. Section 397 is not a continuation of 206AB — it deals with PAN non-furnishing, which is a different compliance issue.",
+          "tier": 2,
+          "subConcepts": ["206ab-rationale", "omission-logic"],
+          "isReview": false,
+          "oldSection": "Section 206AB",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "The table-based approach in Section 393 most closely resembles which existing concept from indirect tax law?",
+          "options": [
+            { "text": "GST rate schedules that list goods/services with applicable rates in tables", "correct": true },
+            { "text": "The old CENVAT credit rules", "correct": false },
+            { "text": "Customs tariff headings", "correct": false },
+            { "text": "Service tax negative list", "correct": false }
+          ],
+          "explanation": "Section 393's table approach mirrors GST rate schedules — a single section with tables listing payment types, thresholds, and rates. This is a familiar pattern for practitioners who handle GST.",
+          "explanationWrong": "GST rate schedules are the closest analogy. Like GST schedules list goods/services with rates in a tabular format, Section 393 lists payment types with TDS rates in organised tables.",
+          "tier": 2,
+          "subConcepts": ["gst-analogy", "table-based-approach"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        }
+      ]
+    },
+    {
+      "title": "Mapping Old to New",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 193 (TDS on interest on securities) maps to which part of the new Act?",
+          "options": [
+            { "text": "Section 392(3)", "correct": false },
+            { "text": "Section 393, Table 1", "correct": true },
+            { "text": "Section 394", "correct": false },
+            { "text": "It has been omitted", "correct": false }
+          ],
+          "explanation": "Section 193 dealt with interest on securities paid to residents, so it maps to Table 1 of Section 393 (resident payments).",
+          "explanationWrong": "Section 393, Table 1 is correct. Interest on securities is a payment to a resident, so it falls under Table 1. It has not been omitted — only 206AB/206CCA were removed from the 1961 Act by Finance Act 2025 and not re-enacted.",
+          "tier": 2,
+          "subConcepts": ["section-193-mapping", "table-1"],
+          "isReview": false,
+          "oldSection": "Section 193",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 195 (TDS on payments to non-residents) maps to which table in the new Act?",
+          "options": [
+            { "text": "Section 393, Table 1", "correct": false },
+            { "text": "Section 393, Table 2", "correct": true },
+            { "text": "Section 393, Table 3", "correct": false },
+            { "text": "Section 392", "correct": false }
+          ],
+          "explanation": "Section 195 covered TDS on payments to non-residents, so it maps to Table 2 of Section 393. The old catch-all nature of 195 has been split into specific serial numbers in Table 2.",
+          "explanationWrong": "Table 2 of Section 393 handles non-resident payments. Table 1 is for residents, Table 3 is for payments to any person (regardless of residential status).",
+          "tier": 2,
+          "subConcepts": ["section-195-mapping", "table-2", "non-resident-tds"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "What is the significance of old Section 206C that maps to Section 394 in the new Act?",
+          "options": [
+            { "text": "It covered TDS on salary", "correct": false },
+            { "text": "It was the sole TCS (Tax Collected at Source) provision", "correct": true },
+            { "text": "It dealt with advance tax", "correct": false },
+            { "text": "It covered TDS on lottery winnings", "correct": false }
+          ],
+          "explanation": "Section 206C was the umbrella TCS provision in the old Act, covering collection at source on items like scrap, minerals, motor vehicles, etc. It now maps to Section 394.",
+          "explanationWrong": "Section 206C was the TCS provision — Tax Collected at Source, not Tax Deducted at Source. It continues as Section 394 in the new Act.",
+          "tier": 2,
+          "subConcepts": ["section-206c-mapping", "section-394", "tcs"],
+          "isReview": true,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 4,
+          "question": "A company pays consultancy fees to a resident and also buys goods from a non-resident. Under the new Act, which sections/tables apply respectively?",
+          "options": [
+            { "text": "Both fall under Section 393, Table 1", "correct": false },
+            { "text": "Section 393 Table 1 for consultancy; Section 393 Table 2 for non-resident purchase", "correct": true },
+            { "text": "Section 392 for consultancy; Section 394 for goods", "correct": false },
+            { "text": "Section 393 Table 2 for both since one party is non-resident", "correct": false }
+          ],
+          "explanation": "Consultancy to a resident is a Table 1 payment (resident payee). Purchase from a non-resident triggers Table 2 (non-resident payee). Each payment is classified independently based on the payee's status.",
+          "explanationWrong": "The table is determined by the payee's residential status, not the payer. Resident payee = Table 1, non-resident payee = Table 2. Each transaction is independently classified.",
+          "tier": 2,
+          "subConcepts": ["table-1", "table-2", "payee-classification"],
+          "isReview": false,
+          "oldSection": "Sections 194J, 195",
+          "newSection": "Section 393, Tables 1 and 2"
+        },
+        {
+          "order": 5,
+          "question": "In the new architecture, what determines which TABLE within Section 393 applies — the nature of the payment or the status of the payee?",
+          "options": [
+            { "text": "Nature of the payment only", "correct": false },
+            { "text": "Status of the payee (resident, non-resident, any person)", "correct": true },
+            { "text": "The quantum of the payment", "correct": false },
+            { "text": "The deductor's PAN status", "correct": false }
+          ],
+          "explanation": "The table selection is based on payee status: Table 1 for residents, Table 2 for non-residents, Table 3 for any person regardless of status. Within each table, serial numbers differentiate by payment nature.",
+          "explanationWrong": "Payee status determines the table. The nature of payment determines the serial number WITHIN that table. This two-level classification (table → serial number) is the core design of Section 393.",
+          "tier": 2,
+          "subConcepts": ["table-selection-logic", "payee-status", "section-393-design"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        }
+      ]
+    },
+    {
+      "title": "Section 393 Deep Dive",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Within Section 393's tables, what happens to the rate-and-threshold details that were previously embedded in each individual old section?",
+          "options": [
+            { "text": "They are listed in a separate notification", "correct": false },
+            { "text": "They are embedded as columns within the same table rows", "correct": true },
+            { "text": "They have been removed entirely", "correct": false },
+            { "text": "They are in the Finance Act, not the Income-tax Act", "correct": false }
+          ],
+          "explanation": "Each table row in Section 393 includes columns for the payment description, threshold, rate, and other details — everything that was previously scattered across individual sections is now in one row.",
+          "explanationWrong": "The tables embed rates and thresholds within the same row structure. This is the key advantage of the table approach — all information for a payment type is in one place.",
+          "tier": 2,
+          "subConcepts": ["table-columns", "rate-threshold-embedding"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 2,
+          "question": "How does the new Act handle the higher TDS rate that previously applied under Section 206AA when a deductee failed to furnish PAN?",
+          "options": [
+            { "text": "It is embedded within each table row of Section 393", "correct": false },
+            { "text": "It is handled by Section 397 as a separate override provision", "correct": true },
+            { "text": "It has been abolished — PAN is no longer required", "correct": false },
+            { "text": "It applies only to non-residents now", "correct": false }
+          ],
+          "explanation": "Section 397 preserves the higher-rate-for-no-PAN concept from old Section 206AA. It operates as a standalone override — the base rate comes from Section 393's tables, and Section 397 increases it when PAN is missing.",
+          "explanationWrong": "Section 397 handles this as a separate provision. The higher PAN rate is not built into the tables — it is an override that applies on top of the table rates.",
+          "tier": 2,
+          "subConcepts": ["section-397", "section-206aa-mapping", "pan-override"],
+          "isReview": false,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, Section 197 allowed a deductee to apply for a lower/nil TDS certificate. Which new section provides this facility?",
+          "options": [
+            { "text": "Section 395", "correct": true },
+            { "text": "Section 397", "correct": false },
+            { "text": "Section 398", "correct": false },
+            { "text": "The facility has been removed", "correct": false }
+          ],
+          "explanation": "Section 395 of the new Act continues the facility for obtaining a certificate for lower or nil TDS deduction, replacing old Section 197.",
+          "explanationWrong": "Section 395 replaces old Section 197 for lower/nil deduction certificates. Section 397 is for higher PAN rates, and Section 398 serves a different supporting function.",
+          "tier": 2,
+          "subConcepts": ["section-395", "lower-tds-certificate"],
+          "isReview": true,
+          "oldSection": "Section 197",
+          "newSection": "Section 395"
+        },
+        {
+          "order": 4,
+          "question": "An auditor notices that old Section 194LB (infrastructure debt fund interest to non-residents) is not in Table 2 of Section 393. What is the most likely explanation?",
+          "options": [
+            { "text": "It was accidentally omitted — it will be added via amendment", "correct": false },
+            { "text": "It has been merged with another entry in Table 2 covering similar interest payments", "correct": true },
+            { "text": "Infrastructure debt fund interest is now exempt from TDS", "correct": false },
+            { "text": "It moved to Section 394 (TCS)", "correct": false }
+          ],
+          "explanation": "The consolidation merged similar provisions. Several old sections covering specific types of non-resident interest payments have been combined into broader Table 2 entries, reducing redundancy.",
+          "explanationWrong": "The table-based approach intentionally consolidates similar payment types. Multiple old sections for the same category of payment (like various types of interest to non-residents) are merged into fewer, broader entries.",
+          "tier": 2,
+          "subConcepts": ["consolidation-merging", "table-2", "non-resident-interest"],
+          "isReview": false,
+          "oldSection": "Section 194LB",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "What is the relationship between Section 393 and Section 398 in the new architecture?",
+          "options": [
+            { "text": "Section 398 overrides all rates in Section 393", "correct": false },
+            { "text": "Section 398 is a supporting/procedural section that works alongside Section 393", "correct": true },
+            { "text": "Section 398 replaces Section 393 for non-residents", "correct": false },
+            { "text": "They are completely independent with no relationship", "correct": false }
+          ],
+          "explanation": "Section 398 is a supporting section in the TDS architecture. Along with Sections 395 and 397, it provides procedural and compliance requirements that operate alongside the substantive TDS obligations in Section 393.",
+          "explanationWrong": "Section 398 is a supporting provision, not a replacement or override. The architecture has substantive sections (392, 393, 394) and supporting sections (395, 397, 398) that work together.",
+          "tier": 2,
+          "subConcepts": ["section-398", "supporting-sections", "architecture-layers"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 398"
+        }
+      ]
+    },
+    {
+      "title": "Practical Transition Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "XYZ Ltd's accounting software currently auto-fills Section 194C on TDS challans. What system change is needed post 1 April 2026?",
+          "options": [
+            { "text": "No change — old section numbers remain valid", "correct": false },
+            { "text": "Update the software to reference Section 393 with the correct Table and serial number", "correct": true },
+            { "text": "Simply change '194C' to '392' in the dropdown", "correct": false },
+            { "text": "Remove TDS functionality since the law has changed", "correct": false }
+          ],
+          "explanation": "Software must be updated to quote Section 393 with the specific table number and serial number for each payment type. A blanket change to '392' would be wrong since 392 is only for salary.",
+          "explanationWrong": "The system needs the correct Section 393 table and serial reference. Each old section maps to a specific serial number within a specific table. Using '392' for contractor payments would be incorrect.",
+          "tier": 3,
+          "subConcepts": ["software-update", "section-quoting", "practical-transition"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "During an audit for FY 2026-27, which Act's section numbers should appear on TDS certificates (Form 16A) for payments made in July 2026?",
+          "options": [
+            { "text": "Old Act sections since the audit relates to the transition year", "correct": false },
+            { "text": "New Act sections (392/393/394 as applicable)", "correct": true },
+            { "text": "Both old and new section numbers side by side", "correct": false },
+            { "text": "No section numbers needed during the first year", "correct": false }
+          ],
+          "explanation": "Payments made in July 2026 fall entirely under the new Act. TDS certificates must cite the new sections — 392 for salary, 393 with table/serial for non-salary.",
+          "explanationWrong": "New Act sections must be used. July 2026 is well after the 1 April 2026 cutoff, so only new Act provisions apply. Old section numbers have no legal validity for this period.",
+          "tier": 3,
+          "subConcepts": ["form-16a", "section-quoting", "post-transition-compliance"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 392, 393"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.3, what is the principle governing carry-forward of losses and allowances during the transition from old Act to new Act?",
+          "options": [
+            { "text": "All carry-forwards lapse on 1 April 2026", "correct": false },
+            { "text": "Carry-forwards are preserved under transitional provisions ensuring continuity", "correct": true },
+            { "text": "Only business losses can be carried forward", "correct": false },
+            { "text": "Carry-forwards are available but at reduced amounts", "correct": false }
+          ],
+          "explanation": "The transitional provisions ensure continuity of carry-forward entitlements. Losses, depreciation, and other allowances that were eligible for carry-forward under the old Act continue under the new Act.",
+          "explanationWrong": "Continuity is the principle. The transitional provisions (covered in Unit 2.3) explicitly preserve carry-forward rights so that taxpayers are not disadvantaged by the switch.",
+          "tier": 3,
+          "subConcepts": ["carry-forward-continuity", "transition-provisions"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536"
+        },
+        {
+          "order": 4,
+          "question": "MNO Corp pays rent of Rs 3 lakh/month to a resident landlord and Rs 5 lakh/month to a non-resident landlord. Under the new Act, how should TDS be handled?",
+          "options": [
+            { "text": "Both under Section 393, Table 1", "correct": false },
+            { "text": "Resident under Section 393 Table 1; non-resident under Section 393 Table 2", "correct": true },
+            { "text": "Both under old Section 194I since the rates haven't changed", "correct": false },
+            { "text": "Resident under 393 Table 1; non-resident under Section 392", "correct": false }
+          ],
+          "explanation": "Rent to a resident landlord goes to Table 1 (resident payments). Rent to a non-resident landlord goes to Table 2 (non-resident payments). The payee's residential status determines the table.",
+          "explanationWrong": "Table 1 for resident payee, Table 2 for non-resident payee. Section 392 is only for salary, so it cannot apply to rent. Old Section 194I is no longer valid after 1 April 2026.",
+          "tier": 3,
+          "subConcepts": ["rent-tds", "table-1", "table-2", "payee-classification"],
+          "isReview": false,
+          "oldSection": "Section 194I",
+          "newSection": "Section 393, Tables 1 and 2"
+        },
+        {
+          "order": 5,
+          "question": "A client asks: 'Will my TDS rates go up under the new Act?' What is the correct answer?",
+          "options": [
+            { "text": "Yes, rates have increased by 2% across the board", "correct": false },
+            { "text": "No — the new Act makes no rate changes; it is a structural reorganisation only", "correct": true },
+            { "text": "Rates have decreased to promote ease of compliance", "correct": false },
+            { "text": "It depends on the client's income slab", "correct": false }
+          ],
+          "explanation": "The new Act has NOT changed any TDS rates. The consolidation from 30+ sections into 3 sections is purely structural. The same rates that applied under the old provisions continue in the new tables.",
+          "explanationWrong": "No rate changes. This is a critical point for client communication — the new Act reorganises WHERE the provisions sit but does not change WHAT the rates or thresholds are.",
+          "tier": 3,
+          "subConcepts": ["no-rate-change", "client-advisory"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Compliance Challenges in the New Framework",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "PQR Ltd deducted TDS in March 2026 under old Section 194J but filed the TDS return in May 2026 (after the new Act commenced). Which section number should appear in the return?",
+          "options": [
+            { "text": "Section 393 since the return is filed under the new Act", "correct": false },
+            { "text": "Section 194J since the deduction relates to a pre-April 2026 event", "correct": true },
+            { "text": "Both sections must be mentioned", "correct": false },
+            { "text": "No section number — just the challan number", "correct": false }
+          ],
+          "explanation": "The deduction event occurred in March 2026 (old Act period). Even though the return is filed in May 2026, the section governing the deduction is 194J. The return filing date does not change which Act governs the TDS obligation.",
+          "explanationWrong": "Old Section 194J applies because the deduction event (credit/payment) happened before 1 April 2026. The filing date of the return is irrelevant for determining which Act's provisions apply to the deduction itself.",
+          "tier": 3,
+          "subConcepts": ["return-filing-timing", "old-act-deduction", "section-quoting"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A deductee furnishes PAN but it is inoperative (not linked with Aadhaar). Under the new Act, which section governs the higher TDS rate consequence?",
+          "options": [
+            { "text": "Section 393 — the table rate itself increases", "correct": false },
+            { "text": "Section 397 — inoperative PAN is treated as no PAN", "correct": true },
+            { "text": "Section 395 — it's a certificate-related issue", "correct": false },
+            { "text": "No consequence — PAN has been furnished regardless of linkage", "correct": false }
+          ],
+          "explanation": "Under Section 397, an inoperative PAN (not linked with Aadhaar) is treated as if PAN has not been furnished, triggering the higher TDS rate. This continues the old Act's approach under amended Section 206AA.",
+          "explanationWrong": "Section 397 treats inoperative PAN as no PAN furnished. The higher rate applies as an override to the base rate from Section 393's tables. Simply furnishing a PAN number is not enough — it must be operative.",
+          "tier": 3,
+          "subConcepts": ["inoperative-pan", "section-397", "aadhaar-linkage"],
+          "isReview": false,
+          "oldSection": "Section 206AA",
+          "newSection": "Section 397"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.2, how are TDS demands and penalty proceedings that were pending under the old Act on 31 March 2026 handled?",
+          "options": [
+            { "text": "They are automatically withdrawn", "correct": false },
+            { "text": "They continue under the old Act's provisions", "correct": true },
+            { "text": "They are transferred to the new Act's corresponding sections", "correct": false },
+            { "text": "They are frozen until the new Act's rules are notified", "correct": false }
+          ],
+          "explanation": "Pending proceedings under the old Act continue to be governed by the old Act. Section 536(2) ensures that pre-transition matters are not disrupted by the commencement of the new Act.",
+          "explanationWrong": "Pending proceedings continue under the old Act — this is the continuity principle from Unit 2.2 on pending proceedings. The new Act does not retrospectively take over old matters.",
+          "tier": 3,
+          "subConcepts": ["pending-proceedings", "old-act-continuity"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "DEF Bank makes interest payments to both resident depositors and non-resident NRE account holders. Under the new Act, how must TDS be handled?",
+          "options": [
+            { "text": "Both under Section 393, Table 1 since it's the same bank", "correct": false },
+            { "text": "Resident interest under Table 1; non-resident interest under Table 2; NRE interest may be exempt", "correct": true },
+            { "text": "All interest under Section 392", "correct": false },
+            { "text": "No TDS on any bank interest under the new Act", "correct": false }
+          ],
+          "explanation": "Resident depositor interest goes to Table 1, non-resident interest to Table 2. NRE account interest may be exempt from TDS (as it was under the old Act). The payee's status determines the table.",
+          "explanationWrong": "Different tables apply based on payee status. Section 392 is only for salary, not interest. The bank must classify each payment by the depositor's residential status and apply the correct table.",
+          "tier": 3,
+          "subConcepts": ["bank-interest-tds", "table-1", "table-2", "nre-exemption"],
+          "isReview": false,
+          "oldSection": "Section 194A",
+          "newSection": "Section 393, Tables 1 and 2"
+        },
+        {
+          "order": 5,
+          "question": "During the first quarter return (Q1 FY 2026-27) filed under the new Act, a deductor mistakenly quotes old Section 194H for commission payments. What is the likely consequence?",
+          "options": [
+            { "text": "No consequence — the system accepts both old and new section numbers", "correct": false },
+            { "text": "The return may face validation errors on TRACES; a correction statement will be needed", "correct": true },
+            { "text": "The TDS is automatically invalidated", "correct": false },
+            { "text": "A penalty of Rs 10,000 per incorrect entry", "correct": false }
+          ],
+          "explanation": "The TRACES/TIN system will be updated for new Act sections post 1 April 2026. Quoting old section numbers may cause validation failures, requiring a correction statement with the correct Section 393 reference.",
+          "explanationWrong": "Validation errors are the most likely consequence. The electronic filing system will expect new Act section numbers. While TDS itself is not invalidated, a correction statement with the right Section 393 entry will be needed.",
+          "tier": 3,
+          "subConcepts": ["traces-validation", "correction-statement", "section-quoting"],
+          "isReview": false,
+          "oldSection": "Section 194H",
+          "newSection": "Section 393, Table 1"
+        }
+      ]
+    },
+    {
+      "title": "Architecture Mastery — Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A multinational pays royalty to its Indian subsidiary (resident) and management fees to its Singapore parent (non-resident). Under the new Act, which tables apply?",
+          "options": [
+            { "text": "Both Table 2 since it involves a multinational", "correct": false },
+            { "text": "Royalty to resident = Table 1; management fees to non-resident = Table 2", "correct": true },
+            { "text": "Both Table 1 since payments originate from India", "correct": false },
+            { "text": "Royalty under Table 3; management fees under Table 2", "correct": false }
+          ],
+          "explanation": "The payee's status determines the table, not the payer's status. Payment to the resident subsidiary = Table 1. Payment to the non-resident parent = Table 2.",
+          "explanationWrong": "Table 1 for resident payee, Table 2 for non-resident payee. The multinational nature of the group is irrelevant — each payment is classified by the recipient's residential status.",
+          "tier": 3,
+          "subConcepts": ["multinational-tds", "table-1", "table-2", "payee-status"],
+          "isReview": false,
+          "oldSection": "Sections 194J, 195",
+          "newSection": "Section 393, Tables 1 and 2"
+        },
+        {
+          "order": 2,
+          "question": "A CA firm is preparing a TDS compliance checklist for clients transitioning to the new Act. Which of the following should NOT be on the checklist?",
+          "options": [
+            { "text": "Update software to quote new section numbers", "correct": false },
+            { "text": "Verify deductee PAN linkage with Aadhaar for Section 397", "correct": false },
+            { "text": "Recalculate all TDS rates since rates have changed", "correct": true },
+            { "text": "Map each payment type to the correct Table and serial number", "correct": false }
+          ],
+          "explanation": "Recalculating TDS rates is unnecessary because the new Act makes NO rate changes. The checklist should focus on section number mapping, software updates, and PAN compliance — not rate changes.",
+          "explanationWrong": "Rate recalculation is not needed. The rates are unchanged. The real work is in mapping old section references to new table/serial entries and updating systems accordingly.",
+          "tier": 3,
+          "subConcepts": ["compliance-checklist", "no-rate-change", "practical-advisory"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 2.5, which new section replaced old Section 139 for return filing obligations?",
+          "options": [
+            { "text": "Section 260", "correct": false },
+            { "text": "Section 263", "correct": true },
+            { "text": "Section 265", "correct": false },
+            { "text": "Section 270", "correct": false }
+          ],
+          "explanation": "Old Section 139 for return filing maps to Section 263 of the new Act. Sub-sections within 263 mirror the old sub-sections of 139.",
+          "explanationWrong": "Section 263 replaces Section 139. This was covered in Unit 2.5 on return filing during transition.",
+          "tier": 3,
+          "subConcepts": ["section-139-mapping", "section-263", "return-filing"],
+          "isReview": true,
+          "oldSection": "Section 139",
+          "newSection": "Section 263"
+        },
+        {
+          "order": 4,
+          "question": "STU Ltd has 500 vendors across 15 payment categories. They want to build a master mapping from old sections to new table entries. What is the minimum information needed for each mapping?",
+          "options": [
+            { "text": "Just the old section number and the new section number (393)", "correct": false },
+            { "text": "Old section, payee residential status, new table number, serial number within that table", "correct": true },
+            { "text": "Only the old section number — the rate lookup is automatic", "correct": false },
+            { "text": "Old section and the payment amount", "correct": false }
+          ],
+          "explanation": "A complete mapping requires: (1) old section, (2) payee status to determine the table, (3) the specific table number in Section 393, and (4) the serial number within that table. Without all four, the mapping is incomplete.",
+          "explanationWrong": "All four elements are needed. Just saying 'Section 393' is insufficient — you need the specific table and serial number. The payee's residential status is critical for selecting the right table.",
+          "tier": 3,
+          "subConcepts": ["vendor-mapping", "table-serial-identification", "practical-compliance"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 5,
+          "question": "After 1 April 2026, a taxpayer receives a demand notice referencing Section 201(1) of the old Act for short deduction of TDS in January 2026. Is this valid?",
+          "options": [
+            { "text": "No — the old Act is completely repealed and cannot be referenced", "correct": false },
+            { "text": "Yes — the short deduction relates to a pre-transition period, so the old Act's provisions govern", "correct": true },
+            { "text": "No — only new Act sections can be used in any notice after 1 April 2026", "correct": false },
+            { "text": "Yes, but only if the notice was issued before 1 April 2026", "correct": false }
+          ],
+          "explanation": "The transitional provisions (Section 536) preserve the old Act for proceedings relating to pre-transition periods. A short deduction in January 2026 is an old Act event, and the demand notice validly references old Section 201(1) regardless of when it is issued.",
+          "explanationWrong": "The notice is valid. The old Act continues to govern proceedings relating to its own period. The date of issuing the notice is irrelevant — what matters is the period to which the short deduction relates (January 2026 = old Act period).",
+          "tier": 3,
+          "subConcepts": ["demand-notice-validity", "section-536", "pre-transition-proceedings"],
+          "isReview": false,
+          "oldSection": "Section 201(1)",
+          "newSection": "Section 536"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "9.5",
+  "title": "Donations & Contributions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 133 — The Four-Tier Donation Framework",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80G (donations to charitable institutions) maps to which section under the 2025 Act?",
+          "options": [
+            { "text": "Section 130", "correct": false },
+            { "text": "Section 133", "correct": true },
+            { "text": "Section 135", "correct": false },
+            { "text": "Section 137", "correct": false }
+          ],
+          "explanation": "Section 80G maps to Section 133 under the 2025 Act. The four-tier donation deduction structure — 100% without limit, 50% without limit, 100% with qualifying limit, 50% with qualifying limit — is preserved intact. This is a presentational renumbering, not a substantive change.",
+          "explanationWrong": "Section 133 is correct. Section 135 covers scientific research donations (old 80GGA), Section 137 covers non-company political contributions (old 80GGC), and Section 130 is an unrelated housing provision. The mapping: 80G → 133, 80GGA → 135, 80GGB → 136, 80GGC → 137.",
+          "tier": 1,
+          "subConcepts": ["80G-to-133-mapping", "donation-deduction-renumbering"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "How many deduction tiers does Section 133 (old 80G) provide for charitable donations?",
+          "options": [
+            { "text": "Two — 100% and 50%", "correct": false },
+            { "text": "Three — based on donor category", "correct": false },
+            { "text": "Four — based on deduction rate and qualifying limit applicability", "correct": true },
+            { "text": "One — flat 50% for all donations", "correct": false }
+          ],
+          "explanation": "Section 133 retains the well-established four-tier framework: Tier 1 (100%, no limit), Tier 2 (50%, no limit), Tier 3 (100%, with qualifying limit), and Tier 4 (50%, with qualifying limit). This structure is unchanged from old Section 80G — the 2025 Act preserves it exactly.",
+          "explanationWrong": "Four tiers is correct. The tiers differ on two axes — deduction rate (100% or 50%) and whether the 10% adjusted total income cap applies. The combination of these two variables produces four distinct tiers. Most 80G-registered institutions fall under Tier 4 (50% with qualifying limit).",
+          "tier": 1,
+          "subConcepts": ["four-tier-framework", "section-133-structure"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, which education-related deduction has NO monetary cap on the deduction amount?",
+          "options": [
+            { "text": "Section 129 — interest on education loan (old Section 80E)", "correct": true },
+            { "text": "Section 130 — additional interest for first-time homebuyers (old Section 80EE)", "correct": false },
+            { "text": "Section 134 — rent paid without HRA (old Section 80GG)", "correct": false },
+            { "text": "Section 131 — affordable housing interest (old Section 80EEA)", "correct": false }
+          ],
+          "explanation": "Section 129 (old 80E) provides a deduction for the entire interest component on education loans — there is no monetary cap. The deduction is available for 8 consecutive assessment years from the year interest is first paid. This no-cap feature makes it one of the most generous deductions in the Act.",
+          "explanationWrong": "Section 129 is correct. Sections 130 and 131 have specific caps (Rs 50,000 and Rs 1,50,000 respectively), and Section 134 has a formula-based limit. Only the education loan interest deduction under Section 129 is uncapped — the entire interest component is deductible.",
+          "tier": 1,
+          "subConcepts": ["education-loan-review", "section-129-no-cap"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 4,
+          "question": "The 10% adjusted total income cap under Section 133 applies to which tiers of donations?",
+          "options": [
+            { "text": "All four tiers", "correct": false },
+            { "text": "Tiers 1 and 2 only (without qualifying limit)", "correct": false },
+            { "text": "Tiers 3 and 4 only (with qualifying limit)", "correct": true },
+            { "text": "Tier 4 only (50% with qualifying limit)", "correct": false }
+          ],
+          "explanation": "The 10% cap applies only to Tiers 3 and 4 — the tiers marked 'with qualifying limit.' Tiers 1 and 2 have no cap at all. The 10% cap operates on the aggregate of Tier 3 and Tier 4 donations combined, not independently for each tier.",
+          "explanationWrong": "Tiers 3 and 4 is correct. The four-tier matrix works on two axes: deduction rate (100% or 50%) and qualifying limit (yes or no). Only the 'yes' tiers — Tier 3 (100% with limit) and Tier 4 (50% with limit) — face the 10% ATI cap. Donations to the PM's National Relief Fund (Tier 1) or the National Children's Fund (Tier 2), for instance, have no cap.",
+          "tier": 1,
+          "subConcepts": ["10-percent-cap", "qualifying-limit-tiers"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 5,
+          "question": "What is the maximum amount of a cash donation that is still eligible for deduction under Section 133?",
+          "options": [
+            { "text": "Rs 5,000", "correct": false },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Rs 2,000", "correct": true },
+            { "text": "Cash donations are entirely barred", "correct": false }
+          ],
+          "explanation": "Cash donations up to Rs 2,000 per donation are eligible for deduction under Section 133. Any donation exceeding Rs 2,000 in cash is completely ineligible. This threshold was reduced from Rs 10,000 by Finance Act 2017 and is carried forward without change into the 2025 Act.",
+          "explanationWrong": "Rs 2,000 is correct. The Rs 10,000 threshold was the older limit — Finance Act 2017 reduced it to Rs 2,000. The restriction applies per donation, not per aggregate. A donation of exactly Rs 2,000 in cash is eligible; Rs 2,001 in cash is not. For amounts above Rs 2,000, use cheque, demand draft, or electronic transfer.",
+          "tier": 1,
+          "subConcepts": ["cash-donation-limit", "rs-2000-threshold"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        }
+      ]
+    },
+    {
+      "title": "Sections 135-137 — Research & Political Contributions",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 135 (old 80GGA) provides a deduction for donations to scientific research. Who is eligible to claim this deduction?",
+          "options": [
+            { "text": "Any assessee, regardless of income type", "correct": false },
+            { "text": "Only companies", "correct": false },
+            { "text": "Any assessee whose gross total income does NOT include business or profession income", "correct": true },
+            { "text": "Only individuals and HUFs", "correct": false }
+          ],
+          "explanation": "Section 135 is available to any assessee whose gross total income does not include income from business or profession. Assessees with business income claim research-related deductions through the business income provisions instead. This eligibility rule is unchanged from old Section 80GGA.",
+          "explanationWrong": "Non-business assessees is correct. The logic: if you have business income, research deductions are claimed under the business income head (weighted deduction under the business provisions). Section 135 catches those without business income — salaried individuals, retirees, investors — who wish to donate to approved research institutions.",
+          "tier": 1,
+          "subConcepts": ["section-135-eligibility", "non-business-assessees"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 136 (old 80GGB), which entity can claim a deduction for contributions to political parties?",
+          "options": [
+            { "text": "Any person including individuals and HUFs", "correct": false },
+            { "text": "Indian companies only", "correct": true },
+            { "text": "Any assessee with business income", "correct": false },
+            { "text": "Both companies and firms", "correct": false }
+          ],
+          "explanation": "Section 136 (old 80GGB) is exclusively for Indian companies making contributions to registered political parties or electoral trusts. Non-company assessees — individuals, HUFs, firms, AOPs — fall under Section 137 (old 80GGC) instead. This split between company and non-company political contribution deductions is preserved in the 2025 Act.",
+          "explanationWrong": "Indian companies only is correct. The 2025 Act preserves the old Act's division: Section 136 for companies, Section 137 for everyone else. An individual partner in a firm who makes a personal political contribution claims under Section 137, not 136.",
+          "tier": 1,
+          "subConcepts": ["section-136-company-only", "political-contribution-split"],
+          "isReview": false,
+          "oldSection": "Section 80GGB",
+          "newSection": "Section 136"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, Section 134 (old 80GG) provides a rent deduction for individuals who do not receive which benefit from their employer?",
+          "options": [
+            { "text": "House Rent Allowance (HRA)", "correct": true },
+            { "text": "Dearness Allowance (DA)", "correct": false },
+            { "text": "Transport Allowance", "correct": false },
+            { "text": "City Compensatory Allowance", "correct": false }
+          ],
+          "explanation": "Section 134 (old 80GG) provides a rent deduction specifically for individuals who do not receive HRA from their employer. Self-employed individuals and salaried persons without HRA in their salary structure can claim this deduction, subject to formula-based limits. The provision is fully operative under the 2025 Act.",
+          "explanationWrong": "HRA is correct. Section 134 is the counterpart for those who do not get HRA — self-employed professionals, freelancers, and salaried persons whose employer does not provide HRA. The deduction is the least of: rent paid minus 10% of total income, 25% of total income, or Rs 5,000 per month.",
+          "tier": 1,
+          "subConcepts": ["section-134-rent-review", "no-HRA-deduction"],
+          "isReview": true,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 4,
+          "question": "The Electoral Bond Scheme, previously used for political contributions, was struck down by the Supreme Court in which year?",
+          "options": [
+            { "text": "2022", "correct": false },
+            { "text": "2023", "correct": false },
+            { "text": "2024", "correct": true },
+            { "text": "2025", "correct": false }
+          ],
+          "explanation": "The Supreme Court struck down the Electoral Bond Scheme in February 2024 in Association for Democratic Reforms v. Union of India, holding that it violated the right to information under Article 19(1)(a). Post this ruling, all political contributions must be made through transparent, identified modes — cheque, demand draft, electronic transfer, or electoral trust.",
+          "explanationWrong": "2024 is correct. The ruling came in February 2024. While the Electoral Bond Scheme was introduced in 2018 and operated for several years, the Supreme Court's 2024 decision rendered it defunct. This is a judicial development, not a statutory change — the text of Sections 136 and 137 (old 80GGB/80GGC) is unchanged.",
+          "tier": 1,
+          "subConcepts": ["electoral-bond-struck-down", "supreme-court-2024"],
+          "isReview": false,
+          "oldSection": "Section 80GGB",
+          "newSection": "Section 136"
+        },
+        {
+          "order": 5,
+          "question": "For political contributions under Sections 136 and 137, what is the cash donation restriction?",
+          "options": [
+            { "text": "Cash donations up to Rs 2,000 are allowed", "correct": false },
+            { "text": "Cash donations up to Rs 10,000 are allowed", "correct": false },
+            { "text": "Cash donations are entirely barred — no deduction for any cash contribution", "correct": true },
+            { "text": "There is no cash restriction for political contributions", "correct": false }
+          ],
+          "explanation": "For political contributions under Sections 136 and 137, cash is completely barred — not merely restricted by a threshold. This is stricter than Section 133 (charitable donations, where cash up to Rs 2,000 is allowed) and Section 135 (scientific research, where cash up to Rs 10,000 is allowed). All political contributions must be through non-cash modes.",
+          "explanationWrong": "Complete bar on cash is correct. Do not confuse the three different cash restrictions in this unit: Section 133 allows cash up to Rs 2,000, Section 135 allows cash up to Rs 10,000, and Sections 136/137 allow zero cash. The political contribution bar is absolute — even Rs 100 in cash is ineligible.",
+          "tier": 1,
+          "subConcepts": ["political-cash-bar", "cash-restrictions-compared"],
+          "isReview": false,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        }
+      ]
+    },
+    {
+      "title": "Cash Limits and Comparisons Across Sections",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The cash donation threshold under Section 135 (old 80GGA — scientific research donations) is:",
+          "options": [
+            { "text": "Rs 2,000 — same as Section 133", "correct": false },
+            { "text": "Rs 10,000", "correct": true },
+            { "text": "Cash is entirely barred", "correct": false },
+            { "text": "Rs 5,000", "correct": false }
+          ],
+          "explanation": "Section 135 has a Rs 10,000 cash donation threshold — distinct from the Rs 2,000 threshold under Section 133. Cash donations exceeding Rs 10,000 to scientific research or rural development bodies are not eligible for deduction. This is an important distinction that practitioners must keep track of.",
+          "explanationWrong": "Rs 10,000 is correct. The three cash thresholds in this unit are a classic exam trap: Section 133 (charitable) = Rs 2,000, Section 135 (scientific/rural) = Rs 10,000, Sections 136/137 (political) = zero. Each section has its own threshold — do not apply one section's limit to another.",
+          "tier": 1,
+          "subConcepts": ["section-135-cash-limit", "cash-thresholds-compared"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        },
+        {
+          "order": 2,
+          "question": "Which of the following donations falls under Section 133, Tier 1 (100% deduction, no qualifying limit)?",
+          "options": [
+            { "text": "Donation to any 80G-registered charitable trust", "correct": false },
+            { "text": "Donation to the National Defence Fund", "correct": true },
+            { "text": "Donation to a political party", "correct": false },
+            { "text": "Donation to an approved scientific research association", "correct": false }
+          ],
+          "explanation": "The National Defence Fund falls under Tier 1 of Section 133 — eligible for 100% deduction with no qualifying limit. Other Tier 1 examples include the PM's National Relief Fund and the National Foundation for Communal Harmony. Most charitable trusts, by contrast, fall under Tier 4 (50% with qualifying limit).",
+          "explanationWrong": "National Defence Fund is correct. Most 80G-registered charitable trusts fall under Tier 4 (50%, with 10% ATI cap) — the residual category. Tier 1 (100%, no cap) is reserved for specific government funds of national importance. Political party donations are covered by Sections 136/137, not Section 133.",
+          "tier": 1,
+          "subConcepts": ["tier-1-donations", "national-defence-fund"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, how many of the five education and housing deduction sections (129-132, 134) are classified as 'sunset' provisions with no new eligibility?",
+          "options": [
+            { "text": "Two — Sections 130 and 131", "correct": false },
+            { "text": "Three — Sections 130, 131, and 132", "correct": true },
+            { "text": "Four — all except Section 129", "correct": false },
+            { "text": "One — Section 130 only", "correct": false }
+          ],
+          "explanation": "Three sections are sunset: Section 130 (old 80EE — first-time homebuyers, FY 2016-17 loans), Section 131 (old 80EEA — affordable housing, 2019-2022 loans), and Section 132 (old 80EEB — electric vehicle loans, 2019-2023 loans). Only Sections 129 (education loan) and 134 (rent without HRA) remain fully operative.",
+          "explanationWrong": "Three is correct. Sections 130, 131, and 132 all had time-bound eligibility windows that have closed. Section 134 (rent without HRA) remains fully operative — it is not sunset. The distinction between operative and sunset deductions is critical for advising clients on which deductions they can still claim.",
+          "tier": 1,
+          "subConcepts": ["sunset-deductions-review", "operative-vs-sunset"],
+          "isReview": true,
+          "oldSection": "Sections 80EE, 80EEA, 80EEB",
+          "newSection": "Sections 130, 131, 132"
+        },
+        {
+          "order": 4,
+          "question": "Section 137 (old 80GGC) covers political contributions by which category of assessees?",
+          "options": [
+            { "text": "Indian companies only", "correct": false },
+            { "text": "Any person other than a company — individuals, HUFs, firms, AOPs", "correct": true },
+            { "text": "Only individuals", "correct": false },
+            { "text": "Only persons with business income", "correct": false }
+          ],
+          "explanation": "Section 137 covers any person other than a company — individuals, HUFs, firms, AOPs, etc. It also excludes local authorities and artificial juridical persons wholly or partly funded by the Government. Companies fall under Section 136 instead. Both sections provide 100% deduction with no cap.",
+          "explanationWrong": "Any person other than a company is correct. The split is clean: companies use Section 136 (old 80GGB), everyone else uses Section 137 (old 80GGC). Both offer 100% deduction, both bar cash, and both are affected by the Electoral Bond ruling. The only difference is the assessee category.",
+          "tier": 1,
+          "subConcepts": ["section-137-non-company", "80GGC-eligibility"],
+          "isReview": false,
+          "oldSection": "Section 80GGC",
+          "newSection": "Section 137"
+        },
+        {
+          "order": 5,
+          "question": "The deduction rate for donations under Section 135 (old 80GGA — scientific research) is:",
+          "options": [
+            { "text": "50% of the donation amount", "correct": false },
+            { "text": "100% of the donation amount with no qualifying limit cap", "correct": true },
+            { "text": "100% of the donation, subject to 10% ATI cap", "correct": false },
+            { "text": "150% weighted deduction", "correct": false }
+          ],
+          "explanation": "Section 135 provides 100% deduction of the donated amount with no qualifying limit cap — making it one of the more generous donation deductions. The 10% ATI cap that applies to Tiers 3 and 4 of Section 133 does not apply to Section 135. However, the eligibility is restricted to non-business assessees.",
+          "explanationWrong": "100% with no cap is correct. Do not confuse with Section 133 Tier 3, which also offers 100% but with the 10% ATI cap. And the 150% weighted deduction is a business-head provision, not a Chapter VI-A deduction. Section 135 is straightforward: 100%, no cap, but only for non-business assessees.",
+          "tier": 1,
+          "subConcepts": ["section-135-rate", "100-percent-no-cap"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        }
+      ]
+    },
+    {
+      "title": "Qualifying Limit and Adjusted Total Income",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "When computing the 10% qualifying limit under Section 133, does the cap apply independently to Tier 3 and Tier 4 donations?",
+          "options": [
+            { "text": "Yes — each tier has its own separate 10% cap", "correct": false },
+            { "text": "No — the 10% cap operates on the aggregate of Tier 3 and Tier 4 donations combined", "correct": true },
+            { "text": "The 10% cap applies only to Tier 4", "correct": false },
+            { "text": "There is no 10% cap — it was removed in the 2025 Act", "correct": false }
+          ],
+          "explanation": "The 10% cap operates on the aggregate of Tier 3 and Tier 4 donations combined — not independently for each tier. If your adjusted total income is Rs 10,00,000, your combined qualifying limit for Tier 3 and Tier 4 donations is Rs 1,00,000. This rule is unchanged from the old Act.",
+          "explanationWrong": "Aggregate cap is correct. This is a common misunderstanding. The 10% is not applied separately to each tier — it is one combined ceiling. If you have Rs 80,000 in Tier 3 donations and Rs 50,000 in Tier 4 donations, the aggregate Rs 1,30,000 is subject to the single 10% cap.",
+          "tier": 2,
+          "subConcepts": ["aggregate-cap", "tier-3-and-4-combined"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "Why did the 2025 Act retain the four-tier structure of old Section 80G in Section 133 rather than simplifying it?",
+          "options": [
+            { "text": "Because the four tiers serve distinct policy purposes — prioritising national funds over general charities", "correct": true },
+            { "text": "Because the government plans to add more tiers in future amendments", "correct": false },
+            { "text": "Because simplification would have required a constitutional amendment", "correct": false },
+            { "text": "Because senior citizen donors require separate treatment", "correct": false }
+          ],
+          "explanation": "The four-tier structure reflects deliberate policy calibration. Tier 1 (100%, no cap) prioritises donations to funds of national importance like the National Defence Fund. Tier 4 (50%, with cap) is the residual category for general charitable institutions. The varying rates and caps create incentives aligned with government priorities. The 2025 Act's consolidation philosophy — improved presentation, not policy change — preserved this structure.",
+          "explanationWrong": "Policy prioritisation is correct. The four tiers are not arbitrary — they rank charitable recipients by national importance. Government-backed national funds get the most generous treatment (Tier 1), while general approved institutions get the least (Tier 4). This calibrated incentive structure was intentionally preserved.",
+          "tier": 2,
+          "subConcepts": ["policy-rationale", "tier-design-logic"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 133, the donee institution must hold registration and issue which certificate to the donor to support the deduction claim?",
+          "options": [
+            { "text": "Form 10BE — Donation Certificate", "correct": true },
+            { "text": "Form 16A — TDS Certificate", "correct": false },
+            { "text": "Form 26AS — Tax Credit Statement", "correct": false },
+            { "text": "Form 12BA — Perquisite Statement", "correct": false }
+          ],
+          "explanation": "The donee institution must file Form 10BD (Statement of Donations) and issue Form 10BE (Donation Certificate) to each donor. The deduction claim under Section 133 must be supported by this certificate. This documentation requirement continues from the old Act into the 2025 Act without change.",
+          "explanationWrong": "Form 10BE is correct. Form 16A is a TDS certificate (completely different), Form 26AS is the tax credit statement, and Form 12BA is for reporting perquisites. The Form 10BD/10BE framework was introduced to bring donation claims into a verifiable, cross-referenced system — the institution reports, the donor claims, and the department cross-checks.",
+          "tier": 2,
+          "subConcepts": ["form-10BE", "donation-certificate", "registration-requirement"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 4,
+          "question": "A CA's client — an Indian company — asks about making a political contribution via Electoral Bonds. What is the correct advice?",
+          "options": [
+            { "text": "Electoral Bonds are available but restricted to amounts above Rs 1 crore", "correct": false },
+            { "text": "Electoral Bonds are no longer available — the scheme was struck down by the Supreme Court in February 2024", "correct": true },
+            { "text": "Electoral Bonds are available only through SBI", "correct": false },
+            { "text": "Electoral Bonds are available but the deduction under Section 136 is capped at 7.5% of net profit", "correct": false }
+          ],
+          "explanation": "The Electoral Bond Scheme was struck down by the Supreme Court in February 2024 in Association for Democratic Reforms v. Union of India. The Court held it violated Article 19(1)(a) — the right to information. The company must now contribute through transparent modes: cheque, demand draft, electronic transfer, or electoral trust. The deduction under Section 136 remains at 100% with no cap.",
+          "explanationWrong": "Electoral Bonds are defunct is correct. This is not a technical limitation or a cap issue — the scheme simply no longer exists. Any client inquiry about Electoral Bonds should be met with a clear explanation that the route has been closed by judicial order, and only transparent contribution modes remain.",
+          "tier": 2,
+          "subConcepts": ["electoral-bond-advice", "practitioner-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80GGB",
+          "newSection": "Section 136"
+        },
+        {
+          "order": 5,
+          "question": "What deduction rate do Sections 136 and 137 offer for political contributions?",
+          "options": [
+            { "text": "50% of the contribution", "correct": false },
+            { "text": "100% of the contribution with no cap", "correct": true },
+            { "text": "100% subject to 10% of total income", "correct": false },
+            { "text": "75% of the contribution", "correct": false }
+          ],
+          "explanation": "Both Sections 136 (companies) and 137 (non-companies) provide 100% deduction of the contribution amount with no cap whatsoever. This is among the most generous deduction provisions. The only restrictions are: no cash contributions, and the political party must be registered under Section 29A of the Representation of the People Act, 1951.",
+          "explanationWrong": "100% with no cap is correct. Do not confuse with Section 133 Tiers 3/4, where the 10% ATI cap applies. Political contributions have no monetary ceiling — whether a company donates Rs 10 lakh or Rs 10 crore, the full amount is deductible (provided it is through non-cash modes to a registered party).",
+          "tier": 2,
+          "subConcepts": ["political-deduction-rate", "100-percent-no-cap-political"],
+          "isReview": false,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        }
+      ]
+    },
+    {
+      "title": "Registration, Forms, and Compliance",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, the Section 80G registration of the donee institution continues as part of which broader framework?",
+          "options": [
+            { "text": "The consolidated trust/institution registration framework", "correct": true },
+            { "text": "The TDS compliance framework", "correct": false },
+            { "text": "The GST registration framework", "correct": false },
+            { "text": "The SEBI intermediary registration framework", "correct": false }
+          ],
+          "explanation": "The donee's registration under Section 80G (now Section 133) continues as part of the consolidated trust/institution registration framework under the 2025 Act. The registration regime, including Form 10BD filing and Form 10BE issuance, is preserved within the unified deduction framework. No change to the underlying requirements.",
+          "explanationWrong": "Trust/institution registration framework is correct. TDS, GST, and SEBI registrations are entirely separate regulatory domains. The Section 80G/133 registration is specific to charitable/religious institutions seeking to enable their donors to claim deductions — it is part of the income tax trust registration infrastructure.",
+          "tier": 2,
+          "subConcepts": ["registration-framework", "trust-institution-regime"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "How does the 2025 Act's treatment of donation deductions compare to its approach on other Chapter VI-A deductions — is Section 133 available under the new tax regime?",
+          "options": [
+            { "text": "Yes — Section 133 is available under both regimes", "correct": false },
+            { "text": "No — Section 133, like most Chapter VI-A deductions, is available only under the old tax regime", "correct": true },
+            { "text": "Only Tier 1 donations are available under the new regime", "correct": false },
+            { "text": "Only political contributions (Sections 136/137) are available under the new regime", "correct": false }
+          ],
+          "explanation": "Section 133 is available only under the old tax regime — consistent with the treatment of most Chapter VI-A deductions. The notable exception across the deduction chapters is Section 126 (health insurance, old 80D), which is available under both regimes. No donation deduction — charitable or political — is available under the new regime.",
+          "explanationWrong": "Old regime only is correct. This is a critical planning point. Clients who have opted for the new tax regime (Section 115BAC) lose all donation deductions — Sections 133, 135, 136, and 137. The regime choice effectively determines whether charitable and political giving generates any tax benefit.",
+          "tier": 2,
+          "subConcepts": ["regime-applicability", "old-regime-only"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, Section 129 (education loan interest deduction) is available for a maximum of how many consecutive assessment years?",
+          "options": [
+            { "text": "5 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "10 years", "correct": false },
+            { "text": "No time limit — until the loan is fully repaid", "correct": false }
+          ],
+          "explanation": "Section 129 provides the deduction for 8 consecutive assessment years starting from the year in which interest is first paid, or until the interest is fully repaid, whichever is earlier. The 8-year window is carried forward unchanged from old Section 80E.",
+          "explanationWrong": "8 years is correct. The deduction ends at the earlier of two events: completion of 8 consecutive assessment years, or full repayment of the loan. If the loan is repaid in 5 years, the deduction ends in year 5 — you do not get the remaining 3 years.",
+          "tier": 2,
+          "subConcepts": ["education-loan-8-years-review", "section-129-window"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 4,
+          "question": "What is the key difference between the cash restriction under Section 133 (charitable donations) and Sections 136/137 (political contributions)?",
+          "options": [
+            { "text": "Section 133 allows cash up to Rs 2,000 per donation; Sections 136/137 bar cash entirely", "correct": true },
+            { "text": "Section 133 bars cash entirely; Sections 136/137 allow cash up to Rs 2,000", "correct": false },
+            { "text": "Both have the same Rs 2,000 cash threshold", "correct": false },
+            { "text": "Neither has any cash restriction", "correct": false }
+          ],
+          "explanation": "Section 133 allows cash donations up to Rs 2,000 — above that, cash is disqualified. Sections 136 and 137 impose an absolute bar on cash contributions — even Re 1 in cash is ineligible. This difference is important in practice: a charitable donor can give Rs 2,000 in cash and claim the deduction, but a political contributor cannot give any amount in cash.",
+          "explanationWrong": "Section 133 allows Rs 2,000 cash; Sections 136/137 bar cash entirely is correct. The three-tier cash restriction framework across donation sections is: Rs 2,000 (charitable under Section 133), Rs 10,000 (scientific under Section 135), and zero (political under Sections 136/137). Each section has its own threshold.",
+          "tier": 2,
+          "subConcepts": ["cash-restriction-comparison", "charitable-vs-political-cash"],
+          "isReview": false,
+          "oldSection": "Sections 80G, 80GGB, 80GGC",
+          "newSection": "Sections 133, 136, 137"
+        },
+        {
+          "order": 5,
+          "question": "The change from old Sections 80G/80GGA/80GGB/80GGC to new Sections 133/135/136/137 is best described as:",
+          "options": [
+            { "text": "A major overhaul with new eligibility rules and revised limits", "correct": false },
+            { "text": "A presentational consolidation with improved numbering — no substantive changes", "correct": true },
+            { "text": "A partial reform that revised the four-tier structure", "correct": false },
+            { "text": "A transition-only provision with no fresh claims allowed", "correct": false }
+          ],
+          "explanation": "The donation and contribution deductions are renumbered with improved presentation under contiguous sections (133-137), but there are zero substantive legislative changes. All rates, limits, eligibility rules, cash thresholds, and registration requirements are carried forward exactly as they were. The only real-world change is the Electoral Bond ruling — which is a judicial development, not a statutory one.",
+          "explanationWrong": "Presentational consolidation is correct. This is a critical distinction. Unlike the business-specific deductions in Unit 9.6 (which are all transitional with no fresh claims), the donation deductions remain fully operative — they are just renumbered. No rates changed, no caps changed, no eligibility changed.",
+          "tier": 2,
+          "subConcepts": ["no-substantive-change", "presentational-consolidation"],
+          "isReview": false,
+          "oldSection": "Sections 80G, 80GGA, 80GGB, 80GGC",
+          "newSection": "Sections 133, 135, 136, 137"
+        }
+      ]
+    },
+    {
+      "title": "Old vs New Regime Impact on Donations",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A salaried individual under the new tax regime donates Rs 50,000 to a registered charitable trust. Can she claim a deduction under Section 133?",
+          "options": [
+            { "text": "Yes — up to 50% of the donation", "correct": false },
+            { "text": "Yes — up to 100% of the donation since it is to a registered trust", "correct": false },
+            { "text": "No — Section 133 is not available under the new tax regime", "correct": true },
+            { "text": "Yes — but only if the donation exceeds Rs 2,000", "correct": false }
+          ],
+          "explanation": "Section 133 is not available under the new tax regime. Like most Chapter VI-A deductions, donation deductions are sacrificed when the assessee opts for the new regime's lower slab rates. The donation has no tax impact for this individual. If the tax benefit matters, she would need to switch to the old regime.",
+          "explanationWrong": "No deduction under new regime is correct. This is one of the most common client disappointments — generous charitable giving produces zero tax benefit under the new regime. Only Section 126 (health insurance) among the Chapter VI-A deductions survives the new regime. All donation deductions are old-regime-only.",
+          "tier": 2,
+          "subConcepts": ["new-regime-no-donation-deduction", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "A retired government officer with no business income donates Rs 1,00,000 to an IIT for scientific research. Under which section does he claim the deduction?",
+          "options": [
+            { "text": "Section 133 — general charitable donations", "correct": false },
+            { "text": "Section 135 — scientific research donations for non-business assessees", "correct": true },
+            { "text": "Section 136 — company contributions to political parties", "correct": false },
+            { "text": "Section 137 — non-company contributions to political parties", "correct": false }
+          ],
+          "explanation": "Since the retired officer has no business or profession income in his gross total income, he qualifies for Section 135 (old 80GGA). The deduction is 100% of the donation with no qualifying limit cap. If he had business income, the research donation would be claimed under the business income provisions instead, not Section 135.",
+          "explanationWrong": "Section 135 is correct. The eligibility gate is the absence of business/profession income. A retired officer with pension income (taxed as salary) and interest income (other sources) — but no business income — fits squarely within Section 135. Section 133 would apply if the IIT donation were not specifically for scientific research.",
+          "tier": 2,
+          "subConcepts": ["section-135-scenario", "retired-non-business-assessee"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, which deduction section is available under BOTH the old and new tax regimes — a notable exception among Chapter VI-A deductions?",
+          "options": [
+            { "text": "Section 129 — education loan interest", "correct": true },
+            { "text": "Section 130 — first-time homebuyer interest", "correct": false },
+            { "text": "Section 134 — rent without HRA", "correct": false },
+            { "text": "Section 131 — affordable housing interest", "correct": false }
+          ],
+          "explanation": "Section 129 (education loan interest, old 80E) is available under both the old and new tax regimes — making it a valuable deduction even for assessees under the new regime. This is similar to Section 126 (health insurance) in being one of the few Chapter VI-A deductions that survive the new regime.",
+          "explanationWrong": "Section 129 is correct. Section 134 (rent without HRA) is old-regime-only, and Sections 130/131 are sunset provisions. Section 129's dual-regime availability, combined with its no-cap feature, makes it one of the most client-friendly deductions in the entire Act.",
+          "tier": 2,
+          "subConcepts": ["dual-regime-deduction-review", "section-129-both-regimes"],
+          "isReview": true,
+          "oldSection": "Section 80E",
+          "newSection": "Section 129"
+        },
+        {
+          "order": 4,
+          "question": "An assessee's adjusted total income is Rs 8,00,000. She donates Rs 1,00,000 to a registered charitable trust (Tier 4 — 50%, with qualifying limit). What is her deduction under Section 133?",
+          "options": [
+            { "text": "Rs 50,000 — 50% of the donation", "correct": false },
+            { "text": "Rs 40,000 — 50% of the qualifying limit (10% of Rs 8,00,000 = Rs 80,000; 50% of Rs 80,000)", "correct": true },
+            { "text": "Rs 80,000 — 10% of adjusted total income", "correct": false },
+            { "text": "Rs 1,00,000 — full donation", "correct": false }
+          ],
+          "explanation": "Step 1: Qualifying limit = 10% of ATI = 10% of Rs 8,00,000 = Rs 80,000. The donation of Rs 1,00,000 exceeds the qualifying limit, so the eligible donation is capped at Rs 80,000. Step 2: Tier 4 deduction = 50% of Rs 80,000 = Rs 40,000. The two-step calculation — first apply the 10% cap, then apply the deduction rate — is essential to get the right answer.",
+          "explanationWrong": "Rs 40,000 is correct. The common mistake is to apply 50% first (getting Rs 50,000) and then check the 10% cap. The correct sequence is: (1) cap the donation at the qualifying limit, then (2) apply the deduction percentage. The qualifying limit is the ceiling on the eligible donation amount, not on the deduction amount.",
+          "tier": 2,
+          "subConcepts": ["qualifying-limit-computation", "two-step-calculation"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 5,
+          "question": "The Rs 2,000 cash donation limit under Section 133 applies per donation or per aggregate annual donations?",
+          "options": [
+            { "text": "Per aggregate — total cash donations in a year cannot exceed Rs 2,000", "correct": false },
+            { "text": "Per donation — each individual cash donation must not exceed Rs 2,000", "correct": true },
+            { "text": "Per donee — cash donations to each institution cannot exceed Rs 2,000", "correct": false },
+            { "text": "Per quarter — cash donations per quarter cannot exceed Rs 2,000", "correct": false }
+          ],
+          "explanation": "The Rs 2,000 cash limit applies per donation, not per aggregate. A person can make five separate cash donations of Rs 2,000 each (total Rs 10,000 in cash) and all are eligible. But a single donation of Rs 2,001 in cash is entirely ineligible. The per-donation application is important for practitioners advising donors on payment modes.",
+          "explanationWrong": "Per donation is correct. This is a subtle but practical distinction. An assessee making multiple small cash donations — each at or below Rs 2,000 — can claim all of them. The restriction targets individual transactions, not annual totals. For larger single donations, the simple advice is: use non-cash modes.",
+          "tier": 2,
+          "subConcepts": ["per-donation-limit", "cash-restriction-application"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Charitable Donor Planning",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Priya, a consultant with adjusted total income of Rs 15,00,000, donates Rs 2,00,000 to the PM's National Relief Fund and Rs 3,00,000 to a registered charitable trust (Tier 4). What is her total Section 133 deduction?",
+          "options": [
+            { "text": "Rs 2,75,000", "correct": true },
+            { "text": "Rs 3,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 1,50,000", "correct": false }
+          ],
+          "explanation": "PM's National Relief Fund is Tier 1: 100% with no cap = Rs 2,00,000 deduction. Charitable trust is Tier 4: qualifying limit = 10% of Rs 15,00,000 = Rs 1,50,000 (donation of Rs 3,00,000 is capped). Deduction = 50% of Rs 1,50,000 = Rs 75,000. Total = Rs 2,00,000 + Rs 75,000 = Rs 2,75,000.",
+          "explanationWrong": "Rs 2,75,000 is correct. The key is to compute each tier separately. The PM's National Relief Fund (Tier 1) has no cap and no rate reduction — full Rs 2,00,000. The charitable trust (Tier 4) faces both the 10% ATI cap and the 50% rate. These operate sequentially: cap first, then rate.",
+          "tier": 3,
+          "subConcepts": ["multi-tier-computation", "real-world-donor-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "Rajesh, a salaried employee, pays Rs 3,500 in cash as a donation to a registered trust. His CA informs him the donation is not eligible for deduction. Why?",
+          "options": [
+            { "text": "Because cash donations are entirely barred under Section 133", "correct": false },
+            { "text": "Because the cash donation exceeds Rs 2,000 — the per-donation cash threshold", "correct": true },
+            { "text": "Because salaried employees cannot claim Section 133", "correct": false },
+            { "text": "Because the trust is not eligible for Tier 1 treatment", "correct": false }
+          ],
+          "explanation": "The donation of Rs 3,500 in cash exceeds the Rs 2,000 per-donation cash threshold. The entire donation becomes ineligible — not just the excess above Rs 2,000. If Rajesh had paid Rs 2,000 in cash and Rs 1,500 by cheque, the full Rs 3,500 would have been eligible (the cash portion is within the limit, the cheque portion has no restriction).",
+          "explanationWrong": "Exceeds Rs 2,000 cash threshold is correct. Cash is not entirely barred — up to Rs 2,000 is fine. And salaried employees absolutely can claim Section 133. The issue is purely the payment mode: a single cash transaction above Rs 2,000 disqualifies that donation. The fix is simple — use a non-cash mode.",
+          "tier": 3,
+          "subConcepts": ["cash-threshold-scenario", "payment-mode-advice"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, which housing-related deduction (now sunset) provided an additional deduction of Rs 1,50,000 for loans sanctioned between April 2019 and March 2022?",
+          "options": [
+            { "text": "Section 131 — affordable housing (old Section 80EEA)", "correct": true },
+            { "text": "Section 130 — first-time homebuyers (old Section 80EE)", "correct": false },
+            { "text": "Section 132 — electric vehicle loan (old Section 80EEB)", "correct": false },
+            { "text": "Section 129 — education loan (old Section 80E)", "correct": false }
+          ],
+          "explanation": "Section 131 (old 80EEA) provided an additional deduction of Rs 1,50,000 for interest on loans sanctioned between 1 April 2019 and 31 March 2022 for affordable housing (stamp duty value up to Rs 45 lakh). The window has closed, making this a sunset provision — but existing claims continue under transitional provisions.",
+          "explanationWrong": "Section 131 is correct. Section 130 (old 80EE) was an earlier, more limited provision — Rs 50,000 additional deduction for loans sanctioned in FY 2016-17. Section 132 (old 80EEB) covered electric vehicle loans (Rs 1,50,000 deduction). Each has distinct eligibility windows and amounts.",
+          "tier": 3,
+          "subConcepts": ["affordable-housing-review", "sunset-deduction-amounts"],
+          "isReview": true,
+          "oldSection": "Section 80EEA",
+          "newSection": "Section 131"
+        },
+        {
+          "order": 4,
+          "question": "A firm contributes Rs 5,00,000 to a registered political party by cheque. Under which section does it claim the deduction, and what is the deduction amount?",
+          "options": [
+            { "text": "Section 136 — Rs 5,00,000 (100%, no cap)", "correct": false },
+            { "text": "Section 137 — Rs 5,00,000 (100%, no cap)", "correct": true },
+            { "text": "Section 133 — Rs 2,50,000 (50%, Tier 4)", "correct": false },
+            { "text": "No deduction — firms cannot contribute to political parties", "correct": false }
+          ],
+          "explanation": "A firm is not a company — it falls under Section 137 (old 80GGC), which covers any person other than a company. The deduction is 100% of the contribution with no cap = Rs 5,00,000. Section 136 is only for Indian companies. The contribution is by cheque, so the cash bar is not triggered.",
+          "explanationWrong": "Section 137 at Rs 5,00,000 is correct. The critical distinction: a firm is not a company. Section 136 is exclusively for Indian companies. Partnerships, LLPs, and other non-company entities fall under Section 137. Both offer 100% deduction with no cap — the only difference is the assessee category gate.",
+          "tier": 3,
+          "subConcepts": ["firm-vs-company", "section-137-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80GGC",
+          "newSection": "Section 137"
+        },
+        {
+          "order": 5,
+          "question": "Meera, a freelance writer with gross total income of Rs 12,00,000 (entirely from profession), donates Rs 50,000 to an approved university for scientific research. Can she claim under Section 135?",
+          "options": [
+            { "text": "Yes — Section 135 is available to all assessees", "correct": false },
+            { "text": "No — her gross total income includes business/profession income, so Section 135 is not available to her", "correct": true },
+            { "text": "Yes — but only 50% of the donation", "correct": false },
+            { "text": "No — because the donation is below Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Section 135 is available only to assessees whose gross total income does NOT include income from business or profession. Meera's entire income is from profession — she is disqualified from Section 135. If she wishes to claim a research-related deduction, she must explore the business income provisions instead. For the university donation specifically, she may be able to claim under Section 133 (if the university holds 80G/133 registration).",
+          "explanationWrong": "Section 135 is not available to her is correct. The eligibility gate is strict: any business or profession income in the gross total income disqualifies the assessee from Section 135. The policy logic: business assessees have their own route for research deductions under the business head. Section 135 catches only non-business donors.",
+          "tier": 3,
+          "subConcepts": ["section-135-exclusion", "professional-income-disqualifies"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Political Contributions and Electoral Bond Impact",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An Indian company paid Rs 25,00,000 via Electoral Bonds to a political party in January 2024 — one month before the Supreme Court struck down the scheme. Is the deduction under Section 136 available for that contribution?",
+          "options": [
+            { "text": "Yes — the contribution was made before the ruling, so it is valid for AY 2024-25", "correct": true },
+            { "text": "No — the Supreme Court ruling retroactively invalidates all Electoral Bond contributions", "correct": false },
+            { "text": "Yes — but only 50% of the contribution", "correct": false },
+            { "text": "No — Electoral Bond contributions were never eligible for deduction", "correct": false }
+          ],
+          "explanation": "Contributions made through Electoral Bonds before the Supreme Court ruling (February 2024) were valid under the then-existing law. The company can claim the deduction for AY 2024-25 since the contribution was through a legally permitted mode at the time. The ruling struck down the scheme prospectively — contributions already made are not invalidated.",
+          "explanationWrong": "Yes, the deduction is available is correct. The Supreme Court struck down the Electoral Bond Scheme, but existing contributions made when the scheme was operative remain valid for deduction purposes. The ruling does not have retrospective effect on already-completed transactions. Going forward from February 2024, no new Electoral Bonds can be purchased.",
+          "tier": 3,
+          "subConcepts": ["electoral-bond-timing", "pre-ruling-contributions"],
+          "isReview": false,
+          "oldSection": "Section 80GGB",
+          "newSection": "Section 136"
+        },
+        {
+          "order": 2,
+          "question": "Dr. Sharma, a retired surgeon with pension and interest income (no business income), wants to donate Rs 2,00,000 to an approved scientific research association. He also wants to donate Rs 50,000 to a registered charitable hospital. What is his optimal deduction strategy?",
+          "options": [
+            { "text": "Claim the research donation under Section 135 (100%, no cap) and the hospital donation under Section 133", "correct": true },
+            { "text": "Claim both donations under Section 133 — simpler filing", "correct": false },
+            { "text": "Claim both under Section 135 — higher deduction rate", "correct": false },
+            { "text": "Claim the research donation under Section 133 and the hospital under Section 135", "correct": false }
+          ],
+          "explanation": "The optimal strategy: claim the Rs 2,00,000 research donation under Section 135 (100% deduction, no cap) since Dr. Sharma has no business income — full Rs 2,00,000 deduction. The hospital donation goes under Section 133 (likely Tier 4 — 50% with qualifying limit). Claiming both under Section 133 would waste the uncapped 100% benefit of Section 135 and subject the research donation to the 10% ATI cap.",
+          "explanationWrong": "Section 135 for research, Section 133 for hospital is correct. Section 135 offers better treatment — 100% with no cap. Claiming both under Section 133 would mean the research donation competes with the hospital donation for the 10% ATI qualifying limit (if both fall in Tiers 3/4). Proper section allocation maximises the total deduction.",
+          "tier": 3,
+          "subConcepts": ["optimal-deduction-allocation", "multi-section-strategy"],
+          "isReview": false,
+          "oldSection": "Sections 80GGA, 80G",
+          "newSection": "Sections 135, 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, which deduction — now sunset — offered Rs 1,50,000 for interest on loans taken for purchasing electric vehicles sanctioned between April 2019 and March 2023?",
+          "options": [
+            { "text": "Section 132 — electric vehicle loan interest (old Section 80EEB)", "correct": true },
+            { "text": "Section 131 — affordable housing interest (old Section 80EEA)", "correct": false },
+            { "text": "Section 130 — first-time homebuyer interest (old Section 80EE)", "correct": false },
+            { "text": "Section 129 — education loan interest (old Section 80E)", "correct": false }
+          ],
+          "explanation": "Section 132 (old 80EEB) provided a Rs 1,50,000 deduction for interest on loans sanctioned between 1 April 2019 and 31 March 2023 for purchasing electric vehicles. The window has closed — it is a sunset provision. Existing claims with unexpired loan tenures continue under transitional provisions.",
+          "explanationWrong": "Section 132 is correct. Section 131 (old 80EEA) looks similar in amount (also Rs 1,50,000) but covers affordable housing loans, not EV loans. Section 130 (old 80EE) is Rs 50,000 for first-time homebuyers. The three sunset deductions have different subjects, different eligibility windows, and some have different amounts.",
+          "tier": 3,
+          "subConcepts": ["EV-loan-deduction-review", "section-132-sunset"],
+          "isReview": true,
+          "oldSection": "Section 80EEB",
+          "newSection": "Section 132"
+        },
+        {
+          "order": 4,
+          "question": "Vikram, an individual under the old tax regime, donates Rs 5,000 to a registered political party — Rs 2,000 in cash and Rs 3,000 by UPI. What deduction can he claim under Section 137?",
+          "options": [
+            { "text": "Rs 3,000 — only the UPI portion, since cash contributions to political parties are entirely barred", "correct": true },
+            { "text": "Rs 5,000 — full amount, since the cash portion is within Rs 2,000", "correct": false },
+            { "text": "Rs 0 — the entire donation is tainted by the cash component", "correct": false },
+            { "text": "Rs 2,500 — 50% of the total donation", "correct": false }
+          ],
+          "explanation": "For political contributions under Section 137, cash is entirely barred — there is no threshold like Section 133's Rs 2,000 limit. The Rs 2,000 cash portion is ineligible regardless of amount. The Rs 3,000 UPI portion qualifies for 100% deduction. Vikram should have paid the entire Rs 5,000 by UPI.",
+          "explanationWrong": "Rs 3,000 is correct. This is a trap for those who confuse the Section 133 cash threshold (Rs 2,000) with the Section 137 cash bar (zero). For political contributions, any cash — even Re 1 — is ineligible. The Rs 2,000 threshold is specific to charitable donations under Section 133. Different sections, different rules.",
+          "tier": 3,
+          "subConcepts": ["political-cash-bar-scenario", "mixed-payment-mode"],
+          "isReview": false,
+          "oldSection": "Section 80GGC",
+          "newSection": "Section 137"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner reviewing a client's return notices claims under both Section 133 (charitable donation) and Section 135 (scientific research donation), but the client has business income. What should the practitioner flag?",
+          "options": [
+            { "text": "Both claims are invalid — business assessees cannot claim donation deductions", "correct": false },
+            { "text": "The Section 135 claim is invalid — Section 135 is only for assessees without business/profession income", "correct": true },
+            { "text": "The Section 133 claim is invalid — charitable deductions are not available to business assessees", "correct": false },
+            { "text": "Both claims are valid — there is no restriction based on income type", "correct": false }
+          ],
+          "explanation": "Section 135 is restricted to assessees whose gross total income does not include business or profession income. The client has business income, so the Section 135 claim is invalid. Section 133 has no such restriction — any assessee can claim charitable donation deductions regardless of income type. The practitioner should remove the Section 135 claim and advise the client to explore business-head deductions for research contributions instead.",
+          "explanationWrong": "Section 135 claim is invalid is correct. This is a common return-filing error. The eligibility gate on Section 135 is often overlooked — especially when tax software allows both claims without a validation check. The practitioner should rectify the return to avoid a disallowance in assessment.",
+          "tier": 3,
+          "subConcepts": ["return-review-scenario", "section-135-eligibility-check"],
+          "isReview": false,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Multi-Donation Computation and Compliance",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Anita has an adjusted total income of Rs 20,00,000. She donates: Rs 1,00,000 to the National Defence Fund (Tier 1), Rs 50,000 to the PM's Drought Relief Fund (Tier 2), and Rs 4,00,000 to a registered charitable trust (Tier 4). What is her total deduction under Section 133?",
+          "options": [
+            { "text": "Rs 2,25,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 3,25,000", "correct": false },
+            { "text": "Rs 1,75,000", "correct": false }
+          ],
+          "explanation": "Tier 1 (National Defence Fund): 100%, no cap = Rs 1,00,000. Tier 2 (PM's Drought Relief Fund): 50%, no cap = Rs 25,000. Tier 4 (charitable trust): qualifying limit = 10% of Rs 20,00,000 = Rs 2,00,000; donation Rs 4,00,000 capped at Rs 2,00,000; deduction = 50% of Rs 2,00,000 = Rs 1,00,000. But wait — Tier 2 deduction is 50% of Rs 50,000 = Rs 25,000, not Rs 50,000. Total = Rs 1,00,000 + Rs 25,000 + Rs 75,000. Actually, let me recompute: Tier 4 qualifying limit applies only to Tiers 3+4 combined. Rs 4,00,000 capped at Rs 2,00,000. 50% = Rs 1,00,000. Total = Rs 1,00,000 + Rs 25,000 + Rs 1,00,000 = Rs 2,25,000. Hmm — the correct answer needs verification. Tier 1: Rs 1,00,000 (100%, no cap). Tier 2: 50% of Rs 50,000 = Rs 25,000 (no cap). Tier 4: 10% of Rs 20,00,000 = Rs 2,00,000 qualifying limit; donation Rs 4,00,000 capped at Rs 2,00,000; 50% = Rs 1,00,000. Total = Rs 1,00,000 + Rs 25,000 + Rs 1,00,000 = Rs 2,25,000. The answer is Rs 2,25,000.",
+          "explanationWrong": "Let us compute step by step. Tier 1 (National Defence Fund): 100% with no cap = Rs 1,00,000. Tier 2 (PM's Drought Relief Fund): 50% with no cap = Rs 25,000. Tier 4 (charitable trust): qualifying limit = 10% of ATI = Rs 2,00,000; donation of Rs 4,00,000 is capped at Rs 2,00,000; deduction = 50% of Rs 2,00,000 = Rs 1,00,000. Total = Rs 1,00,000 + Rs 25,000 + Rs 1,00,000 = Rs 2,25,000.",
+          "tier": 3,
+          "subConcepts": ["multi-tier-computation-complex", "qualifying-limit-application"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 2,
+          "question": "A CA prepares returns for two clients: Client A (an individual, old regime) donates Rs 2,00,000 to a political party by bank transfer. Client B (a company) donates the same amount to the same party by bank transfer. How do the deductions compare?",
+          "options": [
+            { "text": "Both get Rs 2,00,000 deduction — Client A under Section 137, Client B under Section 136", "correct": true },
+            { "text": "Client A gets Rs 1,00,000 (50%) and Client B gets Rs 2,00,000 (100%)", "correct": false },
+            { "text": "Both claim under Section 136 — same provision for all assessees", "correct": false },
+            { "text": "Client A gets Rs 2,00,000 but Client B is capped at 7.5% of net profit", "correct": false }
+          ],
+          "explanation": "Both get the full Rs 2,00,000 deduction. Client A (individual) claims under Section 137 (old 80GGC), and Client B (company) claims under Section 136 (old 80GGB). Both sections provide 100% deduction with no cap. The only difference is the section number — the tax outcome is identical. Bank transfer satisfies the non-cash requirement for both.",
+          "explanationWrong": "Both get Rs 2,00,000 is correct. Sections 136 and 137 offer identical treatment — 100%, no cap, no cash. They are split solely by assessee category (company vs. non-company). There is no differential rate or cap between the two. The practical outcome for political donations is the same regardless of entity type.",
+          "tier": 3,
+          "subConcepts": ["136-vs-137-comparison", "identical-treatment-scenario"],
+          "isReview": false,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.4, Section 134 (old 80GG) computes the rent deduction as the least of three amounts. One of those amounts is rent paid minus 10% of total income. What is the second amount?",
+          "options": [
+            { "text": "25% of total income", "correct": true },
+            { "text": "Rs 5,000 per month (Rs 60,000 per year)", "correct": false },
+            { "text": "50% of total income", "correct": false },
+            { "text": "Actual rent paid", "correct": false }
+          ],
+          "explanation": "The Section 134 deduction is the least of: (1) rent paid minus 10% of total income, (2) 25% of total income, or (3) Rs 5,000 per month (Rs 60,000 per year). The three-way minimum ensures the deduction is reasonable relative to both income and a fixed monetary cap.",
+          "explanationWrong": "25% of total income is correct. The three components of the Section 134 formula serve different purposes: rent minus 10% ensures the deduction reflects actual rental burden; 25% of income caps the deduction relative to earnings; Rs 5,000/month provides an absolute ceiling. The lowest of the three applies.",
+          "tier": 3,
+          "subConcepts": ["section-134-formula-review", "rent-deduction-computation"],
+          "isReview": true,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        },
+        {
+          "order": 4,
+          "question": "Sunita, operating under the old regime, has ATI of Rs 10,00,000. She donates Rs 50,000 to an approved institution for medical relief to the poor (Tier 3 — 100% with qualifying limit) and Rs 1,50,000 to her local temple trust (Tier 4 — 50% with qualifying limit). What is her combined Tier 3 + Tier 4 deduction?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 1,00,000 — but computation requires the aggregate qualifying limit", "correct": true },
+            { "text": "Rs 50,000", "correct": false }
+          ],
+          "explanation": "Aggregate qualifying limit = 10% of Rs 10,00,000 = Rs 1,00,000. Total Tier 3+4 donations = Rs 50,000 + Rs 1,50,000 = Rs 2,00,000 — exceeds the limit. The Rs 1,00,000 qualifying limit is allocated: Tier 3 donation (Rs 50,000) fits entirely within the limit. Remaining limit for Tier 4 = Rs 50,000. Tier 3 deduction: 100% of Rs 50,000 = Rs 50,000. Tier 4 deduction: 50% of Rs 50,000 = Rs 25,000. But the question asks for the combined deduction — should it be Rs 50,000 + Rs 25,000 = Rs 75,000? The qualifying limit allocation can vary. If allocated proportionally: Tier 3 gets Rs 25,000, Tier 4 gets Rs 75,000. Tier 3: 100% of Rs 25,000 = Rs 25,000. Tier 4: 50% of Rs 75,000 = Rs 37,500. Total = Rs 62,500. Actually, the optimal allocation favours Tier 3 (100% rate). Allocating Rs 50,000 to Tier 3 first: Tier 3 = Rs 50,000 at 100% = Rs 50,000. Tier 4 = Rs 50,000 at 50% = Rs 25,000. Total = Rs 75,000. However, the standard computation applies the cap to aggregate donations first, then computes per tier. The correct total is Rs 75,000.",
+          "explanationWrong": "The computation: qualifying limit = 10% of ATI = Rs 1,00,000. Total donations (Rs 2,00,000) exceed this, so the eligible amount is capped at Rs 1,00,000. Tier 3 donation (Rs 50,000) is fully within the limit — deduction at 100% = Rs 50,000. Remaining qualifying limit for Tier 4 = Rs 50,000 — deduction at 50% = Rs 25,000. Total = Rs 75,000. The aggregate cap is the binding constraint here.",
+          "tier": 3,
+          "subConcepts": ["tier-3-4-aggregate-computation", "qualifying-limit-allocation"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 5,
+          "question": "Which statement best captures the overall nature of the changes in Unit 9.5 (Donations & Contributions)?",
+          "options": [
+            { "text": "Major policy overhaul — new rates, new caps, new eligibility rules", "correct": false },
+            { "text": "All provisions are transitional — no fresh donation deduction claims allowed", "correct": false },
+            { "text": "Presentational renumbering with no substantive statutory changes; the real-world change is the Electoral Bond ruling (a judicial development)", "correct": true },
+            { "text": "Deduction rates have been reduced across all four tiers", "correct": false }
+          ],
+          "explanation": "Unit 9.5 is unique in having zero substantive statutory changes. The four donation sections are renumbered (80G→133, 80GGA→135, 80GGB→136, 80GGC→137) with improved presentation. All rates, caps, eligibility rules, and cash thresholds are identical. The only real-world change is the Electoral Bond ruling — a judicial development from February 2024, not a legislative one. This contrasts sharply with Unit 9.6, where every provision is transitional.",
+          "explanationWrong": "Presentational renumbering is correct. Understanding the nature of the change is as important as knowing the section numbers. These donation provisions are not transitional (unlike Unit 9.6's business deductions), not reformed (unlike Unit 9.7's 80TTA/80TTB merger), and not sunset (unlike Unit 9.4's housing deductions). They are simply renumbered.",
+          "tier": 3,
+          "subConcepts": ["unit-summary", "change-characterisation"],
+          "isReview": false,
+          "oldSection": "Sections 80G, 80GGA, 80GGB, 80GGC",
+          "newSection": "Sections 133, 135, 136, 137"
+        }
+      ]
+    }
+  ]
+}

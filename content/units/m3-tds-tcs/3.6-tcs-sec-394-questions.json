@@ -1,0 +1,835 @@
+{
+  "unit": "3.6",
+  "title": "TCS (Section 394)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The TCS Rate Rationalization",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the most significant change in the TCS framework under Finance Bill 2026?",
+          "options": [
+            { "text": "TCS has been abolished for domestic transactions", "correct": false },
+            { "text": "Most TCS rates have been rationalized to a uniform 2%", "correct": true },
+            { "text": "TCS now applies only to non-residents", "correct": false },
+            { "text": "All TCS thresholds have been doubled", "correct": false }
+          ],
+          "explanation": "Finance Bill 2026 rationalized most TCS rates to a uniform 2%. This is the biggest substantive change in TCS in over a decade — unlike TDS where rates mostly stayed the same, TCS rates actually changed. Old rates ranging from 1% to 5% were flattened to 2%.",
+          "explanationWrong": "The rate rationalization to 2% is the headline change. Previously, TCS rates varied from 1% to 20% across categories. Finance Bill 2026 brought most of them to 2%, making the system far simpler for collectors.",
+          "tier": 1,
+          "subConcepts": ["tcs-rate-rationalization", "finance-bill-2026"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 2,
+          "question": "Under the new Act, all TCS provisions are consolidated into which single section?",
+          "options": [
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": true },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 206C", "correct": false }
+          ],
+          "explanation": "Section 394 consolidates all TCS provisions into a single table, replacing the various sub-sections of old Section 206C. This mirrors the consolidation approach used for TDS in Section 393.",
+          "explanationWrong": "Section 394 is the single TCS section. Section 392 covers salary TDS, Section 393 covers non-salary TDS (3 tables), and Section 394 covers all TCS. Old Section 206C had multiple sub-sections — now everything is in one table.",
+          "tier": 1,
+          "subConcepts": ["section-394", "tcs-consolidation"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 3,
+          "question": "Under the new TDS architecture, how many tables does Section 393 use to organize non-salary TDS provisions?",
+          "options": [
+            { "text": "1 table", "correct": false },
+            { "text": "2 tables", "correct": false },
+            { "text": "3 tables", "correct": true },
+            { "text": "4 tables", "correct": false }
+          ],
+          "explanation": "Section 393 uses 3 tables: Table 1 (resident payments by specified persons), Table 2 (non-resident payments), and Table 3 (any person). This is a review of the TDS architecture from Unit 3.1.",
+          "explanationWrong": "Three tables: Table 1 for residents, Table 2 for non-residents, Table 3 for 'any person' deductions. TCS under Section 394 uses a single consolidated table — a simpler structure than TDS.",
+          "tier": 1,
+          "subConcepts": ["section-393-tables", "tds-architecture"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393"
+        },
+        {
+          "order": 4,
+          "question": "How many entries does the Section 394 TCS table contain?",
+          "options": [
+            { "text": "5 entries", "correct": false },
+            { "text": "7 entries (including sub-entries)", "correct": false },
+            { "text": "9 entries (with Sl. 7 split into 7(a) and 7(b))", "correct": true },
+            { "text": "12 entries", "correct": false }
+          ],
+          "explanation": "The Section 394 table has 9 entries: Sl. 1 through 9, with Sl. 7 split into 7(a) for LRS education/medical and 7(b) for LRS other purposes. This covers alcoholic liquor, tendu leaves, timber, scrap, coal, motor vehicles, LRS, overseas tours, and parking/toll/mining.",
+          "explanationWrong": "There are 9 entries. Sl. 1-6 cover goods, Sl. 7(a) and 7(b) cover LRS remittances, Sl. 8 covers overseas tour packages, and Sl. 9 covers parking/toll/mining operations.",
+          "tier": 1,
+          "subConcepts": ["tcs-table-structure", "section-394-entries"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following old TCS rates was the highest before rationalization — and what did it change to?",
+          "options": [
+            { "text": "Tendu leaves at 5% — changed to 2%", "correct": true },
+            { "text": "Scrap at 3% — changed to 2%", "correct": false },
+            { "text": "Coal at 5% — changed to 2%", "correct": false },
+            { "text": "Alcoholic liquor at 10% — changed to 2%", "correct": false }
+          ],
+          "explanation": "Tendu leaves had the highest old rate among the goods entries at 5%, which was reduced to 2% — the most significant rate decrease in the table. This recognized that the old 5% rate was disproportionately high for a commodity with a cash-intensive supply chain.",
+          "explanationWrong": "Tendu leaves dropped from 5% to 2% — the steepest decrease. Scrap was 1% (not 3%), coal was 1% (not 5%), and alcoholic liquor was 1% (not 10%). All of these moved to 2%.",
+          "tier": 1,
+          "subConcepts": ["tendu-leaves-rate", "rate-reduction"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — tendu",
+          "newSection": "Section 394, Sl. 2"
+        }
+      ]
+    },
+    {
+      "title": "Goods TCS — Old vs New Rates",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the new TCS rate on sale of alcoholic liquor for human consumption?",
+          "options": [
+            { "text": "1% (unchanged from old rate)", "correct": false },
+            { "text": "2% (increased from old 1%)", "correct": true },
+            { "text": "5% (increased from old 1%)", "correct": false },
+            { "text": "0.5% (reduced)", "correct": false }
+          ],
+          "explanation": "Alcoholic liquor TCS increased from 1% to 2% as part of the uniform rate rationalization. This is one of four goods entries where the rate went up (from 1% to 2%), alongside scrap and coal/minerals.",
+          "explanationWrong": "The rate doubled from 1% to 2%. While this is technically an increase, it is part of the broader rationalization that brought most TCS rates to a uniform 2%. The impact is modest compared to tendu leaves (5% to 2%).",
+          "tier": 1,
+          "subConcepts": ["alcohol-tcs-rate", "rate-increase"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — alcoholic liquor",
+          "newSection": "Section 394, Sl. 1"
+        },
+        {
+          "order": 2,
+          "question": "For which goods did the TCS rate decrease under Finance Bill 2026?",
+          "options": [
+            { "text": "Alcoholic liquor and scrap", "correct": false },
+            { "text": "Tendu leaves (5%→2%) and timber/forest produce (2.5%→2%)", "correct": true },
+            { "text": "Motor vehicles and coal", "correct": false },
+            { "text": "All goods categories saw rate decreases", "correct": false }
+          ],
+          "explanation": "Only tendu leaves (5% to 2%) and timber/forest produce (2.5% to 2%) saw rate decreases. Alcoholic liquor, scrap, and coal/minerals actually increased from 1% to 2%. Motor vehicles remained unchanged at 1%.",
+          "explanationWrong": "Tendu leaves and timber decreased. Three categories (alcohol, scrap, coal) increased from 1% to 2%. Motor vehicles stayed at 1%. The net effect is convergence toward a uniform 2% rate.",
+          "tier": 1,
+          "subConcepts": ["rate-decreases", "tendu-timber-rates"],
+          "isReview": false,
+          "oldSection": "Section 206C(1)",
+          "newSection": "Section 394, Sl. 2-3"
+        },
+        {
+          "order": 3,
+          "question": "Under Table 3 of Section 393, TDS on winnings from lottery, online gaming, and horse race is at what uniform rate?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "20%", "correct": false },
+            { "text": "30%", "correct": true },
+            { "text": "2%", "correct": false }
+          ],
+          "explanation": "All three winnings categories under Table 3 attract TDS at 30%. This is a review from Unit 3.5 — the 'any person' TDS provisions.",
+          "explanationWrong": "Winnings are at 30% under Table 3. This is the highest TDS rate in the framework, and it has remained unchanged from the old Act for all three categories (194B, 194BA, 194BB).",
+          "tier": 1,
+          "subConcepts": ["winnings-tds-rate", "table-3-rates"],
+          "isReview": true,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 4,
+          "question": "What is the TCS rate on sale of scrap under the new Act?",
+          "options": [
+            { "text": "1% (same as old rate)", "correct": false },
+            { "text": "2% (increased from old 1%)", "correct": true },
+            { "text": "5%", "correct": false },
+            { "text": "0.1%", "correct": false }
+          ],
+          "explanation": "Scrap TCS increased from 1% to 2%. Like alcoholic liquor and coal, scrap was at 1% under the old Act and has been brought to the uniform 2% rate. There is no threshold — TCS applies on all scrap sales.",
+          "explanationWrong": "Scrap moved from 1% to 2%. 'Scrap' means waste and scrap from manufacture or mechanical working of materials, not fit to be used without re-processing. The seller collects TCS from the buyer at 2%.",
+          "tier": 1,
+          "subConcepts": ["scrap-tcs-rate", "rate-increase"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — scrap",
+          "newSection": "Section 394, Sl. 4"
+        },
+        {
+          "order": 5,
+          "question": "What is the new TCS rate on coal, lignite, and iron ore?",
+          "options": [
+            { "text": "1% (unchanged)", "correct": false },
+            { "text": "2% (increased from 1%)", "correct": true },
+            { "text": "5%", "correct": false },
+            { "text": "0.5%", "correct": false }
+          ],
+          "explanation": "Coal/lignite/iron ore TCS increased from 1% to 2%, joining the uniform rate band. The seller of these minerals collects TCS from the buyer at the point of sale.",
+          "explanationWrong": "The rate moved from 1% to 2%. This increase, along with alcohol and scrap (also 1% to 2%), shows that the rationalization was about convergence to 2% — some rates went up, some went down.",
+          "tier": 1,
+          "subConcepts": ["coal-tcs-rate", "mineral-tcs"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — coal/lignite/iron ore",
+          "newSection": "Section 394, Sl. 5"
+        }
+      ]
+    },
+    {
+      "title": "Motor Vehicle, LRS, and Overseas Tours",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Motor vehicle TCS is the only goods entry that did NOT change to 2%. What rate does it remain at?",
+          "options": [
+            { "text": "0.5%", "correct": false },
+            { "text": "1%", "correct": true },
+            { "text": "2%", "correct": false },
+            { "text": "5%", "correct": false }
+          ],
+          "explanation": "Motor vehicle TCS remains at 1% on vehicles exceeding Rs 10 lakh. It is the sole goods-related TCS entry that was not moved to the uniform 2% rate, preserving its lower rate for high-value consumer purchases.",
+          "explanationWrong": "Motor vehicle stays at 1%. The Rs 10 lakh threshold also remains unchanged. This entry stands out as the only goods category not brought into the 2% uniform rate.",
+          "tier": 1,
+          "subConcepts": ["motor-vehicle-tcs", "unchanged-rate"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        },
+        {
+          "order": 2,
+          "question": "What is the new TCS rate on LRS remittances for education or medical treatment?",
+          "options": [
+            { "text": "5% (unchanged)", "correct": false },
+            { "text": "2% (reduced from 5%)", "correct": true },
+            { "text": "20% (same as LRS other purposes)", "correct": false },
+            { "text": "0.5% (significantly reduced)", "correct": false }
+          ],
+          "explanation": "LRS education/medical TCS has been reduced from 5% to 2% under Sl. 7(a). The Rs 10 lakh aggregate threshold remains. This reduction benefits students and patients sending money abroad for education and medical treatment.",
+          "explanationWrong": "The rate dropped from 5% to 2%. The bank or authorized dealer still collects TCS on the aggregate LRS remittance exceeding Rs 10 lakh in a financial year — but at the lower 2% rate.",
+          "tier": 1,
+          "subConcepts": ["lrs-education-rate", "rate-reduction"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)(a)",
+          "newSection": "Section 394, Sl. 7(a)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, which form replaces the old 27EQ for filing TCS quarterly returns?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 143", "correct": true },
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 143 replaces old 27EQ for TCS quarterly returns. This is a review from Unit 3.7 — all return form numbers changed under the new Act.",
+          "explanationWrong": "Form 143 is the new TCS return form (old 27EQ). Form 138 = salary TDS (old 24Q). Form 140 = non-salary resident TDS (old 26Q). Form 144 = NR TDS (old 27Q).",
+          "tier": 1,
+          "subConcepts": ["form-143", "tcs-return"],
+          "isReview": true,
+          "oldSection": "Form 27EQ",
+          "newSection": "Form 143"
+        },
+        {
+          "order": 4,
+          "question": "What changed for overseas tour programme packages under Finance Bill 2026?",
+          "options": [
+            { "text": "TCS was abolished for overseas tours", "correct": false },
+            { "text": "The tiered 5%/20% structure was replaced with a flat 2%, and the threshold was removed", "correct": true },
+            { "text": "The rate increased from 5% to 10%", "correct": false },
+            { "text": "Only the threshold changed; the rate stayed at 5%", "correct": false }
+          ],
+          "explanation": "Overseas tour packages previously had a complex tiered structure: 5% up to Rs 7 lakh and 20% above Rs 7 lakh. Finance Bill 2026 simplified this to a flat 2% with no threshold — one rate for all amounts.",
+          "explanationWrong": "The change is both rate and threshold. The old tiered 5%/20% rate became a flat 2%. The old threshold that created the tiers was removed entirely. This is a major simplification for tour operators.",
+          "tier": 1,
+          "subConcepts": ["overseas-tour-tcs", "threshold-removal"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        },
+        {
+          "order": 5,
+          "question": "LRS remittances for 'other purposes' (not education/medical) carry a TCS rate of:",
+          "options": [
+            { "text": "2% (same as education)", "correct": false },
+            { "text": "5%", "correct": false },
+            { "text": "20% (unchanged from old rate)", "correct": true },
+            { "text": "10%", "correct": false }
+          ],
+          "explanation": "LRS for other purposes under Sl. 7(b) remains at 20% — unchanged from the old Act. This is the highest TCS rate in the table. The Rs 10 lakh threshold continues to apply. Only LRS for education/medical was reduced to 2%.",
+          "explanationWrong": "LRS other purposes stays at 20%. The distinction between 7(a) and 7(b) is critical: education/medical at 2%, everything else at 20%. This 10x difference makes the purpose classification extremely important.",
+          "tier": 1,
+          "subConcepts": ["lrs-other-rate", "unchanged-20-percent"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)(b)",
+          "newSection": "Section 394, Sl. 7(b)"
+        }
+      ]
+    },
+    {
+      "title": "Direction of Rate Changes",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many TCS entries saw their rate INCREASE under Finance Bill 2026?",
+          "options": [
+            { "text": "None — all rates decreased or stayed the same", "correct": false },
+            { "text": "3 entries: alcoholic liquor (1%→2%), scrap (1%→2%), coal (1%→2%)", "correct": true },
+            { "text": "5 entries", "correct": false },
+            { "text": "1 entry: scrap only", "correct": false }
+          ],
+          "explanation": "Three entries saw increases: alcoholic liquor (1% to 2%), scrap (1% to 2%), and coal/lignite/iron ore (1% to 2%). All moved from 1% to the uniform 2%. The increases are modest but ensure consistency across the goods TCS framework.",
+          "explanationWrong": "Three entries increased from 1% to 2%: alcohol, scrap, and coal. These were the lowest-rated goods entries. The rationalization raised them to match the uniform 2% target rather than keeping them at 1%.",
+          "tier": 2,
+          "subConcepts": ["rate-increases-count", "rationalization-direction"],
+          "isReview": false,
+          "oldSection": "Section 206C(1)",
+          "newSection": "Section 394, Sl. 1, 4, 5"
+        },
+        {
+          "order": 2,
+          "question": "Which TCS entries remained completely unchanged in both rate and threshold?",
+          "options": [
+            { "text": "Motor vehicle (1%, Rs 10 lakh), LRS other (20%, Rs 10 lakh), parking/toll/mining (2%, nil)", "correct": true },
+            { "text": "Only motor vehicle remained unchanged", "correct": false },
+            { "text": "All entries changed in some way", "correct": false },
+            { "text": "Tendu leaves and timber remained unchanged", "correct": false }
+          ],
+          "explanation": "Three entries are entirely unchanged: motor vehicle at 1% (Rs 10 lakh), LRS other purposes at 20% (Rs 10 lakh), and parking/toll/mining at 2% (nil). These three already aligned with the rationalization objectives or had specific policy reasons to remain.",
+          "explanationWrong": "Motor vehicle (1%), LRS other (20%), and parking/toll/mining (2%) stayed the same. Motor vehicle was deliberately left at 1%. LRS other at 20% serves as a deterrent against non-essential foreign remittances. Parking/toll/mining was already at 2%.",
+          "tier": 2,
+          "subConcepts": ["unchanged-entries", "rate-stability"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F), 206C(1G)(b), 206C(1C)",
+          "newSection": "Section 394, Sl. 6, 7(b), 9"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act's Table 3, the removal of Section 206AB means the higher TDS rate for non-filers on cash withdrawals is eliminated. Which old rate was removed?",
+          "options": [
+            { "text": "2% for non-filers", "correct": false },
+            { "text": "5% for non-filers who had not filed returns for 2 preceding years", "correct": true },
+            { "text": "10% for all non-filers", "correct": false },
+            { "text": "No higher rate ever existed", "correct": false }
+          ],
+          "explanation": "The 5% rate for non-filers under 206AB was removed. Under the new Act, a uniform 2% applies to all cash withdrawals above Rs 1 crore regardless of filing status. This is a review from Unit 3.5.",
+          "explanationWrong": "The old 5% non-filer rate (via 206AB) no longer exists. Banks no longer need to verify return-filing status. Everyone faces 2% on cash withdrawals above the threshold.",
+          "tier": 2,
+          "subConcepts": ["206ab-removal", "non-filer-rate"],
+          "isReview": true,
+          "oldSection": "Section 206AB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Why was the overseas tour package TCS structure simplified from tiered (5%/20%) to a flat 2%?",
+          "options": [
+            { "text": "Because international tourism revenue declined", "correct": false },
+            { "text": "To eliminate the complex tiered calculation and threshold tracking that burdened tour operators", "correct": true },
+            { "text": "Because the Supreme Court struck down the tiered structure", "correct": false },
+            { "text": "To align with GST rates on tour packages", "correct": false }
+          ],
+          "explanation": "The tiered structure required tour operators to track cumulative package values, apply 5% up to Rs 7 lakh, and 20% above Rs 7 lakh. The flat 2% with no threshold eliminates this computational complexity — tour operators simply collect 2% on every package.",
+          "explanationWrong": "The simplification removed computational burden. Tour operators no longer need to maintain cumulative records to determine which tier applies. A flat 2% on every transaction is straightforward to implement and audit.",
+          "tier": 2,
+          "subConcepts": ["overseas-tour-simplification", "compliance-reduction"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        },
+        {
+          "order": 5,
+          "question": "Why does LRS for 'other purposes' remain at 20% when most other rates were brought to 2%?",
+          "options": [
+            { "text": "Administrative oversight — it should have been reduced", "correct": false },
+            { "text": "The 20% rate serves as a policy deterrent against discretionary foreign remittances, not just a tax collection tool", "correct": true },
+            { "text": "Non-essential LRS remittances are rare and the rate does not matter", "correct": false },
+            { "text": "The RBI mandated the 20% rate", "correct": false }
+          ],
+          "explanation": "The 20% rate on LRS other purposes is not just about tax collection — it is a deliberate policy tool to discourage discretionary foreign remittances (investments, gifts, donations abroad). Education and medical are essential and got relief to 2%; other purposes remain at the deterrent rate.",
+          "explanationWrong": "The 20% rate is intentionally high as a deterrent. Unlike goods TCS where 2% serves as an information trail, the LRS-other 20% is designed to influence behavior by making discretionary foreign remittances expensive at the point of transaction.",
+          "tier": 2,
+          "subConcepts": ["lrs-policy-rationale", "deterrent-rate"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)(b)",
+          "newSection": "Section 394, Sl. 7(b)"
+        }
+      ]
+    },
+    {
+      "title": "TCS vs TDS — Conceptual Differences",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the fundamental difference between TDS and TCS in terms of who bears the obligation?",
+          "options": [
+            { "text": "In TDS, the payer deducts; in TCS, the seller collects from the buyer", "correct": true },
+            { "text": "TDS applies to income; TCS applies to expenses — but the same person deducts both", "correct": false },
+            { "text": "TDS is mandatory; TCS is optional", "correct": false },
+            { "text": "There is no practical difference — both are withheld by the payer", "correct": false }
+          ],
+          "explanation": "TDS is deducted by the payer from the amount payable to the recipient. TCS is collected by the seller from the buyer in addition to the sale price. The obligation holder is different: payer in TDS, seller in TCS.",
+          "explanationWrong": "TDS = payer deducts from payment. TCS = seller collects from buyer. In TDS, the payee receives less. In TCS, the buyer pays more. This fundamental distinction drives different compliance workflows.",
+          "tier": 2,
+          "subConcepts": ["tds-vs-tcs", "collection-vs-deduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 393, 394"
+        },
+        {
+          "order": 2,
+          "question": "Unlike TDS where most rates stayed the same in the new Act, TCS rates actually changed. How would you summarize the pattern?",
+          "options": [
+            { "text": "All rates were doubled", "correct": false },
+            { "text": "Convergence: rates below 2% went up, rates above 2% came down, creating a uniform 2% for most entries", "correct": true },
+            { "text": "All rates were halved to reduce compliance burden", "correct": false },
+            { "text": "Only NR-related TCS rates changed", "correct": false }
+          ],
+          "explanation": "The pattern is convergence to 2%: alcohol/scrap/coal went up from 1% to 2%, tendu went down from 5% to 2%, timber went down from 2.5% to 2%, LRS education went down from 5% to 2%, and overseas tours went from 5%/20% to flat 2%. Rates converged from both directions.",
+          "explanationWrong": "Convergence to 2% is the pattern. Rates below 2% increased, rates above 2% decreased. This bidirectional movement distinguishes TCS changes from TDS changes (where rates mostly stayed the same).",
+          "tier": 2,
+          "subConcepts": ["convergence-pattern", "tcs-vs-tds-changes"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, TDS on payments to resident contractors was governed by which section?",
+          "options": [
+            { "text": "Section 194C", "correct": true },
+            { "text": "Section 194J", "correct": false },
+            { "text": "Section 194H", "correct": false },
+            { "text": "Section 194M", "correct": false }
+          ],
+          "explanation": "Section 194C governed TDS on contractor payments under the old Act. Under the new Act, it maps to Section 393, Table 1, Sl. 6. This is a review from Unit 3.3.",
+          "explanationWrong": "Old Section 194C covered contractor payments. 194J was for professional/technical fees. 194H was for commission/brokerage. 194M was for payments by individuals/HUFs to contractors above Rs 50 lakh.",
+          "tier": 2,
+          "subConcepts": ["section-194c", "contractor-tds"],
+          "isReview": true,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6"
+        },
+        {
+          "order": 4,
+          "question": "For which TCS entry was the threshold completely removed under Finance Bill 2026?",
+          "options": [
+            { "text": "Motor vehicle — Rs 10 lakh threshold removed", "correct": false },
+            { "text": "Overseas tour programme package — threshold eliminated, flat 2% on all amounts", "correct": true },
+            { "text": "LRS education — Rs 10 lakh threshold removed", "correct": false },
+            { "text": "Alcoholic liquor — nil threshold was introduced", "correct": false }
+          ],
+          "explanation": "Only the overseas tour package (Sl. 8) had its threshold removed. Under the old Act, the tiered 5%/20% structure had a Rs 7 lakh breakpoint. The new flat 2% applies from the first rupee — no threshold at all.",
+          "explanationWrong": "Overseas tour is the only entry where the threshold was removed. Motor vehicle retains Rs 10 lakh. LRS retains Rs 10 lakh. Alcoholic liquor always had nil threshold. The tour package is now threshold-free at flat 2%.",
+          "tier": 2,
+          "subConcepts": ["threshold-removal", "overseas-tour-change"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        },
+        {
+          "order": 5,
+          "question": "Parking lot, toll plaza, and mining/quarrying TCS (Sl. 9) was already at 2% under the old Act. Why is it significant?",
+          "options": [
+            { "text": "It was the only entry that increased", "correct": false },
+            { "text": "It proves the 2% uniform rate was an achievable benchmark, since one entry was already there", "correct": true },
+            { "text": "It was recently introduced in 2024", "correct": false },
+            { "text": "It does not apply anymore under the new Act", "correct": false }
+          ],
+          "explanation": "Parking/toll/mining at 2% under old Section 206C(1C) served as the natural benchmark rate. The rationalization effectively brought all other goods entries to this existing rate level, validating 2% as the standard TCS rate.",
+          "explanationWrong": "Sl. 9 was already at 2% — it is the anchor rate. The rationalization moved other entries to match this rate rather than creating a new one. This suggests 2% was seen as the right balance between information collection and compliance burden.",
+          "tier": 2,
+          "subConcepts": ["benchmark-rate", "parking-toll-mining"],
+          "isReview": false,
+          "oldSection": "Section 206C(1C)",
+          "newSection": "Section 394, Sl. 9"
+        }
+      ]
+    },
+    {
+      "title": "Old Section Mapping and Thresholds",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 206C(1F) for motor vehicles maps to which serial number in Section 394?",
+          "options": [
+            { "text": "Sl. 1", "correct": false },
+            { "text": "Sl. 5", "correct": false },
+            { "text": "Sl. 6", "correct": true },
+            { "text": "Sl. 9", "correct": false }
+          ],
+          "explanation": "Motor vehicle TCS under old Section 206C(1F) maps to Section 394, Sl. 6. The rate (1%) and threshold (Rs 10 lakh) both remain unchanged — it is the only goods entry not moved to the 2% uniform rate.",
+          "explanationWrong": "Sl. 6 is motor vehicles. Sl. 1 is alcohol, Sl. 5 is coal, Sl. 9 is parking/toll/mining. Knowing the serial numbers is essential for quoting the correct provision in TCS returns.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "motor-vehicle-sl-6"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        },
+        {
+          "order": 2,
+          "question": "Which TCS entries have a nil threshold — meaning TCS applies from the first transaction?",
+          "options": [
+            { "text": "Sl. 1-5 (alcohol, tendu, timber, scrap, coal) and Sl. 9 (parking/toll/mining)", "correct": false },
+            { "text": "Sl. 1-5 (alcohol, tendu, timber, scrap, coal), Sl. 8 (overseas tour — now threshold-free), and Sl. 9 (parking/toll/mining)", "correct": true },
+            { "text": "All entries have nil thresholds", "correct": false },
+            { "text": "Only Sl. 1 (alcohol) has a nil threshold", "correct": false }
+          ],
+          "explanation": "Sl. 1-5 always had nil thresholds. Sl. 9 also has nil. Sl. 8 (overseas tour) became threshold-free under Finance Bill 2026. So 8 out of 9 entries now have nil thresholds — only Sl. 6 (motor vehicle, Rs 10 lakh) and Sl. 7 (LRS, Rs 10 lakh) retain thresholds.",
+          "explanationWrong": "Eight entries now have nil thresholds. The only thresholds remaining are for motor vehicles (Rs 10 lakh per transaction) and LRS (Rs 10 lakh aggregate per year). The overseas tour threshold was removed in the rationalization.",
+          "tier": 2,
+          "subConcepts": ["nil-thresholds", "threshold-entries"],
+          "isReview": false,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, which form is used to file quarterly TCS returns?",
+          "options": [
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 143", "correct": true },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 143 replaces old 27EQ for TCS quarterly returns. This is a review from Unit 3.7's compliance framework.",
+          "explanationWrong": "Form 143 is the TCS return. Form 138 = salary TDS, Form 140 = non-salary resident TDS, Form 144 = non-resident TDS. All form numbers changed from the old Act designations.",
+          "tier": 2,
+          "subConcepts": ["form-143", "tcs-quarterly-return"],
+          "isReview": true,
+          "oldSection": "Form 27EQ",
+          "newSection": "Form 143"
+        },
+        {
+          "order": 4,
+          "question": "For LRS remittances, the Rs 10 lakh threshold applies on what basis?",
+          "options": [
+            { "text": "Per transaction", "correct": false },
+            { "text": "Aggregate remittances in a financial year", "correct": true },
+            { "text": "Per calendar month", "correct": false },
+            { "text": "Per recipient abroad", "correct": false }
+          ],
+          "explanation": "The Rs 10 lakh LRS threshold applies to aggregate remittances during the financial year. Once total LRS remittances (for education/medical or other purposes) cross Rs 10 lakh in a year, TCS applies on the excess amount.",
+          "explanationWrong": "The threshold is aggregate per year. The authorized dealer (bank) tracks cumulative LRS remittances by the remitter during the financial year. Once Rs 10 lakh is breached, TCS kicks in on subsequent remittances.",
+          "tier": 2,
+          "subConcepts": ["lrs-threshold-basis", "aggregate-annual"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)",
+          "newSection": "Section 394, Sl. 7"
+        },
+        {
+          "order": 5,
+          "question": "The Rs 10 lakh motor vehicle TCS threshold applies on what basis?",
+          "options": [
+            { "text": "Aggregate purchases per year from same dealer", "correct": false },
+            { "text": "Per transaction — each vehicle sale is assessed independently", "correct": true },
+            { "text": "Per buyer — across all dealers in the year", "correct": false },
+            { "text": "Per model of vehicle", "correct": false }
+          ],
+          "explanation": "The Rs 10 lakh threshold for motor vehicle TCS applies per transaction. Each vehicle sale is assessed independently — if the sale consideration exceeds Rs 10 lakh, TCS at 1% applies. Vehicles below Rs 10 lakh are outside TCS regardless of cumulative purchases.",
+          "explanationWrong": "The motor vehicle threshold is per transaction, not aggregate. A person buying three vehicles at Rs 8 lakh each (total Rs 24 lakh) from the same dealer owes no TCS on any of them, because no single transaction exceeds Rs 10 lakh.",
+          "tier": 2,
+          "subConcepts": ["motor-vehicle-threshold", "per-transaction-basis"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        }
+      ]
+    },
+    {
+      "title": "Practical Computation — Goods TCS",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A scrap dealer sells Rs 25 lakh worth of scrap to a buyer. What TCS must the dealer collect under the new Act?",
+          "options": [
+            { "text": "Rs 25,000 (1% of Rs 25 lakh — old rate)", "correct": false },
+            { "text": "Rs 50,000 (2% of Rs 25 lakh)", "correct": true },
+            { "text": "Rs 1,25,000 (5% of Rs 25 lakh)", "correct": false },
+            { "text": "No TCS — scrap sales below Rs 50 lakh are exempt", "correct": false }
+          ],
+          "explanation": "TCS on scrap is 2% under the new Act (increased from 1%). On Rs 25 lakh, TCS = Rs 50,000. There is no threshold for scrap — TCS applies from the first rupee of sale. Under the old Act, it would have been Rs 25,000 at 1%.",
+          "explanationWrong": "TCS = 2% of Rs 25 lakh = Rs 50,000. The rate increased from 1% to 2%. There is no minimum threshold for scrap sales — TCS applies on the entire sale value from the first transaction.",
+          "tier": 3,
+          "subConcepts": ["scrap-tcs-computation", "old-vs-new-amount"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — scrap",
+          "newSection": "Section 394, Sl. 4"
+        },
+        {
+          "order": 2,
+          "question": "A coal trader sells Rs 10 crore of coal during the year. Compare the TCS under old vs new rates.",
+          "options": [
+            { "text": "Old: Rs 10 lakh (1%); New: Rs 20 lakh (2%)", "correct": true },
+            { "text": "Old: Rs 20 lakh (2%); New: Rs 10 lakh (1%)", "correct": false },
+            { "text": "Old: Rs 50 lakh (5%); New: Rs 20 lakh (2%)", "correct": false },
+            { "text": "Old: Rs 10 lakh (1%); New: Rs 10 lakh (1%) — no change", "correct": false }
+          ],
+          "explanation": "Coal TCS was 1% (old) and is now 2% (new). On Rs 10 crore: Old = Rs 10 lakh. New = Rs 20 lakh. The TCS burden on coal buyers has doubled with the rate rationalization.",
+          "explanationWrong": "Old: 1% of Rs 10 crore = Rs 10 lakh. New: 2% of Rs 10 crore = Rs 20 lakh. The increase is Rs 10 lakh in absolute terms. However, TCS is adjustable against the buyer's tax liability, so it is timing — not a permanent cost.",
+          "tier": 3,
+          "subConcepts": ["coal-tcs-computation", "old-vs-new-comparison"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — coal",
+          "newSection": "Section 394, Sl. 5"
+        },
+        {
+          "order": 3,
+          "question": "What is the TDS rate on professional fees paid to a resident under the new Act?",
+          "options": [
+            { "text": "2%", "correct": false },
+            { "text": "5%", "correct": false },
+            { "text": "10%", "correct": true },
+            { "text": "15%", "correct": false }
+          ],
+          "explanation": "Professional fees attract TDS at 10% under Table 1, Sl. 9(i) of Section 393 (old Section 194J). The threshold is Rs 30,000 aggregate per year. This is a review from Unit 3.3.",
+          "explanationWrong": "Professional fees are at 10% under Table 1 (old 194J). The rate did not change in the new Act — this is purely a section renumbering.",
+          "tier": 3,
+          "subConcepts": ["professional-fees-tds", "table-1-rates"],
+          "isReview": true,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393, Table 1, Sl. 9(i)"
+        },
+        {
+          "order": 4,
+          "question": "A tendu leaves trader sells Rs 2 crore of tendu leaves. What is the TCS difference between old and new rates?",
+          "options": [
+            { "text": "Old: Rs 10 lakh (5%); New: Rs 4 lakh (2%) — saving of Rs 6 lakh for buyer", "correct": true },
+            { "text": "Old: Rs 4 lakh (2%); New: Rs 10 lakh (5%) — increase of Rs 6 lakh", "correct": false },
+            { "text": "Old: Rs 2 lakh (1%); New: Rs 4 lakh (2%) — increase of Rs 2 lakh", "correct": false },
+            { "text": "No difference — tendu rate was unchanged", "correct": false }
+          ],
+          "explanation": "Tendu leaves: Old 5% of Rs 2 crore = Rs 10 lakh. New 2% of Rs 2 crore = Rs 4 lakh. The buyer saves Rs 6 lakh in upfront TCS cash outflow. This is the largest absolute savings from the rate rationalization.",
+          "explanationWrong": "Old rate was 5%, new is 2%. On Rs 2 crore: Old TCS = Rs 10 lakh, New TCS = Rs 4 lakh. The buyer's cash flow improves by Rs 6 lakh. Tendu leaves saw the steepest rate cut — from 5% to 2%.",
+          "tier": 3,
+          "subConcepts": ["tendu-tcs-computation", "cash-flow-impact"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — tendu",
+          "newSection": "Section 394, Sl. 2"
+        },
+        {
+          "order": 5,
+          "question": "A car dealer sells a vehicle for Rs 15 lakh. What TCS must the dealer collect?",
+          "options": [
+            { "text": "Rs 15,000 (1% of Rs 15 lakh)", "correct": true },
+            { "text": "Rs 5,000 (1% of Rs 5 lakh excess over Rs 10 lakh)", "correct": false },
+            { "text": "Rs 30,000 (2% of Rs 15 lakh)", "correct": false },
+            { "text": "No TCS — motor vehicles are exempt from TCS under the new Act", "correct": false }
+          ],
+          "explanation": "Motor vehicle TCS at 1% on the full sale consideration of Rs 15 lakh = Rs 15,000. The Rs 10 lakh is a threshold for applicability — once exceeded, TCS applies on the full amount, not just the excess. The rate remains 1% (unchanged).",
+          "explanationWrong": "TCS = 1% of Rs 15 lakh = Rs 15,000. The Rs 10 lakh threshold determines whether TCS applies at all — it is not a deduction. Once the sale price exceeds Rs 10 lakh, the full consideration is subject to 1% TCS.",
+          "tier": 3,
+          "subConcepts": ["motor-vehicle-computation", "threshold-as-trigger"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        }
+      ]
+    },
+    {
+      "title": "LRS and Tour Package Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A parent remits Rs 15 lakh under LRS for a child's education abroad. What TCS does the bank collect under the new Act?",
+          "options": [
+            { "text": "Rs 10,000 (2% of Rs 5 lakh excess over Rs 10 lakh threshold)", "correct": true },
+            { "text": "Rs 30,000 (2% of Rs 15 lakh — full amount)", "correct": false },
+            { "text": "Rs 25,000 (5% of Rs 5 lakh — old rate on excess)", "correct": false },
+            { "text": "Rs 75,000 (5% of Rs 15 lakh)", "correct": false }
+          ],
+          "explanation": "LRS education TCS at 2% applies on the excess over Rs 10 lakh. Excess = Rs 15 lakh - Rs 10 lakh = Rs 5 lakh. TCS = 2% of Rs 5 lakh = Rs 10,000. Under the old rate of 5%, it would have been Rs 25,000.",
+          "explanationWrong": "TCS = 2% of excess over Rs 10 lakh = 2% of Rs 5 lakh = Rs 10,000. The Rs 10 lakh is an exemption threshold for LRS — TCS applies only on the excess, not the full amount. The rate reduction from 5% to 2% halves the outflow compared to the old Act.",
+          "tier": 3,
+          "subConcepts": ["lrs-education-computation", "excess-over-threshold"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)(a)",
+          "newSection": "Section 394, Sl. 7(a)"
+        },
+        {
+          "order": 2,
+          "question": "A person remits Rs 12 lakh under LRS for purchasing property abroad. What TCS is applicable?",
+          "options": [
+            { "text": "Rs 4,000 (2% of Rs 2 lakh excess)", "correct": false },
+            { "text": "Rs 40,000 (20% of Rs 2 lakh excess over Rs 10 lakh)", "correct": true },
+            { "text": "Rs 24,000 (2% of Rs 12 lakh)", "correct": false },
+            { "text": "Rs 2,40,000 (20% of Rs 12 lakh)", "correct": false }
+          ],
+          "explanation": "Property purchase abroad falls under 'other purposes' (Sl. 7(b)) at 20% — NOT education/medical (Sl. 7(a)) at 2%. TCS = 20% of excess over Rs 10 lakh = 20% of Rs 2 lakh = Rs 40,000. The purpose classification is critical.",
+          "explanationWrong": "This is Sl. 7(b) at 20%, not Sl. 7(a) at 2%. Property purchase is 'other purposes'. TCS = 20% of Rs 2 lakh excess = Rs 40,000. Getting the sub-entry wrong would result in collecting Rs 4,000 instead of Rs 40,000 — a 10x error.",
+          "tier": 3,
+          "subConcepts": ["lrs-other-computation", "purpose-classification"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)(b)",
+          "newSection": "Section 394, Sl. 7(b)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new compliance framework, Form 15G and Form 15H have been merged into which single form?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 133", "correct": false }
+          ],
+          "explanation": "Form 121 merges old Form 15G (for individuals below 60) and Form 15H (for senior citizens). A single declaration form now serves all ages for self-declaration of nil tax liability. This is a review from Unit 3.7.",
+          "explanationWrong": "Form 121 replaces both 15G and 15H. The age-based distinction is eliminated. Any person (not being a company or firm) with estimated nil tax liability can file Form 121 to request non-deduction of TDS.",
+          "tier": 3,
+          "subConcepts": ["form-121", "15g-15h-merger"],
+          "isReview": true,
+          "oldSection": "Section 197A, Forms 15G/15H",
+          "newSection": "Section 393(6), Form 121"
+        },
+        {
+          "order": 4,
+          "question": "A tour operator sells an overseas package worth Rs 3 lakh. Under the old Act, what TCS would apply vs under the new Act?",
+          "options": [
+            { "text": "Old: Rs 15,000 (5%); New: Rs 6,000 (2%)", "correct": true },
+            { "text": "Old: Rs 60,000 (20%); New: Rs 6,000 (2%)", "correct": false },
+            { "text": "Old: Nil (below Rs 7 lakh threshold); New: Rs 6,000 (2%)", "correct": false },
+            { "text": "Old: Rs 15,000 (5%); New: Nil (below threshold)", "correct": false }
+          ],
+          "explanation": "Under the old Act, the first Rs 7 lakh was at 5%, so Rs 3 lakh attracted 5% = Rs 15,000. Under the new Act, the flat 2% applies with no threshold, so Rs 3 lakh attracts 2% = Rs 6,000. The tour operator collects less now.",
+          "explanationWrong": "Old: 5% of Rs 3 lakh = Rs 15,000 (the tiered structure put this in the 5% band). New: 2% of Rs 3 lakh = Rs 6,000 (flat rate, no threshold). The customer's upfront cash outflow decreased by Rs 9,000.",
+          "tier": 3,
+          "subConcepts": ["overseas-tour-computation", "old-vs-new-amount"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        },
+        {
+          "order": 5,
+          "question": "Under the old Act, an overseas tour package worth Rs 12 lakh would attract tiered TCS. What was the total under the old tiered structure (5% up to Rs 7 lakh, 20% above)?",
+          "options": [
+            { "text": "Rs 1,35,000 (5% of Rs 7L + 20% of Rs 5L)", "correct": true },
+            { "text": "Rs 60,000 (5% of Rs 12 lakh)", "correct": false },
+            { "text": "Rs 2,40,000 (20% of Rs 12 lakh)", "correct": false },
+            { "text": "Rs 24,000 (2% of Rs 12 lakh)", "correct": false }
+          ],
+          "explanation": "Old tiered: 5% of Rs 7 lakh = Rs 35,000 + 20% of Rs 5 lakh (excess) = Rs 1,00,000. Total = Rs 1,35,000. Under the new flat 2%: Rs 24,000. The difference is Rs 1,11,000 — a massive reduction showing why the simplification benefits consumers.",
+          "explanationWrong": "Old tiered TCS = Rs 35,000 + Rs 1,00,000 = Rs 1,35,000. New flat TCS = 2% of Rs 12 lakh = Rs 24,000. The old structure collected 5.6x more. This dramatic reduction is the most impactful single change in the TCS rationalization.",
+          "tier": 3,
+          "subConcepts": ["tiered-computation", "old-vs-new-impact"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G) proviso",
+          "newSection": "Section 394, Sl. 8"
+        }
+      ]
+    },
+    {
+      "title": "Complex Multi-Entry Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A mining company sells Rs 5 crore of iron ore and Rs 2 crore of scrap in the same year. What is the total TCS under the new Act?",
+          "options": [
+            { "text": "Rs 14 lakh (2% of Rs 5 crore + 2% of Rs 2 crore)", "correct": true },
+            { "text": "Rs 9 lakh (1% of Rs 5 crore + 2% of Rs 2 crore)", "correct": false },
+            { "text": "Rs 7 lakh (1% of Rs 7 crore combined)", "correct": false },
+            { "text": "Rs 35 lakh (5% of Rs 7 crore combined)", "correct": false }
+          ],
+          "explanation": "Iron ore (Sl. 5) at 2% on Rs 5 crore = Rs 10 lakh. Scrap (Sl. 4) at 2% on Rs 2 crore = Rs 4 lakh. Total TCS = Rs 14 lakh. Both entries are now at the same uniform 2% rate, but each is computed separately on its respective sale value.",
+          "explanationWrong": "Total = Rs 10 lakh + Rs 4 lakh = Rs 14 lakh. Under the old Act: iron ore at 1% = Rs 5 lakh + scrap at 1% = Rs 2 lakh = Rs 7 lakh total. The new Act doubled the TCS from Rs 7 lakh to Rs 14 lakh.",
+          "tier": 3,
+          "subConcepts": ["multi-entry-tcs", "combined-computation"],
+          "isReview": false,
+          "oldSection": "Section 206C(1)",
+          "newSection": "Section 394, Sl. 4-5"
+        },
+        {
+          "order": 2,
+          "question": "A person makes LRS remittances of Rs 8 lakh for education and Rs 6 lakh for investment in the same year. What is the total TCS?",
+          "options": [
+            { "text": "Rs 1,20,000 (20% of Rs 6 lakh investment)", "correct": false },
+            { "text": "Rs 80,000 (20% of Rs 4 lakh excess under 7(b))", "correct": false },
+            { "text": "No TCS — education remittance is below Rs 10 lakh, and investment threshold applies separately", "correct": false },
+            { "text": "Rs 80,000 — each purpose has a separate Rs 10 lakh threshold; education below threshold, investment excess Rs 4 lakh at 20% from combined LRS limit", "correct": false }
+          ],
+          "explanation": "The Rs 10 lakh LRS threshold applies to the aggregate of ALL LRS remittances regardless of purpose. Total LRS = Rs 14 lakh, exceeding Rs 10 lakh by Rs 4 lakh. However, the purpose determines the rate applied to each remittance component above the threshold. The computation requires careful allocation — education at 2% and investment at 20% on their respective portions of the excess.",
+          "explanationWrong": "The LRS threshold is aggregate across all purposes. The total Rs 14 lakh exceeds Rs 10 lakh. The rate depends on the purpose of each remittance — education portions at 2%, investment portions at 20%. The allocation of the excess to each purpose determines the TCS amount.",
+          "tier": 3,
+          "subConcepts": ["lrs-mixed-purpose", "threshold-aggregation"],
+          "isReview": false,
+          "oldSection": "Section 206C(1G)",
+          "newSection": "Section 394, Sl. 7(a)-7(b)"
+        },
+        {
+          "order": 3,
+          "question": "Under the default framework in Section 398, an order declaring a deductor as assessee-in-default cannot be passed after how many years?",
+          "options": [
+            { "text": "4 years from the end of the relevant tax year", "correct": false },
+            { "text": "6 years from the end of the tax year in which deduction was required", "correct": true },
+            { "text": "2 years from the date of default", "correct": false },
+            { "text": "No time limit", "correct": false }
+          ],
+          "explanation": "Section 398 imposes a 6-year time limit for passing an order declaring a deductor as assessee-in-default, counted from the end of the tax year in which the deduction was required. This is a review from Unit 3.7.",
+          "explanationWrong": "The time limit is 6 years. This protects deductors from indefinite exposure to default proceedings. After 6 years, no fresh order can be passed even if a genuine default existed.",
+          "tier": 3,
+          "subConcepts": ["time-limit-default", "section-398"],
+          "isReview": true,
+          "oldSection": "Section 201",
+          "newSection": "Section 398"
+        },
+        {
+          "order": 4,
+          "question": "A timber merchant sells Rs 80 lakh of timber under a forest lease. Compare old TCS vs new TCS on this sale.",
+          "options": [
+            { "text": "Old: Rs 2,00,000 (2.5%); New: Rs 1,60,000 (2%)", "correct": true },
+            { "text": "Old: Rs 1,60,000 (2%); New: Rs 4,00,000 (5%)", "correct": false },
+            { "text": "Old: Rs 80,000 (1%); New: Rs 1,60,000 (2%)", "correct": false },
+            { "text": "No change — timber rate was always 2%", "correct": false }
+          ],
+          "explanation": "Old rate: 2.5% of Rs 80 lakh = Rs 2,00,000. New rate: 2% of Rs 80 lakh = Rs 1,60,000. Saving for buyer: Rs 40,000. Timber/forest produce saw a marginal reduction from 2.5% to 2% — the smallest rate change in the rationalization.",
+          "explanationWrong": "Old: 2.5% = Rs 2 lakh. New: 2% = Rs 1.6 lakh. Timber's reduction from 2.5% to 2% is the smallest rate change — just 0.5 percentage points. But on large volumes, the savings add up.",
+          "tier": 3,
+          "subConcepts": ["timber-tcs-computation", "marginal-reduction"],
+          "isReview": false,
+          "oldSection": "Section 206C(1) — timber",
+          "newSection": "Section 394, Sl. 3"
+        },
+        {
+          "order": 5,
+          "question": "A dealer sells a car for Rs 9.5 lakh and a separate car for Rs 12 lakh to the same buyer. What is the total TCS?",
+          "options": [
+            { "text": "Rs 21,500 (1% of Rs 21.5 lakh combined)", "correct": false },
+            { "text": "Rs 12,000 (1% of Rs 12 lakh — only the car exceeding Rs 10 lakh)", "correct": true },
+            { "text": "Rs 2,000 (1% of Rs 2 lakh excess over Rs 10 lakh)", "correct": false },
+            { "text": "No TCS — neither car individually exceeds Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "Motor vehicle TCS threshold is per transaction. Car 1 at Rs 9.5 lakh: below Rs 10 lakh, no TCS. Car 2 at Rs 12 lakh: exceeds Rs 10 lakh, TCS = 1% of Rs 12 lakh = Rs 12,000. Total TCS = Rs 12,000. The threshold is not aggregate — each sale is assessed independently.",
+          "explanationWrong": "TCS = Rs 12,000 (only on the Rs 12 lakh car). The Rs 10 lakh threshold is per transaction — the Rs 9.5 lakh car is below threshold even though the same buyer purchased both. TCS on the Rs 12 lakh car applies on the full consideration, not just the excess.",
+          "tier": 3,
+          "subConcepts": ["motor-vehicle-per-transaction", "threshold-application"],
+          "isReview": false,
+          "oldSection": "Section 206C(1F)",
+          "newSection": "Section 394, Sl. 6"
+        }
+      ]
+    }
+  ]
+}

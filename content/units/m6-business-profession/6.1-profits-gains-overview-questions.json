@@ -1,0 +1,835 @@
+{
+  "unit": "6.1",
+  "title": "Profits & Gains of Business or Profession — Overview",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — PGBP Chargeability",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 28 (chargeability of profits and gains of business or profession) maps to which new section?",
+          "options": [
+            { "text": "Section 26", "correct": true },
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 27", "correct": false },
+            { "text": "Section 25", "correct": false }
+          ],
+          "explanation": "Old Section 28 (chargeability of PGBP income) maps to new Section 26. The entire PGBP chapter shifts: 28→26, 29→27. The 11 categories of PGBP income listed in old Section 28 remain unchanged in substance.",
+          "explanationWrong": "Common mix-up! Section 26 is correct, not 28. The 2025 Act renumbers the PGBP chapter — old 28 becomes new 26, old 29 becomes new 27. If you picked Section 28, you're thinking of the old Act numbering. The new Section 28 actually deals with allowable deductions.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "chargeability-pgbp", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 29 (income from profits and gains of business or profession, how computed) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 26", "correct": false },
+            { "text": "Section 27", "correct": true },
+            { "text": "Section 29", "correct": false },
+            { "text": "Section 30", "correct": false }
+          ],
+          "explanation": "Old Section 29 (computation of PGBP income) maps to new Section 27. This section continues to provide the basic formula: income chargeable = profits and gains minus allowable deductions.",
+          "explanationWrong": "Section 27 is correct. Old 29→new 27 follows the same downward shift pattern as 28→26. If you picked Section 29, that's the old Act number — the new Section 29 deals with specific deductions (rent, repairs, insurance — carved out from old Section 36).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "computation-pgbp", "section-27"],
+          "isReview": false,
+          "oldSection": "Section 29",
+          "newSection": "Section 27"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section consolidates the five heads of income, including 'Profits and Gains of Business or Profession'?",
+          "options": [
+            { "text": "Section 13", "correct": true },
+            { "text": "Section 14", "correct": false },
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 26", "correct": false }
+          ],
+          "explanation": "Section 13 of the ITA 2025 lists the five heads of income, replacing old Section 14. This was covered in earlier modules on the new Act's structure.",
+          "explanationWrong": "This trips up most CAs. Section 13 is the new provision listing all five heads. Old Section 14 did this in the 1961 Act. Section 26 is the PGBP chargeability section, not the heads-of-income listing.",
+          "tier": 1,
+          "subConcepts": ["heads-of-income", "section-13"],
+          "isReview": true,
+          "oldSection": "Section 14",
+          "newSection": "Section 13"
+        },
+        {
+          "order": 4,
+          "question": "How many categories of income are chargeable under the PGBP head in new Section 26 compared to old Section 28?",
+          "options": [
+            { "text": "Reduced from 11 to 8", "correct": false },
+            { "text": "Increased from 11 to 14", "correct": false },
+            { "text": "Unchanged — 11 categories in both", "correct": true },
+            { "text": "Reduced from 14 to 11", "correct": false }
+          ],
+          "explanation": "The 11 income categories chargeable under PGBP remain unchanged in substance. The 2025 Act retains all categories from old Section 28 — trade/profession profits, compensation, export incentives, Duty Drawback, DEPB, keyman insurance, interest on securities, etc.",
+          "explanationWrong": "Common mix-up! The number stays at 11. Unlike the TDS chapter where massive consolidation happened, the PGBP chargeability list is a direct lift — same 11 categories, just renumbered from Section 28 to Section 26.",
+          "tier": 1,
+          "subConcepts": ["pgbp-categories", "section-26", "no-change"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is NOT one of the 11 categories of income chargeable under new Section 26 (PGBP)?",
+          "options": [
+            { "text": "Compensation for termination of agency", "correct": false },
+            { "text": "Keyman insurance proceeds received by a business", "correct": false },
+            { "text": "Rental income from a residential property", "correct": true },
+            { "text": "Export incentives and Duty Drawback", "correct": false }
+          ],
+          "explanation": "Rental income from residential property falls under the 'Income from House Property' head (new Sections 20-25), not PGBP. Even if the assessee is in the real estate business, rental income from property held as investment goes under HP, not PGBP.",
+          "explanationWrong": "This trips up most CAs. Residential rental income is taxed under House Property, not PGBP — even in the 2025 Act. Compensation for agency termination, keyman insurance proceeds, and export incentives are all specifically listed in Section 26.",
+          "tier": 1,
+          "subConcepts": ["pgbp-categories", "residential-rental-exclusion", "head-classification"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "Method of Accounting — Section 276",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 145 (method of accounting) has been renumbered to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 145", "correct": false },
+            { "text": "Section 276", "correct": true },
+            { "text": "Section 175", "correct": false },
+            { "text": "Section 245", "correct": false }
+          ],
+          "explanation": "Old Section 145 maps to new Section 276. Despite the dramatic renumbering (145→276), the substantive provisions on method of accounting — cash vs mercantile, ICDS compliance, AO's power to reject books — remain largely intact.",
+          "explanationWrong": "Section 276 is correct. This is one of the bigger number jumps in the 2025 Act — 145 to 276. The provision moves from Chapter XIV (Procedure for Assessment) in the old Act to a different chapter in the new Act, but the content is substantively the same.",
+          "tier": 1,
+          "subConcepts": ["method-of-accounting", "section-276", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 276, which two methods of accounting are recognised for computing PGBP income?",
+          "options": [
+            { "text": "Cash basis and mercantile basis", "correct": true },
+            { "text": "Cash basis and hybrid basis", "correct": false },
+            { "text": "Mercantile basis and fair value basis", "correct": false },
+            { "text": "Accrual basis and receipt basis", "correct": false }
+          ],
+          "explanation": "Section 276 continues to recognise only cash basis and mercantile (accrual) basis. The hybrid method (mixing cash for some items and accrual for others) is not permitted. This is unchanged from old Section 145.",
+          "explanationWrong": "Common mix-up! Only cash and mercantile are recognised — same as the old Act. The term 'mercantile' is the statutory term used in the Act, though it means the same as 'accrual'. Hybrid/mixed methods remain prohibited.",
+          "tier": 1,
+          "subConcepts": ["method-of-accounting", "cash-mercantile", "section-276"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025 transition provisions, if an assessee files a return for AY 2025-26 (income earned before April 1, 2026), which Act governs the computation?",
+          "options": [
+            { "text": "ITA 2025 exclusively", "correct": false },
+            { "text": "ITA 1961, under the parallel operation rule in Section 536(1)", "correct": true },
+            { "text": "Whichever Act the assessee elects", "correct": false },
+            { "text": "ITA 2025 with transitional adjustments", "correct": false }
+          ],
+          "explanation": "Section 536(1) establishes that the old Act continues to govern assessment of income earned in any tax year before April 1, 2026. AY 2025-26 income was earned before the new Act's applicability date.",
+          "explanationWrong": "This trips up most CAs. The parallel operation rule in Section 536(1) is clear — pre-April-2026 income stays under the 1961 Act. There is no election. The 2025 Act applies only to income of tax year 2026-27 onwards.",
+          "tier": 1,
+          "subConcepts": ["parallel-operation", "section-536", "transition"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 276, when can the Assessing Officer reject the books of account maintained by an assessee?",
+          "options": [
+            { "text": "Only if the books are not maintained at all", "correct": false },
+            { "text": "Only if ICDS are not followed", "correct": false },
+            { "text": "If the AO is not satisfied about the correctness or completeness of the accounts", "correct": true },
+            { "text": "Only with prior approval of the Principal Commissioner", "correct": false }
+          ],
+          "explanation": "Under Section 276, the AO retains the power to reject books if not satisfied about their correctness or completeness — and can then make a best judgement assessment. This power is unchanged from old Section 145(3).",
+          "explanationWrong": "The AO's discretion to reject books on correctness/completeness grounds is the correct answer. This is not limited to ICDS non-compliance or complete absence of books. It's a subjective satisfaction test — same as old Section 145(3). No prior approval is needed.",
+          "tier": 1,
+          "subConcepts": ["ao-power", "book-rejection", "section-276"],
+          "isReview": false,
+          "oldSection": "Section 145(3)",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, Income Computation and Disclosure Standards (ICDS) notified by the Central Government apply to which category of assessees?",
+          "options": [
+            { "text": "All assessees regardless of method of accounting", "correct": false },
+            { "text": "Assessees following the mercantile system of accounting", "correct": true },
+            { "text": "Only companies and firms", "correct": false },
+            { "text": "Only assessees with turnover exceeding Rs 1 crore", "correct": false }
+          ],
+          "explanation": "ICDS apply specifically to assessees following the mercantile (accrual) system — as was the case under old Section 145(2). Cash-basis assessees are not subject to ICDS. The 2025 Act continues this framework under Section 276.",
+          "explanationWrong": "Common mix-up! ICDS apply only to mercantile-basis assessees. They were introduced to standardise accrual accounting for tax purposes. Cash-basis assessees recognise income on receipt, so ICDS timing adjustments don't apply to them.",
+          "tier": 1,
+          "subConcepts": ["icds", "mercantile-system", "section-276"],
+          "isReview": false,
+          "oldSection": "Section 145(2)",
+          "newSection": "Section 276"
+        }
+      ]
+    },
+    {
+      "title": "Speculative Transactions & Business Classification",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, speculative transactions are deemed to be a separate and distinct business. Where is this rule now codified?",
+          "options": [
+            { "text": "Section 26 (chargeability)", "correct": true },
+            { "text": "Section 58 (presumptive taxation)", "correct": false },
+            { "text": "Section 276 (method of accounting)", "correct": false },
+            { "text": "Section 33 (depreciation)", "correct": false }
+          ],
+          "explanation": "The rule that speculative transactions constitute a separate and distinct business continues under new Section 26. This ensures speculative losses can only be set off against speculative profits — the same ring-fencing as old Section 28.",
+          "explanationWrong": "Section 26 is correct. The speculative transaction rule sits in the chargeability section itself, not in presumptive taxation or depreciation. This ring-fencing ensures speculative losses cannot reduce regular business income.",
+          "tier": 1,
+          "subConcepts": ["speculative-transactions", "distinct-business", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 2,
+          "question": "A commodity trader settles a forward contract by paying the price difference without taking delivery. Under the ITA 2025, this transaction is classified as:",
+          "options": [
+            { "text": "Regular business transaction", "correct": false },
+            { "text": "Speculative transaction — deemed separate business", "correct": true },
+            { "text": "Capital gains transaction", "correct": false },
+            { "text": "Income from other sources", "correct": false }
+          ],
+          "explanation": "A contract settled by paying differences without delivery of the commodity is a speculative transaction. Under Section 26, such transactions are deemed a separate and distinct business — unchanged from the old Act's treatment.",
+          "explanationWrong": "This trips up most CAs. Settlement by difference (without delivery) is the hallmark of a speculative transaction. Even though the trader is in the commodity business, non-delivery settlement makes it speculative. Losses from this can only offset speculative gains.",
+          "tier": 1,
+          "subConcepts": ["speculative-transactions", "settlement-by-difference", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28/43(5)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section deals with set-off and carry-forward of losses, ensuring speculative business losses are ring-fenced?",
+          "options": [
+            { "text": "Section 155 (set-off of losses within the same head)", "correct": true },
+            { "text": "Section 26 (chargeability)", "correct": false },
+            { "text": "Section 276 (method of accounting)", "correct": false },
+            { "text": "Section 58 (presumptive taxation)", "correct": false }
+          ],
+          "explanation": "New Section 155 deals with set-off of losses. The rule that speculative business loss can only be set off against speculative business profit continues — this was governed by old Section 73.",
+          "explanationWrong": "Section 155 is correct. While Section 26 deems speculative transactions a separate business, the actual set-off and carry-forward mechanics are in Section 155 (corresponding to old Section 73). This was covered in earlier modules on loss provisions.",
+          "tier": 1,
+          "subConcepts": ["loss-set-off", "speculative-loss", "section-155"],
+          "isReview": true,
+          "oldSection": "Section 73",
+          "newSection": "Section 155"
+        },
+        {
+          "order": 4,
+          "question": "An assessee carries on both a textile manufacturing business and intraday share trading. Under the ITA 2025, how are these treated for computing PGBP income?",
+          "options": [
+            { "text": "Both are treated as one business — profits and losses can be combined", "correct": false },
+            { "text": "Textile business is PGBP; share trading is 'Income from Other Sources'", "correct": false },
+            { "text": "Two separate businesses: textile (regular) and intraday trading (speculative), with losses ring-fenced", "correct": true },
+            { "text": "Both are speculative businesses", "correct": false }
+          ],
+          "explanation": "Intraday share trading (settled without delivery) is a speculative transaction deemed a separate business under Section 26. The textile business is a regular business. Losses from intraday trading cannot be set off against textile manufacturing profits.",
+          "explanationWrong": "This trips up most CAs. Only the intraday share trading is speculative — it's settled by price difference without delivery. The textile business is regular PGBP. They are two separate businesses by statutory fiction, and speculative losses stay ring-fenced.",
+          "tier": 1,
+          "subConcepts": ["speculative-transactions", "business-classification", "loss-ring-fencing"],
+          "isReview": false,
+          "oldSection": "Section 28/43(5)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, which of the following transactions is explicitly excluded from being treated as a speculative transaction?",
+          "options": [
+            { "text": "Intraday equity share trading settled without delivery", "correct": false },
+            { "text": "Commodity forward contracts settled by paying differences", "correct": false },
+            { "text": "Hedging contracts entered into by a trader to guard against loss through price fluctuation", "correct": true },
+            { "text": "All commodity contracts regardless of settlement", "correct": false }
+          ],
+          "explanation": "Hedging contracts by traders to protect against price fluctuation in the course of their regular business are excluded from the definition of speculative transactions. This exception — originally in old Section 43(5) — continues in the 2025 Act.",
+          "explanationWrong": "Common mix-up! Hedging is the exception. If a commodity trader uses a forward contract to protect existing inventory against price drops, that's hedging — not speculation. The contract has a genuine business purpose, not a profit-from-difference motive.",
+          "tier": 1,
+          "subConcepts": ["speculative-transactions", "hedging-exception", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 43(5)",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "PGBP Income Categories — Deep Dive",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under old Section 28, compensation received at termination of a managing agency was taxable as PGBP income. In the ITA 2025, why does this category survive in Section 26 despite managing agencies being abolished?",
+          "options": [
+            { "text": "Because managing agencies have been revived under the Companies Act, 2013", "correct": false },
+            { "text": "It's a drafting legacy — the provision is retained for any pending disputes or legacy payments still being assessed", "correct": true },
+            { "text": "Managing agencies still operate under SEBI regulations", "correct": false },
+            { "text": "It has been removed; only the 1961 Act retained it", "correct": false }
+          ],
+          "explanation": "Managing agencies were abolished by the Companies Act, 1956 amendments. The PGBP provision survives as a drafting legacy — any pending assessments or disputes involving pre-abolition payments still need a charging section. The 2025 Act chose continuity over cleanup.",
+          "explanationWrong": "This trips up most CAs. The provision is a legacy holdover. Managing agencies don't exist anymore, but any pending disputes or assessments for older years still need a statutory basis. The 2025 Act didn't prune such provisions.",
+          "tier": 2,
+          "subConcepts": ["managing-agency", "drafting-legacy", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28(ii)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 2,
+          "question": "Why does the ITA 2025 continue to treat keyman insurance proceeds received by a business entity as PGBP income rather than 'Income from Other Sources'?",
+          "options": [
+            { "text": "Because keyman insurance is always taken for business purposes — insuring a key employee's life to protect business interests", "correct": true },
+            { "text": "Because all insurance proceeds are taxed under PGBP", "correct": false },
+            { "text": "Because the premium was claimed as a business deduction, so proceeds must be PGBP", "correct": false },
+            { "text": "Because LIC specifically classifies it as business insurance", "correct": false }
+          ],
+          "explanation": "Keyman insurance is taken by a business to protect against financial loss from the death/disability of a key employee. Since the policy exists solely for business continuity, the proceeds are business income. If the policy is later assigned to the keyman, the character changes.",
+          "explanationWrong": "Common mix-up! The 'premium was deducted' argument is a common misconception — that's a consequence, not the reason. The real reason is the business nexus: the policy protects business interests. Not all insurance proceeds are PGBP — personal insurance proceeds may be exempt.",
+          "tier": 2,
+          "subConcepts": ["keyman-insurance", "business-nexus", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28(vi)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, income from house property is computed under Sections 20-25. If a taxpayer owns 3 properties — 2 self-occupied and 1 let out — how many can be treated as self-occupied for nil annual value?",
+          "options": [
+            { "text": "Only 1 property", "correct": false },
+            { "text": "Up to 2 properties", "correct": true },
+            { "text": "All 3 properties", "correct": false },
+            { "text": "None — all must be valued at expected rent", "correct": false }
+          ],
+          "explanation": "Under new Section 21, up to 2 self-occupied properties can have nil annual value — the same rule as introduced by the Finance Act, 2019 amendment to old Section 23(2). This was covered in Unit 5.1.",
+          "explanationWrong": "This trips up most CAs. Since Finance Act, 2019, the limit was raised from 1 to 2 self-occupied properties with nil annual value. The 2025 Act carries this forward. The third property would be deemed let-out.",
+          "tier": 2,
+          "subConcepts": ["self-occupied-property", "nil-annual-value", "section-21"],
+          "isReview": true,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, why is it significant that the 11 PGBP categories in Section 26 remain identical to old Section 28, despite the Act's stated goal of simplification?",
+          "options": [
+            { "text": "Because these categories are constitutionally mandated", "correct": false },
+            { "text": "Because changing them would require amending ICDS and AS simultaneously", "correct": false },
+            { "text": "Because the chargeability net was already comprehensive — the simplification effort focused on deductions and compliance, not the charging section", "correct": true },
+            { "text": "Because the Law Commission recommended no changes", "correct": false }
+          ],
+          "explanation": "The PGBP charging section was already comprehensive — it captured all business income variants. The 2025 Act's simplification focused on deduction provisions (merging Sections 30+31+38, reorganising Section 36) and compliance procedures, not on the income categories themselves.",
+          "explanationWrong": "This trips up most CAs. Simplification doesn't mean changing everything. The categories were already well-settled by decades of jurisprudence. The heavy lifting was in deductions (old Sections 30-43) where multiple sections were merged, split, and reorganised.",
+          "tier": 2,
+          "subConcepts": ["simplification-focus", "deduction-reorganisation", "no-change-charging"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 5,
+          "question": "A company receives Rs 5 lakh as compensation from a supplier for not executing a contracted supply. Under the ITA 2025, this is taxable under:",
+          "options": [
+            { "text": "Capital gains — it's compensation for loss of a right", "correct": false },
+            { "text": "Income from Other Sources — it's not from regular business", "correct": false },
+            { "text": "PGBP under Section 26 — compensation arising from business", "correct": true },
+            { "text": "Exempt under Section 10 — it's damages, not income", "correct": false }
+          ],
+          "explanation": "Compensation received in the course of business operations — including for non-execution of contracts — falls under PGBP. Section 26 captures all profits and gains arising from business, including such compensation. This is unchanged from old Section 28.",
+          "explanationWrong": "Common mix-up! This is not capital gains (no capital asset is being transferred) and not 'Other Sources' (it arises directly from business operations). Damages received in a business context are business income, not exempt.",
+          "tier": 2,
+          "subConcepts": ["compensation-income", "business-nexus", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "Accounting Method Implications",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under new Section 276, an assessee following the mercantile system raises an invoice on March 25, 2027 but receives payment on April 10, 2027. In which tax year is the income recognised?",
+          "options": [
+            { "text": "Tax year 2027-28 (when payment is received)", "correct": false },
+            { "text": "Tax year 2026-27 (when the right to receive accrues)", "correct": true },
+            { "text": "Split between both years", "correct": false },
+            { "text": "Whichever year the assessee chooses", "correct": false }
+          ],
+          "explanation": "Under the mercantile system, income is recognised when the right to receive it accrues — i.e., when the invoice is raised (March 25, 2027). Payment date is irrelevant. This is tax year 2026-27. This principle is unchanged from old Section 145.",
+          "explanationWrong": "This trips up most CAs. Under mercantile/accrual accounting, income accrues when earned, not when received. The March 25 invoice falls in tax year 2026-27 (April 1, 2026 to March 31, 2027). Only cash-basis assessees recognise on receipt.",
+          "tier": 2,
+          "subConcepts": ["mercantile-system", "accrual-recognition", "section-276"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, can an assessee change their method of accounting (cash to mercantile or vice versa) without the AO's permission?",
+          "options": [
+            { "text": "Yes — complete freedom to change every year", "correct": false },
+            { "text": "Yes — but the method must be regularly and consistently employed, and any change is subject to AO scrutiny", "correct": true },
+            { "text": "No — prior written approval from CIT is mandatory", "correct": false },
+            { "text": "No — the method chosen in the first return is permanent", "correct": false }
+          ],
+          "explanation": "Section 276 requires that the method be 'regularly employed' by the assessee. A change is permitted but the AO can reject it if not satisfied with the reasons. There's no formal prior-approval process, but the AO's scrutiny power is the practical check.",
+          "explanationWrong": "Common mix-up! There's no statutory 'lock-in' or mandatory CIT approval for changing methods. But 'regularly employed' means consistent use — abrupt changes without business justification will trigger AO scrutiny and possible rejection under Section 276.",
+          "tier": 2,
+          "subConcepts": ["method-change", "ao-scrutiny", "regularly-employed"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section provides for deemed income on transfer of property below fair market value, applicable across all heads including PGBP?",
+          "options": [
+            { "text": "Section 60", "correct": false },
+            { "text": "Section 57", "correct": false },
+            { "text": "Section 14(2) — anti-avoidance provision", "correct": true },
+            { "text": "Section 276", "correct": false }
+          ],
+          "explanation": "Section 14(2) of the ITA 2025 contains the anti-avoidance provision for transfers below FMV, applicable across heads. This corresponds to old Section 50C/50CA/56(2)(x) provisions which have been consolidated.",
+          "explanationWrong": "This trips up most CAs. The anti-avoidance provisions for below-FMV transfers have been consolidated under Section 14(2) in the 2025 Act. Under the old Act, these were scattered across 50C (immovable property), 50CA (shares), and 56(2)(x).",
+          "tier": 2,
+          "subConcepts": ["anti-avoidance", "below-fmv-transfer", "section-14"],
+          "isReview": true,
+          "oldSection": "Section 50C/50CA/56(2)(x)",
+          "newSection": "Section 14(2)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee following the cash system of accounting receives an advance of Rs 2 lakh for services to be rendered next year. Under Section 276, is this taxable in the year of receipt?",
+          "options": [
+            { "text": "No — income recognition follows service completion, regardless of method", "correct": false },
+            { "text": "Yes — under cash system, all receipts of a revenue nature are taxable when received", "correct": true },
+            { "text": "Only 50% is taxable in the year of receipt", "correct": false },
+            { "text": "No — advances are always treated as liabilities", "correct": false }
+          ],
+          "explanation": "Under the cash system, income is recognised on receipt. An advance received for future services is taxable in the year of receipt because the cash method doesn't defer recognition to service completion. This is unchanged from old Section 145.",
+          "explanationWrong": "Common mix-up! Many confuse cash-basis treatment with the accounting concept of 'unearned revenue'. Under the cash system in Section 276, a revenue receipt is taxable when received. Deferrals are a mercantile-system concept. The cash system is receipt-driven.",
+          "tier": 2,
+          "subConcepts": ["cash-system", "advance-receipts", "recognition-timing"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, ICDS-X (Provisions, Contingent Liabilities and Contingent Assets) requires that a provision be recognised only if it meets certain criteria. How does this interact with PGBP deduction claims?",
+          "options": [
+            { "text": "ICDS provisions override all Accounting Standard requirements", "correct": false },
+            { "text": "Provisions not meeting ICDS criteria are added back to PGBP income even if recognised under AS/IndAS", "correct": true },
+            { "text": "ICDS is advisory — assessees can follow either ICDS or AS", "correct": false },
+            { "text": "ICDS applies only to provisions exceeding Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "ICDS overrides accounting standards for tax computation purposes. If a provision is recognised in books under AS/IndAS but doesn't meet ICDS-X criteria (present obligation from past event, probable outflow, reliable estimate), it must be added back when computing PGBP income.",
+          "explanationWrong": "This trips up most CAs. ICDS is mandatory, not advisory. For tax purposes, provisions that fail ICDS-X criteria get added back — even if the company's audited accounts under IndAS recognise them. There's no monetary threshold; all provisions are tested.",
+          "tier": 2,
+          "subConcepts": ["icds", "provisions-contingent", "addback"],
+          "isReview": false,
+          "oldSection": "Section 145(2)",
+          "newSection": "Section 276"
+        }
+      ]
+    },
+    {
+      "title": "What Changed vs What Didn't",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following is the BEST summary of changes to the PGBP chargeability section (old Section 28 → new Section 26)?",
+          "options": [
+            { "text": "Major overhaul — most categories were rewritten or removed", "correct": false },
+            { "text": "Cosmetic renumbering only — 11 categories unchanged in substance, section number shifted from 28 to 26", "correct": true },
+            { "text": "Two new categories were added for digital businesses", "correct": false },
+            { "text": "Speculative transactions were moved out to a separate chapter", "correct": false }
+          ],
+          "explanation": "The chargeability section is a clean renumber — 28→26. All 11 income categories, including speculative transaction treatment, survive intact. No additions, no removals. The real action in the PGBP chapter is in the deduction sections.",
+          "explanationWrong": "Common mix-up! Don't confuse the deduction overhaul with the chargeability section. Section 26 (chargeability) is virtually identical to old Section 28. The major changes — mergers, splits, prohibited expenditure expansion — are all in Sections 28-37 (deductions).",
+          "tier": 2,
+          "subConcepts": ["what-changed", "chargeability-unchanged", "deduction-changes"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 2,
+          "question": "The method of accounting provision moved from old Section 145 to new Section 276. Apart from renumbering, what substantive change occurred?",
+          "options": [
+            { "text": "The hybrid method is now permitted", "correct": false },
+            { "text": "ICDS compliance is no longer mandatory", "correct": false },
+            { "text": "No substantive change — cash/mercantile methods, ICDS compliance, and AO rejection power all remain the same", "correct": true },
+            { "text": "The mercantile method is now mandatory for all assessees above Rs 1 crore turnover", "correct": false }
+          ],
+          "explanation": "Section 276 is a substantive copy of old Section 145. Cash and mercantile remain the two methods. ICDS compliance is still mandatory for mercantile assessees. The AO's power to reject books continues. The big number jump (145→276) masks the lack of substantive change.",
+          "explanationWrong": "This trips up most CAs. The 131-number jump from 145 to 276 makes it look like a completely different provision — but read the text and it's nearly identical. Hybrid method remains prohibited, ICDS remains mandatory, and there's no turnover-based compulsion.",
+          "tier": 2,
+          "subConcepts": ["section-276", "no-substantive-change", "method-of-accounting"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, for a business with turnover below Rs 2 crore, what is the threshold for maintaining books of account?",
+          "options": [
+            { "text": "Rs 25 lakh turnover or Rs 2.5 lakh income for business; Rs 10 lakh gross receipts or Rs 2.5 lakh income for profession", "correct": true },
+            { "text": "All businesses must maintain books regardless of turnover", "correct": false },
+            { "text": "Rs 1 crore turnover", "correct": false },
+            { "text": "No books required if opting for presumptive taxation", "correct": false }
+          ],
+          "explanation": "The book-maintenance thresholds under Section 44AA (old) / corresponding new section continue: Rs 25 lakh turnover or Rs 2.5 lakh income for business, Rs 10 lakh gross receipts or Rs 2.5 lakh income for specified professions.",
+          "explanationWrong": "Common mix-up! The thresholds are specific: Rs 25L/Rs 2.5L for business, Rs 10L/Rs 2.5L for profession. Not all businesses must maintain books — and while presumptive taxation assessees are generally relieved, this was covered in earlier compliance modules.",
+          "tier": 2,
+          "subConcepts": ["book-maintenance", "thresholds", "section-44AA"],
+          "isReview": true,
+          "oldSection": "Section 44AA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A CA firm's client asks: 'Under the new Act, has the definition of speculative transaction changed?' What is the correct answer?",
+          "options": [
+            { "text": "Yes — cryptocurrency trading is now explicitly included as speculative", "correct": false },
+            { "text": "Yes — the delivery exception for shares has been removed", "correct": false },
+            { "text": "No — the definition is unchanged: contracts settled without delivery remain speculative, with the same exceptions for hedging, exchange-traded derivatives, etc.", "correct": true },
+            { "text": "No, but the set-off rules have changed — speculative losses can now offset regular business income", "correct": false }
+          ],
+          "explanation": "The speculative transaction definition is unchanged. Settlement without delivery = speculative. Exceptions for hedging, exchange-traded derivatives, and commodity exchange transactions all continue. Loss set-off remains ring-fenced — speculative against speculative only.",
+          "explanationWrong": "This trips up most CAs. Everything about speculative transactions stays the same — definition, exceptions, and loss set-off rules. Cryptocurrency is taxed under a separate regime (Section 115BBH equivalent), not as speculative transactions.",
+          "tier": 2,
+          "subConcepts": ["speculative-definition", "no-change", "client-advice"],
+          "isReview": false,
+          "oldSection": "Section 43(5)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, which of the following heads of income CANNOT include rental income from a residential property?",
+          "options": [
+            { "text": "Income from House Property", "correct": false },
+            { "text": "Profits and Gains of Business or Profession", "correct": true },
+            { "text": "Income from Other Sources", "correct": false },
+            { "text": "Both PGBP and Income from Other Sources", "correct": false }
+          ],
+          "explanation": "Residential rental income is excluded from PGBP — it falls under 'Income from House Property' regardless of whether the assessee is in the real estate business. This is a specific exclusion that continues in the 2025 Act.",
+          "explanationWrong": "Common mix-up! Even real estate businesses must show residential rental income under HP, not PGBP. Commercial property rental by a business may sometimes be PGBP, but residential rental specifically cannot be. 'Income from Other Sources' is incorrect because HP is the designated head.",
+          "tier": 2,
+          "subConcepts": ["residential-rental-exclusion", "head-classification", "section-26"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "Client Scenarios — PGBP Classification",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A partner in your CA firm asks an article clerk: 'Under the new Act, is Section 28 still the PGBP charging section?' The clerk says yes. Is the clerk correct?",
+          "options": [
+            { "text": "Yes — Section 28 remains the PGBP chargeability section", "correct": false },
+            { "text": "No — Section 28 in the new Act deals with allowable deductions (merged rent/repairs/insurance), not chargeability", "correct": true },
+            { "text": "No — Section 28 has been deleted entirely", "correct": false },
+            { "text": "Yes — but only for speculative transactions", "correct": false }
+          ],
+          "explanation": "Classic article clerk error! In the 2025 Act, Section 28 is the merged deduction section (old Sections 30+31+38). The PGBP chargeability section is now Section 26. The clerk is applying old Act numbering to the new Act.",
+          "explanationWrong": "This trips up most CAs. New Section 28 = merged deductions (rent, repairs, insurance — old 30+31+38). New Section 26 = chargeability (old 28). The clerk confused old and new numbering. In a live filing, this mistake could cause wrong section references.",
+          "tier": 3,
+          "subConcepts": ["section-mapping-error", "section-28-new", "article-clerk-scenario"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 2,
+          "question": "A client calls and says: 'I've been running my textile business on a cash basis for 15 years. Under the new Act, am I forced to switch to mercantile?' What do you advise?",
+          "options": [
+            { "text": "Yes — the 2025 Act mandates mercantile for all businesses", "correct": false },
+            { "text": "No — Section 276 continues to permit both cash and mercantile methods, same as old Section 145. No forced switch.", "correct": true },
+            { "text": "Yes — but only if turnover exceeds Rs 1 crore", "correct": false },
+            { "text": "It depends on the CBDT notification expected in 2027", "correct": false }
+          ],
+          "explanation": "Section 276 retains both cash and mercantile methods with no change. A 15-year cash-basis assessee can continue without any forced switch. The 'regularly employed' requirement actually supports continuity.",
+          "explanationWrong": "Common mix-up! There is no forced switch to mercantile under the 2025 Act. Section 276 is substantively identical to old Section 145. The client can continue on cash basis. Don't confuse ICDS (which applies to mercantile assessees only) with a method mandate.",
+          "tier": 3,
+          "subConcepts": ["client-advice", "cash-basis-continuity", "section-276"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the concept of 'tax year' replaces 'previous year' and 'assessment year'. What is the tax year for income earned between April 1, 2026 and March 31, 2027?",
+          "options": [
+            { "text": "Tax year 2027-28", "correct": false },
+            { "text": "Tax year 2026-27", "correct": true },
+            { "text": "Assessment Year 2027-28", "correct": false },
+            { "text": "Previous Year 2026-27", "correct": false }
+          ],
+          "explanation": "Under the ITA 2025, the tax year is the year in which income is earned — so income earned April 1, 2026 to March 31, 2027 is tax year 2026-27. No more separate 'assessment year'. This was covered in Unit 1.1.",
+          "explanationWrong": "This trips up most CAs. The 2025 Act abolishes the previous year/assessment year distinction. The tax year IS the year of earning. So 2026-27 income = tax year 2026-27. If you picked 'AY 2027-28', you're still thinking in old Act terms.",
+          "tier": 3,
+          "subConcepts": ["tax-year", "previous-year-abolished", "section-2"],
+          "isReview": true,
+          "oldSection": "Section 3",
+          "newSection": "Section 2"
+        },
+        {
+          "order": 4,
+          "question": "A partner disputes your advice to a mutual fund company client. He says: 'Keyman insurance proceeds should be taxed as capital gains since the policy is a capital asset.' How do you respond?",
+          "options": [
+            { "text": "The partner is correct — keyman insurance proceeds are capital gains", "correct": false },
+            { "text": "It depends on whether the policy was held for more than 36 months", "correct": false },
+            { "text": "Section 26 specifically charges keyman insurance proceeds as PGBP income — this overrides the general capital gains treatment by virtue of the specific-over-general rule", "correct": true },
+            { "text": "The taxability depends on whether the premium was claimed as deduction", "correct": false }
+          ],
+          "explanation": "Section 26 contains a specific charging provision for keyman insurance proceeds as PGBP. When a specific section charges income under a particular head, it overrides any general treatment. The partner's 'capital asset' argument fails because of this specific provision.",
+          "explanationWrong": "This trips up most CAs. The partner's error is ignoring the specific-over-general rule. Yes, a keyman policy might technically be a 'capital asset', but Section 26 specifically taxes the proceeds as PGBP. Specific provisions trump general ones — settled law.",
+          "tier": 3,
+          "subConcepts": ["keyman-insurance", "specific-over-general", "partner-dispute"],
+          "isReview": false,
+          "oldSection": "Section 28(vi)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 5,
+          "question": "Your firm's client runs a hotel business and also earns rent from a residential flat. The client insists: 'Both are business income — I'm in the hospitality business.' Under the ITA 2025, how do you classify these?",
+          "options": [
+            { "text": "Both under PGBP — the client is correct, it's all hospitality business", "correct": false },
+            { "text": "Hotel income under PGBP; residential flat rental under House Property — residential rental is excluded from PGBP regardless of the assessee's business", "correct": true },
+            { "text": "Both under House Property since both involve real estate", "correct": false },
+            { "text": "Hotel under PGBP; residential rental under Income from Other Sources", "correct": false }
+          ],
+          "explanation": "Hotel business income is PGBP (it involves services, not mere letting). But residential flat rental goes under House Property — the 2025 Act continues the exclusion of residential rental from PGBP. The client's 'hospitality business' argument doesn't override the statutory classification.",
+          "explanationWrong": "This trips up most CAs. The key distinction: a hotel provides services (PGBP), while a residential flat is merely let out (HP). The assessee's primary business doesn't change the statutory head classification. Residential rental cannot be PGBP.",
+          "tier": 3,
+          "subConcepts": ["residential-rental-exclusion", "hotel-vs-rental", "client-misconception"],
+          "isReview": false,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "Practice Scenarios — Accounting & Speculation",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An article clerk prepares a PGBP computation for a mercantile-basis client. The clerk includes a provision of Rs 8 lakh for 'probable warranty claims' as a deduction. The provision doesn't meet ICDS-X criteria. What error has occurred?",
+          "options": [
+            { "text": "No error — provisions are always deductible under PGBP", "correct": false },
+            { "text": "The provision must be added back because it fails ICDS-X criteria, even though it's valid under IndAS", "correct": true },
+            { "text": "The provision is deductible if it's less than Rs 10 lakh", "correct": false },
+            { "text": "Warranty provisions are always non-deductible regardless of ICDS", "correct": false }
+          ],
+          "explanation": "The clerk applied accounting standards instead of ICDS for tax computation. Under Section 276, mercantile-basis assessees must comply with ICDS. If the warranty provision doesn't meet ICDS-X's three criteria (present obligation, probable outflow, reliable estimate), it must be added back.",
+          "explanationWrong": "This trips up most CAs. The article clerk's mistake is a common one — applying IndAS/AS to tax computation instead of ICDS. For tax purposes, ICDS overrides accounting standards. Not all provisions are deductible, and there's no Rs 10 lakh threshold.",
+          "tier": 3,
+          "subConcepts": ["icds-x", "provision-addback", "article-clerk-error"],
+          "isReview": false,
+          "oldSection": "Section 145(2)",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 2,
+          "question": "A client earned Rs 3 lakh profit from delivery-based equity trades and Rs 5 lakh loss from intraday equity trades during the year. He wants to set off the intraday loss against delivery-based profit. Under the ITA 2025, can he?",
+          "options": [
+            { "text": "Yes — both are equity trading, so losses can be freely set off", "correct": false },
+            { "text": "No — intraday (speculative) loss of Rs 5 lakh cannot be set off against delivery-based (regular) profit of Rs 3 lakh", "correct": true },
+            { "text": "Yes — but only up to 50% of the speculative loss", "correct": false },
+            { "text": "Yes — the 2025 Act has removed the ring-fencing of speculative losses", "correct": false }
+          ],
+          "explanation": "Intraday share trades (settled without delivery) are speculative. The Rs 5 lakh speculative loss is ring-fenced — it can only be set off against speculative profits. The Rs 3 lakh delivery-based profit is regular business income. Ring-fencing continues under Section 26 and Section 155.",
+          "explanationWrong": "Common mix-up! Many clients (and some practitioners) assume all equity trading is one business. It's not. Delivery-based = regular business. Intraday = speculative business. The losses stay in their respective silos. The 2025 Act has NOT removed this ring-fencing.",
+          "tier": 3,
+          "subConcepts": ["speculative-loss-ringfencing", "intraday-vs-delivery", "client-scenario"],
+          "isReview": false,
+          "oldSection": "Section 73/43(5)",
+          "newSection": "Section 26/155"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, when can speculative business losses be carried forward, and for how many assessment years?",
+          "options": [
+            { "text": "4 years from the year of loss", "correct": true },
+            { "text": "8 years from the year of loss", "correct": false },
+            { "text": "Indefinitely until fully absorbed", "correct": false },
+            { "text": "Cannot be carried forward at all", "correct": false }
+          ],
+          "explanation": "Speculative business losses can be carried forward for 4 years (same as old Section 73). This is shorter than the 8-year period for regular business losses. The limited carry-forward period reflects the higher-risk nature of speculative activity.",
+          "explanationWrong": "This trips up most CAs. The 4-year period is specific to speculative losses. Regular business losses get 8 years. Many practitioners confuse the two. The shorter period for speculative losses is unchanged from the old Act.",
+          "tier": 3,
+          "subConcepts": ["carry-forward", "speculative-loss", "4-year-limit"],
+          "isReview": true,
+          "oldSection": "Section 73",
+          "newSection": "Section 155"
+        },
+        {
+          "order": 4,
+          "question": "A new client says: 'My previous CA computed my PGBP income using a hybrid method — cash for receipts, mercantile for expenses. The AO never objected.' You're taking over the engagement. What do you advise?",
+          "options": [
+            { "text": "Continue the hybrid method since the AO accepted it", "correct": false },
+            { "text": "The hybrid method is not permitted under Section 276. Past AO acceptance doesn't validate an incorrect method — switch to either pure cash or pure mercantile", "correct": true },
+            { "text": "The hybrid method is now permitted under the 2025 Act", "correct": false },
+            { "text": "File a rectification for all past years", "correct": false }
+          ],
+          "explanation": "Section 276 (like old Section 145) permits only cash or mercantile — not hybrid. Past AO non-objection doesn't create a right to use a wrong method. The correct advice: adopt one method consistently. Prior-year rectification is a separate decision based on limitation.",
+          "explanationWrong": "This trips up most CAs. The 'AO didn't object' argument is a common client defence, but non-objection ≠ acceptance. The law permits only cash or mercantile. A hybrid method can be challenged in any open year. Best practice: switch now and advise on past-year risk.",
+          "tier": 3,
+          "subConcepts": ["hybrid-method-prohibited", "client-takeover", "ao-non-objection"],
+          "isReview": false,
+          "oldSection": "Section 145",
+          "newSection": "Section 276"
+        },
+        {
+          "order": 5,
+          "question": "A client runs a soybean processing business and enters into futures contracts on the commodity exchange to hedge inventory price risk. The contracts are settled by paying differences. The AO treats these as speculative transactions. Is the AO correct?",
+          "options": [
+            { "text": "Yes — settlement by difference is always speculative", "correct": false },
+            { "text": "No — these qualify for the hedging exception: contracts entered by a trader to guard against loss through price fluctuation in the ordinary course of business", "correct": true },
+            { "text": "Yes — only exchange-traded equity derivatives are excluded from speculative treatment", "correct": false },
+            { "text": "No — all commodity exchange contracts are excluded from speculative treatment", "correct": false }
+          ],
+          "explanation": "The AO is wrong. The soybean processor uses futures to hedge existing inventory — a genuine business purpose. The hedging exception in Section 26 (from old Section 43(5) proviso) excludes such contracts from speculative treatment even though settled by difference.",
+          "explanationWrong": "Common mix-up! The AO's error is applying the general rule (settlement by difference = speculative) while ignoring the hedging exception. Not all difference-settled contracts are speculative. And the exception isn't limited to equity derivatives — commodity hedging qualifies too.",
+          "tier": 3,
+          "subConcepts": ["hedging-exception", "commodity-futures", "ao-dispute"],
+          "isReview": false,
+          "oldSection": "Section 43(5)",
+          "newSection": "Section 26"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Unit Application — PGBP Boundaries",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client is a builder-developer who holds 20 residential flats as stock-in-trade. He lets out 5 flats while waiting to sell them. Under the ITA 2025, how is the rental income from these 5 flats classified?",
+          "options": [
+            { "text": "PGBP — they are stock-in-trade, so all income is business income", "correct": false },
+            { "text": "Income from House Property — rental from stock-in-trade property is taxable under HP since the 2017 amendment, continued in the 2025 Act", "correct": true },
+            { "text": "Income from Other Sources — temporary letting is not HP", "correct": false },
+            { "text": "Exempt for 2 years from the date of completion certificate", "correct": false }
+          ],
+          "explanation": "Since the Finance Act, 2017 amendment (inserting Section 23(5) in the old Act), rental income from stock-in-trade property is taxable under House Property, not PGBP. The 2025 Act continues this treatment. The builder gets HP deductions (30% standard deduction, interest) but the income head is HP.",
+          "explanationWrong": "This trips up most CAs. Pre-2017, there was genuine ambiguity — stock-in-trade rental could arguably be PGBP. But the 2017 amendment settled this: rental income from property (including stock-in-trade) goes under HP. The 2025 Act doesn't disturb this.",
+          "tier": 3,
+          "subConcepts": ["stock-in-trade-rental", "hp-vs-pgbp", "builder-scenario"],
+          "isReview": false,
+          "oldSection": "Section 23(5)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 2,
+          "question": "An article clerk files a computation where a pharma company's export incentive (MEIS scrips) is shown under 'Income from Other Sources'. The senior points out the error. Under the ITA 2025, where should it be?",
+          "options": [
+            { "text": "Income from Other Sources — export incentives are not business income", "correct": false },
+            { "text": "PGBP under Section 26 — export incentives, Duty Drawback, and MEIS/RODTEP scrips are specifically listed as PGBP income", "correct": true },
+            { "text": "Capital Gains — scrips are capital assets when sold", "correct": false },
+            { "text": "Exempt under Section 10", "correct": false }
+          ],
+          "explanation": "Section 26 (old Section 28(iiib)/(iiic)/(iiid)) specifically includes export incentives, Duty Drawback, and similar benefits as PGBP income. The article clerk misclassified by ignoring the specific charging provision.",
+          "explanationWrong": "Common mix-up! Export incentive scrips are specifically charged to PGBP — they arise from business exports. The clerk's error would result in wrong head computation, affecting set-off possibilities and potentially the tax liability itself.",
+          "tier": 3,
+          "subConcepts": ["export-incentives", "meis-rodtep", "article-clerk-error"],
+          "isReview": false,
+          "oldSection": "Section 28(iiib)/(iiic)/(iiid)",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the maximum period for carry-forward of regular (non-speculative) business losses?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "Indefinitely", "correct": false },
+            { "text": "12 years", "correct": false }
+          ],
+          "explanation": "Regular business losses can be carried forward for 8 years under the 2025 Act — same as old Section 72. Contrast this with speculative losses (4 years) and unabsorbed depreciation (indefinite).",
+          "explanationWrong": "This trips up most CAs. Remember the hierarchy: speculative = 4 years, regular business = 8 years, unabsorbed depreciation = indefinite. The 2025 Act doesn't change these periods.",
+          "tier": 3,
+          "subConcepts": ["carry-forward", "business-loss", "8-year-limit"],
+          "isReview": true,
+          "oldSection": "Section 72",
+          "newSection": "Section 155"
+        },
+        {
+          "order": 4,
+          "question": "A partner in your firm receives a call from a client: 'I sold my goodwill and the buyer is claiming depreciation on it. Is that correct under the new Act?' What is the right answer?",
+          "options": [
+            { "text": "Yes — goodwill is a depreciable intangible asset", "correct": false },
+            { "text": "No — goodwill has been excluded from depreciable assets under the 2025 Act, continuing the Finance Act, 2021 amendment", "correct": true },
+            { "text": "Yes — but only if the goodwill was acquired before April 1, 2020", "correct": false },
+            { "text": "Depreciation is available but at a reduced rate of 10%", "correct": false }
+          ],
+          "explanation": "Goodwill was excluded from depreciable assets by the Finance Act, 2021 (amending old Section 32). The ITA 2025 continues this exclusion under new Section 33 (depreciation). The buyer cannot claim depreciation on purchased goodwill.",
+          "explanationWrong": "This trips up most CAs. Before FA 2021, goodwill was depreciable at 25% (intangible asset). Post-FA 2021, it's excluded. The 2025 Act carries forward this exclusion. The buyer's advisor is applying pre-2021 law — a dangerous error in practice.",
+          "tier": 3,
+          "subConcepts": ["goodwill-depreciation-excluded", "section-33", "client-call"],
+          "isReview": false,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 5,
+          "question": "During a tax audit, you discover that a client's manufacturing business has been showing intraday commodity trading profits (settled by difference) as regular business income and claiming set-off of regular business losses against it. Under the ITA 2025, what is the compliance risk?",
+          "options": [
+            { "text": "No risk — commodity trading is part of the manufacturing business", "correct": false },
+            { "text": "Minor risk — the AO is unlikely to reclassify", "correct": false },
+            { "text": "Serious risk — intraday commodity trades (without delivery) are speculative income. Incorrect classification means regular losses were wrongly set off against speculative profits, leading to potential disallowance and penalty", "correct": true },
+            { "text": "No risk — the 2025 Act has removed speculative transaction classification", "correct": false }
+          ],
+          "explanation": "Intraday commodity trades settled by difference are speculative transactions under Section 26. Showing them as regular business income and setting off regular losses against them is incorrect. The AO can reclassify, disallow the set-off, and levy penalty for furnishing inaccurate particulars.",
+          "explanationWrong": "Common mix-up! This is a serious compliance risk. The client has been mixing speculative and non-speculative income — a ring-fencing violation. The AO can reclassify, disallow set-offs for all open years, and potentially levy penalty under Section 270A equivalent.",
+          "tier": 3,
+          "subConcepts": ["speculative-misclassification", "audit-risk", "set-off-violation"],
+          "isReview": false,
+          "oldSection": "Section 43(5)/73",
+          "newSection": "Section 26/155"
+        }
+      ]
+    }
+  ]
+}

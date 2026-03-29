@@ -1,0 +1,835 @@
+{
+  "unit": "10.4",
+  "title": "Schedule IV — Non-Resident Exemptions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "NRE Interest & Diplomatic Immunity",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, interest on an NRE (Non-Resident External) account is exempt. Where is this exemption now located?",
+          "options": [
+            { "text": "Section 57, Second Schedule", "correct": false },
+            { "text": "Schedule IV, S.No.1", "correct": true },
+            { "text": "Schedule III, S.No.7", "correct": false },
+            { "text": "Schedule II, S.No.15", "correct": false }
+          ],
+          "explanation": "NRE interest exemption has moved from old clause 10(4)(i) to Schedule IV, S.No.1 — the very first entry in the non-resident exemption schedule. The exemption itself is unchanged; only its location has been reorganised into Schedule IV.",
+          "explanationWrong": "Schedule IV, S.No.1 is the correct location. Under the 2025 Act, all non-resident-specific exemptions have been pulled out of the old Section 10 and grouped into Schedule IV. NRE interest — previously buried as clause 10(4)(i) — is now easy to find as the first entry.",
+          "tier": 1,
+          "subConcepts": ["NRE-interest-exemption", "schedule-iv-sno1", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Schedule IV, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "Schedule IV, S.No.2 exempts the remuneration of diplomatic staff and trade representatives. Under the old Act, which clause governed this exemption?",
+          "options": [
+            { "text": "Section 10(6)(i)", "correct": false },
+            { "text": "Section 10(6)", "correct": true },
+            { "text": "Section 10(5A)", "correct": false },
+            { "text": "Section 10(7)", "correct": false }
+          ],
+          "explanation": "The diplomatic staff exemption was in old Section 10(6) and is now reorganised as Schedule IV, S.No.2. The substance is identical — remuneration of diplomats, consular staff, and trade commissioners remains exempt subject to reciprocity conditions.",
+          "explanationWrong": "Old Section 10(6) is correct. This exemption covers diplomatic agents, consular officers, trade commissioners, and their staff — provided they are not engaged in any business or profession in India. The reciprocity requirement means the exemption applies only if India's representatives get similar treatment abroad.",
+          "tier": 1,
+          "subConcepts": ["diplomatic-exemption", "schedule-iv-sno2", "reciprocity-condition"],
+          "isReview": false,
+          "oldSection": "Section 10(6)",
+          "newSection": "Schedule IV, S.No.2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.1 (New Exempt Income Architecture), the 2025 Act reorganises exemptions into how many schedules?",
+          "options": [
+            { "text": "Five schedules (Schedule II to VI)", "correct": false },
+            { "text": "Seven schedules (Schedule II to VIII)", "correct": true },
+            { "text": "Four schedules (Schedule II to V)", "correct": false },
+            { "text": "Eight schedules (Schedule I to VIII)", "correct": false }
+          ],
+          "explanation": "The 2025 Act uses seven schedules — Schedule II (general), III (individual/HUF), IV (non-resident), V (business trust/investment fund), VI (IFSC), VII (entity-level), and VIII (political party/electoral trust). Schedule I is not used for exemptions.",
+          "explanationWrong": "Seven schedules, from Schedule II to Schedule VIII. This is the core architectural change in the 2025 Act: the old monolithic Section 10 has been unbundled into seven distinct schedules, each grouping exemptions by taxpayer type or subject matter. Schedule IV — non-residents — is one of these seven.",
+          "tier": 1,
+          "subConcepts": ["exempt-income-architecture-review", "seven-schedules"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Section 57, Schedules II–VIII"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident maintains both an NRE account and an NRO account in India. Under Schedule IV, S.No.1, which account's interest is exempt?",
+          "options": [
+            { "text": "Both NRE and NRO interest are exempt for non-residents", "correct": false },
+            { "text": "NRO interest only — NRE accounts earn no interest", "correct": false },
+            { "text": "NRE interest only — NRO interest is fully taxable", "correct": true },
+            { "text": "Neither — the exemption was removed in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Only NRE account interest is exempt under Schedule IV, S.No.1. NRO interest remains fully taxable and is typically subject to TDS. This distinction is the single most important non-resident banking tax rule and is unchanged from the old Act.",
+          "explanationWrong": "NRE interest only. NRO accounts hold rupee-denominated funds from Indian sources (rent, dividends, etc.), and the interest on those funds is taxable. NRE accounts hold remitted foreign earnings, and the interest exemption incentivises repatriation. This fundamental distinction has been carried forward unchanged into Schedule IV, S.No.1.",
+          "tier": 1,
+          "subConcepts": ["NRE-vs-NRO", "schedule-iv-sno1", "NRO-taxable"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Schedule IV, S.No.1"
+        },
+        {
+          "order": 5,
+          "question": "Schedule IV consolidates non-resident exemptions that were scattered across multiple clauses of old Section 10. How many entries does Schedule IV contain?",
+          "options": [
+            { "text": "10 entries", "correct": false },
+            { "text": "12 entries", "correct": false },
+            { "text": "14 entries", "correct": true },
+            { "text": "18 entries", "correct": false }
+          ],
+          "explanation": "Schedule IV contains 14 entries covering all non-resident-specific exemptions. These were previously scattered across clauses 10(4), 10(5), 10(6), 10(6A) through 10(6D), 10(7), 10(8), 10(8A), 10(8B), 10(9), and 10(15). Consolidation into 14 numbered entries makes navigation far simpler.",
+          "explanationWrong": "14 entries is correct. Before the 2025 Act, you had to hunt through dozens of Section 10 sub-clauses to find non-resident exemptions. Now all 14 are in a single schedule with serial numbers. This is the reorganisation payoff — no substantive changes, but dramatically easier to locate and reference.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv-14-entries", "consolidation-benefit"],
+          "isReview": false,
+          "oldSection": "Various clauses of Section 10",
+          "newSection": "Schedule IV (14 entries)"
+        }
+      ]
+    },
+    {
+      "title": "Foreign Enterprise Employees & Ship Salaries",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule IV, S.No.3, salary paid to a foreign enterprise employee is exempt if the employee's stay in India does not exceed how many days?",
+          "options": [
+            { "text": "60 days", "correct": false },
+            { "text": "90 days", "correct": true },
+            { "text": "120 days", "correct": false },
+            { "text": "182 days", "correct": false }
+          ],
+          "explanation": "Schedule IV, S.No.3 sets a 90-day threshold. If the employee of a foreign enterprise stays in India for 90 days or less during the previous year, the salary is exempt. The employer must not be engaged in any trade or business in India. Carried forward from old clause 10(6)(vi).",
+          "explanationWrong": "90 days is the threshold. Two conditions must both be met: (1) the employee stays 90 days or less, AND (2) the foreign employer is not engaged in any trade or business in India. If either condition fails, the exemption is lost. This was old clause 10(6)(vi) and is now Schedule IV, S.No.3.",
+          "tier": 1,
+          "subConcepts": ["90-day-foreign-employee", "schedule-iv-sno3", "dual-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Schedule IV, S.No.3"
+        },
+        {
+          "order": 2,
+          "question": "Schedule IV, S.No.4 exempts salary paid to a non-resident for services rendered on a foreign ship. Under the old Act, which clause governed this?",
+          "options": [
+            { "text": "Section 10(6)(viii)", "correct": true },
+            { "text": "Section 10(6)(vi)", "correct": false },
+            { "text": "Section 10(8)", "correct": false },
+            { "text": "Section 10(15)(iv)", "correct": false }
+          ],
+          "explanation": "Old Section 10(6)(viii) exempted salary to non-residents working on foreign ships, provided the total stay in India did not exceed 90 days. This is now Schedule IV, S.No.4. The exemption conditions remain identical — only the location has changed.",
+          "explanationWrong": "Section 10(6)(viii) is the correct old reference. Under the old Act, non-resident shipping exemptions were buried deep in the sub-clauses of Section 10(6). The 2025 Act gives them their own serial number in Schedule IV — S.No.4 — making them much easier to find.",
+          "tier": 1,
+          "subConcepts": ["foreign-ship-salary", "schedule-iv-sno4", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(viii)",
+          "newSection": "Schedule IV, S.No.4"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.2 (Schedule II — General Exemptions), agricultural income is exempt under which serial number?",
+          "options": [
+            { "text": "S.No.1", "correct": true },
+            { "text": "S.No.3", "correct": false },
+            { "text": "S.No.5", "correct": false },
+            { "text": "S.No.10", "correct": false }
+          ],
+          "explanation": "Agricultural income is S.No.1 of Schedule II — the very first entry in the general exemptions schedule. This reflects its constitutional status under Entry 82 of the Union List, which excludes agricultural income from the Central Government's taxing power.",
+          "explanationWrong": "S.No.1 of Schedule II. Agricultural income holds the premier position in the general exemptions schedule — just as it held the premier position in old Section 10(1). Its constitutional protection under Article 246 read with Entry 82 of the Union List makes it the most fundamental exemption in Indian tax law.",
+          "tier": 1,
+          "subConcepts": ["schedule-ii-agriculture-review", "constitutional-exemption"],
+          "isReview": true,
+          "oldSection": "Section 10(1)",
+          "newSection": "Schedule II, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "Under Schedule IV, S.No.3, one of the conditions for the foreign enterprise employee exemption is that the employer must not be engaged in any trade or business in India. If the foreign enterprise has a project office in India, does the exemption still apply?",
+          "options": [
+            { "text": "Yes — project offices are not considered 'trade or business in India'", "correct": false },
+            { "text": "No — a project office constitutes carrying on business in India", "correct": true },
+            { "text": "Yes — but only if the project is government-funded", "correct": false },
+            { "text": "It depends on whether the project office files a return in India", "correct": false }
+          ],
+          "explanation": "A project office in India means the foreign enterprise is engaged in business in India, which breaks the second condition of S.No.3. The exemption requires that the employer is NOT carrying on any trade or business in India. Project offices, branch offices, and liaison offices conducting business activities all disqualify the employer.",
+          "explanationWrong": "A project office means the employer is engaged in business in India, which kills the exemption. The S.No.3 exemption has two hard conditions: (1) employee stays 90 days or less, AND (2) employer has no trade or business in India. A project office — being a physical presence for executing a specific project — clearly constitutes business activity in India.",
+          "tier": 1,
+          "subConcepts": ["project-office-disqualification", "business-in-india-test", "schedule-iv-sno3"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Schedule IV, S.No.3"
+        },
+        {
+          "order": 5,
+          "question": "The foreign ship salary exemption (Schedule IV, S.No.4) and the foreign enterprise employee exemption (S.No.3) share which common condition?",
+          "options": [
+            { "text": "Both require the non-resident to be from a DTAA country", "correct": false },
+            { "text": "Both require the salary to be paid in foreign currency", "correct": false },
+            { "text": "Both require the non-resident's stay in India to not exceed 90 days", "correct": true },
+            { "text": "Both require prior RBI approval", "correct": false }
+          ],
+          "explanation": "Both S.No.3 and S.No.4 share the 90-day stay limit as a common qualifying condition. The non-resident must not remain in India for more than 90 days during the tax year. Neither requires DTAA coverage, foreign currency payment, or RBI approval.",
+          "explanationWrong": "The 90-day stay limit is the shared condition. S.No.3 (foreign enterprise employees) and S.No.4 (foreign ship salaries) both use this threshold. It is worth noting that while the stay limit is the same, S.No.3 has an additional condition (employer not engaged in business in India) that S.No.4 does not require.",
+          "tier": 1,
+          "subConcepts": ["90-day-common-condition", "sno3-vs-sno4-comparison"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(vi), 10(6)(viii)",
+          "newSection": "Schedule IV, S.No.3, S.No.4"
+        }
+      ]
+    },
+    {
+      "title": "Cruise Ship Lease & Technical Consultants",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Schedule IV, S.No.9 provides an exemption related to cruise ship operations. Under the old Act, which clause contained this provision?",
+          "options": [
+            { "text": "Section 10(6C)", "correct": true },
+            { "text": "Section 10(6A)", "correct": false },
+            { "text": "Section 10(8B)", "correct": false },
+            { "text": "Section 10(15)(iv)", "correct": false }
+          ],
+          "explanation": "Old Section 10(6C) exempted specified income of non-residents from cruise ship operations. This is now reorganised as Schedule IV, S.No.9. The exemption was introduced to promote India as a cruise tourism destination and remains unchanged in substance.",
+          "explanationWrong": "Section 10(6C) is correct. The cruise ship exemption was introduced to attract international cruise lines to Indian ports. It exempts specified income from operating cruise ships — the 2025 Act has simply moved it from clause 10(6C) to Schedule IV, S.No.9 without any substantive modification.",
+          "tier": 1,
+          "subConcepts": ["cruise-ship-exemption", "schedule-iv-sno9", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(6C)",
+          "newSection": "Schedule IV, S.No.9"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act, exemptions for non-resident technical consultants and foreign government employees were in Section 10(8), 10(8A), and 10(8B). In Schedule IV, what serial number range covers these?",
+          "options": [
+            { "text": "S.No.5 to S.No.7", "correct": true },
+            { "text": "S.No.8 to S.No.10", "correct": false },
+            { "text": "S.No.10 to S.No.12", "correct": false },
+            { "text": "S.No.1 to S.No.3", "correct": false }
+          ],
+          "explanation": "The old 10(8), 10(8A), and 10(8B) provisions — covering foreign government employees under cooperative technical assistance programmes, consultants, and their staff — have been reorganised as Schedule IV, S.No.5 to S.No.7. The conditions for exemption remain the same.",
+          "explanationWrong": "S.No.5 to S.No.7 is correct. These three entries cover: S.No.5 (employees of foreign governments under cooperative technical assistance programmes — old 10(8)), S.No.6 (consultants employed under such programmes — old 10(8A)), and S.No.7 (staff of consultants — old 10(8B)). The three-tier structure mirrors the old Act's hierarchy.",
+          "tier": 1,
+          "subConcepts": ["technical-assistance-exemptions", "sno5-sno6-sno7", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(8), 10(8A), 10(8B)",
+          "newSection": "Schedule IV, S.No.5 to S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.3 (Schedule III — Individual/HUF), the annual exemption limit for leave encashment on retirement for non-government employees was last revised to what amount?",
+          "options": [
+            { "text": "Rs 3 lakh", "correct": false },
+            { "text": "Rs 10 lakh", "correct": false },
+            { "text": "Rs 25 lakh", "correct": true },
+            { "text": "Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "The leave encashment exemption for non-government employees was revised to Rs 25 lakh (effective from the 2023-24 assessment year onwards). This is now in Schedule III and the revised limit has been carried forward into the 2025 Act.",
+          "explanationWrong": "Rs 25 lakh is correct. This was a significant revision — the previous limit of Rs 3 lakh had not been updated for over two decades. The 2025 Act carries forward the Rs 25 lakh limit into Schedule III without further change.",
+          "tier": 1,
+          "subConcepts": ["schedule-iii-leave-encashment-review", "25-lakh-limit"],
+          "isReview": true,
+          "oldSection": "Section 10(10AA)",
+          "newSection": "Schedule III"
+        },
+        {
+          "order": 4,
+          "question": "A foreign government sends an employee to India under a cooperative technical assistance programme. The employee's salary is exempt under Schedule IV, S.No.5. If the employee also earns freelance income from an Indian client during the assignment, is that freelance income also exempt?",
+          "options": [
+            { "text": "Yes — all income of the employee is exempt during the assignment period", "correct": false },
+            { "text": "No — only the remuneration for the technical assistance programme is exempt", "correct": true },
+            { "text": "Yes — but only if the freelance income is below Rs 5 lakh", "correct": false },
+            { "text": "It depends on the DTAA between India and the employee's home country", "correct": false }
+          ],
+          "explanation": "The exemption under S.No.5 is limited to remuneration received for services under the cooperative technical assistance programme. Any other income — freelance work, investments, or business income — earned in India remains fully taxable. The exemption is activity-specific, not person-specific.",
+          "explanationWrong": "Only the technical assistance programme remuneration is exempt. The exemption under S.No.5 attaches to the specific role and programme, not to the person's global income. Freelance income from Indian clients would be taxable as business or professional income, regardless of the employee's S.No.5 exemption for programme-related salary.",
+          "tier": 1,
+          "subConcepts": ["activity-specific-exemption", "schedule-iv-sno5", "scope-limitation"],
+          "isReview": false,
+          "oldSection": "Section 10(8)",
+          "newSection": "Schedule IV, S.No.5"
+        },
+        {
+          "order": 5,
+          "question": "How are the 14 entries in Schedule IV broadly grouped by subject matter?",
+          "options": [
+            { "text": "NRE interest → diplomatic → employment/ships → technical assistance → crude oil/ONGC", "correct": true },
+            { "text": "Diplomatic → employment → investments → ships → all others", "correct": false },
+            { "text": "All entries are arranged alphabetically by subject", "correct": false },
+            { "text": "There is no discernible grouping — entries are in random order", "correct": false }
+          ],
+          "explanation": "Schedule IV follows a logical flow: S.No.1 (NRE interest), S.No.2 (diplomatic staff), S.No.3-4 (employment/foreign ships), S.No.5-7 (technical assistance), S.No.8-9 (training/cruise ships), and S.No.10-14 (crude oil/ONGC/related). This thematic grouping makes navigation intuitive.",
+          "explanationWrong": "The entries follow a clear thematic progression from banking (NRE) to diplomatic to employment to technical assistance to commodity-related exemptions. This deliberate organisation is one of the key benefits of the 2025 Act's schedule approach — compared to the old Section 10 where non-resident exemptions were scattered without any logical sequence.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv-structure", "thematic-grouping", "navigation-benefit"],
+          "isReview": false,
+          "oldSection": "Various clauses of Section 10",
+          "newSection": "Schedule IV"
+        }
+      ]
+    },
+    {
+      "title": "Crude Oil & ONGC Provisions",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Schedule IV, S.No.12 and S.No.13 relate to income from crude oil operations. Under the old Act, these were in which clauses?",
+          "options": [
+            { "text": "Section 10(6B) and 10(6BB)", "correct": true },
+            { "text": "Section 10(48) and 10(48A)", "correct": false },
+            { "text": "Section 10(15)(iv)(a) and (b)", "correct": false },
+            { "text": "Section 10(8) and 10(8A)", "correct": false }
+          ],
+          "explanation": "Old Section 10(6B) covered income from crude oil purchased by ONGC/IOC from non-residents, and 10(6BB) covered similar provisions for specified entities. These are now reorganised as Schedule IV, S.No.12 and S.No.13 respectively. No substantive change — pure relocation.",
+          "explanationWrong": "Sections 10(6B) and 10(6BB) are correct. These provisions exempted income of non-residents arising from the sale of crude oil to Indian entities like ONGC and IOC. The 2025 Act has placed them at S.No.12 and S.No.13 of Schedule IV, maintaining the same conditions and scope.",
+          "tier": 2,
+          "subConcepts": ["crude-oil-exemptions", "sno12-sno13", "ONGC-IOC"],
+          "isReview": false,
+          "oldSection": "Section 10(6B), 10(6BB)",
+          "newSection": "Schedule IV, S.No.12, S.No.13"
+        },
+        {
+          "order": 2,
+          "question": "What is the key difference between Schedule IV, S.No.12 and S.No.13 regarding crude oil exemptions?",
+          "options": [
+            { "text": "S.No.12 applies to sale of crude oil; S.No.13 applies to sale of natural gas", "correct": false },
+            { "text": "S.No.12 applies to government-approved agreements; S.No.13 extends to notified entities beyond ONGC/IOC", "correct": true },
+            { "text": "S.No.12 is for residents; S.No.13 is for non-residents", "correct": false },
+            { "text": "S.No.12 has no monetary limit; S.No.13 is capped at Rs 100 crore", "correct": false }
+          ],
+          "explanation": "S.No.12 (old 10(6B)) covers income from agreements approved by the Central Government for the purchase of crude oil. S.No.13 (old 10(6BB)) extends this to entities notified by the Central Government — a broader set beyond the original ONGC/IOC scope. The distinction mirrors the original two-clause structure.",
+          "explanationWrong": "S.No.12 covers government-approved agreements (the original narrower scope), while S.No.13 broadens coverage to notified entities. Think of S.No.13 as the expansion clause — it was added later in the old Act as 10(6BB) to accommodate additional entities and arrangements beyond the original 10(6B) framework.",
+          "tier": 2,
+          "subConcepts": ["sno12-vs-sno13", "government-approved-vs-notified", "crude-oil-scope"],
+          "isReview": false,
+          "oldSection": "Section 10(6B), 10(6BB)",
+          "newSection": "Schedule IV, S.No.12, S.No.13"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.1 (New Architecture), old Section 10 had approximately how many clauses and sub-clauses before the 2025 Act reorganised them?",
+          "options": [
+            { "text": "About 30", "correct": false },
+            { "text": "About 50", "correct": false },
+            { "text": "About 80", "correct": true },
+            { "text": "About 120", "correct": false }
+          ],
+          "explanation": "Old Section 10 had approximately 80 clauses and sub-clauses — an unwieldy provision that made it extremely difficult to locate specific exemptions. The 2025 Act's schedule-based reorganisation distributes these across seven schedules, each with numbered entries.",
+          "explanationWrong": "Approximately 80 clauses and sub-clauses. This sheer volume was one of the main reasons the 2025 Act moved to the schedule-based approach. Nobody could reasonably navigate 80+ exemption clauses in a single section. The seven-schedule system (II through VIII) makes each exemption findable by its schedule and serial number.",
+          "tier": 2,
+          "subConcepts": ["old-section10-complexity-review", "reorganisation-rationale"],
+          "isReview": true,
+          "oldSection": "Section 10 (~80 clauses)",
+          "newSection": "Section 57, Schedules II–VIII"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident oil company sells crude oil worth Rs 500 crore to an Indian refinery under a government-approved agreement. The refinery is not ONGC or IOC but is notified by the Central Government. Under which Schedule IV entry is the non-resident's income exempt?",
+          "options": [
+            { "text": "S.No.12 — because it involves a government-approved agreement", "correct": false },
+            { "text": "S.No.13 — because the buyer is a Central Government-notified entity", "correct": true },
+            { "text": "S.No.14 — because of the high transaction value", "correct": false },
+            { "text": "No exemption — only ONGC and IOC purchases qualify", "correct": false }
+          ],
+          "explanation": "S.No.13 applies because the buyer is a Central Government-notified entity (not ONGC/IOC specifically). S.No.12 covers the original narrower scope of government-approved agreements with ONGC/IOC, while S.No.13 extends the net to other notified entities. The transaction value is irrelevant.",
+          "explanationWrong": "S.No.13 is correct because the buyer is a notified entity beyond the original ONGC/IOC scope. The key distinction: S.No.12 = original government-approved agreement framework (typically ONGC/IOC), S.No.13 = expanded framework for additional entities notified by the Central Government. Both exempt the non-resident seller's income.",
+          "tier": 2,
+          "subConcepts": ["sno13-application", "notified-entity-buyer", "crude-oil-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(6BB)",
+          "newSection": "Schedule IV, S.No.13"
+        },
+        {
+          "order": 5,
+          "question": "Schedule IV, S.No.14 is the last entry in the schedule. It relates to income of which type?",
+          "options": [
+            { "text": "Income of a non-resident from royalties paid by ONGC", "correct": false },
+            { "text": "Income of a non-resident sportsperson performing in India", "correct": false },
+            { "text": "Income related to offshore banking units of non-residents", "correct": false },
+            { "text": "Income of a non-resident from specified activities related to diamond trading in special zones", "correct": true }
+          ],
+          "explanation": "Schedule IV, S.No.14 covers income of non-residents from specified diamond trading activities in designated special zones. This was previously in old Section 10(6D). The provision aims to position India as a diamond trading hub by offering tax incentives to non-resident traders.",
+          "explanationWrong": "Diamond trading in special zones is the correct subject of S.No.14. This is one of the more niche entries in Schedule IV — old Section 10(6D) created a tax incentive for non-resident diamond traders operating in notified zones. The 2025 Act carries it forward as the final entry in Schedule IV.",
+          "tier": 2,
+          "subConcepts": ["diamond-trading-exemption", "schedule-iv-sno14", "special-zones"],
+          "isReview": false,
+          "oldSection": "Section 10(6D)",
+          "newSection": "Schedule IV, S.No.14"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Mapping Old to New",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 10(9) exempted income of a family member of a non-resident individual visiting India. Under Schedule IV, what serial number does this map to?",
+          "options": [
+            { "text": "S.No.8", "correct": true },
+            { "text": "S.No.6", "correct": false },
+            { "text": "S.No.10", "correct": false },
+            { "text": "S.No.11", "correct": false }
+          ],
+          "explanation": "Old Section 10(9) maps to Schedule IV, S.No.8. This exemption covers income received by family members accompanying non-resident individuals who are in India under training programmes or cooperative technical assistance. The conditions remain identical.",
+          "explanationWrong": "S.No.8 is correct. This provision protects family members of non-residents who are in India for technical training or cooperative assistance programmes. The income must accrue outside India and be received from sources outside India. Old Section 10(9) is now findable as S.No.8 in Schedule IV.",
+          "tier": 2,
+          "subConcepts": ["family-member-exemption", "schedule-iv-sno8", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 10(9)",
+          "newSection": "Schedule IV, S.No.8"
+        },
+        {
+          "order": 2,
+          "question": "A practitioner needs to quickly find all non-resident exemptions under the 2025 Act. Under the old Act, they would search through clauses 10(4) through 10(9), plus 10(6A)-10(6D), 10(8)-10(8B), and 10(15). Under the 2025 Act, where do they look?",
+          "options": [
+            { "text": "Section 57, Schedule IV — all 14 entries in one place", "correct": true },
+            { "text": "Section 57 text itself — all exemptions are listed inline", "correct": false },
+            { "text": "Sections 57 through 63 — spread across multiple sections", "correct": false },
+            { "text": "Schedule II — non-resident exemptions are in the general schedule", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, all non-resident exemptions are consolidated in Schedule IV (referenced by Section 57). One schedule, 14 serial numbers, easy to navigate. This is the core navigation benefit of the reorganisation for non-resident practice.",
+          "explanationWrong": "Schedule IV under Section 57 — one schedule, 14 entries, everything in one place. This is arguably the biggest practical improvement for non-resident tax practice. Under the old Act, locating all NR exemptions required searching through more than a dozen scattered clauses. Now it is a single, numbered schedule.",
+          "tier": 2,
+          "subConcepts": ["navigation-improvement", "schedule-iv-single-source", "practitioner-benefit"],
+          "isReview": false,
+          "oldSection": "Various clauses of Section 10",
+          "newSection": "Section 57, Schedule IV"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.2 (Schedule II), how many entries does the general exemptions schedule contain?",
+          "options": [
+            { "text": "10 entries", "correct": false },
+            { "text": "18 entries", "correct": false },
+            { "text": "22 entries", "correct": true },
+            { "text": "30 entries", "correct": false }
+          ],
+          "explanation": "Schedule II (General Exemptions) contains 22 entries. This is the largest of the person-neutral exemption schedules, covering items like agricultural income, share of HUF, and income of minor children among others.",
+          "explanationWrong": "22 entries in Schedule II. Compare this with Schedule IV's 14 entries. The general schedule is larger because it covers exemptions available to all taxpayers regardless of residential status, while Schedule IV is restricted to non-resident-specific exemptions.",
+          "tier": 2,
+          "subConcepts": ["schedule-ii-size-review", "schedule-comparison"],
+          "isReview": true,
+          "oldSection": "Section 10",
+          "newSection": "Schedule II (22 entries)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 10(6A) exempted the remuneration of non-resident employees of certain international organisations. This is now Schedule IV, S.No.10. Which type of organisation is covered?",
+          "options": [
+            { "text": "Any multinational company with operations in India", "correct": false },
+            { "text": "International organisations notified by the Central Government (e.g., UN agencies)", "correct": true },
+            { "text": "Only World Bank and IMF", "correct": false },
+            { "text": "Foreign universities with campuses in India", "correct": false }
+          ],
+          "explanation": "S.No.10 covers employees of international organisations notified by the Central Government — typically UN agencies, the World Bank group, IMF, and similar multilateral bodies. The notification requirement means the Government specifically designates which organisations qualify. This is unchanged from old Section 10(6A).",
+          "explanationWrong": "Central Government-notified international organisations — UN agencies, World Bank, IMF, and similar bodies. The key word is 'notified': not every international body automatically qualifies. The Central Government must specifically notify the organisation, which ensures the exemption only applies to bona fide multilateral institutions with which India has formal arrangements.",
+          "tier": 2,
+          "subConcepts": ["international-organisation-exemption", "notification-requirement", "schedule-iv-sno10"],
+          "isReview": false,
+          "oldSection": "Section 10(6A)",
+          "newSection": "Schedule IV, S.No.10"
+        },
+        {
+          "order": 5,
+          "question": "If a client asks you about the old Section 10(6D) exemption for diamond trading, which Schedule IV entry should you direct them to?",
+          "options": [
+            { "text": "S.No.11", "correct": false },
+            { "text": "S.No.12", "correct": false },
+            { "text": "S.No.13", "correct": false },
+            { "text": "S.No.14", "correct": true }
+          ],
+          "explanation": "Old Section 10(6D) maps to Schedule IV, S.No.14 — the last entry in the schedule. Diamond trading in designated special zones is a niche exemption, and its placement at the end of Schedule IV reflects its specialised nature.",
+          "explanationWrong": "S.No.14 is correct — the final entry in Schedule IV. A quick mapping aid for the old 10(6) cluster: 10(6) → S.No.2 (diplomatic), 10(6)(vi) → S.No.3 (foreign enterprise), 10(6)(viii) → S.No.4 (foreign ship), 10(6A) → S.No.10, 10(6B) → S.No.12, 10(6BB) → S.No.13, 10(6C) → S.No.9, 10(6D) → S.No.14.",
+          "tier": 2,
+          "subConcepts": ["section-10-6D-mapping", "schedule-iv-sno14", "quick-reference"],
+          "isReview": false,
+          "oldSection": "Section 10(6D)",
+          "newSection": "Schedule IV, S.No.14"
+        }
+      ]
+    },
+    {
+      "title": "Conceptual Underpinnings — Why a Separate NR Schedule?",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the 2025 Act create a separate Schedule IV exclusively for non-resident exemptions, rather than including them in Schedule II (general)?",
+          "options": [
+            { "text": "Because non-resident exemptions are temporary and will be phased out", "correct": false },
+            { "text": "To segregate exemptions that apply only based on residential status, making it easier for practitioners to identify NR-specific provisions", "correct": true },
+            { "text": "Because non-resident exemptions require CBDT approval each year", "correct": false },
+            { "text": "To impose additional reporting requirements on non-residents", "correct": false }
+          ],
+          "explanation": "The segregation is purely organisational. Non-resident exemptions share a common qualifying criterion — the person must be a non-resident. Grouping them separately in Schedule IV makes it easy for practitioners to quickly identify all NR-specific provisions without sifting through general exemptions that apply to everyone.",
+          "explanationWrong": "The answer is organisational clarity. The 2025 Act's schedule-based approach groups exemptions by qualifying criterion. Schedule IV collects all exemptions where non-resident status is the gating condition. This is practical: when advising an NR client, you check Schedule IV first, then move to other schedules for general exemptions that may also apply.",
+          "tier": 2,
+          "subConcepts": ["schedule-iv-rationale", "residential-status-grouping", "practitioner-navigation"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule IV"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act, the NRE interest exemption (Section 10(4)(i)) was adjacent to Section 10(4)(ii) which dealt with interest on notified securities/bonds payable to non-residents. In Schedule IV, S.No.1 covers NRE interest. Where is the notified securities interest exemption now?",
+          "options": [
+            { "text": "Schedule IV, S.No.2", "correct": false },
+            { "text": "Schedule IV, S.No.11", "correct": true },
+            { "text": "Schedule II, S.No.15", "correct": false },
+            { "text": "It has been removed in the 2025 Act", "correct": false }
+          ],
+          "explanation": "The notified securities/bonds interest exemption (old 10(4)(ii)) maps to Schedule IV, S.No.11. In the old Act, 10(4)(i) and 10(4)(ii) were adjacent sub-clauses. In Schedule IV, they are separated — S.No.1 (NRE) and S.No.11 (notified securities) — because the schedule groups entries by subject matter rather than by old numbering sequence.",
+          "explanationWrong": "S.No.11 is correct. This illustrates how the reorganisation breaks old adjacency patterns. Under the old Act, both were sub-clauses of 10(4). In Schedule IV, they are placed according to subject grouping: NRE interest (banking) goes to S.No.1, while notified securities interest (investment-related) goes to S.No.11 alongside other investment-type entries.",
+          "tier": 2,
+          "subConcepts": ["old-adjacency-broken", "sno1-vs-sno11", "subject-matter-grouping"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(ii)",
+          "newSection": "Schedule IV, S.No.11"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.3 (Schedule III), the exemption for VRS (Voluntary Retirement Scheme) proceeds has a monetary limit. What is that limit?",
+          "options": [
+            { "text": "Rs 3 lakh", "correct": false },
+            { "text": "Rs 5 lakh", "correct": true },
+            { "text": "Rs 10 lakh", "correct": false },
+            { "text": "Rs 25 lakh", "correct": false }
+          ],
+          "explanation": "The VRS exemption is capped at Rs 5 lakh, as carried forward into Schedule III from old Section 10(10C). This limit has remained unchanged for many years and continues unaltered in the 2025 Act.",
+          "explanationWrong": "Rs 5 lakh is the VRS exemption limit. This is one of the Schedule III (Individual/HUF) exemptions that has not been revised despite calls for enhancement. The 2025 Act carries it forward at the same Rs 5 lakh threshold into Schedule III.",
+          "tier": 2,
+          "subConcepts": ["schedule-iii-VRS-review", "5-lakh-VRS-limit"],
+          "isReview": true,
+          "oldSection": "Section 10(10C)",
+          "newSection": "Schedule III"
+        },
+        {
+          "order": 4,
+          "question": "The 2025 Act does not make any substantive changes to the non-resident exemptions in Schedule IV — it is a pure reorganisation. Why is it still critical for practitioners to learn the new section mappings?",
+          "options": [
+            { "text": "Because the old section numbers are no longer valid for assessment years from 2026-27 onwards", "correct": true },
+            { "text": "Because the exemption amounts have been revised even though conditions are the same", "correct": false },
+            { "text": "Because practitioners can still cite old section numbers in returns and assessments", "correct": false },
+            { "text": "Because CBDT has not yet notified the new section mappings", "correct": false }
+          ],
+          "explanation": "From assessment year 2026-27 onwards, old section numbers cease to be legally valid references. Returns, assessments, appeals, and opinions must cite the new Schedule IV serial numbers. Even though the substance is identical, using old references in formal documents would be technically incorrect.",
+          "explanationWrong": "Old section numbers become invalid for formal use from AY 2026-27 onwards. Tax returns, assessment orders, appeal submissions, and professional opinions must use the new Schedule IV references. This is why mapping knowledge is essential — the substance has not changed, but the legal citation has. Getting the reference wrong could cause unnecessary scrutiny or objections.",
+          "tier": 2,
+          "subConcepts": ["mapping-necessity", "AY-2026-27-cutover", "formal-citation"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule IV"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner preparing an NR client's return for AY 2026-27 claims the NRE interest exemption citing 'Section 10(4)(i)'. What is the correct citation under the 2025 Act?",
+          "options": [
+            { "text": "Section 57, Schedule IV, S.No.1", "correct": true },
+            { "text": "Section 10(4)(i) — the old reference is still valid", "correct": false },
+            { "text": "Schedule IV, S.No.4", "correct": false },
+            { "text": "Section 57(1)(d)", "correct": false }
+          ],
+          "explanation": "The correct citation is Section 57, Schedule IV, S.No.1. Section 57 is the operative provision granting exemptions, and Schedule IV, S.No.1 is the specific entry for NRE interest. The old Section 10(4)(i) reference is no longer legally valid from AY 2026-27.",
+          "explanationWrong": "Section 57, Schedule IV, S.No.1 is the full correct citation. The structure is: Section 57 (the enabling section for exempt income) → Schedule IV (the non-resident exemption schedule) → S.No.1 (the specific NRE interest entry). This three-part citation format is a new skill practitioners must develop.",
+          "tier": 2,
+          "subConcepts": ["correct-citation-format", "section-57-schedule-iv", "practitioner-skill"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Section 57, Schedule IV, S.No.1"
+        }
+      ]
+    },
+    {
+      "title": "NR Exemption Scenarios — Employment",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Tanaka, a Japanese national employed by Toyota Japan, visits India for 85 days to supervise a factory setup. Toyota Japan does not carry on business in India. His salary of Rs 15 lakh is paid by Toyota Japan. Under the 2025 Act, is his salary exempt?",
+          "options": [
+            { "text": "No — the salary exceeds Rs 10 lakh", "correct": false },
+            { "text": "Yes — under Schedule IV, S.No.3 (stay ≤90 days, employer not engaged in business in India)", "correct": true },
+            { "text": "No — car manufacturers carry on business in India through dealerships", "correct": false },
+            { "text": "Yes — but only if Japan has a DTAA with India", "correct": false }
+          ],
+          "explanation": "Both conditions of S.No.3 are met: (1) stay is 85 days (≤90 days), and (2) Toyota Japan (the employer) does not carry on business in India. The fact that Toyota has a separate Indian subsidiary or dealership network is irrelevant — the employer entity itself must not be engaged in business in India. No monetary cap applies.",
+          "explanationWrong": "The salary is exempt under Schedule IV, S.No.3. The two conditions are both satisfied: stay ≤90 days (85 days here) and the employer (Toyota Japan — not Toyota India) does not carry on business in India. Common trap: confusing the parent company with an Indian subsidiary. The test looks at the specific employing entity, not the corporate group.",
+          "tier": 3,
+          "subConcepts": ["sno3-application-scenario", "employer-entity-test", "90-day-threshold"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Schedule IV, S.No.3"
+        },
+        {
+          "order": 2,
+          "question": "Mr. Schmidt, a German engineer, works on a foreign-flagged vessel and visits Indian ports. His total stay in India during FY 2025-26 is 95 days. Can he claim exemption under Schedule IV, S.No.4?",
+          "options": [
+            { "text": "Yes — foreign ship employees are always exempt regardless of stay duration", "correct": false },
+            { "text": "No — his stay exceeds 90 days, so the exemption does not apply", "correct": true },
+            { "text": "Yes — the 90-day limit does not apply to ship crew", "correct": false },
+            { "text": "Yes — but only for the proportionate salary for days at sea", "correct": false }
+          ],
+          "explanation": "The 90-day stay limit is a hard threshold under S.No.4. Mr. Schmidt's 95-day stay exceeds it, so no exemption. There is no proportionate calculation — it is all-or-nothing. He may still explore relief under the India-Germany DTAA, but Schedule IV, S.No.4 does not apply.",
+          "explanationWrong": "No exemption because 95 days exceeds the 90-day limit. The S.No.4 exemption is binary: if you stay 90 days or less, the entire salary is exempt; if you stay even one day more, the entire exemption is lost. There is no pro-rata calculation. This makes tracking port days critical for ship crew with Indian port calls.",
+          "tier": 3,
+          "subConcepts": ["90-day-hard-threshold", "all-or-nothing-rule", "foreign-ship-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(viii)",
+          "newSection": "Schedule IV, S.No.4"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.5 (Schedule V — Business Trust), what is the pass-through treatment for business income earned by a Category I/II AIF?",
+          "options": [
+            { "text": "Business income also passes through to unit-holders", "correct": false },
+            { "text": "Business income is taxed at the fund level — it does not pass through", "correct": true },
+            { "text": "Business income is exempt at both fund and unit-holder level", "correct": false },
+            { "text": "Business income is taxed at a flat 25% at the fund level", "correct": false }
+          ],
+          "explanation": "The pass-through under Schedule V, S.No.1 specifically excludes business income. Business income earned by a Category I/II AIF is taxed at the fund level at the maximum marginal rate. Only non-business income (capital gains, interest, dividends, etc.) passes through to unit-holders.",
+          "explanationWrong": "Business income is taxed at the fund level — it is the key exception to the pass-through. This is a deliberate policy choice: allowing business income to pass through could enable tax arbitrage by routing high-tax business income through AIFs to lower-tax unit-holders. The exclusion preserves tax integrity.",
+          "tier": 3,
+          "subConcepts": ["schedule-v-business-income-review", "AIF-pass-through-exception"],
+          "isReview": true,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "A UN employee (non-resident) stationed in India earns Rs 40 lakh salary from the UN plus Rs 8 lakh from freelance consulting for an Indian company. How should these be treated under Schedule IV?",
+          "options": [
+            { "text": "Both are exempt under S.No.10", "correct": false },
+            { "text": "UN salary is exempt under S.No.10; freelance income is taxable as business/professional income", "correct": true },
+            { "text": "Both are taxable because the employee is effectively resident in India", "correct": false },
+            { "text": "UN salary is exempt; freelance income is exempt under S.No.5", "correct": false }
+          ],
+          "explanation": "S.No.10 exempts only the remuneration received from the notified international organisation (UN). The Rs 8 lakh freelance income is a separate stream from an Indian client and is taxable as business/professional income. S.No.5 does not apply because the UN is not a cooperative technical assistance programme.",
+          "explanationWrong": "UN salary exempt under S.No.10; freelance income taxable. Each Schedule IV exemption is activity-specific and source-specific. The UN salary is exempt because the UN is a notified international organisation. But the freelance income has nothing to do with the UN — it is independent professional income from an Indian source and is fully taxable.",
+          "tier": 3,
+          "subConcepts": ["dual-income-NR-scenario", "activity-specific-exemption", "sno10-scope"],
+          "isReview": false,
+          "oldSection": "Section 10(6A)",
+          "newSection": "Schedule IV, S.No.10"
+        },
+        {
+          "order": 5,
+          "question": "A non-resident diamond trader operates in a notified special zone in Mumbai, earning Rs 25 crore from diamond sales during FY 2025-26. He also earns Rs 2 crore from diamond sales outside the notified zone in Surat. What is exempt under Schedule IV, S.No.14?",
+          "options": [
+            { "text": "Both Rs 25 crore and Rs 2 crore — all diamond income of non-residents is exempt", "correct": false },
+            { "text": "Only the Rs 25 crore from the notified special zone", "correct": true },
+            { "text": "Only the Rs 2 crore from Surat — special zone income is taxable", "correct": false },
+            { "text": "Neither — diamond trading income was removed from exemptions in the 2025 Act", "correct": false }
+          ],
+          "explanation": "S.No.14 exempts income from specified activities in designated special zones only. The Rs 25 crore earned in the notified zone qualifies; the Rs 2 crore from Surat (outside the zone) does not. The exemption is zone-specific, not commodity-specific.",
+          "explanationWrong": "Only the notified zone income (Rs 25 crore) is exempt. S.No.14 is a zone-based exemption — it does not exempt all diamond trading income of non-residents. The Rs 2 crore earned outside the notified zone is fully taxable. This zone-specificity is a critical condition that distinguishes S.No.14 from a blanket commodity exemption.",
+          "tier": 3,
+          "subConcepts": ["zone-specific-exemption", "diamond-trading-scenario", "sno14-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(6D)",
+          "newSection": "Schedule IV, S.No.14"
+        }
+      ]
+    },
+    {
+      "title": "NR Exemption Scenarios — Diplomatic & Technical",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A French diplomat posted in Delhi receives Rs 30 lakh as embassy salary plus Rs 5 lakh rental income from a property she owns in Goa. Under Schedule IV, what is exempt?",
+          "options": [
+            { "text": "Both salary and rental income — diplomats are fully exempt", "correct": false },
+            { "text": "Embassy salary is exempt under S.No.2; Goa rental income is taxable", "correct": true },
+            { "text": "Neither — France does not have reciprocity with India", "correct": false },
+            { "text": "Only the rental income — diplomatic salary is not covered", "correct": false }
+          ],
+          "explanation": "S.No.2 exempts only the remuneration for diplomatic functions. The Goa rental income is a separate Indian-source income from property ownership, not from diplomatic duties. Assuming France has reciprocity with India, the embassy salary is exempt but the rental income is taxable under 'Income from House Property'.",
+          "explanationWrong": "Embassy salary exempt under S.No.2; rental income taxable. The diplomatic exemption is role-specific — it covers remuneration for diplomatic or consular functions, not all income earned in India. A diplomat who earns rental income, capital gains, or business income from Indian sources must pay tax on those separately.",
+          "tier": 3,
+          "subConcepts": ["diplomatic-exemption-scope", "rental-income-taxable", "role-specific-exemption"],
+          "isReview": false,
+          "oldSection": "Section 10(6)",
+          "newSection": "Schedule IV, S.No.2"
+        },
+        {
+          "order": 2,
+          "question": "A USAID consultant (non-resident) is deputed to India under a bilateral technical assistance programme for 3 years. She earns Rs 50 lakh annually. Her husband accompanies her and earns Rs 3 lakh from online tutoring for US students. Under Schedule IV, what is exempt?",
+          "options": [
+            { "text": "Consultant's salary under S.No.6 and husband's income under S.No.8", "correct": false },
+            { "text": "Consultant's salary under S.No.6; husband's online tutoring income is not exempt under S.No.8 because it is earned from outside India", "correct": false },
+            { "text": "Consultant's salary under S.No.6; husband's online tutoring income is not exempt because S.No.8 covers only income received from outside India, and online tutoring constitutes professional income", "correct": true },
+            { "text": "Both are fully taxable — USAID programmes are not notified", "correct": false }
+          ],
+          "explanation": "The consultant's Rs 50 lakh is exempt under S.No.6 (consultant under cooperative technical assistance programme). The husband's tutoring income is not covered by S.No.8 — that entry exempts income received from sources outside India by family members, not active professional income earned by the family member. Online tutoring is professional income regardless of where the students are located.",
+          "explanationWrong": "Consultant's salary is exempt under S.No.6, but the husband's tutoring income is professional income and does not qualify under S.No.8. S.No.8 is meant for passive income (like interest or rental from overseas assets) received by family members from outside India — not for active professional services rendered by the family member.",
+          "tier": 3,
+          "subConcepts": ["sno6-consultant-exemption", "sno8-family-limitation", "professional-income-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 10(8A), 10(9)",
+          "newSection": "Schedule IV, S.No.6, S.No.8"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.2 (Schedule II), the exemption for income of a statutory body (like LIC or NABARD) from specified functions was in old Section 10(23BBB) through 10(23G). What is the key reorganisation principle the 2025 Act applies?",
+          "options": [
+            { "text": "All statutory body exemptions are abolished", "correct": false },
+            { "text": "They are moved to Schedule VII as entity-level exemptions", "correct": true },
+            { "text": "They remain in Schedule II as general exemptions", "correct": false },
+            { "text": "They are moved to Schedule VI as IFSC entities", "correct": false }
+          ],
+          "explanation": "Entity-level exemptions (where the entity itself is exempt, not a specific type of income) have been moved to Schedule VII. This includes statutory bodies that were previously scattered across the 10(23) cluster. The 2025 Act distinguishes between income-type exemptions (Schedules II-VI) and entity-level exemptions (Schedule VII).",
+          "explanationWrong": "Schedule VII for entity-level exemptions. The 2025 Act's key organising principle is: if the exemption makes the entity itself tax-free (regardless of income type), it goes to Schedule VII. If the exemption is for a specific type of income (regardless of who earns it), it goes to Schedule II-VI. This is a fundamental architecture change.",
+          "tier": 3,
+          "subConcepts": ["entity-vs-income-exemption-review", "schedule-vii-principle"],
+          "isReview": true,
+          "oldSection": "Section 10(23BBB)–10(23G)",
+          "newSection": "Schedule VII"
+        },
+        {
+          "order": 4,
+          "question": "Mr. Chen, a non-resident crew member on a foreign-flagged cruise ship, earns Rs 20 lakh from cruise operations in Indian waters during FY 2025-26. His ship docks at Indian ports for a total of 45 days. Can he claim exemption under Schedule IV?",
+          "options": [
+            { "text": "Yes — under S.No.9 (cruise ship operations), regardless of the number of days", "correct": false },
+            { "text": "Yes — under S.No.4 (foreign ship salary) because stay is under 90 days", "correct": false },
+            { "text": "Depends on whether S.No.9 or S.No.4 applies — S.No.9 is for the cruise operator (entity), not individual crew", "correct": true },
+            { "text": "No — cruise ship income is not covered by any Schedule IV entry", "correct": false }
+          ],
+          "explanation": "S.No.9 exempts income of the cruise ship operator (the entity operating the ship), not individual crew members. For Mr. Chen personally, S.No.4 (foreign ship salary, ≤90 days) may apply to his salary since he stays 45 days. The distinction between entity-level (S.No.9) and individual-level (S.No.4) exemptions is critical.",
+          "explanationWrong": "The key insight is that S.No.9 is an entity-level exemption for the cruise operator, while S.No.4 is an individual-level exemption for crew. Mr. Chen as an individual would look at S.No.4 (foreign ship salary, stay ≤90 days). His employer (the cruise line) would look at S.No.9 for its operational income. Different entries for different taxpayers.",
+          "tier": 3,
+          "subConcepts": ["entity-vs-individual-exemption", "sno9-operator-only", "sno4-crew-personal"],
+          "isReview": false,
+          "oldSection": "Section 10(6C), 10(6)(viii)",
+          "newSection": "Schedule IV, S.No.9, S.No.4"
+        },
+        {
+          "order": 5,
+          "question": "A non-resident holds NRE fixed deposits (Rs 50 lakh) and also invests in notified government bonds (Rs 20 lakh). Under the 2025 Act, how should she claim exemptions for interest from both?",
+          "options": [
+            { "text": "Both under Schedule IV, S.No.1", "correct": false },
+            { "text": "NRE interest under S.No.1; notified bond interest under S.No.11", "correct": true },
+            { "text": "Both under Schedule II as general exemptions", "correct": false },
+            { "text": "NRE under S.No.1; bonds are no longer exempt under the 2025 Act", "correct": false }
+          ],
+          "explanation": "NRE deposit interest falls under S.No.1 (old 10(4)(i)) and notified government bond interest under S.No.11 (old 10(4)(ii)). Despite being adjacent sub-clauses in the old Act, they have different serial numbers in Schedule IV because the schedule groups by subject matter, not by old numbering.",
+          "explanationWrong": "S.No.1 for NRE interest, S.No.11 for notified bond interest. This is a practical example of how the old numbering adjacency (10(4)(i) and 10(4)(ii)) does not carry over to Schedule IV. Practitioners must learn the new serial numbers independently rather than assuming old adjacency patterns are preserved.",
+          "tier": 3,
+          "subConcepts": ["dual-exemption-claim", "sno1-vs-sno11", "broken-adjacency-practical"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i), 10(4)(ii)",
+          "newSection": "Schedule IV, S.No.1, S.No.11"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Schedule IV Navigation",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A firm is advising a non-resident client on five income streams: NRE interest, diplomatic salary, foreign ship wages, UN salary, and crude oil sale proceeds. How many different Schedule IV entries must they reference?",
+          "options": [
+            { "text": "Three — some income streams share the same entry", "correct": false },
+            { "text": "Four — crude oil and NRE interest share an entry", "correct": false },
+            { "text": "Five — each income stream has its own dedicated serial number", "correct": true },
+            { "text": "Two — all are covered under S.No.1 and S.No.2", "correct": false }
+          ],
+          "explanation": "Each income stream maps to a separate Schedule IV entry: NRE interest (S.No.1), diplomatic salary (S.No.2), foreign ship wages (S.No.4), UN salary (S.No.10), crude oil proceeds (S.No.12 or 13). Five distinct entries. This granularity is a feature of the schedule system — each exemption has its own traceable serial number.",
+          "explanationWrong": "Five separate entries. The complete mapping: NRE interest → S.No.1, diplomatic salary → S.No.2, foreign ship wages → S.No.4, UN salary → S.No.10, crude oil → S.No.12 or 13. In practice, this means the return or opinion must cite five different serial numbers. The schedule system trades old-Act compactness for new-Act precision.",
+          "tier": 3,
+          "subConcepts": ["multi-entry-navigation", "granular-citation", "practical-advisory"],
+          "isReview": false,
+          "oldSection": "Various Section 10 clauses",
+          "newSection": "Schedule IV, S.No.1, 2, 4, 10, 12/13"
+        },
+        {
+          "order": 2,
+          "question": "An NR client says: 'I used to claim exemption under Section 10(6)(vi) for my India assignment. What do I cite now?' You look up the mapping and find the new reference. Which is it?",
+          "options": [
+            { "text": "Section 57, Schedule IV, S.No.2", "correct": false },
+            { "text": "Section 57, Schedule IV, S.No.3", "correct": true },
+            { "text": "Section 57, Schedule IV, S.No.5", "correct": false },
+            { "text": "Section 57, Schedule IV, S.No.6", "correct": false }
+          ],
+          "explanation": "Old Section 10(6)(vi) — the foreign enterprise employee exemption with the 90-day stay condition — maps to Schedule IV, S.No.3. The full citation for the return would be Section 57, Schedule IV, S.No.3.",
+          "explanationWrong": "Section 57, Schedule IV, S.No.3 is correct. Old 10(6)(vi) was the foreign enterprise employee exemption. The key mappings in the 10(6) cluster: 10(6) → S.No.2 (diplomatic), 10(6)(vi) → S.No.3 (foreign enterprise employee), 10(6)(viii) → S.No.4 (foreign ship). Memorising this cluster is essential for transition-year practice.",
+          "tier": 3,
+          "subConcepts": ["client-facing-mapping", "10-6-vi-to-sno3", "citation-format"],
+          "isReview": false,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Section 57, Schedule IV, S.No.3"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.6 (Schedule VI — IFSC), what is the form number that replaces old Form 10-IG for IFSC-related claims?",
+          "options": [
+            { "text": "Form 66", "correct": false },
+            { "text": "Form 68", "correct": true },
+            { "text": "Form 70", "correct": false },
+            { "text": "Form 178", "correct": false }
+          ],
+          "explanation": "Old Form 10-IG is renumbered to Form 68 under the 2025 Act. This is part of the IFSC exemption framework reorganised into Schedule VI. The form content and filing obligations remain the same — only the form number has changed.",
+          "explanationWrong": "Form 68 replaces old Form 10-IG. The Schedule VI form mapping: 10-IG → 68, 10-IH → 69, 10-IK → 70, 10-II → 178. These form numbers must be memorised for IFSC practice under the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["schedule-vi-form-mapping-review", "form-10IG-to-68"],
+          "isReview": true,
+          "oldSection": "Form 10-IG",
+          "newSection": "Form 68"
+        },
+        {
+          "order": 4,
+          "question": "During an assessment proceeding for AY 2026-27, the Assessing Officer disallows a non-resident's NRE interest exemption claim because the return cited 'Section 10(4)(i)' instead of 'Schedule IV, S.No.1'. Is the AO's disallowance technically valid?",
+          "options": [
+            { "text": "Yes — citing a non-existent provision is a valid ground for disallowance", "correct": false },
+            { "text": "No — the AO should allow the claim if the substance is correct, even with wrong citation", "correct": true },
+            { "text": "Yes — incorrect section reference automatically voids the exemption claim", "correct": false },
+            { "text": "It depends on whether the NR filed a revised return with the correct reference", "correct": false }
+          ],
+          "explanation": "While citing the correct provision is best practice, disallowing a substantive exemption claim solely because of an incorrect section reference is not legally sustainable. The AO should look at the substance — whether the conditions for NRE interest exemption are actually met. Procedural defects in citation can be corrected without losing the exemption.",
+          "explanationWrong": "The AO should allow the claim if the substance is correct. Tax law follows substance over form — a mere citation error does not void a legitimate exemption. However, this does not mean practitioners should be careless. Citing the correct provision avoids unnecessary scrutiny, notices, and delays. The right approach: use 'Section 57, Schedule IV, S.No.1' from AY 2026-27 onwards.",
+          "tier": 3,
+          "subConcepts": ["substance-over-form", "citation-error-consequence", "assessment-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Section 57, Schedule IV, S.No.1"
+        },
+        {
+          "order": 5,
+          "question": "A tax advisory firm creates a quick-reference card for Schedule IV. They list: S.No.1 (NRE interest), S.No.2 (diplomatic), S.No.3 (foreign enterprise ≤90 days), S.No.4 (foreign ship), S.No.5-7 (technical assistance), S.No.8 (family members), S.No.9 (cruise ships), S.No.10 (international organisations), S.No.11 (notified bonds), S.No.12-13 (crude oil), S.No.14 (diamond zones). What is the total number of entries?",
+          "options": [
+            { "text": "12", "correct": false },
+            { "text": "13", "correct": false },
+            { "text": "14", "correct": true },
+            { "text": "15", "correct": false }
+          ],
+          "explanation": "The quick-reference card correctly covers all 14 entries: 1 (NRE) + 1 (diplomatic) + 1 (foreign enterprise) + 1 (foreign ship) + 3 (technical assistance S.No.5-7) + 1 (family) + 1 (cruise) + 1 (international org) + 1 (bonds) + 2 (crude oil S.No.12-13) + 1 (diamond) = 14 entries.",
+          "explanationWrong": "14 entries — the card is complete. Here is a grouping mnemonic: BANK (1) + DIPLOMAT (2) + WORK (3-4) + TECH (5-7) + FAMILY (8) + CRUISE (9) + INTL ORG (10) + BONDS (11) + OIL (12-13) + DIAMOND (14). That is 1+1+2+3+1+1+1+1+2+1 = 14.",
+          "tier": 3,
+          "subConcepts": ["complete-schedule-iv-map", "14-entry-verification", "mnemonic-grouping"],
+          "isReview": false,
+          "oldSection": "Various Section 10 clauses",
+          "newSection": "Schedule IV (14 entries)"
+        }
+      ]
+    }
+  ]
+}

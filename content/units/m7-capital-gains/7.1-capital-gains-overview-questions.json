@@ -1,0 +1,835 @@
+{
+  "unit": "7.1",
+  "title": "Capital Gains Overview",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — The New Numbers",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 45 (charging section for capital gains) maps to which new section?",
+          "options": [
+            { "text": "Section 67", "correct": true },
+            { "text": "Section 72", "correct": false },
+            { "text": "Section 70", "correct": false },
+            { "text": "Section 68", "correct": false }
+          ],
+          "explanation": "Old Section 45 maps to new Section 67. The complete mapping: 45→67, 46→68, 46A→69, 47→70, 47A→71, 48→72. Section 67 charges capital gains to tax in the previous year of transfer — no substantive change.",
+          "explanationWrong": "Not quite! Section 67 is the new charging section (old 45). Section 72 handles computation (old 48), and Section 70 covers transactions not regarded as transfer (old 47). Try thinking of the mapping as sequential — old sections in order get new numbers in order.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "charging-section", "section-45-to-67"],
+          "isReview": false,
+          "oldSection": "Section 45",
+          "newSection": "Section 67"
+        },
+        {
+          "order": 2,
+          "question": "The mode of computation of capital gains (old Section 48) is now found in which section of the ITA 2025?",
+          "options": [
+            { "text": "Section 70", "correct": false },
+            { "text": "Section 72", "correct": true },
+            { "text": "Section 67", "correct": false },
+            { "text": "Section 74", "correct": false }
+          ],
+          "explanation": "Old Section 48 (mode of computation — full value of consideration minus expenditure on transfer, cost of acquisition, and cost of improvement) maps to Section 72. The computation formula itself is unchanged by the 2025 Act.",
+          "explanationWrong": "Easy to mix up! Section 72 is the computation section (old 48). Section 70 is the non-transfer exclusions (old 47). Section 74 deals with depreciable assets (old 50). The mapping preserves the old sequence: 45→67, 46→68, 46A→69, 47→70, 47A→71, 48→72.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "computation-section", "section-48-to-72"],
+          "isReview": false,
+          "oldSection": "Section 48",
+          "newSection": "Section 72"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is the correct complete mapping for the capital gains overview sections (45-48) under the ITA 2025?",
+          "options": [
+            { "text": "45→67, 46→68, 46A→69, 47→70, 47A→71, 48→72", "correct": true },
+            { "text": "45→67, 46→69, 46A→68, 47→71, 47A→70, 48→72", "correct": false },
+            { "text": "45→68, 46→67, 46A→69, 47→70, 47A→71, 48→72", "correct": false },
+            { "text": "45→67, 46→68, 46A→69, 47→72, 47A→71, 48→70", "correct": false }
+          ],
+          "explanation": "The full mapping preserves the sequential order: 45→67 (charging), 46→68 (liquidation distributions), 46A→69 (insurance compensation), 47→70 (non-transfer exclusions), 47A→71 (conditions for non-recognition), 48→72 (computation).",
+          "explanationWrong": "The trick is that the old sections map sequentially to the new ones. 45→67, 46→68, 46A→69, 47→70, 47A→71, 48→72. Look for the option where 45 and 46 and 47 and 48 all maintain ascending order in their new numbers.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "complete-mapping"],
+          "isReview": true,
+          "oldSection": "Sections 45-48",
+          "newSection": "Sections 67-72"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 47 listed transactions not regarded as 'transfer.' In the ITA 2025, this exclusion list is found in:",
+          "options": [
+            { "text": "Section 68", "correct": false },
+            { "text": "Section 71", "correct": false },
+            { "text": "Section 70", "correct": true },
+            { "text": "Section 72", "correct": false }
+          ],
+          "explanation": "Old Section 47 maps to Section 70 — transactions not regarded as transfer. This is the section with a substantive change: two exemptions (BIFR industrially sick company and stock exchange demutualisation) have been dropped. Section 71 (old 47A) contains conditions for non-recognition in certain cases.",
+          "explanationWrong": "Section 70 is the non-transfer list (old 47). Don't confuse it with Section 71 (old 47A — conditions for non-recognition) or Section 72 (old 48 — computation). Section 70 is also the one with the genuine 2025 Act change — two obsolete exemptions removed.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "non-transfer", "section-47-to-70"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 5,
+          "question": "Capital gains on distribution of assets by companies in liquidation was covered under old Section 46. Its new section number is:",
+          "options": [
+            { "text": "Section 67", "correct": false },
+            { "text": "Section 68", "correct": true },
+            { "text": "Section 69", "correct": false },
+            { "text": "Section 70", "correct": false }
+          ],
+          "explanation": "Old Section 46 (capital gains on distribution by companies in liquidation) maps to Section 68. Section 69 covers insurance compensation for destruction of a capital asset (old Section 46A).",
+          "explanationWrong": "Section 68 is the liquidation distribution section (old 46). Section 69 is insurance compensation (old 46A). The mapping is sequential: 45→67, 46→68, 46A→69.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "liquidation", "section-46-to-68"],
+          "isReview": false,
+          "oldSection": "Section 46",
+          "newSection": "Section 68"
+        }
+      ]
+    },
+    {
+      "title": "Definition Clause Remapping",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, Section 2(14) defined 'capital asset.' In the ITA 2025, this definition is found in which clause?",
+          "options": [
+            { "text": "Section 2(22)", "correct": true },
+            { "text": "Section 2(14)", "correct": false },
+            { "text": "Section 2(109)", "correct": false },
+            { "text": "Section 2(67)", "correct": false }
+          ],
+          "explanation": "Capital asset definition: old 2(14) → new 2(22). The definition itself is unchanged — same exclusions for personal effects, agricultural land, gold bonds, etc. Section 2(109) is the transfer definition and 2(67) defines long-term capital asset.",
+          "explanationWrong": "The key definition mappings to memorise: capital asset 2(14)→2(22), transfer 2(47)→2(109), short-term capital asset → 2(101), long-term capital asset → 2(67). The definitions themselves are substantively unchanged — only renumbered.",
+          "tier": 1,
+          "subConcepts": ["definition-mapping", "capital-asset", "section-2-14-to-2-22"],
+          "isReview": false,
+          "oldSection": "Section 2(14)",
+          "newSection": "Section 2(22)"
+        },
+        {
+          "order": 2,
+          "question": "The definition of 'transfer' under the old Act was in Section 2(47). In the ITA 2025, it is found in:",
+          "options": [
+            { "text": "Section 2(101)", "correct": false },
+            { "text": "Section 2(67)", "correct": false },
+            { "text": "Section 2(109)", "correct": true },
+            { "text": "Section 2(22)", "correct": false }
+          ],
+          "explanation": "Transfer definition: old 2(47) → new 2(109). The definition is unchanged — covers sale, exchange, relinquishment, extinguishment of rights, compulsory acquisition, conversion to stock-in-trade, maturity/redemption of zero-coupon bonds, and transactions allowing enjoyment of immovable property.",
+          "explanationWrong": "Here's the full set: 2(22) = capital asset, 2(67) = long-term capital asset, 2(101) = short-term capital asset, 2(109) = transfer. The transfer definition itself is substantively identical to old 2(47).",
+          "tier": 1,
+          "subConcepts": ["definition-mapping", "transfer-definition", "section-2-47-to-2-109"],
+          "isReview": false,
+          "oldSection": "Section 2(47)",
+          "newSection": "Section 2(109)"
+        },
+        {
+          "order": 3,
+          "question": "Match the four definition clause remappings correctly: capital asset is 2(14)→2(22), transfer is 2(47)→2(109). What are the two NEW dedicated clauses introduced by the 2025 Act?",
+          "options": [
+            { "text": "2(101) for short-term capital asset, 2(67) for long-term capital asset", "correct": true },
+            { "text": "2(67) for short-term capital asset, 2(101) for long-term capital asset", "correct": false },
+            { "text": "2(42A) for short-term capital asset, 2(29A) for long-term capital asset", "correct": false },
+            { "text": "2(14A) for short-term capital asset, 2(14B) for long-term capital asset", "correct": false }
+          ],
+          "explanation": "The 2025 Act creates dedicated definition clauses: 2(101) for short-term capital asset and 2(67) for long-term capital asset. Previously these were embedded within Sections 2(42A) and 2(29A) respectively. The holding period thresholds are unchanged — only the structural placement has improved.",
+          "explanationWrong": "The new standalone clauses are 2(101) = short-term capital asset and 2(67) = long-term capital asset. The old 2(42A) and 2(29A) were indirect cross-references — the 2025 Act gives them proper dedicated clause numbers. No change to actual holding periods.",
+          "tier": 1,
+          "subConcepts": ["definition-mapping", "short-term", "long-term", "new-clauses"],
+          "isReview": true,
+          "oldSection": "Section 2(42A), Section 2(29A)",
+          "newSection": "Section 2(101), Section 2(67)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 2(22) of the ITA 2025 (old Section 2(14)), which of the following is excluded from the definition of 'capital asset'?",
+          "options": [
+            { "text": "Personal effects such as wearing apparel, furniture, and household articles", "correct": true },
+            { "text": "Listed equity shares held as investment", "correct": false },
+            { "text": "Residential house property", "correct": false },
+            { "text": "Gold held in physical form", "correct": false }
+          ],
+          "explanation": "The capital asset definition in 2(22) retains all the old exclusions: personal effects (wearing apparel, furniture, household articles — but not jewellery, paintings, drawings, sculptures, or archaeological collections), agricultural land outside specified urban limits, gold deposit bonds, and deposit certificates under Gold Monetisation Scheme.",
+          "explanationWrong": "Personal effects like clothing and furniture are excluded from 'capital asset' — this has always been the case and continues under the renumbered 2(22). Gold in physical form IS a capital asset. Listed shares and residential property are also capital assets.",
+          "tier": 1,
+          "subConcepts": ["definition-mapping", "capital-asset-exclusions"],
+          "isReview": false,
+          "oldSection": "Section 2(14)",
+          "newSection": "Section 2(22)"
+        },
+        {
+          "order": 5,
+          "question": "The ITA 2025 introduces Section 2(101) for 'short-term capital asset' and Section 2(67) for 'long-term capital asset.' Have the holding period thresholds themselves changed?",
+          "options": [
+            { "text": "No — the holding periods are identical to the post-2017 regime under the 1961 Act", "correct": true },
+            { "text": "Yes — listed equity now requires 24 months for LTCG", "correct": false },
+            { "text": "Yes — all assets now have a uniform 12-month threshold", "correct": false },
+            { "text": "Yes — immovable property now requires 36 months for LTCG", "correct": false }
+          ],
+          "explanation": "Holding periods are unchanged: listed equity/MFs = 12 months, unlisted shares = 24 months, immovable property = 24 months, other assets = 24 months. The new dedicated definition clauses are a structural improvement — giving short-term and long-term their own numbered definitions — but the thresholds are identical.",
+          "explanationWrong": "The new dedicated clauses 2(101) and 2(67) might look like a substantive change, but they simply codify the existing thresholds that have been in place since Finance Act 2017. No holding period was altered by the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["holding-periods", "no-change"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 2(101), Section 2(67)"
+        }
+      ]
+    },
+    {
+      "title": "Section 70 — BIFR and Demutualisation Exemptions Dropped",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 70 (old Section 47) lists transactions not regarded as transfer. Which TWO exemptions from old Section 47 were NOT carried forward into Section 70?",
+          "options": [
+            { "text": "BIFR industrially sick company transfers and stock exchange demutualisation", "correct": true },
+            { "text": "Gift to relatives and HUF partition", "correct": false },
+            { "text": "Holding company-subsidiary transfers and amalgamation", "correct": false },
+            { "text": "Sole proprietor-to-company conversion and partner-firm transfers", "correct": false }
+          ],
+          "explanation": "The 2025 Act drops two obsolete exemptions: (1) transfers by industrially sick companies managed by BIFR — BIFR was dissolved, NCLT handles insolvency under IBC now; (2) transfers of membership rights in recognised stock exchanges on demutualisation — demutualisation was completed years ago. Both were functionally dead provisions.",
+          "explanationWrong": "The two dropped exemptions are BIFR and demutualisation — both were functionally dead. Everything else (gifts, partitions, holding-subsidiary transfers, amalgamations, conversions) continues under Section 70. The 2025 Act only cleaned out provisions that could never apply again.",
+          "tier": 1,
+          "subConcepts": ["section-70", "dropped-exemptions", "BIFR", "demutualisation"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 2,
+          "question": "Why was the BIFR transfer exemption (old Section 47(xiiia)) not re-enacted in the 2025 Act?",
+          "options": [
+            { "text": "BIFR was dissolved — NCLT handles insolvency under the IBC, making the provision functionally dead", "correct": true },
+            { "text": "The 2025 Act believes sick companies should pay capital gains tax", "correct": false },
+            { "text": "BIFR requested its own removal from the Act", "correct": false },
+            { "text": "The provision was shifted to a different chapter of the 2025 Act", "correct": false }
+          ],
+          "explanation": "BIFR (Board for Industrial and Financial Reconstruction) was dissolved when the Insolvency and Bankruptcy Code took effect. There is no BIFR to manage rehabilitations anymore, so the exemption for transfers under BIFR-managed schemes was a dead letter. The 2025 Act simply chose not to re-enact it.",
+          "explanationWrong": "This is housekeeping, not a policy change. BIFR no longer exists — it was replaced by the NCLT under the Insolvency and Bankruptcy Code. The exemption was functionally impossible to use, so the 2025 Act dropped it.",
+          "tier": 1,
+          "subConcepts": ["section-70", "BIFR", "insolvency-code"],
+          "isReview": false,
+          "oldSection": "Section 47(xiiia)",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 3,
+          "question": "A colleague drafts an opinion in 2027 citing Section 47 for a holding company-to-subsidiary transfer. What should you correct?",
+          "options": [
+            { "text": "The section reference — it should be Section 70 under the 2025 Act, but the exemption itself continues", "correct": true },
+            { "text": "The exemption no longer exists — holding-subsidiary transfers are now taxable", "correct": false },
+            { "text": "The exemption was moved to Section 72", "correct": false },
+            { "text": "Nothing — Section 47 continues to apply for pre-2026 transactions", "correct": false }
+          ],
+          "explanation": "The holding company-subsidiary transfer exemption is fully preserved — it just moved from Section 47 to Section 70. For a 2027 opinion (under the 2025 Act), the correct citation is Section 70. The exemptions dropped from old Section 47 are only BIFR and demutualisation — everything else continues.",
+          "explanationWrong": "For transfers occurring after 1 April 2026, you must cite the 2025 Act sections. Holding-subsidiary exemption is alive and well — just renumbered from Section 47 to Section 70. Only BIFR and demutualisation exemptions were dropped.",
+          "tier": 1,
+          "subConcepts": ["section-70", "practical-application", "section-reference-update"],
+          "isReview": true,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 4,
+          "question": "Why was the stock exchange demutualisation exemption (old Section 47(xiiib)) not carried forward?",
+          "options": [
+            { "text": "Demutualisation of Indian stock exchanges was completed years ago — the provision was functionally dead", "correct": true },
+            { "text": "The government wants to tax future demutualisation events", "correct": false },
+            { "text": "The provision was merged into the SEBI Act instead", "correct": false },
+            { "text": "It was replaced by a new exemption for digital exchanges", "correct": false }
+          ],
+          "explanation": "Indian stock exchanges (BSE, NSE) completed demutualisation years ago. There are no stock exchanges left to demutualise, so the exemption for transfer of membership rights on demutualisation was a dead provision. The 2025 Act simply did not re-enact it.",
+          "explanationWrong": "This is another piece of housekeeping. All Indian stock exchanges have already demutualised. The exemption had no future application, so the 2025 Act dropped it rather than carry forward dead law.",
+          "tier": 1,
+          "subConcepts": ["section-70", "demutualisation", "stock-exchange"],
+          "isReview": false,
+          "oldSection": "Section 47(xiiib)",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following transfer exclusions CONTINUES under Section 70 of the 2025 Act?",
+          "options": [
+            { "text": "Gift of a capital asset (not to a non-resident)", "correct": true },
+            { "text": "Transfer by an industrially sick company under BIFR", "correct": false },
+            { "text": "Transfer of membership rights on stock exchange demutualisation", "correct": false },
+            { "text": "Both BIFR transfers and demutualisation transfers", "correct": false }
+          ],
+          "explanation": "Gifts (not to non-residents), HUF partition, amalgamation, demerger, holding-subsidiary transfers, partner-firm transfers, sole proprietor-to-company conversion — all continue under Section 70. Only BIFR and demutualisation exemptions are dropped.",
+          "explanationWrong": "Gifts to relatives (excluding non-residents) remain a non-transfer under Section 70. BIFR and demutualisation are the only two exemptions that did not make it into the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["section-70", "retained-exemptions", "gift-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        }
+      ]
+    },
+    {
+      "title": "Applied Mapping — Quick Recall",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client receives insurance compensation for destruction of a capital asset. Under the 2025 Act, which section governs this?",
+          "options": [
+            { "text": "Section 69 (old Section 46A)", "correct": true },
+            { "text": "Section 67 (old Section 45)", "correct": false },
+            { "text": "Section 68 (old Section 46)", "correct": false },
+            { "text": "Section 72 (old Section 48)", "correct": false }
+          ],
+          "explanation": "Capital gains on insurance compensation for destruction of a capital asset: old Section 46A → new Section 69. The charging section (67, old 45) is the general provision; Section 69 specifically covers the insurance compensation scenario.",
+          "explanationWrong": "Insurance compensation for destroyed assets is a specific provision — Section 69 (old 46A). Section 67 is the general charging section, Section 68 covers liquidation distributions, and Section 72 is computation.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "insurance-compensation", "section-46A-to-69"],
+          "isReview": false,
+          "oldSection": "Section 46A",
+          "newSection": "Section 69"
+        },
+        {
+          "order": 2,
+          "question": "You are drafting a computation sheet for a transfer occurring in FY 2026-27. The formula (full value of consideration minus cost of acquisition minus cost of improvement minus expenditure on transfer) should cite which section?",
+          "options": [
+            { "text": "Section 72", "correct": true },
+            { "text": "Section 48", "correct": false },
+            { "text": "Section 67", "correct": false },
+            { "text": "Section 70", "correct": false }
+          ],
+          "explanation": "For FY 2026-27 (under the 2025 Act), the computation section is 72 (old 48). The formula itself — FVC minus expenditure on transfer, minus COA, minus COI — is unchanged. Section 48 was the old Act reference and should not be cited for post-April 2026 transfers.",
+          "explanationWrong": "Section 72 (old 48) is your computation section. Section 67 is the charging section (old 45), and Section 70 is non-transfer exclusions (old 47). For any transfer after 1 April 2026, cite the 2025 Act numbers.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "computation", "practical-application"],
+          "isReview": false,
+          "oldSection": "Section 48",
+          "newSection": "Section 72"
+        },
+        {
+          "order": 3,
+          "question": "A client converts a capital asset into stock-in-trade in FY 2027-28. Under which section is the capital gain charged to tax?",
+          "options": [
+            { "text": "Section 67 — the same charging section that covers all capital gains triggers including conversion", "correct": true },
+            { "text": "Section 70 — conversion is a special non-transfer provision", "correct": false },
+            { "text": "Section 72 — conversion is part of the computation section", "correct": false },
+            { "text": "Section 68 — conversion is treated like a liquidation distribution", "correct": false }
+          ],
+          "explanation": "Conversion of a capital asset into stock-in-trade is a charging trigger under Section 67 (old Section 45). The gain is taxable in the year of ultimate sale but computed as at the date of conversion. This is a review of the charging section scope — Section 67 covers transfer, conversion, joint development agreements, and compulsory acquisition.",
+          "explanationWrong": "All capital gains charging triggers — transfer, conversion to stock-in-trade, JDA certificates, compulsory acquisition — fall under Section 67 (old 45). Section 70 is about what is NOT a transfer. Section 72 is computation after the charge is triggered.",
+          "tier": 2,
+          "subConcepts": ["section-67", "conversion", "charging-trigger"],
+          "isReview": true,
+          "oldSection": "Section 45",
+          "newSection": "Section 67"
+        },
+        {
+          "order": 4,
+          "question": "Section 71 of the ITA 2025 maps to which old section, and what does it cover?",
+          "options": [
+            { "text": "Old Section 47A — conditions for non-recognition of transfer in certain cases", "correct": true },
+            { "text": "Old Section 47 — transactions not regarded as transfer", "correct": false },
+            { "text": "Old Section 46A — insurance compensation on destruction", "correct": false },
+            { "text": "Old Section 48 — mode of computation", "correct": false }
+          ],
+          "explanation": "Section 71 maps to old Section 47A — it contains the conditions that must be satisfied for certain non-transfer exemptions under Section 70 to apply (such as conditions for holding-subsidiary transfers, amalgamation, and LLP conversion).",
+          "explanationWrong": "Section 71 = old 47A (conditions for non-recognition), Section 70 = old 47 (non-transfer list). Don't confuse the two! Section 71 is the companion provision that specifies when Section 70 exemptions can be clawed back if conditions are violated.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "section-47A-to-71", "conditions"],
+          "isReview": false,
+          "oldSection": "Section 47A",
+          "newSection": "Section 71"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 2(109) of the ITA 2025, which of the following is included in the definition of 'transfer'?",
+          "options": [
+            { "text": "All of the below: sale, exchange, relinquishment, extinguishment of rights, and compulsory acquisition", "correct": true },
+            { "text": "Only sale and exchange", "correct": false },
+            { "text": "Only sale, exchange, and relinquishment", "correct": false },
+            { "text": "Only transactions involving monetary consideration", "correct": false }
+          ],
+          "explanation": "Section 2(109) (old 2(47)) defines transfer broadly: sale, exchange, relinquishment of an asset, extinguishment of rights, compulsory acquisition, conversion to stock-in-trade, maturity/redemption of zero-coupon bonds, and allowing possession/enjoyment of immovable property. The definition is unchanged from the old Act.",
+          "explanationWrong": "The definition of transfer has always been very broad — it goes well beyond just sales. Section 2(109) carries forward every limb of the old 2(47) definition. Remember, even extinguishment of rights and compulsory acquisition count as transfers.",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "transfer-scope", "section-2-109"],
+          "isReview": false,
+          "oldSection": "Section 2(47)",
+          "newSection": "Section 2(109)"
+        }
+      ]
+    },
+    {
+      "title": "Definition Clauses in Practice",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A junior files a petition citing 'capital asset as defined under Section 2(14) of the Income Tax Act.' The transfer occurred in FY 2026-27. What is wrong?",
+          "options": [
+            { "text": "The correct citation is Section 2(22) of the ITA 2025 — 2(14) is the old Act reference", "correct": true },
+            { "text": "Nothing — Section 2(14) continues to apply", "correct": false },
+            { "text": "The definition of capital asset has been removed from the 2025 Act", "correct": false },
+            { "text": "Capital asset is now defined under Section 67, not Section 2", "correct": false }
+          ],
+          "explanation": "For transfers under the 2025 Act (post-April 2026), the correct citation is Section 2(22) for capital asset. Old Section 2(14) belongs to the 1961 Act and should not be used in 2025 Act proceedings. The definition content is identical — only the clause number has changed.",
+          "explanationWrong": "The definition exists and is substantively unchanged — but the clause number is different. For the 2025 Act, capital asset = 2(22), not 2(14). Update all citations in your templates!",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "practical-application", "citation-update"],
+          "isReview": false,
+          "oldSection": "Section 2(14)",
+          "newSection": "Section 2(22)"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act, 'short-term capital asset' was defined within Section 2(42A). What structural improvement does the 2025 Act make?",
+          "options": [
+            { "text": "It gives short-term capital asset its own dedicated clause — Section 2(101)", "correct": true },
+            { "text": "It merges short-term and long-term definitions into a single clause", "correct": false },
+            { "text": "It removes the short-term capital asset definition entirely", "correct": false },
+            { "text": "It reduces the holding period threshold for all assets to 6 months", "correct": false }
+          ],
+          "explanation": "Under the old Act, 'short-term capital asset' was defined indirectly through Section 2(42A) as a cross-reference. The 2025 Act creates a standalone Section 2(101) for short-term capital asset. Similarly, long-term capital asset gets Section 2(67) instead of old 2(29A). The actual holding period thresholds are unchanged.",
+          "explanationWrong": "The improvement is structural — giving short-term capital asset a clear, dedicated clause number (2(101)) instead of burying it in a cross-reference. The holding periods are untouched. Long-term capital asset similarly gets 2(67).",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "structural-improvement", "section-2-101"],
+          "isReview": false,
+          "oldSection": "Section 2(42A)",
+          "newSection": "Section 2(101)"
+        },
+        {
+          "order": 3,
+          "question": "You need to cite the definition of 'long-term capital asset' in a 2025 Act computation. Which clause do you use?",
+          "options": [
+            { "text": "Section 2(67)", "correct": true },
+            { "text": "Section 2(29A)", "correct": false },
+            { "text": "Section 2(101)", "correct": false },
+            { "text": "Section 2(22)", "correct": false }
+          ],
+          "explanation": "Long-term capital asset under the 2025 Act is defined in Section 2(67). Old Section 2(29A) is the 1961 Act reference. Section 2(101) is for short-term capital asset, and 2(22) is capital asset. The four key definition remappings: 2(14)→2(22), 2(47)→2(109), new 2(101), new 2(67).",
+          "explanationWrong": "Here is the complete definition map one more time: 2(22) = capital asset, 2(67) = long-term capital asset, 2(101) = short-term capital asset, 2(109) = transfer. For long-term capital asset, the answer is 2(67).",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "long-term", "section-2-67"],
+          "isReview": true,
+          "oldSection": "Section 2(29A)",
+          "newSection": "Section 2(67)"
+        },
+        {
+          "order": 4,
+          "question": "Has the definition of 'transfer' under Section 2(109) been substantively changed from old Section 2(47)?",
+          "options": [
+            { "text": "No — the definition is identical, only renumbered", "correct": true },
+            { "text": "Yes — conversion to stock-in-trade is no longer included", "correct": false },
+            { "text": "Yes — compulsory acquisition has been removed", "correct": false },
+            { "text": "Yes — relinquishment of rights is no longer a transfer", "correct": false }
+          ],
+          "explanation": "The transfer definition in Section 2(109) is identical to old Section 2(47). All components — sale, exchange, relinquishment, extinguishment, compulsory acquisition, conversion, zero-coupon bonds, immovable property enjoyment — are preserved. This is pure renumbering.",
+          "explanationWrong": "No substantive change at all. Every component of the old transfer definition survives intact in 2(109). The 2025 Act does not narrow or broaden the definition — it merely assigns a new clause number.",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "transfer", "no-change"],
+          "isReview": false,
+          "oldSection": "Section 2(47)",
+          "newSection": "Section 2(109)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following correctly lists all four key definition clause remappings for capital gains under the 2025 Act?",
+          "options": [
+            { "text": "Capital asset 2(14)→2(22), Transfer 2(47)→2(109), New 2(101) STCA, New 2(67) LTCA", "correct": true },
+            { "text": "Capital asset 2(14)→2(109), Transfer 2(47)→2(22), New 2(67) STCA, New 2(101) LTCA", "correct": false },
+            { "text": "Capital asset 2(14)→2(67), Transfer 2(47)→2(101), New 2(22) STCA, New 2(109) LTCA", "correct": false },
+            { "text": "Capital asset 2(14)→2(22), Transfer 2(47)→2(67), New 2(101) STCA, New 2(109) LTCA", "correct": false }
+          ],
+          "explanation": "The four definition mappings: (1) capital asset 2(14)→2(22), (2) transfer 2(47)→2(109), (3) new 2(101) for short-term capital asset, (4) new 2(67) for long-term capital asset. This is the complete set of definition clause changes relevant to capital gains.",
+          "explanationWrong": "There are four and only four definition remappings to learn: 2(14)→2(22) capital asset, 2(47)→2(109) transfer, new 2(101) short-term, new 2(67) long-term. No other definition clauses are changed.",
+          "tier": 2,
+          "subConcepts": ["definition-mapping", "complete-set"],
+          "isReview": false,
+          "oldSection": "Section 2(14), Section 2(47)",
+          "newSection": "Section 2(22), Section 2(109), Section 2(101), Section 2(67)"
+        }
+      ]
+    },
+    {
+      "title": "Section 70 — Deep Dive on Dropped Exemptions",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client has a pending assessment involving a transfer by an industrially sick company under a BIFR rehabilitation scheme. The transfer occurred in FY 2024-25 (under the 1961 Act). Is the old Section 47(xiiia) exemption available?",
+          "options": [
+            { "text": "Yes — the saving clauses preserve the old Act position for transfers that occurred before 1 April 2026", "correct": true },
+            { "text": "No — the 2025 Act retroactively removes all BIFR exemptions", "correct": false },
+            { "text": "Only if the NCLT approves the exemption", "correct": false },
+            { "text": "Only if the assessment is completed before 1 April 2026", "correct": false }
+          ],
+          "explanation": "For transfers that occurred under the 1961 Act (before 1 April 2026), the saving clauses preserve the old Act position. The BIFR exemption under old Section 47(xiiia) remains available for pre-2026 transfers even though the 2025 Act does not re-enact it.",
+          "explanationWrong": "The 2025 Act does not retroactively remove exemptions. The saving clauses protect transactions that occurred under the old Act. The BIFR exemption is only unavailable for transfers under the 2025 Act (post-April 2026) — which is academic since BIFR no longer exists anyway.",
+          "tier": 2,
+          "subConcepts": ["section-70", "BIFR", "saving-clause", "transition"],
+          "isReview": false,
+          "oldSection": "Section 47(xiiia)",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 2,
+          "question": "The 2025 Act does not re-enact the BIFR and demutualisation exemptions. Is this a policy shift or housekeeping?",
+          "options": [
+            { "text": "Housekeeping — both provisions were functionally dead and could never apply again", "correct": true },
+            { "text": "A major policy shift to increase the tax base", "correct": false },
+            { "text": "A temporary suspension pending new insolvency regulations", "correct": false },
+            { "text": "A policy shift — the government now opposes industrial rehabilitation", "correct": false }
+          ],
+          "explanation": "Both removals are pure housekeeping. BIFR was dissolved under the IBC; demutualisation of all Indian exchanges is complete. Neither provision had any future applicability. The 2025 Act simply chose not to carry forward dead law.",
+          "explanationWrong": "No policy change here. The government is not changing its stance on rehabilitation or demutualisation — these events have simply already happened and cannot recur under the current legal framework. The 2025 Act is cleaning up the statute book.",
+          "tier": 2,
+          "subConcepts": ["section-70", "housekeeping", "dead-provisions"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 3,
+          "question": "Your transfer-exclusion checklist for Section 70 under the 2025 Act should include all of the following EXCEPT:",
+          "options": [
+            { "text": "Transfer by an industrially sick company under BIFR", "correct": true },
+            { "text": "Gift to a relative (not being a non-resident)", "correct": false },
+            { "text": "Transfer of assets in a scheme of amalgamation", "correct": false },
+            { "text": "Conversion of bonds/debentures into shares", "correct": false }
+          ],
+          "explanation": "BIFR transfers are the one to remove from your checklist (along with demutualisation). Gifts to relatives, amalgamation transfers, and bond-to-share conversions all continue under Section 70. This tests your ability to update standard checklists.",
+          "explanationWrong": "Your updated Section 70 checklist should remove BIFR and demutualisation. Everything else from old Section 47 carries forward. Gifts, amalgamations, demergers, conversions, partner-firm transfers — all continue.",
+          "tier": 2,
+          "subConcepts": ["section-70", "checklist-update", "practical-application"],
+          "isReview": true,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 70 of the ITA 2025, does the exemption for transfer of a capital asset by a holding company to its 100% Indian subsidiary continue?",
+          "options": [
+            { "text": "Yes — this exemption is fully preserved in Section 70", "correct": true },
+            { "text": "No — all corporate transfer exemptions were removed", "correct": false },
+            { "text": "Only if the subsidiary was incorporated after 1 April 2026", "correct": false },
+            { "text": "Only with prior CBDT approval", "correct": false }
+          ],
+          "explanation": "The holding company-subsidiary transfer exemption is one of the many exemptions fully preserved in Section 70. The only two removed are BIFR and demutualisation. Corporate restructuring exemptions (amalgamation, demerger, holding-subsidiary) all continue without modification.",
+          "explanationWrong": "Corporate restructuring exemptions are critical infrastructure of the tax code — they all continue. Only the two dead provisions (BIFR and demutualisation) were dropped.",
+          "tier": 2,
+          "subConcepts": ["section-70", "holding-subsidiary", "retained"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 5,
+          "question": "Does the exemption for conversion of a private/unlisted company into an LLP continue under the 2025 Act?",
+          "options": [
+            { "text": "Yes — it continues under Section 70, with conditions under Section 71 (old 47A)", "correct": true },
+            { "text": "No — LLP conversions are now fully taxable", "correct": false },
+            { "text": "Only for LLPs registered after 1 April 2026", "correct": false },
+            { "text": "Yes, but the conditions have been significantly tightened", "correct": false }
+          ],
+          "explanation": "The company-to-LLP conversion exemption is preserved in Section 70, and its conditions (turnover and total value of assets limits) continue under Section 71 (old 47A). No substantive change by the 2025 Act.",
+          "explanationWrong": "LLP conversion exemption is alive and well. Section 70 carries the exemption, Section 71 (old 47A) carries the conditions. The 2025 Act does not modify any condition for LLP conversion.",
+          "tier": 2,
+          "subConcepts": ["section-70", "LLP-conversion", "section-71"],
+          "isReview": false,
+          "oldSection": "Section 47, Section 47A",
+          "newSection": "Section 70, Section 71"
+        }
+      ]
+    },
+    {
+      "title": "Scenario-Based — Section Mapping Under Pressure",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "It's April 2027. A CA firm is updating all its standard opinion templates for the 2025 Act. For a standard capital gains computation, which set of section references should appear?",
+          "options": [
+            { "text": "Section 67 (charge), Section 72 (computation), Section 2(22) (capital asset), Section 2(109) (transfer)", "correct": true },
+            { "text": "Section 45 (charge), Section 48 (computation), Section 2(14) (capital asset), Section 2(47) (transfer)", "correct": false },
+            { "text": "Section 67 (charge), Section 48 (computation), Section 2(22) (capital asset), Section 2(47) (transfer)", "correct": false },
+            { "text": "Section 45 (charge), Section 72 (computation), Section 2(14) (capital asset), Section 2(109) (transfer)", "correct": false }
+          ],
+          "explanation": "Post-April 2026, all references must be 2025 Act numbers: Section 67 for charge, Section 72 for computation, Section 2(22) for capital asset, Section 2(109) for transfer. Mixing old and new references is a professional error.",
+          "explanationWrong": "You cannot mix old Act and new Act section numbers in the same opinion. For post-April 2026 transactions, it's all 2025 Act: 67, 72, 2(22), 2(109). The templates need a complete overhaul of section citations.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "template-update", "professional-practice"],
+          "isReview": false,
+          "oldSection": "Sections 45, 48, 2(14), 2(47)",
+          "newSection": "Sections 67, 72, 2(22), 2(109)"
+        },
+        {
+          "order": 2,
+          "question": "A client's auditor queries: 'The transfer occurred on 15 March 2026 (before the 2025 Act). But the assessment is happening in 2027. Which Act's section numbers apply?' What is the correct answer?",
+          "options": [
+            { "text": "The 1961 Act section numbers — the transfer occurred under the old Act and saving clauses preserve its applicability", "correct": true },
+            { "text": "The 2025 Act section numbers — the assessment is happening after 1 April 2026", "correct": false },
+            { "text": "Whichever Act the assessing officer prefers", "correct": false },
+            { "text": "Both Acts' numbers must be cited in parallel", "correct": false }
+          ],
+          "explanation": "The relevant date is when the transfer occurred, not when the assessment happens. A transfer on 15 March 2026 falls under the 1961 Act. The saving clauses ensure the old Act governs transactions that took place before the 2025 Act came into effect on 1 April 2026.",
+          "explanationWrong": "The transfer date determines the governing Act, not the assessment date. Pre-April 2026 transfers = 1961 Act. The saving clauses are the mechanism that preserves this. Assessment timelines are irrelevant to the choice of Act.",
+          "tier": 3,
+          "subConcepts": ["transition", "saving-clause", "assessment-timing"],
+          "isReview": false,
+          "oldSection": "Section 45",
+          "newSection": "Section 67"
+        },
+        {
+          "order": 3,
+          "question": "A trainee argues: 'The 2025 Act changed holding periods because it introduced new definition clauses 2(101) and 2(67).' Is this correct?",
+          "options": [
+            { "text": "No — the new clauses are structural improvements giving dedicated numbers to existing definitions; holding periods are unchanged", "correct": true },
+            { "text": "Yes — the new clause numbers always signal a substantive change", "correct": false },
+            { "text": "Partially correct — holding periods changed for some asset classes", "correct": false },
+            { "text": "The trainee is correct — the 2025 Act unified all holding periods to 24 months", "correct": false }
+          ],
+          "explanation": "New clause numbers do NOT equal substantive changes. Sections 2(101) and 2(67) give short-term and long-term capital asset their own dedicated definition clauses — previously these were embedded in cross-references (2(42A) and 2(29A)). The actual thresholds (12 months for listed equity/MFs, 24 months for others) are identical to the post-2017 position.",
+          "explanationWrong": "A new number does not mean a new rule. The trainee is confusing renumbering with reform. The holding periods are unchanged since Finance Act 2017. The 2025 Act simply gives the definitions better structural placement.",
+          "tier": 3,
+          "subConcepts": ["definition-mapping", "holding-periods", "misconception-correction"],
+          "isReview": true,
+          "oldSection": "Section 2(42A), Section 2(29A)",
+          "newSection": "Section 2(101), Section 2(67)"
+        },
+        {
+          "order": 4,
+          "question": "A senior partner receives a query: 'Under the 2025 Act, can a transfer to a BIFR-managed rehabilitation scheme still claim the non-transfer exemption?' Your response:",
+          "options": [
+            { "text": "No — the BIFR exemption was not re-enacted in Section 70, and BIFR itself no longer exists", "correct": true },
+            { "text": "Yes — the exemption was moved to a different section of the 2025 Act", "correct": false },
+            { "text": "Yes — saving clauses preserve all old exemptions indefinitely", "correct": false },
+            { "text": "It depends on whether NCLT has assumed BIFR's role for this purpose", "correct": false }
+          ],
+          "explanation": "The BIFR exemption is gone on two fronts: (1) the 2025 Act does not re-enact it in Section 70, and (2) BIFR itself was dissolved — there is no BIFR to manage any rehabilitation scheme. The NCLT handles insolvency under the IBC, which has its own tax framework. Saving clauses only protect past transactions, not future ones.",
+          "explanationWrong": "This is doubly dead — no BIFR exists, and no exemption exists. Saving clauses protect transactions that already occurred under the old Act, but they do not create future exemptions. The NCLT does not step into BIFR's shoes for this specific tax exemption.",
+          "tier": 3,
+          "subConcepts": ["section-70", "BIFR", "no-future-applicability"],
+          "isReview": false,
+          "oldSection": "Section 47(xiiia)",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 5,
+          "question": "It's 2028. A new stock exchange is being set up and plans to demutualise eventually. Can it claim the old demutualisation exemption under the 2025 Act?",
+          "options": [
+            { "text": "No — the demutualisation exemption was not re-enacted in Section 70; any new exchange would need a fresh legislative provision", "correct": true },
+            { "text": "Yes — the exemption was merely moved to another section", "correct": false },
+            { "text": "Yes — SEBI can invoke the old exemption under its own powers", "correct": false },
+            { "text": "It depends on whether the exchange is recognised under SEBI regulations", "correct": false }
+          ],
+          "explanation": "The demutualisation exemption (old Section 47(xiiib)) was not re-enacted. A hypothetical new exchange seeking demutualisation under the 2025 Act regime would find no exemption available. A fresh legislative provision (amendment to the 2025 Act or a specific notification) would be needed.",
+          "explanationWrong": "No exemption exists in the 2025 Act for demutualisation. SEBI cannot create tax exemptions — that requires Parliament. This scenario shows why dropping 'dead' provisions can occasionally matter if circumstances change.",
+          "tier": 3,
+          "subConcepts": ["section-70", "demutualisation", "hypothetical-scenario"],
+          "isReview": false,
+          "oldSection": "Section 47(xiiib)",
+          "newSection": "Section 70"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Concept Integration",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "You're reviewing a draft assessment order for FY 2026-27 that cites 'Section 2(14) read with Section 47' for a gift exemption. How many section reference errors are there?",
+          "options": [
+            { "text": "Two — should be Section 2(22) read with Section 70", "correct": true },
+            { "text": "One — only the Section 47 reference is wrong", "correct": false },
+            { "text": "None — old section numbers can still be used", "correct": false },
+            { "text": "Three — the entire approach to gift exemption has changed", "correct": false }
+          ],
+          "explanation": "Both references are wrong for a 2025 Act assessment: Section 2(14) should be 2(22) (capital asset definition) and Section 47 should be Section 70 (non-transfer exclusions). The gift exemption itself is unchanged — only the section numbers are different.",
+          "explanationWrong": "Two errors: 2(14)→2(22) and 47→70. The gift exemption continues — it is the section citations that need updating. For post-April 2026 assessments, all references must be to the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "definition-mapping", "error-spotting"],
+          "isReview": false,
+          "oldSection": "Section 2(14), Section 47",
+          "newSection": "Section 2(22), Section 70"
+        },
+        {
+          "order": 2,
+          "question": "A colleague claims: 'The 2025 Act completely overhauled the capital gains framework — new definitions, new exemptions, new computation rules.' Based on what Unit 7.1 covers, how would you respond?",
+          "options": [
+            { "text": "Incorrect — the framework is renumbered with minimal substantive change: two dead exemptions dropped, four definition clauses remapped, no new computation rules", "correct": true },
+            { "text": "Correct — the 2025 Act rewrites capital gains from scratch", "correct": false },
+            { "text": "Partially correct — new computation rules were added but exemptions are unchanged", "correct": false },
+            { "text": "Incorrect — there are no changes at all, not even to section numbers", "correct": false }
+          ],
+          "explanation": "The capital gains overview chapter (Sections 67-72) is largely renumbered from Sections 45-48. The genuine changes are narrow: two obsolete exemptions dropped from Section 70, four definition clauses remapped under Section 2. No new computation rules, no new charging triggers, no policy changes.",
+          "explanationWrong": "The 2025 Act is primarily a re-codification for capital gains. The changes that look dramatic (rates, indexation, grandfathering) were actually made by Finance (No.2) Act 2024 and are merely carried forward. The 2025 Act's own contribution is minimal — section renumbering plus housekeeping.",
+          "tier": 3,
+          "subConcepts": ["overall-assessment", "renumbering-vs-reform"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "For a capital gains computation under the 2025 Act, which of the following pairs of sections would you cite for 'charge' and 'computation' respectively?",
+          "options": [
+            { "text": "Section 67 and Section 72", "correct": true },
+            { "text": "Section 67 and Section 70", "correct": false },
+            { "text": "Section 72 and Section 67", "correct": false },
+            { "text": "Section 70 and Section 72", "correct": false }
+          ],
+          "explanation": "Section 67 is the charging section (old 45) and Section 72 is the computation section (old 48). Together they form the backbone of every capital gains computation. Section 70 is the non-transfer exclusion list — you cite it only when arguing that a transaction is NOT a transfer.",
+          "explanationWrong": "Charge = Section 67, Computation = Section 72. These are the two pillars. Section 70 is for non-transfer arguments, not for computation. Don't reverse the order — 67 comes first (is there a charge?) then 72 (how much is the gain?).",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "charge-and-computation"],
+          "isReview": true,
+          "oldSection": "Sections 45, 48",
+          "newSection": "Sections 67, 72"
+        },
+        {
+          "order": 4,
+          "question": "A client enters into a joint development agreement in FY 2027-28. Under the 2025 Act, capital gains on receipt of the certificate of completion are charged under which section?",
+          "options": [
+            { "text": "Section 67 — JDA transfers are a specific charging trigger in the charging section", "correct": true },
+            { "text": "Section 70 — JDA is treated as a non-transfer", "correct": false },
+            { "text": "Section 72 — JDA is a computation provision", "correct": false },
+            { "text": "Section 69 — JDA is treated like insurance compensation", "correct": false }
+          ],
+          "explanation": "JDA capital gains are charged under Section 67 (old 45) — specifically, the provision dealing with specified agreements where the gain is taxable in the year of receipt of the certificate of completion. The computation of gain would then use Section 72.",
+          "explanationWrong": "JDA is a charging trigger under Section 67. The special feature is timing — taxable on receipt of the completion certificate, not on signing the agreement. This has always been in the charging section (old 45, now 67).",
+          "tier": 3,
+          "subConcepts": ["section-67", "JDA", "charging-trigger"],
+          "isReview": false,
+          "oldSection": "Section 45",
+          "newSection": "Section 67"
+        },
+        {
+          "order": 5,
+          "question": "Compulsory acquisition of agricultural land within urban limits occurs in FY 2027-28. The compensation is received the same year. Which section charges this to capital gains tax?",
+          "options": [
+            { "text": "Section 67 — compulsory acquisition of a capital asset is a charging trigger", "correct": true },
+            { "text": "Section 70 — compulsory acquisition is exempted from capital gains", "correct": false },
+            { "text": "Not taxable — agricultural land is not a capital asset", "correct": false },
+            { "text": "Section 69 — this is treated as insurance compensation", "correct": false }
+          ],
+          "explanation": "Agricultural land within urban limits IS a capital asset under Section 2(22). Compulsory acquisition of a capital asset is a charging trigger under Section 67 (taxable in the year of receipt). Agricultural land outside specified urban limits would NOT be a capital asset — that is the exclusion to watch.",
+          "explanationWrong": "The key distinction is urban vs. rural agricultural land. Agricultural land within specified urban limits is a capital asset and its compulsory acquisition triggers capital gains under Section 67. Only agricultural land outside those limits is excluded from the capital asset definition.",
+          "tier": 3,
+          "subConcepts": ["section-67", "compulsory-acquisition", "agricultural-land"],
+          "isReview": false,
+          "oldSection": "Section 45",
+          "newSection": "Section 67"
+        }
+      ]
+    },
+    {
+      "title": "Rapid Fire — Distinguish and Decide",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Two provisions were removed from the non-transfer list in Section 70. One involved BIFR. The other involved:",
+          "options": [
+            { "text": "Demutualisation of recognised stock exchanges", "correct": true },
+            { "text": "Amalgamation of banking companies", "correct": false },
+            { "text": "Conversion of debentures into equity", "correct": false },
+            { "text": "Gift of capital assets to relatives", "correct": false }
+          ],
+          "explanation": "The two dropped exemptions: BIFR industrially sick company transfers and stock exchange demutualisation. Banking amalgamation, debenture conversion, and gift exemptions all continue. This tests whether you've memorised both dropped items, not just one.",
+          "explanationWrong": "Only two provisions were dropped: BIFR and demutualisation. All other non-transfer provisions continue. Banking amalgamation and debenture conversion are very much alive in Section 70.",
+          "tier": 3,
+          "subConcepts": ["section-70", "demutualisation", "paired-recall"],
+          "isReview": false,
+          "oldSection": "Section 47",
+          "newSection": "Section 70"
+        },
+        {
+          "order": 2,
+          "question": "Quick match: Section 68 of the ITA 2025 corresponds to which old section and what does it cover?",
+          "options": [
+            { "text": "Old Section 46 — capital gains on distribution of assets by companies in liquidation", "correct": true },
+            { "text": "Old Section 46A — capital gains on insurance compensation", "correct": false },
+            { "text": "Old Section 48 — mode of computation", "correct": false },
+            { "text": "Old Section 47 — transactions not regarded as transfer", "correct": false }
+          ],
+          "explanation": "Section 68 = old Section 46 = capital gains on distribution of assets by companies in liquidation. Section 69 = old 46A (insurance compensation). The mapping maintains the original sequence.",
+          "explanationWrong": "Section 68 is liquidation distributions (old 46). Section 69 is insurance compensation (old 46A). Don't confuse 68 and 69 — they correspond to 46 and 46A respectively.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "rapid-recall"],
+          "isReview": false,
+          "oldSection": "Section 46",
+          "newSection": "Section 68"
+        },
+        {
+          "order": 3,
+          "question": "A firm is migrating its tax software. The old system uses Sections 45-48 and 2(14)/2(47). Which complete set of replacements should be coded?",
+          "options": [
+            { "text": "45→67, 46→68, 46A→69, 47→70, 47A→71, 48→72, 2(14)→2(22), 2(47)→2(109), plus new 2(101) and 2(67)", "correct": true },
+            { "text": "45→67, 48→72, 2(14)→2(22), 2(47)→2(109) — that's the complete set", "correct": false },
+            { "text": "Only 45→67 and 48→72 need coding — definitions stay the same", "correct": false },
+            { "text": "45→67, 46→68, 47→70, 48→72 — definition clauses are not system-relevant", "correct": false }
+          ],
+          "explanation": "The complete migration requires ALL section mappings (45→67 through 48→72) AND ALL definition clause remappings (2(14)→2(22), 2(47)→2(109)) AND the new standalone definition clauses 2(101) and 2(67). Missing any of these means the software will generate incorrect citations.",
+          "explanationWrong": "Partial migration = broken software. You need every section mapping AND every definition mapping. The new 2(101) and 2(67) also need to be coded as they are new definition references that may appear in computation logic.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "definition-mapping", "software-migration", "complete-set"],
+          "isReview": true,
+          "oldSection": "Sections 45-48, 2(14), 2(47)",
+          "newSection": "Sections 67-72, 2(22), 2(109), 2(101), 2(67)"
+        },
+        {
+          "order": 4,
+          "question": "A client reads an article stating 'the 2025 Act has changed the computation formula for capital gains.' Based on your knowledge of Sections 67-72, is this claim accurate?",
+          "options": [
+            { "text": "No — the computation formula (FVC minus expenditure, COA, COI) is unchanged; indexation removal was Finance Act 2024, not the 2025 Act", "correct": true },
+            { "text": "Yes — the 2025 Act removed indexation from the computation", "correct": false },
+            { "text": "Yes — the 2025 Act introduced a new surcharge on computation", "correct": false },
+            { "text": "Partially — the formula changed for immovable property only", "correct": false }
+          ],
+          "explanation": "The computation formula in Section 72 (old 48) is unchanged by the 2025 Act. Indexation was removed by Finance (No.2) Act 2024 — the 2025 Act merely carries that forward. The article is conflating two different legislative events.",
+          "explanationWrong": "This is a critical distinction. The 2025 Act did NOT remove indexation — Finance Act 2024 did. The 2025 Act merely codifies the post-FA 2024 position. Any article attributing indexation removal to the 2025 Act is incorrect.",
+          "tier": 3,
+          "subConcepts": ["section-72", "computation", "misconception", "FA-2024-distinction"],
+          "isReview": false,
+          "oldSection": "Section 48",
+          "newSection": "Section 72"
+        },
+        {
+          "order": 5,
+          "question": "Final synthesis: How many GENUINE substantive changes does Unit 7.1 (Sections 67-72 and related definitions) contain in the 2025 Act?",
+          "options": [
+            { "text": "Two: the dropped BIFR and demutualisation exemptions from Section 70 (plus four definition clause remappings as structural changes)", "correct": true },
+            { "text": "Zero — everything is pure renumbering", "correct": false },
+            { "text": "Five or more — rates, indexation, holding periods, and exemptions all changed", "correct": false },
+            { "text": "One — only the definition clauses changed", "correct": false }
+          ],
+          "explanation": "The genuine 2025 Act changes in this unit: (1) BIFR exemption dropped from Section 70, (2) demutualisation exemption dropped from Section 70. The four definition clause remappings (2(14)→2(22), 2(47)→2(109), new 2(101), new 2(67)) are structural improvements. Everything else — rates, indexation, holding periods — was changed by earlier Finance Acts, not the 2025 Act.",
+          "explanationWrong": "The 2025 Act's contribution to capital gains overview is narrow: two dead exemptions removed and four definition clauses remapped. Rates and indexation were Finance Act 2024. Holding periods were Finance Act 2017. The 2025 Act is mostly a re-codification here.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "genuine-changes", "overall-assessment"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

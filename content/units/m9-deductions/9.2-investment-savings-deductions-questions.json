@@ -1,0 +1,835 @@
+{
+  "unit": "9.2",
+  "title": "Investment & Savings Deductions (Sections 123-125)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 123 — Investment Deduction Basics",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Sections 80C and 80CCC have been merged into which single section?",
+          "options": [
+            { "text": "Section 120", "correct": false },
+            { "text": "Section 122", "correct": false },
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 80C (retained)", "correct": false }
+          ],
+          "explanation": "Old Sections 80C (investments in PPF, ELSS, LIC, etc.) and 80CCC (pension fund contributions) have been merged into Section 123. The eligible instruments are now listed in Schedule XV to the 2025 Act, rather than within the section itself.",
+          "explanationWrong": "Section 123 is correct. The merger of 80C and 80CCC is a drafting consolidation — the eligible instruments, limits, and conditions all remain the same. Section 122 is the general rules provision, not the investment deduction.",
+          "tier": 1,
+          "subConcepts": ["section-123", "80c-80ccc-merger", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCC",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 2,
+          "question": "What is the maximum deduction limit under Section 123 (old 80C+80CCC)?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 1,50,000", "correct": true },
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "The Rs 1,50,000 limit continues unchanged. This ceiling is shared with Section 124(1) (employee's own NPS contribution). The limit has been the same since its enhancement from Rs 1,00,000 to Rs 1,50,000 by Finance Act 2014.",
+          "explanationWrong": "Rs 1,50,000 — unchanged from the old Act. This is the combined ceiling for Section 123 and Section 124(1). The 2025 Act does not enhance this limit. If you picked Rs 2,00,000, you might be thinking of the Rs 1,50,000 + Rs 50,000 additional NPS, but those are separate.",
+          "tier": 1,
+          "subConcepts": ["rs-1-5l-limit", "section-123", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the timely return-filing condition under Section 122(5) applies to which deductions?",
+          "options": [
+            { "text": "All Chapter VIII deductions", "correct": false },
+            { "text": "Part B only (Sections 123-137)", "correct": false },
+            { "text": "Part C only (Sections 138-154)", "correct": true },
+            { "text": "Neither Part B nor Part C", "correct": false }
+          ],
+          "explanation": "Section 122(5) applies to Part C deductions only (Sections 138-154). Part B deductions (Sections 123-137) survive even in belated returns. This was covered in detail in Unit 9.1.",
+          "explanationWrong": "Part C only — the critical distinction from Unit 9.1. Section 123 (investments) is in Part B, so it doesn't require timely filing. But income-based deductions in Part C (Sections 138-154) do. This distinction has major practical consequences.",
+          "tier": 1,
+          "subConcepts": ["timely-filing", "part-c-only", "section-122-5"],
+          "isReview": true,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 4,
+          "question": "Section 123 (old 80C) is available under which tax regime?",
+          "options": [
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "Old regime only", "correct": true },
+            { "text": "New regime only", "correct": false },
+            { "text": "Neither — it has been abolished", "correct": false }
+          ],
+          "explanation": "Section 123 is available only under the old tax regime. New-regime assessees lose the entire Rs 1,50,000 investment deduction basket. This is one of the biggest trade-offs of the new regime.",
+          "explanationWrong": "Old regime only. This is the deduction that most assessees think about first — PPF, ELSS, LIC, tuition fees. Losing it under the new regime is the primary reason many assessees (especially those with heavy Section 80C investments) stick with the old regime.",
+          "tier": 1,
+          "subConcepts": ["section-123-old-regime", "regime-availability", "trade-off"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, where is the list of eligible instruments for Section 123 deduction published?",
+          "options": [
+            { "text": "Within Section 123 itself (like old Section 80C(2))", "correct": false },
+            { "text": "In Schedule XV to the 2025 Act", "correct": true },
+            { "text": "In a CBDT circular", "correct": false },
+            { "text": "In Section 122 (general rules)", "correct": false }
+          ],
+          "explanation": "The 2025 Act moves the eligible instruments list from within the section body to Schedule XV. This is a structural improvement — the section is cleaner, and the schedule can be referenced more easily. The instruments themselves are unchanged.",
+          "explanationWrong": "Schedule XV is the answer. Under the old Act, old Section 80C(2) had an unwieldy embedded list of eligible instruments. The 2025 Act extracts this into a dedicated schedule — better drafting, same eligible investments.",
+          "tier": 1,
+          "subConcepts": ["schedule-xv", "eligible-instruments", "structural-change"],
+          "isReview": false,
+          "oldSection": "Section 80C(2)",
+          "newSection": "Schedule XV"
+        }
+      ]
+    },
+    {
+      "title": "Schedule XV — Eligible Instruments",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following is an eligible instrument under Schedule XV (Section 123)?",
+          "options": [
+            { "text": "Equity Linked Savings Scheme (ELSS) with 3-year lock-in", "correct": true },
+            { "text": "Equity mutual funds with no lock-in", "correct": false },
+            { "text": "Fixed deposits with less than 5-year tenure", "correct": false },
+            { "text": "Corporate bonds", "correct": false }
+          ],
+          "explanation": "ELSS with a 3-year lock-in continues as an eligible instrument under Schedule XV. Regular equity mutual funds (no lock-in) and short-term FDs do not qualify. The lock-in requirement ensures the investment stays committed.",
+          "explanationWrong": "ELSS with 3-year lock-in is correct. The key qualification is the lock-in period — ELSS gets 3 years, FDs need 5 years, PPF is 15 years. Open-ended equity funds without lock-in don't qualify, nor do corporate bonds.",
+          "tier": 1,
+          "subConcepts": ["elss", "lock-in-period", "schedule-xv"],
+          "isReview": false,
+          "oldSection": "Section 80C(2)",
+          "newSection": "Section 123 / Schedule XV"
+        },
+        {
+          "order": 2,
+          "question": "Under Schedule XV, tuition fee deduction is available for how many children?",
+          "options": [
+            { "text": "One child only", "correct": false },
+            { "text": "Up to two children", "correct": true },
+            { "text": "Up to three children", "correct": false },
+            { "text": "No limit on number of children", "correct": false }
+          ],
+          "explanation": "Tuition fees for up to two children (full-time education in India) qualify under Section 123/Schedule XV. The per-child amount is not separately capped — it falls within the overall Rs 1,50,000 ceiling. This is unchanged from the old Act.",
+          "explanationWrong": "Two children — same as before. The tuition fee deduction covers full-time education in India only. Development fees, donation, transport charges, etc. are not eligible — only tuition fees. And it counts towards the shared Rs 1,50,000 ceiling.",
+          "tier": 1,
+          "subConcepts": ["tuition-fees", "two-children", "schedule-xv"],
+          "isReview": false,
+          "oldSection": "Section 80C(2)",
+          "newSection": "Section 123 / Schedule XV"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Sections 80TTA (non-senior savings interest) and 80TTB (senior deposit interest) have been merged into which section?",
+          "options": [
+            { "text": "Section 150", "correct": false },
+            { "text": "Section 151", "correct": false },
+            { "text": "Section 153", "correct": true },
+            { "text": "Section 123", "correct": false }
+          ],
+          "explanation": "Section 153 merges 80TTA and 80TTB. Non-seniors get Rs 10,000, seniors get Rs 50,000. This was covered in Unit 8.1 on Income from Other Sources.",
+          "explanationWrong": "Section 153 is correct. The merger is a drafting consolidation — same limits (Rs 10K non-seniors, Rs 50K seniors), same eligibility, one section number instead of two. This was covered in Unit 8.1.",
+          "tier": 1,
+          "subConcepts": ["section-153", "80tta-80ttb-merger"],
+          "isReview": true,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 4,
+          "question": "What happens if an investment claimed under Section 123 is withdrawn before the lock-in period?",
+          "options": [
+            { "text": "Nothing — the deduction already claimed is final", "correct": false },
+            { "text": "The deduction claimed is reversed and added back to income in the year of withdrawal", "correct": true },
+            { "text": "A penalty of 10% of the withdrawn amount is imposed", "correct": false },
+            { "text": "The deduction is reduced proportionately", "correct": false }
+          ],
+          "explanation": "If an investment is withdrawn before the lock-in period, the deduction previously claimed is reversed — the amount is added back to the assessee's income in the year of premature withdrawal. This ensures the tax benefit is clawed back.",
+          "explanationWrong": "Full reversal — the deduction is clawed back. There's no proportionate reduction or penalty — the entire deduction amount is added back to income. This applies to LIC surrenders before maturity, ELSS redeemed before 3 years, FDs broken before 5 years, etc.",
+          "tier": 1,
+          "subConcepts": ["premature-withdrawal", "deduction-reversal", "lock-in"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is NOT an eligible instrument under Schedule XV?",
+          "options": [
+            { "text": "Public Provident Fund (PPF)", "correct": false },
+            { "text": "National Savings Certificate (NSC)", "correct": false },
+            { "text": "Unit Linked Insurance Plan (ULIP) with annual premium exceeding Rs 2.5 lakh", "correct": true },
+            { "text": "Sukanya Samriddhi Yojana", "correct": false }
+          ],
+          "explanation": "ULIPs with annual premium exceeding Rs 2.5 lakh (for policies issued after 1 Feb 2021) are taxable as capital gains, not eligible for Section 123 deduction. PPF, NSC, and Sukanya Samriddhi all remain eligible instruments.",
+          "explanationWrong": "High-premium ULIPs are excluded. Post-February 2021, ULIPs with annual premiums exceeding Rs 2.5 lakh are treated as equity-oriented funds for capital gains purposes and don't qualify for the investment deduction. PPF, NSC, and Sukanya Samriddhi remain eligible.",
+          "tier": 1,
+          "subConcepts": ["ulip-exclusion", "schedule-xv", "high-premium"],
+          "isReview": false,
+          "oldSection": "Section 80C(2)",
+          "newSection": "Section 123 / Schedule XV"
+        }
+      ]
+    },
+    {
+      "title": "Section 124 — NPS Deduction",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 124(2), what is the employer NPS contribution deduction cap for private-sector employees in the ITA 2025?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "12% of salary", "correct": false },
+            { "text": "14% of salary", "correct": true },
+            { "text": "No cap — full contribution is deductible", "correct": false }
+          ],
+          "explanation": "Section 124(2) harmonises the employer NPS cap at 14% for ALL employees — private sector, PSUs, and government. Previously, private-sector employees were limited to 10%. This is a genuine substantive change under the 2025 Act.",
+          "explanationWrong": "14% — harmonised across the board. This is one of the few genuine substantive improvements in the deduction chapter. Under the old Act, government employees got 14% while private-sector employees were stuck at 10%. The 2025 Act eliminates this disparity.",
+          "tier": 1,
+          "subConcepts": ["14-percent-harmonisation", "section-124-2", "genuine-change"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 2,
+          "question": "Under the old Act (Section 80CCD(2)), what was the employer NPS contribution cap for private-sector employees?",
+          "options": [
+            { "text": "10% of salary", "correct": true },
+            { "text": "14% of salary", "correct": false },
+            { "text": "12% of salary", "correct": false },
+            { "text": "8% of salary", "correct": false }
+          ],
+          "explanation": "Under old Section 80CCD(2), private-sector employees had a 10% cap while Central and State Government employees had 14%. This disparity has been eliminated by Section 124(2), which sets 14% for everyone.",
+          "explanationWrong": "10% was the old private-sector cap. Government employees always had 14%. The 2025 Act's harmonisation at 14% means a private-sector employee with Rs 10L basic salary gets an additional Rs 40,000 in deduction (14% = Rs 1,40,000 vs old 10% = Rs 1,00,000).",
+          "tier": 1,
+          "subConcepts": ["old-10-percent-cap", "government-vs-private", "disparity-eliminated"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, how does Section 122(4) prevent double deductions?",
+          "options": [
+            { "text": "It limits total deductions to Rs 5,00,000", "correct": false },
+            { "text": "It bars the same expenditure from being deducted under two different provisions", "correct": true },
+            { "text": "It requires all deductions to be verified by the AO", "correct": false },
+            { "text": "It allows only one deduction per head of income", "correct": false }
+          ],
+          "explanation": "Section 122(4) prevents the same amount from generating deductions under multiple provisions — whether under Chapter VIII or any other part of the Act. This was the old 80A(4) rule, covered in Unit 9.1.",
+          "explanationWrong": "Same expenditure, two provisions — that's what Section 122(4) prevents. It doesn't cap total deductions at a number (that's Section 122(2)'s GTI cap), and it doesn't require AO verification. It's a simple anti-overlap rule from old Section 80A(4).",
+          "tier": 1,
+          "subConcepts": ["double-deduction-bar", "section-122-4"],
+          "isReview": true,
+          "oldSection": "Section 80A(4)",
+          "newSection": "Section 122(4)"
+        },
+        {
+          "order": 4,
+          "question": "Section 124(2) — employer NPS contribution — is available under which tax regime?",
+          "options": [
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "Neither — NPS deductions have been removed", "correct": false }
+          ],
+          "explanation": "Section 124(2) is available under BOTH regimes. This makes it one of the most valuable deductions for new-regime assessees. Combined with the 14% harmonisation, private-sector employees on the new regime get a significantly enhanced benefit.",
+          "explanationWrong": "Both regimes — and this is critical. The employer NPS deduction is one of the few deductions that survive the new regime. Combined with the 10%→14% enhancement for private-sector employees, this becomes the single biggest deduction available to a new-regime salaried employee.",
+          "tier": 1,
+          "subConcepts": ["both-regimes", "section-124-2", "new-regime-survivor"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 124(1B), what is the additional NPS deduction available over and above the Rs 1,50,000 ceiling?",
+          "options": [
+            { "text": "Rs 25,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Section 124(1B) (old 80CCD(1B)) provides an additional Rs 50,000 deduction for the assessee's own NPS contribution, OVER AND ABOVE the Rs 1,50,000 shared ceiling. This is available only under the old regime.",
+          "explanationWrong": "Rs 50,000 — and it's over and above the Rs 1,50,000 limit. So an old-regime assessee can potentially claim Rs 1,50,000 (Section 123 + 124(1)) plus Rs 50,000 (Section 124(1B)) = Rs 2,00,000 total. But remember, this additional deduction is old-regime only.",
+          "tier": 1,
+          "subConcepts": ["additional-nps-50k", "section-124-1b", "old-regime-only"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(1B)",
+          "newSection": "Section 124(1B)"
+        }
+      ]
+    },
+    {
+      "title": "Section 124 — Harmonisation Deep Dive",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Before the ITA 2025, what was the employer NPS cap for Central Government employees under old Section 80CCD(2)?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "12% of salary", "correct": false },
+            { "text": "14% of salary", "correct": true },
+            { "text": "18% of salary", "correct": false }
+          ],
+          "explanation": "Central Government employees already had a 14% cap. The 2025 Act's harmonisation means private-sector employees are now also at 14%, matching the government sector. For government employees, nothing changes — they were already at 14%.",
+          "explanationWrong": "14% — government employees were always at 14%. The 2025 Act change benefits private-sector employees (10%→14%), not government employees. If you're a government employee, your employer NPS deduction cap is unchanged.",
+          "tier": 2,
+          "subConcepts": ["government-14-percent", "no-change-government", "harmonisation-context"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 2,
+          "question": "Is the Section 124(2) harmonisation (10%→14% for private sector) a genuine change under the 2025 Act, or a carryover from an earlier Finance Act?",
+          "options": [
+            { "text": "A carryover from Finance Act 2022", "correct": false },
+            { "text": "A genuine change under the ITA 2025", "correct": true },
+            { "text": "A carryover from Finance Act 2020", "correct": false },
+            { "text": "It was always 14% — no change has occurred", "correct": false }
+          ],
+          "explanation": "The harmonisation from 10% to 14% for private-sector employer NPS contributions is a genuine 2025 Act change. Unlike VDA taxation (Finance Act 2022) or dividend taxation (Finance Act 2020), this is not a carryover — it's new.",
+          "explanationWrong": "This is a genuine 2025 Act change — one of the few real substantive improvements in the deduction chapter. It's important to distinguish this from provisions that were merely carried forward from earlier Finance Acts. The 14% harmonisation is genuinely new.",
+          "tier": 2,
+          "subConcepts": ["genuine-2025-change", "not-carryover", "section-124-2"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the Rs 50,000 gift threshold under Section 92(2)(m)?",
+          "options": [
+            { "text": "A basic exemption — only the excess is taxable", "correct": false },
+            { "text": "A threshold — if crossed, the ENTIRE amount is taxable", "correct": true },
+            { "text": "A per-person limit", "correct": false },
+            { "text": "A per-transaction limit", "correct": false }
+          ],
+          "explanation": "The Rs 50,000 is a threshold, not a basic exemption. Once aggregate gifts exceed Rs 50,000, the entire amount is taxable (not just the excess). This was covered in Unit 8.1.",
+          "explanationWrong": "Threshold, not exemption — a critical distinction from Unit 8.1. Below Rs 50,000 = fully exempt. Above Rs 50,000 = fully taxable. There's no 'excess over Rs 50,000' calculation. This catches many practitioners.",
+          "tier": 2,
+          "subConcepts": ["threshold-vs-exemption", "section-92-2-m", "gift-taxation"],
+          "isReview": true,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 4,
+          "question": "Section 124(1) — employee's own NPS contribution — has what deduction limit for salaried employees?",
+          "options": [
+            { "text": "14% of salary", "correct": false },
+            { "text": "10% of salary (within the Rs 1,50,000 shared ceiling)", "correct": true },
+            { "text": "20% of salary", "correct": false },
+            { "text": "No limit — full contribution is deductible", "correct": false }
+          ],
+          "explanation": "The employee's OWN NPS contribution under Section 124(1) is limited to 10% of salary. This falls within the Rs 1,50,000 shared ceiling with Section 123. Don't confuse this with Section 124(2) — the EMPLOYER's contribution at 14%.",
+          "explanationWrong": "10% of salary for employee's own contribution (Section 124(1)). The 14% limit is for the EMPLOYER's contribution (Section 124(2)). These are different provisions with different caps. Section 124(1) = 10%, old regime only, shared Rs 1.5L ceiling. Section 124(2) = 14%, both regimes, separate.",
+          "tier": 2,
+          "subConcepts": ["employee-own-nps", "10-percent-cap", "section-124-1"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(1)",
+          "newSection": "Section 124(1)"
+        },
+        {
+          "order": 5,
+          "question": "For self-employed individuals (non-salaried), what is the Section 124(1) NPS deduction limit?",
+          "options": [
+            { "text": "10% of salary", "correct": false },
+            { "text": "14% of gross total income", "correct": false },
+            { "text": "20% of gross total income", "correct": true },
+            { "text": "Rs 50,000 flat", "correct": false }
+          ],
+          "explanation": "For non-salaried/self-employed assessees, the Section 124(1) limit is 20% of gross total income (not 10% of salary). This higher percentage recognises that self-employed individuals don't have employer contributions. It falls within the Rs 1,50,000 shared ceiling.",
+          "explanationWrong": "20% of GTI for the self-employed — not 10% of salary. The Act distinguishes between salaried (10% of salary) and self-employed (20% of GTI). The self-employed get a higher percentage because there's no employer contribution (Section 124(2)) available to them.",
+          "tier": 2,
+          "subConcepts": ["self-employed-nps", "20-percent-gti", "section-124-1"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(1)",
+          "newSection": "Section 124(1)"
+        }
+      ]
+    },
+    {
+      "title": "Section 125 — Agniveer & Regime Comparison",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 125 (old 80CCH) provides a deduction for contributions to which fund?",
+          "options": [
+            { "text": "National Pension System (NPS)", "correct": false },
+            { "text": "Employee Provident Fund (EPF)", "correct": false },
+            { "text": "Agniveer Corpus Fund", "correct": true },
+            { "text": "Public Provident Fund (PPF)", "correct": false }
+          ],
+          "explanation": "Section 125 deals with the Agniveer Corpus Fund, introduced for individuals enrolled under the Agnipath Scheme. Both the Agniveer's own contribution and the Central Government's contribution are deductible.",
+          "explanationWrong": "Agniveer Corpus Fund — not NPS or EPF. This is a specific fund for Agnipath Scheme enrollees. The deduction covers both the individual's contribution and the government's matching contribution. It's available under both tax regimes.",
+          "tier": 2,
+          "subConcepts": ["agniveer-corpus-fund", "section-125", "agnipath-scheme"],
+          "isReview": false,
+          "oldSection": "Section 80CCH",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 2,
+          "question": "Is the Agniveer Corpus Fund deduction under Section 125 available under both tax regimes?",
+          "options": [
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "Neither — it's an exemption, not a deduction", "correct": false }
+          ],
+          "explanation": "Section 125 is available under both regimes. The fund operates on an EEE (Exempt-Exempt-Exempt) basis — contributions are deductible, accumulations are exempt, and withdrawals on completion of service are exempt.",
+          "explanationWrong": "Both regimes. The Agniveer Corpus Fund gets the most favourable treatment possible: EEE taxation. Contributions deductible under both regimes, growth exempt, maturity proceeds exempt. This was introduced by Finance Act 2023 and carried forward by the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["both-regimes", "eee-taxation", "section-125"],
+          "isReview": false,
+          "oldSection": "Section 80CCH",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 3,
+          "question": "Is the Section 125 (Agniveer) deduction a new provision introduced by the ITA 2025?",
+          "options": [
+            { "text": "Yes — the Agniveer scheme was introduced by the 2025 Act", "correct": false },
+            { "text": "No — Section 80CCH was introduced by Finance Act 2023 and is carried forward", "correct": true },
+            { "text": "Yes — but only the government contribution component", "correct": false },
+            { "text": "No — it has existed since 2019", "correct": false }
+          ],
+          "explanation": "Section 80CCH was introduced by Finance Act 2023 and is carried forward as Section 125 in the 2025 Act. This is not a 2025 Act change — it's a renumbering of an existing provision.",
+          "explanationWrong": "Finance Act 2023 introduced this, not the 2025 Act. The Agnipath Scheme itself was announced in June 2022, and the tax provisions followed in Finance Act 2023. The 2025 Act simply carries forward 80CCH as Section 125.",
+          "tier": 2,
+          "subConcepts": ["not-2025-change", "finance-act-2023", "carryover"],
+          "isReview": true,
+          "oldSection": "Section 80CCH",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 4,
+          "question": "Which components of the Agniveer Corpus Fund contribution are deductible under Section 125?",
+          "options": [
+            { "text": "Only the Agniveer's own contribution", "correct": false },
+            { "text": "Only the Central Government's matching contribution", "correct": false },
+            { "text": "Both the Agniveer's own and the Central Government's contribution", "correct": true },
+            { "text": "Neither — the fund is tax-exempt, not deductible", "correct": false }
+          ],
+          "explanation": "Both components are deductible: the Agniveer's own contribution from their service pay, and the Central Government's matching contribution. This dual deduction, combined with EEE treatment, makes the Agniveer Corpus Fund extremely tax-efficient.",
+          "explanationWrong": "Both components — the Agniveer's own and the government's contribution. This is unusually generous: in NPS, the employee's own contribution deduction (Section 124(1)) is capped and old-regime only, but in the Agniveer fund, both sides are deductible under both regimes.",
+          "tier": 2,
+          "subConcepts": ["dual-deduction", "own-plus-government", "section-125"],
+          "isReview": false,
+          "oldSection": "Section 80CCH",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 5,
+          "question": "Comparing Section 124(1) (employee's own NPS) and Section 124(1B) (additional NPS), which is available under the new regime?",
+          "options": [
+            { "text": "Both 124(1) and 124(1B)", "correct": false },
+            { "text": "Neither — only 124(2) (employer contribution) survives the new regime", "correct": true },
+            { "text": "Only 124(1)", "correct": false },
+            { "text": "Only 124(1B)", "correct": false }
+          ],
+          "explanation": "Under the new regime, only Section 124(2) (employer NPS contribution at 14%) survives. The employee's own NPS deductions — Section 124(1) and the additional Rs 50,000 under Section 124(1B) — are available only under the old regime.",
+          "explanationWrong": "Only 124(2) survives the new regime. New-regime assessees can benefit from their EMPLOYER's NPS contribution (up to 14% of salary), but cannot claim deductions for their OWN contributions. This means self-employed assessees on the new regime get no NPS deduction at all (no employer to contribute).",
+          "tier": 2,
+          "subConcepts": ["new-regime-nps-limited", "only-employer-survives", "section-124"],
+          "isReview": false,
+          "oldSection": "Section 80CCD",
+          "newSection": "Section 124"
+        }
+      ]
+    },
+    {
+      "title": "Old Regime vs. New Regime — Investment Planning",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An old-regime assessee can claim a maximum combined deduction of how much under Sections 123 + 124(1) + 124(1B)?",
+          "options": [
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 2,50,000", "correct": false },
+            { "text": "Rs 3,00,000", "correct": false }
+          ],
+          "explanation": "Section 123 + 124(1) share a ceiling of Rs 1,50,000. Section 124(1B) adds Rs 50,000 OVER AND ABOVE. Total = Rs 2,00,000. Plus Section 124(2) (employer NPS) is separate. So the self-contribution maximum is Rs 2,00,000, and employer contribution is additional.",
+          "explanationWrong": "Rs 2,00,000. The calculation: Rs 1,50,000 (shared ceiling for Sections 123 + 124(1)) + Rs 50,000 (Section 124(1B), additional) = Rs 2,00,000 for self-contributions. The employer's NPS contribution under Section 124(2) is on top of this, not within it.",
+          "tier": 2,
+          "subConcepts": ["maximum-self-contribution", "rs-2l-total", "old-regime-planning"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD",
+          "newSection": "Sections 123, 124"
+        },
+        {
+          "order": 2,
+          "question": "A new-regime assessee wants to maximise their NPS deduction. What is the only NPS-related deduction available to them?",
+          "options": [
+            { "text": "Section 124(1) — employee's own contribution up to 10% of salary", "correct": false },
+            { "text": "Section 124(1B) — additional Rs 50,000 own contribution", "correct": false },
+            { "text": "Section 124(2) — employer's contribution up to 14% of salary", "correct": true },
+            { "text": "No NPS deduction is available under the new regime", "correct": false }
+          ],
+          "explanation": "Only Section 124(2) — the employer's contribution — survives the new regime. The employee's own contribution deductions (124(1) and 124(1B)) are old-regime only. To maximise the benefit, the employee should negotiate a higher employer NPS contribution (up to 14% of salary).",
+          "explanationWrong": "Section 124(2) — employer's contribution — is the only option. New-regime assessees cannot claim their own NPS contributions as deductions. The strategy is to get the employer to contribute up to 14% of salary to NPS, which is deductible under both regimes.",
+          "tier": 2,
+          "subConcepts": ["new-regime-nps-strategy", "employer-only", "section-124-2"],
+          "isReview": false,
+          "oldSection": "Section 80CCD",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 3,
+          "question": "Section 123 (investment deduction) falls under Part B of Chapter VIII. Does it require timely return filing?",
+          "options": [
+            { "text": "Yes — all deductions require timely filing", "correct": false },
+            { "text": "No — Part B deductions are not subject to Section 122(5)", "correct": true },
+            { "text": "Yes — but only for investments exceeding Rs 1,00,000", "correct": false },
+            { "text": "No — but only if the investments were made before the due date", "correct": false }
+          ],
+          "explanation": "Section 123 is Part B (Sections 123-137). Section 122(5)'s timely filing condition applies only to Part C (Sections 138-154). So Section 123 can be claimed in a belated return. This was covered in Unit 9.1.",
+          "explanationWrong": "No timely filing needed — Part B deduction. This is the practical benefit of the Part B/Part C split: your investment deductions (PPF, ELSS, LIC) survive late filing. Only income-based Part C deductions (business profits, royalty, etc.) are forfeited on late filing.",
+          "tier": 2,
+          "subConcepts": ["section-123-part-b", "no-timely-filing", "belated-return-ok"],
+          "isReview": true,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, the employer NPS deduction for private-sector employees increased from 10% to 14%. For an employee with basic salary of Rs 12,00,000, what is the additional deduction benefit?",
+          "options": [
+            { "text": "Rs 24,000", "correct": false },
+            { "text": "Rs 48,000", "correct": true },
+            { "text": "Rs 36,000", "correct": false },
+            { "text": "Rs 60,000", "correct": false }
+          ],
+          "explanation": "Old cap: 10% of Rs 12L = Rs 1,20,000. New cap: 14% of Rs 12L = Rs 1,68,000. Additional benefit = Rs 48,000. This assumes the employer actually contributes the full 14% — the deduction is limited to actual contribution.",
+          "explanationWrong": "Rs 48,000 additional benefit. Old: 10% x Rs 12L = Rs 1,20,000. New: 14% x Rs 12L = Rs 1,68,000. Difference = Rs 48,000. At a 30% marginal rate, this saves Rs 14,400 in tax. Not life-changing, but meaningful — and it applies under both regimes.",
+          "tier": 2,
+          "subConcepts": ["harmonisation-benefit-computed", "additional-deduction", "section-124-2"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following investment-related deductions is available under the new (default) tax regime?",
+          "options": [
+            { "text": "Section 123 (PPF, ELSS, LIC — old 80C)", "correct": false },
+            { "text": "Section 124(1B) (additional NPS Rs 50,000 — old 80CCD(1B))", "correct": false },
+            { "text": "Section 124(2) (employer NPS 14% — old 80CCD(2))", "correct": true },
+            { "text": "Section 134 (rent paid without HRA — old 80GG)", "correct": false }
+          ],
+          "explanation": "Only Section 124(2) survives the new regime among investment-related deductions. Section 123 and Section 124(1B) are old-regime only. Section 134 (rent) is also old-regime only. The employer NPS deduction stands alone as the investment-side survivor.",
+          "explanationWrong": "Section 124(2) — the employer NPS deduction. Everything else in the investment category (80C basket, additional NPS, rent deduction) requires the old regime. For a new-regime salaried employee, the deduction universe is: employer NPS (124(2)), health insurance (126), education loan (129), and savings interest (153).",
+          "tier": 2,
+          "subConcepts": ["new-regime-investment-survivor", "section-124-2", "limited-deductions"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — NPS Harmonisation in Practice",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Iyer works for a private company with a basic salary of Rs 10,00,000. His employer contributes Rs 1,40,000 to NPS (14%). Under the old Act (80CCD(2)), what would his deduction have been?",
+          "options": [
+            { "text": "Rs 1,40,000 (full contribution)", "correct": false },
+            { "text": "Rs 1,00,000 (10% cap for private sector)", "correct": true },
+            { "text": "Rs 1,20,000 (12% cap)", "correct": false },
+            { "text": "Rs 1,40,000 (14% applied retrospectively)", "correct": false }
+          ],
+          "explanation": "Under the old Act, private-sector employees were capped at 10%. So 10% of Rs 10,00,000 = Rs 1,00,000, even though the employer actually contributed Rs 1,40,000. The excess Rs 40,000 got no deduction. Under the 2025 Act, the full Rs 1,40,000 is deductible (within 14% cap).",
+          "explanationWrong": "Rs 1,00,000 under the old Act — the 10% cap was the constraint. Mr. Iyer's employer contributed Rs 1,40,000 but he could only deduct Rs 1,00,000. Under the 2025 Act's 14% harmonisation, the full Rs 1,40,000 is now deductible. That's Rs 40,000 in additional deduction.",
+          "tier": 3,
+          "subConcepts": ["old-cap-applied", "10-percent-constraint", "deduction-gap"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 2,
+          "question": "Same Mr. Iyer, now under the ITA 2025. His employer contributes Rs 1,40,000 to NPS (14% of Rs 10L salary). He is on the new (default) regime. What is his Section 124(2) deduction?",
+          "options": [
+            { "text": "Rs 1,00,000 (old cap still applies under new regime)", "correct": false },
+            { "text": "Rs 1,40,000 (full contribution, within 14% cap, both regimes)", "correct": true },
+            { "text": "Nil (NPS deductions not available under new regime)", "correct": false },
+            { "text": "Rs 70,000 (half the contribution under new regime)", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, the 14% cap applies to all employees. Rs 1,40,000 is exactly 14% of Rs 10L, so the full amount is deductible. Section 124(2) is available under both regimes. Mr. Iyer gets Rs 1,40,000 deduction on the new regime.",
+          "explanationWrong": "Rs 1,40,000 — the full contribution. The 14% cap (Rs 1,40,000 on Rs 10L salary) exactly matches the contribution. Section 124(2) works under both regimes. Compared to the old Act (Rs 1,00,000), Mr. Iyer gains Rs 40,000 in deduction — a direct benefit of the 2025 Act harmonisation.",
+          "tier": 3,
+          "subConcepts": ["new-act-benefit-applied", "14-percent-full", "new-regime-works"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 126 (health insurance) is available under which regime(s)?",
+          "options": [
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "Neither — subsumed into standard deduction", "correct": false }
+          ],
+          "explanation": "Section 126 is available under both regimes — one of the few deductions that survived the new regime's stripped-down framework. This will be covered in detail in Unit 9.3.",
+          "explanationWrong": "Both regimes. Section 126 (health insurance) is one of the most valuable surviving deductions for new-regime assessees. Up to Rs 1,00,000 (self family + senior citizen parents) can be claimed under both regimes.",
+          "tier": 3,
+          "subConcepts": ["section-126-both-regimes", "health-insurance"],
+          "isReview": true,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 4,
+          "question": "Ms. Reddy (old regime) invests Rs 1,00,000 in PPF, Rs 50,000 in ELSS, contributes Rs 30,000 to NPS (own contribution), and her employer contributes Rs 70,000 to NPS (14% of Rs 5L salary). What are her deductions under Sections 123 and 124?",
+          "options": [
+            { "text": "Section 123 = Rs 1,50,000, Section 124(1) = Rs 30,000, Section 124(2) = Rs 70,000", "correct": false },
+            { "text": "Section 123+124(1) combined = Rs 1,50,000 (capped), Section 124(2) = Rs 70,000", "correct": true },
+            { "text": "Section 123 = Rs 1,50,000, Section 124(2) = Rs 70,000 (own NPS not deductible)", "correct": false },
+            { "text": "Total = Rs 2,50,000 (all amounts fully deductible)", "correct": false }
+          ],
+          "explanation": "PPF (Rs 1L) + ELSS (Rs 50K) + own NPS (Rs 30K) = Rs 1,80,000. But Sections 123 + 124(1) share a Rs 1,50,000 ceiling, so this is capped at Rs 1,50,000. Section 124(2) (employer NPS Rs 70,000) is SEPARATE — not within the Rs 1.5L ceiling. Total deductions = Rs 1,50,000 + Rs 70,000 = Rs 2,20,000.",
+          "explanationWrong": "The combined ceiling catches people. PPF + ELSS + own NPS = Rs 1,80,000, but the shared ceiling caps it at Rs 1,50,000 — Rs 30,000 of eligible investment gets no deduction. The employer's Rs 70,000 is outside this ceiling. Ms. Reddy might want to invest the excess Rs 30,000 differently.",
+          "tier": 3,
+          "subConcepts": ["shared-ceiling-applied", "employer-separate", "investment-planning"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD",
+          "newSection": "Sections 123, 124"
+        },
+        {
+          "order": 5,
+          "question": "A self-employed CA (old regime) with GTI of Rs 20,00,000 contributes Rs 4,50,000 to NPS. What is her Section 124(1) deduction?",
+          "options": [
+            { "text": "Rs 4,50,000 (full contribution)", "correct": false },
+            { "text": "Rs 4,00,000 (20% of Rs 20L GTI)", "correct": false },
+            { "text": "Rs 1,50,000 (within shared ceiling with Section 123)", "correct": true },
+            { "text": "Rs 2,00,000 (10% of GTI)", "correct": false }
+          ],
+          "explanation": "For self-employed, Section 124(1) limit is 20% of GTI = 20% of Rs 20L = Rs 4,00,000. But Section 124(1) shares the Rs 1,50,000 ceiling with Section 123. If she has other Section 123 investments, the ceiling could be even more restrictive. The additional Rs 50,000 under Section 124(1B) is available over and above this ceiling.",
+          "explanationWrong": "The shared Rs 1,50,000 ceiling is the binding constraint, not the 20% of GTI. Even though 20% of Rs 20L = Rs 4L, and the contribution is Rs 4.5L, the actual Section 124(1) deduction is limited by the shared ceiling. She could claim an additional Rs 50,000 under Section 124(1B).",
+          "tier": 3,
+          "subConcepts": ["self-employed-ceiling", "shared-limit-binding", "section-124-1"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(1)",
+          "newSection": "Section 124(1)"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Regime Comparison for Investments",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Shah (private sector, basic salary Rs 15L) gets Rs 2,10,000 as employer NPS (14%). Under the old Act, he could only claim Rs 1,50,000 (10%). How much additional deduction does the 2025 Act give him?",
+          "options": [
+            { "text": "Rs 30,000", "correct": false },
+            { "text": "Rs 60,000", "correct": true },
+            { "text": "Rs 45,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Old: 10% of Rs 15L = Rs 1,50,000. New: 14% of Rs 15L = Rs 2,10,000. Additional = Rs 60,000. At a 30% marginal tax rate, this saves Rs 18,000 per year. A meaningful benefit that grows with salary.",
+          "explanationWrong": "Rs 60,000 additional deduction. Old cap: Rs 1,50,000 (10% of Rs 15L). New cap: Rs 2,10,000 (14% of Rs 15L). The difference of Rs 60,000 is entirely attributable to the 2025 Act's harmonisation. The higher the salary, the bigger the absolute benefit.",
+          "tier": 3,
+          "subConcepts": ["harmonisation-benefit-computed", "rs-60k-additional", "salary-scaling"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 2,
+          "question": "Ms. Kumar (new regime) has salary Rs 20L. She invests Rs 1.5L in PPF and Rs 50K in NPS (own contribution). Her employer contributes Rs 2.8L to NPS (14%). What is her total Chapter VIII deduction?",
+          "options": [
+            { "text": "Rs 4,80,000 (PPF + NPS own + employer NPS)", "correct": false },
+            { "text": "Rs 2,80,000 (only employer NPS — other deductions not available under new regime)", "correct": true },
+            { "text": "Rs 2,00,000 (Rs 1.5L PPF + Rs 50K NPS)", "correct": false },
+            { "text": "Nil (no deductions under new regime)", "correct": false }
+          ],
+          "explanation": "Under the new regime: PPF (Section 123) = not available. Own NPS (Section 124(1)) = not available. Employer NPS (Section 124(2)) = Rs 2,80,000 (14% of Rs 20L, both regimes). Only the employer NPS deduction survives. Ms. Kumar's PPF and own NPS investments get no deduction.",
+          "explanationWrong": "Rs 2,80,000 — only the employer NPS. The PPF and own NPS investments were good savings decisions, but they produce zero deduction benefit under the new regime. Ms. Kumar should factor this into her old-vs-new regime calculation. The Rs 1.5L PPF deduction alone might make the old regime more tax-efficient.",
+          "tier": 3,
+          "subConcepts": ["new-regime-limitation", "only-employer-nps", "regime-comparison"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD",
+          "newSection": "Sections 123, 124"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the family pension deduction limit under the NEW regime (Section 93)?",
+          "options": [
+            { "text": "Rs 15,000", "correct": false },
+            { "text": "Rs 25,000", "correct": true },
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "One-third of pension with no cap", "correct": false }
+          ],
+          "explanation": "Rs 25,000 under the new regime — enhanced from Rs 15,000. The deduction is one-third of family pension or Rs 25,000, whichever is lower. This was covered in Unit 8.1.",
+          "explanationWrong": "Rs 25,000 — the enhanced new-regime limit from Unit 8.1. Under the old regime, it stays at Rs 15,000. This is a genuine improvement for family pension recipients on the new regime.",
+          "tier": 3,
+          "subConcepts": ["family-pension-recap", "rs-25k-new-regime"],
+          "isReview": true,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 4,
+          "question": "An old-regime assessee claims: Section 123 = Rs 1,50,000, Section 124(1B) = Rs 50,000, Section 124(2) = Rs 1,40,000 (employer NPS). Her GTI is Rs 3,00,000. What total deduction is allowed?",
+          "options": [
+            { "text": "Rs 3,40,000", "correct": false },
+            { "text": "Rs 3,00,000 (capped at GTI)", "correct": true },
+            { "text": "Rs 2,00,000 (Sections 123 + 124(1B) only)", "correct": false },
+            { "text": "Rs 1,50,000 (only Section 123 allowed when GTI is low)", "correct": false }
+          ],
+          "explanation": "Total eligible: Rs 1,50,000 + Rs 50,000 + Rs 1,40,000 = Rs 3,40,000. GTI = Rs 3,00,000. Section 122(2) caps aggregate deductions at GTI. Deduction allowed = Rs 3,00,000. The excess Rs 40,000 is lost.",
+          "explanationWrong": "Rs 3,00,000 — the GTI cap bites. All three deductions are individually valid, but the aggregate exceeds GTI. The excess Rs 40,000 (from the employer NPS contribution) gets no tax benefit. This is an edge case where the assessee's income is too low to absorb all eligible deductions.",
+          "tier": 3,
+          "subConcepts": ["gti-cap-triggered", "excess-lost", "low-income-scenario"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD",
+          "newSection": "Sections 123, 124, 122(2)"
+        },
+        {
+          "order": 5,
+          "question": "CA Anand advises a client: 'Under the 2025 Act, the employer NPS deduction has been harmonised at 14% for private-sector employees. This is available under both regimes and is separate from the Rs 1.5L ceiling.' Is this advice fully correct?",
+          "options": [
+            { "text": "Incorrect — the 14% cap applies only under the old regime", "correct": false },
+            { "text": "Incorrect — the employer NPS falls within the Rs 1.5L ceiling", "correct": false },
+            { "text": "Fully correct — all three statements are accurate", "correct": true },
+            { "text": "Partially correct — the harmonisation is correct but it's still 10% for PSU employees", "correct": false }
+          ],
+          "explanation": "CA Anand's advice is fully correct: (1) 14% harmonisation for private sector — confirmed under Section 124(2). (2) Available under both regimes — confirmed. (3) Separate from Rs 1.5L ceiling — confirmed (Section 124(2) is independent of the 123+124(1) shared ceiling). All accurate.",
+          "explanationWrong": "Fully correct. All three elements of the advice check out. Section 124(2) is: (1) harmonised at 14%, (2) available under both regimes, and (3) outside the Rs 1.5L shared ceiling. This is the kind of advice that adds real value — accurate, actionable, and covers the key practical points.",
+          "tier": 3,
+          "subConcepts": ["advice-validation", "section-124-2-complete", "practical-summary"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Comprehensive Investment Deduction Problems",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Jain (old regime, salary Rs 8L) invests: PPF Rs 80K, ELSS Rs 40K, LIC Rs 30K, 5-year FD Rs 20K, employee NPS own contribution Rs 30K. What is his Section 123 + 124(1) deduction?",
+          "options": [
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 1,50,000 (capped at shared ceiling)", "correct": true },
+            { "text": "Rs 1,70,000", "correct": false },
+            { "text": "Rs 1,80,000", "correct": false }
+          ],
+          "explanation": "PPF (80K) + ELSS (40K) + LIC (30K) + FD (20K) + own NPS (30K) = Rs 2,00,000 total eligible. But Sections 123 + 124(1) share a Rs 1,50,000 ceiling. Deduction = Rs 1,50,000. The excess Rs 50,000 gets no deduction. Mr. Jain is over-investing for tax purposes.",
+          "explanationWrong": "Rs 1,50,000 — the shared ceiling caps it. Mr. Jain has Rs 2,00,000 in eligible investments but can only deduct Rs 1,50,000. He could redirect the excess Rs 50,000 to Section 124(1B) (additional NPS, if he doesn't have it) for an extra Rs 50,000 deduction. Better tax planning would avoid this ceiling wastage.",
+          "tier": 3,
+          "subConcepts": ["ceiling-wastage", "over-investment", "tax-planning"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD(1)",
+          "newSection": "Sections 123, 124(1)"
+        },
+        {
+          "order": 2,
+          "question": "Ms. Devi (new regime, salary Rs 18L) gets employer NPS of Rs 2,52,000 (14%). She also invests Rs 1.5L in PPF and pays Rs 25,000 in health insurance premium. What are her total Chapter VIII deductions under the new regime?",
+          "options": [
+            { "text": "Rs 4,27,000 (all investments + insurance)", "correct": false },
+            { "text": "Rs 2,77,000 (employer NPS + health insurance only)", "correct": true },
+            { "text": "Rs 2,52,000 (employer NPS only)", "correct": false },
+            { "text": "Rs 1,75,000 (PPF + health insurance)", "correct": false }
+          ],
+          "explanation": "Under the new regime: PPF (Section 123) = not available. Employer NPS (Section 124(2)) = Rs 2,52,000 (14% of Rs 18L, within cap). Health insurance (Section 126) = Rs 25,000 (both regimes). Total = Rs 2,52,000 + Rs 25,000 = Rs 2,77,000.",
+          "explanationWrong": "Rs 2,77,000. PPF is gone under the new regime (Section 123 is old-regime only). Only employer NPS (Rs 2,52,000) and health insurance (Rs 25,000) survive. The Rs 1,50,000 PPF investment is a good savings habit but produces zero tax benefit under the new regime.",
+          "tier": 3,
+          "subConcepts": ["new-regime-total", "ppf-no-benefit", "employer-nps-plus-health"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD(2), 80D",
+          "newSection": "Sections 123, 124(2), 126"
+        },
+        {
+          "order": 3,
+          "question": "An Agniveer under the Agnipath Scheme contributes Rs 60,000 to the Corpus Fund, and the Central Government matches with Rs 60,000. Under Section 125, what is the total deduction? (New regime.)",
+          "options": [
+            { "text": "Rs 60,000 (own contribution only)", "correct": false },
+            { "text": "Rs 1,20,000 (own + government contribution)", "correct": true },
+            { "text": "Nil (Agniveer deduction not available under new regime)", "correct": false },
+            { "text": "Rs 60,000 (government contribution only)", "correct": false }
+          ],
+          "explanation": "Both components are deductible under both regimes: own contribution (Rs 60,000) + government contribution (Rs 60,000) = Rs 1,20,000 total deduction. Section 125 is one of the few deductions that covers both the individual's and the government's contribution.",
+          "explanationWrong": "Rs 1,20,000 — both components. Section 125 is available under both regimes and covers both the Agniveer's own contribution and the government's matching contribution. The EEE treatment makes this one of the most tax-efficient funds in the Act.",
+          "tier": 3,
+          "subConcepts": ["agniveer-both-components", "eee-applied", "section-125"],
+          "isReview": true,
+          "oldSection": "Section 80CCH",
+          "newSection": "Section 125"
+        },
+        {
+          "order": 4,
+          "question": "Mr. Patel redeems his ELSS investment after 2 years (before the 3-year lock-in). He had claimed Rs 50,000 deduction under Section 123. What happens to his deduction?",
+          "options": [
+            { "text": "Nothing — the deduction is final once claimed", "correct": false },
+            { "text": "Rs 50,000 is added back to his income in the year of premature redemption", "correct": true },
+            { "text": "A 10% penalty is levied on the Rs 50,000", "correct": false },
+            { "text": "The deduction is reduced proportionately (2/3 of Rs 50,000 allowed)", "correct": false }
+          ],
+          "explanation": "Premature redemption before the 3-year ELSS lock-in period triggers a reversal: the Rs 50,000 deduction is added back to Mr. Patel's income in the year of redemption. This is the clawback mechanism for lock-in violations.",
+          "explanationWrong": "Full reversal — Rs 50,000 added back to income. No proportionate benefit, no penalty instead of reversal — it's a straight clawback. Mr. Patel will pay tax on the Rs 50,000 in the year he redeems the ELSS. Plus, he may also have capital gains on the ELSS units themselves.",
+          "tier": 3,
+          "subConcepts": ["elss-premature-redemption", "deduction-reversal-applied", "lock-in-violation"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 5,
+          "question": "CA Sharma advises a high-income client (Rs 50L salary, new regime): 'Maximise your employer NPS at 14%, claim health insurance, education loan interest, and savings interest deduction. These are the only four deduction avenues available to you.' Is this advice complete?",
+          "options": [
+            { "text": "Incomplete — Section 123 (80C) is also available under the new regime", "correct": false },
+            { "text": "Incomplete — Section 124(1B) (additional NPS Rs 50K) is also available", "correct": false },
+            { "text": "Complete — Sections 124(2), 126, 129, and 153 are the only Part B deductions available under the new regime for a salaried individual", "correct": true },
+            { "text": "Incomplete — Section 134 (rent without HRA) is also available", "correct": false }
+          ],
+          "explanation": "The advice is complete for a typical salaried individual. Under the new regime, the available deductions are: Section 124(2) (employer NPS 14%), Section 126 (health insurance), Section 129 (education loan), and Section 153 (savings interest). Section 125 (Agniveer) also survives but is only relevant for Agnipath enrollees.",
+          "explanationWrong": "Complete — these four are it for a salaried new-regime assessee. Section 123 (80C) and Section 124(1B) are old-regime only. Section 134 (rent) is old-regime only. The only asterisk is Section 125 (Agniveer) which technically survives both regimes but applies only to Agnipath enrollees.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-new-regime-advice", "four-deductions", "practical-summary"],
+          "isReview": false,
+          "oldSection": "Sections 80CCD(2), 80D, 80E, 80TTA",
+          "newSection": "Sections 124(2), 126, 129, 153"
+        }
+      ]
+    }
+  ]
+}

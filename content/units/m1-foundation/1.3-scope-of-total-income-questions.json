@@ -1,0 +1,835 @@
+{
+  "unit": "1.3",
+  "title": "Scope of Total Income",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 5 and the Scope Skeleton",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, which section governs the scope of total income?",
+          "options": [
+            { "text": "Section 4", "correct": false },
+            { "text": "Section 5", "correct": true },
+            { "text": "Section 9", "correct": false },
+            { "text": "Section 11", "correct": false }
+          ],
+          "explanation": "Section 5 retains the same number in the 2025 Act. The scope framework — worldwide income for ROR, limited scope for RNOR and NR — is substantively unchanged. The only terminology shift is 'previous year' → 'tax year.'",
+          "explanationWrong": "It's still Section 5 — same number, same substance. Section 9 deals with deemed accrual in India, and Section 11 is exemptions (old Section 10). The section number didn't change here.",
+          "tier": 1,
+          "subConcepts": ["section-5", "scope-mapping"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        },
+        {
+          "order": 2,
+          "question": "What is the ONLY substantive terminology change in Section 5 (Scope of Total Income) between the old and new Acts?",
+          "options": [
+            { "text": "'Assessment Year' replaced by 'Tax Year'", "correct": false },
+            { "text": "'Previous Year' replaced by 'Tax Year'", "correct": true },
+            { "text": "'Total Income' replaced by 'Gross Total Income'", "correct": false },
+            { "text": "'Accrues or arises' replaced by 'Sourced'", "correct": false }
+          ],
+          "explanation": "Section 5 is a like-for-like carry-over. The only change is the standard terminology update: 'previous year' becomes 'tax year.' The scope rules, ROR/RNOR/NR treatment, and the 'accrues or arises' language are all unchanged.",
+          "explanationWrong": "'Previous year' → 'tax year' is the only change. 'Assessment year' isn't used in Section 5's operative text. The accrual language and income concepts remain identical.",
+          "tier": 1,
+          "subConcepts": ["section-5", "tax-year-terminology"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 1.2, we learned that deemed residents under Section 6(7) are classified as which category?",
+          "options": [
+            { "text": "Resident and Ordinarily Resident (ROR)", "correct": false },
+            { "text": "Resident but Not Ordinarily Resident (RNOR)", "correct": true },
+            { "text": "Non-Resident (NR)", "correct": false },
+            { "text": "A separate 'Deemed Resident' category", "correct": false }
+          ],
+          "explanation": "Deemed residents under Section 6(7) are treated as RNOR. This matters for scope under Section 5 — they're taxed on Indian income plus foreign business/profession income controlled from India, but not on other foreign income.",
+          "explanationWrong": "Deemed residents are RNOR, not a separate category. This is important for scope: as RNOR, their foreign income (other than business controlled from India) isn't taxable.",
+          "tier": 1,
+          "subConcepts": ["deemed-resident", "rnor", "section-5-scope"],
+          "isReview": true,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        },
+        {
+          "order": 4,
+          "question": "Section 536(3) of the 2025 Act contains a transitional bridge. What does it address?",
+          "options": [
+            { "text": "Converting old tax rates to new tax rates", "correct": false },
+            { "text": "Bridging 'previous year' references in lookback calculations to 'tax year'", "correct": true },
+            { "text": "Mapping old section numbers to new section numbers", "correct": false },
+            { "text": "Extending filing deadlines during the transition period", "correct": false }
+          ],
+          "explanation": "Section 536(3) ensures that where the 2025 Act requires lookback over prior years (e.g., 4 preceding tax years for residence tests), 'previous years' under the old Act are treated as 'tax years.' Without this bridge, lookback provisions would have no historical data to reference.",
+          "explanationWrong": "Section 536(3) bridges the terminology gap for lookback calculations. When the new Act says '4 preceding tax years,' the old 'previous years' count. Without this, multi-year tests would break during transition.",
+          "tier": 1,
+          "subConcepts": ["section-536", "transitional-bridge", "lookback"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 5,
+          "question": "Which statement about Section 7 (Income deemed to be received) is correct under the 2025 Act?",
+          "options": [
+            { "text": "Section 7 has been renumbered to Section 7(1) with no substantive changes", "correct": true },
+            { "text": "Section 7 has been merged into Section 9 (deemed accrual)", "correct": false },
+            { "text": "Section 7 now covers dissolution of firms (old Section 9B)", "correct": false },
+            { "text": "Section 7 has been repealed as redundant", "correct": false }
+          ],
+          "explanation": "Income deemed to be received is now in Section 7(1) — same number, same substance. Don't confuse with Section 8 (which now covers dissolution/reconstitution, old 9B) or Section 9 (deemed accrual, restructured but same section number).",
+          "explanationWrong": "Section 7(1) carries forward the deemed-received provisions unchanged. Section 8 is where old 9B (dissolution/reconstitution) moved. Section 9 is still deemed accrual but restructured internally.",
+          "tier": 1,
+          "subConcepts": ["section-7", "deemed-received", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 7",
+          "newSection": "Section 7(1)"
+        }
+      ]
+    },
+    {
+      "title": "The Section 9 Restructuring",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How has old Section 9 (Income deemed to accrue or arise in India) been restructured in the 2025 Act?",
+          "options": [
+            { "text": "Renumbered to Section 12 with no structural change", "correct": false },
+            { "text": "Same Section 9, but provisos and explanations reorganised into 12 sub-sections", "correct": true },
+            { "text": "Split across Sections 9, 10, and 11", "correct": false },
+            { "text": "Merged into Section 5 as part of scope provisions", "correct": false }
+          ],
+          "explanation": "Section 9 retains its number but the dense provisos, explanations, and clauses have been reorganised into a clean 12-sub-section structure. The substance is largely the same — the restructuring improves readability.",
+          "explanationWrong": "Still Section 9, still deemed accrual — but the old tangled provisos and explanations are now neatly laid out in 12 sub-sections. It wasn't split or merged; it was reorganised in place.",
+          "tier": 1,
+          "subConcepts": ["section-9", "restructuring", "sub-sections"],
+          "isReview": false,
+          "oldSection": "Section 9",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 2,
+          "question": "The old Section 9A (fund manager regime for offshore funds) has moved where in the 2025 Act?",
+          "options": [
+            { "text": "Section 9(1) — first sub-section of deemed accrual", "correct": false },
+            { "text": "Section 9(12) plus Schedule I", "correct": true },
+            { "text": "Section 10 — new standalone section", "correct": false },
+            { "text": "Deleted entirely from the 2025 Act", "correct": false }
+          ],
+          "explanation": "Old Section 9A is now Section 9(12) with conditions specified in Schedule I. The fund manager regime has been absorbed into Section 9's new sub-section structure rather than standing as a separate section.",
+          "explanationWrong": "The fund manager regime moved to Section 9(12) + Schedule I. It wasn't deleted — it's been folded into the restructured Section 9. The Schedule I conditions are unchanged from old 9A.",
+          "tier": 1,
+          "subConcepts": ["section-9A", "fund-manager", "schedule-I"],
+          "isReview": false,
+          "oldSection": "Section 9A",
+          "newSection": "Section 9(12) + Schedule I"
+        },
+        {
+          "order": 3,
+          "question": "In the old Act, Section 9A prescribed a 'safe harbour' for which type of entity to avoid triggering business connection in India?",
+          "options": [
+            { "text": "Foreign companies with Indian subsidiaries", "correct": false },
+            { "text": "Eligible investment funds with Indian fund managers", "correct": true },
+            { "text": "Non-resident Indians receiving rental income", "correct": false },
+            { "text": "Foreign institutional investors under SEBI", "correct": false }
+          ],
+          "explanation": "Old Section 9A ensured that an eligible investment fund wouldn't be treated as resident or having a business connection in India merely because its fund manager was in India. Now in Section 9(12) + Schedule I.",
+          "explanationWrong": "The fund manager regime (old 9A, now Section 9(12) + Schedule I) was specifically for eligible investment funds with Indian fund managers. It prevents the fund manager's India presence from creating a business connection for the fund.",
+          "tier": 1,
+          "subConcepts": ["fund-manager", "business-connection", "safe-harbour"],
+          "isReview": true,
+          "oldSection": "Section 9A",
+          "newSection": "Section 9(12) + Schedule I"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 9B dealt with income arising on dissolution or reconstitution of a firm. Where is this provision in the 2025 Act?",
+          "options": [
+            { "text": "Section 7(2) — deemed receipt on dissolution", "correct": false },
+            { "text": "Section 8", "correct": true },
+            { "text": "Section 9(11)", "correct": false },
+            { "text": "Section 45(4) — capital gains on dissolution", "correct": false }
+          ],
+          "explanation": "Old Section 9B → New Section 8. This is a standalone section now, not tucked into Section 9. Remember: Section 7(1) = deemed received, Section 8 = dissolution/reconstitution, Section 9 = deemed accrual.",
+          "explanationWrong": "Section 8 is the new home for dissolution/reconstitution provisions. The old Section 9B was always somewhat misplaced in the deemed-accrual section; now it has its own section number.",
+          "tier": 1,
+          "subConcepts": ["section-9B", "section-8", "dissolution"],
+          "isReview": false,
+          "oldSection": "Section 9B",
+          "newSection": "Section 8"
+        },
+        {
+          "order": 5,
+          "question": "Are the conditions for the fund manager safe harbour under Schedule I of the 2025 Act different from old Section 9A conditions?",
+          "options": [
+            { "text": "Yes — the corpus requirement has been doubled", "correct": false },
+            { "text": "Yes — SEBI registration is no longer required", "correct": false },
+            { "text": "No — the conditions are unchanged, only relocated", "correct": true },
+            { "text": "Yes — the regime now applies to all AIFs, not just Category III", "correct": false }
+          ],
+          "explanation": "Schedule I conditions mirror old Section 9A exactly. The fund must be an eligible investment fund, the fund manager must be an eligible fund manager, and all the corpus/investor diversification conditions carry forward unchanged.",
+          "explanationWrong": "No substantive change — Schedule I reproduces the old 9A conditions verbatim. The SEBI requirements, corpus conditions, and eligible fund/manager definitions are all the same. Only the location changed.",
+          "tier": 1,
+          "subConcepts": ["schedule-I", "fund-manager", "no-change"],
+          "isReview": false,
+          "oldSection": "Section 9A",
+          "newSection": "Schedule I"
+        }
+      ]
+    },
+    {
+      "title": "The Section 10 Trap and Exemption Migration",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "DANGER QUESTION: In the 2025 Act, Section 10 deals with which subject?",
+          "options": [
+            { "text": "Exempt income (agricultural income, HRA, etc.)", "correct": false },
+            { "text": "Apportionment of income under Portuguese Civil Code", "correct": true },
+            { "text": "Income deemed to accrue in India", "correct": false },
+            { "text": "Deductions from gross total income", "correct": false }
+          ],
+          "explanation": "TRAP ALERT: New Section 10 = old Section 5A (Portuguese Civil Code apportionment for Goa/Dadra/Daman couples). Old Section 10 (exemptions) has moved to Section 11 + Schedules II-VIII. This is one of the most dangerous renumbering traps in the 2025 Act.",
+          "explanationWrong": "This is the biggest trap in the 2025 Act's renumbering. Section 10 is NOT exemptions anymore — it's the Portuguese Civil Code provision (old 5A). Exemptions are now in Section 11 + Schedules II-VIII. Memorise this.",
+          "tier": 1,
+          "subConcepts": ["section-10-trap", "portuguese-civil-code", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        },
+        {
+          "order": 2,
+          "question": "The exemptions that were in old Section 10 (agricultural income, HRA, etc.) are now found where in the 2025 Act?",
+          "options": [
+            { "text": "Section 10 — same section, restructured", "correct": false },
+            { "text": "Section 11 plus Schedules II through VIII", "correct": true },
+            { "text": "Section 12 plus Schedule IX", "correct": false },
+            { "text": "Scattered across Sections 10-15", "correct": false }
+          ],
+          "explanation": "Old Section 10's 100+ clauses of exemptions are now in Section 11, with the detailed conditions organised into Schedules II through VIII. This is a major structural improvement — but means citing 'Section 10' for exemptions is now wrong.",
+          "explanationWrong": "Section 11 + Schedules II-VIII is the new home for exemptions. The old Section 10 had 100+ clauses; now they're organised by category across multiple schedules. If you cite 'Section 10' for an exemption, you're referencing the Portuguese Civil Code instead.",
+          "tier": 1,
+          "subConcepts": ["section-11", "exemptions", "schedules"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11 + Schedules II-VIII"
+        },
+        {
+          "order": 3,
+          "question": "What does Section 3 of the 2025 Act define?",
+          "options": [
+            { "text": "Previous Year", "correct": false },
+            { "text": "Assessment Year", "correct": false },
+            { "text": "Tax Year", "correct": true },
+            { "text": "Financial Year", "correct": false }
+          ],
+          "explanation": "Section 3 defines 'Tax Year' — replacing both 'Previous Year' and 'Assessment Year' from the old Act. This unification is a foundational change covered in Unit 1.1.",
+          "explanationWrong": "Section 3 defines 'Tax Year' — the unified concept replacing both Previous Year and Assessment Year. This is a Unit 1.1 fundamental that underpins every provision in the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["tax-year", "section-3"],
+          "isReview": true,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 4,
+          "question": "If a CA drafts an opinion citing 'Section 10 of the Income Tax Act, 2025' to claim HRA exemption for a client, what has gone wrong?",
+          "options": [
+            { "text": "Nothing — Section 10 still covers HRA exemption", "correct": false },
+            { "text": "They've cited the Portuguese Civil Code provision instead of the exemption provision", "correct": true },
+            { "text": "They should cite Section 9 instead", "correct": false },
+            { "text": "HRA exemption has been abolished in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Classic trap. Section 10 of the 2025 Act is the Portuguese Civil Code provision (old 5A). HRA exemption is now under Section 11 read with the relevant Schedule. Citing Section 10 for exemptions is a dangerous error in the 2025 Act.",
+          "explanationWrong": "They've fallen into the Section 10 trap. In the 2025 Act, Section 10 = Portuguese Civil Code (old 5A). All exemptions including HRA are under Section 11 + Schedules. This mistake in a professional opinion could be embarrassing.",
+          "tier": 1,
+          "subConcepts": ["section-10-trap", "section-11", "professional-practice"],
+          "isReview": false,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 5A (Portuguese Civil Code) applied to residents of which territories?",
+          "options": [
+            { "text": "Puducherry and Chandigarh", "correct": false },
+            { "text": "Goa, Dadra & Nagar Haveli, and Daman & Diu", "correct": true },
+            { "text": "All Union Territories", "correct": false },
+            { "text": "Jammu & Kashmir and Ladakh", "correct": false }
+          ],
+          "explanation": "The Portuguese Civil Code provision applies to spouses in territories formerly under Portuguese rule — Goa, Dadra & Nagar Haveli, and Daman & Diu. It deals with apportionment of community income between spouses. Now Section 10.",
+          "explanationWrong": "Goa, Dadra & Nagar Haveli, and Daman & Diu — the former Portuguese territories. The provision deals with community property under Portuguese Civil Code, requiring apportionment of income between spouses.",
+          "tier": 1,
+          "subConcepts": ["portuguese-civil-code", "section-10", "goa"],
+          "isReview": false,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        }
+      ]
+    },
+    {
+      "title": "Why 'Reasonably' Was Removed",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "In old Section 9, income from business connection was taxable to the extent 'reasonably attributable' to operations in India. What changed in the 2025 Act?",
+          "options": [
+            { "text": "The word 'reasonably' was removed — now just 'attributable'", "correct": true },
+            { "text": "The word 'attributable' was replaced with 'apportionable'", "correct": false },
+            { "text": "No change — 'reasonably attributable' is retained", "correct": false },
+            { "text": "The entire attribution requirement was deleted", "correct": false }
+          ],
+          "explanation": "The 2025 Act drops 'reasonably' from 'reasonably attributable,' leaving just 'attributable.' This is one of the few genuine substantive changes in the scope provisions, potentially giving the tax department more room to attribute income to Indian operations.",
+          "explanationWrong": "'Reasonably' was removed. The old language 'reasonably attributable' gave assessees an argument that attribution must be reasonable. The new 'attributable' is a broader standard. This is a real substantive change, not just reorganisation.",
+          "tier": 2,
+          "subConcepts": ["reasonably-attributable", "business-connection", "substantive-change"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 2,
+          "question": "Why is the removal of 'reasonably' from 'reasonably attributable' significant for transfer pricing disputes?",
+          "options": [
+            { "text": "It eliminates transfer pricing documentation requirements", "correct": false },
+            { "text": "It widens the department's ability to attribute income to Indian operations without a 'reasonableness' constraint", "correct": true },
+            { "text": "It only applies to digital economy companies", "correct": false },
+            { "text": "It has no practical impact — courts will read 'reasonably' into the provision", "correct": false }
+          ],
+          "explanation": "Under the old Act, 'reasonably attributable' gave assessees a defence: the attribution must be reasonable, not arbitrary. Removing 'reasonably' potentially gives the department more latitude in attributing income to Indian operations in business connection cases.",
+          "explanationWrong": "The change matters because 'reasonably' was a substantive qualifier. Without it, the department can argue for attribution without being constrained by a reasonableness standard. Whether courts will read it back in is uncertain — but the legislative intent to broaden is clear.",
+          "tier": 2,
+          "subConcepts": ["reasonably-attributable", "transfer-pricing", "attribution"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 1.2, what is the lookback period for the RNOR test requiring an individual to be non-resident in 9 out of the preceding years?",
+          "options": [
+            { "text": "7 preceding tax years", "correct": false },
+            { "text": "10 preceding tax years", "correct": true },
+            { "text": "4 preceding tax years", "correct": false },
+            { "text": "15 preceding tax years", "correct": false }
+          ],
+          "explanation": "The 9-out-of-10 test: an individual is RNOR if they were non-resident in 9 out of the 10 preceding tax years. Section 536(3) bridges 'previous years' to 'tax years' for this lookback.",
+          "explanationWrong": "10 preceding tax years for the 9-out-of-10 RNOR test. The 7-year lookback is for the 729-day cumulative test. Both RNOR tests are under Section 6(13).",
+          "tier": 2,
+          "subConcepts": ["rnor-test", "lookback", "section-6"],
+          "isReview": true,
+          "oldSection": "Section 6(6)(a)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 4,
+          "question": "Could removing 'reasonably' from 'reasonably attributable' affect DTAA-protected non-residents?",
+          "options": [
+            { "text": "Yes — DTAA provisions are overridden by the 2025 Act", "correct": false },
+            { "text": "No — DTAA attribution rules (e.g., Article 7 PE profit attribution) will still apply and prevail", "correct": true },
+            { "text": "Only if the DTAA was signed before 2025", "correct": false },
+            { "text": "Yes — the change makes all DTAAs renegotiable", "correct": false }
+          ],
+          "explanation": "For residents of treaty countries, DTAA rules prevail under Section 90/91. Article 7 of most DTAAs requires profits attributable to a PE to be determined on arm's length basis. The domestic law change matters primarily for non-treaty situations or where DTAA is less favourable.",
+          "explanationWrong": "DTAAs still prevail where more beneficial (Section 90/91 equivalent). The removal of 'reasonably' matters most for non-treaty residents or situations where domestic law applies. DTAA profit attribution under Article 7 has its own framework.",
+          "tier": 2,
+          "subConcepts": ["reasonably-attributable", "dtaa", "business-connection"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) read with Section 90",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 5,
+          "question": "Apart from the 'reasonably attributable' change, what other substantive change exists in the business connection / SEP provisions of Section 9?",
+          "options": [
+            { "text": "SEP threshold has been increased from ₹2 crore to ₹5 crore", "correct": false },
+            { "text": "A new export exclusion: purchases in India for export shall not constitute SEP", "correct": true },
+            { "text": "Business connection now requires physical presence in India", "correct": false },
+            { "text": "SEP provisions have been deleted entirely", "correct": false }
+          ],
+          "explanation": "The 2025 Act adds a specific exclusion: purchases in India for export shall not constitute Significant Economic Presence. This aligns SEP with the existing business connection exclusion for purchase operations. The SEP definition itself is retained.",
+          "explanationWrong": "The SEP export exclusion is new — purchases in India for export won't trigger SEP. This was already excluded from business connection (old Explanation 2) but not from SEP. The 2025 Act aligns the two provisions.",
+          "tier": 2,
+          "subConcepts": ["sep-export-exclusion", "significant-economic-presence", "substantive-change"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) Explanation 2A",
+          "newSection": "Section 9"
+        }
+      ]
+    },
+    {
+      "title": "Why Section 9 Was Restructured",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the primary problem with old Section 9 that the 2025 Act's 12-sub-section structure solves?",
+          "options": [
+            { "text": "The rates of tax on deemed income were too high", "correct": false },
+            { "text": "The dense web of provisos, explanations, and sub-clauses made it nearly unreadable", "correct": true },
+            { "text": "The section was unconstitutional and needed rewriting", "correct": false },
+            { "text": "It conflicted with DTAA provisions", "correct": false }
+          ],
+          "explanation": "Old Section 9 was notoriously difficult to parse — multiple explanations inserted over decades, provisos modifying provisos, and cross-references that required tracing a maze. The 12-sub-section reorganisation keeps the substance but makes it navigable.",
+          "explanationWrong": "Readability was the core problem. Old Section 9 had accumulated layers of amendments — explanations, provisos, and sub-clauses — over 60 years. The restructuring is a drafting improvement, not a substantive overhaul.",
+          "tier": 2,
+          "subConcepts": ["section-9-restructuring", "readability", "legislative-drafting"],
+          "isReview": false,
+          "oldSection": "Section 9",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 2,
+          "question": "Why was old Section 9B (dissolution/reconstitution) moved OUT of the Section 9 family to standalone Section 8?",
+          "options": [
+            { "text": "Because it was declared unconstitutional", "correct": false },
+            { "text": "Because dissolution income isn't truly 'deemed to accrue' — it's a separate charging mechanism", "correct": true },
+            { "text": "Because it only applied to foreign firms", "correct": false },
+            { "text": "Because the provision was temporary and has expired", "correct": false }
+          ],
+          "explanation": "Old Section 9B was always conceptually misplaced in the deemed-accrual family. Income on dissolution/reconstitution of a firm isn't really 'deemed to accrue in India' — it's a separate recognition event. Section 8 gives it its own identity.",
+          "explanationWrong": "Section 9B dealt with recognition of income when a partner receives assets on dissolution — that's a charging event, not a deeming fiction about where income accrues. Giving it standalone Section 8 is a better conceptual fit.",
+          "tier": 2,
+          "subConcepts": ["section-8", "section-9B", "legislative-reorganisation"],
+          "isReview": false,
+          "oldSection": "Section 9B",
+          "newSection": "Section 8"
+        },
+        {
+          "order": 3,
+          "question": "From Unit 0.2, how many parts does the 2025 Act divide into?",
+          "options": [
+            { "text": "12 Parts", "correct": false },
+            { "text": "23 Parts", "correct": false },
+            { "text": "Chapters, not Parts — there are 37 Chapters", "correct": true },
+            { "text": "3 Parts: Income, Procedure, Miscellaneous", "correct": false }
+          ],
+          "explanation": "The 2025 Act uses Chapters (not Parts). Understanding this structure helps locate where provisions like old Section 9B (now Section 8) and old Section 10 (now Section 11) have been placed within the Act's architecture.",
+          "explanationWrong": "The 2025 Act organises into Chapters, not Parts. This structural understanding from Unit 0.2 is essential for navigating where provisions have been relocated.",
+          "tier": 2,
+          "subConcepts": ["act-structure", "chapters"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "The SEP export exclusion in the 2025 Act — 'purchases in India for export shall not constitute SEP' — aligns SEP with which existing exclusion?",
+          "options": [
+            { "text": "The DTAA permanent establishment exclusion", "correct": false },
+            { "text": "The business connection exclusion for operations confined to purchase of goods for export", "correct": true },
+            { "text": "The Section 10(23C) charitable institution exclusion", "correct": false },
+            { "text": "The fund manager safe harbour exclusion", "correct": false }
+          ],
+          "explanation": "Old Explanation 2 to Section 9(1)(i) already excluded purchase-for-export from business connection. But old SEP provisions (Explanation 2A) had no similar exclusion. The 2025 Act plugs this gap — if purchase-for-export doesn't create BC, it shouldn't create SEP either.",
+          "explanationWrong": "The business connection exclusion for export purchases existed since old Explanation 2. SEP (introduced in 2018) didn't have this exclusion — creating an anomaly. The 2025 Act aligns both provisions.",
+          "tier": 2,
+          "subConcepts": ["sep-export-exclusion", "business-connection-exclusion", "alignment"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) Explanation 2 and 2A",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 5,
+          "question": "Why was old Section 9A (fund manager regime) absorbed into Section 9(12) rather than given its own section like old 9B?",
+          "options": [
+            { "text": "Because the fund manager regime is genuinely about deemed accrual — preventing a deeming fiction", "correct": true },
+            { "text": "Because the provision was being phased out", "correct": false },
+            { "text": "Because Schedule I replaces the entire section", "correct": false },
+            { "text": "Because fund managers are no longer relevant in India", "correct": false }
+          ],
+          "explanation": "Unlike old 9B (which was misplaced in Section 9), old 9A logically belongs in Section 9. It's a carve-out FROM the deemed-accrual rule — saying 'despite business connection, don't deem accrual for eligible funds.' Making it Section 9(12) is the right fit.",
+          "explanationWrong": "Old 9A is a carve-out from Section 9's deeming fiction — it says 'don't treat the fund as having business connection just because the manager is in India.' That's squarely within Section 9's scope, so Section 9(12) is the logical home.",
+          "tier": 2,
+          "subConcepts": ["section-9A", "fund-manager", "legislative-logic"],
+          "isReview": false,
+          "oldSection": "Section 9A",
+          "newSection": "Section 9(12)"
+        }
+      ]
+    },
+    {
+      "title": "Implications for Practice",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "When updating template opinions and advice letters for the 2025 Act, which section reference requires the MOST careful attention?",
+          "options": [
+            { "text": "Section 5 — scope provisions", "correct": false },
+            { "text": "Section 9 — deemed accrual", "correct": false },
+            { "text": "Section 10 — because it no longer means exemptions", "correct": true },
+            { "text": "Section 7 — deemed receipt", "correct": false }
+          ],
+          "explanation": "Section 10 is the biggest trap. Every template that says 'exempt under Section 10' needs to be updated to 'Section 11.' Sections 5, 7, and 9 kept their numbers and broad meaning. Section 10's complete subject-matter change is uniquely dangerous.",
+          "explanationWrong": "Section 10 is the most dangerous because its MEANING changed entirely. Sections 5, 7, and 9 kept their subject matter (even if reorganised internally). But Section 10 went from exemptions to Portuguese Civil Code — a completely different provision.",
+          "tier": 2,
+          "subConcepts": ["section-10-trap", "practice-update", "template-review"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 10 / Section 11"
+        },
+        {
+          "order": 2,
+          "question": "A CA finds a reference to 'Section 10(10D)' in a client's insurance policy tax opinion. Under the 2025 Act, where should they look?",
+          "options": [
+            { "text": "Section 10(10D) — same provision", "correct": false },
+            { "text": "Section 11 read with the relevant Schedule for insurance exemptions", "correct": true },
+            { "text": "Section 10 — just a different sub-clause", "correct": false },
+            { "text": "The provision has been deleted in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Old Section 10(10D) — exemption for insurance maturity proceeds — is now in Section 11 with conditions in the relevant Schedule. New Section 10 is Portuguese Civil Code, not exemptions. The specific schedule will depend on the type of exemption.",
+          "explanationWrong": "Section 11 + the relevant Schedule. The old Section 10(10D) insurance exemption is part of the exemptions that moved from old Section 10 to Section 11 + Schedules II-VIII. New Section 10 is the Portuguese Civil Code provision.",
+          "tier": 2,
+          "subConcepts": ["section-10-trap", "insurance-exemption", "section-11"],
+          "isReview": false,
+          "oldSection": "Section 10(10D)",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 3,
+          "question": "From Units 0.3-0.4, what happened to the concept of 'Assessment Year' in the 2025 Act?",
+          "options": [
+            { "text": "Retained alongside 'Tax Year' for filing purposes", "correct": false },
+            { "text": "Abolished — 'Tax Year' replaces both 'Previous Year' and 'Assessment Year'", "correct": true },
+            { "text": "Renamed to 'Filing Year'", "correct": false },
+            { "text": "Only used for legacy assessments under the old Act", "correct": false }
+          ],
+          "explanation": "Assessment Year is gone. Tax Year replaces both Previous Year and Assessment Year. This has cascading effects across every section — including Section 5 (scope) where 'previous year' references are now 'tax year.'",
+          "explanationWrong": "Assessment Year has been abolished. Tax Year is the single unified concept. This simplification eliminates the one-year offset confusion that plagued the old Act.",
+          "tier": 2,
+          "subConcepts": ["assessment-year", "tax-year", "terminology"],
+          "isReview": true,
+          "oldSection": "Section 2(9)",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 4,
+          "question": "For a non-treaty country non-resident earning business income through an Indian agent, how does the 'reasonably attributable' → 'attributable' change affect the income computation?",
+          "options": [
+            { "text": "No change — the computation method remains the same", "correct": false },
+            { "text": "The department can potentially attribute a larger share of income to Indian operations without the 'reasonableness' qualifier", "correct": true },
+            { "text": "Only 50% of income can now be attributed to India", "correct": false },
+            { "text": "The entire global income becomes taxable in India", "correct": false }
+          ],
+          "explanation": "Without DTAA protection and without the 'reasonably' qualifier, the department has wider latitude to argue for greater attribution of business profits to Indian operations. The practical impact will depend on how tribunals and courts interpret the narrower 'attributable' standard.",
+          "explanationWrong": "For non-treaty residents, the removal of 'reasonably' gives the department more room to attribute income to India. It doesn't make entire global income taxable, but the ceiling on what can be attributed is potentially higher.",
+          "tier": 2,
+          "subConcepts": ["reasonably-attributable", "non-treaty", "attribution-computation"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 5,
+          "question": "The Schedules II through VIII replacing old Section 10 exemptions are organised by what principle?",
+          "options": [
+            { "text": "Alphabetical order of exemption names", "correct": false },
+            { "text": "Category of exemption (salary, allowances, funds, trusts, etc.)", "correct": true },
+            { "text": "Chronological order of when exemptions were introduced", "correct": false },
+            { "text": "Amount threshold — smallest exemptions first", "correct": false }
+          ],
+          "explanation": "The Schedules organise exemptions by category — a massive improvement over old Section 10's 100+ sequentially numbered clauses. Instead of hunting through 10(1) to 10(50), you go to the relevant subject-matter Schedule.",
+          "explanationWrong": "Category-based organisation. Old Section 10 was a sequential list of 100+ clauses with no logical grouping. The Schedule approach groups related exemptions together, making it far easier to find the relevant provision.",
+          "tier": 2,
+          "subConcepts": ["schedules", "exemption-organisation", "section-11"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11 + Schedules II-VIII"
+        }
+      ]
+    },
+    {
+      "title": "Non-Resident with Business Connection",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "XYZ Corp (non-resident, non-treaty country) has an Indian agent who procures orders and negotiates contracts. Under the 2025 Act, income from this arrangement is taxable to the extent _____ to operations carried out in India.",
+          "options": [
+            { "text": "Reasonably attributable", "correct": false },
+            { "text": "Attributable", "correct": true },
+            { "text": "Apportionable", "correct": false },
+            { "text": "Directly traceable", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, the word 'reasonably' has been dropped. Income is taxable to the extent 'attributable' to Indian operations — a broader standard than the old 'reasonably attributable.' For non-treaty non-residents, this change has real teeth.",
+          "explanationWrong": "Just 'attributable' — no 'reasonably' qualifier. This is the substantive change in the business connection provisions. 'Reasonably attributable' was the old language; the 2025 Act drops the reasonableness requirement.",
+          "tier": 3,
+          "subConcepts": ["attributable", "business-connection", "non-resident"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 2,
+          "question": "A Japanese company (India-Japan DTAA applies) has a business connection in India. The department invokes 'attributable' (without 'reasonably') to claim 40% of global profits are Indian-sourced. The company argues this is unreasonable. Who prevails?",
+          "options": [
+            { "text": "The department — the new Act removes the reasonableness requirement", "correct": false },
+            { "text": "The company — DTAA Article 7 requires arm's length attribution to PE, which prevails over domestic law", "correct": true },
+            { "text": "Neither — the matter must be resolved via Mutual Agreement Procedure", "correct": false },
+            { "text": "The company — but only if they file a Section 90 declaration", "correct": false }
+          ],
+          "explanation": "For treaty-protected non-residents, DTAA provisions prevail where more beneficial (Section 90/91). Article 7 of the India-Japan DTAA requires profits attributable to a PE on arm's length basis. The domestic 'attributable' change doesn't override the treaty standard.",
+          "explanationWrong": "DTAA prevails. The removal of 'reasonably' from domestic law doesn't affect treaty-country residents. Article 7 PE profit attribution under the India-Japan DTAA applies its own standard, which overrides the domestic provision where more beneficial.",
+          "tier": 3,
+          "subConcepts": ["dtaa", "attributable", "article-7", "pe-attribution"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) read with Section 90",
+          "newSection": "Section 9 read with Section 90/91"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, which section number should a CA cite when claiming HRA exemption for a salaried client?",
+          "options": [
+            { "text": "Section 10(13A)", "correct": false },
+            { "text": "Section 11 read with the relevant Schedule", "correct": true },
+            { "text": "Section 10(2)", "correct": false },
+            { "text": "Section 16", "correct": false }
+          ],
+          "explanation": "Section 11 + relevant Schedule. If you cited Section 10(13A), you've referenced a provision about Portuguese Civil Code apportionment for Goan couples — not HRA exemption. This is the Section 10 trap in action.",
+          "explanationWrong": "Section 11 + relevant Schedule. Section 10(13A) doesn't exist in the 2025 Act the way you remember it. New Section 10 is the Portuguese Civil Code provision. All exemptions are under Section 11.",
+          "tier": 3,
+          "subConcepts": ["section-10-trap", "hra-exemption", "section-11"],
+          "isReview": true,
+          "oldSection": "Section 10(13A)",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident e-commerce company sells digital services worth ₹3 crore to Indian customers but also purchases raw materials worth ₹1 crore from India for export. Under the 2025 Act's SEP provisions, which activity does NOT constitute SEP?",
+          "options": [
+            { "text": "The ₹3 crore digital services sales to Indian customers", "correct": false },
+            { "text": "The ₹1 crore purchase of raw materials from India for export", "correct": true },
+            { "text": "Both activities constitute SEP", "correct": false },
+            { "text": "Neither activity constitutes SEP — thresholds not met", "correct": false }
+          ],
+          "explanation": "The 2025 Act's new SEP export exclusion says purchases in India for export shall not constitute SEP. The digital services to Indian customers could still trigger SEP (subject to thresholds being notified). The export exclusion is a new addition aligning SEP with business connection.",
+          "explanationWrong": "The export purchase exclusion is new in the 2025 Act. Purchases in India for export don't create SEP. But digital services sold to Indian customers can still trigger SEP. This aligns SEP with the long-standing business connection exclusion for export purchases.",
+          "tier": 3,
+          "subConcepts": ["sep-export-exclusion", "digital-economy", "significant-economic-presence"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) Explanation 2A",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 5,
+          "question": "An offshore fund managed by an Indian fund manager meets all Schedule I conditions. Under the 2025 Act, is the fund deemed to have a business connection in India?",
+          "options": [
+            { "text": "Yes — all funds managed from India have business connection", "correct": false },
+            { "text": "No — Section 9(12) read with Schedule I provides a safe harbour preventing deemed business connection", "correct": true },
+            { "text": "Only if the fund has Indian investors exceeding 50%", "correct": false },
+            { "text": "The fund manager regime has been abolished in the 2025 Act", "correct": false }
+          ],
+          "explanation": "Section 9(12) + Schedule I carries forward the old Section 9A safe harbour. If all conditions are met, the fund is not treated as resident in India and the fund manager's presence doesn't create a business connection. The conditions are unchanged from old 9A.",
+          "explanationWrong": "The safe harbour survives. Section 9(12) + Schedule I prevents business connection from arising merely because the fund manager is in India. Conditions are identical to old 9A — only the location in the Act has changed.",
+          "tier": 3,
+          "subConcepts": ["fund-manager", "safe-harbour", "section-9-12"],
+          "isReview": false,
+          "oldSection": "Section 9A",
+          "newSection": "Section 9(12) + Schedule I"
+        }
+      ]
+    },
+    {
+      "title": "Transfer Pricing and Attribution Disputes",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "During a TP audit of a non-treaty non-resident's business connection income, the AO attributes 60% of global profits to Indian operations. Under the 2025 Act, the assessee can no longer argue that this attribution must be _____.",
+          "options": [
+            { "text": "Documented", "correct": false },
+            { "text": "Reasonable", "correct": true },
+            { "text": "Approved by the DRP", "correct": false },
+            { "text": "Based on arm's length price", "correct": false }
+          ],
+          "explanation": "The removal of 'reasonably' from 'reasonably attributable' means the assessee loses the 'reasonableness' argument. The attribution must still be 'attributable' — there must be a nexus — but the reasonableness qualifier that could challenge aggressive attribution is gone.",
+          "explanationWrong": "The assessee can no longer argue 'reasonableness' as a standalone defence. The attribution must have a nexus (it must be 'attributable'), but the qualitative check of whether the attribution is 'reasonable' is no longer in the statute for non-treaty situations.",
+          "tier": 3,
+          "subConcepts": ["reasonably-attributable", "tp-audit", "attribution-defence"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 2,
+          "question": "A firm is dissolved and partner A receives land worth ₹2 crore (book value ₹80 lakh). Under the 2025 Act, which section triggers income recognition on this event?",
+          "options": [
+            { "text": "Section 9(1) — deemed to accrue in India", "correct": false },
+            { "text": "Section 8 — income on dissolution/reconstitution", "correct": true },
+            { "text": "Section 9B — same as old Act", "correct": false },
+            { "text": "Section 7(1) — deemed to be received", "correct": false }
+          ],
+          "explanation": "Section 8 (old Section 9B). Income arises at the firm level when assets are distributed on dissolution. If you cited Section 9B, that section number doesn't exist in the 2025 Act — it's been reorganised into standalone Section 8.",
+          "explanationWrong": "Section 8 is the answer. Old Section 9B → New Section 8. The income on dissolution/reconstitution provision has been given its own section number in the 2025 Act. Section 9 is now exclusively about deemed accrual.",
+          "tier": 3,
+          "subConcepts": ["section-8", "dissolution", "firm-reconstitution"],
+          "isReview": false,
+          "oldSection": "Section 9B",
+          "newSection": "Section 8"
+        },
+        {
+          "order": 3,
+          "question": "From Unit 1.1, which provision bridges old 'previous year' data with new 'tax year' references for multi-year lookback tests?",
+          "options": [
+            { "text": "Section 3(2) — Tax Year definition", "correct": false },
+            { "text": "Section 536(3) — Transitional provision", "correct": true },
+            { "text": "Section 5(3) — Scope clarification", "correct": false },
+            { "text": "Schedule XVI — Transition Table", "correct": false }
+          ],
+          "explanation": "Section 536(3) is the transitional bridge. It ensures that references to 'preceding tax years' in lookback provisions can include 'previous years' under the old Act. Without this, provisions like the RNOR 9-out-of-10 test would have no historical data.",
+          "explanationWrong": "Section 536(3) — the transitional bridge provision. Critical for any multi-year lookback test (residence, carried-forward losses, etc.) during the transition from old Act to new Act.",
+          "tier": 3,
+          "subConcepts": ["section-536", "transitional-bridge", "lookback"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 4,
+          "question": "An AO issues a draft assessment attributing business connection income to a non-resident and cites 'Section 9(1)(i) Explanation 1' of the 2025 Act. What is the procedural defect?",
+          "options": [
+            { "text": "No defect — the citation is correct", "correct": false },
+            { "text": "The 2025 Act reorganised Explanations into sub-sections — there is no 'Explanation 1' in Section 9 anymore", "correct": true },
+            { "text": "The AO should have cited Section 8 instead", "correct": false },
+            { "text": "Business connection cases require prior approval from the Board", "correct": false }
+          ],
+          "explanation": "The old Explanations to Section 9(1)(i) have been reorganised into numbered sub-sections in the 2025 Act. Citing 'Explanation 1' to Section 9 of the 2025 Act is an error — those explanations no longer exist in that form. The correct reference would be the relevant sub-section of Section 9.",
+          "explanationWrong": "There are no 'Explanations' in the restructured Section 9 of the 2025 Act. They've been converted to numbered sub-sections. An assessment order citing non-existent explanations has a citation defect that could be challenged.",
+          "tier": 3,
+          "subConcepts": ["section-9-restructuring", "assessment-procedure", "citation-errors"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) Explanation 1",
+          "newSection": "Section 9"
+        },
+        {
+          "order": 5,
+          "question": "A non-resident from a non-treaty country has both a business connection and SEP in India. The business connection arises from an agent, and the SEP from digital advertising revenue. Can the department tax income under both heads?",
+          "options": [
+            { "text": "Yes — business connection and SEP are cumulative, income taxed under both", "correct": false },
+            { "text": "No — income attributable to operations in India is determined once, whether the nexus is BC or SEP", "correct": true },
+            { "text": "Only SEP applies when both exist — it overrides business connection", "correct": false },
+            { "text": "The assessee can choose which head to be taxed under", "correct": false }
+          ],
+          "explanation": "BC and SEP are alternative nexus tests, not cumulative charging provisions. Once a nexus exists (whether BC or SEP), income 'attributable' to Indian operations is determined. There's no double-counting — the attribution is to operations in India regardless of which nexus triggered it.",
+          "explanationWrong": "No double taxation. BC and SEP are different ways to establish nexus with India, but the income attribution is done once. The taxable amount is income attributable to Indian operations — it doesn't multiply because two nexus tests are satisfied.",
+          "tier": 3,
+          "subConcepts": ["business-connection", "sep", "attribution", "nexus"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i)",
+          "newSection": "Section 9"
+        }
+      ]
+    },
+    {
+      "title": "The Section 10 Trap in Practice",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A junior associate drafts a client memo stating: 'The gratuity received is exempt under Section 10(10) of the Income Tax Act, 2025.' What should the reviewing CA tell them?",
+          "options": [
+            { "text": "The citation is correct — approve the memo", "correct": false },
+            { "text": "The section number is wrong — gratuity exemption is under Section 11, not Section 10", "correct": true },
+            { "text": "Gratuity is no longer exempt under the 2025 Act", "correct": false },
+            { "text": "The section is correct but the sub-clause should be 10(10A)", "correct": false }
+          ],
+          "explanation": "Section 10 of the 2025 Act is the Portuguese Civil Code provision (old 5A), NOT exemptions. Gratuity exemption is now under Section 11 read with the relevant Schedule. This is exactly the kind of error the Section 10 trap creates in practice.",
+          "explanationWrong": "Section 10 of the 2025 Act = Portuguese Civil Code (old Section 5A). All exemptions including gratuity moved to Section 11. The junior associate needs to update their section references — and probably all their templates.",
+          "tier": 3,
+          "subConcepts": ["section-10-trap", "gratuity-exemption", "professional-review"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 2,
+          "question": "A couple married under Portuguese Civil Code in Goa earns combined income of ₹20 lakh. Under the 2025 Act, which section governs the apportionment of this income between them?",
+          "options": [
+            { "text": "Section 5A — same as old Act", "correct": false },
+            { "text": "Section 10 — Portuguese Civil Code apportionment", "correct": true },
+            { "text": "Section 11 — along with exemptions", "correct": false },
+            { "text": "Section 64 — clubbing provisions", "correct": false }
+          ],
+          "explanation": "New Section 10 = old Section 5A. The Portuguese Civil Code apportionment for Goan couples is now in Section 10. This is the correct use of Section 10 in the 2025 Act — not for exemptions, but for this specific apportionment provision.",
+          "explanationWrong": "Section 10 is the right answer here. In the 2025 Act, Section 10 IS the Portuguese Civil Code provision (old 5A). This is one of the few situations where citing Section 10 is correct under the new Act.",
+          "tier": 3,
+          "subConcepts": ["section-10", "portuguese-civil-code", "apportionment"],
+          "isReview": false,
+          "oldSection": "Section 5A",
+          "newSection": "Section 10"
+        },
+        {
+          "order": 3,
+          "question": "From earlier units, which specific term did the 2025 Act introduce to replace both 'Previous Year' and 'Assessment Year'?",
+          "options": [
+            { "text": "Financial Year", "correct": false },
+            { "text": "Tax Year", "correct": true },
+            { "text": "Income Year", "correct": false },
+            { "text": "Computation Year", "correct": false }
+          ],
+          "explanation": "'Tax Year' replaces both Previous Year and Assessment Year. This unified concept runs through every provision in the 2025 Act, including Section 5 (scope) and Section 9 (deemed accrual).",
+          "explanationWrong": "Tax Year — defined in Section 3. It replaces both Previous Year and Assessment Year, eliminating the one-year offset confusion that was a hallmark of the old Act.",
+          "tier": 3,
+          "subConcepts": ["tax-year", "terminology"],
+          "isReview": true,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 4,
+          "question": "A client asks: 'My tax software still shows Section 10(38) for LTCG exemption on listed shares. Is this correct under the 2025 Act?' What is the right response?",
+          "options": [
+            { "text": "Yes — Section 10(38) still applies for listed equity shares", "correct": false },
+            { "text": "Section 10(38) was already abolished in 2018. Under the 2025 Act, Section 10 deals with Portuguese Civil Code, and any applicable capital gains exemptions would be under Section 11", "correct": true },
+            { "text": "The section number changed to Section 10(39)", "correct": false },
+            { "text": "LTCG on listed shares is now fully taxable with no exemption", "correct": false }
+          ],
+          "explanation": "Double trap: (1) Section 10(38) was abolished by Finance Act 2018 — LTCG on listed shares has been taxable since then. (2) Even if an exemption existed, it would be under Section 11 in the 2025 Act, not Section 10. The software needs a double update.",
+          "explanationWrong": "Two problems: First, Section 10(38) was abolished in 2018 — LTCG on listed shares is taxable (currently at 12.5% above ₹1.25 lakh). Second, under the 2025 Act, Section 10 is Portuguese Civil Code — all exemptions are in Section 11. The software is doubly wrong.",
+          "tier": 3,
+          "subConcepts": ["section-10-trap", "ltcg", "software-update", "section-11"],
+          "isReview": false,
+          "oldSection": "Section 10(38) [abolished 2018]",
+          "newSection": "Section 11"
+        },
+        {
+          "order": 5,
+          "question": "A CA is advising a non-resident client from a non-treaty country who earns ₹5 crore from digital advertising targeted at Indian users but also buys ₹2 crore of goods from India for export. Under the 2025 Act, which income is potentially taxable under SEP provisions?",
+          "options": [
+            { "text": "Both ₹5 crore (digital ads) and ₹2 crore (export purchases) — total ₹7 crore exposure", "correct": false },
+            { "text": "Only the ₹5 crore digital advertising income — export purchases are specifically excluded from SEP", "correct": true },
+            { "text": "Neither — SEP thresholds haven't been notified yet", "correct": false },
+            { "text": "Only the ₹2 crore export purchases — SEP doesn't cover digital ads", "correct": false }
+          ],
+          "explanation": "The 2025 Act's new SEP export exclusion protects the ₹2 crore export purchases. The ₹5 crore digital advertising income remains potentially taxable under SEP (subject to thresholds being notified). The two substantive changes — 'attributable' and SEP export exclusion — both apply here.",
+          "explanationWrong": "Export purchases are excluded from SEP under the 2025 Act's new provision. Digital advertising targeting Indian users can trigger SEP. The CA should advise that only the digital advertising income creates SEP exposure — the export purchases are safe.",
+          "tier": 3,
+          "subConcepts": ["sep-export-exclusion", "digital-advertising", "non-treaty-non-resident"],
+          "isReview": false,
+          "oldSection": "Section 9(1)(i) Explanation 2A",
+          "newSection": "Section 9"
+        }
+      ]
+    }
+  ]
+}

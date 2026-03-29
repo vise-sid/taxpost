@@ -1,0 +1,835 @@
+{
+  "unit": "7.4",
+  "title": "Tax Rates on Capital Gains",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Rate Sections Renumbered",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 111A (tax on STCG from equity, STT paid) maps to which new section?",
+          "options": [
+            { "text": "Section 196", "correct": true },
+            { "text": "Section 197", "correct": false },
+            { "text": "Section 198", "correct": false },
+            { "text": "Section 200", "correct": false }
+          ],
+          "explanation": "Old Section 111A maps to Section 196 — tax on short-term capital gains from equity shares and equity-oriented mutual funds on which STT is paid. The rate (20%, as set by Finance Act 2024) is carried forward unchanged.",
+          "explanationWrong": "Section 196 is the STCG equity rate section (old 111A). Section 197 is LTCG on non-equity (old 112). Section 198 is LTCG on equity (old 112A). The mapping is sequential: 111A→196, 112→197, 112A→198.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "STCG-equity", "section-111A-to-196"],
+          "isReview": false,
+          "oldSection": "Section 111A",
+          "newSection": "Section 196"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 112 (tax on LTCG from non-equity assets) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 196", "correct": false },
+            { "text": "Section 197", "correct": true },
+            { "text": "Section 198", "correct": false },
+            { "text": "Section 199", "correct": false }
+          ],
+          "explanation": "Old Section 112 maps to Section 197 — tax on long-term capital gains from assets other than equity (land, building, unlisted shares, debt instruments, etc.). The rate (12.5% without indexation, as set by Finance Act 2024) is carried forward.",
+          "explanationWrong": "Section 197 is LTCG on non-equity (old 112). Section 196 is STCG equity (old 111A). Section 198 is LTCG equity (old 112A). The mapping preserves the original sequence.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "LTCG-non-equity", "section-112-to-197"],
+          "isReview": false,
+          "oldSection": "Section 112",
+          "newSection": "Section 197"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is the correct complete mapping for the three rate sections under the ITA 2025?",
+          "options": [
+            { "text": "111A→196, 112→197, 112A→198", "correct": true },
+            { "text": "111A→198, 112→197, 112A→196", "correct": false },
+            { "text": "111A→196, 112→198, 112A→197", "correct": false },
+            { "text": "111A→197, 112→196, 112A→198", "correct": false }
+          ],
+          "explanation": "The complete mapping: 111A→196 (STCG equity), 112→197 (LTCG non-equity), 112A→198 (LTCG equity). Three sections, all in sequential order. The 2025 Act does not modify any rate, threshold, or grandfathering rule — these are all Finance Act 2024 carry-forwards.",
+          "explanationWrong": "The mapping is perfectly sequential: 111A→196, 112→197, 112A→198. The rates attached to these sections were set by Finance Act 2024 and carried forward without modification by the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "complete-mapping", "rate-sections"],
+          "isReview": true,
+          "oldSection": "Sections 111A, 112, 112A",
+          "newSection": "Sections 196, 197, 198"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 112A (tax on LTCG from equity, STT paid) maps to which new section?",
+          "options": [
+            { "text": "Section 196", "correct": false },
+            { "text": "Section 197", "correct": false },
+            { "text": "Section 198", "correct": true },
+            { "text": "Section 200", "correct": false }
+          ],
+          "explanation": "Old Section 112A maps to Section 198 — tax on LTCG from listed equity shares and equity-oriented MFs on which STT is paid. The rate (12.5% on gains exceeding Rs 1.25 lakh, as set by Finance Act 2024) is carried forward unchanged.",
+          "explanationWrong": "Section 198 is the LTCG equity section (old 112A). This is the third and last of the rate sections: 111A→196 (STCG equity), 112→197 (LTCG non-equity), 112A→198 (LTCG equity).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "LTCG-equity", "section-112A-to-198"],
+          "isReview": false,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 5,
+          "question": "Did the 2025 Act change any capital gains tax rate?",
+          "options": [
+            { "text": "No — all rates were set by Finance (No.2) Act 2024 and are carried forward unchanged", "correct": true },
+            { "text": "Yes — STCG on equity was increased from 15% to 20%", "correct": false },
+            { "text": "Yes — LTCG on equity was increased from 10% to 12.5%", "correct": false },
+            { "text": "Yes — LTCG on non-equity was changed from 20% with indexation to 12.5% without", "correct": false }
+          ],
+          "explanation": "The 2025 Act does not change any rate. The rate changes (STCG equity 15%→20%, LTCG equity 10%→12.5%, LTCG non-equity 20% with indexation → 12.5% without) were all enacted by Finance (No.2) Act 2024 effective 23 July 2024. The 2025 Act merely codifies these rates.",
+          "explanationWrong": "Attribution matters. All three rate changes occurred in Finance Act 2024, not the 2025 Act. The 2025 Act carries them forward in the base statute. If a colleague credits the 2025 Act with rate changes, correct the record.",
+          "tier": 1,
+          "subConcepts": ["no-rate-change", "FA-2024-attribution"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "LTCL vs STCG Set-Off — Proposed and Withdrawn",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The Income Tax Bill 2025 (as introduced) proposed allowing LTCL to be set off against STCG. What happened in the final Act?",
+          "options": [
+            { "text": "The provision was withdrawn — LTCL continues to be settable only against LTCG", "correct": true },
+            { "text": "The provision was enacted — LTCL can now be set off against STCG", "correct": false },
+            { "text": "The provision was modified — LTCL can be set off against STCG only up to Rs 1 lakh", "correct": false },
+            { "text": "The provision was deferred to Finance Act 2026", "correct": false }
+          ],
+          "explanation": "The LTCL-vs-STCG one-time set-off was proposed in the Bill but WITHDRAWN in the final Income Tax Act 2025. The traditional rule continues: LTCL can only be set off against LTCG. STCL can be set off against both STCG and LTCG.",
+          "explanationWrong": "This is the biggest 'what could have been' of the 2025 Act's capital gains chapter. The proposed LTCL-vs-STCG set-off was withdrawn before the Act was finalised. The traditional rule stands firm.",
+          "tier": 1,
+          "subConcepts": ["LTCL-STCG-setoff", "withdrawn", "Bill-vs-Act"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Under the final ITA 2025, which of the following correctly states the capital loss set-off rules?",
+          "options": [
+            { "text": "STCL can be set off against both STCG and LTCG; LTCL can only be set off against LTCG", "correct": true },
+            { "text": "Both STCL and LTCL can be set off against any capital gains", "correct": false },
+            { "text": "LTCL can be set off against STCG but not LTCG", "correct": false },
+            { "text": "Neither STCL nor LTCL can be set off — losses must be carried forward", "correct": false }
+          ],
+          "explanation": "The traditional rules continue unchanged: STCL is settable against both STCG and LTCG (no restriction). LTCL is settable ONLY against LTCG (not against STCG). The proposed relaxation for LTCL was withdrawn.",
+          "explanationWrong": "STCL = flexible (can offset any capital gain). LTCL = restricted (only against LTCG). This asymmetry continues. The proposed relaxation would have made LTCL equally flexible, but it did not survive into the final Act.",
+          "tier": 1,
+          "subConcepts": ["loss-setoff-rules", "STCL-flexible", "LTCL-restricted"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Why is it important for CAs to know that the LTCL-vs-STCG set-off was proposed and then withdrawn?",
+          "options": [
+            { "text": "Early commentary reported it as confirmed — clients or colleagues may have relied on it; the record needs correcting", "correct": true },
+            { "text": "It has no practical importance since it was withdrawn", "correct": false },
+            { "text": "The provision might be reinstated automatically next year", "correct": false },
+            { "text": "CAs need to file a special form acknowledging the withdrawal", "correct": false }
+          ],
+          "explanation": "Some early commentary on the Income Tax Bill 2025 reported the LTCL-vs-STCG set-off as a confirmed change. Since it was withdrawn, anyone who relied on it needs to be corrected. Tax planning strategies based on this provision are invalid.",
+          "explanationWrong": "Practical importance is high. If clients planned around the LTCL-vs-STCG set-off (e.g., timing sales to create LTCL expecting to offset it against STCG), those plans are now moot. CAs need to proactively correct any misinformation.",
+          "tier": 1,
+          "subConcepts": ["LTCL-STCG-setoff", "misinformation-risk", "client-advisory"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "For how many assessment years can capital losses be carried forward under the 2025 Act?",
+          "options": [
+            { "text": "8 assessment years — unchanged", "correct": true },
+            { "text": "10 assessment years — extended by the 2025 Act", "correct": false },
+            { "text": "4 assessment years — shortened by the 2025 Act", "correct": false },
+            { "text": "Indefinitely — the 2025 Act removes the time limit", "correct": false }
+          ],
+          "explanation": "Capital losses can be carried forward for 8 assessment years — same as under the 1961 Act. The return must be filed within the due date for carry-forward to be available. Neither the carry-forward period nor the filing requirement has changed.",
+          "explanationWrong": "8 assessment years, return within due date. Both rules are unchanged. The 2025 Act preserves the entire loss set-off and carry-forward framework without modification.",
+          "tier": 1,
+          "subConcepts": ["carry-forward", "8-years", "unchanged"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client has LTCL of Rs 5 lakh from equity and STCG of Rs 8 lakh from equity. Can the LTCL be set off against the STCG under the 2025 Act?",
+          "options": [
+            { "text": "No — LTCL can only be set off against LTCG, not STCG; the proposed relaxation was withdrawn", "correct": true },
+            { "text": "Yes — the 2025 Act allows one-time LTCL-vs-STCG set-off", "correct": false },
+            { "text": "Yes — both are equity, so cross-set-off is allowed", "correct": false },
+            { "text": "Only Rs 1.25 lakh of LTCL can be set off against STCG", "correct": false }
+          ],
+          "explanation": "No set-off available. LTCL of Rs 5 lakh cannot be set off against STCG of Rs 8 lakh. The client must find LTCG to absorb the LTCL, or carry it forward for up to 8 assessment years. The fact that both are equity is irrelevant — the restriction is about short-term vs long-term, not asset type.",
+          "explanationWrong": "The LTCL-vs-STCG barrier is absolute. No exception for same-asset-type, no partial set-off, no one-time allowance. The proposed relaxation was withdrawn. LTCL = only against LTCG.",
+          "tier": 1,
+          "subConcepts": ["LTCL-STCG-setoff", "practical-scenario", "no-exception"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Always-STCG Categories and Rate Application",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Gains from depreciable assets (Section 74) and debt MFs/MLDs (Section 76) are always STCG. Are they eligible for the concessional STCG rate under Section 196?",
+          "options": [
+            { "text": "No — Section 196 applies only to STCG from equity on which STT is paid; Section 74 and 76 assets are taxed at slab rates", "correct": true },
+            { "text": "Yes — all STCG is taxed at the Section 196 rate", "correct": false },
+            { "text": "Only Section 76 assets qualify for Section 196", "correct": false },
+            { "text": "Only if the holding period exceeds 12 months", "correct": false }
+          ],
+          "explanation": "Section 196 (old 111A) applies ONLY to STCG on equity shares and equity-oriented MFs where STT is paid. Depreciable assets (Section 74) and debt MFs/MLDs (Section 76) are not equity instruments with STT — they are taxed at slab rates, which are typically higher.",
+          "explanationWrong": "The concessional STCG rate under Section 196 is limited to STT-paid equity transactions. Depreciable assets and debt MFs/MLDs do not qualify. They pay STCG at slab rates — no concessional treatment.",
+          "tier": 1,
+          "subConcepts": ["always-STCG", "slab-rates", "section-196-exclusion"],
+          "isReview": false,
+          "oldSection": "Sections 50, 50AA, 111A",
+          "newSection": "Sections 74, 76, 196"
+        },
+        {
+          "order": 2,
+          "question": "Section 196 (old 111A) applies to STCG on which specific type of assets?",
+          "options": [
+            { "text": "Equity shares and equity-oriented mutual funds on which STT is paid", "correct": true },
+            { "text": "All short-term capital assets", "correct": false },
+            { "text": "Debt mutual funds and MLDs", "correct": false },
+            { "text": "Depreciable assets in a block", "correct": false }
+          ],
+          "explanation": "Section 196 (old 111A) is specifically for STCG on equity shares and equity-oriented mutual fund units where Securities Transaction Tax has been paid. All other STCG (including debt MFs under Section 76, depreciable assets under Section 74, and unlisted shares) is taxed at slab rates.",
+          "explanationWrong": "Section 196 is narrowly scoped to STT-paid equity. It does not apply to debt MFs, depreciable assets, or any other STCG. The key qualifier is that STT must have been paid on the transaction.",
+          "tier": 1,
+          "subConcepts": ["section-196", "STT-requirement", "equity-only"],
+          "isReview": false,
+          "oldSection": "Section 111A",
+          "newSection": "Section 196"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, STCL from a Section 76 asset (debt MF) can be set off against which types of gains?",
+          "options": [
+            { "text": "Both STCG and LTCG — STCL can be set off against any capital gains", "correct": true },
+            { "text": "Only against other Section 76 STCG", "correct": false },
+            { "text": "Only against STCG, not LTCG", "correct": false },
+            { "text": "Cannot be set off — must be carried forward", "correct": false }
+          ],
+          "explanation": "Section 76 losses are STCL (since Section 76 deems the asset as always short-term). STCL can be set off against any capital gains — both STCG and LTCG. There is no restriction on cross-asset-type set-off for STCL.",
+          "explanationWrong": "STCL is flexible — it can absorb any capital gain. The fact that the loss arises from a Section 76 (debt MF) asset does not restrict it. A debt MF STCL can even offset equity LTCG.",
+          "tier": 1,
+          "subConcepts": ["section-76", "STCL", "loss-setoff", "cross-asset"],
+          "isReview": true,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        },
+        {
+          "order": 4,
+          "question": "Section 198 (old 112A) provides a concessional rate for LTCG on equity. What is the exemption threshold for annual LTCG?",
+          "options": [
+            { "text": "Rs 1.25 lakh — gains up to this amount are exempt", "correct": true },
+            { "text": "Rs 1 lakh — the original 112A threshold", "correct": false },
+            { "text": "Rs 2 lakh — increased by the 2025 Act", "correct": false },
+            { "text": "No exemption threshold — all equity LTCG is taxed", "correct": false }
+          ],
+          "explanation": "The exemption threshold is Rs 1.25 lakh — LTCG on equity up to this amount is not taxed. This was set by Finance Act 2024 (increased from the original Rs 1 lakh). The 2025 Act carries it forward unchanged. Gains above Rs 1.25 lakh are taxed at 12.5%.",
+          "explanationWrong": "Rs 1.25 lakh is the current threshold, set by Finance Act 2024. The original Rs 1 lakh was under the initial Section 112A. The 2025 Act does not change this threshold — it is a pure carry-forward.",
+          "tier": 1,
+          "subConcepts": ["section-198", "Rs-1.25-lakh", "exemption-threshold"],
+          "isReview": false,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 5,
+          "question": "The rates in Sections 196, 197, and 198 of the 2025 Act were set by which legislation?",
+          "options": [
+            { "text": "Finance (No.2) Act 2024 — carried forward without modification by the 2025 Act", "correct": true },
+            { "text": "The Income Tax Act 2025 itself", "correct": false },
+            { "text": "Finance Act 2023", "correct": false },
+            { "text": "Finance Act 2017", "correct": false }
+          ],
+          "explanation": "All three rate sections carry the rates set by Finance (No.2) Act 2024: STCG equity at 20% (Section 196), LTCG non-equity at 12.5% (Section 197), LTCG equity at 12.5% above Rs 1.25 lakh (Section 198). The 2025 Act does not modify any rate.",
+          "explanationWrong": "Finance (No.2) Act 2024 is the source of the current rates. The 2025 Act codifies them into the base statute but changes nothing. Finance Act 2023 dealt with debt MF treatment (Section 76), not rates. Finance Act 2017 changed holding periods, not rates.",
+          "tier": 1,
+          "subConcepts": ["FA-2024-attribution", "rate-source"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Loss Set-Off Scenarios",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client has LTCL of Rs 3 lakh on equity shares and LTCG of Rs 5 lakh on real estate. Can the LTCL be set off against the real estate LTCG?",
+          "options": [
+            { "text": "Yes — LTCL can be set off against any LTCG, including cross-asset-type", "correct": true },
+            { "text": "No — equity LTCL can only offset equity LTCG", "correct": false },
+            { "text": "No — LTCL cannot be set off against any gain", "correct": false },
+            { "text": "Only if both gains are from the same assessment year", "correct": false }
+          ],
+          "explanation": "LTCL from equity can be set off against LTCG from real estate (or any other asset). The set-off rules do not distinguish by asset type — the restriction is only between short-term and long-term. LTCL can offset any LTCG.",
+          "explanationWrong": "No asset-type restriction for capital loss set-off. The only rule is: LTCL against LTCG only (not STCG). Within LTCG, cross-asset set-off is fully permitted.",
+          "tier": 2,
+          "subConcepts": ["loss-setoff", "cross-asset", "LTCL-against-LTCG"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A client has STCL of Rs 2 lakh on equity and LTCG of Rs 10 lakh on equity. Can the STCL reduce the LTCG?",
+          "options": [
+            { "text": "Yes — STCL can be set off against any capital gain including LTCG", "correct": true },
+            { "text": "No — STCL can only offset STCG", "correct": false },
+            { "text": "Only up to Rs 1.25 lakh", "correct": false },
+            { "text": "Only if the STCL is from the same financial year", "correct": false }
+          ],
+          "explanation": "STCL is flexible — it can offset any capital gain, whether STCG or LTCG. The Rs 2 lakh STCL reduces the Rs 10 lakh LTCG to Rs 8 lakh. This is the asymmetry: STCL has no restriction, but LTCL is restricted to LTCG only.",
+          "explanationWrong": "STCL has no restrictions. It can offset STCG, LTCG, equity, non-equity — anything. The Rs 1.25 lakh threshold is the exemption for equity LTCG, not a cap on set-off.",
+          "tier": 2,
+          "subConcepts": ["loss-setoff", "STCL-flexible", "LTCG-reduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "A client has the following in FY 2027-28: LTCL on equity Rs 4 lakh, STCG on equity Rs 6 lakh, LTCG on real estate Rs 8 lakh. What is the optimal set-off strategy?",
+          "options": [
+            { "text": "Set off LTCL of Rs 4 lakh against LTCG on real estate (Rs 8 lakh reduced to Rs 4 lakh); STCG of Rs 6 lakh remains fully taxable", "correct": true },
+            { "text": "Set off LTCL against STCG — Rs 6 lakh reduced to Rs 2 lakh", "correct": false },
+            { "text": "LTCL cannot be set off against anything — carry forward only", "correct": false },
+            { "text": "Set off LTCL against both STCG and LTCG proportionally", "correct": false }
+          ],
+          "explanation": "LTCL can ONLY be set off against LTCG, not STCG. The Rs 4 lakh LTCL reduces the Rs 8 lakh real estate LTCG to Rs 4 lakh. The Rs 6 lakh STCG on equity remains fully taxable under Section 196. The proposed LTCL-vs-STCG set-off was withdrawn.",
+          "explanationWrong": "LTCL cannot touch STCG — that is the rule. The only option is to offset the LTCL against the real estate LTCG. This is exactly the scenario where the withdrawn LTCL-vs-STCG set-off would have helped, but it did not survive into the final Act.",
+          "tier": 2,
+          "subConcepts": ["loss-setoff", "strategy", "LTCL-restriction", "withdrawn-provision"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client has STCL of Rs 1 lakh from a debt MF (Section 76) and LTCG of Rs 3 lakh from listed equity. Can the debt MF STCL offset the equity LTCG?",
+          "options": [
+            { "text": "Yes — Section 76 losses are STCL, and STCL can be set off against any capital gain including LTCG", "correct": true },
+            { "text": "No — debt MF losses can only offset debt MF gains", "correct": false },
+            { "text": "No — STCL cannot offset LTCG", "correct": false },
+            { "text": "Only if both are from the same asset class", "correct": false }
+          ],
+          "explanation": "Section 76 deems debt MF gains (and losses) as always short-term. STCL has no set-off restrictions — it can offset any capital gain. So a Rs 1 lakh debt MF STCL can reduce the Rs 3 lakh equity LTCG to Rs 2 lakh. No asset-class barrier.",
+          "explanationWrong": "STCL is the flexible one — no restrictions by asset type or term. A debt MF (Section 76) STCL can offset equity LTCG. The opposite (LTCL against STCG) would not be allowed.",
+          "tier": 2,
+          "subConcepts": ["section-76", "STCL", "cross-asset-setoff"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client has LTCL on equity of Rs 2 lakh carried forward from AY 2025-26. In FY 2027-28, they have STCG on equity of Rs 5 lakh and no LTCG. Can they use the carried-forward LTCL?",
+          "options": [
+            { "text": "No — LTCL can only be set off against LTCG; without any LTCG in the year, the LTCL continues to be carried forward", "correct": true },
+            { "text": "Yes — the 2025 Act now allows carried-forward LTCL to offset STCG", "correct": false },
+            { "text": "Yes — carried-forward losses have no restrictions", "correct": false },
+            { "text": "The LTCL expires after 1 year of carry-forward", "correct": false }
+          ],
+          "explanation": "No LTCG in the year means no set-off for the LTCL. It continues to be carried forward (up to 8 assessment years from the year of loss). The proposed LTCL-vs-STCG relaxation was withdrawn, so the LTCL sits unused until the client generates LTCG.",
+          "explanationWrong": "Carried-forward LTCL follows the same rules as current-year LTCL: only against LTCG. If there is no LTCG in a year, the LTCL just waits. It has 8 assessment years from the original loss year — not from the start of carry-forward.",
+          "tier": 2,
+          "subConcepts": ["carry-forward", "LTCL", "no-LTCG", "waiting"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Rate Attribution — What Changed When",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The STCG rate on equity (STT paid) was changed from 15% to 20% by which legislation?",
+          "options": [
+            { "text": "Finance (No.2) Act 2024 — the 2025 Act merely carries it forward", "correct": true },
+            { "text": "The Income Tax Act 2025", "correct": false },
+            { "text": "Finance Act 2023", "correct": false },
+            { "text": "Finance Act 2018", "correct": false }
+          ],
+          "explanation": "The STCG equity rate was increased from 15% to 20% by Finance (No.2) Act 2024, effective 23 July 2024. Section 196 of the 2025 Act carries this rate forward without modification.",
+          "explanationWrong": "Finance Act 2024 changed the rate. The 2025 Act did not touch it. Attributing the 15%→20% change to the 2025 Act would be factually incorrect.",
+          "tier": 2,
+          "subConcepts": ["section-196", "FA-2024", "rate-attribution"],
+          "isReview": false,
+          "oldSection": "Section 111A",
+          "newSection": "Section 196"
+        },
+        {
+          "order": 2,
+          "question": "The LTCG rate on non-equity assets was changed from 20% with indexation to 12.5% without indexation by which legislation?",
+          "options": [
+            { "text": "Finance (No.2) Act 2024 — the 2025 Act carries it forward", "correct": true },
+            { "text": "The Income Tax Act 2025", "correct": false },
+            { "text": "Finance Act 2023", "correct": false },
+            { "text": "CBDT Circular", "correct": false }
+          ],
+          "explanation": "The swap from 20% with indexation to 12.5% without indexation was Finance (No.2) Act 2024's biggest capital gains change, effective 23 July 2024. Section 197 of the 2025 Act merely carries this forward.",
+          "explanationWrong": "This was the most significant capital gains change in recent years — and it was Finance Act 2024, not the 2025 Act. The removal of indexation and the rate change to 12.5% were enacted by FA 2024.",
+          "tier": 2,
+          "subConcepts": ["section-197", "FA-2024", "indexation-removal"],
+          "isReview": false,
+          "oldSection": "Section 112",
+          "newSection": "Section 197"
+        },
+        {
+          "order": 3,
+          "question": "The LTCG equity exemption threshold was raised from Rs 1 lakh to Rs 1.25 lakh by which legislation?",
+          "options": [
+            { "text": "Finance (No.2) Act 2024", "correct": true },
+            { "text": "The Income Tax Act 2025", "correct": false },
+            { "text": "Finance Act 2018 (when 112A was introduced)", "correct": false },
+            { "text": "CBDT Notification 2025", "correct": false }
+          ],
+          "explanation": "The threshold increase from Rs 1 lakh to Rs 1.25 lakh was part of the Finance (No.2) Act 2024 package. Finance Act 2018 introduced Section 112A with the original Rs 1 lakh threshold. The 2025 Act carries the Rs 1.25 lakh threshold forward.",
+          "explanationWrong": "Finance Act 2024 raised the threshold. Finance Act 2018 created Section 112A with Rs 1 lakh. The 2025 Act did neither — it simply codifies the post-FA 2024 position.",
+          "tier": 2,
+          "subConcepts": ["section-198", "Rs-1.25-lakh", "FA-2024"],
+          "isReview": true,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 4,
+          "question": "The pre-2018 equity grandfathering (cost of acquisition deemed as higher of actual cost or FMV as on 31 January 2018) was introduced by which legislation?",
+          "options": [
+            { "text": "Finance Act 2018 — when Section 112A was originally introduced", "correct": true },
+            { "text": "The Income Tax Act 2025", "correct": false },
+            { "text": "Finance (No.2) Act 2024", "correct": false },
+            { "text": "Finance Act 2020", "correct": false }
+          ],
+          "explanation": "The 31 January 2018 grandfathering was part of the original Section 112A introduction by Finance Act 2018. It protects gains accrued before that date from the newly introduced LTCG tax on equity. The 2025 Act carries this forward in Section 198.",
+          "explanationWrong": "Finance Act 2018 introduced both Section 112A and its grandfathering. Finance Act 2024 changed the rate and threshold. The 2025 Act codifies the cumulative position without further modification.",
+          "tier": 2,
+          "subConcepts": ["grandfathering", "FA-2018", "section-112A"],
+          "isReview": false,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 5,
+          "question": "A colleague says: 'The 2025 Act completely restructured capital gains rates.' Is this accurate?",
+          "options": [
+            { "text": "No — the 2025 Act changed zero rates; it renumbered three rate sections and codified the Finance Act 2024 rates in the base statute", "correct": true },
+            { "text": "Yes — all three rate sections have new rates", "correct": false },
+            { "text": "Partially — one rate was changed, two were carried forward", "correct": false },
+            { "text": "Yes — the 2025 Act introduced a new 25% LTCG rate", "correct": false }
+          ],
+          "explanation": "The 2025 Act made zero rate changes. All three rate sections (196, 197, 198) carry the rates set by Finance Act 2024. The renumbering from 111A/112/112A to 196/197/198 is the 2025 Act's only contribution here. No restructuring whatsoever.",
+          "explanationWrong": "Three sections renumbered, zero rates changed. The 2025 Act's contribution to rate sections is exclusively administrative. All the rate drama was Finance Act 2024.",
+          "tier": 2,
+          "subConcepts": ["no-rate-change", "renumbering-only", "FA-2024"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Practical Rate Application",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client sells listed equity shares held for 8 months in FY 2027-28 (STT paid). Under the 2025 Act, which section and rate apply?",
+          "options": [
+            { "text": "Section 196 — STCG at 20% (held less than 12 months, STT paid on equity)", "correct": true },
+            { "text": "Section 198 — LTCG at 12.5%", "correct": false },
+            { "text": "Section 197 — LTCG at 12.5%", "correct": false },
+            { "text": "Slab rates — not eligible for Section 196", "correct": false }
+          ],
+          "explanation": "8 months < 12 months = short-term. Listed equity with STT paid = Section 196 applies at 20%. If the holding period were >12 months, Section 198 (LTCG at 12.5% above Rs 1.25 lakh) would apply instead.",
+          "explanationWrong": "Section 196 is the correct section for STCG on STT-paid equity. The 20% rate was set by Finance Act 2024. Section 198 would apply only if the shares were held for more than 12 months.",
+          "tier": 2,
+          "subConcepts": ["section-196", "STCG", "equity", "8-months"],
+          "isReview": false,
+          "oldSection": "Section 111A",
+          "newSection": "Section 196"
+        },
+        {
+          "order": 2,
+          "question": "A client sells unlisted shares held for 30 months in FY 2027-28. Under the 2025 Act, which section and rate apply?",
+          "options": [
+            { "text": "Section 197 — LTCG at 12.5% (held >24 months, non-equity asset)", "correct": true },
+            { "text": "Section 196 — STCG at 20%", "correct": false },
+            { "text": "Section 198 — LTCG at 12.5%", "correct": false },
+            { "text": "Slab rates — no concessional rate for unlisted shares", "correct": false }
+          ],
+          "explanation": "Unlisted shares held >24 months = long-term capital asset. Since these are non-equity (not STT-paid listed shares), Section 197 (old 112) applies at 12.5% without indexation. Section 198 is only for STT-paid listed equity.",
+          "explanationWrong": "Unlisted shares are non-equity for rate purposes. They go to Section 197 (12.5% without indexation), not Section 198 (which requires STT payment on listed equity). The 24-month holding threshold applies.",
+          "tier": 2,
+          "subConcepts": ["section-197", "unlisted-shares", "LTCG"],
+          "isReview": false,
+          "oldSection": "Section 112",
+          "newSection": "Section 197"
+        },
+        {
+          "order": 3,
+          "question": "A client sells listed equity held for 18 months in FY 2027-28, generating LTCG of Rs 3 lakh (STT paid). How much is taxable under Section 198?",
+          "options": [
+            { "text": "Rs 1.75 lakh — LTCG above Rs 1.25 lakh is taxable at 12.5%", "correct": true },
+            { "text": "Rs 3 lakh — the full amount at 12.5%", "correct": false },
+            { "text": "Rs 3 lakh at 20%", "correct": false },
+            { "text": "Zero — the entire amount is exempt", "correct": false }
+          ],
+          "explanation": "Under Section 198, LTCG on equity up to Rs 1.25 lakh per year is exempt. On Rs 3 lakh LTCG, the first Rs 1.25 lakh is exempt and the remaining Rs 1.75 lakh is taxed at 12.5%. This threshold was set by Finance Act 2024.",
+          "explanationWrong": "The Rs 1.25 lakh exemption reduces the taxable amount. Rs 3 lakh minus Rs 1.25 lakh = Rs 1.75 lakh taxable at 12.5%. The full amount is not taxable and not fully exempt either.",
+          "tier": 2,
+          "subConcepts": ["section-198", "Rs-1.25-lakh-exemption", "computation"],
+          "isReview": true,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 4,
+          "question": "A company sells a depreciable machine (always STCG under Section 74). What rate applies?",
+          "options": [
+            { "text": "Slab rates — Section 196 does not apply to depreciable assets", "correct": true },
+            { "text": "20% under Section 196", "correct": false },
+            { "text": "12.5% under Section 197", "correct": false },
+            { "text": "30% flat rate for companies", "correct": false }
+          ],
+          "explanation": "Depreciable assets are always STCG (Section 74) but are NOT STT-paid equity, so Section 196 does not apply. The gain is taxed at the company's regular slab/applicable rate. For individuals, it would be their marginal slab rate.",
+          "explanationWrong": "Section 196's concessional 20% rate is only for STT-paid equity. Depreciable assets do not qualify. The STCG from a depreciable asset is taxed at the normal applicable rate (corporate rate for companies, slab rate for individuals).",
+          "tier": 2,
+          "subConcepts": ["section-74", "slab-rates", "not-section-196"],
+          "isReview": false,
+          "oldSection": "Section 50",
+          "newSection": "Section 74"
+        },
+        {
+          "order": 5,
+          "question": "A client redeems debt MF units (acquired April 2024) after 30 months. Which section applies and at what rate?",
+          "options": [
+            { "text": "Section 76 — always STCG at slab rates, regardless of holding period", "correct": true },
+            { "text": "Section 197 — LTCG at 12.5% (held >24 months)", "correct": false },
+            { "text": "Section 196 — STCG at 20%", "correct": false },
+            { "text": "Section 198 — LTCG at 12.5% above Rs 1.25 lakh", "correct": false }
+          ],
+          "explanation": "Debt MFs acquired after 1 April 2023 are governed by Section 76 — always STCG at slab rates. The 30-month holding period is irrelevant. Section 197, 196, and 198 do not apply because Section 76 overrides the normal categorisation.",
+          "explanationWrong": "Section 76 is a trump card for debt MFs — it overrides the normal holding period analysis. No matter how long you hold, it is STCG at slab rates. The concessional rates in Sections 196/197/198 are not available.",
+          "tier": 2,
+          "subConcepts": ["section-76", "debt-MF", "slab-rates", "overrides"],
+          "isReview": false,
+          "oldSection": "Section 50AA",
+          "newSection": "Section 76"
+        }
+      ]
+    },
+    {
+      "title": "Scenario-Based — Loss Set-Off Under Pressure",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "March 2028. A client is dismayed: 'I have Rs 10 lakh LTCL from equity and Rs 15 lakh STCG from equity. I read that the 2025 Act allows LTCL to offset STCG.' Your response:",
+          "options": [
+            { "text": "That provision was proposed in the Bill but withdrawn in the final Act. LTCL can only offset LTCG. The Rs 10 lakh LTCL cannot reduce your Rs 15 lakh STCG.", "correct": true },
+            { "text": "Correct — the 2025 Act allows this set-off as a one-time measure", "correct": false },
+            { "text": "You can offset Rs 1.25 lakh of LTCL against STCG under the exemption threshold", "correct": false },
+            { "text": "File a special application with CBDT for cross-set-off", "correct": false }
+          ],
+          "explanation": "The client read early commentary based on the Bill. The final Act withdrew this provision. LTCL of Rs 10 lakh must wait for LTCG to arise — it cannot touch the Rs 15 lakh STCG. Carry forward the LTCL for up to 8 years.",
+          "explanationWrong": "This is exactly the misinformation scenario the 2025 Act withdrawal creates. Clients who read about the Bill may believe LTCL-vs-STCG set-off is available. It is not. Correct the record firmly and plan accordingly.",
+          "tier": 3,
+          "subConcepts": ["LTCL-STCG-setoff", "withdrawn", "client-scenario", "misinformation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A tax planner structures a transaction to generate LTCL on equity in March 2028, expecting to offset it against STCG on equity in the same year. Under the final 2025 Act, does this strategy work?",
+          "options": [
+            { "text": "No — LTCL cannot be set off against STCG; the strategy is fundamentally flawed post-withdrawal", "correct": true },
+            { "text": "Yes — the set-off is allowed as a one-time measure", "correct": false },
+            { "text": "Partially — up to Rs 1.25 lakh can be offset", "correct": false },
+            { "text": "Yes — but only if both transactions occur in the same financial year", "correct": false }
+          ],
+          "explanation": "This strategy is dead on arrival. The LTCL-vs-STCG set-off was withdrawn. Any tax planning that relies on it will fail. The planner needs to find LTCG to absorb the LTCL, or accept the LTCL as a carried-forward loss waiting for future LTCG.",
+          "explanationWrong": "Planning based on a provision that was withdrawn is a professional error. The LTCL can only absorb LTCG. If the client generates LTCL hoping to offset STCG, they end up with unusable LTCL and fully taxable STCG.",
+          "tier": 3,
+          "subConcepts": ["LTCL-STCG-setoff", "tax-planning", "strategy-failure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "A client has the following in FY 2028-29: STCL from debt MF (Section 76) Rs 5 lakh, LTCG from real estate Rs 12 lakh, STCG from listed equity Rs 8 lakh. What is the optimal set-off?",
+          "options": [
+            { "text": "Set off the Rs 5 lakh STCL against the Rs 8 lakh STCG first (STCG reduced to Rs 3 lakh); the Rs 12 lakh LTCG remains fully taxable", "correct": false },
+            { "text": "The client can choose: set off STCL against either STCG or LTCG to minimise total tax", "correct": true },
+            { "text": "STCL from Section 76 can only offset Section 76 gains", "correct": false },
+            { "text": "STCL must be carried forward — set-off is not allowed in the year of loss", "correct": false }
+          ],
+          "explanation": "STCL is flexible — it can offset any capital gain. The client should choose the set-off that minimises total tax. Setting off Rs 5 lakh STCL against the Rs 12 lakh LTCG (taxed at 12.5%) may save more than against STCG (taxed at 20%) depending on the client's overall tax position.",
+          "explanationWrong": "Section 76 STCL has no ring-fencing — it can offset any gain. The strategic choice is whether to offset against STCG (reducing a 20% liability) or LTCG (reducing a 12.5% liability). The math depends on the client's overall position.",
+          "tier": 3,
+          "subConcepts": ["loss-setoff", "section-76", "strategy", "optimisation"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client asks: 'Did the 2025 Act change any capital gains rate?' Your comprehensive answer should cover all three rate sections. What is it?",
+          "options": [
+            { "text": "No — Section 196 (STCG equity 20%), Section 197 (LTCG non-equity 12.5%), Section 198 (LTCG equity 12.5% above Rs 1.25 lakh) all carry Finance Act 2024 rates without modification", "correct": true },
+            { "text": "Yes — all three rates were increased by the 2025 Act", "correct": false },
+            { "text": "One rate was changed — STCG equity was raised to 25%", "correct": false },
+            { "text": "Rates are no longer specified in the Act — they are set by CBDT notification", "correct": false }
+          ],
+          "explanation": "Zero rate changes by the 2025 Act. All three rate sections carry FA 2024 rates: Section 196 at 20%, Section 197 at 12.5%, Section 198 at 12.5% above Rs 1.25 lakh. The 2025 Act's only contribution is renumbering 111A→196, 112→197, 112A→198.",
+          "explanationWrong": "The complete answer: three sections renumbered, zero rates changed. Every rate was set by Finance Act 2024. The 2025 Act is a vehicle for codification, not rate changes.",
+          "tier": 3,
+          "subConcepts": ["all-three-rates", "no-change", "comprehensive-answer"],
+          "isReview": false,
+          "oldSection": "Sections 111A, 112, 112A",
+          "newSection": "Sections 196, 197, 198"
+        },
+        {
+          "order": 5,
+          "question": "A client has LTCL of Rs 8 lakh carried forward from AY 2026-27 and generates only STCG of Rs 12 lakh in FY 2028-29. What happens to the LTCL?",
+          "options": [
+            { "text": "The LTCL is carried forward further — it cannot offset STCG; the client has 8 years from the original loss year to find LTCG", "correct": true },
+            { "text": "Rs 1.25 lakh of LTCL is set off under the exemption threshold", "correct": false },
+            { "text": "The LTCL expires — it has been carried forward for 2 years already", "correct": false },
+            { "text": "The LTCL is automatically converted to STCL after 2 years", "correct": false }
+          ],
+          "explanation": "Without any LTCG in the year, the LTCL must continue to be carried forward. It does not expire after 2 years — the limit is 8 assessment years from the original loss year. LTCL is never converted to STCL. The Rs 1.25 lakh exemption is for LTCG computation, not loss set-off.",
+          "explanationWrong": "LTCL waits patiently for LTCG. It has 8 assessment years from the year of loss. No conversion to STCL, no partial set-off against STCG, no automatic expiry before the 8-year limit.",
+          "tier": 3,
+          "subConcepts": ["carry-forward", "LTCL", "8-year-limit", "no-conversion"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Cross-Concept Integration",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client has three types of gains in FY 2028-29: STCG from equity (Section 196), LTCG from real estate (Section 197), and STCG from debt MF (Section 76, slab rates). They also have LTCL of Rs 3 lakh from equity. Where should the LTCL be set off?",
+          "options": [
+            { "text": "Against the LTCG from real estate — LTCL can only offset LTCG", "correct": true },
+            { "text": "Against the STCG from equity — both are equity, so cross-set-off is allowed", "correct": false },
+            { "text": "Against the debt MF STCG — to reduce slab-rate liability", "correct": false },
+            { "text": "The client can choose any of the three", "correct": false }
+          ],
+          "explanation": "LTCL can ONLY be set off against LTCG. The only LTCG in this scenario is from real estate (Section 197). The LTCL cannot touch either STCG source — not equity STCG (Section 196) and not debt MF STCG (Section 76). Asset type is irrelevant; the term (short/long) is what matters.",
+          "explanationWrong": "The rule is simple: LTCL → LTCG only. No exception for same-asset-type. The real estate LTCG is the only eligible target. Both STCG sources are off-limits for LTCL.",
+          "tier": 3,
+          "subConcepts": ["loss-setoff", "multi-gain-scenario", "LTCL-restriction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "You are building a return-preparation workflow for FY 2027-28. Which section references should be used for the three rate computations?",
+          "options": [
+            { "text": "Section 196 (STCG equity), Section 197 (LTCG non-equity), Section 198 (LTCG equity)", "correct": true },
+            { "text": "Section 111A (STCG equity), Section 112 (LTCG non-equity), Section 112A (LTCG equity)", "correct": false },
+            { "text": "Section 196 (STCG equity), Section 112 (LTCG non-equity), Section 198 (LTCG equity)", "correct": false },
+            { "text": "Section 74 (STCG), Section 76 (LTCG), Section 198 (all equity)", "correct": false }
+          ],
+          "explanation": "For FY 2027-28 (under the 2025 Act): Section 196 for STCG equity (STT paid), Section 197 for LTCG non-equity, Section 198 for LTCG equity (STT paid). Do not mix old Act (111A, 112, 112A) and new Act section numbers.",
+          "explanationWrong": "All references must be 2025 Act numbers for post-April 2026 returns. Sections 196, 197, 198. Old numbers (111A, 112, 112A) are 1961 Act. Sections 74 and 76 are special computation sections, not rate sections.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "return-preparation", "rate-sections"],
+          "isReview": false,
+          "oldSection": "Sections 111A, 112, 112A",
+          "newSection": "Sections 196, 197, 198"
+        },
+        {
+          "order": 3,
+          "question": "Identify the genuine 2025 Act development (not a Finance Act 2024 carry-forward) in Unit 7.4:",
+          "options": [
+            { "text": "The LTCL-vs-STCG one-time set-off was proposed in the Bill and withdrawn in the final Act", "correct": true },
+            { "text": "The STCG equity rate was increased to 20%", "correct": false },
+            { "text": "Indexation was removed for non-equity LTCG", "correct": false },
+            { "text": "The Rs 1.25 lakh exemption threshold was introduced", "correct": false }
+          ],
+          "explanation": "The only genuine 2025 Act story in Unit 7.4 is the LTCL-vs-STCG set-off proposal and withdrawal. All rate changes (20% STCG, 12.5% LTCG, Rs 1.25 lakh threshold) and indexation removal were Finance Act 2024. The section renumbering (111A→196, etc.) is administrative.",
+          "explanationWrong": "The rate changes and indexation removal were Finance Act 2024. The 2025 Act's unique contribution is the LTCL-vs-STCG story — proposed, debated, and withdrawn. That is the one thing you cannot attribute to any earlier legislation.",
+          "tier": 3,
+          "subConcepts": ["genuine-2025-change", "LTCL-STCG-setoff", "attribution"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A trainee asks: 'Under the 2025 Act, indexation is available for LTCG on real estate, right?' Your response:",
+          "options": [
+            { "text": "No — indexation was removed by Finance Act 2024 for all transfers on or after 23 July 2024. The 2025 Act carries this forward. LTCG on real estate is taxed at 12.5% under Section 197 without indexation.", "correct": true },
+            { "text": "Yes — indexation continues for real estate under Section 197", "correct": false },
+            { "text": "Indexation was removed by the 2025 Act", "correct": false },
+            { "text": "Indexation is available only for properties acquired before 2001", "correct": false }
+          ],
+          "explanation": "No indexation. Finance Act 2024 removed it. The 2025 Act codifies the post-FA 2024 position: 12.5% without indexation under Section 197. Grandfathering for land/building acquired before 23 July 2024 continues (also from FA 2024).",
+          "explanationWrong": "Indexation removal was Finance Act 2024, not the 2025 Act. But the result is the same: under the 2025 Act, Section 197 applies at 12.5% without indexation. Get the attribution right even while confirming the current position.",
+          "tier": 3,
+          "subConcepts": ["indexation", "FA-2024", "section-197", "attribution"],
+          "isReview": false,
+          "oldSection": "Section 112",
+          "newSection": "Section 197"
+        },
+        {
+          "order": 5,
+          "question": "How many genuine 2025 Act changes (not Finance Act carry-forwards) exist in Unit 7.4 (rate sections)?",
+          "options": [
+            { "text": "One — the LTCL-vs-STCG set-off proposed and withdrawn (plus three sections renumbered)", "correct": true },
+            { "text": "Four — three rate changes and one set-off rule change", "correct": false },
+            { "text": "Zero — everything is a carry-forward from Finance Act 2024", "correct": false },
+            { "text": "Three — the three rate sections each have policy changes", "correct": false }
+          ],
+          "explanation": "One genuine 2025 Act development: the LTCL-vs-STCG set-off proposed in the Bill and withdrawn in the final Act. The three section renumberings (111A→196, 112→197, 112A→198) are administrative. All rates, thresholds, and grandfathering rules are Finance Act 2024 carry-forwards.",
+          "explanationWrong": "Just one, and it is a non-change (a proposed change that was withdrawn). The section renumberings are administrative. The rates are FA 2024. Unit 7.4 has the least new substance of all four units.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "genuine-change-count", "minimal-changes"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Rapid Fire — Distinguish and Decide",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Quick match: Section 197 of the ITA 2025 corresponds to which old section and what rate does it carry?",
+          "options": [
+            { "text": "Old Section 112 — LTCG on non-equity assets at 12.5% without indexation", "correct": true },
+            { "text": "Old Section 112A — LTCG on equity at 12.5% above Rs 1.25 lakh", "correct": false },
+            { "text": "Old Section 111A — STCG on equity at 20%", "correct": false },
+            { "text": "Old Section 112 — LTCG on non-equity at 20% with indexation", "correct": false }
+          ],
+          "explanation": "Section 197 = old 112 = LTCG on non-equity at 12.5% without indexation. The 20% with indexation regime was replaced by Finance Act 2024 — the current rate is 12.5% without indexation.",
+          "explanationWrong": "Section 197 is old 112, but the rate is now 12.5% (not the old 20%). Finance Act 2024 changed it. Section 198 is old 112A (equity LTCG). Section 196 is old 111A (equity STCG).",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "section-197", "rapid-recall"],
+          "isReview": false,
+          "oldSection": "Section 112",
+          "newSection": "Section 197"
+        },
+        {
+          "order": 2,
+          "question": "A client generates LTCG of Rs 80,000 from listed equity (STT paid) in FY 2027-28. Is any tax payable under Section 198?",
+          "options": [
+            { "text": "No — Rs 80,000 is below the Rs 1.25 lakh exemption threshold; the entire amount is exempt", "correct": true },
+            { "text": "Yes — Rs 80,000 at 12.5%", "correct": false },
+            { "text": "Yes — Rs 80,000 at 10% (old rate)", "correct": false },
+            { "text": "It depends on the client's total income", "correct": false }
+          ],
+          "explanation": "Under Section 198, LTCG on equity up to Rs 1.25 lakh is exempt. Rs 80,000 is below the threshold — zero tax. The threshold applies per financial year and is not affected by total income.",
+          "explanationWrong": "Rs 80,000 < Rs 1.25 lakh = fully exempt under Section 198. No tax payable. The exemption threshold is standalone — it does not depend on total income or other gains.",
+          "tier": 3,
+          "subConcepts": ["section-198", "exemption-threshold", "below-threshold"],
+          "isReview": false,
+          "oldSection": "Section 112A",
+          "newSection": "Section 198"
+        },
+        {
+          "order": 3,
+          "question": "A colleague prepares a comparative note claiming the 2025 Act: (a) increased STCG equity rate to 20%, (b) removed indexation, (c) introduced LTCL-vs-STCG set-off. How many of these three claims correctly attribute the change to the 2025 Act?",
+          "options": [
+            { "text": "Zero — (a) and (b) were Finance Act 2024; (c) was proposed but withdrawn, so it is not a change", "correct": true },
+            { "text": "All three are correct", "correct": false },
+            { "text": "Two — (a) and (b) are correct; (c) was withdrawn", "correct": false },
+            { "text": "One — only (c) is a 2025 Act change", "correct": false }
+          ],
+          "explanation": "Zero correct attributions. (a) STCG rate 15%→20% was Finance Act 2024. (b) Indexation removal was Finance Act 2024. (c) LTCL-vs-STCG set-off was proposed but withdrawn — it is not a change in the final Act. The 2025 Act's contribution is strictly renumbering plus the withdrawal story.",
+          "explanationWrong": "This is a strict attribution test. None of the three claims correctly attributes a change to the 2025 Act. Two were FA 2024, and one was proposed and withdrawn (so it is a non-change in the final Act).",
+          "tier": 3,
+          "subConcepts": ["attribution", "FA-2024", "withdrawn", "zero-correct"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Under the 2025 Act, STCL from listed equity (Section 196 transaction) can be set off against LTCG from real estate (Section 197 transaction). True or false?",
+          "options": [
+            { "text": "True — STCL can be set off against any capital gain, including LTCG", "correct": true },
+            { "text": "False — STCL from equity can only offset equity gains", "correct": false },
+            { "text": "False — STCL can only offset STCG", "correct": false },
+            { "text": "True, but only up to Rs 1.25 lakh", "correct": false }
+          ],
+          "explanation": "STCL has no restrictions — it can offset any capital gain regardless of asset type or term. An equity STCL can offset real estate LTCG. This is the asymmetry: STCL is flexible, LTCL is restricted to LTCG only.",
+          "explanationWrong": "True — no limitation. STCL is the unrestricted loss type. It can cross asset types and cross short-term/long-term boundaries. The Rs 1.25 lakh threshold has nothing to do with loss set-off — it is the exemption for equity LTCG.",
+          "tier": 3,
+          "subConcepts": ["STCL-flexible", "cross-asset", "cross-term"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Final synthesis: What is the 2025 Act's net contribution to capital gains tax rates (Unit 7.4)?",
+          "options": [
+            { "text": "Three sections renumbered (111A→196, 112→197, 112A→198), zero rates changed, one proposed set-off rule withdrawn", "correct": true },
+            { "text": "Three rate increases, one new exemption threshold, one new set-off rule", "correct": false },
+            { "text": "Complete overhaul of the capital gains rate framework", "correct": false },
+            { "text": "No changes of any kind — not even renumbering", "correct": false }
+          ],
+          "explanation": "The 2025 Act's net contribution: three administrative renumberings and one legislative footnote (the proposed LTCL-vs-STCG set-off that was withdrawn). Zero policy changes to rates, thresholds, grandfathering, or set-off rules. All the dramatic changes were Finance Act 2024.",
+          "explanationWrong": "Three renumberings + one withdrawal = the full story. No rates changed, no thresholds moved, no new exemptions, no new rules. Unit 7.4 is the lightest of all four units in terms of genuine 2025 Act substance.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "net-contribution", "final-assessment"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

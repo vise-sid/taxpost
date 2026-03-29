@@ -109,19 +109,6 @@ export const getCourseProgress = cache(async () => {
 
   if (!userId || !userProgressData?.activeCourseId) return null;
 
-  // Fetch unlocked tiers for this user
-  const unlockedTiers = await db.query.unitTierProgress.findMany({
-    where: and(
-      eq(unitTierProgress.userId, userId),
-      sql`${unitTierProgress.unlockedAt} IS NOT NULL`
-    ),
-  });
-
-  // Build a set of "unitId:tier" that are unlocked
-  const unlockedSet = new Set(
-    unlockedTiers.map((t) => `${t.unitId}:${t.tier}`)
-  );
-
   const unitsInActiveCourse = await db.query.units.findMany({
     orderBy: (units, { asc }) => [asc(units.order)],
     where: eq(units.courseId, userProgressData.activeCourseId),
@@ -142,10 +129,9 @@ export const getCourseProgress = cache(async () => {
     },
   });
 
-  // Only consider lessons in unlocked tiers
+  // All lessons are accessible — find the first uncompleted one
   const firstUncompletedLesson = unitsInActiveCourse
     .flatMap((unit) => unit.lessons)
-    .filter((lesson) => unlockedSet.has(`${lesson.unitId}:${lesson.tier}`))
     .find((lesson) => {
       return lesson.challenges.some((challenge) => {
         return (

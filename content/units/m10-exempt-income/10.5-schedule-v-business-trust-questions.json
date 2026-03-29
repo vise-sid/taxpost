@@ -1,0 +1,835 @@
+{
+  "unit": "10.5",
+  "title": "Schedule V — Business Trust & Investment Fund",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Pass-Through Basics — Investment Funds & VCC/VCF",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule V, S.No.1, income of an investment fund (Category I or II AIF) — other than business income — is exempt at the fund level. Where is this income actually taxed?",
+          "options": [
+            { "text": "It is never taxed — the exemption is absolute", "correct": false },
+            { "text": "In the hands of the unit-holders on a pass-through basis", "correct": true },
+            { "text": "In the hands of the fund manager personally", "correct": false },
+            { "text": "At the AMC (asset management company) level", "correct": false }
+          ],
+          "explanation": "The investment fund is a conduit. Non-business income passes through to unit-holders and is taxed in their hands under the corresponding charging provisions. The fund-level exemption prevents double taxation — not tax elimination. This is a straight carryover of old clause 10(23FBB).",
+          "explanationWrong": "The answer is unit-holders, on a pass-through basis. Think of the AIF as a transparent pipe — income flows through it to investors without being taxed at the pipe level. This pass-through mechanism was introduced under the old Act and Schedule V carries it forward unchanged as S.No.1.",
+          "tier": 1,
+          "subConcepts": ["AIF-pass-through", "investment-fund-exemption", "schedule-v-sno1"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "Old Form 64E, used for filing the statement of income of an investment fund (Category I/II AIF), has been renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 72", "correct": true },
+            { "text": "Form 73", "correct": false },
+            { "text": "Form 74", "correct": false },
+            { "text": "Form 76", "correct": false }
+          ],
+          "explanation": "Form 64E becomes Form 72 under the 2025 Act. The content and filing obligations remain identical — only the form number has changed. The full mapping: 64A becomes 76, 64E becomes 72, 64F becomes 73, and 64 becomes 74.",
+          "explanationWrong": "Form 72 is correct. Here is the complete Schedule V form renumbering to memorise: 64A (business trust distribution statement) becomes 76, 64E (investment fund income) becomes 72, 64F (investment fund distribution to unit-holders) becomes 73, and 64 (VCC/VCF distribution) becomes 74.",
+          "tier": 1,
+          "subConcepts": ["form-64E-to-72", "schedule-v-form-renumbering"],
+          "isReview": false,
+          "oldSection": "Form 64E",
+          "newSection": "Form 72"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.4 (Schedule IV — Non-Resident Exemptions), what is the maximum stay period in India for a foreign enterprise employee's salary to remain exempt under S.No.3?",
+          "options": [
+            { "text": "60 days", "correct": false },
+            { "text": "90 days", "correct": true },
+            { "text": "120 days", "correct": false },
+            { "text": "182 days", "correct": false }
+          ],
+          "explanation": "Schedule IV, S.No.3 exempts salary of a foreign enterprise employee who stays in India for 90 days or less. The employer must not be engaged in trade or business in India. This threshold is unchanged from old clause 10(6)(vi).",
+          "explanationWrong": "90 days is correct. This is the Schedule IV, S.No.3 threshold — one of the 14 non-resident exemptions reorganised from the old Act. The condition is cumulative: the employee must not stay beyond 90 days AND the foreign employer must not be engaged in trade or business in India.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv-review", "90-day-foreign-employee"],
+          "isReview": true,
+          "oldSection": "Section 10(6)(vi)",
+          "newSection": "Schedule IV, S.No.3"
+        },
+        {
+          "order": 4,
+          "question": "Which categories of AIFs qualify for the pass-through exemption under Schedule V, S.No.1?",
+          "options": [
+            { "text": "Category I and Category III AIFs", "correct": false },
+            { "text": "All three categories (I, II, and III)", "correct": false },
+            { "text": "Category I and Category II AIFs only", "correct": true },
+            { "text": "Only Category I AIFs", "correct": false }
+          ],
+          "explanation": "Only Category I and Category II AIFs registered with SEBI qualify for the Schedule V pass-through exemption. Category III AIFs (hedge funds, PIPE funds) are deliberately excluded from the pass-through regime — their income is taxed at the fund level. This distinction is critical for fund structuring.",
+          "explanationWrong": "Category I and Category II AIFs only. Category III AIFs are excluded from the Schedule V pass-through — they are taxed at the fund level. However, Category III AIFs operating in an IFSC have a separate exemption under Schedule VI (covered in Unit 10.6). This Category I/II vs III distinction is a frequent exam and advisory question.",
+          "tier": 1,
+          "subConcepts": ["cat-I-II-AIF-only", "cat-III-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 64A — the statement of income distributed by a business trust to unit-holders — is renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 72", "correct": false },
+            { "text": "Form 74", "correct": false },
+            { "text": "Form 76", "correct": true },
+            { "text": "Form 78", "correct": false }
+          ],
+          "explanation": "Form 64A becomes Form 76. This form is filed by business trusts (REITs and InvITs) to report income distributed to unit-holders. The filing obligation and form content are unchanged — only the form number changes for the 2025 Act.",
+          "explanationWrong": "Form 76 is correct. Quick mnemonic for Schedule V forms: 64A (the 'A' form for business trusts) maps to 76 — the highest new number. 64E and 64F (investment fund forms) map to 72 and 73, and plain 64 (VCC/VCF) maps to 74.",
+          "tier": 1,
+          "subConcepts": ["form-64A-to-76", "business-trust-distribution-form"],
+          "isReview": false,
+          "oldSection": "Form 64A",
+          "newSection": "Form 76"
+        }
+      ]
+    },
+    {
+      "title": "Business Trust SPV & REIT Rental",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule V, S.No.3, interest and dividends received by a business trust from its SPV are exempt at the trust level. What is the key ownership requirement for the SPV?",
+          "options": [
+            { "text": "The business trust must hold at least 26% equity in the SPV", "correct": false },
+            { "text": "The business trust must hold the controlling interest in the SPV", "correct": true },
+            { "text": "The SPV must be a wholly-owned subsidiary of the trust", "correct": false },
+            { "text": "No ownership threshold — any holding qualifies", "correct": false }
+          ],
+          "explanation": "The business trust must hold the controlling interest in the SPV (directly or indirectly). The SPV must be a company. The trust acts as a pass-through for interest and dividend flows from the SPV to unit-holders. This is carried forward from old clause 10(23FC) without change.",
+          "explanationWrong": "Controlling interest is the requirement — not a specific percentage like 26% or 100%. The SPV must be a company in which the business trust holds the controlling interest. This allows REITs and InvITs to structure holdings through SPVs while maintaining the pass-through tax treatment.",
+          "tier": 1,
+          "subConcepts": ["SPV-controlling-interest", "business-trust-SPV", "schedule-v-sno3"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC)",
+          "newSection": "Schedule V, S.No.3"
+        },
+        {
+          "order": 2,
+          "question": "Schedule V, S.No.4 exempts rental income of a REIT from directly held property. When was this provision originally introduced in the old Act?",
+          "options": [
+            { "text": "Finance Act 2014 (when the REIT framework was first introduced)", "correct": false },
+            { "text": "Finance Act 2018", "correct": false },
+            { "text": "Finance Act 2020", "correct": true },
+            { "text": "It is a new provision in the 2025 Act", "correct": false }
+          ],
+          "explanation": "The REIT direct-rental exemption was introduced by Finance Act 2020 as old clause 10(23FCA). It was added to accommodate REIT structures where the trust directly owns and lets out property rather than routing through an SPV. The 2025 Act carries it forward as Schedule V, S.No.4 without change.",
+          "explanationWrong": "Finance Act 2020 is correct. Before 2020, the REIT exemption framework only covered SPV-routed income (interest and dividends). Direct property ownership by the trust was not specifically addressed. Finance Act 2020 plugged this gap with clause 10(23FCA), now reorganised as Schedule V, S.No.4.",
+          "tier": 1,
+          "subConcepts": ["REIT-direct-rental", "Finance-Act-2020-origin", "schedule-v-sno4"],
+          "isReview": false,
+          "oldSection": "Section 10(23FCA)",
+          "newSection": "Schedule V, S.No.4"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.4 (Schedule IV), interest on which type of NR account is exempt under S.No.1?",
+          "options": [
+            { "text": "NRO (Non-Resident Ordinary) account", "correct": false },
+            { "text": "FCNR (Foreign Currency Non-Resident) account only", "correct": false },
+            { "text": "NRE (Non-Resident External) account", "correct": true },
+            { "text": "Both NRE and NRO accounts", "correct": false }
+          ],
+          "explanation": "Schedule IV, S.No.1 exempts interest on NRE accounts for persons resident outside India. NRO account interest is taxable. This is a carryover of old clause 10(4)(i). The NRE vs NRO distinction is a fundamental non-resident tax planning concept.",
+          "explanationWrong": "NRE account interest only. NRO account interest is fully taxable. This is one of the most commonly tested non-resident distinctions. The NRE exemption was reorganised from old clause 10(4)(i) into Schedule IV, S.No.1 — the very first entry in the non-resident schedule.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv-NRE-review", "NRE-vs-NRO"],
+          "isReview": true,
+          "oldSection": "Section 10(4)(i)",
+          "newSection": "Schedule IV, S.No.1"
+        },
+        {
+          "order": 4,
+          "question": "If a REIT earns rental income from property held through an SPV (not directly), which Schedule V entry governs the exemption?",
+          "options": [
+            { "text": "S.No.4 — REIT rental income", "correct": false },
+            { "text": "S.No.3 — business trust SPV interest and dividends", "correct": true },
+            { "text": "S.No.5 — distributed income of business trust", "correct": false },
+            { "text": "No exemption applies — SPV rental income is taxable at trust level", "correct": false }
+          ],
+          "explanation": "When property is held through an SPV, the SPV earns the rental income and distributes it to the trust as interest or dividends. The trust-level exemption then falls under S.No.3 (SPV interest and dividends), not S.No.4 (direct rental). S.No.4 applies only when the REIT directly owns and lets out the property.",
+          "explanationWrong": "S.No.3 applies because the income flows as interest/dividends from the SPV to the trust. S.No.4 is exclusively for directly held property. This distinction matters for REIT structuring: direct ownership triggers S.No.4, while SPV-routed ownership triggers S.No.3. The tax result at the trust level is the same (exempt), but the applicable entry differs.",
+          "tier": 1,
+          "subConcepts": ["direct-vs-SPV-rental", "sno3-vs-sno4"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC) / 10(23FCA)",
+          "newSection": "Schedule V, S.No.3 / S.No.4"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 64F (statement of income distributed by investment fund to unit-holders) is renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 72", "correct": false },
+            { "text": "Form 73", "correct": true },
+            { "text": "Form 74", "correct": false },
+            { "text": "Form 76", "correct": false }
+          ],
+          "explanation": "Form 64F becomes Form 73. This form reports income distributed by an investment fund (Category I/II AIF) to its unit-holders. Form 64E (fund-level income statement) becomes Form 72, and 64F (distribution to unit-holders) becomes Form 73 — consecutive numbers for related forms.",
+          "explanationWrong": "Form 73 is correct. The 64E/64F pair maps to 72/73 — investment fund income and distribution, respectively. Think of it as E for 'Earnings' (72) and F for 'Flow to investors' (73). The pairing makes the new numbers easier to remember.",
+          "tier": 1,
+          "subConcepts": ["form-64F-to-73", "investment-fund-distribution-form"],
+          "isReview": false,
+          "oldSection": "Form 64F",
+          "newSection": "Form 73"
+        }
+      ]
+    },
+    {
+      "title": "Sovereign Wealth Fund & Sunset Windows",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule V, S.No.7, what is the investment window for sovereign wealth funds (SWFs) to qualify for the exempt-income provision?",
+          "options": [
+            { "text": "April 2015 to March 2025", "correct": false },
+            { "text": "April 2020 to March 2030", "correct": true },
+            { "text": "April 2020 to March 2025", "correct": false },
+            { "text": "No sunset — the provision is permanent", "correct": false }
+          ],
+          "explanation": "The SWF/pension fund exemption requires investment on or after 1 April 2020 and before 1 April 2030 — a 10-year investment window. This window is unchanged from old clause 10(23FE). Investments made outside this window do not qualify, regardless of the entity's status.",
+          "explanationWrong": "April 2020 to March 2030 is the correct 10-year window. This was originally introduced to attract sovereign capital into Indian infrastructure. The 2025 Act carries forward the exact same dates — no extension, no curtailment. An investment made in April 2030 would not qualify.",
+          "tier": 1,
+          "subConcepts": ["SWF-investment-window", "2020-2030-sunset", "schedule-v-sno7"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 2,
+          "question": "A sovereign wealth fund makes an investment in Indian infrastructure in March 2030. What is the minimum holding period to retain the exempt status?",
+          "options": [
+            { "text": "1 year", "correct": false },
+            { "text": "2 years", "correct": false },
+            { "text": "3 years", "correct": true },
+            { "text": "5 years", "correct": false }
+          ],
+          "explanation": "The investment must be held for a minimum of 3 years. An investment made in March 2030 must be held until March 2033 to retain exempt status. The 3-year holding period and the 10-year investment window operate independently.",
+          "explanationWrong": "3 years is the minimum holding period. This means the last possible qualifying investment (March 2030) would need to be held until March 2033. If the SWF exits before 3 years, the income loses its exempt status and becomes taxable — retroactively for the period of non-compliance.",
+          "tier": 1,
+          "subConcepts": ["SWF-3-year-hold", "holding-period-requirement"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "In Schedule IV (Unit 10.4), which entries relate to strategic petroleum reserve (SPR) income of foreign companies?",
+          "options": [
+            { "text": "S.No.1 and S.No.2", "correct": false },
+            { "text": "S.No.9 and S.No.10", "correct": false },
+            { "text": "S.No.10 to S.No.13", "correct": true },
+            { "text": "S.No.14 only", "correct": false }
+          ],
+          "explanation": "S.No.10 through S.No.13 cover income from sale of leftover crude oil stock, extended storage agreements, storage/sale from SPR facilities, and extended SPR agreements. These four entries were renumbered from old clauses 10(48A) through 10(48D).",
+          "explanationWrong": "S.No.10-13 is correct. These four entries form the strategic petroleum reserve cluster in Schedule IV. India's SPR programme allows foreign companies to store crude oil in Indian underground caverns — the income from sale of leftover stock and facility operations is exempt for non-residents under these provisions.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv-SPR-review", "crude-oil-exemptions"],
+          "isReview": true,
+          "oldSection": "Section 10(48A)-(48D)",
+          "newSection": "Schedule IV, S.No.10-13"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following is NOT a condition for SWF/pension fund exemption under Schedule V, S.No.7?",
+          "options": [
+            { "text": "The fund must be wholly owned and controlled by a foreign government", "correct": false },
+            { "text": "The fund must not carry on any commercial activity in India", "correct": false },
+            { "text": "The fund must invest at least 50% of its corpus in Indian infrastructure", "correct": true },
+            { "text": "Earnings must be credited to the foreign government's account or used for sovereign purposes", "correct": false }
+          ],
+          "explanation": "There is no minimum corpus allocation requirement. The conditions are: wholly owned by foreign government, investment within the April 2020-March 2030 window, 3-year minimum hold, investment in specified categories (infrastructure), no commercial activity in India, and earnings credited to government/sovereign purposes.",
+          "explanationWrong": "The 50% corpus requirement is fabricated — it does not exist. The actual conditions focus on ownership (foreign government), timing (2020-2030 window), holding (3 years), activity (no commercial operations in India), and use of earnings (sovereign purposes). There is no minimum allocation threshold.",
+          "tier": 1,
+          "subConcepts": ["SWF-conditions-list", "no-corpus-threshold"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 64 — used for VCC/VCF income distribution to investors — is renumbered to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 72", "correct": false },
+            { "text": "Form 73", "correct": false },
+            { "text": "Form 74", "correct": true },
+            { "text": "Form 76", "correct": false }
+          ],
+          "explanation": "Form 64 becomes Form 74 under the 2025 Act. This form is used by VCC/VCF structures to report income distributed to investors. The plain '64' (without suffix) is the VCC/VCF form, distinct from 64A (business trust), 64E (AIF income), and 64F (AIF distribution).",
+          "explanationWrong": "Form 74 is correct. The complete mapping: 64 (VCC/VCF) maps to 74, 64A (business trust) maps to 76, 64E (AIF income) maps to 72, 64F (AIF distribution) maps to 73. Notice that plain 64 maps to 74 — the middle number in the new range.",
+          "tier": 1,
+          "subConcepts": ["form-64-to-74", "VCC-VCF-distribution-form"],
+          "isReview": false,
+          "oldSection": "Form 64",
+          "newSection": "Form 74"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Pass-Through Architecture",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why are Category III AIFs excluded from the Schedule V pass-through regime while Category I and II AIFs are included?",
+          "options": [
+            { "text": "Category III AIFs are too small to qualify for pass-through treatment", "correct": false },
+            { "text": "Category III AIFs engage in leveraged and speculative strategies that the government chose not to incentivise with pass-through treatment", "correct": true },
+            { "text": "Category III AIFs were introduced after the pass-through regime was finalised", "correct": false },
+            { "text": "Category III AIFs are not registered with SEBI", "correct": false }
+          ],
+          "explanation": "Category III AIFs include hedge funds, PIPE funds, and other funds employing complex trading strategies with leverage. The government deliberately excluded them from pass-through treatment to avoid incentivising speculative activity. Category I (venture capital, social venture, infrastructure) and Category II (private equity, debt funds) were considered worthy of the pass-through benefit.",
+          "explanationWrong": "The exclusion is a policy choice — Category III AIFs use leveraged and speculative strategies. Category I funds invest in start-ups, social ventures, and infrastructure; Category II funds are private equity and debt. The government wanted pass-through benefits for productive capital, not speculative trading. Category III AIFs in IFSCs get a separate exemption under Schedule VI.",
+          "tier": 2,
+          "subConcepts": ["cat-III-exclusion-rationale", "policy-design"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "Under Schedule V, why is the business income of an investment fund (Category I/II AIF) NOT eligible for pass-through treatment at the fund level?",
+          "options": [
+            { "text": "Business income is always exempt at the fund level regardless", "correct": false },
+            { "text": "Business income characterisation would make the fund a 'person carrying on business,' creating compliance and anti-avoidance concerns", "correct": true },
+            { "text": "Business income of AIFs does not exist — AIFs cannot earn business income", "correct": false },
+            { "text": "Business income pass-through was removed by the 2025 Act", "correct": false }
+          ],
+          "explanation": "If business income were passed through, the fund would be treated as a conduit for business activity, creating characterisation disputes and potential abuse. The carve-out ensures that business income earned by the fund is taxed at the fund level (at maximum marginal rate), while investment income (capital gains, dividends, interest) passes through to unit-holders.",
+          "explanationWrong": "The business income exclusion is an anti-avoidance design choice. Passing through business income would allow taxpayers to route trading profits through AIFs and claim them as the unit-holder's business income — potentially at lower rates or with different loss set-off rules. By taxing business income at the fund level at maximum marginal rate, the government closes this arbitrage.",
+          "tier": 2,
+          "subConcepts": ["business-income-carve-out", "anti-avoidance-design"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.4 (Schedule IV), why were cruise ship lease rentals (S.No.9) specifically exempted for foreign companies?",
+          "options": [
+            { "text": "To attract international cruise lines to operate in Indian waters without Indian tax on vessel lease income", "correct": true },
+            { "text": "Because cruise ships are classified as immovable property under the 2025 Act", "correct": false },
+            { "text": "To align with DTAA obligations for all maritime income", "correct": false },
+            { "text": "Because cruise ship income was always exempt under the 1961 Act since inception", "correct": false }
+          ],
+          "explanation": "The cruise ship lease rental exemption (old clause 10(48), now Schedule IV S.No.9) was specifically introduced to promote India as a cruise tourism destination. By exempting lease rentals paid by Indian operators to foreign cruise companies, the provision reduces the cost of operating international cruise services in Indian ports.",
+          "explanationWrong": "The correct answer is attracting international cruise lines. India introduced this exemption as a targeted incentive to develop cruise tourism. Without it, foreign cruise companies leasing vessels to Indian operators would face Indian withholding tax on lease rentals, increasing operating costs and making Indian routes less competitive.",
+          "tier": 2,
+          "subConcepts": ["schedule-iv-cruise-review", "cruise-ship-rationale"],
+          "isReview": true,
+          "oldSection": "Section 10(48)",
+          "newSection": "Schedule IV, S.No.9"
+        },
+        {
+          "order": 4,
+          "question": "A REIT owns 3 properties: Property A directly, Property B through an SPV (controlling interest), and Property C through a company where it holds 40% (minority). Which properties generate trust-level exempt rental income under Schedule V?",
+          "options": [
+            { "text": "Only Property A", "correct": false },
+            { "text": "Properties A and B only", "correct": true },
+            { "text": "All three properties", "correct": false },
+            { "text": "Properties B and C only", "correct": false }
+          ],
+          "explanation": "Property A qualifies under S.No.4 (direct rental). Property B qualifies under S.No.3 (SPV with controlling interest — income flows as interest/dividends). Property C does not qualify — the REIT holds only 40%, which is not a controlling interest, so the SPV pass-through under S.No.3 does not apply.",
+          "explanationWrong": "Properties A and B only. The controlling interest requirement in S.No.3 is non-negotiable. A 40% minority stake means the company is not an SPV of the trust for Schedule V purposes. Income from Property C would be taxed at the trust level as investment income, not exempted under the pass-through framework.",
+          "tier": 2,
+          "subConcepts": ["REIT-controlling-interest-application", "sno3-sno4-combined"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC) / 10(23FCA)",
+          "newSection": "Schedule V, S.No.3 / S.No.4"
+        },
+        {
+          "order": 5,
+          "question": "Schedule V consolidates 8 entries from scattered Section 10 clauses. What is the primary benefit of this consolidation for practitioners?",
+          "options": [
+            { "text": "It introduces new exemptions not available under the 1961 Act", "correct": false },
+            { "text": "It removes sunset dates from all provisions", "correct": false },
+            { "text": "It gathers all business trust, AIF, and SWF exemptions in one locatable schedule, reducing cross-referencing effort", "correct": true },
+            { "text": "It harmonises the tax rates across all fund vehicles", "correct": false }
+          ],
+          "explanation": "The consolidation is purely structural. Under the 1961 Act, practitioners had to navigate clauses 23D, 23DA, 23FB, 23FBA, 23FBC, 23FBD, 23FE, and 23FF — scattered across Section 10 with no logical grouping. Schedule V puts them in one place, numbered S.No.1-8, making compliance review faster.",
+          "explanationWrong": "The answer is locatability and reduced cross-referencing. No new exemptions were added, no sunset dates were altered, and no tax rates were harmonised. The value is purely organisational — eight scattered clauses now sit in a single schedule, making it easier for fund managers, trustees, and advisors to verify compliance.",
+          "tier": 2,
+          "subConcepts": ["reorganisation-benefit", "locatability"],
+          "isReview": false,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule V"
+        }
+      ]
+    },
+    {
+      "title": "SWF Conditions & VCC/VCF Legacy",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Schedule V, S.No.7, can a sovereign wealth fund claim the exemption if it carries on commercial activity in India alongside its infrastructure investments?",
+          "options": [
+            { "text": "Yes — the exemption applies to the investment income regardless of other activities", "correct": false },
+            { "text": "No — the fund must not carry on any commercial activity in India", "correct": true },
+            { "text": "Yes — provided commercial income is less than 10% of total income", "correct": false },
+            { "text": "No — but only if the commercial activity is in the same sector as the investment", "correct": false }
+          ],
+          "explanation": "One of the key conditions is that the SWF must not carry on any commercial activity in India. This is a blanket prohibition — there is no de minimis threshold. If the fund engages in any commercial activity in India, the entire exemption is jeopardised, not just the income from that activity.",
+          "explanationWrong": "The answer is a categorical no. The no-commercial-activity condition is absolute — no exceptions, no thresholds, no sectoral carve-outs. This ensures that the exemption benefits only passive sovereign investors, not funds that double as commercial operators in India.",
+          "tier": 2,
+          "subConcepts": ["SWF-no-commercial-activity", "blanket-prohibition"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 2,
+          "question": "S.No.6 preserves the VCC/VCF exemption from old clause 10(23FB). Why is this provision largely historical rather than practically relevant for new funds?",
+          "options": [
+            { "text": "Because VCC/VCF structures were banned by SEBI in 2012", "correct": false },
+            { "text": "Because new funds are typically registered as Category I AIFs under the investment fund pass-through regime", "correct": true },
+            { "text": "Because VCC/VCF structures cannot invest in Indian companies", "correct": false },
+            { "text": "Because VCC/VCF exemption was capped at Rs 10 crore per fund", "correct": false }
+          ],
+          "explanation": "The VCC/VCF regime pre-dates the AIF regulations introduced by SEBI in 2012. New venture capital funds register as Category I AIFs and claim the pass-through under S.No.1 instead. S.No.6 is essentially a grandfather provision for legacy VCC/VCF structures that continue to operate.",
+          "explanationWrong": "New funds register as Category I AIFs. The VCC/VCF framework was not banned — it was superseded by the AIF regulations. Existing VCC/VCF structures were allowed to continue until the end of their fund life, hence S.No.6 preserves their exemption. But for all practical purposes, new fund formation uses the AIF route.",
+          "tier": 2,
+          "subConcepts": ["VCC-VCF-grandfathered", "AIF-supersession"],
+          "isReview": false,
+          "oldSection": "Section 10(23FB)",
+          "newSection": "Schedule V, S.No.6"
+        },
+        {
+          "order": 3,
+          "question": "In Schedule IV (Unit 10.4), what is the key condition for exemption of salary paid to employees of international organisations under S.No.5?",
+          "options": [
+            { "text": "The employee must be an Indian citizen", "correct": false },
+            { "text": "The employee must be a non-resident", "correct": false },
+            { "text": "The international organisation must be notified by the Central Government", "correct": true },
+            { "text": "The salary must not exceed Rs 10 lakh per annum", "correct": false }
+          ],
+          "explanation": "The exemption under Schedule IV, S.No.5 (old clause 10(6)(xi)) applies to remuneration of consultants or employees of international organisations that are notified by the Central Government. The notification requirement is the gating condition — not all international organisations qualify automatically.",
+          "explanationWrong": "The Central Government notification is the key condition. Without notification, the international organisation's employees cannot claim this exemption. The list of notified organisations includes UN agencies, World Bank, IMF, and similar bodies. The employee's citizenship or the salary amount are not relevant conditions.",
+          "tier": 2,
+          "subConcepts": ["schedule-iv-intl-org-review", "notification-requirement"],
+          "isReview": true,
+          "oldSection": "Section 10(6)(xi)",
+          "newSection": "Schedule IV, S.No.5"
+        },
+        {
+          "order": 4,
+          "question": "S.No.8 extends the SWF/pension fund exemption to 'additional investments.' How does S.No.8 relate to S.No.7?",
+          "options": [
+            { "text": "S.No.8 replaces S.No.7 for investments made after 2025", "correct": false },
+            { "text": "S.No.8 covers a broader category of income from qualifying investments, with conditions mirroring S.No.7", "correct": true },
+            { "text": "S.No.8 applies only to pension funds while S.No.7 applies only to sovereign wealth funds", "correct": false },
+            { "text": "S.No.8 has a shorter investment window than S.No.7", "correct": false }
+          ],
+          "explanation": "S.No.8 extends the exemption to additional categories of income earned by qualifying SWFs and pension funds from specified investments. The conditions — investment window, holding period, no commercial activity — mirror S.No.7 exactly. S.No.8 was originally old clause 10(23FF), complementing 10(23FE).",
+          "explanationWrong": "S.No.8 is the companion provision to S.No.7 — same conditions, broader income coverage. Think of S.No.7 as the primary exemption for core investment income, and S.No.8 as the extension covering additional income streams from the same qualifying investments. Both have the same April 2020-March 2030 window and 3-year hold.",
+          "tier": 2,
+          "subConcepts": ["sno7-vs-sno8", "companion-provisions"],
+          "isReview": false,
+          "oldSection": "Section 10(23FF)",
+          "newSection": "Schedule V, S.No.8"
+        },
+        {
+          "order": 5,
+          "question": "Under the 2025 Act, where would a practitioner find the conditions for SWF exemption — in Schedule V itself, or in a cross-referenced section?",
+          "options": [
+            { "text": "All conditions are self-contained within Schedule V", "correct": false },
+            { "text": "Schedule V lists the entry and cross-references the detailed conditions to the applicable provisions", "correct": true },
+            { "text": "Conditions are in the Finance Act, not the Income Tax Act", "correct": false },
+            { "text": "Conditions are in SEBI regulations, not the Income Tax Act", "correct": false }
+          ],
+          "explanation": "Schedule V identifies the exempt person/income and cross-references the detailed conditions (investment window, holding period, eligible investments) to the relevant provisions of the 2025 Act. The schedule is an index-style entry point, not a self-contained code. Practitioners must read the cross-referenced sections for full conditions.",
+          "explanationWrong": "Schedule V cross-references — it does not contain all conditions within itself. This is a key feature of the 2025 Act's schedule-based architecture: schedules list exempt categories and point to the detailed provisions. For SWF exemption, the schedule entry says the income is exempt 'subject to conditions specified in [section]', requiring a further lookup.",
+          "tier": 2,
+          "subConcepts": ["schedule-cross-referencing", "2025-Act-architecture"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        }
+      ]
+    },
+    {
+      "title": "Form Mapping & Reorganisation Mechanics",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many prescribed forms were renumbered as part of the Schedule V reorganisation?",
+          "options": [
+            { "text": "2 forms", "correct": false },
+            { "text": "4 forms", "correct": true },
+            { "text": "6 forms", "correct": false },
+            { "text": "8 forms (one per S.No.)", "correct": false }
+          ],
+          "explanation": "Four forms were renumbered: 64A to 76 (business trust distribution), 64E to 72 (investment fund income), 64F to 73 (investment fund distribution), and 64 to 74 (VCC/VCF distribution). The SWF entries (S.No.7-8) do not have dedicated forms in this set.",
+          "explanationWrong": "4 forms were renumbered. Not every S.No. entry has its own form — forms are tied to reporting obligations, not to each exemption entry. The four forms cover the key filing requirements: business trust distribution reporting, investment fund income and distribution reporting, and VCC/VCF distribution reporting.",
+          "tier": 2,
+          "subConcepts": ["four-form-renumbering", "form-count"],
+          "isReview": false,
+          "oldSection": "Forms 64, 64A, 64E, 64F",
+          "newSection": "Forms 72, 73, 74, 76"
+        },
+        {
+          "order": 2,
+          "question": "Which two old forms correspond to the investment fund (AIF) regime, and what are their new numbers?",
+          "options": [
+            { "text": "64A (now 76) and 64F (now 73)", "correct": false },
+            { "text": "64E (now 72) and 64F (now 73)", "correct": true },
+            { "text": "64 (now 74) and 64E (now 72)", "correct": false },
+            { "text": "64A (now 76) and 64E (now 72)", "correct": false }
+          ],
+          "explanation": "The investment fund pair is 64E (fund-level income statement, now Form 72) and 64F (distribution to unit-holders, now Form 73). 64A/76 is for business trusts, and 64/74 is for VCC/VCF — different fund vehicles.",
+          "explanationWrong": "64E (now 72) and 64F (now 73) form the AIF reporting pair. Remember: E and F are consecutive letters, and 72 and 73 are consecutive numbers. The 64A/76 pair is for business trusts (REITs/InvITs), and the standalone 64/74 is for the legacy VCC/VCF regime.",
+          "tier": 2,
+          "subConcepts": ["AIF-form-pair", "72-73-mapping"],
+          "isReview": false,
+          "oldSection": "Forms 64E, 64F",
+          "newSection": "Forms 72, 73"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 10.4 (Schedule IV), how many total entries does Schedule IV contain for non-resident exemptions?",
+          "options": [
+            { "text": "8 entries", "correct": false },
+            { "text": "10 entries", "correct": false },
+            { "text": "14 entries", "correct": true },
+            { "text": "18 entries", "correct": false }
+          ],
+          "explanation": "Schedule IV contains 14 entries covering non-resident exemptions — from NRE interest (S.No.1) through diplomatic staff, foreign employees, crude oil/SPR provisions, to OBU deposit interest (S.No.14). All 14 are pure renumbering with no substantive changes.",
+          "explanationWrong": "14 entries is correct. Schedule IV is one of the larger non-resident-focused schedules. The entries span diplomatic exemptions (S.No.2), employee salary exemptions (S.No.3-5), petroleum/crude oil exemptions (S.No.10-13), and financial exemptions (S.No.1, S.No.14). All are reorganised without change.",
+          "tier": 2,
+          "subConcepts": ["schedule-iv-14-entries-review", "schedule-iv-scope"],
+          "isReview": true,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule IV, S.No.1-14"
+        },
+        {
+          "order": 4,
+          "question": "A compliance team is updating their software for the 2025 Act. For Schedule V, which old form suffix helps identify the business trust distribution form?",
+          "options": [
+            { "text": "The suffix 'E' — Form 64E", "correct": false },
+            { "text": "The suffix 'A' — Form 64A", "correct": true },
+            { "text": "The suffix 'F' — Form 64F", "correct": false },
+            { "text": "No suffix — plain Form 64", "correct": false }
+          ],
+          "explanation": "Form 64A (suffix 'A') is the business trust distribution statement, now Form 76. The 'A' suffix distinguished it from the other 64-series forms. In practice, compliance teams must map 64A to 76 in all auto-filing and validation routines for the tax year 2025-26 onward.",
+          "explanationWrong": "Suffix 'A' identifies the business trust form (64A, now 76). Quick decoder: A = business trust (76), E = investment fund income (72), F = investment fund distribution (73), no suffix = VCC/VCF (74). Compliance teams need to update all four references in their filing software.",
+          "tier": 2,
+          "subConcepts": ["form-suffix-identification", "compliance-software-update"],
+          "isReview": false,
+          "oldSection": "Form 64A",
+          "newSection": "Form 76"
+        },
+        {
+          "order": 5,
+          "question": "The 2025 Act reorganises Schedule V entries from 8 different Section 10 clauses. Which of these old clauses appeared in more than one Schedule V entry?",
+          "options": [
+            { "text": "Clause 10(23FBB) — appearing in S.No.1 and S.No.2", "correct": false },
+            { "text": "Clause 10(23FB) — appearing in S.No.2 and S.No.6", "correct": true },
+            { "text": "Clause 10(23FE) — appearing in S.No.7 and S.No.8", "correct": false },
+            { "text": "No clause appears in more than one entry", "correct": false }
+          ],
+          "explanation": "Clause 10(23FB) maps to both S.No.2 (income of VCC/VCF from investment in VCU) and S.No.6 (VCC/VCF income from investment in VCU). The old clause covered both aspects, which the 2025 Act separated into distinct entries. S.No.7 and S.No.8 come from different old clauses — 10(23FE) and 10(23FF) respectively.",
+          "explanationWrong": "Clause 10(23FB) appears in two entries. Under the old Act, this single clause covered the VCC/VCF exemption broadly. The 2025 Act split it into S.No.2 and S.No.6 for clarity. Note that 10(23FE) and 10(23FF) are separate clauses mapping to S.No.7 and S.No.8 respectively — they do not share a source clause.",
+          "tier": 2,
+          "subConcepts": ["clause-splitting", "10-23FB-dual-entry"],
+          "isReview": false,
+          "oldSection": "Section 10(23FB)",
+          "newSection": "Schedule V, S.No.2 and S.No.6"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Fund Manager's Schedule V Compliance",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Alpha AIF (Category II) earns Rs 50 crore capital gains and Rs 8 crore business income in FY 2025-26. Under Schedule V, what is the tax treatment?",
+          "options": [
+            { "text": "Entire Rs 58 crore is exempt at fund level and taxed in unit-holders' hands", "correct": false },
+            { "text": "Rs 50 crore capital gains pass through to unit-holders; Rs 8 crore business income is taxed at fund level at maximum marginal rate", "correct": true },
+            { "text": "Entire Rs 58 crore is taxed at fund level", "correct": false },
+            { "text": "Rs 50 crore capital gains are exempt permanently; Rs 8 crore business income passes through", "correct": false }
+          ],
+          "explanation": "Schedule V, S.No.1 exempts non-business income (capital gains) at the fund level — it passes through to unit-holders. Business income (Rs 8 crore) is carved out and taxed at the fund level at maximum marginal rate. The fund must file Form 72 (old 64E) for the income statement and Form 73 (old 64F) for distribution details.",
+          "explanationWrong": "Rs 50 crore passes through; Rs 8 crore is taxed at fund level. The business income carve-out is absolute — there is no threshold or proportion test. Even if business income is only 14% of total income (as here), it is taxed at the fund level. The unit-holders bear tax only on the Rs 50 crore pass-through income, at their individual rates.",
+          "tier": 3,
+          "subConcepts": ["AIF-business-income-taxation", "pass-through-application"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB)",
+          "newSection": "Schedule V, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "Embassy REIT directly owns Office Park A (rental Rs 200 crore) and holds 80% in SPV-B which owns Office Park B (SPV-B pays Rs 150 crore interest to the REIT). Which forms must be filed and under which new numbers?",
+          "options": [
+            { "text": "Only Form 72 for the combined rental and interest income", "correct": false },
+            { "text": "Form 76 for the distribution statement to unit-holders covering both S.No.3 and S.No.4 exempt income", "correct": true },
+            { "text": "Form 73 for each property separately", "correct": false },
+            { "text": "Form 74 for the REIT's VCF-style distribution", "correct": false }
+          ],
+          "explanation": "The REIT is a business trust. Form 76 (old 64A) is the business trust distribution statement. Office Park A's rental qualifies under S.No.4 (direct rental); SPV-B's interest qualifies under S.No.3 (SPV with controlling interest). Both flow through to unit-holders, reported on Form 76.",
+          "explanationWrong": "Form 76 is the correct form. REITs are business trusts — they use Form 76 (old 64A), not Form 72/73 (which are for investment funds/AIFs). Form 74 is for VCC/VCFs. The single Form 76 covers all distribution to unit-holders from the REIT, whether the income originates from direct property (S.No.4) or SPV flows (S.No.3).",
+          "tier": 3,
+          "subConcepts": ["REIT-form-76-application", "sno3-sno4-combined-filing"],
+          "isReview": false,
+          "oldSection": "Form 64A",
+          "newSection": "Form 76"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.4 (Schedule IV), a foreign company stores crude oil in India's strategic petroleum reserves and sells leftover stock. The company also earns interest on an NRE account. How many Schedule IV entries are relevant?",
+          "options": [
+            { "text": "1 entry (SPR income only)", "correct": false },
+            { "text": "2 entries (SPR income + NRE interest)", "correct": true },
+            { "text": "4 entries (all SPR entries)", "correct": false },
+            { "text": "5 entries (all SPR entries + NRE interest)", "correct": false }
+          ],
+          "explanation": "Two entries are relevant: S.No.10 (income from sale of leftover crude oil stock) and S.No.1 (NRE interest). The other SPR entries (S.No.11-13) cover different scenarios — extended storage agreements and SPR facility operations — which are not described in this fact pattern.",
+          "explanationWrong": "2 entries: S.No.10 for leftover crude oil sale and S.No.1 for NRE interest. Not all four SPR entries (S.No.10-13) apply to every petroleum company — each covers a distinct scenario. S.No.10 is sale of leftover stock, S.No.11 is extended storage agreements, S.No.12 is SPR facility operations, and S.No.13 is extended SPR agreements.",
+          "tier": 3,
+          "subConcepts": ["schedule-iv-multi-entry-review", "fact-pattern-matching"],
+          "isReview": true,
+          "oldSection": "Section 10(4)(i) / 10(48A)",
+          "newSection": "Schedule IV, S.No.1 / S.No.10"
+        },
+        {
+          "order": 4,
+          "question": "Abu Dhabi Investment Authority (ADIA), a sovereign wealth fund, invests Rs 5,000 crore in an Indian infrastructure company in March 2029. ADIA sells the investment in December 2031 (held for 2 years 9 months). Is the income exempt under Schedule V, S.No.7?",
+          "options": [
+            { "text": "Yes — the investment is within the April 2020-March 2030 window", "correct": false },
+            { "text": "No — the 3-year minimum holding period is not met (held only 2 years 9 months)", "correct": true },
+            { "text": "Yes — the 3-year holding period is only a guideline, not mandatory", "correct": false },
+            { "text": "No — investments after March 2025 do not qualify", "correct": false }
+          ],
+          "explanation": "Both conditions must be met: investment within the April 2020-March 2030 window (satisfied — March 2029) AND 3-year minimum hold (not satisfied — held only 2 years 9 months). The holding period is mandatory, not a guideline. ADIA would need to hold until March 2032 (3 years from March 2029) for the exemption to apply.",
+          "explanationWrong": "The 3-year holding period is not met. The investment window is satisfied (March 2029 is within April 2020-March 2030), but the exit in December 2031 means only 2 years 9 months of holding. Both conditions are cumulative — failing either one disqualifies the exemption. ADIA's income from this investment would be taxable.",
+          "tier": 3,
+          "subConcepts": ["SWF-holding-period-failure", "cumulative-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 5,
+          "question": "A legacy VCF (registered pre-2012) earns income from investments in a VCU. The fund also has a new tranche registered as a Category I AIF. Which Schedule V entries and forms apply to each?",
+          "options": [
+            { "text": "S.No.6 + Form 74 for the VCF; S.No.1 + Form 72/73 for the AIF", "correct": true },
+            { "text": "S.No.1 + Form 72/73 for both", "correct": false },
+            { "text": "S.No.6 + Form 74 for both (grandfathered)", "correct": false },
+            { "text": "S.No.2 + Form 76 for the VCF; S.No.1 + Form 72/73 for the AIF", "correct": false }
+          ],
+          "explanation": "The legacy VCF uses S.No.6 (VCC/VCF exemption from old 10(23FB)) and files Form 74 (old Form 64). The new AIF tranche uses S.No.1 (investment fund pass-through) and files Form 72 (fund income) and Form 73 (distribution to unit-holders). Different vehicles, different entries, different forms — even if managed by the same fund house.",
+          "explanationWrong": "S.No.6 + Form 74 for VCF; S.No.1 + Forms 72/73 for AIF. This is a real-world scenario for fund houses that operated VCFs before 2012 and later registered AIFs. The two regimes run in parallel under Schedule V — each with its own entry and form. There is no merger or consolidation of the two compliance streams.",
+          "tier": 3,
+          "subConcepts": ["VCF-AIF-parallel-compliance", "dual-regime-application"],
+          "isReview": false,
+          "oldSection": "Section 10(23FB) / 10(23FBB)",
+          "newSection": "Schedule V, S.No.6 / S.No.1"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: SWF Due Diligence",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Norway's Government Pension Fund invests Rs 10,000 crore in Indian infrastructure in 2024. In 2027, the fund opens a small commercial consulting office in Mumbai to advise Indian companies. What happens to the Schedule V exemption?",
+          "options": [
+            { "text": "Only income from the consulting office is taxable; infrastructure investment income remains exempt", "correct": false },
+            { "text": "The entire exemption under S.No.7 is jeopardised because the no-commercial-activity condition is breached", "correct": true },
+            { "text": "The exemption continues because consulting is not 'commercial activity'", "correct": false },
+            { "text": "The exemption is reduced proportionally based on commercial vs investment income", "correct": false }
+          ],
+          "explanation": "The no-commercial-activity condition is absolute. Opening a consulting office in India constitutes commercial activity, breaching the condition. The entire S.No.7 exemption is at risk — not just income from the consulting activity. There is no proportional reduction or carve-out for the investment income.",
+          "explanationWrong": "The entire exemption is jeopardised. The no-commercial-activity condition is a binary test — any commercial activity in India, however small, risks the exemption on the entire Rs 10,000 crore infrastructure investment income. This is why SWFs and their advisors are extremely careful about the scope of their India activities.",
+          "tier": 3,
+          "subConcepts": ["SWF-commercial-activity-breach", "binary-condition"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 2,
+          "question": "Singapore's GIC makes three investments in India: (A) Rs 2,000 crore in infrastructure bonds in Jan 2020, (B) Rs 3,000 crore in an InvIT in June 2022, (C) Rs 1,000 crore in a tech company (not infrastructure) in 2025. Which qualify under Schedule V, S.No.7?",
+          "options": [
+            { "text": "All three investments qualify", "correct": false },
+            { "text": "Only investment B qualifies", "correct": false },
+            { "text": "Only investment B qualifies — A is before April 2020 and C is not in specified infrastructure", "correct": true },
+            { "text": "Investments A and B qualify; only C fails", "correct": false }
+          ],
+          "explanation": "Investment A fails the window test — it was made in January 2020, before the April 2020 start date. Investment C fails the category test — a tech company (not engaged in specified infrastructure) is not a qualifying investment. Only Investment B (InvIT, June 2022, within window) qualifies. Each investment is tested independently.",
+          "explanationWrong": "Only investment B qualifies. Two separate conditions knock out the others: (A) fails the timing window (January 2020 is before April 2020), and (C) fails the investment category (tech company is not specified infrastructure). The conditions are tested per investment, not at the portfolio level.",
+          "tier": 3,
+          "subConcepts": ["SWF-per-investment-testing", "window-and-category-conditions"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 10.5 itself, what is the primary practical action item for compliance teams resulting from Schedule V's reorganisation?",
+          "options": [
+            { "text": "Re-evaluating all existing exemption claims under new substantive conditions", "correct": false },
+            { "text": "Updating form number references (64A→76, 64E→72, 64F→73, 64→74) in filing systems", "correct": true },
+            { "text": "Re-registering all business trusts and AIFs with new authorities", "correct": false },
+            { "text": "Computing new tax rates applicable under Schedule V", "correct": false }
+          ],
+          "explanation": "Since Schedule V involves no substantive changes, the only practical action item is updating form number references in compliance software and filing workflows. The conditions, thresholds, and sunset dates are all unchanged. No re-registration, re-evaluation, or new rate computation is needed.",
+          "explanationWrong": "Updating form numbers is the sole action item. This is the defining characteristic of Schedule V — pure reorganisation, zero substantive change. If a compliance team has been correctly applying clauses 10(23FB) through 10(23FF), their analysis is unchanged. Only the form numbers in their filing systems need updating.",
+          "tier": 3,
+          "subConcepts": ["unit-10.5-action-item-review", "form-update-only"],
+          "isReview": true,
+          "oldSection": "Forms 64, 64A, 64E, 64F",
+          "newSection": "Forms 72, 73, 74, 76"
+        },
+        {
+          "order": 4,
+          "question": "An InvIT holds controlling interest in 5 SPVs. SPV-1 pays Rs 100 crore interest, SPV-2 pays Rs 80 crore dividends, SPV-3 pays Rs 50 crore interest, SPV-4 pays Rs 60 crore interest, and SPV-5 distributes Rs 30 crore as return of capital. How much qualifies for trust-level exemption under S.No.3?",
+          "options": [
+            { "text": "Rs 320 crore (all flows from all SPVs)", "correct": false },
+            { "text": "Rs 290 crore (interest + dividends from SPV-1 to SPV-4; return of capital from SPV-5 is not covered)", "correct": true },
+            { "text": "Rs 210 crore (only interest from SPV-1, 3, and 4)", "correct": false },
+            { "text": "Rs 100 crore (only SPV-1's interest)", "correct": false }
+          ],
+          "explanation": "S.No.3 covers interest and dividends from SPVs. SPV-1 (Rs 100 crore interest) + SPV-2 (Rs 80 crore dividends) + SPV-3 (Rs 50 crore interest) + SPV-4 (Rs 60 crore interest) = Rs 290 crore exempt at trust level. SPV-5's Rs 30 crore return of capital is not interest or dividend — it is a capital receipt and falls outside S.No.3.",
+          "explanationWrong": "Rs 290 crore. The trap is SPV-5's return of capital — it looks like a flow from an SPV, but S.No.3 specifically covers only interest and dividends. A return of capital is neither. This distinction matters in practice: InvIT structures sometimes blend distributions from different SPVs, and compliance teams must classify each flow correctly.",
+          "tier": 3,
+          "subConcepts": ["interest-dividend-only", "return-of-capital-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC)",
+          "newSection": "Schedule V, S.No.3"
+        },
+        {
+          "order": 5,
+          "question": "A CA is advising a client on setting up a new venture capital fund in 2025. The client asks whether to register as a VCF (Schedule V, S.No.6) or Category I AIF (Schedule V, S.No.1). What is the correct advice?",
+          "options": [
+            { "text": "Register as VCF — it has a more favourable tax regime", "correct": false },
+            { "text": "Register as either — the tax treatment is identical", "correct": false },
+            { "text": "Register as Category I AIF — VCF registration is legacy and new VCF registrations are not available under current SEBI regulations", "correct": true },
+            { "text": "Register as both simultaneously for maximum flexibility", "correct": false }
+          ],
+          "explanation": "SEBI's AIF Regulations (2012) superseded the VCF regime. New venture capital funds must register as Category I AIFs. VCF registration is not available for new funds — S.No.6 exists only to grandfather existing VCFs. The Category I AIF route provides the pass-through benefit under S.No.1 with Form 72/73 compliance.",
+          "explanationWrong": "Category I AIF is the only practical option. The VCF regime is closed to new registrations since SEBI's AIF Regulations took effect in 2012. S.No.6 in Schedule V is a grandfather provision — it protects existing VCFs but does not open the door for new ones. Any advisor suggesting VCF registration in 2025 would be giving outdated advice.",
+          "tier": 3,
+          "subConcepts": ["VCF-closed-to-new", "advisory-application"],
+          "isReview": false,
+          "oldSection": "Section 10(23FB) / 10(23FBB)",
+          "newSection": "Schedule V, S.No.6 / S.No.1"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Cross-Schedule Analysis",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A Category II AIF based in GIFT City IFSC earns capital gains from securities listed on the IFSC exchange. Does the exemption come from Schedule V (S.No.1 — investment fund) or Schedule VI (S.No.1 — IFSC exchange capital gains)?",
+          "options": [
+            { "text": "Schedule V only — as a Category II AIF, the pass-through applies", "correct": false },
+            { "text": "Schedule VI only — IFSC exchange transactions have a standalone exemption", "correct": false },
+            { "text": "Both schedules could apply; the specific transaction determines which entry is more directly relevant", "correct": true },
+            { "text": "Neither — Category II AIFs in IFSC have no exemption", "correct": false }
+          ],
+          "explanation": "A Category II AIF could claim the pass-through under Schedule V (non-business income exempt at fund level). Separately, capital gains on IFSC exchange transactions are exempt under Schedule VI, S.No.1. The specific facts determine which entry applies more directly. In practice, the IFSC-specific exemption (Schedule VI) may provide a more direct route as it exempts the gains outright, while the pass-through (Schedule V) only shifts the incidence to unit-holders.",
+          "explanationWrong": "Both schedules could apply. This is a real-world overlap in the 2025 Act's schedule architecture. The pass-through under Schedule V shifts tax to unit-holders; the IFSC exemption under Schedule VI eliminates tax entirely on the qualifying transaction. The fund and its advisors must analyse which route provides the better outcome — often the Schedule VI exemption is preferred.",
+          "tier": 3,
+          "subConcepts": ["cross-schedule-overlap", "schedule-v-vs-vi"],
+          "isReview": false,
+          "oldSection": "Section 10(23FBB) / 10(4E)",
+          "newSection": "Schedule V, S.No.1 / Schedule VI, S.No.1"
+        },
+        {
+          "order": 2,
+          "question": "A sovereign wealth fund invests in an InvIT (which is itself a business trust). The SWF claims exemption under S.No.7 (SWF exemption). The InvIT distributes income that is exempt at the trust level under S.No.3. At how many levels does Schedule V provide exemption in this chain?",
+          "options": [
+            { "text": "One level — only at the SWF level", "correct": false },
+            { "text": "One level — only at the InvIT level", "correct": false },
+            { "text": "Two levels — at the InvIT level (S.No.3/5) and at the SWF level (S.No.7)", "correct": true },
+            { "text": "Three levels — SPV, InvIT, and SWF", "correct": false }
+          ],
+          "explanation": "Schedule V provides exemption at two levels: (1) at the InvIT level, income from SPVs is exempt under S.No.3 and distributed income under S.No.5; (2) at the SWF level, income from the qualifying investment (InvIT units) is exempt under S.No.7. The SPV itself is not exempt under Schedule V — it is a taxable entity whose flows are exempted at the trust level.",
+          "explanationWrong": "Two levels of exemption. The InvIT is exempt under S.No.3/5, and the SWF is exempt under S.No.7. The SPV (company) is a taxable entity — it computes and offers income for taxation normally. The exemptions kick in only when income flows from SPV to InvIT (trust-level exemption) and from InvIT to SWF (sovereign investor exemption).",
+          "tier": 3,
+          "subConcepts": ["multi-level-exemption", "SPV-InvIT-SWF-chain"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC) / 10(23FE)",
+          "newSection": "Schedule V, S.No.3 / S.No.7"
+        },
+        {
+          "order": 3,
+          "question": "Comparing Schedule V (business trusts/funds) with Schedule IV (non-resident exemptions from Unit 10.4), which statement best describes the design difference?",
+          "options": [
+            { "text": "Schedule IV covers income-based exemptions; Schedule V covers entity-based exemptions", "correct": false },
+            { "text": "Schedule IV covers person-specific exemptions (non-residents); Schedule V covers vehicle-specific exemptions (trusts/funds as pass-through conduits)", "correct": true },
+            { "text": "Schedule IV has substantive changes; Schedule V has only form changes", "correct": false },
+            { "text": "Schedule IV is temporary; Schedule V is permanent", "correct": false }
+          ],
+          "explanation": "Schedule IV's exemptions turn on the person's status (non-resident) and specific income types (NRE interest, diplomatic salary, crude oil income). Schedule V's exemptions turn on the investment vehicle's structure (business trust, AIF, VCF, SWF) and its role as a pass-through conduit. The organising principle is different even though both are reorganisations without substantive change.",
+          "explanationWrong": "Schedule IV is person-specific (non-residents), Schedule V is vehicle-specific (trusts/funds). This distinction reflects the 2025 Act's schedule architecture — each schedule groups exemptions by a unifying theme. Schedule IV says 'if you are a non-resident and earn this income, it is exempt.' Schedule V says 'if income flows through this vehicle, it is exempt at the vehicle level.'",
+          "tier": 3,
+          "subConcepts": ["schedule-iv-vs-v-design-review", "schedule-architecture"],
+          "isReview": true,
+          "oldSection": "Section 10 (various clauses)",
+          "newSection": "Schedule IV / Schedule V"
+        },
+        {
+          "order": 4,
+          "question": "A CA firm is preparing a compliance checklist for an InvIT client for FY 2025-26 under the 2025 Act. The InvIT has SPVs (S.No.3 income), directly held property (S.No.4 income), and distributes income to unit-holders (S.No.5). How many Schedule V entries must the checklist cover?",
+          "options": [
+            { "text": "1 entry — S.No.5 covers all distributed income", "correct": false },
+            { "text": "2 entries — S.No.3 and S.No.4 (S.No.5 is automatic)", "correct": false },
+            { "text": "3 entries — S.No.3, S.No.4, and S.No.5, each with distinct conditions", "correct": true },
+            { "text": "All 8 entries must be checked for any business trust", "correct": false }
+          ],
+          "explanation": "Three distinct entries apply: S.No.3 (SPV interest/dividends — requires controlling interest verification), S.No.4 (direct rental — requires verification of direct ownership), and S.No.5 (distributed income — requires verification that distributions to unit-holders are properly exempt at trust level). Each has distinct conditions that must be independently verified.",
+          "explanationWrong": "3 entries — each with independent conditions. S.No.5 is not 'automatic' — it requires that the distributed income meets the conditions for trust-level exemption. If S.No.3 or S.No.4 conditions are not met for specific income, the corresponding distribution under S.No.5 also fails. The compliance checklist must verify conditions at each entry point.",
+          "tier": 3,
+          "subConcepts": ["InvIT-three-entry-compliance", "checklist-design"],
+          "isReview": false,
+          "oldSection": "Section 10(23FC) / 10(23FCA) / 10(23FD)",
+          "newSection": "Schedule V, S.No.3 / S.No.4 / S.No.5"
+        },
+        {
+          "order": 5,
+          "question": "An SWF invested Rs 8,000 crore in Indian infrastructure in 2021 (3-year hold completed in 2024). Under the 2025 Act (effective April 2026), does the SWF need to re-claim the exemption under Schedule V, S.No.7, or does the old claim continue?",
+          "options": [
+            { "text": "The SWF must re-apply under Schedule V — old claims are void", "correct": false },
+            { "text": "The exemption continues under the transitional provisions — the existing claim is grandfathered into Schedule V, S.No.7 with no new filing required beyond the regular form update", "correct": true },
+            { "text": "The exemption lapses because the 2025 Act is a new statute", "correct": false },
+            { "text": "The SWF must exit and re-invest after April 2026 to claim under Schedule V", "correct": false }
+          ],
+          "explanation": "The 2025 Act's transitional provisions ensure continuity. An exemption validly claimed under old clause 10(23FE) continues under Schedule V, S.No.7. The SWF does not need to re-apply or re-invest. The only change is the form reference update. The investment was within the window, the hold period is met, and the exemption is carried forward seamlessly.",
+          "explanationWrong": "The existing claim is grandfathered — no re-application needed. The 2025 Act is explicit about transition continuity for ongoing exemptions. Requiring SWFs to re-invest or re-apply would undermine India's sovereign investor framework and violate the investment stability commitments. The transition is purely administrative — form number update and schedule reference change.",
+          "tier": 3,
+          "subConcepts": ["SWF-transition-continuity", "grandfathering"],
+          "isReview": false,
+          "oldSection": "Section 10(23FE)",
+          "newSection": "Schedule V, S.No.7"
+        }
+      ]
+    }
+  ]
+}

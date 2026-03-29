@@ -1,0 +1,835 @@
+{
+  "unit": "9.6",
+  "title": "Business-Specific Deductions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Grandfather Framework — No Fresh Claims",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, are any of the business-specific deductions (Sections 138-147) available for new undertakings set up on or after 1 April 2026?",
+          "options": [
+            { "text": "Yes — all provisions continue for new undertakings", "correct": false },
+            { "text": "Yes — but only Sections 140 and 145", "correct": false },
+            { "text": "No — every provision is transitional; no fresh claims are permitted", "correct": true },
+            { "text": "Only if the undertaking is in a North-Eastern State", "correct": false }
+          ],
+          "explanation": "Every business-specific deduction in Sections 138-147 is transitional. No fresh claims are permitted under the 2025 Act. These are grandfather provisions that allow existing eligible undertakings to continue claiming for their remaining unexpired eligibility period only. The government's policy shift replaces profit-linked deductions with reduced corporate tax rates (22%/15%) for new ventures.",
+          "explanationWrong": "No fresh claims is correct. This is the single most important takeaway from Unit 9.6. Unlike Unit 9.5 (donation deductions, which remain fully operative), every provision here is a wind-down. New businesses starting from 1 April 2026 have no access to any of these deductions — the incentive regime has fundamentally changed.",
+          "tier": 1,
+          "subConcepts": ["no-fresh-claims", "transitional-provisions"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 80-IA (infrastructure, telecom, power deduction) maps to which section under the 2025 Act?",
+          "options": [
+            { "text": "Section 135", "correct": false },
+            { "text": "Section 138", "correct": true },
+            { "text": "Section 141", "correct": false },
+            { "text": "Section 145", "correct": false }
+          ],
+          "explanation": "Section 80-IA maps to Section 138 under the 2025 Act. It covers infrastructure facilities (roads, highways, ports, airports), telecom services, industrial parks, and power generation/transmission/distribution. The provision is transitional — only undertakings within their unexpired eligibility window continue to claim.",
+          "explanationWrong": "Section 138 is correct. The full mapping: 80-IA→138, 80-IAB→139, 80-IAC→140, 80-IB→141, 80-IC→142, 80-IE→143, 80-JJAA→145, 80-LA→147. Note the pattern: the alphabetical order of the old sections largely matches the numerical order of the new sections.",
+          "tier": 1,
+          "subConcepts": ["80-IA-to-138", "infrastructure-deduction-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, what is the cash donation threshold for charitable donations under Section 133 (old 80G)?",
+          "options": [
+            { "text": "Rs 2,000 — cash donations above this per donation are ineligible", "correct": true },
+            { "text": "Rs 10,000", "correct": false },
+            { "text": "Cash is entirely barred", "correct": false },
+            { "text": "Rs 5,000", "correct": false }
+          ],
+          "explanation": "Under Section 133, cash donations exceeding Rs 2,000 per donation are not eligible for deduction. This threshold was set by Finance Act 2017 (reducing the earlier Rs 10,000 limit) and is carried forward unchanged into the 2025 Act. Donations above Rs 2,000 must be made by cheque, demand draft, or electronic transfer.",
+          "explanationWrong": "Rs 2,000 is correct. Do not confuse with Section 135 (scientific research — Rs 10,000 cash threshold) or Sections 136/137 (political contributions — cash entirely barred). Each donation section in Unit 9.5 has its own distinct cash restriction.",
+          "tier": 1,
+          "subConcepts": ["section-133-cash-limit-review", "donation-cash-threshold"],
+          "isReview": true,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 4,
+          "question": "The business income on which transitional deductions (Sections 138-147) are computed is derived under which Act?",
+          "options": [
+            { "text": "The 1961 Act — as if it had not been repealed", "correct": false },
+            { "text": "The 2025 Act — business income is computed under the new Act's provisions", "correct": true },
+            { "text": "Whichever Act gives a higher deduction", "correct": false },
+            { "text": "A blended computation using both Acts", "correct": false }
+          ],
+          "explanation": "This is the critical nuance confirmed by the KarSetu FAQ (Q8.18): while eligibility and deduction period are governed by the old Act (as if unrepealed), the quantum of business income on which the deduction is computed follows the 2025 Act. Any differences in depreciation rates, expense recognition, or disallowance rules between the two Acts will flow through to the deduction amount.",
+          "explanationWrong": "The 2025 Act is correct. The split is: old Act governs eligibility conditions, deduction period, and deduction percentage; the new Act governs the income base. This means the deduction quantum under the 2025 Act may differ from what would have been available under the old Act — the eligibility is frozen, but the base income is not.",
+          "tier": 1,
+          "subConcepts": ["old-rules-new-income", "KarSetu-FAQ-Q8.18"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 5,
+          "question": "Section 122(5) of the 2025 Act requires which condition for claiming deductions under Sections 138-147?",
+          "options": [
+            { "text": "Tax audit by a CA", "correct": false },
+            { "text": "Timely filing of the return of income on or before the due date", "correct": true },
+            { "text": "Prior approval from the Assessing Officer", "correct": false },
+            { "text": "Filing Form 10IC with the return", "correct": false }
+          ],
+          "explanation": "Section 122(5) mandates timely filing of the return as a condition for claiming any deduction under Sections 138-147. If the return is filed after the due date specified under Section 263(1), the deduction is not available for that assessment year. This is a continuation of the old Act's requirement (Section 80AC read with Section 139(1)), now under a new section number.",
+          "explanationWrong": "Timely filing is correct. Missing the due date results in permanent loss of the deduction for that year — it cannot be recovered through a belated or revised return. For undertakings in their final eligibility years, this is an irrecoverable loss. The consequence is severe and practitioners must calendar due dates meticulously.",
+          "tier": 1,
+          "subConcepts": ["section-122-5-timely-filing", "return-filing-condition"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        }
+      ]
+    },
+    {
+      "title": "Section Mapping — 80-IA through 80-IE",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80-IAB (SEZ developer deduction) maps to which new section?",
+          "options": [
+            { "text": "Section 138", "correct": false },
+            { "text": "Section 139", "correct": true },
+            { "text": "Section 140", "correct": false },
+            { "text": "Section 141", "correct": false }
+          ],
+          "explanation": "Section 80-IAB (SEZ developer profit-linked deduction) maps to Section 139. The deduction is 100% of profits for 10 consecutive years out of 15 from the year of SEZ notification. Most SEZ developers' eligibility windows have largely expired or are nearing expiry. Section 139 services the residual tail of existing claims.",
+          "explanationWrong": "Section 139 is correct. The sequential mapping helps: 80-IA→138, 80-IAB→139, 80-IAC→140. The alphabetical suffixes (IA, IAB, IAC) map sequentially to 138, 139, 140. This pattern makes the mapping easier to remember.",
+          "tier": 1,
+          "subConcepts": ["80-IAB-to-139", "SEZ-developer-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80-IAB",
+          "newSection": "Section 139"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 80-IAC (eligible startup deduction) maps to which new section?",
+          "options": [
+            { "text": "Section 139", "correct": false },
+            { "text": "Section 142", "correct": false },
+            { "text": "Section 140", "correct": true },
+            { "text": "Section 143", "correct": false }
+          ],
+          "explanation": "Section 80-IAC maps to Section 140. It covers eligible startups incorporated between 1 April 2016 and 31 March 2025, providing 100% deduction of profits for any 3 consecutive assessment years out of 10 from incorporation. The incorporation window has closed — no startup incorporated on or after 1 April 2025 qualifies.",
+          "explanationWrong": "Section 140 is correct. The startup deduction had a sunset for incorporation: 31 March 2025. Startups incorporated before this date that have not exhausted their 3-year deduction window continue under Section 140. The turnover cap of Rs 100 crore per year also continues.",
+          "tier": 1,
+          "subConcepts": ["80-IAC-to-140", "startup-deduction-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, which Supreme Court ruling impacted the Electoral Bond Scheme for political contributions under Sections 136 and 137?",
+          "options": [
+            { "text": "Association for Democratic Reforms v. Union of India (February 2024)", "correct": true },
+            { "text": "Kesavananda Bharati v. State of Kerala (1973)", "correct": false },
+            { "text": "Vodafone International Holdings v. Union of India (2012)", "correct": false },
+            { "text": "CIT v. Vatika Township (2015)", "correct": false }
+          ],
+          "explanation": "The Supreme Court struck down the Electoral Bond Scheme in Association for Democratic Reforms v. Union of India (February 2024), holding that it violated Article 19(1)(a) — the right to information. Post this ruling, political contributions must be through transparent modes only. This is the major real-world change in Unit 9.5, though it is a judicial development, not a statutory one.",
+          "explanationWrong": "Association for Democratic Reforms v. Union of India (2024) is correct. This ruling fundamentally altered how political contributions are made in India. While the statutory provisions (Sections 136/137) remain unchanged, the practical landscape is transformed — anonymous bearer instruments are no longer available.",
+          "tier": 1,
+          "subConcepts": ["electoral-bond-ruling-review", "ADR-case"],
+          "isReview": true,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 80-IC (special category States — Himachal, Uttarakhand, Sikkim, NE States) maps to which new section?",
+          "options": [
+            { "text": "Section 141", "correct": false },
+            { "text": "Section 143", "correct": false },
+            { "text": "Section 142", "correct": true },
+            { "text": "Section 145", "correct": false }
+          ],
+          "explanation": "Section 80-IC maps to Section 142. It covers undertakings in Himachal Pradesh, Uttarakhand, Sikkim, and North-Eastern States that commenced operations between specified dates. The deduction is 100% for the first 5 years and 25-30% for the next 5 years — 10 years total. The sunset date for most categories was 1 April 2012.",
+          "explanationWrong": "Section 142 is correct. Do not confuse with Section 143 (old 80-IE), which also covers North-Eastern States but is a separate provision with different terms (100% for 10 years). Section 80-IC has a broader geographic scope (including Himachal and Uttarakhand) and different deduction rates.",
+          "tier": 1,
+          "subConcepts": ["80-IC-to-142", "special-category-states"],
+          "isReview": false,
+          "oldSection": "Section 80-IC",
+          "newSection": "Section 142"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 80-JJAA (additional employee cost deduction) maps to which new section?",
+          "options": [
+            { "text": "Section 143", "correct": false },
+            { "text": "Section 144", "correct": false },
+            { "text": "Section 145", "correct": true },
+            { "text": "Section 147", "correct": false }
+          ],
+          "explanation": "Section 80-JJAA maps to Section 145. This provision allows a deduction of 30% of additional employee cost for new employees meeting specified conditions (240-day employment, salary up to Rs 25,000/month, non-cash payment). The deduction is for 3 consecutive years from the year of hiring. Employees hired before 1 April 2026 within their 3-year window continue under Section 145.",
+          "explanationWrong": "Section 145 is correct. Note the gap: 80-JJAA→145 (not 144). The sequential mapping has some numbering gaps in the 2025 Act. Section 80-JJAA was one of the most actively claimed provisions — unlike the infrastructure/SEZ provisions, it was used by manufacturing and service companies for new hiring incentives.",
+          "tier": 1,
+          "subConcepts": ["80-JJAA-to-145", "employment-deduction-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80-JJAA",
+          "newSection": "Section 145"
+        }
+      ]
+    },
+    {
+      "title": "Deduction Periods and Rates",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 138 (old 80-IA), the deduction for infrastructure/power undertakings is available for how many consecutive years?",
+          "options": [
+            { "text": "10 consecutive years out of 15", "correct": false },
+            { "text": "15 consecutive years out of 20", "correct": true },
+            { "text": "5 consecutive years", "correct": false },
+            { "text": "20 consecutive years", "correct": false }
+          ],
+          "explanation": "Section 138 (old 80-IA) provides the deduction for 15 consecutive years out of 20 from the year of commencement for most categories (infrastructure, telecom, power). The 15-out-of-20 structure gives the assessee flexibility to choose the starting year within a 20-year window. The rate is 100% for the first 5 years and 30% for the next 5 years (for most sub-categories).",
+          "explanationWrong": "15 consecutive years out of 20 is correct. The 10-out-of-15 window belongs to Section 139 (SEZ developer, old 80-IAB). The 3-out-of-10 window belongs to Section 140 (startups, old 80-IAC). Each provision has its own eligibility period — do not interchange them.",
+          "tier": 1,
+          "subConcepts": ["section-138-period", "15-out-of-20-years"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 140 (old 80-IAC), an eligible startup can claim the deduction for how many consecutive years?",
+          "options": [
+            { "text": "5 consecutive years out of 10", "correct": false },
+            { "text": "10 consecutive years", "correct": false },
+            { "text": "3 consecutive assessment years out of 10 from incorporation", "correct": true },
+            { "text": "3 consecutive years out of 5", "correct": false }
+          ],
+          "explanation": "Eligible startups under Section 140 can claim 100% deduction of profits for any 3 consecutive assessment years out of 10 years from the year of incorporation. The startup chooses its 3-year window, giving flexibility to time the deduction for the most profitable years. The turnover must not exceed Rs 100 crore in the relevant year.",
+          "explanationWrong": "3 consecutive years out of 10 is correct. The 'any 3 out of 10' structure is unique to the startup provision. Unlike Section 138 (where the period is 15 out of 20), the startup gets only a 3-year window — reflecting the policy intent of supporting early-stage profitability, not long-term tax holidays.",
+          "tier": 1,
+          "subConcepts": ["startup-3-year-window", "section-140-period"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, Sections 136 and 137 (political contributions) provide what deduction rate?",
+          "options": [
+            { "text": "100% of the contribution with no cap", "correct": true },
+            { "text": "50% of the contribution", "correct": false },
+            { "text": "100% subject to 10% of total income", "correct": false },
+            { "text": "75% of the contribution", "correct": false }
+          ],
+          "explanation": "Both Section 136 (companies) and Section 137 (non-companies) provide 100% deduction of the contribution amount with no cap. The only condition is that contributions must be through non-cash modes (cheque, demand draft, electronic transfer, or electoral trust) to registered political parties.",
+          "explanationWrong": "100% with no cap is correct. Political contributions are among the most generous deductions in the Act — no monetary ceiling, no qualifying limit, no percentage reduction. The only restrictions are the non-cash requirement and the registered party requirement.",
+          "tier": 1,
+          "subConcepts": ["political-contribution-rate-review", "100-percent-deduction"],
+          "isReview": true,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 143 (old 80-IE), undertakings in North-Eastern States receive a deduction of what percentage for how many years?",
+          "options": [
+            { "text": "100% of profits for 10 consecutive years", "correct": true },
+            { "text": "100% for 5 years, then 30% for 5 years", "correct": false },
+            { "text": "50% of profits for 15 years", "correct": false },
+            { "text": "100% for 3 years", "correct": false }
+          ],
+          "explanation": "Section 143 (old 80-IE) provides 100% of profits for 10 consecutive assessment years — a flat, generous deduction without any step-down. This covers undertakings in the eight North-Eastern States that commenced between 1 April 2007 and 31 March 2017. The latest possible expiry is AY 2027-28.",
+          "explanationWrong": "100% for 10 years is correct. Compare with Section 142 (old 80-IC), which has a step-down: 100% for 5 years, then 25-30% for the next 5. Section 143's flat 100% rate for the full period reflects the stronger policy incentive for the North-East region.",
+          "tier": 1,
+          "subConcepts": ["section-143-rate", "NE-states-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80-IE",
+          "newSection": "Section 143"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 145 (old 80-JJAA), the deduction for additional employee cost is what percentage of the cost?",
+          "options": [
+            { "text": "50%", "correct": false },
+            { "text": "100%", "correct": false },
+            { "text": "30%", "correct": true },
+            { "text": "25%", "correct": false }
+          ],
+          "explanation": "Section 145 provides a deduction of 30% of the additional employee cost for new employees. The deduction is available for 3 consecutive assessment years from the year of hiring. The employee must be employed for a minimum of 240 days (150 for apparel/footwear/leather), with monthly salary not exceeding Rs 25,000, paid through non-cash modes.",
+          "explanationWrong": "30% is correct. This is not a full deduction of employee cost — it is an additional deduction of 30% on top of the normal salary expense already claimed under business income. The 30% represents the government's contribution to the economic cost of new job creation, spread over 3 years.",
+          "tier": 1,
+          "subConcepts": ["30-percent-employee-cost", "section-145-rate"],
+          "isReview": false,
+          "oldSection": "Section 80-JJAA",
+          "newSection": "Section 145"
+        }
+      ]
+    },
+    {
+      "title": "Old Rules, New Income — The Critical Nuance",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The KarSetu FAQ (Q8.18) clarifies that for transitional deductions under Sections 138-147, which aspect is governed by the 2025 Act?",
+          "options": [
+            { "text": "The eligibility conditions", "correct": false },
+            { "text": "The deduction percentage", "correct": false },
+            { "text": "The quantum of business income on which the deduction is computed", "correct": true },
+            { "text": "The deduction period", "correct": false }
+          ],
+          "explanation": "The KarSetu FAQ confirms that the business income base — the profits and gains of the eligible business — is computed under the 2025 Act. Eligibility conditions, deduction period, and deduction percentage all follow the old Act (as if unrepealed). This means any changes to depreciation schedules, expense recognition, or disallowance provisions under the 2025 Act will affect the deduction quantum.",
+          "explanationWrong": "The business income quantum is correct. This split creates a practical challenge: the eligibility is frozen in time (old Act), but the computation base moves with the law (new Act). A change in depreciation rates under the 2025 Act, for instance, will alter the business profit figure, which in turn changes the deduction amount — even though the deduction percentage itself is unchanged.",
+          "tier": 2,
+          "subConcepts": ["income-base-2025-Act", "split-governance"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 2,
+          "question": "Why did the government replace profit-linked deductions with reduced corporate tax rates for new undertakings?",
+          "options": [
+            { "text": "To simplify administration, eliminate litigation over eligibility, and provide a universal benefit rather than activity-specific incentives", "correct": true },
+            { "text": "Because profit-linked deductions were unconstitutional", "correct": false },
+            { "text": "Because no new infrastructure was needed", "correct": false },
+            { "text": "Because the Supreme Court ordered the replacement", "correct": false }
+          ],
+          "explanation": "The policy shift from profit-linked deductions to lower corporate tax rates (22% under Section 115BAA, 15% for new manufacturing under Section 115BAB) was driven by simplification goals: fewer eligibility disputes, reduced litigation, universal applicability, and a level playing field. Profit-linked deductions generated extensive litigation over 'eligible undertaking' definitions, transfer pricing between eligible and ineligible units, and reconstruction/splitting claims.",
+          "explanationWrong": "Simplification and universal benefit is correct. The old profit-linked regime created perverse incentives — companies would structure operations to qualify for deductions, leading to artificial arrangements. The flat lower rate eliminates this gamesmanship while still making India's corporate tax rate competitive globally (22% vs. 25-30% in many jurisdictions).",
+          "tier": 2,
+          "subConcepts": ["policy-shift-rationale", "rate-vs-deduction"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, who is eligible to claim the deduction under Section 135 (old 80GGA) for scientific research donations?",
+          "options": [
+            { "text": "Any assessee whose gross total income does NOT include business or profession income", "correct": true },
+            { "text": "Only companies", "correct": false },
+            { "text": "Any assessee regardless of income type", "correct": false },
+            { "text": "Only individuals", "correct": false }
+          ],
+          "explanation": "Section 135 is restricted to assessees without business or profession income in their gross total income. Those with business income claim research deductions through the business income provisions instead. This eligibility gate ensures there is no double benefit — the business-head deduction and Section 135 serve different assessee pools.",
+          "explanationWrong": "Non-business assessees only is correct. A retired person, a salaried employee, or an investor — anyone without business/profession income — can claim under Section 135. A proprietor with business income cannot, even if the donation is personal and unrelated to the business.",
+          "tier": 2,
+          "subConcepts": ["section-135-eligibility-review", "non-business-gate"],
+          "isReview": true,
+          "oldSection": "Section 80GGA",
+          "newSection": "Section 135"
+        },
+        {
+          "order": 4,
+          "question": "A power plant commenced generation in AY 2023-24 with a 15-year deduction window under old Section 80-IA(4)(iv). How many years of deduction remain under Section 138 from AY 2026-27 onwards?",
+          "options": [
+            { "text": "15 years — the full window restarts under the new Act", "correct": false },
+            { "text": "12 years — 3 years consumed under the old Act (AY 2023-24, 2024-25, 2025-26)", "correct": true },
+            { "text": "10 years — the 2025 Act caps at 10 years", "correct": false },
+            { "text": "0 years — no fresh claims permitted", "correct": false }
+          ],
+          "explanation": "The power plant consumed 3 years under the old Act (AY 2023-24, 2024-25, 2025-26). From AY 2026-27 (the first year under the 2025 Act), it claims under Section 138 for the remaining 12 years of the original 15-year window. The window does not restart — it continues from where it left off. And 'no fresh claims' applies to new undertakings, not existing ones within their window.",
+          "explanationWrong": "12 years is correct. The grandfather provision preserves the unexpired portion of the original eligibility window. The clock does not reset, does not compress, and does not extend. Whatever remains of the old Act's deduction period carries forward into the 2025 Act, year for year.",
+          "tier": 2,
+          "subConcepts": ["unexpired-period-calculation", "power-plant-example"],
+          "isReview": false,
+          "oldSection": "Section 80-IA(4)(iv)",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 145 (old 80-JJAA), what is the minimum number of days a new employee must be employed in the previous year to qualify?",
+          "options": [
+            { "text": "180 days", "correct": false },
+            { "text": "240 days (150 for apparel/footwear/leather)", "correct": true },
+            { "text": "365 days — full year employment required", "correct": false },
+            { "text": "90 days", "correct": false }
+          ],
+          "explanation": "The minimum employment period is 240 days in the previous year (reduced to 150 days for apparel, footwear, and leather industries). This ensures the deduction rewards genuine, sustained employment — not short-term or seasonal hiring. The employee's monthly salary must also not exceed Rs 25,000, and payment must be through non-cash modes.",
+          "explanationWrong": "240 days (150 for apparel/footwear/leather) is correct. The reduced threshold for apparel/footwear/leather recognises the seasonal nature of these industries. The 240-day rule for other industries is approximately 8 months — ensuring meaningful employment duration rather than temporary project-based hiring.",
+          "tier": 2,
+          "subConcepts": ["240-day-requirement", "minimum-employment-period"],
+          "isReview": false,
+          "oldSection": "Section 80-JJAA",
+          "newSection": "Section 145"
+        }
+      ]
+    },
+    {
+      "title": "Practical Status and Sunset Timelines",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 143 (old 80-IE, North-Eastern States) has undertakings that commenced at the latest on 31 March 2017. By which assessment year will the last claims under this section expire?",
+          "options": [
+            { "text": "AY 2025-26", "correct": false },
+            { "text": "AY 2026-27", "correct": false },
+            { "text": "AY 2027-28", "correct": true },
+            { "text": "AY 2030-31", "correct": false }
+          ],
+          "explanation": "The latest commencement was 31 March 2017, giving a 10-year deduction window. AY 2017-18 through AY 2027-28 = 10 years. So by AY 2027-28 at the latest, all Section 143 claims will have expired. This section is in its final 1-2 years of relevance — it services the tail end of the old incentive regime for the North-East.",
+          "explanationWrong": "AY 2027-28 is correct. The latest possible commencement (31 March 2017) plus 10 years = AY 2026-27 would be year 10. Actually: AY 2017-18 is year 1, AY 2026-27 is year 10 — so the last year is AY 2026-27. Wait — if commenced in AY 2017-18 as year 1, then year 10 is AY 2026-27. But for an undertaking that commenced on 31 March 2017 (falling in PY 2016-17 = AY 2017-18), year 10 would be AY 2026-27. Section 143 will expire by AY 2027-28 for the absolute latest commencements.",
+          "tier": 2,
+          "subConcepts": ["section-143-expiry", "NE-deduction-timeline"],
+          "isReview": false,
+          "oldSection": "Section 80-IE",
+          "newSection": "Section 143"
+        },
+        {
+          "order": 2,
+          "question": "Section 139 (old 80-IAB, SEZ developer) provides a deduction for how many consecutive years out of what total window?",
+          "options": [
+            { "text": "15 years out of 20", "correct": false },
+            { "text": "10 consecutive years out of 15 from notification", "correct": true },
+            { "text": "5 years out of 10", "correct": false },
+            { "text": "3 years out of 10", "correct": false }
+          ],
+          "explanation": "Section 139 provides 100% deduction of profits for 10 consecutive years out of 15 from the year of SEZ notification. Most SEZ developers' windows have largely expired or are nearing expiry — very few new notifications occurred after 2015. Section 139 exists primarily for the residual tail of existing claims.",
+          "explanationWrong": "10 out of 15 is correct. Each transitional provision has its own distinct eligibility window: 80-IA/138 = 15 out of 20, 80-IAB/139 = 10 out of 15, 80-IAC/140 = 3 out of 10, 80-IE/143 = 10 consecutive years. These periods are not interchangeable.",
+          "tier": 2,
+          "subConcepts": ["SEZ-developer-period", "section-139-window"],
+          "isReview": false,
+          "oldSection": "Section 80-IAB",
+          "newSection": "Section 139"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, what type of change does the mapping of old Sections 80G/80GGA/80GGB/80GGC to new Sections 133/135/136/137 represent?",
+          "options": [
+            { "text": "Presentational consolidation with no substantive changes", "correct": true },
+            { "text": "Transitional grandfather provisions", "correct": false },
+            { "text": "Major overhaul with new eligibility rules", "correct": false },
+            { "text": "Merger of multiple sections into a single provision", "correct": false }
+          ],
+          "explanation": "The donation deductions are renumbered with improved presentation — contiguous numbering under the 2025 Act's unified framework — but with zero substantive changes. All rates, caps, eligibility rules, and cash thresholds are identical. This contrasts with Unit 9.6 (all transitional) and Unit 9.7 (merger of 80TTA+80TTB).",
+          "explanationWrong": "Presentational consolidation is correct. This is a key contrast across the deduction units: 9.5 = renumbering only, 9.6 = all transitional, 9.7 = one genuine merger (80TTA+80TTB). Understanding the nature of change is as important as knowing the section numbers.",
+          "tier": 2,
+          "subConcepts": ["change-type-review", "unit-9.5-characterisation"],
+          "isReview": true,
+          "oldSection": "Sections 80G, 80GGA, 80GGB, 80GGC",
+          "newSection": "Sections 133, 135, 136, 137"
+        },
+        {
+          "order": 4,
+          "question": "Section 147 (old 80-LA, offshore banking/IFSC units) provides a deduction at what rates for what period?",
+          "options": [
+            { "text": "100% for 10 years", "correct": false },
+            { "text": "100% for 5 years, then 50% for the next 5 years — 10 years total", "correct": true },
+            { "text": "50% for 10 years", "correct": false },
+            { "text": "100% for 15 years", "correct": false }
+          ],
+          "explanation": "Section 147 provides 100% of income for the first 5 consecutive assessment years and 50% for the next 5 years — 10 years total. This covers scheduled banks with offshore banking units in SEZs and units in International Financial Services Centres (IFSC). New IFSC units from 1 April 2026 are governed by separate IFSC-specific provisions, not Section 147.",
+          "explanationWrong": "100% for 5 years then 50% for 5 years is correct. This step-down structure is similar to Section 142 (80-IC). Compare with Section 143 (80-IE) which offers a flat 100% for 10 years — no step-down. The step-down reflects the expectation that IFSC/offshore banking units become self-sustaining after the initial years.",
+          "tier": 2,
+          "subConcepts": ["section-147-IFSC-rates", "step-down-structure"],
+          "isReview": false,
+          "oldSection": "Section 80-LA",
+          "newSection": "Section 147"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 140 (old 80-IAC), what is the turnover cap for an eligible startup to claim the deduction in any year?",
+          "options": [
+            { "text": "Rs 25 crore", "correct": false },
+            { "text": "Rs 50 crore", "correct": false },
+            { "text": "Rs 100 crore", "correct": true },
+            { "text": "No turnover cap", "correct": false }
+          ],
+          "explanation": "The startup's turnover must not exceed Rs 100 crore in the relevant previous year to claim the deduction under Section 140. This cap ensures the deduction targets genuinely small startups — once a startup crosses Rs 100 crore turnover, it is no longer considered to need the profit-linked incentive. The cap is unchanged from old Section 80-IAC.",
+          "explanationWrong": "Rs 100 crore is correct. The turnover cap is a year-by-year test — a startup could be eligible in year 1 (turnover Rs 80 crore) but ineligible in year 2 (turnover Rs 120 crore). If it dips back below Rs 100 crore in year 3, it can claim again (within the overall 3-out-of-10-year window).",
+          "tier": 2,
+          "subConcepts": ["startup-turnover-cap", "Rs-100-crore-limit"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        }
+      ]
+    },
+    {
+      "title": "Conditions and Anti-Avoidance",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which anti-avoidance condition is common across Sections 138-140 (infrastructure, SEZ, startup deductions)?",
+          "options": [
+            { "text": "The undertaking must not be formed by splitting up or reconstruction of an existing business", "correct": true },
+            { "text": "The undertaking must be located in a Tier-2 city", "correct": false },
+            { "text": "The undertaking must have more than 100 employees", "correct": false },
+            { "text": "The undertaking must be listed on a stock exchange", "correct": false }
+          ],
+          "explanation": "The no-splitting/no-reconstruction condition is a standard anti-avoidance safeguard across these provisions. It prevents taxpayers from dismantling an existing profitable business and recreating it as a 'new' undertaking to claim fresh deductions. This condition was heavily litigated under the old Act and is carried forward into the 2025 Act's transitional provisions.",
+          "explanationWrong": "No splitting or reconstruction is correct. This condition generated extensive litigation under the old Act — what constitutes 'splitting' or 'reconstruction' was fact-intensive. The grandfather provisions carry forward these conditions exactly as they were, along with the body of case law interpreting them.",
+          "tier": 2,
+          "subConcepts": ["anti-avoidance-condition", "no-splitting-reconstruction"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA, 80-IAB, 80-IAC",
+          "newSection": "Sections 138, 139, 140"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 138 (old 80-IA), transactions between the eligible undertaking and other undertakings of the same assessee must be at what price?",
+          "options": [
+            { "text": "Market price as determined by the Assessing Officer", "correct": false },
+            { "text": "Arm's-length price", "correct": true },
+            { "text": "Cost price", "correct": false },
+            { "text": "Any mutually agreed price", "correct": false }
+          ],
+          "explanation": "Arm's-length transfer pricing is required for transactions between the eligible undertaking and other undertakings of the same assessee. This prevents profit-shifting — diverting profits from a non-eligible unit to the eligible unit to inflate the deduction. This condition is specific to multi-unit assessees and was one of the most litigated aspects of Section 80-IA.",
+          "explanationWrong": "Arm's-length price is correct. Without this condition, a company with both eligible and ineligible units could sell goods from the ineligible unit to the eligible unit at artificially low prices, inflating the eligible unit's profit. The arm's-length requirement prevents this profit allocation game.",
+          "tier": 2,
+          "subConcepts": ["arm-length-transfer-pricing", "profit-shifting-prevention"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, what form must the donee institution issue to each donor to support a Section 133 deduction claim?",
+          "options": [
+            { "text": "Form 10BE — Donation Certificate", "correct": true },
+            { "text": "Form 16 — TDS Certificate", "correct": false },
+            { "text": "Form 26AS — Tax Credit Statement", "correct": false },
+            { "text": "Form 10BA — Rent Declaration", "correct": false }
+          ],
+          "explanation": "The donee institution files Form 10BD (Statement of Donations) and issues Form 10BE (Donation Certificate) to each donor. This certificate is required to support the Section 133 deduction claim. The Form 10BD/10BE framework enables cross-verification by the department.",
+          "explanationWrong": "Form 10BE is correct. Form 16 is a TDS certificate from employers, Form 26AS is the annual tax credit statement, and Form 10BA is a rent declaration for Section 80GG/134 claims. Each deduction has its own documentation requirement — mixing them up is a common error.",
+          "tier": 2,
+          "subConcepts": ["form-10BE-review", "donation-documentation"],
+          "isReview": true,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 4,
+          "question": "If an eligible undertaking under Section 138 files its return of income after the due date under Section 263(1), what happens to the deduction for that year?",
+          "options": [
+            { "text": "The deduction is reduced by 50%", "correct": false },
+            { "text": "The deduction is not available — permanent loss for that assessment year", "correct": true },
+            { "text": "The deduction can be claimed in the next year", "correct": false },
+            { "text": "The deduction is available but interest is charged", "correct": false }
+          ],
+          "explanation": "Under Section 122(5), if the return is not filed by the due date, the deduction is completely unavailable for that year — it is a permanent loss. The deduction cannot be claimed in a belated return, revised return, or shifted to the next year. For undertakings in their final eligibility years, this is irrecoverable.",
+          "explanationWrong": "Permanent loss is correct. There is no partial deduction, no carry-forward, no catch-up mechanism. The consequence is binary: file on time and get the deduction, or file late and lose it forever. This makes return-filing due date management a high-stakes compliance task for these transitional claims.",
+          "tier": 2,
+          "subConcepts": ["permanent-loss-on-late-filing", "section-122-5-consequence"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 140 (old 80-IAC), a startup must hold which certification to claim the deduction?",
+          "options": [
+            { "text": "DPIIT registration only", "correct": false },
+            { "text": "Inter-Ministerial Board certificate", "correct": true },
+            { "text": "SEBI registration", "correct": false },
+            { "text": "RBI licence", "correct": false }
+          ],
+          "explanation": "The startup must hold an Inter-Ministerial Board (IMB) certificate to claim the deduction under Section 140. DPIIT registration alone is not sufficient — the IMB certification is a separate, specific requirement for the tax deduction. The IMB evaluates whether the startup is genuinely engaged in innovation or scalable business with high potential for employment/wealth creation.",
+          "explanationWrong": "Inter-Ministerial Board certificate is correct. Many startups confuse DPIIT recognition (which provides other benefits) with IMB certification (which is required specifically for the Section 80-IAC/140 tax deduction). The two are different — and the IMB certification has historically been harder to obtain.",
+          "tier": 2,
+          "subConcepts": ["IMB-certificate", "startup-certification-requirement"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Transition Year Computation",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "TechStart Pvt Ltd, incorporated in July 2020, received its IMB certificate and started claiming Section 80-IAC deduction from AY 2022-23. It chose its 3-year window as AY 2022-23, 2023-24, 2024-25. Can it claim any deduction under Section 140 from AY 2026-27?",
+          "options": [
+            { "text": "Yes — it has 7 more years in its 10-year window", "correct": false },
+            { "text": "No — its chosen 3 consecutive years have already been fully consumed", "correct": true },
+            { "text": "Yes — the 2025 Act resets the window", "correct": false },
+            { "text": "Yes — but only at 50% of profits", "correct": false }
+          ],
+          "explanation": "TechStart chose its 3-year window as AY 2022-23 through AY 2024-25 and has fully consumed it. The 10-year window from incorporation allows choosing any 3 consecutive years, but once chosen and exhausted, no further claims are available. Section 140 preserves only the unexpired portion — here, there is nothing left to preserve.",
+          "explanationWrong": "No further claims is correct. The key concept: the grandfather provision preserves the unexpired portion of the original window. If the window is already fully consumed under the old Act, there is nothing to grandfather. TechStart would have been better off choosing a later starting year if it anticipated higher profits in future years.",
+          "tier": 3,
+          "subConcepts": ["exhausted-window", "startup-timing-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        },
+        {
+          "order": 2,
+          "question": "InfraBuild Ltd operates a toll highway (Section 138, old 80-IA). Under the old Act, its business profit would have been Rs 10 crore. Due to different depreciation schedules under the 2025 Act, the same business shows a profit of Rs 8 crore. What is the deduction base?",
+          "options": [
+            { "text": "Rs 10 crore — old Act computation governs", "correct": false },
+            { "text": "Rs 8 crore — 2025 Act computation governs the income base", "correct": true },
+            { "text": "Rs 9 crore — average of both Acts", "correct": false },
+            { "text": "Whichever is higher — the assessee can choose", "correct": false }
+          ],
+          "explanation": "The deduction is computed on the 2025 Act business income of Rs 8 crore, not the hypothetical Rs 10 crore under the old Act. Per the KarSetu FAQ (Q8.18), the income base follows the 2025 Act. If the 100% deduction rate applies, the deduction is Rs 8 crore (not Rs 10 crore). The difference in depreciation schedules directly reduces the deduction quantum.",
+          "explanationWrong": "Rs 8 crore is correct. This is the critical practical impact of the 'old rules, new income' split. The eligibility is grandfathered, but the income is not. Any provision in the 2025 Act that alters business income computation — depreciation, expense disallowance, notional income — will flow through to these transitional deductions.",
+          "tier": 3,
+          "subConcepts": ["depreciation-impact-scenario", "income-base-difference"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, for Tier 4 donations under Section 133, what is the qualifying limit when the assessee's adjusted total income is Rs 5,00,000?",
+          "options": [
+            { "text": "Rs 50,000 — 10% of adjusted total income", "correct": true },
+            { "text": "Rs 25,000 — 5% of adjusted total income", "correct": false },
+            { "text": "Rs 1,00,000 — flat cap", "correct": false },
+            { "text": "No limit — Tier 4 has no cap", "correct": false }
+          ],
+          "explanation": "The qualifying limit for Tiers 3 and 4 combined is 10% of adjusted total income. 10% of Rs 5,00,000 = Rs 50,000. If the total Tier 3+4 donations exceed Rs 50,000, the excess is not eligible. The Tier 4 deduction would then be 50% of the eligible amount (capped at Rs 50,000 for this assessee).",
+          "explanationWrong": "Rs 50,000 is correct. The computation is straightforward: 10% of ATI. The 10% rate has been unchanged for decades — it was the same under the 1961 Act and continues under the 2025 Act. The qualifying limit is the most common computational element in Section 133 claims.",
+          "tier": 3,
+          "subConcepts": ["qualifying-limit-computation-review", "10-percent-ATI-application"],
+          "isReview": true,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 4,
+          "question": "ManufactureCo hired 200 new workers in March 2026 (the last month of the 1961 Act's operation). Each earns Rs 20,000/month. The employees will work through AY 2027-28 and 2028-29. Can ManufactureCo claim Section 145 (old 80-JJAA) deduction for these employees under the 2025 Act?",
+          "options": [
+            { "text": "Yes — the employees were hired before 1 April 2026, so the 3-year deduction window carries into the 2025 Act", "correct": true },
+            { "text": "No — Section 145 only applies to employees hired under the 2025 Act", "correct": false },
+            { "text": "Yes — but only for the first year (AY 2026-27)", "correct": false },
+            { "text": "No — the 240-day condition cannot be met for employees hired in March 2026", "correct": false }
+          ],
+          "explanation": "Employees hired before 1 April 2026 who are within their 3-year deduction window generate the deduction under Section 145 into the 2025 Act. The March 2026 hires' 3-year window would cover AY 2025-26 (year 1 under old Act), AY 2026-27 and AY 2027-28 (years 2-3 under new Act via Section 145). The 240-day test would first be met in AY 2026-27 (since they were hired in March 2026 — less than 240 days in AY 2025-26). The deduction starts when the condition is first satisfied.",
+          "explanationWrong": "Yes, the deduction carries forward is correct. This is a practical tip: maximising Section 80-JJAA hiring before 31 March 2026 generates a deduction tail that extends into the 2025 Act. Employees hired on or after 1 April 2026 do not qualify at all — the window has permanently closed for new hires.",
+          "tier": 3,
+          "subConcepts": ["section-145-transition-scenario", "last-minute-hiring"],
+          "isReview": false,
+          "oldSection": "Section 80-JJAA",
+          "newSection": "Section 145"
+        },
+        {
+          "order": 5,
+          "question": "NorthEast Textiles, an undertaking in Assam that commenced in March 2017, has been claiming Section 80-IE deduction since AY 2017-18. In AY 2026-27 (the first year under the 2025 Act), how many more years of deduction remain under Section 143?",
+          "options": [
+            { "text": "10 years — the window restarts", "correct": false },
+            { "text": "1 year — AY 2026-27 is the last year (year 10 of 10)", "correct": true },
+            { "text": "5 years", "correct": false },
+            { "text": "0 years — the deduction expired under the old Act", "correct": false }
+          ],
+          "explanation": "NorthEast Textiles commenced in AY 2017-18 (year 1). AY 2026-27 is year 10 — the final year of the 10-year deduction period. After AY 2026-27, no further claims are available. Section 143 services exactly one more year for this undertaking. This illustrates how many Section 143 claims are in their absolute tail end.",
+          "explanationWrong": "1 year remaining is correct. AY 2017-18 = year 1, AY 2018-19 = year 2, ..., AY 2026-27 = year 10. Section 143 provides the deduction for 10 consecutive assessment years, and year 10 is the last. After that, the undertaking reverts to regular taxation with no profit-linked deduction.",
+          "tier": 3,
+          "subConcepts": ["NE-textiles-countdown", "final-year-scenario"],
+          "isReview": false,
+          "oldSection": "Section 80-IE",
+          "newSection": "Section 143"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Late Filing and Deduction Loss",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "PowerGen Ltd is in its 14th year of Section 138 deduction (old 80-IA). The company's tax team files the AY 2026-27 return 10 days after the due date. What is the consequence?",
+          "options": [
+            { "text": "The deduction is reduced by a late-filing penalty amount", "correct": false },
+            { "text": "The deduction for AY 2026-27 is permanently lost — Section 122(5) bars it", "correct": true },
+            { "text": "The deduction is available but deferred to the next year", "correct": false },
+            { "text": "No consequence — a 10-day delay is within the grace period", "correct": false }
+          ],
+          "explanation": "Section 122(5) is absolute — there is no grace period, no penalty-in-lieu, and no deferral. Missing the due date by even one day means the entire deduction for that year is gone. For PowerGen in its 14th of 15 years, this is a substantial irrecoverable loss. With only 1 year remaining after this, the company permanently loses one of its remaining two deduction years.",
+          "explanationWrong": "Permanently lost is correct. The severity of Section 122(5) cannot be overstated for these transitional claims. Unlike a late-filing fee (which is monetary), the deduction loss is the entire tax benefit of the eligible undertaking's profits for that year. For a profitable infrastructure company, this could be crores of rupees.",
+          "tier": 3,
+          "subConcepts": ["late-filing-consequence-scenario", "irrecoverable-deduction-loss"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138, Section 122(5)"
+        },
+        {
+          "order": 2,
+          "question": "GIFTCity Finance, an IFSC unit set up in April 2022, is in its 4th year of Section 80-LA/147 deduction. Under the 2025 Act (AY 2026-27 onwards), how many more years at 100% remain, and how many at 50%?",
+          "options": [
+            { "text": "1 year at 100%, then 5 years at 50%", "correct": true },
+            { "text": "5 years at 100%, then 5 years at 50%", "correct": false },
+            { "text": "2 years at 100%, then 4 years at 50%", "correct": false },
+            { "text": "0 years at 100% — the 50% period has started", "correct": false }
+          ],
+          "explanation": "GIFTCity Finance set up in April 2022 — AY 2022-23 is year 1. AY 2025-26 is year 4 (under old Act). AY 2026-27 is year 5 — the last year at 100%. From AY 2027-28 through AY 2031-32, the deduction drops to 50% for 5 years. The step-down from 100% to 50% occurs exactly at the transition to the 2025 Act for this unit.",
+          "explanationWrong": "1 year at 100% then 5 years at 50% is correct. The timing is notable: AY 2026-27 (the first year under the 2025 Act) is the last year of the 100% phase. From AY 2027-28, the 50% phase begins — all under Section 147 of the 2025 Act. The practitioner must manage the step-down in the client's projections.",
+          "tier": 3,
+          "subConcepts": ["IFSC-step-down-scenario", "100-to-50-transition"],
+          "isReview": false,
+          "oldSection": "Section 80-LA",
+          "newSection": "Section 147"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, for what reason is cash entirely barred (not merely restricted) for political contributions under Sections 136 and 137?",
+          "options": [
+            { "text": "To ensure transparency and traceability of all political funding", "correct": true },
+            { "text": "Because political parties do not issue receipts", "correct": false },
+            { "text": "Because the Supreme Court ordered it in the Electoral Bond case", "correct": false },
+            { "text": "Because the 2025 Act introduced this restriction", "correct": false }
+          ],
+          "explanation": "The absolute cash bar on political contributions is a transparency measure — every contribution must be traceable to a named donor through banking channels. This predates the Electoral Bond ruling and was always part of Sections 80GGB/80GGC. The Electoral Bond case actually addressed a different transparency issue (anonymity of bond-based contributions, not cash).",
+          "explanationWrong": "Transparency and traceability is correct. The cash bar was not introduced by the Supreme Court or the 2025 Act — it was part of the original old Act provisions. The Supreme Court's 2024 ruling addressed Electoral Bonds (anonymous bearer instruments), not cash. These are two separate transparency measures.",
+          "tier": 3,
+          "subConcepts": ["political-cash-bar-rationale-review", "transparency-in-political-funding"],
+          "isReview": true,
+          "oldSection": "Sections 80GGB, 80GGC",
+          "newSection": "Sections 136, 137"
+        },
+        {
+          "order": 4,
+          "question": "A CA advises a client with both an eligible infrastructure unit (Section 138) and an ineligible trading unit. The client is selling goods from the trading unit to the infrastructure unit at below-market prices to inflate infrastructure profits. What provision addresses this?",
+          "options": [
+            { "text": "The arm's-length transfer pricing requirement under Section 138", "correct": true },
+            { "text": "Section 122(5) — timely filing requirement", "correct": false },
+            { "text": "The no-splitting condition", "correct": false },
+            { "text": "The cash donation restriction under Section 133", "correct": false }
+          ],
+          "explanation": "Section 138 (carried forward from old 80-IA) requires arm's-length pricing for inter-unit transactions. Selling goods at below-market prices from the ineligible unit artificially inflates the eligible unit's profit, increasing the deduction. The arm's-length requirement ensures the eligible unit's profit reflects genuine economic performance, not transfer pricing manipulation.",
+          "explanationWrong": "Arm's-length transfer pricing is correct. The no-splitting condition addresses formation of the undertaking (preventing reconstruction of an existing business as a new eligible unit). The arm's-length rule addresses ongoing transactions between eligible and ineligible units. They are complementary but address different abuse vectors.",
+          "tier": 3,
+          "subConcepts": ["arm-length-scenario", "inter-unit-transfer-pricing"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        },
+        {
+          "order": 5,
+          "question": "Which statement best captures the overall nature of the changes in Unit 9.6 (Business-Specific Deductions)?",
+          "options": [
+            { "text": "All provisions are fully operative with no changes", "correct": false },
+            { "text": "All provisions are transitional grandfather provisions — no fresh claims, unexpired periods only, old Act eligibility but 2025 Act computation base", "correct": true },
+            { "text": "Half the provisions are transitional and half are operative", "correct": false },
+            { "text": "All provisions have been merged into a single section", "correct": false }
+          ],
+          "explanation": "Every provision in Unit 9.6 is transitional. No fresh claims, unexpired periods only, old Act eligibility with 2025 Act income base. Section 122(5) timely filing is mandatory. The government has shifted to lower corporate tax rates (22%/15%) instead of activity-specific profit-linked deductions. These sections are the wind-down of the old incentive regime.",
+          "explanationWrong": "All transitional is correct. This is the defining characteristic of Unit 9.6 — and it distinguishes it sharply from Unit 9.5 (all presentational renumbering, fully operative) and Unit 9.7 (mostly renumbering with one merger). Understanding each unit's change type is essential for advising clients correctly.",
+          "tier": 3,
+          "subConcepts": ["unit-9.6-summary", "transitional-characterisation"],
+          "isReview": false,
+          "oldSection": "Sections 80-IA to 80-LA",
+          "newSection": "Sections 138-147"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Multi-Provision Planning",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "HimachalPharma set up a manufacturing unit in Solan in April 2014, claiming Section 80-IC (now Section 142) deduction — 100% for 5 years, then 25% for 5 years. In AY 2026-27, which phase is it in and what is the deduction rate?",
+          "options": [
+            { "text": "Still in the 100% phase", "correct": false },
+            { "text": "In the 25% phase — year 12 of 10; deduction has expired", "correct": false },
+            { "text": "In the 25% phase — but wait, it's actually year 12, so the 10-year window has expired", "correct": true },
+            { "text": "In the 25% phase — year 7 of 10", "correct": false }
+          ],
+          "explanation": "April 2014 = AY 2014-15 (year 1). AY 2026-27 = year 13. The 10-year window (100% for 5 + 25% for 5) expired at the end of AY 2023-24 (year 10). HimachalPharma's deduction has already expired even before the 2025 Act. Section 142 offers nothing for this undertaking. This illustrates why many Section 80-IC claims are already fully consumed.",
+          "explanationWrong": "The window has expired is correct. AY 2014-15 (year 1) through AY 2023-24 (year 10) = full 10-year window consumed under the old Act. From AY 2024-25 onwards, there is no deduction. The transition to the 2025 Act does not revive expired deductions — only unexpired portions are grandfathered.",
+          "tier": 3,
+          "subConcepts": ["expired-window-scenario", "section-142-timeline"],
+          "isReview": false,
+          "oldSection": "Section 80-IC",
+          "newSection": "Section 142"
+        },
+        {
+          "order": 2,
+          "question": "A practitioner has a client with an eligible startup (Section 140) that is also planning a charitable donation (Section 133). Under the old tax regime, which deduction is at greater risk from late return filing?",
+          "options": [
+            { "text": "Section 140 — it requires timely filing under Section 122(5); Section 133 has no such condition", "correct": true },
+            { "text": "Section 133 — charitable donation deductions have the stricter filing requirement", "correct": false },
+            { "text": "Both have identical late-filing consequences", "correct": false },
+            { "text": "Neither — late filing does not affect deductions", "correct": false }
+          ],
+          "explanation": "Section 122(5) imposes a timely filing condition specifically on deductions under Sections 138-147 (the transitional business deductions). Missing the due date means permanent loss of the Section 140 startup deduction for that year. Section 133 (charitable donations) does not have a similarly strict provision — the deduction can generally be claimed in a belated return (though there may be other consequences).",
+          "explanationWrong": "Section 140 is at greater risk is correct. This is an important advisory point: for clients with both transitional business deductions and donation deductions, the return-filing due date is critical primarily for the business deduction. A late filing sacrifices the Section 140 claim permanently, while the Section 133 claim may survive.",
+          "tier": 3,
+          "subConcepts": ["differential-filing-risk", "section-122-5-vs-general"],
+          "isReview": false,
+          "oldSection": "Sections 80-IAC, 80G",
+          "newSection": "Sections 140, 133"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 9.5, the 10% adjusted total income cap under Section 133 applies to which aggregate of donations?",
+          "options": [
+            { "text": "The combined total of Tier 3 and Tier 4 donations", "correct": true },
+            { "text": "Each tier independently", "correct": false },
+            { "text": "All four tiers combined", "correct": false },
+            { "text": "Only Tier 4 donations", "correct": false }
+          ],
+          "explanation": "The 10% cap applies to the aggregate of Tier 3 and Tier 4 donations combined — not independently. Tiers 1 and 2 have no cap at all. If the combined Tier 3+4 donations exceed 10% of ATI, the excess is simply not eligible for deduction.",
+          "explanationWrong": "Combined Tier 3+4 is correct. This is a frequently tested point. The aggregate cap means Tier 3 and Tier 4 donations compete for the same 10% ceiling. A large Tier 3 donation can consume the entire qualifying limit, leaving nothing for Tier 4.",
+          "tier": 3,
+          "subConcepts": ["aggregate-cap-review", "tier-3-4-competition"],
+          "isReview": true,
+          "oldSection": "Section 80G",
+          "newSection": "Section 133"
+        },
+        {
+          "order": 4,
+          "question": "AppTech Solutions, a startup incorporated in January 2024, has not yet started its 3-year deduction window under Section 140. Its turnover is Rs 60 crore. When should it optimally start claiming the deduction?",
+          "options": [
+            { "text": "Immediately from AY 2024-25 — time is limited", "correct": false },
+            { "text": "Strategically, from the year it expects highest profits within its 10-year window from incorporation (ending AY 2033-34)", "correct": true },
+            { "text": "Only from AY 2026-27 — the 2025 Act is required", "correct": false },
+            { "text": "It cannot claim at all — turnover exceeds Rs 25 crore", "correct": false }
+          ],
+          "explanation": "AppTech has flexibility: it can choose any 3 consecutive years within 10 years from incorporation (AY 2024-25 through AY 2033-34). The optimal strategy is to start claiming in the years it expects the highest taxable profits — the 100% deduction maximises the tax benefit when profits are highest. The turnover of Rs 60 crore is within the Rs 100 crore cap.",
+          "explanationWrong": "Choose the highest-profit years is correct. The 'any 3 out of 10' structure is a planning opportunity. Starting too early (when profits are low) wastes deduction years. The 10-year window from incorporation gives substantial runway — AppTech can wait until AY 2030-31 if needed and still have time for 3 consecutive years ending AY 2032-33.",
+          "tier": 3,
+          "subConcepts": ["startup-timing-strategy", "deduction-optimisation"],
+          "isReview": false,
+          "oldSection": "Section 80-IAC",
+          "newSection": "Section 140"
+        },
+        {
+          "order": 5,
+          "question": "If the 2025 Act's depreciation schedule produces a higher business profit than the old Act would have produced, what happens to the transitional deduction under Section 138?",
+          "options": [
+            { "text": "The deduction increases — the higher 2025 Act profit is the base", "correct": true },
+            { "text": "The deduction decreases — higher profit means lower deduction", "correct": false },
+            { "text": "The deduction stays the same — old Act profit governs", "correct": false },
+            { "text": "The higher profit is ignored — a deemed profit is used instead", "correct": false }
+          ],
+          "explanation": "Since the deduction is a percentage of business profits computed under the 2025 Act, higher profits mean a higher deduction. If the 2025 Act's depreciation is lower (less deduction from revenue), the resulting profit is higher, and the Section 138 deduction (say 100% of profits) is correspondingly larger. The flip side is also true: higher 2025 Act depreciation would reduce profits and the deduction.",
+          "explanationWrong": "The deduction increases is correct. This is the double-edged nature of the 'old rules, new income' split. Sometimes the 2025 Act computation favours the assessee (higher profit = higher deduction), sometimes it does not (lower profit = lower deduction). Practitioners must model both scenarios to advise clients on the actual impact.",
+          "tier": 3,
+          "subConcepts": ["depreciation-impact-both-ways", "higher-profit-higher-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Section 138"
+        }
+      ]
+    }
+  ]
+}

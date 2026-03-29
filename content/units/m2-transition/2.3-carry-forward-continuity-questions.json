@@ -1,0 +1,835 @@
+{
+  "unit": "2.3",
+  "title": "Carry-Forward & Continuity",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Loss Set-Off Mapping",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 70 (set-off of loss from one source against income from another source under the same head) maps to which new section?",
+          "options": [
+            { "text": "Section 108", "correct": true },
+            { "text": "Section 109", "correct": false },
+            { "text": "Section 112", "correct": false },
+            { "text": "Section 111", "correct": false }
+          ],
+          "explanation": "Old Section 70 (intra-head set-off) maps to new Section 108. The set-off mapping follows a logical sequence: 70→108, 71→109, 72→112, 73→113, 73A→114, 74→111, 74A→115.",
+          "explanationWrong": "Section 108 is correct. Old Section 70 (intra-head set-off) maps directly to new Section 108. Remember the key mapping: 70→108, 71→109. Do not confuse with Section 109 which maps from old Section 71 (inter-head set-off).",
+          "tier": 1,
+          "subConcepts": ["set-off-mapping", "section-70-to-108"],
+          "isReview": false,
+          "oldSection": "Section 70",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 74 (carry-forward of losses under capital gains) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 112", "correct": false },
+            { "text": "Section 113", "correct": false },
+            { "text": "Section 111", "correct": true },
+            { "text": "Section 115", "correct": false }
+          ],
+          "explanation": "Old Section 74 (carry-forward of capital losses) maps to new Section 111. Similarly, old Section 74A (losses from owning and maintaining race horses) maps to new Section 115.",
+          "explanationWrong": "Section 111 is correct. The mapping is 74→111 and 74A→115. Section 112 corresponds to old Section 72 (carry-forward of business loss), and Section 113 corresponds to old Section 73 (speculation loss).",
+          "tier": 1,
+          "subConcepts": ["set-off-mapping", "capital-loss-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 74",
+          "newSection": "Section 111"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, which section of the ITA 2025 governs parallel operation — i.e., the old Act continues to apply for assessment of income earned before April 1, 2026?",
+          "options": [
+            { "text": "Section 536(1)", "correct": true },
+            { "text": "Section 536(2)", "correct": false },
+            { "text": "Section 535", "correct": false },
+            { "text": "Section 534", "correct": false }
+          ],
+          "explanation": "Section 536(1) establishes that the old Income-tax Act, 1961, continues to apply for the purpose of assessment of income earned in any tax year before April 1, 2026. This is the 'parallel operation' provision covered in Unit 2.1.",
+          "explanationWrong": "Section 536(1) is correct. This is the core parallel operation provision — the old Act survives for pre-2026 income. Section 536(2) deals with specific transitional matters like carry-forward of losses, elections, and deductions.",
+          "tier": 1,
+          "subConcepts": ["parallel-operation", "section-536-1"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 73 dealt with losses in speculation business. Which new section does it map to under the ITA 2025?",
+          "options": [
+            { "text": "Section 111", "correct": false },
+            { "text": "Section 112", "correct": false },
+            { "text": "Section 113", "correct": true },
+            { "text": "Section 114", "correct": false }
+          ],
+          "explanation": "Old Section 73 (speculation loss) maps to new Section 113. Old Section 73A (loss in specified business) maps to new Section 114. The numbering sequence in the new Act groups all carry-forward provisions together.",
+          "explanationWrong": "Section 113 is correct. The full set-off/carry-forward mapping: 70→108, 71→109, 72→112, 73→113, 73A→114, 74→111, 74A→115. Section 114 is for specified business (old 73A), not speculation.",
+          "tier": 1,
+          "subConcepts": ["set-off-mapping", "speculation-loss"],
+          "isReview": false,
+          "oldSection": "Section 73",
+          "newSection": "Section 113"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 71 (set-off of loss from one head against income from another head) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 108", "correct": false },
+            { "text": "Section 109", "correct": true },
+            { "text": "Section 110", "correct": false },
+            { "text": "Section 112", "correct": false }
+          ],
+          "explanation": "Old Section 71 (inter-head set-off) maps to new Section 109. This is distinct from intra-head set-off (old 70 → new 108). The inter-head set-off rules — including restrictions on house property loss set-off — continue under the new section.",
+          "explanationWrong": "Section 109 is correct. 70→108 is intra-head; 71→109 is inter-head. Don't confuse the two. Section 112 maps from old Section 72 (carry-forward of business loss), which is a different concept entirely.",
+          "tier": 1,
+          "subConcepts": ["set-off-mapping", "inter-head-set-off"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        }
+      ]
+    },
+    {
+      "title": "Carry-Forward Periods",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, for how many assessment years can business losses (non-speculative) be carried forward?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "Unlimited", "correct": false },
+            { "text": "6 years", "correct": false }
+          ],
+          "explanation": "Business losses continue to be carried forward for 8 years under the new Act (Section 112), same as under the old Act (Section 72). This is an unchanged provision — no extension or reduction.",
+          "explanationWrong": "8 years is correct. The carry-forward period for non-speculative business losses remains 8 years — unchanged from the old Act. Unlimited carry-forward applies only to unabsorbed depreciation, not business losses.",
+          "tier": 1,
+          "subConcepts": ["carry-forward-period", "business-loss"],
+          "isReview": false,
+          "oldSection": "Section 72",
+          "newSection": "Section 112"
+        },
+        {
+          "order": 2,
+          "question": "Speculation business losses can be carried forward for how many years under the ITA 2025?",
+          "options": [
+            { "text": "8 years", "correct": false },
+            { "text": "6 years", "correct": false },
+            { "text": "4 years", "correct": true },
+            { "text": "Unlimited", "correct": false }
+          ],
+          "explanation": "Speculation losses continue to have a 4-year carry-forward period under Section 113 (old Section 73). Similarly, losses from owning race horses also carry forward for 4 years under Section 115 (old Section 74A).",
+          "explanationWrong": "4 years is correct. Speculation losses: 4 years (Section 113). Race horse losses: also 4 years (Section 115). Business losses: 8 years (Section 112). Capital losses: 8 years (Section 111). These periods are all unchanged from the old Act.",
+          "tier": 1,
+          "subConcepts": ["carry-forward-period", "speculation-loss"],
+          "isReview": false,
+          "oldSection": "Section 73",
+          "newSection": "Section 113"
+        },
+        {
+          "order": 3,
+          "question": "In the context of pending proceedings under the transition provisions, an appeal pending before CIT(A) on April 1, 2026 will be decided under which Act?",
+          "options": [
+            { "text": "The ITA 2025 only", "correct": false },
+            { "text": "The old ITA 1961", "correct": true },
+            { "text": "Whichever Act the assessee elects", "correct": false },
+            { "text": "A blend of both Acts", "correct": false }
+          ],
+          "explanation": "Pending proceedings — including appeals — relating to pre-2026 income continue to be governed by the old Act. This is the 'pending proceedings' principle from Unit 2.2: the old Act applies to all proceedings relating to income of tax years before April 1, 2026.",
+          "explanationWrong": "The old ITA 1961 is correct. The transition rule is clear: proceedings relating to income earned before April 1, 2026 continue under the old Act, even if decided after that date. There is no election available.",
+          "tier": 1,
+          "subConcepts": ["pending-proceedings", "transition-rule"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536"
+        },
+        {
+          "order": 4,
+          "question": "Capital losses under the ITA 2025 can be carried forward for how many years?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "6 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "Unlimited", "correct": false }
+          ],
+          "explanation": "Capital losses (both short-term and long-term) continue to have an 8-year carry-forward period under Section 111 (old Section 74). This remains unchanged from the 1961 Act.",
+          "explanationWrong": "8 years is correct. Capital losses: 8 years (same as business losses). Only unabsorbed depreciation gets unlimited carry-forward. Speculation and race horse losses have the shorter 4-year period.",
+          "tier": 1,
+          "subConcepts": ["carry-forward-period", "capital-loss"],
+          "isReview": false,
+          "oldSection": "Section 74",
+          "newSection": "Section 111"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, unabsorbed depreciation can be carried forward for:",
+          "options": [
+            { "text": "8 years, same as business losses", "correct": false },
+            { "text": "15 years, matching the MAT credit period", "correct": false },
+            { "text": "Unlimited number of years", "correct": true },
+            { "text": "10 years from the year of first claim", "correct": false }
+          ],
+          "explanation": "Unabsorbed depreciation continues to enjoy unlimited carry-forward under the new Act, just as it did under old Section 32(2). This is an important distinction from business losses (8 years) and speculation losses (4 years).",
+          "explanationWrong": "Unlimited is correct. Unabsorbed depreciation has always had unlimited carry-forward (old Section 32(2)), and this continues under the ITA 2025. This makes it the most assessee-friendly carry-forward provision.",
+          "tier": 1,
+          "subConcepts": ["unabsorbed-depreciation", "unlimited-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 32(2)",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Section 536(2) — Seamless Carry-Forward",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 536(2)(m), losses determined under the old Act that are eligible for carry-forward will be treated under the new Act as:",
+          "options": [
+            { "text": "Fresh losses arising in Tax Year 2026-27", "correct": false },
+            { "text": "Losses of the same character, with the carry-forward clock continuing (not reset)", "correct": true },
+            { "text": "Losses that must be re-filed under the new Act for recognition", "correct": false },
+            { "text": "Deemed capital losses regardless of original character", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m) and (n) ensure seamless transition: pre-2026 losses carry forward with their original character preserved and the carry-forward clock NOT reset. A business loss already 3 years old continues as year 4 — it does not restart.",
+          "explanationWrong": "Character is preserved and the clock continues — this is the key seamless transition rule. The losses are NOT treated as fresh (clock doesn't restart), don't need re-filing, and retain their original head classification.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-m", "seamless-carry-forward", "character-preserved"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 2,
+          "question": "A business loss incurred in AY 2023-24 under the old Act has already been carried forward for 2 years. Under the ITA 2025, how many more years can it be carried forward?",
+          "options": [
+            { "text": "8 more years (clock resets under new Act)", "correct": false },
+            { "text": "6 more years (remaining from original 8-year period)", "correct": true },
+            { "text": "4 more years", "correct": false },
+            { "text": "Cannot be carried forward under the new Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m) preserves the remaining carry-forward period. A loss incurred in AY 2023-24, already 2 years old, has 6 years remaining out of the original 8. The transition does NOT reset the clock.",
+          "explanationWrong": "6 more years is correct. Original 8-year limit minus 2 years already used = 6 years remaining. Section 536(2)(m) explicitly provides that the carry-forward clock is NOT reset by the transition to the new Act.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-m", "clock-not-reset"],
+          "isReview": false,
+          "oldSection": "Section 72",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Income-tax Act, Section 73A dealt with losses from which type of business?",
+          "options": [
+            { "text": "Speculation business", "correct": false },
+            { "text": "Specified business under Section 35AD", "correct": true },
+            { "text": "Capital gains business", "correct": false },
+            { "text": "Agricultural business", "correct": false }
+          ],
+          "explanation": "Old Section 73A dealt with carry-forward of losses from specified businesses (eligible for deduction under Section 35AD). Under the new Act, this maps to Section 114. This is a review from the loss set-off mapping lesson.",
+          "explanationWrong": "Specified business (Section 35AD) is correct. Section 73 was speculation; Section 73A was specified business. This distinction is important because specified business losses have different carry-forward rules — they can only be set off against specified business income.",
+          "tier": 1,
+          "subConcepts": ["specified-business", "section-73A", "set-off-mapping"],
+          "isReview": true,
+          "oldSection": "Section 73A",
+          "newSection": "Section 114"
+        },
+        {
+          "order": 4,
+          "question": "If a return of loss was filed belatedly under the old Act (after the due date under Section 139(1)), can the loss be carried forward under the ITA 2025?",
+          "options": [
+            { "text": "Yes, the new Act gives a fresh opportunity", "correct": false },
+            { "text": "Yes, but only for 4 years instead of 8", "correct": false },
+            { "text": "No — belated loss return under old Act means carry-forward is NOT available under the new Act", "correct": true },
+            { "text": "Only if the assessee files a rectification application", "correct": false }
+          ],
+          "explanation": "A belated loss return under the old Act means the loss was never eligible for carry-forward in the first place. The ITA 2025 does not resurrect ineligible carry-forwards. Section 536(2)(m) only preserves losses that were validly determined and eligible under the old Act.",
+          "explanationWrong": "Carry-forward is NOT available. Under the old Act, filing a loss return after the due date (Section 139(3) deadline missed) meant the loss could not be carried forward. The new Act does not override this — it only carries forward losses that were validly eligible.",
+          "tier": 1,
+          "subConcepts": ["belated-loss-return", "carry-forward-eligibility"],
+          "isReview": false,
+          "oldSection": "Section 139(3)",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Section 536(2)(n) ensures that pre-2026 losses carried forward into the new Act retain their original:",
+          "options": [
+            { "text": "Tax rate applicable at the time of the loss", "correct": false },
+            { "text": "Character (business, capital, speculation, etc.)", "correct": true },
+            { "text": "Assessing Officer's jurisdiction", "correct": false },
+            { "text": "Assessment year numbering system", "correct": false }
+          ],
+          "explanation": "Section 536(2)(n) preserves the character of losses. A speculation loss remains a speculation loss; a capital loss remains a capital loss. This is critical because the set-off rules depend on the character — e.g., speculation loss can only be set off against speculation income.",
+          "explanationWrong": "Character is preserved. A capital loss stays a capital loss; a speculation loss stays a speculation loss. The character determines which income the loss can be set off against, so preserving it is essential for correct set-off under the new Act.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-n", "character-preserved"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(n)"
+        }
+      ]
+    },
+    {
+      "title": "Why Seamless Transition Matters",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why does Section 536(2)(m) explicitly state that the carry-forward clock is NOT reset when losses transition to the ITA 2025?",
+          "options": [
+            { "text": "To prevent assessees from gaming the system by getting extra carry-forward years through the transition", "correct": true },
+            { "text": "To penalise assessees who incurred losses under the old Act", "correct": false },
+            { "text": "Because the old Act's loss provisions have been entirely repealed", "correct": false },
+            { "text": "To align with international tax treaty obligations", "correct": false }
+          ],
+          "explanation": "If the clock reset, a loss already 7 years old would get a fresh 8-year window — effectively 15 years of carry-forward. Section 536(2)(m) prevents this windfall while still honouring legitimate carry-forward rights.",
+          "explanationWrong": "Preventing gaming is correct. Without the 'no reset' rule, assessees could effectively double their carry-forward period by counting pre-transition years as year zero. This would create an unintended windfall.",
+          "tier": 2,
+          "subConcepts": ["transition-rationale", "anti-abuse"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 536(2)(h), if a condition for a deduction or exemption claimed under the old Act is violated after April 1, 2026, what happens?",
+          "options": [
+            { "text": "The old Act's penalty provisions apply", "correct": false },
+            { "text": "The amount is deemed income under the new Act in the year of violation", "correct": true },
+            { "text": "The deduction is revoked retrospectively under the old Act", "correct": false },
+            { "text": "No consequence — the new Act starts fresh", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) provides that if a condition attached to a deduction or exemption under the old Act is violated after April 1, 2026, the amount becomes deemed income under the new Act in the tax year of violation. The old Act does not govern post-2026 consequences.",
+          "explanationWrong": "Deemed income under the new Act is correct. Section 536(2)(h) bridges the two Acts: the benefit was claimed under the old Act, but the violation occurs under the new Act, so the consequence (deemed income) arises under the new Act.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-h", "condition-violation", "deemed-income"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 3,
+          "question": "Section 536(2)(m) carries forward pre-2026 losses seamlessly. What is the fundamental condition for a loss to qualify for this seamless carry-forward?",
+          "options": [
+            { "text": "The loss must have been incurred in the immediately preceding tax year", "correct": false },
+            { "text": "The loss must have been determined in a return filed within the due date under the old Act", "correct": true },
+            { "text": "The loss must exceed ₹1 lakh", "correct": false },
+            { "text": "The loss must relate to a business registered under GST", "correct": false }
+          ],
+          "explanation": "Only losses for which a timely return was filed under the old Act (i.e., within due date under old Section 139(1)/139(3)) are eligible for carry-forward. Belated loss returns — a key trap — do not qualify.",
+          "explanationWrong": "Timely filing under the old Act is the condition. This is the 'belated return trap' — if the loss return was filed after the old Act's due date, the loss was never eligible for carry-forward, and the new Act cannot revive it.",
+          "tier": 2,
+          "subConcepts": ["carry-forward-eligibility", "belated-return-trap"],
+          "isReview": true,
+          "oldSection": "Section 139(3)",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 4,
+          "question": "Section 536(2)(f) provides that elections made under the old Act are deemed exercised under the new Act. What is the key condition for this deemed exercise?",
+          "options": [
+            { "text": "The election must have been notified to the Assessing Officer", "correct": false },
+            { "text": "A corresponding provision must exist in the new Act", "correct": true },
+            { "text": "The election must have been made in the last 3 assessment years", "correct": false },
+            { "text": "The assessee must opt in by filing Form 10-IFA", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) deems old elections as exercised under the new Act only IF a corresponding provision exists in the ITA 2025. If the new Act has no equivalent provision, the election lapses.",
+          "explanationWrong": "A corresponding provision must exist — this is the key condition. Elections don't carry forward blindly. If the new Act eliminated the provision, the election becomes irrelevant. No special form or notification is required.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "deemed-election", "corresponding-provision"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 5,
+          "question": "Why does the ITA 2025 preserve the 'character' of carried-forward losses (e.g., speculation loss stays speculation) rather than converting them all to generic business losses?",
+          "options": [
+            { "text": "Because generic conversion would allow speculation losses to offset non-speculation income, undermining anti-abuse rules", "correct": true },
+            { "text": "Because the new Act introduces a single unified loss head", "correct": false },
+            { "text": "To simplify the computation process for assessees", "correct": false },
+            { "text": "Because CBDT issued a circular mandating character preservation", "correct": false }
+          ],
+          "explanation": "Speculation losses can only be set off against speculation income — this is an anti-abuse restriction. If character were lost during transition, a speculation loss could be set off against any business income, defeating the purpose of the restriction.",
+          "explanationWrong": "Anti-abuse is the reason. The set-off restrictions (speculation vs. speculation only, specified business vs. specified business only) are designed to prevent manipulation. Losing character during transition would create a loophole.",
+          "tier": 2,
+          "subConcepts": ["character-preserved", "anti-abuse", "set-off-restrictions"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(n)"
+        }
+      ]
+    },
+    {
+      "title": "Deductions & Credits in Transition",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80C (deductions for LIC, PPF, ELSS, etc.) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 120", "correct": false },
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 202", "correct": false },
+            { "text": "Section 80C continues as-is", "correct": false }
+          ],
+          "explanation": "Old Section 80C maps to new Section 123. The deduction limit remains ₹1.5 lakh, and eligible investments are listed in Schedule XV. However, Section 123 is NOT available under Section 202 (the new default tax regime).",
+          "explanationWrong": "Section 123 is correct. The ₹1.5 lakh limit and eligible investments are preserved. Key trap: Section 123 is not available under the new regime (Section 202). Section 202 is the new regime section, not the mapping of 80C.",
+          "tier": 2,
+          "subConcepts": ["section-80C-to-123", "schedule-XV", "deduction-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, the Section 123 deduction (old 80C) is NOT available if the assessee opts for:",
+          "options": [
+            { "text": "Section 201 (old regime equivalent)", "correct": false },
+            { "text": "Section 202 (new default tax regime)", "correct": true },
+            { "text": "Section 123 itself — it's a self-exclusion", "correct": false },
+            { "text": "Presumptive taxation under Section 58", "correct": false }
+          ],
+          "explanation": "Section 123 deductions are NOT available under Section 202 (the new default tax regime). This mirrors the old regime vs. new regime distinction — 80C deductions were not available under old Section 115BAC.",
+          "explanationWrong": "Section 202 is correct. The new default regime (Section 202) does not allow Chapter VIII deductions including Section 123. If an assessee wants to claim these deductions, they must opt out of the default regime.",
+          "tier": 2,
+          "subConcepts": ["section-202-exclusion", "new-regime", "deduction-availability"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, the old Act continues to apply for assessment of income of which period?",
+          "options": [
+            { "text": "Income earned before April 1, 2025", "correct": false },
+            { "text": "Income earned before April 1, 2026", "correct": true },
+            { "text": "Income earned before April 1, 2027", "correct": false },
+            { "text": "All income regardless of the period", "correct": false }
+          ],
+          "explanation": "The old Act continues for assessment of income of any tax year before April 1, 2026 (i.e., up to FY 2025-26). From April 1, 2026, the ITA 2025 governs. This is the fundamental parallel operation rule from Unit 2.1.",
+          "explanationWrong": "Before April 1, 2026. The ITA 2025 applies to income earned from April 1, 2026, onwards. Income up to March 31, 2026, continues to be assessed under the old Act even if the assessment happens after that date.",
+          "tier": 2,
+          "subConcepts": ["parallel-operation", "cutoff-date"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "MAT credit accumulated under old Section 115JAA can be carried forward under the ITA 2025. What is the maximum carry-forward period from the original year of credit?",
+          "options": [
+            { "text": "8 years", "correct": false },
+            { "text": "10 years", "correct": false },
+            { "text": "15 years", "correct": true },
+            { "text": "Unlimited", "correct": false }
+          ],
+          "explanation": "MAT credit under old Section 115JAA (and AMT credit under old Section 115JD) can be carried forward for up to 15 years from the original year. The transition does not reset or extend this 15-year period — it continues counting from the original year.",
+          "explanationWrong": "15 years is correct. MAT/AMT credit: 15 years from the original year of credit. Like losses, the clock is NOT reset by the transition. A MAT credit that is already 5 years old has 10 years remaining, not a fresh 15.",
+          "tier": 2,
+          "subConcepts": ["MAT-credit", "section-115JAA", "15-year-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 115JAA",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Profit-linked deductions under old Section 80-IA are transitionally governed by Sections 138/139/141/142 of the ITA 2025. How is the eligible period determined?",
+          "options": [
+            { "text": "A fresh 10-year period begins from April 1, 2026", "correct": false },
+            { "text": "Only the remaining period from the original eligibility continues", "correct": true },
+            { "text": "The entire original period is re-granted under the new Act", "correct": false },
+            { "text": "The deduction is eliminated — no transitional provision exists", "correct": false }
+          ],
+          "explanation": "Transitional Sections 138/139/141/142 allow profit-linked deductions for only the remaining period of original eligibility. If 6 of 10 years were used under the old Act, only 4 remain. The quantum is computed on ITA 2025 income.",
+          "explanationWrong": "Remaining period only is correct. No fresh start. If the old Act allowed 10 years and 7 were consumed, only 3 remain under the transitional sections. The deduction quantum is computed on income as determined under the ITA 2025.",
+          "tier": 2,
+          "subConcepts": ["profit-linked-deductions", "section-80-IA", "transitional-sections"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Sections 138/139/141/142"
+        }
+      ]
+    },
+    {
+      "title": "Old Elections & New Regime",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "If an assessee elected presumptive taxation under old Section 44AD and the ITA 2025 has a corresponding provision, what happens to that election?",
+          "options": [
+            { "text": "The election lapses — must be re-exercised", "correct": false },
+            { "text": "The election is deemed to have been exercised under the new Act per Section 536(2)(f)", "correct": true },
+            { "text": "The election continues only if CBDT issues a notification", "correct": false },
+            { "text": "The assessee gets a one-year cooling-off period", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) deems old elections as exercised under the new Act if a corresponding provision exists. Since presumptive taxation has an equivalent provision in the ITA 2025, the election automatically carries over.",
+          "explanationWrong": "Deemed exercised is correct. Section 536(2)(f) provides automatic continuity for elections where the new Act has a corresponding provision. No re-filing, no notification, no cooling-off period required.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "presumptive-taxation", "deemed-election"],
+          "isReview": false,
+          "oldSection": "Section 44AD",
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 2,
+          "question": "Section 120 of the ITA 2025 restricts set-off of losses against undisclosed income. This corresponds to which old section?",
+          "options": [
+            { "text": "Section 68", "correct": false },
+            { "text": "Section 79", "correct": false },
+            { "text": "Section 79A", "correct": true },
+            { "text": "Section 115BBE", "correct": false }
+          ],
+          "explanation": "New Section 120 corresponds to old Section 79A — both restrict set-off of losses against undisclosed income (income detected during search or survey). This anti-abuse provision continues unchanged.",
+          "explanationWrong": "Section 79A is correct. Old Section 79A restricted set-off against undisclosed income; new Section 120 does the same. Section 68 deals with unexplained cash credits; Section 79 deals with carry-forward restrictions for closely held companies on change of shareholding.",
+          "tier": 2,
+          "subConcepts": ["section-120", "undisclosed-income", "anti-abuse"],
+          "isReview": false,
+          "oldSection": "Section 79A",
+          "newSection": "Section 120"
+        },
+        {
+          "order": 3,
+          "question": "MAT (Minimum Alternate Tax) credit under old Section 115JAA could be carried forward for up to how many years?",
+          "options": [
+            { "text": "5 years", "correct": false },
+            { "text": "10 years", "correct": false },
+            { "text": "15 years", "correct": true },
+            { "text": "Unlimited", "correct": false }
+          ],
+          "explanation": "MAT credit had a 15-year carry-forward period under old Section 115JAA. This period continues into the new Act without reset. This is a review of the deductions and credits lesson.",
+          "explanationWrong": "15 years is correct. The MAT credit carry-forward was extended from 10 to 15 years by the Finance Act 2017. Under the ITA 2025 transition, this 15-year period continues from the original year of credit.",
+          "tier": 2,
+          "subConcepts": ["MAT-credit", "carry-forward-period"],
+          "isReview": true,
+          "oldSection": "Section 115JAA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, if an old Act election was for a provision that has been entirely eliminated (no corresponding provision exists), what happens to that election?",
+          "options": [
+            { "text": "The election is deemed void ab initio", "correct": false },
+            { "text": "The election lapses — it simply ceases to have effect", "correct": true },
+            { "text": "The assessee can claim a refund for the benefit foregone", "correct": false },
+            { "text": "CBDT must issue a transition order for each such case", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) requires a corresponding provision in the new Act. If no corresponding provision exists, the election simply lapses — it is not 'deemed void' (which would imply retrospective invalidity) but ceases to have prospective effect.",
+          "explanationWrong": "The election lapses. It's not void ab initio (that would mean it was never valid — it was valid under the old Act). It simply ceases to operate going forward because the new Act has no provision to which it can attach.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "election-lapse", "no-corresponding-provision"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 5,
+          "question": "AMT (Alternate Minimum Tax) credit under old Section 115JD transitions to the ITA 2025 with the same treatment as MAT credit. What is the key similarity?",
+          "options": [
+            { "text": "Both have a 15-year carry-forward period from the original year, clock not reset", "correct": true },
+            { "text": "Both are available only to companies", "correct": false },
+            { "text": "Both require fresh applications under the new Act", "correct": false },
+            { "text": "Both are eliminated under the ITA 2025 with no carry-forward", "correct": false }
+          ],
+          "explanation": "Both MAT credit (old Section 115JAA, for companies) and AMT credit (old Section 115JD, for non-corporates) have a 15-year carry-forward from the original year, and the clock is NOT reset by the transition.",
+          "explanationWrong": "15-year carry-forward, clock not reset, is the correct similarity. MAT applies to companies; AMT applies to non-corporate assessees — so 'both available only to companies' is wrong. No fresh applications are needed.",
+          "tier": 2,
+          "subConcepts": ["AMT-credit", "section-115JD", "15-year-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 115JD",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Loss Carry-Forward Computation",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mehta & Co. has a speculation loss of ₹5 lakh from AY 2024-25 (2 years old) and a business loss of ₹12 lakh from AY 2022-23 (4 years old). In Tax Year 2026-27 under the ITA 2025, the speculation loss can be set off against:",
+          "options": [
+            { "text": "Any business income (speculation or non-speculation)", "correct": false },
+            { "text": "Only speculation income", "correct": true },
+            { "text": "Any income under any head", "correct": false },
+            { "text": "Income from capital gains", "correct": false }
+          ],
+          "explanation": "Character is preserved: the speculation loss remains speculation and can only be set off against speculation income (Section 113, old Section 73). It has 2 years remaining (4-year limit minus 2 used). The business loss has 4 years remaining (8-year limit minus 4 used).",
+          "explanationWrong": "Only speculation income. Character preservation under Section 536(2)(n) means speculation losses cannot cross over to non-speculation business income. This restriction is fundamental to the carry-forward framework.",
+          "tier": 3,
+          "subConcepts": ["speculation-loss-set-off", "character-preserved", "practical-application"],
+          "isReview": false,
+          "oldSection": "Section 73",
+          "newSection": "Section 113"
+        },
+        {
+          "order": 2,
+          "question": "CA Priya's client claimed a deduction under old Section 80-IB for a housing project with a 5-year eligibility window, of which 3 years were used under the old Act. Under the ITA 2025 transitional provisions, how many years of deduction remain?",
+          "options": [
+            { "text": "5 years (fresh window)", "correct": false },
+            { "text": "2 years (remaining from original window)", "correct": true },
+            { "text": "3 years (matching years already used)", "correct": false },
+            { "text": "None — 80-IB has no transitional provision", "correct": false }
+          ],
+          "explanation": "Transitional Sections 138/139/141/142 grant only the remaining period. 5-year window minus 3 years used = 2 years remaining. The quantum of deduction will be computed on income as determined under the ITA 2025.",
+          "explanationWrong": "2 years remaining. The transitional sections do not grant a fresh window — only the unused portion carries over. The deduction amount is calculated using ITA 2025 income computation rules, not old Act rules.",
+          "tier": 3,
+          "subConcepts": ["profit-linked-deductions", "remaining-period", "practical-computation"],
+          "isReview": false,
+          "oldSection": "Section 80-IB",
+          "newSection": "Sections 138/139/141/142"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 74A dealt with carry-forward of losses from which specific activity?",
+          "options": [
+            { "text": "Losses from specified business under Section 35AD", "correct": false },
+            { "text": "Losses from owning and maintaining race horses", "correct": true },
+            { "text": "Losses from lottery and gambling", "correct": false },
+            { "text": "Losses from foreign exchange transactions", "correct": false }
+          ],
+          "explanation": "Old Section 74A dealt specifically with losses from owning and maintaining race horses, with a 4-year carry-forward period. This maps to new Section 115. A niche provision, but frequently tested.",
+          "explanationWrong": "Race horses is correct. Section 74A was one of the more unusual provisions — losses from race horse activity had a dedicated section with a 4-year carry-forward. Under the ITA 2025, this maps to Section 115.",
+          "tier": 3,
+          "subConcepts": ["race-horse-losses", "section-74A-to-115"],
+          "isReview": true,
+          "oldSection": "Section 74A",
+          "newSection": "Section 115"
+        },
+        {
+          "order": 4,
+          "question": "XYZ Pvt. Ltd. had MAT credit of ₹8 lakh under old Section 115JAA, originally arising in AY 2018-19 (already 8 years old). Under the ITA 2025, how many more years can this credit be carried forward?",
+          "options": [
+            { "text": "15 years (clock resets)", "correct": false },
+            { "text": "7 years (remaining from original 15-year period)", "correct": true },
+            { "text": "8 years (matching business loss period)", "correct": false },
+            { "text": "Cannot be carried forward — credit has expired", "correct": false }
+          ],
+          "explanation": "MAT credit: 15-year limit from original year. AY 2018-19 credit, 8 years used → 7 years remaining. The transition does NOT reset the clock. The credit has NOT expired because 8 < 15.",
+          "explanationWrong": "7 years remaining. 15-year total limit minus 8 years elapsed = 7 years. The clock continues — no reset. The credit is still alive because the 15-year period has not yet expired (8 years used out of 15).",
+          "tier": 3,
+          "subConcepts": ["MAT-credit", "carry-forward-computation", "practical-application"],
+          "isReview": false,
+          "oldSection": "Section 115JAA",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "CA Sharma's client claimed a deduction under old Section 80-IA for a power generation unit. Under old law, the eligible period was 15 years; 10 years have been used. The transitional provision allows the remaining 5 years, but the deduction quantum is computed on:",
+          "options": [
+            { "text": "Income as computed under the old ITA 1961 rules", "correct": false },
+            { "text": "Income as computed under the ITA 2025 rules", "correct": true },
+            { "text": "A weighted average of income under both Acts", "correct": false },
+            { "text": "Income as per the MAT computation", "correct": false }
+          ],
+          "explanation": "The transitional sections (138/139/141/142) are clear: the remaining period is from the old eligibility, but the quantum (how much deduction) is computed on income as determined under the ITA 2025. New Act computation, old Act timeline.",
+          "explanationWrong": "ITA 2025 income is correct. The rule is: old Act determines how many years remain; new Act determines the income base for computing the deduction. You cannot use old Act computation rules for post-April 2026 income.",
+          "tier": 3,
+          "subConcepts": ["profit-linked-deductions", "quantum-computation", "ITA-2025-income"],
+          "isReview": false,
+          "oldSection": "Section 80-IA",
+          "newSection": "Sections 138/139/141/142"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Condition Violations After Transition",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company claimed exemption under old Section 10(23C) for an educational institution. In Tax Year 2027-28, the trust violates a condition. Under Section 536(2)(h), the consequence is:",
+          "options": [
+            { "text": "Reassessment under the old Act for the year of original claim", "correct": false },
+            { "text": "The exempted amount becomes deemed income under the ITA 2025 in TY 2027-28", "correct": true },
+            { "text": "Penalty under old Section 271(1)(c)", "correct": false },
+            { "text": "No consequence — condition violations are waived during transition", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) is clear: if a condition attached to a deduction/exemption under the old Act is violated after April 1, 2026, the amount is deemed income under the NEW Act in the year of violation. No going back to the old Act for the consequence.",
+          "explanationWrong": "Deemed income under the ITA 2025 in the year of violation. Section 536(2)(h) ensures the new Act governs post-transition consequences. The old Act is NOT reopened; instead, the amount enters the new Act as deemed income.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "condition-violation", "deemed-income", "practical-scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(23C)",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 2,
+          "question": "CA Verma's client filed a loss return for AY 2025-26 after the due date (belated return). The client now wants to carry forward the ₹15 lakh business loss under the ITA 2025. Your advice:",
+          "options": [
+            { "text": "The loss can be carried forward because the ITA 2025 provides a fresh opportunity", "correct": false },
+            { "text": "The loss can be carried forward but only for 4 years instead of 8", "correct": false },
+            { "text": "The loss CANNOT be carried forward — belated filing under old Act kills the carry-forward right permanently", "correct": true },
+            { "text": "File a condonation application with CBDT for transitional relief", "correct": false }
+          ],
+          "explanation": "A belated loss return under the old Act means the loss was never eligible for carry-forward. Section 536(2)(m) only preserves losses that were validly determined and eligible under the old Act. The ITA 2025 does not create a second chance.",
+          "explanationWrong": "Cannot be carried forward. The belated return trap is absolute — if you missed the due date under the old Act, the loss cannot be carried forward under either Act. The ITA 2025 does not resurrect ineligible carry-forwards. No condonation route exists for this.",
+          "tier": 3,
+          "subConcepts": ["belated-return-trap", "practical-advisory", "carry-forward-eligibility"],
+          "isReview": false,
+          "oldSection": "Section 139(3)",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "Section 536(2)(f) deems old elections as exercised under the new Act if a corresponding provision exists. Which of the following best explains why this provision is necessary?",
+          "options": [
+            { "text": "To force all assessees into the new default regime", "correct": false },
+            { "text": "To ensure continuity of legitimate choices without requiring fresh paperwork during transition", "correct": true },
+            { "text": "To allow the government to override old elections unilaterally", "correct": false },
+            { "text": "To create a revenue windfall from lapsed elections", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) is a continuity provision — it prevents assessees from having to re-exercise every election when the new Act takes effect. Legitimate choices made under the old Act seamlessly continue, reducing administrative burden for both assessees and the department.",
+          "explanationWrong": "Continuity without fresh paperwork is the answer. Section 536(2)(f) is designed to ease the transition — not to force regime choices, override elections, or create revenue. It's an assessee-friendly administrative provision.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-f", "continuity-rationale", "transition-design"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 4,
+          "question": "A real estate developer claimed deduction under old Section 80-IBA. After April 2026, the developer violates the affordable housing conditions. Under Section 536(2)(h), in which year is the deemed income taxed?",
+          "options": [
+            { "text": "The year in which the original deduction was claimed", "correct": false },
+            { "text": "AY 2025-26 (the last year under the old Act)", "correct": false },
+            { "text": "The tax year under the ITA 2025 in which the condition is violated", "correct": true },
+            { "text": "Spread equally over 3 years from the date of violation", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) taxes the amount as deemed income in the tax year of violation — not retrospectively in the year of claim, not in the last old Act year. The consequence is immediate and under the new Act.",
+          "explanationWrong": "The tax year of violation under the ITA 2025. No retrospective reopening, no spreading. The full amount becomes deemed income in the single year when the condition is violated. This is a clean, forward-looking consequence.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "condition-violation-timing", "deemed-income"],
+          "isReview": false,
+          "oldSection": "Section 80-IBA",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 5,
+          "question": "CA Jain's client has both unabsorbed depreciation (₹20 lakh) and brought-forward business loss (₹10 lakh) from AY 2025-26. Under the ITA 2025, in which order should these be set off against business income?",
+          "options": [
+            { "text": "Depreciation first, then business loss", "correct": false },
+            { "text": "Business loss first, then unabsorbed depreciation", "correct": true },
+            { "text": "Whichever is larger goes first", "correct": false },
+            { "text": "They can be set off in any order at the assessee's choice", "correct": false }
+          ],
+          "explanation": "The priority rule continues: brought-forward business loss is set off first (because it has a time limit of 8 years), then unabsorbed depreciation (which has unlimited carry-forward). This order maximises the assessee's benefit by using the expiring item first.",
+          "explanationWrong": "Business loss first, then depreciation. The logic is simple: business loss expires in 8 years, depreciation never expires. Use the expiring asset first. This priority existed under the old Act and continues under the ITA 2025.",
+          "tier": 3,
+          "subConcepts": ["set-off-priority", "depreciation-vs-business-loss", "practical-computation"],
+          "isReview": false,
+          "oldSection": "Section 72(2)",
+          "newSection": "Section 112"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Client Advisory on Transition",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your client has a long-term capital loss of ₹25 lakh from AY 2020-21 (6 years old). Under the ITA 2025, this loss can still be carried forward for how many more years?",
+          "options": [
+            { "text": "8 years (clock resets)", "correct": false },
+            { "text": "2 years (remaining from original 8-year period)", "correct": true },
+            { "text": "6 years (matching years already elapsed)", "correct": false },
+            { "text": "Unlimited (capital losses have no time limit under ITA 2025)", "correct": false }
+          ],
+          "explanation": "Capital loss carry-forward: 8 years. AY 2020-21 loss, 6 years elapsed → 2 years remaining. Section 536(2)(m) ensures the clock does NOT reset. The loss retains its long-term capital character and can only be set off against long-term capital gains.",
+          "explanationWrong": "2 years remaining. 8-year limit minus 6 years used = 2 years. The transition does not reset the clock. Capital losses are not unlimited — only unabsorbed depreciation enjoys unlimited carry-forward.",
+          "tier": 3,
+          "subConcepts": ["capital-loss-carry-forward", "clock-continuation", "practical-advisory"],
+          "isReview": false,
+          "oldSection": "Section 74",
+          "newSection": "Section 111"
+        },
+        {
+          "order": 2,
+          "question": "A charitable trust registered under old Section 12AA claims its registration continues under the ITA 2025 via Section 536(2)(f). A colleague disagrees, saying fresh registration is needed. Who is correct?",
+          "options": [
+            { "text": "The colleague — Section 536(2)(f) doesn't cover registrations, only elections", "correct": false },
+            { "text": "You — Section 536(2)(f) deems old registrations/elections as exercised if a corresponding provision exists", "correct": true },
+            { "text": "Neither — all trusts are automatically de-registered on April 1, 2026", "correct": false },
+            { "text": "Both — fresh registration is needed but the old registration remains valid during a 1-year grace period", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) covers elections and registrations — if the ITA 2025 has a corresponding provision for trust registration, the old registration is deemed to continue. No fresh application is required merely because the Act changed.",
+          "explanationWrong": "You are correct. Section 536(2)(f) is broad enough to cover registrations where a corresponding provision exists in the new Act. The trust doesn't need to re-register just because the statute number changed.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-f", "trust-registration", "deemed-continuity"],
+          "isReview": false,
+          "oldSection": "Section 12AA",
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 120 restricts set-off of losses against undisclosed income, mirroring old Section 79A. What type of income does this restriction target?",
+          "options": [
+            { "text": "Income from exempt sources", "correct": false },
+            { "text": "Income detected during search, survey, or requisition operations", "correct": true },
+            { "text": "Income from foreign sources", "correct": false },
+            { "text": "Income below the basic exemption limit", "correct": false }
+          ],
+          "explanation": "Section 120 (old Section 79A) restricts set-off of losses against undisclosed income — specifically income detected during search, survey, or requisition operations. This prevents assessees from using carried-forward losses to shelter undisclosed income.",
+          "explanationWrong": "Search/survey/requisition income is the target. The restriction prevents assessees from conveniently 'absorbing' undisclosed income discovered during enforcement operations by setting off accumulated losses against it.",
+          "tier": 3,
+          "subConcepts": ["section-120", "undisclosed-income", "search-survey"],
+          "isReview": true,
+          "oldSection": "Section 79A",
+          "newSection": "Section 120"
+        },
+        {
+          "order": 4,
+          "question": "CA Desai's corporate client earned ₹2 crore business income in TY 2026-27 and has brought-forward speculation loss of ₹30 lakh (1 year old) and business loss of ₹50 lakh (5 years old). What is the correct treatment?",
+          "options": [
+            { "text": "Set off both losses against the ₹2 crore business income", "correct": false },
+            { "text": "Set off ₹50 lakh business loss against business income; speculation loss CANNOT be set off against non-speculation income", "correct": true },
+            { "text": "Set off speculation loss first as it has a shorter carry-forward period", "correct": false },
+            { "text": "Neither loss can be set off — losses under old Act cannot be used against ITA 2025 income", "correct": false }
+          ],
+          "explanation": "Business loss (₹50 lakh) can be set off against business income. Speculation loss (₹30 lakh) CANNOT be set off against non-speculation business income — character is preserved. The speculation loss can only await speculation income.",
+          "explanationWrong": "₹50 lakh business loss set off; speculation loss restricted. Character preservation under Section 536(2)(n) means speculation losses stay ringfenced. Even though speculation loss expires sooner (4 years), it cannot cross the character boundary.",
+          "tier": 3,
+          "subConcepts": ["character-preserved", "speculation-restriction", "practical-computation"],
+          "isReview": false,
+          "oldSection": "Sections 72, 73",
+          "newSection": "Sections 112, 113"
+        },
+        {
+          "order": 5,
+          "question": "Your firm is advising a client with the following pre-2026 positions: (i) business loss ₹20 lakh (7 years old), (ii) MAT credit ₹5 lakh (14 years old), (iii) unabsorbed depreciation ₹15 lakh. Under the ITA 2025, which of these is at GREATEST risk of expiring first?",
+          "options": [
+            { "text": "Unabsorbed depreciation — it has limited carry-forward under the new Act", "correct": false },
+            { "text": "Business loss — only 1 year remaining out of 8", "correct": true },
+            { "text": "MAT credit — it expires after 10 years", "correct": false },
+            { "text": "All three expire simultaneously", "correct": false }
+          ],
+          "explanation": "Business loss at 7 years old has only 1 year left (8-year limit). MAT credit at 14 years has 1 year left too (15-year limit), but the question asks about greatest risk — the business loss is equally urgent. Unabsorbed depreciation is unlimited, so no risk. Between the two, business loss is the most commonly tested 'urgent' item.",
+          "explanationWrong": "Business loss — 1 year remaining is the highest-risk item. MAT credit (14 of 15 years) is also close to expiry but has slightly more flexibility. Unabsorbed depreciation never expires. Prioritise using the business loss immediately.",
+          "tier": 3,
+          "subConcepts": ["carry-forward-urgency", "practical-advisory", "expiry-risk"],
+          "isReview": false,
+          "oldSection": "Sections 72, 115JAA, 32(2)",
+          "newSection": "Sections 112, 536(2)(m)"
+        }
+      ]
+    }
+  ]
+}

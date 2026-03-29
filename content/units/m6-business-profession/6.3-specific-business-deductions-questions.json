@@ -1,0 +1,835 @@
+{
+  "unit": "6.3",
+  "title": "Specific Business Deductions",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Scientific Research — Section 35 → 45",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 35 (scientific research expenditure) maps to which new section?",
+          "options": [
+            { "text": "Section 35", "correct": false },
+            { "text": "Section 45", "correct": true },
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 46", "correct": false }
+          ],
+          "explanation": "Old Section 35 (scientific research) maps to new Section 45. This is part of the 'specific business deductions' cluster that starts from Section 44 onwards in the new Act.",
+          "explanationWrong": "Common mix-up! New Section 35 is NOT old Section 35. New Section 35 = old Section 40 (non-deductible amounts). New Section 45 = old Section 35 (scientific research). The number 35 has been reassigned — a critical mapping to remember.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "scientific-research", "section-45"],
+          "isReview": false,
+          "oldSection": "Section 35",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 2,
+          "question": "What is the key substantive change in scientific research deductions under new Section 45 compared to old Section 35?",
+          "options": [
+            { "text": "Scientific research deduction has been eliminated entirely", "correct": false },
+            { "text": "Weighted deduction has been removed — only 100% deduction is available now", "correct": true },
+            { "text": "Weighted deduction has been increased to 200%", "correct": false },
+            { "text": "No change — same rates and conditions", "correct": false }
+          ],
+          "explanation": "The weighted deduction (150%/200% that existed under old Section 35(2AB) and related provisions) has been removed. Under new Section 45, only 100% of actual expenditure is deductible. This aligns India with the global norm of actual-cost deductions for R&D.",
+          "explanationWrong": "This trips up most CAs. The weighted deduction was already being phased out (reduced from 200% to 150% by FA 2017, sunset date extended). The 2025 Act completes the phase-out — 100% only. No more super-deductions for scientific research.",
+          "tier": 1,
+          "subConcepts": ["weighted-deduction-removed", "100-percent-only", "section-45"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 37 (general/residuary business deduction) maps to which new section?",
+          "options": [
+            { "text": "Section 37", "correct": false },
+            { "text": "Section 34", "correct": true },
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 45", "correct": false }
+          ],
+          "explanation": "Old Section 37 maps to new Section 34 (general business expenditure / prohibited expenditure). This was covered in Unit 6.2. New Section 37 is actually old Section 43B (payment-basis deductions).",
+          "explanationWrong": "This trips up most CAs. New 37 ≠ old 37. This is the most confusing number reuse in the PGBP chapter. Old 37 (general deduction) → new 34. Old 43B (payment basis) → new 37.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-34", "general-deduction"],
+          "isReview": true,
+          "oldSection": "Section 37",
+          "newSection": "Section 34"
+        },
+        {
+          "order": 4,
+          "question": "Under old Section 35(1)(i), what type of scientific research expenditure was deductible at 100%?",
+          "options": [
+            { "text": "Only capital expenditure on scientific research", "correct": false },
+            { "text": "Revenue AND capital expenditure on in-house scientific research related to the assessee's business", "correct": true },
+            { "text": "Only revenue expenditure", "correct": false },
+            { "text": "Only expenditure approved by DSIR", "correct": false }
+          ],
+          "explanation": "Section 35(1)(i) allowed 100% deduction for both revenue and capital expenditure on in-house scientific research related to the business. The 2025 Act's Section 45 continues this — but at 100% only (no more weighted deduction on top).",
+          "explanationWrong": "Common mix-up! Both revenue and capital expenditure on in-house R&D were deductible at 100% under old Section 35(1)(i). Capital expenditure on R&D is a special exception to the general rule that capital expenditure is not deductible as a revenue expense.",
+          "tier": 1,
+          "subConcepts": ["in-house-research", "revenue-and-capital", "section-45"],
+          "isReview": false,
+          "oldSection": "Section 35(1)(i)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 45, expenditure on scientific research includes land purchase for R&D. True or false?",
+          "options": [
+            { "text": "True — all R&D capital expenditure is deductible including land", "correct": false },
+            { "text": "False — land is explicitly excluded from the definition of capital expenditure on scientific research", "correct": true },
+            { "text": "True — but only if the land is used exclusively for R&D", "correct": false },
+            { "text": "False — land is deductible at 50% only", "correct": false }
+          ],
+          "explanation": "Land is explicitly excluded from deductible capital expenditure on scientific research — both under old Section 35 and new Section 45. While buildings, equipment, and apparatus qualify, land does not. This exclusion is unchanged.",
+          "explanationWrong": "Common mix-up! Land is always excluded from scientific research capital expenditure deduction. This applies even if the land is used exclusively for R&D. The rationale: land doesn't depreciate and doesn't represent a 'research' cost — it's a permanent asset.",
+          "tier": 1,
+          "subConcepts": ["land-excluded", "capital-expenditure-research", "section-45"],
+          "isReview": false,
+          "oldSection": "Section 35",
+          "newSection": "Section 45"
+        }
+      ]
+    },
+    {
+      "title": "Specified Business — Section 35AD → 46",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 35AD (deduction for specified businesses) maps to which new section in the ITA 2025?",
+          "options": [
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 45", "correct": false },
+            { "text": "Section 46", "correct": true },
+            { "text": "Section 47", "correct": false }
+          ],
+          "explanation": "Old Section 35AD → new Section 46. This section provides 100% deduction for capital expenditure incurred on specified businesses (cold chain, warehousing, hospitals, etc.). The 14 specified businesses and 8-year lock-in continue.",
+          "explanationWrong": "Common mix-up! Section 46 is correct. The specific business deductions cluster in the new Act: 44 (old 35D), 45 (old 35), 46 (old 35AD), 47 (old 35CCC+35CCD), 48 (old 33AB), 49 (old 33ABA).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "specified-business", "section-46"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 46 (old Section 35AD), how many categories of 'specified businesses' qualify for 100% capital expenditure deduction?",
+          "options": [
+            { "text": "8 businesses", "correct": false },
+            { "text": "10 businesses", "correct": false },
+            { "text": "14 businesses", "correct": true },
+            { "text": "20 businesses", "correct": false }
+          ],
+          "explanation": "There are 14 specified businesses eligible for 100% capital expenditure deduction under Section 46. These include cold chain, warehousing, affordable housing, hospitals, fertiliser production, and others. The list is unchanged from old Section 35AD.",
+          "explanationWrong": "This trips up most CAs. The list has 14 specified businesses. Common ones to remember: cold chain facility, warehousing for agricultural produce, laying cross-country pipelines, affordable housing, hospitals (100+ beds), fertiliser production.",
+          "tier": 1,
+          "subConcepts": ["14-specified-businesses", "100-percent-capex", "section-46"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the chargeability of PGBP income lists 11 categories in new Section 26. Which of the following is NOT one of these categories?",
+          "options": [
+            { "text": "Profit from business or profession", "correct": false },
+            { "text": "Keyman insurance proceeds", "correct": false },
+            { "text": "Long-term capital gains on listed securities", "correct": true },
+            { "text": "Export incentives and Duty Drawback", "correct": false }
+          ],
+          "explanation": "Long-term capital gains are taxed under the Capital Gains head, not PGBP. This was covered in Unit 6.1. The 11 PGBP categories include business profits, compensation, export incentives, keyman insurance, etc. — but never capital gains.",
+          "explanationWrong": "This trips up most CAs. Capital gains are a separate head of income entirely. Even if a business sells a capital asset, the gain is taxed under Capital Gains (new Sections 67-91), not PGBP (Section 26).",
+          "tier": 1,
+          "subConcepts": ["pgbp-categories", "capital-gains-separate", "section-26"],
+          "isReview": true,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 46 (specified businesses), what is the lock-in period during which the asset must be used for the specified business?",
+          "options": [
+            { "text": "5 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "10 years", "correct": false },
+            { "text": "No lock-in — once deduction is claimed, it's permanent", "correct": false }
+          ],
+          "explanation": "The asset must be used for the specified business for 8 years from the date of acquisition. If transferred or converted within this period, the deduction is clawed back. This lock-in is unchanged from old Section 35AD.",
+          "explanationWrong": "Common mix-up! The lock-in is 8 years, not 5 or 10. If a hospital claims 100% deduction on Rs 50 crore equipment and sells it in year 6, the deduction for the remaining period is added back to income. The 8-year rule prevents gaming.",
+          "tier": 1,
+          "subConcepts": ["8-year-lock-in", "clawback", "section-46"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 46, a company sets up a cold chain facility. It claims 100% deduction on capital expenditure of Rs 10 crore. Can it ALSO claim depreciation on these assets under Section 33?",
+          "options": [
+            { "text": "Yes — both Section 46 deduction and Section 33 depreciation can be claimed", "correct": false },
+            { "text": "No — if 100% deduction is claimed under Section 46, no depreciation under Section 33 is allowed on the same asset", "correct": true },
+            { "text": "Yes — but depreciation is limited to 50% of the normal rate", "correct": false },
+            { "text": "Depreciation is mandatory; Section 46 deduction is optional", "correct": false }
+          ],
+          "explanation": "Section 46 and Section 33 are mutually exclusive for the same asset. If 100% capital expenditure deduction is claimed under Section 46, no depreciation is allowed under Section 33. This prevents double deduction — unchanged from old Section 35AD.",
+          "explanationWrong": "This trips up most CAs. Allowing both would give more than 100% deduction over the asset's life. Section 46 gives 100% upfront; Section 33 gives it over the asset's useful life. You choose one. Most specified businesses prefer Section 46 for the upfront benefit.",
+          "tier": 1,
+          "subConcepts": ["mutual-exclusivity", "no-double-deduction", "section-46-vs-33"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        }
+      ]
+    },
+    {
+      "title": "Other Specific Deductions — Mapping Cluster",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 35D (amortisation of preliminary expenses) maps to which new section in the ITA 2025?",
+          "options": [
+            { "text": "Section 45", "correct": false },
+            { "text": "Section 46", "correct": false },
+            { "text": "Section 44", "correct": true },
+            { "text": "Section 48", "correct": false }
+          ],
+          "explanation": "Old Section 35D → new Section 44. Preliminary expenses (company incorporation costs, feasibility reports, etc.) continue to be amortised over 5 years at 1/5th per year.",
+          "explanationWrong": "Common mix-up! Section 44 is correct. The specific deductions mapping: 35D→44, 35→45, 35AD→46. These are sequential in the new Act, making them easier to locate than the scattered old Act sections.",
+          "tier": 1,
+          "subConcepts": ["preliminary-expenses", "section-44", "amortisation"],
+          "isReview": false,
+          "oldSection": "Section 35D",
+          "newSection": "Section 44"
+        },
+        {
+          "order": 2,
+          "question": "Old Sections 35CCC (agricultural extension project) and 35CCD (skill development) have been consolidated into which new section?",
+          "options": [
+            { "text": "Section 45", "correct": false },
+            { "text": "Section 46", "correct": false },
+            { "text": "Section 47", "correct": true },
+            { "text": "Section 44", "correct": false }
+          ],
+          "explanation": "Old Sections 35CCC and 35CCD are consolidated into new Section 47. This reflects the 2025 Act's preference for grouping related provisions — both dealt with government-notified projects deserving special deductions.",
+          "explanationWrong": "Common mix-up! Section 47 is correct. The consolidation of 35CCC (agriculture extension) and 35CCD (skill development) into one section is logical — both were expenditures on government-notified social-benefit projects.",
+          "tier": 1,
+          "subConcepts": ["agricultural-extension", "skill-development", "section-47"],
+          "isReview": false,
+          "oldSection": "Section 35CCC, 35CCD",
+          "newSection": "Section 47"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the MSME payment compliance rule (no grace period) is found in which section?",
+          "options": [
+            { "text": "Section 34", "correct": false },
+            { "text": "Section 36", "correct": false },
+            { "text": "Section 37", "correct": true },
+            { "text": "Section 43B", "correct": false }
+          ],
+          "explanation": "MSME payment compliance (old Section 43B(h)) is now in new Section 37. This was covered in Unit 6.2. Remember: old 43B → new 37.",
+          "explanationWrong": "This trips up most CAs. Section 43B doesn't exist in the new Act — it's been renumbered to Section 37. The MSME no-grace-period rule is one of the most impactful changes in the entire PGBP chapter.",
+          "tier": 1,
+          "subConcepts": ["msme-compliance", "section-37", "section-43B"],
+          "isReview": true,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 33AB (tea/coffee/rubber development account) maps to which new section?",
+          "options": [
+            { "text": "Section 47", "correct": false },
+            { "text": "Section 48", "correct": true },
+            { "text": "Section 49", "correct": false },
+            { "text": "Section 52", "correct": false }
+          ],
+          "explanation": "Old Section 33AB → new Section 48. Tea, coffee, and rubber development account deductions continue under Section 48. The provision allows plantation companies to set aside funds for development and claim a deduction.",
+          "explanationWrong": "Common mix-up! Section 48 is correct. The mapping: 33AB→48, 33ABA→49. These are niche provisions for plantation and oil/gas industries. Despite being rarely used by most practitioners, they survive in the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["tea-coffee-rubber", "development-account", "section-48"],
+          "isReview": false,
+          "oldSection": "Section 33AB",
+          "newSection": "Section 48"
+        },
+        {
+          "order": 5,
+          "question": "Old Sections 35ABA, 35ABB, 35DD, and 35DDA have been consolidated into which new section in the ITA 2025?",
+          "options": [
+            { "text": "Section 49", "correct": false },
+            { "text": "Section 50", "correct": false },
+            { "text": "Section 52", "correct": true },
+            { "text": "Section 45", "correct": false }
+          ],
+          "explanation": "Four old sections — 35ABA (spectrum fees), 35ABB (telecom licence), 35DD (amalgamation expenses), and 35DDA (VRS expenses) — are consolidated into new Section 52. This is a significant consolidation of amortisation-type deductions.",
+          "explanationWrong": "This trips up most CAs. Section 52 is a mega-consolidation: four different old sections with different amortisation rules consolidated into one. The common thread: all involve capital expenditure amortised over a period (spectrum fees, telecom, amalgamation, VRS).",
+          "tier": 1,
+          "subConcepts": ["mega-consolidation", "section-52", "amortisation-provisions"],
+          "isReview": false,
+          "oldSection": "Section 35ABA, 35ABB, 35DD, 35DDA",
+          "newSection": "Section 52"
+        }
+      ]
+    },
+    {
+      "title": "Weighted Deduction Removal — Impact Analysis",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under old Section 35(2AB), an approved in-house R&D facility could claim weighted deduction of 150% on revenue expenditure. Under new Section 45, what percentage is available?",
+          "options": [
+            { "text": "150%", "correct": false },
+            { "text": "200%", "correct": false },
+            { "text": "100%", "correct": true },
+            { "text": "75%", "correct": false }
+          ],
+          "explanation": "The weighted deduction has been completely removed. Only 100% of actual expenditure is deductible under Section 45. The phase-down (200%→150%→100%) that began with FA 2017 is now complete in the 2025 Act.",
+          "explanationWrong": "Common mix-up! The weighted deduction era is over. Before FA 2017, it was 200%. FA 2017 reduced it to 150%. The 2025 Act completes the phase-out at 100%. Companies that planned R&D investments expecting weighted deductions need to recalculate their after-tax returns.",
+          "tier": 2,
+          "subConcepts": ["weighted-deduction-phaseout", "100-percent-only", "r-and-d-impact"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 2,
+          "question": "Why did the ITA 2025 remove the weighted deduction for scientific research, and what is the global norm?",
+          "options": [
+            { "text": "India is the only country that offered weighted deductions — global norm is no deduction at all", "correct": false },
+            { "text": "Weighted deductions were abused for tax planning. The global norm is actual-cost deduction (100%) with some countries offering tax credits instead.", "correct": true },
+            { "text": "The weighted deduction was too complex to administer — simplified to 0%", "correct": false },
+            { "text": "R&D tax incentives have been shifted entirely to the PLI scheme", "correct": false }
+          ],
+          "explanation": "Weighted deductions were seen as prone to abuse (inflated R&D claims). The global trend — US, UK, Singapore — is toward actual-cost deductions or R&D tax credits (separate from the deduction system). The 2025 Act aligns India with this approach.",
+          "explanationWrong": "This trips up most CAs. R&D deductions aren't eliminated — they're normalised to 100%. Many countries offer R&D tax credits instead of super-deductions. India's shift is from 'generous deduction' to 'actual cost + potential future credit mechanism'. The PLI scheme is separate from tax deductions.",
+          "tier": 2,
+          "subConcepts": ["global-norm", "abuse-prevention", "tax-credit-trend"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, if a specified business (Section 46) asset is transferred within the 8-year lock-in period, what happens?",
+          "options": [
+            { "text": "Nothing — once claimed, the deduction is final", "correct": false },
+            { "text": "The deduction claimed is added back to income in the year of transfer — clawback provision", "correct": true },
+            { "text": "Only 50% of the deduction is clawed back", "correct": false },
+            { "text": "The assessee loses Section 46 eligibility for future businesses only", "correct": false }
+          ],
+          "explanation": "The clawback is triggered on transfer within 8 years. The previously claimed 100% deduction is reversed — added back to income in the year of transfer. This prevents gaming (claim deduction, sell asset early). The rule is unchanged from old Section 35AD.",
+          "explanationWrong": "Common mix-up! The clawback is 100%, not 50%. The logic: if you got 100% deduction upfront and then sold the asset within 8 years, you didn't really use it for the specified business. Full reversal is the consequence.",
+          "tier": 2,
+          "subConcepts": ["clawback-mechanism", "8-year-transfer", "anti-gaming"],
+          "isReview": true,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 4,
+          "question": "A pharma company spent Rs 5 crore on in-house R&D in AY 2024-25 (under old Act) and claimed 150% (Rs 7.5 crore) deduction. For TY 2026-27 (under new Act), the same company spends Rs 5 crore on R&D. What deduction is available?",
+          "options": [
+            { "text": "Rs 7.5 crore (150%)", "correct": false },
+            { "text": "Rs 5 crore (100%)", "correct": true },
+            { "text": "Rs 10 crore (200%)", "correct": false },
+            { "text": "Rs 3.75 crore (75%)", "correct": false }
+          ],
+          "explanation": "Under new Section 45, only 100% is available — Rs 5 crore. The pharma company loses Rs 2.5 crore in deduction compared to the old Act regime. This is the direct impact of weighted deduction removal on R&D-intensive industries.",
+          "explanationWrong": "This trips up most CAs. Same expenditure, different year, different deduction. AY 2024-25 (old Act): Rs 7.5 crore. TY 2026-27 (new Act): Rs 5 crore. The Rs 2.5 crore difference increases the company's tax outgo by approximately Rs 65 lakh (at 25% tax rate).",
+          "tier": 2,
+          "subConcepts": ["deduction-reduction", "pharma-impact", "quantitative-impact"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 45, donations to approved scientific research associations (old Section 35(1)(ii)) continue at what rate?",
+          "options": [
+            { "text": "200% of the donation", "correct": false },
+            { "text": "150% of the donation", "correct": false },
+            { "text": "100% of the donation", "correct": true },
+            { "text": "50% of the donation", "correct": false }
+          ],
+          "explanation": "Donations to approved scientific research associations are deductible at 100% under Section 45. The weighted deduction removal applies here too — old Section 35(1)(ii) at 175%/150% is now flattened to 100%.",
+          "explanationWrong": "Common mix-up! Even donations to approved bodies are at 100% only. The 2025 Act applies the '100% principle' uniformly across all scientific research deductions — in-house, donations to associations, contributions to universities. No exceptions for weighted deduction.",
+          "tier": 2,
+          "subConcepts": ["donations-100-percent", "approved-associations", "uniform-treatment"],
+          "isReview": false,
+          "oldSection": "Section 35(1)(ii)",
+          "newSection": "Section 45"
+        }
+      ]
+    },
+    {
+      "title": "Specified Business Deep Dive — 14 Categories",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under new Section 46, which of the following is one of the 14 specified businesses eligible for 100% capital expenditure deduction?",
+          "options": [
+            { "text": "Retail chain stores", "correct": false },
+            { "text": "Cold chain facility for agricultural produce", "correct": true },
+            { "text": "IT software development", "correct": false },
+            { "text": "Real estate development", "correct": false }
+          ],
+          "explanation": "Cold chain facility is one of the 14 specified businesses. Others include warehousing for agricultural produce, hospitals (100+ beds), affordable housing, and laying cross-country pipelines. Retail, IT, and real estate are NOT on the list.",
+          "explanationWrong": "This trips up most CAs. The 14 specified businesses are infrastructure-focused, not general commercial businesses. Cold chain facilities help reduce agricultural wastage — a national priority. IT software and retail are profitable on their own and don't need 100% upfront deduction incentives.",
+          "tier": 2,
+          "subConcepts": ["specified-business-list", "cold-chain", "infrastructure-focus"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 46, a hospital with 150 beds claims 100% deduction on capital expenditure of Rs 80 crore. What is the minimum bed requirement for the hospital to qualify as a specified business?",
+          "options": [
+            { "text": "50 beds", "correct": false },
+            { "text": "75 beds", "correct": false },
+            { "text": "100 beds", "correct": true },
+            { "text": "200 beds", "correct": false }
+          ],
+          "explanation": "The minimum bed requirement for hospitals under Section 46 (old Section 35AD) is 100 beds. A 150-bed hospital qualifies. This threshold is unchanged from the old Act and applies only to hospitals set up after the specified date.",
+          "explanationWrong": "Common mix-up! It's exactly 100 beds. A 99-bed hospital doesn't qualify; a 100-bed hospital does. The threshold ensures the incentive targets meaningful healthcare infrastructure, not small nursing homes or clinics.",
+          "tier": 2,
+          "subConcepts": ["hospital-bed-threshold", "100-beds", "section-46"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 33 (depreciation) excludes goodwill from depreciable intangible assets. Which Finance Act introduced this exclusion?",
+          "options": [
+            { "text": "Finance Act, 2019", "correct": false },
+            { "text": "Finance Act, 2020", "correct": false },
+            { "text": "Finance Act, 2021", "correct": true },
+            { "text": "Finance Act, 2023", "correct": false }
+          ],
+          "explanation": "Finance Act, 2021 excluded goodwill from depreciable assets, effective AY 2021-22. The 2025 Act continues this exclusion under Section 33. This was covered in Unit 6.2.",
+          "explanationWrong": "This trips up most CAs. FA 2021 is the correct answer. The goodwill depreciation exclusion was one of the most significant amendments to Section 32 in the old Act, and the 2025 Act has carried it forward without change.",
+          "tier": 2,
+          "subConcepts": ["goodwill-exclusion", "fa-2021", "section-33"],
+          "isReview": true,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 46, land and goodwill are excluded from the 100% capital expenditure deduction for specified businesses. What is the rationale?",
+          "options": [
+            { "text": "Land and goodwill are always exempt from tax", "correct": false },
+            { "text": "Land doesn't depreciate and goodwill is subjective — both are excluded to prevent inflated claims on non-depreciating or unverifiable assets", "correct": true },
+            { "text": "Land and goodwill are deductible under other sections", "correct": false },
+            { "text": "CBDT notification prohibits them", "correct": false }
+          ],
+          "explanation": "The exclusion is policy-driven: land never depreciates (so 100% upfront deduction is unjustified), and goodwill is inherently subjective (prone to inflation). Only productive capital assets — machinery, equipment, buildings — qualify for Section 46.",
+          "explanationWrong": "Common mix-up! Land and goodwill aren't 'exempt from tax' — they're excluded from THIS specific deduction. Land is taxable on sale (capital gains). Goodwill, post-FA 2021, has no depreciation benefit at all. The exclusion prevents gaming.",
+          "tier": 2,
+          "subConcepts": ["land-goodwill-exclusion", "anti-inflation", "policy-rationale"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 5,
+          "question": "Under old Section 33ABA (site restoration fund for oil/gas companies), an ONGC-type entity could deposit funds and claim a deduction. In the ITA 2025, this maps to:",
+          "options": [
+            { "text": "Section 48", "correct": false },
+            { "text": "Section 49", "correct": true },
+            { "text": "Section 50", "correct": false },
+            { "text": "Section 52", "correct": false }
+          ],
+          "explanation": "Old Section 33ABA → new Section 49. Site restoration fund deductions for oil and gas companies continue. This is a niche provision for extractive industries — the fund ensures environmental remediation when the oil/gas site is decommissioned.",
+          "explanationWrong": "This trips up most CAs. Section 49 is correct. The mapping: 33AB→48 (tea/coffee/rubber), 33ABA→49 (oil/gas site restoration). These are industry-specific provisions that survive unchanged in the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["site-restoration", "oil-gas", "section-49"],
+          "isReview": false,
+          "oldSection": "Section 33ABA",
+          "newSection": "Section 49"
+        }
+      ]
+    },
+    {
+      "title": "Consolidation Logic — Section 52 Deep Dive",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "New Section 52 consolidates four old sections. What is the common thread linking 35ABA (spectrum fees), 35ABB (telecom licence), 35DD (amalgamation expenses), and 35DDA (VRS expenses)?",
+          "options": [
+            { "text": "All are deductible in the year of payment", "correct": false },
+            { "text": "All involve capital expenditure that is amortised over a specified period — they share the 'upfront spend, spread deduction' structure", "correct": true },
+            { "text": "All are available only to telecom companies", "correct": false },
+            { "text": "All were introduced by the same Finance Act", "correct": false }
+          ],
+          "explanation": "The common thread is amortisation: each provision allows capital expenditure to be spread over multiple years. Spectrum fees over the licence period, telecom licences similarly, amalgamation costs over 5 years, VRS costs over 5 years. Section 52 groups this 'amortisation' concept.",
+          "explanationWrong": "This trips up most CAs. These aren't all telecom provisions — VRS and amalgamation have nothing to do with telecom. The grouping is based on the accounting concept: upfront capital expenditure amortised over a statutory period. This is intelligent consolidation by the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["amortisation-grouping", "section-52-logic", "consolidation-rationale"],
+          "isReview": false,
+          "oldSection": "Sections 35ABA, 35ABB, 35DD, 35DDA",
+          "newSection": "Section 52"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 52, VRS (Voluntary Retirement Scheme) expenses paid by a company are amortised over how many years?",
+          "options": [
+            { "text": "3 years", "correct": false },
+            { "text": "5 years (1/5th per year)", "correct": true },
+            { "text": "10 years", "correct": false },
+            { "text": "Fully deductible in the year of payment", "correct": false }
+          ],
+          "explanation": "VRS expenses (old Section 35DDA) are amortised over 5 years at 1/5th per year — now under new Section 52. If a company pays Rs 10 crore in VRS, it deducts Rs 2 crore per year for 5 years. This period is unchanged.",
+          "explanationWrong": "Common mix-up! VRS amortisation is 5 years, not the full year. The rationale: VRS is a one-time restructuring cost that benefits the company over multiple years. The 1/5th spread prevents a massive one-year deduction from distorting taxable income.",
+          "tier": 2,
+          "subConcepts": ["vrs-amortisation", "5-year-spread", "section-52"],
+          "isReview": false,
+          "oldSection": "Section 35DDA",
+          "newSection": "Section 52"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, preliminary expenses (company incorporation costs) under new Section 44 (old 35D) are amortised over which period?",
+          "options": [
+            { "text": "3 years", "correct": false },
+            { "text": "5 years (1/5th per year)", "correct": true },
+            { "text": "10 years (1/10th per year)", "correct": false },
+            { "text": "Fully deductible in year 1", "correct": false }
+          ],
+          "explanation": "Preliminary expenses under Section 44 are amortised over 5 years at 1/5th per year — same as old Section 35D. These include company incorporation costs, project feasibility reports, and similar pre-commencement expenses.",
+          "explanationWrong": "This trips up most CAs. Preliminary expenses get the same 5-year treatment as VRS expenses (Section 52). Both are capital expenditure spread over 5 years. The 2025 Act doesn't change the amortisation period for either.",
+          "tier": 2,
+          "subConcepts": ["preliminary-expenses", "5-year-amortisation", "section-44"],
+          "isReview": true,
+          "oldSection": "Section 35D",
+          "newSection": "Section 44"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 52, spectrum fees paid by a telecom company (old Section 35ABA) are amortised over:",
+          "options": [
+            { "text": "5 years", "correct": false },
+            { "text": "The period of the spectrum licence", "correct": true },
+            { "text": "10 years fixed", "correct": false },
+            { "text": "20 years", "correct": false }
+          ],
+          "explanation": "Spectrum fees are amortised over the licence period — not a fixed number of years. If a telecom company buys spectrum with a 20-year licence, the fee is spread over 20 years. This is different from VRS/amalgamation which use a fixed 5-year period.",
+          "explanationWrong": "Common mix-up! Unlike VRS (fixed 5 years), spectrum fees follow the licence period. This makes economic sense — the spectrum has value only during the licence period. If the licence is surrendered early, the remaining unamortised cost is deductible in the year of surrender.",
+          "tier": 2,
+          "subConcepts": ["spectrum-amortisation", "licence-period", "variable-period"],
+          "isReview": false,
+          "oldSection": "Section 35ABA",
+          "newSection": "Section 52"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 52, amalgamation expenses (old Section 35DD) are amortised at what rate?",
+          "options": [
+            { "text": "1/3rd per year for 3 years", "correct": false },
+            { "text": "1/5th per year for 5 years", "correct": true },
+            { "text": "1/10th per year for 10 years", "correct": false },
+            { "text": "Full deduction in the year of amalgamation", "correct": false }
+          ],
+          "explanation": "Amalgamation expenses (legal fees, valuation costs, stamp duty, etc.) are amortised at 1/5th per year for 5 years under Section 52. This is the same treatment as under old Section 35DD. The acquiring company gets the deduction.",
+          "explanationWrong": "Common mix-up! Amalgamation expenses are NOT fully deductible in year one. The 5-year spread applies. This makes sense — the benefits of amalgamation (synergies, market expansion) accrue over multiple years, not just the year of the merger.",
+          "tier": 2,
+          "subConcepts": ["amalgamation-expenses", "5-year-amortisation", "section-52"],
+          "isReview": false,
+          "oldSection": "Section 35DD",
+          "newSection": "Section 52"
+        }
+      ]
+    },
+    {
+      "title": "Client Scenarios — R&D and Specified Business",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A pharma client's CFO calls: 'Our R&D budget for TY 2026-27 is Rs 20 crore. Last year under the old Act, we claimed 150%. Can we still get the extra 50%?' What do you advise?",
+          "options": [
+            { "text": "Yes — the weighted deduction continues for pharma companies", "correct": false },
+            { "text": "No — under Section 45, only 100% (Rs 20 crore) is deductible. The weighted deduction is gone. The additional Rs 10 crore deduction the CFO expects will not be available.", "correct": true },
+            { "text": "Yes — but only if DSIR approval is renewed", "correct": false },
+            { "text": "Partially — 125% is available as a transitional measure", "correct": false }
+          ],
+          "explanation": "The weighted deduction is completely removed under Section 45. The CFO is expecting Rs 30 crore deduction (150% of Rs 20 crore) but will get only Rs 20 crore (100%). This reduces the after-tax benefit by approximately Rs 2.5 crore (at 25% tax rate).",
+          "explanationWrong": "This trips up most CAs. There's no transitional 125% or industry-specific exception. The 100% cap is universal for all R&D deductions under Section 45. Pharma companies that built R&D investment models on 150%/200% weighted deductions need to recalculate immediately.",
+          "tier": 3,
+          "subConcepts": ["pharma-r-and-d-impact", "cfo-advice", "weighted-deduction-gone"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 2,
+          "question": "An article clerk prepares a computation for a client operating a cold chain facility. The clerk claims both Section 46 deduction (100% capex) AND Section 33 depreciation on the same machinery. The senior rejects it. What is the clerk's error?",
+          "options": [
+            { "text": "Section 46 deduction is not available for cold chain facilities", "correct": false },
+            { "text": "Section 46 and Section 33 are mutually exclusive for the same asset — you cannot claim both 100% upfront deduction AND annual depreciation", "correct": true },
+            { "text": "Only Section 33 depreciation is available; Section 46 was abolished", "correct": false },
+            { "text": "The clerk should have claimed Section 46 at 50% and Section 33 at full rate", "correct": false }
+          ],
+          "explanation": "The mutual exclusivity rule: if you claim 100% under Section 46, no depreciation under Section 33 on the same asset. The clerk effectively claimed 100% + depreciation — a deduction exceeding 100% over the asset's life. This is a classic double-deduction error.",
+          "explanationWrong": "This trips up most CAs. The logic is simple: Section 46 gives you the ENTIRE cost upfront. Depreciation spreads the same cost over the asset's life. Claiming both means the government gives you more than the asset's cost as a deduction — not permissible.",
+          "tier": 3,
+          "subConcepts": ["double-deduction-error", "mutual-exclusivity", "article-clerk-scenario"],
+          "isReview": false,
+          "oldSection": "Section 35AD/32",
+          "newSection": "Section 46/33"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, new Section 44 covers amortisation of preliminary expenses. Over how many years are they amortised?",
+          "options": [
+            { "text": "3 years", "correct": false },
+            { "text": "5 years", "correct": true },
+            { "text": "7 years", "correct": false },
+            { "text": "10 years", "correct": false }
+          ],
+          "explanation": "Preliminary expenses are amortised over 5 years (1/5th per year) under Section 44. This was covered earlier in this unit. The period is unchanged from old Section 35D.",
+          "explanationWrong": "This trips up most CAs. Preliminary expenses = 5 years. This is the same period as VRS expenses (Section 52) and amalgamation expenses (Section 52). The 2025 Act maintains consistency in amortisation periods.",
+          "tier": 3,
+          "subConcepts": ["preliminary-expenses", "5-year-period", "section-44"],
+          "isReview": true,
+          "oldSection": "Section 35D",
+          "newSection": "Section 44"
+        },
+        {
+          "order": 4,
+          "question": "A client sets up a 120-bed hospital in 2025, claiming 100% deduction under Section 46 on Rs 60 crore capex. In year 5, the hospital is sold to a corporate chain. What happens under the ITA 2025?",
+          "options": [
+            { "text": "No consequence — the deduction was validly claimed", "correct": false },
+            { "text": "The Rs 60 crore deduction is clawed back — added to income in the year of sale since transfer occurred within the 8-year lock-in", "correct": true },
+            { "text": "Only the pro-rata deduction for remaining 3 years is clawed back", "correct": false },
+            { "text": "The buyer inherits the remaining lock-in period with no impact on the seller", "correct": false }
+          ],
+          "explanation": "Transfer within the 8-year lock-in triggers full clawback. The entire Rs 60 crore deduction is added back to the seller's income in the year of sale. Year 5 < 8-year lock-in, so the clawback applies. The tax impact at 25% rate: approximately Rs 15 crore additional tax.",
+          "explanationWrong": "This trips up most CAs. The clawback is the FULL amount, not pro-rata. This is by design — Section 46 gives 100% upfront specifically because the asset is expected to serve the specified business for 8 years. Early exit = full reversal. The buyer starts fresh.",
+          "tier": 3,
+          "subConcepts": ["hospital-sale-clawback", "full-reversal", "lock-in-violation"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 5,
+          "question": "A partner in your firm advises a biotech startup: 'Donate to IIT's research program and claim 200% deduction under Section 45.' Is this advice correct under the ITA 2025?",
+          "options": [
+            { "text": "Yes — donations to universities for scientific research get 200%", "correct": false },
+            { "text": "No — the maximum deduction for any scientific research expenditure (including donations to approved institutions) is 100% under Section 45", "correct": true },
+            { "text": "Yes — but only for biotechnology research", "correct": false },
+            { "text": "200% is available but requires DSIR pre-approval", "correct": false }
+          ],
+          "explanation": "The partner is applying pre-2025 Act rates. Under Section 45, ALL scientific research deductions — in-house R&D, donations to associations, contributions to universities — are capped at 100%. The 200% era is over. The advice is wrong and could expose the firm.",
+          "explanationWrong": "Common mix-up! The partner is remembering old Section 35(1)(ii)/(iii) rates. The 2025 Act flattens everything to 100%. No DSIR approval, no IIT status, no biotech classification changes this. The advice, if followed, would result in excess deduction and potential penalty.",
+          "tier": 3,
+          "subConcepts": ["partner-wrong-advice", "200-percent-gone", "university-donation"],
+          "isReview": false,
+          "oldSection": "Section 35(1)(ii)/(iii)",
+          "newSection": "Section 45"
+        }
+      ]
+    },
+    {
+      "title": "Practice Scenarios — Amortisation & Consolidation",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A telecom company paid Rs 30,000 crore for 5G spectrum with a 20-year licence in TY 2026-27. Under Section 52, what is the annual deduction?",
+          "options": [
+            { "text": "Rs 30,000 crore fully deductible in year 1", "correct": false },
+            { "text": "Rs 6,000 crore per year (1/5th over 5 years)", "correct": false },
+            { "text": "Rs 1,500 crore per year (over 20-year licence period)", "correct": true },
+            { "text": "Rs 3,000 crore per year (over 10 years)", "correct": false }
+          ],
+          "explanation": "Spectrum fees under Section 52 are amortised over the licence period — 20 years here. Rs 30,000 crore / 20 = Rs 1,500 crore per year. Note: this is different from VRS/amalgamation which use a fixed 5-year period.",
+          "explanationWrong": "This trips up most CAs. Spectrum amortisation follows the licence period, not a fixed number. The 1/5th rule applies to VRS and amalgamation, not spectrum. A 20-year licence means 20-year amortisation. This is one of the largest single deductions in Indian tax.",
+          "tier": 3,
+          "subConcepts": ["spectrum-computation", "licence-period-amortisation", "telecom-scenario"],
+          "isReview": false,
+          "oldSection": "Section 35ABA",
+          "newSection": "Section 52"
+        },
+        {
+          "order": 2,
+          "question": "During a tax audit, you find a client claiming Section 46 (specified business) deduction for a fertiliser plant. The plant was set up in 2019 but never obtained the required government notification. Is the deduction valid?",
+          "options": [
+            { "text": "Yes — any fertiliser plant qualifies automatically", "correct": false },
+            { "text": "No — specified business under Section 46 requires the business to be set up on or after the notified date AND in compliance with all conditions. Without the notification, the deduction is invalid.", "correct": true },
+            { "text": "Yes — the notification is only for new applications post-2025", "correct": false },
+            { "text": "Partial deduction is allowed at 50%", "correct": false }
+          ],
+          "explanation": "Section 46 has strict compliance requirements: the business must be on the specified list, set up on/after the notified date, and meet all conditions. Missing the notification means the entire 100% deduction is invalid. The client faces disallowance plus potential penalty.",
+          "explanationWrong": "Common mix-up! Section 46 isn't automatic for listed business types. Each specified business has a notified commencement date and conditions. A fertiliser plant set up without compliance with the notification provisions cannot claim the deduction — regardless of being on the list of 14 businesses.",
+          "tier": 3,
+          "subConcepts": ["compliance-requirements", "notification-mandatory", "audit-finding"],
+          "isReview": false,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, donations to political parties by a company are deductible under which provision?",
+          "options": [
+            { "text": "Section 45 (scientific research)", "correct": false },
+            { "text": "Section 34 (general business deduction)", "correct": false },
+            { "text": "Not deductible at all — political donations by companies are disallowed", "correct": true },
+            { "text": "Section 80GGB equivalent in the new Act", "correct": false }
+          ],
+          "explanation": "Following the Supreme Court's decision striking down electoral bonds, and the existing prohibition on company donations to political parties under the Companies Act, political donations by companies are not deductible. Individual political donations may get deduction under Chapter VIA equivalents.",
+          "explanationWrong": "This trips up most CAs. Don't confuse individual and company political donations. Companies face both a Companies Act prohibition and tax non-deductibility. The 80GGB framework (company donations) is effectively defunct. Individual donations under 80GGC equivalent may still get deduction.",
+          "tier": 3,
+          "subConcepts": ["political-donations", "company-prohibition", "deductibility"],
+          "isReview": true,
+          "oldSection": "Section 80GGB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client's R&D team buys a plot of land (Rs 5 crore) adjacent to their existing R&D facility to expand the lab. They want to claim this under Section 45 as 'capital expenditure on scientific research.' Can they?",
+          "options": [
+            { "text": "Yes — the land is for R&D purposes, so it qualifies", "correct": false },
+            { "text": "No — land is explicitly excluded from deductible capital expenditure on scientific research under Section 45, regardless of its intended use", "correct": true },
+            { "text": "Yes — but only at 50% deduction", "correct": false },
+            { "text": "Only if the land is in a government-notified R&D zone", "correct": false }
+          ],
+          "explanation": "Land is always excluded from Section 45 scientific research capital expenditure. The building constructed on the land would qualify, but not the land itself. Rs 5 crore land cost must be treated as a capital asset — no research deduction, no depreciation. Only capital gains treatment on eventual sale.",
+          "explanationWrong": "This trips up most CAs. The 'purpose test' doesn't override the explicit exclusion. Even if land is used 100% for R&D, the statute excludes it. The client can claim the building cost, equipment cost, and research materials — but not the underlying land.",
+          "tier": 3,
+          "subConcepts": ["land-exclusion", "r-and-d-capital-expenditure", "client-misconception"],
+          "isReview": false,
+          "oldSection": "Section 35",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 5,
+          "question": "A company completes an amalgamation in TY 2026-27, incurring Rs 2 crore in legal, valuation, and stamp duty costs. Under Section 52, how should this be treated?",
+          "options": [
+            { "text": "Full Rs 2 crore deductible in TY 2026-27", "correct": false },
+            { "text": "Rs 40 lakh per year for 5 years (1/5th amortisation starting TY 2026-27)", "correct": true },
+            { "text": "No deduction — amalgamation costs are capital expenditure, never deductible", "correct": false },
+            { "text": "Rs 20 lakh per year for 10 years", "correct": false }
+          ],
+          "explanation": "Section 52 (old Section 35DD) allows amortisation of amalgamation expenses at 1/5th per year. Rs 2 crore / 5 = Rs 40 lakh per year for 5 years starting from the year of amalgamation. Without Section 52, these would be non-deductible capital costs.",
+          "explanationWrong": "Common mix-up! Amalgamation costs are capital in nature, but Section 52 specifically allows their amortisation. Without this provision, the Rs 2 crore would be a sunk cost with no tax benefit. The 5-year spread is a statutory concession.",
+          "tier": 3,
+          "subConcepts": ["amalgamation-amortisation", "computation", "statutory-concession"],
+          "isReview": false,
+          "oldSection": "Section 35DD",
+          "newSection": "Section 52"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Mapping — Specific Deductions Under Pressure",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A senior partner gives you a mapping test: 'Old Section 35, 35AD, 35D, 33AB, 33ABA — give me the new section numbers.' Which answer is correct?",
+          "options": [
+            { "text": "35→45, 35AD→46, 35D→44, 33AB→48, 33ABA→49", "correct": true },
+            { "text": "35→35, 35AD→36, 35D→37, 33AB→38, 33ABA→39", "correct": false },
+            { "text": "35→44, 35AD→45, 35D→46, 33AB→47, 33ABA→48", "correct": false },
+            { "text": "35→45, 35AD→44, 35D→46, 33AB→49, 33ABA→48", "correct": false }
+          ],
+          "explanation": "Correct mapping: 35→45 (scientific research), 35AD→46 (specified business), 35D→44 (preliminary expenses), 33AB→48 (tea/coffee/rubber), 33ABA→49 (oil/gas site restoration). Note that 35D maps to 44 (before 35→45) — the sequencing changed.",
+          "explanationWrong": "This trips up most CAs. The key to remember: 44 (35D), 45 (35), 46 (35AD). The alphabetical sub-sections of old Section 35 don't map sequentially — 35D comes before 35 in the new Act numbering. This is because the new Act groups by importance, not alphabetically.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-mapping-test", "specific-deductions", "sequence-change"],
+          "isReview": false,
+          "oldSection": "Sections 35, 35AD, 35D, 33AB, 33ABA",
+          "newSection": "Sections 45, 46, 44, 48, 49"
+        },
+        {
+          "order": 2,
+          "question": "A client's R&D head says: 'We've been spending Rs 15 crore annually on R&D. Under the old Act, we got Rs 22.5 crore deduction (150%). Under the new Act, we get only Rs 15 crore (100%). This Rs 7.5 crore gap means we should reduce R&D spending.' As the tax advisor, what's your response?",
+          "options": [
+            { "text": "Agree — reduce R&D spending to match the lower tax benefit", "correct": false },
+            { "text": "The deduction reduction doesn't change the business case for R&D. The actual cash outflow is Rs 15 crore regardless. What changes is only the tax saving: Rs 1.875 crore less (at 25% rate). If R&D generates value exceeding this, continue investing.", "correct": true },
+            { "text": "Switch all R&D to contract research to claim 200%", "correct": false },
+            { "text": "Set up an R&D subsidiary in a country with better incentives", "correct": false }
+          ],
+          "explanation": "The tax benefit reduction is Rs 7.5 crore × 25% = Rs 1.875 crore. The business value of R&D (new products, patents, competitive advantage) likely far exceeds Rs 1.875 crore. Tax incentives should influence the margin, not drive the core R&D decision.",
+          "explanationWrong": "Common mix-up! The R&D head is confusing deduction with cash. The cash spent is Rs 15 crore either way. The tax saving difference is Rs 1.875 crore — significant but not R&D-determinative. Reducing R&D because of a tax change is a tail-wagging-the-dog mistake.",
+          "tier": 3,
+          "subConcepts": ["r-and-d-strategy", "deduction-vs-business-value", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 35(2AB)",
+          "newSection": "Section 45"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which of the following correctly describes the 100% capital expenditure deduction under Section 46 for specified businesses?",
+          "options": [
+            { "text": "Available for all businesses, not just specified ones", "correct": false },
+            { "text": "Available for 14 specified businesses with an 8-year lock-in; land and goodwill excluded; mutually exclusive with depreciation", "correct": true },
+            { "text": "Available with no conditions or lock-in period", "correct": false },
+            { "text": "Available at 150% for specified businesses", "correct": false }
+          ],
+          "explanation": "Section 46 has specific conditions: 14 listed business types, 8-year lock-in (clawback on early transfer), land/goodwill excluded, and no depreciation on the same assets. All conditions are unchanged from old Section 35AD.",
+          "explanationWrong": "This trips up most CAs. Section 46 is a targeted incentive, not a general provision. The conditions are strict — 14 businesses only, 8-year commitment, no land/goodwill, no depreciation overlap. Getting any condition wrong means the entire deduction is at risk.",
+          "tier": 3,
+          "subConcepts": ["section-46-summary", "conditions-checklist", "targeted-incentive"],
+          "isReview": true,
+          "oldSection": "Section 35AD",
+          "newSection": "Section 46"
+        },
+        {
+          "order": 4,
+          "question": "During a client meeting, the CFO asks: 'We're setting up a new warehouse for agricultural produce. Can we claim both Section 46 (100% capex) deduction AND the old weighted R&D deduction for the climate-control technology we're developing in-house?' Under the ITA 2025, what's the answer?",
+          "options": [
+            { "text": "Yes to both — they are different sections covering different expenditures", "correct": false },
+            { "text": "Section 46 for the warehouse: Yes (agricultural warehouse is a specified business). Weighted R&D deduction: No — only 100% under Section 45, no weighted deduction. Total benefit: 100% of capex + 100% of R&D, not 100% + 150%.", "correct": true },
+            { "text": "No to both — these deductions are abolished in the 2025 Act", "correct": false },
+            { "text": "Section 46 for warehouse: Yes. Weighted R&D: Yes at 200%", "correct": false }
+          ],
+          "explanation": "Two separate provisions apply: Section 46 for the warehouse (specified business — agricultural warehousing qualifies) and Section 45 for in-house R&D (100% only, no weighted deduction). The CFO gets 100% + 100%, not 100% + 150%.",
+          "explanationWrong": "This trips up most CAs. The answer involves two sections with different rules. Section 46 for capex (unchanged conditions, full 100%). Section 45 for R&D (changed — weighted deduction removed). The CFO needs both answers. Many advisors would miss the R&D change.",
+          "tier": 3,
+          "subConcepts": ["multi-provision-advice", "warehouse-plus-r-and-d", "cfo-meeting"],
+          "isReview": false,
+          "oldSection": "Section 35AD/35(2AB)",
+          "newSection": "Section 46/45"
+        },
+        {
+          "order": 5,
+          "question": "Your firm is preparing a training module for junior staff on specific business deductions. Which statement best captures the THREE key changes in this area under the ITA 2025?",
+          "options": [
+            { "text": "All specific deductions have been abolished", "correct": false },
+            { "text": "No changes at all — just renumbering", "correct": false },
+            { "text": "(1) Weighted R&D deduction removed — 100% only (Section 45); (2) 4 amortisation sections consolidated into Section 52; (3) All other specific deductions (35AD, 33AB, 33ABA) survive with renumbering but no substantive change", "correct": true },
+            { "text": "Only the MSME change matters; specific deductions are unchanged", "correct": false }
+          ],
+          "explanation": "Three key changes: (1) Scientific research moves to 100%-only (Section 45 — this is substantive), (2) Amortisation consolidation into Section 52 (structural), (3) Everything else survives with new numbers but same substance. The MSME change is in Unit 6.2 (deductions), not specific business deductions.",
+          "explanationWrong": "Common mix-up! Option D confuses units — MSME is in the deductions chapter (6.2), not specific business deductions (6.3). Option A is wrong — deductions survive. Option B ignores the weighted deduction removal, which is a real substantive change.",
+          "tier": 3,
+          "subConcepts": ["three-key-changes", "training-summary", "weighted-deduction-consolidation"],
+          "isReview": false,
+          "oldSection": "Sections 35, 35ABA-35DDA",
+          "newSection": "Sections 44-52"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "6.7",
+  "title": "Maintenance & Audit",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section 62 and 63 — Thresholds and Mapping",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 44AA (books of account maintenance) maps to which new section?",
+          "options": [
+            { "text": "Section 61", "correct": false },
+            { "text": "Section 62", "correct": true },
+            { "text": "Section 63", "correct": false },
+            { "text": "Section 58", "correct": false }
+          ],
+          "explanation": "Old Section 44AA maps to new Section 62. This is a straight renumber — the obligation to maintain books, the income/turnover thresholds for businesses, the list of notified professions, the 6-year retention period, and all other requirements are unchanged.",
+          "explanationWrong": "Section 62 is correct. Section 63 is the tax audit section (old 44AB). Section 61 is the non-resident presumptive table (old 44B/44BB/44BBA/44BBB). Section 58 is the resident presumptive regime (old 44AD/44ADA). The sequential numbering: 62 (books) → 63 (audit).",
+          "tier": 1,
+          "subConcepts": ["books-of-account-mapping", "section-44AA-to-62"],
+          "isReview": false,
+          "oldSection": "Section 44AA",
+          "newSection": "Section 62"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 44AB (tax audit) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 62", "correct": false },
+            { "text": "Section 63", "correct": true },
+            { "text": "Section 64", "correct": false },
+            { "text": "Section 59", "correct": false }
+          ],
+          "explanation": "Old Section 44AB maps to new Section 63. The tax audit thresholds (Rs 1 crore / Rs 10 crore for business, Rs 50 lakh for profession), the filing deadline (one month before ITR due date), and all obligations are unchanged. The substantive change in this unit is the audit report form, not the section.",
+          "explanationWrong": "Section 63 is correct. Section 62 is books of account (old 44AA). Section 59 is PE-based royalty/FTS (old 44DA). The pair 62+63 mirrors the old pair 44AA+44AB — books and audit, in sequence.",
+          "tier": 1,
+          "subConcepts": ["tax-audit-mapping", "section-44AB-to-63"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 6.6, the WDV formula [(A-D)+B-C]-E was codified in which section of the ITA 2025?",
+          "options": [
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 41", "correct": true },
+            { "text": "Section 43", "correct": false },
+            { "text": "Section 46", "correct": false }
+          ],
+          "explanation": "The WDV formula was codified in Section 41 (old Section 43). This review reinforces the Unit 6.6 mapping. Section 39 is actual cost (old 43(1)), Section 43 is forex taxation (old 43AA), and Section 46 governs depreciation allowance computation.",
+          "explanationWrong": "Section 41 is correct. The omnibus old Section 43 was unbundled: 43(1)→39, 43C→40, WDV→41, 43A→42, 43AA→43. Section 41 specifically houses the WDV definition with the explicitly codified formula.",
+          "tier": 1,
+          "subConcepts": ["unit-6-6-review", "wdv-formula-section"],
+          "isReview": true,
+          "oldSection": "Section 43",
+          "newSection": "Section 41"
+        },
+        {
+          "order": 4,
+          "question": "The tax audit threshold for businesses under Section 63 is:",
+          "options": [
+            { "text": "Rs 50 lakh turnover", "correct": false },
+            { "text": "Rs 1 crore turnover (Rs 10 crore with digital transaction conditions)", "correct": true },
+            { "text": "Rs 5 crore turnover", "correct": false },
+            { "text": "Rs 2 crore turnover", "correct": false }
+          ],
+          "explanation": "The business threshold is Rs 1 crore total sales/turnover/gross receipts. The enhanced Rs 10 crore threshold applies when aggregate cash receipts and cash payments each do not exceed 5% of their respective totals. These thresholds are unchanged from old Section 44AB.",
+          "explanationWrong": "Rs 1 crore (or Rs 10 crore with digital conditions) is correct. The Rs 50 lakh threshold applies to professions, not businesses. The Rs 10 crore enhancement requires that both cash receipts ≤ 5% of total receipts AND cash payments ≤ 5% of total payments — both conditions must be met.",
+          "tier": 1,
+          "subConcepts": ["business-audit-threshold", "rs-1-crore-10-crore"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 5,
+          "question": "The tax audit threshold for professions under Section 63 is:",
+          "options": [
+            { "text": "Rs 1 crore gross receipts", "correct": false },
+            { "text": "Rs 25 lakh gross receipts", "correct": false },
+            { "text": "Rs 50 lakh gross receipts", "correct": true },
+            { "text": "Rs 75 lakh gross receipts", "correct": false }
+          ],
+          "explanation": "Professions are audited when gross receipts exceed Rs 50 lakh — unchanged from old Section 44AB. This is a lower threshold than the Rs 1 crore business threshold, reflecting the typically lower scale of professional practice. The notified professions include legal, medical, engineering, accountancy, and others.",
+          "explanationWrong": "Rs 50 lakh is correct. The profession threshold has not changed. There is no enhanced threshold for digital transactions in the profession context — the Rs 10 crore enhancement applies only to business. Professions are always at Rs 50 lakh, regardless of payment mode.",
+          "tier": 1,
+          "subConcepts": ["profession-audit-threshold", "rs-50-lakh"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        }
+      ]
+    },
+    {
+      "title": "Form 26 — The Unified Audit Report",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, Forms 3CA, 3CB, and 3CD are replaced by:",
+          "options": [
+            { "text": "Forms 26A and 26B", "correct": false },
+            { "text": "A single unified Form 26 with four parts", "correct": true },
+            { "text": "Form 3CD (revised edition)", "correct": false },
+            { "text": "Three separate new forms", "correct": false }
+          ],
+          "explanation": "All three old forms (3CA, 3CB, 3CD) are replaced by a single Form 26, structured into four parts (A through D). This eliminates the dual-track system where Form 3CA was used for statutory audit cases and Form 3CB for others. Form 26 serves all assessees with a single Yes/No indicator for statutory audit status.",
+          "explanationWrong": "Single unified Form 26 with four parts is correct. This is the most significant procedural change in the tax audit framework. The old three-form system (3CA or 3CB, plus 3CD) is collapsed into one form. The four parts are: A (general information), B (financial statements), C (tax-specific disclosures), D (audit observations).",
+          "tier": 1,
+          "subConcepts": ["form-26-unified", "three-forms-to-one"],
+          "isReview": false,
+          "oldSection": "Forms 3CA, 3CB, 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 2,
+          "question": "Form 26 is structured into how many parts?",
+          "options": [
+            { "text": "Two — financial and compliance", "correct": false },
+            { "text": "Three — general, financial, observations", "correct": false },
+            { "text": "Four — Parts A through D", "correct": true },
+            { "text": "Five — Parts A through E", "correct": false }
+          ],
+          "explanation": "Form 26 has four parts: Part A (general information), Part B (financial statements and quantitative details), Part C (tax-specific disclosures), and Part D (audit observations). Each part serves a distinct function, replacing the scattered structure of the old 44-clause Form 3CD.",
+          "explanationWrong": "Four parts (A-D) is correct. Part A handles assessee details and statutory audit status. Part B covers P&L and balance sheet summaries with simplified depreciation. Part C contains the substantive compliance disclosures (including the new digital infrastructure requirements). Part D structures audit observations into predefined categories.",
+          "tier": 1,
+          "subConcepts": ["form-26-structure", "four-parts"],
+          "isReview": false,
+          "oldSection": "Form 3CD (44 clauses)",
+          "newSection": "Form 26 (Parts A-D)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 6.6, old Section 43CA (stamp duty value deeming for stock-in-trade) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 39", "correct": false },
+            { "text": "Section 53", "correct": true },
+            { "text": "Section 56", "correct": false },
+            { "text": "Section 41", "correct": false }
+          ],
+          "explanation": "Old Section 43CA maps to new Section 53 with the 110% SDV tolerance threshold unchanged. This review reinforces the Unit 6.6 dispersal of the old Section 43 cluster. Section 53 sits outside the core 39-43 range, reflecting the 2025 Act's reorganisation of the omnibus Section 43.",
+          "explanationWrong": "Section 53 is correct. The land transaction reporting in Form 26 Part C is aligned with this 110% tolerance threshold. Section 39 is actual cost, Section 56 is financial institution NPA income, and Section 41 is WDV — all from the old Section 43 unbundling.",
+          "tier": 1,
+          "subConcepts": ["unit-6-6-review", "sdv-mapping"],
+          "isReview": true,
+          "oldSection": "Section 43CA",
+          "newSection": "Section 53"
+        },
+        {
+          "order": 4,
+          "question": "Under the old system, which form was used for assessees whose accounts were already audited under another statute (e.g., Companies Act)?",
+          "options": [
+            { "text": "Form 3CB", "correct": false },
+            { "text": "Form 3CA", "correct": true },
+            { "text": "Form 3CD", "correct": false },
+            { "text": "Form 26", "correct": false }
+          ],
+          "explanation": "Form 3CA was used for assessees with statutory audit (under Companies Act or other law), while Form 3CB was for others. Form 3CD (statement of particulars) was common to both tracks. This dual-track system is eliminated by Form 26, which uses a Yes/No indicator in Part A for statutory audit status.",
+          "explanationWrong": "Form 3CA is correct. The distinction: 3CA = statutory audit exists under another law, 3CB = no statutory audit. Both required Form 3CD alongside. Form 26 eliminates this bifurcation — one form, one track, one set of parts for all assessees.",
+          "tier": 1,
+          "subConcepts": ["old-dual-track", "3CA-vs-3CB"],
+          "isReview": false,
+          "oldSection": "Form 3CA",
+          "newSection": "Form 26 (Part A)"
+        },
+        {
+          "order": 5,
+          "question": "Form 26 is governed by which rule of the Income Tax Rules 2026?",
+          "options": [
+            { "text": "Rule 6G", "correct": false },
+            { "text": "Rule 47", "correct": true },
+            { "text": "Rule 12", "correct": false },
+            { "text": "Rule 114", "correct": false }
+          ],
+          "explanation": "Rule 47 of the IT Rules 2026 prescribes Form 26 — replacing old Rule 6G of the IT Rules 1962. Rule 47 governs the form of the audit report, the particulars required in each part, electronic filing requirements, and digital signature specifications.",
+          "explanationWrong": "Rule 47 is correct. Old Rule 6G governed Forms 3CA/3CB/3CD. The rule change mirrors the section change: just as Sections 62-63 replace 44AA-44AB, Rule 47 replaces Rule 6G. Both the statute and the rules have been renumbered.",
+          "tier": 1,
+          "subConcepts": ["rule-47", "rule-6G-replacement"],
+          "isReview": false,
+          "oldSection": "Rule 6G (IT Rules 1962)",
+          "newSection": "Rule 47 (IT Rules 2026)"
+        }
+      ]
+    },
+    {
+      "title": "New Features of Form 26",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following is a NEW disclosure requirement in Form 26 that had no equivalent in old Form 3CD?",
+          "options": [
+            { "text": "Depreciation schedule", "correct": false },
+            { "text": "Digital infrastructure disclosure (accounting software, cloud services, ERP, server IPs)", "correct": true },
+            { "text": "Details of payments to partners", "correct": false },
+            { "text": "Land transaction reporting", "correct": false }
+          ],
+          "explanation": "Digital infrastructure disclosure is entirely new. Assessees must now report accounting software (name, version), cloud computing services used, ERP systems, IP addresses of servers storing books, and whether a digital audit trail/edit log is maintained. None of these were required under old Form 3CD.",
+          "explanationWrong": "Digital infrastructure disclosure is correct. Depreciation schedules, partner payments, and land transaction reporting all existed in old Form 3CD (though the depreciation format is now simplified). The digital infrastructure disclosure reflects the growing regulatory focus on electronic record-keeping and audit trail requirements.",
+          "tier": 1,
+          "subConcepts": ["digital-infrastructure-disclosure", "new-requirement"],
+          "isReview": false,
+          "oldSection": "Form 3CD",
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 2,
+          "question": "Form 26 uses a trigger-based approach for compliance disclosures. How does this work?",
+          "options": [
+            { "text": "All clauses require detailed narrative answers regardless of applicability", "correct": false },
+            { "text": "The auditor first indicates Yes/No for applicability; detailed particulars required only where Yes", "correct": true },
+            { "text": "Only Part D requires detailed answers", "correct": false },
+            { "text": "The system auto-populates all fields from PAN data", "correct": false }
+          ],
+          "explanation": "The Yes/No trigger system is a key innovation: instead of requiring narrative answers for every clause (as in old Form 3CD's 44 clauses), Form 26 asks whether a provision is applicable. Only where the answer is 'Yes' does the auditor need to provide detailed particulars. This significantly reduces reporting burden for provisions that do not apply to a given assessee.",
+          "explanationWrong": "Yes/No trigger with details only on Yes is correct. Under old Form 3CD, every clause required an answer — even if only to state 'Not Applicable.' The trigger approach eliminates this busywork. It also enables easier regulatory data analytics, since the Department can quickly identify which provisions are applicable across the assessee population.",
+          "tier": 1,
+          "subConcepts": ["yes-no-trigger", "reporting-burden-reduction"],
+          "isReview": false,
+          "oldSection": "Form 3CD",
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 63, the tax audit report must be furnished by when?",
+          "options": [
+            { "text": "The same date as the ITR filing deadline", "correct": false },
+            { "text": "One month before the ITR due date", "correct": true },
+            { "text": "Two months before the ITR due date", "correct": false },
+            { "text": "15 days before the ITR due date", "correct": false }
+          ],
+          "explanation": "One month before the ITR due date — unchanged from old Section 44AB. For assessees with a 31 October ITR deadline, the audit report is due by 30 September. For those with a 30 November deadline (TP cases), the audit report is due by 31 October.",
+          "explanationWrong": "One month before ITR due date is correct. This deadline ensures the audit is completed and reported before the return is filed. The timeline is: audit report → one month gap → ITR filing. This sequence has not changed.",
+          "tier": 1,
+          "subConcepts": ["audit-report-deadline", "one-month-before"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 4,
+          "question": "In Form 26 Part D, audit observations are now structured as:",
+          "options": [
+            { "text": "Free-text narrative as in old Forms 3CA/3CB", "correct": false },
+            { "text": "Predefined categories: qualifications, emphasis of matter, adverse remarks, compliance deviations, other", "correct": true },
+            { "text": "A simple pass/fail assessment", "correct": false },
+            { "text": "Numerical scoring from 1 to 10", "correct": false }
+          ],
+          "explanation": "Part D replaces the free-text observations of old Forms 3CA/3CB with a structured categorisation system. Observations must be classified into qualifications, emphasis of matter, adverse remarks, compliance deviations, or other observations. This enables the Department to apply data analytics across audit reports at scale.",
+          "explanationWrong": "Predefined categories is correct. The shift from free-text to structured categories is significant for both practitioners and the Department. Practitioners must now classify each observation rather than writing unstructured narratives. The Department gains a searchable, filterable database of audit observations across millions of reports.",
+          "tier": 1,
+          "subConcepts": ["categorised-observations", "part-d-structure"],
+          "isReview": false,
+          "oldSection": "Forms 3CA/3CB",
+          "newSection": "Form 26 (Part D)"
+        },
+        {
+          "order": 5,
+          "question": "Is UDIN (Unique Document Identification Number) mandatory for tax audit reports under the ITA 2025?",
+          "options": [
+            { "text": "No — UDIN is discontinued under the new framework", "correct": false },
+            { "text": "Yes — UDIN continues to be mandatory", "correct": true },
+            { "text": "Only for corporate assessees", "correct": false },
+            { "text": "Optional — but recommended", "correct": false }
+          ],
+          "explanation": "UDIN remains mandatory for all tax audit reports filed under Section 63. The UDIN must be generated through the ICAI portal before filing. This continues the existing requirement without any change. FRN (Firm Registration Number) or individual membership number must also be quoted in Form 26.",
+          "explanationWrong": "Yes, mandatory, is correct. UDIN was introduced to prevent fraudulent audit reports and ensure accountability. It continues without change under the ITA 2025. Every tax audit report — whether for a business, profession, or presumptive opt-out case — requires a UDIN generated from the ICAI portal.",
+          "tier": 1,
+          "subConcepts": ["udin-mandatory", "frn-requirement"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        }
+      ]
+    },
+    {
+      "title": "Form 26 Deep Dive — Parts A, B, C",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How does Form 26 Part A eliminate the old 3CA/3CB bifurcation?",
+          "options": [
+            { "text": "By requiring separate appendices for statutory audit cases", "correct": false },
+            { "text": "By including a Yes/No indicator for whether accounts are audited under another law — the same form continues regardless", "correct": true },
+            { "text": "By exempting statutory audit cases from tax audit", "correct": false },
+            { "text": "By creating two versions of Form 26", "correct": false }
+          ],
+          "explanation": "Part A includes a field where the auditor indicates whether accounts are already audited under another statute (Companies Act, cooperative societies law, etc.). If Yes, the auditor provides details. The same Form 26 continues for both categories — no separate form, no separate track. This is the structural simplification.",
+          "explanationWrong": "Yes/No indicator in Part A is correct. Under the old system, the auditor had to choose between Form 3CA (statutory audit exists) and Form 3CB (no statutory audit) before even beginning the report. Form 26 removes this choice entirely — one form for everyone, with a simple status indicator.",
+          "tier": 2,
+          "subConcepts": ["dual-track-elimination", "part-a-indicator"],
+          "isReview": false,
+          "oldSection": "Forms 3CA/3CB",
+          "newSection": "Form 26 (Part A)"
+        },
+        {
+          "order": 2,
+          "question": "The depreciation schedule in Form 26 Part B differs from old Form 3CD Clause 18 in that it is:",
+          "options": [
+            { "text": "More detailed — with additional asset-level disclosures", "correct": false },
+            { "text": "Simplified — rationalised format aligned with the codified WDV formula in Section 41", "correct": true },
+            { "text": "Eliminated entirely — depreciation reporting is no longer required", "correct": false },
+            { "text": "Identical — the same format is retained", "correct": false }
+          ],
+          "explanation": "The depreciation schedule in Form 26 is simplified compared to old Clause 18 of Form 3CD. Block-wise reporting continues, but the format is streamlined to align with the explicitly codified WDV formula [(A-D)+B-C]-E in Section 41. This makes the reporting structure consistent with the statutory formula.",
+          "explanationWrong": "Simplified and aligned with Section 41 is correct. The old Clause 18 format had evolved over years with incremental additions. Form 26 takes the opportunity to rationalise the layout, matching it to the now-explicit statutory formula. Block-wise reporting is retained — it is the format, not the concept, that is simplified.",
+          "tier": 2,
+          "subConcepts": ["simplified-depreciation", "formula-alignment"],
+          "isReview": false,
+          "oldSection": "Form 3CD (Clause 18)",
+          "newSection": "Form 26 (Part B)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 62, for how many years must books of account be retained from the end of the relevant assessment year?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "6 years (8 years if assessment is reopened)", "correct": true },
+            { "text": "8 years in all cases", "correct": false },
+            { "text": "10 years", "correct": false }
+          ],
+          "explanation": "Books must be retained for 6 years from the end of the relevant assessment year — or 8 years if the assessment is reopened under the Act. These retention periods are unchanged from old Section 44AA. The digital infrastructure disclosure in Form 26 adds context: if books are electronic, the server and software must be available for this entire period.",
+          "explanationWrong": "6 years (8 if reopened) is correct. This retention requirement takes on added significance with electronic books. If the cloud service is discontinued or the ERP system is replaced within the retention period, the assessee must ensure the data remains accessible. Form 26's digital infrastructure disclosure helps the Department verify this.",
+          "tier": 2,
+          "subConcepts": ["book-retention-period", "6-years-8-years"],
+          "isReview": true,
+          "oldSection": "Section 44AA",
+          "newSection": "Section 62"
+        },
+        {
+          "order": 4,
+          "question": "The digital infrastructure disclosure in Form 26 Part C requires reporting of:",
+          "options": [
+            { "text": "Only the name of the accounting software", "correct": false },
+            { "text": "Accounting software (name, version), cloud services, ERP systems, server IP addresses, and audit trail status", "correct": true },
+            { "text": "Only whether books are maintained electronically", "correct": false },
+            { "text": "Hardware specifications of the accounting computer", "correct": false }
+          ],
+          "explanation": "The disclosure is comprehensive: accounting software name and version, whether source code is available, cloud computing services used for storing books, ERP systems deployed, IP addresses of servers maintaining electronic books, and whether a digital audit trail / edit log is maintained. This is the most detailed digital disclosure requirement in Indian tax audit history.",
+          "explanationWrong": "The full list (software, cloud, ERP, IP, audit trail) is correct. This disclosure goes well beyond a simple 'electronic or manual' question. The Department wants to know exactly where books are stored, what software processes them, and whether an audit trail exists. This data enables targeted digital scrutiny and forensic audit planning.",
+          "tier": 2,
+          "subConcepts": ["digital-disclosure-scope", "software-cloud-erp-ip"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 5,
+          "question": "The GST reconciliation requirement in Form 26 differs from old Form 3CD Clause 44 in that it is:",
+          "options": [
+            { "text": "Eliminated entirely", "correct": false },
+            { "text": "Integrated into Part C in a simplified, structured format", "correct": true },
+            { "text": "Deferred indefinitely as before", "correct": false },
+            { "text": "Identical to old Clause 44", "correct": false }
+          ],
+          "explanation": "Old Clause 44 of Form 3CD (GST reconciliation) was notified but repeatedly deferred by the government. Form 26 integrates the GST reconciliation into Part C in a simplified and more structured format. Unlike the perpetually deferred old version, the Form 26 GST reconciliation is expected to be operative from the first year.",
+          "explanationWrong": "Integrated and simplified is correct. The repeated deferral of Clause 44 had become a running saga in tax audit practice. Form 26 resolves this by embedding a workable, structured GST reconciliation requirement — not the onerous format of old Clause 44, but a practical version aligned with actual data availability.",
+          "tier": 2,
+          "subConcepts": ["gst-reconciliation-integrated", "clause-44-replaced"],
+          "isReview": false,
+          "oldSection": "Form 3CD (Clause 44)",
+          "newSection": "Form 26 (Part C)"
+        }
+      ]
+    },
+    {
+      "title": "Part D Observations and UDIN/FRN",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old system, audit observations in Forms 3CA/3CB were:",
+          "options": [
+            { "text": "Categorised into predefined types", "correct": false },
+            { "text": "Free-text narratives with no structured classification", "correct": true },
+            { "text": "Automatically generated by the portal", "correct": false },
+            { "text": "Not required at all", "correct": false }
+          ],
+          "explanation": "Old Forms 3CA and 3CB allowed free-text audit observations with no structured classification. The auditor could write anything — qualifications, caveats, disclaimers — in an unstructured narrative. Form 26 Part D changes this by requiring classification into predefined categories.",
+          "explanationWrong": "Free-text narratives is correct. The lack of structure meant the Department could not systematically analyse audit observations across millions of reports. Each report had to be read individually. Part D's categorisation enables database-level analysis — flagging, for example, all adverse remarks across a specific sector.",
+          "tier": 2,
+          "subConcepts": ["old-free-text-system", "no-classification"],
+          "isReview": false,
+          "oldSection": "Forms 3CA/3CB",
+          "newSection": "Form 26 (Part D)"
+        },
+        {
+          "order": 2,
+          "question": "The five categories of audit observations in Form 26 Part D are:",
+          "options": [
+            { "text": "Qualifications, emphasis of matter, adverse remarks, compliance deviations, other observations", "correct": true },
+            { "text": "Minor, moderate, major, critical, informational", "correct": false },
+            { "text": "Tax law, accounting standards, GST, TDS, general", "correct": false },
+            { "text": "Positive, negative, neutral, conditional, qualified", "correct": false }
+          ],
+          "explanation": "The five categories are: (1) Qualifications, (2) Emphasis of matter, (3) Adverse remarks, (4) Compliance deviations, and (5) Other observations. This classification mirrors the auditing standards framework (SA 700-series) adapted for tax audit. Each observation must be placed in one of these categories.",
+          "explanationWrong": "Qualifications, emphasis, adverse, deviations, other is correct. The categories align with established auditing practice — practitioners familiar with statutory audit reports under SA 700/705/706 will recognise the framework. The adaptation for tax audit adds 'compliance deviations' as a tax-specific category.",
+          "tier": 2,
+          "subConcepts": ["five-observation-categories", "sa-700-alignment"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part D)"
+        },
+        {
+          "order": 3,
+          "question": "Which threshold triggers tax audit for a business under Section 63 when aggregate cash receipts and payments each exceed 5% of their totals?",
+          "options": [
+            { "text": "Rs 10 crore — the enhanced threshold does NOT apply since cash exceeds 5%", "correct": false },
+            { "text": "Rs 1 crore — the base threshold applies", "correct": true },
+            { "text": "Rs 50 lakh — profession threshold applies instead", "correct": false },
+            { "text": "No audit required regardless of turnover", "correct": false }
+          ],
+          "explanation": "When cash receipts OR cash payments exceed 5% of their respective totals, the enhanced Rs 10 crore threshold is not available. The base Rs 1 crore threshold applies. The Rs 10 crore enhancement is specifically for businesses with minimal cash dealings — both conditions (receipts ≤ 5% AND payments ≤ 5%) must be met.",
+          "explanationWrong": "Rs 1 crore is correct. The question tests the inverse of the enhancement: if cash exceeds 5%, the enhanced threshold is NOT available. The assessee falls back to the base Rs 1 crore threshold. This distinction catches businesses that assume the Rs 10 crore limit applies automatically.",
+          "tier": 2,
+          "subConcepts": ["cash-exceeds-5-percent", "base-threshold-applies"],
+          "isReview": true,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 4,
+          "question": "Rule 47 of the IT Rules 2026 replaces which old rule?",
+          "options": [
+            { "text": "Rule 6G of the IT Rules 1962", "correct": true },
+            { "text": "Rule 12 of the IT Rules 1962", "correct": false },
+            { "text": "Rule 114 of the IT Rules 1962", "correct": false },
+            { "text": "Rule 6DD of the IT Rules 1962", "correct": false }
+          ],
+          "explanation": "Rule 47 replaces old Rule 6G. Rule 6G prescribed Forms 3CA/3CB/3CD and their contents. Rule 47 prescribes Form 26 — its structure, the particulars for each part, electronic filing requirements, and digital signature specifications. Rule 6DD (cash payment exemptions) is a separate provision.",
+          "explanationWrong": "Rule 6G is correct. Rule 12 governed return forms, Rule 114 governed PAN applications, and Rule 6DD governed cash payment exceptions. Rule 6G was specifically the audit report rule — and Rule 47 is its direct replacement in the 2026 Rules.",
+          "tier": 2,
+          "subConcepts": ["rule-47-replaces-6G", "rules-mapping"],
+          "isReview": false,
+          "oldSection": "Rule 6G (IT Rules 1962)",
+          "newSection": "Rule 47 (IT Rules 2026)"
+        },
+        {
+          "order": 5,
+          "question": "Under Form 26, what information must the audit firm quote?",
+          "options": [
+            { "text": "Only the signing partner's name", "correct": false },
+            { "text": "FRN (Firm Registration Number) of the audit firm, or individual membership number for sole practitioners", "correct": true },
+            { "text": "Only the UDIN", "correct": false },
+            { "text": "The firm's GST registration number", "correct": false }
+          ],
+          "explanation": "Form 26 requires the audit firm's FRN (assigned by ICAI). Individual practitioners must quote their membership number instead. This is in addition to the UDIN requirement. Both FRN/membership number and UDIN serve accountability purposes — linking the report to a specific practitioner and a specific document.",
+          "explanationWrong": "FRN or membership number is correct. UDIN is also required but is a separate document-level identifier. FRN identifies the firm; UDIN identifies the specific report. Both are mandatory. The GST registration of the audit firm is not a requirement of the tax audit report.",
+          "tier": 2,
+          "subConcepts": ["frn-requirement", "dual-identification"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26"
+        }
+      ]
+    },
+    {
+      "title": "Old vs New Comparison and Transition Planning",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many clauses did old Form 3CD contain?",
+          "options": [
+            { "text": "22 clauses", "correct": false },
+            { "text": "32 clauses", "correct": false },
+            { "text": "44 clauses", "correct": true },
+            { "text": "56 clauses", "correct": false }
+          ],
+          "explanation": "Old Form 3CD contained 44 clauses covering everything from depreciation schedules to land transactions to GST reconciliations. Over successive amendments, it had grown unwieldy. Form 26's four-part structure with Yes/No triggers replaces this with a more navigable framework.",
+          "explanationWrong": "44 clauses is correct. The growth from the original Form 3CD to 44 clauses was driven by incremental additions over decades. Each time a new disclosure was needed, a new clause was added. Form 26 takes a fresh approach — structured parts with trigger-based disclosures rather than an ever-expanding clause list.",
+          "tier": 2,
+          "subConcepts": ["old-3CD-44-clauses", "unwieldy-growth"],
+          "isReview": false,
+          "oldSection": "Form 3CD",
+          "newSection": "Form 26"
+        },
+        {
+          "order": 2,
+          "question": "The condition for the Rs 10 crore enhanced threshold under Section 63 requires that:",
+          "options": [
+            { "text": "Either cash receipts ≤ 5% OR cash payments ≤ 5%", "correct": false },
+            { "text": "Both cash receipts ≤ 5% of total receipts AND cash payments ≤ 5% of total payments", "correct": true },
+            { "text": "Total turnover exceeds Rs 10 crore", "correct": false },
+            { "text": "The assessee opts for the enhanced threshold", "correct": false }
+          ],
+          "explanation": "Both conditions must be met simultaneously: (1) aggregate cash receipts ≤ 5% of total receipts, AND (2) aggregate cash payments ≤ 5% of total payments. If either condition fails, the base Rs 1 crore threshold applies. This is unchanged from old Section 44AB.",
+          "explanationWrong": "Both conditions simultaneously is correct. The 'AND' connector is critical — it is not an 'OR.' A business with 3% cash receipts but 8% cash payments does NOT qualify for the Rs 10 crore threshold, because the payment condition fails. Both sides of the cash equation must be under 5%.",
+          "tier": 2,
+          "subConcepts": ["dual-5-percent-condition", "both-must-be-met"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 3,
+          "question": "Old Form 3CD Clause 44 (GST reconciliation) was repeatedly deferred. Under Form 26, the GST reconciliation is:",
+          "options": [
+            { "text": "Still deferred indefinitely", "correct": false },
+            { "text": "Integrated into Part C in a simplified format, expected to be operative from the first year", "correct": true },
+            { "text": "Completely eliminated", "correct": false },
+            { "text": "Made optional for the first three years", "correct": false }
+          ],
+          "explanation": "Form 26 embeds the GST reconciliation in Part C in a more practical, structured format. Unlike old Clause 44 which was perpetually deferred, the Form 26 version is designed to be operative from the first year of the new Act. The simplified format addresses the practical difficulties that caused repeated deferral.",
+          "explanationWrong": "Integrated and operative is correct. The old Clause 44's repeated deferral was due to the onerous nature of the reconciliation format. Form 26 learns from this — the GST reconciliation is simplified to match actual data availability, making it practically implementable rather than theoretically desirable but perpetually postponed.",
+          "tier": 2,
+          "subConcepts": ["gst-reconciliation-operative", "lessons-from-deferral"],
+          "isReview": true,
+          "oldSection": "Form 3CD (Clause 44)",
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 4,
+          "question": "What is the key difference between the depreciation schedule in old Form 3CD (Clause 18) and the one in Form 26 Part B?",
+          "options": [
+            { "text": "Form 26 requires asset-by-asset reporting instead of block-wise", "correct": false },
+            { "text": "Form 26's format is simplified and aligned with the codified WDV formula [(A-D)+B-C]-E", "correct": true },
+            { "text": "Form 26 eliminates depreciation reporting entirely", "correct": false },
+            { "text": "No difference — the format is identical", "correct": false }
+          ],
+          "explanation": "Form 26 rationalises the depreciation schedule to align with the explicit WDV formula in Section 41. Block-wise reporting continues (not asset-by-asset), but the format is streamlined. The old Clause 18 had grown complex through incremental additions; Form 26 takes a fresh, formula-aligned approach.",
+          "explanationWrong": "Simplified and formula-aligned is correct. The key insight: since the WDV formula is now explicitly codified in Section 41 as [(A-D)+B-C]-E, the audit report format can mirror this formula directly. Each column in the depreciation schedule maps to a variable in the formula, creating consistency between statute and reporting.",
+          "tier": 2,
+          "subConcepts": ["depreciation-schedule-alignment", "formula-to-form"],
+          "isReview": false,
+          "oldSection": "Form 3CD (Clause 18)",
+          "newSection": "Form 26 (Part B)"
+        },
+        {
+          "order": 5,
+          "question": "For a practitioner transitioning from old Forms 3CA/3CB/3CD to Form 26, the most immediate action item is:",
+          "options": [
+            { "text": "Updating audit thresholds — they have changed", "correct": false },
+            { "text": "Updating audit templates, working paper formats, review checklists, and client information request letters", "correct": true },
+            { "text": "Changing the audit deadline — it has been advanced", "correct": false },
+            { "text": "No action needed — the old forms continue to be accepted", "correct": false }
+          ],
+          "explanation": "The thresholds and deadlines are unchanged — the action is on the reporting infrastructure. Templates, working papers, review checklists, and client information request letters must all be updated for Form 26's four-part structure, the digital infrastructure disclosure, and the categorised observation format.",
+          "explanationWrong": "Updating templates and infrastructure is correct. The thresholds have NOT changed. The deadline has NOT changed. The old forms do NOT continue — Form 26 replaces them entirely. The work is procedural: adapting practice systems to the new form's structure, especially the digital infrastructure data collection.",
+          "tier": 2,
+          "subConcepts": ["transition-action-item", "template-update"],
+          "isReview": false,
+          "oldSection": "Forms 3CA/3CB/3CD",
+          "newSection": "Form 26"
+        }
+      ]
+    },
+    {
+      "title": "Digital Infrastructure Disclosure Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA's client uses Tally Prime for accounting, stores backups on Google Cloud, and has no ERP system. In Form 26 Part C, the digital infrastructure disclosure must include:",
+          "options": [
+            { "text": "Only the Tally Prime software name", "correct": false },
+            { "text": "Tally Prime (name, version, source code availability), Google Cloud details, 'No ERP' declaration, server/backup IP addresses, and audit trail status", "correct": true },
+            { "text": "Only a Yes/No for electronic bookkeeping", "correct": false },
+            { "text": "This information is optional for small businesses", "correct": false }
+          ],
+          "explanation": "The disclosure is comprehensive even for simple setups. The auditor must report: software name (Tally Prime), version, whether source code is available, cloud service (Google Cloud — including the storage specifics), ERP status ('No ERP' must be stated, not left blank), IP addresses of servers/backup locations, and whether the software maintains a digital audit trail/edit log.",
+          "explanationWrong": "Full disclosure including version, cloud, ERP status, IP, and audit trail is correct. The disclosure requirement does not scale down for simpler businesses. Even a single-software, cloud-backup setup requires complete reporting. This is a new data collection exercise that must be built into every audit engagement.",
+          "tier": 3,
+          "subConcepts": ["digital-disclosure-scenario", "tally-cloud-example"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 2,
+          "question": "A manufacturing company uses SAP ERP with an on-premise server (IP: 192.168.1.100). The accounting software maintains an edit log. The audit trail status in Form 26 should be reported as:",
+          "options": [
+            { "text": "'Audit trail maintained' — since the software has an edit log", "correct": true },
+            { "text": "'Not applicable' — audit trail requirements apply only to listed companies", "correct": false },
+            { "text": "The audit trail status need not be disclosed for ERP systems", "correct": false },
+            { "text": "'Partial' — only if all modules maintain audit trail", "correct": false }
+          ],
+          "explanation": "If the accounting software maintains a digital audit trail / edit log, this is reported affirmatively. The Form 26 disclosure asks whether the audit trail exists — not whether it is mandated by another law. Even if the Companies Act audit trail requirement applies only to certain classes, the Form 26 disclosure applies to all assessees under tax audit.",
+          "explanationWrong": "Audit trail maintained is correct. The disclosure is a factual question: does the software maintain an edit log or not? It is not limited to companies subject to the Companies (Accounts) Rules audit trail mandate. Tax audit disclosure captures this information for all assessees, regardless of corporate law applicability.",
+          "tier": 3,
+          "subConcepts": ["audit-trail-reporting", "erp-scenario"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 63, the tax audit report for an assessee with an ITR due date of 31 October must be furnished by:",
+          "options": [
+            { "text": "31 October — same as ITR", "correct": false },
+            { "text": "30 September", "correct": true },
+            { "text": "31 August", "correct": false },
+            { "text": "15 October", "correct": false }
+          ],
+          "explanation": "One month before the ITR due date: 31 October minus one month = 30 September. This deadline is unchanged from old Section 44AB. For transfer pricing cases (ITR due 30 November), the audit report deadline is 31 October.",
+          "explanationWrong": "30 September is correct. The one-month-before rule is simple: subtract one month from the ITR deadline. 31 October → 30 September. 30 November → 31 October. This ensures the audit is complete before the return is filed.",
+          "tier": 3,
+          "subConcepts": ["deadline-computation", "one-month-before-review"],
+          "isReview": true,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 4,
+          "question": "A client's accounting software does NOT maintain an edit log. During the Form 26 audit, the auditor discovers that entries were deleted without trace. The auditor should classify this finding in Part D as:",
+          "options": [
+            { "text": "Emphasis of matter — noting the absence of audit trail", "correct": false },
+            { "text": "Compliance deviation — the accounting software lacks audit trail functionality", "correct": true },
+            { "text": "Adverse remark — the financial statements cannot be relied upon", "correct": false },
+            { "text": "Other observation — for informational purposes only", "correct": false }
+          ],
+          "explanation": "The absence of an audit trail in accounting software is a compliance deviation — the software infrastructure does not meet the expected digital record-keeping standard. This is distinct from an adverse remark (which questions the financial statements themselves) or an emphasis of matter (which draws attention without qualifying). The deletion of entries without trace is a factual finding supporting the deviation classification.",
+          "explanationWrong": "Compliance deviation is the most appropriate category. An adverse remark would be too strong unless the deleted entries materially affect the financial statements. Emphasis of matter is used to highlight matters already disclosed in the statements. Other observation is too weak for a missing audit trail. Compliance deviation accurately describes a gap in the expected digital infrastructure.",
+          "tier": 3,
+          "subConcepts": ["part-d-classification-scenario", "compliance-deviation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part D)"
+        },
+        {
+          "order": 5,
+          "question": "A firm of CAs is preparing their first tax audit under the ITA 2025. They need to update their client information request letter. What NEW data points must they collect that were never required under old Form 3CD?",
+          "options": [
+            { "text": "Depreciation schedule and partner salary details", "correct": false },
+            { "text": "Accounting software (name, version), cloud services, ERP details, server IP addresses, and audit trail / edit log status", "correct": true },
+            { "text": "GST registration number and TDS certificates", "correct": false },
+            { "text": "Bank account details and loan statements", "correct": false }
+          ],
+          "explanation": "The digital infrastructure disclosure is entirely new. Old Form 3CD never required software details, cloud service information, ERP specifics, server IPs, or audit trail status. These are the new data points that must be added to client information request letters. Depreciation, partner details, GST, TDS, and bank information were all collected under the old system.",
+          "explanationWrong": "Digital infrastructure data points are correct. These represent genuine new work for audit practitioners. The data must be collected from every audit client — not just large companies. A sole proprietor using a local accounting package on a desktop still needs to disclose software name, version, and audit trail status.",
+          "tier": 3,
+          "subConcepts": ["new-data-collection", "client-information-request"],
+          "isReview": false,
+          "oldSection": "Form 3CD",
+          "newSection": "Form 26 (Part C)"
+        }
+      ]
+    },
+    {
+      "title": "Threshold Application Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A retailer has total turnover of Rs 8 crore. Cash receipts are Rs 30 lakh (3.75% of total receipts) and cash payments are Rs 50 lakh (6.25% of total payments). Is tax audit required under Section 63?",
+          "options": [
+            { "text": "No — turnover is below Rs 10 crore", "correct": false },
+            { "text": "Yes — cash payments exceed 5%, so the Rs 10 crore enhanced threshold does not apply; Rs 1 crore base threshold is triggered", "correct": true },
+            { "text": "No — only cash receipts matter for the 5% test", "correct": false },
+            { "text": "Yes — but only if the retailer is a company", "correct": false }
+          ],
+          "explanation": "Both conditions must be met for the Rs 10 crore threshold: cash receipts ≤ 5% AND cash payments ≤ 5%. Here, cash receipts are 3.75% (pass), but cash payments are 6.25% (fail). Since one condition fails, the Rs 10 crore threshold is unavailable. At Rs 8 crore turnover, the base Rs 1 crore threshold is exceeded, so tax audit is required.",
+          "explanationWrong": "Yes, audit required, is correct. This is the classic trap: the retailer's turnover is below Rs 10 crore, so they assume no audit. But the cash payments exceed 5%, disqualifying the enhanced threshold. The fall-back to Rs 1 crore means audit is required. Constitution (company, firm, individual) is irrelevant — the threshold applies to all.",
+          "tier": 3,
+          "subConcepts": ["threshold-scenario", "cash-payment-disqualification"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 2,
+          "question": "A doctor's clinic has gross receipts of Rs 48 lakh. Is tax audit under Section 63 required?",
+          "options": [
+            { "text": "Yes — all medical professionals must be audited", "correct": false },
+            { "text": "No — gross receipts are below the Rs 50 lakh profession threshold", "correct": true },
+            { "text": "Yes — the Rs 1 crore business threshold applies to clinics", "correct": false },
+            { "text": "It depends on the doctor's cash receipts", "correct": false }
+          ],
+          "explanation": "Medical practice is a notified profession. The profession threshold under Section 63 is Rs 50 lakh gross receipts. At Rs 48 lakh, the threshold is not exceeded, so tax audit is not required. The Rs 1 crore business threshold does not apply to professions. There is no digital transaction enhancement for the profession threshold.",
+          "explanationWrong": "No audit required is correct. The profession threshold is Rs 50 lakh — simple and absolute. There is no cash/digital percentage condition for professions (that applies only to the business Rs 10 crore enhancement). At Rs 48 lakh, the doctor is below the threshold by Rs 2 lakh.",
+          "tier": 3,
+          "subConcepts": ["profession-threshold-scenario", "rs-50-lakh-test"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 3,
+          "question": "Form 26 Part A eliminates the old dual-track system by including what indicator?",
+          "options": [
+            { "text": "A Yes/No field for whether accounts are audited under another law", "correct": true },
+            { "text": "Separate sub-forms for 3CA and 3CB cases", "correct": false },
+            { "text": "A checkbox for company vs non-company", "correct": false },
+            { "text": "An auto-detection based on CIN number", "correct": false }
+          ],
+          "explanation": "Part A includes a Yes/No indicator for statutory audit status. If Yes (accounts audited under Companies Act or other law), the auditor provides the statutory audit details. The same form continues regardless — no bifurcation into separate forms. This is how the 3CA/3CB distinction is collapsed.",
+          "explanationWrong": "Yes/No indicator in Part A is correct. The elegance of this solution: instead of two separate forms with different formats, one form handles both scenarios through a simple binary indicator. The remaining parts (B, C, D) are identical regardless of whether statutory audit exists.",
+          "tier": 3,
+          "subConcepts": ["part-a-indicator-review", "dual-track-collapse"],
+          "isReview": true,
+          "oldSection": "Forms 3CA/3CB",
+          "newSection": "Form 26 (Part A)"
+        },
+        {
+          "order": 4,
+          "question": "An e-commerce business has turnover of Rs 9 crore. Cash receipts are Rs 10 lakh (1.1%) and cash payments are Rs 15 lakh (1.7%). Is tax audit under Section 63 required?",
+          "options": [
+            { "text": "Yes — turnover exceeds Rs 1 crore", "correct": false },
+            { "text": "No — both cash percentages are under 5%, so the Rs 10 crore threshold applies, and Rs 9 crore is below Rs 10 crore", "correct": true },
+            { "text": "Yes — e-commerce businesses are always audited", "correct": false },
+            { "text": "No — e-commerce is exempt from tax audit", "correct": false }
+          ],
+          "explanation": "Cash receipts 1.1% ≤ 5% (pass) and cash payments 1.7% ≤ 5% (pass). Both conditions met, so the enhanced Rs 10 crore threshold applies. At Rs 9 crore, turnover is below Rs 10 crore, so no tax audit is required. Without the enhancement, the Rs 1 crore base threshold would trigger audit.",
+          "explanationWrong": "No audit required is correct. This is the intended benefit of the digital transaction enhancement: businesses that predominantly operate through digital payments get a higher threshold. At 1.1% and 1.7% cash, this e-commerce business comfortably qualifies for the Rs 10 crore threshold.",
+          "tier": 3,
+          "subConcepts": ["enhanced-threshold-scenario", "digital-business"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        },
+        {
+          "order": 5,
+          "question": "A CA with professional receipts of Rs 60 lakh also runs a coaching business with turnover of Rs 80 lakh (all digital payments). How many tax audit triggers apply?",
+          "options": [
+            { "text": "None — both are below their respective thresholds", "correct": false },
+            { "text": "One — only the profession trigger (Rs 60 lakh > Rs 50 lakh)", "correct": true },
+            { "text": "Two — both profession and business thresholds are exceeded", "correct": false },
+            { "text": "One — only the business trigger", "correct": false }
+          ],
+          "explanation": "Professional receipts of Rs 60 lakh exceed the Rs 50 lakh profession threshold — audit triggered for the profession. Business turnover of Rs 80 lakh with all-digital payments: if cash conditions are met (they are, since all payments are digital, cash is 0%), the Rs 10 crore threshold applies. Rs 80 lakh < Rs 10 crore, so no business audit trigger. Only one trigger: the profession.",
+          "explanationWrong": "One trigger (profession only) is correct. The profession and business are assessed separately. The profession crosses its Rs 50 lakh threshold. The coaching business does not cross the enhanced Rs 10 crore threshold (since it is all digital). If the coaching had any significant cash, the base Rs 1 crore threshold might not be triggered either since turnover is Rs 80 lakh (below Rs 1 crore).",
+          "tier": 3,
+          "subConcepts": ["dual-activity-threshold", "profession-vs-business"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        }
+      ]
+    },
+    {
+      "title": "Form 26 — Practitioner Advisory Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client switches accounting software mid-year from Tally to Zoho Books. In Form 26, the digital infrastructure disclosure should report:",
+          "options": [
+            { "text": "Only Zoho Books — the current software", "correct": false },
+            { "text": "Both Tally and Zoho Books, with the period each was used, and data migration details", "correct": true },
+            { "text": "Only Tally — the software used for the majority of the year", "correct": false },
+            { "text": "Neither — software changes are not reportable", "correct": false }
+          ],
+          "explanation": "The disclosure must capture the full digital infrastructure for the audit period. A mid-year switch means both software systems were used. The auditor should report both (with versions), the migration date, and the data migration process. This is critical because the audit trail may have gaps at the transition point between two systems.",
+          "explanationWrong": "Both software systems with migration details is correct. The disclosure is for the entire audit period, not a point-in-time snapshot. A mid-year switch creates a data continuity question that the Department may scrutinise. Reporting only one system would be an incomplete disclosure.",
+          "tier": 3,
+          "subConcepts": ["software-switch-scenario", "migration-disclosure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 2,
+          "question": "An auditor files a tax audit report under Form 26 but forgets to generate a UDIN from the ICAI portal. What is the consequence?",
+          "options": [
+            { "text": "No consequence — UDIN is optional", "correct": false },
+            { "text": "The report may be treated as invalid until UDIN is generated and linked", "correct": true },
+            { "text": "Automatic penalty of Rs 10,000", "correct": false },
+            { "text": "The report is accepted but flagged for future reference", "correct": false }
+          ],
+          "explanation": "UDIN is mandatory. A tax audit report without UDIN may be treated as invalid by the Income Tax Department's processing systems. The auditor must generate the UDIN through the ICAI portal and link it to the filed report. Non-generation is a professional compliance issue, not just a tax compliance issue — ICAI can take disciplinary action.",
+          "explanationWrong": "Report may be treated as invalid is correct. UDIN serves as a verification mechanism — the Department cross-checks the UDIN with ICAI records to ensure the report is genuine. Without UDIN, this verification fails, and the report's authenticity cannot be confirmed through the automated check.",
+          "tier": 3,
+          "subConcepts": ["udin-consequence", "report-validity"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26, Section 63"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following audit observation classifications in Form 26 Part D would be used when the auditor finds that the assessee has not deducted TDS on certain payments?",
+          "options": [
+            { "text": "Qualification", "correct": false },
+            { "text": "Emphasis of matter", "correct": false },
+            { "text": "Compliance deviation", "correct": true },
+            { "text": "Other observation", "correct": false }
+          ],
+          "explanation": "Non-deduction of TDS is a statutory compliance failure — it falls under 'Compliance deviation.' A qualification would relate to the auditor's inability to verify or confirm a matter. Emphasis of matter draws attention to a disclosed item. Compliance deviation specifically addresses gaps in legal compliance, making it the appropriate category for TDS failures.",
+          "explanationWrong": "Compliance deviation is correct. The five Part D categories have distinct purposes: Qualifications = audit scope limitations, Emphasis = highlighted disclosures, Adverse = fundamental disagreements, Compliance deviations = statutory non-compliance, Other = residual. TDS non-deduction is squarely a compliance failure.",
+          "tier": 3,
+          "subConcepts": ["tds-compliance-deviation", "observation-classification"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Form 26 (Part D)"
+        },
+        {
+          "order": 4,
+          "question": "A client uses an open-source accounting package with source code available. Their books are on a local server (IP: 10.0.0.50) with no cloud backup. In Form 26, the auditor reports:",
+          "options": [
+            { "text": "Software name, version, 'source code available: Yes', server IP 10.0.0.50, 'cloud services: None', and audit trail status of the open-source package", "correct": true },
+            { "text": "Only 'open-source software used' — no further details needed", "correct": false },
+            { "text": "This setup does not require digital infrastructure disclosure", "correct": false },
+            { "text": "Only the server IP address", "correct": false }
+          ],
+          "explanation": "Every field in the digital infrastructure disclosure must be completed. The source code availability question (which most commercial software answers 'No') is answered 'Yes' for open-source software. The local server IP must be disclosed. 'No cloud services' must be stated explicitly. The audit trail capability of the open-source package must be verified and reported.",
+          "explanationWrong": "Full disclosure with all fields is correct. Open-source status actually adds a dimension: the source code availability is a new data point. The Department may be interested in whether the software is certified or widely used. Every disclosure field — software, version, source code, cloud, ERP, IP, audit trail — requires a response.",
+          "tier": 3,
+          "subConcepts": ["open-source-scenario", "local-server-disclosure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 26 (Part C)"
+        },
+        {
+          "order": 5,
+          "question": "A business has turnover of Rs 1.2 crore with all transactions through bank transfers (0% cash). Under the ITA 2025, is tax audit under Section 63 required?",
+          "options": [
+            { "text": "Yes — turnover exceeds Rs 1 crore (the enhanced Rs 10 crore threshold does not help because turnover is only Rs 1.2 crore, but the base threshold is crossed)", "correct": false },
+            { "text": "No — with 0% cash, the Rs 10 crore enhanced threshold applies, and Rs 1.2 crore is below Rs 10 crore", "correct": true },
+            { "text": "Yes — all businesses above Rs 50 lakh must be audited", "correct": false },
+            { "text": "It depends on the type of business", "correct": false }
+          ],
+          "explanation": "With 0% cash receipts and 0% cash payments, both 5% conditions are met. The enhanced Rs 10 crore threshold applies. Rs 1.2 crore < Rs 10 crore, so no tax audit is required. Without the enhancement, the Rs 1 crore threshold would have triggered audit. This is the precise scenario the digital transaction enhancement was designed for.",
+          "explanationWrong": "No audit required is correct. The enhancement works: a fully digital business with Rs 1.2 crore turnover is below the Rs 10 crore enhanced threshold. The first option's reasoning is flawed — it acknowledges the enhancement but then ignores it. The Rs 1 crore base threshold is irrelevant once the enhanced threshold is activated.",
+          "tier": 3,
+          "subConcepts": ["digital-business-no-audit", "enhancement-application"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        }
+      ]
+    }
+  ]
+}

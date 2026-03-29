@@ -1,0 +1,835 @@
+{
+  "unit": "3.4",
+  "title": "TDS on Non-Residents — Section 393, Table 2",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Table 2 Overview and Section 195 Split",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Table 2 of Section 393 contain for TDS on payments to non-residents?",
+          "options": [
+            { "text": "26 entries", "correct": false },
+            { "text": "19 entries", "correct": true },
+            { "text": "10 entries", "correct": false },
+            { "text": "30 entries", "correct": false }
+          ],
+          "explanation": "Table 2 has 19 entries covering various payment types to non-residents. This is fewer than Table 1's 26 entries but represents a significant expansion from the old single Section 195.",
+          "explanationWrong": "19 entries. The old Act primarily had one catch-all Section 195 for non-resident TDS, which has now been broken into 19 specific serial entries for clarity.",
+          "tier": 1,
+          "subConcepts": ["table-2-structure", "19-entries"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 195 was a catch-all provision for TDS on payments to non-residents. What has changed in the new Act?",
+          "options": [
+            { "text": "Section 195 continues unchanged in the new Act", "correct": false },
+            { "text": "The catch-all has been split into specific serial numbers within Table 2 of Section 393", "correct": true },
+            { "text": "Non-resident TDS has been abolished", "correct": false },
+            { "text": "It has been merged into Table 1 alongside resident payments", "correct": false }
+          ],
+          "explanation": "Old Section 195's broad catch-all approach has been replaced by specific serial entries in Table 2. Each payment type to non-residents now has its own dedicated entry with a defined rate.",
+          "explanationWrong": "Split into specific serials. This is a major structural improvement — instead of one section covering everything, each non-resident payment type has its own identifiable entry in Table 2.",
+          "tier": 1,
+          "subConcepts": ["section-195-split", "specific-serial-entries"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.3, Table 1 of Section 393 covers TDS on payments to which type of payee?",
+          "options": [
+            { "text": "Non-residents only", "correct": false },
+            { "text": "Residents", "correct": true },
+            { "text": "Any person", "correct": false },
+            { "text": "Companies only", "correct": false }
+          ],
+          "explanation": "Table 1 covers resident payees, Table 2 covers non-resident payees, and Table 3 covers any person regardless of status. This was established in Unit 3.3.",
+          "explanationWrong": "Table 1 is for residents. This review reinforces the table selection logic: payee status determines which table applies.",
+          "tier": 1,
+          "subConcepts": ["table-1-residents", "table-selection"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 194E for TDS on payments to non-resident sportsmen/entertainers maps to which serial in Table 2?",
+          "options": [
+            { "text": "Serial 5", "correct": false },
+            { "text": "Serial 1", "correct": true },
+            { "text": "Serial 9", "correct": false },
+            { "text": "Serial 16", "correct": false }
+          ],
+          "explanation": "Old Section 194E (non-resident sportsmen/entertainment associations) maps to Serial 1 of Table 2. This is the opening entry of the non-resident TDS table.",
+          "explanationWrong": "Serial 1 of Table 2 is correct. 194E was one of the few old sections specifically dedicated to non-resident payments (apart from the catch-all 195), and it gets the first position in Table 2.",
+          "tier": 1,
+          "subConcepts": ["section-194e-mapping", "serial-1-table2", "sportsmen-tds"],
+          "isReview": false,
+          "oldSection": "Section 194E",
+          "newSection": "Section 393, Table 2, Serial 1"
+        },
+        {
+          "order": 5,
+          "question": "What TDS rate range applies to the various entries in Table 2 for non-resident payments?",
+          "options": [
+            { "text": "A uniform 10% rate for all entries", "correct": false },
+            { "text": "5% to 30% depending on the payment type", "correct": true },
+            { "text": "A uniform 20% rate for all entries", "correct": false },
+            { "text": "1% to 5% — lower than resident rates", "correct": false }
+          ],
+          "explanation": "Table 2 rates range from 5% to 30% depending on the payment type. For example, certain interest payments attract 5%, while other income types attract 30%. These rates carry forward from the old Act without change.",
+          "explanationWrong": "5% to 30%. The rates vary significantly based on payment type — interest may be 5% or 20%, royalties typically 10%, and some payments up to 30%. No uniform rate applies.",
+          "tier": 1,
+          "subConcepts": ["table-2-rate-range", "5-to-30-percent"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Infrastructure and Interest Entries (Serials 3-4)",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 194LC for TDS on interest paid to non-residents on foreign currency borrowings maps to which serials in Table 2?",
+          "options": [
+            { "text": "Serial 1 only", "correct": false },
+            { "text": "Serials 3 and 4", "correct": true },
+            { "text": "Serial 5 only", "correct": false },
+            { "text": "Serial 9", "correct": false }
+          ],
+          "explanation": "Old Section 194LC splits into two entries: Serials 3 and 4 in Table 2. This reflects the different rate categories within 194LC (e.g., bonds vs rupee-denominated bonds may have different rates).",
+          "explanationWrong": "Serials 3 and 4 both come from old 194LC. The split allows different rates for different types of foreign currency interest that were previously under one section.",
+          "tier": 1,
+          "subConcepts": ["section-194lc-mapping", "serials-3-4", "foreign-currency-interest"],
+          "isReview": false,
+          "oldSection": "Section 194LC",
+          "newSection": "Section 393, Table 2, Serials 3 and 4"
+        },
+        {
+          "order": 2,
+          "question": "When old Section 194LC is split into Serials 3 and 4 of Table 2, what is the typical rate applicable to these interest payments?",
+          "options": [
+            { "text": "30%", "correct": false },
+            { "text": "5% (concessional rate for foreign currency borrowings)", "correct": true },
+            { "text": "20%", "correct": false },
+            { "text": "1%", "correct": false }
+          ],
+          "explanation": "Section 194LC provided a concessional 5% TDS rate on interest from foreign currency borrowings, designed to attract foreign investment. This rate continues in Table 2 entries.",
+          "explanationWrong": "5% concessional rate. This preferential rate was introduced to encourage foreign borrowings for Indian businesses and continues unchanged in the new table structure.",
+          "tier": 1,
+          "subConcepts": ["5-percent-rate", "concessional-rate", "foreign-borrowing"],
+          "isReview": false,
+          "oldSection": "Section 194LC",
+          "newSection": "Section 393, Table 2, Serials 3/4"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, what happened to old Sections 206AB and 206CCA in the new Act?",
+          "options": [
+            { "text": "Retained with modifications", "correct": false },
+            { "text": "Consolidated into Section 393", "correct": false },
+            { "text": "Omitted from the new Act entirely", "correct": true },
+            { "text": "Merged into Section 397", "correct": false }
+          ],
+          "explanation": "206AB and 206CCA (higher TDS/TCS on non-filers) were omitted from the new Act. Section 397 (higher rate for no-PAN) is a different concept.",
+          "explanationWrong": "Omitted entirely. This review from Unit 3.1 reinforces a key change — non-filer surcharge provisions are gone from the new Act.",
+          "tier": 1,
+          "subConcepts": ["206ab-omitted", "206cca-omitted"],
+          "isReview": true,
+          "oldSection": "Sections 206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A company borrows USD 10 million from an overseas bank and pays quarterly interest. After 1 April 2026, which Table 2 serial governs TDS on this interest?",
+          "options": [
+            { "text": "Serial 1", "correct": false },
+            { "text": "Serial 3 or 4 (depending on the specific borrowing type under old 194LC)", "correct": true },
+            { "text": "Serial 9", "correct": false },
+            { "text": "No TDS — foreign currency interest is exempt", "correct": false }
+          ],
+          "explanation": "Interest on foreign currency borrowings (old 194LC) maps to Serials 3 and 4. The specific serial depends on the type of borrowing instrument. The concessional 5% rate continues.",
+          "explanationWrong": "Serials 3 or 4 apply. The borrowing type (bonds, loans, rupee-denominated bonds) determines which specific serial within the 194LC mapping applies.",
+          "tier": 1,
+          "subConcepts": ["foreign-currency-borrowing-tds", "serial-3-or-4"],
+          "isReview": false,
+          "oldSection": "Section 194LC",
+          "newSection": "Section 393, Table 2, Serials 3/4"
+        },
+        {
+          "order": 5,
+          "question": "Why was old Section 195 (the catch-all) split into specific serial entries instead of being retained as-is?",
+          "options": [
+            { "text": "To increase TDS rates on non-residents", "correct": false },
+            { "text": "To provide clarity — each payment type now has a defined entry with a specified rate instead of requiring interpretation", "correct": true },
+            { "text": "To eliminate DTAA applicability", "correct": false },
+            { "text": "To reduce the number of entries", "correct": false }
+          ],
+          "explanation": "The split provides clarity. Under old 195, determining the correct rate required cross-referencing with DTAA and other provisions. Now, each payment type has its own serial with a specified rate, reducing ambiguity.",
+          "explanationWrong": "Clarity was the reason. Old 195 was often confusing because it did not specify rates for each payment type in one place. The table format lists everything explicitly.",
+          "tier": 1,
+          "subConcepts": ["section-195-rationale", "clarity-improvement"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Mutual Funds and FII Entries (Serials 5, 9-14)",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 196A for TDS on income from mutual fund units paid to non-residents maps to which serials in Table 2?",
+          "options": [
+            { "text": "Serial 5 only", "correct": false },
+            { "text": "Serials 9 and 10", "correct": true },
+            { "text": "Serial 1", "correct": false },
+            { "text": "Serials 15 and 16", "correct": false }
+          ],
+          "explanation": "Old Section 196A splits into Serials 9 and 10 of Table 2. The split likely distinguishes between different types of mutual fund income (e.g., equity-oriented vs other funds) paid to non-residents.",
+          "explanationWrong": "Serials 9 and 10 cover old 196A. Like 194LC splitting into two entries, 196A also expands into two serial entries for greater specificity.",
+          "tier": 1,
+          "subConcepts": ["section-196a-mapping", "serials-9-10", "mutual-fund-nonresident"],
+          "isReview": false,
+          "oldSection": "Section 196A",
+          "newSection": "Section 393, Table 2, Serials 9 and 10"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 196B for TDS on income from units of offshore funds to non-residents maps to which serials in Table 2?",
+          "options": [
+            { "text": "Serials 9 and 10", "correct": false },
+            { "text": "Serials 11 and 12", "correct": true },
+            { "text": "Serials 13 and 14", "correct": false },
+            { "text": "Serial 16", "correct": false }
+          ],
+          "explanation": "Old Section 196B splits into Serials 11 and 12 in Table 2. The pattern of splitting old sections into two entries (for different rate categories) continues here.",
+          "explanationWrong": "Serials 11 and 12 replace old 196B. The consistent pattern of two-serial splits for investment income sections helps distinguish between different income sub-types.",
+          "tier": 1,
+          "subConcepts": ["section-196b-mapping", "serials-11-12", "offshore-fund"],
+          "isReview": false,
+          "oldSection": "Section 196B",
+          "newSection": "Section 393, Table 2, Serials 11 and 12"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.3, how many entries does Table 1 contain for TDS on payments to residents?",
+          "options": [
+            { "text": "19 entries", "correct": false },
+            { "text": "26 entries across 8 categories", "correct": true },
+            { "text": "10 entries", "correct": false },
+            { "text": "6 entries", "correct": false }
+          ],
+          "explanation": "Table 1 has 26 entries in 8 categories. This was covered in Unit 3.3. Table 2 (non-residents) has 19 entries — fewer than Table 1.",
+          "explanationWrong": "26 entries in 8 categories for Table 1. This review helps compare the relative sizes of Tables 1 and 2.",
+          "tier": 1,
+          "subConcepts": ["table-1-size", "26-entries"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 196C for TDS on income from foreign currency bonds/GDRs to non-residents maps to which serials in Table 2?",
+          "options": [
+            { "text": "Serials 11 and 12", "correct": false },
+            { "text": "Serials 13 and 14", "correct": true },
+            { "text": "Serials 15 and 16", "correct": false },
+            { "text": "Serials 3 and 4", "correct": false }
+          ],
+          "explanation": "Old Section 196C splits into Serials 13 and 14 of Table 2. The dual-serial pattern continues for foreign currency bonds and GDR income.",
+          "explanationWrong": "Serials 13 and 14 replace old 196C. The consistent two-entry split pattern (likely for different income types or rates within the section) runs through Table 2.",
+          "tier": 1,
+          "subConcepts": ["section-196c-mapping", "serials-13-14", "foreign-currency-bonds"],
+          "isReview": false,
+          "oldSection": "Section 196C",
+          "newSection": "Section 393, Table 2, Serials 13 and 14"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 196D for TDS on income of FIIs (Foreign Institutional Investors) maps to which serials in Table 2?",
+          "options": [
+            { "text": "Serials 13 and 14", "correct": false },
+            { "text": "Serials 5 and 15", "correct": true },
+            { "text": "Serials 16 only", "correct": false },
+            { "text": "Serials 9 and 10", "correct": false }
+          ],
+          "explanation": "Old Section 196D maps to Serials 5 and 15 of Table 2. Notably, these are not consecutive serials — Serial 5 and Serial 15 appear at different positions in the table, reflecting different income categories within 196D.",
+          "explanationWrong": "Serials 5 and 15 cover old 196D. The non-consecutive placement is unusual and worth noting — it reflects the table's organisation by payment type rather than by old section number.",
+          "tier": 1,
+          "subConcepts": ["section-196d-mapping", "serials-5-15", "fii-tds"],
+          "isReview": false,
+          "oldSection": "Section 196D",
+          "newSection": "Section 393, Table 2, Serials 5 and 15"
+        }
+      ]
+    },
+    {
+      "title": "New Entry — Section 196E (Serial 16)",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Serial 16 of Table 2 maps to which provision, and what is notable about it?",
+          "options": [
+            { "text": "It maps to old Section 195 — nothing new", "correct": false },
+            { "text": "It maps to Section 196E, which is a NEW provision not present in the old Act", "correct": true },
+            { "text": "It maps to old Section 194E", "correct": false },
+            { "text": "It is a placeholder for future amendments", "correct": false }
+          ],
+          "explanation": "Serial 16 corresponds to Section 196E — a new provision introduced in the 2025 Act. Unlike other Table 2 entries that map from existing old sections, this is an entirely new TDS obligation.",
+          "explanationWrong": "Section 196E is NEW. This is one of the few genuinely new provisions in the TDS framework, not just a renumbering of an old section.",
+          "tier": 2,
+          "subConcepts": ["section-196e-new", "serial-16", "new-provision"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 2, Serial 16 (Section 196E)"
+        },
+        {
+          "order": 2,
+          "question": "Why is Serial 16 (Section 196E) particularly significant for practitioners studying the new TDS framework?",
+          "options": [
+            { "text": "It has the highest TDS rate in the table", "correct": false },
+            { "text": "It is a genuinely new TDS provision — not a mapping from any old section", "correct": true },
+            { "text": "It applies only to government entities", "correct": false },
+            { "text": "It replaces all other non-resident provisions", "correct": false }
+          ],
+          "explanation": "Most Table 2 entries are mappings from old sections. Serial 16 (Section 196E) is notable because it is a genuinely new provision with no equivalent in the 1961 Act, requiring practitioners to learn a new obligation.",
+          "explanationWrong": "It is genuinely new. While the rest of the TDS framework is 'same substance, new structure,' Section 196E introduces a new TDS trigger that did not exist before.",
+          "tier": 2,
+          "subConcepts": ["new-vs-mapped", "practitioner-alert"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 196E"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, which new section replaces old Section 87A as the rebate provision?",
+          "options": [
+            { "text": "Section 155", "correct": false },
+            { "text": "Section 157", "correct": true },
+            { "text": "Section 202", "correct": false },
+            { "text": "Section 392(4)", "correct": false }
+          ],
+          "explanation": "Section 157 replaces old Section 87A. This was covered in Unit 3.2 on salary TDS adjustments.",
+          "explanationWrong": "Section 157 is correct. Section 202 replaces 115BAC (new regime), not 87A (rebate).",
+          "tier": 2,
+          "subConcepts": ["section-157", "rebate-mapping"],
+          "isReview": true,
+          "oldSection": "Section 87A",
+          "newSection": "Section 157"
+        },
+        {
+          "order": 4,
+          "question": "If a company encounters a payment type to a non-resident that appears to fall under Section 196E (Serial 16), but also seems covered by an existing DTAA provision, which takes precedence?",
+          "options": [
+            { "text": "Section 196E always overrides DTAA", "correct": false },
+            { "text": "DTAA continues to override domestic TDS rates where applicable", "correct": true },
+            { "text": "The higher of the two rates applies", "correct": false },
+            { "text": "Neither applies during the transition period", "correct": false }
+          ],
+          "explanation": "DTAA override continues under the new Act. Where a DTAA provides a lower rate or exemption, it prevails over the domestic rate in Table 2, including Serial 16. This principle is unchanged from the old Act.",
+          "explanationWrong": "DTAA continues to override. The new Act does not alter India's DTAA obligations. The beneficial rate (lower of DTAA or domestic) applies, just as under the old Act.",
+          "tier": 2,
+          "subConcepts": ["dtaa-override", "section-196e", "treaty-supremacy"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "How many of Table 2's 19 entries are genuinely new provisions (not mappings from old sections)?",
+          "options": [
+            { "text": "All 19 are new", "correct": false },
+            { "text": "Only 1 — Serial 16 (Section 196E)", "correct": true },
+            { "text": "5 entries are completely new", "correct": false },
+            { "text": "None — all are mappings from old sections", "correct": false }
+          ],
+          "explanation": "Only Serial 16 (Section 196E) is genuinely new. The remaining 18 entries are mappings from existing old sections (194E, 194LC, 195, 196A, 196B, 196C, 196D). The new Act mostly reorganises rather than creates new obligations.",
+          "explanationWrong": "Just 1 new entry. This reinforces the key theme: the new TDS framework is predominantly a structural reorganisation, with very few genuinely new substantive provisions.",
+          "tier": 2,
+          "subConcepts": ["1-new-entry", "reorganisation-theme"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "DTAA Override Principle",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Does the DTAA (Double Tax Avoidance Agreement) override principle continue under the new Act's Section 393, Table 2?",
+          "options": [
+            { "text": "No — DTAAs are renegotiated under the new Act", "correct": false },
+            { "text": "Yes — DTAA override continues; the beneficial rate (lower of DTAA or domestic) applies", "correct": true },
+            { "text": "DTAAs only apply to Table 1 (residents), not Table 2", "correct": false },
+            { "text": "DTAAs are suspended for the first year of the new Act", "correct": false }
+          ],
+          "explanation": "DTAA override is a constitutional and treaty-level principle that continues unchanged. Where a DTAA rate is lower than the Table 2 rate, the DTAA rate applies. This is fundamental to non-resident TDS.",
+          "explanationWrong": "DTAA override continues. DTAAs are international treaties and are not affected by domestic law changes. The beneficial rate principle (lower of DTAA or Act rate) remains.",
+          "tier": 2,
+          "subConcepts": ["dtaa-override", "beneficial-rate", "treaty-principle"],
+          "isReview": false,
+          "oldSection": "Section 90/90A",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 2,
+          "question": "If Table 2 specifies a 20% TDS rate on royalty to a non-resident, but the India-US DTAA provides a 15% rate, what rate should the deductor apply?",
+          "options": [
+            { "text": "20% — the domestic rate prevails post new Act", "correct": false },
+            { "text": "15% — the DTAA rate as it is more beneficial", "correct": true },
+            { "text": "The average of 20% and 15% = 17.5%", "correct": false },
+            { "text": "No TDS — DTAAs exempt all payments", "correct": false }
+          ],
+          "explanation": "The DTAA rate of 15% applies as it is lower (more beneficial to the non-resident). The deductor must apply the lower of the domestic rate (Table 2) or the DTAA rate, provided the non-resident furnishes the Tax Residency Certificate.",
+          "explanationWrong": "15% DTAA rate applies. The beneficial-rate principle means the lower rate prevails. However, the non-resident must furnish a TRC (Tax Residency Certificate) and Form 10F to claim the DTAA benefit.",
+          "tier": 2,
+          "subConcepts": ["beneficial-rate-application", "royalty-tds", "trc-requirement"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.3, old Section 194C for contractor payments maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 6(iii)", "correct": false },
+            { "text": "Serial 6(i)", "correct": true },
+            { "text": "Serial 8(ii)", "correct": false },
+            { "text": "Serial 1(ii)", "correct": false }
+          ],
+          "explanation": "Old 194C maps to Serial 6(i) of Table 1. This was covered in Unit 3.3 on resident TDS under Table 1.",
+          "explanationWrong": "Serial 6(i) is correct. Category 6 covers work/services: 6(i) = contractors, 6(ii) = 194M payments, 6(iii) = professional fees.",
+          "tier": 2,
+          "subConcepts": ["section-194c-mapping", "serial-6-i"],
+          "isReview": true,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Serial 6(i)"
+        },
+        {
+          "order": 4,
+          "question": "A non-resident claims DTAA benefit on interest income but fails to provide a Tax Residency Certificate (TRC). What TDS rate should the deductor apply?",
+          "options": [
+            { "text": "The DTAA rate since the non-resident has claimed it", "correct": false },
+            { "text": "The domestic rate from Table 2 (DTAA benefit denied without TRC)", "correct": true },
+            { "text": "No TDS at all — the matter goes to the AO", "correct": false },
+            { "text": "The average of DTAA and domestic rates", "correct": false }
+          ],
+          "explanation": "Without a TRC, the DTAA benefit cannot be claimed. The deductor must apply the full domestic rate from Table 2. The TRC is a mandatory prerequisite for availing DTAA rates.",
+          "explanationWrong": "Domestic rate applies without TRC. The TRC requirement (under old Section 90(4)/90A(4)) continues. A mere claim is insufficient — documentary evidence is mandatory.",
+          "tier": 2,
+          "subConcepts": ["trc-mandatory", "dtaa-denied-without-trc", "domestic-rate-fallback"],
+          "isReview": false,
+          "oldSection": "Section 90(4)",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "Under the new Act, for DTAA benefit on non-resident TDS, which documents must the non-resident provide to the deductor?",
+          "options": [
+            { "text": "Only PAN", "correct": false },
+            { "text": "Tax Residency Certificate (TRC) and Form 10F", "correct": true },
+            { "text": "Passport copy only", "correct": false },
+            { "text": "No documents needed — DTAA applies automatically", "correct": false }
+          ],
+          "explanation": "A TRC from the foreign country's tax authority and Form 10F (self-declaration) are required to claim DTAA rates. Without these, the full domestic rate from Table 2 applies.",
+          "explanationWrong": "TRC and Form 10F are mandatory. PAN is separately required under Section 397 provisions, but for DTAA benefit specifically, TRC and Form 10F are the key documents.",
+          "tier": 2,
+          "subConcepts": ["trc-form10f", "dtaa-documentation"],
+          "isReview": false,
+          "oldSection": "Section 90(4)/90A(4)",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Rate Analysis Across Table 2",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the typical TDS rate on payments to non-resident sportsmen/entertainers under Table 2, Serial 1 (old 194E)?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "20%", "correct": true },
+            { "text": "5%", "correct": false },
+            { "text": "30%", "correct": false }
+          ],
+          "explanation": "The TDS rate on payments to non-resident sportsmen/entertainment associations is 20% (plus surcharge and cess). This rate carries forward unchanged from old Section 194E.",
+          "explanationWrong": "20% is the rate. This is one of the higher rates in Table 2, reflecting the nature of payments to non-resident performers.",
+          "tier": 2,
+          "subConcepts": ["sportsmen-rate", "20-percent", "serial-1-rate"],
+          "isReview": false,
+          "oldSection": "Section 194E",
+          "newSection": "Section 393, Table 2, Serial 1"
+        },
+        {
+          "order": 2,
+          "question": "Why do some old sections (like 194LC, 196A, 196B, 196C, 196D) each split into TWO serial entries in Table 2?",
+          "options": [
+            { "text": "To double the TDS rate", "correct": false },
+            { "text": "To distinguish between different income sub-types that had different rates or conditions within the same old section", "correct": true },
+            { "text": "To apply TDS twice on the same payment", "correct": false },
+            { "text": "Administrative convenience only — no substantive difference", "correct": false }
+          ],
+          "explanation": "Each old section covered multiple income sub-types with different rates. For example, 196D covered both capital gains and other income of FIIs at different rates. The table format makes these distinctions explicit.",
+          "explanationWrong": "Different rate categories within the same old section are now separated into distinct serial entries. This adds clarity — each serial has ONE rate, eliminating the need to parse conditions within a section.",
+          "tier": 2,
+          "subConcepts": ["dual-serial-split", "rate-distinction", "clarity"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.1, which section provides for lower/nil TDS deduction certificates (replacing old Section 197)?",
+          "options": [
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 395", "correct": true },
+            { "text": "Section 397", "correct": false },
+            { "text": "Section 399", "correct": false }
+          ],
+          "explanation": "Section 395 replaces old Section 197 for lower/nil TDS certificates. This was covered in Unit 3.1.",
+          "explanationWrong": "Section 395 is correct. A non-resident can also apply for a lower TDS certificate under this section if their actual tax liability is lower than the Table 2 rate.",
+          "tier": 2,
+          "subConcepts": ["section-395", "lower-tds-certificate"],
+          "isReview": true,
+          "oldSection": "Section 197",
+          "newSection": "Section 395"
+        },
+        {
+          "order": 4,
+          "question": "For interest payments covered by Serials 3 and 4 (old 194LC), the concessional 5% rate was specifically designed to encourage which type of economic activity?",
+          "options": [
+            { "text": "Domestic lending", "correct": false },
+            { "text": "Foreign currency borrowings by Indian companies (infrastructure and bonds)", "correct": true },
+            { "text": "NRI fixed deposits", "correct": false },
+            { "text": "Government securities trading", "correct": false }
+          ],
+          "explanation": "The 5% concessional rate under old 194LC (now Serials 3/4) was designed to encourage Indian companies to borrow in foreign currency — particularly for infrastructure projects and through bond issuances.",
+          "explanationWrong": "Foreign currency borrowings by Indian companies. The concessional rate reduces the withholding tax burden on foreign lenders, making it cheaper for Indian companies to access overseas capital.",
+          "tier": 2,
+          "subConcepts": ["194lc-rationale", "foreign-borrowing-incentive"],
+          "isReview": false,
+          "oldSection": "Section 194LC",
+          "newSection": "Section 393, Table 2, Serials 3/4"
+        },
+        {
+          "order": 5,
+          "question": "At which end of the rate spectrum does non-resident TDS on 'other income' (catch-all category) typically fall?",
+          "options": [
+            { "text": "At 5% — the lowest rate", "correct": false },
+            { "text": "At 30% — the highest rate in Table 2", "correct": true },
+            { "text": "At 10% — the median rate", "correct": false },
+            { "text": "No fixed rate — depends on the AO's discretion", "correct": false }
+          ],
+          "explanation": "Residual/catch-all payments to non-residents attract 30% TDS — the highest domestic rate. Specific entries with lower rates (5%, 10%, 20%) are carve-outs for identified payment types.",
+          "explanationWrong": "30% for catch-all. The rate structure is: specific categories get preferential rates (5-20%), while unspecified 'other income' attracts the full 30%. DTAA may reduce this.",
+          "tier": 2,
+          "subConcepts": ["catch-all-30-percent", "residual-rate"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    },
+    {
+      "title": "Non-Resident TDS Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An Indian company pays USD 1 million in royalty to a UK company. India-UK DTAA rate for royalty is 15%, and Table 2 domestic rate is 10%. Which rate applies?",
+          "options": [
+            { "text": "15% — DTAA rate always applies", "correct": false },
+            { "text": "10% — domestic rate is lower and more beneficial", "correct": true },
+            { "text": "12.5% — average of both", "correct": false },
+            { "text": "20% — the general non-resident rate", "correct": false }
+          ],
+          "explanation": "The beneficial rate principle means the LOWER of domestic or DTAA applies. Here, the domestic rate (10%) is lower than the DTAA rate (15%), so 10% applies. The beneficial rate works both ways — whichever is lower prevails.",
+          "explanationWrong": "10% domestic rate applies. The beneficial rate principle is not 'DTAA always wins' — it is 'whichever is lower wins.' In this case, the domestic rate is actually more favourable.",
+          "tier": 3,
+          "subConcepts": ["beneficial-rate-both-ways", "royalty-tds-scenario", "dtaa-vs-domestic"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 2,
+          "question": "A Singapore subsidiary remits management fees to its Indian parent (payment from India to Singapore). Table 2 rate is 10% (FTS), India-Singapore DTAA does not cover FTS. What rate applies?",
+          "options": [
+            { "text": "0% — DTAA protects the payment", "correct": false },
+            { "text": "10% domestic rate from Table 2 since DTAA does not have an FTS article", "correct": true },
+            { "text": "30% — the catch-all rate", "correct": false },
+            { "text": "20% — the sportsmen rate applies to all Singapore payments", "correct": false }
+          ],
+          "explanation": "When the DTAA does not cover a specific payment type (FTS not in India-Singapore DTAA), the domestic rate from Table 2 applies without any treaty benefit. The deductor must apply the 10% domestic FTS rate.",
+          "explanationWrong": "10% domestic rate applies. If the DTAA does not have an article covering the specific payment type, no treaty benefit is available and the full domestic rate applies.",
+          "tier": 3,
+          "subConcepts": ["no-dtaa-article", "fts-scenario", "domestic-rate-default"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.3, old Section 194J for professional fees maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 6(i)", "correct": false },
+            { "text": "Serial 6(ii)", "correct": false },
+            { "text": "Serial 6(iii)", "correct": true },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old Section 194J maps to Serial 6(iii) of Table 1. This was covered in Unit 3.3 on resident TDS.",
+          "explanationWrong": "Serial 6(iii) is correct. In Category 6: 6(i) = contractors (194C), 6(ii) = individual/HUF payments (194M), 6(iii) = professional/technical fees (194J).",
+          "tier": 3,
+          "subConcepts": ["section-194j-mapping", "serial-6-iii"],
+          "isReview": true,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393, Table 1, Serial 6(iii)"
+        },
+        {
+          "order": 4,
+          "question": "An Indian tech company pays a US-based cloud provider for SaaS services. Is this royalty (subject to Table 2 TDS) or business income (not subject to TDS without PE)?",
+          "options": [
+            { "text": "Always royalty — all technology payments are royalty", "correct": false },
+            { "text": "It depends on the characterisation — if treated as business income under DTAA and the US company has no PE in India, no TDS may apply", "correct": true },
+            { "text": "Always business income — cloud services are never royalty", "correct": false },
+            { "text": "Table 2 has a specific serial for SaaS — refer to that", "correct": false }
+          ],
+          "explanation": "The characterisation of SaaS payments (royalty vs business income) is a contentious issue. Under many DTAAs, if the payment is business income and the non-resident has no PE in India, no TDS applies. The Table 2 structure does not change this analysis.",
+          "explanationWrong": "Characterisation matters. The table format does not resolve the fundamental question of whether a payment is royalty (taxable) or business income (taxable only if PE exists). This requires case-by-case DTAA analysis.",
+          "tier": 3,
+          "subConcepts": ["saas-characterisation", "royalty-vs-business-income", "pe-test"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "Post 1 April 2026, an AO issues a notice under Section 201 for short deduction of TDS on a payment to a non-resident in FY 2025-26. Which sections should the notice reference?",
+          "options": [
+            { "text": "Section 393, Table 2 — the new Act applies to all notices after 1 April 2026", "correct": false },
+            { "text": "Old Section 195 — the payment relates to a pre-transition period", "correct": true },
+            { "text": "Both old and new sections", "correct": false },
+            { "text": "No section — the notice is invalid after the old Act expires", "correct": false }
+          ],
+          "explanation": "The payment was in FY 2025-26 (old Act period). Proceedings relating to that period are governed by the old Act under the transition provisions. The AO correctly references old Section 195.",
+          "explanationWrong": "Old Section 195 applies. The transitional provisions preserve the old Act for proceedings relating to pre-1 April 2026 periods, regardless of when the notice is issued.",
+          "tier": 3,
+          "subConcepts": ["pre-transition-notice", "old-act-proceedings", "section-536"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 536"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Border Compliance Under New Framework",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An Indian company has three non-resident payments: royalty to Japan, software license to Germany, and interest on ECB to USA. Under Table 2, each requires what first-step analysis?",
+          "options": [
+            { "text": "Apply the highest rate from Table 2 to all three", "correct": false },
+            { "text": "Identify the correct serial in Table 2 for each payment type, then compare with the respective DTAA rate", "correct": true },
+            { "text": "Apply old Section 195 rate to all since it's a transition year", "correct": false },
+            { "text": "No TDS on any — cross-border payments are exempt", "correct": false }
+          ],
+          "explanation": "Each payment requires: (1) identify the Table 2 serial for that payment type, (2) determine the domestic rate, (3) check the specific DTAA (Japan/Germany/US) for a lower rate, (4) apply the beneficial (lower) rate.",
+          "explanationWrong": "Individual analysis per payment is required. Each payment may fall under a different serial AND a different DTAA, producing potentially different effective rates.",
+          "tier": 3,
+          "subConcepts": ["multi-country-tds", "individual-analysis", "dtaa-comparison"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 2,
+          "question": "A non-resident applies for a lower TDS certificate under the new Act for interest payments. Which section governs this application?",
+          "options": [
+            { "text": "Section 197 of the old Act", "correct": false },
+            { "text": "Section 395 of the new Act", "correct": true },
+            { "text": "Section 397 of the new Act", "correct": false },
+            { "text": "Section 393 of the new Act", "correct": false }
+          ],
+          "explanation": "Section 395 (replacing old 197) allows any person, including non-residents, to apply for a lower or nil TDS certificate. The application is made to the AO who verifies the actual tax liability.",
+          "explanationWrong": "Section 395 handles lower/nil certificates. Section 397 is for higher rates on no-PAN — the opposite concept. Old Section 197 is no longer valid.",
+          "tier": 3,
+          "subConcepts": ["section-395-nonresident", "lower-certificate-application"],
+          "isReview": false,
+          "oldSection": "Section 197",
+          "newSection": "Section 395"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.2, what is the default tax regime under the new Act?",
+          "options": [
+            { "text": "Old regime with deductions", "correct": false },
+            { "text": "New regime under Section 202", "correct": true },
+            { "text": "The taxpayer must choose each year", "correct": false },
+            { "text": "There is no default — AO decides", "correct": false }
+          ],
+          "explanation": "Section 202 (new regime) is the default. This was covered in Unit 3.2 on salary TDS. For non-resident TDS, the regime does not typically matter since Table 2 rates are fixed percentages.",
+          "explanationWrong": "Section 202 is the default regime. Note: Table 2 TDS rates are fixed percentages, not slab-based, so the regime choice is less relevant for non-resident TDS.",
+          "tier": 3,
+          "subConcepts": ["section-202-default", "regime-relevance-nonresident"],
+          "isReview": true,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 4,
+          "question": "A Japanese company performs consulting services in India through its employees visiting for 90 days. It has no PE in India. Under Table 2, the domestic FTS rate is 10%. Under India-Japan DTAA, FTS is covered at 10%. What is the TDS position?",
+          "options": [
+            { "text": "No TDS — no PE means no tax in India", "correct": false },
+            { "text": "10% TDS — both domestic and DTAA agree; however, if characterised as business income with no PE, the DTAA may provide nil taxation", "correct": true },
+            { "text": "20% TDS — enhanced rate for on-site services", "correct": false },
+            { "text": "5% TDS — concessional rate for consulting", "correct": false }
+          ],
+          "explanation": "The analysis depends on characterisation. If it is FTS, 10% applies (same under domestic and DTAA). If it is business income with no PE, the DTAA's business profits article may provide nil taxation. The payer must analyse the nature of services.",
+          "explanationWrong": "10% or nil depending on characterisation. The existence of an FTS article in the DTAA is critical — if the payment is business income (not FTS) and there is no PE, the DTAA may fully exempt it.",
+          "tier": 3,
+          "subConcepts": ["fts-vs-business-income", "pe-analysis", "japan-dtaa"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "An Indian mutual fund pays capital gains to an FII (non-resident). Under old 196D, this had specific rates. In Table 2, it maps to Serial 5 or 15. How does the payer determine which serial?",
+          "options": [
+            { "text": "Serial 5 for short-term gains; Serial 15 for long-term gains", "correct": true },
+            { "text": "Serial 5 for debt funds; Serial 15 for equity funds", "correct": false },
+            { "text": "Both serials apply simultaneously", "correct": false },
+            { "text": "The FII chooses which serial to use", "correct": false }
+          ],
+          "explanation": "The split of 196D into Serials 5 and 15 likely distinguishes by the nature of income (e.g., capital gains vs other income, or short-term vs long-term). The payer must classify the payment correctly to apply the right rate.",
+          "explanationWrong": "Different income types within old 196D map to different serials. The payer must correctly classify the payment to apply the right serial and rate. The FII does not choose — the nature of income determines the serial.",
+          "tier": 3,
+          "subConcepts": ["196d-split-logic", "fii-income-classification", "serial-5-vs-15"],
+          "isReview": false,
+          "oldSection": "Section 196D",
+          "newSection": "Section 393, Table 2, Serials 5/15"
+        }
+      ]
+    },
+    {
+      "title": "Table 2 Mastery — Complete Framework",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following correctly lists the old sections that contribute entries to Table 2?",
+          "options": [
+            { "text": "194E, 194LC, 196A, 196B, 196C, 196D, and the new 196E", "correct": true },
+            { "text": "194C, 194H, 194I, 194J only", "correct": false },
+            { "text": "192, 194, 194A only", "correct": false },
+            { "text": "206C, 206AB, 206CCA", "correct": false }
+          ],
+          "explanation": "Table 2 draws from old Sections 194E, 194LC, 195, 196A, 196B, 196C, 196D, plus the new Section 196E. The other options list sections that map to Table 1 (resident) or Section 394 (TCS).",
+          "explanationWrong": "194E, 194LC, 196A-D, and new 196E. The sections in the other options are Table 1 entries (194C, 194H, etc.) or TCS/omitted provisions (206C, 206AB).",
+          "tier": 3,
+          "subConcepts": ["table-2-source-sections", "complete-mapping"],
+          "isReview": false,
+          "oldSection": "Sections 194E, 194LC, 195, 196A-D",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 2,
+          "question": "A company's tax team creates a decision tree for non-resident TDS under the new Act. What should be the first decision node?",
+          "options": [
+            { "text": "Determine the TDS rate", "correct": false },
+            { "text": "Check if the payment is chargeable to tax in India (i.e., is it Indian-sourced income?)", "correct": true },
+            { "text": "Check the DTAA rate", "correct": false },
+            { "text": "Verify the PAN of the non-resident", "correct": false }
+          ],
+          "explanation": "The first question must be: is the payment chargeable to tax in India? If not (e.g., it's not Indian-sourced), no TDS applies regardless of Table 2. Only income chargeable under the Act triggers TDS under Section 393.",
+          "explanationWrong": "Chargeability in India is the first check. If the income is not taxable in India, Table 2 is irrelevant. The decision tree is: Chargeability → Table 2 serial identification → Domestic rate → DTAA comparison → Apply lower rate.",
+          "tier": 3,
+          "subConcepts": ["chargeability-first", "decision-tree", "non-resident-tds-flow"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 3.3, old Section 194H for commission/brokerage maps to which serial in Table 1?",
+          "options": [
+            { "text": "Serial 1(i)", "correct": false },
+            { "text": "Serial 1(ii)", "correct": true },
+            { "text": "Serial 6(i)", "correct": false },
+            { "text": "Serial 7", "correct": false }
+          ],
+          "explanation": "Old 194H maps to Serial 1(ii) of Table 1. Serial 1(i) is for insurance commission (old 194D). This was covered in Unit 3.3.",
+          "explanationWrong": "Serial 1(ii) is correct. Category 1 splits commission into insurance (1(i) from 194D) and general commission/brokerage (1(ii) from 194H).",
+          "tier": 3,
+          "subConcepts": ["section-194h-mapping", "serial-1-ii"],
+          "isReview": true,
+          "oldSection": "Section 194H",
+          "newSection": "Section 393, Table 1, Serial 1(ii)"
+        },
+        {
+          "order": 4,
+          "question": "An MNC group has payments flowing from India to 5 different countries for different purposes (royalty, FTS, interest, dividends, capital gains). For TDS compliance under the new Act, what is the most complex aspect?",
+          "options": [
+            { "text": "Computing the TDS amount — the arithmetic is complex", "correct": false },
+            { "text": "Mapping each payment to the correct Table 2 serial AND the correct DTAA for each country to determine the applicable rate", "correct": true },
+            { "text": "Filing the TDS return — the new format is completely different", "correct": false },
+            { "text": "Obtaining PAN for each non-resident payee", "correct": false }
+          ],
+          "explanation": "The complexity lies in the dual mapping: (1) each payment type to a Table 2 serial (for the domestic rate), and (2) each payment-country combination to the relevant DTAA article (for potential treaty benefit). With 5 countries and different payment types, the matrix can be large.",
+          "explanationWrong": "Dual mapping (serial + DTAA per country) is the most complex aspect. The arithmetic is straightforward; the analysis of which rate applies is the real challenge.",
+          "tier": 3,
+          "subConcepts": ["dual-mapping-complexity", "multi-country-matrix"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 5,
+          "question": "What is the single most important change in Table 2 compared to old Section 195 for a practising CA?",
+          "options": [
+            { "text": "All rates have increased", "correct": false },
+            { "text": "DTAA benefits have been withdrawn", "correct": false },
+            { "text": "The catch-all is now specific — each payment type has a defined serial with an explicit rate, reducing interpretive disputes", "correct": true },
+            { "text": "Non-resident TDS has been simplified to a single rate", "correct": false }
+          ],
+          "explanation": "The shift from a catch-all section (old 195) to specific serial entries (19 entries in Table 2) is the key change. Each payment type now has an identifiable entry with an explicit rate, reducing the interpretation challenges that plagued old 195.",
+          "explanationWrong": "Specificity replaces ambiguity. Old Section 195 often required extensive interpretation to determine the correct rate. Table 2's serial-wise listing provides clarity. DTAA benefits continue unchanged.",
+          "tier": 3,
+          "subConcepts": ["specificity-improvement", "key-takeaway-table2", "reduced-disputes"],
+          "isReview": false,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        }
+      ]
+    }
+  ]
+}

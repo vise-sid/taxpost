@@ -1,0 +1,835 @@
+{
+  "unit": "2.2",
+  "title": "Pending Proceedings",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Core Savings Rule",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which sub-clauses of Section 536(2) preserve pending proceedings under the old Act?",
+          "options": [
+            { "text": "Section 536(2)(a) and (b)", "correct": false },
+            { "text": "Section 536(2)(c) and (e)", "correct": true },
+            { "text": "Section 536(2)(d) and (f)", "correct": false },
+            { "text": "Section 536(2)(k) and (m)", "correct": false }
+          ],
+          "explanation": "Section 536(2)(c) preserves pending assessments, reassessments, appeals, and penalties for pre-April 2026 years. Section 536(2)(e) ensures proceedings pending before any authority, Tribunal, or Court continue as if the new Act had not been enacted. Together, they form the core savings rule for pending proceedings.",
+          "explanationWrong": "The correct answer is Section 536(2)(c) and (e). Sub-clause (c) covers pending proceedings for pre-April 2026 years, and sub-clause (e) covers proceedings before any authority or court. Sub-clause (d) is specifically for penalties, (k) is about expired limitation, and (m)/(n) deal with loss carry-forward.",
+          "tier": 1,
+          "subConcepts": ["section-536", "pending-proceedings", "savings-clause"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c), Section 536(2)(e)"
+        },
+        {
+          "order": 2,
+          "question": "An assessment order is passed in 2028 for AY 2024-25. Which Act governs the assessment?",
+          "options": [
+            { "text": "ITA 2025 because the order is passed after April 1, 2026", "correct": false },
+            { "text": "ITA 1961 because it is for a pre-April 2026 assessment year", "correct": true },
+            { "text": "Both Acts apply simultaneously", "correct": false },
+            { "text": "ITA 2025 because AY 2024-25 maps to Tax Year 2023-24", "correct": false }
+          ],
+          "explanation": "Section 536(2)(c) is clear: proceedings for pre-April 2026 years continue under the old Act regardless of when the order is passed. The date of the order is irrelevant — what matters is the assessment year in question.",
+          "explanationWrong": "The governing Act is determined by the assessment year, not the date the order is passed. AY 2024-25 is a pre-April 2026 year, so the old Act applies even if the order comes years later.",
+          "tier": 1,
+          "subConcepts": ["pending-proceedings", "governing-act", "assessment-year"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned about the dual-track system. Which section of the 2025 Act formally repeals the Income Tax Act, 1961?",
+          "options": [
+            { "text": "Section 534", "correct": false },
+            { "text": "Section 535", "correct": false },
+            { "text": "Section 536(1)", "correct": true },
+            { "text": "Section 537", "correct": false }
+          ],
+          "explanation": "Section 536(1) states: 'The Income-tax Act, 1961 is hereby repealed.' The remaining sub-sections of 536 then carve out extensive savings to ensure the old Act's provisions survive for pre-April 2026 years.",
+          "explanationWrong": "Section 536(1) is the repeal provision. The savings clauses that preserve old Act proceedings are in Section 536(2) onwards.",
+          "tier": 1,
+          "subConcepts": ["section-536", "repeal", "dual-track"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 536(2)(k), what happens to limitation periods that have already expired under the old Act before April 1, 2026?",
+          "options": [
+            { "text": "They are extended by one year under the new Act", "correct": false },
+            { "text": "They are revived with new time limits under the 2025 Act", "correct": false },
+            { "text": "They are NOT revived — expired limitation stays expired", "correct": true },
+            { "text": "They are revived only for reassessment proceedings", "correct": false }
+          ],
+          "explanation": "Section 536(2)(k) explicitly provides that expired limitation is not revived by the new Act. If the time for filing an appeal or initiating reassessment has already run out under the old Act, the new Act does not grant a second chance.",
+          "explanationWrong": "The principle is clear: expired limitation stays expired. Section 536(2)(k) prevents the new Act from being used to revive time-barred proceedings, whether for reassessment, appeals, or any other purpose.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-k", "expired-limitation", "no-revival"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(k)"
+        },
+        {
+          "order": 5,
+          "question": "Which types of proceedings are preserved under the old Act by Section 536(2)(c) and (e)?",
+          "options": [
+            { "text": "Only assessments and reassessments", "correct": false },
+            { "text": "Only appeals and revisions", "correct": false },
+            { "text": "Assessments, reassessments, appeals, penalties, revisions, and references", "correct": true },
+            { "text": "Only proceedings that were pending on April 1, 2026", "correct": false }
+          ],
+          "explanation": "The scope is comprehensive: assessments, reassessments, rectification, penalty, revision, reference, and appeals are all covered. Importantly, this applies both to proceedings pending on April 1, 2026 AND to proceedings initiated after that date for pre-April 2026 years.",
+          "explanationWrong": "The savings clause is broad — it covers every type of income tax proceeding, not just some. Also note that it applies to both already-pending proceedings and freshly-initiated proceedings for old AYs.",
+          "tier": 1,
+          "subConcepts": ["pending-proceedings", "scope-of-savings", "section-536"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(c), Section 536(2)(e)"
+        }
+      ]
+    },
+    {
+      "title": "Reassessment Section Mapping",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 147 (power to assess/reassess escaped income) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 277", "correct": false },
+            { "text": "Section 279", "correct": true },
+            { "text": "Section 281", "correct": false },
+            { "text": "Section 286", "correct": false }
+          ],
+          "explanation": "Section 147 maps to Section 279 in the 2025 Act. The reassessment sections map sequentially: 147→279, 148→280, 148A→281, 149→282, 150→283, 151→284, 152→285, 153→286.",
+          "explanationWrong": "The correct mapping is 147→279. Remember the pattern: the reassessment block starts at 279 in the new Act and runs through 286, corresponding to old Sections 147-153.",
+          "tier": 1,
+          "subConcepts": ["reassessment-mapping", "section-147", "section-279"],
+          "isReview": false,
+          "oldSection": "Section 147",
+          "newSection": "Section 279"
+        },
+        {
+          "order": 2,
+          "question": "The show-cause procedure before issuing a reassessment notice was in old Section 148A. What is its new section number?",
+          "options": [
+            { "text": "Section 280", "correct": false },
+            { "text": "Section 281", "correct": true },
+            { "text": "Section 282", "correct": false },
+            { "text": "Section 284", "correct": false }
+          ],
+          "explanation": "Section 148A maps to Section 281 in the 2025 Act. The show-cause procedure — where the AO must provide information and give the assessee an opportunity to respond before issuing a reassessment notice — is structurally the same.",
+          "explanationWrong": "Old Section 148A maps to new Section 281. Section 280 is the notice for reassessment (old 148), and Section 282 is time limits (old 149).",
+          "tier": 1,
+          "subConcepts": ["reassessment-mapping", "section-148A", "section-281", "show-cause"],
+          "isReview": false,
+          "oldSection": "Section 148A",
+          "newSection": "Section 281"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned that Section 536(3) bridges terminology for lookback calculations. What does 'previous year' under the old Act become under the new Act?",
+          "options": [
+            { "text": "Assessment Year", "correct": false },
+            { "text": "Financial Year", "correct": false },
+            { "text": "Tax Year", "correct": true },
+            { "text": "Income Year", "correct": false }
+          ],
+          "explanation": "Section 536(3) ensures that references to prior 'tax years' in the 2025 Act can look back to 'previous years' under the old Act. Without this bridge, multi-year lookback tests would have no historical data to reference.",
+          "explanationWrong": "'Previous year' becomes 'tax year' under the 2025 Act. This is the standard terminology change. Section 536(3) ensures this bridge works for lookback calculations.",
+          "tier": 1,
+          "subConcepts": ["terminology-bridge", "tax-year", "previous-year", "section-536-3"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 151 (sanction for issue of reassessment notice) maps to which new section?",
+          "options": [
+            { "text": "Section 282", "correct": false },
+            { "text": "Section 283", "correct": false },
+            { "text": "Section 284", "correct": true },
+            { "text": "Section 285", "correct": false }
+          ],
+          "explanation": "Section 151 maps to Section 284. The requirement for prior approval from a specified authority before issuing a reassessment notice is retained in the new Act.",
+          "explanationWrong": "The mapping is 151→284. Remember: 149→282 (time limits), 150→283 (appellate/court orders), 151→284 (sanction), 152→285 (rate of tax/dropping).",
+          "tier": 1,
+          "subConcepts": ["reassessment-mapping", "section-151", "section-284", "sanction"],
+          "isReview": false,
+          "oldSection": "Section 151",
+          "newSection": "Section 284"
+        },
+        {
+          "order": 5,
+          "question": "How many old sections are mapped in the reassessment block (147-153 → 279-286)?",
+          "options": [
+            { "text": "6 sections", "correct": false },
+            { "text": "7 sections", "correct": false },
+            { "text": "8 sections", "correct": true },
+            { "text": "9 sections", "correct": false }
+          ],
+          "explanation": "Eight sections: 147→279, 148→280, 148A→281, 149→282, 150→283, 151→284, 152→285, 153→286. Note that 148A counts as a separate section, so the old block is 147, 148, 148A, 149, 150, 151, 152, 153 — eight in total.",
+          "explanationWrong": "Count carefully: 147, 148, 148A, 149, 150, 151, 152, 153 — that's eight sections. Don't forget Section 148A, which is a distinct section introduced by Finance Act 2021.",
+          "tier": 1,
+          "subConcepts": ["reassessment-mapping", "section-count"],
+          "isReview": false,
+          "oldSection": "Sections 147-153",
+          "newSection": "Sections 279-286"
+        }
+      ]
+    },
+    {
+      "title": "Appeals Section Mapping",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 246 (appeal to JCIT(A)/CIT(A)) maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 354", "correct": false },
+            { "text": "Section 356", "correct": true },
+            { "text": "Section 361", "correct": false },
+            { "text": "Section 365", "correct": false }
+          ],
+          "explanation": "Section 246 (and 246A) maps to Section 356 (and 356(3)) in the 2025 Act. The first-level appeal to JCIT(A) and CIT(A) continues in the same framework.",
+          "explanationWrong": "The mapping is 246→356. Section 361 is the ITAT appeal (old 253), and Section 365 is the High Court appeal (old 260A).",
+          "tier": 1,
+          "subConcepts": ["appeals-mapping", "section-246", "section-356", "first-appeal"],
+          "isReview": false,
+          "oldSection": "Section 246",
+          "newSection": "Section 356"
+        },
+        {
+          "order": 2,
+          "question": "The appeal to the Appellate Tribunal (ITAT) was governed by old Section 253. What is its new section number?",
+          "options": [
+            { "text": "Section 358", "correct": false },
+            { "text": "Section 359", "correct": false },
+            { "text": "Section 361", "correct": true },
+            { "text": "Section 363", "correct": false }
+          ],
+          "explanation": "Section 253 maps to Section 361 in the 2025 Act. Appeals to ITAT continue under the same framework with no substantive change to the appellate hierarchy.",
+          "explanationWrong": "The correct mapping is 253→361. The appeals mapping follows a sequence: 246→356 (first appeal), 253→361 (ITAT), 260A→365 (HC), 261→368 (SC).",
+          "tier": 1,
+          "subConcepts": ["appeals-mapping", "section-253", "section-361", "ITAT"],
+          "isReview": false,
+          "oldSection": "Section 253",
+          "newSection": "Section 361"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we discussed that the e-filing portal will support both Acts concurrently. What is this arrangement commonly called?",
+          "options": [
+            { "text": "The single-track system", "correct": false },
+            { "text": "The dual-track system", "correct": true },
+            { "text": "The sunset system", "correct": false },
+            { "text": "The migration system", "correct": false }
+          ],
+          "explanation": "The dual-track system means both ITA 1961 and ITA 2025 operate simultaneously. The portal supports filings under both Acts — old Act for pre-April 2026 years, new Act for Tax Year 2026-27 onwards.",
+          "explanationWrong": "It's called the dual-track system. Two independent compliance tracks operate in parallel — old Act for pre-2026 years, new Act for 2026-27 onwards.",
+          "tier": 1,
+          "subConcepts": ["dual-track", "parallel-operation", "e-filing"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 260A (appeal to High Court) maps to which new section?",
+          "options": [
+            { "text": "Section 363", "correct": false },
+            { "text": "Section 365", "correct": true },
+            { "text": "Section 368", "correct": false },
+            { "text": "Section 370", "correct": false }
+          ],
+          "explanation": "Section 260A maps to Section 365. The High Court appeal provisions continue with no substantive change. The appellate hierarchy — AO → JCIT(A)/CIT(A) → ITAT → HC → SC — remains identical.",
+          "explanationWrong": "The correct mapping is 260A→365. Section 368 is the Supreme Court appeal (old 261). The hierarchy is unchanged.",
+          "tier": 1,
+          "subConcepts": ["appeals-mapping", "section-260A", "section-365", "high-court"],
+          "isReview": false,
+          "oldSection": "Section 260A",
+          "newSection": "Section 365"
+        },
+        {
+          "order": 5,
+          "question": "Has the appellate hierarchy changed under the 2025 Act?",
+          "options": [
+            { "text": "Yes, a new National Appellate Authority has been added", "correct": false },
+            { "text": "Yes, ITAT has been replaced by a Tax Tribunal", "correct": false },
+            { "text": "No, the hierarchy AO → JCIT(A)/CIT(A) → ITAT → HC → SC is unchanged", "correct": true },
+            { "text": "Yes, High Court appeals have been abolished", "correct": false }
+          ],
+          "explanation": "The appellate hierarchy is identical: AO → JCIT(A)/CIT(A) → ITAT → High Court → Supreme Court. Only the section numbers have changed; the structure and sequence of appeals remain the same.",
+          "explanationWrong": "No structural change — the five-level hierarchy is exactly the same. The section numbers changed (246→356, 253→361, 260A→365, 261→368) but the institutions and sequence are unchanged.",
+          "tier": 1,
+          "subConcepts": ["appellate-hierarchy", "unchanged", "ITAT", "high-court", "supreme-court"],
+          "isReview": false,
+          "oldSection": "Sections 246-261",
+          "newSection": "Sections 356-368"
+        }
+      ]
+    },
+    {
+      "title": "Reassessment Time Limits — Old vs New",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, what was the time limit for issuing a show-cause notice for reassessment where escaped income is below the monetary threshold?",
+          "options": [
+            { "text": "2 years from end of AY", "correct": false },
+            { "text": "3 years from end of AY", "correct": true },
+            { "text": "4 years from end of AY", "correct": false },
+            { "text": "5 years from end of AY", "correct": false }
+          ],
+          "explanation": "Under the old Act (Section 149), the show-cause notice for escaped income below the monetary threshold had to be issued within 3 years from the end of the relevant assessment year.",
+          "explanationWrong": "The old Act limit was 3 years from the end of AY for below-threshold cases. The new Act extends this to 4 years from the end of the tax year.",
+          "tier": 2,
+          "subConcepts": ["old-time-limits", "show-cause", "section-149", "three-years"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": "Section 282"
+        },
+        {
+          "order": 2,
+          "question": "How have the reassessment time limits changed from old Act to new Act for cases at or above the monetary threshold?",
+          "options": [
+            { "text": "Show-cause: 5→6 years; Notice: 5y3m→6y3m", "correct": true },
+            { "text": "Show-cause: 5→7 years; Notice: 5y3m→7y3m", "correct": false },
+            { "text": "Show-cause: 3→5 years; Notice: 3y3m→5y3m", "correct": false },
+            { "text": "No change — same time limits under both Acts", "correct": false }
+          ],
+          "explanation": "For above-threshold cases, the show-cause notice window goes from 5 years (old) to 6 years (new), and the reassessment notice from 5 years 3 months (old) to 6 years 3 months (new). The extension is exactly one year in each case.",
+          "explanationWrong": "The pattern is consistent: each time limit is extended by exactly one year. Show-cause goes from 5 to 6 years, and the reassessment notice from 5y3m to 6y3m.",
+          "tier": 2,
+          "subConcepts": ["time-limit-comparison", "above-threshold", "one-year-extension"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": "Section 282"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned that old circulars and notifications continue under Section 536(2)(j). What is the condition for their continued validity?",
+          "options": [
+            { "text": "They must be re-issued by CBDT within 6 months", "correct": false },
+            { "text": "They must not be inconsistent with the new Act", "correct": true },
+            { "text": "They are valid only for one year after April 1, 2026", "correct": false },
+            { "text": "They must be specifically listed in a Schedule", "correct": false }
+          ],
+          "explanation": "Section 536(2)(j) preserves old circulars, notifications, and approvals provided they are not inconsistent with the new Act. No re-issuance is required — they continue automatically.",
+          "explanationWrong": "The condition is simple: they continue unless inconsistent with the new Act. There's no re-issuance requirement, no time limit, and no need to be listed in a Schedule.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-j", "circulars", "notifications", "consistency"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(j)"
+        },
+        {
+          "order": 4,
+          "question": "Under the new Act, what is the reassessment notice time limit for escaped income below ₹50 lakh?",
+          "options": [
+            { "text": "3 years 3 months from end of Tax Year", "correct": false },
+            { "text": "4 years from end of Tax Year", "correct": false },
+            { "text": "4 years 3 months from end of Tax Year", "correct": true },
+            { "text": "5 years 3 months from end of Tax Year", "correct": false }
+          ],
+          "explanation": "Under Section 280 read with Section 282, the reassessment notice for below-₹50-lakh cases must be issued within 4 years 3 months from the end of the tax year. The old limit was 3 years 3 months from the end of AY.",
+          "explanationWrong": "It's 4 years 3 months — one year more than the old limit of 3 years 3 months. Don't confuse the show-cause limit (4 years) with the reassessment notice limit (4 years 3 months).",
+          "tier": 2,
+          "subConcepts": ["new-time-limits", "reassessment-notice", "section-280", "section-282"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": "Section 282"
+        },
+        {
+          "order": 5,
+          "question": "By how many years has each reassessment time limit been extended in the new Act compared to the old Act?",
+          "options": [
+            { "text": "6 months", "correct": false },
+            { "text": "1 year", "correct": true },
+            { "text": "2 years", "correct": false },
+            { "text": "3 months", "correct": false }
+          ],
+          "explanation": "Every time limit has been extended by exactly one year: show-cause goes from 3→4 and 5→6 years, reassessment notice from 3y3m→4y3m and 5y3m→6y3m. The 3-month gap between show-cause and reassessment notice remains constant.",
+          "explanationWrong": "The extension is uniformly one year across all categories. The old 3/5-year structure becomes 4/6 years, and the 3-month extra for reassessment notice is unchanged.",
+          "tier": 2,
+          "subConcepts": ["time-limit-extension", "one-year", "uniform-change"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": "Section 282"
+        }
+      ]
+    },
+    {
+      "title": "New Safeguards — Section 282(3) and Section 377(7)",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What new safeguard does Section 282(3) of the 2025 Act introduce for reassessment?",
+          "options": [
+            { "text": "Mandatory approval from PCIT before any reassessment", "correct": false },
+            { "text": "No reassessment notice within 1 year from end of the tax year", "correct": true },
+            { "text": "Assessee must be given 90 days to respond to show-cause notice", "correct": false },
+            { "text": "Reassessment can only be initiated after a full audit", "correct": false }
+          ],
+          "explanation": "Section 282(3) introduces a one-year moratorium: no reassessment notice can be issued within one year from the end of any tax year. This prevents reassessment from being initiated before the original return due date has passed — a safeguard not present in the old Act.",
+          "explanationWrong": "Section 282(3) is a timing safeguard — it creates a one-year cooling-off period. The AO cannot issue a reassessment notice until at least one year after the tax year ends.",
+          "tier": 2,
+          "subConcepts": ["section-282-3", "one-year-moratorium", "new-safeguard"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 282(3)"
+        },
+        {
+          "order": 2,
+          "question": "What is the minimum residual period rule introduced by Section 377(7) for Commissioner's revision?",
+          "options": [
+            { "text": "30 days remaining after revision order for filing appeal", "correct": false },
+            { "text": "45 days remaining after revision order for filing appeal", "correct": false },
+            { "text": "60 days remaining after revision order for filing appeal", "correct": true },
+            { "text": "90 days remaining after revision order for filing appeal", "correct": false }
+          ],
+          "explanation": "Section 377(7) requires that after the Commissioner passes a revision order, the assessee must have at least 60 days remaining in the limitation period to file any consequent appeal or application. This prevents assessees from being time-barred by a late revision order.",
+          "explanationWrong": "The minimum is 60 days. This is a new procedural right — old Section 263 had no such safeguard, and assessees could be left with insufficient time to appeal after a revision.",
+          "tier": 2,
+          "subConcepts": ["section-377-7", "sixty-day-rule", "revision", "new-safeguard"],
+          "isReview": false,
+          "oldSection": "Section 263",
+          "newSection": "Section 377(7)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, Section 536(2)(f) was discussed regarding elections and declarations. What happens to options exercised under the old Act?",
+          "options": [
+            { "text": "They become void and must be re-exercised", "correct": false },
+            { "text": "They are deemed exercised under the corresponding new Act provision", "correct": true },
+            { "text": "They continue only for one transitional year", "correct": false },
+            { "text": "They must be confirmed by CBDT notification", "correct": false }
+          ],
+          "explanation": "Section 536(2)(f) provides that elections, declarations, and options validly exercised under the old Act are deemed to have been exercised under the corresponding provision of the new Act. No re-exercise is required.",
+          "explanationWrong": "Elections carry over automatically — they are deemed exercised under the corresponding new provision. There's no need to re-exercise, no time limit, and no CBDT confirmation.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-f", "elections", "deemed-exercised"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(f)"
+        },
+        {
+          "order": 4,
+          "question": "Why does Section 282(3) prevent reassessment within one year from the end of a tax year?",
+          "options": [
+            { "text": "To allow time for TDS/TCS credit matching", "correct": false },
+            { "text": "To ensure the original return due date has passed before reassessment can begin", "correct": true },
+            { "text": "To allow the AO to complete regular assessment first", "correct": false },
+            { "text": "To reduce the department's workload in the first year", "correct": false }
+          ],
+          "explanation": "The one-year moratorium ensures that reassessment is not initiated before the assessee has even had a chance to file the original return. Since the return due date falls within the first year after the tax year ends, Section 282(3) prevents premature action by the AO.",
+          "explanationWrong": "The purpose is to prevent premature reassessment. The assessee should at least have had the opportunity to file the original return before the AO can initiate reassessment proceedings.",
+          "tier": 2,
+          "subConcepts": ["section-282-3", "moratorium-rationale", "return-due-date"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 282(3)"
+        },
+        {
+          "order": 5,
+          "question": "Section 377(7)'s 60-day residual period rule applies when which authority passes a revision order?",
+          "options": [
+            { "text": "The Assessing Officer", "correct": false },
+            { "text": "The ITAT", "correct": false },
+            { "text": "The Commissioner (PCIT/CIT)", "correct": true },
+            { "text": "The High Court", "correct": false }
+          ],
+          "explanation": "Section 377 deals with revision by the Commissioner (PCIT/CIT), corresponding to old Section 263. The 60-day rule ensures the assessee is not left without time to appeal against a revision order passed close to the limitation deadline.",
+          "explanationWrong": "Revision is the Commissioner's power (old Section 263, new Section 377). The AO doesn't revise — the AO rectifies. ITAT and High Court hear appeals, they don't exercise revision power.",
+          "tier": 2,
+          "subConcepts": ["section-377", "commissioner-revision", "pcit-cit"],
+          "isReview": false,
+          "oldSection": "Section 263",
+          "newSection": "Section 377"
+        }
+      ]
+    },
+    {
+      "title": "Which Act Governs — Decision Framework",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A Section 148A(1) show-cause notice was issued on March 15, 2026. Can the AO issue the Section 148 reassessment notice after April 1, 2026?",
+          "options": [
+            { "text": "No — the new Act applies after April 1, 2026", "correct": false },
+            { "text": "Yes — under the old Act, as the proceeding was already initiated", "correct": true },
+            { "text": "Yes — but under the new Section 280", "correct": false },
+            { "text": "No — the show-cause must be restarted under Section 281", "correct": false }
+          ],
+          "explanation": "Section 536(2)(c) preserves in-progress proceedings. A show-cause notice under old Section 148A(1) issued before April 1, 2026 is a pending proceeding — the AO can continue and issue the Section 148 notice after April 1, 2026 under the old Act.",
+          "explanationWrong": "The proceeding was initiated under the old Act before the cutoff. Section 536(2)(c) allows it to continue under the old Act — no restart under the new Act is needed or required.",
+          "tier": 2,
+          "subConcepts": ["in-progress-148A", "section-536-2-c", "pending-proceedings"],
+          "isReview": false,
+          "oldSection": "Section 148A, Section 148",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 2,
+          "question": "After April 1, 2026, the department wants to initiate fresh reassessment for AY 2023-24 (no prior proceedings exist). Is this possible?",
+          "options": [
+            { "text": "No — fresh proceedings for old AYs cannot begin after April 1, 2026", "correct": false },
+            { "text": "Yes — under the new Act's Sections 279-286", "correct": false },
+            { "text": "Yes — under the old Act, provided limitation under the old Act has not expired", "correct": true },
+            { "text": "Only with special CBDT approval", "correct": false }
+          ],
+          "explanation": "Fresh reassessment for pre-April 2026 AYs can be initiated even after April 1, 2026, but under the old Act's provisions (Sections 147-153). The critical check is whether the limitation period under the old Act has expired — if it has, Section 536(2)(k) prevents revival.",
+          "explanationWrong": "The old Act governs all proceedings for pre-April 2026 years, whether pending or freshly initiated. The only bar is if the limitation has already expired under the old Act.",
+          "tier": 2,
+          "subConcepts": ["fresh-reassessment", "old-act-governs", "limitation-check"],
+          "isReview": false,
+          "oldSection": "Sections 147-153",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, what did we learn happens when old Act deduction/exemption conditions are violated after April 1, 2026 under Section 536(2)(h)?",
+          "options": [
+            { "text": "The violation is ignored since the old Act is repealed", "correct": false },
+            { "text": "The amount is deemed income under the new Act in the year of violation", "correct": true },
+            { "text": "The old deduction is recalculated under old Act rates", "correct": false },
+            { "text": "A penalty is imposed under the old Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) provides that if conditions for old Act deductions/exemptions are violated after April 2026, the relevant amount is deemed income under the 2025 Act in the year of violation. This prevents condition violations from falling into a legal vacuum.",
+          "explanationWrong": "The violation triggers income recognition under the new Act. The amount becomes taxable income in the year of violation — neither ignored nor handled under the old Act.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-h", "condition-violation", "deemed-income"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 4,
+          "question": "ITAT remands a case for AY 2022-23 back to the AO in July 2027. Under which Act does the AO conduct the remand proceedings?",
+          "options": [
+            { "text": "ITA 2025 since the proceedings are after April 1, 2026", "correct": false },
+            { "text": "ITA 1961 since it is for a pre-April 2026 assessment year", "correct": true },
+            { "text": "ITA 2025 but applying old Act rates", "correct": false },
+            { "text": "Whichever Act the ITAT specifies in its order", "correct": false }
+          ],
+          "explanation": "Remand proceedings for old AYs are governed by the old Act. The assessment year determines the governing Act, not when the remand order is passed or when the AO re-does the assessment. ITAT doesn't get to choose — the law is clear.",
+          "explanationWrong": "The governing Act depends on the assessment year, not the date of the proceedings. AY 2022-23 is a pre-April 2026 year, so the old Act applies to all proceedings including remands.",
+          "tier": 2,
+          "subConcepts": ["ITAT-remand", "old-act-governs", "assessment-year-determines"],
+          "isReview": false,
+          "oldSection": "Sections 147-153, 246-264",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 5,
+          "question": "For Tax Year 2026-27, reassessment proceedings will be governed by which set of sections?",
+          "options": [
+            { "text": "Old Sections 147-153", "correct": false },
+            { "text": "New Sections 279-286", "correct": true },
+            { "text": "Both old and new sections concurrently", "correct": false },
+            { "text": "New Sections 356-378", "correct": false }
+          ],
+          "explanation": "Tax Year 2026-27 is the first year fully under the 2025 Act. Reassessment is governed by Sections 279-286 of the new Act. Sections 356-378 are the appeals provisions, not reassessment.",
+          "explanationWrong": "Sections 279-286 govern reassessment under the new Act. The new Act applies to Tax Year 2026-27 onwards. Don't confuse with Sections 356-378, which are for appeals.",
+          "tier": 2,
+          "subConcepts": ["new-act-governs", "tax-year-2026-27", "sections-279-286"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 279-286"
+        }
+      ]
+    },
+    {
+      "title": "Reassessment Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An AO discovers escaped income of ₹60 lakh for AY 2024-25 in October 2027. Under the old Act, what is the maximum time for issuing a show-cause notice under Section 148A(1)?",
+          "options": [
+            { "text": "March 31, 2028 (3 years from end of AY)", "correct": false },
+            { "text": "March 31, 2030 (5 years from end of AY)", "correct": true },
+            { "text": "March 31, 2031 (6 years from end of AY)", "correct": false },
+            { "text": "March 31, 2029 (4 years from end of AY)", "correct": false }
+          ],
+          "explanation": "AY 2024-25 ends on March 31, 2025. ₹60 lakh is at or above the monetary threshold, so the old Act's 5-year limit applies: show-cause notice must be issued by March 31, 2030 (5 years from March 31, 2025). The new Act's 6-year limit does not apply — old Act governs pre-April 2026 AYs.",
+          "explanationWrong": "Since AY 2024-25 is pre-April 2026, the old Act governs. ₹60 lakh is above threshold → 5-year limit → deadline is March 31, 2030. Don't apply new Act limits to old AYs.",
+          "tier": 3,
+          "subConcepts": ["show-cause-deadline", "above-threshold", "old-act-time-limit"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "For Tax Year 2027-28, an AO wants to issue a reassessment notice for escaped income of ₹30 lakh. What is the earliest date the notice can be issued under Section 282(3)?",
+          "options": [
+            { "text": "April 1, 2028 — start of the next tax year", "correct": false },
+            { "text": "April 1, 2029 — one year from end of tax year", "correct": true },
+            { "text": "July 31, 2028 — after the return due date", "correct": false },
+            { "text": "March 31, 2029 — end of the next tax year", "correct": false }
+          ],
+          "explanation": "Tax Year 2027-28 ends March 31, 2028. Section 282(3) prohibits reassessment notice within one year from the end of the tax year. So the earliest date is April 1, 2029. This is a new safeguard not present in the old Act.",
+          "explanationWrong": "Section 282(3)'s one-year moratorium means no notice until at least one year after March 31, 2028 — that's April 1, 2029. The return due date is irrelevant for this calculation.",
+          "tier": 3,
+          "subConcepts": ["section-282-3", "moratorium-calculation", "earliest-notice-date"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 282(3)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned about Section 536(2)(v). If a search was initiated under old Section 132 before April 1, 2026, under which Act are the consequent assessment proceedings conducted?",
+          "options": [
+            { "text": "ITA 2025 since search assessments are special proceedings", "correct": false },
+            { "text": "ITA 1961 — the entire search proceeding continues under old Act", "correct": true },
+            { "text": "ITA 2025 with old Act rates applied", "correct": false },
+            { "text": "Whichever Act gives the department a longer limitation", "correct": false }
+          ],
+          "explanation": "Section 536(2)(v) specifically preserves search proceedings under old Section 132. The entire chain — search, seizure, assessment, penalty — continues under the old Act if the search was initiated before April 1, 2026.",
+          "explanationWrong": "Section 536(2)(v) is explicit: search proceedings initiated under old Section 132 continue entirely under the old Act. The department doesn't get to choose the more favorable Act.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-v", "search-proceedings", "section-132"],
+          "isReview": true,
+          "oldSection": "Section 132",
+          "newSection": "Section 536(2)(v)"
+        },
+        {
+          "order": 4,
+          "question": "An AO issues a show-cause notice on March 20, 2026 under old Section 148A(1) for AY 2021-22, but the assessee's response comes on April 15, 2026. The AO then issues the Section 148 notice on May 1, 2026. Is the reassessment notice valid?",
+          "options": [
+            { "text": "No — the Section 148 notice was issued after April 1, 2026, so new Act applies", "correct": false },
+            { "text": "No — the AO should have issued the notice before April 1, 2026", "correct": false },
+            { "text": "Yes — the proceeding was pending on April 1, 2026, so old Act continues to apply", "correct": true },
+            { "text": "Yes — but only if the AO obtains CBDT approval", "correct": false }
+          ],
+          "explanation": "The show-cause under Section 148A(1) was issued before April 1, 2026, making it a pending proceeding. Section 536(2)(c) allows the AO to continue under the old Act — the Section 148 notice issued on May 1, 2026 is valid under the old Act.",
+          "explanationWrong": "The proceeding was already initiated (show-cause issued March 20, 2026). It was pending on April 1, 2026. Section 536(2)(c) preserves it — the AO can issue Section 148 notice after April 1, 2026 under the old Act.",
+          "tier": 3,
+          "subConcepts": ["in-progress-148A", "pending-proceeding", "validity"],
+          "isReview": false,
+          "oldSection": "Section 148A, Section 148",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 5,
+          "question": "For AY 2020-21, the old Act's 3-year limitation for show-cause notice expired on March 31, 2024. On April 15, 2026, the AO wants to initiate reassessment for escaped income of ₹20 lakh. Can the AO proceed?",
+          "options": [
+            { "text": "Yes — the new Act provides a longer 4-year window", "correct": false },
+            { "text": "Yes — Section 536(2)(c) allows fresh proceedings for old AYs", "correct": false },
+            { "text": "No — Section 536(2)(k) prevents revival of expired limitation", "correct": true },
+            { "text": "Yes — if PCIT grants special approval", "correct": false }
+          ],
+          "explanation": "The 3-year limitation expired on March 31, 2024 (3 years from end of AY 2020-21, i.e., March 31, 2021). Section 536(2)(k) is clear: expired limitation is NOT revived by the new Act. The new Act's 4-year limit does not help because it applies only to tax years starting April 1, 2026.",
+          "explanationWrong": "Once limitation expires under the old Act, it's gone forever. Section 536(2)(k) explicitly prevents the new Act from reviving expired time limits. The new Act's longer windows apply only to new tax years.",
+          "tier": 3,
+          "subConcepts": ["expired-limitation", "section-536-2-k", "no-revival", "time-barred"],
+          "isReview": false,
+          "oldSection": "Section 149",
+          "newSection": "Section 536(2)(k)"
+        }
+      ]
+    },
+    {
+      "title": "Appeals — Transition Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An appeal against an assessment order for AY 2025-26 is filed with CIT(A) on June 1, 2026. Which Act governs this appeal?",
+          "options": [
+            { "text": "ITA 2025 because the appeal is filed after April 1, 2026", "correct": false },
+            { "text": "ITA 1961 because AY 2025-26 is a pre-April 2026 year", "correct": true },
+            { "text": "ITA 2025 with old Section 246A procedures", "correct": false },
+            { "text": "The assessee gets to choose which Act", "correct": false }
+          ],
+          "explanation": "AY 2025-26 is the last assessment year under the old Act. Even though the appeal is filed after April 1, 2026, the governing Act is determined by the assessment year — old Act applies. The appeal is filed under old Section 246/246A, not new Section 356.",
+          "explanationWrong": "The assessment year determines the governing Act. AY 2025-26 is pre-April 2026, so old Act governs regardless of when the appeal is filed. The assessee has no choice in the matter.",
+          "tier": 3,
+          "subConcepts": ["appeal-transition", "AY-2025-26", "old-act-governs"],
+          "isReview": false,
+          "oldSection": "Section 246/246A",
+          "newSection": "Section 536(2)(c)"
+        },
+        {
+          "order": 2,
+          "question": "The Commissioner passes a revision order under Section 377 on February 15, 2029 for Tax Year 2026-27. The limitation for filing an appeal expires on March 31, 2029. Does Section 377(7) protect the assessee?",
+          "options": [
+            { "text": "No — the assessee has 44 days, which is sufficient", "correct": false },
+            { "text": "Yes — the assessee has only 44 days, less than the required 60 days", "correct": true },
+            { "text": "No — Section 377(7) only applies to old Act cases", "correct": false },
+            { "text": "Yes — but the assessee must apply to extend limitation", "correct": false }
+          ],
+          "explanation": "From February 15 to March 31, 2029 is only 44 days — less than the 60-day minimum required by Section 377(7). The provision automatically ensures the assessee gets at least 60 days, effectively extending the deadline to April 16, 2029.",
+          "explanationWrong": "44 days is less than 60 days. Section 377(7) kicks in automatically — no application needed. The assessee gets at least 60 days from the date of the revision order to file an appeal.",
+          "tier": 3,
+          "subConcepts": ["section-377-7", "sixty-day-calculation", "revision-appeal-window"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 377(7)"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned about the General Clauses Act safety net. Which section of the General Clauses Act applies to the repeal of the old Income Tax Act?",
+          "options": [
+            { "text": "Section 4", "correct": false },
+            { "text": "Section 5", "correct": false },
+            { "text": "Section 6", "correct": true },
+            { "text": "Section 8", "correct": false }
+          ],
+          "explanation": "Section 536(4) of the 2025 Act invokes Section 6 of the General Clauses Act, 1897 as a safety net. This covers any unforeseen situation not specifically addressed by Section 536(2)'s detailed savings provisions.",
+          "explanationWrong": "Section 6 of the General Clauses Act, 1897 deals with the effect of repeal of an enactment. Section 536(4) explicitly invokes it as a catch-all safety net.",
+          "tier": 3,
+          "subConcepts": ["general-clauses-act", "section-6", "safety-net", "section-536-4"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(4)"
+        },
+        {
+          "order": 4,
+          "question": "An ITAT appeal for AY 2023-24 is pending on April 1, 2026. ITAT disposes it on December 10, 2026. The taxpayer wants to file a further appeal to the High Court. Under which section does the HC appeal lie?",
+          "options": [
+            { "text": "New Section 365 because the HC appeal is filed after April 1, 2026", "correct": false },
+            { "text": "Old Section 260A because the underlying AY is pre-April 2026", "correct": true },
+            { "text": "New Section 365 but with old Act procedures", "correct": false },
+            { "text": "The taxpayer must file under both sections", "correct": false }
+          ],
+          "explanation": "The assessment year (AY 2023-24) determines the governing Act throughout the entire appellate chain. Even though the HC appeal will be filed well after April 1, 2026, old Section 260A governs because the underlying year is pre-April 2026.",
+          "explanationWrong": "The governing Act follows the assessment year through every level of appeal. AY 2023-24 = old Act throughout — whether at AO, CIT(A), ITAT, HC, or SC level.",
+          "tier": 3,
+          "subConcepts": ["appellate-chain", "section-260A", "old-act-throughout"],
+          "isReview": false,
+          "oldSection": "Section 260A",
+          "newSection": "Section 536(2)(e)"
+        },
+        {
+          "order": 5,
+          "question": "A penalty order for AY 2024-25 is passed on September 1, 2027. The taxpayer's appeal limitation under old Section 246 expires on October 31, 2027. The taxpayer files the appeal on October 25, 2027. Is the appeal validly filed?",
+          "options": [
+            { "text": "No — the new Act's Section 356 should have been used", "correct": false },
+            { "text": "Yes — old Section 246 applies because AY 2024-25 is pre-April 2026", "correct": true },
+            { "text": "No — penalty appeals after April 2026 must use new Act provisions", "correct": false },
+            { "text": "Yes — but only if the taxpayer also files under Section 356 as backup", "correct": false }
+          ],
+          "explanation": "AY 2024-25 is pre-April 2026, so the old Act governs all proceedings including penalty appeals. The appeal under old Section 246 filed within limitation is perfectly valid. No filing under the new Act is needed.",
+          "explanationWrong": "The old Act governs all proceedings for pre-April 2026 AYs — including penalty orders and their appeals. Old Section 246 is the correct provision, and filing within limitation makes it valid.",
+          "tier": 3,
+          "subConcepts": ["penalty-appeal", "old-act-governs", "limitation"],
+          "isReview": false,
+          "oldSection": "Section 246",
+          "newSection": "Section 536(2)(c)"
+        }
+      ]
+    },
+    {
+      "title": "Practical Dual-Track Challenges",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA is handling a client's reassessment for AY 2022-23 and simultaneously preparing the return for Tax Year 2027-28. The reassessment show-cause is under old Section 148A. Which sections govern the reassessment notice if the AO proceeds?",
+          "options": [
+            { "text": "New Section 280 for the notice", "correct": false },
+            { "text": "Old Section 148 for the notice", "correct": true },
+            { "text": "Old Section 148 but with new Section 282 time limits", "correct": false },
+            { "text": "New Section 281 for the show-cause and old Section 148 for the notice", "correct": false }
+          ],
+          "explanation": "AY 2022-23 reassessment is entirely under the old Act. The show-cause is under old Section 148A, and the reassessment notice will be under old Section 148. New Act sections don't apply to pre-April 2026 AYs — there's no mixing of sections across Acts.",
+          "explanationWrong": "You can't mix sections from the two Acts. If the AY is pre-April 2026, the entire proceeding — show-cause (148A), notice (148), time limits (149), completion (153) — is under the old Act.",
+          "tier": 3,
+          "subConcepts": ["dual-track-practice", "no-mixing", "old-act-reassessment"],
+          "isReview": false,
+          "oldSection": "Section 148A, Section 148",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "For Tax Year 2028-29, the AO discovers escaped income of ₹75 lakh. What is the latest date by which the reassessment notice must be issued under the new Act?",
+          "options": [
+            { "text": "June 30, 2035 (6 years 3 months from end of TY)", "correct": true },
+            { "text": "June 30, 2034 (5 years 3 months from end of TY)", "correct": false },
+            { "text": "March 31, 2035 (6 years from end of TY)", "correct": false },
+            { "text": "June 30, 2033 (4 years 3 months from end of TY)", "correct": false }
+          ],
+          "explanation": "Tax Year 2028-29 ends March 31, 2029. ₹75 lakh exceeds ₹50 lakh, so the 6-year-3-month limit applies: March 31, 2029 + 6 years 3 months = June 30, 2035. The show-cause deadline would be March 31, 2035 (6 years).",
+          "explanationWrong": "₹75 lakh is above the ₹50 lakh threshold. Under the new Act, the reassessment notice deadline is 6 years 3 months from end of TY: March 31, 2029 + 6y3m = June 30, 2035.",
+          "tier": 3,
+          "subConcepts": ["new-act-time-limits", "above-threshold", "deadline-calculation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 282"
+        },
+        {
+          "order": 3,
+          "question": "In Unit 2.1, we learned about Section 536(2)(b). What does this sub-clause preserve after the repeal of the old Act?",
+          "options": [
+            { "text": "Pending appeals only", "correct": false },
+            { "text": "Rights, privileges, obligations, and liabilities acquired under the old Act", "correct": true },
+            { "text": "Only tax credits and refunds", "correct": false },
+            { "text": "Only deductions claimed under the old Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(b) is a broad savings clause that preserves all rights, privileges, obligations, and liabilities acquired, accrued, or incurred under the old Act. This is separate from pending proceedings (clause c) and is a catch-all for vested rights.",
+          "explanationWrong": "Section 536(2)(b) is a wide-ranging provision covering rights, privileges, obligations, and liabilities — not limited to any specific type. It's the vested-rights preservation clause.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-b", "vested-rights", "obligations-liabilities"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(b)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee filed a revision application under old Section 264 (revision by Commissioner on application) on March 25, 2026. The Commissioner has not yet passed an order. After April 1, 2026, which Act governs the revision?",
+          "options": [
+            { "text": "New Section 378 because it's the corresponding provision", "correct": false },
+            { "text": "Old Section 264 because the application was filed before April 1, 2026", "correct": true },
+            { "text": "New Section 378 but with old Act time limits", "correct": false },
+            { "text": "The Commissioner must ask the assessee to re-file under new Section 378", "correct": false }
+          ],
+          "explanation": "The revision application under old Section 264 was pending on April 1, 2026. Section 536(2)(e) preserves all proceedings pending before any authority — the Commissioner will dispose of it under old Section 264, not new Section 378.",
+          "explanationWrong": "The application was filed and pending before April 1, 2026. Section 536(2)(e) explicitly preserves such proceedings — they continue as if the new Act had not been enacted.",
+          "tier": 3,
+          "subConcepts": ["revision-application", "section-264", "pending-before-authority"],
+          "isReview": false,
+          "oldSection": "Section 264",
+          "newSection": "Section 536(2)(e)"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner needs to file an appeal for AY 2025-26 (old Act) and simultaneously challenge a reassessment for Tax Year 2026-27 (new Act). Which pair of sections does the practitioner use for filing these appeals with CIT(A)?",
+          "options": [
+            { "text": "Old Section 246 for both appeals", "correct": false },
+            { "text": "New Section 356 for both appeals", "correct": false },
+            { "text": "Old Section 246 for AY 2025-26 and new Section 356 for TY 2026-27", "correct": true },
+            { "text": "New Section 356 for AY 2025-26 and old Section 246 for TY 2026-27", "correct": false }
+          ],
+          "explanation": "This is the dual-track system in practice. AY 2025-26 is pre-April 2026 → old Section 246. Tax Year 2026-27 is the new Act → Section 356. The practitioner must know both Acts and apply each to the correct year.",
+          "explanationWrong": "Each year gets its own Act: old Section 246 for pre-April 2026 AYs, new Section 356 for Tax Year 2026-27 onwards. You cannot use one Act's provisions for the other year.",
+          "tier": 3,
+          "subConcepts": ["dual-track-practice", "section-246", "section-356", "parallel-appeals"],
+          "isReview": false,
+          "oldSection": "Section 246",
+          "newSection": "Section 356"
+        }
+      ]
+    }
+  ]
+}

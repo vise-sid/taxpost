@@ -1,0 +1,835 @@
+{
+  "unit": "6.2",
+  "title": "Allowable Deductions from PGBP",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Big Merger — Sections 30+31+38 → 28",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Sections 30 (rent, rates, taxes, repairs for premises), 31 (repairs and insurance of machinery), and 38 (proportionate business use) have been merged into which single new section?",
+          "options": [
+            { "text": "Section 28", "correct": true },
+            { "text": "Section 30", "correct": false },
+            { "text": "Section 27", "correct": false },
+            { "text": "Section 36", "correct": false }
+          ],
+          "explanation": "Old Sections 30, 31, and 38 are merged into new Section 28. This is one of the biggest consolidations in the PGBP chapter — three separate sections dealing with premises costs, machinery costs, and proportionate business use are now in one place.",
+          "explanationWrong": "Common mix-up! New Section 28 is NOT the chargeability section (that was old 28, now new 26). New Section 28 is the merged deduction section for rent, repairs, insurance, and proportionate business use. If you picked Section 30, you're thinking of the old Act.",
+          "tier": 1,
+          "subConcepts": ["section-merger", "section-28-new", "rent-repairs-insurance"],
+          "isReview": false,
+          "oldSection": "Section 30, 31, 38",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 38 dealt with proportionate deduction for assets not exclusively used for business. In the ITA 2025, this proportionate-use concept is now:",
+          "options": [
+            { "text": "Eliminated — full deduction regardless of personal use", "correct": false },
+            { "text": "Codified within new Section 28 as part of the merged provision", "correct": true },
+            { "text": "Moved to a separate section on personal use disallowance", "correct": false },
+            { "text": "Left to AO discretion with no statutory basis", "correct": false }
+          ],
+          "explanation": "The proportionate-use rule from old Section 38 is codified within new Section 28. This means rent, repairs, and insurance for assets partly used for business are deductible only to the extent of business use — the rule is preserved but is now in the same section.",
+          "explanationWrong": "This trips up most CAs. Proportionate use isn't gone — it's absorbed into Section 28. Old Section 38 was always read with Sections 30 and 31; the merger just formalises what was already the practical reading. Full deduction for personal-use assets was never allowed.",
+          "tier": 1,
+          "subConcepts": ["proportionate-use", "section-38-merger", "section-28-new"],
+          "isReview": false,
+          "oldSection": "Section 38",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 28 (chargeability of PGBP income) maps to which new section?",
+          "options": [
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 26", "correct": true },
+            { "text": "Section 27", "correct": false },
+            { "text": "Section 30", "correct": false }
+          ],
+          "explanation": "Old Section 28 (PGBP chargeability) maps to new Section 26. This was covered in Unit 6.1. Don't confuse with new Section 28, which is the merged deduction section.",
+          "explanationWrong": "This trips up most CAs. The number 28 now means something completely different! Old 28 (chargeability) = new 26. New 28 = merged deductions (old 30+31+38). This is the single most confusing renumbering in the entire PGBP chapter.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-26", "chargeability"],
+          "isReview": true,
+          "oldSection": "Section 28",
+          "newSection": "Section 26"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 28, a CA firm uses its office premises 80% for professional work and 20% for the senior partner's residential use. How is the rent deduction computed?",
+          "options": [
+            { "text": "Full rent is deductible — it's a professional expense", "correct": false },
+            { "text": "80% of rent is deductible — proportionate to business use as codified in Section 28", "correct": true },
+            { "text": "No rent deduction allowed since there's any personal use", "correct": false },
+            { "text": "50% flat deduction regardless of actual use proportion", "correct": false }
+          ],
+          "explanation": "Under new Section 28 (which absorbed old Section 38's proportionate-use rule), only the business-use proportion is deductible. Since 80% is for professional use, 80% of rent is the allowable deduction.",
+          "explanationWrong": "Common mix-up! Neither full deduction nor zero deduction is correct when there's mixed use. The proportionate-use principle (from old Section 38, now in Section 28) requires apportionment based on actual business use. There's no statutory 50% default.",
+          "tier": 1,
+          "subConcepts": ["proportionate-use", "rent-deduction", "mixed-use"],
+          "isReview": false,
+          "oldSection": "Section 30/38",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 5,
+          "question": "How many sections in the old Act dealt with premises-related and machinery-related deductions (rent, repairs, insurance) plus proportionate use? And how many in the ITA 2025?",
+          "options": [
+            { "text": "3 old sections (30, 31, 38) merged into 1 new section (28)", "correct": true },
+            { "text": "2 old sections merged into 1 new section", "correct": false },
+            { "text": "4 old sections merged into 2 new sections", "correct": false },
+            { "text": "3 old sections remain as 3 new sections", "correct": false }
+          ],
+          "explanation": "Three old sections — 30 (premises), 31 (machinery/furniture), and 38 (proportionate business use) — are consolidated into a single new Section 28. This is genuine simplification: practitioners now refer to one section instead of three.",
+          "explanationWrong": "Common mix-up! It's exactly 3→1. Old Section 30 (premises costs), Section 31 (machinery/furniture costs), and Section 38 (proportionate use apportionment) are all absorbed into new Section 28. This is one of the clearest examples of the 2025 Act's consolidation approach.",
+          "tier": 1,
+          "subConcepts": ["section-count", "consolidation", "simplification"],
+          "isReview": false,
+          "oldSection": "Section 30, 31, 38",
+          "newSection": "Section 28"
+        }
+      ]
+    },
+    {
+      "title": "Section 36 Split — Old 36 → New 29-32",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 36 was a single section containing multiple deductions (insurance, bad debts, employer contributions, etc.). In the ITA 2025, it has been:",
+          "options": [
+            { "text": "Retained as a single section with updated numbering", "correct": false },
+            { "text": "Split into four new sections: 29, 30, 31, and 32", "correct": true },
+            { "text": "Merged with Section 37 into one section", "correct": false },
+            { "text": "Eliminated — all deductions now fall under Section 28", "correct": false }
+          ],
+          "explanation": "Old Section 36 has been split into four new sections (29-32), each dealing with a logical grouping: 29 covers insurance and similar, 30 covers employer contributions, 31 covers bad debts and provisions, and 32 covers other specific deductions. This is the reverse of consolidation — splitting a bloated section for clarity.",
+          "explanationWrong": "This trips up most CAs. While Sections 30+31+38 were merged (consolidation), Section 36 was split (disaggregation). The 2025 Act uses both approaches — merge where things belong together, split where one section had become a dumping ground.",
+          "tier": 1,
+          "subConcepts": ["section-36-split", "sections-29-32", "disaggregation"],
+          "isReview": false,
+          "oldSection": "Section 36",
+          "newSection": "Sections 29, 30, 31, 32"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, bad debt deductions (previously in old Section 36(1)(vii)) are now found in which new section?",
+          "options": [
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 29", "correct": false },
+            { "text": "Section 31", "correct": true },
+            { "text": "Section 36", "correct": false }
+          ],
+          "explanation": "Bad debt deductions have moved from old Section 36(1)(vii) to new Section 31, which groups bad debts and provisions for doubtful debts together. This logical grouping is part of the 36-split strategy.",
+          "explanationWrong": "Common mix-up! Section 31 is correct — it's the new home for bad debt deductions. Section 28 covers rent/repairs/insurance (the merger section). Section 29 covers insurance-type deductions. The old Section 36 number no longer exists for this purpose.",
+          "tier": 1,
+          "subConcepts": ["bad-debts", "section-31", "section-36-split"],
+          "isReview": false,
+          "oldSection": "Section 36(1)(vii)",
+          "newSection": "Section 31"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, new Section 28 merges old Sections 30, 31, and 38. Which deduction concept was codified by absorbing old Section 38 into this merged section?",
+          "options": [
+            { "text": "Depreciation on assets", "correct": false },
+            { "text": "Proportionate business-use deduction for assets not exclusively used for business", "correct": true },
+            { "text": "Scientific research expenditure", "correct": false },
+            { "text": "Bad debt write-off", "correct": false }
+          ],
+          "explanation": "Old Section 38 dealt with proportionate deduction where assets were not exclusively used for business. Its absorption into Section 28 codifies proportionate-use within the same section as the underlying deductions (rent, repairs, insurance).",
+          "explanationWrong": "This trips up most CAs. Section 38's proportionate-use rule is now embedded in Section 28. Depreciation is in Section 33 (old 32). Scientific research is in Section 45 (old 35). Bad debts are in Section 31 (split from old 36).",
+          "tier": 1,
+          "subConcepts": ["proportionate-use", "section-38", "section-28-new"],
+          "isReview": true,
+          "oldSection": "Section 38",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 36(1)(va) dealt with employee contributions to PF/ESI received by the employer but not deposited by the due date. Under the ITA 2025, this provision is now in:",
+          "options": [
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 30", "correct": true },
+            { "text": "Section 33", "correct": false },
+            { "text": "Section 37", "correct": false }
+          ],
+          "explanation": "Employer-related contribution provisions (including the notorious employee PF/ESI due-date rule) have moved from old Section 36 to new Section 30, which groups all employer contribution deductions together.",
+          "explanationWrong": "Common mix-up! Section 30 is the new home for employer contribution provisions — PF, ESI, superannuation, and the due-date compliance rule. Section 28 is for rent/repairs. Section 33 is depreciation. Section 37 is MSME payment compliance.",
+          "tier": 1,
+          "subConcepts": ["employee-contributions", "pf-esi-duedate", "section-30"],
+          "isReview": false,
+          "oldSection": "Section 36(1)(va)",
+          "newSection": "Section 30"
+        },
+        {
+          "order": 5,
+          "question": "The ITA 2025 uses two opposite structural techniques in the PGBP deduction chapter. Which combination correctly describes them?",
+          "options": [
+            { "text": "Consolidation only — all deductions into fewer sections", "correct": false },
+            { "text": "Disaggregation only — each deduction gets its own section", "correct": false },
+            { "text": "Consolidation (30+31+38→28) AND disaggregation (36→29,30,31,32) — merge where logical, split where bloated", "correct": true },
+            { "text": "No structural change — same sections, just renumbered", "correct": false }
+          ],
+          "explanation": "The 2025 Act uses both: Sections 30+31+38 are merged into Section 28 (consolidation) because they all deal with premises/asset costs. Section 36 is split into Sections 29-32 (disaggregation) because it was an unwieldy omnibus. This is intelligent restructuring.",
+          "explanationWrong": "Common mix-up! It's not one technique — it's both. The merge (30+31+38→28) groups related deductions. The split (36→29-32) separates unrelated ones that were crammed into one section. Understanding this dual approach is key to navigating the new Act.",
+          "tier": 1,
+          "subConcepts": ["structural-technique", "consolidation-disaggregation", "pgbp-restructuring"],
+          "isReview": false,
+          "oldSection": "Sections 30, 31, 36, 38",
+          "newSection": "Sections 28, 29, 30, 31, 32"
+        }
+      ]
+    },
+    {
+      "title": "Depreciation & Prohibited Expenditure",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 32 (depreciation) maps to which new section?",
+          "options": [
+            { "text": "Section 32", "correct": false },
+            { "text": "Section 33", "correct": true },
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 34", "correct": false }
+          ],
+          "explanation": "Old Section 32 (depreciation) maps to new Section 33. Depreciation rates and the WDV method remain unchanged. The key change is the continued exclusion of goodwill from depreciable intangible assets (introduced by FA 2021).",
+          "explanationWrong": "This trips up most CAs. New Section 33 = depreciation (old 32). New Section 32 is actually one of the split-out pieces from old Section 36. Don't let the similar numbers fool you — the entire sequence has shifted by one.",
+          "tier": 1,
+          "subConcepts": ["depreciation", "section-33", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 33 (depreciation), which asset has been explicitly excluded from the definition of depreciable intangible assets?",
+          "options": [
+            { "text": "Patents", "correct": false },
+            { "text": "Trademarks", "correct": false },
+            { "text": "Goodwill", "correct": true },
+            { "text": "Know-how", "correct": false }
+          ],
+          "explanation": "Goodwill is excluded from depreciable intangible assets under Section 33, continuing the Finance Act, 2021 amendment. Patents, trademarks, copyrights, franchises, licences, and know-how remain depreciable at 25%.",
+          "explanationWrong": "Common mix-up! Only goodwill is excluded. All other intangible assets — patents, trademarks, copyrights, know-how, licences, franchises — remain depreciable at 25% on WDV. The goodwill exclusion was introduced by FA 2021 and carried forward.",
+          "tier": 1,
+          "subConcepts": ["goodwill-excluded", "intangible-assets", "section-33"],
+          "isReview": false,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the standard deduction of 30% from gross annual value for house property income is found in which section?",
+          "options": [
+            { "text": "Section 20", "correct": false },
+            { "text": "Section 22", "correct": true },
+            { "text": "Section 24", "correct": false },
+            { "text": "Section 33", "correct": false }
+          ],
+          "explanation": "The 30% standard deduction for HP income is in new Section 22 (old Section 24). This was covered in Unit 5.1. Don't confuse Section 33 (depreciation for PGBP) with the HP standard deduction.",
+          "explanationWrong": "This trips up most CAs. Section 22 is the HP deduction section (old 24). Section 33 is the PGBP depreciation section (old 32). They are in completely different heads of income. Section 24 in the new Act corresponds to old Section 26 (co-owners).",
+          "tier": 1,
+          "subConcepts": ["standard-deduction-hp", "section-22", "cross-head"],
+          "isReview": true,
+          "oldSection": "Section 24",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 37 (general deduction for business expenditure) maps to new Section 34 in the ITA 2025. What is the key change?",
+          "options": [
+            { "text": "The general deduction for business expenditure has been removed", "correct": false },
+            { "text": "The prohibited expenditure list has been expanded — Section 34 now covers a broader range of disallowed payments", "correct": true },
+            { "text": "No change — same provision, just renumbered", "correct": false },
+            { "text": "Section 34 now allows personal expenses if related to business", "correct": false }
+          ],
+          "explanation": "Old Section 37 → new Section 34 with an expanded prohibited expenditure list. The general residuary deduction survives, but the negative list of prohibited expenditures (bribes, penalties, CSR, etc.) is broader. This strengthens the anti-avoidance framework.",
+          "explanationWrong": "This trips up most CAs. Section 34 isn't just a renumber — the prohibited expenditure scope is expanded. The general 'wholly and exclusively for business' test remains, but more categories of expenditure are now specifically barred.",
+          "tier": 1,
+          "subConcepts": ["prohibited-expenditure", "section-34", "expanded-list"],
+          "isReview": false,
+          "oldSection": "Section 37",
+          "newSection": "Section 34"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, are depreciation rates on plant and machinery changed compared to the old Act?",
+          "options": [
+            { "text": "Yes — rates have been significantly reduced", "correct": false },
+            { "text": "Yes — a new slab system replaces the old rates", "correct": false },
+            { "text": "No — depreciation rates remain unchanged", "correct": true },
+            { "text": "Yes — additional depreciation of 20% has been removed", "correct": false }
+          ],
+          "explanation": "Depreciation rates under new Section 33 are unchanged from old Section 32. The rate schedule (15%, 30%, 40%, etc. for different asset classes) continues as is. The only notable depreciation-related change is the continued goodwill exclusion.",
+          "explanationWrong": "Common mix-up! The rates are the same. The 2025 Act's depreciation changes are limited to goodwill exclusion (already done by FA 2021). Don't confuse rate changes with structural renumbering. Additional depreciation provisions also continue.",
+          "tier": 1,
+          "subConcepts": ["depreciation-rates", "unchanged", "section-33"],
+          "isReview": false,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        }
+      ]
+    },
+    {
+      "title": "Section 40 & 40A Mapping — New 35 & 36",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 40 (amounts not deductible — payments to non-residents without TDS, wealth tax, etc.) maps to which new section in the ITA 2025?",
+          "options": [
+            { "text": "Section 34", "correct": false },
+            { "text": "Section 35", "correct": true },
+            { "text": "Section 36", "correct": false },
+            { "text": "Section 37", "correct": false }
+          ],
+          "explanation": "Old Section 40 → new Section 35. This section continues to disallow payments to non-residents if TDS is not deducted, and other specified non-deductible amounts. The provision is substantively unchanged.",
+          "explanationWrong": "Common mix-up! Section 35 is correct. The mapping is: old 40→new 35, old 40A→new 36, old 43B→new 37. These three disallowance/compliance sections maintain their relative order but shift numbers.",
+          "tier": 2,
+          "subConcepts": ["section-40", "section-35-new", "non-deductible-amounts"],
+          "isReview": false,
+          "oldSection": "Section 40",
+          "newSection": "Section 35"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 40A (expenses or payments not deductible in certain circumstances — cash payments exceeding Rs 10,000, etc.) maps to which new section?",
+          "options": [
+            { "text": "Section 35", "correct": false },
+            { "text": "Section 36", "correct": true },
+            { "text": "Section 34", "correct": false },
+            { "text": "Section 38", "correct": false }
+          ],
+          "explanation": "Old Section 40A → new Section 36. The Rs 10,000 cash payment disallowance rule (old 40A(3)) continues in new Section 36. Excessive or unreasonable payments to relatives (old 40A(2)) also remain here.",
+          "explanationWrong": "This trips up most CAs. The sequence is: old 40→new 35, old 40A→new 36. Section 36 in the new Act deals with cash payment limits and excessive payments — NOT the old Section 36 content (which was split into Sections 29-32).",
+          "tier": 2,
+          "subConcepts": ["section-40A", "section-36-new", "cash-payment-limit"],
+          "isReview": false,
+          "oldSection": "Section 40A",
+          "newSection": "Section 36"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 36 (deductions for insurance, bad debts, employer contributions, etc.) was split into Sections 29-32. What happened to the old Section 36 number itself?",
+          "options": [
+            { "text": "It's vacant — no section uses the number 36", "correct": false },
+            { "text": "New Section 36 now contains old Section 40A provisions (cash payment limits, excessive payments)", "correct": true },
+            { "text": "New Section 36 retains the same old Section 36 provisions", "correct": false },
+            { "text": "New Section 36 contains depreciation provisions", "correct": false }
+          ],
+          "explanation": "The number 36 is reused. Old Section 36 (deductions) was split into 29-32. New Section 36 now houses old Section 40A (cash payment disallowance, excessive payments). This is the most confusing number reuse in the PGBP chapter.",
+          "explanationWrong": "This trips up most CAs. Old 36 ≠ New 36. Old 36 (insurance, bad debts, contributions) → split into new 29-32. New 36 = old 40A (cash payment limits). If a practitioner cites 'Section 36' without specifying which Act, chaos follows.",
+          "tier": 2,
+          "subConcepts": ["number-reuse", "section-36-confusion", "old-vs-new"],
+          "isReview": true,
+          "oldSection": "Section 36 / Section 40A",
+          "newSection": "Section 29-32 / Section 36"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 35 (old Section 40), a company makes a payment of Rs 5 lakh to a non-resident consultant without deducting TDS. What is the consequence?",
+          "options": [
+            { "text": "The payment is deductible but a penalty is levied separately", "correct": false },
+            { "text": "30% of the payment is disallowed", "correct": true },
+            { "text": "The entire payment is disallowed", "correct": false },
+            { "text": "The payment is deductible in the next year when TDS is deposited", "correct": false }
+          ],
+          "explanation": "Under new Section 35 (old Section 40(a)(i)), 30% of the payment is disallowed if TDS is not deducted on payments to non-residents. This is not the entire amount — it's 30% disallowance. The rule is unchanged from the old Act.",
+          "explanationWrong": "Common mix-up! It's 30% disallowance, not 100%. Many practitioners assume the entire payment is disallowed — that applies to resident payments under Section 40(a)(ia)/new 35. For non-resident payments, the disallowance is capped at 30%.",
+          "tier": 2,
+          "subConcepts": ["tds-non-resident", "30-percent-disallowance", "section-35-new"],
+          "isReview": false,
+          "oldSection": "Section 40(a)(i)",
+          "newSection": "Section 35"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 36 (old Section 40A(3)), what is the cash payment limit beyond which business expenditure is disallowed?",
+          "options": [
+            { "text": "Rs 20,000", "correct": false },
+            { "text": "Rs 10,000", "correct": true },
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "The Rs 10,000 cash payment limit continues under new Section 36. Any business expenditure paid in cash exceeding Rs 10,000 to a single person in a single day is disallowed. The threshold is unchanged from old Section 40A(3).",
+          "explanationWrong": "Common mix-up! The Rs 10,000 limit has been in place for decades and the 2025 Act doesn't change it. Rs 20,000 is the limit for specified payments to transporters. Don't confuse the two thresholds.",
+          "tier": 2,
+          "subConcepts": ["cash-payment-limit", "rs-10000", "section-36-new"],
+          "isReview": false,
+          "oldSection": "Section 40A(3)",
+          "newSection": "Section 36"
+        }
+      ]
+    },
+    {
+      "title": "Section 43B → 37 — MSME Changes",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 43B (deduction only on actual payment basis) maps to which new section in the ITA 2025?",
+          "options": [
+            { "text": "Section 35", "correct": false },
+            { "text": "Section 36", "correct": false },
+            { "text": "Section 37", "correct": true },
+            { "text": "Section 43", "correct": false }
+          ],
+          "explanation": "Old Section 43B → new Section 37. This section continues the 'deduction on payment basis' rule for specified items — taxes, statutory dues, employer contributions, and crucially, MSME payments. The MSME payment rule was introduced by Finance Act 2023 (Section 43B(h)) and is carried forward by the 2025 Act into Section 37.",
+          "explanationWrong": "Common mix-up! Section 37 is correct. The PGBP disallowance sequence in the new Act is: 34 (prohibited expenditure), 35 (old 40), 36 (old 40A), 37 (old 43B). The MSME payment compliance rule originated in Finance Act 2023 (Section 43B(h)), not in the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["section-43B", "section-37-new", "payment-basis-deduction"],
+          "isReview": false,
+          "oldSection": "Section 43B",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 2,
+          "question": "Under new Section 37, what is the key change regarding payments to MSME suppliers compared to old Section 43B?",
+          "options": [
+            { "text": "MSME payments are now fully deductible regardless of payment date", "correct": false },
+            { "text": "No grace period — payment must be made within the time limit specified under the MSME Act to claim deduction", "correct": true },
+            { "text": "MSME payments get a 45-day extended grace period", "correct": false },
+            { "text": "No change — same rules as old Section 43B", "correct": false }
+          ],
+          "explanation": "Under new Section 37, MSME payments have NO grace period. This rule was introduced by Finance Act 2023 (Section 43B(h)) and is carried forward by the 2025 Act. The deduction is allowed only if payment is made within the time limit under the MSMED Act (15/45 days). Under the old Act pre-43B(h), there was an argument for grace until the return-filing due date. The 2025 Act carries forward the Finance Act 2023 tightening.",
+          "explanationWrong": "This trips up most CAs. The MSME payment timeline rule was introduced by Finance Act 2023 (Section 43B(h)), not by the 2025 Act — the 2025 Act carries it forward into Section 37. Under old 43B (pre-Finance Act 2023), some practitioners argued payment by the return due date sufficed. Section 37 continues the stricter position: MSMED Act timeline or no deduction.",
+          "tier": 2,
+          "subConcepts": ["msme-payment", "no-grace-period", "section-37-new"],
+          "isReview": false,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 3,
+          "question": "Under the MSMED Act, 2006, what is the payment time limit for goods/services supplied by a micro or small enterprise to a buyer?",
+          "options": [
+            { "text": "15 days if no written agreement; 45 days if written agreement exists", "correct": true },
+            { "text": "30 days regardless of agreement", "correct": false },
+            { "text": "60 days with written agreement", "correct": false },
+            { "text": "90 days for all cases", "correct": false }
+          ],
+          "explanation": "The MSMED Act prescribes 15 days (no agreement) or 45 days (with written agreement) from the date of acceptance. These timelines were linked to tax deductions by Finance Act 2023 (Section 43B(h)) and carried forward by the 2025 Act into Section 37 — pay within these limits or lose the deduction.",
+          "explanationWrong": "Common mix-up! The 15/45 day split depends on whether there's a written agreement. Many practitioners assume 45 days across the board. Without a written agreement, you only have 15 days — and missing this means the deduction is gone for that year. This rule originated in Finance Act 2023 (Section 43B(h)).",
+          "tier": 2,
+          "subConcepts": ["msmed-act-timeline", "15-45-days", "payment-compliance"],
+          "isReview": true,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 4,
+          "question": "A company purchases raw material worth Rs 20 lakh from a micro enterprise on January 15, 2027 under a written agreement. To claim the deduction in tax year 2026-27, by when must payment be made under new Section 37?",
+          "options": [
+            { "text": "March 31, 2027 (end of tax year)", "correct": false },
+            { "text": "March 1, 2027 (45 days from purchase)", "correct": true },
+            { "text": "July 31, 2027 (return filing due date)", "correct": false },
+            { "text": "April 14, 2027 (within 90 days)", "correct": false }
+          ],
+          "explanation": "With a written agreement, the MSMED Act allows 45 days. January 15 + 45 days = March 1, 2027. Under new Section 37, payment must be made by this date to claim the deduction in TY 2026-27. The return-filing-date grace does NOT apply for MSME payments.",
+          "explanationWrong": "This trips up most CAs. The return-filing-date argument doesn't work for MSME payments under new Section 37. The 45-day MSMED Act deadline is absolute. If payment is made on March 2, the deduction shifts to the next year when payment is actually made.",
+          "tier": 2,
+          "subConcepts": ["msme-deadline-computation", "45-day-rule", "no-grace"],
+          "isReview": false,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 5,
+          "question": "Under new Section 37, which of the following items still gets the 'payment by return-filing due date' grace period?",
+          "options": [
+            { "text": "MSME supplier payments", "correct": false },
+            { "text": "Tax, duty, cess, or fee payable under any law", "correct": true },
+            { "text": "All items covered under Section 37 uniformly", "correct": false },
+            { "text": "None — the grace period is eliminated for all items", "correct": false }
+          ],
+          "explanation": "The return-filing-date grace period continues for statutory dues (tax, duty, cess, fee), employer contributions to PF/ESI, and similar items. Only MSME payments lose the grace — they must comply with MSMED Act timelines. This selective tightening was introduced by Finance Act 2023 (Section 43B(h)) and carried forward by the 2025 Act into Section 37.",
+          "explanationWrong": "Common mix-up! The grace period isn't universally removed. It's specifically removed for MSME payments — a change introduced by Finance Act 2023 (Section 43B(h)), not by the 2025 Act. Statutory dues like GST, excise, customs duty still get the return-filing-date grace. The 2025 Act carries forward this selective tightening.",
+          "tier": 2,
+          "subConcepts": ["selective-tightening", "statutory-dues-grace", "msme-distinction"],
+          "isReview": false,
+          "oldSection": "Section 43B",
+          "newSection": "Section 37"
+        }
+      ]
+    },
+    {
+      "title": "Complete Mapping — Deduction Sections at a Glance",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A practitioner needs to find the new Act equivalent of old Section 37 (general deduction / residuary business expenditure). Which new section should they look at?",
+          "options": [
+            { "text": "Section 37", "correct": false },
+            { "text": "Section 34", "correct": true },
+            { "text": "Section 28", "correct": false },
+            { "text": "Section 35", "correct": false }
+          ],
+          "explanation": "Old Section 37 (general/residuary business deduction with the 'wholly and exclusively for business' test) maps to new Section 34. New Section 37 is actually old Section 43B (payment-basis deductions).",
+          "explanationWrong": "This trips up most CAs. New 37 ≠ old 37. New Section 34 = old Section 37 (general deduction). New Section 37 = old Section 43B (payment-basis). This is the most dangerous number-reuse in practice — citing 'Section 37' without specifying the Act causes errors.",
+          "tier": 2,
+          "subConcepts": ["section-37-confusion", "section-34-new", "number-reuse"],
+          "isReview": false,
+          "oldSection": "Section 37",
+          "newSection": "Section 34"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, what is the correct mapping sequence for the major disallowance sections?",
+          "options": [
+            { "text": "Old 37→New 34, Old 40→New 35, Old 40A→New 36, Old 43B→New 37", "correct": true },
+            { "text": "Old 37→New 37, Old 40→New 40, Old 40A→New 36, Old 43B→New 43", "correct": false },
+            { "text": "Old 37→New 35, Old 40→New 36, Old 40A→New 37, Old 43B→New 38", "correct": false },
+            { "text": "Old 37→New 34, Old 40→New 36, Old 40A→New 35, Old 43B→New 37", "correct": false }
+          ],
+          "explanation": "The mapping is: old 37→new 34 (general/prohibited expenditure), old 40→new 35 (non-deductible amounts), old 40A→new 36 (cash limits/excessive payments), old 43B→new 37 (payment-basis deductions). Clean sequential ordering in the new Act.",
+          "explanationWrong": "Common mix-up! The sequence matters: 34, 35, 36, 37 correspond to old 37, 40, 40A, 43B respectively. The new Act creates a logical flow: what's prohibited (34) → what's specifically non-deductible (35) → what's limited by mode of payment (36) → what needs actual payment (37).",
+          "tier": 2,
+          "subConcepts": ["mapping-sequence", "disallowance-sections", "logical-flow"],
+          "isReview": false,
+          "oldSection": "Sections 37, 40, 40A, 43B",
+          "newSection": "Sections 34, 35, 36, 37"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 33 deals with depreciation. Which asset continues to be depreciable as an intangible asset?",
+          "options": [
+            { "text": "Goodwill", "correct": false },
+            { "text": "Know-how", "correct": true },
+            { "text": "Land", "correct": false },
+            { "text": "Non-compete fee (if capitalised)", "correct": false }
+          ],
+          "explanation": "Know-how remains depreciable at 25% under Section 33. Goodwill is excluded (per FA 2021 change). Land is never depreciable. This was covered in the depreciation lesson of this unit.",
+          "explanationWrong": "This trips up most CAs. The depreciable intangible assets under Section 33 are: patents, copyrights, trademarks, licences, franchises, and know-how — at 25% WDV. Goodwill was removed by FA 2021. Know-how specifically remains on the list.",
+          "tier": 2,
+          "subConcepts": ["intangible-depreciation", "know-how", "goodwill-excluded"],
+          "isReview": true,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 4,
+          "question": "Under new Section 34 (old Section 37), which of the following expenditures is now EXPLICITLY added to the prohibited list compared to the old Act?",
+          "options": [
+            { "text": "Salary paid to employees", "correct": false },
+            { "text": "Interest on term loans", "correct": false },
+            { "text": "Settlement/compounding payments for contraventions under any law", "correct": true },
+            { "text": "Professional tax paid", "correct": false }
+          ],
+          "explanation": "Section 34 expands the prohibited expenditure list. Settlement or compounding payments for legal contraventions are now explicitly non-deductible. Under the old Act, this was covered by judicial interpretation of Explanation 1 to Section 37(1), but the 2025 Act makes it statutory.",
+          "explanationWrong": "Common mix-up! Salary and interest are perfectly deductible business expenses. Professional tax is deductible under another provision. The expansion targets anti-avoidance: payments to settle legal violations cannot reduce taxable profit. This was judge-made law before; now it's in the statute.",
+          "tier": 2,
+          "subConcepts": ["expanded-prohibited-list", "settlement-payments", "section-34"],
+          "isReview": false,
+          "oldSection": "Section 37(1) Explanation 1",
+          "newSection": "Section 34"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, a company pays CSR expenditure of Rs 50 lakh as mandated under the Companies Act, 2013. Can it claim this as a business deduction?",
+          "options": [
+            { "text": "Yes — CSR is a mandatory expense, so it's deductible", "correct": false },
+            { "text": "Yes — but only up to 2% of average net profit", "correct": false },
+            { "text": "No — CSR expenditure is explicitly prohibited from deduction under Section 34", "correct": true },
+            { "text": "Only if it qualifies as scientific research", "correct": false }
+          ],
+          "explanation": "CSR expenditure remains explicitly non-deductible under new Section 34, continuing the Explanation 2 to old Section 37(1). The rationale: CSR is a statutory obligation, not a business expenditure laid out 'wholly and exclusively' for business purposes.",
+          "explanationWrong": "This trips up most CAs. The 'mandatory expense' argument fails — statutory obligation doesn't equal business expenditure for tax purposes. CSR was made non-deductible by FA 2014 (adding Explanation 2 to Section 37(1)). The 2025 Act carries this forward in Section 34.",
+          "tier": 2,
+          "subConcepts": ["csr-non-deductible", "section-34", "prohibited-expenditure"],
+          "isReview": false,
+          "oldSection": "Section 37(1) Explanation 2",
+          "newSection": "Section 34"
+        }
+      ]
+    },
+    {
+      "title": "Client Scenarios — Deduction Errors",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An article clerk drafts a tax computation citing 'Section 36 — bad debt write-off' for a client's Rs 12 lakh bad debt claim. The senior partner rejects it. Under the ITA 2025, what's the clerk's error?",
+          "options": [
+            { "text": "Bad debts are no longer deductible under the 2025 Act", "correct": false },
+            { "text": "The clerk cited new Section 36 (which is cash payment limits from old 40A), not Section 31 (which is bad debts from old 36)", "correct": true },
+            { "text": "Bad debts require Section 28 citation", "correct": false },
+            { "text": "Bad debt deduction needs AO's prior approval", "correct": false }
+          ],
+          "explanation": "Classic article clerk error! New Section 36 = old 40A (cash payment disallowance). New Section 31 = bad debts (from old Section 36). The clerk used the old Act number (36 for bad debts) in a new Act computation — a section-mapping error.",
+          "explanationWrong": "This trips up most CAs. The number 36 is reused in the new Act for a completely different provision. Bad debts moved from old 36 to new 31. The clerk who wrote '36' was thinking old Act. In a filed computation, this error could trigger an AO query.",
+          "tier": 3,
+          "subConcepts": ["section-mapping-error", "bad-debt-section", "article-clerk-scenario"],
+          "isReview": false,
+          "oldSection": "Section 36(1)(vii)",
+          "newSection": "Section 31"
+        },
+        {
+          "order": 2,
+          "question": "A manufacturing client pays Rs 15 lakh to a micro enterprise supplier on April 20, 2027 for goods received on February 15, 2027 (45-day written agreement exists). The client says: 'I paid before the return-filing date, so deduction is fine for TY 2026-27.' Is the client correct?",
+          "options": [
+            { "text": "Yes — payment before return-filing date is sufficient under Section 37", "correct": false },
+            { "text": "No — the 45-day MSMED deadline was April 1, 2027. Payment on April 20 is late. Deduction shifts to TY 2027-28 when payment was actually made.", "correct": true },
+            { "text": "Yes — MSME rules don't affect tax deductions", "correct": false },
+            { "text": "No — the entire amount is permanently disallowed", "correct": false }
+          ],
+          "explanation": "February 15 + 45 days = April 1, 2027 (last day of TY 2026-27). Payment on April 20 is 19 days late. Under new Section 37 (carrying forward Finance Act 2023's Section 43B(h)), the return-filing-date grace does NOT apply to MSME payments. The deduction moves to TY 2027-28.",
+          "explanationWrong": "This trips up most CAs. The client is applying the pre-Finance Act 2023 Section 43B logic (pay by return-filing date). But for MSME payments, Finance Act 2023 introduced Section 43B(h) — carried forward by the 2025 Act as Section 37 — which is strict: the MSMED Act deadline is the only deadline. Late payment doesn't permanently disallow; it defers to the year of actual payment.",
+          "tier": 3,
+          "subConcepts": ["msme-late-payment", "deduction-deferral", "client-misconception"],
+          "isReview": false,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, when a company makes a payment of Rs 12,000 in cash for a repair expense, what is the tax treatment?",
+          "options": [
+            { "text": "Fully deductible — the limit is Rs 20,000", "correct": false },
+            { "text": "Disallowed under Section 36 (old 40A(3)) — cash payment exceeds Rs 10,000", "correct": true },
+            { "text": "50% is deductible", "correct": false },
+            { "text": "Deductible if supported by a voucher", "correct": false }
+          ],
+          "explanation": "Under new Section 36 (old Section 40A(3)), any cash payment exceeding Rs 10,000 to a single person on a single day is disallowed. Rs 12,000 exceeds the limit, so the entire Rs 12,000 is disallowed — not just the excess.",
+          "explanationWrong": "Common mix-up! The limit is Rs 10,000 (not Rs 20,000). And the disallowance is of the entire payment, not just the excess over Rs 10,000. A voucher doesn't save a cash payment that breaches the statutory limit.",
+          "tier": 3,
+          "subConcepts": ["cash-payment-disallowance", "rs-10000-limit", "entire-amount"],
+          "isReview": true,
+          "oldSection": "Section 40A(3)",
+          "newSection": "Section 36"
+        },
+        {
+          "order": 4,
+          "question": "A partner in your firm disputes your position on a client's CSR expenditure. He says: 'The Supreme Court in the Jindal Stainless case held that CSR is a business expense. We should claim the deduction under Section 34.' How do you respond?",
+          "options": [
+            { "text": "The partner is correct — follow the Supreme Court ruling", "correct": false },
+            { "text": "Section 34 has an explicit prohibition on CSR deductions. A specific statutory bar overrides any general judicial interpretation of 'business expenditure'.", "correct": true },
+            { "text": "Claim the deduction and disclose the position in the return", "correct": false },
+            { "text": "CSR is deductible only if it qualifies under Section 45 (scientific research)", "correct": false }
+          ],
+          "explanation": "The specific statutory bar in Section 34 (Explanation to old Section 37(1)) overrides any general judicial interpretation. The partner is applying a pre-FA-2014 judicial position to a post-FA-2014 (and now 2025 Act) statutory prohibition. Statute trumps judicial interpretation when the statute is later and specific.",
+          "explanationWrong": "This trips up most CAs. The partner's error is a common one — citing pre-amendment case law when the statute has explicitly addressed the issue. Post-FA-2014, CSR is specifically barred. The 2025 Act continues this. Claiming the deduction risks penalty for furnished inaccurate particulars.",
+          "tier": 3,
+          "subConcepts": ["csr-dispute", "statutory-bar", "partner-disagreement"],
+          "isReview": false,
+          "oldSection": "Section 37(1) Explanation 2",
+          "newSection": "Section 34"
+        },
+        {
+          "order": 5,
+          "question": "A client uses a car 60% for business and 40% personally. Under the ITA 2025, how should depreciation and running expenses be treated?",
+          "options": [
+            { "text": "Full depreciation and expenses — the car is registered in the business name", "correct": false },
+            { "text": "60% of depreciation (Section 33) and 60% of running expenses (Section 28) — proportionate to business use", "correct": true },
+            { "text": "No depreciation at all if any personal use exists", "correct": false },
+            { "text": "Full depreciation but no running expenses", "correct": false }
+          ],
+          "explanation": "Under Section 28 (which absorbed old Section 38's proportionate-use rule) and Section 33 (depreciation), only the business-use proportion (60%) is deductible. Both depreciation and running expenses are apportioned. Registration name is irrelevant.",
+          "explanationWrong": "Common mix-up! The proportionate-use principle applies to BOTH depreciation and running expenses. It's not 'all or nothing'. The 60% business use means 60% of all car-related deductions. Personal use doesn't eliminate the deduction entirely — it reduces it proportionally.",
+          "tier": 3,
+          "subConcepts": ["proportionate-use", "car-expenses", "depreciation-apportionment"],
+          "isReview": false,
+          "oldSection": "Section 32/38",
+          "newSection": "Section 33/28"
+        }
+      ]
+    },
+    {
+      "title": "Practice Scenarios — MSME & Cash Limits",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your firm's client is a large manufacturer with 200+ MSME suppliers. The accounts team says: 'We always pay within 60 days — that was fine under the old Act.' Under the ITA 2025, what's the risk?",
+          "options": [
+            { "text": "No risk — 60 days is within the grace period", "correct": false },
+            { "text": "For suppliers with written agreements, 45 days is the limit. For those without, 15 days. Payments at 60 days could result in massive disallowances across 200+ vendors.", "correct": true },
+            { "text": "Only micro enterprise payments are affected; small and medium are exempt", "correct": false },
+            { "text": "The risk is minimal — the AO rarely checks MSME compliance", "correct": false }
+          ],
+          "explanation": "60 days exceeds the 45-day limit (with agreement) and far exceeds the 15-day limit (without agreement). With 200+ MSME suppliers, the disallowance could be enormous. This MSME payment compliance rule was introduced by Finance Act 2023 (Section 43B(h)) and carried forward by the 2025 Act into Section 37.",
+          "explanationWrong": "This trips up most CAs. The 60-day payment cycle that many manufacturers follow is a tax trap since Finance Act 2023 introduced Section 43B(h). Section 37 of the 2025 Act carries this forward. The rules apply to micro AND small enterprises (not medium). The practical advice: audit all supplier classifications and revise payment cycles immediately.",
+          "tier": 3,
+          "subConcepts": ["msme-mass-disallowance", "payment-cycle-risk", "operational-change"],
+          "isReview": false,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 2,
+          "question": "An article clerk preparing a tax computation for a construction company adds back Rs 3 lakh for 'cash payments exceeding Rs 10,000 to labourers.' The labourers were daily-wage workers paid Rs 800/day for 15 days each. Is the addback correct?",
+          "options": [
+            { "text": "Yes — total payment per labourer (Rs 12,000) exceeds Rs 10,000", "correct": false },
+            { "text": "No — the Rs 10,000 limit applies per payment/per day to a single person. Rs 800/day doesn't exceed the limit even if the aggregate does.", "correct": true },
+            { "text": "Yes — aggregate payments to a person in a month count", "correct": false },
+            { "text": "No — labourer payments are entirely exempt from Section 36 limits", "correct": false }
+          ],
+          "explanation": "The Rs 10,000 limit under Section 36 applies per payment to a single person on a single day — not monthly or aggregate. Daily payments of Rs 800 don't breach the limit. The clerk incorrectly aggregated. This is a common but incorrect addback.",
+          "explanationWrong": "Common mix-up! The trigger is per-payment-per-day, not aggregate. Paying Rs 800/day for 15 days = Rs 12,000 total, but no single payment exceeds Rs 10,000. The addback was wrong. However, if Rs 12,000 were paid as a lump sum, it would be disallowed.",
+          "tier": 3,
+          "subConcepts": ["cash-limit-application", "per-day-test", "article-clerk-error"],
+          "isReview": false,
+          "oldSection": "Section 40A(3)",
+          "newSection": "Section 36"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, employer contributions to a recognised provident fund that are paid after the due date under the PF Act but before the return-filing date. Are they deductible?",
+          "options": [
+            { "text": "Yes — employee contributions get return-filing-date grace under Section 37", "correct": false },
+            { "text": "No — employer contributions to PF must be deposited by the PF Act due date. Late deposit means disallowance even if paid before return-filing date.", "correct": false },
+            { "text": "Employee's contribution deposited late is disallowed; employer's own contribution gets return-filing-date grace under Section 37", "correct": true },
+            { "text": "Both employee and employer contributions must be paid by PF Act due date", "correct": false }
+          ],
+          "explanation": "There's a crucial distinction: Employee's contribution (deducted from salary) must be deposited by PF Act due date — no grace (per SC in Checkmate Services). Employer's own contribution gets the Section 37 grace period (pay by return-filing date). This distinction continues in the 2025 Act.",
+          "explanationWrong": "This trips up most CAs. The employee vs employer contribution distinction is critical. Employee contributions (held in trust) have strict PF Act deadlines. Employer contributions (the employer's own expense) get the more lenient Section 37 treatment.",
+          "tier": 3,
+          "subConcepts": ["pf-contribution-distinction", "employee-vs-employer", "due-date-compliance"],
+          "isReview": true,
+          "oldSection": "Section 36(1)(va)/43B",
+          "newSection": "Section 30/37"
+        },
+        {
+          "order": 4,
+          "question": "A client's accountant prepares the PGBP computation and applies old Section 30 (premises rent deduction) and old Section 31 (machinery repairs) separately. Under the ITA 2025, what correction is needed?",
+          "options": [
+            { "text": "No correction — Sections 30 and 31 still exist in the new Act", "correct": false },
+            { "text": "Both should be cited under new Section 28 — the merged section covering rent, repairs, insurance, and proportionate use", "correct": true },
+            { "text": "Section 30 should be cited; Section 31 is abolished", "correct": false },
+            { "text": "Both should be cited under new Section 33 (depreciation)", "correct": false }
+          ],
+          "explanation": "Old Sections 30 and 31 are merged into new Section 28. The accountant is using old Act references. In a filed computation, citing non-existent sections (old 30/31 have different content in the new Act) could cause processing errors or AO queries.",
+          "explanationWrong": "Common mix-up! New Section 30 is NOT old Section 30. New Section 30 = employer contributions (split from old 36). New Section 28 = merged rent/repairs/insurance (old 30+31+38). Using old numbering in a new Act filing is a compliance error.",
+          "tier": 3,
+          "subConcepts": ["section-reference-error", "merged-section", "filing-compliance"],
+          "isReview": false,
+          "oldSection": "Section 30, 31",
+          "newSection": "Section 28"
+        },
+        {
+          "order": 5,
+          "question": "During a peer review, you find that another CA firm has been advising clients to claim depreciation on goodwill acquired in a slump sale completed in January 2023. Under the ITA 2025, is this advice correct?",
+          "options": [
+            { "text": "Yes — goodwill acquired before FA 2021 is grandfathered", "correct": false },
+            { "text": "No — goodwill depreciation was removed by FA 2021 for all assessees regardless of acquisition date. The 2025 Act continues this under Section 33.", "correct": true },
+            { "text": "Yes — slump sale goodwill is treated differently from purchased goodwill", "correct": false },
+            { "text": "It depends on whether the goodwill is self-generated or purchased", "correct": false }
+          ],
+          "explanation": "FA 2021 removed goodwill from the depreciation schedule effective AY 2021-22. There's no grandfathering for goodwill acquired before the amendment. The 2025 Act's Section 33 continues this exclusion. The other firm's advice is wrong and exposes clients to disallowance.",
+          "explanationWrong": "This trips up most CAs. There is no grandfathering for goodwill depreciation — FA 2021 removed it prospectively from AY 2021-22. Whether goodwill arose from slump sale, itemised purchase, or amalgamation doesn't matter. Section 33 excludes all goodwill.",
+          "tier": 3,
+          "subConcepts": ["goodwill-no-grandfathering", "peer-review", "wrong-advice"],
+          "isReview": false,
+          "oldSection": "Section 32",
+          "newSection": "Section 33"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Application — Deduction Mapping Under Pressure",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A senior partner hands you a list of deductions claimed by a client and asks you to map each to the correct new Act section. The client has claimed: (1) office rent, (2) bad debt write-off, (3) depreciation on machinery, (4) payment to a non-resident consultant without TDS. Which mapping is correct?",
+          "options": [
+            { "text": "Rent→28, Bad debt→31, Depreciation→33, Non-resident payment→35", "correct": true },
+            { "text": "Rent→30, Bad debt→36, Depreciation→32, Non-resident payment→40", "correct": false },
+            { "text": "Rent→28, Bad debt→29, Depreciation→33, Non-resident payment→34", "correct": false },
+            { "text": "Rent→29, Bad debt→31, Depreciation→34, Non-resident payment→36", "correct": false }
+          ],
+          "explanation": "Correct mapping: Office rent → Section 28 (old 30 merged), Bad debt → Section 31 (split from old 36), Depreciation → Section 33 (old 32), Non-resident TDS disallowance → Section 35 (old 40). Option B uses old Act numbers — the most common error.",
+          "explanationWrong": "Common mix-up! Option B is all old Act numbers (30, 36, 32, 40). In the new Act: rent is in 28 (merger), bad debts in 31 (split), depreciation in 33 (renumber), and non-resident TDS issues in 35 (renumber). Getting this mapping right is essential for correct filings.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-mapping", "multi-deduction", "practice-test"],
+          "isReview": false,
+          "oldSection": "Sections 30, 36, 32, 40",
+          "newSection": "Sections 28, 31, 33, 35"
+        },
+        {
+          "order": 2,
+          "question": "A client's CFO calls in a panic: 'Our ERP system auto-cites old Act section numbers in tax computations. We've filed the return with old numbers. What's the consequence?' Under the ITA 2025, what do you advise?",
+          "options": [
+            { "text": "No consequence — the AO will read through the old numbers", "correct": false },
+            { "text": "File a revised return with correct new Act section references. While not technically a 'defective return', wrong section citations can trigger unnecessary scrutiny and processing delays.", "correct": true },
+            { "text": "The return is invalid and must be refiled from scratch", "correct": false },
+            { "text": "Only a penalty of Rs 10,000 under Section 270A", "correct": false }
+          ],
+          "explanation": "Wrong section citations don't automatically make a return defective, but they can trigger AO queries, processing delays, and unnecessary scrutiny. Practical advice: file a revised return with correct sections and update the ERP mapping immediately.",
+          "explanationWrong": "This trips up most CAs. The return isn't 'invalid' — the income and deduction amounts may be correct even if sections are mis-cited. But it's not a non-issue either. AO queries waste time and money. The pragmatic fix: revise and update the ERP.",
+          "tier": 3,
+          "subConcepts": ["erp-mapping-error", "revised-return", "practical-advice"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, for how many years can unabsorbed depreciation be carried forward?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "8 years", "correct": false },
+            { "text": "Indefinitely — no time limit", "correct": true },
+            { "text": "12 years", "correct": false }
+          ],
+          "explanation": "Unabsorbed depreciation can be carried forward indefinitely — no time limit. This is unchanged from the old Act. Contrast with regular business losses (8 years) and speculative losses (4 years).",
+          "explanationWrong": "This trips up most CAs. The carry-forward hierarchy: speculative = 4 years, regular business = 8 years, unabsorbed depreciation = indefinite. The 2025 Act preserves this. Depreciation gets the most generous treatment because it represents actual asset wear.",
+          "tier": 3,
+          "subConcepts": ["unabsorbed-depreciation", "indefinite-carry-forward", "loss-hierarchy"],
+          "isReview": true,
+          "oldSection": "Section 32(2)",
+          "newSection": "Section 33"
+        },
+        {
+          "order": 4,
+          "question": "A client with Rs 40 crore turnover has 500 MSME suppliers. The finance team discovers that 120 suppliers were paid between 46 and 60 days — all with written agreements (45-day limit). Under Section 37, what is the tax impact?",
+          "options": [
+            { "text": "No impact — written agreements extend the deadline to 60 days", "correct": false },
+            { "text": "Disallowance of the entire purchase amount for all 120 suppliers in the current year — deduction deferred to the year of actual payment", "correct": true },
+            { "text": "Only 10% penalty on late payments", "correct": false },
+            { "text": "Disallowance limited to interest on delayed payment", "correct": false }
+          ],
+          "explanation": "All 120 suppliers' payments exceeded the 45-day MSMED limit. Under Section 37, the ENTIRE purchase amount is disallowed in the current year. For a Rs 40 crore company with 120 late-paid MSME vendors, this could be crores of disallowance. The deduction shifts to the year of payment.",
+          "explanationWrong": "This trips up most CAs. Written agreements cap at 45 days, not 60. Every payment beyond day 45 triggers full disallowance of that vendor's amount for the year. With 120 vendors, this is a potential audit catastrophe. This is why MSME payment compliance is the #1 PGBP operational change.",
+          "tier": 3,
+          "subConcepts": ["mass-msme-disallowance", "operational-catastrophe", "45-day-breach"],
+          "isReview": false,
+          "oldSection": "Section 43B(h)",
+          "newSection": "Section 37"
+        },
+        {
+          "order": 5,
+          "question": "You're training junior staff on the ITA 2025 PGBP chapter. A trainee asks: 'What are the THREE most important structural changes in the deduction sections compared to the old Act?' Which answer is most accurate?",
+          "options": [
+            { "text": "All section numbers changed, depreciation rates changed, and ICDS was abolished", "correct": false },
+            { "text": "(1) Merger of 30+31+38 into Section 28, (2) Split of old 36 into Sections 29-32, (3) MSME payment compliance tightened in Section 37 with no grace period", "correct": true },
+            { "text": "Only the MSME change matters; the rest is cosmetic", "correct": false },
+            { "text": "CSR is now deductible, goodwill is depreciable again, and cash limits raised to Rs 50,000", "correct": false }
+          ],
+          "explanation": "The three most important changes: (1) Consolidation of premises/machinery deductions (30+31+38→28), (2) Disaggregation of the bloated Section 36 (into 29-32), and (3) MSME payment compliance tightening (43B→37 with no grace period). Everything else is renumbering.",
+          "explanationWrong": "Common mix-up! Option D is completely wrong (CSR remains non-deductible, goodwill remains excluded, cash limits unchanged). Option C undersells the structural changes. Option A is wrong about rates and ICDS. The three real changes are merger, split, and MSME tightening.",
+          "tier": 3,
+          "subConcepts": ["three-key-changes", "structural-summary", "training-scenario"],
+          "isReview": false,
+          "oldSection": "Sections 30, 31, 36, 38, 43B",
+          "newSection": "Sections 28, 29-32, 37"
+        }
+      ]
+    }
+  ]
+}

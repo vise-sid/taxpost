@@ -1,0 +1,835 @@
+{
+  "unit": "2.4",
+  "title": "TDS During Transition",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Earlier-Event Rule",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which rule determines whether TDS on a payment is governed by the old 1961 Act or the new 2025 Act?",
+          "options": [
+            { "text": "The invoice-date rule", "correct": false },
+            { "text": "The earlier-event rule (credit or payment, whichever is earlier)", "correct": true },
+            { "text": "The financial-year rule based on contract signing date", "correct": false },
+            { "text": "The deductor's registration date under the new Act", "correct": false }
+          ],
+          "explanation": "The earlier-event rule governs: if the earlier of credit or payment falls on or before 31 March 2026, the old Act applies; if on or after 1 April 2026, the new Act applies. This is the fundamental transition principle for TDS.",
+          "explanationWrong": "The earlier-event rule applies — whichever occurs first between crediting the amount to the payee's account and actual payment determines which Act governs the TDS obligation. Neither the invoice date, contract date, nor registration date is relevant.",
+          "tier": 1,
+          "subConcepts": ["earlier-event-rule", "tds-transition"],
+          "isReview": false,
+          "oldSection": "Section 190",
+          "newSection": "Section 391"
+        },
+        {
+          "order": 2,
+          "question": "If a payment to a contractor is credited to the books on 28 March 2026, which Act governs the TDS deduction?",
+          "options": [
+            { "text": "The Income-tax Act, 2025 (new Act)", "correct": false },
+            { "text": "The Income-tax Act, 1961 (old Act)", "correct": true },
+            { "text": "Both Acts apply proportionally", "correct": false },
+            { "text": "It depends on when the payment is actually released", "correct": false }
+          ],
+          "explanation": "Credit on 28 March 2026 is on or before 31 March 2026, so the old Act applies. The earlier-event rule looks at whichever happens first — credit or payment — and since credit occurred before the cutoff, the 1961 Act governs.",
+          "explanationWrong": "The old Act applies because credit occurred on 28 March 2026 — before the 1 April 2026 cutoff. Once the earlier event (credit) happens under the old Act's period, it does not matter when the actual bank payment is released.",
+          "tier": 1,
+          "subConcepts": ["earlier-event-rule", "credit-vs-payment"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, Section 536(2) of the 2025 Act ensures that proceedings under the old Act for periods up to which date continue under the old Act?",
+          "options": [
+            { "text": "31 March 2025", "correct": false },
+            { "text": "31 March 2026", "correct": true },
+            { "text": "1 April 2026", "correct": false },
+            { "text": "31 March 2027", "correct": false }
+          ],
+          "explanation": "Section 536(2) ensures that any proceedings relating to the period up to 31 March 2026 (i.e., AY 2026-27 under the old Act) continue to be governed by the 1961 Act. This is the bridge that protects pre-transition obligations.",
+          "explanationWrong": "31 March 2026 is the cutoff. Section 536(2) preserves old Act applicability for all proceedings relating to periods ending on or before 31 March 2026. This is a review of the transition framework from Unit 2.1.",
+          "tier": 1,
+          "subConcepts": ["section-536-2", "transition-framework"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "ABC Ltd credits Rs 5 lakh to a contractor on 31 March 2026 but pays on 5 April 2026. Under which section must TDS be deducted?",
+          "options": [
+            { "text": "Section 393(1) of the new Act (since payment is in April)", "correct": false },
+            { "text": "Section 194C of the old Act (since credit is the earlier event)", "correct": true },
+            { "text": "Both sections apply — deduct under 194C and report under 393(1)", "correct": false },
+            { "text": "No TDS required during transition period", "correct": false }
+          ],
+          "explanation": "Credit (31 March 2026) is earlier than payment (5 April 2026). Since the earlier event falls on or before 31 March 2026, the old Act's Section 194C applies. The April payment date is irrelevant for determining which Act governs.",
+          "explanationWrong": "Section 194C of the old Act applies. The earlier-event rule compares credit and payment — credit on 31 March is the earlier event and falls within the old Act period. The payment date in April does not shift the obligation to the new Act.",
+          "tier": 1,
+          "subConcepts": ["earlier-event-rule", "section-194c", "scenario-application"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "For TDS purposes, the transition from the old Act to the new Act happens at midnight between which two dates?",
+          "options": [
+            { "text": "31 March 2025 and 1 April 2025", "correct": false },
+            { "text": "31 March 2026 and 1 April 2026", "correct": true },
+            { "text": "30 June 2026 and 1 July 2026", "correct": false },
+            { "text": "31 December 2025 and 1 January 2026", "correct": false }
+          ],
+          "explanation": "The new Act applies from 1 April 2026. Any credit or payment on or before 31 March 2026 falls under the old Act; any credit or payment on or after 1 April 2026 falls under the new Act. The midnight of 31 March/1 April 2026 is the transition boundary.",
+          "explanationWrong": "The cutoff is 31 March 2026 / 1 April 2026. The new Act commences from 1 April 2026, so TDS events before that date are old Act, and events from that date onward are new Act.",
+          "tier": 1,
+          "subConcepts": ["transition-date", "tds-cutoff"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1(3)"
+        }
+      ]
+    },
+    {
+      "title": "Section Quoting Post-Transition",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "After 1 April 2026, TDS on payments to resident contractors should be quoted under which section in TDS returns?",
+          "options": [
+            { "text": "Section 194C of the old Act", "correct": false },
+            { "text": "Section 393(1) [Table entry for contractor payments] of the new Act", "correct": true },
+            { "text": "Section 194C read with Section 393(1)", "correct": false },
+            { "text": "No section quoting required during the first year of transition", "correct": false }
+          ],
+          "explanation": "Post-01.04.2026, all TDS references must use the new Act's sections. For contractor payments, that means Section 393(1) with the relevant Table serial number — NOT old Section 194C. The old section numbers are invalid for new Act periods.",
+          "explanationWrong": "Section 393(1) of the new Act must be quoted. After 1 April 2026, the old section numbers (194C, 194J, etc.) are no longer valid for TDS compliance. Using old numbers may cause validation errors on the TRACES portal.",
+          "tier": 1,
+          "subConcepts": ["section-quoting", "section-393", "post-transition"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393(1)"
+        },
+        {
+          "order": 2,
+          "question": "What is the consequence of quoting old Section 194J instead of Section 393(1) in a TDS return filed for a post-01.04.2026 payment?",
+          "options": [
+            { "text": "The return is automatically accepted with a warning", "correct": false },
+            { "text": "Validation errors on the portal; a correction statement is needed", "correct": true },
+            { "text": "Penalty under Section 271H is automatically levied", "correct": false },
+            { "text": "The deductee loses credit for the TDS", "correct": false }
+          ],
+          "explanation": "Quoting old section numbers for post-01.04.2026 deductions causes validation errors in the TDS return processing system. The deductor must file a correction statement with the correct new Act section reference to resolve the error.",
+          "explanationWrong": "Validation errors occur, and a correction statement is required. The return is not automatically accepted, no automatic penalty is levied at this stage, and the deductee's credit is preserved once the correction is filed — but the error must be fixed.",
+          "tier": 1,
+          "subConcepts": ["validation-errors", "correction-statement", "section-quoting"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393(1)"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, how many separate TDS sections existed for payments to residents (before the 2025 Act consolidated them)?",
+          "options": [
+            { "text": "10 sections", "correct": false },
+            { "text": "Over 30 sections (194C, 194H, 194I, 194J, etc.)", "correct": true },
+            { "text": "5 sections", "correct": false },
+            { "text": "15 sections", "correct": false }
+          ],
+          "explanation": "The old Act had over 30 separate TDS sections (194C, 194D, 194H, 194I, 194IA, 194J, 194K, etc.). The 2025 Act consolidates these into tables under Section 393. This is a review of the consolidation concept from the new Act's architecture.",
+          "explanationWrong": "Over 30 sections existed. The proliferation of 194-series sections (194C through 194T and their sub-sections) was one of the key reasons for the consolidation into Section 393's table-based approach in the new Act.",
+          "tier": 1,
+          "subConcepts": ["tds-consolidation", "section-194-series"],
+          "isReview": true,
+          "oldSection": "Sections 194C–194T",
+          "newSection": "Section 393(1)"
+        },
+        {
+          "order": 4,
+          "question": "Under the new Act, what format is used to identify specific TDS provisions within Section 393(1)?",
+          "options": [
+            { "text": "Sub-sections numbered 393(1)(a), 393(1)(b), etc.", "correct": false },
+            { "text": "Table with serial numbers (Sl. No.)", "correct": true },
+            { "text": "Separate schedules appended to the Act", "correct": false },
+            { "text": "Rules under the Income-tax Rules, 2026", "correct": false }
+          ],
+          "explanation": "Section 393(1) uses a table format with serial numbers (Sl. No.) to identify each type of payment. When quoting the section, you reference 'Section 393(1) [Sl. No. X]' for the relevant payment category. This replaces the old individual section numbers.",
+          "explanationWrong": "A table with serial numbers (Sl. No.) is used. Each row in the table corresponds to a type of payment (contractors, professionals, rent, etc.). The correct citation format is 'Section 393(1), Table, Sl. No. X' — not sub-sections or schedules.",
+          "tier": 1,
+          "subConcepts": ["table-format", "sl-no-reference", "section-393"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393(1)"
+        },
+        {
+          "order": 5,
+          "question": "Have the TDS rates and thresholds changed under the new Act compared to the old Act?",
+          "options": [
+            { "text": "Yes, rates have been substantially increased", "correct": false },
+            { "text": "Yes, thresholds have been lowered to widen the tax net", "correct": false },
+            { "text": "No — rates and thresholds are unchanged; the consolidation is presentational only", "correct": true },
+            { "text": "Rates are unchanged but thresholds have been removed", "correct": false }
+          ],
+          "explanation": "The TDS rates and thresholds remain UNCHANGED. The consolidation from 30+ sections into Section 393 tables is purely presentational — it reorganizes the same provisions without altering substantive rates or limits.",
+          "explanationWrong": "Rates and thresholds are unchanged. The 2025 Act's consolidation of TDS provisions is a structural reorganization, not a substantive change. The same rates and limits that existed under Sections 194C, 194J, etc. are reproduced in the Section 393 tables.",
+          "tier": 1,
+          "subConcepts": ["rates-unchanged", "presentational-consolidation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393(1)"
+        }
+      ]
+    },
+    {
+      "title": "Deposit Deadlines & Challan Changes",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "TDS deducted in March 2026 by a non-government deductor must be deposited to the government by which date?",
+          "options": [
+            { "text": "7 April 2026", "correct": false },
+            { "text": "30 April 2026", "correct": true },
+            { "text": "31 May 2026", "correct": false },
+            { "text": "15 April 2026", "correct": false }
+          ],
+          "explanation": "March TDS (being the last month of FY 2025-26) has a special extended deadline of 30 April for non-government deductors, consistent with the old Act's rule. This gives additional time for year-end processing.",
+          "explanationWrong": "30 April 2026 is correct. March deductions get an extended deadline (not the usual 7th of the next month) because it's the year-end. This rule applies to non-government deductors and is consistent with the old Act's practice.",
+          "tier": 1,
+          "subConcepts": ["deposit-deadline", "march-tds", "non-government-deductor"],
+          "isReview": false,
+          "oldSection": "Rule 30",
+          "newSection": "Rule 218"
+        },
+        {
+          "order": 2,
+          "question": "Under the new Act, TDS deducted in April 2026 onwards must be deposited by which date?",
+          "options": [
+            { "text": "30th of the following month", "correct": false },
+            { "text": "7th of the following month under Rule 218", "correct": true },
+            { "text": "15th of the following month", "correct": false },
+            { "text": "Last day of the same month", "correct": false }
+          ],
+          "explanation": "Under Rule 218 of the new Act, TDS must be deposited by the 7th of the month following the month of deduction. This is the same timeline as the old Act — the rule number changed but the deadline did not.",
+          "explanationWrong": "7th of the following month under Rule 218. So April 2026 TDS is due by 7 May 2026. This matches the old Act's Rule 30 timeline — the substance is unchanged, only the rule number is new.",
+          "tier": 1,
+          "subConcepts": ["deposit-deadline", "rule-218", "7th-of-next-month"],
+          "isReview": false,
+          "oldSection": "Rule 30",
+          "newSection": "Rule 218"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, which form was used by transferors to deposit TDS on sale of immovable property?",
+          "options": [
+            { "text": "Form 26QB", "correct": true },
+            { "text": "Form 26QC", "correct": false },
+            { "text": "Form 26QD", "correct": false },
+            { "text": "Form 26QE", "correct": false }
+          ],
+          "explanation": "Form 26QB was used for TDS on immovable property transfers (Section 194-IA). Form 26QC was for rent (194-IB), 26QD for payments under Section 194M, and 26QE for virtual digital assets (194S). All four are now replaced by a single Form 141.",
+          "explanationWrong": "Form 26QB was for immovable property sales under old Section 194-IA. This is a review of old Act forms — knowing which form mapped to which transaction helps you understand the consolidation into Form 141 under the new Act.",
+          "tier": 1,
+          "subConcepts": ["form-26qb", "challan-cum-tds", "old-forms"],
+          "isReview": true,
+          "oldSection": "Section 194-IA",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many old challan-cum-TDS statement forms (26QB, 26QC, 26QD, 26QE) are being replaced under the new Act, and by what?",
+          "options": [
+            { "text": "3 forms replaced by Form 140", "correct": false },
+            { "text": "4 forms replaced by a single Form 141", "correct": true },
+            { "text": "4 forms replaced by 2 new forms (Form 141 and Form 142)", "correct": false },
+            { "text": "2 forms replaced by Form 138", "correct": false }
+          ],
+          "explanation": "Four old challan-cum-TDS statement forms (26QB, 26QC, 26QD, 26QE) are consolidated into a single Form 141 under the new Act. This simplification reduces the number of forms while covering all the same transaction types.",
+          "explanationWrong": "4 forms into 1 Form 141. The old Act required separate forms for property (26QB), rent (26QC), contractor/professional payments by individuals (26QD), and virtual digital assets (26QE). The new Act uses a single unified Form 141.",
+          "tier": 1,
+          "subConcepts": ["form-141", "challan-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 26QB/26QC/26QD/26QE",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 5,
+          "question": "The deposit deadline for March 2026 TDS (30 April 2026) is governed by which Act?",
+          "options": [
+            { "text": "The new Act, since 30 April falls after 1 April 2026", "correct": false },
+            { "text": "The old Act, since the deduction relates to March 2026 (FY 2025-26)", "correct": true },
+            { "text": "Both Acts jointly — whichever provides a later deadline", "correct": false },
+            { "text": "Neither — CBDT issues a separate notification", "correct": false }
+          ],
+          "explanation": "March 2026 TDS relates to FY 2025-26 (old Act period). Even though the deposit is made in April 2026, the compliance obligation arose under the old Act. The old Act's rules govern the deposit deadline for pre-transition deductions.",
+          "explanationWrong": "The old Act governs because the deduction event occurred in March 2026 (before the cutoff). The fact that the deposit date falls in April 2026 does not shift the governing Act — the earlier event (deduction) determines which Act applies.",
+          "tier": 1,
+          "subConcepts": ["governing-act", "deposit-vs-deduction-date"],
+          "isReview": false,
+          "oldSection": "Rule 30",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "TDS Return Forms — Old vs New",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which TDS return forms must be used for Q4 FY 2025-26 (January to March 2026)?",
+          "options": [
+            { "text": "New forms: Form 138, Form 140, Form 144", "correct": false },
+            { "text": "Old forms: 24Q, 26Q, 27Q, 27EQ", "correct": true },
+            { "text": "A combination of old and new forms", "correct": false },
+            { "text": "No separate Q4 return — it merges into the new Act's first return", "correct": false }
+          ],
+          "explanation": "Q4 FY 2025-26 (Jan-Mar 2026) falls entirely within the old Act period. Therefore, the old return forms — 24Q (salary), 26Q (non-salary residents), 27Q (non-residents), 27EQ (TCS) — must be used.",
+          "explanationWrong": "Old forms 24Q/26Q/27Q/27EQ apply for Q4 FY 2025-26. Since the entire quarter falls within the old Act's period, there is no basis to use new Act forms. The new forms apply only from Q1 TY 2026-27 (April-June 2026) onwards.",
+          "tier": 2,
+          "subConcepts": ["q4-fy2025-26", "old-return-forms", "24q-26q-27q"],
+          "isReview": false,
+          "oldSection": "Section 200(3)",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What is the due date for filing Q4 FY 2025-26 TDS returns (Forms 24Q/26Q/27Q/27EQ)?",
+          "options": [
+            { "text": "30 April 2026", "correct": false },
+            { "text": "15 May 2026", "correct": false },
+            { "text": "31 May 2026", "correct": true },
+            { "text": "31 July 2026", "correct": false }
+          ],
+          "explanation": "The Q4 TDS return for FY 2025-26 is due by 31 May 2026. This follows the old Act's timeline where Q4 returns have a 31 May deadline (later than the usual 31st of the month following the quarter for Q1-Q3).",
+          "explanationWrong": "31 May 2026 is the deadline. Q4 returns always had an extended deadline under the old Act. Do not confuse this with 31 July 2026, which is the due date for the new Act's Q1 TY 2026-27 returns.",
+          "tier": 2,
+          "subConcepts": ["q4-due-date", "31-may-deadline"],
+          "isReview": false,
+          "oldSection": "Rule 31A",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "For amounts carried forward from FY 2025-26 to TY 2026-27, which principle determines whether the amount retains its character under the old Act?",
+          "options": [
+            { "text": "The accrual principle — character is fixed at the time income accrues", "correct": false },
+            { "text": "The continuity-of-proceedings principle under Section 536(2)", "correct": true },
+            { "text": "The matching principle from accounting standards", "correct": false },
+            { "text": "The realization principle — character changes on actual receipt", "correct": false }
+          ],
+          "explanation": "Section 536(2) ensures continuity of proceedings: amounts and obligations that arose under the old Act retain their character even if carried forward into the new Act period. This is the transition bridge reviewed from Unit 2.3.",
+          "explanationWrong": "The continuity-of-proceedings principle under Section 536(2) is correct. This ensures that carry-forward items from the old Act period don't lose their character merely because the new Act has commenced.",
+          "tier": 2,
+          "subConcepts": ["continuity-principle", "section-536-2", "carry-forward"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "For Q1 TY 2026-27 (April to June 2026), what is the new TDS return form for non-salary payments to residents?",
+          "options": [
+            { "text": "Form 26Q (same form continues)", "correct": false },
+            { "text": "Form 140", "correct": true },
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 140 replaces the old Form 26Q for non-salary TDS returns. Form 138 is for salary TDS (replacing 24Q), Form 144 is for non-resident TDS (replacing 27Q), and Form 143 is for TCS (replacing 27EQ).",
+          "explanationWrong": "Form 140 is the new non-salary TDS return. The mapping is: 24Q → Form 138 (salary), 26Q → Form 140 (non-salary resident), 27Q → Form 144 (non-resident), 27EQ → Form 143 (TCS).",
+          "tier": 2,
+          "subConcepts": ["form-140", "new-return-forms", "non-salary-tds"],
+          "isReview": false,
+          "oldSection": "Form 26Q",
+          "newSection": "Form 140"
+        },
+        {
+          "order": 5,
+          "question": "What is the due date for filing Q1 TY 2026-27 TDS/TCS returns under the new Act?",
+          "options": [
+            { "text": "31 May 2026", "correct": false },
+            { "text": "30 June 2026", "correct": false },
+            { "text": "31 July 2026", "correct": true },
+            { "text": "15 August 2026", "correct": false }
+          ],
+          "explanation": "Q1 TY 2026-27 (April-June 2026) returns under the new Act — Forms 138, 140, 144, and 143 — are due by 31 July 2026. This is the first quarter where new Act forms and deadlines apply.",
+          "explanationWrong": "31 July 2026. Do not confuse with 31 May 2026 (which is the Q4 FY 2025-26 deadline under the old Act). The new Act's first quarterly return deadline is 31 July 2026 for the April-June 2026 quarter.",
+          "tier": 2,
+          "subConcepts": ["q1-ty2026-27", "new-act-deadline", "31-july"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Rule 218"
+        }
+      ]
+    },
+    {
+      "title": "TDS Certificates — Form 16 to Form 130",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Form 16 for salary TDS for FY 2025-26 must be issued by the employer by which date?",
+          "options": [
+            { "text": "31 May 2026", "correct": false },
+            { "text": "15 June 2026", "correct": true },
+            { "text": "30 June 2026", "correct": false },
+            { "text": "31 July 2026", "correct": false }
+          ],
+          "explanation": "Form 16 for FY 2025-26 (the last year under the old Act) is due by 15 June 2026. This follows the old Act's Rule 31 timeline — the employer must issue it within approximately 75 days of the financial year end.",
+          "explanationWrong": "15 June 2026 is the deadline for Form 16 for FY 2025-26. This is the old Act's standard timeline. Do not confuse with 31 May (which is the Q4 return filing deadline) or 31 July (which is the new Act's Q1 return deadline).",
+          "tier": 2,
+          "subConcepts": ["form-16", "certificate-deadline", "fy-2025-26"],
+          "isReview": false,
+          "oldSection": "Rule 31",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What is the new Act's equivalent of Form 16 for salary TDS certificates?",
+          "options": [
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 141", "correct": false }
+          ],
+          "explanation": "Form 130 replaces the old Form 16 as the salary TDS certificate under the new Act. Form 138 is the salary TDS return (replacing 24Q), Form 128 is the lower withholding certificate, and Form 141 is the consolidated challan-cum-statement.",
+          "explanationWrong": "Form 130 is the new salary TDS certificate. Keep the form numbers distinct: Form 128 = lower withholding certificate (replaces Section 197 certificate), Form 130 = salary TDS certificate (replaces Form 16), Form 138 = salary TDS return (replaces 24Q).",
+          "tier": 2,
+          "subConcepts": ["form-130", "tds-certificate", "form-16-replacement"],
+          "isReview": false,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, what was the form number for the TDS return for non-resident payments?",
+          "options": [
+            { "text": "Form 24Q", "correct": false },
+            { "text": "Form 26Q", "correct": false },
+            { "text": "Form 27Q", "correct": true },
+            { "text": "Form 27EQ", "correct": false }
+          ],
+          "explanation": "Form 27Q was the quarterly TDS return for payments to non-residents under the old Act. This is now replaced by Form 144 under the new Act. Form 24Q was salary, 26Q was non-salary residents, and 27EQ was TCS.",
+          "explanationWrong": "Form 27Q was for non-resident TDS returns. Knowing the old form mapping is essential during transition: 24Q (salary) → Form 138, 26Q (non-salary) → Form 140, 27Q (non-resident) → Form 144, 27EQ (TCS) → Form 143.",
+          "tier": 2,
+          "subConcepts": ["form-27q", "non-resident-tds", "old-forms"],
+          "isReview": true,
+          "oldSection": "Form 27Q",
+          "newSection": "Form 144"
+        },
+        {
+          "order": 4,
+          "question": "Form 130 (new salary TDS certificate) for TY 2026-27 is due by which date?",
+          "options": [
+            { "text": "15 June 2026", "correct": false },
+            { "text": "31 July 2027", "correct": false },
+            { "text": "15 June 2027", "correct": true },
+            { "text": "31 March 2027", "correct": false }
+          ],
+          "explanation": "Form 130 for TY 2026-27 (the first year under the new Act) is due by 15 June 2027. The certificate issuance deadline mirrors the old Act's timeline — approximately 75 days after the tax year ends on 31 March 2027.",
+          "explanationWrong": "15 June 2027. Note the year — TY 2026-27 ends on 31 March 2027, and the certificate is due by 15 June 2027. Do not confuse with 15 June 2026, which is the Form 16 deadline for FY 2025-26.",
+          "tier": 2,
+          "subConcepts": ["form-130-deadline", "ty-2026-27"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 130"
+        },
+        {
+          "order": 5,
+          "question": "During the transition, a CA's client has employees who received Form 16 for FY 2025-26 and will receive Form 130 for TY 2026-27. How many TDS certificates does each employee receive for these two periods?",
+          "options": [
+            { "text": "One combined certificate covering both periods", "correct": false },
+            { "text": "Two separate certificates — one under each Act", "correct": true },
+            { "text": "Only Form 130 — it supersedes Form 16 retroactively", "correct": false },
+            { "text": "Three certificates — Form 16, Form 130, and a transition certificate", "correct": false }
+          ],
+          "explanation": "Each employee receives two separate certificates: Form 16 for FY 2025-26 (old Act) and Form 130 for TY 2026-27 (new Act). There is no combined or transition certificate — each Act's period requires its own form.",
+          "explanationWrong": "Two separate certificates. The old Act and new Act operate independently for their respective periods. Form 16 covers up to March 2026 under the old Act, and Form 130 covers from April 2026 under the new Act. No merger or retroactive supersession occurs.",
+          "tier": 2,
+          "subConcepts": ["dual-certificates", "transition-compliance"],
+          "isReview": false,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        }
+      ]
+    },
+    {
+      "title": "Salary TDS — Section 192 to Section 392(1)",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "March 2026 salary paid on 31 March 2026 — which section governs TDS deduction?",
+          "options": [
+            { "text": "Section 392(1) of the new Act", "correct": false },
+            { "text": "Section 192 of the old Act", "correct": true },
+            { "text": "Both sections apply proportionally", "correct": false },
+            { "text": "Section 393(1) of the new Act", "correct": false }
+          ],
+          "explanation": "Payment on 31 March 2026 falls on or before the cutoff. The old Act's Section 192 governs. Section 392(1) applies only to salary payments made on or after 1 April 2026.",
+          "explanationWrong": "Section 192 of the old Act. The payment date (31 March 2026) falls within the old Act period. The new Act's Section 392(1) applies only from 1 April 2026 onwards. Section 393(1) is for non-salary payments.",
+          "tier": 2,
+          "subConcepts": ["salary-tds", "section-192", "march-salary"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "April 2026 salary paid on 30 April 2026 — which section governs TDS deduction?",
+          "options": [
+            { "text": "Section 192 of the old Act (salary was earned in the transition month)", "correct": false },
+            { "text": "Section 392(1) of the new Act", "correct": true },
+            { "text": "Section 194 of the old Act", "correct": false },
+            { "text": "No TDS applies during the first month of the new Act", "correct": false }
+          ],
+          "explanation": "Payment on 30 April 2026 falls on or after 1 April 2026. The new Act's Section 392(1) governs salary TDS. It does not matter that the salary relates to work done partly during the old Act period — the payment date determines the applicable Act.",
+          "explanationWrong": "Section 392(1) of the new Act applies. The relevant event is the payment date (30 April 2026), which falls in the new Act period. The earning period of the salary is irrelevant for determining which Act's TDS provisions apply.",
+          "tier": 2,
+          "subConcepts": ["salary-tds", "section-392", "april-salary"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, Section 192 required the employer to estimate the employee's total income for TDS purposes. At what point must the employer RESET this computation under the new Act?",
+          "options": [
+            { "text": "No reset needed — old computation continues for the full year", "correct": false },
+            { "text": "From 1 April 2026 — a fresh TDS computation must begin under Section 392(1)", "correct": true },
+            { "text": "From 1 July 2026 (first full quarter under the new Act)", "correct": false },
+            { "text": "Only when the employee submits a new declaration", "correct": false }
+          ],
+          "explanation": "Employers must RESET TDS computation from 1 April 2026. The old Act's Section 192 computation applies up to March 2026, and a fresh computation under Section 392(1) begins from April 2026. Two separate estimations are required for the transition year.",
+          "explanationWrong": "Reset from 1 April 2026. The employer cannot carry forward the old Section 192 computation into the new Act period. A fresh estimate of income under Section 392(1) is required from the first day of the new Act's applicability.",
+          "tier": 2,
+          "subConcepts": ["tds-reset", "employer-computation", "april-2026"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 4,
+          "question": "An employer pays March 2026 salary on 5 April 2026 (delayed payment). Which Act governs TDS?",
+          "options": [
+            { "text": "Old Act — because it relates to March 2026 salary", "correct": false },
+            { "text": "New Act — because payment is on 5 April 2026", "correct": true },
+            { "text": "Old Act for the salary component, new Act for allowances", "correct": false },
+            { "text": "No TDS required as the payment straddles both Acts", "correct": false }
+          ],
+          "explanation": "The earlier-event rule applies. If neither credit nor payment occurred before 1 April 2026, then the payment date (5 April 2026) determines the Act. Since 5 April is in the new Act period, Section 392(1) applies — even though it's March salary.",
+          "explanationWrong": "The new Act applies because the payment date (5 April 2026) is the relevant event. The month to which the salary relates (March) is irrelevant for TDS Act determination. What matters is when credit or payment — whichever is earlier — occurs.",
+          "tier": 2,
+          "subConcepts": ["delayed-salary", "earlier-event-rule", "march-salary-paid-april"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392(1)"
+        },
+        {
+          "order": 5,
+          "question": "For TY 2026-27, the employer's salary TDS return must be filed using which new form?",
+          "options": [
+            { "text": "Form 24Q", "correct": false },
+            { "text": "Form 138", "correct": true },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 130", "correct": false }
+          ],
+          "explanation": "Form 138 replaces the old Form 24Q for salary TDS returns. Form 130 is the salary TDS certificate (replacing Form 16), and Form 140 is for non-salary payments (replacing Form 26Q). Keep the return and certificate forms distinct.",
+          "explanationWrong": "Form 138 is the salary TDS return under the new Act. Form 24Q is the old Act equivalent. Form 130 is the certificate (not the return), and Form 140 is for non-salary payments.",
+          "tier": 2,
+          "subConcepts": ["form-138", "salary-return", "24q-replacement"],
+          "isReview": false,
+          "oldSection": "Form 24Q",
+          "newSection": "Form 138"
+        }
+      ]
+    },
+    {
+      "title": "Lower Withholding Certificates",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, lower/nil TDS withholding certificates were issued under which section?",
+          "options": [
+            { "text": "Section 195", "correct": false },
+            { "text": "Section 197", "correct": true },
+            { "text": "Section 200", "correct": false },
+            { "text": "Section 194C", "correct": false }
+          ],
+          "explanation": "Section 197 of the old Act allowed taxpayers to apply for a lower or nil TDS withholding certificate. Under the new Act, this is replaced by Section 395(1), and the certificate is issued via Form 128.",
+          "explanationWrong": "Section 197 of the old Act. Section 195 dealt with TDS on payments to non-residents, Section 200 with filing of TDS returns. Section 197 specifically allowed the AO to issue certificates for lower or nil withholding.",
+          "tier": 3,
+          "subConcepts": ["section-197", "lower-withholding", "old-act"],
+          "isReview": false,
+          "oldSection": "Section 197",
+          "newSection": "Section 395(1)"
+        },
+        {
+          "order": 2,
+          "question": "A Section 197 certificate issued under the old Act for FY 2025-26 — is it valid for payments received after 1 April 2026?",
+          "options": [
+            { "text": "No — it expires automatically on 31 March 2026", "correct": false },
+            { "text": "Yes — if it was issued for projected income covering TY 2026-27", "correct": true },
+            { "text": "Yes — all old certificates are grandfathered indefinitely", "correct": false },
+            { "text": "Only if the deductor files a fresh application under the new Act", "correct": false }
+          ],
+          "explanation": "An old Section 197 certificate remains valid for post-01.04.2026 payments IF it was issued covering projected income for TY 2026-27. The certificate's validity depends on the period it was granted for, not on which Act was in force when it was issued.",
+          "explanationWrong": "Valid if issued for TY 2026-27 projected income. Old certificates don't automatically expire on 31 March 2026 if they were granted for a period extending into the new Act. However, they are not grandfathered indefinitely — only for the period specified.",
+          "tier": 3,
+          "subConcepts": ["section-197-validity", "cross-period-certificate"],
+          "isReview": false,
+          "oldSection": "Section 197",
+          "newSection": "Section 395(1)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, Section 395(1) provides for lower withholding certificates. What form is used to apply for or issue this certificate?",
+          "options": [
+            { "text": "Form 13 (same as old Act)", "correct": false },
+            { "text": "Form 128", "correct": true },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 141", "correct": false }
+          ],
+          "explanation": "Form 128 is used for lower withholding certificates under the new Act's Section 395(1). The old Form 13 is no longer applicable for new Act periods. Form 130 is for salary TDS certificates, and Form 141 is the consolidated challan-cum-statement.",
+          "explanationWrong": "Form 128 under Section 395(1). The old Form 13 was used under Section 197 of the 1961 Act. For new Act periods, Form 128 replaces it. This is a distinct form from Form 130 (salary certificate) and Form 141 (challan-cum-statement).",
+          "tier": 3,
+          "subConcepts": ["form-128", "section-395", "lower-withholding-new"],
+          "isReview": false,
+          "oldSection": "Form 13 / Section 197",
+          "newSection": "Form 128 / Section 395(1)"
+        },
+        {
+          "order": 4,
+          "question": "XYZ Pvt Ltd receives professional fees of Rs 50 lakh in May 2026. They hold a Section 197 certificate issued in February 2026 covering projected FY 2025-26 income only. Can the payer apply the lower rate for the May 2026 payment?",
+          "options": [
+            { "text": "Yes — the certificate is valid until it is formally revoked", "correct": false },
+            { "text": "No — the certificate covers only FY 2025-26 income, not TY 2026-27 payments", "correct": true },
+            { "text": "Yes — Section 197 certificates have automatic one-year extensions", "correct": false },
+            { "text": "No — Section 197 certificates were never valid for professional fees", "correct": false }
+          ],
+          "explanation": "The certificate was issued for FY 2025-26 projected income only. It does not cover TY 2026-27 (April 2026 onwards). XYZ must apply for a new Section 395(1) certificate via Form 128 for the new Act period.",
+          "explanationWrong": "The certificate covers only FY 2025-26 income. A May 2026 payment falls under TY 2026-27 — outside the certificate's scope. The payer must deduct TDS at full rates unless a new Form 128 certificate under Section 395(1) is obtained.",
+          "tier": 3,
+          "subConcepts": ["certificate-scope", "section-197-limitation", "new-application-needed"],
+          "isReview": false,
+          "oldSection": "Section 197",
+          "newSection": "Section 395(1)"
+        },
+        {
+          "order": 5,
+          "question": "Under the transition provisions, pending proceedings that commenced under the old Act continue under the old Act. Does this principle extend to Section 197 applications pending on 31 March 2026?",
+          "options": [
+            { "text": "No — all pending applications lapse and must be re-filed under Section 395(1)", "correct": false },
+            { "text": "Yes — Section 536(2) ensures continuity of pending proceedings under the old Act", "correct": true },
+            { "text": "Only if the application was filed before 1 January 2026", "correct": false },
+            { "text": "It depends on the discretion of the jurisdictional AO", "correct": false }
+          ],
+          "explanation": "Section 536(2) ensures continuity of all pending proceedings. A Section 197 application pending on 31 March 2026 continues to be processed under the old Act's provisions. The certificate, if issued, would be valid for the period applied for.",
+          "explanationWrong": "Yes — Section 536(2) provides continuity. Pending applications do not lapse merely because the new Act commences. This is the general transition principle that protects ongoing proceedings across the Act changeover.",
+          "tier": 3,
+          "subConcepts": ["pending-proceedings", "section-536-2", "continuity"],
+          "isReview": true,
+          "oldSection": "Section 197",
+          "newSection": "Section 536(2)"
+        }
+      ]
+    },
+    {
+      "title": "AIS and TDS Credit Split",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many separate Annual Information Statements (AIS) will a taxpayer have for the transition year?",
+          "options": [
+            { "text": "One combined AIS covering both periods", "correct": false },
+            { "text": "Two — one for AY 2026-27 (old Act) and one for TY 2026-27 (new Act, Form 168)", "correct": true },
+            { "text": "Three — one for each quarter", "correct": false },
+            { "text": "None — AIS is discontinued under the new Act", "correct": false }
+          ],
+          "explanation": "Two separate AIS will exist: one for AY 2026-27 under the old Act (covering income up to March 2026) and one for TY 2026-27 under the new Act (Form 168, covering April 2026 onwards). Each Act generates its own information statement.",
+          "explanationWrong": "Two separate AIS. The old Act and new Act maintain independent information reporting. The AY 2026-27 AIS reflects pre-April 2026 transactions, while the new Form 168 AIS reflects post-April 2026 transactions under the new Act.",
+          "tier": 3,
+          "subConcepts": ["dual-ais", "form-168", "transition-ais"],
+          "isReview": false,
+          "oldSection": "AIS (old)",
+          "newSection": "Form 168"
+        },
+        {
+          "order": 2,
+          "question": "TDS deducted on a payment credited on 25 March 2026 — in which AIS will the deductee see this credit?",
+          "options": [
+            { "text": "TY 2026-27 AIS (Form 168)", "correct": false },
+            { "text": "AY 2026-27 AIS (old Act)", "correct": true },
+            { "text": "Both AIS will show the credit", "correct": false },
+            { "text": "Neither — March 2026 credits are in a special transition report", "correct": false }
+          ],
+          "explanation": "Credit on 25 March 2026 falls under the old Act period. The TDS credit appears in the AY 2026-27 AIS (old Act). It will NOT appear in the new Act's Form 168 AIS for TY 2026-27.",
+          "explanationWrong": "AY 2026-27 AIS (old Act). The deduction event occurred before 1 April 2026, so it belongs to the old Act period. The credit will be available when filing the return for AY 2026-27 under the old Act.",
+          "tier": 3,
+          "subConcepts": ["tds-credit-ais", "march-deduction", "ay-2026-27"],
+          "isReview": false,
+          "oldSection": "AIS",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "TDS deducted on a payment made on 10 April 2026 — in which AIS does the credit appear?",
+          "options": [
+            { "text": "AY 2026-27 AIS (old Act)", "correct": false },
+            { "text": "TY 2026-27 AIS (Form 168, new Act)", "correct": true },
+            { "text": "AY 2027-28 AIS", "correct": false },
+            { "text": "Both old and new AIS", "correct": false }
+          ],
+          "explanation": "Payment on 10 April 2026 falls under the new Act period. The TDS credit appears in the TY 2026-27 AIS (Form 168). It belongs entirely to the new Act and will be claimed when filing the TY 2026-27 return.",
+          "explanationWrong": "TY 2026-27 AIS (Form 168). April 2026 onwards is the new Act period. The credit is NOT reflected in the old Act's AY 2026-27 AIS — it exists solely in the new Act's information system.",
+          "tier": 3,
+          "subConcepts": ["tds-credit-ais", "april-deduction", "ty-2026-27"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Form 168"
+        },
+        {
+          "order": 4,
+          "question": "A freelancer receives payments in both March 2026 and May 2026. Against which returns will the respective TDS credits be claimed?",
+          "options": [
+            { "text": "Both credits are claimed in the TY 2026-27 return under the new Act", "correct": false },
+            { "text": "March credit in AY 2026-27 return (old Act); May credit in TY 2026-27 return (new Act)", "correct": true },
+            { "text": "Both credits are claimed in the AY 2026-27 return under the old Act", "correct": false },
+            { "text": "March credit requires a manual transfer request to the new Act system", "correct": false }
+          ],
+          "explanation": "March 2026 TDS credit is claimed in the AY 2026-27 return (old Act, covering FY 2025-26). May 2026 TDS credit is claimed in the TY 2026-27 return (new Act, covering April 2026-March 2027). Each credit belongs to the Act period in which the deduction occurred.",
+          "explanationWrong": "Credits are split by the Act period: March → AY 2026-27 (old Act), May → TY 2026-27 (new Act). No manual transfer is needed — the credits are automatically directed to the correct return period based on when the deduction event occurred.",
+          "tier": 3,
+          "subConcepts": ["credit-split", "dual-returns", "freelancer-scenario"],
+          "isReview": false,
+          "oldSection": "AY 2026-27 return",
+          "newSection": "TY 2026-27 return"
+        },
+        {
+          "order": 5,
+          "question": "What is the new Act's form number for the Annual Information Statement?",
+          "options": [
+            { "text": "Form 26AS", "correct": false },
+            { "text": "Form 168", "correct": true },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 130", "correct": false }
+          ],
+          "explanation": "Form 168 is the new Act's Annual Information Statement, replacing the old Form 26AS/AIS. Form 140 is the non-salary TDS return, and Form 130 is the salary TDS certificate. Each form has a distinct compliance function.",
+          "explanationWrong": "Form 168 is the new AIS. The old Form 26AS continues for old Act periods (up to AY 2026-27). From TY 2026-27 onwards, Form 168 captures all TDS/TCS credits and third-party information under the new Act.",
+          "tier": 3,
+          "subConcepts": ["form-168", "ais-replacement"],
+          "isReview": false,
+          "oldSection": "Form 26AS / AIS",
+          "newSection": "Form 168"
+        }
+      ]
+    },
+    {
+      "title": "Practical Transition Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company credits rent of Rs 3 lakh on 31 March 2026 and pays it on 10 April 2026. Under which section should TDS be deducted?",
+          "options": [
+            { "text": "Section 393(1) of the new Act (since payment is in April)", "correct": false },
+            { "text": "Section 194-I of the old Act (since credit is the earlier event)", "correct": true },
+            { "text": "Section 194-IB of the old Act", "correct": false },
+            { "text": "No TDS — rent straddles both Acts", "correct": false }
+          ],
+          "explanation": "Credit on 31 March 2026 is the earlier event and falls within the old Act period. Section 194-I applies. The payment date in April is irrelevant because the earlier-event rule has already determined the governing Act based on the credit date.",
+          "explanationWrong": "Section 194-I (old Act). Credit on 31 March is earlier than payment on 10 April. Since credit falls on or before 31 March 2026, the old Act governs. Section 194-IB was for individuals/HUFs paying rent exceeding Rs 50,000/month — a different provision.",
+          "tier": 3,
+          "subConcepts": ["rent-tds", "earlier-event-rule", "section-194i"],
+          "isReview": false,
+          "oldSection": "Section 194-I",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A deductor files Form 26Q for Q4 FY 2025-26 but accidentally includes an April 2026 transaction. What should the deductor do?",
+          "options": [
+            { "text": "Nothing — the system will auto-correct it", "correct": false },
+            { "text": "File a correction statement for 26Q removing the April entry, and include it in Form 140 for Q1 TY 2026-27", "correct": true },
+            { "text": "File Form 26Q again with all transactions including April", "correct": false },
+            { "text": "Wait for TRACES to issue a demand notice", "correct": false }
+          ],
+          "explanation": "April 2026 transactions belong to the new Act period and must be reported in Form 140 (Q1 TY 2026-27), not in Form 26Q. The deductor should file a correction statement removing the April entry from 26Q and report it correctly in Form 140.",
+          "explanationWrong": "Correction statement for 26Q + include in Form 140. The April transaction doesn't belong in the old Act's Form 26Q — it must be moved to the new Act's Form 140. The system will not auto-correct cross-Act reporting errors.",
+          "tier": 3,
+          "subConcepts": ["correction-statement", "cross-act-error", "form-26q-vs-140"],
+          "isReview": false,
+          "oldSection": "Form 26Q",
+          "newSection": "Form 140"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition framework, Section 536(3) provides that a reference to 'tax year' commencing on or before 1 April 2025 in the new Act maps to which term under the old Act?",
+          "options": [
+            { "text": "Assessment Year", "correct": false },
+            { "text": "Previous Year", "correct": true },
+            { "text": "Financial Year", "correct": false },
+            { "text": "Calendar Year", "correct": false }
+          ],
+          "explanation": "Section 536(3) maps 'tax year' references in the new Act to 'previous year' under the old Act when the period falls before the new Act's commencement. This bridge provision ensures backward-looking references connect correctly across the two Acts.",
+          "explanationWrong": "Previous Year — not Assessment Year. Section 536(3) bridges terminology for pre-commencement periods. A 'tax year' in the new Act is equivalent to a 'previous year' (not 'assessment year') under the old Act when it refers to a period before 1 April 2026.",
+          "tier": 3,
+          "subConcepts": ["section-536-3", "terminology-bridge", "previous-year"],
+          "isReview": true,
+          "oldSection": "Previous Year",
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 4,
+          "question": "PQR Ltd pays a contractor Rs 2 crore on 15 April 2026. They deduct TDS at 2% under the new Act. Under which section do they quote the deduction in the TDS return?",
+          "options": [
+            { "text": "Section 194C of the old Act", "correct": false },
+            { "text": "Section 393(1) [Table: relevant Sl. No. for contractor payments]", "correct": true },
+            { "text": "Section 392(1) of the new Act", "correct": false },
+            { "text": "Section 194C read with Section 393(1)", "correct": false }
+          ],
+          "explanation": "Payment on 15 April 2026 falls under the new Act. The deduction must be quoted under Section 393(1) with the relevant Table serial number for contractor payments. Section 392(1) is for salary TDS only, and citing the old Section 194C would cause validation errors.",
+          "explanationWrong": "Section 393(1) with the correct Table Sl. No. Section 392(1) is specifically for salary — not contractor payments. The old Section 194C cannot be quoted for new Act periods. The 2% rate is unchanged, but the section reference must be updated.",
+          "tier": 3,
+          "subConcepts": ["contractor-tds", "section-393-quoting", "post-transition-compliance"],
+          "isReview": false,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393(1)"
+        },
+        {
+          "order": 5,
+          "question": "During the transition year, a CA managing TDS compliance for a client must file how many different sets of TDS returns for the period January 2026 to June 2026?",
+          "options": [
+            { "text": "One set — covering the entire six months in new Act forms", "correct": false },
+            { "text": "Two sets — Q4 FY 2025-26 in old forms (24Q/26Q/27Q) + Q1 TY 2026-27 in new forms (138/140/144)", "correct": true },
+            { "text": "Three sets — one per month for the transition period", "correct": false },
+            { "text": "One set — covering the entire six months in old Act forms", "correct": false }
+          ],
+          "explanation": "Two separate sets: Q4 FY 2025-26 (Jan-Mar 2026) uses old forms 24Q/26Q/27Q due by 31 May 2026, and Q1 TY 2026-27 (Apr-Jun 2026) uses new forms 138/140/144 due by 31 July 2026. Each quarter belongs to a different Act and requires its own form set.",
+          "explanationWrong": "Two sets of returns. The transition means two distinct compliance obligations for consecutive quarters: old Act forms for Q4 FY 2025-26 and new Act forms for Q1 TY 2026-27. The CA must ensure both are filed on time with correct section references.",
+          "tier": 3,
+          "subConcepts": ["dual-compliance", "transition-workload", "ca-practical"],
+          "isReview": false,
+          "oldSection": "Forms 24Q/26Q/27Q",
+          "newSection": "Forms 138/140/144"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "unit": "9.1",
+  "title": "Deductions Overview (Chapter VIII, Sections 122-154)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Chapter VI-A → Chapter VIII Restructuring",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, the deduction framework (old Chapter VI-A) has been reorganised under which new chapter?",
+          "options": [
+            { "text": "Chapter VI-A (unchanged)", "correct": false },
+            { "text": "Chapter VIII", "correct": true },
+            { "text": "Chapter VII", "correct": false },
+            { "text": "Chapter X", "correct": false }
+          ],
+          "explanation": "The entire deduction framework moves from Chapter VI-A to Chapter VIII of the 2025 Act, spanning Sections 122 to 154. The underlying architecture is preserved, but the structural reorganisation is significant — Part B for payment-based deductions, Part C for income-based deductions.",
+          "explanationWrong": "Chapter VIII is correct. This is one of the most visible structural changes in the 2025 Act. The old Chapter VI-A (Sections 80A through 80U) is replaced by Chapter VIII (Sections 122-154). Don't look for Chapter VI-A in the new Act — it doesn't exist.",
+          "tier": 1,
+          "subConcepts": ["chapter-restructuring", "chapter-viii", "deduction-framework"],
+          "isReview": false,
+          "oldSection": "Chapter VI-A",
+          "newSection": "Chapter VIII"
+        },
+        {
+          "order": 2,
+          "question": "Old Sections 80A, 80AB, and 80AC have been consolidated into which single section in the ITA 2025?",
+          "options": [
+            { "text": "Section 120", "correct": false },
+            { "text": "Section 122", "correct": true },
+            { "text": "Section 123", "correct": false },
+            { "text": "Section 80A (retained)", "correct": false }
+          ],
+          "explanation": "Section 122 is the umbrella provision consolidating 80A (aggregate limit, double deduction bar), 80AB (deduction computed on net income), and 80AC (timely filing condition). Three scattered sections become one coherent provision.",
+          "explanationWrong": "Section 122 is correct. It's the single most important section in Chapter VIII because it governs ALL deductions. Previously you had to read 80A, 80AB, and 80AC together — now Section 122 puts all the general rules in one place.",
+          "tier": 1,
+          "subConcepts": ["section-122", "consolidation", "80a-80ab-80ac"],
+          "isReview": false,
+          "oldSection": "Sections 80A, 80AB, 80AC",
+          "newSection": "Section 122"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the family pension deduction under the new regime has been enhanced from Rs 15,000 to what amount?",
+          "options": [
+            { "text": "Rs 20,000", "correct": false },
+            { "text": "Rs 25,000", "correct": true },
+            { "text": "Rs 30,000", "correct": false },
+            { "text": "Rs 50,000", "correct": false }
+          ],
+          "explanation": "Section 93 enhances the family pension deduction to Rs 25,000 under the new regime. This was covered in the Other Sources module (Unit 8.1). Under the old regime, it remains Rs 15,000.",
+          "explanationWrong": "Rs 25,000 — a genuine improvement under the 2025 Act for new-regime assessees. This was covered in Unit 8.1 on income from other sources. The enhancement applies only under the new regime; old regime stays at Rs 15,000.",
+          "tier": 1,
+          "subConcepts": ["family-pension", "section-93", "new-regime"],
+          "isReview": true,
+          "oldSection": "Section 57(iia)",
+          "newSection": "Section 93"
+        },
+        {
+          "order": 4,
+          "question": "The deductions under Chapter VIII are split into Part B and Part C. What range of sections does Part B cover?",
+          "options": [
+            { "text": "Sections 122-137", "correct": false },
+            { "text": "Sections 123-137", "correct": true },
+            { "text": "Sections 123-154", "correct": false },
+            { "text": "Sections 138-154", "correct": false }
+          ],
+          "explanation": "Part B covers Sections 123-137 (payment-based deductions). Part C covers Sections 138-154 (income-based/business-specific deductions). Section 122 sits above both parts as the general rules provision.",
+          "explanationWrong": "Sections 123-137 is Part B. Don't confuse with Section 122, which is the general umbrella provision governing both parts. Part B starts at 123 (old 80C+80CCC) and runs through 137 (old 80GGC — political party contributions). Part C picks up from 138.",
+          "tier": 1,
+          "subConcepts": ["part-b", "sections-123-137", "payment-based"],
+          "isReview": false,
+          "oldSection": "Chapter VI-A Part B",
+          "newSection": "Part B (Sections 123-137)"
+        },
+        {
+          "order": 5,
+          "question": "Part B deductions (Sections 123-137) are primarily based on what type of activity by the assessee?",
+          "options": [
+            { "text": "Income earned from specified businesses", "correct": false },
+            { "text": "Payments or contributions made by the assessee", "correct": true },
+            { "text": "Profits from infrastructure projects", "correct": false },
+            { "text": "Royalty income received", "correct": false }
+          ],
+          "explanation": "Part B = payment-based. Think investments (Section 123), NPS contributions (Section 124), health insurance premiums (Section 126), education loan interest (Section 129), donations (Section 135). You pay or contribute, you get the deduction.",
+          "explanationWrong": "Payment-based is the defining characteristic of Part B. The assessee makes a payment (insurance premium, investment, donation, loan interest) and claims a deduction. Part C is the income-based side — you earn qualifying income (business profits, royalty) and get a deduction on that income.",
+          "tier": 1,
+          "subConcepts": ["payment-based-deductions", "part-b-character", "chapter-viii"],
+          "isReview": false,
+          "oldSection": "Chapter VI-A Part B",
+          "newSection": "Part B (Sections 123-137)"
+        }
+      ]
+    },
+    {
+      "title": "Section 122 — General Rules Deep Dive",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 122(2), what is the maximum aggregate amount of deductions that can be claimed under Chapter VIII?",
+          "options": [
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "The Gross Total Income (GTI) of the assessee", "correct": true },
+            { "text": "Rs 5,00,000", "correct": false },
+            { "text": "No aggregate cap exists", "correct": false }
+          ],
+          "explanation": "Section 122(2) caps aggregate Chapter VIII deductions at the GTI. Deductions cannot exceed GTI — they cannot create or enlarge a loss. This is a direct carryover of old Section 80A(2).",
+          "explanationWrong": "The GTI cap is the answer. Deductions under Chapter VIII can never exceed GTI. Rs 1,50,000 is the Section 123 limit for specific investments, not the aggregate cap. The GTI cap ensures deductions don't generate artificial losses.",
+          "tier": 1,
+          "subConcepts": ["gti-cap", "section-122-2", "aggregate-limit"],
+          "isReview": false,
+          "oldSection": "Section 80A(2)",
+          "newSection": "Section 122(2)"
+        },
+        {
+          "order": 2,
+          "question": "Section 122(4) bars 'double deduction.' What does this mean in practice?",
+          "options": [
+            { "text": "An assessee cannot claim two different deductions in the same year", "correct": false },
+            { "text": "The same expenditure cannot generate deductions under two different provisions of the Act", "correct": true },
+            { "text": "A deduction cannot exceed twice the amount of expenditure", "correct": false },
+            { "text": "Only one deduction per head of income is allowed", "correct": false }
+          ],
+          "explanation": "Section 122(4) prevents the same amount from being claimed as a deduction under multiple provisions. For example, if an expense is already deducted under the business-income head, it cannot also be claimed under Chapter VIII. This is the old 80A(4) rule, unchanged.",
+          "explanationWrong": "The double deduction bar prevents the same rupee from being deducted twice. You CAN claim multiple different deductions (80C + 80D equivalent) — what you can't do is claim the SAME expenditure under two provisions. This is a carryover of old Section 80A(4).",
+          "tier": 1,
+          "subConcepts": ["double-deduction-bar", "section-122-4", "same-expenditure"],
+          "isReview": false,
+          "oldSection": "Section 80A(4)",
+          "newSection": "Section 122(4)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 58 (amounts not deductible from other-sources income) maps to which new section?",
+          "options": [
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 94", "correct": true },
+            { "text": "Section 92", "correct": false },
+            { "text": "Section 95", "correct": false }
+          ],
+          "explanation": "Old Section 58 content moved to Section 94. New Section 58 in the 2025 Act deals with presumptive taxation — a completely different topic. This Section 58 trap was covered in Unit 8.1.",
+          "explanationWrong": "Section 94 — not Section 58. This renumbering trap from Unit 8.1 keeps catching people. New Section 58 = presumptive taxation. Old Section 58 content (disallowances from other sources) = Section 94.",
+          "tier": 1,
+          "subConcepts": ["section-58-trap", "section-94"],
+          "isReview": true,
+          "oldSection": "Section 58",
+          "newSection": "Section 94"
+        },
+        {
+          "order": 4,
+          "question": "Section 122(5) imposes a timely return-filing condition. This condition applies to deductions under which part of Chapter VIII?",
+          "options": [
+            { "text": "Both Part B and Part C", "correct": false },
+            { "text": "Part B only (Sections 123-137)", "correct": false },
+            { "text": "Part C only (Sections 138-154)", "correct": true },
+            { "text": "Neither — timely filing is no longer required", "correct": false }
+          ],
+          "explanation": "Section 122(5) applies ONLY to Part C deductions (Sections 138-154) — the income-based and business-specific deductions. Part B deductions (Sections 123-137) remain available even if the return is filed after the due date (within the belated period).",
+          "explanationWrong": "Part C only — this is perhaps the most critical practical distinction in the new deduction framework. Your 80C investments (now Section 123) and health insurance (Section 126) don't require timely filing. But business profit deductions (Sections 138-148), royalty (149-150), and disability self-deduction (154) all need timely filing.",
+          "tier": 1,
+          "subConcepts": ["timely-filing", "section-122-5", "part-c-only"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 5,
+          "question": "Under old Section 80AC, the timely filing condition applied to which deductions?",
+          "options": [
+            { "text": "All Chapter VI-A deductions without exception", "correct": false },
+            { "text": "Only Section 80C deductions", "correct": false },
+            { "text": "A listed set of business/income-based deductions (80-IA, 80-IB, 80JJA, 80JJAA, etc.)", "correct": true },
+            { "text": "Only Section 80G (donations)", "correct": false }
+          ],
+          "explanation": "Old Section 80AC listed specific sections: 80-IA, 80-IAB, 80-IB, 80-IC, 80-ID, 80-IE, 80JJA, 80JJAA, 80LA, 80P, 80PA, 80QQB, 80RRB. The 2025 Act simplifies this by applying the condition to all of Part C instead of listing individual sections. The scope is effectively the same.",
+          "explanationWrong": "A listed set of business/income-based deductions — that's how old Section 80AC worked. It named each section individually. The 2025 Act simplifies this by saying 'Part C' instead of listing 13 individual section numbers. Same scope, cleaner drafting.",
+          "tier": 1,
+          "subConcepts": ["old-80ac-scope", "listed-sections", "simplification"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        }
+      ]
+    },
+    {
+      "title": "Part B vs. Part C — Practical Distinctions",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "An assessee files a belated return (after the due date but within the permissible period). Which type of Chapter VIII deduction can they still claim?",
+          "options": [
+            { "text": "Part C deductions only", "correct": false },
+            { "text": "Part B deductions only (Sections 123-137)", "correct": true },
+            { "text": "Both Part B and Part C", "correct": false },
+            { "text": "Neither — all deductions are forfeited on late filing", "correct": false }
+          ],
+          "explanation": "Part B deductions (payment-based, Sections 123-137) survive a belated return. Part C deductions (income-based, Sections 138-154) require timely filing under Section 122(5) and are lost if the return is filed late. This makes timely filing critical for business-profit deductions.",
+          "explanationWrong": "Part B survives late filing; Part C does not. This is the single most important practical takeaway from Section 122(5). If you miss the due date, you lose your Part C deductions (business profits, royalties, cooperative income, disability-self) but keep your Part B deductions (investments, health insurance, NPS, donations).",
+          "tier": 1,
+          "subConcepts": ["belated-return", "part-b-survives", "part-c-lost"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 2,
+          "question": "Section 135 (old Section 80G — donations to charitable institutions) falls under Part B. Does the timely filing condition apply to it?",
+          "options": [
+            { "text": "Yes — donations always required timely filing", "correct": false },
+            { "text": "No — Part B deductions are not subject to Section 122(5)", "correct": true },
+            { "text": "Yes — but only for donations exceeding Rs 2,000", "correct": false },
+            { "text": "No — but only if the donation is to a government-approved fund", "correct": false }
+          ],
+          "explanation": "Section 135 (donations) is in Part B (Sections 123-137). The timely filing condition under Section 122(5) applies only to Part C (Sections 138-154). So donation deductions survive even if the return is filed late.",
+          "explanationWrong": "No timely filing needed for donations — it's a Part B deduction. This might surprise practitioners who assumed all deductions required timely filing. The 2025 Act makes the distinction crystal clear: Part B = no timely filing requirement, Part C = timely filing mandatory.",
+          "tier": 1,
+          "subConcepts": ["donations-no-timely-filing", "section-135", "part-b"],
+          "isReview": false,
+          "oldSection": "Section 80G",
+          "newSection": "Section 135"
+        },
+        {
+          "order": 3,
+          "question": "Section 153 (merged 80TTA + 80TTB) for savings account interest deduction falls under Part C. What does this mean for filing?",
+          "options": [
+            { "text": "The return must be filed on or before the due date to claim this deduction", "correct": true },
+            { "text": "No filing requirement — it's automatically applied", "correct": false },
+            { "text": "The deduction can be claimed in a belated return", "correct": false },
+            { "text": "Part C placement has no practical impact on this deduction", "correct": false }
+          ],
+          "explanation": "Section 153 is in Part C (Sections 138-154), so Section 122(5) applies. The return must be filed on or before the due date. This is a change in treatment from the old Act where 80TTA/80TTB did not have a timely filing condition. Practitioners should ensure timely filing to safeguard this claim.",
+          "explanationWrong": "Timely filing is required because Section 153 falls in Part C. Under the old Act, 80TTA and 80TTB didn't require timely filing. The Part C placement in the 2025 Act effectively adds a new condition. This is a subtle but important consequence of the restructuring.",
+          "tier": 1,
+          "subConcepts": ["section-153-part-c", "timely-filing-required", "structural-consequence"],
+          "isReview": true,
+          "oldSection": "Sections 80TTA, 80TTB",
+          "newSection": "Section 153"
+        },
+        {
+          "order": 4,
+          "question": "How did old Section 80AC identify which deductions required timely filing, compared to the 2025 Act approach?",
+          "options": [
+            { "text": "Old: listed individual section numbers; New: applies to entire Part C", "correct": true },
+            { "text": "Old: applied to all deductions; New: applies to Part C only", "correct": false },
+            { "text": "Old: no timely filing requirement existed; New: introduced it for the first time", "correct": false },
+            { "text": "Both old and new use the same approach — listing individual sections", "correct": false }
+          ],
+          "explanation": "Old Section 80AC listed 13 individual sections by name (80-IA, 80-IAB, 80-IB, etc.). The 2025 Act simplifies this by applying the condition to the entire Part C bucket. The scope is effectively the same — the same deductions require timely filing — but the drafting is far cleaner.",
+          "explanationWrong": "Listed individual sections → entire Part C. This is a drafting improvement, not a substantive change. The old approach required updating the list every time a new deduction was added. The Part C approach is self-updating — any new deduction placed in Part C automatically inherits the timely filing requirement.",
+          "tier": 1,
+          "subConcepts": ["drafting-improvement", "listed-vs-bucket", "section-122-5"],
+          "isReview": false,
+          "oldSection": "Section 80AC",
+          "newSection": "Section 122(5)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following Part C deductions is available under BOTH the old and new tax regimes?",
+          "options": [
+            { "text": "Section 138 (infrastructure profits — old 80-IA)", "correct": false },
+            { "text": "Section 147 (cooperative society income — old 80P)", "correct": false },
+            { "text": "Section 145 (new employee cost — old 80JJAA)", "correct": true },
+            { "text": "Section 149 (author royalty — old 80QQB)", "correct": false }
+          ],
+          "explanation": "Section 145 (old 80JJAA — deduction for new employee cost) is available under both regimes. Most Part C deductions are old-regime-only, but Section 145 (30% of additional employee cost) and Section 146 (offshore banking/IFSC) survive in the new regime.",
+          "explanationWrong": "Section 145 (new employee cost) is the answer. Sections 138, 147, and 149 are all old-regime-only. The new-regime survivors in Part C are limited: Section 145 (80JJAA) and Section 146 (80LA — IFSC). Everything else in Part C requires opting for the old regime.",
+          "tier": 1,
+          "subConcepts": ["both-regimes", "section-145", "new-employee-cost"],
+          "isReview": false,
+          "oldSection": "Section 80JJAA",
+          "newSection": "Section 145"
+        }
+      ]
+    },
+    {
+      "title": "Section 122 Subsections & Their Origins",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 122(3) deals with deductions computed 'with reference to income included in GTI.' What does this mean practically?",
+          "options": [
+            { "text": "The deduction is computed on gross receipts before any expenditure", "correct": false },
+            { "text": "The deduction is computed on the net income after deducting allowable expenditure under the relevant head", "correct": true },
+            { "text": "The deduction is computed on total income after all deductions", "correct": false },
+            { "text": "The deduction is a flat amount regardless of income", "correct": false }
+          ],
+          "explanation": "Section 122(3) (old 80AB) ensures that income-based deductions are computed on net income — after deducting allowable expenditure — not on gross receipts. This prevents inflated deduction claims on gross amounts.",
+          "explanationWrong": "Net income is the computation base. Section 122(3) prevents an assessee from claiming a deduction on, say, Rs 10L gross business receipts when the net profit after expenses is only Rs 3L. The deduction is computed on the Rs 3L, not Rs 10L. Same rule as old Section 80AB.",
+          "tier": 2,
+          "subConcepts": ["net-income-basis", "section-122-3", "80ab-equivalent"],
+          "isReview": false,
+          "oldSection": "Section 80AB",
+          "newSection": "Section 122(3)"
+        },
+        {
+          "order": 2,
+          "question": "Under Section 122(2), if an assessee's GTI is Rs 3,00,000 and eligible Chapter VIII deductions total Rs 4,50,000, what deductions can be claimed?",
+          "options": [
+            { "text": "Rs 4,50,000 (full eligible amount)", "correct": false },
+            { "text": "Rs 3,00,000 (capped at GTI)", "correct": true },
+            { "text": "Rs 1,50,000 (excess is disallowed and carried forward)", "correct": false },
+            { "text": "Nil (deductions exceeding GTI are fully disallowed)", "correct": false }
+          ],
+          "explanation": "The GTI cap under Section 122(2) restricts aggregate deductions to GTI. So Rs 4,50,000 in eligible deductions gets capped at Rs 3,00,000 (the GTI). The excess Rs 1,50,000 is simply lost — it cannot create a loss and cannot be carried forward.",
+          "explanationWrong": "Rs 3,00,000 — capped at GTI. The excess is not carried forward and does not create a loss. This is the same old 80A(2) principle in new clothing. The deduction framework is generous but it won't let you go below zero.",
+          "tier": 2,
+          "subConcepts": ["gti-cap-applied", "no-carry-forward", "section-122-2"],
+          "isReview": false,
+          "oldSection": "Section 80A(2)",
+          "newSection": "Section 122(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the aggregate investment deduction limit shared between Section 123 (old 80C/80CCC) and Section 124(1) (employee's own NPS contribution)?",
+          "options": [
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 1,50,000", "correct": true },
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "The combined ceiling of Rs 1,50,000 continues — shared between Section 123 (PPF, ELSS, LIC, etc.) and Section 124(1) (employee's own NPS contribution). This is unchanged from the old Act position. Available old regime only.",
+          "explanationWrong": "Rs 1,50,000 — unchanged from the pre-existing position. Sections 123 and 124(1) share this ceiling. The additional Rs 50,000 NPS deduction under Section 124(1B) (old 80CCD(1B)) is OVER AND ABOVE this limit, old regime only.",
+          "tier": 2,
+          "subConcepts": ["rs-1-5l-ceiling", "sections-123-124", "shared-limit"],
+          "isReview": true,
+          "oldSection": "Sections 80C, 80CCD(1)",
+          "newSection": "Sections 123, 124(1)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee claims a housing loan principal repayment under Section 123 (old 80C) and also claims the same principal amount as a deduction under the house property head. Is this permissible under Section 122(4)?",
+          "options": [
+            { "text": "Yes — different heads of income can have overlapping deductions", "correct": false },
+            { "text": "No — Section 122(4) bars double deduction of the same amount under different provisions", "correct": true },
+            { "text": "Yes — as long as total deductions don't exceed GTI", "correct": false },
+            { "text": "No — but only if the assessee is under the new regime", "correct": false }
+          ],
+          "explanation": "Section 122(4) explicitly bars the same expenditure from generating deductions under two provisions. If the housing loan principal is claimed under Section 123, it cannot also be claimed under the house property provisions (and vice versa). The bar applies regardless of tax regime.",
+          "explanationWrong": "Section 122(4) says no — the same rupee can't be deducted twice. This is a regime-agnostic rule. The principal can go under Section 123 OR the house property head, but not both. In practice, interest goes to the HP head and principal goes to Section 123, but the double-deduction bar prevents overlap.",
+          "tier": 2,
+          "subConcepts": ["double-deduction-applied", "housing-loan", "section-122-4"],
+          "isReview": false,
+          "oldSection": "Section 80A(4)",
+          "newSection": "Section 122(4)"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following correctly describes the consolidation in Section 122?",
+          "options": [
+            { "text": "80A (aggregate cap) + 80AB (net income basis) + 80AC (timely filing) → Section 122", "correct": true },
+            { "text": "80C + 80CCC + 80CCD → Section 122", "correct": false },
+            { "text": "80D + 80DD + 80DDB → Section 122", "correct": false },
+            { "text": "80A + 80B + 80C → Section 122", "correct": false }
+          ],
+          "explanation": "Section 122 consolidates the three general rule sections: 80A (aggregate cap + double deduction bar), 80AB (net income computation basis), and 80AC (timely filing condition). It does NOT consolidate the specific deduction sections like 80C/80D/80DD — those have their own new section numbers.",
+          "explanationWrong": "80A + 80AB + 80AC → 122. These were the general rules governing all deductions, and they now sit under one roof. 80C+80CCC → 123 (investments), 80D → 126 (health insurance) — those are specific deductions, not general rules.",
+          "tier": 2,
+          "subConcepts": ["section-122-components", "general-rules", "consolidation"],
+          "isReview": false,
+          "oldSection": "Sections 80A, 80AB, 80AC",
+          "newSection": "Section 122"
+        }
+      ]
+    },
+    {
+      "title": "New Regime vs. Old Regime — Deduction Availability",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new (default) tax regime, how many Part B deductions survive?",
+          "options": [
+            { "text": "None — all Part B deductions are old-regime only", "correct": false },
+            { "text": "All Part B deductions survive", "correct": false },
+            { "text": "A limited few — including Sections 124(2), 125, 126, and 129", "correct": true },
+            { "text": "Only Section 123 (old 80C) survives", "correct": false }
+          ],
+          "explanation": "Under the new regime, only select Part B deductions survive: Section 124(2) (employer NPS — 14%), Section 125 (Agniveer), Section 126 (health insurance), and Section 129 (education loan interest). Section 123 (old 80C) and most others are old-regime only.",
+          "explanationWrong": "A limited few survive — not none, not all. The survivors are Section 124(2) (employer NPS), 125 (Agniveer), 126 (health insurance), and 129 (education loan). These are the deductions the government considered essential enough to retain in the simplified new regime.",
+          "tier": 2,
+          "subConcepts": ["new-regime-survivors", "part-b-limited", "regime-availability"],
+          "isReview": false,
+          "oldSection": "Chapter VI-A Part B",
+          "newSection": "Part B (Sections 123-137)"
+        },
+        {
+          "order": 2,
+          "question": "Section 123 (old 80C+80CCC — investments in PPF, ELSS, LIC, etc.) is available under which regime?",
+          "options": [
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "Old regime only", "correct": true },
+            { "text": "New regime only", "correct": false },
+            { "text": "Neither — it has been abolished", "correct": false }
+          ],
+          "explanation": "Section 123 is old-regime only. This is the biggest deduction that new-regime assessees lose. The Rs 1,50,000 basket (PPF, ELSS, LIC premiums, NSC, tuition fees, etc.) requires opting for the old regime.",
+          "explanationWrong": "Old regime only. This is the trade-off of the new regime in a nutshell: lower slab rates but no Section 123 deduction. Assessees with heavy Section 80C investments need to compute both regimes to see which is more beneficial.",
+          "tier": 2,
+          "subConcepts": ["section-123-old-regime", "regime-trade-off", "rs-1-5l"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCC",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 122(2), deductions cannot exceed GTI. This GTI cap prevents what outcome?",
+          "options": [
+            { "text": "Deductions exceeding income tax payable", "correct": false },
+            { "text": "Deductions creating or enlarging a loss", "correct": true },
+            { "text": "Deductions exceeding Rs 5,00,000", "correct": false },
+            { "text": "Deductions under both Part B and Part C simultaneously", "correct": false }
+          ],
+          "explanation": "The GTI cap ensures that Chapter VIII deductions cannot push the assessee into a loss position. If GTI is Rs 4,00,000, deductions are capped at Rs 4,00,000 — total income after deductions is zero, not negative. This was covered in Section 122(2).",
+          "explanationWrong": "Creating or enlarging a loss — that's what the GTI cap prevents. Deductions are tax benefits, not loss-generating tools. The cap ensures total income after Chapter VIII deductions is at minimum zero. Same principle as old 80A(2).",
+          "tier": 2,
+          "subConcepts": ["gti-cap-purpose", "no-loss-creation", "section-122-2"],
+          "isReview": true,
+          "oldSection": "Section 80A(2)",
+          "newSection": "Section 122(2)"
+        },
+        {
+          "order": 4,
+          "question": "Which of the following Part C deductions is available under BOTH regimes?",
+          "options": [
+            { "text": "Section 146 (offshore banking/IFSC — old 80LA)", "correct": true },
+            { "text": "Section 138 (infrastructure development — old 80-IA)", "correct": false },
+            { "text": "Section 154 (person with disability — old 80U)", "correct": false },
+            { "text": "Section 147 (cooperative society — old 80P)", "correct": false }
+          ],
+          "explanation": "Section 146 (old 80LA — IFSC income deduction) is available under both regimes, along with Section 145 (80JJAA). The remaining Part C deductions — 138-144, 147-150, 154 — are old-regime only.",
+          "explanationWrong": "Section 146 (IFSC) survives in both regimes. This makes strategic sense — the government wants to encourage IFSC operations regardless of which tax regime the unit operates under. Section 145 (new employee costs) is the other Part C both-regime survivor.",
+          "tier": 2,
+          "subConcepts": ["section-146-both-regimes", "ifsc-deduction", "part-c-survivors"],
+          "isReview": false,
+          "oldSection": "Section 80LA",
+          "newSection": "Section 146"
+        },
+        {
+          "order": 5,
+          "question": "A new-regime assessee wants to claim a deduction under Section 134 (old 80GG — rent paid without HRA). Is this possible?",
+          "options": [
+            { "text": "Yes — rent deductions are available under both regimes", "correct": false },
+            { "text": "No — Section 134 is available only under the old regime", "correct": true },
+            { "text": "Yes — but limited to Rs 5,000 per month under the new regime", "correct": false },
+            { "text": "Yes — if the rent exceeds 10% of total income", "correct": false }
+          ],
+          "explanation": "Section 134 (old 80GG) is old-regime only. New-regime assessees who pay rent but don't receive HRA cannot claim this deduction. They do, however, get the benefit of lower slab rates under the new regime.",
+          "explanationWrong": "Old regime only. New-regime assessees lose the rent deduction under Section 134. This is one of the deductions that might tip the old-vs-new regime calculation for assessees paying significant rent without HRA.",
+          "tier": 2,
+          "subConcepts": ["section-134-old-regime", "rent-deduction", "no-hra"],
+          "isReview": false,
+          "oldSection": "Section 80GG",
+          "newSection": "Section 134"
+        }
+      ]
+    },
+    {
+      "title": "Structural Changes & Drafting Improvements",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The 2025 Act formally splits deductions into Part B (payment-based) and Part C (income-based). Did this formal split exist in the 1961 Act?",
+          "options": [
+            { "text": "Yes — the 1961 Act had the same Part B/Part C structure", "correct": false },
+            { "text": "No — the formal split is new, though the implicit categorisation existed", "correct": true },
+            { "text": "Yes — but with different section ranges", "correct": false },
+            { "text": "No — the 1961 Act had no categorisation at all", "correct": false }
+          ],
+          "explanation": "The 1961 Act did not formally split Chapter VI-A into payment-based and income-based categories. The deductions were listed sequentially (80C through 80U) without an explicit Part B/Part C structure. The 2025 Act's formal split is a structural improvement that makes the timely-filing distinction explicit.",
+          "explanationWrong": "The formal split is new. While practitioners informally recognised that some deductions were payment-based and others income-based, the old Act didn't codify this distinction. The 2025 Act makes it explicit, which has a direct practical consequence: the timely-filing condition applies cleanly to all of Part C.",
+          "tier": 2,
+          "subConcepts": ["formal-split-new", "structural-improvement", "part-b-part-c"],
+          "isReview": false,
+          "oldSection": "Chapter VI-A",
+          "newSection": "Chapter VIII"
+        },
+        {
+          "order": 2,
+          "question": "Section 154 (old 80U — person with disability) is placed in Part C. What is the practical consequence of this placement?",
+          "options": [
+            { "text": "The deduction limit is enhanced", "correct": false },
+            { "text": "The timely return-filing condition under Section 122(5) applies", "correct": true },
+            { "text": "The deduction is now available under both regimes", "correct": false },
+            { "text": "No practical consequence — placement is just cosmetic", "correct": false }
+          ],
+          "explanation": "Section 154's placement in Part C means the timely filing condition under Section 122(5) applies. The return must be filed on or before the due date to claim this deduction. Practitioners advising disabled assessees must ensure timely filing.",
+          "explanationWrong": "Timely filing is required — that's the consequence of Part C placement. This is worth flagging to clients with disabilities: miss the due date and you lose the Rs 75,000/Rs 1,25,000 deduction. The placement doesn't change the deduction amount or regime availability — just adds the filing condition.",
+          "tier": 2,
+          "subConcepts": ["section-154-part-c", "timely-filing-consequence", "disability-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, health insurance premium deduction (Section 126, old 80D) is available under which regime(s)?",
+          "options": [
+            { "text": "Old regime only", "correct": false },
+            { "text": "New regime only", "correct": false },
+            { "text": "Both old and new regimes", "correct": true },
+            { "text": "Neither — it has been subsumed into the standard deduction", "correct": false }
+          ],
+          "explanation": "Section 126 is available under both regimes. This is one of the few deductions that survived the new regime's stripped-down framework. This will be covered in detail in Unit 9.3.",
+          "explanationWrong": "Both regimes — and this is a significant benefit. A new-regime assessee paying health insurance for self and senior citizen parents can claim up to Rs 1,00,000 in deductions. This makes Section 126 one of the most valuable deductions in the new regime.",
+          "tier": 2,
+          "subConcepts": ["section-126-both-regimes", "health-insurance"],
+          "isReview": true,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        },
+        {
+          "order": 4,
+          "question": "Under the 2025 Act, eligible instruments for Section 123 (old 80C) are listed where?",
+          "options": [
+            { "text": "Within Section 123 itself, like old Section 80C(2)", "correct": false },
+            { "text": "In Schedule XV to the 2025 Act", "correct": true },
+            { "text": "In a separate CBDT notification", "correct": false },
+            { "text": "In Section 122 (general rules)", "correct": false }
+          ],
+          "explanation": "The 2025 Act moves the eligible instruments list from within the section body (old Section 80C(2)) to Schedule XV. This is a structural improvement — the section is cleaner, and Schedule XV can be updated more easily.",
+          "explanationWrong": "Schedule XV is the answer. Under the old Act, the long list of eligible instruments was embedded within Section 80C(2) itself, making the section unwieldy. The 2025 Act extracts this list into Schedule XV — same instruments, better organisation.",
+          "tier": 2,
+          "subConcepts": ["schedule-xv", "eligible-instruments", "structural-improvement"],
+          "isReview": false,
+          "oldSection": "Section 80C(2)",
+          "newSection": "Schedule XV"
+        },
+        {
+          "order": 5,
+          "question": "Is the Section 122 consolidation (merging 80A+80AB+80AC) a substantive change or a drafting improvement?",
+          "options": [
+            { "text": "Substantive change — new rules have been added", "correct": false },
+            { "text": "Drafting improvement — same rules, cleaner organisation", "correct": true },
+            { "text": "Substantive change — the GTI cap has been removed", "correct": false },
+            { "text": "Drafting improvement — but the timely filing scope has narrowed", "correct": false }
+          ],
+          "explanation": "The Section 122 consolidation is a drafting improvement. The aggregate cap (old 80A(2)), net income basis (old 80AB), double deduction bar (old 80A(4)), and timely filing (old 80AC) all continue with the same scope. The only change is that they're now in one section instead of three.",
+          "explanationWrong": "Drafting improvement — no substantive rules were added or removed. The GTI cap still exists, the double deduction bar still exists, the timely filing condition still applies to the same deductions (now Part C). It's the same law, better organised.",
+          "tier": 2,
+          "subConcepts": ["drafting-vs-substantive", "section-122-nature", "no-change"],
+          "isReview": false,
+          "oldSection": "Sections 80A, 80AB, 80AC",
+          "newSection": "Section 122"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Filing Deadline & Deduction Impact",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "CA Rajan's client files the return 2 months after the due date (within the belated period). The client has claimed deductions under Section 123 (80C investments), Section 126 (health insurance), and Section 145 (new employee cost under 80JJAA). Which deductions survive?",
+          "options": [
+            { "text": "All three survive — late filing doesn't affect deductions", "correct": false },
+            { "text": "Only Section 123 and Section 126 survive; Section 145 is lost", "correct": true },
+            { "text": "Only Section 145 survives; Sections 123 and 126 are lost", "correct": false },
+            { "text": "None survive — all deductions are forfeited on late filing", "correct": false }
+          ],
+          "explanation": "Sections 123 and 126 are Part B (Sections 123-137) — they survive late filing. Section 145 is Part C (Sections 138-154) — it requires timely filing under Section 122(5) and is lost. This distinction could cost the client the entire 80JJAA deduction (30% of additional employee cost).",
+          "explanationWrong": "Sections 123 and 126 survive; Section 145 is lost. The Part B vs. Part C distinction has real money consequences. Section 145 (30% of additional employee cost) can be a substantial deduction for growing businesses — losing it to a missed deadline is painful and avoidable.",
+          "tier": 3,
+          "subConcepts": ["late-filing-impact", "part-b-survives", "part-c-lost-applied"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80D, 80JJAA",
+          "newSection": "Sections 123, 126, 145"
+        },
+        {
+          "order": 2,
+          "question": "A cooperative society files its return after the due date. It claims a deduction under Section 147 (old 80P — cooperative income). What is the outcome?",
+          "options": [
+            { "text": "The deduction is allowed — cooperatives are exempt from filing deadlines", "correct": false },
+            { "text": "The deduction is disallowed — Section 147 is in Part C and requires timely filing", "correct": true },
+            { "text": "The deduction is allowed but reduced by 50%", "correct": false },
+            { "text": "The deduction is allowed if the delay is less than 30 days", "correct": false }
+          ],
+          "explanation": "Section 147 (old 80P) is in Part C. Section 122(5) requires timely filing for all Part C deductions. A cooperative that misses the due date loses the entire Section 147 deduction. There's no grace period or partial allowance — it's all or nothing.",
+          "explanationWrong": "Disallowed in full. Section 147 is Part C, so Section 122(5) applies strictly. This is the same position as under the old Act (80P was listed in 80AC). Cooperatives must file on time or lose the deduction entirely — there's no partial claim for 'almost on time.'",
+          "tier": 3,
+          "subConcepts": ["cooperative-timely-filing", "section-147", "part-c-strict"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 147"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 92(2)(m) (gift taxation) applies a 10% tolerance band to which type of property?",
+          "options": [
+            { "text": "Movable property only", "correct": false },
+            { "text": "Both movable and immovable property", "correct": false },
+            { "text": "Immovable property only", "correct": true },
+            { "text": "Virtual Digital Assets only", "correct": false }
+          ],
+          "explanation": "The 10% tolerance band (higher of Rs 50,000 or 10% of consideration) applies to immovable property received for inadequate consideration only. For movable property, only the flat Rs 50,000 threshold applies. This was covered in Unit 8.1.",
+          "explanationWrong": "Immovable property only. The 10% band protects immovable property buyers from minor stamp duty mismatches. Movable property doesn't get this benefit — it's a flat Rs 50,000 threshold. A key distinction from Unit 8.1.",
+          "tier": 3,
+          "subConcepts": ["10-percent-immovable-only", "section-92-2-m"],
+          "isReview": true,
+          "oldSection": "Section 56(2)(x)",
+          "newSection": "Section 92(2)(m)"
+        },
+        {
+          "order": 4,
+          "question": "An assessee (old regime) has GTI of Rs 8,00,000 and claims the following: Section 123 = Rs 1,50,000, Section 126 = Rs 25,000, Section 135 = Rs 50,000, Section 147 (cooperative income) = Rs 4,00,000. The return is filed on time. What is the total deduction allowed?",
+          "options": [
+            { "text": "Rs 6,25,000", "correct": false },
+            { "text": "Rs 5,25,000 (sum of all claims)", "correct": false },
+            { "text": "Rs 5,25,000 (all claims allowed — within GTI)", "correct": true },
+            { "text": "Rs 8,00,000 (capped at GTI)", "correct": false }
+          ],
+          "explanation": "Total claims: Rs 1,50,000 + Rs 25,000 + Rs 50,000 + Rs 4,00,000 = Rs 5,25,000. GTI is Rs 8,00,000. Since Rs 5,25,000 < Rs 8,00,000, all deductions are allowed in full. The GTI cap under Section 122(2) doesn't bite here because total deductions are below GTI.",
+          "explanationWrong": "Rs 5,25,000 — all claims allowed because the total is within the Rs 8,00,000 GTI cap. Return was filed on time, so Part C deduction (Section 147) survives. The GTI cap only restricts deductions when the total exceeds GTI — here it doesn't.",
+          "tier": 3,
+          "subConcepts": ["gti-cap-not-triggered", "comprehensive-deduction", "timely-filing-met"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80D, 80G, 80P",
+          "newSection": "Sections 123, 126, 135, 147"
+        },
+        {
+          "order": 5,
+          "question": "Same facts as above, but the return is filed AFTER the due date. Now what is the total deduction allowed?",
+          "options": [
+            { "text": "Rs 5,25,000 (no change)", "correct": false },
+            { "text": "Rs 2,25,000 (Section 145 lost; only Part B deductions survive)", "correct": true },
+            { "text": "Nil (all deductions forfeited)", "correct": false },
+            { "text": "Rs 4,00,000 (only Section 147 survives)", "correct": false }
+          ],
+          "explanation": "With late filing, Section 147 (Part C, Rs 4,00,000) is disallowed under Section 122(5). Part B deductions survive: Rs 1,50,000 (Section 123) + Rs 25,000 (Section 126) + Rs 50,000 (Section 135) = Rs 2,25,000. Wait — let me recheck. Rs 1,50,000 + Rs 25,000 + Rs 50,000 = Rs 2,25,000. The cooperative deduction of Rs 4,00,000 is completely lost.",
+          "explanationWrong": "Rs 2,25,000 — the Part B deductions (Sections 123 + 126 + 135) survive. The Section 147 (cooperative income, Rs 4,00,000) is lost because it's Part C and the return was filed late. That's a Rs 4,00,000 deduction gone — a massive tax impact from missing a deadline.",
+          "tier": 3,
+          "subConcepts": ["late-filing-cost", "part-c-forfeited", "rs-4l-lost"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80D, 80G, 80P",
+          "newSection": "Sections 123, 126, 135, 147"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Double Deduction & GTI Cap",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A startup claims Rs 2,00,000 as employee training expense under Section 28 (business deduction) and also tries to claim it under Section 123 (investment deduction). Under Section 122(4), what happens?",
+          "options": [
+            { "text": "Both claims are allowed — different sections, different provisions", "correct": false },
+            { "text": "Only the Section 28 deduction is allowed; Section 123 claim is barred by double-deduction rule", "correct": true },
+            { "text": "Both are disallowed", "correct": false },
+            { "text": "The assessee can choose which provision to claim under", "correct": false }
+          ],
+          "explanation": "Section 122(4) bars the same expenditure from being deducted under two provisions. Since the Rs 2,00,000 is already deducted under the business-income head (Section 28), it cannot also be claimed under Section 123. The double-deduction bar is absolute.",
+          "explanationWrong": "Only the business deduction (Section 28) survives. The Section 123 claim is barred because the same Rs 2,00,000 cannot generate deductions twice. If the assessee hadn't claimed it under Section 28, it could potentially go under Section 123 (subject to eligibility).",
+          "tier": 3,
+          "subConcepts": ["double-deduction-scenario", "section-122-4-applied", "business-vs-investment"],
+          "isReview": false,
+          "oldSection": "Section 80A(4)",
+          "newSection": "Section 122(4)"
+        },
+        {
+          "order": 2,
+          "question": "An assessee (old regime) has GTI of Rs 2,00,000 and eligible deductions: Section 123 = Rs 1,50,000, Section 126 = Rs 50,000, Section 129 = Rs 80,000. What total deduction is allowed?",
+          "options": [
+            { "text": "Rs 2,80,000 (sum of all claims)", "correct": false },
+            { "text": "Rs 2,00,000 (capped at GTI)", "correct": true },
+            { "text": "Rs 1,50,000 (only Section 123 allowed)", "correct": false },
+            { "text": "Nil (GTI too low for deductions)", "correct": false }
+          ],
+          "explanation": "Total eligible deductions = Rs 1,50,000 + Rs 50,000 + Rs 80,000 = Rs 2,80,000. But GTI is only Rs 2,00,000. Under Section 122(2), deductions are capped at GTI. So only Rs 2,00,000 is deductible. The excess Rs 80,000 is lost — no carry-forward.",
+          "explanationWrong": "Rs 2,00,000 — capped at GTI. The total claims (Rs 2,80,000) exceed GTI (Rs 2,00,000), so the cap kicks in. The excess Rs 80,000 simply vanishes — it cannot create a loss and there's no mechanism to carry it forward. This is a real risk for assessees with low income but high deduction-eligible payments.",
+          "tier": 3,
+          "subConcepts": ["gti-cap-triggered", "excess-lost", "no-carry-forward"],
+          "isReview": false,
+          "oldSection": "Section 80A(2)",
+          "newSection": "Section 122(2)"
+        },
+        {
+          "order": 3,
+          "question": "An author files a belated return and claims Rs 3,00,000 under Section 149 (old 80QQB — author royalty income deduction). What is the outcome?",
+          "options": [
+            { "text": "The deduction is allowed — royalty income is a Part B deduction", "correct": false },
+            { "text": "The deduction is disallowed — Section 149 is Part C and requires timely filing", "correct": true },
+            { "text": "The deduction is allowed but reduced to Rs 1,50,000", "correct": false },
+            { "text": "The deduction is allowed if accompanied by a condonation application", "correct": false }
+          ],
+          "explanation": "Section 149 (old 80QQB) is in Part C (Sections 138-154). Section 122(5) requires timely filing for Part C deductions. A belated return means the entire Rs 3,00,000 royalty deduction is lost. Authors must file on time.",
+          "explanationWrong": "Disallowed — Part C, timely filing not met. Section 149 is the author's royalty deduction (limited to Rs 3L). It's in Part C because it's an income-based deduction (computed on royalty income earned), not a payment-based deduction. No condonation mechanism exists for this — it's a hard deadline.",
+          "tier": 3,
+          "subConcepts": ["author-royalty-part-c", "section-149", "timely-filing-strict"],
+          "isReview": true,
+          "oldSection": "Section 80QQB",
+          "newSection": "Section 149"
+        },
+        {
+          "order": 4,
+          "question": "A disabled individual (old regime) with severe disability (80%+) has GTI of Rs 1,00,000. They claim Section 154 (old 80U) deduction of Rs 1,25,000. What is allowed?",
+          "options": [
+            { "text": "Rs 1,25,000 (full flat deduction — disability provisions override GTI cap)", "correct": false },
+            { "text": "Rs 1,00,000 (capped at GTI under Section 122(2))", "correct": true },
+            { "text": "Rs 75,000 (lower disability tier applies when income is low)", "correct": false },
+            { "text": "Nil (GTI too low for Part C deductions)", "correct": false }
+          ],
+          "explanation": "The flat deduction is Rs 1,25,000 for severe disability, but Section 122(2) caps all Chapter VIII deductions at GTI. With GTI of Rs 1,00,000, the deduction is limited to Rs 1,00,000. The remaining Rs 25,000 is lost. No exception for disability provisions.",
+          "explanationWrong": "Rs 1,00,000 — the GTI cap applies even to disability deductions. Section 122(2) makes no exceptions. This means a severely disabled individual with low income doesn't get the full benefit of the Rs 1,25,000 deduction. The excess cannot be carried forward.",
+          "tier": 3,
+          "subConcepts": ["gti-cap-disability", "section-154", "no-exception"],
+          "isReview": false,
+          "oldSection": "Section 80U",
+          "newSection": "Section 154"
+        },
+        {
+          "order": 5,
+          "question": "CA Meena advises a client: 'Under the 2025 Act, the timely filing condition applies only to Part C deductions, so your Section 126 (health insurance) claim is safe even if you file late.' Is this advice correct?",
+          "options": [
+            { "text": "No — all Chapter VIII deductions require timely filing", "correct": false },
+            { "text": "Yes — Section 126 is Part B (Sections 123-137) and is not subject to Section 122(5)", "correct": true },
+            { "text": "No — Section 126 is in Part C", "correct": false },
+            { "text": "Yes — but only if the premium was paid before the due date", "correct": false }
+          ],
+          "explanation": "CA Meena's advice is correct. Section 126 (health insurance) is in Part B (it's Section 126, within the 123-137 range). Part B deductions are not subject to the timely filing condition under Section 122(5). The client can claim it in a belated return.",
+          "explanationWrong": "The advice is correct — Section 126 is Part B. It falls within Sections 123-137, so Section 122(5) does not apply. This is a common client concern: 'Will I lose my health insurance deduction if I file late?' The answer is no, as long as you file within the belated return period.",
+          "tier": 3,
+          "subConcepts": ["section-126-part-b-confirmed", "late-filing-safe", "practical-advice"],
+          "isReview": false,
+          "oldSection": "Section 80D",
+          "newSection": "Section 126"
+        }
+      ]
+    },
+    {
+      "title": "Scenario — Comprehensive Deduction Planning",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Mr. Kapoor (new regime) earns Rs 15,00,000 salary. His employer contributes Rs 1,80,000 to NPS (12% of Rs 15L basic). Under Section 124(2), what employer NPS deduction can he claim?",
+          "options": [
+            { "text": "Rs 1,50,000 (old 10% cap)", "correct": false },
+            { "text": "Rs 1,80,000 (actual contribution, within 14% cap)", "correct": true },
+            { "text": "Rs 2,10,000 (14% of Rs 15L)", "correct": false },
+            { "text": "Nil — NPS deductions are not available under the new regime", "correct": false }
+          ],
+          "explanation": "14% of Rs 15,00,000 = Rs 2,10,000. Actual employer contribution = Rs 1,80,000. The deduction is the lower of actual contribution or 14% cap = Rs 1,80,000. Under the old Act, Mr. Kapoor would have been limited to 10% (Rs 1,50,000) — the harmonisation at 14% gives him an extra Rs 30,000 deduction.",
+          "explanationWrong": "Rs 1,80,000 — the actual contribution, which is within the 14% cap (Rs 2,10,000). This deduction is available under both regimes. Under the old Act, Mr. Kapoor would have been capped at 10% (Rs 1,50,000), losing Rs 30,000 in deduction. The 2025 Act's harmonisation directly benefits private-sector employees.",
+          "tier": 3,
+          "subConcepts": ["employer-nps-scenario", "14-percent-applied", "new-regime-benefit"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(2)",
+          "newSection": "Section 124(2)"
+        },
+        {
+          "order": 2,
+          "question": "Ms. Desai (old regime) has the following: Section 123 = Rs 1,50,000, Section 124(1B) = Rs 50,000, Section 126 = Rs 25,000, Section 154 = Rs 75,000. Return filed on time. GTI = Rs 12,00,000. What is the total deduction?",
+          "options": [
+            { "text": "Rs 3,00,000", "correct": true },
+            { "text": "Rs 2,25,000 (Section 154 disallowed)", "correct": false },
+            { "text": "Rs 2,00,000 (Section 123 limit includes 124(1B))", "correct": false },
+            { "text": "Rs 3,00,000 but capped at Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "Section 123 = Rs 1,50,000 (within ceiling). Section 124(1B) = Rs 50,000 (additional, OVER AND ABOVE Rs 1.5L). Section 126 = Rs 25,000. Section 154 = Rs 75,000 (Part C, but return filed on time). Total = Rs 1,50,000 + Rs 50,000 + Rs 25,000 + Rs 75,000 = Rs 3,00,000. Within GTI of Rs 12,00,000.",
+          "explanationWrong": "Rs 3,00,000 — all four deductions are allowed. Key points: (1) Section 124(1B) is OVER AND ABOVE the Rs 1.5L ceiling, not within it. (2) Section 154 is Part C but the return was filed on time. (3) Total Rs 3L is well within GTI of Rs 12L. All conditions met.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-deduction-plan", "124-1b-additional", "all-conditions-met"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80CCD(1B), 80D, 80U",
+          "newSection": "Sections 123, 124(1B), 126, 154"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which deductions are available to a new-regime salaried employee? (Select the most complete answer.)",
+          "options": [
+            { "text": "Section 124(2) (employer NPS) and Section 126 (health insurance) only", "correct": false },
+            { "text": "Section 124(2), Section 126, Section 129 (education loan), and Section 153 (savings interest)", "correct": true },
+            { "text": "All Part B deductions", "correct": false },
+            { "text": "No deductions at all under the new regime", "correct": false }
+          ],
+          "explanation": "A new-regime salaried employee can claim: Section 124(2) (employer NPS — 14%), Section 126 (health insurance — Rs 25K/50K), Section 129 (education loan interest — no cap), and Section 153 (savings interest — Rs 10K/50K). Section 125 (Agniveer) and Section 145 (new employees) are also both-regime but less common for salaried individuals.",
+          "explanationWrong": "Four key deductions survive for salaried employees under the new regime. This is the practical answer to 'what can I still claim?' — employer NPS, health insurance, education loan interest, and savings account interest deduction. These were covered across Units 8.1, 9.1, and 9.2.",
+          "tier": 3,
+          "subConcepts": ["new-regime-salaried", "surviving-deductions", "practical-summary"],
+          "isReview": true,
+          "oldSection": "Sections 80CCD(2), 80D, 80E, 80TTA",
+          "newSection": "Sections 124(2), 126, 129, 153"
+        },
+        {
+          "order": 4,
+          "question": "A business owner (old regime) has GTI of Rs 6,00,000 and claims: Section 123 = Rs 1,50,000, Section 126 = Rs 50,000, Section 138 (infrastructure profits — old 80-IA) = Rs 5,00,000. Return filed on time. What is allowed?",
+          "options": [
+            { "text": "Rs 6,50,000 (all claims)", "correct": false },
+            { "text": "Rs 6,00,000 (capped at GTI)", "correct": true },
+            { "text": "Rs 7,00,000 (Part C deductions get priority)", "correct": false },
+            { "text": "Rs 2,00,000 (only Part B deductions allowed)", "correct": false }
+          ],
+          "explanation": "Total eligible deductions = Rs 1,50,000 + Rs 50,000 + Rs 5,00,000 = Rs 6,50,000. GTI = Rs 6,00,000. Section 122(2) caps the total at GTI. So Rs 6,00,000 is the maximum deduction. The excess Rs 50,000 is lost. Return was on time, so Section 138 (Part C) is valid, but the GTI cap applies overall.",
+          "explanationWrong": "Rs 6,00,000 — the GTI cap is the binding constraint. All deductions are individually valid (Part C filed on time, amounts within limits), but the aggregate exceeds GTI. Section 122(2) slices off the excess Rs 50,000. No carry-forward of the excess.",
+          "tier": 3,
+          "subConcepts": ["gti-cap-binding", "comprehensive-scenario", "part-c-valid-but-capped"],
+          "isReview": false,
+          "oldSection": "Sections 80C, 80D, 80-IA",
+          "newSection": "Sections 123, 126, 138"
+        },
+        {
+          "order": 5,
+          "question": "CA Priya's firm handles returns for 50 cooperative societies. Under the 2025 Act, she sends a reminder: 'File before the due date or lose your Section 147 deduction.' Is this advice necessary, and why?",
+          "options": [
+            { "text": "Unnecessary — cooperatives are exempt from filing deadlines", "correct": false },
+            { "text": "Necessary — Section 147 is Part C, and Section 122(5) requires timely filing for Part C deductions", "correct": true },
+            { "text": "Unnecessary — Section 147 is Part B, no timely filing needed", "correct": false },
+            { "text": "Necessary — but only for cooperatives with income exceeding Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "The advice is necessary and correct. Section 147 (old 80P) is in Part C (Sections 138-154). Section 122(5) mandates timely filing for all Part C deductions. A cooperative that misses the due date loses its entire Section 147 deduction — potentially the most significant deduction on its return.",
+          "explanationWrong": "Necessary and correct. Section 147 is squarely in Part C. For cooperatives, the Section 147 deduction often represents the lion's share of their tax benefit. Missing the due date means losing this deduction entirely — no partial claim, no condonation. CA Priya's reminder is good practice.",
+          "tier": 3,
+          "subConcepts": ["cooperative-practical", "section-147-part-c", "professional-advice"],
+          "isReview": false,
+          "oldSection": "Section 80P",
+          "newSection": "Section 147"
+        }
+      ]
+    }
+  ]
+}

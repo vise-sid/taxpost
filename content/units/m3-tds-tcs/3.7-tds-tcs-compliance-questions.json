@@ -1,0 +1,835 @@
+{
+  "unit": "3.7",
+  "title": "TDS/TCS Compliance Framework",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Return Forms — Old to New",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Form 24Q (salary TDS quarterly return) is replaced by which form under the new Act?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 138", "correct": true },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 138 replaces old 24Q as the salary TDS quarterly return. It covers deductions under Section 392 (salary TDS). The data from Form 138 feeds into the salary TDS certificate (Form 130).",
+          "explanationWrong": "Form 138 = salary TDS return (old 24Q). Form 130 is the salary TDS certificate (old Form 16). Form 140 is non-salary resident TDS (old 26Q). Form 144 is non-resident TDS (old 27Q).",
+          "tier": 1,
+          "subConcepts": ["form-138", "salary-tds-return"],
+          "isReview": false,
+          "oldSection": "Form 24Q",
+          "newSection": "Form 138"
+        },
+        {
+          "order": 2,
+          "question": "Which new form replaces old Form 26Q for non-salary TDS returns on residents?",
+          "options": [
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 140", "correct": true },
+            { "text": "Form 143", "correct": false },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 140 replaces old 26Q. It covers non-salary TDS deductions on resident payees under Section 393 (Tables 1 and 3). This includes contractor payments, rent, professional fees, interest, and all Table 3 'any person' entries.",
+          "explanationWrong": "Form 140 is the new 26Q. It covers both Table 1 (specified person resident payments) and Table 3 (any person payments) entries. Table 2 (non-residents) has its own return — Form 144.",
+          "tier": 1,
+          "subConcepts": ["form-140", "non-salary-tds-return"],
+          "isReview": false,
+          "oldSection": "Form 26Q",
+          "newSection": "Form 140"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, all TCS provisions are consolidated into which single section?",
+          "options": [
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": true },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 398", "correct": false }
+          ],
+          "explanation": "Section 394 consolidates all TCS provisions. This is a review from Unit 3.6 — where TCS rates were rationalized to a uniform 2% for most entries.",
+          "explanationWrong": "Section 394 = TCS. Section 392 = salary TDS. Section 393 = non-salary TDS (3 tables). Section 398 = defaults and interest. TCS returns are filed using Form 143.",
+          "tier": 1,
+          "subConcepts": ["section-394", "tcs-consolidation"],
+          "isReview": true,
+          "oldSection": "Section 206C",
+          "newSection": "Section 394"
+        },
+        {
+          "order": 4,
+          "question": "Match the old and new return forms: 27Q (non-resident TDS) maps to which new form?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 143", "correct": false },
+            { "text": "Form 144", "correct": true },
+            { "text": "Form 138", "correct": false }
+          ],
+          "explanation": "Form 144 replaces old 27Q for non-resident TDS quarterly returns. It covers deductions under Section 393, Table 2 — payments to non-residents.",
+          "explanationWrong": "27Q → Form 144. The complete mapping: 24Q → 138 (salary), 26Q → 140 (non-salary resident), 27Q → 144 (non-resident), 27EQ → 143 (TCS).",
+          "tier": 1,
+          "subConcepts": ["form-144", "non-resident-tds-return"],
+          "isReview": false,
+          "oldSection": "Form 27Q",
+          "newSection": "Form 144"
+        },
+        {
+          "order": 5,
+          "question": "Old Form 27EQ (TCS quarterly return) is now filed as which form?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 141", "correct": false },
+            { "text": "Form 143", "correct": true },
+            { "text": "Form 144", "correct": false }
+          ],
+          "explanation": "Form 143 replaces old 27EQ for TCS quarterly returns under Section 394. All four return forms have been renumbered: 24Q→138, 26Q→140, 27Q→144, 27EQ→143.",
+          "explanationWrong": "27EQ → Form 143. Form 141 is the unified challan-cum-statement (replacing 26QB/QC/QD/QE). Do not confuse return forms (138/140/143/144) with the challan-cum-statement (141).",
+          "tier": 1,
+          "subConcepts": ["form-143", "tcs-return"],
+          "isReview": false,
+          "oldSection": "Form 27EQ",
+          "newSection": "Form 143"
+        }
+      ]
+    },
+    {
+      "title": "Certificates — Old to New",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Form 16 (salary TDS certificate) is replaced by which form under the new Act?",
+          "options": [
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 131", "correct": false },
+            { "text": "Form 138", "correct": false }
+          ],
+          "explanation": "Form 130 replaces old Form 16 as the salary TDS certificate. A key change: Form 130 now has 3 parts instead of the old 2 parts — Part A (TDS details), Part B (salary computation), and new Part C (deduction details).",
+          "explanationWrong": "Form 130 = new Form 16 (salary certificate). Form 138 is the return (old 24Q). Form 131 is the non-salary TDS certificate (old Form 16A). Form 128 is the lower withholding application (old Form 13).",
+          "tier": 1,
+          "subConcepts": ["form-130", "salary-certificate"],
+          "isReview": false,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        },
+        {
+          "order": 2,
+          "question": "How many parts does the new Form 130 (salary TDS certificate) have, and what is the new addition?",
+          "options": [
+            { "text": "2 parts — same as old Form 16", "correct": false },
+            { "text": "3 parts — new Part C covers deduction details under the Act", "correct": true },
+            { "text": "4 parts — adding separate sections for each deduction chapter", "correct": false },
+            { "text": "1 part — simplified into a single consolidated view", "correct": false }
+          ],
+          "explanation": "Form 130 has 3 parts: Part A (TDS details, auto-generated from Form 138 returns), Part B (salary breakup and computation), and Part C (deduction details — standard deduction, Chapter VI-A, exemptions under Section 19). Part C is the new addition that did not exist in old Form 16.",
+          "explanationWrong": "Three parts. Part C is entirely new — it separates deduction details (standard deduction, Chapter VI-A deductions, Section 19 exemptions) into their own section. Old Form 16 only had Part A and Part B.",
+          "tier": 1,
+          "subConcepts": ["form-130-structure", "part-c-new"],
+          "isReview": false,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, TDS on rent paid by a specified person falls under which table of Section 393?",
+          "options": [
+            { "text": "Table 2 — non-resident payments", "correct": false },
+            { "text": "Table 3 — any person payments", "correct": false },
+            { "text": "Table 1 — specified person payments to residents", "correct": true },
+            { "text": "Section 392 — salary", "correct": false }
+          ],
+          "explanation": "Rent paid by a specified person to a resident is in Table 1, Sl. 7 (old Section 194-I). This is a review from Unit 3.3.",
+          "explanationWrong": "Rent by a specified person → Table 1, Sl. 7. Table 1 covers payments by specified persons to residents. Only rent by individuals/HUFs above Rs 50,000/month goes to Table 1, Sl. 10 (old 194-IB).",
+          "tier": 1,
+          "subConcepts": ["rent-tds-table", "table-1-structure"],
+          "isReview": true,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393, Table 1, Sl. 7"
+        },
+        {
+          "order": 4,
+          "question": "Old Form 16A (non-salary TDS certificate) is replaced by which form?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 131", "correct": true },
+            { "text": "Form 132", "correct": false },
+            { "text": "Form 133", "correct": false }
+          ],
+          "explanation": "Form 131 replaces old Form 16A as the non-salary TDS certificate issued quarterly. It covers all Section 393 deductions (non-salary payments to residents and non-residents).",
+          "explanationWrong": "Form 131 = new Form 16A. Form 130 = salary (old 16). Form 132 = property sale TDS. Form 133 = consolidated certificate replacing old 16C/16D/16E/27D.",
+          "tier": 1,
+          "subConcepts": ["form-131", "non-salary-certificate"],
+          "isReview": false,
+          "oldSection": "Form 16A",
+          "newSection": "Form 131"
+        },
+        {
+          "order": 5,
+          "question": "Old Forms 16C, 16D, 16E, and 27D have been merged into which single form?",
+          "options": [
+            { "text": "Form 131", "correct": false },
+            { "text": "Form 132", "correct": false },
+            { "text": "Form 133", "correct": true },
+            { "text": "Form 141", "correct": false }
+          ],
+          "explanation": "Form 133 is the consolidated certificate replacing four old forms: 16C (rent by individual/HUF), 16D (contractor/professional by individual/HUF), 16E (VDA transfer), and 27D (TCS). One form now serves all these transaction types.",
+          "explanationWrong": "Form 133 merges four old certificate forms. Form 141 is the challan-cum-statement (replacing 26QB/QC/QD/QE). Certificate forms and challan forms serve different purposes — do not confuse the two consolidations.",
+          "tier": 1,
+          "subConcepts": ["form-133", "certificate-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 16C, 16D, 16E, 27D",
+          "newSection": "Form 133"
+        }
+      ]
+    },
+    {
+      "title": "Challan, Lower Withholding, and Self-Declaration",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Forms 26QB, 26QC, 26QD, and 26QE have been consolidated into which single form?",
+          "options": [
+            { "text": "Form 133", "correct": false },
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 141", "correct": true },
+            { "text": "Form 143", "correct": false }
+          ],
+          "explanation": "Form 141 is the unified challan-cum-TDS/TCS statement replacing four old forms: 26QB (property sale), 26QC (rent by individual/HUF), 26QD (contractor payment by individual/HUF), and 26QE (VDA transfer). A transaction-type field distinguishes between them.",
+          "explanationWrong": "Form 141 consolidates all four challan-cum-statements into one. It includes a transaction-type field to identify whether the payment relates to property, rent, contractor, or VDA. Form 133 is the certificate form — different purpose.",
+          "tier": 1,
+          "subConcepts": ["form-141", "challan-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 26QB, 26QC, 26QD, 26QE",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 197 / Form 13 for lower or nil withholding certificates is now governed by which section and form?",
+          "options": [
+            { "text": "Section 395(1), Form 128", "correct": true },
+            { "text": "Section 393(6), Form 121", "correct": false },
+            { "text": "Section 398, Form 130", "correct": false },
+            { "text": "Section 394, Form 143", "correct": false }
+          ],
+          "explanation": "Section 395(1) and Form 128 replace old Section 197 and Form 13. A taxpayer expecting lower income or with carry-forward losses applies to the AO for a certificate authorizing TDS at a lower or nil rate.",
+          "explanationWrong": "Section 395(1) / Form 128 is the lower withholding mechanism. Section 393(6) / Form 121 is the self-declaration for non-deduction (old 15G/15H). Different mechanisms for different situations.",
+          "tier": 1,
+          "subConcepts": ["lower-withholding", "section-395-1", "form-128"],
+          "isReview": false,
+          "oldSection": "Section 197, Form 13",
+          "newSection": "Section 395(1), Form 128"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, which TDS rate applied to contractor payments (Section 194C) for individual/HUF contractors?",
+          "options": [
+            { "text": "1%", "correct": true },
+            { "text": "2%", "correct": false },
+            { "text": "5%", "correct": false },
+            { "text": "10%", "correct": false }
+          ],
+          "explanation": "Under old Section 194C, individual/HUF contractors attracted TDS at 1%, while companies/firms attracted 2%. Under the new Act, this maps to Table 1, Sl. 6. This is a review from Unit 3.3.",
+          "explanationWrong": "Individual/HUF contractors were at 1% under old 194C. Companies/firms were at 2%. The new Act maps these to Table 1, Sl. 6(i) and 6(ii) respectively.",
+          "tier": 1,
+          "subConcepts": ["contractor-tds-rate", "individual-vs-company"],
+          "isReview": true,
+          "oldSection": "Section 194C",
+          "newSection": "Section 393, Table 1, Sl. 6"
+        },
+        {
+          "order": 4,
+          "question": "Old Forms 15G and 15H (self-declaration for non-deduction) have been merged into which single form?",
+          "options": [
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 133", "correct": false }
+          ],
+          "explanation": "Form 121 merges old 15G (for persons below 60 years) and 15H (for senior citizens 60+). The age-based distinction is eliminated — a single form serves all declarants with estimated nil tax liability under Section 393(6).",
+          "explanationWrong": "Form 121 replaces both 15G and 15H. The key simplification: there is no longer a separate form for senior citizens. Anyone (not being a company/firm) with nil estimated tax can file Form 121 to avoid TDS deduction.",
+          "tier": 1,
+          "subConcepts": ["form-121", "15g-15h-merger"],
+          "isReview": false,
+          "oldSection": "Section 197A, Forms 15G/15H",
+          "newSection": "Section 393(6), Form 121"
+        },
+        {
+          "order": 5,
+          "question": "Old Forms 15CA and 15CB for foreign remittances are now which forms?",
+          "options": [
+            { "text": "Form 145 (information) and Form 146 (CA certificate)", "correct": true },
+            { "text": "Form 128 (information) and Form 130 (CA certificate)", "correct": false },
+            { "text": "Form 141 (unified) covers both", "correct": false },
+            { "text": "These forms have been abolished under the new Act", "correct": false }
+          ],
+          "explanation": "Form 145 replaces old 15CA (remittance information) and Form 146 replaces old 15CB (CA certificate for remittances above threshold). The procedural requirements remain the same — only the form numbers changed.",
+          "explanationWrong": "15CA → Form 145, 15CB → Form 146. The remitter must furnish information via Form 145 before any NR remittance. If the remittance exceeds the threshold, a CA certificate in Form 146 is also required.",
+          "tier": 1,
+          "subConcepts": ["form-145-146", "foreign-remittance-forms"],
+          "isReview": false,
+          "oldSection": "Forms 15CA, 15CB",
+          "newSection": "Forms 145, 146"
+        }
+      ]
+    },
+    {
+      "title": "Interest and Default Framework",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the interest rate for failure to DEDUCT tax at source under Section 398(3)(a)?",
+          "options": [
+            { "text": "1% per month or part of month", "correct": true },
+            { "text": "1.5% per month or part of month", "correct": false },
+            { "text": "2% per month", "correct": false },
+            { "text": "12% per annum", "correct": false }
+          ],
+          "explanation": "Failure to deduct attracts 1% per month (or part thereof) under Section 398(3)(a)(i). This runs from the date on which tax was deductible to the date on which it is actually deducted. Part of a month counts as a full month.",
+          "explanationWrong": "1% per month for failure to deduct. The higher rate of 1.5% per month applies for failure to deposit AFTER deduction. The 0.5% difference distinguishes between not deducting at all and deducting but not depositing.",
+          "tier": 2,
+          "subConcepts": ["interest-failure-to-deduct", "section-398-3-a"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)(i)"
+        },
+        {
+          "order": 2,
+          "question": "What is the interest rate for failure to DEPOSIT tax after deduction under Section 398(3)(a)?",
+          "options": [
+            { "text": "1% per month", "correct": false },
+            { "text": "1.5% per month or part of month", "correct": true },
+            { "text": "2% per month", "correct": false },
+            { "text": "18% per annum", "correct": false }
+          ],
+          "explanation": "Failure to deposit after deduction attracts 1.5% per month (or part thereof) under Section 398(3)(a)(ii). This is higher than the 1% for failure to deduct because the deductor has already withheld the payee's money and is sitting on government funds.",
+          "explanationWrong": "1.5% per month for failure to deposit. The higher rate reflects the greater culpability — the deductor has taken the payee's money (via deduction) but has not passed it to the government. This is worse than not deducting at all.",
+          "tier": 2,
+          "subConcepts": ["interest-failure-to-deposit", "section-398-3-a"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)(ii)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new TCS framework, what is the TCS rate on sale of tendu leaves?",
+          "options": [
+            { "text": "5% (unchanged)", "correct": false },
+            { "text": "1%", "correct": false },
+            { "text": "2% (reduced from 5%)", "correct": true },
+            { "text": "10%", "correct": false }
+          ],
+          "explanation": "Tendu leaves TCS was reduced from 5% to 2% under Finance Bill 2026 — the steepest rate decrease. This is a review from Unit 3.6.",
+          "explanationWrong": "Tendu leaves went from 5% to 2%. This was the largest absolute rate reduction in the TCS rationalization, brought down to match the uniform 2% rate applied to most goods.",
+          "tier": 2,
+          "subConcepts": ["tendu-tcs-rate", "rate-rationalization"],
+          "isReview": true,
+          "oldSection": "Section 206C(1) — tendu",
+          "newSection": "Section 394, Sl. 2"
+        },
+        {
+          "order": 4,
+          "question": "Section 398 declares a deductor as 'assessee-in-default'. What is the time limit for passing such an order?",
+          "options": [
+            { "text": "2 years from the end of the relevant tax year", "correct": false },
+            { "text": "4 years from the date of default", "correct": false },
+            { "text": "6 years from the end of the tax year in which deduction was required", "correct": true },
+            { "text": "No time limit — default proceedings can be initiated anytime", "correct": false }
+          ],
+          "explanation": "An order under Section 398 declaring a deductor as assessee-in-default cannot be passed after 6 years from the end of the tax year in which the deduction was required. This protects deductors from indefinite exposure.",
+          "explanationWrong": "The time limit is 6 years. This is a significant safeguard — after 6 years, the department cannot initiate fresh default proceedings even if a genuine non-deduction is discovered.",
+          "tier": 2,
+          "subConcepts": ["time-limit-default", "section-398"],
+          "isReview": false,
+          "oldSection": "Section 201",
+          "newSection": "Section 398"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 398, tax due from an assessee-in-default constitutes a charge on what?",
+          "options": [
+            { "text": "The deductee's income only", "correct": false },
+            { "text": "The assets of the defaulting deductor", "correct": true },
+            { "text": "The bank account where TDS should have been deposited", "correct": false },
+            { "text": "Nothing — it is an unsecured government claim", "correct": false }
+          ],
+          "explanation": "Tax due from an assessee-in-default under Section 398 constitutes a charge on the assets of the defaulting deductor. This means the government has a secured claim — similar to a lien — on the deductor's assets for recovery of unpaid TDS.",
+          "explanationWrong": "A charge on the deductor's assets. This is a powerful enforcement tool — the government's claim takes priority and attaches to the deductor's property. It ensures TDS defaults cannot be escaped by transferring assets.",
+          "tier": 2,
+          "subConcepts": ["charge-on-assets", "enforcement"],
+          "isReview": false,
+          "oldSection": "Section 201",
+          "newSection": "Section 398"
+        }
+      ]
+    },
+    {
+      "title": "Default Exception and Interest Computation",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "When is a deductor NOT treated as assessee-in-default despite failing to deduct TDS?",
+          "options": [
+            { "text": "When the deductor files a revised return", "correct": false },
+            { "text": "When the deductee has filed a return, included the income, and paid the tax due", "correct": true },
+            { "text": "When the amount involved is less than Rs 1 lakh", "correct": false },
+            { "text": "When the deductor is a government entity", "correct": false }
+          ],
+          "explanation": "The deductee-has-paid exception: if the payee from whom TDS was not deducted has filed their return of income, included the relevant income, and paid the tax due on it, the deductor is not treated as in default for the principal amount. However, interest under Section 398(3) may still apply.",
+          "explanationWrong": "The exception applies when the deductee independently pays the tax. The deductor escapes the 'assessee-in-default' tag for the principal amount — but interest for the delay period may still be charged.",
+          "tier": 2,
+          "subConcepts": ["deductee-has-paid", "default-exception"],
+          "isReview": false,
+          "oldSection": "Section 201",
+          "newSection": "Section 398"
+        },
+        {
+          "order": 2,
+          "question": "Interest under Section 398(3)(a) is computed on what basis?",
+          "options": [
+            { "text": "Compound interest, quarterly compounding", "correct": false },
+            { "text": "Simple interest, with part of a month treated as a full month", "correct": true },
+            { "text": "Simple interest, with exact days counted", "correct": false },
+            { "text": "Compound interest, monthly compounding", "correct": false }
+          ],
+          "explanation": "Interest is computed on a simple interest basis. Part of a month is treated as a full month — so even one day's delay into the next month triggers the full month's interest. This is a deliberate design to incentivize timely compliance.",
+          "explanationWrong": "Simple interest, and part-month = full month. If a deductor is late by 2 months and 1 day, interest is charged for 3 months. This 'rounding up' provision makes even marginal delays costly.",
+          "tier": 2,
+          "subConcepts": ["simple-interest", "part-month-rule"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what is the TCS rate on LRS remittances for education?",
+          "options": [
+            { "text": "5% (unchanged)", "correct": false },
+            { "text": "2% (reduced from 5%)", "correct": true },
+            { "text": "20%", "correct": false },
+            { "text": "10%", "correct": false }
+          ],
+          "explanation": "LRS education TCS was reduced from 5% to 2% under Finance Bill 2026, above the Rs 10 lakh threshold. This is a review from Unit 3.6.",
+          "explanationWrong": "LRS education dropped to 2% from 5%. This benefits students remitting for education abroad — the upfront TCS outflow is now less than half of what it was under the old Act.",
+          "tier": 2,
+          "subConcepts": ["lrs-education-rate", "tcs-rate-change"],
+          "isReview": true,
+          "oldSection": "Section 206C(1G)(a)",
+          "newSection": "Section 394, Sl. 7(a)"
+        },
+        {
+          "order": 4,
+          "question": "A deductor deducts TDS of Rs 50,000 on 15 January but deposits it with the government on 20 March. What interest is payable?",
+          "options": [
+            { "text": "Rs 2,250 — 1.5% × 3 months × Rs 50,000", "correct": true },
+            { "text": "Rs 1,500 — 1.5% × 2 months × Rs 50,000", "correct": false },
+            { "text": "Rs 1,000 — 1% × 2 months × Rs 50,000", "correct": false },
+            { "text": "Rs 500 — 1% × 1 month × Rs 50,000", "correct": false }
+          ],
+          "explanation": "This is failure to deposit after deduction — 1.5% per month applies. January (part month from 15th) counts as 1 full month. February = 1 month. March (up to 20th) = 1 month. Total = 3 months. Interest = 1.5% × 3 × Rs 50,000 = Rs 2,250.",
+          "explanationWrong": "1.5% rate applies (deposit failure, not deduction failure). The period runs from deduction date (15 Jan) to deposit date (20 Mar). Part months count as full months: Jan (part) + Feb + Mar (part) = 3 months. Interest = Rs 2,250.",
+          "tier": 2,
+          "subConcepts": ["interest-computation", "deposit-delay"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)(ii)"
+        },
+        {
+          "order": 5,
+          "question": "Why is the interest rate for failure to deposit (1.5%) higher than failure to deduct (1%)?",
+          "options": [
+            { "text": "Because deposit failures involve larger amounts on average", "correct": false },
+            { "text": "Because the deductor has already withheld the payee's money and is effectively using government funds", "correct": true },
+            { "text": "Because deposit failures are harder to detect", "correct": false },
+            { "text": "There is no policy reason — it is an arbitrary difference", "correct": false }
+          ],
+          "explanation": "When a deductor fails to deposit after deduction, they have the payee's money AND the government's revenue — both are being used interest-free. The higher 1.5% rate reflects this greater culpability compared to simply not deducting (where the payee retains their full amount).",
+          "explanationWrong": "The higher rate penalizes the deductor for holding both parties' money. Not deducting is bad (payee keeps their money, government loses revenue). Not depositing after deducting is worse (deductor has the money, both payee and government are short).",
+          "tier": 2,
+          "subConcepts": ["interest-rate-rationale", "culpability-distinction"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)"
+        }
+      ]
+    },
+    {
+      "title": "Form Consolidations — Why They Changed",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the key simplification achieved by merging Forms 15G and 15H into Form 121?",
+          "options": [
+            { "text": "The tax rates for self-declaration changed", "correct": false },
+            { "text": "The age-based distinction between 15G (below 60) and 15H (60+) is eliminated — one form for all ages", "correct": true },
+            { "text": "Companies can now file self-declarations", "correct": false },
+            { "text": "The nil-tax-liability condition is removed", "correct": false }
+          ],
+          "explanation": "The merger eliminates the age-based distinction. Under the old Act, 15G and 15H had different conditions (15G required estimated tax to be nil; 15H only required age 60+ and nil estimated tax). Form 121 unifies these under Section 393(6) with one set of conditions for all ages.",
+          "explanationWrong": "The age-based distinction is gone. Previously, banks and payers had to verify whether a declarant was below or above 60 to accept the correct form. Form 121 simplifies this — one form, one set of conditions, regardless of age.",
+          "tier": 2,
+          "subConcepts": ["15g-15h-simplification", "age-distinction-removal"],
+          "isReview": false,
+          "oldSection": "Section 197A",
+          "newSection": "Section 393(6)"
+        },
+        {
+          "order": 2,
+          "question": "What is the key benefit of merging 26QB/26QC/26QD/26QE into a single Form 141?",
+          "options": [
+            { "text": "Taxpayers now file fewer returns overall", "correct": false },
+            { "text": "One form with a transaction-type field replaces four separate forms, reducing form proliferation", "correct": true },
+            { "text": "The TDS rates for these transactions have been unified", "correct": false },
+            { "text": "Form 141 is optional — taxpayers can choose not to file", "correct": false }
+          ],
+          "explanation": "Form 141 uses a transaction-type field to distinguish between property sale, rent, contractor payment, and VDA transfer. Instead of four separate forms with separate filing processes, one form handles all four scenarios — reducing complexity for individual/HUF payers.",
+          "explanationWrong": "One form instead of four. The transaction-type field within Form 141 tells the system whether the payment relates to property, rent, contractor, or VDA. The underlying TDS rules remain the same — only the filing interface is simplified.",
+          "tier": 2,
+          "subConcepts": ["form-141-benefit", "form-consolidation"],
+          "isReview": false,
+          "oldSection": "Forms 26QB-QE",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 3,
+          "question": "Under Table 3 of Section 393, partner salary/remuneration TDS was introduced as a new provision in which year?",
+          "options": [
+            { "text": "2020", "correct": false },
+            { "text": "2024", "correct": true },
+            { "text": "2025", "correct": false },
+            { "text": "2018", "correct": false }
+          ],
+          "explanation": "Section 194T was introduced in 2024 as a brand new TDS provision on partner payments. It is the newest entry, now mapped to Table 3, Sl. 7. This is a review from Unit 3.5.",
+          "explanationWrong": "2024 is when Section 194T was introduced. It created a TDS obligation where none existed before — firms never had to deduct TDS on partner salary/remuneration/interest prior to this.",
+          "tier": 2,
+          "subConcepts": ["section-194t-year", "newest-provision"],
+          "isReview": true,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 4,
+          "question": "Who can file Form 121 (self-declaration for non-deduction of TDS)?",
+          "options": [
+            { "text": "Any person including companies and firms", "correct": false },
+            { "text": "Any person not being a company or firm, whose estimated total income results in nil tax liability", "correct": true },
+            { "text": "Only senior citizens above 60 years", "correct": false },
+            { "text": "Only individuals with income below Rs 5 lakh", "correct": false }
+          ],
+          "explanation": "Form 121 can be filed by any person (not being a company or firm) whose estimated total income for the tax year results in nil tax liability. Companies and firms cannot file Form 121 — they are excluded by design.",
+          "explanationWrong": "Any person except companies and firms, with nil estimated tax. The old age-based distinction (15G for below 60, 15H for 60+) is eliminated. But the company/firm exclusion continues — entities with significant income should not self-declare nil tax.",
+          "tier": 2,
+          "subConcepts": ["form-121-eligibility", "company-firm-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 197A",
+          "newSection": "Section 393(6)"
+        },
+        {
+          "order": 5,
+          "question": "What is the difference between Form 128 (lower withholding) and Form 121 (self-declaration)?",
+          "options": [
+            { "text": "Form 128 requires AO approval for a reduced rate; Form 121 is a self-declaration requiring no approval", "correct": true },
+            { "text": "Form 128 is for TCS; Form 121 is for TDS", "correct": false },
+            { "text": "Both require AO approval, but Form 121 is for nil rate only", "correct": false },
+            { "text": "Form 128 is filed by the deductor; Form 121 is filed by the deductee", "correct": false }
+          ],
+          "explanation": "Form 128 is an application to the Assessing Officer seeking a certificate for lower/nil TDS — it requires AO review and approval. Form 121 is a self-declaration by the payee stating nil tax liability — no AO approval is needed; the deductor accepts it on face value.",
+          "explanationWrong": "The key difference is approval. Form 128 = apply to AO, get a certificate. Form 121 = declare to deductor directly. Both are filed by the deductee/payee. Form 128 gives a specific reduced rate; Form 121 results in zero deduction.",
+          "tier": 2,
+          "subConcepts": ["form-128-vs-121", "approval-distinction"],
+          "isReview": false,
+          "oldSection": "Sections 197, 197A",
+          "newSection": "Section 395(1), Section 393(6)"
+        }
+      ]
+    },
+    {
+      "title": "Practical Scenarios — Form Selection",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A company deducts TDS on salary of its employees. Which return form and certificate form must it use under the new Act?",
+          "options": [
+            { "text": "Return: Form 140; Certificate: Form 131", "correct": false },
+            { "text": "Return: Form 138; Certificate: Form 130", "correct": true },
+            { "text": "Return: Form 143; Certificate: Form 133", "correct": false },
+            { "text": "Return: Form 144; Certificate: Form 132", "correct": false }
+          ],
+          "explanation": "Salary TDS: Return is Form 138 (old 24Q), Certificate is Form 130 (old Form 16, now with 3 parts). These are the only forms used for salary TDS under Section 392.",
+          "explanationWrong": "Salary = Form 138 (return) + Form 130 (certificate). Form 140/131 are for non-salary resident TDS. Form 143/133 are for TCS. Form 144 is for non-resident TDS returns.",
+          "tier": 3,
+          "subConcepts": ["salary-form-selection", "form-138-130"],
+          "isReview": false,
+          "oldSection": "24Q, Form 16",
+          "newSection": "Form 138, Form 130"
+        },
+        {
+          "order": 2,
+          "question": "An individual pays Rs 60,000/month rent to a resident landlord. Which challan-cum-statement form does the individual use?",
+          "options": [
+            { "text": "Form 140", "correct": false },
+            { "text": "Form 141 (with transaction type: rent)", "correct": true },
+            { "text": "Form 143", "correct": false },
+            { "text": "Form 131", "correct": false }
+          ],
+          "explanation": "Individual/HUF payers use Form 141 (unified challan-cum-statement) for rent payments. The old Form 26QC is now replaced by Form 141 with the transaction-type field set to 'rent'. TDS is under Table 1, Sl. 10 (old 194-IB).",
+          "explanationWrong": "Form 141 with transaction type = rent. Form 140 is the quarterly return (old 26Q) — different from the challan-cum-statement. Individual rent payers file Form 141 per transaction, not quarterly returns.",
+          "tier": 3,
+          "subConcepts": ["form-141-rent", "individual-rent-tds"],
+          "isReview": false,
+          "oldSection": "Form 26QC",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 398, interest for failure to deduct runs from which date to which date?",
+          "options": [
+            { "text": "From the date payment was made to the date the return is filed", "correct": false },
+            { "text": "From the date on which tax was deductible to the date on which tax is actually deducted", "correct": true },
+            { "text": "From 1 April of the year to 31 March of the year", "correct": false },
+            { "text": "From the return due date to the date of deposit", "correct": false }
+          ],
+          "explanation": "For failure to deduct: interest at 1% per month runs from the date tax was deductible (when payment/credit occurred) to the date it is actually deducted. For failure to deposit: 1.5% runs from deduction date to deposit date. This is a review of the interest framework.",
+          "explanationWrong": "Deduction interest period: deductible date → actual deduction date. Deposit interest period: deduction date → actual deposit date. The two interest provisions cover two different delay periods and cannot overlap.",
+          "tier": 3,
+          "subConcepts": ["interest-period", "deduction-date-to-date"],
+          "isReview": true,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)"
+        },
+        {
+          "order": 4,
+          "question": "A senior citizen with nil estimated tax liability wants to avoid TDS on bank interest. Under the new Act, which form should they file?",
+          "options": [
+            { "text": "Form 15H (old form, still valid)", "correct": false },
+            { "text": "Form 121 (merged form replacing both 15G and 15H)", "correct": true },
+            { "text": "Form 128 (lower withholding application)", "correct": false },
+            { "text": "Form 130 (salary TDS certificate)", "correct": false }
+          ],
+          "explanation": "Form 121 is the correct form. The old Form 15H (for senior citizens) no longer exists — it has been merged with Form 15G into a single Form 121. The senior citizen files Form 121 declaring nil tax liability under Section 393(6).",
+          "explanationWrong": "Form 121 replaces both 15G and 15H. There is no age-based form distinction anymore. A senior citizen files the same Form 121 as a younger person — the eligibility criterion is nil estimated tax liability, not age.",
+          "tier": 3,
+          "subConcepts": ["senior-citizen-form", "form-121-application"],
+          "isReview": false,
+          "oldSection": "Form 15H",
+          "newSection": "Form 121"
+        },
+        {
+          "order": 5,
+          "question": "A company making a remittance of Rs 25 lakh to a non-resident consultant needs to file which forms?",
+          "options": [
+            { "text": "Form 145 (remittance information) and Form 146 (CA certificate) before remittance; Form 144 (quarterly return) after", "correct": true },
+            { "text": "Form 140 (return) and Form 131 (certificate) only", "correct": false },
+            { "text": "Form 141 (challan) and Form 143 (TCS return)", "correct": false },
+            { "text": "Only Form 144 — no pre-remittance forms needed", "correct": false }
+          ],
+          "explanation": "NR remittance requires: (1) Form 145 (old 15CA — remittance information) and Form 146 (old 15CB — CA certificate, as amount exceeds threshold) before remittance, and (2) Form 144 (old 27Q — NR TDS quarterly return) for reporting the TDS deduction.",
+          "explanationWrong": "Three forms are involved: Form 145 + Form 146 pre-remittance, and Form 144 for quarterly reporting. Form 140 is for resident TDS (old 26Q). Form 141 is for challan-cum-statements by individuals. Form 143 is for TCS.",
+          "tier": 3,
+          "subConcepts": ["nr-remittance-forms", "complete-workflow"],
+          "isReview": false,
+          "oldSection": "Forms 15CA, 15CB, 27Q",
+          "newSection": "Forms 145, 146, 144"
+        }
+      ]
+    },
+    {
+      "title": "Interest Computation Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "ABC Ltd should have deducted TDS of Rs 1,00,000 on 10 June but failed to do so. It finally deducts on 5 September. What interest is payable for the deduction delay?",
+          "options": [
+            { "text": "Rs 4,000 — 1% × 4 months × Rs 1,00,000", "correct": true },
+            { "text": "Rs 3,000 — 1% × 3 months × Rs 1,00,000", "correct": false },
+            { "text": "Rs 6,000 — 1.5% × 4 months × Rs 1,00,000", "correct": false },
+            { "text": "Rs 2,000 — 1% × 2 months × Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Failure to deduct: 1% per month. Period: June (part from 10th) = 1 month, July = 1 month, August = 1 month, September (up to 5th) = 1 month. Total = 4 months. Interest = 1% × 4 × Rs 1,00,000 = Rs 4,000.",
+          "explanationWrong": "4 months at 1%. Part months count as full months: June (from 10th), July, August, September (to 5th) = 4 months. The rate is 1% because this is failure to DEDUCT (not failure to deposit).",
+          "tier": 3,
+          "subConcepts": ["deduction-delay-interest", "month-counting"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)(i)"
+        },
+        {
+          "order": 2,
+          "question": "A deductor deducts Rs 2,00,000 TDS on 31 March but deposits it on 15 May (missing the 30 April deadline). What interest is payable for the deposit delay?",
+          "options": [
+            { "text": "Rs 6,000 — 1.5% × 2 months × Rs 2,00,000", "correct": true },
+            { "text": "Rs 3,000 — 1.5% × 1 month × Rs 2,00,000", "correct": false },
+            { "text": "Rs 4,000 — 1% × 2 months × Rs 2,00,000", "correct": false },
+            { "text": "Rs 9,000 — 1.5% × 3 months × Rs 2,00,000", "correct": false }
+          ],
+          "explanation": "Failure to deposit after deduction: 1.5% per month. Period: March (part from 31st) = 1 month, April = 1 month... wait — period runs from deduction date to deposit date. March 31 to May 15 spans April (full) and May (part) = 2 months. Interest = 1.5% × 2 × Rs 2,00,000 = Rs 6,000.",
+          "explanationWrong": "2 months at 1.5%. From deduction (31 March) to deposit (15 May): April = 1 month, May (to 15th) = 1 month. Total = 2 months. Interest = Rs 6,000. The rate is 1.5% because tax was deducted but not deposited.",
+          "tier": 3,
+          "subConcepts": ["deposit-delay-interest", "1.5-percent-rate"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)(ii)"
+        },
+        {
+          "order": 3,
+          "question": "Which new form number replaces old Form 16 for salary TDS certificates?",
+          "options": [
+            { "text": "Form 128", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 131", "correct": false },
+            { "text": "Form 138", "correct": false }
+          ],
+          "explanation": "Form 130 replaces Form 16. It has 3 parts instead of the old 2. This is a key recall point for the compliance framework — every form number has changed.",
+          "explanationWrong": "Form 130 = new Form 16. Form 138 is the return (old 24Q). Do not confuse the return form (138) with the certificate form (130). The return is filed with the department; the certificate is issued to the employee.",
+          "tier": 3,
+          "subConcepts": ["form-130", "salary-certificate"],
+          "isReview": true,
+          "oldSection": "Form 16",
+          "newSection": "Form 130"
+        },
+        {
+          "order": 4,
+          "question": "XYZ Ltd should have deducted TDS of Rs 5,00,000 on 1 August but did not deduct until 1 October, and then deposited on 15 November. Calculate total interest payable.",
+          "options": [
+            { "text": "Rs 25,000 — deduction interest Rs 10,000 + deposit interest Rs 15,000", "correct": true },
+            { "text": "Rs 20,000 — 1% × 4 months × Rs 5,00,000", "correct": false },
+            { "text": "Rs 37,500 — 1.5% × 5 months × Rs 5,00,000", "correct": false },
+            { "text": "Rs 10,000 — 1% × 2 months only", "correct": false }
+          ],
+          "explanation": "Two interest calculations: (1) Failure to deduct: 1% per month from 1 Aug to 1 Oct = 2 months. Interest = 1% × 2 × Rs 5,00,000 = Rs 10,000. (2) Failure to deposit: 1.5% per month from 1 Oct to 15 Nov = 2 months. Interest = 1.5% × 2 × Rs 5,00,000 = Rs 15,000. Total = Rs 25,000.",
+          "explanationWrong": "Total = Rs 10,000 (deduction delay) + Rs 15,000 (deposit delay) = Rs 25,000. The two interest provisions apply sequentially — first 1% for the deduction delay period, then 1.5% for the deposit delay period. They never overlap.",
+          "tier": 3,
+          "subConcepts": ["dual-interest-computation", "sequential-interest"],
+          "isReview": false,
+          "oldSection": "Section 201(1A)",
+          "newSection": "Section 398(3)(a)"
+        },
+        {
+          "order": 5,
+          "question": "A deductor fails to deduct TDS of Rs 3,00,000. However, the deductee files their return, includes the income, and pays the full tax. What is the deductor's liability?",
+          "options": [
+            { "text": "Nil — the deductee-has-paid exception removes all liability", "correct": false },
+            { "text": "Principal TDS amount is not demanded, but interest under Section 398(3) may still apply for the delay period", "correct": true },
+            { "text": "Full Rs 3,00,000 plus interest — the exception does not apply", "correct": false },
+            { "text": "50% of the TDS amount as penalty", "correct": false }
+          ],
+          "explanation": "The deductee-has-paid exception under Section 398 removes the principal TDS demand (the deductor is not treated as assessee-in-default). However, interest at 1% per month for the period of non-deduction may still be charged — the exception covers the principal, not the interest.",
+          "explanationWrong": "Principal demand is waived, but interest may still apply. The exception protects the deductor from the Rs 3,00,000 demand since the deductee has already paid the tax. But the interest for the period of non-deduction (1% per month) remains payable.",
+          "tier": 3,
+          "subConcepts": ["partial-relief", "interest-still-applies"],
+          "isReview": false,
+          "oldSection": "Section 201",
+          "newSection": "Section 398"
+        }
+      ]
+    },
+    {
+      "title": "Complete Form Reference Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA issues a certificate for a client's foreign remittance exceeding the threshold. Under the new Act, this certificate is in which form?",
+          "options": [
+            { "text": "Form 145", "correct": false },
+            { "text": "Form 146", "correct": true },
+            { "text": "Form 131", "correct": false },
+            { "text": "Form 128", "correct": false }
+          ],
+          "explanation": "Form 146 (old 15CB) is the CA certificate for foreign remittances exceeding the threshold. Form 145 (old 15CA) is the remittance information form filed by the remitter. The CA certificate accompanies the information form.",
+          "explanationWrong": "Form 146 = CA certificate (old 15CB). Form 145 = remittance information (old 15CA). The CA certifies the tax liability and treaty applicability; the remitter provides remittance details. Both are required for large NR payments.",
+          "tier": 3,
+          "subConcepts": ["form-146", "ca-certificate"],
+          "isReview": false,
+          "oldSection": "Form 15CB",
+          "newSection": "Form 146"
+        },
+        {
+          "order": 2,
+          "question": "An individual sells property worth Rs 80 lakh to another individual. The buyer must file which form for TDS compliance?",
+          "options": [
+            { "text": "Form 140 (quarterly return)", "correct": false },
+            { "text": "Form 141 (challan-cum-statement with transaction type: property sale)", "correct": true },
+            { "text": "Form 144 (non-resident return)", "correct": false },
+            { "text": "Form 138 (salary return)", "correct": false }
+          ],
+          "explanation": "Property sale TDS by an individual buyer uses Form 141 (old 26QB) — the unified challan-cum-statement with transaction type set to 'property sale'. TDS is at 1% under Table 1, Sl. 2(i) on the entire consideration since it exceeds Rs 50 lakh.",
+          "explanationWrong": "Form 141 with property sale type. Individual buyers of property do not file quarterly returns (Form 140). They file Form 141 per transaction. The old 26QB is now a transaction type within Form 141.",
+          "tier": 3,
+          "subConcepts": ["property-sale-form", "form-141-property"],
+          "isReview": false,
+          "oldSection": "Form 26QB",
+          "newSection": "Form 141"
+        },
+        {
+          "order": 3,
+          "question": "What is the TDS rate on cash withdrawals exceeding Rs 1 crore under the new Act?",
+          "options": [
+            { "text": "5% for non-filers, 2% for filers", "correct": false },
+            { "text": "2% uniform rate for all (206AB removed)", "correct": true },
+            { "text": "1% for all", "correct": false },
+            { "text": "3% uniform rate", "correct": false }
+          ],
+          "explanation": "Uniform 2% for all payees — the old 206AB higher rate for non-filers has been eliminated in the new Act. This is a review from Unit 3.5.",
+          "explanationWrong": "2% uniform. The 206AB mechanism that imposed 5% on non-filers is gone. Banks no longer need to check filing status before applying the TDS rate on large cash withdrawals.",
+          "tier": 3,
+          "subConcepts": ["cash-withdrawal-rate", "206ab-removal"],
+          "isReview": true,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 4,
+          "question": "A taxpayer with carry-forward losses expects nil tax liability on professional fees of Rs 5 lakh. Should they file Form 121 (self-declaration) or Form 128 (lower withholding)?",
+          "options": [
+            { "text": "Form 121 — since estimated tax is nil", "correct": false },
+            { "text": "Form 128 — because Form 121 cannot be used when gross income exceeds the basic exemption limit; Form 128 requires AO approval for a nil certificate", "correct": true },
+            { "text": "Either form can be used — they are interchangeable", "correct": false },
+            { "text": "Neither — carry-forward losses cannot reduce TDS obligations", "correct": false }
+          ],
+          "explanation": "Form 121 is for cases where TOTAL income results in nil tax — typically income below the basic exemption limit. With Rs 5 lakh gross income and carry-forward losses, the appropriate route is Form 128 (application to AO under Section 395(1)) for a lower/nil withholding certificate, since the AO needs to verify the loss claim.",
+          "explanationWrong": "Form 128 is correct here. Form 121 is designed for simple nil-tax cases (income below threshold). When the nil-tax arises from carry-forward losses, the AO must verify the claim — hence Form 128 with AO approval is required.",
+          "tier": 3,
+          "subConcepts": ["form-selection-logic", "carry-forward-losses"],
+          "isReview": false,
+          "oldSection": "Sections 197, 197A",
+          "newSection": "Section 395(1), Section 393(6)"
+        },
+        {
+          "order": 5,
+          "question": "Complete the form mapping: Return forms are 138/140/143/144. Certificate forms are 130/131/132/133. Challan-cum-statement is 141. What are the self-declaration, lower withholding, and foreign remittance forms?",
+          "options": [
+            { "text": "Self-declaration: Form 121; Lower withholding: Form 128; Foreign remittance: Forms 145/146", "correct": true },
+            { "text": "Self-declaration: Form 128; Lower withholding: Form 121; Foreign remittance: Forms 141/143", "correct": false },
+            { "text": "Self-declaration: Form 130; Lower withholding: Form 131; Foreign remittance: Forms 132/133", "correct": false },
+            { "text": "Self-declaration: Form 145; Lower withholding: Form 146; Foreign remittance: Forms 121/128", "correct": false }
+          ],
+          "explanation": "The complete mapping: Form 121 = self-declaration (old 15G/15H), Form 128 = lower withholding application (old Form 13), Form 145 = foreign remittance information (old 15CA), Form 146 = CA certificate for foreign remittance (old 15CB).",
+          "explanationWrong": "121 = self-declaration, 128 = lower withholding, 145 = remittance info, 146 = CA certificate. This completes the full form reference card: returns (138/140/143/144), certificates (130/131/132/133), challan (141), and procedural (121/128/145/146).",
+          "tier": 3,
+          "subConcepts": ["complete-form-map", "form-reference-card"],
+          "isReview": false,
+          "oldSection": "Various",
+          "newSection": "Forms 121, 128, 145, 146"
+        }
+      ]
+    }
+  ]
+}

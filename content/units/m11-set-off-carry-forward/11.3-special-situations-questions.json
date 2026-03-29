@@ -1,0 +1,835 @@
+{
+  "unit": "11.3",
+  "title": "Special Situations (Sections 116-119, 121)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping: Reorganisation Provisions",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 72A (carry-forward of loss in amalgamation/demerger) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 115", "correct": false },
+            { "text": "Section 116", "correct": true },
+            { "text": "Section 117", "correct": false },
+            { "text": "Section 118", "correct": false }
+          ],
+          "explanation": "Section 72A → Section 116. The provision enabling carry-forward of accumulated loss and unabsorbed depreciation in amalgamation and demerger is restructured under a new section number but the core framework survives.",
+          "explanationWrong": "Section 116 is correct. The reorganisation provisions in the 2025 Act follow a logical sequence: 116 (amalgamation/demerger), 117 (banking companies), 118 (co-operative banks — new), 119 (change in shareholding). Each maps to its predecessor in the 1961 Act.",
+          "tier": 1,
+          "subConcepts": ["section-116", "amalgamation-demerger", "section-72A-mapping"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 72AA (banking company business reorganisation) has been renumbered to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 116", "correct": false },
+            { "text": "Section 118", "correct": false },
+            { "text": "Section 117", "correct": true },
+            { "text": "Section 119", "correct": false }
+          ],
+          "explanation": "Section 72AA → Section 117. The provision for carry-forward of accumulated losses in RBI-directed banking company reorganisations continues unchanged under the new section number.",
+          "explanationWrong": "Section 117. This is a straight renumbering — no substantive change. Don't confuse with Section 118, which is the new co-operative bank provision. Banking companies (117) and co-operative banks (118) now have separate dedicated sections.",
+          "tier": 1,
+          "subConcepts": ["section-117", "banking-reorganisation", "section-72AA-mapping"],
+          "isReview": false,
+          "oldSection": "Section 72AA",
+          "newSection": "Section 117"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025 carry-forward rules, what is the carry-forward period for business loss under Section 112?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "6 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "Indefinite", "correct": false }
+          ],
+          "explanation": "Business loss carry-forward remains 8 assessment years under Section 112 (old Section 72). This was covered in Unit 11.2.",
+          "explanationWrong": "8 years — unchanged from the 1961 Act. This carry-forward period from Unit 11.2 is the baseline against which special provisions like the anti-evergreening rule operate. The reorganisation sections (116-118) enable loss carry-forward to successor entities, but the 8-year clock keeps ticking.",
+          "tier": 1,
+          "subConcepts": ["8-year-period", "business-loss-carry-forward", "review-carry-forward"],
+          "isReview": true,
+          "oldSection": "Section 72",
+          "newSection": "Section 112"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 79 (carry-forward restriction on change in shareholding) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 117", "correct": false },
+            { "text": "Section 118", "correct": false },
+            { "text": "Section 120", "correct": false },
+            { "text": "Section 119", "correct": true }
+          ],
+          "explanation": "Section 79 → Section 119. This is the shareholding continuity test for closely-held companies — but the 2025 Act has introduced a potentially significant rewording. The 'persons' to 'the person' change is addressed in later lessons.",
+          "explanationWrong": "Section 119. The mapping is: 72A → 116, 72AA → 117, new → 118, 79 → 119, 80 → 121. Section 119 carries the old Section 79's shareholding test but with a critical wording change that could alter its interpretation.",
+          "tier": 1,
+          "subConcepts": ["section-119", "shareholding-continuity", "section-79-mapping"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 80 (timely filing for loss carry-forward) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 119", "correct": false },
+            { "text": "Section 120", "correct": false },
+            { "text": "Section 121", "correct": true },
+            { "text": "Section 122", "correct": false }
+          ],
+          "explanation": "Section 80 → Section 121. The requirement to file the return within the due date to preserve carry-forward rights is renumbered only — no substantive change. This applies equally to successor entities in reorganisation scenarios.",
+          "explanationWrong": "Section 121. The timely filing gateway survives intact. Even in reorganisation contexts under Sections 116-118, the successor entity must file its return within the due date to preserve inherited carry-forward claims.",
+          "tier": 1,
+          "subConcepts": ["section-121", "timely-filing", "section-80-mapping"],
+          "isReview": false,
+          "oldSection": "Section 80",
+          "newSection": "Section 121"
+        }
+      ]
+    },
+    {
+      "title": "Genuine Changes: Section 118 and Section 119",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 118 of the ITA 2025 is a genuinely new provision. What does it address?",
+          "options": [
+            { "text": "Carry-forward of losses in amalgamation of private companies", "correct": false },
+            { "text": "Carry-forward of accumulated losses in business reorganisation of co-operative banks", "correct": true },
+            { "text": "Carry-forward of speculative losses", "correct": false },
+            { "text": "Carry-forward of capital losses in demerger", "correct": false }
+          ],
+          "explanation": "Section 118 is a standalone provision for co-operative bank reorganisations — mergers, amalgamations, and reconstructions directed by RBI or the relevant Registrar of Co-operative Societies. Under the 1961 Act, there was no separate section; co-operative banks were handled through Section 72AA by extension.",
+          "explanationWrong": "Co-operative bank business reorganisation. This is one of two genuine changes in Unit 11.3. Previously, co-operative banks had to rely on Section 72AA (banking companies) by analogy. Now they have their own dedicated provision tailored to the co-operative banking structure.",
+          "tier": 1,
+          "subConcepts": ["section-118", "co-operative-bank", "new-provision"],
+          "isReview": false,
+          "oldSection": "No separate section",
+          "newSection": "Section 118"
+        },
+        {
+          "order": 2,
+          "question": "Under old Section 79, the 51% shareholding continuity test used the word 'persons' (plural). What word does the new Section 119 use?",
+          "options": [
+            { "text": "Persons (unchanged)", "correct": false },
+            { "text": "The person (singular)", "correct": true },
+            { "text": "Shareholders", "correct": false },
+            { "text": "Beneficial owners", "correct": false }
+          ],
+          "explanation": "Section 119 changes 'persons' to 'the person' (singular). This rewording could mean a single beneficial owner must hold at least 51% of voting power — rather than a group collectively satisfying the threshold. A potentially significant interpretive change.",
+          "explanationWrong": "'The person' — singular. This deliberate change from plural to singular in a provision unchanged since 1961 suggests a conscious legislative choice. Under old Section 79, three shareholders holding 20%, 18%, and 15% could collectively meet 51%. Under the new wording, that collective approach may no longer work.",
+          "tier": 1,
+          "subConcepts": ["persons-to-person", "singular-change", "section-119-wording"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025 transition provisions, brought-forward losses from the 1961 Act are deemed to exist under corresponding new sections via which clause?",
+          "options": [
+            { "text": "Section 536(2)(m)", "correct": true },
+            { "text": "Section 536(2)(a)", "correct": false },
+            { "text": "Section 536(2)(z)", "correct": false },
+            { "text": "Section 540(1)", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m) is the comprehensive transition clause mapping all loss types from old sections to new sections. This was covered in Unit 11.2.",
+          "explanationWrong": "Section 536(2)(m). This transition clause was covered in Unit 11.2 — it deems losses computed under old Act sections to be losses under the corresponding new sections. The remaining carry-forward period is preserved exactly.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-m", "transition-deeming", "review-transition"],
+          "isReview": true,
+          "oldSection": "Transition",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 4,
+          "question": "Under old Section 72A, the anti-evergreening provision limited carry-forward of losses in amalgamation to the remaining period within the original 8-year window. Has this been changed by the ITA 2025?",
+          "options": [
+            { "text": "Yes — extended to 12 years", "correct": false },
+            { "text": "Yes — reduced to 5 years", "correct": false },
+            { "text": "No — carried forward from Finance Act 2025, no further change", "correct": true },
+            { "text": "Yes — the anti-evergreening provision has been dropped", "correct": false }
+          ],
+          "explanation": "The anti-evergreening provision (originally Section 72A(6B), introduced by Finance Act 2025) is carried forward into the 2025 Act without further modification. The successor entity in an amalgamation can only carry forward the loss for the remaining period within the original 8-year window.",
+          "explanationWrong": "No change — carried forward from FA 2025. The anti-evergreening rule prevents companies from using serial amalgamations to restart the 8-year clock. If the amalgamating company's loss had 3 years left, the amalgamated company gets only 3 years — not a fresh 8.",
+          "tier": 1,
+          "subConcepts": ["anti-evergreening", "remaining-period-only", "fa-2025-provision"],
+          "isReview": false,
+          "oldSection": "Section 72A(6B)",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 5,
+          "question": "Section 119 (old Section 79) applies to which type of company?",
+          "options": [
+            { "text": "All companies including widely-held companies", "correct": false },
+            { "text": "Companies not being companies in which the public are substantially interested", "correct": true },
+            { "text": "Only public limited companies", "correct": false },
+            { "text": "Only companies with turnover exceeding Rs 10 crore", "correct": false }
+          ],
+          "explanation": "Section 119, like old Section 79, applies only to closely-held companies (companies not substantially held by the public). Widely-held companies are exempt because their shareholding changes are driven by market forces, not tax-motivated transfers.",
+          "explanationWrong": "Closely-held companies only. The shareholding continuity test has always been targeted at private/closely-held companies where shareholding changes are within the control of a small group. Widely-held (listed) companies are excluded — you can't control who buys shares on the stock exchange.",
+          "tier": 1,
+          "subConcepts": ["closely-held-companies", "section-119-applicability", "public-company-exemption"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        }
+      ]
+    },
+    {
+      "title": "Amalgamation and Demerger Conditions",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 116, for accumulated losses of the amalgamating company to carry forward to the amalgamated company, the amalgamating company must be engaged in which type of undertaking?",
+          "options": [
+            { "text": "Any business undertaking", "correct": false },
+            { "text": "An industrial undertaking or a ship or a hotel", "correct": true },
+            { "text": "Only a manufacturing undertaking", "correct": false },
+            { "text": "A specified business under Section 114", "correct": false }
+          ],
+          "explanation": "Section 116 (like old Section 72A) restricts loss carry-forward in amalgamation to cases involving industrial undertakings, ships, or hotels. A pure trading or services company's losses do not transfer to the amalgamated entity under this provision.",
+          "explanationWrong": "Industrial undertaking, ship, or hotel. This qualification has existed since the 1961 Act and is retained. The legislature never extended this benefit to all types of business activities — the incentive is aimed at capital-intensive sectors where business failures may warrant restructuring with loss preservation.",
+          "tier": 1,
+          "subConcepts": ["industrial-undertaking", "amalgamation-condition", "eligible-entities"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 2,
+          "question": "In a demerger under Section 116, which losses carry forward to the resulting company?",
+          "options": [
+            { "text": "All losses of the demerged company", "correct": false },
+            { "text": "Only losses directly attributable to the demerged undertaking", "correct": true },
+            { "text": "Losses in proportion to the net worth transferred", "correct": false },
+            { "text": "No losses can carry forward in a demerger", "correct": false }
+          ],
+          "explanation": "In a demerger, only losses directly attributable to the demerged undertaking carry to the resulting company. Non-attributable losses remain with the demerged company. This allocation rule is unchanged from old Section 72A.",
+          "explanationWrong": "Only attributable losses. The demerger provision draws a clean line: losses that 'belong' to the separated undertaking follow it; everything else stays behind. This prevents companies from selectively moving losses without corresponding business activities.",
+          "tier": 1,
+          "subConcepts": ["demerger-loss-allocation", "attributable-losses", "resulting-company"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 121 (old Section 80), which two types of losses are exempt from the timely filing requirement for carry-forward?",
+          "options": [
+            { "text": "Business loss and capital loss", "correct": false },
+            { "text": "HP loss and unabsorbed depreciation", "correct": true },
+            { "text": "Speculative loss and specified business loss", "correct": false },
+            { "text": "All losses are exempt from timely filing", "correct": false }
+          ],
+          "explanation": "HP loss and unabsorbed depreciation survive late filing — they arise automatically from property ownership and asset usage. This was covered in Unit 11.2.",
+          "explanationWrong": "HP loss and unabsorbed depreciation. These two are 'automatic' — they arise from factual circumstances (property ownership, asset wear), not from discretionary business decisions. The timely filing rule incentivises reporting of elective items. Review from Unit 11.2.",
+          "tier": 1,
+          "subConcepts": ["timely-filing-exemptions", "hp-loss-depreciation", "review-section-121"],
+          "isReview": true,
+          "oldSection": "Section 80",
+          "newSection": "Section 121"
+        },
+        {
+          "order": 4,
+          "question": "Under old Section 72AA (now Section 117), which regulatory authority must direct the banking company reorganisation for loss carry-forward to apply?",
+          "options": [
+            { "text": "SEBI", "correct": false },
+            { "text": "CBDT", "correct": false },
+            { "text": "Reserve Bank of India", "correct": true },
+            { "text": "Ministry of Corporate Affairs", "correct": false }
+          ],
+          "explanation": "Section 117 applies only to business reorganisations of banking companies directed by RBI under the Banking Regulation Act. The RBI's direction is a mandatory precondition — voluntary mergers between banking companies do not qualify.",
+          "explanationWrong": "RBI. Banking company reorganisations are RBI's domain. The tax law defers to the banking regulator's judgment that the reorganisation serves the banking system's stability. Without an RBI direction, the loss carry-forward benefit is unavailable.",
+          "tier": 1,
+          "subConcepts": ["rbi-direction", "banking-regulation", "section-117-condition"],
+          "isReview": false,
+          "oldSection": "Section 72AA",
+          "newSection": "Section 117"
+        },
+        {
+          "order": 5,
+          "question": "Section 118 (co-operative bank reorganisation) was previously handled by extending which section of the 1961 Act?",
+          "options": [
+            { "text": "Section 72A (amalgamation/demerger)", "correct": false },
+            { "text": "Section 72AA (banking company reorganisation)", "correct": true },
+            { "text": "Section 79 (change in shareholding)", "correct": false },
+            { "text": "Section 80 (timely filing)", "correct": false }
+          ],
+          "explanation": "Before the 2025 Act, co-operative bank reorganisations were handled by extending Section 72AA (banking companies) through amendments and interpretive guidance. The 2025 Act gives co-operative banks their own Section 118, eliminating the interpretive friction.",
+          "explanationWrong": "Section 72AA. Co-operative banks were shoehorned into the banking company provision despite operating under a distinct regulatory framework (state/multi-state co-operative societies acts). Section 118 resolves this by creating a dedicated provision tailored to co-operative bank structures.",
+          "tier": 1,
+          "subConcepts": ["section-72AA-extension", "co-operative-bank-history", "interpretive-friction"],
+          "isReview": false,
+          "oldSection": "Section 72AA",
+          "newSection": "Section 118"
+        }
+      ]
+    },
+    {
+      "title": "Why Section 118 Was Carved Out",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the ITA 2025 create a separate Section 118 for co-operative bank reorganisations instead of continuing to use Section 117 (old 72AA) by extension?",
+          "options": [
+            { "text": "Co-operative banks operate under a distinct regulatory and governance framework requiring tailored provisions", "correct": true },
+            { "text": "Co-operative banks are more profitable than commercial banks", "correct": false },
+            { "text": "RBI directed the creation of a separate section", "correct": false },
+            { "text": "The old Section 72AA had been struck down by the Supreme Court", "correct": false }
+          ],
+          "explanation": "Co-operative banks are governed by state co-operative societies acts, the multi-state co-operative societies act, and RBI directions — a governance framework distinct from commercial banking. A dedicated section eliminates the interpretive friction of applying commercial banking provisions to co-operative structures.",
+          "explanationWrong": "Distinct regulatory framework. Commercial banks and co-operative banks look similar from outside but are governed very differently. Co-operative banks answer to the Registrar of Co-operative Societies and RBI simultaneously. Forcing their reorganisations through a commercial banking provision created ambiguity that Section 118 resolves.",
+          "tier": 2,
+          "subConcepts": ["regulatory-distinction", "governance-framework", "section-118-rationale"],
+          "isReview": false,
+          "oldSection": "Section 72AA",
+          "newSection": "Section 118"
+        },
+        {
+          "order": 2,
+          "question": "The anti-evergreening rule (limiting carry-forward to the remaining period within the original 8-year window) was introduced to prevent what specific abuse?",
+          "options": [
+            { "text": "Companies using serial amalgamations to restart the carry-forward clock and shelter profits indefinitely", "correct": true },
+            { "text": "Companies filing multiple returns for the same assessment year", "correct": false },
+            { "text": "Companies converting business losses to capital losses", "correct": false },
+            { "text": "Companies claiming depreciation and business loss simultaneously", "correct": false }
+          ],
+          "explanation": "Without the anti-evergreening rule, a company could amalgamate repeatedly — each time triggering a 'fresh' carry-forward period for the same underlying loss. The rule ensures losses cannot be perpetually renewed through restructuring. Only the remaining period transfers.",
+          "explanationWrong": "Serial amalgamation abuse. Imagine Company A has a loss with 1 year left. It amalgamates into Company B, which claims a fresh 8-year period. Before that expires, B amalgamates into C for another 8 years. The anti-evergreening rule kills this game: 1 year left means 1 year transfers, full stop.",
+          "tier": 2,
+          "subConcepts": ["anti-evergreening-rationale", "serial-amalgamation", "clock-restart-abuse"],
+          "isReview": false,
+          "oldSection": "Section 72A(6B)",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, unabsorbed depreciation under Section 115 can be carried forward for how long and set off against which income?",
+          "options": [
+            { "text": "8 years, only business income", "correct": false },
+            { "text": "Indefinitely, only business income", "correct": false },
+            { "text": "Indefinitely, any head of income", "correct": true },
+            { "text": "4 years, any head of income", "correct": false }
+          ],
+          "explanation": "Unabsorbed depreciation enjoys the most favourable treatment: indefinite carry-forward AND set-off against any head. This was covered in Unit 11.2.",
+          "explanationWrong": "Indefinitely, any head. Depreciation gets double privilege — no time limit and no type restriction. This is because depreciation represents real capital consumption, not operational failure. The asset deteriorates regardless of profitability. Review from Unit 11.2.",
+          "tier": 2,
+          "subConcepts": ["depreciation-privilege", "indefinite-any-head", "review-depreciation"],
+          "isReview": true,
+          "oldSection": "Section 32(2)",
+          "newSection": "Section 115"
+        },
+        {
+          "order": 4,
+          "question": "Section 119 changes 'persons' (plural) to 'the person' (singular) in the 51% shareholding test. Why is this wording change potentially more significant than a typical renumbering?",
+          "options": [
+            { "text": "It could require a single beneficial owner to hold 51%, preventing groups from collectively meeting the threshold", "correct": true },
+            { "text": "It changes the voting power requirement from 51% to 75%", "correct": false },
+            { "text": "It extends the shareholding test to widely-held companies", "correct": false },
+            { "text": "It changes the test date from last day to first day of the year", "correct": false }
+          ],
+          "explanation": "Under old Section 79, multiple shareholders could collectively hold 51%. The singular 'the person' in Section 119 arguably requires a single individual to hold 51%. A closely-held company with three equal shareholders (33% each) could lose carry-forward rights even if all three remain unchanged.",
+          "explanationWrong": "Single owner may need 51%. This is not a cosmetic change. The 1961 Act used 'persons' (plural) since inception. The deliberate switch to 'the person' (singular) in a rewrite that is supposed to be 'same law, new format' signals a conscious legislative choice. Until CBDT clarifies, assume the stricter interpretation.",
+          "tier": 2,
+          "subConcepts": ["single-vs-group", "interpretive-consequence", "closely-held-risk"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 5,
+          "question": "Could the General Clauses Act, 1897 potentially neutralise the 'persons' to 'the person' change in Section 119?",
+          "options": [
+            { "text": "Yes — Section 13(2) provides that singular includes plural unless context requires otherwise", "correct": true },
+            { "text": "No — the General Clauses Act does not apply to tax legislation", "correct": false },
+            { "text": "Yes — but only if CBDT issues a specific notification", "correct": false },
+            { "text": "No — Section 13(2) was repealed in 2020", "correct": false }
+          ],
+          "explanation": "Section 13(2) of the General Clauses Act, 1897 provides that words in the singular include the plural unless there is anything repugnant in the context. This could mean 'the person' includes 'persons'. However, the deliberate change from plural to singular in a conscious rewrite argues against applying this default rule.",
+          "explanationWrong": "Yes, Section 13(2) could apply — but it cuts both ways. The GCA default says singular includes plural. But here the legislature deliberately changed from plural to singular. Courts may hold that this conscious change creates a 'context' that displaces the GCA default. This will be litigated.",
+          "tier": 2,
+          "subConcepts": ["general-clauses-act", "section-13-2", "interpretive-battle"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Reorganisation Framework",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why does Section 116 limit loss carry-forward in amalgamation to industrial undertakings, ships, and hotels — but not services or trading companies?",
+          "options": [
+            { "text": "Capital-intensive sectors face higher restructuring costs, and loss preservation incentivises efficient reorganisation of productive assets", "correct": true },
+            { "text": "Services companies never have losses worth carrying forward", "correct": false },
+            { "text": "Trading companies are prohibited from amalgamating", "correct": false },
+            { "text": "This restriction was added by the 2025 Act as a new change", "correct": false }
+          ],
+          "explanation": "The policy rationale targets capital-intensive sectors where amalgamation can revive distressed but productive assets. A factory with accumulated losses may be viable under better management. The tax incentive encourages buyers to absorb such undertakings rather than let them close.",
+          "explanationWrong": "Capital-intensive sectors and productive asset revival. The legislature's view: a steel plant with Rs 50 crore in losses represents real industrial capacity worth preserving. A failing consultancy firm doesn't carry the same public interest in restructuring. The restriction is a policy choice, unchanged since 1961.",
+          "tier": 2,
+          "subConcepts": ["policy-rationale-116", "capital-intensive-sectors", "productive-asset-revival"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 2,
+          "question": "Why does the ITA 2025 maintain separate sections for banking companies (117) and co-operative banks (118) rather than a single section for all banking entities?",
+          "options": [
+            { "text": "Their governing legislation, regulatory authorities, and governance structures differ fundamentally", "correct": true },
+            { "text": "Co-operative banks are always smaller than commercial banks", "correct": false },
+            { "text": "SEBI required separate treatment", "correct": false },
+            { "text": "Section 117 applies only to foreign banks", "correct": false }
+          ],
+          "explanation": "Commercial banks are governed by the Banking Regulation Act and Companies Act; co-operative banks by state/multi-state co-operative societies acts and RBI directions. Their boards, member structures, and reorganisation procedures are fundamentally different. Separate sections allow tailored conditions for each.",
+          "explanationWrong": "Fundamentally different governance structures. A commercial bank has shareholders; a co-operative bank has members. A commercial bank reorganisation follows the Companies Act route; a co-operative bank may follow the Co-operative Societies Act route. Trying to fit both into one section creates ambiguity.",
+          "tier": 2,
+          "subConcepts": ["governance-distinction", "separate-sections-rationale", "commercial-vs-cooperative"],
+          "isReview": false,
+          "oldSection": "Section 72AA",
+          "newSection": "Sections 117, 118"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the HP loss inter-head set-off cap is Rs 2 lakh under Section 109. In the context of reorganisations, does this cap apply to the successor entity's own HP loss?",
+          "options": [
+            { "text": "No — reorganisation removes all caps", "correct": false },
+            { "text": "Yes — the Rs 2 lakh cap applies to any entity regardless of reorganisation", "correct": true },
+            { "text": "Only if the successor is a company", "correct": false },
+            { "text": "The cap doubles to Rs 4 lakh for amalgamated entities", "correct": false }
+          ],
+          "explanation": "The Rs 2 lakh HP loss inter-head set-off cap applies universally under Section 109, regardless of whether the entity has undergone a reorganisation. Reorganisation provisions deal with inherited losses, not with overriding general set-off rules. Review from Unit 11.1.",
+          "explanationWrong": "Rs 2 lakh cap applies universally. Reorganisation provisions in Sections 116-118 determine whether losses survive the restructuring — they don't modify how those losses are set off. The general set-off mechanics (Section 108, 109) apply equally to inherited and self-generated losses.",
+          "tier": 2,
+          "subConcepts": ["hp-cap-universal", "reorganisation-no-override", "review-set-off-cap"],
+          "isReview": true,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 4,
+          "question": "The continuity-of-business requirement in Section 116 for amalgamation means the amalgamated company must continue the business of the amalgamating company for a minimum period. What is the policy purpose?",
+          "options": [
+            { "text": "To prevent sham amalgamations where the buyer takes the losses but immediately shuts down the business", "correct": true },
+            { "text": "To ensure the amalgamated company pays the same taxes as the amalgamating company", "correct": false },
+            { "text": "To allow the AO time to complete pending assessments", "correct": false },
+            { "text": "To ensure employees are retained for a minimum period", "correct": false }
+          ],
+          "explanation": "The continuity requirement is an anti-avoidance safeguard. Without it, a profitable company could amalgamate with a loss-making industrial unit purely to absorb its losses, then immediately shut down the unit. The minimum continuity period ensures genuine business absorption, not tax harvesting.",
+          "explanationWrong": "Anti-sham safeguard. The tax benefit of loss carry-forward in amalgamation is meant for genuine industrial revival — not for loss shopping. The continuity requirement forces the buyer to actually run the acquired business, proving the restructuring has commercial substance beyond tax planning.",
+          "tier": 2,
+          "subConcepts": ["continuity-requirement", "anti-sham", "genuine-business-purpose"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 5,
+          "question": "If the singular interpretation of 'the person' in Section 119 prevails, which type of closely-held company is most at risk of losing carry-forward rights?",
+          "options": [
+            { "text": "A company with one promoter holding 100%", "correct": false },
+            { "text": "A company with multiple equal shareholders where no single person holds 51%", "correct": true },
+            { "text": "A company with no carried-forward losses", "correct": false },
+            { "text": "A company that is widely held", "correct": false }
+          ],
+          "explanation": "A company with three equal shareholders (33% each) would fail the singular 51% test even if all three remain unchanged. No single 'person' holds 51%. Under the old plural interpretation, they collectively met the threshold. This is the core risk of the Section 119 rewording.",
+          "explanationWrong": "Multiple equal shareholders with nobody at 51%. This is exactly the scenario that creates a gap between the old and new wording. If you had four partners at 25% each, nobody hits 51%. The loss carry-forward could be denied even with zero change in actual ownership. That's the sting.",
+          "tier": 2,
+          "subConcepts": ["equal-shareholders-risk", "51-percent-gap", "section-119-impact"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        }
+      ]
+    },
+    {
+      "title": "Section 119 Deep Dive",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under old Section 79, the 51% test compared shareholding on two dates. Which two dates?",
+          "options": [
+            { "text": "Date of incorporation and date of loss set-off", "correct": false },
+            { "text": "Last day of the loss year and last day of the year in which loss is set off", "correct": true },
+            { "text": "First day and last day of the assessment year", "correct": false },
+            { "text": "Date of loss declaration and date of return filing", "correct": false }
+          ],
+          "explanation": "The test compares shareholding on the last day of the year in which the loss was incurred with the last day of the year in which the loss is sought to be set off. This two-date comparison is carried forward into Section 119 unchanged.",
+          "explanationWrong": "Last day of loss year vs. last day of set-off year. These are the two snapshot dates. Shareholding changes between these dates don't matter as long as the test is satisfied on both endpoints. Section 119 retains this two-date mechanism.",
+          "tier": 2,
+          "subConcepts": ["two-date-test", "last-day-comparison", "shareholding-continuity-dates"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 2,
+          "question": "The Section 119 'persons' to 'the person' change affects which specific metric in the shareholding test?",
+          "options": [
+            { "text": "The percentage threshold (51% vs. 75%)", "correct": false },
+            { "text": "The dates of comparison", "correct": false },
+            { "text": "Whether a single person or a group can satisfy the 51% beneficial holding requirement", "correct": true },
+            { "text": "Whether the test applies to listed companies", "correct": false }
+          ],
+          "explanation": "The 51% threshold itself is unchanged. The dates are unchanged. What changes is WHO can satisfy the threshold — potentially requiring a single beneficial owner rather than a collective group. The metric is the same; the eligible satisfier may have narrowed.",
+          "explanationWrong": "Who can satisfy the 51% requirement. Everything else about the test — the percentage, the dates, the voting-power basis, the closely-held company applicability — is identical. The only change is singular vs. plural in describing who must hold that 51%.",
+          "tier": 2,
+          "subConcepts": ["satisfier-change", "threshold-unchanged", "who-holds-51-percent"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, speculative loss can only be set off against speculative income. This restriction from Section 108 applies in reorganisation scenarios as well. What is this principle called?",
+          "options": [
+            { "text": "Inter-head set-off", "correct": false },
+            { "text": "Ring-fencing", "correct": true },
+            { "text": "Loss cascading", "correct": false },
+            { "text": "Revenue neutrality", "correct": false }
+          ],
+          "explanation": "Ring-fencing quarantines speculative losses so they can only be absorbed by speculative income. This applies regardless of whether the loss is self-generated or inherited through reorganisation. Review from Unit 11.1.",
+          "explanationWrong": "Ring-fencing. Even if Company A amalgamates into Company B and the speculative loss carries forward under Section 116, it remains ring-fenced to speculative income in Company B's hands. The reorganisation transfers the loss — it doesn't change its character.",
+          "tier": 2,
+          "subConcepts": ["ring-fencing", "speculative-quarantine", "review-intra-head"],
+          "isReview": true,
+          "oldSection": "Section 73",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 4,
+          "question": "A closely-held company has two shareholders: A (60%) and B (40%). A sells 15% to C. After the sale, holdings are A (45%), B (40%), C (15%). Under old Section 79, could the company carry forward losses? What about under Section 119?",
+          "options": [
+            { "text": "Old Section 79: Yes (A+B = 85% → 85%); Section 119: Potentially No (no single person holds 51%)", "correct": true },
+            { "text": "Both old and new: Yes", "correct": false },
+            { "text": "Both old and new: No", "correct": false },
+            { "text": "Old Section 79: No; Section 119: Yes", "correct": false }
+          ],
+          "explanation": "Under old Section 79 (plural), A and B collectively held 100% in the loss year and 85% in the set-off year — well above 51%. Under Section 119 (singular), A held 60% in the loss year but only 45% in the set-off year. B's 40% alone doesn't reach 51% in either year. No single person satisfies the test on both dates.",
+          "explanationWrong": "Old: Yes (collective passes); New: Potentially No (no individual passes). This is the exact practical danger zone. A straightforward partial exit by one shareholder — routine in private companies — could torpedo loss carry-forward under the new singular wording even though the business and its majority ownership are substantively unchanged.",
+          "tier": 2,
+          "subConcepts": ["practical-scenario-119", "partial-exit-risk", "old-vs-new-comparison"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 5,
+          "question": "Until CBDT clarifies the Section 119 interpretation, what is the recommended advisory approach for closely-held companies with carried-forward losses?",
+          "options": [
+            { "text": "Ignore the change — it will likely be read down by courts", "correct": false },
+            { "text": "Review shareholding to ensure at least one person holds 51%, and consider restructuring if needed", "correct": true },
+            { "text": "Convert to a widely-held company immediately", "correct": false },
+            { "text": "Voluntarily surrender all carried-forward losses", "correct": false }
+          ],
+          "explanation": "The prudent approach is to identify companies where no single shareholder holds 51%, document the risk, and consider restructuring (share consolidation) before the set-off year closes — if commercially feasible. Monitor CBDT guidance and be prepared for both interpretations.",
+          "explanationWrong": "Review and consider restructuring. This is practical CA advice: identify the exposure, document it, plan around it. If the company has Rs 5 crore in carried-forward losses and no single shareholder at 51%, the stakes are too high to ignore. Concentrating shares may be cheaper than losing the tax benefit.",
+          "tier": 2,
+          "subConcepts": ["advisory-approach", "restructuring-planning", "prudent-compliance"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Co-operative Bank Merger",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Janakalyan Co-operative Bank has accumulated losses of Rs 8 crore. RBI directs its merger with Sahyog Co-operative Bank effective 1 October 2026. Under the ITA 2025, which section governs carry-forward of Janakalyan's losses to Sahyog?",
+          "options": [
+            { "text": "Section 116 (amalgamation/demerger)", "correct": false },
+            { "text": "Section 117 (banking company reorganisation)", "correct": false },
+            { "text": "Section 118 (co-operative bank reorganisation)", "correct": true },
+            { "text": "Section 119 (change in shareholding)", "correct": false }
+          ],
+          "explanation": "Section 118 is the dedicated provision for co-operative bank reorganisations. This is a genuinely new section — under the 1961 Act, Janakalyan would have had to rely on Section 72AA (banking companies) by extension. Now it has its own tailored provision.",
+          "explanationWrong": "Section 118 — the new co-operative bank provision. Don't apply Section 117 (that's for commercial banking companies regulated under the Companies Act). Section 118 is specifically designed for entities governed by co-operative societies legislation, which is exactly what Janakalyan is.",
+          "tier": 3,
+          "subConcepts": ["section-118-application", "co-operative-merger-scenario", "rbi-directed-merger"],
+          "isReview": false,
+          "oldSection": "Section 72AA (by extension)",
+          "newSection": "Section 118"
+        },
+        {
+          "order": 2,
+          "question": "Continuing the Janakalyan-Sahyog merger: Janakalyan's Rs 8 crore loss originated in AY 2023-24 (8-year window ends AY 2030-31). After the merger in October 2026, how many years does Sahyog have to utilise this loss?",
+          "options": [
+            { "text": "8 years (fresh period for Sahyog)", "correct": false },
+            { "text": "Remaining period within the original 8-year window — until AY 2030-31", "correct": true },
+            { "text": "4 years (reduced period for reorganisations)", "correct": false },
+            { "text": "Indefinite (co-operative banks get special treatment)", "correct": false }
+          ],
+          "explanation": "The anti-evergreening principle applies: Sahyog inherits the loss with only the remaining carry-forward period. The original 8-year window started AY 2023-24 and ends AY 2030-31. The merger doesn't restart the clock.",
+          "explanationWrong": "Remaining period only — until AY 2030-31. The anti-evergreening rule prevents reorganisations from resetting carry-forward clocks. From AY 2027-28 (first full year post-merger), Sahyog has approximately 4 years to utilise the inherited Rs 8 crore loss against banking income.",
+          "tier": 3,
+          "subConcepts": ["anti-evergreening-application", "remaining-period-calculation", "co-op-bank-timeline"],
+          "isReview": false,
+          "oldSection": "Section 72A(6B), 72AA",
+          "newSection": "Sections 116, 118"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, Section 117 applies to banking companies and Section 118 applies to co-operative banks. What is the key structural difference between these two types of banking entities?",
+          "options": [
+            { "text": "Commercial banks are always larger", "correct": false },
+            { "text": "Co-operative banks are governed by co-operative societies legislation with member-based governance, not shareholder-based", "correct": true },
+            { "text": "Only commercial banks accept deposits", "correct": false },
+            { "text": "Co-operative banks do not come under RBI supervision", "correct": false }
+          ],
+          "explanation": "This is the core distinction covered in Lesson 4. Commercial banks have shareholders and are governed by the Companies Act. Co-operative banks have members and are governed by co-operative societies acts. This governance difference is why separate sections exist. Review from earlier in this unit.",
+          "explanationWrong": "Member-based vs. shareholder-based governance. This is the fundamental structural difference. A co-operative bank's board answers to its members (depositors who are also owners). A commercial bank's board answers to shareholders. Their reorganisation procedures follow different legislative tracks accordingly.",
+          "tier": 3,
+          "subConcepts": ["structural-difference", "member-vs-shareholder", "review-governance"],
+          "isReview": true,
+          "oldSection": "Section 72AA",
+          "newSection": "Sections 117, 118"
+        },
+        {
+          "order": 4,
+          "question": "Sahyog Co-operative Bank (post-merger with Janakalyan) earns Rs 3 crore from banking operations and Rs 50 lakh from a speculative treasury trade in AY 2028-29. Janakalyan's inherited loss was Rs 8 crore (all from banking operations). How much loss is absorbed?",
+          "options": [
+            { "text": "Rs 3.5 crore (banking + speculative income)", "correct": false },
+            { "text": "Rs 3 crore (only banking income, speculative income is from a different character)", "correct": true },
+            { "text": "Rs 8 crore (entire loss absorbed)", "correct": false },
+            { "text": "Nil (inherited losses cannot be set off in the first year)", "correct": false }
+          ],
+          "explanation": "The inherited banking loss of Rs 8 crore can be set off against banking income (Rs 3 crore) but not against speculative income (Rs 50 lakh). Speculative income can only absorb speculative losses. Remaining inherited loss: Rs 5 crore carried forward.",
+          "explanationWrong": "Rs 3 crore — banking income only. The Rs 50 lakh speculative treasury profit is ring-fenced. Even though it's income earned by Sahyog, the inherited banking loss cannot cross the character boundary. The speculative income survives untouched and gets taxed fully.",
+          "tier": 3,
+          "subConcepts": ["loss-character-restriction", "banking-vs-speculative", "inherited-loss-set-off"],
+          "isReview": false,
+          "oldSection": "Sections 72AA, 73",
+          "newSection": "Sections 118, 108"
+        },
+        {
+          "order": 5,
+          "question": "Sahyog must file its return for AY 2028-29 within the due date to preserve the remaining inherited loss. If Sahyog files 3 days late, what happens to the Rs 5 crore inherited banking loss?",
+          "options": [
+            { "text": "It can still be carried forward with a 5% penalty", "correct": false },
+            { "text": "The carry-forward right is forfeited entirely — Section 121 is absolute", "correct": true },
+            { "text": "The AO has discretion to condone the delay", "correct": false },
+            { "text": "Only Rs 2 lakh is forfeited as a late filing fee", "correct": false }
+          ],
+          "explanation": "Section 121 (old Section 80) is absolute — even 1 day late means the carry-forward right is lost. Rs 5 crore of inherited loss, representing years of accumulated banking losses from the predecessor entity, is wiped out by a 3-day delay. No condonation mechanism exists.",
+          "explanationWrong": "Forfeited entirely. This is the harshest consequence in the reorganisation context. Janakalyan accumulated Rs 8 crore in losses over years. The RBI directed the merger to stabilise the banking system. Sahyog absorbed the losses. And a 3-day filing delay destroys Rs 5 crore of that inherited benefit. Section 121 shows no mercy.",
+          "tier": 3,
+          "subConcepts": ["timely-filing-absolute", "inherited-loss-forfeiture", "section-121-consequence"],
+          "isReview": false,
+          "oldSection": "Section 80",
+          "newSection": "Section 121"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Section 119 Shareholding Crisis",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Apex Infra Pvt Ltd has three promoters: Rahul (35%), Sunita (35%), and Dev (30%). The company has carried-forward business losses of Rs 12 crore from AY 2024-25. No shareholding has changed. Under the new Section 119's singular 'the person' wording, can Apex carry forward its losses in AY 2027-28?",
+          "options": [
+            { "text": "Yes — all shareholders remain the same", "correct": false },
+            { "text": "Potentially No — no single person holds 51% on either date", "correct": true },
+            { "text": "Yes — the 51% test doesn't apply to companies with 3+ shareholders", "correct": false },
+            { "text": "No — but only because the loss is older than 3 years", "correct": false }
+          ],
+          "explanation": "If the singular interpretation of 'the person' prevails, Apex fails the test despite zero change in ownership. Rahul (35%), Sunita (35%), and Dev (30%) — nobody holds 51%. Under old Section 79, their collective 100% easily passed. Under Section 119, Rs 12 crore in losses could be denied set-off.",
+          "explanationWrong": "Potentially No. This is the nightmare scenario for closely-held companies. Three loyal promoters who haven't sold a single share could lose Rs 12 crore in carry-forward benefits because the legislature changed one word from plural to singular. The ownership structure is identical — only the legal interpretation changed.",
+          "tier": 3,
+          "subConcepts": ["three-promoter-scenario", "section-119-crisis", "zero-change-failure"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 2,
+          "question": "Apex's CA advises restructuring to concentrate 51% in one person before 31 March 2028. Rahul and Dev agree that Rahul will acquire Dev's 30% stake, making Rahul 65%. What tax considerations should the CA flag for this transfer?",
+          "options": [
+            { "text": "The share transfer may trigger capital gains for Dev and stamp duty obligations", "correct": true },
+            { "text": "No tax consequences — intra-company transfers are exempt", "correct": false },
+            { "text": "Only GST applies to share transfers", "correct": false },
+            { "text": "The transfer requires CBDT approval", "correct": false }
+          ],
+          "explanation": "Dev's transfer of shares to Rahul is a capital asset transfer — potentially triggering STCG or LTCG for Dev depending on the holding period. The transfer price must be at fair market value to avoid deemed gift provisions. Stamp duty may also apply. The CA must weigh the cost of restructuring against the Rs 12 crore loss benefit.",
+          "explanationWrong": "Capital gains for Dev plus stamp duty. The restructuring isn't free. If Dev's shares have appreciated, he faces capital gains tax. The CA must calculate: is the tax cost of restructuring less than the benefit of preserving Rs 12 crore in carry-forward losses? At 25% corporate tax, the losses are worth Rs 3 crore in future tax savings.",
+          "tier": 3,
+          "subConcepts": ["restructuring-cost", "capital-gains-on-transfer", "cost-benefit-analysis"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the anti-evergreening provision ensures that in amalgamation, the successor entity carries forward loss only for the remaining period. If Company A has a business loss with 2 years remaining, what was the maximum period Company A's loss could have been alive before the anti-evergreening rule?",
+          "options": [
+            { "text": "6 years (8 total minus 2 remaining)", "correct": true },
+            { "text": "2 years", "correct": false },
+            { "text": "8 years", "correct": false },
+            { "text": "Indefinite", "correct": false }
+          ],
+          "explanation": "If 2 years remain out of the original 8-year window, then 6 years have been consumed. The anti-evergreening rule from FA 2025 (carried into Section 116) was reviewed in Lesson 2 of this unit.",
+          "explanationWrong": "6 years consumed, 2 remaining. The 8-year window is absolute. Before the anti-evergreening rule, companies tried to restart this clock through serial amalgamations. Now the remaining period transfers as-is. Review of the anti-evergreening concept from earlier in this unit.",
+          "tier": 3,
+          "subConcepts": ["anti-evergreening-calculation", "remaining-period-math", "review-anti-evergreening"],
+          "isReview": true,
+          "oldSection": "Section 72A(6B)",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 4,
+          "question": "NexGen Pvt Ltd (a tech company with 4 equal shareholders at 25% each) has Rs 20 crore in carried-forward business losses. They plan to bring in a PE investor who will acquire 52% from all four promoters equally. Under Section 119, what happens to the losses post-investment?",
+          "options": [
+            { "text": "The PE investor holds 52% — satisfying the singular 51% test — so losses survive", "correct": false },
+            { "text": "Losses are likely denied: the PE investor wasn't a shareholder in the loss year, so they fail the continuity test on the loss-year date", "correct": true },
+            { "text": "Losses survive because the total shareholding structure exceeds 51%", "correct": false },
+            { "text": "Losses are halved proportionally", "correct": false }
+          ],
+          "explanation": "The 51% test requires the SAME person(s) to hold 51% on the last day of both the loss year AND the set-off year. The PE investor held 0% in the loss year. The original promoters now hold only 12% each (48% collectively). Under either plural or singular reading, the test fails — no continuity of 51% beneficial holding.",
+          "explanationWrong": "Losses denied — the PE investor fails the continuity test. The test isn't 'does someone hold 51% now?' — it's 'does the same person hold 51% on BOTH dates.' The PE investor held nothing in the loss year. The four promoters collectively dropped from 100% to 48%. Rs 20 crore in losses — gone.",
+          "tier": 3,
+          "subConcepts": ["pe-investment-scenario", "continuity-both-dates", "loss-destruction-risk"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        },
+        {
+          "order": 5,
+          "question": "A CA is advising three closely-held company clients on Section 119 risk. Client X: one promoter holds 80%. Client Y: two promoters at 55% and 45%. Client Z: five family members at 20% each. Which clients face Section 119 risk under the singular interpretation?",
+          "options": [
+            { "text": "All three clients", "correct": false },
+            { "text": "Only Client Z", "correct": false },
+            { "text": "Clients Y and Z", "correct": false },
+            { "text": "Only Client Z — X has 80% in one hand, Y has 55% in one hand, Z has nobody above 51%", "correct": true }
+          ],
+          "explanation": "Client X: promoter holds 80% — passes even the strictest singular test. Client Y: one promoter at 55% — passes the 51% threshold individually. Client Z: five members at 20% each — no single person holds 51%. Under the singular interpretation, only Client Z is at risk.",
+          "explanationWrong": "Only Client Z. The CA's triage is straightforward: scan each company for whether any single shareholder hits 51%. X (80%) and Y (55%) are safe. Z (20% x 5) has nobody near 51%. If Z has significant carried-forward losses, the CA must flag this immediately and discuss restructuring options with the family.",
+          "tier": 3,
+          "subConcepts": ["client-triage", "51-percent-scan", "family-company-risk"],
+          "isReview": false,
+          "oldSection": "Section 79",
+          "newSection": "Section 119"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Amalgamation with Anti-Evergreening",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "SteelForge Ltd (industrial undertaking) has accumulated business losses of Rs 25 crore (AY 2022-23, 6 years remaining) and unabsorbed depreciation of Rs 10 crore. MegaCorp Ltd acquires SteelForge through an amalgamation effective 1 July 2027, meeting all Section 116 conditions. What carries forward to MegaCorp?",
+          "options": [
+            { "text": "Rs 25 crore business loss (6 years remaining) + Rs 10 crore depreciation (indefinite)", "correct": true },
+            { "text": "Rs 25 crore business loss (fresh 8 years) + Rs 10 crore depreciation (indefinite)", "correct": false },
+            { "text": "Only Rs 10 crore depreciation — business losses don't transfer", "correct": false },
+            { "text": "Rs 35 crore combined (treated as a single loss pool)", "correct": false }
+          ],
+          "explanation": "Both transfer under Section 116, but with their respective constraints. Business loss: Rs 25 crore with only the remaining 6 years (anti-evergreening — no clock restart). Depreciation: Rs 10 crore with indefinite carry-forward (depreciation always has no time limit). They remain separate items with distinct rules.",
+          "explanationWrong": "Rs 25 crore (6 years) + Rs 10 crore (indefinite). The anti-evergreening rule means MegaCorp does NOT get a fresh 8-year period. The depreciation is more relaxed — it has no expiry regardless. MegaCorp's planning should prioritise absorbing the time-limited business loss first.",
+          "tier": 3,
+          "subConcepts": ["amalgamation-transfer-scenario", "anti-evergreening-application", "dual-transfer"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 2,
+          "question": "MegaCorp earns Rs 8 crore from steel operations (SteelForge's continued business) and Rs 15 crore from its own IT services in AY 2028-29. The Rs 25 crore inherited business loss is not restricted to a specific business type. How much is absorbed?",
+          "options": [
+            { "text": "Rs 8 crore (only from SteelForge's continued business)", "correct": false },
+            { "text": "Rs 23 crore (both steel and IT income)", "correct": true },
+            { "text": "Rs 15 crore (only MegaCorp's own income)", "correct": false },
+            { "text": "Rs 25 crore (entire loss absorbed)", "correct": false }
+          ],
+          "explanation": "Business losses (non-speculative, non-specified) can be set off against any business income under the same head. MegaCorp's steel income (Rs 8 crore) and IT services income (Rs 15 crore) are both 'Profits and Gains of Business or Profession'. Total absorbed: Rs 23 crore. Remaining: Rs 2 crore (5 years left).",
+          "explanationWrong": "Rs 23 crore — all business income absorbs the loss. Inherited business loss under Section 116 doesn't become type-locked to the predecessor's industry. It's a general business loss set off against any income under the business head. The continuity-of-business condition ensures the steel operations continue — but the loss set-off isn't restricted to steel income.",
+          "tier": 3,
+          "subConcepts": ["inherited-loss-set-off-scope", "cross-business-absorption", "continuity-vs-restriction"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 3,
+          "question": "MegaCorp also has its own brought-forward business loss of Rs 5 crore (AY 2025-26, 7 years remaining). In AY 2028-29, should MegaCorp absorb its own loss or SteelForge's inherited loss first?",
+          "options": [
+            { "text": "SteelForge's loss first — it has fewer years remaining (6 vs 7)", "correct": false },
+            { "text": "MegaCorp's own loss first — own losses always have priority", "correct": false },
+            { "text": "The law doesn't specify priority between own and inherited losses; absorb the one expiring sooner", "correct": true },
+            { "text": "Both must be absorbed proportionally", "correct": false }
+          ],
+          "explanation": "The Act doesn't mandate a specific ordering between own and inherited business losses. Practical planning dictates absorbing the one expiring sooner — SteelForge's loss has 6 years remaining vs. MegaCorp's 7 years. This maximises total utilisation over time.",
+          "explanationWrong": "No statutory priority — absorb the one expiring sooner. This is where the CA's planning skills matter. SteelForge's loss expires before MegaCorp's own loss. Absorbing SteelForge's loss first gives MegaCorp an extra year to find income for its own loss. Planning the absorption sequence can save crores.",
+          "tier": 3,
+          "subConcepts": ["absorption-sequencing", "expiry-driven-planning", "own-vs-inherited"],
+          "isReview": false,
+          "oldSection": "Section 72A, 72",
+          "newSection": "Sections 116, 112"
+        },
+        {
+          "order": 4,
+          "question": "MegaCorp shuts down SteelForge's steel plant 18 months after amalgamation, violating the continuity-of-business condition under Section 116. What is the consequence for the already-absorbed Rs 23 crore?",
+          "options": [
+            { "text": "No consequence — once absorbed, losses cannot be clawed back", "correct": false },
+            { "text": "The AO can re-assess and disallow the loss set-off, adding it back to income for the relevant years", "correct": true },
+            { "text": "Only future carry-forward is affected, not past set-off", "correct": false },
+            { "text": "A penalty of 200% of the tax saved applies", "correct": false }
+          ],
+          "explanation": "The continuity-of-business condition is a continuing obligation. If violated, the AO can reopen the assessment and disallow the loss set-off. The Rs 23 crore absorbed in AY 2028-29 could be added back to MegaCorp's income, creating a massive tax demand plus interest under Section 234B/234C.",
+          "explanationWrong": "Re-assessment and disallowance. Shutting down the inherited business destroys the very basis on which the loss carry-forward was permitted. It's not just about future losses — the AO can reach back and undo past set-offs. MegaCorp could face tax on Rs 23 crore plus interest. The continuity condition has real teeth.",
+          "tier": 3,
+          "subConcepts": ["continuity-violation", "re-assessment-risk", "clawback-consequence"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        },
+        {
+          "order": 5,
+          "question": "A CA is planning three amalgamations simultaneously: (i) Industrial unit with Rs 30 crore loss, 2 years remaining; (ii) Hotel with Rs 15 crore loss, 5 years remaining; (iii) Software company with Rs 20 crore loss, 4 years remaining. Which amalgamation does NOT qualify for loss carry-forward under Section 116?",
+          "options": [
+            { "text": "The industrial unit — its losses are almost expired", "correct": false },
+            { "text": "The hotel — hospitality is not a qualifying sector", "correct": false },
+            { "text": "The software company — it is not an industrial undertaking, ship, or hotel", "correct": true },
+            { "text": "All three qualify", "correct": false }
+          ],
+          "explanation": "Section 116 limits loss carry-forward to amalgamations involving industrial undertakings, ships, or hotels. The industrial unit (i) and hotel (ii) qualify. The software company (iii) does not — it's a services business, not an industrial undertaking. Its Rs 20 crore loss will not carry forward to the amalgamated entity regardless of remaining period.",
+          "explanationWrong": "The software company. Section 116's qualifying entity restriction is the gatekeeper. It doesn't matter that the software company has 4 years remaining and Rs 20 crore in losses. If the entity type doesn't qualify, the entire provision is inapplicable. The CA must advise the client that this amalgamation won't preserve the software company's losses.",
+          "tier": 3,
+          "subConcepts": ["qualifying-entity-filter", "software-company-exclusion", "multi-deal-planning"],
+          "isReview": false,
+          "oldSection": "Section 72A",
+          "newSection": "Section 116"
+        }
+      ]
+    }
+  ]
+}

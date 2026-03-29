@@ -1,0 +1,835 @@
+{
+  "unit": "4.1",
+  "title": "Salary Income — New Architecture",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Numbers Reshuffled",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new Act, which section covers 'Salary' (previously Section 15 of the old Act)?",
+          "options": [
+            { "text": "Section 15", "correct": true },
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 19", "correct": false },
+            { "text": "Section 17", "correct": false }
+          ],
+          "explanation": "Section 15 remains Section 15 in the new Act — it's one of the few salary sections that kept its number. The charging section for salary income is unchanged in numbering.",
+          "explanationWrong": "The charging section for salary income stays at Section 15 in the new Act. While most other salary sections got renumbered (17(1)→16, 17(2)→17, 17(3)→18, 16→19), the main charging section kept its number.",
+          "tier": 1,
+          "subConcepts": ["salary-charging-section", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 15",
+          "newSection": "Section 15"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 17(1) defined 'salary' to include various components. What is its new section number?",
+          "options": [
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 16", "correct": true },
+            { "text": "Section 18", "correct": false },
+            { "text": "Section 19", "correct": false }
+          ],
+          "explanation": "Old Section 17(1) is now Section 16. The definition of what constitutes 'salary' — wages, annuity, pension, gratuity, advance of salary, etc. — has moved to Section 16.",
+          "explanationWrong": "Old Section 17(1) maps to new Section 16. The pattern for salary sections is: 15→15, 17(1)→16, 17(2)→17, 17(3)→18, and old 16→19. Section 16 now defines the components of salary.",
+          "tier": 1,
+          "subConcepts": ["salary-definition", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 17(1)",
+          "newSection": "Section 16"
+        },
+        {
+          "order": 3,
+          "question": "How many chapters does the new Income Tax Act, 2025 have compared to 47 in the old Act?",
+          "options": [
+            { "text": "36", "correct": false },
+            { "text": "23", "correct": true },
+            { "text": "16", "correct": false },
+            { "text": "29", "correct": false }
+          ],
+          "explanation": "The new Act has 23 chapters, down from 47 — a 51% reduction. This restructuring is why salary sections got renumbered too.",
+          "explanationWrong": "The new Act has 23 chapters (down from 47). Don't confuse with 16 (number of schedules). The salary provisions sit within this leaner chapter structure, which is why sections were renumbered.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "chapter-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A CA is updating their reference notes. They need the new section for 'profits in lieu of salary' (old Section 17(3)). Which section should they note?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 17", "correct": false },
+            { "text": "Section 19", "correct": false },
+            { "text": "Section 18", "correct": true }
+          ],
+          "explanation": "Old Section 17(3) — 'Profits in lieu of salary' — is now Section 18. The mapping is sequential: 17(1)→16, 17(2)→17, 17(3)→18. Each sub-section of old 17 became its own independent section.",
+          "explanationWrong": "Profits in lieu of salary moved from old Section 17(3) to new Section 18. The old Act crammed salary definition, perquisites, and profits in lieu into sub-sections of 17. The new Act gives each its own section: 16, 17, and 18 respectively.",
+          "tier": 1,
+          "subConcepts": ["profits-in-lieu", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 17(3)",
+          "newSection": "Section 18"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 16 dealt with deductions from salary. What is its new section number?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 17", "correct": false },
+            { "text": "Section 18", "correct": false },
+            { "text": "Section 19", "correct": true }
+          ],
+          "explanation": "Old Section 16 (deductions from salary) is now Section 19. This is counterintuitive — old 16 moved forward to 19, while old 17(1) took the 16 slot. Remember: old deductions section moved to the end of the salary block.",
+          "explanationWrong": "Deductions from salary moved from old Section 16 to new Section 19. The numbering feels swapped — the old deductions section (16) got a higher number (19) while old 17(1) took 16's spot. Mnemonic: Deductions = 19 (Nineteen = deducteeN).",
+          "tier": 1,
+          "subConcepts": ["salary-deductions", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 16",
+          "newSection": "Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Section 19 — The Mega Merger",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many items does the deduction table in Section 19 contain?",
+          "options": [
+            { "text": "10", "correct": false },
+            { "text": "14", "correct": true },
+            { "text": "8", "correct": false },
+            { "text": "20", "correct": false }
+          ],
+          "explanation": "Section 19 contains a 14-item deduction table. This is a major consolidation — it merges the old Section 16 deductions with several Section 10 exemptions into one unified list.",
+          "explanationWrong": "The Section 19 table has 14 items. This is significant because it combines what were previously two separate mechanisms (Section 16 deductions + Section 10 exemptions) into a single deduction framework for salary income.",
+          "tier": 1,
+          "subConcepts": ["section-19-table", "deduction-consolidation"],
+          "isReview": false,
+          "oldSection": "Section 16, Section 10",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "What is the key structural change in Section 19 compared to old Section 16?",
+          "options": [
+            { "text": "It only covers standard deduction now", "correct": false },
+            { "text": "It merges old Section 16 deductions with select Section 10 exemptions into one table", "correct": true },
+            { "text": "It removes all deductions and only allows Chapter VI-A", "correct": false },
+            { "text": "It applies only to the new tax regime", "correct": false }
+          ],
+          "explanation": "Section 19 is a mega-merger — it combines the old Section 16 deductions (standard deduction, entertainment allowance, professional tax) with items previously exempt under Section 10 (gratuity, pension, leave encashment, VRS) into a single 14-item table.",
+          "explanationWrong": "The key change is consolidation: old deductions (Section 16) + old exemptions (Section 10 items like gratuity, pension commutation, leave encashment, VRS) are now unified under Section 19's 14-item table. This changes the conceptual framework from 'exempt then deduct' to 'deduct everything in one place.'",
+          "tier": 1,
+          "subConcepts": ["section-19-merger", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 16, Section 10",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, Section 17(2) defined 'perquisites.' What was old Section 17(1) about?",
+          "options": [
+            { "text": "Profits in lieu of salary", "correct": false },
+            { "text": "Deductions from salary", "correct": false },
+            { "text": "Definition of salary (components included)", "correct": true },
+            { "text": "Standard deduction", "correct": false }
+          ],
+          "explanation": "Old Section 17(1) defined what constitutes 'salary' — it listed wages, annuity, pension, gratuity, fees/commission, advance of salary, etc. This is now Section 16 in the new Act.",
+          "explanationWrong": "Section 17(1) of the old Act defined the components that constitute 'salary.' Section 17(2) covered perquisites, and 17(3) covered profits in lieu of salary. In the new Act, these became Sections 16, 17, and 18 respectively.",
+          "tier": 1,
+          "subConcepts": ["salary-definition", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 17(1)",
+          "newSection": "Section 16"
+        },
+        {
+          "order": 4,
+          "question": "Under the old Act, gratuity exemption was claimed under Section 10(10). Under the new Act, where is it claimed?",
+          "options": [
+            { "text": "Still under Section 10 exemptions", "correct": false },
+            { "text": "Under Section 19 as a deduction", "correct": true },
+            { "text": "Under Section 80C", "correct": false },
+            { "text": "It is no longer available", "correct": false }
+          ],
+          "explanation": "Gratuity moved from being an exemption under Section 10(10) to being a deduction under Section 19. The relief amount hasn't changed — but the mechanism changed from 'exempt income' to 'deduction from salary.' This is the core reclassification philosophy of the new Act.",
+          "explanationWrong": "Gratuity is now a deduction under Section 19, not an exemption under Section 10. The new Act reclassifies several employee-terminal-benefit exemptions (gratuity, pension commutation, leave encashment, VRS) as deductions. The quantum of relief stays the same — only the legal mechanism changed.",
+          "tier": 1,
+          "subConcepts": ["gratuity", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 5,
+          "question": "Which of these items was previously under Section 10 exemptions but is now treated as a Section 19 deduction?",
+          "options": [
+            { "text": "Standard deduction", "correct": false },
+            { "text": "Professional tax", "correct": false },
+            { "text": "Leave encashment on retirement", "correct": true },
+            { "text": "Entertainment allowance", "correct": false }
+          ],
+          "explanation": "Leave encashment on retirement was exempt under old Section 10(10AA) and is now a deduction under Section 19. Standard deduction, professional tax, and entertainment allowance were already deductions under old Section 16 — they didn't change their character.",
+          "explanationWrong": "Leave encashment moved from Section 10(10AA) exemption to Section 19 deduction. Standard deduction and professional tax were already deductions under old Section 16 — they just got renumbered, not reclassified. The reclassification only applies to terminal benefits: gratuity, pension commutation, leave encashment, and VRS.",
+          "tier": 1,
+          "subConcepts": ["leave-encashment", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(10AA)",
+          "newSection": "Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Standard Deduction & Agniveer",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the standard deduction amount for salaried employees under the new tax regime?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 75,000", "correct": true },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 40,000", "correct": false }
+          ],
+          "explanation": "Under the new tax regime, the standard deduction is Rs 75,000. Under the old regime, it remains Rs 50,000. The increase to 75K was announced in the July 2024 Budget and is carried forward into the new Act.",
+          "explanationWrong": "The standard deduction under the new regime is Rs 75,000 (not Rs 50,000 — that's the old regime amount). This was increased from Rs 50,000 to Rs 75,000 in the July 2024 Budget. The old regime still allows only Rs 50,000.",
+          "tier": 1,
+          "subConcepts": ["standard-deduction", "new-regime"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "What is the standard deduction available under the OLD tax regime in the new Act?",
+          "options": [
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 50,000", "correct": true },
+            { "text": "Rs 40,000", "correct": false },
+            { "text": "Not available under old regime", "correct": false }
+          ],
+          "explanation": "Under the old regime, the standard deduction is Rs 50,000. This is unchanged from the 1961 Act. The enhanced Rs 75,000 is only for the new regime. Know both numbers — exam questions love this distinction.",
+          "explanationWrong": "The old regime standard deduction is Rs 50,000. Rs 75,000 applies only under the new regime. Rs 40,000 was the amount when standard deduction was first reintroduced in 2018. The standard deduction IS available under the old regime — it was there under old Section 16(ia).",
+          "tier": 1,
+          "subConcepts": ["standard-deduction", "old-regime"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, how many items are in the Section 19 deduction table for salary income?",
+          "options": [
+            { "text": "10", "correct": false },
+            { "text": "14", "correct": true },
+            { "text": "12", "correct": false },
+            { "text": "8", "correct": false }
+          ],
+          "explanation": "Section 19 has a 14-item deduction table. This was covered in the previous lesson — the table merges old Section 16 deductions with old Section 10 exemptions.",
+          "explanationWrong": "The Section 19 table has 14 items. This is a consolidation of deductions previously in Section 16 and exemptions previously in Section 10. All salary-related reliefs are now in this one table.",
+          "tier": 1,
+          "subConcepts": ["section-19-table", "deduction-consolidation"],
+          "isReview": true,
+          "oldSection": "Section 16",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "Which of these is a completely NEW item in Section 19's deduction table that had no equivalent under the old Act?",
+          "options": [
+            { "text": "Standard deduction", "correct": false },
+            { "text": "Professional tax", "correct": false },
+            { "text": "Agniveer Corpus Fund contribution", "correct": true },
+            { "text": "Gratuity", "correct": false }
+          ],
+          "explanation": "Agniveer Corpus Fund (Item 12 of Section 19) was introduced by Finance Act 2022 (old Section 80CCH) to support the Agnipath defence scheme. It is not new in the 2025 Act — it was already operative under the 1961 Act. The 2025 Act relocates it into Section 19 (Item 12). Standard deduction, professional tax, and gratuity all existed before — they were just in different sections.",
+          "explanationWrong": "The Agniveer Corpus Fund deduction (Item 12 of Section 19) was introduced by Finance Act 2022 (old Section 80CCH), not by the 2025 Act. The Agnipath scheme was launched in 2022, and this deduction was added by that year's Finance Act. The 2025 Act relocates it from Section 80CCH into Section 19 (Item 12). All other items in the table — standard deduction, professional tax, gratuity, pension, leave encashment, VRS — existed under the old Act in Section 16 or Section 10.",
+          "tier": 1,
+          "subConcepts": ["agniveer", "relocated-deduction"],
+          "isReview": false,
+          "oldSection": "Section 80CCH (Finance Act 2022)",
+          "newSection": "Section 19 (Item 12)"
+        },
+        {
+          "order": 5,
+          "question": "Which item number in Section 19's table covers the Agniveer Corpus Fund deduction?",
+          "options": [
+            { "text": "Item 10", "correct": false },
+            { "text": "Item 14", "correct": false },
+            { "text": "Item 12", "correct": true },
+            { "text": "Item 1", "correct": false }
+          ],
+          "explanation": "The Agniveer Corpus Fund deduction is Item 12 in Section 19's table. It allows deduction of the Central Government's contribution to the Agniveer Corpus Fund on behalf of the enrolled Agniveer. This was introduced by Finance Act 2022 (old Section 80CCH) and relocated by the 2025 Act into Section 19.",
+          "explanationWrong": "Agniveer Corpus Fund is Item 12 in the Section 19 table. This is a specific number worth remembering. Note: this provision was introduced by Finance Act 2022 (old Section 80CCH), not by the 2025 Act — it has been relocated into Section 19 (Item 12).",
+          "tier": 1,
+          "subConcepts": ["agniveer", "section-19-table"],
+          "isReview": false,
+          "oldSection": "Section 80CCH (Finance Act 2022)",
+          "newSection": "Section 19 (Item 12)"
+        }
+      ]
+    },
+    {
+      "title": "Why the Reclassification Matters",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the conceptual difference between 'exemptions' under old Section 10 and 'deductions' under old Section 16?",
+          "options": [
+            { "text": "There was no practical difference", "correct": false },
+            { "text": "Exemptions never entered the income computation; deductions were subtracted from gross salary", "correct": true },
+            { "text": "Exemptions were only for government employees", "correct": false },
+            { "text": "Deductions had higher limits than exemptions", "correct": false }
+          ],
+          "explanation": "Under the old Act, exemptions under Section 10 meant the income 'never enters' the computation — it's excluded at the threshold. Deductions under Section 16 were subtracted from gross salary after it entered the computation. The new Act eliminates this conceptual split by making everything a deduction under Section 19.",
+          "explanationWrong": "The key distinction: Section 10 exemptions excluded income from computation entirely (it never 'enters' your return), while Section 16 deductions reduced gross salary after inclusion. The new Act simplifies this by treating everything as a Section 19 deduction — all relief items follow the same mechanism now.",
+          "tier": 2,
+          "subConcepts": ["exemption-vs-deduction", "conceptual-change"],
+          "isReview": false,
+          "oldSection": "Section 10, Section 16",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Why did the new Act convert gratuity, pension commutation, and leave encashment from exemptions to deductions?",
+          "options": [
+            { "text": "To reduce the tax benefit available to employees", "correct": false },
+            { "text": "To create a single unified framework for all salary reliefs instead of two separate mechanisms", "correct": true },
+            { "text": "To make them taxable", "correct": false },
+            { "text": "To limit them to the new regime only", "correct": false }
+          ],
+          "explanation": "The reclassification is about simplification, not reduction. The quantum of relief is unchanged — Rs 20 lakh gratuity limit, etc., all stay the same. The new Act just wants one mechanism (deductions in Section 19) instead of two (exemptions in Section 10 + deductions in Section 16).",
+          "explanationWrong": "The conversion is purely structural — to unify salary reliefs under one mechanism (Section 19 deductions) instead of splitting them between Section 10 exemptions and Section 16 deductions. The actual limits and amounts of relief are unchanged. It does NOT reduce benefits or make these items taxable.",
+          "tier": 2,
+          "subConcepts": ["exemption-to-deduction", "simplification-rationale"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, what was the standard deduction amount when it was first reintroduced in 2018?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 40,000", "correct": true },
+            { "text": "Rs 25,000", "correct": false }
+          ],
+          "explanation": "Standard deduction was reintroduced at Rs 40,000 in Budget 2018, then increased to Rs 50,000 in 2019, and further to Rs 75,000 under the new regime in Budget 2024.",
+          "explanationWrong": "The standard deduction was Rs 40,000 when reintroduced in 2018. It was raised to Rs 50,000 in 2019 (which continues under the old regime), and then to Rs 75,000 under the new regime in 2024. Know the progression: 40K → 50K → 75K.",
+          "tier": 2,
+          "subConcepts": ["standard-deduction", "historical-evolution"],
+          "isReview": true,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "An employee receives gratuity of Rs 18 lakh on retirement. Under the new Act, in which section and at what stage of salary computation does this relief appear?",
+          "options": [
+            { "text": "Section 10 — excluded from total income at the start", "correct": false },
+            { "text": "Section 19 — deducted from gross salary as a deduction", "correct": true },
+            { "text": "Section 80C — claimed as investment deduction", "correct": false },
+            { "text": "Schedule III — claimed as a separate exemption", "correct": false }
+          ],
+          "explanation": "Under the new Act, gratuity relief is a deduction under Section 19, subtracted from gross salary. Under the old Act, it was excluded at the top under Section 10(10). The deduction amount is still limited to Rs 25 lakh (government) or Rs 25 lakh (non-government as notified) — but it now appears in the salary computation instead of being excluded upfront.",
+          "explanationWrong": "Gratuity relief is now claimed as a Section 19 deduction from gross salary. It no longer appears as a Section 10 exemption that excludes income from computation. The relief amount is unchanged — only the stage at which it applies in the salary computation has shifted.",
+          "tier": 2,
+          "subConcepts": ["gratuity", "computation-mechanics"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 5,
+          "question": "Does the reclassification of gratuity from exemption to deduction change the actual tax liability of an employee?",
+          "options": [
+            { "text": "Yes, the employee pays more tax now", "correct": false },
+            { "text": "Yes, the employee pays less tax now", "correct": false },
+            { "text": "No, the net effect on taxable income remains the same", "correct": true },
+            { "text": "It depends on the tax regime chosen", "correct": false }
+          ],
+          "explanation": "No change in tax liability. Whether gratuity is excluded as an exemption (old Act) or subtracted as a deduction (new Act), the net effect on taxable salary is identical. The reclassification is purely a presentational and structural change.",
+          "explanationWrong": "The reclassification does NOT change tax liability. Exemption (exclude from income) and deduction (subtract from gross salary) both achieve the same result — reducing taxable income by the same amount. The new Act's change is about simplification, not about altering the tax burden.",
+          "tier": 2,
+          "subConcepts": ["exemption-to-deduction", "tax-neutrality"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Mapping the Full Salary Block",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "In the new Act, which section defines 'perquisites'?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 17", "correct": true },
+            { "text": "Section 18", "correct": false },
+            { "text": "Section 19", "correct": false }
+          ],
+          "explanation": "Perquisites are defined in Section 17 (old Section 17(2)). The new Act gave each sub-section of old 17 its own section: 17(1)→16 (salary definition), 17(2)→17 (perquisites), 17(3)→18 (profits in lieu).",
+          "explanationWrong": "Perquisites are in Section 17 of the new Act (mapped from old Section 17(2)). Don't confuse with Section 16 (salary definition, from old 17(1)) or Section 18 (profits in lieu, from old 17(3)).",
+          "tier": 2,
+          "subConcepts": ["perquisites", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 17(2)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 2,
+          "question": "Why did the new Act split old Section 17 into three separate sections (16, 17, 18)?",
+          "options": [
+            { "text": "To change the tax treatment of each component", "correct": false },
+            { "text": "To add new categories of salary income", "correct": false },
+            { "text": "To give each concept its own section for clarity, replacing the sub-section structure", "correct": true },
+            { "text": "To align with international tax standards", "correct": false }
+          ],
+          "explanation": "The split is purely for clarity. Old Section 17 crammed three distinct concepts (salary definition, perquisites, profits in lieu) into sub-sections. The new Act gives each concept its own section — easier to reference, cite, and navigate. No substantive tax change.",
+          "explanationWrong": "The reason is structural clarity. Old Section 17 had three sub-sections covering three different concepts. The new Act's philosophy is 'one concept per section' — so 17(1) became Section 16, 17(2) became Section 17, and 17(3) became Section 18. The tax treatment itself is unchanged.",
+          "tier": 2,
+          "subConcepts": ["section-splitting", "simplification-rationale"],
+          "isReview": false,
+          "oldSection": "Section 17",
+          "newSection": "Sections 16, 17, 18"
+        },
+        {
+          "order": 3,
+          "question": "Section 19 of the new Act consolidates salary deductions. What does Section 19 replace from the old Act?",
+          "options": [
+            { "text": "Only old Section 16", "correct": false },
+            { "text": "Old Section 16 deductions + select Section 10 exemptions", "correct": true },
+            { "text": "Old Section 17 definitions", "correct": false },
+            { "text": "Old Section 10 entirely", "correct": false }
+          ],
+          "explanation": "Section 19 replaces BOTH old Section 16 (deductions like standard deduction, professional tax) AND select Section 10 exemptions (gratuity, pension, leave encashment, VRS) that were salary-specific. It does not replace all of Section 10 — only the salary-related items.",
+          "explanationWrong": "Section 19 merges old Section 16 deductions with salary-related Section 10 exemptions. It does NOT replace Section 10 entirely — non-salary exemptions (like agricultural income, long-term capital gains exemptions) remain elsewhere in the new Act.",
+          "tier": 2,
+          "subConcepts": ["section-19-merger", "deduction-consolidation"],
+          "isReview": true,
+          "oldSection": "Section 16, Section 10",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "A payroll software vendor needs to update their computation engine. Under the old Act, gratuity was excluded before computing gross salary. Under the new Act, where does gratuity relief appear in the salary computation flow?",
+          "options": [
+            { "text": "Still excluded before gross salary computation", "correct": false },
+            { "text": "Deducted from gross salary under Section 19, after including full gratuity in gross salary", "correct": true },
+            { "text": "Claimed as a Chapter VI-A deduction from total income", "correct": false },
+            { "text": "Treated as a rebate under Section 87A", "correct": false }
+          ],
+          "explanation": "Under the new Act, the full gratuity amount enters gross salary first, then the exempt portion is deducted under Section 19. This is different from the old Act where the exempt portion was excluded before gross salary. The net taxable salary is the same — but the computation steps change, which matters for payroll software.",
+          "explanationWrong": "The computation flow changes: full gratuity is included in gross salary, then the eligible amount is deducted under Section 19. Under the old Act, exempt gratuity was excluded at the source (Section 10) before reaching the salary computation. Same result, different steps — critical for payroll systems.",
+          "tier": 2,
+          "subConcepts": ["gratuity", "computation-mechanics", "payroll-impact"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 5,
+          "question": "How many salary-related sections exist in the new Act's salary block (Sections 15-19)?",
+          "options": [
+            { "text": "3", "correct": false },
+            { "text": "4", "correct": false },
+            { "text": "5", "correct": true },
+            { "text": "6", "correct": false }
+          ],
+          "explanation": "There are 5 sections: 15 (charging), 16 (salary definition), 17 (perquisites), 18 (profits in lieu), 19 (deductions). This is a clean, sequential block — easier to navigate than the old scattered arrangement.",
+          "explanationWrong": "The salary block has exactly 5 sections: 15 (charging section), 16 (salary components), 17 (perquisites), 18 (profits in lieu of salary), and 19 (deductions). They run sequentially from 15 to 19 — a clean block compared to the old Act's jumbled numbering.",
+          "tier": 2,
+          "subConcepts": ["salary-block", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Sections 15, 16, 17",
+          "newSection": "Sections 15-19"
+        }
+      ]
+    },
+    {
+      "title": "Old vs New Regime — Salary Impact",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under which section does the new Act specify that the new tax regime is the default?",
+          "options": [
+            { "text": "Section 19", "correct": false },
+            { "text": "Section 115BAC", "correct": false },
+            { "text": "Section 202", "correct": true },
+            { "text": "Section 15", "correct": false }
+          ],
+          "explanation": "Section 202 of the new Act specifies the new (default) tax regime. Old Section 115BAC has been replaced. Under Section 202, the new regime applies automatically unless the assessee opts out.",
+          "explanationWrong": "Section 202 is the new regime section. Don't confuse with old Section 115BAC (the predecessor in the 1961 Act). Section 19 is deductions from salary, not regime selection.",
+          "tier": 2,
+          "subConcepts": ["new-regime", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "A salaried employee opts for the new tax regime under Section 202. What standard deduction can they claim?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 75,000", "correct": true },
+            { "text": "Nil — no standard deduction under new regime", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "Under the new regime (Section 202), the standard deduction is Rs 75,000. This is a change from the initial new regime (115BAC) which originally denied standard deduction — it was added later and enhanced to Rs 75,000 in Budget 2024.",
+          "explanationWrong": "Standard deduction IS available under the new regime — it's Rs 75,000. Earlier versions of the new regime (115BAC) initially did not allow it, which causes confusion. Since Budget 2024, the new regime allows Rs 75,000 standard deduction. The old regime allows Rs 50,000.",
+          "tier": 2,
+          "subConcepts": ["standard-deduction", "new-regime"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19, Section 202"
+        },
+        {
+          "order": 3,
+          "question": "What is the new section number for 'perquisites' in the new Act?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 17", "correct": true },
+            { "text": "Section 18", "correct": false },
+            { "text": "Section 15", "correct": false }
+          ],
+          "explanation": "Perquisites moved from old Section 17(2) to new Section 17. The section number is coincidentally the same but it's now a standalone section, not a sub-section.",
+          "explanationWrong": "Perquisites are in Section 17 of the new Act (from old Section 17(2)). While the number '17' appears in both, the old Act had it as a sub-section 17(2), while the new Act gives it a full standalone section.",
+          "tier": 2,
+          "subConcepts": ["perquisites", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 17(2)",
+          "newSection": "Section 17"
+        },
+        {
+          "order": 4,
+          "question": "An employee earning Rs 20 lakh salary is comparing tax under both regimes. Under the old regime, they can claim HRA, LTC, and 80C. Under the new regime, these are not available but standard deduction is Rs 75,000 instead of Rs 50,000. What is the additional standard deduction benefit under the new regime?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 25,000", "correct": true },
+            { "text": "Rs 75,000", "correct": false },
+            { "text": "Rs 1,00,000", "correct": false }
+          ],
+          "explanation": "The new regime standard deduction (Rs 75,000) minus the old regime standard deduction (Rs 50,000) = Rs 25,000 additional benefit. But this must be weighed against loss of HRA, LTC, 80C, and other deductions — the new regime's total benefit depends on the employee's full deduction profile.",
+          "explanationWrong": "The additional standard deduction under the new regime is Rs 25,000 (Rs 75,000 – Rs 50,000). However, this doesn't tell the full story — under the new regime, you lose HRA, LTC, 80C, and other deductions. The regime choice depends on the total deduction package, not just standard deduction.",
+          "tier": 2,
+          "subConcepts": ["standard-deduction", "regime-comparison"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 5,
+          "question": "Under the new Act, professional tax paid by an employee is deductible under which section?",
+          "options": [
+            { "text": "Section 16", "correct": false },
+            { "text": "Section 19", "correct": true },
+            { "text": "Section 80C", "correct": false },
+            { "text": "Section 17", "correct": false }
+          ],
+          "explanation": "Professional tax is deductible under Section 19 (old Section 16(iii)). It's one of the items in the 14-item deduction table. The cap of Rs 2,500 continues as before.",
+          "explanationWrong": "Professional tax moved from old Section 16(iii) to new Section 19's deduction table. It was already a deduction under the old Act — it didn't change character (unlike gratuity/pension). It just changed its section number.",
+          "tier": 2,
+          "subConcepts": ["professional-tax", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 16(iii)",
+          "newSection": "Section 19"
+        }
+      ]
+    },
+    {
+      "title": "Salary Computation Under the New Act",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ravi retires and receives Rs 22 lakh as gratuity. Under the new Act, how is this treated in computing salary income?",
+          "options": [
+            { "text": "Rs 22 lakh is excluded from salary entirely under Section 10", "correct": false },
+            { "text": "Rs 22 lakh is included in gross salary, then eligible amount deducted under Section 19", "correct": true },
+            { "text": "Rs 22 lakh is taxed fully with no relief", "correct": false },
+            { "text": "Rs 22 lakh is claimed under Chapter VI-A", "correct": false }
+          ],
+          "explanation": "Under the new Act, the full Rs 22 lakh enters gross salary. Then the eligible deduction (subject to the prescribed limit) is claimed under Section 19. If Ravi is a non-government employee, the limit is Rs 25 lakh. So the entire Rs 22 lakh would be deductible, making it effectively tax-free — same result as the old Act, different mechanics.",
+          "explanationWrong": "The new Act requires full gratuity to be included in gross salary first, then the eligible portion is deducted under Section 19. Under the old Act, it was excluded at source under Section 10(10). For non-government employees, the gratuity exemption limit is Rs 25 lakh, so Rs 22 lakh would be fully deductible.",
+          "tier": 3,
+          "subConcepts": ["gratuity", "computation-mechanics", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(10)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Priya's employer deducts TDS on her salary. Under the new Act, the employer must compute salary income using which sections in sequence?",
+          "options": [
+            { "text": "Section 15 (income) → Section 10 (exemptions) → Section 16 (deductions)", "correct": false },
+            { "text": "Section 15 (charging) → Section 16 (salary components) → Section 17 (perquisites) → Section 18 (profits in lieu) → Section 19 (deductions)", "correct": true },
+            { "text": "Section 192 (TDS) → Section 15 (income) → Section 80C (deductions)", "correct": false },
+            { "text": "Section 16 → Section 17 → Section 18 only", "correct": false }
+          ],
+          "explanation": "The salary computation follows the logical sequence: Section 15 charges salary to tax, Sections 16-18 define what constitutes salary (components, perquisites, profits in lieu), and Section 19 provides deductions. This is cleaner than the old Act where you had to jump between Sections 10, 15, 16, and 17.",
+          "explanationWrong": "The correct sequence is Sections 15 → 16 → 17 → 18 → 19. The new Act's salary block runs sequentially — no jumping between Section 10 and Section 16 as under the old Act. Section 15 is the charging section, 16-18 define income components, and 19 provides all deductions in one place.",
+          "tier": 3,
+          "subConcepts": ["salary-computation", "section-sequence"],
+          "isReview": false,
+          "oldSection": "Sections 15, 16, 17, 10",
+          "newSection": "Sections 15-19"
+        },
+        {
+          "order": 3,
+          "question": "Under old Section 16, entertainment allowance deduction was available to which category of employees?",
+          "options": [
+            { "text": "All employees", "correct": false },
+            { "text": "Only government employees", "correct": true },
+            { "text": "Only private sector employees", "correct": false },
+            { "text": "Only employees earning above Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "Entertainment allowance deduction under old Section 16(ii) was restricted to government employees only. This restriction continues under Section 19 in the new Act. Private sector employees never got this deduction.",
+          "explanationWrong": "Entertainment allowance deduction was always limited to government employees under old Section 16(ii). This hasn't changed in the new Act — it continues under Section 19 with the same restriction. It's capped at Rs 5,000 or 1/5th of salary, whichever is less.",
+          "tier": 3,
+          "subConcepts": ["entertainment-allowance", "government-employees"],
+          "isReview": true,
+          "oldSection": "Section 16(ii)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "Amit, an Agniveer, completes his 4-year tenure. The Central Government contributed Rs 5.40 lakh to his Corpus Fund. Under the new Act, what is the tax treatment of this contribution?",
+          "options": [
+            { "text": "Fully taxable as salary income", "correct": false },
+            { "text": "Exempt under Section 10", "correct": false },
+            { "text": "Deductible under Section 19, Item 12", "correct": true },
+            { "text": "Taxable at a flat rate of 10%", "correct": false }
+          ],
+          "explanation": "The Central Government's contribution to the Agniveer Corpus Fund is deductible under Section 19, Item 12. This provision was introduced by Finance Act 2022 (old Section 80CCH) when the Agnipath scheme was launched, and has been relocated by the 2025 Act into Section 19. The entire government contribution is deductible.",
+          "explanationWrong": "Agniveer Corpus Fund contributions by the Central Government are deductible under Section 19, Item 12. This is NOT a Section 10 exemption (the new Act doesn't use Section 10 for salary items). The deduction was introduced by Finance Act 2022 (old Section 80CCH) and relocated by the 2025 Act into Section 19 (Item 12).",
+          "tier": 3,
+          "subConcepts": ["agniveer", "relocated-deduction", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 80CCH (Finance Act 2022)",
+          "newSection": "Section 19 (Item 12)"
+        },
+        {
+          "order": 5,
+          "question": "A CA firm is updating its salary computation template. Under the new Act, how many separate sections do they need to consult for salary-related provisions (compared to the old Act)?",
+          "options": [
+            { "text": "More sections — the new Act has added complexity", "correct": false },
+            { "text": "The same number — just renumbered", "correct": false },
+            { "text": "Fewer effective sections — everything is in Sections 15-19 instead of scattered across 10, 15, 16, 17", "correct": true },
+            { "text": "Salary provisions are now in schedules, not sections", "correct": false }
+          ],
+          "explanation": "The new Act concentrates salary provisions in a sequential block (15-19). The old Act required consulting Section 10 (exemptions), Section 15 (charging), Section 16 (deductions), Section 17 (definitions), and various rules. The new structure is more compact and navigable.",
+          "explanationWrong": "The new Act consolidates salary provisions into Sections 15-19 — a single sequential block. Under the old Act, you had to navigate between Section 10, 15, 16, and 17 (plus rules for perquisite valuation). The total sections to consult is effectively fewer and better organized.",
+          "tier": 3,
+          "subConcepts": ["salary-block", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Sections 10, 15, 16, 17",
+          "newSection": "Sections 15-19"
+        }
+      ]
+    },
+    {
+      "title": "Terminal Benefits — Deep Dive",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following terminal benefits moved from Section 10 exemption to Section 19 deduction in the new Act?",
+          "options": [
+            { "text": "HRA", "correct": false },
+            { "text": "VRS compensation", "correct": true },
+            { "text": "Standard deduction", "correct": false },
+            { "text": "Transport allowance", "correct": false }
+          ],
+          "explanation": "VRS (Voluntary Retirement Scheme) compensation moved from Section 10(10C) exemption to Section 19 deduction. HRA moved to Schedule III (not Section 19). Standard deduction was already a deduction. Transport allowance also moved to Schedule III.",
+          "explanationWrong": "VRS compensation is one of the four terminal benefits (gratuity, pension commutation, leave encashment, VRS) that moved from Section 10 exemptions to Section 19 deductions. HRA and transport allowance went to Schedule III, not Section 19. Standard deduction was already a deduction under old Section 16.",
+          "tier": 3,
+          "subConcepts": ["vrs", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(10C)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Sunita, a government employee, retires after 30 years. She receives pension commutation of Rs 15 lakh and leave encashment of Rs 12 lakh. Under the new Act, where does she claim relief for BOTH?",
+          "options": [
+            { "text": "Section 10 exemptions — as she's a government employee", "correct": false },
+            { "text": "Section 19 deductions — both are now in the unified deduction table", "correct": true },
+            { "text": "Pension under Section 19, leave encashment under Section 10", "correct": false },
+            { "text": "Chapter VI-A deductions", "correct": false }
+          ],
+          "explanation": "Both pension commutation (old Section 10(10A)) and leave encashment (old Section 10(10AA)) are now deductions under Section 19. For government employees, pension commutation is fully deductible (no limit), and leave encashment has its own prescribed limit.",
+          "explanationWrong": "Both items are now in Section 19. The new Act doesn't split terminal benefits between different sections based on employee type — ALL terminal benefits (gratuity, pension commutation, leave encashment, VRS) are uniformly in Section 19's deduction table. Government vs non-government distinction only affects the quantum of deduction, not the section.",
+          "tier": 3,
+          "subConcepts": ["pension-commutation", "leave-encashment", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(10A), Section 10(10AA)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "What is the Agniveer Corpus Fund deduction item number in the Section 19 table?",
+          "options": [
+            { "text": "Item 10", "correct": false },
+            { "text": "Item 12", "correct": true },
+            { "text": "Item 14", "correct": false },
+            { "text": "Item 8", "correct": false }
+          ],
+          "explanation": "Agniveer Corpus Fund is Item 12 in the Section 19 table. This was covered in Tier 1 — reinforcing it here. It was introduced by Finance Act 2022 (old Section 80CCH) and relocated by the 2025 Act into Section 19.",
+          "explanationWrong": "Item 12 is the Agniveer Corpus Fund deduction. It was introduced by Finance Act 2022 (old Section 80CCH), not by the 2025 Act. Like all other items in the Section 19 table, it migrated from existing provisions — in this case from Section 80CCH rather than Sections 10 or 16.",
+          "tier": 3,
+          "subConcepts": ["agniveer", "section-19-table"],
+          "isReview": true,
+          "oldSection": "Section 80CCH (Finance Act 2022)",
+          "newSection": "Section 19 (Item 12)"
+        },
+        {
+          "order": 4,
+          "question": "Karan takes VRS from a private company and receives Rs 6 lakh. The company also pays him leave encashment of Rs 28 lakh. Under the new Act, what is the maximum deduction he can claim for leave encashment under Section 19?",
+          "options": [
+            { "text": "Rs 28 lakh (full amount)", "correct": false },
+            { "text": "Rs 25 lakh", "correct": true },
+            { "text": "Rs 3 lakh", "correct": false },
+            { "text": "Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "The leave encashment exemption limit for non-government employees was enhanced to Rs 25 lakh (from Rs 3 lakh, which was later raised to Rs 25 lakh via notification). This limit continues under Section 19. So Karan can deduct Rs 25 lakh, and Rs 3 lakh would be taxable.",
+          "explanationWrong": "The leave encashment deduction limit for non-government employees is Rs 25 lakh under Section 19. The old limit was Rs 3 lakh (under Section 10(10AA)), which was raised to Rs 25 lakh by notification in 2023. Karan receives Rs 28 lakh, so Rs 25 lakh is deductible and Rs 3 lakh is taxable.",
+          "tier": 3,
+          "subConcepts": ["leave-encashment", "deduction-limits", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 10(10AA)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 5,
+          "question": "A payroll manager lists the salary computation steps under the new Act. Which sequence is correct?",
+          "options": [
+            { "text": "Salary (S.15) + Perquisites (S.17) + Profits in lieu (S.18) = Gross Salary → Less: Section 19 deductions = Net Salary", "correct": true },
+            { "text": "Salary (S.15) – Section 10 exemptions = Gross Salary → Less: Section 16 deductions = Net Salary", "correct": false },
+            { "text": "Salary (S.15) + Perquisites (S.17) = Gross Salary → Less: Section 10 + Section 19 = Net Salary", "correct": false },
+            { "text": "Salary (S.16) + Perquisites (S.17) + Profits (S.18) → Less: Section 15 deductions = Net Salary", "correct": false }
+          ],
+          "explanation": "The correct new Act computation: Salary income (Section 15) + all components defined in Section 16 + Perquisites (Section 17) + Profits in lieu (Section 18) = Gross Salary. Then subtract Section 19 deductions = Net Salary (Income from Salaries). No more Section 10 exemption step.",
+          "explanationWrong": "The new Act computation is: S.15 charging + S.16/17/18 components = Gross Salary, then S.19 deductions = Net Salary. The old Act had: S.15 + S.17 – S.10 exemptions = Gross Salary – S.16 deductions = Net Salary. The key change: no separate exemption step — everything is a Section 19 deduction now.",
+          "tier": 3,
+          "subConcepts": ["salary-computation", "section-sequence", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Sections 10, 15, 16, 17",
+          "newSection": "Sections 15-19"
+        }
+      ]
+    },
+    {
+      "title": "Edge Cases & Practical Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new Act, where do you find the deduction for retrenchment compensation?",
+          "options": [
+            { "text": "Section 10(10B)", "correct": false },
+            { "text": "Section 19", "correct": true },
+            { "text": "Section 80C", "correct": false },
+            { "text": "Schedule III", "correct": false }
+          ],
+          "explanation": "Retrenchment compensation moved from old Section 10(10B) exemption to new Section 19 deduction. It joins the other terminal benefits (gratuity, pension, leave encashment, VRS) in the unified deduction table.",
+          "explanationWrong": "Retrenchment compensation is now a Section 19 deduction (was Section 10(10B) exemption). Like all terminal benefits, it moved from the exemption framework to the deduction framework. The quantum of relief remains unchanged.",
+          "tier": 3,
+          "subConcepts": ["retrenchment", "exemption-to-deduction"],
+          "isReview": false,
+          "oldSection": "Section 10(10B)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 2,
+          "question": "Meera is a salaried employee who also receives rental income. She wants to claim standard deduction. Under the new Act, standard deduction under Section 19 is available against which head of income?",
+          "options": [
+            { "text": "All heads of income", "correct": false },
+            { "text": "Only salary income (and pension treated as salary)", "correct": true },
+            { "text": "Salary and house property", "correct": false },
+            { "text": "Only if she opts for the new regime", "correct": false }
+          ],
+          "explanation": "Standard deduction under Section 19 is available only against salary income (and family pension treated as salary). Rental income under 'Income from House Property' has its own deduction (30% standard deduction). These are separate provisions.",
+          "explanationWrong": "Section 19 standard deduction applies only to salary income. House property has its own standard deduction (30% of NAV). Standard deduction under Section 19 is available under BOTH regimes — Rs 75,000 (new) and Rs 50,000 (old) — but only against salary/pension income.",
+          "tier": 3,
+          "subConcepts": ["standard-deduction", "head-of-income"],
+          "isReview": false,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 3,
+          "question": "The new Act's salary block runs from Section 15 to Section 19. Under the old Act, which section dealt with deductions from salary?",
+          "options": [
+            { "text": "Section 15", "correct": false },
+            { "text": "Section 17", "correct": false },
+            { "text": "Section 16", "correct": true },
+            { "text": "Section 19", "correct": false }
+          ],
+          "explanation": "Old Section 16 dealt with deductions from salary (standard deduction, entertainment allowance, professional tax). In the new Act, this is Section 19. Remember the mapping: old 16 → new 19.",
+          "explanationWrong": "Old Section 16 was the deductions section. It contained standard deduction (16(ia)), entertainment allowance (16(ii)), and professional tax (16(iii)). These are now part of Section 19's 14-item table in the new Act.",
+          "tier": 3,
+          "subConcepts": ["salary-deductions", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Section 16",
+          "newSection": "Section 19"
+        },
+        {
+          "order": 4,
+          "question": "Rajesh receives salary arrears of Rs 3 lakh relating to a prior year. He claims relief under Section 89. Under the new Act, does the treatment of salary arrears and Section 89 relief change?",
+          "options": [
+            { "text": "Yes, Section 89 is abolished in the new Act", "correct": false },
+            { "text": "Yes, arrears are now exempt instead of taxable with relief", "correct": false },
+            { "text": "No, arrears are still taxable under Section 15 with Section 89 relief continuing for old regime", "correct": true },
+            { "text": "Arrears are now deductible under Section 19", "correct": false }
+          ],
+          "explanation": "Salary arrears continue to be taxable under the charging section (Section 15). Section 89 relief mechanism continues for taxpayers under the old regime. The new Act did not change the treatment of arrears — this is one area where the old framework persists.",
+          "explanationWrong": "Salary arrears treatment is unchanged — they're taxable under Section 15, and Section 89 relief continues for the old regime. The new Act's reclassification from exemptions to deductions applies to terminal benefits (gratuity, pension, leave encashment, VRS), not to arrears relief.",
+          "tier": 3,
+          "subConcepts": ["salary-arrears", "section-89", "no-change"],
+          "isReview": false,
+          "oldSection": "Section 15, Section 89",
+          "newSection": "Section 15"
+        },
+        {
+          "order": 5,
+          "question": "A CA is filing a return for a client who retired in January 2027. The client received gratuity, leave encashment, and VRS compensation. Under the new Act, the CA needs to look up limits for all three. Where will the CA find ALL the relevant deduction limits?",
+          "options": [
+            { "text": "Scattered across Section 10(10), 10(10AA), 10(10C) and their respective rules", "correct": false },
+            { "text": "In Section 19's consolidated table — all three are items in the same table", "correct": true },
+            { "text": "In Schedule III of the new Act", "correct": false },
+            { "text": "In three different sections — Sections 16, 17, and 18", "correct": false }
+          ],
+          "explanation": "Under the new Act, the CA checks one section — Section 19 — for all three deduction limits. Under the old Act, they would need to reference Section 10(10) for gratuity, 10(10AA) for leave encashment, and 10(10C) for VRS, each with different rules and notifications. This is the practical payoff of the consolidation.",
+          "explanationWrong": "All three limits are in Section 19's table — that's the whole point of the consolidation. Under the old Act, a CA had to hunt through Section 10(10), 10(10AA), and 10(10C) plus various notifications and rules. The new Act puts everything in one place.",
+          "tier": 3,
+          "subConcepts": ["terminal-benefits", "practical-impact", "consolidation"],
+          "isReview": false,
+          "oldSection": "Section 10(10), 10(10AA), 10(10C)",
+          "newSection": "Section 19"
+        }
+      ]
+    }
+  ]
+}

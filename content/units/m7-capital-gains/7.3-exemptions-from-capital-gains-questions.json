@@ -1,0 +1,835 @@
+{
+  "unit": "7.3",
+  "title": "Exemptions from Capital Gains",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping — Exemptions Renumbered",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 54 (exemption for LTCG from residential house reinvested in residential house) maps to which new section?",
+          "options": [
+            { "text": "Section 82", "correct": true },
+            { "text": "Section 85", "correct": false },
+            { "text": "Section 86", "correct": false },
+            { "text": "Section 84", "correct": false }
+          ],
+          "explanation": "Old Section 54 maps to Section 82 — the residential house rollover exemption for individuals and HUFs. All conditions, time limits, and the Rs 10 crore cap (from Finance Act 2023) carry forward unchanged.",
+          "explanationWrong": "Section 82 is the residential house rollover (old 54). Section 85 is bonds (old 54EC). Section 86 is for LTCG from any asset other than a house reinvested in a house (old 54F). The mapping is sequential: 54→82, 54B→83, 54D→84, 54EC→85, 54F→86.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "residential-house", "section-54-to-82"],
+          "isReview": false,
+          "oldSection": "Section 54",
+          "newSection": "Section 82"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 54EC (LTCG invested in specified bonds — NHAI/REC/PFC/IRFC) maps to which new section?",
+          "options": [
+            { "text": "Section 83", "correct": false },
+            { "text": "Section 84", "correct": false },
+            { "text": "Section 85", "correct": true },
+            { "text": "Section 86", "correct": false }
+          ],
+          "explanation": "Old Section 54EC maps to Section 85. The conditions are unchanged: LTCG from land or building invested in specified bonds within 6 months, max Rs 50 lakh per FY, 5-year lock-in, any assessee (not limited to individuals/HUFs).",
+          "explanationWrong": "Section 85 is the bonds exemption (old 54EC). Section 83 is agricultural land (old 54B). Section 84 is compulsory acquisition of industrial land (old 54D). The sequence: 54→82, 54B→83, 54D→84, 54EC→85.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "bonds", "section-54EC-to-85"],
+          "isReview": false,
+          "oldSection": "Section 54EC",
+          "newSection": "Section 85"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following is the correct complete mapping for the exemption sections under the ITA 2025?",
+          "options": [
+            { "text": "54→82, 54B→83, 54D→84, 54EC→85, 54F→86, 54G→87, 54GA→88, 54H→89, 55→90, 55A→91", "correct": true },
+            { "text": "54→82, 54B→83, 54D→85, 54EC→84, 54F→86, 54G→87, 54GA→88, 54H→89, 55→90, 55A→91", "correct": false },
+            { "text": "54→82, 54B→84, 54D→83, 54EC→85, 54F→86, 54G→88, 54GA→87, 54H→89, 55→90, 55A→91", "correct": false },
+            { "text": "54→86, 54B→83, 54D→84, 54EC→85, 54F→82, 54G→87, 54GA→88, 54H→89, 55→90, 55A→91", "correct": false }
+          ],
+          "explanation": "The complete mapping: 54→82, 54B→83, 54D→84, 54EC→85, 54F→86, 54G→87, 54GA→88, 54H→89, 55→90, 55A→91. Ten sections renumbered sequentially. Note that 54EE and 54GB are absent — they were dropped.",
+          "explanationWrong": "The mapping follows the old section order: 54→82, 54B→83, 54D→84, 54EC→85, 54F→86, 54G→87, 54GA→88, 54H→89, 55→90, 55A→91. Notice 54EE and 54GB are missing — they were not carried forward.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "complete-mapping"],
+          "isReview": true,
+          "oldSection": "Sections 54-55A",
+          "newSection": "Sections 82-91"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 54F (LTCG from any asset other than residential house, reinvested in residential house) maps to which new section?",
+          "options": [
+            { "text": "Section 82", "correct": false },
+            { "text": "Section 86", "correct": true },
+            { "text": "Section 85", "correct": false },
+            { "text": "Section 87", "correct": false }
+          ],
+          "explanation": "Old Section 54F maps to Section 86. This is the companion exemption to Section 82 (old 54): while 82 covers LTCG from selling a residential house reinvested in another house, 86 covers LTCG from selling any other long-term asset reinvested in a residential house.",
+          "explanationWrong": "Section 86 is old 54F. Section 82 is old 54. The distinction matters: 82 is house-to-house, 86 is any-asset-to-house. Both are for individuals/HUFs only, both have the Rs 10 crore cap (from FA 2023).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-54F-to-86"],
+          "isReview": false,
+          "oldSection": "Section 54F",
+          "newSection": "Section 86"
+        },
+        {
+          "order": 5,
+          "question": "Old Sections 55 (meaning of cost of acquisition/improvement) and 55A (reference to Valuation Officer) map to which new sections?",
+          "options": [
+            { "text": "Section 90 and Section 91 respectively", "correct": true },
+            { "text": "Section 89 and Section 90 respectively", "correct": false },
+            { "text": "Section 88 and Section 89 respectively", "correct": false },
+            { "text": "Section 91 and Section 90 respectively", "correct": false }
+          ],
+          "explanation": "55→90 (cost of acquisition and improvement definitions) and 55A→91 (reference to Valuation Officer). These are the last two sections in the exemption chapter sequence. Both are renumbered only.",
+          "explanationWrong": "Section 90 is the cost definitions (old 55) and Section 91 is the Valuation Officer reference (old 55A). Section 89 is NRI extension of time (old 54H). The sequence: 54H→89, 55→90, 55A→91.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "section-55-to-90", "section-55A-to-91"],
+          "isReview": false,
+          "oldSection": "Section 55, Section 55A",
+          "newSection": "Section 90, Section 91"
+        }
+      ]
+    },
+    {
+      "title": "Sections 54EE and 54GB — Dropped Exemptions",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 54EE (LTCG invested in specified fund for startups) was NOT carried forward into the 2025 Act. Why?",
+          "options": [
+            { "text": "The fund was never notified — it was a dead letter provision from inception, and its sunset expired on 31 March 2021", "correct": true },
+            { "text": "The government opposes startup investment", "correct": false },
+            { "text": "The provision was merged into Section 82", "correct": false },
+            { "text": "The sunset date was extended but the provision was still dropped", "correct": false }
+          ],
+          "explanation": "Section 54EE was a dead letter from day one — the specified fund was never notified by the government. The sunset date of 31 March 2021 passed without the provision ever being used. The 2025 Act simply chose not to re-enact what was never operative.",
+          "explanationWrong": "This is straightforward cleanup. The government never notified the fund required for 54EE to work. No one could ever use this exemption. With the sunset expired in 2021, re-enacting it in 2025 would have been pointless.",
+          "tier": 1,
+          "subConcepts": ["dropped-exemptions", "section-54EE", "dead-letter"],
+          "isReview": false,
+          "oldSection": "Section 54EE",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Old Section 54GB (LTCG on residential property invested in eligible startup equity) was NOT carried forward. When did its sunset expire?",
+          "options": [
+            { "text": "31 March 2025", "correct": true },
+            { "text": "31 March 2021", "correct": false },
+            { "text": "31 March 2023", "correct": false },
+            { "text": "31 March 2026", "correct": false }
+          ],
+          "explanation": "Section 54GB's sunset was 31 March 2025. With the 2025 Act effective from 1 April 2026, there is no transition gap — the exemption was already expired by the time the new Act takes effect. The 2025 Act simply chose not to re-enact an expired provision.",
+          "explanationWrong": "The sunset date of 31 March 2025 is key. Since the 2025 Act applies from 1 April 2026, the one-year gap means 54GB was already dead. It was not a 2025 Act policy decision — the provision simply ran its course.",
+          "tier": 1,
+          "subConcepts": ["dropped-exemptions", "section-54GB", "sunset"],
+          "isReview": false,
+          "oldSection": "Section 54GB",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "A client asks whether they can claim exemption under Section 54EE or 54GB for a transfer in FY 2026-27. What is your answer?",
+          "options": [
+            { "text": "No — neither exemption exists in the 2025 Act; both were sunset-expired and not re-enacted", "correct": true },
+            { "text": "Yes — the saving clauses preserve these exemptions indefinitely", "correct": false },
+            { "text": "Only 54GB is available — its sunset was extended", "correct": false },
+            { "text": "They need to apply to CBDT for special approval", "correct": false }
+          ],
+          "explanation": "Neither 54EE nor 54GB exists in the 2025 Act. 54EE was never operative (fund never notified, sunset 31 March 2021). 54GB expired 31 March 2025. For transfers in FY 2026-27, these exemptions are simply not available. No saving clause can help because the provisions were already expired under the old Act.",
+          "explanationWrong": "Both exemptions are gone. Saving clauses protect transactions that occurred while the old provisions were alive, but 54EE was never alive (fund never notified) and 54GB expired on 31 March 2025. For FY 2026-27, no avenue exists.",
+          "tier": 1,
+          "subConcepts": ["dropped-exemptions", "practical-application", "no-saving-clause"],
+          "isReview": true,
+          "oldSection": "Section 54EE, Section 54GB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many exemption sections from the old Act (Sections 54-55A range) were NOT carried forward into the 2025 Act?",
+          "options": [
+            { "text": "Two — Sections 54EE and 54GB", "correct": true },
+            { "text": "None — all exemptions continue", "correct": false },
+            { "text": "Four — Sections 54EE, 54GB, 54G, and 54GA", "correct": false },
+            { "text": "One — only Section 54EE", "correct": false }
+          ],
+          "explanation": "Exactly two exemptions were dropped: 54EE (startup fund — never notified, sunset 2021) and 54GB (startup equity — sunset 2025). All other exemptions (54, 54B, 54D, 54EC, 54F, 54G, 54GA, 54H) continue with new section numbers. Sections 55 and 55A also continue.",
+          "explanationWrong": "Two and only two: 54EE and 54GB. Sections 54G (urban to non-urban shifting) and 54GA (shifting to SEZ) are alive and well as Sections 87 and 88 respectively. Don't confuse dropped with renumbered.",
+          "tier": 1,
+          "subConcepts": ["dropped-exemptions", "count"],
+          "isReview": false,
+          "oldSection": "Section 54EE, Section 54GB",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "What practical action should CAs take regarding Sections 54EE and 54GB?",
+          "options": [
+            { "text": "Remove them from exemption checklists — they are not available for transfers under the 2025 Act", "correct": true },
+            { "text": "Keep them on checklists in case the government revives them", "correct": false },
+            { "text": "Replace them with new sections that have similar provisions", "correct": false },
+            { "text": "No action needed — clients rarely used these exemptions", "correct": false }
+          ],
+          "explanation": "Clean up your checklists. These exemptions were already unavailable before the 2025 Act (54EE never worked, 54GB expired). The 2025 Act just makes it official. No replacement provisions exist — if the government wants to incentivise startup investment through capital gains exemptions, it would need a fresh amendment.",
+          "explanationWrong": "Remove and move on. These provisions were dead before the 2025 Act and are now formally absent. Keeping them on checklists wastes time and could confuse clients.",
+          "tier": 1,
+          "subConcepts": ["dropped-exemptions", "checklist-update"],
+          "isReview": false,
+          "oldSection": "Section 54EE, Section 54GB",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "CGAS Electronic Deposits and Section 536(2)(h)",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the new feature of the Capital Gains Account Scheme (CGAS) under the 2025 Act?",
+          "options": [
+            { "text": "The scheme now accepts electronic deposits — assessees can transfer funds electronically", "correct": true },
+            { "text": "The scheme has been abolished", "correct": false },
+            { "text": "The scheme now offers higher interest rates", "correct": false },
+            { "text": "The scheme is now managed by SEBI instead of banks", "correct": false }
+          ],
+          "explanation": "The CGAS continues under the 2025 Act with one enhancement: it now accepts electronic deposits. Assessees can transfer funds electronically to their Capital Gains Account without physical deposit receipts. Account types (Type A savings, Type B term deposit) and designated banks remain unchanged.",
+          "explanationWrong": "CGAS is not abolished — it gets a digital upgrade. Electronic deposits are the new feature. The scheme structure (Type A and Type B accounts, designated banks) is unchanged. This is a modernisation of the deposit mechanism.",
+          "tier": 1,
+          "subConcepts": ["CGAS", "electronic-deposits", "modernisation"],
+          "isReview": false,
+          "oldSection": "CGAS 1988",
+          "newSection": "CGAS under 2025 Act"
+        },
+        {
+          "order": 2,
+          "question": "Section 536(2)(h) of the ITA 2025 creates a claw-back provision. What specific scenario does it address?",
+          "options": [
+            { "text": "An assessee claimed an exemption under the 1961 Act and violates the lock-in period after 1 April 2026", "correct": true },
+            { "text": "An assessee claims an exemption under the 2025 Act for the first time", "correct": false },
+            { "text": "An assessee's Capital Gains Account is closed before the lock-in expires", "correct": false },
+            { "text": "An assessee transfers property to a non-resident after claiming exemption", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) is a transition provision. It addresses the scenario where an exemption was claimed under the old Act (e.g., Section 54, 54B, 54EC, 54F) but the lock-in period violation occurs AFTER 1 April 2026. In that case, the claw-back is governed by the 2025 Act.",
+          "explanationWrong": "This is specifically about straddling lock-in periods. The exemption was claimed under the 1961 Act, but the violation happens under the 2025 Act regime. Section 536(2)(h) says the 2025 Act governs the claw-back — not the 1961 Act.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-h", "claw-back", "transition"],
+          "isReview": false,
+          "oldSection": "Sections 54/54B/54D/54EC/54F/54G/54GA",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 536(2)(h), if a client claimed Section 54 exemption in AY 2025-26 and sells the new house in FY 2027-28, which Act governs the claw-back?",
+          "options": [
+            { "text": "The 2025 Act — the violation occurs after 1 April 2026", "correct": true },
+            { "text": "The 1961 Act — the original exemption was claimed under it", "correct": false },
+            { "text": "Both Acts apply — the more favourable one is chosen", "correct": false },
+            { "text": "Neither — there is no claw-back for old Act exemptions", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) is clear: if the lock-in violation occurs on or after 1 April 2026, the 2025 Act governs the claw-back. The original exemption was under old Section 54, but the sale of the new house in FY 2027-28 triggers claw-back under 2025 Act provisions.",
+          "explanationWrong": "The governing Act for the claw-back is determined by when the violation occurs, not when the exemption was claimed. Post-April 2026 violation = 2025 Act applies. This is a genuine transition provision that CAs need to flag for clients in active lock-in periods.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-h", "claw-back", "practical-scenario"],
+          "isReview": true,
+          "oldSection": "Section 54",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 4,
+          "question": "The CGAS electronic deposit feature applies to exemptions claimed under which sections of the 2025 Act?",
+          "options": [
+            { "text": "Sections 82 to 88 (all the rollover exemptions requiring reinvestment)", "correct": true },
+            { "text": "Only Section 82 (residential house)", "correct": false },
+            { "text": "Only Section 85 (bonds)", "correct": false },
+            { "text": "Sections 82 to 91 (all sections in the chapter)", "correct": false }
+          ],
+          "explanation": "CGAS deposits secure exemptions under Sections 82-88 — all the rollover exemptions that require reinvestment within a specified time. Sections 89-91 are for NRI time extension, cost definitions, and valuation officer reference — they do not involve CGAS deposits.",
+          "explanationWrong": "CGAS is for rollover exemptions requiring actual reinvestment (Sections 82-88). Section 89 (NRI extension), Section 90 (cost definitions), and Section 91 (Valuation Officer) are not reinvestment exemptions and do not use CGAS.",
+          "tier": 1,
+          "subConcepts": ["CGAS", "scope", "sections-82-to-88"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Sections 82-88"
+        },
+        {
+          "order": 5,
+          "question": "What practical step should CAs take for clients currently within lock-in periods for exemptions claimed under the 1961 Act?",
+          "options": [
+            { "text": "Flag that post-April 2026 violations trigger claw-back under the 2025 Act per Section 536(2)(h)", "correct": true },
+            { "text": "Nothing — old Act exemptions are permanently safe", "correct": false },
+            { "text": "Re-file the exemption claim under the 2025 Act", "correct": false },
+            { "text": "Transfer the exempt asset to a trust to avoid the claw-back", "correct": false }
+          ],
+          "explanation": "Review all clients currently in lock-in windows. If they claimed exemptions under old Sections 54/54B/54D/54EC/54F/54G/54GA and the lock-in extends beyond 1 April 2026, any violation after that date triggers claw-back under the 2025 Act. The rates and computation rules may differ from what the client expected.",
+          "explanationWrong": "Proactive client communication is essential. Clients who assumed the 1961 Act would govern any claw-back need to know that Section 536(2)(h) shifts the governing law to the 2025 Act for post-April 2026 violations.",
+          "tier": 1,
+          "subConcepts": ["section-536-2-h", "client-advisory", "lock-in-monitoring"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)(h)"
+        }
+      ]
+    },
+    {
+      "title": "Applied Mapping — Exemption Section Recall",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client sells agricultural land and wants to claim exemption by reinvesting in agricultural land. Under the 2025 Act, which section applies?",
+          "options": [
+            { "text": "Section 83 (old Section 54B)", "correct": true },
+            { "text": "Section 82 (old Section 54)", "correct": false },
+            { "text": "Section 84 (old Section 54D)", "correct": false },
+            { "text": "Section 87 (old Section 54G)", "correct": false }
+          ],
+          "explanation": "Agricultural land exemption: Section 83 (old 54B). The land must have been used for agriculture for 2 years preceding the transfer, and reinvestment in new agricultural land must be within 2 years. Section 84 is for compulsory acquisition of industrial land. Section 87 is for urban-to-rural shifting.",
+          "explanationWrong": "Section 83 is the agricultural land rollover (old 54B). Don't confuse with Section 82 (residential house), Section 84 (compulsory acquisition of industrial land), or Section 87 (shifting of industrial undertaking).",
+          "tier": 2,
+          "subConcepts": ["section-83", "agricultural-land", "section-54B-to-83"],
+          "isReview": false,
+          "oldSection": "Section 54B",
+          "newSection": "Section 83"
+        },
+        {
+          "order": 2,
+          "question": "A client's industrial land is compulsorily acquired. They want to reinvest in land/building for re-establishing their undertaking. Which 2025 Act section applies?",
+          "options": [
+            { "text": "Section 84 (old Section 54D)", "correct": true },
+            { "text": "Section 83 (old Section 54B)", "correct": false },
+            { "text": "Section 87 (old Section 54G)", "correct": false },
+            { "text": "Section 82 (old Section 54)", "correct": false }
+          ],
+          "explanation": "Section 84 (old 54D) covers compulsory acquisition of industrial land/building with reinvestment in land/building for shifting or re-establishing the undertaking, within 3 years. Section 83 is agricultural land, Section 87 is voluntary shifting from urban to non-urban.",
+          "explanationWrong": "Section 84 = compulsory acquisition of industrial land (old 54D). Section 87 = voluntary urban-to-rural shift (old 54G). The distinction: 84 is for forced acquisition, 87 is for voluntary relocation.",
+          "tier": 2,
+          "subConcepts": ["section-84", "compulsory-acquisition", "section-54D-to-84"],
+          "isReview": false,
+          "oldSection": "Section 54D",
+          "newSection": "Section 84"
+        },
+        {
+          "order": 3,
+          "question": "An individual sells listed shares (LTCG) and wants to invest the gain in a residential house. Which section of the 2025 Act provides the exemption?",
+          "options": [
+            { "text": "Section 86 (old 54F) — LTCG from any asset other than residential house, reinvested in residential house", "correct": true },
+            { "text": "Section 82 (old 54) — residential house to residential house", "correct": false },
+            { "text": "Section 85 (old 54EC) — bonds exemption", "correct": false },
+            { "text": "No exemption is available for listed shares", "correct": false }
+          ],
+          "explanation": "Section 86 (old 54F) covers LTCG from any long-term capital asset other than a residential house, reinvested in a residential house. Since listed shares are not a residential house, Section 86 applies. Section 82 applies only when the transferred asset itself is a residential house.",
+          "explanationWrong": "The 82 vs 86 distinction is critical. Section 82: house sold → house bought. Section 86: non-house asset sold → house bought. Listed shares = non-house, so Section 86. Both apply to individuals/HUFs only.",
+          "tier": 2,
+          "subConcepts": ["section-86", "section-82-vs-86", "listed-shares"],
+          "isReview": true,
+          "oldSection": "Section 54F",
+          "newSection": "Section 86"
+        },
+        {
+          "order": 4,
+          "question": "Old Section 54G (shifting of industrial undertaking from urban to non-urban area) and 54GA (shifting to SEZ) map to which new sections?",
+          "options": [
+            { "text": "Section 87 and Section 88 respectively", "correct": true },
+            { "text": "Section 88 and Section 87 respectively", "correct": false },
+            { "text": "Section 84 and Section 85 respectively", "correct": false },
+            { "text": "Both merged into a single Section 87", "correct": false }
+          ],
+          "explanation": "54G→87 (urban to non-urban shifting) and 54GA→88 (shifting to SEZ). Both are renumbered without change. The time limits (1 year before / 3 years after) continue.",
+          "explanationWrong": "Section 87 is urban-to-rural (old 54G) and Section 88 is shifting-to-SEZ (old 54GA). They remain separate sections. Section 84 is compulsory acquisition (old 54D), Section 85 is bonds (old 54EC).",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "section-54G-to-87", "section-54GA-to-88"],
+          "isReview": false,
+          "oldSection": "Section 54G, Section 54GA",
+          "newSection": "Section 87, Section 88"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 54H (extension of time for NRI to acquire new asset) maps to which new section?",
+          "options": [
+            { "text": "Section 89", "correct": true },
+            { "text": "Section 88", "correct": false },
+            { "text": "Section 90", "correct": false },
+            { "text": "Section 91", "correct": false }
+          ],
+          "explanation": "Old Section 54H maps to Section 89 — extension of time for NRIs to acquire a new asset to claim exemption. Renumbered only. Section 88 is SEZ shifting (old 54GA), Section 90 is cost definitions (old 55), Section 91 is Valuation Officer (old 55A).",
+          "explanationWrong": "Section 89 = NRI time extension (old 54H). This completes the exemption sequence: 54G→87, 54GA→88, 54H→89, 55→90, 55A→91.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "NRI", "section-54H-to-89"],
+          "isReview": false,
+          "oldSection": "Section 54H",
+          "newSection": "Section 89"
+        }
+      ]
+    },
+    {
+      "title": "CGAS and Section 536(2)(h) — Practical Scenarios",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client sells property in FY 2026-27 and wants to claim Section 82 exemption but has not yet purchased a new house. They need to deposit funds in a Capital Gains Account before the return-filing due date. Can they make this deposit electronically?",
+          "options": [
+            { "text": "Yes — the 2025 Act enables electronic deposits to CGAS", "correct": true },
+            { "text": "No — only physical deposits are accepted", "correct": false },
+            { "text": "Only if the deposit exceeds Rs 50 lakh", "correct": false },
+            { "text": "Electronic deposits are only available for NRIs", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, CGAS accepts electronic deposits. The client can transfer funds electronically to their Capital Gains Account at a designated bank before the return-filing due date to secure the Section 82 exemption.",
+          "explanationWrong": "Electronic deposits are now available to all assessees, not just NRIs. There is no minimum threshold. This is a straightforward modernisation — physical deposits are still accepted but electronic is now an option too.",
+          "tier": 2,
+          "subConcepts": ["CGAS", "electronic-deposits", "section-82"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "CGAS under 2025 Act"
+        },
+        {
+          "order": 2,
+          "question": "A client claimed Section 54EC exemption (bonds) in AY 2024-25. The 5-year lock-in extends to FY 2028-29. If they redeem the bonds early in FY 2027-28, which Act governs the claw-back?",
+          "options": [
+            { "text": "The 2025 Act — the violation occurs after 1 April 2026, triggering Section 536(2)(h)", "correct": true },
+            { "text": "The 1961 Act — the exemption was claimed under it", "correct": false },
+            { "text": "No claw-back applies — bonds redeemed early are simply taxed as income", "correct": false },
+            { "text": "SEBI regulations govern the claw-back, not the Income Tax Act", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) applies: the exemption was claimed under old Section 54EC, but the lock-in violation (early redemption in FY 2027-28) occurs after 1 April 2026. The claw-back is governed by the 2025 Act. The original capital gains become taxable under 2025 Act computation and rates.",
+          "explanationWrong": "The violation date controls the governing Act. FY 2027-28 is post-April 2026, so the 2025 Act applies via Section 536(2)(h). The 1961 Act governed the original exemption claim, but the claw-back event falls under the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-h", "section-54EC", "bonds", "lock-in-violation"],
+          "isReview": false,
+          "oldSection": "Section 54EC",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 3,
+          "question": "Which of the following clients does NOT need to be flagged for Section 536(2)(h) claw-back risk?",
+          "options": [
+            { "text": "A client whose Section 54EC lock-in expired in March 2026 — lock-in completed before the 2025 Act takes effect", "correct": true },
+            { "text": "A client whose Section 54 lock-in extends to FY 2027-28", "correct": false },
+            { "text": "A client whose Section 54F lock-in extends to FY 2028-29", "correct": false },
+            { "text": "A client whose Section 54B reinvestment is within its 2-year window extending to FY 2026-27", "correct": false }
+          ],
+          "explanation": "If the lock-in is completed before 1 April 2026, there is no straddling risk. Section 536(2)(h) only applies when the violation occurs on or after 1 April 2026. The client whose lock-in expired in March 2026 is safe — no post-April 2026 violation is possible.",
+          "explanationWrong": "Section 536(2)(h) only matters when the lock-in extends into the 2025 Act period (post-April 2026). If the lock-in is fully completed before April 2026, there is nothing to claw back under the new Act.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-h", "lock-in-timing", "risk-assessment"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 4,
+          "question": "Under CGAS, what are the two account types that continue under the 2025 Act?",
+          "options": [
+            { "text": "Type A (savings) and Type B (term deposit)", "correct": true },
+            { "text": "Type A (current) and Type B (fixed deposit)", "correct": false },
+            { "text": "Individual account and corporate account", "correct": false },
+            { "text": "Short-term account and long-term account", "correct": false }
+          ],
+          "explanation": "CGAS continues with Type A (savings account — for funds needed at short notice for purchase) and Type B (term deposit — for funds parked longer, e.g., during construction). Both types are available at designated banks. The electronic deposit option applies to both.",
+          "explanationWrong": "Type A = savings, Type B = term deposit. These are the same account types from the original 1988 scheme. The 2025 Act does not change the account structure — only adds the electronic deposit channel.",
+          "tier": 2,
+          "subConcepts": ["CGAS", "account-types", "Type-A", "Type-B"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "CGAS under 2025 Act"
+        },
+        {
+          "order": 5,
+          "question": "A client claimed Section 54 exemption in AY 2026-27 (transfer in FY 2025-26 under the 1961 Act). They have a 3-year lock-in on the new house ending in FY 2028-29. If they sell the house in FY 2028-29, the claw-back computation uses:",
+          "options": [
+            { "text": "The 2025 Act's provisions — rates and computation rules as per the new Act", "correct": true },
+            { "text": "The 1961 Act's provisions — the original exemption was under old Section 54", "correct": false },
+            { "text": "The more favourable of the two Acts", "correct": false },
+            { "text": "No computation is needed — selling within the lock-in is penalty-free", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) directs that post-April 2026 violations trigger claw-back under the 2025 Act. The computation uses 2025 Act section numbers, and the rates applicable at the time of the claw-back event apply. This may differ from what the client expected when claiming the original exemption.",
+          "explanationWrong": "The 2025 Act governs — period. There is no 'more favourable' choice. Section 536(2)(h) is explicit: if the violation is post-April 2026, it is the 2025 Act's rules that apply. Alert clients about this before they make decisions about exempt assets.",
+          "tier": 2,
+          "subConcepts": ["section-536-2-h", "computation", "rates"],
+          "isReview": false,
+          "oldSection": "Section 54",
+          "newSection": "Section 536(2)(h)"
+        }
+      ]
+    },
+    {
+      "title": "Exemption Conditions — Unchanged but Renumbered",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 82 (old 54), the time limit for purchasing a new residential house to claim exemption is:",
+          "options": [
+            { "text": "1 year before or 2 years after transfer (purchase); 3 years after (construction)", "correct": true },
+            { "text": "6 months after transfer only", "correct": false },
+            { "text": "3 years before or 5 years after transfer", "correct": false },
+            { "text": "The time limit was removed by the 2025 Act", "correct": false }
+          ],
+          "explanation": "The time limits are unchanged: 1 year before or 2 years after the transfer date for purchase, or 3 years after for construction. These are the same limits that existed under old Section 54. The 2025 Act does not modify any time limit.",
+          "explanationWrong": "All time limits are carried forward from old Section 54 without change. 1 year before / 2 years after for purchase, 3 years for construction. If the client cannot complete within these periods, they must deposit in CGAS before the return-filing due date.",
+          "tier": 2,
+          "subConcepts": ["section-82", "time-limits", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 54",
+          "newSection": "Section 82"
+        },
+        {
+          "order": 2,
+          "question": "The Rs 10 crore cap on exemptions under Sections 82 and 86 was introduced by:",
+          "options": [
+            { "text": "Finance Act 2023 — it is carried forward into the 2025 Act, not a 2025 Act change", "correct": true },
+            { "text": "The Income Tax Act 2025 as a new provision", "correct": false },
+            { "text": "Finance Act 2024", "correct": false },
+            { "text": "There is no Rs 10 crore cap", "correct": false }
+          ],
+          "explanation": "The Rs 10 crore cap on Sections 54 and 54F (now 82 and 86) was introduced by Finance Act 2023 effective AY 2024-25. The 2025 Act incorporates this into the base statute — it is NOT a 2025 Act innovation. This is a Finance Act change carried forward.",
+          "explanationWrong": "This is an important attribution question. The cap was Finance Act 2023, not the 2025 Act. The 2025 Act merely carries it forward as part of the base statute. Do not credit the 2025 Act with changes made by earlier Finance Acts.",
+          "tier": 2,
+          "subConcepts": ["section-82", "section-86", "Rs-10-crore-cap", "FA-2023"],
+          "isReview": false,
+          "oldSection": "Section 54, Section 54F",
+          "newSection": "Section 82, Section 86"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 85 (old 54EC), the maximum investment in specified bonds per financial year is:",
+          "options": [
+            { "text": "Rs 50 lakh — unchanged from the old Act", "correct": true },
+            { "text": "Rs 10 crore — same as the house purchase cap", "correct": false },
+            { "text": "Rs 1 crore — increased by the 2025 Act", "correct": false },
+            { "text": "No limit under the 2025 Act", "correct": false }
+          ],
+          "explanation": "Rs 50 lakh per FY, with a 5-year lock-in. This limit is unchanged — Section 85 is a pure renumbering of old Section 54EC. Any assessee (not just individuals/HUFs) can claim this exemption for LTCG from land or building.",
+          "explanationWrong": "The Rs 50 lakh per FY limit and 5-year lock-in are unchanged. Section 85 = old 54EC, no modifications. The Rs 10 crore cap applies to Sections 82 and 86 (house purchase exemptions), not to Section 85 (bonds).",
+          "tier": 2,
+          "subConcepts": ["section-85", "Rs-50-lakh", "bonds", "lock-in"],
+          "isReview": true,
+          "oldSection": "Section 54EC",
+          "newSection": "Section 85"
+        },
+        {
+          "order": 4,
+          "question": "Section 82 (old 54) includes a two-house option for LTCG up to Rs 2 crore. Has this been changed by the 2025 Act?",
+          "options": [
+            { "text": "No — the two-house option (once in a lifetime, LTCG up to Rs 2 crore) continues unchanged", "correct": true },
+            { "text": "Yes — the limit was increased to Rs 5 crore", "correct": false },
+            { "text": "Yes — the two-house option was removed", "correct": false },
+            { "text": "Yes — it is now available for every transfer, not once in a lifetime", "correct": false }
+          ],
+          "explanation": "The two-house option continues: individuals/HUFs with LTCG up to Rs 2 crore can purchase two residential houses instead of one, once in a lifetime. This was introduced by Finance Act 2019 and is carried forward unchanged.",
+          "explanationWrong": "No change. The two-house option remains once-in-a-lifetime with the Rs 2 crore cap. The 2025 Act preserves this exactly as it was.",
+          "tier": 2,
+          "subConcepts": ["section-82", "two-house-option", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 54",
+          "newSection": "Section 82"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 86 (old 54F), a key condition is that on the date of transfer, the assessee must not own:",
+          "options": [
+            { "text": "More than one residential house (other than the new house being purchased)", "correct": true },
+            { "text": "Any residential house at all", "correct": false },
+            { "text": "More than three residential houses", "correct": false },
+            { "text": "Any property valued above Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "Section 86 (old 54F) requires that on the date of transfer, the assessee must not own more than one residential house (other than the new house). If they own two or more houses already, the exemption is not available. This condition is unchanged.",
+          "explanationWrong": "The condition is 'not more than one other house.' Owning zero or one house is fine. Owning two or more disqualifies you. This has always been the rule under 54F and continues under Section 86.",
+          "tier": 2,
+          "subConcepts": ["section-86", "ownership-condition", "one-house-limit"],
+          "isReview": false,
+          "oldSection": "Section 54F",
+          "newSection": "Section 86"
+        }
+      ]
+    },
+    {
+      "title": "Scenario-Based — Exemption Application",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "It's March 2028. A client who claimed Section 54 exemption in AY 2025-26 (buying a house within the 3-year lock-in) wants to sell the new house. They ask: 'Will the claw-back be under the old Act since I claimed the exemption under it?' Your answer:",
+          "options": [
+            { "text": "No — selling in FY 2027-28 (post-April 2026) means the claw-back is governed by the 2025 Act under Section 536(2)(h)", "correct": true },
+            { "text": "Yes — the 1961 Act governs the entire exemption cycle", "correct": false },
+            { "text": "There is no claw-back — the 2025 Act repealed all claw-back provisions", "correct": false },
+            { "text": "The client can choose which Act applies", "correct": false }
+          ],
+          "explanation": "Section 536(2)(h) is explicit: post-April 2026 lock-in violations are governed by the 2025 Act. The client's expectation that the 1961 Act would govern is incorrect. The original exemption claim was under the old Act, but the enforcement event falls under the new one.",
+          "explanationWrong": "No choice, no old-Act fallback. Section 536(2)(h) overrides the assumption that the original claiming Act governs the entire cycle. Post-April 2026, the 2025 Act takes over for claw-back purposes.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "client-scenario", "claw-back"],
+          "isReview": false,
+          "oldSection": "Section 54",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 2,
+          "question": "A client sells their only residential house in FY 2027-28 and wants to invest the LTCG in both a new house (Section 82) and specified bonds (Section 85). Is this possible?",
+          "options": [
+            { "text": "Yes — Sections 82 and 85 are not mutually exclusive; the client can split the LTCG across both exemptions", "correct": true },
+            { "text": "No — the client must choose one exemption only", "correct": false },
+            { "text": "Only if the total exemption does not exceed Rs 10 crore", "correct": false },
+            { "text": "Only NRIs can claim both exemptions simultaneously", "correct": false }
+          ],
+          "explanation": "Sections 82 and 85 are not mutually exclusive. A client can invest part of the LTCG in a new house (Section 82) and up to Rs 50 lakh in specified bonds (Section 85). This dual-exemption strategy has been available since the 1961 Act and continues.",
+          "explanationWrong": "No mutual exclusivity. The client can claim both Section 82 (house) and Section 85 (bonds) for the same LTCG from a residential house, subject to each section's individual conditions and limits.",
+          "tier": 3,
+          "subConcepts": ["section-82", "section-85", "dual-exemption", "strategy"],
+          "isReview": false,
+          "oldSection": "Section 54, Section 54EC",
+          "newSection": "Section 82, Section 85"
+        },
+        {
+          "order": 3,
+          "question": "A colleague drafts an exemption claim under 'Section 54F of the Income Tax Act' for a transfer in FY 2027-28. What needs to be corrected?",
+          "options": [
+            { "text": "The section reference — it should be Section 86 of the ITA 2025; the exemption itself is unchanged", "correct": true },
+            { "text": "Nothing — Section 54F continues to apply", "correct": false },
+            { "text": "The exemption no longer exists", "correct": false },
+            { "text": "It should be Section 82, not Section 54F or 86", "correct": false }
+          ],
+          "explanation": "For transfers in FY 2027-28 (under the 2025 Act), the correct citation is Section 86. Old Section 54F is the 1961 Act reference. The exemption conditions are identical — only the section number has changed. Section 82 is for house-to-house (old 54), not asset-to-house (old 54F).",
+          "explanationWrong": "Pure citation error. The exemption is alive as Section 86. Section 82 would be wrong too — that is the house-to-house exemption (old 54). For non-house asset to house, it is Section 86 (old 54F).",
+          "tier": 3,
+          "subConcepts": ["section-86", "citation-correction", "section-54F"],
+          "isReview": true,
+          "oldSection": "Section 54F",
+          "newSection": "Section 86"
+        },
+        {
+          "order": 4,
+          "question": "A client in 2029 asks about claiming exemption under Section 54GB for investing in a startup. Your response:",
+          "options": [
+            { "text": "Section 54GB was not carried forward into the 2025 Act — it expired on 31 March 2025; no such exemption exists", "correct": true },
+            { "text": "The exemption is available under a new section number", "correct": false },
+            { "text": "DPIIT can grant the exemption by notification", "correct": false },
+            { "text": "The client should file under the 1961 Act using saving clauses", "correct": false }
+          ],
+          "explanation": "Section 54GB expired on 31 March 2025 and was not re-enacted. For a 2029 transfer, no equivalent exemption exists in the 2025 Act. If the government wants to revive this, it would need a fresh legislative amendment.",
+          "explanationWrong": "54GB is gone with no replacement. Saving clauses only protect transactions that occurred while the provision was alive. A 2029 transfer cannot benefit from a provision that expired in 2025.",
+          "tier": 3,
+          "subConcepts": ["section-54GB", "no-replacement", "sunset-expired"],
+          "isReview": false,
+          "oldSection": "Section 54GB",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client wants to deposit Rs 2 crore in CGAS electronically for a Section 82 exemption claim. Is there any limitation on the electronic deposit amount?",
+          "options": [
+            { "text": "No specific limitation on the electronic deposit amount — the Rs 10 crore cap applies to the exemption itself, not the deposit method", "correct": true },
+            { "text": "Electronic deposits are capped at Rs 50 lakh", "correct": false },
+            { "text": "Electronic deposits are only available for amounts below Rs 1 crore", "correct": false },
+            { "text": "Electronic deposits are not available for amounts above Rs 10 lakh", "correct": false }
+          ],
+          "explanation": "The electronic deposit facility has no separate amount cap. The Rs 10 crore cap (from FA 2023) applies to the total exemption under Section 82, not to the mode of deposit. A client can deposit Rs 2 crore electronically with no issue.",
+          "explanationWrong": "No amount restriction on electronic deposits. The CGAS just gained a new channel (electronic) alongside physical deposits. The exemption caps (Rs 10 crore for Sections 82/86, Rs 50 lakh for Section 85) apply regardless of deposit method.",
+          "tier": 3,
+          "subConcepts": ["CGAS", "electronic-deposits", "no-amount-cap"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "CGAS under 2025 Act"
+        }
+      ]
+    },
+    {
+      "title": "Cross-Concept Integration",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A CA firm is updating its exemption checklist for the 2025 Act. How many sections should the checklist contain, compared to the 1961 Act?",
+          "options": [
+            { "text": "Two fewer — 54EE and 54GB are dropped; the remaining 10 sections are renumbered", "correct": true },
+            { "text": "The same number — all exemptions continue with new numbers", "correct": false },
+            { "text": "Five fewer — several exemptions were consolidated", "correct": false },
+            { "text": "Two more — the 2025 Act adds new exemptions", "correct": false }
+          ],
+          "explanation": "The 1961 Act had 12 sections in the 54-55A range (including 54EE and 54GB). The 2025 Act has 10 (Sections 82-91). Two were dropped (54EE, 54GB). No new exemptions were added. The checklist shrinks by two items.",
+          "explanationWrong": "Exactly two fewer. Nothing was consolidated, nothing was added. 54EE (never operative) and 54GB (sunset expired) are simply gone. Update your checklist to reflect 10 sections, not 12.",
+          "tier": 3,
+          "subConcepts": ["checklist-update", "section-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "A client asks: 'Did the 2025 Act change any exemption conditions — time limits, caps, or lock-in periods?' Your answer:",
+          "options": [
+            { "text": "No — all conditions, time limits, caps, and lock-in periods are unchanged by the 2025 Act; earlier Finance Act changes are merely carried forward", "correct": true },
+            { "text": "Yes — time limits were extended for all exemptions", "correct": false },
+            { "text": "Yes — the Rs 10 crore cap was introduced by the 2025 Act", "correct": false },
+            { "text": "Yes — lock-in periods were shortened", "correct": false }
+          ],
+          "explanation": "The 2025 Act does not modify any exemption condition. Time limits, caps, and lock-in periods are all carried forward from the 1961 Act as amended. The Rs 10 crore cap was Finance Act 2023. The 2025 Act's changes are: two exemptions dropped, CGAS goes digital, and Section 536(2)(h) claw-back transition.",
+          "explanationWrong": "Zero exemption conditions changed by the 2025 Act. The Rs 10 crore cap was FA 2023. The only 2025 Act contributions are: (1) dropping 54EE and 54GB, (2) CGAS electronic deposits, (3) Section 536(2)(h) claw-back for straddling lock-ins.",
+          "tier": 3,
+          "subConcepts": ["no-condition-changes", "FA-attribution"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Identify the four genuine 2025 Act changes in Unit 7.3 (exemptions chapter):",
+          "options": [
+            { "text": "54EE dropped, 54GB dropped, CGAS electronic deposits, Section 536(2)(h) claw-back", "correct": true },
+            { "text": "54EE dropped, 54GB dropped, Rs 10 crore cap introduced, indexation removed", "correct": false },
+            { "text": "All exemptions redesigned, CGAS abolished, new startup exemption, rates changed", "correct": false },
+            { "text": "Only the section renumbering — no substantive changes", "correct": false }
+          ],
+          "explanation": "Four genuine 2025 Act changes: (1) Section 54EE not re-enacted, (2) Section 54GB not re-enacted, (3) CGAS now accepts electronic deposits, (4) Section 536(2)(h) creates a claw-back for post-April 2026 lock-in violations on old-Act exemptions. Everything else is renumbering or prior Finance Act changes carried forward.",
+          "explanationWrong": "The Rs 10 crore cap was Finance Act 2023, not the 2025 Act. Indexation removal was Finance Act 2024. The four genuine 2025 Act items are: two dropped exemptions, CGAS digital upgrade, and the Section 536(2)(h) transition claw-back.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "genuine-changes", "four-items"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client with an ongoing Section 54B (now Section 83) exemption claim for agricultural land asks whether the 2-year reinvestment window changed under the 2025 Act. Your answer:",
+          "options": [
+            { "text": "No — the 2-year window for purchasing new agricultural land is unchanged; Section 83 is a pure renumbering of 54B", "correct": true },
+            { "text": "Yes — the window was extended to 3 years", "correct": false },
+            { "text": "Yes — agricultural land exemption was removed entirely", "correct": false },
+            { "text": "The 2025 Act requires reinvestment within 1 year", "correct": false }
+          ],
+          "explanation": "Section 83 = old 54B, no changes. The 2-year reinvestment window continues. The agricultural land condition (used for agriculture for 2 years preceding transfer) also continues. This is pure renumbering.",
+          "explanationWrong": "No change to the 2-year window. Section 83 carries forward every condition from old Section 54B without modification. The 2025 Act does not touch agricultural land exemption conditions.",
+          "tier": 3,
+          "subConcepts": ["section-83", "agricultural-land", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 54B",
+          "newSection": "Section 83"
+        },
+        {
+          "order": 5,
+          "question": "Section 90 (old 55) defines cost of acquisition. For an asset acquired before 1 April 2001, can the assessee substitute FMV as on 1 April 2001?",
+          "options": [
+            { "text": "Yes — this rule continues unchanged under Section 90", "correct": true },
+            { "text": "No — the 2025 Act removed the FMV substitution option", "correct": false },
+            { "text": "Only if the asset is immovable property", "correct": false },
+            { "text": "Only if the asset was acquired by purchase (not by gift or inheritance)", "correct": false }
+          ],
+          "explanation": "Section 90 (old 55) continues the FMV substitution rule: for assets acquired before 1 April 2001, the assessee can choose between actual cost and FMV as on 1 April 2001. This applies to all capital assets. Renumbered only.",
+          "explanationWrong": "The FMV substitution for pre-2001 assets is a long-standing rule preserved in Section 90. It applies to all assets, whether acquired by purchase, gift, or inheritance. No change by the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["section-90", "FMV-substitution", "pre-2001", "unchanged"],
+          "isReview": false,
+          "oldSection": "Section 55",
+          "newSection": "Section 90"
+        }
+      ]
+    },
+    {
+      "title": "Rapid Fire — Distinguish and Decide",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Quick match: Section 88 of the ITA 2025 corresponds to which old section and what does it cover?",
+          "options": [
+            { "text": "Old Section 54GA — exemption for shifting industrial undertaking to SEZ", "correct": true },
+            { "text": "Old Section 54G — exemption for shifting from urban to non-urban area", "correct": false },
+            { "text": "Old Section 54H — NRI extension of time", "correct": false },
+            { "text": "Old Section 54EC — bonds exemption", "correct": false }
+          ],
+          "explanation": "Section 88 = old 54GA = shifting to SEZ. Section 87 = old 54G = urban to non-urban. Don't confuse the two G sections: 54G (general shifting, now 87) and 54GA (SEZ shifting, now 88).",
+          "explanationWrong": "Section 88 is SEZ shifting (old 54GA). Section 87 is general urban-to-rural shifting (old 54G). The A suffix in 54GA distinguishes the SEZ-specific provision from the general one.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "section-54GA-to-88", "rapid-recall"],
+          "isReview": false,
+          "oldSection": "Section 54GA",
+          "newSection": "Section 88"
+        },
+        {
+          "order": 2,
+          "question": "A colleague says: 'The 2025 Act introduced the Rs 10 crore cap on house purchase exemptions.' Is this correct?",
+          "options": [
+            { "text": "No — the Rs 10 crore cap was introduced by Finance Act 2023; the 2025 Act merely carries it forward", "correct": true },
+            { "text": "Yes — it is a new 2025 Act provision", "correct": false },
+            { "text": "Partially — the 2025 Act increased it from Rs 5 crore to Rs 10 crore", "correct": false },
+            { "text": "The cap applies only under Section 82, not Section 86", "correct": false }
+          ],
+          "explanation": "The Rs 10 crore cap was Finance Act 2023, effective AY 2024-25. It applies to both Sections 82 and 86 (old 54 and 54F). The 2025 Act incorporates this as part of the base statute but did not create it. Attribution matters.",
+          "explanationWrong": "This is a Finance Act 2023 change, not a 2025 Act change. The 2025 Act codifies it into the base statute. The cap applies to both house-to-house (Section 82) and other-asset-to-house (Section 86) exemptions.",
+          "tier": 3,
+          "subConcepts": ["Rs-10-crore-cap", "FA-2023-attribution", "misconception"],
+          "isReview": false,
+          "oldSection": "Section 54, Section 54F",
+          "newSection": "Section 82, Section 86"
+        },
+        {
+          "order": 3,
+          "question": "A firm is migrating exemption templates. They need to replace old section numbers with new ones and remove two exemptions. Which two must be removed?",
+          "options": [
+            { "text": "54EE (never operative — fund never notified) and 54GB (sunset expired 31 March 2025)", "correct": true },
+            { "text": "54G (urban shifting) and 54GA (SEZ shifting)", "correct": false },
+            { "text": "54D (compulsory acquisition) and 54H (NRI extension)", "correct": false },
+            { "text": "54EC (bonds) and 54EE (startup fund)", "correct": false }
+          ],
+          "explanation": "Remove 54EE and 54GB from your templates. 54EE was a dead letter (specified fund never notified). 54GB expired 31 March 2025. All other exemptions (54, 54B, 54D, 54EC, 54F, 54G, 54GA, 54H) continue with new section numbers.",
+          "explanationWrong": "Only 54EE and 54GB are removed. Every other exemption survives under a new number. 54G→87, 54GA→88 — both alive. 54D→84, 54H→89 — both alive. 54EC→85 — alive.",
+          "tier": 3,
+          "subConcepts": ["dropped-exemptions", "template-migration"],
+          "isReview": true,
+          "oldSection": "Section 54EE, Section 54GB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client who claimed Section 54F exemption (now Section 86) in AY 2024-25 has a 3-year lock-in on the new house. The lock-in expires in FY 2026-27. If they sell the house in FY 2026-27 (post-April 2026), what governs the claw-back?",
+          "options": [
+            { "text": "The 2025 Act — Section 536(2)(h) applies because the violation occurs after 1 April 2026", "correct": true },
+            { "text": "The 1961 Act — the original claim was under old Section 54F", "correct": false },
+            { "text": "No claw-back — the lock-in is under the old Act", "correct": false },
+            { "text": "The client can choose whichever Act is more favourable", "correct": false }
+          ],
+          "explanation": "FY 2026-27 is post-April 2026, so Section 536(2)(h) applies. Even though the original exemption was under old Section 54F, the lock-in violation in the 2025 Act period triggers claw-back under 2025 Act provisions.",
+          "explanationWrong": "The violation date is what matters. Post-April 2026 = 2025 Act governs via Section 536(2)(h). No choice between Acts. The original claiming Act is irrelevant for determining the claw-back rules.",
+          "tier": 3,
+          "subConcepts": ["section-536-2-h", "section-54F", "claw-back", "lock-in"],
+          "isReview": false,
+          "oldSection": "Section 54F",
+          "newSection": "Section 536(2)(h)"
+        },
+        {
+          "order": 5,
+          "question": "Final synthesis: How many genuine 2025 Act changes exist in the exemptions chapter (Unit 7.3)?",
+          "options": [
+            { "text": "Four: 54EE dropped, 54GB dropped, CGAS electronic deposits, Section 536(2)(h) claw-back transition", "correct": true },
+            { "text": "Zero — everything is pure renumbering", "correct": false },
+            { "text": "Ten — every section has some modification", "correct": false },
+            { "text": "Two — only the dropped exemptions", "correct": false }
+          ],
+          "explanation": "Four and only four genuine 2025 Act changes: (1) 54EE not re-enacted, (2) 54GB not re-enacted, (3) CGAS accepts electronic deposits, (4) Section 536(2)(h) claw-back for post-April 2026 lock-in violations. Everything else in this chapter is renumbering or prior Finance Act changes carried forward.",
+          "explanationWrong": "The full count is four. Two dropped exemptions + CGAS digital upgrade + Section 536(2)(h). Don't forget the CGAS and claw-back provisions — they are genuine 2025 Act additions beyond the two dropped sections.",
+          "tier": 3,
+          "subConcepts": ["synthesis", "genuine-changes-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

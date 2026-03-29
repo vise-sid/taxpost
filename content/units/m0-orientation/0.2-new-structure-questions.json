@@ -1,0 +1,835 @@
+{
+  "unit": "0.2",
+  "title": "The New Structure at a Glance",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Big Numbers",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many sections does the Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "298", "correct": false },
+            { "text": "536", "correct": true },
+            { "text": "622", "correct": false },
+            { "text": "819", "correct": false }
+          ],
+          "explanation": "The new Act has 536 sections — a 35% reduction from the old Act's 819. This is the single most-cited number in every comparison. 622 is the page count, not section count.",
+          "explanationWrong": "The new Act has 536 sections (down from 819 — a 35% reduction). Common mix-ups: 298 was the original 1961 count, 622 is the page count, and 819 is the old Act's final count.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "section-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "By what percentage did the word count reduce from the old Act to the new Act?",
+          "options": [
+            { "text": "24%", "correct": false },
+            { "text": "35%", "correct": false },
+            { "text": "49%", "correct": true },
+            { "text": "51%", "correct": false }
+          ],
+          "explanation": "The word count dropped by approximately 49% — from ~5.12 lakh to ~2.6 lakh words. The 35% figure refers to section reduction, and 51% refers to chapter reduction.",
+          "explanationWrong": "The word count reduced by about 49% (from ~5.12 lakh to ~2.6 lakh words). Each percentage refers to a different metric: 24% = page reduction, 35% = section reduction, 49% = word reduction, 51% = chapter reduction.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "word-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "When did the Income Tax Bill, 2025 receive Presidential assent?",
+          "options": [
+            { "text": "February 13, 2025", "correct": false },
+            { "text": "April 1, 2025", "correct": false },
+            { "text": "August 18, 2025", "correct": true },
+            { "text": "April 1, 2026", "correct": false }
+          ],
+          "explanation": "Presidential assent was received on August 18, 2025. February 13 was when the original bill was introduced, and April 1, 2026 is the effective date.",
+          "explanationWrong": "The bill received Presidential assent on August 18, 2025. Key dates to remember: Feb 13, 2025 = bill introduced; Aug 18, 2025 = assent; April 1, 2026 = effective date. These three dates form the timeline anchor.",
+          "tier": 1,
+          "subConcepts": ["timeline", "legislative-process"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many schedules does the new Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "14", "correct": false },
+            { "text": "16", "correct": true },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": false }
+          ],
+          "explanation": "The new Act has 16 schedules — actually an increase from 14 in the old Act. More schedules because complex provisions were pulled out of section text into structured schedules. 23 is the chapter count, 39 is the table count.",
+          "explanationWrong": "The new Act has 16 schedules (up from 14). This is one of the few metrics that increased — complex provisions were deliberately moved into schedules for clarity. Don't confuse with 23 (chapters) or 39 (tables).",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "schedule-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Sections 1 through 7 in the new Act cover the same topics as Sections 1 through 7 in the old Act.",
+          "options": [
+            { "text": "True — the foundation sections are nearly identical in numbering", "correct": true },
+            { "text": "False — the numbering is completely different from Section 1 itself", "correct": false },
+            { "text": "True — but only Sections 1 and 2 match", "correct": false },
+            { "text": "False — only the first 3 sections match", "correct": false }
+          ],
+          "explanation": "Sections 1-7 cover the same topics in both Acts: short title, definitions, tax year/previous year, charge of tax, scope of income, residence, and deemed income. The numbering diverges significantly only after Section 9.",
+          "explanationWrong": "Sections 1 through 7 are indeed nearly identical in both Acts — covering fundamentals like definitions, charge of tax, scope of income, and residence. This provides familiar footing. The divergence starts after Section 9.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "section-numbering"],
+          "isReview": false,
+          "oldSection": "Sections 1-7",
+          "newSection": "Sections 1-7"
+        }
+      ]
+    },
+    {
+      "title": "What Changed Form",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What happened to the ~1,200 provisos in the old Act?",
+          "options": [
+            { "text": "They were retained as provisos", "correct": false },
+            { "text": "They were converted to sub-sections or removed", "correct": true },
+            { "text": "They were moved to schedules", "correct": false },
+            { "text": "They were converted to tables", "correct": false }
+          ],
+          "explanation": "All ~1,200 provisos were either converted into standalone sub-sections (if the exception was necessary) or removed entirely (if redundant). Zero provisos remain in the new Act.",
+          "explanationWrong": "The new Act has zero provisos. All ~1,200 were either converted to clear, numbered sub-sections or removed if redundant. This is one of the most dramatic structural changes — no more chaining 'Provided that...' clauses.",
+          "tier": 1,
+          "subConcepts": ["provisos", "structural-changes"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What happened to the ~900 Explanations in the old Act?",
+          "options": [
+            { "text": "They were eliminated entirely", "correct": false },
+            { "text": "They were moved to a separate glossary", "correct": false },
+            { "text": "They were converted to numbered sub-sections", "correct": true },
+            { "text": "They were moved to schedules", "correct": false }
+          ],
+          "explanation": "All ~900 Explanations were converted into numbered sub-sections within the main section text. They're no longer annotations appended after the operative provision — they're part of the section itself.",
+          "explanationWrong": "The ~900 Explanations were converted to numbered sub-sections — not eliminated (their content was needed) and not moved to schedules. They're now integrated into the section text with proper numbering, making them easier to reference.",
+          "tier": 1,
+          "subConcepts": ["explanations", "structural-changes"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "How many substantive amendments did the Select Committee make to the original Income Tax Bill, 2025?",
+          "options": [
+            { "text": "31", "correct": false },
+            { "text": "84", "correct": true },
+            { "text": "285", "correct": false },
+            { "text": "536", "correct": false }
+          ],
+          "explanation": "The Select Committee accepted 84 substantive amendments out of 285 recommendations received. 31 was the number of committee members.",
+          "explanationWrong": "84 substantive amendments were accepted. The numbers to distinguish: 31 = committee members, 285 = total recommendations received, 84 = amendments accepted, 536 = sections in the final Act.",
+          "tier": 1,
+          "subConcepts": ["select-committee", "legislative-process"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How many new tables were introduced in the Income Tax Act, 2025?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "47", "correct": false }
+          ],
+          "explanation": "39 new tables were introduced, converting complex prose provisions into structured, scannable formats. Key examples: TDS rates in Section 393, perquisite valuation, depreciation rates, and presumptive thresholds.",
+          "explanationWrong": "The new Act introduces 39 tables. Remember the key numbers: 16 schedules, 23 chapters, 39 tables, 536 sections. Tables are one of the most practically useful additions — you'll reference TDS tables daily.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "tables"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Did the number of schedules increase or decrease in the new Act?",
+          "options": [
+            { "text": "Decreased from 16 to 14", "correct": false },
+            { "text": "Stayed the same at 14", "correct": false },
+            { "text": "Increased from 14 to 16", "correct": true },
+            { "text": "Increased from 14 to 23", "correct": false }
+          ],
+          "explanation": "Schedules increased from 14 to 16 — one of the few metrics that went up. Complex provisions were deliberately moved into schedules for better organization, especially the old Section 10 exemptions which became Schedules II-VII.",
+          "explanationWrong": "Schedules went up from 14 to 16. While almost everything else shrank, schedules grew because the Act deliberately pulled complex provisions out of section text into structured schedules. The biggest example: Section 10's 140+ clauses became Schedules II-VII.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "schedule-count"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Key Section Mappings",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new Act, what section number replaces the old Section 80C (LIC, PF, ELSS deductions)?",
+          "options": [
+            { "text": "Section 80", "correct": false },
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 153", "correct": false },
+            { "text": "Section 133", "correct": false }
+          ],
+          "explanation": "Old Section 80C is now Section 123. There's no mathematical pattern — you need to learn the mapping. Section 153 is savings bank interest (old 80TTA/80TTB), and Section 133 is donations (old 80G).",
+          "explanationWrong": "Section 80C → Section 123. The new numbering has no mathematical relationship to the old one. Build your mental map: 80C→123, 80D→126, 80G→133, 80TTA→153. These are the deductions you'll reference most.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deductions"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 2,
+          "question": "TDS on salary under the new Act is covered by which section?",
+          "options": [
+            { "text": "Section 192", "correct": false },
+            { "text": "Section 392", "correct": true },
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "TDS on salary moved from Section 192 to Section 392. It's the one TDS provision that kept its own dedicated section. Section 393 covers all other TDS, and Section 394 is TCS.",
+          "explanationWrong": "TDS on salary is Section 392 (was Section 192). Memory aid: salary TDS kept its own section — 392. Everything else consolidated into 393 (three tables). TCS is 394. The TDS trio: 392, 393, 394.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "tds"],
+          "isReview": false,
+          "oldSection": "Section 192",
+          "newSection": "Section 392"
+        },
+        {
+          "order": 3,
+          "question": "The old Act started with approximately 298 sections when it was enacted in 1961. How many did it grow to?",
+          "options": [
+            { "text": "536", "correct": false },
+            { "text": "622", "correct": false },
+            { "text": "700", "correct": false },
+            { "text": "819", "correct": true }
+          ],
+          "explanation": "The 1961 Act grew from ~298 to 819 sections over 63 years of continuous amendments — nearly tripling. 536 is the new Act's count, 622 is the new Act's page count.",
+          "explanationWrong": "The old Act ballooned from ~298 to 819 sections — a nearly 3x increase over 63 years. This growth through amendments, not clean rewrites, is exactly what made it unwieldy and necessitated the new Act.",
+          "tier": 1,
+          "subConcepts": ["old-act-complexity", "section-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "What is the new section number for filing income tax returns (old Section 139)?",
+          "options": [
+            { "text": "Section 139", "correct": false },
+            { "text": "Section 262", "correct": false },
+            { "text": "Section 263", "correct": true },
+            { "text": "Section 266", "correct": false }
+          ],
+          "explanation": "Return filing moved from Section 139 to Section 263. Section 262 is PAN (old 139A), and Section 266 is self-assessment tax (old 140A). These are clustered together in the new Act.",
+          "explanationWrong": "Return filing is now Section 263. Nearby sections to remember: 262 = PAN (old 139A), 263 = return filing (old 139), 266 = self-assessment tax (old 140A). They're grouped logically in the new Act.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "return-filing"],
+          "isReview": false,
+          "oldSection": "Section 139",
+          "newSection": "Section 263"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 44AB (tax audit) maps to which new section?",
+          "options": [
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 63", "correct": true },
+            { "text": "Section 262", "correct": false }
+          ],
+          "explanation": "Tax audit moved from Section 44AB to Section 63. Section 58 is presumptive taxation (old 44AD/ADA/AE). The business/profession sections are consolidated in the new Act's early chapters.",
+          "explanationWrong": "Tax audit is now Section 63 (was 44AB). Don't confuse with Section 58 which is presumptive taxation (old 44AD/ADA/AE). Both are in the business/profession chapter but cover different things.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "tax-audit"],
+          "isReview": false,
+          "oldSection": "Section 44AB",
+          "newSection": "Section 63"
+        }
+      ]
+    },
+    {
+      "title": "Why the Structure Changed",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the number of schedules increase from 14 to 16, while almost every other metric decreased?",
+          "options": [
+            { "text": "New tax policies required additional schedules", "correct": false },
+            { "text": "Complex provisions were pulled out of section text into schedules for clarity", "correct": true },
+            { "text": "International tax treaties required separate schedules", "correct": false },
+            { "text": "The old schedules were split into smaller ones", "correct": false }
+          ],
+          "explanation": "More schedules = better organization. Complex provisions buried in section text (especially Section 10's 140+ exemption clauses) were moved to dedicated schedules, making them easier to find and read.",
+          "explanationWrong": "The schedule increase was deliberate — it's about organization, not new policy. The biggest example: old Section 10 had 140+ exemption clauses crammed into one section. These became Schedules II through VII, each covering a specific category of exemption.",
+          "tier": 2,
+          "subConcepts": ["schedule-reorganization", "structural-rationale"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Section 11, Schedules II-VII"
+        },
+        {
+          "order": 2,
+          "question": "What was the core problem with the proviso system that led to all 1,200 being eliminated?",
+          "options": [
+            { "text": "Provisos were legally invalid", "correct": false },
+            { "text": "Nested 'Provided that' chains made sections unreadable and created ambiguity", "correct": true },
+            { "text": "Provisos only applied to specific states", "correct": false },
+            { "text": "The Supreme Court ordered their removal", "correct": false }
+          ],
+          "explanation": "Provisos created chains of exceptions-to-exceptions. A section with 10+ provisos required you to mentally track which 'Provided that' overrode which. Converting them to numbered sub-sections makes each exception independently readable.",
+          "explanationWrong": "The issue was readability and ambiguity. When a section has 10+ provisos, each starting with 'Provided that...' or 'Provided further that...', you must mentally track a chain of exceptions. Sub-sections with clear numbers (2), (3), (4) are independently readable.",
+          "tier": 2,
+          "subConcepts": ["provisos", "structural-rationale"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The new Income Tax Act, 2025 is best described as:",
+          "options": [
+            { "text": "A new tax policy framework with different rates and exemptions", "correct": false },
+            { "text": "A rewrite of the same law in clearer language and better organization", "correct": true },
+            { "text": "A temporary Act to bridge between old and new tax regimes", "correct": false },
+            { "text": "A simplified version that removes most deductions and exemptions", "correct": false }
+          ],
+          "explanation": "The 2025 Act is a rewrite, not a reform. Same substance — same rates, same deductions, same exemptions — but reorganized, simplified language, and better structure.",
+          "explanationWrong": "The Act is a rewrite, not a reform. No new taxes were introduced, no rates changed, no deductions removed. Think of it as translating a 63-year-old book into plain language and reorganizing the chapters — without changing the story.",
+          "tier": 2,
+          "subConcepts": ["act-nature", "rewrite-vs-reform"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Why was the alphabetical section numbering system (like 80CCA, 80CCB) problematic for practitioners?",
+          "options": [
+            { "text": "Alphabetical suffixes are harder to type", "correct": false },
+            { "text": "It created a maze of similar-looking references that were easy to confuse and hard to navigate", "correct": true },
+            { "text": "Computers couldn't process alphabetical section numbers", "correct": false },
+            { "text": "Only senior CAs could understand the naming convention", "correct": false }
+          ],
+          "explanation": "When Section 80C spawned 80CC, 80CCA through 80CCH, practitioners had to navigate a maze of near-identical references. Section 80CCD(1B)(ii) vs 80CCD(2) required extreme precision. Sequential numbers (123, 124, 125) eliminate this confusion.",
+          "explanationWrong": "The issue wasn't technical — it was practical. When deduction sections looked like 80C, 80CC, 80CCA, 80CCB, 80CCC, 80CCD, 80CCE... referencing the right one in a return or advisory required extreme care. Sequential numbering (123, 124, 125) is inherently clearer.",
+          "tier": 2,
+          "subConcepts": ["section-numbering", "structural-rationale"],
+          "isReview": false,
+          "oldSection": "Section 80C-80CCH",
+          "newSection": "Sections 123-154"
+        },
+        {
+          "order": 5,
+          "question": "Why do Sections 1-7 remain nearly identical in numbering between the old and new Acts?",
+          "options": [
+            { "text": "These sections were too complex to renumber", "correct": false },
+            { "text": "These foundational provisions (definitions, charge, scope, residence) are logically first in any income tax statute", "correct": true },
+            { "text": "The Select Committee specifically requested they remain unchanged", "correct": false },
+            { "text": "Only Sections 1 and 2 are the same; the rest differ", "correct": false }
+          ],
+          "explanation": "Foundational provisions — what is income, who is taxable, what is residence — naturally come first in any tax statute. The drafters maintained this logical order, giving CAs familiar footing before the numbering diverges.",
+          "explanationWrong": "It's logical structure, not special treatment. Definitions, charge of tax, scope of income, and residence rules are the bedrock of any income tax law — they belong at the start. This gives CAs a familiar anchor: the first 7 sections cover the same ground.",
+          "tier": 2,
+          "subConcepts": ["section-numbering", "foundation-sections"],
+          "isReview": false,
+          "oldSection": "Sections 1-7",
+          "newSection": "Sections 1-7"
+        }
+      ]
+    },
+    {
+      "title": "Comparing Old and New",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How does the chapter count change reflect the reorganization philosophy?",
+          "options": [
+            { "text": "Chapters were split into more granular units", "correct": false },
+            { "text": "Related provisions scattered across multiple chapters were consolidated logically", "correct": true },
+            { "text": "Only tax rate chapters were merged", "correct": false },
+            { "text": "International tax chapters were removed", "correct": false }
+          ],
+          "explanation": "Going from 47 to 23 chapters reflects consolidation — provisions that were scattered across multiple old chapters are now grouped by topic. Each income head now has its own dedicated chapter instead of being crammed together.",
+          "explanationWrong": "The 47→23 reduction happened through logical consolidation. Instead of scattering related provisions across chapters (as happened over 63 years of amendments), the new Act groups them by topic. Income heads each get a dedicated chapter.",
+          "tier": 2,
+          "subConcepts": ["chapter-reorganization", "structural-rationale"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What is the practical advantage of tables over prose for provisions like TDS rates?",
+          "options": [
+            { "text": "Tables use fewer words", "correct": false },
+            { "text": "Tables allow quick lookup of specific rates without reading through entire sections", "correct": true },
+            { "text": "Tables are required by international standards", "correct": false },
+            { "text": "Tables prevent amendments", "correct": false }
+          ],
+          "explanation": "Under the old Act, finding a TDS rate meant reading through 30+ separate sections to find the right one. A table lets you scan rows until you find your payment type — lookup in seconds instead of minutes.",
+          "explanationWrong": "The key advantage is quick, targeted lookup. With 30+ TDS sections in the old Act, finding the right rate for a specific payment type was like searching through a book chapter by chapter. A table lets you scan directly to your row.",
+          "tier": 2,
+          "subConcepts": ["tables", "practical-impact"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "How many separate TDS sections existed in the old Act before consolidation?",
+          "options": [
+            { "text": "3", "correct": false },
+            { "text": "10", "correct": false },
+            { "text": "30+", "correct": true },
+            { "text": "140+", "correct": false }
+          ],
+          "explanation": "The old Act had 30+ TDS sections (192, 193, 194, 194A, 194B, 194BB, 194C... up to 196D). These are now consolidated into just 3 sections: 392 (salary), 393 (other payments), 394 (TCS). The 140+ figure refers to Section 10's exemption clauses.",
+          "explanationWrong": "There were 30+ separate TDS sections in the old Act (Sections 192 through 196D). They're now just 3 sections: 392, 393, 394. Don't confuse with 140+ — that's the clause count from old Section 10 (exemptions), not TDS.",
+          "tier": 2,
+          "subConcepts": ["tds-consolidation", "old-act-complexity"],
+          "isReview": true,
+          "oldSection": "Sections 192-196D",
+          "newSection": "Sections 392-394"
+        },
+        {
+          "order": 4,
+          "question": "What is the significance of the new Act having MORE schedules than the old Act?",
+          "options": [
+            { "text": "It shows the new Act is actually more complex", "correct": false },
+            { "text": "It demonstrates that good organization sometimes means more structure, not less", "correct": true },
+            { "text": "The additional schedules are empty placeholders for future provisions", "correct": false },
+            { "text": "It was a mistake that the Select Committee noted", "correct": false }
+          ],
+          "explanation": "More schedules doesn't mean more complexity — it means better organization. Pulling 140+ exemption clauses from Section 10 into 6 organized schedules (II-VII) makes each schedule focused and navigable. Structure went up so complexity went down.",
+          "explanationWrong": "Counter-intuitive but logical: more schedules = less complexity. When 140+ exemption clauses were crammed into one Section 10, finding the right one was painful. Six organized schedules (II-VII) are easier to navigate than one mega-section.",
+          "tier": 2,
+          "subConcepts": ["schedule-reorganization", "structural-rationale"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "The new Act's section numbers bear what relationship to the old Act's section numbers?",
+          "options": [
+            { "text": "Old number + 200 = new number", "correct": false },
+            { "text": "No mathematical relationship — must be learned fresh", "correct": true },
+            { "text": "Same numbers for the first 100 sections, then different", "correct": false },
+            { "text": "Old number × 2 = new number (approximately)", "correct": false }
+          ],
+          "explanation": "There is no formula to convert old section numbers to new ones. Section 80C became 123, Section 192 became 392, Section 139 became 263. Each mapping must be learned individually — there's no shortcut.",
+          "explanationWrong": "No mathematical pattern exists. 80C→123, 192→392, 139→263, 44AB→63 — these mappings follow no formula. You'll need to learn the high-frequency ones (TDS, returns, deductions) through practice, which is exactly what this app is built for.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "section-numbering"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Implications for Practice",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which structural change most directly impacts a CA's daily TDS compliance work?",
+          "options": [
+            { "text": "Reduction in chapters from 47 to 23", "correct": false },
+            { "text": "Consolidation of 30+ TDS sections into 3 sections with tables", "correct": true },
+            { "text": "Elimination of provisos", "correct": false },
+            { "text": "Increase in schedules from 14 to 16", "correct": false }
+          ],
+          "explanation": "For daily TDS work, the consolidation of 30+ sections into just 392 (salary), 393 (other payments with 3 tables), and 394 (TCS) is the most directly impactful change. Everything you need is now in one place.",
+          "explanationWrong": "TDS is the most frequent compliance task for most CAs. Having 30+ scattered sections vs. 3 organized sections is a massive practical difference. You'll go to Section 393's tables daily — this is the structural change you'll feel most.",
+          "tier": 2,
+          "subConcepts": ["tds-consolidation", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Sections 192-196D",
+          "newSection": "Sections 392-394"
+        },
+        {
+          "order": 2,
+          "question": "Why does the elimination of provisos reduce litigation risk?",
+          "options": [
+            { "text": "Fewer provisos means fewer provisions overall", "correct": false },
+            { "text": "Provisos created ambiguity about which exception applied in a given situation", "correct": true },
+            { "text": "Provisos were always unconstitutional", "correct": false },
+            { "text": "Courts refused to interpret provisos", "correct": false }
+          ],
+          "explanation": "Nested provisos ('Provided that... Provided further that...') created layered exceptions where the scope of each was debatable. Courts and tribunals frequently disagreed on interpretation. Clear sub-sections leave less room for competing readings.",
+          "explanationWrong": "The link between provisos and litigation was direct: when you have 10 nested exceptions, each potentially overriding the others, different professionals and courts read them differently. Numbered sub-sections state each rule independently, reducing interpretive disputes.",
+          "tier": 2,
+          "subConcepts": ["provisos", "litigation-reduction"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The Finance Minister announced the comprehensive review of the Income Tax Act in which Budget speech?",
+          "options": [
+            { "text": "Budget 2023", "correct": false },
+            { "text": "Budget 2024 (July 23, 2024)", "correct": true },
+            { "text": "Budget 2025", "correct": false },
+            { "text": "Budget 2022", "correct": false }
+          ],
+          "explanation": "FM Nirmala Sitharaman announced the comprehensive review in her Union Budget speech on July 23, 2024. The bill was then introduced in February 2025 and passed later that year.",
+          "explanationWrong": "The announcement came in the July 23, 2024 Budget speech. The timeline: announcement (July 2024) → bill introduced (Feb 2025) → Select Committee review → bill passed and assent (Aug 2025) → effective date (April 2026).",
+          "tier": 2,
+          "subConcepts": ["timeline", "legislative-process"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "What advantage does the table-based format for perquisite valuation offer over the old prose format?",
+          "options": [
+            { "text": "Tables allow higher perquisite values", "correct": false },
+            { "text": "Each perquisite type (car, accommodation, etc.) has its own clearly structured row with conditions and values", "correct": true },
+            { "text": "Tables are automatically updated annually", "correct": false },
+            { "text": "Tables eliminate the need for perquisite valuation", "correct": false }
+          ],
+          "explanation": "Previously, perquisite rules for car, accommodation, and other benefits were buried in complex proviso-laden sections. Now each type has a structured row in a table with clear conditions, values, and limits — scan to your row, apply the rule.",
+          "explanationWrong": "Tables don't change the law — they change the presentation. Instead of reading through paragraphs of 'Provided that if the car is owned by the employer and used partly for personal purposes...', you look up 'Motor car → Owned by employer → Partly personal' in a table row.",
+          "tier": 2,
+          "subConcepts": ["tables", "perquisites", "practical-impact"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "For a CA who has memorized old section numbers, what is the most practical first step to transition?",
+          "options": [
+            { "text": "Memorize all 536 new section numbers before the Act takes effect", "correct": false },
+            { "text": "Learn the high-frequency mappings first (TDS, returns, deductions, audit)", "correct": true },
+            { "text": "Wait until the first return filing deadline to learn the new numbers", "correct": false },
+            { "text": "Continue using old section numbers since courts will accept them", "correct": false }
+          ],
+          "explanation": "Focus on the sections you use daily: TDS (392-394), returns (263), deductions (123-154), tax audit (63), presumptive (58). Master these first, and the rest will follow naturally through practice.",
+          "explanationWrong": "Trying to memorize 536 sections at once is futile. Start with the 20-30 sections you reference daily — TDS, return filing, deductions, audit, interest provisions. These cover 80% of daily practice. Build from there.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "transition-strategy"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Real-World Mapping",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client emails you: 'I saw something about Section 80C deductions changing. Do I lose my ELSS benefits?' What do you tell them?",
+          "options": [
+            { "text": "Yes, ELSS deductions have been removed in the new Act", "correct": false },
+            { "text": "Section 80C is now Section 123 — same deduction, new number. No benefits are lost.", "correct": true },
+            { "text": "ELSS deductions are now under Schedule II", "correct": false },
+            { "text": "Section 80C was merged into Section 80D", "correct": false }
+          ],
+          "explanation": "This is the #1 client question you'll face. The answer: 80C → 123. Same deduction, same limits, same eligible instruments (LIC, PF, ELSS, etc.). Only the section reference changed. Being able to explain this calmly is a competitive advantage.",
+          "explanationWrong": "Clients will confuse 'rewrite' with 'removal.' Section 80C simply became Section 123 — identical substance. Reassure your client: same deductions, same limits, same eligible instruments. Only the section number in the Act changed.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "client-communication", "deductions"],
+          "isReview": false,
+          "oldSection": "Section 80C",
+          "newSection": "Section 123"
+        },
+        {
+          "order": 2,
+          "question": "Your article assistant is preparing a TDS computation and asks: 'Which section do I cite for TDS on professional fees to a resident?' Under the new Act, the correct reference is:",
+          "options": [
+            { "text": "Section 194J", "correct": false },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 393, Table 1", "correct": true },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "Professional fees to a resident fall under Section 393, Table 1 (which covers TDS on payments to residents). Section 392 is only for salary TDS. The old Section 194J no longer exists as a standalone section.",
+          "explanationWrong": "Under the new Act: salary TDS = 392, all other TDS = 393 (Table 1 for residents, Table 2 for non-residents, Table 3 for any person), TCS = 394. Professional fees to a resident → Section 393, Table 1.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "tds", "professional-practice"],
+          "isReview": false,
+          "oldSection": "Section 194J",
+          "newSection": "Section 393, Table 1"
+        },
+        {
+          "order": 3,
+          "question": "How many pages does the new Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "536", "correct": false },
+            { "text": "622", "correct": true },
+            { "text": "823", "correct": false },
+            { "text": "819", "correct": false }
+          ],
+          "explanation": "The new Act has 622 pages (down from 823 — a 24% reduction). Don't confuse with 536 (section count) or 819 (old section count). 823 was the old Act's page count.",
+          "explanationWrong": "622 pages is the new Act's length (down from 823 — a 24% reduction). Keep the numbers straight: 536 = new sections, 622 = new pages, 819 = old sections, 823 = old pages.",
+          "tier": 3,
+          "subConcepts": ["new-act-structure", "page-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "During a training session, a senior partner claims: 'The new Act is just cosmetic — same sections, same numbers, just reformatted.' How would you correct this?",
+          "options": [
+            { "text": "The senior partner is correct — it's just reformatting", "correct": false },
+            { "text": "The substance is the same but section numbers are completely different, requiring practitioners to learn a new reference system", "correct": true },
+            { "text": "The tax rates have changed significantly", "correct": false },
+            { "text": "Only the TDS sections changed numbers", "correct": false }
+          ],
+          "explanation": "The partner is half right (substance didn't change) but dangerously wrong about 'same numbers.' Every section reference changes — 80C→123, 139→263, 192→392. A CA citing old section numbers in filings after April 2026 will face compliance issues.",
+          "explanationWrong": "The substance is the same — no new taxes, no rate changes. But 'same numbers' is flat wrong. Every section has been renumbered. A CA who assumes they can keep citing Section 194C in a return filed after April 2026 is in for a rude surprise.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "professional-practice", "transition-strategy"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "You're updating your firm's standard TDS checklist. Under the old Act, you had separate entries for Sections 194A, 194C, 194H, 194I, 194J, and 194Q. Under the new Act, how many section entries do you need for all non-salary TDS?",
+          "options": [
+            { "text": "6 (one for each old section)", "correct": false },
+            { "text": "3 (one for each table in Section 393)", "correct": false },
+            { "text": "1 (Section 393 with 3 tables)", "correct": true },
+            { "text": "2 (Section 393 and Section 394)", "correct": false }
+          ],
+          "explanation": "All non-salary TDS is under one section: 393. Within it, three tables organize payments by recipient type. Your checklist entry is just 'Section 393' — then you consult the relevant table (1 for residents, 2 for non-residents, 3 for any person).",
+          "explanationWrong": "Just one section entry: Section 393. The three tables within it organize by recipient type, but it's still one section. Section 394 is TCS (collection at source), not TDS. Your checklist just got dramatically shorter.",
+          "tier": 3,
+          "subConcepts": ["tds-consolidation", "professional-practice"],
+          "isReview": false,
+          "oldSection": "Sections 194A-194Q",
+          "newSection": "Section 393"
+        }
+      ]
+    },
+    {
+      "title": "Navigating the New Framework",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client's old tax filing cited '80CCD(1B)' for additional NPS deduction. Under the new Act, which section would this fall under?",
+          "options": [
+            { "text": "Section 80", "correct": false },
+            { "text": "Section 123", "correct": false },
+            { "text": "Section 124", "correct": true },
+            { "text": "Section 126", "correct": false }
+          ],
+          "explanation": "Old Section 80CCD (all subsections including 1B) maps to new Section 124. The alphabetical soup of 80C/80CC/80CCD is replaced by clean sequential numbers: 123 (old 80C), 124 (old 80CCD), 126 (old 80D).",
+          "explanationWrong": "80CCD → 124. The entire 80CCD provision (including subsections 1, 1B, 2) consolidated into Section 124. Remember: 123 = old 80C, 124 = old 80CCD, 126 = old 80D. No more 80CCD(1B)(ii) notation.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "deductions", "nps"],
+          "isReview": false,
+          "oldSection": "Section 80CCD(1B)",
+          "newSection": "Section 124"
+        },
+        {
+          "order": 2,
+          "question": "Your firm is drafting an advisory letter about a client's rental income. You need to cite the section for deduction from house property income. Under the new Act, this is:",
+          "options": [
+            { "text": "Section 22", "correct": true },
+            { "text": "Section 24", "correct": false },
+            { "text": "Section 20", "correct": false },
+            { "text": "Section 25", "correct": false }
+          ],
+          "explanation": "Old Section 24 (deduction from house property income) maps to new Section 22. House property provisions are now in Chapter V of the new Act (Sections 20-25).",
+          "explanationWrong": "Section 24 → Section 22 in the new Act. If you instinctively wrote 'Section 24', that's the old Act muscle memory talking — exactly the kind of reflex this learning will retrain.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "house-property"],
+          "isReview": false,
+          "oldSection": "Section 24",
+          "newSection": "Section 22"
+        },
+        {
+          "order": 3,
+          "question": "The old Act had approximately how many words?",
+          "options": [
+            { "text": "~2.6 lakh", "correct": false },
+            { "text": "~3.5 lakh", "correct": false },
+            { "text": "~5.12 lakh", "correct": true },
+            { "text": "~7 lakh", "correct": false }
+          ],
+          "explanation": "The old Act had ~5.12 lakh words, reduced to ~2.6 lakh in the new Act — a 49% reduction. This is the word count, not section count or page count.",
+          "explanationWrong": "~5.12 lakh words — almost double the new Act's ~2.6 lakh. This near-halving of word count was achieved by eliminating redundant provisions, converting provisos/explanations to concise sub-sections, and using tables instead of prose.",
+          "tier": 3,
+          "subConcepts": ["old-act-complexity", "word-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A junior CA in your firm prepares a computation citing 'Section 234F' for late filing fee. You should correct this to:",
+          "options": [
+            { "text": "Section 234", "correct": false },
+            { "text": "Section 423", "correct": false },
+            { "text": "Section 428", "correct": true },
+            { "text": "Section 266", "correct": false }
+          ],
+          "explanation": "Late filing fee moved from Section 234F to Section 428. Section 423 is interest for late return filing (old 234A), and Section 266 is self-assessment tax (old 140A). These are easy to mix up — all are compliance-adjacent.",
+          "explanationWrong": "Section 234F → Section 428. Related interest/fee provisions: 234A→423 (interest for late return), 234B→424 (advance tax default), 234C→425 (advance tax deferment), 234F→428 (late filing fee). They cluster in the 420s in the new Act.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "late-filing", "compliance"],
+          "isReview": false,
+          "oldSection": "Section 234F",
+          "newSection": "Section 428"
+        },
+        {
+          "order": 5,
+          "question": "Your CA firm needs to update all letter templates, advisory formats, and computation sheets before April 1, 2026. The most efficient approach is to:",
+          "options": [
+            { "text": "Wait until the government provides a conversion tool", "correct": false },
+            { "text": "Replace old section references using the official section mapping and update templates in batches by practice area", "correct": true },
+            { "text": "Add both old and new section numbers to all templates permanently", "correct": false },
+            { "text": "Only update templates when the first return is due", "correct": false }
+          ],
+          "explanation": "Batch-updating by practice area (TDS templates → 392/393/394, return filing → 263, deductions → 123-154) using the official mapping is both efficient and ensures nothing is missed. Waiting risks compliance errors from April 1.",
+          "explanationWrong": "Proactive batch updates by practice area is the way to go. Waiting risks filing errors. Using dual numbering permanently is clutter. The official section mapping (available on incometaxindia.gov.in) is your primary reference for this exercise.",
+          "tier": 3,
+          "subConcepts": ["transition-strategy", "professional-practice"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Client Advisory Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client forwarded a WhatsApp message claiming 'the government has introduced 39 new taxes under the new Act.' How do you correct this?",
+          "options": [
+            { "text": "It's partly true — 39 new provisions were added", "correct": false },
+            { "text": "The 39 refers to new tables presenting existing provisions in structured format, not new taxes", "correct": true },
+            { "text": "39 old taxes were removed, not added", "correct": false },
+            { "text": "39 sections were added that don't exist in the old Act", "correct": false }
+          ],
+          "explanation": "Classic WhatsApp misinformation. The 39 refers to new tables — structured formats for presenting existing provisions like TDS rates, perquisites, and depreciation. Zero new taxes were introduced. The Act is a rewrite, not a reform.",
+          "explanationWrong": "The 39 new tables are a formatting improvement, not new taxes. They present existing provisions (TDS rates, perquisite values, depreciation, etc.) in tabular format instead of prose. This is a common misunderstanding you'll need to correct for clients.",
+          "tier": 3,
+          "subConcepts": ["tables", "client-communication", "rewrite-vs-reform"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "During a client meeting, someone asks: 'If the substance didn't change, why should I pay my CA to understand the new Act?' The best response is:",
+          "options": [
+            { "text": "You don't need to — nothing changed", "correct": false },
+            { "text": "Every section reference used in filings, computations, and advisory changes on April 1, 2026 — citing wrong sections means compliance risk", "correct": true },
+            { "text": "Only TDS sections changed, so only TDS clients need to worry", "correct": false },
+            { "text": "The substance actually changed significantly", "correct": false }
+          ],
+          "explanation": "While the substance is the same, every section reference in every filing, computation, and letter must use new numbers from April 1, 2026. A CA citing 'Section 80C' in a return filed after that date is citing a section that no longer exists in the operative law.",
+          "explanationWrong": "This is about operational compliance, not substantive change. From April 1, 2026, all official filings, returns, and computations must reference the new Act. A return citing 'Section 80C' instead of 'Section 123' is referencing a repealed provision.",
+          "tier": 3,
+          "subConcepts": ["client-communication", "transition-strategy", "professional-practice"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "From which date does the Income Tax Act, 2025 apply?",
+          "options": [
+            { "text": "January 1, 2026", "correct": false },
+            { "text": "April 1, 2026", "correct": true },
+            { "text": "August 18, 2025", "correct": false },
+            { "text": "July 1, 2026", "correct": false }
+          ],
+          "explanation": "The Act applies from April 1, 2026 (Tax Year 2026-27 onwards). August 18, 2025 is when it received Presidential assent — but the effective date is April 1, 2026.",
+          "explanationWrong": "April 1, 2026 is the effective date — aligned with the start of Tax Year 2026-27. August 18, 2025 is the assent date (when it became law on paper). The gap between assent and effectiveness gives professionals time to prepare.",
+          "tier": 3,
+          "subConcepts": ["timeline", "effective-date"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Your firm is hiring a fresh CA who qualified after the new Act was passed. They ask: 'Do I need to know the old section numbers at all?' Your answer should be:",
+          "options": [
+            { "text": "No — the old Act is completely irrelevant now", "correct": false },
+            { "text": "Yes — pending proceedings, old case law, and the transition period all use old section numbers", "correct": true },
+            { "text": "Only if they plan to work in tax litigation", "correct": false },
+            { "text": "Only the first 10 old sections matter", "correct": false }
+          ],
+          "explanation": "The transition period means both numbering systems coexist. Pending assessments, appeals, and decades of case law reference old sections. A CA who only knows new numbers can't read judgments or handle pre-April 2026 matters.",
+          "explanationWrong": "Both numbering systems will coexist for years. Assessments for FY 2025-26 and earlier use old sections. Case law — the foundation of tax practice — references old sections. Every CA needs both mental maps during the transition.",
+          "tier": 3,
+          "subConcepts": ["transition-strategy", "professional-practice"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client's CFO emails: 'Our ERP system has TDS section codes hard-coded as 194C, 194J, etc. Will these still work after April 2026?' You advise:",
+          "options": [
+            { "text": "Yes, the old codes will continue to work indefinitely", "correct": false },
+            { "text": "The ERP must be updated to reference Section 393 with the appropriate table number before April 2026", "correct": true },
+            { "text": "Only 194C needs updating; other codes remain the same", "correct": false },
+            { "text": "ERP systems are exempt from the new numbering", "correct": false }
+          ],
+          "explanation": "All TDS codes in systems must be updated. Old 194C, 194J, etc. all map to Section 393 (specific table/row within 393). This is a practical systems migration that every organization with automated TDS will face.",
+          "explanationWrong": "ERP/system updates are critical. Old TDS section codes (194C, 194J, etc.) will become invalid for returns and challans filed after April 1, 2026. The mapping: all non-salary TDS → Section 393, organized by recipient type in Tables 1-3.",
+          "tier": 3,
+          "subConcepts": ["tds-consolidation", "system-transition", "professional-practice"],
+          "isReview": false,
+          "oldSection": "Sections 194C, 194J",
+          "newSection": "Section 393"
+        }
+      ]
+    }
+  ]
+}

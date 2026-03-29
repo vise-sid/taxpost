@@ -1,0 +1,835 @@
+{
+  "unit": "3.5",
+  "title": "TDS — Any Person (Section 393, Table 3)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Seven Entries of Table 3",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many entries does Table 3 of Section 393 contain?",
+          "options": [
+            { "text": "5 entries", "correct": false },
+            { "text": "7 entries", "correct": true },
+            { "text": "10 entries", "correct": false },
+            { "text": "12 entries", "correct": false }
+          ],
+          "explanation": "Table 3 of Section 393 contains exactly 7 entries, covering lottery/gaming winnings, horse race winnings, online gaming, lottery commission, cash withdrawals, NSS deposits, and the newly introduced partner salary/remuneration.",
+          "explanationWrong": "Table 3 has 7 entries. These cover winnings (lottery, online gaming, horse race), lottery commission, cash withdrawal, NSS deposits, and partner salary — a compact but important set of provisions where 'any person' is the deductor.",
+          "tier": 1,
+          "subConcepts": ["table-3-structure", "section-393"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 2,
+          "question": "What does 'any person' mean in the context of Table 3 of Section 393?",
+          "options": [
+            { "text": "Only individuals and HUFs can be deductors", "correct": false },
+            { "text": "Any person making the payment is the deductor, regardless of their status", "correct": true },
+            { "text": "Only companies and firms can be deductors", "correct": false },
+            { "text": "Only government entities can be deductors", "correct": false }
+          ],
+          "explanation": "'Any person' means the TDS obligation falls on whoever makes the payment — individual, HUF, company, firm, or any other entity. Unlike Table 1 (specified person) or Table 2 (non-resident focus), Table 3 does not restrict who the deductor must be.",
+          "explanationWrong": "In Table 3, 'any person' means there is no restriction on who the deductor is. Any person making the relevant payment — regardless of whether they are an individual, company, or government body — must deduct TDS.",
+          "tier": 1,
+          "subConcepts": ["any-person-deductor", "table-3-scope"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, TDS on payments to non-resident contractors is governed by which table of Section 393?",
+          "options": [
+            { "text": "Table 1 — resident payments", "correct": false },
+            { "text": "Table 2 — non-resident payments", "correct": true },
+            { "text": "Table 3 — any person payments", "correct": false },
+            { "text": "Section 392 — salary payments", "correct": false }
+          ],
+          "explanation": "Non-resident payments are governed by Table 2 of Section 393, which consolidates all TDS provisions for payments to non-residents (old Section 195). This is a review of Unit 3.4 — the non-resident TDS framework.",
+          "explanationWrong": "Table 2 of Section 393 governs TDS on payments to non-residents. Table 3 covers 'any person' deductions, but the payee status (resident vs non-resident) is what determines Table 2 applicability for contractor payments.",
+          "tier": 1,
+          "subConcepts": ["table-2-non-resident", "section-393-structure"],
+          "isReview": true,
+          "oldSection": "Section 195",
+          "newSection": "Section 393, Table 2"
+        },
+        {
+          "order": 4,
+          "question": "Table 3 provisions apply regardless of whether the payee is a resident or a non-resident. Why is this significant?",
+          "options": [
+            { "text": "It means no PAN verification is required for Table 3 deductions", "correct": false },
+            { "text": "It means a single rate and threshold applies whether the payee is resident or NR — no separate NR treatment needed", "correct": true },
+            { "text": "It means Table 3 rates are always higher than Table 1 and Table 2", "correct": false },
+            { "text": "It means DTAA benefits automatically apply to Table 3 payments", "correct": false }
+          ],
+          "explanation": "The 'any person' scope of Table 3 means the same rates and thresholds apply regardless of the payee's residential status. For example, lottery winnings at 30% apply whether the winner is resident or non-resident — there is no need to check Table 2 separately for these payment types.",
+          "explanationWrong": "The significance is uniformity — Table 3 applies the same rate regardless of the payee's resident/NR status. This simplifies compliance because the deductor does not need to determine the payee's residential status before applying TDS.",
+          "tier": 1,
+          "subConcepts": ["resident-nr-status", "table-3-universality"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 5,
+          "question": "Which of the following is NOT an entry in Table 3 of Section 393?",
+          "options": [
+            { "text": "Cash withdrawal from banking company", "correct": false },
+            { "text": "Partner salary/remuneration by a firm", "correct": false },
+            { "text": "Lottery winnings", "correct": false },
+            { "text": "Commission or brokerage payments", "correct": true }
+          ],
+          "explanation": "Commission/brokerage (old Section 194H) falls under Table 1, Sl. No. 5 — not Table 3. Table 3's seven entries cover lottery/gaming winnings, horse race, online gaming, lottery commission, cash withdrawal, NSS deposits, and partner salary.",
+          "explanationWrong": "Commission/brokerage is in Table 1 (specified person deductions), not Table 3. Table 3 entries are: (1) lottery/card game, (2) online gaming, (3) horse race, (4) lottery commission, (5) cash withdrawal, (6) NSS deposits, (7) partner salary.",
+          "tier": 1,
+          "subConcepts": ["table-3-entries", "table-1-vs-table-3"],
+          "isReview": false,
+          "oldSection": "Section 194H",
+          "newSection": "Section 393, Table 1, Sl. 5"
+        }
+      ]
+    },
+    {
+      "title": "Winnings at 30% and Cash Withdrawal",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the uniform TDS rate for winnings from lottery, online gaming, and horse race under Table 3?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "20%", "correct": false },
+            { "text": "30%", "correct": true },
+            { "text": "25%", "correct": false }
+          ],
+          "explanation": "All three winnings categories — lottery/card games (Sl. 1), online gaming (Sl. 2), and horse race (Sl. 3) — attract TDS at a flat 30%. This rate has remained unchanged from the old Act provisions (194B, 194BA, 194BB).",
+          "explanationWrong": "The rate is 30% for all winnings under Table 3 — lottery, online gaming, and horse race. This is the highest TDS rate in the entire Section 393 framework.",
+          "tier": 1,
+          "subConcepts": ["winnings-tds-rate", "30-percent-rate"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3, Sl. 1-3"
+        },
+        {
+          "order": 2,
+          "question": "What is the TDS rate and threshold for cash withdrawals from a banking company or post office under the new Act?",
+          "options": [
+            { "text": "2% on withdrawals exceeding Rs 1 crore", "correct": true },
+            { "text": "5% on withdrawals exceeding Rs 1 crore (for non-filers)", "correct": false },
+            { "text": "1% on withdrawals exceeding Rs 50 lakh", "correct": false },
+            { "text": "2% on withdrawals exceeding Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "TDS at 2% applies on cash withdrawals exceeding Rs 1 crore in aggregate during the financial year (Table 3, Sl. 5). The old Act's higher rate of 5% for non-filers under Section 206AB has been removed — the new Act applies a uniform 2% to all payees.",
+          "explanationWrong": "The rate is 2% above Rs 1 crore. The key change is that the old Act's 5% rate for non-filers (via Section 206AB) no longer exists. Under the 2025 Act, 2% applies uniformly regardless of return-filing status.",
+          "tier": 1,
+          "subConcepts": ["cash-withdrawal-tds", "section-194n", "206ab-removal"],
+          "isReview": false,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, how many TDS sections were consolidated into the three tables of Section 393 in the 2025 Act?",
+          "options": [
+            { "text": "10 sections", "correct": false },
+            { "text": "Over 20 sections", "correct": false },
+            { "text": "Over 30 sections", "correct": true },
+            { "text": "5 sections", "correct": false }
+          ],
+          "explanation": "Over 30 individual TDS sections from the old Act (Sections 192 through 196D plus 206AB, 206AA, etc.) were consolidated into just three sections: 392 (salary), 393 (non-salary in 3 tables), and 394 (TCS). This is a review of Unit 3.1's architecture theme.",
+          "explanationWrong": "Over 30 old TDS sections were restructured into just Sections 392 (salary), 393 (non-salary — 3 tables), and 394 (TCS). This massive consolidation is the defining structural change of the new TDS framework.",
+          "tier": 1,
+          "subConcepts": ["tds-consolidation", "new-architecture"],
+          "isReview": true,
+          "oldSection": "Sections 192-196D",
+          "newSection": "Sections 392, 393, 394"
+        },
+        {
+          "order": 4,
+          "question": "Why was the higher TDS rate for non-filers under Section 206AB removed in the new Act, and what is the practical impact on cash withdrawal TDS?",
+          "options": [
+            { "text": "Because non-filers are now exempt from TDS entirely", "correct": false },
+            { "text": "The 206AB mechanism was omitted — so the 5% rate for non-filers on cash withdrawals is gone, and a uniform 2% applies to all", "correct": true },
+            { "text": "The rate was increased to 10% for all payees instead", "correct": false },
+            { "text": "Non-filer status is now determined by the bank, not the Income Tax Department", "correct": false }
+          ],
+          "explanation": "Section 206AB (higher TDS/TCS for non-filers) has been entirely omitted from the 2025 Act. This means the cash withdrawal TDS under old 194N no longer has a 5% tier for non-filers. All payees face a uniform 2% above Rs 1 crore regardless of filing history.",
+          "explanationWrong": "The 206AB mechanism is gone. Under the old Act, non-filers faced 5% on cash withdrawals above Rs 1 crore (or even Rs 20 lakh). The new Act simplifies this to a flat 2% for everyone — a significant compliance simplification for banks.",
+          "tier": 1,
+          "subConcepts": ["206ab-removal", "non-filer-tds", "cash-withdrawal-simplification"],
+          "isReview": false,
+          "oldSection": "Section 206AB",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 5,
+          "question": "What is the cash withdrawal TDS threshold for co-operative societies, and how does it differ from the general threshold?",
+          "options": [
+            { "text": "Rs 1 crore — same as for all entities", "correct": false },
+            { "text": "Rs 3 crore — three times the general Rs 1 crore threshold", "correct": true },
+            { "text": "Rs 50 lakh — lower than the general threshold", "correct": false },
+            { "text": "Rs 5 crore — for rural co-operatives only", "correct": false }
+          ],
+          "explanation": "Co-operative societies enjoy a higher threshold of Rs 3 crore for cash withdrawal TDS, compared to Rs 1 crore for others. This recognizes the cash-intensive nature of rural co-operative transactions. The rate remains 2% on the excess.",
+          "explanationWrong": "The threshold is Rs 3 crore for co-operative societies versus Rs 1 crore for all others. This elevated threshold acknowledges that co-operative societies, especially in rural areas, inherently deal with higher volumes of cash transactions.",
+          "tier": 1,
+          "subConcepts": ["cooperative-threshold", "cash-withdrawal-tds"],
+          "isReview": false,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        }
+      ]
+    },
+    {
+      "title": "Partner Salary TDS and Lottery Commission",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "TDS on partner salary/remuneration/interest paid by a firm (Table 3, Sl. 7) was introduced by which provision?",
+          "options": [
+            { "text": "Section 194C of the old Act", "correct": false },
+            { "text": "Section 194T — introduced in 2024 as a new provision", "correct": true },
+            { "text": "Section 194J of the old Act", "correct": false },
+            { "text": "It has always existed under Section 192", "correct": false }
+          ],
+          "explanation": "Section 194T was introduced in 2024 as a brand new provision requiring firms to deduct TDS on salary, remuneration, commission, bonus, or interest paid to partners. It is the newest TDS provision, now mapped to Table 3, Sl. 7 of the 2025 Act.",
+          "explanationWrong": "Section 194T was introduced in 2024 — it did not exist before. This makes it the newest entry in the TDS framework. It covers salary, remuneration, commission, bonus, and interest paid by a firm to its partners.",
+          "tier": 1,
+          "subConcepts": ["partner-salary-tds", "section-194t", "newest-provision"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 2,
+          "question": "What is the TDS rate and threshold for partner salary/remuneration under Table 3, Sl. 7?",
+          "options": [
+            { "text": "5% above Rs 50,000", "correct": false },
+            { "text": "10% above Rs 20,000", "correct": true },
+            { "text": "2% above Rs 1 lakh", "correct": false },
+            { "text": "30% with no threshold", "correct": false }
+          ],
+          "explanation": "TDS at 10% applies when aggregate salary, remuneration, commission, bonus, or interest paid by a firm to a partner exceeds Rs 20,000 during the financial year. This matches the old Section 194T rate and threshold.",
+          "explanationWrong": "The rate is 10% and the threshold is Rs 20,000 aggregate per year. This applies to all forms of partner compensation — salary, remuneration, commission, bonus, and interest on capital.",
+          "tier": 1,
+          "subConcepts": ["partner-salary-rate", "partner-salary-threshold"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act's three-table structure, TDS on rent paid by a specified person is found in which table?",
+          "options": [
+            { "text": "Table 3 — any person", "correct": false },
+            { "text": "Table 1 — resident payments by specified persons", "correct": true },
+            { "text": "Table 2 — non-resident payments", "correct": false },
+            { "text": "Section 392 — salary provisions", "correct": false }
+          ],
+          "explanation": "Rent paid by a specified person to a resident falls under Table 1 of Section 393 (Sl. 7). This is a review of Unit 3.3 — Table 1 covers payments by specified persons to residents.",
+          "explanationWrong": "Rent by a specified person is in Table 1, Sl. 7 (old Section 194-I). Table 3 covers 'any person' deductions like winnings and cash withdrawals, not rent payments by specified persons.",
+          "tier": 1,
+          "subConcepts": ["table-1-rent", "three-table-structure"],
+          "isReview": true,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393, Table 1, Sl. 7"
+        },
+        {
+          "order": 4,
+          "question": "A firm pays Rs 15,000 as remuneration to a partner during the year. Is TDS required under Table 3, Sl. 7?",
+          "options": [
+            { "text": "Yes — TDS at 10% on the entire Rs 15,000", "correct": false },
+            { "text": "No — the aggregate is below the Rs 20,000 threshold", "correct": true },
+            { "text": "Yes — but at 2% since it is below Rs 20,000", "correct": false },
+            { "text": "No — TDS on partner payments applies only above Rs 1 lakh", "correct": false }
+          ],
+          "explanation": "No TDS is required because the aggregate payment of Rs 15,000 is below the Rs 20,000 threshold for Table 3, Sl. 7. TDS at 10% triggers only when the aggregate salary, remuneration, commission, bonus, or interest to the partner exceeds Rs 20,000 in the year.",
+          "explanationWrong": "No TDS is required. The threshold for partner salary/remuneration TDS is Rs 20,000 aggregate per year. At Rs 15,000, the firm has not crossed the threshold and has no obligation to deduct.",
+          "tier": 1,
+          "subConcepts": ["partner-salary-threshold", "threshold-application"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 5,
+          "question": "What is the TDS rate on commission paid on the sale of lottery tickets under Table 3, Sl. 4?",
+          "options": [
+            { "text": "30% — same as lottery winnings", "correct": false },
+            { "text": "10%", "correct": false },
+            { "text": "2% on commission exceeding Rs 20,000", "correct": true },
+            { "text": "5% on commission exceeding Rs 10,000", "correct": false }
+          ],
+          "explanation": "Lottery commission (old 194G) attracts TDS at 2% when the aggregate commission, remuneration, or prize exceeds Rs 20,000 during the year. This is distinct from lottery winnings (Sl. 1) which attract 30% — different payees, different rates.",
+          "explanationWrong": "The rate is 2% above Rs 20,000. Lottery commission is paid to the ticket seller/agent — not the winner. The winner's TDS is 30% under Sl. 1; the agent's commission TDS is only 2% under Sl. 4.",
+          "tier": 1,
+          "subConcepts": ["lottery-commission-tds", "section-194g"],
+          "isReview": false,
+          "oldSection": "Section 194G",
+          "newSection": "Section 393, Table 3, Sl. 4"
+        }
+      ]
+    },
+    {
+      "title": "Why 'Any Person' — Design Rationale",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why are winnings from lottery, online gaming, and horse race grouped under 'any person' in Table 3 rather than under 'specified person' in Table 1?",
+          "options": [
+            { "text": "Because the payer is often not a company or government — any game organizer or platform must deduct", "correct": true },
+            { "text": "Because the amounts are always small and do not need oversight", "correct": false },
+            { "text": "Because winnings are exempt from TDS if the payer is a specified person", "correct": false },
+            { "text": "Because non-residents cannot win lotteries in India", "correct": false }
+          ],
+          "explanation": "Winnings can be paid by individuals, clubs, associations, or platforms — not just companies or government bodies. The 'any person' classification ensures the deduction obligation is universal and cannot be avoided by using an unincorporated entity as the payer.",
+          "explanationWrong": "The 'any person' classification captures all payers. If winnings were in Table 1 (specified persons only), a lottery run by an individual or unregistered club would escape TDS. Table 3 ensures no payer is exempt from the obligation.",
+          "tier": 2,
+          "subConcepts": ["any-person-rationale", "winnings-classification"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 2,
+          "question": "How does the removal of Section 206AB affect the compliance burden on banks processing cash withdrawals?",
+          "options": [
+            { "text": "No change — banks always deducted at a flat rate", "correct": false },
+            { "text": "Banks no longer need to check the payee's return-filing status before applying the TDS rate", "correct": true },
+            { "text": "Banks must now apply a higher rate to all withdrawals", "correct": false },
+            { "text": "Banks are exempt from TDS on cash withdrawals entirely", "correct": false }
+          ],
+          "explanation": "Under the old Act, banks had to verify on the Income Tax portal whether a payee had filed returns to determine whether to apply 2% or 5%. With 206AB gone, banks simply apply 2% to all cash withdrawals above Rs 1 crore — eliminating the verification step.",
+          "explanationWrong": "The compliance simplification is significant. Banks previously had to check non-filer status on the Income Tax portal before each high-value withdrawal. Now they apply a flat 2% without any filing-status verification.",
+          "tier": 2,
+          "subConcepts": ["206ab-compliance-impact", "bank-tds-simplification"],
+          "isReview": false,
+          "oldSection": "Section 206AB",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, what was the purpose of Section 206AB regarding higher TDS rates?",
+          "options": [
+            { "text": "It provided lower rates for senior citizens", "correct": false },
+            { "text": "It imposed higher TDS/TCS rates on persons who had not filed income tax returns for the preceding two years", "correct": true },
+            { "text": "It applied only to NRI transactions above Rs 50 lakh", "correct": false },
+            { "text": "It doubled TDS rates on all government contracts", "correct": false }
+          ],
+          "explanation": "Section 206AB of the old Act imposed higher TDS rates (twice the prescribed rate, or 5%, whichever is higher) on payees who had not filed returns for the two preceding years and had TDS/TCS above Rs 50,000 in each of those years. This provision has been entirely removed in the 2025 Act.",
+          "explanationWrong": "206AB targeted non-filers with higher TDS rates to incentivize return filing. It applied when a person had not filed returns for the two preceding years and had significant TDS/TCS deducted. The 2025 Act has scrapped this mechanism entirely.",
+          "tier": 2,
+          "subConcepts": ["206ab-purpose", "non-filer-penalty"],
+          "isReview": true,
+          "oldSection": "Section 206AB",
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A partnership firm pays Rs 50,000 as interest on capital and Rs 30,000 as salary to a partner in a year. What is the TDS under Table 3, Sl. 7?",
+          "options": [
+            { "text": "10% on Rs 80,000 = Rs 8,000", "correct": true },
+            { "text": "10% on Rs 30,000 (salary only) = Rs 3,000", "correct": false },
+            { "text": "10% on Rs 60,000 (Rs 80,000 minus Rs 20,000 threshold) = Rs 6,000", "correct": false },
+            { "text": "No TDS — partner payments are exempt", "correct": false }
+          ],
+          "explanation": "The aggregate of salary (Rs 30,000) + interest (Rs 50,000) = Rs 80,000 exceeds the Rs 20,000 threshold. TDS at 10% applies on the entire Rs 80,000 — not just the excess over the threshold. The provision covers salary, remuneration, commission, bonus, AND interest.",
+          "explanationWrong": "TDS is on the entire Rs 80,000 (10% = Rs 8,000). Both salary and interest on capital are covered under Table 3, Sl. 7. The Rs 20,000 is a trigger threshold — once crossed, TDS applies on the full amount, not just the excess.",
+          "tier": 2,
+          "subConcepts": ["partner-salary-computation", "threshold-vs-exemption"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 5,
+          "question": "Online gaming winnings (Sl. 2) differ from lottery winnings (Sl. 1) in their threshold mechanism. What is the key difference?",
+          "options": [
+            { "text": "Online gaming has a Rs 50,000 threshold while lottery has Rs 10,000", "correct": false },
+            { "text": "Online gaming TDS is on net winnings with no monetary threshold; lottery TDS triggers above Rs 10,000 per event", "correct": true },
+            { "text": "Online gaming is taxed at 20% while lottery is at 30%", "correct": false },
+            { "text": "Online gaming TDS is collected monthly while lottery is per event", "correct": false }
+          ],
+          "explanation": "Online gaming (Sl. 2, old 194BA) applies TDS at 30% on net winnings — calculated as deposits minus withdrawals minus closing balance — with no fixed monetary threshold. Lottery (Sl. 1, old 194B) triggers at Rs 10,000 per event. Both rates are 30%, but the threshold mechanism is fundamentally different.",
+          "explanationWrong": "The threshold is the key difference. Lottery has a Rs 10,000 per-event threshold. Online gaming has no monetary threshold — TDS applies on net winnings at withdrawal or year-end, reflecting the deposit-withdrawal cycle of gaming platforms.",
+          "tier": 2,
+          "subConcepts": ["online-gaming-threshold", "net-winnings-concept", "lottery-threshold"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA",
+          "newSection": "Section 393, Table 3, Sl. 1-2"
+        }
+      ]
+    },
+    {
+      "title": "Old vs New — What Actually Changed",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which of the following is a substantive change in Table 3 compared to the old Act — not just a section renumbering?",
+          "options": [
+            { "text": "Lottery winnings rate increased from 20% to 30%", "correct": false },
+            { "text": "Removal of the higher 206AB rate for non-filers on cash withdrawals", "correct": true },
+            { "text": "Horse race TDS reduced from 30% to 10%", "correct": false },
+            { "text": "Partner salary TDS rate changed from 5% to 10%", "correct": false }
+          ],
+          "explanation": "The most significant substantive change in Table 3 is the removal of Section 206AB, which eliminated the higher 5% TDS rate for non-filers on cash withdrawals. All other Table 3 rates and thresholds remain unchanged — the changes are structural (section renumbering), not substantive.",
+          "explanationWrong": "The removal of 206AB is the key substantive change. Lottery winnings were always 30%. Horse race was always 30%. Partner salary at 10% was introduced in 2024 under 194T and carried forward as-is. The 206AB removal is the only rate-level change in Table 3.",
+          "tier": 2,
+          "subConcepts": ["substantive-changes", "206ab-removal", "table-3-continuity"],
+          "isReview": false,
+          "oldSection": "Section 206AB",
+          "newSection": "Section 393, Table 3"
+        },
+        {
+          "order": 2,
+          "question": "Section 194T (partner salary TDS) was introduced in 2024. Why is it considered the 'newest provision' in Table 3?",
+          "options": [
+            { "text": "Because it replaced an older provision that was deleted", "correct": false },
+            { "text": "Because it created a TDS obligation where none existed before — firms never had to deduct TDS on partner payments prior to 2024", "correct": true },
+            { "text": "Because the rate was changed from 5% to 10% in 2025", "correct": false },
+            { "text": "Because it only applies from 1 April 2026 under the new Act", "correct": false }
+          ],
+          "explanation": "Before Section 194T was introduced in 2024, there was no TDS requirement on salary, remuneration, or interest paid by a firm to its partners. This was a completely new obligation — not a revision of an existing one — making it the newest entry in the TDS framework.",
+          "explanationWrong": "194T is genuinely new — it filled a gap. Previously, partner remuneration was not subject to TDS at all, which meant large payments to partners escaped the withholding net. The 2024 introduction was the first time firms had to withhold on these payments.",
+          "tier": 2,
+          "subConcepts": ["section-194t-history", "new-tds-obligation"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act's Section 194-I, rent on plant and machinery attracted TDS at what rate?",
+          "options": [
+            { "text": "10%", "correct": false },
+            { "text": "2%", "correct": true },
+            { "text": "5%", "correct": false },
+            { "text": "1%", "correct": false }
+          ],
+          "explanation": "Rent on plant and machinery under old Section 194-I attracted TDS at 2%. Under the new Act, this maps to Table 1, Sl. 7(i) at 1%. This is a review from Unit 3.3 — one of the few TDS rates that actually changed.",
+          "explanationWrong": "Plant and machinery rent was at 2% under old 194-I. The new Act has reduced this to 1% under Table 1, Sl. 7(i). This is one of the genuine rate changes in the TDS framework, unlike most Table 3 rates which remained the same.",
+          "tier": 2,
+          "subConcepts": ["rent-pm-rate", "old-vs-new-rates"],
+          "isReview": true,
+          "oldSection": "Section 194-I",
+          "newSection": "Section 393, Table 1, Sl. 7(i)"
+        },
+        {
+          "order": 4,
+          "question": "A club organizes a card game tournament and pays Rs 25,000 in winnings to a participant. The club is not a company. Must it deduct TDS?",
+          "options": [
+            { "text": "No — only companies can deduct TDS on winnings", "correct": false },
+            { "text": "Yes — Table 3 applies to 'any person' as deductor, so the club must deduct 30% TDS on Rs 25,000", "correct": true },
+            { "text": "Yes — but at 10% since the club is unincorporated", "correct": false },
+            { "text": "No — Rs 25,000 is below the minimum threshold for winnings", "correct": false }
+          ],
+          "explanation": "The club must deduct TDS at 30% because Table 3 applies to 'any person' as deductor. The club's legal form (unincorporated, not a company) is irrelevant. The Rs 10,000 threshold is per event — Rs 25,000 exceeds it. TDS = Rs 7,500.",
+          "explanationWrong": "Yes, the club must deduct. Table 3's 'any person' scope means any entity — club, association, individual — paying winnings must deduct TDS. The Rs 25,000 exceeds the Rs 10,000 threshold, so 30% TDS applies.",
+          "tier": 2,
+          "subConcepts": ["any-person-application", "winnings-scenario"],
+          "isReview": false,
+          "oldSection": "Section 194B",
+          "newSection": "Section 393, Table 3, Sl. 1"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 194EE (NSS deposits) maps to Table 3, Sl. 6. What is the TDS rate and threshold?",
+          "options": [
+            { "text": "10% above Rs 2,500", "correct": true },
+            { "text": "2% above Rs 10,000", "correct": false },
+            { "text": "5% above Rs 5,000", "correct": false },
+            { "text": "30% with no threshold", "correct": false }
+          ],
+          "explanation": "NSS/deposit withdrawals attract TDS at 10% when the payment exceeds Rs 2,500 during the year. This provision has diminishing relevance since NSS was frozen for new subscriptions after November 1992, but continues for legacy account withdrawals.",
+          "explanationWrong": "The rate is 10% above Rs 2,500. Section 194EE now maps to Table 3, Sl. 6. While the provision remains in the new Act, its practical relevance is declining as the National Savings Scheme has been closed to new subscriptions since 1992.",
+          "tier": 2,
+          "subConcepts": ["nss-tds", "section-194ee", "legacy-provision"],
+          "isReview": false,
+          "oldSection": "Section 194EE",
+          "newSection": "Section 393, Table 3, Sl. 6"
+        }
+      ]
+    },
+    {
+      "title": "Distinguishing Table 3 Entries",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the key distinction between Sl. 1 (lottery winnings) and Sl. 4 (lottery commission) in Table 3?",
+          "options": [
+            { "text": "Same payee, different payment types", "correct": false },
+            { "text": "Different payees — Sl. 1 covers the lottery winner, Sl. 4 covers the lottery ticket seller/agent", "correct": true },
+            { "text": "Same rate of 30%, different thresholds", "correct": false },
+            { "text": "Sl. 1 is for online lotteries, Sl. 4 is for offline lotteries", "correct": false }
+          ],
+          "explanation": "Sl. 1 (30%, Rs 10,000 threshold) covers the prize winner. Sl. 4 (2%, Rs 20,000 threshold) covers the commission/remuneration paid to the ticket seller or agent. Completely different payees, rates, and thresholds despite both involving lotteries.",
+          "explanationWrong": "The payees are different. The lottery winner receives winnings (Sl. 1, 30%). The lottery ticket seller/agent receives commission (Sl. 4, 2%). Confusing the two leads to wrong TDS rates and wrong reporting.",
+          "tier": 2,
+          "subConcepts": ["lottery-winner-vs-agent", "table-3-distinctions"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194G",
+          "newSection": "Section 393, Table 3, Sl. 1 and Sl. 4"
+        },
+        {
+          "order": 2,
+          "question": "Which Table 3 entries share the same TDS rate of 30%?",
+          "options": [
+            { "text": "Sl. 1, 2, 3, and 4", "correct": false },
+            { "text": "Sl. 1 (lottery), Sl. 2 (online gaming), and Sl. 3 (horse race)", "correct": true },
+            { "text": "All seven entries", "correct": false },
+            { "text": "Sl. 5, 6, and 7 only", "correct": false }
+          ],
+          "explanation": "Only three entries share the 30% rate: Sl. 1 (lottery/card games), Sl. 2 (online gaming), and Sl. 3 (horse race). All are 'winnings' categories. The remaining entries have lower rates: Sl. 4 and 5 at 2%, Sl. 6 and 7 at 10%.",
+          "explanationWrong": "Sl. 1, 2, and 3 — all winnings categories — share the 30% rate. Sl. 4 (lottery commission) is 2%, Sl. 5 (cash withdrawal) is 2%, Sl. 6 (NSS) is 10%, and Sl. 7 (partner salary) is 10%.",
+          "tier": 2,
+          "subConcepts": ["30-percent-entries", "rate-grouping"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194BA, 194BB",
+          "newSection": "Section 393, Table 3, Sl. 1-3"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what form number replaces the old Form 26Q for filing non-salary TDS returns covering resident payments?",
+          "options": [
+            { "text": "Form 138", "correct": false },
+            { "text": "Form 140", "correct": true },
+            { "text": "Form 144", "correct": false },
+            { "text": "Form 143", "correct": false }
+          ],
+          "explanation": "Form 140 replaces old 26Q for non-salary TDS returns on residents. Table 3 entries for resident payees would be reported in Form 140. This is a review of compliance forms from Unit 3.7.",
+          "explanationWrong": "Form 140 is the new 26Q. Form 138 replaces 24Q (salary). Form 144 replaces 27Q (non-residents). Form 143 replaces 27EQ (TCS). Table 3 resident entries go into Form 140.",
+          "tier": 2,
+          "subConcepts": ["form-140", "return-forms"],
+          "isReview": true,
+          "oldSection": "Form 26Q",
+          "newSection": "Form 140"
+        },
+        {
+          "order": 4,
+          "question": "An online gaming platform deducts TDS at 30% on net winnings of Rs 5 lakh at the time of withdrawal. The player is a non-resident. Does Table 2 apply instead of Table 3?",
+          "options": [
+            { "text": "Yes — all NR payments must go through Table 2", "correct": false },
+            { "text": "No — Table 3 applies regardless of resident/NR status; the 'any person' scope covers both", "correct": true },
+            { "text": "Yes — NR winnings attract 40% under Table 2", "correct": false },
+            { "text": "No TDS applies to NR online gaming winnings", "correct": false }
+          ],
+          "explanation": "Table 3 applies regardless of the payee's residential status. The 'any person' designation means both the deductor and the payee can be any person — resident or non-resident. The platform deducts 30% under Table 3, Sl. 2, not Table 2.",
+          "explanationWrong": "Table 3 governs this transaction even for NR payees. The 'any person' scope of Table 3 means the resident/NR distinction that drives Table 1 vs Table 2 does not apply here. The platform applies Table 3, Sl. 2 at 30%.",
+          "tier": 2,
+          "subConcepts": ["nr-gaming-winnings", "table-3-universality"],
+          "isReview": false,
+          "oldSection": "Section 194BA",
+          "newSection": "Section 393, Table 3, Sl. 2"
+        },
+        {
+          "order": 5,
+          "question": "Among the seven Table 3 entries, which two share a threshold of Rs 20,000?",
+          "options": [
+            { "text": "Sl. 1 (lottery) and Sl. 3 (horse race)", "correct": false },
+            { "text": "Sl. 4 (lottery commission) and Sl. 7 (partner salary)", "correct": true },
+            { "text": "Sl. 5 (cash withdrawal) and Sl. 6 (NSS)", "correct": false },
+            { "text": "Sl. 2 (online gaming) and Sl. 4 (lottery commission)", "correct": false }
+          ],
+          "explanation": "Sl. 4 (lottery commission — 2% above Rs 20,000) and Sl. 7 (partner salary — 10% above Rs 20,000) share the same Rs 20,000 threshold but have different rates. This is a useful recall point for exam preparation.",
+          "explanationWrong": "Sl. 4 and Sl. 7 both trigger at Rs 20,000. Sl. 1 and 3 trigger at Rs 10,000. Sl. 5 triggers at Rs 1 crore. Sl. 6 triggers at Rs 2,500. Sl. 2 has no monetary threshold.",
+          "tier": 2,
+          "subConcepts": ["threshold-matching", "table-3-thresholds"],
+          "isReview": false,
+          "oldSection": "Sections 194G, 194T",
+          "newSection": "Section 393, Table 3, Sl. 4 and Sl. 7"
+        }
+      ]
+    },
+    {
+      "title": "Real-World Scenarios — Winnings",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Ravi wins Rs 8,000 from a card game at a local club. Is TDS applicable under Table 3, Sl. 1?",
+          "options": [
+            { "text": "Yes — all winnings attract 30% TDS", "correct": false },
+            { "text": "No — Rs 8,000 is below the Rs 10,000 threshold", "correct": true },
+            { "text": "Yes — but at 10% since it is below Rs 10,000", "correct": false },
+            { "text": "No — card game winnings are exempt from TDS", "correct": false }
+          ],
+          "explanation": "No TDS is required because the winnings of Rs 8,000 are below the Rs 10,000 threshold for lottery/crossword/card game winnings under Table 3, Sl. 1. TDS at 30% triggers only when winnings exceed Rs 10,000 per event.",
+          "explanationWrong": "Rs 8,000 is below the Rs 10,000 threshold. Card game winnings are covered under Sl. 1, but TDS only applies when the amount exceeds Rs 10,000. The income is still taxable — just not subject to TDS at source.",
+          "tier": 3,
+          "subConcepts": ["winnings-threshold-application", "card-game-scenario"],
+          "isReview": false,
+          "oldSection": "Section 194B",
+          "newSection": "Section 393, Table 3, Sl. 1"
+        },
+        {
+          "order": 2,
+          "question": "An online gaming platform calculates a player's net winnings as Rs 2,50,000 at year-end (deposits Rs 10,00,000, withdrawals Rs 7,00,000, closing balance Rs 50,000). What is the TDS amount?",
+          "options": [
+            { "text": "Rs 75,000 (30% of Rs 2,50,000)", "correct": true },
+            { "text": "Rs 3,00,000 (30% of Rs 10,00,000)", "correct": false },
+            { "text": "Rs 2,10,000 (30% of Rs 7,00,000)", "correct": false },
+            { "text": "Rs 15,000 (30% of Rs 50,000 closing balance)", "correct": false }
+          ],
+          "explanation": "Net winnings = Deposits (Rs 10,00,000) - Withdrawals (Rs 7,00,000) - Closing balance (Rs 50,000) = Rs 2,50,000. TDS at 30% = Rs 75,000. TDS on online gaming applies on net winnings, not gross deposits or withdrawals.",
+          "explanationWrong": "Net winnings of Rs 2,50,000 attract 30% TDS = Rs 75,000. The formula is: Net winnings = Total deposits - Total withdrawals - Closing balance. TDS is never on gross deposits or gross withdrawals.",
+          "tier": 3,
+          "subConcepts": ["net-winnings-computation", "online-gaming-tds"],
+          "isReview": false,
+          "oldSection": "Section 194BA",
+          "newSection": "Section 393, Table 3, Sl. 2"
+        },
+        {
+          "order": 3,
+          "question": "Under the new Act, what is the TDS rate on commission/brokerage paid to a resident insurance agent exceeding Rs 15,000?",
+          "options": [
+            { "text": "2%", "correct": false },
+            { "text": "5%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "1%", "correct": false }
+          ],
+          "explanation": "Insurance commission (old 194D) is in Table 1, Sl. 4 at 5% above Rs 15,000 — not in Table 3. This is a review of Table 1 rates from Unit 3.3.",
+          "explanationWrong": "Insurance commission is 5% under Table 1, Sl. 4 (old 194D). It falls under Table 1 (specified person deductions) not Table 3. The threshold is Rs 15,000 aggregate per year.",
+          "tier": 3,
+          "subConcepts": ["insurance-commission", "table-1-rates"],
+          "isReview": true,
+          "oldSection": "Section 194D",
+          "newSection": "Section 393, Table 1, Sl. 4"
+        },
+        {
+          "order": 4,
+          "question": "A businessman withdraws Rs 1.5 crore in cash from his bank during the year. Calculate the TDS under Table 3, Sl. 5.",
+          "options": [
+            { "text": "Rs 3,00,000 (2% of Rs 1.5 crore)", "correct": false },
+            { "text": "Rs 1,00,000 (2% of Rs 50 lakh excess over Rs 1 crore)", "correct": true },
+            { "text": "Rs 7,50,000 (5% of Rs 1.5 crore — non-filer rate)", "correct": false },
+            { "text": "Rs 2,50,000 (5% of Rs 50 lakh excess)", "correct": false }
+          ],
+          "explanation": "TDS applies on the amount exceeding Rs 1 crore. Excess = Rs 1.5 crore - Rs 1 crore = Rs 50 lakh. TDS at 2% = Rs 1,00,000. The 5% non-filer rate no longer exists — 206AB has been removed in the new Act.",
+          "explanationWrong": "TDS = 2% of excess over Rs 1 crore = 2% of Rs 50 lakh = Rs 1,00,000. The Rs 1 crore threshold is an exemption limit — TDS only applies on the excess. And the old 5% non-filer rate is gone with the removal of 206AB.",
+          "tier": 3,
+          "subConcepts": ["cash-withdrawal-computation", "excess-over-threshold"],
+          "isReview": false,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 5,
+          "question": "A horse racing club pays Rs 12,000 in winnings to a bettor. What is the TDS amount?",
+          "options": [
+            { "text": "Rs 3,600 (30% of Rs 12,000)", "correct": true },
+            { "text": "Rs 600 (30% of Rs 2,000 excess over Rs 10,000)", "correct": false },
+            { "text": "Rs 1,200 (10% of Rs 12,000)", "correct": false },
+            { "text": "No TDS — horse race winnings are exempt", "correct": false }
+          ],
+          "explanation": "TDS at 30% on the full Rs 12,000 = Rs 3,600. The Rs 10,000 threshold is a trigger — once crossed, TDS applies on the entire winning amount, not just the excess over Rs 10,000.",
+          "explanationWrong": "TDS is on the full amount (Rs 12,000), not just the excess over Rs 10,000. The threshold determines whether TDS is applicable — once the winnings exceed Rs 10,000, TDS at 30% applies on the entire sum.",
+          "tier": 3,
+          "subConcepts": ["horse-race-tds", "threshold-as-trigger"],
+          "isReview": false,
+          "oldSection": "Section 194BB",
+          "newSection": "Section 393, Table 3, Sl. 3"
+        }
+      ]
+    },
+    {
+      "title": "Real-World Scenarios — Partner and Cash",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "M/s ABC & Co. (a firm) pays partner Suresh Rs 3,00,000 as salary and Rs 1,50,000 as interest on capital during the year. What is the total TDS?",
+          "options": [
+            { "text": "Rs 45,000 (10% of Rs 4,50,000)", "correct": true },
+            { "text": "Rs 30,000 (10% of Rs 3,00,000 salary only)", "correct": false },
+            { "text": "Rs 43,000 (10% of Rs 4,30,000 after deducting Rs 20,000 threshold)", "correct": false },
+            { "text": "No TDS — partner payments are not subject to withholding", "correct": false }
+          ],
+          "explanation": "Total payment = Rs 3,00,000 + Rs 1,50,000 = Rs 4,50,000. This exceeds the Rs 20,000 threshold, so TDS at 10% applies on the entire amount = Rs 45,000. Both salary and interest on capital are covered under Table 3, Sl. 7.",
+          "explanationWrong": "TDS = 10% of Rs 4,50,000 = Rs 45,000. Table 3, Sl. 7 covers all payments by a firm to a partner — salary, remuneration, commission, bonus, AND interest. The Rs 20,000 threshold is a trigger, not a deduction.",
+          "tier": 3,
+          "subConcepts": ["partner-tds-computation", "aggregate-payments"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        },
+        {
+          "order": 2,
+          "question": "A co-operative society withdraws Rs 2.5 crore in cash during the year. Is TDS applicable?",
+          "options": [
+            { "text": "Yes — 2% on the entire Rs 2.5 crore", "correct": false },
+            { "text": "No — co-operative societies have a Rs 3 crore threshold, and Rs 2.5 crore is below it", "correct": true },
+            { "text": "Yes — 2% on Rs 1.5 crore (excess over Rs 1 crore general threshold)", "correct": false },
+            { "text": "Yes — 5% on the entire amount as co-ops face higher rates", "correct": false }
+          ],
+          "explanation": "No TDS applies. Co-operative societies enjoy a higher threshold of Rs 3 crore for cash withdrawal TDS. At Rs 2.5 crore, the threshold is not breached. The general Rs 1 crore threshold does not apply to co-ops.",
+          "explanationWrong": "No TDS is required. The co-operative society threshold is Rs 3 crore — not the general Rs 1 crore. At Rs 2.5 crore, the society is still within the exempt limit.",
+          "tier": 3,
+          "subConcepts": ["cooperative-threshold-application", "cash-withdrawal-scenario"],
+          "isReview": false,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, a lower withholding certificate was obtained under which section and form?",
+          "options": [
+            { "text": "Section 197, Form 13", "correct": true },
+            { "text": "Section 195, Form 15CA", "correct": false },
+            { "text": "Section 197A, Form 15G", "correct": false },
+            { "text": "Section 206AB, Form 26AS", "correct": false }
+          ],
+          "explanation": "Under the old Act, Section 197 and Form 13 governed the application for a lower or nil withholding certificate. Under the new Act, this maps to Section 395(1) and Form 128. This is a review from Unit 3.7.",
+          "explanationWrong": "Section 197 / Form 13 was the old mechanism. The new equivalent is Section 395(1) / Form 128. This allows taxpayers with lower expected income to obtain a certificate for reduced TDS.",
+          "tier": 3,
+          "subConcepts": ["lower-withholding", "section-197"],
+          "isReview": true,
+          "oldSection": "Section 197, Form 13",
+          "newSection": "Section 395(1), Form 128"
+        },
+        {
+          "order": 4,
+          "question": "A lottery agent earns Rs 18,000 as commission on ticket sales during the year. Additionally, the same agent wins Rs 15,000 in a lottery draw. What is the total TDS deducted from the agent?",
+          "options": [
+            { "text": "Rs 4,500 (30% of Rs 15,000 winnings only; commission below threshold)", "correct": true },
+            { "text": "Rs 9,900 (30% of Rs 33,000 combined)", "correct": false },
+            { "text": "Rs 860 (2% of Rs 18,000 + 30% of Rs 15,000)", "correct": false },
+            { "text": "No TDS — below combined threshold", "correct": false }
+          ],
+          "explanation": "The commission of Rs 18,000 is below the Rs 20,000 threshold for Sl. 4 — no TDS on commission. The winnings of Rs 15,000 exceed the Rs 10,000 threshold for Sl. 1 — TDS at 30% = Rs 4,500. These are two separate provisions with separate thresholds.",
+          "explanationWrong": "TDS = 30% of Rs 15,000 = Rs 4,500. The two amounts are not combined — Sl. 1 (winnings) and Sl. 4 (commission) are separate entries with separate thresholds. The Rs 18,000 commission is below its Rs 20,000 threshold, so no TDS there.",
+          "tier": 3,
+          "subConcepts": ["multiple-table-3-entries", "separate-thresholds"],
+          "isReview": false,
+          "oldSection": "Sections 194B, 194G",
+          "newSection": "Section 393, Table 3, Sl. 1 and Sl. 4"
+        },
+        {
+          "order": 5,
+          "question": "A firm has three partners and pays each of them Rs 10,000 as salary during the year. Is TDS required under Table 3, Sl. 7?",
+          "options": [
+            { "text": "Yes — aggregate of Rs 30,000 to all partners exceeds Rs 20,000", "correct": false },
+            { "text": "No — the Rs 20,000 threshold applies per partner, and each receives only Rs 10,000", "correct": true },
+            { "text": "Yes — 10% on Rs 30,000 combined", "correct": false },
+            { "text": "No — firms with more than 2 partners are exempt", "correct": false }
+          ],
+          "explanation": "No TDS is required. The Rs 20,000 threshold applies per partner — not in aggregate across all partners. Each partner receives only Rs 10,000, which is below the threshold. TDS would apply only if any individual partner's aggregate payments exceed Rs 20,000.",
+          "explanationWrong": "The threshold is per partner. The firm checks each partner's aggregate separately. At Rs 10,000 per partner, no individual partner has crossed the Rs 20,000 threshold, so no TDS is required on any of the payments.",
+          "tier": 3,
+          "subConcepts": ["per-partner-threshold", "partner-tds-scenario"],
+          "isReview": false,
+          "oldSection": "Section 194T",
+          "newSection": "Section 393, Table 3, Sl. 7"
+        }
+      ]
+    },
+    {
+      "title": "Complex Scenarios and Edge Cases",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A non-resident wins Rs 50,000 at a horse race in India. Which provision governs the TDS — Table 2 (NR payments) or Table 3 (any person)?",
+          "options": [
+            { "text": "Table 2 — because the payee is a non-resident", "correct": false },
+            { "text": "Table 3, Sl. 3 — because horse race winnings apply regardless of resident/NR status", "correct": true },
+            { "text": "Both Table 2 and Table 3 apply simultaneously", "correct": false },
+            { "text": "Neither — NR winnings are exempt from Indian TDS", "correct": false }
+          ],
+          "explanation": "Table 3 applies regardless of the payee's residential status. Horse race winnings at 30% under Sl. 3 apply whether the winner is resident or non-resident. Table 2 is not invoked for payment types already covered by Table 3.",
+          "explanationWrong": "Table 3, Sl. 3 governs. The 'any person' scope means the payee's residential status is irrelevant for Table 3 entries. The deductor applies 30% TDS on Rs 50,000 = Rs 15,000 regardless of whether the winner is Indian or foreign.",
+          "tier": 3,
+          "subConcepts": ["nr-winnings", "table-priority", "table-3-universality"],
+          "isReview": false,
+          "oldSection": "Section 194BB",
+          "newSection": "Section 393, Table 3, Sl. 3"
+        },
+        {
+          "order": 2,
+          "question": "Under old Section 194N, a non-filer withdrawing Rs 1.5 crore in cash would face TDS at 5%. Under the new Act, what rate applies?",
+          "options": [
+            { "text": "5% — the non-filer rate continues", "correct": false },
+            { "text": "2% — the uniform rate, as 206AB has been removed", "correct": true },
+            { "text": "10% — higher penalty rate for non-filers", "correct": false },
+            { "text": "No TDS — non-filers are tracked through other mechanisms", "correct": false }
+          ],
+          "explanation": "Under the new Act, the rate is 2% on the excess over Rs 1 crore regardless of filing status. The old Section 206AB mechanism that imposed 5% on non-filers has been entirely removed. TDS = 2% of Rs 50 lakh = Rs 1,00,000.",
+          "explanationWrong": "The rate is 2% for everyone. Section 206AB's non-filer penalty mechanism does not exist in the 2025 Act. A non-filer withdrawing Rs 1.5 crore faces 2% TDS on the Rs 50 lakh excess — same as a regular filer.",
+          "tier": 3,
+          "subConcepts": ["non-filer-rate-change", "206ab-practical-impact"],
+          "isReview": false,
+          "oldSection": "Section 194N, 206AB",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        },
+        {
+          "order": 3,
+          "question": "What interest rate applies under Section 398(3)(a) when a deductor fails to deposit TDS after deduction?",
+          "options": [
+            { "text": "1% per month", "correct": false },
+            { "text": "1.5% per month", "correct": true },
+            { "text": "2% per month", "correct": false },
+            { "text": "12% per annum", "correct": false }
+          ],
+          "explanation": "Failure to deposit after deduction attracts 1.5% per month (or part thereof) under Section 398(3)(a)(ii). Failure to deduct attracts 1% per month. This is a review of the compliance framework from Unit 3.7.",
+          "explanationWrong": "1.5% per month applies for failure to deposit after deduction. The lower rate of 1% per month applies for failure to deduct in the first place. Both are simple interest computed on a per-month basis.",
+          "tier": 3,
+          "subConcepts": ["interest-rates", "section-398"],
+          "isReview": true,
+          "oldSection": "Section 201",
+          "newSection": "Section 398(3)(a)"
+        },
+        {
+          "order": 4,
+          "question": "M/s XYZ (a firm) pays partner A: salary Rs 1,50,000, bonus Rs 50,000, interest on capital Rs 2,00,000. Partner A also wins Rs 25,000 in a lottery organized by a third party. What is the total TDS deducted from partner A across all Table 3 entries?",
+          "options": [
+            { "text": "Rs 47,500 (10% of Rs 4,00,000 + 30% of Rs 25,000)", "correct": true },
+            { "text": "Rs 40,000 (10% of Rs 4,00,000 only)", "correct": false },
+            { "text": "Rs 42,500 (10% of Rs 4,25,000 combined)", "correct": false },
+            { "text": "Rs 7,500 (30% of Rs 25,000 only)", "correct": false }
+          ],
+          "explanation": "Partner payments by firm: Rs 1,50,000 + Rs 50,000 + Rs 2,00,000 = Rs 4,00,000. TDS under Sl. 7 = 10% of Rs 4,00,000 = Rs 40,000. Lottery winnings by third party: TDS under Sl. 1 = 30% of Rs 25,000 = Rs 7,500. Total = Rs 47,500. Two different deductors, two different entries.",
+          "explanationWrong": "Total TDS = Rs 40,000 (Sl. 7) + Rs 7,500 (Sl. 1) = Rs 47,500. The firm deducts under Sl. 7 on partner payments. The lottery organizer deducts under Sl. 1 on winnings. These are independent obligations by different deductors.",
+          "tier": 3,
+          "subConcepts": ["multiple-entry-computation", "different-deductors"],
+          "isReview": false,
+          "oldSection": "Sections 194T, 194B",
+          "newSection": "Section 393, Table 3, Sl. 7 and Sl. 1"
+        },
+        {
+          "order": 5,
+          "question": "A businessman maintains accounts with 3 different banks and withdraws Rs 40 lakh, Rs 35 lakh, and Rs 30 lakh respectively (total Rs 1.05 crore). How is the Rs 1 crore cash withdrawal threshold applied?",
+          "options": [
+            { "text": "Each bank applies the threshold independently — no TDS since no single bank exceeds Rs 1 crore", "correct": false },
+            { "text": "The Rs 1 crore threshold applies in aggregate across all accounts — TDS on Rs 5 lakh excess", "correct": false },
+            { "text": "Each bank tracks withdrawals from its own accounts; the threshold is per banking institution, not aggregate across banks", "correct": true },
+            { "text": "The IT Department reconciles across banks and issues a demand notice", "correct": false }
+          ],
+          "explanation": "The Rs 1 crore threshold under Table 3, Sl. 5 applies per banking company/co-operative bank/post office — each institution tracks withdrawals from accounts maintained with it. Since no single bank's withdrawals exceed Rs 1 crore, no TDS is triggered by any bank.",
+          "explanationWrong": "The threshold is per institution, not aggregate across institutions. Each bank can only track and enforce TDS on withdrawals from accounts maintained with it. In this case, no single bank has Rs 1 crore in withdrawals, so no TDS is deducted.",
+          "tier": 3,
+          "subConcepts": ["per-institution-threshold", "cash-withdrawal-edge-case"],
+          "isReview": false,
+          "oldSection": "Section 194N",
+          "newSection": "Section 393, Table 3, Sl. 5"
+        }
+      ]
+    }
+  ]
+}

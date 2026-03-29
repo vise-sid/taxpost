@@ -1,0 +1,835 @@
+{
+  "unit": "1.1",
+  "title": "Tax Year",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The New Section 3",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 2025 Act, Section 3(1) defines 'Tax Year' as a twelve-month period commencing on which date?",
+          "options": [
+            { "text": "January 1", "correct": false },
+            { "text": "April 1", "correct": true },
+            { "text": "July 1", "correct": false },
+            { "text": "The date of setup of the business", "correct": false }
+          ],
+          "explanation": "Section 3(1) defines Tax Year as the twelve-month period of the financial year commencing April 1. The date-of-setup rule applies only to newly set up businesses under Section 3(2).",
+          "explanationWrong": "April 1 is correct. Tax Year = financial year starting April 1. The January 1 calendar year and July 1 fiscal year are used in other countries. The setup-date rule is an exception under Section 3(2) for newly set up businesses.",
+          "tier": 1,
+          "subConcepts": ["tax-year-definition", "section-3"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3(1)"
+        },
+        {
+          "order": 2,
+          "question": "The old Act's Section 3 defined 'Previous Year.' What is the equivalent section and term in the 2025 Act?",
+          "options": [
+            { "text": "Section 3 — 'Financial Year'", "correct": false },
+            { "text": "Section 3 — 'Tax Year'", "correct": true },
+            { "text": "Section 2 — 'Tax Period'", "correct": false },
+            { "text": "Section 4 — 'Assessment Period'", "correct": false }
+          ],
+          "explanation": "Old Section 3 defined 'Previous Year.' New Section 3 defines 'Tax Year.' Same section number, new terminology. The term 'Financial Year' is not formally defined in the new Act as the replacement for Previous Year.",
+          "explanationWrong": "Section 3 now defines 'Tax Year' — not 'Financial Year' or 'Tax Period.' The section number stayed the same, but the concept name changed. This is one of the most visible changes in the new Act.",
+          "tier": 1,
+          "subConcepts": ["previous-year-replaced", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 3,
+          "question": "The 2025 Act has how many sections compared to the 1961 Act's 819 sections (before amendments)?",
+          "options": [
+            { "text": "298 sections", "correct": false },
+            { "text": "536 sections", "correct": true },
+            { "text": "650 sections", "correct": false },
+            { "text": "425 sections", "correct": false }
+          ],
+          "explanation": "The 2025 Act has 536 sections versus the 1961 Act's original 298 (which ballooned to 819+ with amendments). The reduction comes from consolidation — not from removing substantive provisions.",
+          "explanationWrong": "536 sections. The 1961 Act started with 298 sections but grew to 819+ over six decades. The 2025 Act consolidates many provisions (e.g., 30+ TDS sections into tables) to arrive at 536.",
+          "tier": 1,
+          "subConcepts": ["act-structure", "consolidation"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Under Section 3(2) of the 2025 Act, what is the Tax Year for a business newly set up on October 15, 2026?",
+          "options": [
+            { "text": "April 1, 2026 to March 31, 2027", "correct": false },
+            { "text": "October 15, 2026 to March 31, 2027", "correct": true },
+            { "text": "October 15, 2026 to October 14, 2027", "correct": false },
+            { "text": "January 1, 2027 to March 31, 2027", "correct": false }
+          ],
+          "explanation": "Section 3(2) provides the same rule as the old Act for newly set up businesses: the first Tax Year runs from the date of setup to the immediately following March 31. This is NOT a change — the shorter first-year rule is preserved.",
+          "explanationWrong": "October 15 to March 31. For newly set up businesses, the first Tax Year is a shorter period — from the date of setup to the next March 31. This rule existed under the old Act too; it's carried forward unchanged in Section 3(2).",
+          "tier": 1,
+          "subConcepts": ["newly-set-up-business", "section-3-2"],
+          "isReview": false,
+          "oldSection": "Section 3, Proviso",
+          "newSection": "Section 3(2)"
+        },
+        {
+          "order": 5,
+          "question": "The old Act defined 'Assessment Year' under which section?",
+          "options": [
+            { "text": "Section 2(7)", "correct": false },
+            { "text": "Section 2(9)", "correct": true },
+            { "text": "Section 3", "correct": false },
+            { "text": "Section 4", "correct": false }
+          ],
+          "explanation": "Old Section 2(9) defined Assessment Year as the period of twelve months commencing April 1 every year. This definition has been COMPLETELY ELIMINATED in the 2025 Act — there is no equivalent section.",
+          "explanationWrong": "Section 2(9) of the 1961 Act defined Assessment Year. Knowing this helps you spot legacy references in old documents and convert them to the new terminology.",
+          "tier": 1,
+          "subConcepts": ["assessment-year-eliminated", "old-section-2-9"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Assessment Year — Gone",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "In the 2025 Act, the concept of 'Assessment Year' has been:",
+          "options": [
+            { "text": "Renamed to 'Evaluation Year'", "correct": false },
+            { "text": "Merged into the definition of 'Tax Year'", "correct": false },
+            { "text": "Completely eliminated with no equivalent definition", "correct": true },
+            { "text": "Moved from Section 2 to Section 3", "correct": false }
+          ],
+          "explanation": "Assessment Year is completely eliminated. There is no equivalent definition anywhere in the 2025 Act. Where the old Act said 'assessment year,' the new Act uses phrases like 'succeeding tax year' or 'subsequent tax year.'",
+          "explanationWrong": "'Assessment Year' is not renamed or merged — it's gone entirely. The 2025 Act doesn't define it at all. Instead, it uses 'succeeding tax year' or 'subsequent tax year' wherever the old Act referenced the assessment year.",
+          "tier": 1,
+          "subConcepts": ["assessment-year-eliminated"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Where the 1961 Act said 'income of the previous year is taxable in the assessment year,' what language does the 2025 Act use?",
+          "options": [
+            { "text": "'Income of the tax year is taxable in the succeeding tax year'", "correct": true },
+            { "text": "'Income of the financial year is taxable in the assessment year'", "correct": false },
+            { "text": "'Income of the tax year is taxable in the same tax year'", "correct": false },
+            { "text": "'Income of the current year is taxable in the next fiscal year'", "correct": false }
+          ],
+          "explanation": "The new Act replaces both 'previous year' and 'assessment year' with 'tax year' and 'succeeding tax year.' The underlying principle (income earned → taxed next year) remains unchanged — only the terminology is simplified.",
+          "explanationWrong": "The 2025 Act says 'succeeding tax year' where the old Act said 'assessment year.' The income-earning year is now 'tax year' (not 'previous year'). Same concept, cleaner language.",
+          "tier": 1,
+          "subConcepts": ["succeeding-tax-year", "terminology-change"],
+          "isReview": false,
+          "oldSection": "Section 4",
+          "newSection": "Section 4"
+        },
+        {
+          "order": 3,
+          "question": "Section 536(1) of the 2025 Act performs what critical function?",
+          "options": [
+            { "text": "Defines the commencement date of the new Act", "correct": false },
+            { "text": "Repeals the Income-tax Act, 1961", "correct": true },
+            { "text": "Provides transition rules for pending cases", "correct": false },
+            { "text": "Lists all forms replaced under the new Act", "correct": false }
+          ],
+          "explanation": "Section 536(1) states: 'The Income-tax Act, 1961 is hereby repealed.' This is the formal repeal clause. Transition rules are in Section 536(2)-(3), not 536(1).",
+          "explanationWrong": "Section 536(1) repeals the 1961 Act. The commencement date is specified elsewhere (Section 1), and transition rules for pending proceedings are in Section 536(2). Section 536(3) handles cross-references between old and new terminology.",
+          "tier": 1,
+          "subConcepts": ["repeal-clause", "section-536"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(1)"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 536(3), a reference to 'tax year' commencing on or before April 1, 2025 in the new Act is treated as a reference to what under the old Act?",
+          "options": [
+            { "text": "The corresponding 'assessment year'", "correct": false },
+            { "text": "The corresponding 'previous year'", "correct": true },
+            { "text": "The corresponding 'financial year'", "correct": false },
+            { "text": "No equivalent — such references are invalid", "correct": false }
+          ],
+          "explanation": "Section 536(3) provides the bridge: any reference to 'tax year' commencing on or before April 1, 2025 maps to the corresponding 'previous year' under the 1961 Act. This ensures backward-looking references in the new Act connect correctly to old-Act periods.",
+          "explanationWrong": "It maps to 'previous year,' not 'assessment year.' Section 536(3) is the transition bridge — when the new Act refers to a tax year that falls within the old Act's period, it means the corresponding previous year under the 1961 Act.",
+          "tier": 1,
+          "subConcepts": ["transition-bridge", "section-536-3"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 5,
+          "question": "How many sub-sections does Section 3 of the 2025 Act contain for defining 'Tax Year'?",
+          "options": [
+            { "text": "1 sub-section", "correct": false },
+            { "text": "2 sub-sections", "correct": true },
+            { "text": "3 sub-sections", "correct": false },
+            { "text": "5 sub-sections", "correct": false }
+          ],
+          "explanation": "Section 3 has 2 sub-sections: Section 3(1) defines the standard twelve-month Tax Year, and Section 3(2) covers the shorter first year for newly set up businesses. Compact and clean.",
+          "explanationWrong": "Two sub-sections: 3(1) for the standard definition and 3(2) for newly set up businesses. The old Section 3 used a main provision plus a proviso — the new Act restructures this into two clear sub-sections.",
+          "tier": 1,
+          "subConcepts": ["section-3-structure"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        }
+      ]
+    },
+    {
+      "title": "Section 4 and Forms Overhaul",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 4 (Charge of Income-tax) in the 2025 Act has been restructured from 2 sub-sections + 1 proviso to how many sub-sections?",
+          "options": [
+            { "text": "3 sub-sections", "correct": false },
+            { "text": "4 sub-sections", "correct": false },
+            { "text": "5 sub-sections", "correct": true },
+            { "text": "7 sub-sections", "correct": false }
+          ],
+          "explanation": "Section 4 went from 2 sub-sections + 1 proviso to 5 sub-sections. The substance hasn't changed — the proviso and implicit rules are now explicitly enumerated as separate sub-sections for clarity.",
+          "explanationWrong": "5 sub-sections. The old Section 4 had 2 sub-sections and a proviso. The new Act breaks the proviso and implicit rules into explicit sub-sections, making the charging provision clearer without changing its substance.",
+          "tier": 1,
+          "subConcepts": ["section-4-restructure", "charging-provision"],
+          "isReview": false,
+          "oldSection": "Section 4",
+          "newSection": "Section 4"
+        },
+        {
+          "order": 2,
+          "question": "Form 16 (TDS certificate for salary) under the 1961 Act has been replaced by which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 168", "correct": false }
+          ],
+          "explanation": "Form 16 → Form 130. Other key mappings: Forms 15G/15H → Form 121 (merged), Form 26AS → Form 168, Forms 3CA/3CB/3CD → Form 26 (merged).",
+          "explanationWrong": "Form 130 replaces Form 16. Form 26 is the merged audit report (replaces 3CA/3CB/3CD), Form 121 replaces 15G/15H (merged into one), and Form 168 replaces 26AS.",
+          "tier": 1,
+          "subConcepts": ["form-mapping", "form-16-to-130"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The 2025 Act contains approximately how many forms compared to the 1961 Act's 399 forms?",
+          "options": [
+            { "text": "~320 forms", "correct": false },
+            { "text": "~250 forms", "correct": false },
+            { "text": "~190 forms", "correct": true },
+            { "text": "~100 forms", "correct": false }
+          ],
+          "explanation": "Forms reduced from 399 to approximately 190. Similarly, rules reduced from 511 to 333. This consolidation is part of the Act's goal to simplify compliance infrastructure.",
+          "explanationWrong": "Approximately 190 forms — less than half of the old Act's 399. Many were merged (e.g., 15G + 15H → 121, 3CA + 3CB + 3CD → 26). Rules also dropped from 511 to 333.",
+          "tier": 1,
+          "subConcepts": ["form-reduction", "simplification"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Forms 15G and 15H (self-declarations for no TDS) have been replaced by which single form under the 2025 Act?",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 168", "correct": false },
+            { "text": "Form 26", "correct": false }
+          ],
+          "explanation": "15G (for non-seniors) and 15H (for senior citizens) are merged into a single Form 121. This is typical of the 2025 Act's approach — eliminating unnecessary distinctions where the same purpose is served.",
+          "explanationWrong": "Form 121 merges both 15G and 15H into one form. Under the old Act, you needed 15G for non-seniors and 15H for seniors — the 2025 Act eliminates this split.",
+          "tier": 1,
+          "subConcepts": ["form-mapping", "form-15g-15h-to-121"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Form 26AS (Annual Tax Statement) under the 1961 Act corresponds to which form under the 2025 Act?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 26", "correct": false },
+            { "text": "Form 168", "correct": true }
+          ],
+          "explanation": "26AS → Form 168. The annual tax statement continues to serve the same function — consolidated view of TDS/TCS credits, advance tax, and refunds — under a new form number.",
+          "explanationWrong": "Form 168 replaces 26AS. Don't confuse with Form 26, which replaces the audit report forms (3CA/3CB/3CD). The number '26' in both old forms is coincidental — they map to completely different new form numbers.",
+          "tier": 1,
+          "subConcepts": ["form-mapping", "form-26as-to-168"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Why 'Tax Year'?",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What was the primary problem with the old Act's dual terminology of 'Previous Year' and 'Assessment Year'?",
+          "options": [
+            { "text": "It increased the number of tax forms required", "correct": false },
+            { "text": "It created a confusing one-year offset that tripped up taxpayers and professionals", "correct": true },
+            { "text": "It required two separate returns to be filed each year", "correct": false },
+            { "text": "It prevented quarterly advance tax payments", "correct": false }
+          ],
+          "explanation": "The PY/AY split meant 'income of PY 2024-25 is assessed in AY 2025-26.' This one-year offset caused persistent confusion — wrong AY on returns, misfiled appeals, incorrect interest calculations. 'Tax Year' eliminates this by using one term for both.",
+          "explanationWrong": "The core issue was the confusing one-year offset. Every CA has seen clients (and sometimes juniors) mix up PY and AY — writing the wrong year on returns, computing interest for the wrong period. A single 'Tax Year' term removes this entirely.",
+          "tier": 2,
+          "subConcepts": ["py-ay-confusion", "rationale"],
+          "isReview": false,
+          "oldSection": "Section 2(9), Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 2,
+          "question": "The elimination of 'Assessment Year' from the 2025 Act is best described as:",
+          "options": [
+            { "text": "A substantive change in when income is assessed", "correct": false },
+            { "text": "A terminological simplification with no change in substance", "correct": true },
+            { "text": "An alignment with the calendar year system", "correct": false },
+            { "text": "A shift from annual to real-time assessment", "correct": false }
+          ],
+          "explanation": "Pure terminology change. Income earned in Tax Year X is still taxed/assessed the following year — the mechanism is identical. The new Act just stopped giving that following year a special name. 'Succeeding tax year' is self-explanatory.",
+          "explanationWrong": "It's purely terminological. The underlying timing hasn't changed: income earned in one year is still assessed/taxed the following year. The new Act just doesn't give the assessment period its own defined term — it uses 'succeeding tax year' instead.",
+          "tier": 2,
+          "subConcepts": ["substance-vs-terminology", "assessment-year-eliminated"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under Section 536(2), pending proceedings under the old Act continue using which terminology?",
+          "options": [
+            { "text": "New Act terminology only (Tax Year)", "correct": false },
+            { "text": "Old Act terminology (Previous Year, Assessment Year)", "correct": true },
+            { "text": "Both old and new terminology in parallel", "correct": false },
+            { "text": "No specific provision — left to the discretion of the officer", "correct": false }
+          ],
+          "explanation": "Section 536(2) ensures pending proceedings under the 1961 Act continue with old terminology. An ongoing assessment for AY 2024-25 doesn't suddenly become 'Tax Year 2023-24' mid-proceeding. This prevents procedural chaos.",
+          "explanationWrong": "Old terminology continues for pending proceedings. Section 536(2) is a crucial transition provision — it would be impractical to retroactively relabel all pending assessments, appeals, and litigation with new terminology.",
+          "tier": 2,
+          "subConcepts": ["pending-proceedings", "section-536-2", "transition"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "Why did the 2025 Act restructure Section 4 into 5 sub-sections instead of keeping the old 2 sub-sections + proviso format?",
+          "options": [
+            { "text": "To introduce new charging provisions for digital income", "correct": false },
+            { "text": "To change when income becomes taxable", "correct": false },
+            { "text": "To make implicit rules explicit and eliminate the proviso format", "correct": true },
+            { "text": "To separate central and state income tax charges", "correct": false }
+          ],
+          "explanation": "The restructuring makes each rule a separate sub-section instead of burying conditions in a proviso. The substance (what income is charged, when, at what rates) is identical. The 2025 Act generally moves away from the proviso+explanation drafting style toward explicit sub-sections.",
+          "explanationWrong": "The goal was structural clarity — not new substance. The old Act's proviso style (proviso to a proviso to an explanation) was notoriously hard to parse. Breaking rules into numbered sub-sections makes each condition independently readable.",
+          "tier": 2,
+          "subConcepts": ["proviso-elimination", "drafting-style", "section-4"],
+          "isReview": false,
+          "oldSection": "Section 4",
+          "newSection": "Section 4"
+        },
+        {
+          "order": 5,
+          "question": "The merging of Forms 15G and 15H into a single Form 121 reflects which broader principle of the 2025 Act?",
+          "options": [
+            { "text": "Eliminating the senior citizen category entirely", "correct": false },
+            { "text": "Consolidating forms that serve the same function but had unnecessary distinctions", "correct": true },
+            { "text": "Making all TDS declarations digital-only", "correct": false },
+            { "text": "Removing self-declaration provisions for no-TDS", "correct": false }
+          ],
+          "explanation": "15G (non-seniors) and 15H (seniors) served the same function — declaring income below taxable limit to avoid TDS. The only difference was eligibility criteria, which can be handled within one form. This pattern of merging functionally similar forms runs throughout the 2025 Act (399 → ~190 forms).",
+          "explanationWrong": "Consolidation of functionally identical forms. Senior citizens still get their special provisions — the distinction is maintained within Form 121 rather than through separate form numbers. The 2025 Act applies this pattern broadly, cutting forms nearly in half.",
+          "tier": 2,
+          "subConcepts": ["form-consolidation", "simplification-principle"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Transition Timeline",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the last financial year governed by the Income-tax Act, 1961?",
+          "options": [
+            { "text": "FY 2024-25", "correct": false },
+            { "text": "FY 2025-26", "correct": true },
+            { "text": "FY 2026-27", "correct": false },
+            { "text": "FY 2023-24", "correct": false }
+          ],
+          "explanation": "FY 2025-26 is the last year under the 1961 Act. The 2025 Act applies from Tax Year 2026-27 onwards. There is no gap or missing year in the transition.",
+          "explanationWrong": "FY 2025-26. The 2025 Act kicks in from Tax Year 2026-27 (April 1, 2026). FY 2024-25 is already past, and FY 2026-27 is the first year under the new Act.",
+          "tier": 2,
+          "subConcepts": ["transition-timeline", "last-old-act-year"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1, Section 536"
+        },
+        {
+          "order": 2,
+          "question": "The first 'Tax Year' under the 2025 Act is:",
+          "options": [
+            { "text": "Tax Year 2025-26", "correct": false },
+            { "text": "Tax Year 2026-27", "correct": true },
+            { "text": "Tax Year 2027-28", "correct": false },
+            { "text": "Tax Year 2024-25", "correct": false }
+          ],
+          "explanation": "Tax Year 2026-27 (April 1, 2026 to March 31, 2027) is the first year under the 2025 Act. It seamlessly follows FY 2025-26, the last year under the 1961 Act.",
+          "explanationWrong": "Tax Year 2026-27, starting April 1, 2026. Tax Year 2025-26 doesn't exist as a 'tax year' under the new Act — it was PY 2025-26 under the old Act.",
+          "tier": 2,
+          "subConcepts": ["first-tax-year", "transition-timeline"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 3,
+          "question": "The 2025 Act reduced the number of rules from 511 to how many?",
+          "options": [
+            { "text": "250", "correct": false },
+            { "text": "333", "correct": true },
+            { "text": "425", "correct": false },
+            { "text": "190", "correct": false }
+          ],
+          "explanation": "Rules: 511 → 333. Forms: 399 → ~190. The 190 figure is for forms, not rules. The reduction comes from consolidation and elimination of redundant procedural rules.",
+          "explanationWrong": "333 rules. Don't confuse with ~190, which is the number of forms. The rule reduction (511 → 333) is significant but less dramatic than the form reduction (399 → ~190).",
+          "tier": 2,
+          "subConcepts": ["rules-reduction", "simplification"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A return filed for FY 2025-26 will use which Act's terminology and form numbers?",
+          "options": [
+            { "text": "2025 Act — since it's already enacted", "correct": false },
+            { "text": "1961 Act — since FY 2025-26 is the last year under the old Act", "correct": true },
+            { "text": "Either Act — taxpayer's choice during transition", "correct": false },
+            { "text": "2025 Act terminology but 1961 Act form numbers", "correct": false }
+          ],
+          "explanation": "FY 2025-26 falls entirely under the 1961 Act. Even though the 2025 Act is enacted, it applies from Tax Year 2026-27. Returns for FY 2025-26 use old forms (ITR-1, Form 16, etc.) and old terminology (Previous Year, Assessment Year).",
+          "explanationWrong": "The 1961 Act governs FY 2025-26 completely. The 2025 Act may be enacted, but it doesn't apply until Tax Year 2026-27. There's no hybrid option — the old Act's forms, rules, and terminology apply in full for FY 2025-26.",
+          "tier": 2,
+          "subConcepts": ["transition-timeline", "return-filing"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 5,
+          "question": "Is there a 'missing year' or gap in the transition from the 1961 Act to the 2025 Act?",
+          "options": [
+            { "text": "Yes — FY 2025-26 is not covered by either Act", "correct": false },
+            { "text": "Yes — AY 2026-27 has no corresponding Previous Year", "correct": false },
+            { "text": "No — FY 2025-26 (old Act) is immediately followed by Tax Year 2026-27 (new Act)", "correct": true },
+            { "text": "No — both Acts apply simultaneously during FY 2026-27", "correct": false }
+          ],
+          "explanation": "Seamless transition: FY 2025-26 is the last year under the old Act, and Tax Year 2026-27 is the first year under the new Act. No gap, no overlap. Section 536 ensures pending matters under the old Act continue to their conclusion.",
+          "explanationWrong": "No gap. FY 2025-26 (last under old Act) → Tax Year 2026-27 (first under new Act). The transition is seamless. Some CAs worried about a 'missing AY' but the new Act simply doesn't use AY — it's not needed.",
+          "tier": 2,
+          "subConcepts": ["no-missing-year", "transition-timeline"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536"
+        }
+      ]
+    },
+    {
+      "title": "Terminology in Practice",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "When reading the 2025 Act, the phrase 'succeeding tax year' is the functional equivalent of which old Act term?",
+          "options": [
+            { "text": "Previous Year", "correct": false },
+            { "text": "Assessment Year", "correct": true },
+            { "text": "Financial Year", "correct": false },
+            { "text": "Accounting Period", "correct": false }
+          ],
+          "explanation": "'Succeeding tax year' = Assessment Year in substance. If income is earned in Tax Year 2026-27, it's assessed in the succeeding tax year (2027-28). The new Act avoids defining a separate term — 'succeeding tax year' is self-explanatory.",
+          "explanationWrong": "'Succeeding tax year' maps to Assessment Year. Think of it this way: Tax Year = when you earn (old PY), succeeding tax year = when you're assessed (old AY). The new Act doesn't formalize the latter as a defined term.",
+          "tier": 2,
+          "subConcepts": ["succeeding-tax-year", "terminology-mapping"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "The merging of audit report Forms 3CA, 3CB, and 3CD into a single Form 26 illustrates which design principle of the 2025 Act?",
+          "options": [
+            { "text": "Eliminating the tax audit requirement", "correct": false },
+            { "text": "Reducing the turnover threshold for audits", "correct": false },
+            { "text": "Consolidating related forms to reduce compliance friction", "correct": true },
+            { "text": "Shifting audit responsibility from CAs to the department", "correct": false }
+          ],
+          "explanation": "3CA (audit report — accounts audited under other law), 3CB (audit report — not otherwise audited), and 3CD (statement of particulars) served related purposes. Form 26 combines them. The audit requirement itself is unchanged.",
+          "explanationWrong": "Form consolidation, not elimination. Tax audit still exists — the three forms (3CA for already-audited, 3CB for newly-audited, 3CD for particulars) are merged into one Form 26. The audit thresholds and requirements are substantively the same.",
+          "tier": 2,
+          "subConcepts": ["form-consolidation", "form-3ca-3cb-3cd-to-26"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "How many modules does the Income Tax Act 2025 organize its provisions into?",
+          "options": [
+            { "text": "10 chapters", "correct": false },
+            { "text": "23 chapters", "correct": false },
+            { "text": "Schedules only, no chapters", "correct": false },
+            { "text": "Parts and Chapters (restructured hierarchy)", "correct": true }
+          ],
+          "explanation": "The 2025 Act introduces a Parts → Chapters hierarchy instead of the flat chapter structure of the 1961 Act. This makes related provisions easier to locate and understand as a group.",
+          "explanationWrong": "The 2025 Act uses a hierarchical Parts → Chapters structure, departing from the 1961 Act's flat chapter numbering. This reorganization is one of the structural improvements aimed at making the Act more navigable.",
+          "tier": 2,
+          "subConcepts": ["act-structure", "parts-chapters"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Why does the 2025 Act use 'subsequent tax year' in some provisions and 'succeeding tax year' in others?",
+          "options": [
+            { "text": "They refer to different years — 'succeeding' is the next year, 'subsequent' is any later year", "correct": true },
+            { "text": "They are interchangeable — drafting inconsistency", "correct": false },
+            { "text": "'Succeeding' is for individuals, 'subsequent' is for companies", "correct": false },
+            { "text": "'Subsequent' refers to old Act years, 'succeeding' to new Act years", "correct": false }
+          ],
+          "explanation": "'Succeeding tax year' = the immediately next tax year (replaces 'assessment year'). 'Subsequent tax year' = any later tax year (used for carry-forward, set-off over multiple years). The distinction is intentional and meaningful.",
+          "explanationWrong": "'Succeeding' = immediately next year. 'Subsequent' = any later year. This is precise legal drafting, not inconsistency. When a provision needs to reference years beyond just the next one (e.g., carry-forward of losses), it uses 'subsequent.'",
+          "tier": 2,
+          "subConcepts": ["succeeding-vs-subsequent", "precise-drafting"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Under the transition provisions, if an appeal filed under the 1961 Act refers to 'AY 2023-24,' the new Act requires the tribunal to:",
+          "options": [
+            { "text": "Convert the reference to 'Tax Year 2022-23'", "correct": false },
+            { "text": "Continue using 'AY 2023-24' as per Section 536(2)", "correct": true },
+            { "text": "Use both terminologies in parallel", "correct": false },
+            { "text": "Remand the case for re-filing with new terminology", "correct": false }
+          ],
+          "explanation": "Section 536(2) ensures pending proceedings continue with old terminology. An appeal referring to AY 2023-24 stays as AY 2023-24 — no conversion needed. This prevents administrative chaos and potential jurisdictional challenges.",
+          "explanationWrong": "Continue using AY 2023-24. Section 536(2) is practical — requiring courts and tribunals to retroactively convert every reference to new terminology would be chaotic and serve no purpose. Pending proceedings keep their original terminology.",
+          "tier": 2,
+          "subConcepts": ["pending-proceedings", "section-536-2"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        }
+      ]
+    },
+    {
+      "title": "Client Conversations",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client calls and asks: 'What is my Assessment Year for income earned in 2026-27?' How should you respond?",
+          "options": [
+            { "text": "'Your Assessment Year is 2027-28'", "correct": false },
+            { "text": "'Assessment Year no longer exists. Your income for Tax Year 2026-27 will be assessed in the succeeding tax year 2027-28'", "correct": true },
+            { "text": "'The Assessment Year concept has been replaced by Financial Year'", "correct": false },
+            { "text": "'Assessment Year 2026-27 is the same as Tax Year 2026-27'", "correct": false }
+          ],
+          "explanation": "For Tax Year 2026-27 (first year under the new Act), there is no 'Assessment Year.' You need to educate the client that the terminology has changed, while reassuring them the timing is the same — assessed in the succeeding tax year.",
+          "explanationWrong": "The correct approach is to explain the terminology change while maintaining clarity on timing. Saying AY 2027-28 uses obsolete language. Saying AY = Tax Year is wrong — AY was the assessment period, not the earning period.",
+          "tier": 3,
+          "subConcepts": ["client-communication", "assessment-year-eliminated"],
+          "isReview": false,
+          "oldSection": "Section 2(9)",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 2,
+          "question": "Your article clerk drafts a letter referencing 'Previous Year 2027-28.' What correction is needed?",
+          "options": [
+            { "text": "Change to 'Financial Year 2027-28'", "correct": false },
+            { "text": "Change to 'Tax Year 2027-28'", "correct": true },
+            { "text": "Change to 'Assessment Year 2028-29'", "correct": false },
+            { "text": "No correction needed — 'Previous Year' is still valid", "correct": false }
+          ],
+          "explanation": "For periods from 2026-27 onwards, the correct term is 'Tax Year,' not 'Previous Year.' PY 2027-28 doesn't exist under the new Act. The article needs to learn the new terminology — 'Financial Year' is colloquially used but not the statutory term.",
+          "explanationWrong": "'Tax Year 2027-28' is the correct statutory term. 'Previous Year' ceased to exist under the new Act. While 'Financial Year' is understood colloquially, professional documents should use the Act's terminology: 'Tax Year.'",
+          "tier": 3,
+          "subConcepts": ["professional-drafting", "terminology-change"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 3,
+          "question": "A client's old engagement letter references 'Form 16.' Under the new Act, which form number should the updated letter reference?",
+          "options": [
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 130", "correct": true },
+            { "text": "Form 168", "correct": false },
+            { "text": "Form 26", "correct": false }
+          ],
+          "explanation": "Form 16 (TDS certificate for salary) → Form 130 under the 2025 Act. When updating engagement letters, retainer agreements, and SOPs, all form references need to be mapped to new numbers.",
+          "explanationWrong": "Form 130 replaces Form 16. Updating form references in professional documents is a practical transition task every CA firm will need to handle. Form 121 replaces 15G/15H, Form 168 replaces 26AS, and Form 26 replaces 3CA/3CB/3CD.",
+          "tier": 3,
+          "subConcepts": ["form-mapping", "professional-documents"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A client set up a new business on November 1, 2026 and asks: 'Do I file a return for the period November 1 to March 31 or the full year April 1 to March 31?' What is correct under the 2025 Act?",
+          "options": [
+            { "text": "Full year April 1 to March 31 — the Tax Year is always 12 months", "correct": false },
+            { "text": "November 1, 2026 to March 31, 2027 — the first Tax Year is shorter per Section 3(2)", "correct": true },
+            { "text": "November 1, 2026 to October 31, 2027 — 12 months from date of setup", "correct": false },
+            { "text": "April 1, 2027 to March 31, 2028 — business income starts from the next full year", "correct": false }
+          ],
+          "explanation": "Section 3(2) provides a shorter first Tax Year for newly set up businesses: from the date of setup to the next March 31. This is the same rule as the old Act. The return covers November 1, 2026 to March 31, 2027.",
+          "explanationWrong": "November 1, 2026 to March 31, 2027. Section 3(2) preserves the old Act's rule for newly set up businesses — the first year is shorter, running from setup date to March 31. It doesn't mandate a full 12-month period or defer to the next year.",
+          "tier": 3,
+          "subConcepts": ["newly-set-up-business", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 3, Proviso",
+          "newSection": "Section 3(2)"
+        },
+        {
+          "order": 5,
+          "question": "A client receives a notice referencing 'Tax Year 2024-25' under the 2025 Act. How should you interpret this per Section 536(3)?",
+          "options": [
+            { "text": "It refers to PY 2024-25 under the old Act", "correct": true },
+            { "text": "It's an error — Tax Year 2024-25 doesn't exist", "correct": false },
+            { "text": "It refers to AY 2024-25 under the old Act", "correct": false },
+            { "text": "It refers to both PY and AY 2024-25 simultaneously", "correct": false }
+          ],
+          "explanation": "Section 536(3) provides the bridge: a reference to 'tax year' commencing on or before April 1, 2025 means the corresponding 'previous year' under the old Act. So 'Tax Year 2024-25' in the new Act = PY 2024-25 under the old Act.",
+          "explanationWrong": "Per Section 536(3), it maps to PY 2024-25. Since Tax Year 2024-25 falls before the new Act's effective date, the transition provision treats it as the corresponding previous year — not assessment year — under the 1961 Act.",
+          "tier": 3,
+          "subConcepts": ["section-536-3", "transition-bridge", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 536(3)"
+        }
+      ]
+    },
+    {
+      "title": "Return Filing Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your firm is filing a return in July 2027. Which Act governs the return, and what terminology should the return use?",
+          "options": [
+            { "text": "1961 Act, using 'Previous Year 2026-27' and 'AY 2027-28'", "correct": false },
+            { "text": "2025 Act, using 'Tax Year 2026-27'", "correct": true },
+            { "text": "2025 Act, using 'Assessment Year 2027-28'", "correct": false },
+            { "text": "Either Act — both are valid during transition", "correct": false }
+          ],
+          "explanation": "A return filed in July 2027 is for Tax Year 2026-27 — the first year under the 2025 Act. New forms, new terminology, new section numbers. The 1961 Act no longer governs this period.",
+          "explanationWrong": "2025 Act, Tax Year 2026-27. Since this is for the first year under the new Act, everything uses new terminology. There's no hybrid option — the 1961 Act applies only to periods up to FY 2025-26.",
+          "tier": 3,
+          "subConcepts": ["return-filing", "transition-timeline"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3, Section 1"
+        },
+        {
+          "order": 2,
+          "question": "A salaried client needs to submit a declaration to their employer to avoid TDS on interest income (income below taxable limit) for Tax Year 2026-27. Which form should they use?",
+          "options": [
+            { "text": "Form 15G or 15H (depending on age)", "correct": false },
+            { "text": "Form 121", "correct": true },
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 168", "correct": false }
+          ],
+          "explanation": "Form 121 replaces both 15G and 15H from Tax Year 2026-27 onwards. No need to check whether the client is a senior citizen to decide the form number — it's one form for all. Form 130 is the TDS certificate (replacing Form 16).",
+          "explanationWrong": "Form 121. For Tax Year 2026-27 onwards, Forms 15G and 15H don't exist — they're merged into Form 121. Form 130 is the TDS salary certificate (old Form 16), and Form 168 is the annual tax statement (old 26AS).",
+          "tier": 3,
+          "subConcepts": ["form-mapping", "practical-filing"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, FY 2025-26 is the last year under the old Act. What immediately follows it under the new Act?",
+          "options": [
+            { "text": "AY 2026-27", "correct": false },
+            { "text": "Tax Year 2026-27", "correct": true },
+            { "text": "Tax Year 2025-26", "correct": false },
+            { "text": "There is a one-year gap", "correct": false }
+          ],
+          "explanation": "FY 2025-26 (last old Act year) → Tax Year 2026-27 (first new Act year). Seamless, no gap. The transition works because both systems use April 1 to March 31 periods.",
+          "explanationWrong": "Tax Year 2026-27 immediately follows FY 2025-26. There is no gap, no overlap, and no 'AY 2026-27' — the Assessment Year concept doesn't carry forward into the new regime.",
+          "tier": 3,
+          "subConcepts": ["transition-timeline", "no-missing-year"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": "Section 1"
+        },
+        {
+          "order": 4,
+          "question": "Your firm has a standard operating procedure (SOP) that says: 'Collect Form 26AS, prepare computation for the Previous Year, and file ITR before the due date for the relevant Assessment Year.' How many terminology changes are needed for the 2025 Act?",
+          "options": [
+            { "text": "1 change — only 'Previous Year' needs updating", "correct": false },
+            { "text": "2 changes — 'Previous Year' and 'Assessment Year'", "correct": false },
+            { "text": "3 changes — Form 26AS, Previous Year, and Assessment Year", "correct": true },
+            { "text": "4 changes — all terms plus ITR form number", "correct": false }
+          ],
+          "explanation": "Three changes: (1) Form 26AS → Form 168, (2) Previous Year → Tax Year, (3) Assessment Year → succeeding tax year (or just remove the AY reference). The ITR form numbers may also change, but that's not explicitly stated in this SOP text.",
+          "explanationWrong": "Three changes are needed in the text as written: Form 26AS becomes Form 168, Previous Year becomes Tax Year, and Assessment Year is eliminated (use 'succeeding tax year' or just refer to the filing deadline). The question specifically asks about terminology in the quoted text.",
+          "tier": 3,
+          "subConcepts": ["sop-update", "terminology-mapping", "form-mapping"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "A client who was assessed under the 1961 Act for AY 2025-26 receives a rectification order in 2027. The order uses 'AY 2025-26' terminology. Is the order valid?",
+          "options": [
+            { "text": "No — the 1961 Act is repealed, so AY terminology is invalid", "correct": false },
+            { "text": "Yes — Section 536(2) allows pending proceedings to continue with old terminology", "correct": true },
+            { "text": "Only if the order also mentions the equivalent Tax Year", "correct": false },
+            { "text": "Yes — but only if the order was initiated before April 1, 2026", "correct": false }
+          ],
+          "explanation": "Section 536(2) saves this. Pending proceedings under the old Act continue with old terminology. A rectification order for AY 2025-26 issued in 2027 is valid because it's a continuation of proceedings under the 1961 Act, even though the 2025 Act is now in force.",
+          "explanationWrong": "Valid under Section 536(2). The repeal of the 1961 Act doesn't invalidate pending proceedings. Rectification, appeals, reassessments — all pending matters continue with old terminology. The 2025 Act explicitly protects this.",
+          "tier": 3,
+          "subConcepts": ["section-536-2", "pending-proceedings", "practical-transition"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(2)"
+        }
+      ]
+    },
+    {
+      "title": "Firm-Level Transition",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your firm maintains separate files labeled by Assessment Year (e.g., 'AY 2024-25'). Starting from which period should you switch to 'Tax Year' labeling?",
+          "options": [
+            { "text": "Tax Year 2025-26", "correct": false },
+            { "text": "Tax Year 2026-27", "correct": true },
+            { "text": "Tax Year 2024-25", "correct": false },
+            { "text": "Immediately — relabel all historical files", "correct": false }
+          ],
+          "explanation": "Tax Year 2026-27 is the first year under the new Act, so that's when your filing system should switch. Historical files for AY 2024-25, AY 2025-26, etc., can remain as-is — they were correctly labeled under the Act that governed them.",
+          "explanationWrong": "Start from Tax Year 2026-27. No need to relabel historical files — they were correctly labeled under the old Act. But from 2026-27 onwards, using 'AY' would be incorrect since the concept no longer exists.",
+          "tier": 3,
+          "subConcepts": ["firm-operations", "transition-timeline"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3"
+        },
+        {
+          "order": 2,
+          "question": "A partner asks you to prepare a comparison chart for staff training. For Tax Year 2026-27, what was the equivalent under the old Act's framework?",
+          "options": [
+            { "text": "PY 2026-27 / AY 2027-28", "correct": true },
+            { "text": "PY 2025-26 / AY 2026-27", "correct": false },
+            { "text": "AY 2026-27 / PY 2025-26", "correct": false },
+            { "text": "There is no equivalent — it's the first year of the new system", "correct": false }
+          ],
+          "explanation": "Tax Year 2026-27 under the new Act would have been PY 2026-27 (earning period) / AY 2027-28 (assessment period) under the old system. Understanding this mapping is essential for training staff on the transition.",
+          "explanationWrong": "PY 2026-27 / AY 2027-28. The Tax Year (2026-27) maps to the Previous Year with the same dates. The corresponding Assessment Year would have been the following year (2027-28). This mapping helps staff bridge old and new terminology.",
+          "tier": 3,
+          "subConcepts": ["py-ay-to-tax-year-mapping", "staff-training"],
+          "isReview": false,
+          "oldSection": "Section 2(9), Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 3,
+          "question": "Your firm's tax audit report template uses Forms 3CA, 3CB, and 3CD. For Tax Year 2026-27 audits, these are replaced by:",
+          "options": [
+            { "text": "Form 130", "correct": false },
+            { "text": "Form 26", "correct": true },
+            { "text": "Form 121", "correct": false },
+            { "text": "Form 168", "correct": false }
+          ],
+          "explanation": "Forms 3CA (audit report — accounts audited under other law), 3CB (audit report — not otherwise audited), and 3CD (statement of particulars) are all consolidated into Form 26. One form for the entire tax audit report.",
+          "explanationWrong": "Form 26 replaces all three audit report forms. This is one of the most impactful form changes for CA firms — your audit templates, checklists, and SOPs all need updating. Form 130 replaces Form 16 (TDS certificate), not the audit forms.",
+          "tier": 3,
+          "subConcepts": ["form-mapping", "form-3ca-3cb-3cd-to-26", "audit-practice"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "In December 2027, a client receives a notice under the 2025 Act referencing 'Tax Year 2023-24.' Your client is confused because the 2025 Act wasn't effective then. How do you explain this?",
+          "options": [
+            { "text": "The notice is defective and should be challenged", "correct": false },
+            { "text": "Section 536(3) allows the new Act to reference pre-2026 periods as 'Tax Year,' mapping them to the corresponding 'Previous Year' under the old Act", "correct": true },
+            { "text": "The department made an error — it should say PY 2023-24", "correct": false },
+            { "text": "Tax Year 2023-24 is different from PY 2023-24 and refers to a different period", "correct": false }
+          ],
+          "explanation": "Section 536(3) is the bridge provision. When the 2025 Act references a 'tax year' commencing on or before April 1, 2025, it means the corresponding 'previous year' under the 1961 Act. The notice is valid — 'Tax Year 2023-24' = PY 2023-24.",
+          "explanationWrong": "Valid notice. Section 536(3) specifically allows this. The new Act can reference pre-2026 periods using 'Tax Year' — it automatically maps to the corresponding Previous Year under the old Act. Don't challenge the notice on this ground; it's by design.",
+          "tier": 3,
+          "subConcepts": ["section-536-3", "transition-bridge", "notice-interpretation"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 536(3)"
+        },
+        {
+          "order": 5,
+          "question": "Your firm needs to update engagement letter templates for the 2025 Act. Which of these changes is NOT required?",
+          "options": [
+            { "text": "Replacing 'Previous Year' with 'Tax Year'", "correct": false },
+            { "text": "Removing references to 'Assessment Year'", "correct": false },
+            { "text": "Updating form numbers (e.g., Form 16 → Form 130)", "correct": false },
+            { "text": "Changing 'April 1 to March 31' to a different period", "correct": true }
+          ],
+          "explanation": "The period remains April 1 to March 31 — that hasn't changed. But terminology (PY → Tax Year, AY → eliminated), form numbers, and section references all need updating in engagement letters, SOPs, and client-facing documents.",
+          "explanationWrong": "The April 1 to March 31 period is unchanged. Everything else listed needs updating: terminology (Previous Year → Tax Year), AY references (remove entirely), and form numbers (16 → 130, 26AS → 168, etc.). The Tax Year is still a standard financial year.",
+          "tier": 3,
+          "subConcepts": ["engagement-letters", "practical-transition", "unchanged-elements"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3(1)"
+        }
+      ]
+    }
+  ]
+}

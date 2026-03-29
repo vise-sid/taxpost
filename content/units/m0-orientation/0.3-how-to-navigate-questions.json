@@ -1,0 +1,835 @@
+{
+  "unit": "0.3",
+  "title": "How to Navigate the New Act",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Tables and Where to Find Them",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many tables were introduced in the Income Tax Act, 2025 to present complex provisions?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "47", "correct": false }
+          ],
+          "explanation": "The new Act introduces 39 tables for provisions like TDS rates, perquisite values, and presumptive thresholds. These tables are the operative law — not just illustrations. Remember: 39 tables, 23 chapters, 16 schedules.",
+          "explanationWrong": "The new Act has 39 tables. A common mix-up: 16 is the number of schedules, 23 is the number of chapters, and 47 was the old chapter count. The 39 tables are one of the most practically useful structural changes.",
+          "tier": 1,
+          "subConcepts": ["tables", "new-act-structure"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "How many sections does TDS now occupy in the new Act, down from 30+ in the old Act?",
+          "options": [
+            { "text": "1", "correct": false },
+            { "text": "3", "correct": true },
+            { "text": "5", "correct": false },
+            { "text": "10", "correct": false }
+          ],
+          "explanation": "TDS is now consolidated into just 3 sections: Section 392 (Salary), Section 393 (Other Payments), and Section 394 (TCS). This is down from 30+ separate sections (192 through 196D) in the old Act.",
+          "explanationWrong": "The answer is 3 sections. The new Act consolidates all TDS/TCS into Section 392 (Salary), 393 (Other Payments), and 394 (TCS). The old Act spread TDS across 30+ sections — one per payment type.",
+          "tier": 1,
+          "subConcepts": ["tds-consolidation", "section-count"],
+          "isReview": false,
+          "oldSection": "192-196D",
+          "newSection": "392-394"
+        },
+        {
+          "order": 3,
+          "question": "The Income Tax Act, 2025 is effective from which date?",
+          "options": [
+            { "text": "January 1, 2025", "correct": false },
+            { "text": "April 1, 2025", "correct": false },
+            { "text": "April 1, 2026", "correct": true },
+            { "text": "August 18, 2025", "correct": false }
+          ],
+          "explanation": "The new Act is effective from April 1, 2026, applying from Tax Year 2026-27 onwards. August 18, 2025 is when it received Presidential assent — but the operative date is April 1, 2026.",
+          "explanationWrong": "The effective date is April 1, 2026. Don't confuse with August 18, 2025 (Presidential assent) or February 13, 2025 (when the Bill was introduced). The Act applies from Tax Year 2026-27.",
+          "tier": 1,
+          "subConcepts": ["effective-date", "timeline"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Section 393 in the new Act organizes non-salary TDS into how many tables?",
+          "options": [
+            { "text": "2", "correct": false },
+            { "text": "3", "correct": true },
+            { "text": "4", "correct": false },
+            { "text": "6", "correct": false }
+          ],
+          "explanation": "Section 393 has 3 tables: Table 1 (Resident deductees), Table 2 (Non-Resident deductees), and Table 3 (Any Person). The tables are organized by deductee status, so you first identify who you're paying, then find the right table.",
+          "explanationWrong": "Section 393 has exactly 3 tables, organized by deductee status: Table 1 for Residents, Table 2 for Non-Residents, and Table 3 for Any Person. The split is by who receives the payment, not by payment type.",
+          "tier": 1,
+          "subConcepts": ["section-393", "tds-tables"],
+          "isReview": false,
+          "oldSection": "193-196D",
+          "newSection": "393"
+        },
+        {
+          "order": 5,
+          "question": "Which new section covers TDS on salary, replacing old Section 192?",
+          "options": [
+            { "text": "Section 391", "correct": false },
+            { "text": "Section 392", "correct": true },
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "Section 392 covers TDS on salary, directly replacing old Section 192. Section 393 handles all other TDS payments, and Section 394 covers TCS (replacing old Section 206C).",
+          "explanationWrong": "TDS on salary is now Section 392. Remember the pattern: 392 = Salary, 393 = Other Payments (with 3 tables), 394 = TCS. Section 393 is the catch-all for non-salary TDS, not salary.",
+          "tier": 1,
+          "subConcepts": ["tds-salary", "section-mapping"],
+          "isReview": false,
+          "oldSection": "192",
+          "newSection": "392"
+        }
+      ]
+    },
+    {
+      "title": "Section 10's Big Split",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many clauses did old Section 10 (exemptions) contain before the rewrite?",
+          "options": [
+            { "text": "About 50", "correct": false },
+            { "text": "About 90", "correct": false },
+            { "text": "About 140", "correct": true },
+            { "text": "About 200", "correct": false }
+          ],
+          "explanation": "Old Section 10 had 140+ clauses covering exemptions for every type of assessee — individuals, trusts, non-residents, IFSCs, and more. This made it one of the longest sections in any Indian statute.",
+          "explanationWrong": "Section 10 had over 140 clauses. It was a catch-all exemption section that grew over 63 years as Parliament kept adding new exemptions rather than reorganizing. The new Act splits these across Section 11 and Schedules II-VII.",
+          "tier": 1,
+          "subConcepts": ["section-10", "old-act-complexity"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11"
+        },
+        {
+          "order": 2,
+          "question": "In the new Act, exemptions from old Section 10 are now found in Section 11 and which schedules?",
+          "options": [
+            { "text": "Schedules I-VI", "correct": false },
+            { "text": "Schedules II-VII", "correct": true },
+            { "text": "Schedules I-VII", "correct": false },
+            { "text": "Schedules III-VIII", "correct": false }
+          ],
+          "explanation": "Old Section 10's exemptions are distributed across Section 11 and Schedules II through VII (six schedules total). Each schedule covers a different category of assessee — general, individual/HUF, non-resident, business trusts, IFSC, and specified entities.",
+          "explanationWrong": "The correct range is Schedules II through VII. Schedule I is the tax rate schedule, not part of the exemption schedules. The six schedules (II-VII) organize exemptions by entity type, making it far easier to find relevant exemptions for your client.",
+          "tier": 1,
+          "subConcepts": ["exemption-schedules", "section-10-split"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedules II-VII"
+        },
+        {
+          "order": 3,
+          "question": "The old Income Tax Act, 1961 had approximately how many words?",
+          "options": [
+            { "text": "~2.6 lakh", "correct": false },
+            { "text": "~3.8 lakh", "correct": false },
+            { "text": "~5.12 lakh", "correct": true },
+            { "text": "~7 lakh", "correct": false }
+          ],
+          "explanation": "The 1961 Act had approximately 5.12 lakh words. The new Act cuts this to about 2.6 lakh words — a 49% reduction. This is one of the headline numbers showing the scale of simplification.",
+          "explanationWrong": "The old Act had about 5.12 lakh words — nearly double the new Act's 2.6 lakh words. The 49% reduction in word count reflects the elimination of provisos, explanations, and redundant provisions.",
+          "tier": 1,
+          "subConcepts": ["old-act-complexity", "word-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Which schedule in the new Act contains exemptions specifically for non-residents?",
+          "options": [
+            { "text": "Schedule II", "correct": false },
+            { "text": "Schedule III", "correct": false },
+            { "text": "Schedule IV", "correct": true },
+            { "text": "Schedule VI", "correct": false }
+          ],
+          "explanation": "Schedule IV covers non-resident exemptions. The schedule numbering follows a logical pattern: II = General, III = Individual/HUF, IV = Non-Resident, V = Business Trust/Investment Fund, VI = IFSC/Specific NR, VII = Specified Entities.",
+          "explanationWrong": "Non-resident exemptions are in Schedule IV. Schedule VI is a common wrong pick — it covers IFSC and specific non-resident entities, which is a narrower category. Schedule IV is the broader non-resident exemption schedule.",
+          "tier": 1,
+          "subConcepts": ["schedule-iv", "non-resident-exemptions"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedule IV"
+        },
+        {
+          "order": 5,
+          "question": "Which schedule covers general exemptions like agricultural income, applicable to all assessees?",
+          "options": [
+            { "text": "Schedule I", "correct": false },
+            { "text": "Schedule II", "correct": true },
+            { "text": "Schedule III", "correct": false },
+            { "text": "Schedule VII", "correct": false }
+          ],
+          "explanation": "Schedule II contains general exemptions available to all assessees — agricultural income, share of HUF income, and more. It's the most commonly referenced exemption schedule.",
+          "explanationWrong": "General exemptions are in Schedule II. Schedule I is the tax rate schedule. Schedule III is specifically for Individual/HUF exemptions, and Schedule VII is for specified entities.",
+          "tier": 1,
+          "subConcepts": ["schedule-ii", "general-exemptions"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedule II"
+        }
+      ]
+    },
+    {
+      "title": "Key Section Mappings",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 80C (deductions for LIC, PPF, ELSS, etc.) is now which section in the new Act?",
+          "options": [
+            { "text": "Section 80", "correct": false },
+            { "text": "Section 113", "correct": false },
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 126", "correct": false }
+          ],
+          "explanation": "Section 80C is now Section 123. Section 126 is the new number for old Section 80D (medical insurance deduction). These are two of the most commonly used deduction sections — memorize both.",
+          "explanationWrong": "80C maps to Section 123 in the new Act. Section 126 is 80D (medical insurance), not 80C. The new Act uses clean sequential numbers — no more 80CCA, 80CCB, 80CCC suffixes.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deductions"],
+          "isReview": false,
+          "oldSection": "80C",
+          "newSection": "123"
+        },
+        {
+          "order": 2,
+          "question": "Under the new Act, which section should you refer to for return of income filing (previously Section 139)?",
+          "options": [
+            { "text": "Section 163", "correct": false },
+            { "text": "Section 239", "correct": false },
+            { "text": "Section 263", "correct": true },
+            { "text": "Section 336", "correct": false }
+          ],
+          "explanation": "Return of income (old Section 139) is now Section 263. This is one of the most critical mappings for every CA — you'll reference it constantly during filing season.",
+          "explanationWrong": "Section 139 maps to Section 263 in the new Act. This is a must-know mapping — return filing is a daily activity for most CAs.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "return-filing"],
+          "isReview": false,
+          "oldSection": "139",
+          "newSection": "263"
+        },
+        {
+          "order": 3,
+          "question": "How many sections does the new Income Tax Act, 2025 contain in total?",
+          "options": [
+            { "text": "298", "correct": false },
+            { "text": "436", "correct": false },
+            { "text": "536", "correct": true },
+            { "text": "819", "correct": false }
+          ],
+          "explanation": "The new Act has 536 sections, sequentially numbered from 1 to 536 with no alphabetical suffixes. This is down from 819 sections in the old Act — a 35% reduction.",
+          "explanationWrong": "The new Act has 536 sections. 819 was the old Act's count, and 298 was the original 1961 section count before 63 years of amendments.",
+          "tier": 1,
+          "subConcepts": ["section-count", "sequential-numbering"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Old Section 44AB (tax audit) maps to which section in the new Act?",
+          "options": [
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 58", "correct": false },
+            { "text": "Section 63", "correct": true },
+            { "text": "Section 92", "correct": false }
+          ],
+          "explanation": "Tax audit (old Section 44AB) is now Section 63. Don't confuse with Section 58, which covers presumptive taxation (old 44AD/44ADA/44AE), or Section 92, which covers income from other sources (old Section 56).",
+          "explanationWrong": "44AB maps to Section 63. A common trap: Section 58 is presumptive taxation (old 44AD), not tax audit. And Section 92 is income from other sources (old Section 56).",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "tax-audit"],
+          "isReview": false,
+          "oldSection": "44AB",
+          "newSection": "63"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 56 (Income from Other Sources) is now which section?",
+          "options": [
+            { "text": "Section 56", "correct": false },
+            { "text": "Section 63", "correct": false },
+            { "text": "Section 92", "correct": true },
+            { "text": "Section 123", "correct": false }
+          ],
+          "explanation": "Section 56 maps to Section 92 in the new Act. The new Act doesn't reuse old section numbers — there is a Section 56 in the new Act, but it covers a different provision entirely.",
+          "explanationWrong": "Income from Other Sources moved from Section 56 to Section 92. Be careful — the new Act has its own Section 56, but it covers a completely different provision.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "income-other-sources"],
+          "isReview": false,
+          "oldSection": "56",
+          "newSection": "92"
+        }
+      ]
+    },
+    {
+      "title": "Why Tables and Schedules?",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the new Act present TDS provisions in tabular format instead of separate sections?",
+          "options": [
+            { "text": "To change the TDS rates from the old Act", "correct": false },
+            { "text": "To make it easier to compare rates across payment types at a glance", "correct": true },
+            { "text": "To remove TDS on certain payment categories", "correct": false },
+            { "text": "To allow states to set their own TDS rates", "correct": false }
+          ],
+          "explanation": "The table format lets practitioners see all TDS rates, thresholds, and conditions in one consolidated view. Under the old Act, you had to read 30+ separate sections to compare rates. The substance — rates and thresholds — hasn't changed; only the presentation has.",
+          "explanationWrong": "The tables are about presentation, not policy change. TDS rates remain the same — the table format simply makes it easier to look up and compare rates across different payment types without reading 30+ separate sections.",
+          "tier": 2,
+          "subConcepts": ["tds-tables", "why-tables"],
+          "isReview": false,
+          "oldSection": "192-196D",
+          "newSection": "392-394"
+        },
+        {
+          "order": 2,
+          "question": "What is the primary organizing principle behind the six exemption schedules (II-VII)?",
+          "options": [
+            { "text": "Amount of exempt income", "correct": false },
+            { "text": "Type of assessee the exemption applies to", "correct": true },
+            { "text": "Year in which the exemption was introduced", "correct": false },
+            { "text": "Whether the exemption requires CBDT approval", "correct": false }
+          ],
+          "explanation": "The schedules are organized by entity type: General (II), Individual/HUF (III), Non-Resident (IV), Business Trust (V), IFSC (VI), Specified Entities (VII). This mirrors how CAs actually think — 'what exemptions apply to my client type?'",
+          "explanationWrong": "The schedules are organized by assessee type, not by amount or chronology. This entity-based approach means you go straight to the schedule that matches your client — Schedule III for individuals, Schedule IV for NRIs, and so on.",
+          "tier": 2,
+          "subConcepts": ["exemption-schedules", "organizing-principle"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedules II-VII"
+        },
+        {
+          "order": 3,
+          "question": "The Select Committee that reviewed the Income Tax Bill, 2025 had how many members?",
+          "options": [
+            { "text": "21", "correct": false },
+            { "text": "31", "correct": true },
+            { "text": "84", "correct": false },
+            { "text": "285", "correct": false }
+          ],
+          "explanation": "The Select Committee had 31 members from both houses of Parliament. They received 285 recommendations and accepted 84 substantive amendments. Don't confuse 31 (members) with 84 (amendments) or 285 (recommendations).",
+          "explanationWrong": "31 members served on the Committee. The three key numbers: 31 members, 285 recommendations received, 84 amendments accepted. These are frequently confused — keep them distinct.",
+          "tier": 2,
+          "subConcepts": ["select-committee", "legislative-process"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Why is splitting Section 10 into six schedules better for future amendments?",
+          "options": [
+            { "text": "It prevents Parliament from adding new exemptions", "correct": false },
+            { "text": "Changes to one category only affect the relevant schedule, leaving others untouched", "correct": true },
+            { "text": "Schedules cannot be amended without constitutional change", "correct": false },
+            { "text": "It reduces the total number of exemptions available", "correct": false }
+          ],
+          "explanation": "With dedicated schedules, amending IFSC exemptions only changes Schedule VI, while individual exemptions in Schedule III remain untouched. Under the old Act, every amendment to any exemption modified the same Section 10.",
+          "explanationWrong": "The split allows targeted amendments. When Parliament changes IFSC exemptions, only Schedule VI is amended — not the same massive section that also contains individual and NR exemptions.",
+          "tier": 2,
+          "subConcepts": ["section-10-split", "amendment-benefits"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedules II-VII"
+        },
+        {
+          "order": 5,
+          "question": "In Section 393, what determines which table you consult — Table 1, Table 2, or Table 3?",
+          "options": [
+            { "text": "The type of payment being made", "correct": false },
+            { "text": "The residential status of the deductee", "correct": true },
+            { "text": "The amount of the payment", "correct": false },
+            { "text": "Whether the deductor is a company or individual", "correct": false }
+          ],
+          "explanation": "The three tables are organized by deductee status: Table 1 = Resident, Table 2 = Non-Resident, Table 3 = Any Person. You first identify the recipient's status, then find the payment type within that table.",
+          "explanationWrong": "The table selection depends on the deductee's residential status, not the payment type or amount. Table 1 is for Residents, Table 2 for Non-Residents, and Table 3 for Any Person. Within each table, you then find the specific payment type.",
+          "tier": 2,
+          "subConcepts": ["section-393", "tds-tables"],
+          "isReview": false,
+          "oldSection": "193-196D",
+          "newSection": "393"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Cross-Reference Pattern",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the cross-reference pattern used throughout the new Act?",
+          "options": [
+            { "text": "Schedules state the rules, sections provide commentary", "correct": false },
+            { "text": "Sections state the rules, schedules and tables provide the details", "correct": true },
+            { "text": "Rules are in the main Act, details are in CBDT circulars", "correct": false },
+            { "text": "Each chapter is self-contained with no cross-references", "correct": false }
+          ],
+          "explanation": "The new Act follows a consistent pattern: sections establish the legal rule (e.g., 'income shall be exempt'), and schedules or tables provide the specifics (which incomes, what rates, what thresholds).",
+          "explanationWrong": "The pattern is: sections state the rule, schedules/tables provide details. For example, Section 11 says certain income is exempt, and Schedules II-VII list exactly which income qualifies.",
+          "tier": 2,
+          "subConcepts": ["cross-reference-pattern", "navigation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Why does the new Act's sequential numbering (1-536) matter more than it might seem?",
+          "options": [
+            { "text": "It allows for more sections to be added in the future", "correct": false },
+            { "text": "It eliminates ambiguity in section references and improves digital searchability", "correct": true },
+            { "text": "It makes the Act shorter in page count", "correct": false },
+            { "text": "It aligns India's numbering with international tax conventions", "correct": false }
+          ],
+          "explanation": "Clean sequential numbering means no more confusion between '194C' and '194(C)', and digital search tools can find exact section numbers without parsing complex suffixes.",
+          "explanationWrong": "Sequential numbering eliminates reference ambiguity. Under the old Act, searching for '80C' might also return '80CC', '80CCA', etc. Clean numbers make every reference unambiguous.",
+          "tier": 2,
+          "subConcepts": ["sequential-numbering", "practical-benefits"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "What was the primary stated goal of the comprehensive review announced in the July 2024 Budget?",
+          "options": [
+            { "text": "To increase tax revenue", "correct": false },
+            { "text": "To introduce new tax slabs", "correct": false },
+            { "text": "To reduce disputes, litigation, and compliance burden", "correct": true },
+            { "text": "To align with US tax law structure", "correct": false }
+          ],
+          "explanation": "The FM's stated objective was to make the Act concise, clear, and easy to understand — specifically to reduce disputes, litigation, and compliance burden. No new taxes or rate changes were part of the mandate.",
+          "explanationWrong": "The goal was reducing disputes, litigation, and compliance burden — not revenue or rate changes. The FM explicitly stated this was about rewriting the law more clearly, not changing tax policy.",
+          "tier": 2,
+          "subConcepts": ["simplification-mandate", "why-new-act"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "What is a key limitation of the parallel reading utility on incometax.gov.in?",
+          "options": [
+            { "text": "It only works for sections, not for schedules", "correct": false },
+            { "text": "Some old provisions split across multiple new sections, making one-to-one comparison incomplete", "correct": true },
+            { "text": "It requires a paid subscription", "correct": false },
+            { "text": "It only shows the old Act text, not the new", "correct": false }
+          ],
+          "explanation": "The parallel reading tool works best for one-to-one section mappings. But some provisions — like old Section 10, which maps to Section 11 plus six schedules — don't fit neatly into a side-by-side comparison.",
+          "explanationWrong": "The main limitation is that one-to-many and many-to-one mappings don't display cleanly in a two-panel view. Section 10 splitting into seven new locations, or 30+ TDS sections merging into one, can't be fully captured.",
+          "tier": 2,
+          "subConcepts": ["parallel-reading", "limitations"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Old presumptive taxation provisions (44AD, 44ADA, 44AE) are now consolidated into which single section?",
+          "options": [
+            { "text": "Section 44", "correct": false },
+            { "text": "Section 58", "correct": true },
+            { "text": "Section 63", "correct": false },
+            { "text": "Section 92", "correct": false }
+          ],
+          "explanation": "All presumptive taxation provisions are now in Section 58, with a table covering eligibility and deemed profit rates. Section 63 is tax audit (old 44AB), and Section 92 is income from other sources (old 56).",
+          "explanationWrong": "Presumptive taxation is now Section 58 — all three old sections (44AD for business, 44ADA for professions, 44AE for goods carriage) merged into one. Don't confuse with Section 63 (tax audit) or Section 92 (other sources).",
+          "tier": 2,
+          "subConcepts": ["presumptive-taxation", "section-mapping"],
+          "isReview": false,
+          "oldSection": "44AD/44ADA/44AE",
+          "newSection": "58"
+        }
+      ]
+    },
+    {
+      "title": "Navigation Strategy",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "On which government website can you find the parallel reading utility for comparing old and new Act sections?",
+          "options": [
+            { "text": "cbdt.gov.in", "correct": false },
+            { "text": "incometax.gov.in", "correct": true },
+            { "text": "mca.gov.in", "correct": false },
+            { "text": "taxindia.nic.in", "correct": false }
+          ],
+          "explanation": "The parallel reading utility is available on incometax.gov.in, the Income Tax Department's official e-filing portal.",
+          "explanationWrong": "The parallel reading tool is on incometax.gov.in — the same site used for e-filing returns. mca.gov.in is the Ministry of Corporate Affairs, a different department entirely.",
+          "tier": 2,
+          "subConcepts": ["parallel-reading", "government-portal"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "When building a personal quick-reference mapping, what is the recommended first step?",
+          "options": [
+            { "text": "Memorize all 536 section numbers", "correct": false },
+            { "text": "List the 20 sections you use most frequently in daily practice", "correct": true },
+            { "text": "Wait for ICAI to publish an official mapping document", "correct": false },
+            { "text": "Read the entire new Act cover to cover", "correct": false }
+          ],
+          "explanation": "Start with your personal top 20 sections — the ones you reference daily. For most general practitioners, these include return filing (263), tax audit (63), TDS sections (392-394), and deductions (123, 126).",
+          "explanationWrong": "The practical approach is to start with your most-used sections. Trying to memorize all 536 sections is unnecessary — most CAs regularly use only 20-30 sections.",
+          "tier": 2,
+          "subConcepts": ["quick-reference", "practical-tip"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Under the old Act, TDS on contractor payments was governed by which section?",
+          "options": [
+            { "text": "Section 192", "correct": false },
+            { "text": "Section 194A", "correct": false },
+            { "text": "Section 194C", "correct": true },
+            { "text": "Section 194J", "correct": false }
+          ],
+          "explanation": "Section 194C governed TDS on contractor payments under the old Act. In the new Act, this is now found in Section 393, Table 1. 194A was interest, 194J was professional fees.",
+          "explanationWrong": "TDS on contractors was Section 194C. Remember the old numbering: 192 = Salary, 194A = Interest, 194C = Contractors, 194J = Professional fees. All of these (except salary) are now consolidated into Section 393's tables.",
+          "tier": 2,
+          "subConcepts": ["old-tds-sections", "section-194c"],
+          "isReview": true,
+          "oldSection": "194C",
+          "newSection": "393, Table 1"
+        },
+        {
+          "order": 4,
+          "question": "Why is the parallel reading utility particularly important during the transition period (FY 2026-27 and 2027-28)?",
+          "options": [
+            { "text": "Because the old Act is still being amended during this period", "correct": false },
+            { "text": "Because practitioners must work with both old and new section numbers simultaneously", "correct": true },
+            { "text": "Because the new Act is not yet finalized", "correct": false },
+            { "text": "Because courts have prohibited citing old section numbers", "correct": false }
+          ],
+          "explanation": "During the transition, pending assessments and appeals from before April 1, 2026 use old section numbers, while new filings use new ones. CAs must fluently cross-reference between both systems.",
+          "explanationWrong": "The transition period requires working in both systems simultaneously. Old proceedings continue under old section numbers, new filings use new ones. The parallel reading tool helps bridge this gap.",
+          "tier": 2,
+          "subConcepts": ["parallel-reading", "transition-period"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "What should you do each time you look up a new old-to-new section mapping not on your quick-reference card?",
+          "options": [
+            { "text": "Report it to ICAI", "correct": false },
+            { "text": "Add it to your personal quick-reference mapping immediately", "correct": true },
+            { "text": "Wait until you need it again to confirm importance", "correct": false },
+            { "text": "Memorize it and move on", "correct": false }
+          ],
+          "explanation": "Add every new mapping to your personal reference card as you encounter it. Within a few months, your card will organically grow to cover 90%+ of your daily needs.",
+          "explanationWrong": "Add it immediately. Building your quick-reference mapping is incremental — each new lookup adds one more row. Over time, this grows into a comprehensive personal tool.",
+          "tier": 2,
+          "subConcepts": ["quick-reference", "practical-tip"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Finding TDS Provisions in Practice",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client calls asking: 'What section do I cite for TDS on professional fees paid to my CA firm?' Under the new Act, where do you look?",
+          "options": [
+            { "text": "Section 194J", "correct": false },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 393, Table 1", "correct": true },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "Professional fees paid to a resident CA firm fall under Section 393, Table 1 (Resident deductees). Section 194J is the old number, Section 392 is only for salary, and Section 394 is TCS.",
+          "explanationWrong": "Look in Section 393, Table 1. The CA firm is a resident, so Table 1 applies. Remember: 392 = Salary TDS only, 393 = All other TDS, 394 = TCS. Old Section 194J no longer exists.",
+          "tier": 3,
+          "subConcepts": ["section-393", "tds-professional-fees"],
+          "isReview": false,
+          "oldSection": "194J",
+          "newSection": "393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "You're advising an NRI client about TDS on interest income from an Indian bank. Which table in Section 393 applies?",
+          "options": [
+            { "text": "Table 1 (Resident)", "correct": false },
+            { "text": "Table 2 (Non-Resident)", "correct": true },
+            { "text": "Table 3 (Any Person)", "correct": false },
+            { "text": "Section 392", "correct": false }
+          ],
+          "explanation": "Since the deductee is a non-resident (NRI), you consult Table 2 of Section 393. The first step is always: identify the deductee's status, pick the right table, then find the payment type.",
+          "explanationWrong": "For an NRI deductee, always go to Table 2 (Non-Resident). The table selection is based on the deductee's residential status — not the payment type or amount.",
+          "tier": 3,
+          "subConcepts": ["section-393", "non-resident-tds"],
+          "isReview": false,
+          "oldSection": "195",
+          "newSection": "393, Table 2"
+        },
+        {
+          "order": 3,
+          "question": "The new Act uses the term 'Tax Year' instead of which two terms from the old Act?",
+          "options": [
+            { "text": "Calendar Year and Financial Year", "correct": false },
+            { "text": "Previous Year and Assessment Year", "correct": true },
+            { "text": "Accounting Year and Fiscal Year", "correct": false },
+            { "text": "Base Year and Current Year", "correct": false }
+          ],
+          "explanation": "'Previous Year' (when income was earned) and 'Assessment Year' (when it was assessed/filed) are both replaced by 'Tax Year' — eliminating one of the most confusing aspects of Indian tax terminology.",
+          "explanationWrong": "'Previous Year' and 'Assessment Year' are the two terms replaced. This was one of the most confusing aspects of the old Act — even seasoned practitioners sometimes mixed them up.",
+          "tier": 3,
+          "subConcepts": ["tax-year", "terminology"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A company is paying rent to a resident landlord and needs to deduct TDS. Under the new Act, the CFO asks which section to cite. What do you advise?",
+          "options": [
+            { "text": "Section 194I", "correct": false },
+            { "text": "Section 392", "correct": false },
+            { "text": "Section 393, Table 1", "correct": true },
+            { "text": "Section 393, Table 3", "correct": false }
+          ],
+          "explanation": "Rent paid to a resident landlord falls under Section 393, Table 1 (Resident deductees). Section 194I is the old section number. Table 3 is for 'Any Person' — rent to residents is specifically in Table 1.",
+          "explanationWrong": "The correct reference is Section 393, Table 1. The landlord is a resident, so Table 1 applies. Old Section 194I no longer exists.",
+          "tier": 3,
+          "subConcepts": ["section-393", "tds-rent"],
+          "isReview": false,
+          "oldSection": "194I",
+          "newSection": "393, Table 1"
+        },
+        {
+          "order": 5,
+          "question": "You're preparing a tax opinion and need to cite the exemption for gratuity received by your individual client. Where do you find it in the new Act?",
+          "options": [
+            { "text": "Section 10(10)", "correct": false },
+            { "text": "Section 11, Schedule III", "correct": false },
+            { "text": "Section 11, Schedule II", "correct": true },
+            { "text": "Section 11, Schedule IV", "correct": false }
+          ],
+          "explanation": "Gratuity exemption is in Section 11 read with Schedule II (General Exemptions). Despite being relevant to individuals, gratuity is a general exemption available to all assessees, so it's in Schedule II, not Schedule III.",
+          "explanationWrong": "Gratuity is in Schedule II (General Exemptions), not Schedule III. The distinction matters: Schedule II covers exemptions available broadly, while Schedule III has exemptions only for individuals and HUFs.",
+          "tier": 3,
+          "subConcepts": ["exemption-schedules", "schedule-ii"],
+          "isReview": false,
+          "oldSection": "10(10)",
+          "newSection": "11, Schedule II"
+        }
+      ]
+    },
+    {
+      "title": "Navigating Exemptions and Schedules",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Your client is an InvIT (Infrastructure Investment Trust) seeking to claim an exemption. Which schedule should you consult?",
+          "options": [
+            { "text": "Schedule II (General Exemptions)", "correct": false },
+            { "text": "Schedule IV (Non-Resident)", "correct": false },
+            { "text": "Schedule V (Business Trust & Investment Fund)", "correct": true },
+            { "text": "Schedule VII (Specified Entities)", "correct": false }
+          ],
+          "explanation": "InvITs and REITs are covered under Schedule V (Business Trust & Investment Fund). Schedule VII is for sovereign wealth funds and similar specified entities — a different category.",
+          "explanationWrong": "InvITs fall under Schedule V (Business Trust & Investment Fund). The entity-based schedule organization makes this intuitive: trusts and investment funds → Schedule V, specified entities like SWFs → Schedule VII.",
+          "tier": 3,
+          "subConcepts": ["schedule-v", "business-trust-exemptions"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedule V"
+        },
+        {
+          "order": 2,
+          "question": "A junior CA asks where to find the provision for presumptive taxation of a small business with Rs 1.5 crore turnover. What do you tell them?",
+          "options": [
+            { "text": "Section 44AD", "correct": false },
+            { "text": "Section 63", "correct": false },
+            { "text": "Section 58", "correct": true },
+            { "text": "Section 92", "correct": false }
+          ],
+          "explanation": "All presumptive taxation provisions (old 44AD, 44ADA, 44AE) are now consolidated in Section 58. Section 63 is tax audit, and Section 92 is income from other sources.",
+          "explanationWrong": "Presumptive taxation is now Section 58. The old Act had three separate sections (44AD, 44ADA, 44AE) — all merged into one. Section 63 is tax audit (old 44AB), not presumptive taxation.",
+          "tier": 3,
+          "subConcepts": ["presumptive-taxation", "section-mapping"],
+          "isReview": false,
+          "oldSection": "44AD",
+          "newSection": "58"
+        },
+        {
+          "order": 3,
+          "question": "What happened to the roughly 1,200 provisos that existed in the old Act?",
+          "options": [
+            { "text": "They were moved to a separate Proviso Schedule", "correct": false },
+            { "text": "They remain unchanged in the new Act", "correct": false },
+            { "text": "They were eliminated — necessary ones converted to sub-sections", "correct": true },
+            { "text": "They were consolidated into 100 master provisos", "correct": false }
+          ],
+          "explanation": "All 1,200 provisos were eliminated. Where the substance was still needed, it was converted into proper sub-sections. Redundant provisos were simply removed. This is one of the biggest structural improvements.",
+          "explanationWrong": "The provisos were eliminated entirely. Necessary content was rewritten as clean sub-sections; redundant provisos were dropped. Zero provisos remain in the new Act.",
+          "tier": 3,
+          "subConcepts": ["provisos", "structural-changes"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "An IFSC (International Financial Services Centre) unit wants to know where their exemptions are listed in the new Act. You direct them to:",
+          "options": [
+            { "text": "Schedule II (General Exemptions)", "correct": false },
+            { "text": "Schedule IV (Non-Resident)", "correct": false },
+            { "text": "Schedule VI (IFSC & Specific Non-Resident)", "correct": true },
+            { "text": "Schedule VII (Specified Entities)", "correct": false }
+          ],
+          "explanation": "IFSC exemptions are in Schedule VI, which specifically covers International Financial Services Centre units. The distinction between Schedule IV (general non-resident) and Schedule VI (IFSC/specific NR) is important.",
+          "explanationWrong": "IFSC units go to Schedule VI. Don't confuse with Schedule IV (general non-resident exemptions) — IFSC exemptions are specialized and have their own dedicated schedule.",
+          "tier": 3,
+          "subConcepts": ["schedule-vi", "ifsc-exemptions"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedule VI"
+        },
+        {
+          "order": 5,
+          "question": "You need to verify how the old Section 194C TDS provision reads compared to its new equivalent. What is the most efficient official tool for this?",
+          "options": [
+            { "text": "Download both Acts as PDFs and search manually", "correct": false },
+            { "text": "Use the parallel reading utility on incometax.gov.in", "correct": true },
+            { "text": "Search for 194C on Google and rely on third-party summaries", "correct": false },
+            { "text": "Call the Income Tax helpline", "correct": false }
+          ],
+          "explanation": "The parallel reading utility on incometax.gov.in displays old and new provisions side by side. However, remember its limitation for many-to-one mappings like TDS consolidation.",
+          "explanationWrong": "The parallel reading utility on incometax.gov.in is purpose-built for this task. It shows old and new sections side by side — the fastest official method for confirming section correspondence.",
+          "tier": 3,
+          "subConcepts": ["parallel-reading", "practical-navigation"],
+          "isReview": false,
+          "oldSection": "194C",
+          "newSection": "393, Table 1"
+        }
+      ]
+    },
+    {
+      "title": "Real-World Navigation Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client's assessment order from March 2026 cites Section 194J. For a response to be filed after April 1, 2026, should you reference the old or new section number?",
+          "options": [
+            { "text": "Only the new Section 393, Table 1", "correct": false },
+            { "text": "Only the old Section 194J", "correct": false },
+            { "text": "Cite Section 194J (since the order uses it) and note the corresponding Section 393, Table 1 for clarity", "correct": true },
+            { "text": "Neither — the assessment is void under the new Act", "correct": false }
+          ],
+          "explanation": "Proceedings initiated before April 1, 2026 continue under old section numbers. Since the assessment order cites 194J, your response should reference 194J for continuity, while noting the new equivalent shows thoroughness.",
+          "explanationWrong": "Best practice is to cite the old section (194J) since the order uses it, while noting the new equivalent (393, Table 1). Pending proceedings from before April 1, 2026 continue under old references.",
+          "tier": 3,
+          "subConcepts": ["transition-period", "practical-navigation"],
+          "isReview": false,
+          "oldSection": "194J",
+          "newSection": "393, Table 1"
+        },
+        {
+          "order": 2,
+          "question": "Your firm handles TDS compliance for a company making payments to both Indian and foreign vendors. Under the new Act, you'll regularly work with which two tables in Section 393?",
+          "options": [
+            { "text": "Table 1 and Table 3", "correct": false },
+            { "text": "Table 1 and Table 2", "correct": true },
+            { "text": "Table 2 and Table 3", "correct": false },
+            { "text": "All three tables equally", "correct": false }
+          ],
+          "explanation": "Indian vendors are residents (Table 1) and foreign vendors are non-residents (Table 2). Table 3 covers special 'Any Person' categories like lottery and e-commerce — not typical vendor payments.",
+          "explanationWrong": "Tables 1 (Resident) and 2 (Non-Resident) are what you need for typical vendor payments. Table 3 covers special categories — insurance commission, e-commerce operators, lottery winnings — not standard vendor payments.",
+          "tier": 3,
+          "subConcepts": ["section-393", "tds-compliance"],
+          "isReview": false,
+          "oldSection": "193-196D",
+          "newSection": "393"
+        },
+        {
+          "order": 3,
+          "question": "How many schedules does the new Income Tax Act, 2025 have in total?",
+          "options": [
+            { "text": "7", "correct": false },
+            { "text": "14", "correct": false },
+            { "text": "16", "correct": true },
+            { "text": "23", "correct": false }
+          ],
+          "explanation": "The new Act has 16 schedules in total (up from 14 in the old Act). Schedules II-VII cover exemptions, but there are other schedules too. Don't confuse with 23 (chapters).",
+          "explanationWrong": "The total is 16 schedules. While Schedules II-VII get the most attention because of the Section 10 split, the Act has additional schedules covering other matters. Remember: 536 sections, 23 chapters, 16 schedules.",
+          "tier": 3,
+          "subConcepts": ["schedule-count", "new-act-structure"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A sovereign wealth fund asks you to confirm its income tax exemption under the new Act. Which schedule do you check?",
+          "options": [
+            { "text": "Schedule II (General Exemptions)", "correct": false },
+            { "text": "Schedule V (Business Trust & Investment Fund)", "correct": false },
+            { "text": "Schedule VI (IFSC & Specific Non-Resident)", "correct": false },
+            { "text": "Schedule VII (Specified Entities)", "correct": true }
+          ],
+          "explanation": "Sovereign wealth funds are 'specified entities' covered under Schedule VII. Schedule V covers business trusts (REITs, InvITs) — a sovereign wealth fund is a different category altogether.",
+          "explanationWrong": "Sovereign wealth funds are in Schedule VII (Specified Entities), not Schedule V. The distinction: Schedule V = REITs, InvITs, investment funds. Schedule VII = sovereign wealth funds, pension funds, diplomatic missions.",
+          "tier": 3,
+          "subConcepts": ["schedule-vii", "specified-entities"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedule VII"
+        },
+        {
+          "order": 5,
+          "question": "You're training a newly qualified CA who only studied the old Act. What is the single most practical first step for getting oriented with the new Act?",
+          "options": [
+            { "text": "Read the entire new Act cover to cover before starting work", "correct": false },
+            { "text": "Build a personal quick-reference mapping of the 20 most-used sections and use the parallel reading tool for everything else", "correct": true },
+            { "text": "Continue using old section numbers since the substance hasn't changed", "correct": false },
+            { "text": "Wait for ICAI to release a comprehensive training module", "correct": false }
+          ],
+          "explanation": "Combine a personal quick-reference card (your daily-use sections) with the parallel reading tool (for deeper research). You don't need to memorize all 536 sections — just your working set. Continuing with old numbers won't work for new filings.",
+          "explanationWrong": "Start with a personal mapping of your top 20 sections and supplement with the parallel reading tool. This balanced approach gets you productive immediately without memorizing the entire Act.",
+          "tier": 3,
+          "subConcepts": ["quick-reference", "practical-navigation", "transition-strategy"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}

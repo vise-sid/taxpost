@@ -1,0 +1,835 @@
+{
+  "unit": "5.2",
+  "title": "Changes and Gotchas",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Loss Set-Off and Carry Forward — Section Mapping",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, old Section 71 (inter-head set-off of losses) maps to which new section?",
+          "options": [
+            { "text": "Section 108", "correct": false },
+            { "text": "Section 109", "correct": true },
+            { "text": "Section 110", "correct": false },
+            { "text": "Section 112", "correct": false }
+          ],
+          "explanation": "Old Section 71 (inter-head set-off) maps to new Section 109. The key loss set-off mapping for HP: 71→109, 71(3A)→109(1)(b), 71B→110. Section 108 corresponds to old Section 70 (intra-head set-off).",
+          "explanationWrong": "Section 109 is correct. Do not confuse with Section 108 (old Section 70, intra-head set-off) or Section 110 (old Section 71B, carry forward). The inter-head set-off provisions, including the HP loss cap, are in Section 109.",
+          "tier": 1,
+          "subConcepts": ["loss-set-off-mapping", "section-71-to-109"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 2,
+          "question": "The Rs 2,00,000 cap on inter-head set-off of house property loss was in old Section 71(3A). In the ITA 2025, this cap is found in:",
+          "options": [
+            { "text": "Section 109(1)(b)", "correct": true },
+            { "text": "Section 110(1)", "correct": false },
+            { "text": "Section 22(2)", "correct": false },
+            { "text": "Section 108(3)", "correct": false }
+          ],
+          "explanation": "Old Section 71(3A) maps to new Section 109(1)(b). This is the Rs 2,00,000 cap on inter-head set-off of HP loss — the maximum HP loss that can be set off against income under other heads in a given year. Do not confuse with Section 22(2), which is the interest deduction cap within the HP computation itself.",
+          "explanationWrong": "Section 109(1)(b) is correct. Two different Rs 2L caps operate in HP provisions: Section 22(2) caps interest deduction for self-occupied property (within the HP computation), while Section 109(1)(b) caps inter-head set-off of HP loss (after the HP computation is complete). Both are Rs 2,00,000, but they operate at different stages.",
+          "tier": 1,
+          "subConcepts": ["loss-set-off-cap", "section-71-3A-to-109-1-b"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109(1)(b)"
+        },
+        {
+          "order": 3,
+          "question": "Under Unit 5.1, how many substantive changes were identified in the house property chapter of the ITA 2025?",
+          "options": [
+            { "text": "Two — pre-construction interest combined cap and self-occupied 'any reason' liberalisation", "correct": true },
+            { "text": "Five — including changes to standard deduction and vacancy allowance", "correct": false },
+            { "text": "None — the entire chapter is renumbered only", "correct": false },
+            { "text": "Three — including a new deemed ownership category", "correct": false }
+          ],
+          "explanation": "Unit 5.1 identified exactly two substantive changes: (1) the pre-construction interest combined cap clarification in Section 22(2), and (2) the self-occupied 'any reason' liberalisation in Section 21 (introduced by Finance Act 2025 as amendment to old Section 23(2), already operative from AY 2025-26; carried forward by the 2025 Act). Standard deduction, vacancy allowance, deemed ownership, and all other provisions are unchanged in substance.",
+          "explanationWrong": "Two substantive changes is correct. The 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26. The standard deduction remains at 30%, vacancy allowance is unchanged, and no new deemed ownership category has been added.",
+          "tier": 1,
+          "subConcepts": ["substantive-changes-recap", "unit-5-1-review"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Old Section 71B (carry forward of unabsorbed house property loss) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 109", "correct": false },
+            { "text": "Section 108", "correct": false },
+            { "text": "Section 110", "correct": true },
+            { "text": "Section 112", "correct": false }
+          ],
+          "explanation": "Old Section 71B maps to new Section 110. Unabsorbed HP loss (the portion exceeding the Rs 2,00,000 inter-head set-off cap) can be carried forward for 8 assessment years under Section 110, for set-off against future HP income only. The 8-year period is unchanged.",
+          "explanationWrong": "Section 110 is correct. The full HP loss mapping: 71→109 (inter-head set-off), 71(3A)→109(1)(b) (Rs 2L cap), 71B→110 (carry forward 8 years). Section 112 corresponds to old Section 72 (carry forward of business loss), not HP loss.",
+          "tier": 1,
+          "subConcepts": ["carry-forward-mapping", "section-71B-to-110"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        },
+        {
+          "order": 5,
+          "question": "For how many assessment years can unabsorbed house property loss be carried forward under Section 110 of the ITA 2025?",
+          "options": [
+            { "text": "4 years", "correct": false },
+            { "text": "8 years", "correct": true },
+            { "text": "Unlimited", "correct": false },
+            { "text": "6 years", "correct": false }
+          ],
+          "explanation": "Unabsorbed HP loss can be carried forward for 8 assessment years under Section 110, identical to old Section 71B. The carry forward period is unchanged. The brought-forward loss can only be set off against income from house property in subsequent years — not against any other head.",
+          "explanationWrong": "8 years is correct. This carry forward period is unchanged from the old Act. Unlimited carry forward applies to unabsorbed depreciation, not HP loss. The 8-year clock starts from the assessment year in which the loss was first computed.",
+          "tier": 1,
+          "subConcepts": ["carry-forward-period", "hp-loss"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        }
+      ]
+    },
+    {
+      "title": "New Regime Trap — HP Loss Set-Off",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the new tax regime (Section 202 of the ITA 2025), can house property loss be set off against income under other heads?",
+          "options": [
+            { "text": "No — HP loss inter-head set-off is unavailable under the new regime", "correct": true },
+            { "text": "Yes — up to Rs 2,00,000", "correct": false },
+            { "text": "Yes — unlimited set-off is available", "correct": false },
+            { "text": "Yes — but only against salary income", "correct": false }
+          ],
+          "explanation": "This is the single most consequential practice trap in the HP provisions. Under the new tax regime (Section 202, which is the default from Tax Year 2026-27), HP loss cannot be set off against income under other heads. The Rs 2,00,000 inter-head set-off under Section 109(1)(b) is available only under the old regime.",
+          "explanationWrong": "No inter-head set-off under the new regime is correct. This is critical: the new regime is the default. Clients do not receive the HP loss set-off benefit unless they actively opt for the old regime. Filing under the default new regime without opt-out forfeits the set-off entirely.",
+          "tier": 1,
+          "subConcepts": ["new-regime-trap", "hp-loss-set-off", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "The new tax regime under Section 202 is the _____ regime from Tax Year 2026-27.",
+          "options": [
+            { "text": "Default regime — applies unless the taxpayer opts out", "correct": true },
+            { "text": "Optional regime — applies only if the taxpayer opts in", "correct": false },
+            { "text": "Mandatory regime — no opt-out available", "correct": false },
+            { "text": "Temporary regime — applicable for 3 years only", "correct": false }
+          ],
+          "explanation": "The new regime under Section 202 is the default. It applies automatically unless the taxpayer actively opts for the old regime. This default status is what makes the HP loss trap so dangerous — clients who do nothing end up under the new regime and lose the inter-head set-off benefit.",
+          "explanationWrong": "Default regime is correct. The shift from opt-in (under the 1961 Act's Section 115BAC) to default status is a fundamental change in how the regime operates. Every client must be evaluated for old regime opt-in before the return is filed.",
+          "tier": 1,
+          "subConcepts": ["new-regime-default", "section-202"],
+          "isReview": false,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, old Section 24(b) (interest on borrowed capital for HP) maps to which new section?",
+          "options": [
+            { "text": "Section 22(2)", "correct": true },
+            { "text": "Section 24(b)", "correct": false },
+            { "text": "Section 21(2)", "correct": false },
+            { "text": "Section 20(2)", "correct": false }
+          ],
+          "explanation": "Old Section 24(b) maps to new Section 22(2). This is the interest deduction provision — including the Rs 2,00,000 cap for self-occupied property and the now-explicit combined cap covering pre-construction interest. This was a core mapping from Unit 5.1.",
+          "explanationWrong": "Section 22(2) is correct. The mapping 24(b)→22(2) is one of the most frequently needed reference updates. Section 21(2) corresponds to old Section 23(2) (self-occupied property definition), not the interest deduction.",
+          "tier": 1,
+          "subConcepts": ["section-mapping-review", "interest-deduction"],
+          "isReview": true,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 4,
+          "question": "A salaried client (Rs 15,00,000 salary) has a house property loss of Rs 2,50,000. If the client files under the default new regime without opting out, what is the inter-head set-off available?",
+          "options": [
+            { "text": "Rs 2,00,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false },
+            { "text": "Nil — no inter-head set-off under the new regime", "correct": true },
+            { "text": "Rs 50,000", "correct": false }
+          ],
+          "explanation": "Under the default new regime (Section 202), HP loss cannot be set off against salary or any other head. The entire Rs 2,50,000 loss carries forward under Section 110 for set-off against future HP income only. To claim the Rs 2,00,000 inter-head set-off, the client must actively opt for the old regime.",
+          "explanationWrong": "Nil is correct. This is the critical gotcha. Under the old regime, Rs 2,00,000 would be set off against salary (saving approximately Rs 60,000 in tax at 30% bracket plus cess), with Rs 50,000 carried forward. Under the default new regime, the client gets zero benefit from the HP loss in the current year.",
+          "tier": 1,
+          "subConcepts": ["new-regime-trap", "inter-head-set-off", "computation"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 5,
+          "question": "For a client with significant housing loan interest, what action must the practitioner take before filing the return under the ITA 2025?",
+          "options": [
+            { "text": "Evaluate whether the old regime produces lower total tax after factoring HP loss set-off", "correct": true },
+            { "text": "File under the new regime since HP loss set-off is available in both regimes", "correct": false },
+            { "text": "Carry forward the entire HP loss without set-off regardless of regime", "correct": false },
+            { "text": "Claim the HP loss as a deduction under Chapter VI-A", "correct": false }
+          ],
+          "explanation": "For every client with HP loss, the practitioner must evaluate whether opting for the old regime produces a lower total tax liability — factoring in the HP loss set-off, Chapter VI-A deductions, and other benefits unavailable under the new regime. Filing under the default new regime without this evaluation may result in forfeiting significant tax savings.",
+          "explanationWrong": "Evaluating old regime opt-in is correct. HP loss set-off is not available under the new regime — this is not a matter of both regimes offering it. The evaluation must consider the full picture: HP loss benefit under old regime versus lower slab rates under new regime. HP loss is not a Chapter VI-A deduction.",
+          "tier": 1,
+          "subConcepts": ["new-regime-trap", "practice-action", "regime-evaluation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Transition Rules — Brought-Forward Losses",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Which sections of the ITA 2025 govern the transition of pre-existing house property losses from the old Act?",
+          "options": [
+            { "text": "Sections 536(2)(m) and 536(2)(n)", "correct": true },
+            { "text": "Section 110 only", "correct": false },
+            { "text": "Section 536(1) only", "correct": false },
+            { "text": "Sections 109 and 110", "correct": false }
+          ],
+          "explanation": "Sections 536(2)(m) and 536(2)(n) govern the seamless transition of pre-2026 losses. These provisions ensure that brought-forward HP losses retain their character and remaining carry-forward period under the new Act. Section 110 governs carry forward going forward; Sections 536(2)(m)/(n) are the bridge provisions.",
+          "explanationWrong": "Sections 536(2)(m) and 536(2)(n) are correct. These are specific transitional provisions within the broader Section 536 framework. Section 536(1) covers parallel operation (old Act continues for pre-2026 income). Sections 109 and 110 are the new Act's operative provisions for set-off and carry forward, not the transition bridge.",
+          "tier": 1,
+          "subConcepts": ["transition-rules", "section-536-2-m-n", "brought-forward-losses"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 536(2)(m), Section 536(2)(n)"
+        },
+        {
+          "order": 2,
+          "question": "A house property loss was first computed in AY 2023-24 under old Section 71B. Under the transition rules, this loss has been carried forward for 3 years. How many remaining years of carry forward are available under the ITA 2025?",
+          "options": [
+            { "text": "8 years — the clock restarts", "correct": false },
+            { "text": "5 years — the remaining period is preserved", "correct": true },
+            { "text": "3 years — reduced under the new Act", "correct": false },
+            { "text": "Unlimited — transition losses have no time limit", "correct": false }
+          ],
+          "explanation": "The 8-year clock does not restart. If a loss was carried forward for 3 years under the old Act, it has 5 remaining years under the new Act (8 minus 3). The remaining carry-forward period is preserved seamlessly under Sections 536(2)(m) and 536(2)(n). No re-filing or re-characterisation is required.",
+          "explanationWrong": "5 remaining years is correct. The transition is designed to be seamless — the original 8-year limit applies, and the time already elapsed counts. There is no restart, no reduction, and no unlimited extension. The loss simply continues its journey under the new section number (110 instead of 71B).",
+          "tier": 1,
+          "subConcepts": ["transition-rules", "remaining-carry-forward-period"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110, Section 536(2)(m)"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, which section makes the new tax regime the default for Tax Year 2026-27 onwards?",
+          "options": [
+            { "text": "Section 202", "correct": true },
+            { "text": "Section 115BAC", "correct": false },
+            { "text": "Section 109", "correct": false },
+            { "text": "Section 536", "correct": false }
+          ],
+          "explanation": "Section 202 establishes the new tax regime as the default from Tax Year 2026-27. This replaces old Section 115BAC (where the new regime was opt-in). The shift from opt-in to default is what creates the HP loss set-off trap discussed in this unit.",
+          "explanationWrong": "Section 202 is correct. Old Section 115BAC made the new regime optional (opt-in); Section 202 makes it the default (opt-out required for old regime). Section 109 deals with inter-head set-off, and Section 536 deals with transition — neither establishes the regime framework.",
+          "tier": 1,
+          "subConcepts": ["new-regime-default", "section-202"],
+          "isReview": true,
+          "oldSection": "Section 115BAC",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 4,
+          "question": "Under the transition rules, does a brought-forward HP loss retain its character as a house property loss when it transitions to the ITA 2025?",
+          "options": [
+            { "text": "No — it is re-characterised as business loss", "correct": false },
+            { "text": "Yes — character is preserved under Section 536(2)(m)/(n)", "correct": true },
+            { "text": "It depends on whether the property is still owned", "correct": false },
+            { "text": "It requires re-filing under the new Act to preserve character", "correct": false }
+          ],
+          "explanation": "Character preservation is explicit. A house property loss brought forward from the old Act retains its character as HP loss under the new Act. It can only be set off against future HP income — it does not become business loss or any other type. No re-filing, re-characterisation, or additional documentation is required by statute.",
+          "explanationWrong": "Character preserved is correct. The transition is automatic and seamless. The loss retains its HP character, its remaining carry-forward period, and its eligibility for set-off against future HP income only. The only change is the statutory reference — from Section 71B to Section 110.",
+          "tier": 1,
+          "subConcepts": ["transition-rules", "character-preservation"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 536(2)(m)"
+        },
+        {
+          "order": 5,
+          "question": "Despite the statutory seamlessness of loss transition, what documentation should practitioners maintain for brought-forward HP losses?",
+          "options": [
+            { "text": "A reconciliation schedule mapping each loss to its original AY, old section, and remaining period", "correct": true },
+            { "text": "No documentation is needed — the transition is fully automatic", "correct": false },
+            { "text": "A fresh loss computation under the new Act's section references", "correct": false },
+            { "text": "A certificate from the assessing officer confirming the transition", "correct": false }
+          ],
+          "explanation": "While the transition is automatic by statute, working papers should document the original assessment year, old section basis (71B), and remaining carry-forward period for each brought-forward loss. The old assessment order or intimation referencing Section 71B is the only documentary proof. This schedule ensures audit trail continuity when losses are set off under the new Act.",
+          "explanationWrong": "Reconciliation schedule is correct. The transition may be automatic, but the audit trail is not. When a brought-forward loss is eventually set off under Section 110, the statutory reference changes from 71B to 110. Without documentation linking the two, the set-off may be questioned during assessment.",
+          "tier": 1,
+          "subConcepts": ["transition-documentation", "audit-trail", "practice-note"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        }
+      ]
+    },
+    {
+      "title": "Pre-Construction Interest Gotcha — Deep Dive",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the old Act, a client claimed current-year interest of Rs 2,00,000 and a separate pre-construction instalment of Rs 30,000 (total Rs 2,30,000). Under the ITA 2025, this claim is:",
+          "options": [
+            { "text": "Fully defensible — both components are separately deductible", "correct": false },
+            { "text": "No longer defensible — combined cap of Rs 2,00,000 applies under Section 22(2)", "correct": true },
+            { "text": "Partially defensible — Rs 2,15,000 is the new combined cap", "correct": false },
+            { "text": "Grandfathered for loans taken before April 2026", "correct": false }
+          ],
+          "explanation": "Section 22(2) explicitly caps the aggregate of current-year interest and pre-construction instalment at Rs 2,00,000. The old position of claiming them separately is untenable from Tax Year 2026-27. There is no grandfathering for pre-existing loans — the combined cap applies to all self-occupied properties regardless of when the loan was taken.",
+          "explanationWrong": "No longer defensible is correct. The combined cap is express statutory text, not an interpretive position. Clients claiming Rs 2,30,000 must reduce their deduction to Rs 2,00,000. The Rs 30,000 excess is simply lost — it cannot be carried forward or claimed in subsequent years.",
+          "tier": 2,
+          "subConcepts": ["pre-construction-gotcha", "combined-cap", "no-grandfathering"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 2,
+          "question": "What should a practitioner do with all ongoing construction-period loan files in light of the combined cap under Section 22(2)?",
+          "options": [
+            { "text": "Review and recalculate deduction eligibility under the combined cap", "correct": true },
+            { "text": "No action needed — the old computation method continues", "correct": false },
+            { "text": "Close all pre-construction interest claims immediately", "correct": false },
+            { "text": "File revised returns for prior years", "correct": false }
+          ],
+          "explanation": "All ongoing construction-period loan files must be reviewed. Where clients were claiming pre-construction instalments over and above the Rs 2L cap, the computation must be recalculated under the explicit combined limit. This is a forward-looking exercise — prior years filed under the old Act are governed by old Section 24(b).",
+          "explanationWrong": "Review and recalculate is correct. The action is prospective — from Tax Year 2026-27. Prior year returns do not need revision (they were filed under the old Act). Pre-construction interest claims do not need to be closed entirely — they are still deductible, just within the combined Rs 2L cap.",
+          "tier": 2,
+          "subConcepts": ["pre-construction-gotcha", "practice-action", "file-review"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 109(1)(b) of the ITA 2025, the maximum HP loss that can be set off against income under other heads in a single year is:",
+          "options": [
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 3,00,000", "correct": false },
+            { "text": "No limit", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 cap on inter-head set-off of HP loss is retained from old Section 71(3A) in new Section 109(1)(b). Any HP loss exceeding this cap is carried forward under Section 110 for 8 years.",
+          "explanationWrong": "Rs 2,00,000 is correct. This cap has not changed. The amount is the same as it was under old Section 71(3A). Remember: this inter-head set-off is available only under the old regime — under the new regime (Section 202), even this Rs 2L set-off is unavailable.",
+          "tier": 2,
+          "subConcepts": ["inter-head-set-off-cap", "section-109-1-b"],
+          "isReview": true,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109(1)(b)"
+        },
+        {
+          "order": 4,
+          "question": "A client has a self-occupied property under construction. Current-year interest is Rs 1,60,000 and pre-construction instalment is Rs 55,000. Under Section 22(2), the deductible amount and the portion that clients previously might have claimed separately are:",
+          "options": [
+            { "text": "Deductible Rs 2,15,000; no excess", "correct": false },
+            { "text": "Deductible Rs 2,00,000; Rs 15,000 excess lost", "correct": true },
+            { "text": "Deductible Rs 1,60,000; pre-construction not allowed", "correct": false },
+            { "text": "Deductible Rs 2,00,000; Rs 15,000 carried forward", "correct": false }
+          ],
+          "explanation": "Total interest = Rs 1,60,000 + Rs 55,000 = Rs 2,15,000. Combined cap = Rs 2,00,000. Deductible = Rs 2,00,000. Excess Rs 15,000 is not deductible and cannot be carried forward — it is simply lost. Under the old Act's ambiguity, some taxpayers might have claimed the full Rs 2,15,000 by treating the components separately.",
+          "explanationWrong": "Deductible Rs 2,00,000 with Rs 15,000 lost is correct. The excess interest above the combined cap has no carry-forward mechanism for self-occupied property. It is a permanent loss. This is why the combined cap clarification has real financial impact for clients with both current and pre-construction interest.",
+          "tier": 2,
+          "subConcepts": ["pre-construction-gotcha", "combined-cap-computation", "excess-lost"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 5,
+          "question": "Clients who were already applying a combined cap for pre-construction interest under the old Act will find that Section 22(2):",
+          "options": [
+            { "text": "Changes nothing in practice — it codifies what they were already doing", "correct": true },
+            { "text": "Increases their deduction amount", "correct": false },
+            { "text": "Requires them to file revised returns", "correct": false },
+            { "text": "Introduces a new instalment period", "correct": false }
+          ],
+          "explanation": "For practitioners who were already applying the combined cap (the majority), Section 22(2) changes nothing in practice. The provision codifies existing practice into express statutory text, removing the litigation risk from the other side. The only impact is on clients who were claiming the components separately.",
+          "explanationWrong": "Codifies existing practice is correct. This is important context: the combined cap was the majority position even before the 2025 Act. What Section 22(2) does is eliminate the statutory ambiguity — it does not change the rate, the cap amount, or the instalment period.",
+          "tier": 2,
+          "subConcepts": ["pre-construction-gotcha", "codification", "no-practical-change"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        }
+      ]
+    },
+    {
+      "title": "Self-Occupied 'Any Reason' — Practice Implications",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the 'any reason' liberalisation in Section 21, which of the following taxpayers benefits most compared to the old Act?",
+          "options": [
+            { "text": "An NRI whose India property was deemed let-out because non-occupation was for personal (not employment) reasons", "correct": true },
+            { "text": "A taxpayer occupying their only property as self-residence", "correct": false },
+            { "text": "A landlord with a fully let-out property", "correct": false },
+            { "text": "A developer with unsold inventory", "correct": false }
+          ],
+          "explanation": "The NRI benefits most because under the old Act (Section 23(2), pre-Finance Act 2025 amendment), the property was deemed let-out — notional rent was taxable. The 'any reason' liberalisation was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26; the 2025 Act carries it forward into Section 21. A taxpayer already occupying their property was never affected. Landlords and developers have different provisions.",
+          "explanationWrong": "The NRI is correct. The 'any reason' liberalisation — introduced by Finance Act 2025 as amendment to old Section 23(2), already operative from AY 2025-26 — specifically addresses the gap which required a professional nexus for non-occupation. NRIs who could not prove 'employment at another place' were forced to pay tax on notional rent — that burden is now removed.",
+          "tier": 2,
+          "subConcepts": ["any-reason-gotcha", "nri-benefit", "practical-impact"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 2,
+          "question": "With the broader 'any reason' eligibility for self-occupied status, what documentation risk should practitioners be aware of?",
+          "options": [
+            { "text": "The Department may scrutinise claims more carefully — document the reason for non-occupation in working papers", "correct": true },
+            { "text": "No documentation risk — the broader provision requires less proof", "correct": false },
+            { "text": "A new Form must be filed certifying the reason for non-occupation", "correct": false },
+            { "text": "Only notarised affidavits are accepted as proof", "correct": false }
+          ],
+          "explanation": "The broader language cuts both ways. While it expands eligibility, the Department may scrutinise self-occupied claims more carefully when the reason is not clearly linked to employment, business, or profession. A bare claim without supporting facts is weaker under a broader provision. Document the reason in working papers — even though no specific form is prescribed.",
+          "explanationWrong": "Documentation in working papers is correct. This is a practical gotcha: broader eligibility does not mean lower scrutiny. When any reason suffices, the Department may question whether the claimed reason is genuine. Well-documented working papers protect the client during assessment.",
+          "tier": 2,
+          "subConcepts": ["any-reason-gotcha", "documentation-risk", "scrutiny"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions, brought-forward HP losses from pre-2026 assessment years transition to the ITA 2025 under which sections?",
+          "options": [
+            { "text": "Sections 536(2)(m) and 536(2)(n)", "correct": true },
+            { "text": "Section 110 only", "correct": false },
+            { "text": "Section 22(2)", "correct": false },
+            { "text": "Section 202", "correct": false }
+          ],
+          "explanation": "Sections 536(2)(m) and 536(2)(n) are the bridge provisions that ensure pre-2026 HP losses carry forward seamlessly, with character preserved and remaining period intact. Section 110 governs carry forward under the new Act going forward, but the transition itself is governed by Section 536(2).",
+          "explanationWrong": "Sections 536(2)(m) and 536(2)(n) are correct. These transition provisions preserve loss character and remaining carry-forward period. Section 110 is where the loss lands after transition. Section 22(2) is the interest deduction cap. Section 202 is the new regime provision.",
+          "tier": 2,
+          "subConcepts": ["transition-review", "section-536-2-m-n"],
+          "isReview": true,
+          "oldSection": "Section 71B",
+          "newSection": "Section 536(2)(m), Section 536(2)(n)"
+        },
+        {
+          "order": 4,
+          "question": "A business owner has a flat in Bangalore (where the business is located) and a house in her hometown (unoccupied — she prefers to live near the business). Under old Section 23(2), the hometown house qualified for nil annual value because:",
+          "options": [
+            { "text": "Non-occupation was due to business at another place — satisfying the old Act's condition", "correct": true },
+            { "text": "It was an ancestral property and therefore exempt", "correct": false },
+            { "text": "The 'any reason' rule applied under the old Act", "correct": false },
+            { "text": "It did not qualify — it was deemed let-out under the old Act", "correct": false }
+          ],
+          "explanation": "Under old Section 23(2), the hometown house qualified because non-occupation was due to business carried on at Bangalore — this satisfied the employment/business/profession condition. The 'any reason' rule is a new Act feature (Section 21), not an old Act provision. For this particular taxpayer, the old Act already provided coverage; the 'any reason' liberalisation benefits those whose reasons were personal, not professional.",
+          "explanationWrong": "Business at another place satisfying the old condition is correct. This taxpayer was already covered under old Section 23(2). The 'any reason' liberalisation does not change her position — it primarily benefits those who could NOT satisfy the old Act's professional nexus requirement, such as NRIs with personal reasons for non-occupation.",
+          "tier": 2,
+          "subConcepts": ["any-reason-gotcha", "old-act-coverage", "business-owner"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 5,
+          "question": "The 'any reason' liberalisation in Section 21 was originally introduced by:",
+          "options": [
+            { "text": "Finance Act 2025 (as amendment to old Section 23(2)), carried forward into the ITA 2025", "correct": true },
+            { "text": "The ITA 2025 as an entirely new provision", "correct": false },
+            { "text": "Finance Act 2023", "correct": false },
+            { "text": "A CBDT notification in 2024", "correct": false }
+          ],
+          "explanation": "The 'any reason' amendment was introduced by Finance Act 2025 as an amendment to old Section 23(2), already operative from AY 2025-26. The ITA 2025 carries this forward into new Section 21. Understanding this legislative history helps in client advisory — this is not a new 2025 Act change but one already in effect under the old Act.",
+          "explanationWrong": "Finance Act 2025 is correct. The amendment was made to old Section 23(2) and was already operative from AY 2025-26 before the 2025 Act codified it into Section 21. It was not a CBDT notification (which cannot change statutory provisions) and was not introduced in earlier Finance Acts.",
+          "tier": 2,
+          "subConcepts": ["any-reason-gotcha", "legislative-history", "finance-act-2025"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        }
+      ]
+    },
+    {
+      "title": "Section Numbering Gotcha — Compliance Risk",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Using old section numbers in returns filed under the ITA 2025 creates what risk?",
+          "options": [
+            { "text": "Processing mismatches and potential notices from the Department", "correct": true },
+            { "text": "No risk — both old and new numbers are accepted", "correct": false },
+            { "text": "Automatic rejection of the return", "correct": false },
+            { "text": "Penalty under Section 271", "correct": false }
+          ],
+          "explanation": "Using old section references (e.g., Section 24(a) instead of Section 22(1)) in returns filed under the 2025 Act creates processing mismatches. The return processing system will flag references to sections that do not exist in the 2025 Act, potentially triggering notices. It is not an automatic rejection but a compliance friction that is entirely avoidable.",
+          "explanationWrong": "Processing mismatches and notices is correct. The risk is operational, not penal. The return will not be automatically rejected, and there is no specific penalty section for incorrect section references. But the resulting notices create unnecessary client interaction, professional embarrassment, and delay.",
+          "tier": 2,
+          "subConcepts": ["section-numbering-gotcha", "compliance-risk"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Which of the following section reference updates is INCORRECT?",
+          "options": [
+            { "text": "Old 24(a) → New 22(1) for standard deduction", "correct": false },
+            { "text": "Old 24(b) → New 22(2) for interest deduction", "correct": false },
+            { "text": "Old 23(2) → New 22(2) for self-occupied property", "correct": true },
+            { "text": "Old 71(3A) → New 109(1)(b) for HP loss set-off cap", "correct": false }
+          ],
+          "explanation": "Old 23(2) maps to new 21(2) for self-occupied property, NOT new 22(2). New Section 22(2) corresponds to old Section 24(b) (interest deduction). This is a common confusion point because the old section numbers are reused in the new Act for different provisions.",
+          "explanationWrong": "Old 23(2) → New 22(2) is the incorrect mapping. The correct mapping is old 23(2) → new 21(2). The confusion arises because Section 22 in the new Act serves a completely different purpose (deductions) than Section 22 in the old Act (chargeability). All other mappings listed are correct.",
+          "tier": 2,
+          "subConcepts": ["section-numbering-gotcha", "mapping-errors"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21(2)"
+        },
+        {
+          "order": 3,
+          "question": "The Rs 2,00,000 inter-head set-off cap for HP loss under Section 109(1)(b) is available under:",
+          "options": [
+            { "text": "The old regime only — not under the new regime (Section 202)", "correct": true },
+            { "text": "Both old and new regimes", "correct": false },
+            { "text": "The new regime only", "correct": false },
+            { "text": "Neither regime — the cap has been abolished", "correct": false }
+          ],
+          "explanation": "The inter-head set-off of HP loss under Section 109(1)(b) is available only under the old regime. Under the new regime (Section 202), HP loss cannot be set off against other heads at all. This is the critical gotcha — clients under the default new regime forfeit this benefit entirely.",
+          "explanationWrong": "Old regime only is correct. This is worth repeating: the new regime (which is the default) does not allow any inter-head set-off of HP loss. The Rs 2L cap is relevant only if the client has opted for the old regime. Under the new regime, the entire HP loss carries forward for set-off against future HP income only.",
+          "tier": 2,
+          "subConcepts": ["new-regime-trap", "inter-head-set-off", "old-regime-only"],
+          "isReview": true,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109(1)(b)"
+        },
+        {
+          "order": 4,
+          "question": "In updating computation templates for the ITA 2025, the reference for interest on borrowed capital should change from:",
+          "options": [
+            { "text": "Section 24(b) to Section 22(2)", "correct": true },
+            { "text": "Section 24(b) to Section 21(2)", "correct": false },
+            { "text": "Section 24(a) to Section 22(2)", "correct": false },
+            { "text": "Section 24(b) to Section 24(2)", "correct": false }
+          ],
+          "explanation": "Old Section 24(b) (interest on borrowed capital) maps to new Section 22(2). This is the deduction provision covering both current-year interest and pre-construction interest, subject to the Rs 2,00,000 combined cap for self-occupied property. Section 21(2) is for self-occupied property definition, not interest deduction.",
+          "explanationWrong": "Section 24(b) to Section 22(2) is correct. Critical: old 24(a)→new 22(1) is for standard deduction, old 24(b)→new 22(2) is for interest deduction. Section 21(2) corresponds to old Section 23(2) (self-occupied property), not interest.",
+          "tier": 2,
+          "subConcepts": ["section-numbering-gotcha", "template-update"],
+          "isReview": false,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 5,
+          "question": "Old Section 22 (chargeability) in the 1961 Act and Section 22 in the ITA 2025 refer to:",
+          "options": [
+            { "text": "The same provision — chargeability in both Acts", "correct": false },
+            { "text": "Different provisions — old 22 is chargeability, new 22 is deductions", "correct": true },
+            { "text": "Different provisions — old 22 is chargeability, new 22 is annual value", "correct": false },
+            { "text": "The same provision — deductions in both Acts", "correct": false }
+          ],
+          "explanation": "This is a key confusion point. Old Section 22 was the charging section for HP income. New Section 22 corresponds to old Section 24 — it covers deductions (30% standard deduction and interest). The charging section in the new Act is Section 20. Section numbers are reused across the two Acts with different meanings.",
+          "explanationWrong": "Different provisions is correct — old 22 is chargeability, new 22 is deductions. This reuse of section numbers is one of the reasons why template updates are critical. A practitioner who sees 'Section 22' and assumes it means the same thing in both Acts will apply the wrong provision.",
+          "tier": 2,
+          "subConcepts": ["section-numbering-gotcha", "number-reuse-confusion"],
+          "isReview": false,
+          "oldSection": "Section 22",
+          "newSection": "Section 22 (deductions), Section 20 (chargeability)"
+        }
+      ]
+    },
+    {
+      "title": "New Regime vs Old Regime — HP Loss Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A salaried employee (Rs 12,00,000) has HP loss of Rs 2,50,000. Under the old regime, the inter-head set-off reduces taxable income to:",
+          "options": [
+            { "text": "Rs 10,00,000 (set-off of Rs 2,00,000 capped)", "correct": true },
+            { "text": "Rs 9,50,000 (full set-off of Rs 2,50,000)", "correct": false },
+            { "text": "Rs 12,00,000 (no set-off available)", "correct": false },
+            { "text": "Rs 11,50,000 (set-off of Rs 50,000 only)", "correct": false }
+          ],
+          "explanation": "Under the old regime, HP loss inter-head set-off is capped at Rs 2,00,000 under Section 109(1)(b). Salary Rs 12,00,000 minus Rs 2,00,000 = Rs 10,00,000. The remaining Rs 50,000 HP loss is carried forward under Section 110 for 8 years. The full Rs 2,50,000 cannot be set off due to the cap.",
+          "explanationWrong": "Rs 10,00,000 is correct. The Rs 2L cap limits the set-off even though the total HP loss is Rs 2,50,000. The Rs 50,000 excess is not lost — it carries forward under Section 110 for set-off against future HP income. This benefit is available only under the old regime.",
+          "tier": 3,
+          "subConcepts": ["old-regime-set-off", "computation", "carry-forward-excess"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109(1)(b)"
+        },
+        {
+          "order": 2,
+          "question": "The same employee (Rs 12,00,000 salary, Rs 2,50,000 HP loss) files under the default new regime. The taxable salary income is:",
+          "options": [
+            { "text": "Rs 10,00,000", "correct": false },
+            { "text": "Rs 12,00,000 — no set-off; entire HP loss carries forward", "correct": true },
+            { "text": "Rs 9,50,000", "correct": false },
+            { "text": "Rs 11,00,000", "correct": false }
+          ],
+          "explanation": "Under the new regime (Section 202), HP loss cannot be set off against salary or any other head. Taxable salary remains Rs 12,00,000. The entire Rs 2,50,000 HP loss carries forward under Section 110 for set-off against future HP income only. The immediate tax saving of approximately Rs 60,000+ (at 30% bracket) is forfeited.",
+          "explanationWrong": "Rs 12,00,000 with no set-off is correct. Compare this to the old regime where taxable income drops to Rs 10,00,000. The difference is Rs 2,00,000 in taxable income, translating to approximately Rs 60,000+ in additional tax (at 30% plus cess). This is the real cost of the new regime trap.",
+          "tier": 3,
+          "subConcepts": ["new-regime-trap", "comparison", "tax-cost"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 3,
+          "question": "The pre-construction interest combined cap under Section 22(2) applies to which category of property?",
+          "options": [
+            { "text": "Both self-occupied and let-out", "correct": false },
+            { "text": "Self-occupied property only", "correct": true },
+            { "text": "Let-out property only", "correct": false },
+            { "text": "Deemed let-out property only", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 combined cap applies only to self-occupied property. Let-out property has no cap — the full interest amount (current-year plus pre-construction instalments) is deductible. This distinction is unchanged from the old Act.",
+          "explanationWrong": "Self-occupied property only is correct. This is a core distinction retained from the old Act. The combined cap affects self-occupied property where GAV is nil; for let-out property, there is no ceiling on interest deduction.",
+          "tier": 3,
+          "subConcepts": ["pre-construction-review", "self-occupied-only"],
+          "isReview": true,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 22(2)"
+        },
+        {
+          "order": 4,
+          "question": "A client under the new regime has HP loss of Rs 3,00,000 in Year 1 and HP income of Rs 1,20,000 in Year 2 (both under new regime). How much brought-forward loss can be set off in Year 2?",
+          "options": [
+            { "text": "Rs 1,20,000 — against HP income only", "correct": true },
+            { "text": "Rs 2,00,000 — the inter-head cap applies", "correct": false },
+            { "text": "Rs 3,00,000 — full set-off against HP income", "correct": false },
+            { "text": "Nil — brought-forward HP loss cannot be set off under the new regime", "correct": false }
+          ],
+          "explanation": "Brought-forward HP loss under Section 110 can be set off against HP income in subsequent years — this is intra-head set-off, which is available regardless of regime. In Year 2, Rs 1,20,000 of the brought-forward loss is set off against HP income. The remaining Rs 1,80,000 continues to carry forward (within the 8-year limit).",
+          "explanationWrong": "Rs 1,20,000 against HP income is correct. Brought-forward HP loss can be set off against future HP income even under the new regime — the restriction is on inter-head set-off (against salary, business income, etc.), not intra-head. The set-off is limited to the HP income available (Rs 1,20,000), not the Rs 2L inter-head cap (which is irrelevant here).",
+          "tier": 3,
+          "subConcepts": ["new-regime-carry-forward", "intra-head-set-off", "computation"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        },
+        {
+          "order": 5,
+          "question": "Why is the new regime trap particularly dangerous for clients with housing loans on self-occupied property?",
+          "options": [
+            { "text": "Self-occupied property generates only loss (GAV is nil), and under the new regime this loss provides zero current-year benefit", "correct": true },
+            { "text": "Self-occupied property is not allowed under the new regime", "correct": false },
+            { "text": "Housing loans are not recognised under the new regime", "correct": false },
+            { "text": "The interest deduction itself is disallowed under the new regime", "correct": false }
+          ],
+          "explanation": "Self-occupied property always generates a loss (GAV = nil, only deduction is interest). Under the old regime, up to Rs 2,00,000 of this loss can be set off against salary or other income. Under the new regime, this loss provides zero benefit in the current year — it only carries forward for set-off against future HP income, which may never materialise for a self-occupied property. The interest deduction within the HP computation is still allowed — it is the inter-head set-off that is blocked.",
+          "explanationWrong": "Zero current-year benefit is correct. The trap is structural: self-occupied property always produces a loss (since GAV is nil). If that loss cannot be set off against other income (new regime), the deduction is effectively useless for the current year. The interest deduction is still computed — it just produces a carried-forward loss with limited future utility.",
+          "tier": 3,
+          "subConcepts": ["new-regime-trap", "self-occupied-loss", "structural-trap"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 202"
+        }
+      ]
+    },
+    {
+      "title": "Transition Gotchas — Applied Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client has a brought-forward HP loss of Rs 1,50,000 from AY 2022-23 (under old Section 71B). In Tax Year 2026-27 (first year under ITA 2025), this loss can be set off against:",
+          "options": [
+            { "text": "HP income only — the loss retains its character under Section 536(2)(m)", "correct": true },
+            { "text": "Any head of income — transition removes restrictions", "correct": false },
+            { "text": "Salary income up to Rs 2,00,000", "correct": false },
+            { "text": "Nothing — old Act losses are not recognised under the new Act", "correct": false }
+          ],
+          "explanation": "The brought-forward HP loss retains its character under Section 536(2)(m). It can only be set off against future HP income, just as it would have been under old Section 71B. The transition does not expand or restrict the set-off eligibility — character is preserved. The loss has 4 remaining years (8 minus 4 elapsed since AY 2022-23).",
+          "explanationWrong": "HP income only is correct. Character preservation means the loss remains HP loss — it does not become business loss or get upgraded to unrestricted set-off. The transition is a change of statutory reference (71B to 110), not a change in the loss's nature or set-off rules.",
+          "tier": 3,
+          "subConcepts": ["transition-gotcha", "character-preservation", "set-off-rules"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110, Section 536(2)(m)"
+        },
+        {
+          "order": 2,
+          "question": "The old assessment order for AY 2022-23 references Section 71B for a carried-forward HP loss. When this loss is set off under the ITA 2025, the working papers should reference:",
+          "options": [
+            { "text": "Section 71B — the original section continues to apply", "correct": false },
+            { "text": "Section 110 — the new Act's carry-forward section, with cross-reference to the original AY and Section 71B", "correct": true },
+            { "text": "Section 536(2)(m) — the transition provision only", "correct": false },
+            { "text": "No section reference is needed", "correct": false }
+          ],
+          "explanation": "Working papers should reference Section 110 (the new Act's carry-forward provision) with a cross-reference to the original AY 2022-23 and old Section 71B. This dual reference ensures audit trail continuity — the original basis is documented while the current statutory authority is correctly cited.",
+          "explanationWrong": "Section 110 with cross-reference is correct. The old section number no longer has legal standing for returns filed under the 2025 Act, but the original assessment order referencing Section 71B is the documentary proof of the loss. Both references serve a purpose — current authority and historical evidence.",
+          "tier": 3,
+          "subConcepts": ["transition-gotcha", "working-paper-reference", "audit-trail"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the self-occupied 'any reason' liberalisation in Section 21 was originally an amendment introduced by:",
+          "options": [
+            { "text": "Finance Act 2025", "correct": true },
+            { "text": "Finance Act 2024", "correct": false },
+            { "text": "The ITA 2025 as a new provision", "correct": false },
+            { "text": "CBDT Circular 12/2025", "correct": false }
+          ],
+          "explanation": "Finance Act 2025 introduced the 'any reason' amendment to old Section 23(2), already operative from AY 2025-26. The ITA 2025 carries this forward into new Section 21. This is not a new 2025 Act change — it was already in effect under the old Act via Finance Act 2025.",
+          "explanationWrong": "Finance Act 2025 is correct. This amendment was first made to old Section 23(2) and was already operative from AY 2025-26 before the 2025 Act codified it. CBDT circulars cannot amend statutory provisions — they can only clarify. The amendment was not in Finance Act 2024.",
+          "tier": 3,
+          "subConcepts": ["legislative-history-review", "any-reason"],
+          "isReview": true,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 4,
+          "question": "A client opts for the new regime (default) in Tax Year 2026-27. She has salary of Rs 18,00,000 and HP loss of Rs 2,00,000 from a self-occupied property. She also has a brought-forward HP loss of Rs 1,00,000 from AY 2024-25. What is her total taxable income under the new regime?",
+          "options": [
+            { "text": "Rs 16,00,000", "correct": false },
+            { "text": "Rs 18,00,000 — no inter-head set-off; both current and brought-forward HP losses carry forward", "correct": true },
+            { "text": "Rs 15,00,000", "correct": false },
+            { "text": "Rs 17,00,000", "correct": false }
+          ],
+          "explanation": "Under the new regime, HP loss cannot be set off against salary. Current HP loss (Rs 2,00,000) carries forward under Section 110. Brought-forward HP loss (Rs 1,00,000) also cannot be set off against salary — it can only offset future HP income. Taxable income remains Rs 18,00,000. Under the old regime, she could have reduced taxable income to Rs 16,00,000 (Rs 2,00,000 inter-head set-off).",
+          "explanationWrong": "Rs 18,00,000 is correct. Both current-year HP loss and brought-forward HP loss are blocked from inter-head set-off under the new regime. The client accumulates Rs 3,00,000 in carried-forward HP losses (Rs 2,00,000 current + Rs 1,00,000 old) — all waiting for future HP income that may never come from a self-occupied property.",
+          "tier": 3,
+          "subConcepts": ["new-regime-trap", "brought-forward-loss", "total-impact"],
+          "isReview": false,
+          "oldSection": "Section 71(3A), Section 71B",
+          "newSection": "Section 202, Section 110"
+        },
+        {
+          "order": 5,
+          "question": "For a client with multiple brought-forward HP losses from different assessment years, the practitioner's reconciliation schedule should track:",
+          "options": [
+            { "text": "Original assessment year, old section (71B), remaining carry-forward period, and amount for each loss", "correct": true },
+            { "text": "Only the total aggregate loss amount", "correct": false },
+            { "text": "Only the most recent year's loss", "correct": false },
+            { "text": "The losses need not be tracked separately — they merge into a single amount", "correct": false }
+          ],
+          "explanation": "Each brought-forward loss must be tracked separately because the 8-year carry-forward clock runs independently for each year's loss. A loss from AY 2022-23 expires after AY 2030-31, while a loss from AY 2024-25 expires after AY 2032-33. The reconciliation schedule ensures that (a) losses are set off in the correct order, (b) expired losses are identified, and (c) the audit trail links back to the original assessment order.",
+          "explanationWrong": "Individual tracking by AY is correct. Aggregating losses into a single amount would obscure the expiry dates and make it impossible to determine which losses have lapsed. Each loss has its own 8-year clock, its own original assessment order, and its own remaining period — all must be documented.",
+          "tier": 3,
+          "subConcepts": ["transition-gotcha", "reconciliation-schedule", "multiple-losses"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        }
+      ]
+    },
+    {
+      "title": "Five Gotchas — Comprehensive Application",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client files under the new regime and has a self-occupied property with an annual interest payment of Rs 1,80,000. What is the current-year tax benefit from this interest payment?",
+          "options": [
+            { "text": "Nil — the HP loss from self-occupied property cannot be set off under the new regime", "correct": true },
+            { "text": "Rs 1,80,000 deduction from total income", "correct": false },
+            { "text": "Rs 54,000 tax saving (at 30% bracket)", "correct": false },
+            { "text": "Rs 2,00,000 deduction (cap does not apply under new regime)", "correct": false }
+          ],
+          "explanation": "Self-occupied property: GAV = nil. Interest = Rs 1,80,000 (within cap). HP loss = Rs 1,80,000. Under the new regime, this HP loss cannot be set off against other income — it only carries forward. Current-year tax benefit = nil. The interest deduction is computed but produces a loss that has no immediate utility. Under the old regime, the same Rs 1,80,000 would reduce taxable income, saving approximately Rs 54,000+ in tax.",
+          "explanationWrong": "Nil is correct. This is the new regime trap in action. The interest deduction exists within the HP computation, but the resulting loss is stranded — it cannot reduce tax liability in the current year. The client pays tax on full income despite having a legitimate interest expense. Only old regime opt-in unlocks the benefit.",
+          "tier": 3,
+          "subConcepts": ["five-gotchas", "new-regime-trap", "nil-benefit"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 202"
+        },
+        {
+          "order": 2,
+          "question": "Gotcha 5 warns about transition documentation for brought-forward losses. The key risk is:",
+          "options": [
+            { "text": "The old assessment order referencing Section 71B is the only proof of the loss, and without a reconciliation schedule, the set-off may be questioned during assessment", "correct": true },
+            { "text": "Brought-forward losses are automatically forfeited if not documented", "correct": false },
+            { "text": "The Department will recalculate all old losses under new section numbers", "correct": false },
+            { "text": "A fresh Form must be filed with the Department to register old losses", "correct": false }
+          ],
+          "explanation": "The transition is automatic by statute — no re-filing or registration is needed. However, the old assessment order or intimation referencing Section 71B is the only documentary proof. When the loss is eventually set off under Section 110, the statutory reference changes. Without a reconciliation schedule bridging the two, the set-off may be questioned during assessment. The risk is evidentiary, not procedural.",
+          "explanationWrong": "Evidentiary risk is correct. The losses are not forfeited automatically, and no new form is required. The Department does not recalculate old losses. The risk is that when you claim a set-off under Section 110, the AO may ask for proof — and that proof sits in an old order citing Section 71B. The reconciliation schedule connects the dots.",
+          "tier": 3,
+          "subConcepts": ["five-gotchas", "transition-documentation", "evidentiary-risk"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, how many substantive changes exist in the HP provisions, and how many provisions are purely renumbered?",
+          "options": [
+            { "text": "2 substantive, remainder renumbered", "correct": true },
+            { "text": "5 substantive, 3 renumbered", "correct": false },
+            { "text": "All substantive — everything has changed", "correct": false },
+            { "text": "None substantive — all renumbered only", "correct": false }
+          ],
+          "explanation": "The HP chapter has exactly 2 substantive changes: (1) pre-construction interest combined cap (Section 22(2)) and (2) self-occupied 'any reason' liberalisation (Section 21). All other provisions — 30% standard deduction, Rs 2L interest cap, deemed ownership (6 categories), municipal taxes, vacancy allowance, co-owner rules, loss set-off cap, 8-year carry forward — are renumbered only.",
+          "explanationWrong": "2 substantive, remainder renumbered is correct. This is the fundamental takeaway from Units 5.1 and 5.2. The HP chapter is one of the cleanest migrations in the 2025 Act. Practitioners who understand the two changes and update their section references are fully equipped.",
+          "tier": 3,
+          "subConcepts": ["five-gotchas", "comprehensive-summary"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "An NRI client who was paying tax on notional rent for an unoccupied India property under the old Act should be advised that under the ITA 2025:",
+          "options": [
+            { "text": "The property may now qualify for nil annual value under the 'any reason' rule (Section 21), subject to the 2-property limit", "correct": true },
+            { "text": "The property continues to be deemed let-out — no change for NRIs", "correct": false },
+            { "text": "All NRI properties are automatically exempt under the new Act", "correct": false },
+            { "text": "The notional rent must now be calculated at a higher rate", "correct": false }
+          ],
+          "explanation": "This is one of the most impactful practice actions from Unit 5.2. NRI properties that were deemed let-out because the owner could not prove 'employment at another place' may now qualify for nil annual value under Section 21's 'any reason' rule. The 2-property cap still applies. Document the reason for non-occupation in working papers.",
+          "explanationWrong": "Nil annual value under 'any reason' rule is correct. NRI properties are not automatically exempt — they must qualify as self-occupied (within the 2-property cap). But the qualification test is now much easier. This advisory should go to every NRI client with unoccupied India property.",
+          "tier": 3,
+          "subConcepts": ["five-gotchas", "nri-advisory", "any-reason"],
+          "isReview": false,
+          "oldSection": "Section 23(2)",
+          "newSection": "Section 21"
+        },
+        {
+          "order": 5,
+          "question": "A practitioner is conducting a comprehensive review for a client with a self-occupied property (housing loan), brought-forward HP losses, and NRI status. Under the ITA 2025, the three most critical actions are:",
+          "options": [
+            { "text": "Evaluate old regime opt-in for HP loss set-off, reassess self-occupied eligibility under 'any reason,' and document brought-forward losses with reconciliation schedule", "correct": true },
+            { "text": "File under the new regime, claim full interest deduction, and ignore brought-forward losses", "correct": false },
+            { "text": "Reclassify the property as commercial, opt for presumptive taxation, and carry forward all losses indefinitely", "correct": false },
+            { "text": "Claim HRA deduction, standard deduction of 50%, and revised computation under Section 24(b)", "correct": false }
+          ],
+          "explanation": "The three actions correspond to the three major gotchas: (1) New regime trap — evaluate whether old regime produces lower tax after HP loss set-off. (2) 'Any reason' — reassess whether NRI properties qualify for nil annual value under Section 21. (3) Transition documentation — maintain reconciliation schedule for brought-forward losses linking old Section 71B to new Section 110. These are the practical pillars of HP advisory under the 2025 Act.",
+          "explanationWrong": "The three actions (regime evaluation, self-occupied reassessment, and transition documentation) are correct. Filing under the new regime without evaluation forfeits HP loss set-off. Ignoring brought-forward losses risks losing them. The incorrect options contain multiple errors — commercial reclassification, HRA, 50% deduction, and Section 24(b) references are all wrong.",
+          "tier": 3,
+          "subConcepts": ["five-gotchas", "comprehensive-review", "practice-pillars"],
+          "isReview": false,
+          "oldSection": "Section 71(3A), Section 71B, Section 23(2)",
+          "newSection": "Section 202, Section 110, Section 21"
+        }
+      ]
+    }
+  ]
+}

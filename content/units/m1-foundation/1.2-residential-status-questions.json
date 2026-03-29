@@ -1,0 +1,835 @@
+{
+  "unit": "1.2",
+  "title": "Residential Status",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "The Basic Residence Test",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 6(2) of the 2025 Act, an individual is resident in India if present for how many days or more during the tax year?",
+          "options": [
+            { "text": "60 days", "correct": false },
+            { "text": "120 days", "correct": false },
+            { "text": "182 days", "correct": true },
+            { "text": "365 days", "correct": false }
+          ],
+          "explanation": "The primary test: 182 days or more in India during the tax year = Resident. This is the 182-day rule under Section 6(2)(a). The 60-day figure is part of the alternative test in Section 6(2)(b).",
+          "explanationWrong": "182 days is the threshold. If you're in India for 182+ days, you're resident — period. The 60-day figure is part of the alternative 60+365 test, and 120 days applies only to high-income Indian citizens/POIs visiting from abroad.",
+          "tier": 1,
+          "subConcepts": ["182-day-rule", "basic-residence-test"],
+          "isReview": false,
+          "oldSection": "Section 6(1)(a)",
+          "newSection": "Section 6(2)(a)"
+        },
+        {
+          "order": 2,
+          "question": "The alternative residence test (60+365 rule) requires 60+ days in the current year AND cumulative 365+ days in how many preceding tax years?",
+          "options": [
+            { "text": "2 preceding tax years", "correct": false },
+            { "text": "4 preceding tax years", "correct": true },
+            { "text": "7 preceding tax years", "correct": false },
+            { "text": "10 preceding tax years", "correct": false }
+          ],
+          "explanation": "The 60+365 test requires 60+ days in the current year AND 365+ days cumulatively in the 4 preceding tax years. The 7-year and 10-year lookbacks are for the RNOR test, not the basic residence test.",
+          "explanationWrong": "4 preceding tax years for the 365-day cumulative test. Don't confuse with RNOR lookbacks: 7 years (for the 729-day test) and 10 years (for the 9-out-of-10 test) — those are different tests under Section 6(13).",
+          "tier": 1,
+          "subConcepts": ["60-365-rule", "basic-residence-test"],
+          "isReview": false,
+          "oldSection": "Section 6(1)(c)",
+          "newSection": "Section 6(2)(b)"
+        },
+        {
+          "order": 3,
+          "question": "The concept of 'Tax Year' in the 2025 Act replaces which two terms from the old Act?",
+          "options": [
+            { "text": "Calendar Year and Financial Year", "correct": false },
+            { "text": "Previous Year and Assessment Year", "correct": true },
+            { "text": "Accounting Year and Fiscal Year", "correct": false },
+            { "text": "Base Year and Current Year", "correct": false }
+          ],
+          "explanation": "'Tax Year' (Section 3) replaces both 'Previous Year' and 'Assessment Year.' The dual terminology was one of the most confusing aspects of the old Act.",
+          "explanationWrong": "'Previous Year' and 'Assessment Year' are both replaced by the single concept 'Tax Year.' This simplification eliminates the one-year offset confusion.",
+          "tier": 1,
+          "subConcepts": ["tax-year", "terminology"],
+          "isReview": true,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 4,
+          "question": "How many categories of residential status exist under the 2025 Act?",
+          "options": [
+            { "text": "2 (Resident and Non-Resident)", "correct": false },
+            { "text": "3 (ROR, RNOR, and NR)", "correct": true },
+            { "text": "4 (ROR, RNOR, NR, and Deemed Resident)", "correct": false },
+            { "text": "5 (different categories for different entity types)", "correct": false }
+          ],
+          "explanation": "Three categories: Resident and Ordinarily Resident (ROR), Resident but Not Ordinarily Resident (RNOR), and Non-Resident (NR). Deemed residents under Section 6(7) are classified as RNOR — not a separate category.",
+          "explanationWrong": "Three categories: ROR, RNOR, NR. Deemed residents under Section 6(7) fall into the RNOR category — they're not a fourth category. Each category has different tax implications for foreign income.",
+          "tier": 1,
+          "subConcepts": ["residential-categories", "ror-rnor-nr"],
+          "isReview": false,
+          "oldSection": "Section 6",
+          "newSection": "Section 6"
+        },
+        {
+          "order": 5,
+          "question": "Under the 2025 Act, residential status determines which aspect of taxation?",
+          "options": [
+            { "text": "Tax rates applicable to the person", "correct": false },
+            { "text": "Which income is taxable in India (scope of total income)", "correct": true },
+            { "text": "Filing deadlines for returns", "correct": false },
+            { "text": "TDS rates on payments received", "correct": false }
+          ],
+          "explanation": "Residential status determines scope under Section 5: ROR pays tax on worldwide income, RNOR on Indian income plus foreign business controlled from India, and NR only on Indian-source income.",
+          "explanationWrong": "Residential status determines WHAT is taxable (scope), not HOW MUCH tax (rates). An ROR pays tax on all worldwide income. An NR only on Indian income. The rates and slabs are determined by other factors.",
+          "tier": 1,
+          "subConcepts": ["scope-of-income", "section-5"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        }
+      ]
+    },
+    {
+      "title": "Special Relaxations and Exceptions",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "For an Indian citizen leaving India for employment abroad, which residence test applies?",
+          "options": [
+            { "text": "Both the 182-day and 60+365 tests", "correct": false },
+            { "text": "Only the 182-day test — the 60+365 test does not apply", "correct": true },
+            { "text": "Only the 120-day test", "correct": false },
+            { "text": "A special 90-day test for overseas employees", "correct": false }
+          ],
+          "explanation": "Under Section 6(3)(b), Indian citizens leaving for employment abroad are subject only to the 182-day test. They can be in India for up to 181 days and remain NR, regardless of prior years' stay.",
+          "explanationWrong": "Only the 182-day test applies to Indian citizens going abroad for employment (Section 6(3)(b)). The 60+365 test is disapplied for this category. This means they need to be in India 182+ days to become resident.",
+          "tier": 1,
+          "subConcepts": ["employment-abroad", "182-day-only"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(b)"
+        },
+        {
+          "order": 2,
+          "question": "The 120-day threshold (instead of 60 days) applies to which category of persons?",
+          "options": [
+            { "text": "All Indian citizens", "correct": false },
+            { "text": "Indian citizens or persons of Indian origin visiting from abroad with Indian-source income exceeding Rs 15 lakh", "correct": true },
+            { "text": "Non-resident companies", "correct": false },
+            { "text": "Crew members of Indian ships", "correct": false }
+          ],
+          "explanation": "Under Section 6(4)-(5), the 120-day threshold applies to Indian citizens/POIs visiting from abroad whose total income OTHER THAN foreign-source income exceeds Rs 15 lakh. If income is ≤ Rs 15 lakh, the full 182-day relaxation applies instead.",
+          "explanationWrong": "The 120-day rule is specifically for Indian citizens/POIs visiting from abroad with high Indian-source income (> Rs 15 lakh). Crew members always get the full 182-day relaxation. Regular individuals get 60 days.",
+          "tier": 1,
+          "subConcepts": ["120-day-rule", "high-income-visitors"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(4)-(5)"
+        },
+        {
+          "order": 3,
+          "question": "The 2025 Act has how many sections in total?",
+          "options": [
+            { "text": "298", "correct": false },
+            { "text": "536", "correct": true },
+            { "text": "622", "correct": false },
+            { "text": "819", "correct": false }
+          ],
+          "explanation": "536 sections, sequentially numbered. 819 was the old Act, 622 is the new Act's page count, 298 was the original 1961 count.",
+          "explanationWrong": "536 sections. Remember: 536 sections, 23 chapters, 16 schedules, 39 tables.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "section-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "For crew members of Indian ships, how is 'days in India' computed?",
+          "options": [
+            { "text": "All days physically present in Indian territory, including on the ship", "correct": false },
+            { "text": "The CDC (Continuous Discharge Certificate) period is excluded — even if the ship is in Indian waters", "correct": true },
+            { "text": "Only days at an Indian port are counted", "correct": false },
+            { "text": "Days are counted the same as for any other individual", "correct": false }
+          ],
+          "explanation": "For crew members, the period between joining and signing off the ship (as recorded in the CDC) is entirely excluded from the day count, even if the ship is in Indian coastal waters during that period.",
+          "explanationWrong": "The CDC period is excluded completely — this is a crucial distinction for crew members. A sailor whose ship passes through Indian waters is NOT counted as 'in India' during the CDC period.",
+          "tier": 1,
+          "subConcepts": ["crew-members", "cdc-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(a)"
+        },
+        {
+          "order": 5,
+          "question": "The deemed residence provision under Section 6(7) applies to individuals who are citizens of India and are not liable to tax in:",
+          "options": [
+            { "text": "India only", "correct": false },
+            { "text": "Any other country or territory", "correct": true },
+            { "text": "The country of their employment", "correct": false },
+            { "text": "Countries with which India has DTAA", "correct": false }
+          ],
+          "explanation": "Section 6(7) targets 'stateless' persons — Indian citizens not tax-resident ANYWHERE in the world. If they're tax-resident in at least one other country, this provision doesn't apply.",
+          "explanationWrong": "The test is: not liable to tax in ANY other country. If you're tax-resident in even one country outside India, Section 6(7) doesn't apply. It's specifically designed for individuals who are 'nowhere residents.'",
+          "tier": 1,
+          "subConcepts": ["deemed-residence", "stateless-provision"],
+          "isReview": false,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        }
+      ]
+    },
+    {
+      "title": "RNOR and Scope of Income",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 6(13), an individual qualifies as RNOR if they were non-resident in how many of the preceding 10 tax years?",
+          "options": [
+            { "text": "5 out of 10", "correct": false },
+            { "text": "7 out of 10", "correct": false },
+            { "text": "9 out of 10", "correct": true },
+            { "text": "All 10", "correct": false }
+          ],
+          "explanation": "RNOR if non-resident in 9 out of 10 preceding tax years. This is one of two alternative RNOR conditions — the other is ≤729 days in India in the preceding 7 tax years.",
+          "explanationWrong": "9 out of 10 preceding tax years as non-resident = RNOR. The alternate test: ≤729 days in the 7 preceding years. Meeting EITHER condition qualifies for RNOR.",
+          "tier": 1,
+          "subConcepts": ["rnor-test", "9-out-of-10"],
+          "isReview": false,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 2,
+          "question": "The alternate RNOR test requires presence in India of 729 days or less during how many preceding tax years?",
+          "options": [
+            { "text": "4 preceding tax years", "correct": false },
+            { "text": "5 preceding tax years", "correct": false },
+            { "text": "7 preceding tax years", "correct": true },
+            { "text": "10 preceding tax years", "correct": false }
+          ],
+          "explanation": "≤729 days in the 7 preceding tax years = RNOR. The 4-year lookback is for the basic 60+365 residence test, not the RNOR test.",
+          "explanationWrong": "7 preceding tax years for the 729-day RNOR test. Don't confuse with: 4 years (basic 60+365 residence test) or 10 years (the 9-out-of-10 RNOR test).",
+          "tier": 1,
+          "subConcepts": ["rnor-test", "729-day-rule"],
+          "isReview": false,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 6(1A) dealing with deemed residence for stateless Indian citizens maps to which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 6(1)", "correct": false },
+            { "text": "Section 6(5)", "correct": false },
+            { "text": "Section 6(7)", "correct": true },
+            { "text": "Section 6(13)", "correct": false }
+          ],
+          "explanation": "Old Section 6(1A) → new Section 6(7). This is the deemed residence provision for Indian citizens not taxable anywhere. Section 6(13) is the RNOR test (old Section 6(6)).",
+          "explanationWrong": "6(1A) → 6(7) for deemed residence. 6(6) → 6(13) for RNOR. These are the two key sub-section mappings within Section 6 that CAs need to learn.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "deemed-residence"],
+          "isReview": true,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        },
+        {
+          "order": 4,
+          "question": "For an RNOR individual, which type of foreign income IS taxable in India?",
+          "options": [
+            { "text": "All foreign income", "correct": false },
+            { "text": "Foreign income from a business controlled in or profession set up in India", "correct": true },
+            { "text": "Foreign dividend and interest income", "correct": false },
+            { "text": "No foreign income is taxable", "correct": false }
+          ],
+          "explanation": "Under Section 5, RNOR foreign income is taxable ONLY if from a business controlled in India or a profession set up in India. Passive foreign income (interest, dividends, rental income abroad) is NOT taxable.",
+          "explanationWrong": "Only foreign business/profession income controlled from India is taxable for RNOR. Passive foreign income (dividends, interest, rent, capital gains on foreign assets) remains non-taxable. This is what makes RNOR status valuable for returning NRIs.",
+          "tier": 1,
+          "subConcepts": ["rnor-taxation", "foreign-income"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        },
+        {
+          "order": 5,
+          "question": "A deemed resident under Section 6(7) is classified as which type of resident?",
+          "options": [
+            { "text": "Resident and Ordinarily Resident (ROR)", "correct": false },
+            { "text": "Resident but Not Ordinarily Resident (RNOR)", "correct": true },
+            { "text": "Non-Resident with deemed status", "correct": false },
+            { "text": "A special fourth category", "correct": false }
+          ],
+          "explanation": "Deemed residents under Section 6(7) are always treated as RNOR — not ROR. This limits their Indian tax liability to Indian-source income and foreign business income controlled from India. Passive foreign income remains non-taxable.",
+          "explanationWrong": "Deemed residents = RNOR, not ROR. This is an important distinction — if they were ROR, all worldwide income would be taxable. As RNOR, their passive foreign income stays non-taxable.",
+          "tier": 1,
+          "subConcepts": ["deemed-residence", "rnor-classification"],
+          "isReview": false,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        }
+      ]
+    },
+    {
+      "title": "Why the Rules Work This Way",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why does the 2025 Act give a 182-day-only test (not the 60+365 test) to Indian citizens leaving for employment abroad?",
+          "options": [
+            { "text": "To increase tax revenue from overseas Indians", "correct": false },
+            { "text": "To prevent short home visits from triggering resident status for people genuinely working and living abroad", "correct": true },
+            { "text": "To align with US tax rules", "correct": false },
+            { "text": "Because the 60+365 test was too complex for this category", "correct": false }
+          ],
+          "explanation": "Without this relaxation, an Indian working in Dubai who visited home frequently (60+ days in a year, 365+ in 4 years) could accidentally become resident — triggering worldwide taxation. The 182-day-only test ensures they need to actually be present for half the year.",
+          "explanationWrong": "The relaxation protects genuine overseas workers from accidental resident status. Consider: an IT professional in the US who visits family for 70 days each year would accumulate 365+ days over 4 years. Without the 182-day relaxation, they'd be resident despite living and working abroad.",
+          "tier": 2,
+          "subConcepts": ["employment-abroad", "policy-rationale"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(b)"
+        },
+        {
+          "order": 2,
+          "question": "Why was the 120-day threshold introduced for high-income Indian citizens/POIs visiting from abroad (instead of the full 182-day relaxation)?",
+          "options": [
+            { "text": "To simplify the law", "correct": false },
+            { "text": "To ensure high-income individuals earning significant Indian income don't avoid residence status through the full 182-day relaxation", "correct": true },
+            { "text": "To discourage NRIs from visiting India", "correct": false },
+            { "text": "To bring India in line with OECD recommendations", "correct": false }
+          ],
+          "explanation": "Introduced by Finance Act 2020, the 120-day rule targets high-income visitors (Indian-source income > Rs 15 lakh) who were using the full 182-day relaxation to stay non-resident while earning significant income in India. 120 days is a middle ground — more relaxed than 60, stricter than 182.",
+          "explanationWrong": "The 120-day rule is a calibrated anti-avoidance measure. Someone earning Rs 20 lakh from Indian sources who visits for 150 days was getting the full 182-day relaxation just for being a citizen/POI. The 120-day threshold captures such cases.",
+          "tier": 2,
+          "subConcepts": ["120-day-rule", "anti-avoidance"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(4)-(5)"
+        },
+        {
+          "order": 3,
+          "question": "The old Act had ~1,200 provisos. How many remain in the 2025 Act?",
+          "options": [
+            { "text": "About 200", "correct": false },
+            { "text": "About 100", "correct": false },
+            { "text": "Zero", "correct": true },
+            { "text": "About 600", "correct": false }
+          ],
+          "explanation": "All ~1,200 provisos were eliminated. In Section 6, this meant the provisos for crew members, employment abroad, and high-income visitors became standalone sub-sections 6(3), 6(4), 6(5) — far easier to find and read.",
+          "explanationWrong": "Zero provisos remain. This is one of the most dramatic structural changes. For Section 6 specifically, the old buried provisos are now clear sub-sections 6(3) through 6(7).",
+          "tier": 2,
+          "subConcepts": ["provisos-eliminated", "structural-changes"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Why is RNOR status important for returning NRIs?",
+          "options": [
+            { "text": "It exempts them from filing returns for 3 years", "correct": false },
+            { "text": "It provides a transition window where passive foreign income is not taxable in India", "correct": true },
+            { "text": "It gives them lower tax rates on Indian income", "correct": false },
+            { "text": "It allows them to maintain NRE accounts indefinitely", "correct": false }
+          ],
+          "explanation": "RNOR provides a 2-3 year transition window. During this period, the returning NRI can restructure foreign holdings (sell foreign assets, close accounts, repatriate funds) without those foreign gains being taxed in India.",
+          "explanationWrong": "RNOR is a transition mechanism, not a rate concession. Passive foreign income (foreign interest, dividends, capital gains on foreign assets) is not taxable during RNOR years. This gives returning NRIs time to restructure their foreign holdings.",
+          "tier": 2,
+          "subConcepts": ["rnor-transition", "returning-nris"],
+          "isReview": false,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 5,
+          "question": "Why was the deemed residence provision (Section 6(7)) introduced?",
+          "options": [
+            { "text": "To tax all NRIs on worldwide income", "correct": false },
+            { "text": "To prevent high-income Indian citizens from being tax-resident nowhere — 'stateless' tax avoidance", "correct": true },
+            { "text": "To replace the 182-day rule", "correct": false },
+            { "text": "To align with the US citizenship-based taxation model", "correct": false }
+          ],
+          "explanation": "Section 6(7) targets Indian citizens who structure their affairs to be tax-resident in no country — exploiting lenient residence rules globally. By deeming them resident (as RNOR), India captures at least their Indian-source income.",
+          "explanationWrong": "This isn't citizenship-based taxation (like the US). It only applies when someone is tax-resident NOWHERE. If they're resident in any other country, Section 6(7) doesn't apply. It's anti-avoidance, not broad-based NRI taxation.",
+          "tier": 2,
+          "subConcepts": ["deemed-residence", "anti-avoidance"],
+          "isReview": false,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        }
+      ]
+    },
+    {
+      "title": "Old vs New: What Changed",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the primary nature of changes to Section 6 (Residential Status) in the 2025 Act?",
+          "options": [
+            { "text": "New residence tests were introduced", "correct": false },
+            { "text": "Structural and linguistic — provisos became sub-sections, language simplified, substance unchanged", "correct": true },
+            { "text": "The 182-day rule was replaced with a 150-day rule", "correct": false },
+            { "text": "RNOR category was abolished", "correct": false }
+          ],
+          "explanation": "The changes are structural: provisos → sub-sections, 'previous year' → 'tax year', slight language simplification. All residence tests (182-day, 60+365, 120-day, crew member, RNOR) remain substantively identical.",
+          "explanationWrong": "No new tests, no changed thresholds, no abolished categories. The 2025 Act reorganized Section 6 from 6 sub-sections with provisos to 13+ clear sub-sections. Every rule you knew still applies — just easier to find.",
+          "tier": 2,
+          "subConcepts": ["structural-changes", "section-6-comparison"],
+          "isReview": false,
+          "oldSection": "Section 6",
+          "newSection": "Section 6"
+        },
+        {
+          "order": 2,
+          "question": "The old Act used the phrase 'for the purpose of employment outside India.' The 2025 Act changed this to:",
+          "options": [
+            { "text": "'for business outside India'", "correct": false },
+            { "text": "'for employment outside India'", "correct": true },
+            { "text": "'for work outside India'", "correct": false },
+            { "text": "No change — same phrasing", "correct": false }
+          ],
+          "explanation": "'For the purpose of' → 'for' — a language simplification with no change in legal effect. This is typical of the 2025 Act's approach: same meaning, fewer words.",
+          "explanationWrong": "The words 'the purpose of' were dropped — a language simplification, not a substantive change. The legal effect is identical: Indian citizens leaving India for employment abroad get the 182-day-only test.",
+          "tier": 2,
+          "subConcepts": ["language-simplification", "employment-abroad"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(b)"
+        },
+        {
+          "order": 3,
+          "question": "Old Section 6(6) dealing with RNOR conditions maps to which sub-section in the 2025 Act?",
+          "options": [
+            { "text": "Section 6(6)", "correct": false },
+            { "text": "Section 6(7)", "correct": false },
+            { "text": "Section 6(12)", "correct": false },
+            { "text": "Section 6(13)", "correct": true }
+          ],
+          "explanation": "Old Section 6(6) → new Section 6(13). The RNOR conditions are identical — same 9-out-of-10 test, same 729-day test — just a different sub-section number within Section 6.",
+          "explanationWrong": "6(6) → 6(13) for RNOR conditions. The sub-section numbers changed because old provisos were converted to standalone sub-sections, pushing the RNOR test further down in the numbering.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "rnor-test"],
+          "isReview": true,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 4,
+          "question": "How does the POEM (Place of Effective Management) test for company residence work under the 2025 Act?",
+          "options": [
+            { "text": "A company is resident if incorporated in India, regardless of POEM", "correct": false },
+            { "text": "A company is resident if it is an Indian company OR its POEM is in India", "correct": true },
+            { "text": "POEM was replaced with a new 'Central Management' test", "correct": false },
+            { "text": "Only Indian companies are resident; foreign companies are always non-resident", "correct": false }
+          ],
+          "explanation": "Under Section 6(12), a company is resident if (a) it's an Indian company, OR (b) its POEM is in India. POEM = where key management and commercial decisions are substantively made. This is unchanged from the old Act.",
+          "explanationWrong": "Both tests apply: Indian company = always resident. Foreign company = resident if POEM is in India. POEM isn't new — it was introduced in the old Act's Section 6(3). The 2025 Act preserves it in Section 6(12).",
+          "tier": 2,
+          "subConcepts": ["company-residence", "poem-test"],
+          "isReview": false,
+          "oldSection": "Section 6(3)",
+          "newSection": "Section 6(12)"
+        },
+        {
+          "order": 5,
+          "question": "How does Section 536(3) of the 2025 Act handle the transition for lookback period calculations (e.g., RNOR's 10-year test)?",
+          "options": [
+            { "text": "Lookback only considers years under the new Act", "correct": false },
+            { "text": "A reference to 'tax year' is treated as a reference to the corresponding 'previous year' under the old Act", "correct": true },
+            { "text": "The RNOR test is suspended for the first 3 years", "correct": false },
+            { "text": "Only years from Tax Year 2026-27 onwards count", "correct": false }
+          ],
+          "explanation": "Section 536(3) creates seamless continuity. For Tax Year 2026-27, the 10-year RNOR lookback spans into 'previous years' under the old Act. The section ensures these are treated as equivalent to 'tax years' for calculation purposes.",
+          "explanationWrong": "Section 536(3) bridges the terminology gap. Without it, the 10-year lookback for RNOR would break at the transition — old years were 'previous years,' new years are 'tax years.' The section makes them equivalent for calculation purposes.",
+          "tier": 2,
+          "subConcepts": ["transition-provisions", "lookback-continuity"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 536(3)"
+        }
+      ]
+    },
+    {
+      "title": "Practical Implications",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "NRI investment income concessions (old Sections 115C-115H) are preserved in the 2025 Act under which new sections?",
+          "options": [
+            { "text": "Sections 115-122", "correct": false },
+            { "text": "Sections 213-217", "correct": true },
+            { "text": "Sections 392-394", "correct": false },
+            { "text": "Schedule IV", "correct": false }
+          ],
+          "explanation": "Old Sections 115C-115H → Sections 213-217. The concessions are identical: 20% on investment income, 10-12.5% on LTCG, filing exemption, continuation election for returning NRIs.",
+          "explanationWrong": "115C-115H → 213-217 in the 2025 Act. Schedule IV covers NRE account interest exemption. Sections 392-394 are TDS/TCS. These NRI provisions are important for CAs with overseas client bases.",
+          "tier": 2,
+          "subConcepts": ["nri-provisions", "section-mapping"],
+          "isReview": false,
+          "oldSection": "Sections 115C-115H",
+          "newSection": "Sections 213-217"
+        },
+        {
+          "order": 2,
+          "question": "Interest on NRE (Non-Resident External) accounts continues to be exempt under which part of the 2025 Act?",
+          "options": [
+            { "text": "Section 11", "correct": false },
+            { "text": "Section 123", "correct": false },
+            { "text": "Schedule IV (Non-Resident Exemptions)", "correct": true },
+            { "text": "Section 214", "correct": false }
+          ],
+          "explanation": "NRE account interest exemption is in Schedule IV, which covers non-resident specific exemptions. Section 11 is the gateway provision. Section 214 covers concessional NRI investment tax rates, not exemptions.",
+          "explanationWrong": "Schedule IV (Non-Resident Exemptions) holds the NRE interest exemption. This was previously in old Section 10. The schedule-based organization makes it easier to find NR-specific exemptions.",
+          "tier": 2,
+          "subConcepts": ["nre-exemption", "schedule-iv"],
+          "isReview": false,
+          "oldSection": "Section 10",
+          "newSection": "Schedule IV"
+        },
+        {
+          "order": 3,
+          "question": "What section in the 2025 Act determines the scope of total income based on residential status?",
+          "options": [
+            { "text": "Section 4", "correct": false },
+            { "text": "Section 5", "correct": true },
+            { "text": "Section 6", "correct": false },
+            { "text": "Section 11", "correct": false }
+          ],
+          "explanation": "Section 5 connects residential status (determined under Section 6) to the scope of taxable income. Same section number in both old and new Acts — one of the few that didn't change.",
+          "explanationWrong": "Section 5 = scope of income. Section 6 = how to determine residential status. Section 4 = charge of income tax. Section 11 = exempt income gateway. These four foundational sections work together.",
+          "tier": 2,
+          "subConcepts": ["section-5", "scope-of-income"],
+          "isReview": true,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        },
+        {
+          "order": 4,
+          "question": "For a returning NRI becoming resident in Tax Year 2026-27, the RNOR lookback period of 10 years extends to which years?",
+          "options": [
+            { "text": "Tax Years 2016-17 to 2025-26", "correct": true },
+            { "text": "Tax Years 2017-18 to 2026-27", "correct": false },
+            { "text": "Only Tax Years from 2026-27 onwards", "correct": false },
+            { "text": "Financial Years 2016-17 to 2025-26 under the old Act only", "correct": false }
+          ],
+          "explanation": "The 10 years preceding Tax Year 2026-27 are 2016-17 through 2025-26. Years up to 2025-26 were 'previous years' under the old Act; Section 536(3) makes them equivalent to 'tax years' for this calculation.",
+          "explanationWrong": "2016-17 to 2025-26 are the 10 preceding years. Section 536(3) ensures seamless calculation across the transition — 'previous year' under old Act = 'tax year' under new Act for lookback purposes.",
+          "tier": 2,
+          "subConcepts": ["rnor-lookback", "transition-calculation"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 6(13), Section 536(3)"
+        },
+        {
+          "order": 5,
+          "question": "What is the key difference between how Section 6 was structured in the old Act versus the 2025 Act?",
+          "options": [
+            { "text": "The old Act had 6 sub-sections with provisos; the new Act has 13+ sub-sections with no provisos", "correct": true },
+            { "text": "The old Act had more residence categories than the new Act", "correct": false },
+            { "text": "The old Act used days, the new Act uses months", "correct": false },
+            { "text": "The old Act had stricter thresholds", "correct": false }
+          ],
+          "explanation": "Old Section 6: 6 sub-sections + buried provisos. New Section 6: 13+ sub-sections, zero provisos. Every proviso (crew members, employment abroad, 120-day rule, deemed residence) is now a standalone, numbered sub-section.",
+          "explanationWrong": "The structural change is dramatic: 6 sub-sections with provisos → 13+ clean sub-sections. But the substance is identical — same categories, same day thresholds, same tests. Only the organization changed.",
+          "tier": 2,
+          "subConcepts": ["structural-comparison", "proviso-elimination"],
+          "isReview": false,
+          "oldSection": "Section 6",
+          "newSection": "Section 6"
+        }
+      ]
+    },
+    {
+      "title": "Determining Residential Status",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Rajesh, an Indian citizen working in Singapore, visits India for 170 days in Tax Year 2026-27. He has been visiting India for about 100 days each year for the past 4 years. What is his residential status?",
+          "options": [
+            { "text": "Resident — meets the 60+365 test", "correct": false },
+            { "text": "Non-Resident — only the 182-day test applies since he left for employment abroad", "correct": true },
+            { "text": "RNOR", "correct": false },
+            { "text": "Deemed Resident", "correct": false }
+          ],
+          "explanation": "Rajesh left India for employment abroad, so under Section 6(3)(b), only the 182-day test applies. At 170 days, he's below 182 → Non-Resident. The 60+365 test (which he would meet: 170 days + 400 cumulative) does not apply to him.",
+          "explanationWrong": "Since Rajesh left for employment abroad, the 60+365 test is disapplied. Only the 182-day rule matters. 170 < 182 → NR. Without the relaxation, he'd be resident under 60+365 (170 > 60, and ~400 > 365 in 4 prior years).",
+          "tier": 3,
+          "subConcepts": ["employment-abroad", "182-day-only", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(b)"
+        },
+        {
+          "order": 2,
+          "question": "Priya is a Person of Indian Origin (POI) living in the UK. She visits India for 130 days in Tax Year 2026-27 and has cumulative 500 days in the prior 4 years. Her Indian rental income is Rs 18 lakh. Her status is:",
+          "options": [
+            { "text": "Non-Resident — POIs get the full 182-day relaxation", "correct": false },
+            { "text": "Resident — the 120-day rule applies since her Indian income exceeds Rs 15 lakh, and 130 > 120 with 500 > 365", "correct": true },
+            { "text": "RNOR — she qualifies for transitional status", "correct": false },
+            { "text": "Non-Resident — 130 days is below 182", "correct": false }
+          ],
+          "explanation": "Priya is a POI visiting from abroad with Indian-source income > Rs 15 lakh → the 120-day threshold applies (Section 6(4)-(5)). She's in India 130 days (> 120) and has 500 cumulative days (> 365) → Resident. She'd then need the RNOR check.",
+          "explanationWrong": "The full 182-day relaxation only applies if Indian-source income is ≤ Rs 15 lakh. Since Priya's Indian rental income is Rs 18 lakh, the threshold drops to 120 days. 130 > 120, and 500 > 365 → she's Resident under the 120+365 test.",
+          "tier": 3,
+          "subConcepts": ["120-day-rule", "high-income-visitors", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(4)-(5)"
+        },
+        {
+          "order": 3,
+          "question": "Section 6 of the 2025 Act retained which section number from the old Act?",
+          "options": [
+            { "text": "Section 6 — same number in both Acts", "correct": true },
+            { "text": "It was renumbered to Section 12", "correct": false },
+            { "text": "It was merged into Section 5", "correct": false },
+            { "text": "It was split across Sections 6 and 7", "correct": false }
+          ],
+          "explanation": "Section 6 retains the same section number in both Acts. Sections 1-7 cover the same foundational topics in both the old and new Acts — definitions, tax year, charge, scope, residence, deemed income.",
+          "explanationWrong": "Section 6 is Section 6 in both Acts — one of the few sections where the number didn't change. The foundational sections (1-7) are nearly identical in numbering between old and new Acts.",
+          "tier": 3,
+          "subConcepts": ["section-numbering", "foundation-sections"],
+          "isReview": true,
+          "oldSection": "Section 6",
+          "newSection": "Section 6"
+        },
+        {
+          "order": 4,
+          "question": "Captain Sharma, an Indian citizen, serves as crew on an Indian merchant vessel. His ship docks at Mumbai port for 45 days during Tax Year 2026-27, and he also spends 50 days on shore leave in India. His total calendar days in India appear to be 95. How many days count for residence purposes?",
+          "options": [
+            { "text": "95 days — all time in India counts", "correct": false },
+            { "text": "50 days — the 45 days on the docked ship (CDC period) are excluded", "correct": true },
+            { "text": "0 days — all time is excluded for crew members", "correct": false },
+            { "text": "45 days — only port time counts", "correct": false }
+          ],
+          "explanation": "The 45 days on the ship during the CDC period are excluded, even though the ship was docked in Mumbai. Only the 50 days of shore leave count. Since only the 182-day test applies to crew members, and 50 < 182, Captain Sharma is NR.",
+          "explanationWrong": "CDC period is excluded regardless of where the ship is — Indian waters, Indian port, international waters. Only time NOT covered by the CDC (shore leave, personal visits) counts. 50 days on shore leave < 182 → NR.",
+          "tier": 3,
+          "subConcepts": ["crew-members", "cdc-exclusion", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(1) proviso",
+          "newSection": "Section 6(3)(a)"
+        },
+        {
+          "order": 5,
+          "question": "Amit is an Indian citizen who has structured his affairs to not be tax-resident in any country. He earns Rs 20 lakh from Indian consulting and Rs 50 lakh from a Dubai business. Under Section 6(7), what income is taxable in India?",
+          "options": [
+            { "text": "All Rs 70 lakh — both Indian and Dubai income", "correct": false },
+            { "text": "Only the Rs 20 lakh Indian consulting income (and Dubai income only if the business is controlled from India)", "correct": true },
+            { "text": "Nothing — deemed residents are exempt", "correct": false },
+            { "text": "Only Rs 20 lakh — foreign income is never taxable for deemed residents", "correct": false }
+          ],
+          "explanation": "Deemed residents under Section 6(7) are RNOR. Under Section 5, RNOR pays tax on Indian income (Rs 20 lakh) plus foreign income only if from business controlled in India. If the Dubai business is independently managed, only the Rs 20 lakh is taxable.",
+          "explanationWrong": "As RNOR (not ROR), Amit's Indian income (Rs 20 lakh) is definitely taxable. The Dubai income (Rs 50 lakh) is taxable only if the business is controlled from India. If controlled from Dubai, it's not taxable. This is the RNOR advantage.",
+          "tier": 3,
+          "subConcepts": ["deemed-residence", "rnor-taxation", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        }
+      ]
+    },
+    {
+      "title": "NRI and Returning Indian Scenarios",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Meera has been an NRI in the US for 15 years. She returns to India permanently in July 2026. For Tax Year 2026-27, she is in India for 270 days. Her residential status is:",
+          "options": [
+            { "text": "Non-Resident — she's only been in India for part of the year", "correct": false },
+            { "text": "Resident and Ordinarily Resident (ROR)", "correct": false },
+            { "text": "Resident but Not Ordinarily Resident (RNOR)", "correct": true },
+            { "text": "Deemed Resident under Section 6(7)", "correct": false }
+          ],
+          "explanation": "270 days > 182 → Resident. RNOR check: She was NR in at least 9 of the 10 preceding tax years (she was abroad for 15 years) → RNOR. This means her passive foreign income (US interest, dividends) is NOT taxable in India for this year.",
+          "explanationWrong": "Step 1: 270 > 182 → Resident. Step 2: NR for 15 consecutive years → definitely NR in 9 of last 10 → RNOR (Section 6(13)). She'll likely be RNOR for 2-3 years — a valuable transition window for restructuring foreign holdings.",
+          "tier": 3,
+          "subConcepts": ["returning-nri", "rnor-transition", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 2,
+          "question": "A client asks: 'I've been NRI for 8 years, not 9. If I return now, am I ROR or RNOR?' What do you check next?",
+          "options": [
+            { "text": "Nothing — 8 out of 10 means ROR automatically", "correct": false },
+            { "text": "The alternate 729-day test: were they in India for ≤729 days in the preceding 7 tax years?", "correct": true },
+            { "text": "Whether they have Indian-source income exceeding Rs 15 lakh", "correct": false },
+            { "text": "Their citizenship status", "correct": false }
+          ],
+          "explanation": "The RNOR test has two ALTERNATIVE conditions. Condition (a): NR in 9 of 10 years — they don't meet this (only 8). But check condition (b): ≤729 days in India in preceding 7 years. If they meet this alternate condition, they're still RNOR.",
+          "explanationWrong": "Don't stop at the 9/10 test — check the 729-day test too. If the client was abroad 8 years and briefly visited India (say 60 days/year × 7 years = 420 days), 420 ≤ 729, so they qualify as RNOR through the alternate condition.",
+          "tier": 3,
+          "subConcepts": ["rnor-test", "alternate-conditions", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, the RNOR conditions are found in which sub-section of Section 6?",
+          "options": [
+            { "text": "Section 6(6)", "correct": false },
+            { "text": "Section 6(7)", "correct": false },
+            { "text": "Section 6(12)", "correct": false },
+            { "text": "Section 6(13)", "correct": true }
+          ],
+          "explanation": "RNOR conditions are in Section 6(13) (was old Section 6(6)). Section 6(7) is deemed residence. Section 6(12) is company POEM test.",
+          "explanationWrong": "6(13) for RNOR, 6(7) for deemed residence, 6(12) for company POEM. These three sub-section numbers are the key mappings CAs need within Section 6.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "rnor-test"],
+          "isReview": true,
+          "oldSection": "Section 6(6)",
+          "newSection": "Section 6(13)"
+        },
+        {
+          "order": 4,
+          "question": "Your NRI client is considering returning to India. He has Rs 2 crore in US stocks and wants to sell them. You advise him to sell:",
+          "options": [
+            { "text": "After returning — it doesn't matter", "correct": false },
+            { "text": "Before returning, while still NR, or during the RNOR window — so the capital gains on foreign assets are not taxable in India", "correct": true },
+            { "text": "Only after becoming ROR to claim Indian DTAA benefits", "correct": false },
+            { "text": "The timing doesn't affect tax liability", "correct": false }
+          ],
+          "explanation": "As NR or RNOR, capital gains on foreign assets are NOT taxable in India. Once ROR (typically after 2-3 years of return), all worldwide capital gains become taxable. Selling during the NR/RNOR window is tax-efficient.",
+          "explanationWrong": "Timing is critical. NR and RNOR status means foreign capital gains are not taxable in India. Once ROR, they are. The RNOR window (2-3 years after return) is the last opportunity to sell foreign assets without Indian capital gains tax.",
+          "tier": 3,
+          "subConcepts": ["rnor-planning", "foreign-capital-gains", "client-advisory"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        },
+        {
+          "order": 5,
+          "question": "An NRI client with only interest income from NRE deposits and LTCG from Indian equity mutual funds (with proper TDS deducted) asks if they need to file a return under the 2025 Act. Under Section 216 (old 115G):",
+          "options": [
+            { "text": "They must always file a return regardless of income type", "correct": false },
+            { "text": "They are exempt from filing if their total income consists only of investment income and LTCG with proper TDS deducted", "correct": true },
+            { "text": "Filing exemption was removed in the 2025 Act", "correct": false },
+            { "text": "They must file but can claim a refund", "correct": false }
+          ],
+          "explanation": "Section 216 (old Section 115G) preserves the filing exemption for NRIs whose income consists only of investment income and LTCG, provided TDS has been properly deducted. NRE interest is exempt, so it doesn't create a filing obligation either.",
+          "explanationWrong": "The filing exemption under Section 216 continues unchanged. If the NRI's only Indian income is investment income/LTCG with TDS deducted, no return filing is required. This saves the NRI from the compliance burden of annual Indian filing.",
+          "tier": 3,
+          "subConcepts": ["nri-filing-exemption", "section-216"],
+          "isReview": false,
+          "oldSection": "Section 115G",
+          "newSection": "Section 216"
+        }
+      ]
+    },
+    {
+      "title": "Complex Determination Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A foreign company has its board meetings in Mumbai, key decisions are made there, but it is incorporated in Singapore. Under Section 6(12), this company is:",
+          "options": [
+            { "text": "Non-Resident — it's incorporated abroad", "correct": false },
+            { "text": "Resident — its Place of Effective Management (POEM) is in India", "correct": true },
+            { "text": "Status depends on where most employees are located", "correct": false },
+            { "text": "Status depends on where revenue is earned", "correct": false }
+          ],
+          "explanation": "Under Section 6(12), a company is resident if its POEM is in India. POEM = where key management and commercial decisions are substantively made. If board meetings and key decisions happen in Mumbai, POEM is in India → Resident.",
+          "explanationWrong": "Incorporation doesn't determine residence for foreign companies — POEM does. If the substance of management (board decisions, commercial strategy) is in India, the company is resident regardless of where it's incorporated.",
+          "tier": 3,
+          "subConcepts": ["company-residence", "poem-test", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(3)",
+          "newSection": "Section 6(12)"
+        },
+        {
+          "order": 2,
+          "question": "Sunita, an Indian citizen, lives in Dubai (which has no income tax). She earns Rs 25 lakh from Indian property and Rs 1 crore from Dubai trading. She visits India for 50 days. Does Section 6(7) apply?",
+          "options": [
+            { "text": "Yes — she's an Indian citizen not taxable anywhere, with Indian income > Rs 15 lakh", "correct": false },
+            { "text": "No — Dubai's zero-tax status doesn't mean she's 'not liable to tax' there; she's a tax resident of Dubai", "correct": true },
+            { "text": "Yes — but only on Indian income", "correct": false },
+            { "text": "No — the provision only applies to income above Rs 50 lakh", "correct": false }
+          ],
+          "explanation": "Section 6(7) requires the person to NOT be liable to tax in ANY country. If Sunita is a tax resident of Dubai (even though Dubai has zero income tax), she IS liable to tax there (at 0%). The provision targets truly 'stateless' individuals, not residents of zero-tax jurisdictions.",
+          "explanationWrong": "This is a nuanced but crucial distinction. Being resident in a zero-tax country is different from being resident nowhere. If Dubai's tax system covers her (she's liable to tax at 0%), Section 6(7) doesn't apply. The provision targets those who are tax-resident in NO country.",
+          "tier": 3,
+          "subConcepts": ["deemed-residence", "zero-tax-jurisdictions", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(1A)",
+          "newSection": "Section 6(7)"
+        },
+        {
+          "order": 3,
+          "question": "Under the 2025 Act, old NRI investment income provisions (Sections 115C-115H) map to which new sections?",
+          "options": [
+            { "text": "Sections 113-118", "correct": false },
+            { "text": "Sections 213-217", "correct": true },
+            { "text": "Sections 313-317", "correct": false },
+            { "text": "Schedule IV", "correct": false }
+          ],
+          "explanation": "115C-115H → 213-217. These cover NRI investment income definitions (213), concessional rates (214), reinvestment exemption (215), filing exemption (216), and continuation election (217).",
+          "explanationWrong": "115C-115H → 213-217. Schedule IV covers NRE interest exemption specifically, not the broader NRI investment regime. Know both: 213-217 for NRI concessions, Schedule IV for NR exemptions.",
+          "tier": 3,
+          "subConcepts": ["nri-provisions", "section-mapping"],
+          "isReview": true,
+          "oldSection": "Sections 115C-115H",
+          "newSection": "Sections 213-217"
+        },
+        {
+          "order": 4,
+          "question": "A HUF's karta (manager) has been managing the family business from London for the entire tax year. All business decisions are made in London. The HUF's residential status is:",
+          "options": [
+            { "text": "Resident — HUFs are always resident in India", "correct": false },
+            { "text": "Non-Resident — control and management is wholly outside India", "correct": true },
+            { "text": "RNOR — because the karta is outside India", "correct": false },
+            { "text": "Status depends on where the HUF's assets are located", "correct": false }
+          ],
+          "explanation": "Under Section 6(8)-(9), a HUF is NR if its control and management is situated WHOLLY outside India. If the karta manages everything from London with no management in India, the HUF is NR. If even partial control is in India, it's Resident.",
+          "explanationWrong": "The test for HUF is: is control and management WHOLLY outside India? 'Wholly' is key — even partial management from India makes the HUF resident. But if the karta runs everything from London, the HUF is NR.",
+          "tier": 3,
+          "subConcepts": ["huf-residence", "control-and-management", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 6(2)",
+          "newSection": "Section 6(8)-(9)"
+        },
+        {
+          "order": 5,
+          "question": "Your client became resident in Tax Year 2026-27 after 12 years abroad. They have (a) Indian salary Rs 30 lakh, (b) US dividend Rs 5 lakh, (c) UK rental income Rs 8 lakh. As RNOR, which income is taxable in India?",
+          "options": [
+            { "text": "All three — Rs 43 lakh total", "correct": false },
+            { "text": "Only (a) Indian salary — Rs 30 lakh", "correct": true },
+            { "text": "(a) and (b) — Rs 35 lakh", "correct": false },
+            { "text": "(a) and (c) — Rs 38 lakh", "correct": false }
+          ],
+          "explanation": "As RNOR (12 years abroad > 9 of 10 test), only Indian-source income is taxable. US dividends and UK rental income are passive foreign income — NOT from business controlled in or profession set up in India. Only the Rs 30 lakh Indian salary is taxable.",
+          "explanationWrong": "RNOR = Indian income + foreign business/profession income controlled from India. US dividends and UK rental income are passive foreign income — no Indian control involved. Only the Rs 30 lakh Indian salary is taxable. This is the RNOR advantage for returning NRIs.",
+          "tier": 3,
+          "subConcepts": ["rnor-taxation", "scope-of-income", "scenario"],
+          "isReview": false,
+          "oldSection": "Section 5",
+          "newSection": "Section 5"
+        }
+      ]
+    }
+  ]
+}

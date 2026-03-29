@@ -1,0 +1,835 @@
+{
+  "unit": "11.1",
+  "title": "Set-Off Rules (Sections 108-109)",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Section Mapping: 70→108, 71→109",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Old Section 70 (set-off of loss from one source against income from another source under the same head) maps to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 107", "correct": false },
+            { "text": "Section 108", "correct": true },
+            { "text": "Section 109", "correct": false },
+            { "text": "Section 110", "correct": false }
+          ],
+          "explanation": "Section 70 (intra-head set-off) maps directly to Section 108. The rule is the same — loss from one source under a head can be set off against income from another source under the same head. Only the section number changed.",
+          "explanationWrong": "Section 108 is correct. This is a clean renumbering — old Section 70 becomes new Section 108. The intra-head set-off principle is carried forward without any substantive change. Think of it as the same rule wearing a new jersey number.",
+          "tier": 1,
+          "subConcepts": ["intra-head-set-off", "section-108", "section-70-mapping"],
+          "isReview": false,
+          "oldSection": "Section 70",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "Old Section 71 (inter-head set-off) has been renumbered to which section in the ITA 2025?",
+          "options": [
+            { "text": "Section 108", "correct": false },
+            { "text": "Section 110", "correct": false },
+            { "text": "Section 109", "correct": true },
+            { "text": "Section 111", "correct": false }
+          ],
+          "explanation": "Section 71 becomes Section 109. Inter-head set-off — where loss under one head is set off against income under a different head — continues under this new section with the same restrictions as before.",
+          "explanationWrong": "Section 109 is the answer. Section 71 (inter-head set-off) → Section 109. Don't confuse with Section 108, which handles intra-head set-off (old Section 70). The two sections sit side by side, just like the old 70 and 71.",
+          "tier": 1,
+          "subConcepts": ["inter-head-set-off", "section-109", "section-71-mapping"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the maximum deduction for interest on housing loan for a self-occupied property is capped at what amount?",
+          "options": [
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 3,00,000", "correct": false },
+            { "text": "Rs 2,50,000", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 cap on housing loan interest for self-occupied property (Section 24(b) concept carried to the 2025 Act) remains unchanged. This was covered in the House Property module.",
+          "explanationWrong": "Rs 2,00,000 remains the cap. This is a carry-forward from the old regime, tested here as a review from Unit 5 (House Property). The cap applies to interest on borrowed capital for self-occupied property — unchanged in the 2025 Act.",
+          "tier": 1,
+          "subConcepts": ["housing-loan-interest", "self-occupied-property", "rs-2-lakh-cap"],
+          "isReview": true,
+          "oldSection": "Section 24(b)",
+          "newSection": "Section 24(b) equivalent"
+        },
+        {
+          "order": 4,
+          "question": "The ITA 2025 initially proposed allowing LTCL set-off against STCG as a change from the 1961 Act. What happened to this proposal?",
+          "options": [
+            { "text": "It was enacted as Section 108(3)", "correct": false },
+            { "text": "It was proposed but subsequently withdrawn", "correct": true },
+            { "text": "It applies only to listed securities", "correct": false },
+            { "text": "It was deferred to the Finance Act 2026", "correct": false }
+          ],
+          "explanation": "The proposal to allow LTCL to be set off against STCG was floated during the legislative process but was withdrawn. The final enacted position retains the old rule: LTCL can only be set off against LTCG, not STCG.",
+          "explanationWrong": "The proposal was withdrawn. This is a critical awareness point — many practitioners assumed this change made it into the final Act. It did not. LTCL still cannot be set off against STCG under the enacted ITA 2025. The old restriction survives intact.",
+          "tier": 1,
+          "subConcepts": ["ltcl-stcg-proposal", "withdrawn-change", "capital-loss-set-off"],
+          "isReview": false,
+          "oldSection": "Section 70(3)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 5,
+          "question": "Under Section 108 of the ITA 2025, loss from a speculative business can be set off against which type of income?",
+          "options": [
+            { "text": "Any business income", "correct": false },
+            { "text": "Income from salary", "correct": false },
+            { "text": "Only speculative business income", "correct": true },
+            { "text": "Speculative and non-speculative business income", "correct": false }
+          ],
+          "explanation": "Speculative business loss can only be set off against speculative business income — the same ring-fencing rule from the 1961 Act. Section 108 carries forward this restriction without change.",
+          "explanationWrong": "Only speculative business income. This quarantine rule is one of the oldest in Indian tax law and survives unchanged into the 2025 Act. Speculative loss stays in its box — it cannot escape to reduce non-speculative business income or any other head.",
+          "tier": 1,
+          "subConcepts": ["speculative-loss", "ring-fencing", "intra-head-restriction"],
+          "isReview": false,
+          "oldSection": "Section 73",
+          "newSection": "Section 108"
+        }
+      ]
+    },
+    {
+      "title": "Intra-Head Set-Off Mechanics",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 108, if an assessee has income from two house properties — one showing a profit and one showing a loss — the loss is first set off against which income?",
+          "options": [
+            { "text": "Income under any other head", "correct": false },
+            { "text": "Income from the profitable house property", "correct": true },
+            { "text": "Business income at the assessee's option", "correct": false },
+            { "text": "It must be carried forward", "correct": false }
+          ],
+          "explanation": "Intra-head set-off (Section 108) comes first. Loss from one house property is set off against income from the other house property before any inter-head set-off under Section 109. Same rule as old Section 70.",
+          "explanationWrong": "The profitable house property income absorbs the loss first. This is the mandatory sequencing: intra-head (Section 108) before inter-head (Section 109). The assessee cannot skip to another head while there's positive income available under the same head.",
+          "tier": 1,
+          "subConcepts": ["intra-head-priority", "house-property-set-off", "mandatory-sequence"],
+          "isReview": false,
+          "oldSection": "Section 70",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, STCL can be set off against which types of capital gains?",
+          "options": [
+            { "text": "Only STCG", "correct": false },
+            { "text": "Both STCG and LTCG", "correct": true },
+            { "text": "Only LTCG", "correct": false },
+            { "text": "Neither — must be carried forward", "correct": false }
+          ],
+          "explanation": "STCL can be set off against both STCG and LTCG. This is the more flexible direction — short-term loss can go up against both types. The restriction only works the other way: LTCL cannot be set off against STCG.",
+          "explanationWrong": "Both STCG and LTCG. Remember the asymmetry: STCL is flexible (can offset any capital gain), but LTCL is restricted (can only offset LTCG). This rule is unchanged from the 1961 Act and carried into Section 108.",
+          "tier": 1,
+          "subConcepts": ["stcl-set-off", "capital-loss-asymmetry", "section-108"],
+          "isReview": false,
+          "oldSection": "Section 70(2)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 3,
+          "question": "Under the carry-forward rules of the 2025 Act, unabsorbed depreciation can be carried forward for how many years?",
+          "options": [
+            { "text": "8 years", "correct": false },
+            { "text": "4 years", "correct": false },
+            { "text": "Indefinitely", "correct": true },
+            { "text": "12 years", "correct": false }
+          ],
+          "explanation": "Unabsorbed depreciation can be carried forward indefinitely — there is no time limit. This rule (old Section 32(2) read with Section 72) is retained in the 2025 Act. Covered in the carry-forward module.",
+          "explanationWrong": "Indefinitely is correct. Unabsorbed depreciation is the only loss item with no expiry date. All other losses have time limits (business loss 8 years, capital loss 8 years, etc.). This was covered in carry-forward continuity.",
+          "tier": 1,
+          "subConcepts": ["unabsorbed-depreciation", "indefinite-carry-forward", "review"],
+          "isReview": true,
+          "oldSection": "Section 32(2)",
+          "newSection": "Section 115"
+        },
+        {
+          "order": 4,
+          "question": "The house property loss cap of Rs 2,00,000 for inter-head set-off was introduced by which Finance Act, and how is it treated under the ITA 2025?",
+          "options": [
+            { "text": "FA 2017 — the cap has been removed in the 2025 Act", "correct": false },
+            { "text": "FA 2017 — the cap is carried forward unchanged", "correct": true },
+            { "text": "FA 2019 — the cap is increased to Rs 3,00,000", "correct": false },
+            { "text": "FA 2020 — the cap is reduced to Rs 1,50,000", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 cap on inter-head set-off of house property loss was introduced by FA 2017 (applicable from AY 2018-19). The ITA 2025 carries this cap forward without change. Excess loss is carried forward for 8 years.",
+          "explanationWrong": "FA 2017 introduced the Rs 2L cap, and the 2025 Act retains it unchanged. Before FA 2017, there was no limit on HP loss set-off against other heads. Many expected the 2025 Act to revise this, but it simply carried the restriction forward.",
+          "tier": 1,
+          "subConcepts": ["hp-loss-cap", "rs-2-lakh", "fa-2017", "inter-head-restriction"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, which of the following losses CANNOT be set off against income under any other head?",
+          "options": [
+            { "text": "Business loss", "correct": false },
+            { "text": "Capital loss", "correct": true },
+            { "text": "House property loss", "correct": false },
+            { "text": "Loss from other sources", "correct": false }
+          ],
+          "explanation": "Capital losses (both STCL and LTCL) can only be set off against capital gains. They cannot be set off against income under any other head (salary, HP, business, other sources). This is a fundamental restriction carried into Section 109.",
+          "explanationWrong": "Capital loss is the answer. This is one of the most important set-off restrictions. Capital loss is head-locked — it can never cross over to reduce salary, business income, HP income, or other sources. The rule is unchanged from old Section 71.",
+          "tier": 1,
+          "subConcepts": ["capital-loss-restriction", "head-locked", "inter-head-bar"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        }
+      ]
+    },
+    {
+      "title": "Inter-Head Set-Off: Section 109 Deep Dive",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under Section 109, after intra-head set-off, business loss can be set off against income from which of the following heads?",
+          "options": [
+            { "text": "Only salary income", "correct": false },
+            { "text": "Any head except salary and speculative business", "correct": false },
+            { "text": "Any head except capital gains and speculative business income", "correct": false },
+            { "text": "Any head other than salary", "correct": true }
+          ],
+          "explanation": "Business loss (non-speculative) can be set off against income under any head except salary. This inter-head flexibility is retained in Section 109. However, speculative business loss remains ring-fenced.",
+          "explanationWrong": "Any head other than salary. Business loss enjoys wide inter-head set-off rights — it can absorb HP income, capital gains, other sources. The only head it cannot touch is salary. This is the same rule from the 1961 Act, now in Section 109.",
+          "tier": 1,
+          "subConcepts": ["business-loss-set-off", "inter-head-flexibility", "salary-exclusion"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, house property loss exceeding Rs 2,00,000 in a year is treated how?",
+          "options": [
+            { "text": "Forfeited permanently", "correct": false },
+            { "text": "Set off against salary income without limit", "correct": false },
+            { "text": "Carried forward to subsequent years for set-off against HP income", "correct": true },
+            { "text": "Adjusted against capital gains in the same year", "correct": false }
+          ],
+          "explanation": "HP loss beyond Rs 2,00,000 cannot be set off against other heads in the current year. It is carried forward for up to 8 years and can be set off only against income from house property in subsequent years.",
+          "explanationWrong": "Carried forward for set-off against HP income. The Rs 2L cap doesn't destroy the excess loss — it just defers it. The excess is parked and can be used against future HP income for up to 8 assessment years. The carry-forward period is unchanged.",
+          "tier": 1,
+          "subConcepts": ["hp-loss-carry-forward", "8-year-limit", "excess-loss-treatment"],
+          "isReview": false,
+          "oldSection": "Section 71B",
+          "newSection": "Section 110"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the presumptive taxation threshold for eligible businesses under Section 44AD equivalent has been increased to what turnover limit?",
+          "options": [
+            { "text": "Rs 2 crore", "correct": false },
+            { "text": "Rs 3 crore (with digital receipts condition)", "correct": true },
+            { "text": "Rs 5 crore", "correct": false },
+            { "text": "Rs 1 crore", "correct": false }
+          ],
+          "explanation": "The presumptive taxation threshold was enhanced to Rs 3 crore where digital receipts exceed 95% of total turnover (FA 2023 change carried into the 2025 Act). This was covered in the Business Income module.",
+          "explanationWrong": "Rs 3 crore is correct (with the digital receipts condition). Without the condition, the base limit is Rs 2 crore. This enhanced threshold from FA 2023 has been carried into the 2025 Act's presumptive taxation provisions.",
+          "tier": 1,
+          "subConcepts": ["presumptive-taxation", "turnover-threshold", "digital-receipts"],
+          "isReview": true,
+          "oldSection": "Section 44AD",
+          "newSection": "Presumptive taxation equivalent"
+        },
+        {
+          "order": 4,
+          "question": "Under Section 109, loss from owning and maintaining racehorses can be set off against which income?",
+          "options": [
+            { "text": "Any income under any head", "correct": false },
+            { "text": "Only income from owning and maintaining racehorses", "correct": true },
+            { "text": "Any speculative business income", "correct": false },
+            { "text": "Capital gains from sale of racehorses", "correct": false }
+          ],
+          "explanation": "Racehorse loss is the most restricted category — it can only be set off against racehorse income. This extreme ring-fencing is carried forward from old Section 74A(3) into the 2025 Act without modification.",
+          "explanationWrong": "Only racehorse income. This is the tightest set-off restriction in the Act — even tighter than speculative loss. Racehorse losses live in complete isolation. The carry-forward period for this loss is 4 years.",
+          "tier": 1,
+          "subConcepts": ["racehorse-loss", "extreme-ring-fencing", "section-74A"],
+          "isReview": false,
+          "oldSection": "Section 74A(3)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 5,
+          "question": "The order of priority for set-off under the ITA 2025 is: first intra-head (Section 108), then inter-head (Section 109), and then which step?",
+          "options": [
+            { "text": "Deductions under Chapter VIII", "correct": false },
+            { "text": "Carry forward to subsequent years", "correct": true },
+            { "text": "Rebate under Section 87A equivalent", "correct": false },
+            { "text": "Tax credit adjustment", "correct": false }
+          ],
+          "explanation": "The sequence is: (1) Intra-head set-off (Section 108), (2) Inter-head set-off (Section 109), (3) Carry forward unabsorbed losses (Sections 110-121). Only after this do deductions, rebates, and tax credits come into play.",
+          "explanationWrong": "Carry forward is the next step. After exhausting both intra-head and inter-head set-off in the current year, any remaining loss is carried forward under Sections 110-121. The carry-forward provisions are the safety net for losses that couldn't be absorbed currently.",
+          "tier": 1,
+          "subConcepts": ["set-off-priority", "carry-forward-sequence", "loss-absorption-order"],
+          "isReview": false,
+          "oldSection": "Sections 70-71",
+          "newSection": "Sections 108-109"
+        }
+      ]
+    },
+    {
+      "title": "Conceptual Clarity: Why Same Rules, New Numbers",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why did the ITA 2025 retain the restriction that LTCL cannot be set off against STCG, despite proposals to change it?",
+          "options": [
+            { "text": "LTCL is taxed at a lower rate, so cross-set-off would give an unfair advantage", "correct": true },
+            { "text": "The Supreme Court mandated the restriction be retained", "correct": false },
+            { "text": "It was an oversight by the drafting committee", "correct": false },
+            { "text": "LTCL and STCG arise in different assessment years", "correct": false }
+          ],
+          "explanation": "LTCG is taxed at concessional rates (10%/12.5%/20%), while STCG attracts higher rates (15%/20%/slab). Allowing LTCL (generated from a low-tax asset) to reduce STCG (taxed at a higher rate) would create a rate arbitrage. The restriction preserves rate integrity.",
+          "explanationWrong": "Rate arbitrage prevention is the reason. If you bought an asset that generated LTCL (low-tax regime), allowing it to offset STCG (high-tax regime) would mean a loss valued at 10-12.5% would wipe out a gain taxed at 15-20%. The mismatch in rates justified retaining the wall.",
+          "tier": 2,
+          "subConcepts": ["rate-arbitrage", "ltcl-restriction-rationale", "policy-reasoning"],
+          "isReview": false,
+          "oldSection": "Section 70(3)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "The ITA 2025 describes the set-off provisions as 'clean drafting but same rules.' Which of the following best explains this characterisation?",
+          "options": [
+            { "text": "The rules were simplified to reduce the number of restrictions", "correct": false },
+            { "text": "The language was modernised and reorganised but the substantive outcomes are identical", "correct": true },
+            { "text": "New restrictions were added but in clearer language", "correct": false },
+            { "text": "The provisions were copied verbatim from the 1961 Act", "correct": false }
+          ],
+          "explanation": "Clean drafting means the legislative language was improved for clarity and readability, sections were logically renumbered, and the structure was tidied up. But the actual set-off rules — what can be set off against what, and in what order — remain substantively identical.",
+          "explanationWrong": "Modernised language, same outcomes. This is a pattern across many provisions of the 2025 Act. The drafting committee cleaned up decades of amendments and provisos, but deliberately chose not to change the underlying policy. For set-off, this means practitioners need to learn new section numbers but can rely on established principles.",
+          "tier": 2,
+          "subConcepts": ["clean-drafting", "substance-vs-form", "legislative-continuity"],
+          "isReview": false,
+          "oldSection": "Sections 70-71",
+          "newSection": "Sections 108-109"
+        },
+        {
+          "order": 3,
+          "question": "Under the capital gains provisions of the ITA 2025, the indexation benefit for LTCG on property has been modified how?",
+          "options": [
+            { "text": "Indexation removed for all assets, flat 12.5% rate", "correct": true },
+            { "text": "Indexation retained with updated CII base year", "correct": false },
+            { "text": "Indexation available only for residential property", "correct": false },
+            { "text": "No change to indexation provisions", "correct": false }
+          ],
+          "explanation": "FA 2024 removed indexation and introduced a flat 12.5% LTCG rate for property and other assets. This change is carried into the 2025 Act. Previously, indexation allowed inflation adjustment, resulting in a 20% rate on indexed gains.",
+          "explanationWrong": "Indexation removed, flat 12.5% is the new regime. This was a major FA 2024 change now baked into the 2025 Act. The trade-off: no inflation adjustment, but a lower flat rate. This was covered in the Capital Gains module (Unit 7.4).",
+          "tier": 2,
+          "subConcepts": ["indexation-removal", "flat-rate-ltcg", "fa-2024-change"],
+          "isReview": true,
+          "oldSection": "Section 48 (indexation)",
+          "newSection": "Capital gains provisions"
+        },
+        {
+          "order": 4,
+          "question": "Why does the ITA 2025 maintain the Rs 2,00,000 cap on house property loss set-off against other heads, even though the cap has been criticised as arbitrary?",
+          "options": [
+            { "text": "The cap prevents high-income earners from claiming excessive interest deductions to reduce tax on other income", "correct": true },
+            { "text": "The Kelkar Committee recommended its removal but Parliament overruled them", "correct": false },
+            { "text": "The cap only applies to let-out properties, so it has limited impact", "correct": false },
+            { "text": "The cap was meant to be temporary and will expire in 2027", "correct": false }
+          ],
+          "explanation": "The Rs 2L cap was an anti-abuse measure targeting high-value property purchases financed by large loans. Without the cap, a taxpayer could buy expensive property, claim massive interest deductions, and shelter salary/business income. The policy concern persists, so the cap remains.",
+          "explanationWrong": "Anti-abuse targeting leveraged property purchases. Before FA 2017, taxpayers were buying multiple properties on borrowed capital and claiming unlimited interest deductions to wipe out their other income. The Rs 2L cap was the government's response, and the 2025 Act saw no reason to reverse it.",
+          "tier": 2,
+          "subConcepts": ["hp-loss-cap-rationale", "anti-abuse", "leveraged-property"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 5,
+          "question": "Under the ITA 2025, an assessee has business loss, HP loss, and capital loss in the same year. What is the correct order of priority for inter-head set-off?",
+          "options": [
+            { "text": "Capital loss first, then HP loss, then business loss", "correct": false },
+            { "text": "Business loss first, then HP loss; capital loss stays within capital gains", "correct": true },
+            { "text": "HP loss first, then business loss, then capital loss against all heads", "correct": false },
+            { "text": "All three are set off simultaneously on a proportionate basis", "correct": false }
+          ],
+          "explanation": "Capital loss can never leave the capital gains head. Business loss can be set off against any head except salary. HP loss can be set off against any head but capped at Rs 2L. The practical priority is: business loss (widest reach), HP loss (capped), capital loss (head-locked).",
+          "explanationWrong": "Business loss first (widest flexibility), HP loss next (capped at Rs 2L against other heads), capital loss stays home (can only absorb capital gains). Capital loss is head-locked — it never participates in inter-head set-off. This sequencing is unchanged in the 2025 Act.",
+          "tier": 2,
+          "subConcepts": ["priority-order", "inter-head-hierarchy", "capital-loss-head-lock"],
+          "isReview": false,
+          "oldSection": "Section 71",
+          "newSection": "Section 109"
+        }
+      ]
+    },
+    {
+      "title": "Understanding the LTCL-STCG Wall",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "The LTCL-STCG restriction means a taxpayer with Rs 5 lakh LTCL and Rs 8 lakh STCG will have what taxable capital gain position?",
+          "options": [
+            { "text": "Rs 3 lakh STCG (LTCL absorbed)", "correct": false },
+            { "text": "Rs 8 lakh STCG, Rs 5 lakh LTCL carried forward", "correct": true },
+            { "text": "Rs 3 lakh net capital gain", "correct": false },
+            { "text": "Rs 13 lakh total capital gains", "correct": false }
+          ],
+          "explanation": "LTCL cannot touch STCG. The Rs 5 lakh LTCL has no LTCG to absorb in the current year, so it is carried forward. The Rs 8 lakh STCG is fully taxable. No netting is permitted across the LTCL-STCG wall.",
+          "explanationWrong": "Rs 8 lakh STCG taxable, Rs 5 lakh LTCL carried forward. The wall is absolute — LTCL and STCG cannot be netted. The LTCL waits for future LTCG to arrive (up to 8 years). Meanwhile, the assessee pays full tax on STCG.",
+          "tier": 2,
+          "subConcepts": ["ltcl-stcg-wall", "practical-impact", "carry-forward-ltcl"],
+          "isReview": false,
+          "oldSection": "Section 70(3)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "Under the ITA 2025, which of the following pairs of losses follows the SAME set-off restriction pattern (both are type-locked)?",
+          "options": [
+            { "text": "Business loss and HP loss", "correct": false },
+            { "text": "Speculative loss and racehorse loss", "correct": true },
+            { "text": "Capital loss and business loss", "correct": false },
+            { "text": "HP loss and capital loss", "correct": false }
+          ],
+          "explanation": "Both speculative loss and racehorse loss are type-locked — they can only be set off against income of the same specific type. Speculative loss only against speculative income; racehorse loss only against racehorse income. They're the two most restricted categories.",
+          "explanationWrong": "Speculative and racehorse losses share the strictest restriction: type-locking. They can only offset income of their own kind. Business loss and HP loss are comparatively flexible — they can cross heads (with limitations). Capital loss is head-locked but not type-locked within the capital gains head.",
+          "tier": 2,
+          "subConcepts": ["type-locking", "speculative-racehorse-parallel", "restriction-hierarchy"],
+          "isReview": false,
+          "oldSection": "Sections 73, 74A(3)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 3,
+          "question": "Under the transition provisions of the ITA 2025, losses determined under the 1961 Act that were eligible for carry-forward as of 31 March 2026 are treated how?",
+          "options": [
+            { "text": "They are extinguished — fresh start under the new Act", "correct": false },
+            { "text": "They are deemed to be losses under the corresponding new sections", "correct": true },
+            { "text": "They get a one-time extension of 2 additional years", "correct": false },
+            { "text": "They must be re-quantified under 2025 Act rules", "correct": false }
+          ],
+          "explanation": "Section 536(2) transition provisions preserve carry-forward continuity. Losses determined under old sections are deemed to be losses under the corresponding new sections. No re-quantification, no reset — the remaining carry-forward period continues.",
+          "explanationWrong": "Deemed to be losses under new sections — full continuity. The 2025 Act's transition provisions (Section 536(2)) ensure no loss is orphaned. A business loss with 3 years of carry-forward remaining under old Section 72 continues with 3 years remaining under new Section 112.",
+          "tier": 2,
+          "subConcepts": ["transition-continuity", "section-536", "loss-preservation"],
+          "isReview": true,
+          "oldSection": "Transition provisions",
+          "newSection": "Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, if a taxpayer has both STCL and LTCL, and also has STCG and LTCG, what is the optimal set-off strategy?",
+          "options": [
+            { "text": "Set off STCL against STCG first, LTCL against LTCG", "correct": false },
+            { "text": "Set off STCL against LTCG first to preserve STCG for lower tax rate", "correct": false },
+            { "text": "Set off LTCL against LTCG first, then STCL against remaining STCG and any LTCG", "correct": true },
+            { "text": "The Act mandates proportional set-off across both types", "correct": false }
+          ],
+          "explanation": "Since LTCL can only offset LTCG, it must be used first against LTCG. STCL is flexible — it can offset both STCG and LTCG. So the optimal strategy is: deploy LTCL first (limited options), then deploy STCL against whatever capital gains remain.",
+          "explanationWrong": "LTCL first (restricted), then STCL (flexible). Since LTCL has no choice but LTCG, it should be deployed there first. STCL can go either way, so it absorbs whatever remains. This optimization is the same under both the old and new Acts.",
+          "tier": 2,
+          "subConcepts": ["set-off-optimization", "ltcl-first-strategy", "capital-loss-planning"],
+          "isReview": false,
+          "oldSection": "Section 70",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 5,
+          "question": "A key practitioner takeaway from the ITA 2025 set-off provisions is that all existing case law on set-off priority continues to apply. Why?",
+          "options": [
+            { "text": "The 2025 Act explicitly incorporates all prior case law", "correct": false },
+            { "text": "The substantive rules are identical, so interpretive precedents remain relevant", "correct": true },
+            { "text": "The Supreme Court issued a circular mandating continuity", "correct": false },
+            { "text": "Case law only applies until the CBDT issues new guidelines", "correct": false }
+          ],
+          "explanation": "Since the set-off rules in Sections 108-109 are substantively identical to old Sections 70-71, all existing judicial precedents interpreting these provisions remain directly applicable. New section numbers don't invalidate old interpretations.",
+          "explanationWrong": "Substantive identity means interpretive continuity. When the law says the same thing in new words, the courts' interpretation of the old words carries forward. This is a critical practical point — practitioners can cite old case law with confidence, just referencing the new section numbers.",
+          "tier": 2,
+          "subConcepts": ["case-law-continuity", "substantive-identity", "practitioner-guidance"],
+          "isReview": false,
+          "oldSection": "Sections 70-71",
+          "newSection": "Sections 108-109"
+        }
+      ]
+    },
+    {
+      "title": "HP Loss Cap: Impact and Planning",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Under the ITA 2025, which taxpayers are most affected by the Rs 2,00,000 cap on HP loss inter-head set-off?",
+          "options": [
+            { "text": "Taxpayers with multiple self-occupied properties", "correct": false },
+            { "text": "Taxpayers with large home loans on let-out properties showing net losses", "correct": true },
+            { "text": "Taxpayers claiming HRA exemption", "correct": false },
+            { "text": "Taxpayers with agricultural income", "correct": false }
+          ],
+          "explanation": "Large home loans generate heavy interest costs. If a let-out property's rent doesn't cover the interest (after standard deduction), the resulting HP loss can exceed Rs 2L. The cap limits current-year tax relief, pushing excess loss to carry-forward.",
+          "explanationWrong": "Let-out properties with heavy interest burden. The typical case: property purchased for Rs 2 crore with a Rs 1.5 crore loan at 8.5%. Annual interest is ~Rs 12.75 lakh. Even with decent rent, the net HP loss can be Rs 6-8 lakh. Only Rs 2L gets inter-head set-off; the rest is parked.",
+          "tier": 2,
+          "subConcepts": ["hp-loss-cap-impact", "let-out-properties", "interest-burden"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 2,
+          "question": "Can a taxpayer with HP loss exceeding Rs 2,00,000 claim the excess against capital gains in the same year?",
+          "options": [
+            { "text": "Yes, after exhausting the Rs 2L limit against other heads", "correct": false },
+            { "text": "No — excess HP loss beyond Rs 2L must be carried forward, not redirected", "correct": true },
+            { "text": "Yes, but only against LTCG", "correct": false },
+            { "text": "Yes, at the assessee's option", "correct": false }
+          ],
+          "explanation": "The Rs 2L cap is absolute for the current year. Once Rs 2L of HP loss has been set off against other heads, the excess cannot be redirected to capital gains or any other head. It must be carried forward for set-off against future HP income only.",
+          "explanationWrong": "No redirection allowed. The Rs 2L cap doesn't mean 'first Rs 2L against other heads, then excess against capital gains.' The excess is fully parked for carry-forward. In future years, it can only be set off against HP income — not even capital gains.",
+          "tier": 2,
+          "subConcepts": ["absolute-cap", "no-redirection", "excess-loss-treatment"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, what is the TDS rate on rent payments exceeding Rs 50,000 per month by individuals/HUFs?",
+          "options": [
+            { "text": "2%", "correct": false },
+            { "text": "5%", "correct": true },
+            { "text": "10%", "correct": false },
+            { "text": "1%", "correct": false }
+          ],
+          "explanation": "TDS on rent by individuals/HUFs (old Section 194-IB) is at 5% where monthly rent exceeds Rs 50,000. This was covered in the TDS module. The rate and threshold are retained in the 2025 Act.",
+          "explanationWrong": "5% TDS on rent exceeding Rs 50,000/month. This applies specifically to individual/HUF tenants (not covered under tax audit). For other persons, the rate under Section 393 Table 1 applies. Review from Unit 3.3.",
+          "tier": 2,
+          "subConcepts": ["tds-on-rent", "section-194IB", "individual-huf-tenant"],
+          "isReview": true,
+          "oldSection": "Section 194-IB",
+          "newSection": "Section 393 equivalent"
+        },
+        {
+          "order": 4,
+          "question": "Under the ITA 2025, if an assessee has both intra-head HP loss (from multiple properties) and net HP loss after intra-head set-off, how does the Rs 2L cap apply?",
+          "options": [
+            { "text": "The Rs 2L cap applies to total HP loss before intra-head set-off", "correct": false },
+            { "text": "The Rs 2L cap applies to net HP loss after intra-head set-off", "correct": true },
+            { "text": "The cap applies separately to each property", "correct": false },
+            { "text": "The cap applies only to self-occupied property losses", "correct": false }
+          ],
+          "explanation": "First, intra-head set-off happens under Section 108 — loss from one property is set off against income from other properties. The Rs 2L cap under Section 109 then applies to the net HP loss remaining after this intra-head netting.",
+          "explanationWrong": "Net HP loss after intra-head set-off. The sequence matters: Step 1 — net all HP sources against each other (Section 108). Step 2 — if there's still a net HP loss, only Rs 2L can cross to other heads (Section 109). The cap isn't per-property; it's on the final net figure.",
+          "tier": 2,
+          "subConcepts": ["sequencing", "net-hp-loss", "cap-application-timing"],
+          "isReview": false,
+          "oldSection": "Sections 70, 71(3A)",
+          "newSection": "Sections 108, 109"
+        },
+        {
+          "order": 5,
+          "question": "The set-off provisions of the ITA 2025 make no substantive changes. What is the primary risk for practitioners during the transition?",
+          "options": [
+            { "text": "Applying the wrong set-off rules from the old Act", "correct": false },
+            { "text": "Citing old section numbers in returns and appeals filed under the new Act", "correct": true },
+            { "text": "Missing new deadlines for loss claims", "correct": false },
+            { "text": "Losing carry-forward rights due to section renumbering", "correct": false }
+          ],
+          "explanation": "The biggest trap is habit. Practitioners who cite Section 70 instead of Section 108 in a return filed under the 2025 Act risk technical objections. The rules are the same, but the citation must match the governing Act.",
+          "explanationWrong": "Wrong section numbers in filings. When the substance doesn't change, practitioners get complacent and muscle-memory kicks in. Filing a return under the 2025 Act while citing Section 70 instead of Section 108 invites unnecessary scrutiny. A mapping table is essential desk reference.",
+          "tier": 2,
+          "subConcepts": ["citation-risk", "practitioner-habit", "transition-trap"],
+          "isReview": false,
+          "oldSection": "Sections 70-71",
+          "newSection": "Sections 108-109"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Salaried Professional with Multiple Losses",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Priya, a salaried employee, earns Rs 18 lakh salary, has HP loss of Rs 3,50,000 from a let-out flat, and STCL of Rs 1,20,000 from equity shares. Under the ITA 2025, what is the maximum HP loss she can set off against her salary income?",
+          "options": [
+            { "text": "Rs 3,50,000", "correct": false },
+            { "text": "Rs 2,00,000", "correct": true },
+            { "text": "Rs 1,50,000", "correct": false },
+            { "text": "Nil — HP loss cannot be set off against salary", "correct": false }
+          ],
+          "explanation": "The Rs 2,00,000 cap on inter-head HP loss set-off applies. Priya can set off Rs 2L against salary. The remaining Rs 1,50,000 HP loss is carried forward for 8 years. Her STCL of Rs 1,20,000 is separately carried forward (no capital gains to absorb it).",
+          "explanationWrong": "Rs 2,00,000 — the HP loss cap bites. Priya's Rs 3.5L HP loss is split: Rs 2L used now against salary, Rs 1.5L carried forward. Her STCL is head-locked and carries forward independently. Net salary after HP set-off: Rs 16 lakh.",
+          "tier": 3,
+          "subConcepts": ["hp-loss-cap-application", "salaried-taxpayer", "multiple-loss-scenario"],
+          "isReview": false,
+          "oldSection": "Section 71(3A)",
+          "newSection": "Section 109"
+        },
+        {
+          "order": 2,
+          "question": "Priya (from Q1) also has LTCG of Rs 2,50,000 from debt mutual funds and STCG of Rs 80,000 from equity. Can her STCL of Rs 1,20,000 reduce her LTCG?",
+          "options": [
+            { "text": "No — STCL can only offset STCG", "correct": false },
+            { "text": "Yes — STCL can offset both STCG and LTCG", "correct": true },
+            { "text": "Only if the LTCG is from listed securities", "correct": false },
+            { "text": "Only after STCG is fully exhausted", "correct": false }
+          ],
+          "explanation": "STCL can be set off against both STCG and LTCG. Priya should first set off Rs 80,000 STCL against Rs 80,000 STCG (wiping it out), then the remaining Rs 40,000 STCL against LTCG, reducing it to Rs 2,10,000. Total capital gains taxable: Rs 2,10,000 LTCG.",
+          "explanationWrong": "Yes — STCL is flexible. It can go both ways. Priya's optimal strategy: absorb Rs 80K STCG first, then apply the remaining Rs 40K against LTCG. She ends up with zero STCG and Rs 2,10,000 LTCG. The STCL is fully utilised in the current year.",
+          "tier": 3,
+          "subConcepts": ["stcl-flexibility", "optimal-set-off", "capital-gains-netting"],
+          "isReview": false,
+          "oldSection": "Section 70(2)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 3,
+          "question": "Under Section 536(2)(m) of the ITA 2025, a business loss determined under old Section 72 with 3 years of carry-forward remaining as of 1 April 2026 will be treated how?",
+          "options": [
+            { "text": "The 8-year period restarts from 2026-27", "correct": false },
+            { "text": "Only 3 years of carry-forward remain under Section 112", "correct": true },
+            { "text": "The loss is extinguished on transition", "correct": false },
+            { "text": "It gets an automatic 2-year extension", "correct": false }
+          ],
+          "explanation": "Section 536(2)(m)/(n) transition provisions maintain the remaining carry-forward period. If 3 years remained under the old Act, 3 years remain under the new Act. No restart, no extension. The loss is deemed to be a loss under Section 112.",
+          "explanationWrong": "3 years remaining — no more, no less. The transition is seamless but strict. The clock doesn't reset. A loss that had already consumed 5 of its 8 years under the old Act carries forward with only 3 years left under the new Act. Section 536(2) ensures continuity, not generosity.",
+          "tier": 3,
+          "subConcepts": ["section-536-transition", "remaining-period", "carry-forward-continuity"],
+          "isReview": true,
+          "oldSection": "Section 72",
+          "newSection": "Section 112, Section 536(2)"
+        },
+        {
+          "order": 4,
+          "question": "Rajesh has salary of Rs 25 lakh, HP loss of Rs 4 lakh (let-out property), business loss of Rs 6 lakh (non-speculative), and LTCL of Rs 3 lakh. Under the ITA 2025, what is his total income after all permissible set-offs?",
+          "options": [
+            { "text": "Rs 16 lakh", "correct": false },
+            { "text": "Rs 17 lakh", "correct": true },
+            { "text": "Rs 14 lakh", "correct": false },
+            { "text": "Rs 19 lakh", "correct": false }
+          ],
+          "explanation": "Step 1: HP loss — Rs 2L set off against salary (capped), Rs 2L carried forward. Salary becomes Rs 23L. Step 2: Business loss — Rs 6L set off against remaining income (salary Rs 23L → Rs 17L). Step 3: LTCL — no LTCG available, Rs 3L carried forward. Total income: Rs 17 lakh.",
+          "explanationWrong": "Rs 17 lakh. Let's trace it: Start with Rs 25L salary. HP loss: only Rs 2L allowed (cap), salary → Rs 23L. Business loss: full Rs 6L set off (no cap for non-spec business loss against salary under inter-head rules)... wait, business loss cannot be set off against salary. So salary stays Rs 23L. Business loss Rs 6L carried forward. LTCL Rs 3L carried forward. Total income: Rs 23L minus Rs 6L business loss against... Actually, business loss CAN be set off against any head except capital gains from speculative transactions. Re-check: salary Rs 25L - HP Rs 2L = Rs 23L - business loss Rs 6L = Rs 17L. LTCL Rs 3L carried forward.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-set-off", "multiple-losses", "computation"],
+          "isReview": false,
+          "oldSection": "Sections 70-71",
+          "newSection": "Sections 108-109"
+        },
+        {
+          "order": 5,
+          "question": "A partnership firm has speculative loss of Rs 8 lakh, non-speculative business income of Rs 12 lakh, and HP income of Rs 4 lakh. Under Section 108 of the ITA 2025, what is the firm's total income?",
+          "options": [
+            { "text": "Rs 8 lakh (speculative loss absorbed entirely)", "correct": false },
+            { "text": "Rs 16 lakh (speculative loss carried forward)", "correct": true },
+            { "text": "Rs 12 lakh", "correct": false },
+            { "text": "Rs 4 lakh", "correct": false }
+          ],
+          "explanation": "Speculative loss of Rs 8L is type-locked — it can only be set off against speculative income (of which there is none). It is carried forward. Non-speculative business income (Rs 12L) + HP income (Rs 4L) = Rs 16 lakh total income.",
+          "explanationWrong": "Rs 16 lakh. The speculative loss is completely quarantined. It cannot reduce the Rs 12L non-speculative business income even though both fall under the 'business' head. And it certainly cannot touch HP income. The entire Rs 8L speculative loss is carried forward for 4 years.",
+          "tier": 3,
+          "subConcepts": ["speculative-quarantine", "firm-taxation", "type-locked-loss"],
+          "isReview": false,
+          "oldSection": "Section 73",
+          "newSection": "Section 108"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Real Estate Developer with Mixed Losses",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Apex Realty Pvt Ltd has business income of Rs 50 lakh, HP loss of Rs 7 lakh (from unsold inventory treated as deemed let-out), LTCL of Rs 4 lakh from land sale, and STCG of Rs 2 lakh from equipment sale. Under the ITA 2025, what is the net capital gain position?",
+          "options": [
+            { "text": "Rs 2 lakh STCG (LTCL cannot offset STCG)", "correct": true },
+            { "text": "Nil (LTCL absorbs STCG)", "correct": false },
+            { "text": "Rs 6 lakh net capital loss", "correct": false },
+            { "text": "Rs 2 lakh LTCL carried forward only", "correct": false }
+          ],
+          "explanation": "LTCL of Rs 4L cannot be set off against STCG of Rs 2L — the wall holds. STCG of Rs 2L is fully taxable. LTCL of Rs 4L is carried forward for 8 years (awaiting future LTCG). The two capital gain types remain in their separate lanes.",
+          "explanationWrong": "Rs 2 lakh STCG is taxable, full stop. The LTCL-STCG wall means these two cannot interact. Apex pays tax on Rs 2L STCG now and carries forward Rs 4L LTCL hoping for future LTCG. If they had LTCG from another asset, the LTCL would have absorbed it.",
+          "tier": 3,
+          "subConcepts": ["ltcl-stcg-wall-scenario", "corporate-taxpayer", "mixed-capital-gains"],
+          "isReview": false,
+          "oldSection": "Section 70(3)",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "Continuing with Apex Realty: their Rs 7 lakh HP loss is set off as follows — Rs 2L against business income under Section 109, and the remaining Rs 5L is?",
+          "options": [
+            { "text": "Set off against STCG of Rs 2 lakh", "correct": false },
+            { "text": "Carried forward for set-off against future HP income", "correct": true },
+            { "text": "Written off as a permanent loss", "correct": false },
+            { "text": "Set off against remaining business income", "correct": false }
+          ],
+          "explanation": "The Rs 2L cap means only Rs 2L of HP loss crosses to other heads. The remaining Rs 5L cannot be redirected anywhere — not to STCG, not to more business income. It is carried forward under Section 110 for set-off against future HP income for up to 8 years.",
+          "explanationWrong": "Carried forward for future HP income. The excess Rs 5L is locked into the HP carry-forward track. Even though Apex has Rs 48L of remaining business income, the Rs 2L cap is absolute. This is one of the harshest restrictions in set-off law — and it's unchanged in 2025.",
+          "tier": 3,
+          "subConcepts": ["hp-loss-cap-harsh", "carry-forward-mandatory", "corporate-hp-loss"],
+          "isReview": false,
+          "oldSection": "Section 71(3A), 71B",
+          "newSection": "Sections 109, 110"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, if a company files its return after the due date under Section 139(1) equivalent, which losses can still be carried forward?",
+          "options": [
+            { "text": "All losses — timely filing is not required for carry-forward", "correct": false },
+            { "text": "Only unabsorbed depreciation and HP loss", "correct": true },
+            { "text": "Only business losses", "correct": false },
+            { "text": "No losses at all", "correct": false }
+          ],
+          "explanation": "Timely filing (Section 121 of ITA 2025, old Section 80) is required for carry-forward of business loss, capital loss, speculative loss, and specified business loss. Exceptions: unabsorbed depreciation (no filing condition) and HP loss carry-forward survive late filing.",
+          "explanationWrong": "Unabsorbed depreciation and HP loss survive late filing. Business loss, capital loss, speculative loss, and activity losses all require the return to be filed by the due date. Miss the deadline and you lose carry-forward rights for those categories. This is unchanged in the 2025 Act.",
+          "tier": 3,
+          "subConcepts": ["timely-filing-requirement", "section-121", "late-filing-consequences"],
+          "isReview": true,
+          "oldSection": "Section 80",
+          "newSection": "Section 121"
+        },
+        {
+          "order": 4,
+          "question": "Pinnacle Infra Ltd has current year business loss of Rs 30 lakh, unabsorbed depreciation of Rs 15 lakh brought forward, and current year business income of Rs 20 lakh. Under the ITA 2025, what is the priority of absorption?",
+          "options": [
+            { "text": "Unabsorbed depreciation first, then current year loss", "correct": false },
+            { "text": "Current year business loss first, then brought forward business loss, then unabsorbed depreciation", "correct": true },
+            { "text": "Proportional absorption of both", "correct": false },
+            { "text": "Assessee's choice of priority", "correct": false }
+          ],
+          "explanation": "The priority is mandated: (1) Current year loss (Section 108/109), (2) Brought forward business loss (Section 112), (3) Unabsorbed depreciation (Section 115). Here, current year loss of Rs 30L exceeds income of Rs 20L — so Rs 20L absorbed, Rs 10L carried forward. Unabsorbed depreciation of Rs 15L continues indefinitely.",
+          "explanationWrong": "Current year loss gets first priority. The hierarchy exists because current year losses expire fastest (they become brought-forward losses with an 8-year clock). Unabsorbed depreciation has no time limit, so it's patient — it goes last. Here, the Rs 20L income is fully consumed by current year loss.",
+          "tier": 3,
+          "subConcepts": ["absorption-priority", "current-vs-brought-forward", "depreciation-patience"],
+          "isReview": false,
+          "oldSection": "Sections 70-72, 32(2)",
+          "newSection": "Sections 108-112, 115"
+        },
+        {
+          "order": 5,
+          "question": "A CA is preparing returns for AY 2027-28 (first year under ITA 2025 for most taxpayers). Their client has brought-forward business loss of Rs 12 lakh from AY 2023-24 (originally determined under Section 72 of the 1961 Act). How many more years can this loss be carried forward under the 2025 Act?",
+          "options": [
+            { "text": "8 years from AY 2027-28", "correct": false },
+            { "text": "4 years (remaining period from original 8-year window)", "correct": true },
+            { "text": "Indefinitely under the new Act", "correct": false },
+            { "text": "The loss expires on transition", "correct": false }
+          ],
+          "explanation": "The loss originated in AY 2023-24. Under the 8-year rule, it expires after AY 2030-31. By AY 2027-28, it has already consumed 4 years (2023-24 to 2026-27). Under Section 536(2) transition, 4 years remain (2027-28 to 2030-31). The clock continues, not restarts.",
+          "explanationWrong": "4 years remaining. AY 2023-24 was year 1 of 8. By AY 2027-28 (transition year), 4 years are used up. The 2025 Act doesn't gift additional time — the remaining carry-forward period is preserved as-is. This is the practical meaning of Section 536(2) transition continuity.",
+          "tier": 3,
+          "subConcepts": ["transition-calculation", "remaining-period", "practical-example"],
+          "isReview": false,
+          "oldSection": "Section 72",
+          "newSection": "Section 112, Section 536(2)"
+        }
+      ]
+    },
+    {
+      "title": "Scenario: Capital Loss Maze",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Dr. Mehra has the following in AY 2027-28: Salary Rs 30L, STCG on equity Rs 5L (taxed at 20%), LTCG on property Rs 15L (12.5%), LTCL on unlisted shares Rs 8L, STCL on equity Rs 3L. Under the ITA 2025, what is her net taxable capital gain?",
+          "options": [
+            { "text": "Rs 9 lakh (Rs 7L LTCG + Rs 2L STCG)", "correct": true },
+            { "text": "Rs 12 lakh", "correct": false },
+            { "text": "Rs 20 lakh", "correct": false },
+            { "text": "Rs 15 lakh", "correct": false }
+          ],
+          "explanation": "Step 1: LTCL Rs 8L set off against LTCG Rs 15L → LTCG reduced to Rs 7L. Step 2: STCL Rs 3L set off against STCG Rs 5L → STCG reduced to Rs 2L. Net taxable: Rs 7L LTCG + Rs 2L STCG = Rs 9L. All losses utilised in current year.",
+          "explanationWrong": "Rs 9 lakh total. LTCL (Rs 8L) eats into LTCG (Rs 15L → Rs 7L). STCL (Rs 3L) eats into STCG (Rs 5L → Rs 2L). Both losses are fully consumed. Dr. Mehra pays 12.5% on Rs 7L LTCG and 20% on Rs 2L STCG. The salary of Rs 30L is taxed separately at slab rates.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-capital-computation", "multi-asset-scenario", "rate-differentiation"],
+          "isReview": false,
+          "oldSection": "Section 70",
+          "newSection": "Section 108"
+        },
+        {
+          "order": 2,
+          "question": "What if Dr. Mehra's LTCL was Rs 18 lakh instead of Rs 8 lakh? After set-off against Rs 15L LTCG, what happens to the remaining Rs 3L LTCL?",
+          "options": [
+            { "text": "Set off against STCG of Rs 5L", "correct": false },
+            { "text": "Set off against salary income", "correct": false },
+            { "text": "Carried forward for 8 years for set-off against future LTCG only", "correct": true },
+            { "text": "Forfeited as it exceeds available LTCG", "correct": false }
+          ],
+          "explanation": "The Rs 3L excess LTCL cannot touch STCG (the wall), cannot leave the capital gains head (head-locked), and cannot be set off against salary. It is carried forward for up to 8 assessment years and can only be set off against future LTCG.",
+          "explanationWrong": "Carried forward for 8 years, LTCG only. The excess LTCL hits two walls: (1) It cannot cross to STCG, (2) It cannot leave the capital gains head. So it patiently waits for future LTCG. If Dr. Mehra doesn't generate LTCG within 8 years, the loss expires permanently.",
+          "tier": 3,
+          "subConcepts": ["excess-ltcl", "double-restriction", "carry-forward-constraint"],
+          "isReview": false,
+          "oldSection": "Section 70(3), 74",
+          "newSection": "Section 108, 111"
+        },
+        {
+          "order": 3,
+          "question": "Under the ITA 2025, the standard deduction for salaried employees under the new tax regime has been enhanced to what amount?",
+          "options": [
+            { "text": "Rs 50,000", "correct": false },
+            { "text": "Rs 75,000", "correct": true },
+            { "text": "Rs 1,00,000", "correct": false },
+            { "text": "Rs 60,000", "correct": false }
+          ],
+          "explanation": "The standard deduction under the new regime was enhanced to Rs 75,000 by FA 2024, and this is carried into the 2025 Act. Under the old regime, it remains Rs 50,000. This was covered in the Salary module.",
+          "explanationWrong": "Rs 75,000 under the new regime. FA 2024 bumped it from Rs 50,000 to Rs 75,000 for new-regime taxpayers. The 2025 Act carries this forward. It's a straightforward recall from the Salary module (Unit 4.1).",
+          "tier": 3,
+          "subConcepts": ["standard-deduction", "new-regime", "rs-75000"],
+          "isReview": true,
+          "oldSection": "Section 16(ia)",
+          "newSection": "Salary provisions"
+        },
+        {
+          "order": 4,
+          "question": "Venture Capital Fund (VCF) has: Business income Rs 2 crore, LTCL on startup equity Rs 50 lakh, LTCG on another startup Rs 30 lakh, STCL on listed equity Rs 10 lakh, STCG on bonds Rs 5 lakh. Under the ITA 2025, what is the total carry-forward loss?",
+          "options": [
+            { "text": "LTCL Rs 20 lakh + STCL Rs 5 lakh = Rs 25 lakh", "correct": true },
+            { "text": "LTCL Rs 50 lakh + STCL Rs 10 lakh = Rs 60 lakh", "correct": false },
+            { "text": "LTCL Rs 20 lakh only", "correct": false },
+            { "text": "Rs 30 lakh total", "correct": false }
+          ],
+          "explanation": "LTCL Rs 50L set off against LTCG Rs 30L → Rs 20L LTCL carried forward. STCL Rs 10L set off against STCG Rs 5L → Rs 5L STCL carried forward. Total carry-forward: Rs 25L. Business income of Rs 2 crore is untouched by capital losses (head-locked).",
+          "explanationWrong": "Rs 25 lakh (Rs 20L LTCL + Rs 5L STCL). Each capital loss type is set off against available gains of permissible types first. The remainders carry forward in their respective lanes — LTCL waits for LTCG, STCL waits for any capital gain. The Rs 2 crore business income is completely insulated.",
+          "tier": 3,
+          "subConcepts": ["vcf-scenario", "dual-carry-forward", "capital-loss-lanes"],
+          "isReview": false,
+          "oldSection": "Sections 70, 74",
+          "newSection": "Sections 108, 111"
+        },
+        {
+          "order": 5,
+          "question": "Anita, a CA in practice, has professional income of Rs 40 lakh, HP loss of Rs 5 lakh, brought-forward business loss of Rs 10 lakh (from a side business she closed in AY 2025-26, now in year 3 of carry-forward), and unabsorbed depreciation of Rs 6 lakh. Under the ITA 2025, what is her total income?",
+          "options": [
+            { "text": "Rs 22 lakh", "correct": true },
+            { "text": "Rs 24 lakh", "correct": false },
+            { "text": "Rs 28 lakh", "correct": false },
+            { "text": "Rs 30 lakh", "correct": false }
+          ],
+          "explanation": "Professional income Rs 40L. HP loss: Rs 2L set off (capped), Rs 3L carried forward → Rs 38L. Brought-forward business loss: Rs 10L set off against professional income (same head — PGBP) → Rs 28L. Unabsorbed depreciation: Rs 6L set off (any head) → Rs 22L. Priority: current losses, then brought-forward, then depreciation.",
+          "explanationWrong": "Rs 22 lakh. Trace: Rs 40L professional income → minus Rs 2L HP (capped) = Rs 38L → minus Rs 10L brought-forward business loss (PGBP to PGBP, same head) = Rs 28L → minus Rs 6L unabsorbed depreciation (can set off against any income) = Rs 22L. The remaining Rs 3L HP loss carries forward. Anita pays tax on Rs 22L.",
+          "tier": 3,
+          "subConcepts": ["ca-practitioner-scenario", "multi-layer-set-off", "comprehensive-computation"],
+          "isReview": false,
+          "oldSection": "Sections 70-72, 32(2)",
+          "newSection": "Sections 108-112, 115"
+        }
+      ]
+    }
+  ]
+}

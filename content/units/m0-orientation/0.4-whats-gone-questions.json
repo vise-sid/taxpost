@@ -1,0 +1,835 @@
+{
+  "unit": "0.4",
+  "title": "What's Gone",
+  "totalQuestions": 45,
+  "lessons": [
+    {
+      "title": "Dead Letter Provisions",
+      "tier": 1,
+      "order": 1,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 10A of the old Act (free trade zone units) had been non-functional since which assessment year?",
+          "options": [
+            { "text": "AY 2006-07", "correct": false },
+            { "text": "AY 2012-13", "correct": true },
+            { "text": "AY 2018-19", "correct": false },
+            { "text": "AY 2024-25", "correct": false }
+          ],
+          "explanation": "Section 10A's sunset clause expired from AY 2012-13. Despite being a dead letter for over 12 years, it remained in the statute book until the 2025 Act finally removed it entirely.",
+          "explanationWrong": "Section 10A became unavailable from AY 2012-13 onwards — that's over 12 years of existing on paper without serving any purpose. It's a prime example of why the 2025 Act's clean-up was overdue.",
+          "tier": 1,
+          "subConcepts": ["dead-provisions", "section-10a"],
+          "isReview": false,
+          "oldSection": "10A",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Which two TDS/TCS provisions for non-filers were omitted (not just renumbered) in the 2025 Act?",
+          "options": [
+            { "text": "Sections 194C and 194J", "correct": false },
+            { "text": "Sections 206AB and 206CCA", "correct": true },
+            { "text": "Sections 234A and 234B", "correct": false },
+            { "text": "Sections 192 and 194A", "correct": false }
+          ],
+          "explanation": "Sections 206AB (higher TDS for non-filers) and 206CCA (higher TCS for non-filers) were omitted — they have no equivalent in the 2025 Act. This is a substantive change, not just renumbering.",
+          "explanationWrong": "206AB and 206CCA are genuinely gone — no equivalent exists in the 2025 Act. Sections 194C and 194J were consolidated into Section 393 (not omitted). Sections 234A and 234B were renumbered to 423 and 424 respectively.",
+          "tier": 1,
+          "subConcepts": ["omitted-provisions", "non-filer-tds"],
+          "isReview": false,
+          "oldSection": "206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The Income Tax Act, 2025 applies from which Tax Year?",
+          "options": [
+            { "text": "Tax Year 2025-26", "correct": false },
+            { "text": "Tax Year 2026-27", "correct": true },
+            { "text": "Tax Year 2027-28", "correct": false },
+            { "text": "Tax Year 2024-25", "correct": false }
+          ],
+          "explanation": "The 2025 Act applies from Tax Year 2026-27 (starting April 1, 2026). Note the terminology shift: we now say 'Tax Year 2026-27' instead of 'AY 2026-27' or 'FY 2025-26'.",
+          "explanationWrong": "The Act applies from Tax Year 2026-27, starting April 1, 2026. FY 2025-26 (AY 2025-26 under old terminology) is the last year under the old Act.",
+          "tier": 1,
+          "subConcepts": ["effective-date", "tax-year"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Which abolished tax's references persisted in the 1961 Act for 10 years (abolished 2015) until the 2025 Act finally removed them?",
+          "options": [
+            { "text": "Gift Tax", "correct": false },
+            { "text": "Wealth Tax", "correct": true },
+            { "text": "Fringe Benefit Tax", "correct": false },
+            { "text": "Securities Transaction Tax", "correct": false }
+          ],
+          "explanation": "Wealth Tax was abolished in 2015, but cross-references to it persisted in the 1961 Act for a decade. The 2025 Act cleaned out all references to Wealth Tax, Gift Tax, FBT, and BCTT.",
+          "explanationWrong": "Wealth Tax was abolished in 2015 but its vestiges remained for 10 years. Similarly, FBT was abolished in 2009 (references survived 16 years) and Gift Tax was abolished decades ago. The 2025 Act removed all such ghost references.",
+          "tier": 1,
+          "subConcepts": ["abolished-taxes", "wealth-tax"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "In the 2025 Act, sunset-expired provisions like Sections 10A, 10B, and 10BA have been:",
+          "options": [
+            { "text": "Renumbered and retained for historical reference", "correct": false },
+            { "text": "Marked as '[Omitted]' like in the old Act", "correct": false },
+            { "text": "Removed entirely with no equivalent in the new Act", "correct": true },
+            { "text": "Moved to a separate historical schedule", "correct": false }
+          ],
+          "explanation": "Dead provisions are gone completely — no equivalent exists. Unlike the old Act which kept '[Omitted]' placeholders, the 2025 Act uses fresh sequential numbering with no gaps or placeholders.",
+          "explanationWrong": "The 2025 Act takes a clean-sweep approach: dead provisions are removed entirely, and the sequential numbering (1-536) has no gaps. No '[Omitted]' markers, no placeholder sections, no historical footnotes.",
+          "tier": 1,
+          "subConcepts": ["dead-provisions", "clean-numbering"],
+          "isReview": false,
+          "oldSection": "10A, 10B, 10BA",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "What Was Removed vs. Renumbered",
+      "tier": 1,
+      "order": 2,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Section 80C deductions (LIC, PPF, ELSS) in the 2025 Act have been:",
+          "options": [
+            { "text": "Abolished — no longer available", "correct": false },
+            { "text": "Renumbered to Section 123 — same deduction, new number", "correct": true },
+            { "text": "Merged into Section 11 exemptions", "correct": false },
+            { "text": "Moved to the Income Tax Rules, 2026", "correct": false }
+          ],
+          "explanation": "Section 80C was renumbered to Section 123 — the deduction is fully intact. This is one of the most important distinctions: renumbered (still exists) vs. removed (genuinely gone).",
+          "explanationWrong": "80C became Section 123. The deduction — same limits, same eligible instruments — continues. This is the #1 client misconception you'll correct: 'renumbered' is not 'removed.'",
+          "tier": 1,
+          "subConcepts": ["renumbered-vs-removed", "section-mapping"],
+          "isReview": false,
+          "oldSection": "80C",
+          "newSection": "123"
+        },
+        {
+          "order": 2,
+          "question": "The concept of 'Assessment Year' in the 2025 Act has been:",
+          "options": [
+            { "text": "Retained alongside 'Tax Year'", "correct": false },
+            { "text": "Eliminated entirely — replaced by 'Tax Year'", "correct": true },
+            { "text": "Renamed to 'Filing Year'", "correct": false },
+            { "text": "Made optional for CAs to use", "correct": false }
+          ],
+          "explanation": "'Assessment Year' no longer exists. The 2025 Act uses a single concept — 'Tax Year' (Section 3) — covering the 12-month period April 1 to March 31. This eliminates one of the most confusing aspects of Indian tax law.",
+          "explanationWrong": "Assessment Year is gone entirely — not renamed, not made optional. 'Tax Year' replaces both 'Previous Year' and 'Assessment Year.' From Tax Year 2026-27 onwards, there is only one concept to track.",
+          "tier": 1,
+          "subConcepts": ["assessment-year-gone", "tax-year"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3"
+        },
+        {
+          "order": 3,
+          "question": "How many tables were introduced in the Income Tax Act, 2025?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": false },
+            { "text": "39", "correct": true },
+            { "text": "47", "correct": false }
+          ],
+          "explanation": "39 new tables were introduced for provisions like TDS rates, presumptive thresholds, and salary computations. Remember: 39 tables, 23 chapters, 16 schedules.",
+          "explanationWrong": "39 tables. Don't mix up: 16 = schedules, 23 = chapters, 39 = tables. Tables are one of the most practically useful additions — they replace long prose with scannable, structured formats.",
+          "tier": 1,
+          "subConcepts": ["new-act-structure", "tables"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Which Section 47 exceptions (capital gains) were removed in the 2025 Act?",
+          "options": [
+            { "text": "Transfer of property between spouses", "correct": false },
+            { "text": "Industrially sick company land transfers and stock exchange demutualisation", "correct": true },
+            { "text": "Transfer on amalgamation and demerger", "correct": false },
+            { "text": "Gift of capital asset to specified relatives", "correct": false }
+          ],
+          "explanation": "Two specific Section 47 exceptions were removed: transfers by industrially sick companies to worker cooperatives, and stock exchange demutualisation. These are substantive changes — the safe harbors no longer exist.",
+          "explanationWrong": "Industrially sick company transfers and demutualisation exceptions are gone. Other Section 47 exceptions (like amalgamation, demerger, and gifts to relatives) continue in the new Act. These removals are rare examples of actual substantive change, not just renumbering.",
+          "tier": 1,
+          "subConcepts": ["section-47-changes", "capital-gains"],
+          "isReview": false,
+          "oldSection": "47",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Fringe Benefit Tax (FBT) was abolished in which year, yet its references persisted in the 1961 Act?",
+          "options": [
+            { "text": "2005", "correct": false },
+            { "text": "2009", "correct": true },
+            { "text": "2015", "correct": false },
+            { "text": "2019", "correct": false }
+          ],
+          "explanation": "FBT was abolished in 2009, but its references survived in the 1961 Act for 16 years until the 2025 Act removed them. This is a textbook example of legislative housekeeping that was long overdue.",
+          "explanationWrong": "FBT was abolished in 2009 — its references lingered for 16 years. 2015 was when Wealth Tax was abolished. The 2025 Act cleaned out all references to abolished taxes in one sweep.",
+          "tier": 1,
+          "subConcepts": ["abolished-taxes", "fbt"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Structural Eliminations",
+      "tier": 1,
+      "order": 3,
+      "questions": [
+        {
+          "order": 1,
+          "question": "How many provisos from the old Act remain in the 2025 Act?",
+          "options": [
+            { "text": "About 100 essential ones", "correct": false },
+            { "text": "About 600 — halved", "correct": false },
+            { "text": "Zero", "correct": true },
+            { "text": "About 200 — significantly reduced", "correct": false }
+          ],
+          "explanation": "All ~1,200 provisos were eliminated — zero remain. Necessary exceptions were converted to numbered sub-sections; redundant ones were simply removed.",
+          "explanationWrong": "Zero provisos. This was a complete clean-out, not a reduction. The 2025 Act's drafting philosophy: no 'Provided that...' chains. Every exception is now a clear, numbered sub-section.",
+          "tier": 1,
+          "subConcepts": ["provisos-eliminated", "structural-changes"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "The old Section 10 (exemptions) contained approximately how many words before being restructured?",
+          "options": [
+            { "text": "~5,000 words", "correct": false },
+            { "text": "~13,500 words", "correct": false },
+            { "text": "~30,000 words", "correct": true },
+            { "text": "~50,000 words", "correct": false }
+          ],
+          "explanation": "Old Section 10 had approximately 30,000 words — reduced to ~13,500 words (55% reduction) across the restructured Schedules II-VIII. Much of the reduction came from removing expired exemptions and eliminating provisos.",
+          "explanationWrong": "Section 10 had about 30,000 words — making it one of the longest sections in any Indian statute. The 13,500 figure is the new word count after restructuring. A 55% reduction through consolidation and removal of dead provisions.",
+          "tier": 1,
+          "subConcepts": ["section-10-restructuring", "word-count"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedules II-VIII"
+        },
+        {
+          "order": 3,
+          "question": "TDS on salary under the 2025 Act is governed by which section?",
+          "options": [
+            { "text": "Section 192", "correct": false },
+            { "text": "Section 392", "correct": true },
+            { "text": "Section 393", "correct": false },
+            { "text": "Section 394", "correct": false }
+          ],
+          "explanation": "TDS on salary is now Section 392 (was Section 192). Section 393 handles all other TDS, and Section 394 covers TCS.",
+          "explanationWrong": "392 = salary TDS, 393 = non-salary TDS, 394 = TCS. The old Section 192 mapped to 392. These three sections replace 60+ old TDS/TCS sections.",
+          "tier": 1,
+          "subConcepts": ["section-mapping", "tds"],
+          "isReview": true,
+          "oldSection": "192",
+          "newSection": "392"
+        },
+        {
+          "order": 4,
+          "question": "What does 'Tax Year' in the 2025 Act replace?",
+          "options": [
+            { "text": "Only 'Previous Year'", "correct": false },
+            { "text": "Only 'Assessment Year'", "correct": false },
+            { "text": "Both 'Previous Year' and 'Assessment Year'", "correct": true },
+            { "text": "'Financial Year' and 'Calendar Year'", "correct": false }
+          ],
+          "explanation": "'Tax Year' replaces BOTH concepts. Under the old Act, income was earned in the 'Previous Year' and assessed in the 'Assessment Year.' The 2025 Act uses one concept for everything.",
+          "explanationWrong": "Tax Year replaces both Previous Year and Assessment Year — not just one. This eliminates the confusion where 'AY 2025-26' actually referred to income earned in FY 2024-25. One year, one name.",
+          "tier": 1,
+          "subConcepts": ["tax-year", "terminology-change"],
+          "isReview": false,
+          "oldSection": "Section 3",
+          "newSection": "Section 3"
+        },
+        {
+          "order": 5,
+          "question": "The 2025 Act handles '[Omitted]' placeholder sections from the old Act by:",
+          "options": [
+            { "text": "Retaining them with '[Omitted]' markers for historical reference", "correct": false },
+            { "text": "Using fresh sequential numbering (1-536) with no gaps or placeholders", "correct": true },
+            { "text": "Moving them to a separate historical appendix", "correct": false },
+            { "text": "Replacing '[Omitted]' with '[Repealed]'", "correct": false }
+          ],
+          "explanation": "The 2025 Act uses clean sequential numbering from 1 to 536 with no gaps. Old '[Omitted]' sections that cluttered the 1961 Act simply don't exist — their numbers were never assigned in the new Act.",
+          "explanationWrong": "No gaps, no placeholders, no markers. The 2025 Act starts fresh with sections 1-536, each containing active law. The dozens of '[Omitted]' ghosts from the 1961 Act are gone.",
+          "tier": 1,
+          "subConcepts": ["clean-numbering", "omitted-sections"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Why Provisions Were Removed",
+      "tier": 2,
+      "order": 4,
+      "questions": [
+        {
+          "order": 1,
+          "question": "Why were sunset-expired incentive sections (10A, 10B, 10BA) kept in the 1961 Act for years after expiry?",
+          "options": [
+            { "text": "They were being considered for revival", "correct": false },
+            { "text": "No comprehensive clean-up exercise had been undertaken to remove them", "correct": true },
+            { "text": "They were legally required to remain for pending claims", "correct": false },
+            { "text": "The Finance Ministry had no authority to remove them", "correct": false }
+          ],
+          "explanation": "No systematic clean-up was done for 63 years. Each Finance Act added new provisions but rarely removed expired ones. The 2025 Act is the first comprehensive rewrite — giving a natural opportunity to clean house.",
+          "explanationWrong": "The 1961 Act was only ever amended incrementally — provisions were added but rarely removed. Over 63 years, this created a graveyard of dead sections. The 2025 Act's complete rewrite was the first opportunity for a thorough clean-up.",
+          "tier": 2,
+          "subConcepts": ["dead-provisions", "legislative-housekeeping"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "What is the practical impact of omitting Sections 206AB and 206CCA (higher TDS/TCS for non-filers)?",
+          "options": [
+            { "text": "Non-filers now face criminal penalties instead", "correct": false },
+            { "text": "The compliance burden of tracking and applying higher rates for non-filers is eliminated", "correct": true },
+            { "text": "Non-filers are exempt from all TDS", "correct": false },
+            { "text": "Higher TDS rates now apply to all taxpayers uniformly", "correct": false }
+          ],
+          "explanation": "With 206AB/206CCA gone, deductors no longer need to check whether a deductee has filed returns before applying TDS rates. This was a significant compliance burden — verifying each vendor's filing status before every TDS deduction.",
+          "explanationWrong": "The omission removes a compliance step: deductors no longer need to verify each deductee's return filing status to determine whether higher TDS/TCS rates apply. Standard rates apply to everyone. This simplifies the TDS computation process.",
+          "tier": 2,
+          "subConcepts": ["omitted-provisions", "compliance-impact"],
+          "isReview": false,
+          "oldSection": "206AB, 206CCA",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Section 393 of the 2025 Act consolidates non-salary TDS into how many tables?",
+          "options": [
+            { "text": "2", "correct": false },
+            { "text": "3", "correct": true },
+            { "text": "5", "correct": false },
+            { "text": "6", "correct": false }
+          ],
+          "explanation": "Section 393 has 3 tables: Table 1 (Residents), Table 2 (Non-Residents), Table 3 (Any Person). The table selection is based on the deductee's residential status.",
+          "explanationWrong": "3 tables in Section 393, organized by deductee status. Table 1 = Resident (8 income categories), Table 2 = Non-Resident (17 categories), Table 3 = Any Person (7 categories including lottery, cash withdrawals).",
+          "tier": 2,
+          "subConcepts": ["section-393", "tds-tables"],
+          "isReview": true,
+          "oldSection": "193-196D",
+          "newSection": "393"
+        },
+        {
+          "order": 4,
+          "question": "Why is the removal of Section 47 exceptions for industrially sick companies considered a substantive change rather than just a structural one?",
+          "options": [
+            { "text": "Because Section 47 itself was removed", "correct": false },
+            { "text": "Because transfers that were previously exempt from capital gains are now taxable", "correct": true },
+            { "text": "Because capital gains rates changed", "correct": false },
+            { "text": "Because industrial sickness is no longer legally recognized", "correct": false }
+          ],
+          "explanation": "This is one of the few genuinely substantive changes in the 2025 Act. Transfers by industrially sick companies to worker cooperatives were previously not regarded as 'transfers' for capital gains. That safe harbor is now gone — such transfers are taxable.",
+          "explanationWrong": "Most of the 2025 Act is structural renumbering — same law, new format. But removing Section 47 exceptions is different: it changes what is taxable. A transfer that was previously exempt from capital gains is now a taxable event. CAs must flag this for affected clients.",
+          "tier": 2,
+          "subConcepts": ["section-47-changes", "substantive-change"],
+          "isReview": false,
+          "oldSection": "47",
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Why were references to abolished taxes (Wealth Tax, Gift Tax, FBT) problematic even though the taxes themselves were gone?",
+          "options": [
+            { "text": "Courts could potentially revive them based on the references", "correct": false },
+            { "text": "They cluttered the statute, caused confusion in legal research, and implied connections to non-existent laws", "correct": true },
+            { "text": "They increased the word count significantly", "correct": false },
+            { "text": "They created duplicate filing requirements", "correct": false }
+          ],
+          "explanation": "Ghost references to abolished taxes created noise: they appeared in digital searches, confused junior professionals reading the Act, and implied legal connections to laws that no longer existed. Removing them declutters the statute and eliminates false leads.",
+          "explanationWrong": "The issue was practical: references to abolished taxes showed up in searches, appeared in cross-reference tools, and confused anyone reading the Act who didn't know the tax had been abolished. Clean removal eliminates these false signals.",
+          "tier": 2,
+          "subConcepts": ["abolished-taxes", "legislative-housekeeping"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Understanding the Distinction",
+      "tier": 2,
+      "order": 5,
+      "questions": [
+        {
+          "order": 1,
+          "question": "What is the critical distinction between 'omitted' and 'renumbered' in the context of the 2025 Act?",
+          "options": [
+            { "text": "Both mean the provision is gone — just different terminology", "correct": false },
+            { "text": "'Renumbered' means the provision still exists with a new number; 'omitted' means it has no equivalent in the new Act", "correct": true },
+            { "text": "'Omitted' provisions can still be cited; 'renumbered' ones cannot", "correct": false },
+            { "text": "There is no practical difference", "correct": false }
+          ],
+          "explanation": "This distinction is crucial for client communication. 'Section 80C was renumbered to 123' = same deduction, new number. 'Section 206AB was omitted' = the provision genuinely no longer exists. Confusing the two leads to incorrect advice.",
+          "explanationWrong": "Renumbered = still alive, new number. Omitted = genuinely gone. This is the most important distinction to internalize. When a client asks 'is my 80C deduction gone?' — the answer is no, it was renumbered to 123. But if they ask about higher TDS for non-filers (206AB) — that IS gone.",
+          "tier": 2,
+          "subConcepts": ["omitted-vs-renumbered", "client-communication"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "Why was the dual 'Previous Year / Assessment Year' terminology considered confusing?",
+          "options": [
+            { "text": "Both terms referred to the same year", "correct": false },
+            { "text": "'AY 2025-26' meant income earned in FY 2024-25, creating a one-year offset that confused clients, banks, and professionals", "correct": true },
+            { "text": "The terms were used interchangeably by the department", "correct": false },
+            { "text": "Only foreign nationals found it confusing", "correct": false }
+          ],
+          "explanation": "The one-year offset was the root of confusion. AY 2025-26 referred to income from FY 2024-25. Wrong forms were filed, wrong years referenced in notices, and even professionals sometimes mixed them up. 'Tax Year' eliminates this by using one concept for one period.",
+          "explanationWrong": "The confusion was real and widespread. Saying 'AY 2025-26' to mean 'income earned in April 2024-March 2025' tripped up everyone from clients to banks. The 2025 Act's 'Tax Year' concept — one year, one name — is a practical improvement.",
+          "tier": 2,
+          "subConcepts": ["previous-year-assessment-year", "terminology-confusion"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "The 2025 Act is best described as:",
+          "options": [
+            { "text": "A new tax policy framework", "correct": false },
+            { "text": "A structural rewrite — same substance, clearer language", "correct": true },
+            { "text": "A simplified version that removes most deductions", "correct": false },
+            { "text": "A temporary Act to bridge between old and new regimes", "correct": false }
+          ],
+          "explanation": "The 2025 Act is a rewrite, not a reform. No new taxes, no rate changes, no policy shifts. Same deductions, same exemptions, same rules — reorganized, renumbered, and rewritten in clearer language.",
+          "explanationWrong": "Same substance, clearer language. This is the single most important framing for every client conversation about the new Act. Deductions, exemptions, rates — all the same. Only the organization, language, and numbering changed.",
+          "tier": 2,
+          "subConcepts": ["rewrite-not-reform", "nature-of-change"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "How does the 2025 Act handle the old Section 10's 140+ clauses that included 90 explanations and 134 provisos?",
+          "options": [
+            { "text": "All 140+ clauses were removed", "correct": false },
+            { "text": "They were kept in one section with better formatting", "correct": false },
+            { "text": "They were distributed across Schedules II-VIII, with expired exemptions removed and provisos/explanations converted to sub-sections", "correct": true },
+            { "text": "They were moved to a separate Exemptions Act", "correct": false }
+          ],
+          "explanation": "Section 10 was completely restructured: its exemptions distributed across Schedules II-VIII (organized by category), expired exemptions dropped, and all provisos/explanations converted to clear sub-sections. The word count fell from ~30,000 to ~13,500.",
+          "explanationWrong": "The restructuring was thorough: distribute by category (Schedules II-VIII), remove expired items, convert provisos/explanations to sub-sections. The result: 55% fewer words and much easier navigation.",
+          "tier": 2,
+          "subConcepts": ["section-10-restructuring", "schedule-distribution"],
+          "isReview": false,
+          "oldSection": "10",
+          "newSection": "11, Schedules II-VIII"
+        },
+        {
+          "order": 5,
+          "question": "Section 536 of the 2025 Act provides for continuity of pending matters. Why is this important?",
+          "options": [
+            { "text": "It allows the old Act to be applied forever", "correct": false },
+            { "text": "It ensures that assessments, appeals, and proceedings under the old Act continue under old section references", "correct": true },
+            { "text": "It exempts all pending cases from tax", "correct": false },
+            { "text": "It delays the new Act's implementation by 2 years", "correct": false }
+          ],
+          "explanation": "Section 536 is the transition bridge. Without it, every pending assessment, appeal, and proceeding would be in limbo. It ensures that matters initiated under the old Act continue smoothly using old section references.",
+          "explanationWrong": "Section 536 preserves continuity for pending matters — assessments, appeals, and proceedings initiated before April 1, 2026 continue under old section references. This is essential: you can't suddenly change the rules mid-proceeding.",
+          "tier": 2,
+          "subConcepts": ["transition-provisions", "section-536"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "536"
+        }
+      ]
+    },
+    {
+      "title": "Implications and Edge Cases",
+      "tier": 2,
+      "order": 6,
+      "questions": [
+        {
+          "order": 1,
+          "question": "If a CA was tracking Section 206AB compliance for non-filer clients before April 2026, what changes under the 2025 Act?",
+          "options": [
+            { "text": "The tracking continues under a new section number", "correct": false },
+            { "text": "The tracking is no longer needed — the provision was omitted entirely", "correct": true },
+            { "text": "The tracking moves to the Income Tax Rules, 2026", "correct": false },
+            { "text": "Higher rates now apply automatically without tracking", "correct": false }
+          ],
+          "explanation": "Section 206AB was omitted — no equivalent exists in the 2025 Act. The compliance burden of checking deductees' filing status before applying TDS rates simply disappears from Tax Year 2026-27 onwards.",
+          "explanationWrong": "This is one of the clearest practical changes: 206AB compliance tracking is done. No new section replaces it. Standard TDS rates apply regardless of the deductee's filing history under the new Act.",
+          "tier": 2,
+          "subConcepts": ["omitted-provisions", "practical-impact"],
+          "isReview": false,
+          "oldSection": "206AB",
+          "newSection": null
+        },
+        {
+          "order": 2,
+          "question": "How does the 2025 Act handle profit-linked deductions (like old Section 80-IA for infrastructure) where some enterprises still have remaining deduction years?",
+          "options": [
+            { "text": "All profit-linked deductions are immediately terminated", "correct": false },
+            { "text": "Existing eligible enterprises continue via transitional provisions", "correct": true },
+            { "text": "A new section replaces 80-IA with identical terms", "correct": false },
+            { "text": "Enterprises must reapply under the new Act", "correct": false }
+          ],
+          "explanation": "While Section 80-IA's sunset means no new enterprises are eligible (since April 2017), existing eligible enterprises with remaining deduction years are protected via transitional provisions in the 2025 Act.",
+          "explanationWrong": "The 2025 Act includes transitional saving clauses for enterprises with existing deduction eligibility. No new enterprises can claim (the sunset already expired), but existing claimants aren't cut off mid-stream.",
+          "tier": 2,
+          "subConcepts": ["transitional-provisions", "profit-linked-deductions"],
+          "isReview": false,
+          "oldSection": "80-IA",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "Old Section 80C deductions (LIC, PPF, ELSS) are now under which section in the 2025 Act?",
+          "options": [
+            { "text": "Section 80", "correct": false },
+            { "text": "Section 123", "correct": true },
+            { "text": "Section 126", "correct": false },
+            { "text": "Section 133", "correct": false }
+          ],
+          "explanation": "80C → 123. Section 126 is old 80D (health insurance), Section 133 is old 80G (donations). These three are the most commonly referenced deduction mappings.",
+          "explanationWrong": "80C maps to Section 123. Build your deduction mapping: 80C→123, 80D→126, 80G→133, 80E→129, 80CCD→124. These five cover most deduction-related client work.",
+          "tier": 2,
+          "subConcepts": ["section-mapping", "deductions"],
+          "isReview": true,
+          "oldSection": "80C",
+          "newSection": "123"
+        },
+        {
+          "order": 4,
+          "question": "The 2025 Act introduced 39 tables and 40 new formulae. What is the primary purpose of the formulae?",
+          "options": [
+            { "text": "To calculate new taxes not present in the old Act", "correct": false },
+            { "text": "To standardize computations that were previously described in prose, reducing ambiguity", "correct": true },
+            { "text": "To replace the Income Tax Rules entirely", "correct": false },
+            { "text": "To automate tax calculations without CA involvement", "correct": false }
+          ],
+          "explanation": "The 40 formulae formalize computations that were previously described in prose paragraphs. A formula is unambiguous — unlike prose, which can be interpreted differently. This reduces errors and litigation over computational methodology.",
+          "explanationWrong": "Formulae standardize what was previously described in words. When a provision says 'compute X according to the following formula: A = B × C / D,' there's no room for interpretive dispute. This is a drafting improvement, not a policy change.",
+          "tier": 2,
+          "subConcepts": ["formulae", "standardization"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 5,
+          "question": "Why should CAs monitor CBDT notifications even after the 2025 Act omits provisions like Section 206AB?",
+          "options": [
+            { "text": "Because CBDT can override the Act", "correct": false },
+            { "text": "Because similar provisions could be reintroduced through rules, notifications, or future amendments", "correct": true },
+            { "text": "Because omitted provisions automatically revive after 2 years", "correct": false },
+            { "text": "Because CBDT must formally confirm each omission", "correct": false }
+          ],
+          "explanation": "Omitted provisions could be reintroduced in modified form through future Finance Acts or CBDT notifications. The omission of 206AB is the current state — but tax law evolves. Staying current with notifications is standard professional practice.",
+          "explanationWrong": "An omission in the 2025 Act is definitive for now, but Parliament or CBDT could introduce similar provisions later. This is why CAs must stay current — the Act is a snapshot, not a permanent state.",
+          "tier": 2,
+          "subConcepts": ["cbdt-notifications", "professional-vigilance"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Client Communication Scenarios",
+      "tier": 3,
+      "order": 7,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A panicked client calls: 'I heard the government removed Section 80C! What happens to my PPF and ELSS investments?' How do you respond?",
+          "options": [
+            { "text": "Reassure them that deductions are abolished but investments are still safe", "correct": false },
+            { "text": "Explain that Section 80C was renumbered to Section 123 — same deduction, same limits, new number", "correct": true },
+            { "text": "Tell them to wait for CBDT clarification", "correct": false },
+            { "text": "Advise them to switch to the new tax regime to avoid the issue", "correct": false }
+          ],
+          "explanation": "This is the #1 client fear during the transition. The correct response: 80C is now Section 123. Same eligible instruments, same Rs 1.5 lakh limit, same rules — just a new section number. Nothing changes about their investments.",
+          "explanationWrong": "Reassure immediately: 80C became Section 123. Every PPF, ELSS, and LIC deduction continues exactly as before. Being able to explain this calmly and clearly is a competitive advantage during the transition period.",
+          "tier": 3,
+          "subConcepts": ["client-communication", "renumbered-vs-removed", "deductions"],
+          "isReview": false,
+          "oldSection": "80C",
+          "newSection": "123"
+        },
+        {
+          "order": 2,
+          "question": "A payroll manager asks: 'Do I still need to check if my vendors have filed returns before deducting TDS, as per Section 206AB?' Under the 2025 Act, you advise:",
+          "options": [
+            { "text": "Yes, the requirement continues under a new section number", "correct": false },
+            { "text": "No — Section 206AB was omitted. Apply standard TDS rates to all vendors from Tax Year 2026-27", "correct": true },
+            { "text": "Yes, but only for vendors above Rs 50 lakh", "correct": false },
+            { "text": "No, because TDS has been abolished on vendor payments", "correct": false }
+          ],
+          "explanation": "Section 206AB was omitted — not renumbered. There is no equivalent in the 2025 Act. Standard TDS rates (per Section 393's tables) apply to all deductees regardless of their return filing status.",
+          "explanationWrong": "206AB is genuinely gone. No filing status check is required. Apply standard TDS rates from Section 393's tables. This simplifies the payroll team's TDS process — one fewer compliance step for every vendor payment.",
+          "tier": 3,
+          "subConcepts": ["omitted-provisions", "professional-practice", "tds-compliance"],
+          "isReview": false,
+          "oldSection": "206AB",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "How many chapters does the Income Tax Act, 2025 have?",
+          "options": [
+            { "text": "16", "correct": false },
+            { "text": "23", "correct": true },
+            { "text": "39", "correct": false },
+            { "text": "47", "correct": false }
+          ],
+          "explanation": "The 2025 Act has 23 chapters (down from 47). Remember the key numbers: 536 sections, 23 chapters, 16 schedules, 39 tables.",
+          "explanationWrong": "23 chapters. 47 was the old count. 16 is schedules. 39 is tables. Keep these four numbers distinct — they come up constantly.",
+          "tier": 3,
+          "subConcepts": ["new-act-structure", "chapter-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "A senior partner in your firm instructs a junior to cite 'Assessment Year 2027-28' in a computation for Tax Year 2026-27. What correction is needed?",
+          "options": [
+            { "text": "No correction — both terms mean the same thing", "correct": false },
+            { "text": "Replace 'Assessment Year 2027-28' with 'Tax Year 2026-27' — Assessment Year no longer exists under the 2025 Act", "correct": true },
+            { "text": "Both terms should be used for clarity", "correct": false },
+            { "text": "Only 'Financial Year' should be used", "correct": false }
+          ],
+          "explanation": "Under the 2025 Act, 'Assessment Year' does not exist. The correct reference is 'Tax Year 2026-27.' Using old terminology in new-Act filings is an error. The senior partner's muscle memory needs updating.",
+          "explanationWrong": "Assessment Year is gone. For Tax Year 2026-27 onwards, only 'Tax Year' exists. Using 'AY 2027-28' in a computation under the new Act is citing a non-existent concept. Retraining this reflex will take time for experienced practitioners.",
+          "tier": 3,
+          "subConcepts": ["tax-year", "terminology-change", "professional-practice"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3"
+        },
+        {
+          "order": 5,
+          "question": "A client who owns a sick industrial unit asks: 'If I transfer the unit's land to a worker's cooperative, is it still exempt from capital gains under the new Act?' You advise:",
+          "options": [
+            { "text": "Yes — the exemption continues under the new Act with a different section number", "correct": false },
+            { "text": "No — the Section 47 exception for industrially sick company transfers was removed. The transfer would be a taxable event", "correct": true },
+            { "text": "Yes, but only if the transfer happens before April 2027", "correct": false },
+            { "text": "The exemption now requires prior CBDT approval", "correct": false }
+          ],
+          "explanation": "This is one of the few substantive changes. The old Section 47 exception for transferring land of industrially sick companies to worker cooperatives has been removed. Such transfers are now taxable under capital gains. Plan accordingly.",
+          "explanationWrong": "This is a real substantive change, not just renumbering. The old safe harbor for sick industrial units is gone. The client needs to factor in capital gains tax for such transfers from Tax Year 2026-27 onwards.",
+          "tier": 3,
+          "subConcepts": ["section-47-changes", "capital-gains", "client-advisory"],
+          "isReview": false,
+          "oldSection": "47",
+          "newSection": null
+        }
+      ]
+    },
+    {
+      "title": "Transition Period Challenges",
+      "tier": 3,
+      "order": 8,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A client has a pending appeal under the old Act citing Section 80C. After April 1, 2026, should the appeal continue citing Section 80C or shift to Section 123?",
+          "options": [
+            { "text": "Immediately shift to Section 123", "correct": false },
+            { "text": "Continue with Section 80C — Section 536 preserves continuity for pending proceedings under the old Act", "correct": true },
+            { "text": "Withdraw the appeal and refile under the new Act", "correct": false },
+            { "text": "Use both section numbers in every filing", "correct": false }
+          ],
+          "explanation": "Section 536 of the 2025 Act ensures pending proceedings continue under old section references. The appeal was filed under the old Act, so Section 80C remains the correct reference. No need to convert or refile.",
+          "explanationWrong": "Pending proceedings stay under old section references per Section 536. The appeal was initiated under the old Act — changing references mid-proceeding would cause confusion. Only new matters from Tax Year 2026-27 use new section numbers.",
+          "tier": 3,
+          "subConcepts": ["transition-provisions", "pending-proceedings"],
+          "isReview": false,
+          "oldSection": "80C",
+          "newSection": "123"
+        },
+        {
+          "order": 2,
+          "question": "Your firm is updating its standard engagement letter template for audits starting from Tax Year 2026-27. The template references 'Section 44AB (Tax Audit).' What change is needed?",
+          "options": [
+            { "text": "No change — old section numbers are still valid", "correct": false },
+            { "text": "Change to 'Section 63 of the Income Tax Act, 2025' — the template governs work under the new Act", "correct": true },
+            { "text": "Remove the section reference entirely", "correct": false },
+            { "text": "Add 'or its equivalent under the new Act' after Section 44AB", "correct": false }
+          ],
+          "explanation": "For work under the 2025 Act (Tax Year 2026-27 onwards), templates must reference new section numbers. Section 44AB → Section 63. Citing 44AB in a new-Act engagement letter references a section that doesn't exist in the governing legislation.",
+          "explanationWrong": "Section 44AB doesn't exist in the 2025 Act — using it in a template for new-Act work is incorrect. Update to Section 63. This is a systematic exercise: review all templates, letters, and checklists for old section references.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "template-updates", "professional-practice"],
+          "isReview": false,
+          "oldSection": "44AB",
+          "newSection": "63"
+        },
+        {
+          "order": 3,
+          "question": "What is the new section number for return of income filing (previously Section 139)?",
+          "options": [
+            { "text": "Section 163", "correct": false },
+            { "text": "Section 239", "correct": false },
+            { "text": "Section 263", "correct": true },
+            { "text": "Section 336", "correct": false }
+          ],
+          "explanation": "Section 139 maps to Section 263 in the 2025 Act. This is one of the most critical mappings — return filing is a daily activity for most CAs.",
+          "explanationWrong": "139 → 263. You'll reference this constantly during filing season. Make sure every template, checklist, and internal process document is updated.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "return-filing"],
+          "isReview": true,
+          "oldSection": "139",
+          "newSection": "263"
+        },
+        {
+          "order": 4,
+          "question": "A client's ERP system flags an error: 'Unknown TDS section: 194C.' The payment was processed in May 2026. What happened?",
+          "options": [
+            { "text": "The government's section database is not updated yet", "correct": false },
+            { "text": "Section 194C no longer exists — the ERP needs to be updated to reference Section 393 for contractor TDS from Tax Year 2026-27", "correct": true },
+            { "text": "The ERP is malfunctioning — Section 194C is still valid", "correct": false },
+            { "text": "TDS on contractor payments was abolished under the new Act", "correct": false }
+          ],
+          "explanation": "Section 194C doesn't exist in the 2025 Act. From April 1, 2026, all non-salary TDS is under Section 393. The ERP's section code database needs updating — this is a real system migration every organization with automated TDS will face.",
+          "explanationWrong": "The ERP is actually working correctly by flagging an unknown section — 194C doesn't exist in the 2025 Act. Contractor TDS is now part of Section 393, Table 1. ERP updates are a critical pre-April 2026 activity.",
+          "tier": 3,
+          "subConcepts": ["system-transition", "tds-consolidation", "erp-updates"],
+          "isReview": false,
+          "oldSection": "194C",
+          "newSection": "393"
+        },
+        {
+          "order": 5,
+          "question": "You're drafting a tax opinion in June 2026 that needs to reference case law from 2020. The judgment discusses 'Section 194J of the Income Tax Act, 1961.' How should you cite this?",
+          "options": [
+            { "text": "Replace all references with Section 393 since the old Act is repealed", "correct": false },
+            { "text": "Cite the judgment with its original Section 194J reference, and note that the equivalent provision is now Section 393, Table 1 of the 2025 Act", "correct": true },
+            { "text": "Do not cite old judgments at all — they are no longer relevant", "correct": false },
+            { "text": "Cite only the new section number and hope the reader understands", "correct": false }
+          ],
+          "explanation": "Case law citations must use the original section numbers from the judgment. But a well-drafted opinion will also note the current equivalent — showing that the legal principle from the old Section 194J judgment applies to Section 393, Table 1.",
+          "explanationWrong": "Never alter a judgment's section references — cite them as they appear. But add value by noting the current equivalent: 'The principles laid down in [judgment] regarding Section 194J of the 1961 Act apply to Section 393, Table 1 of the 2025 Act.' This bridges old precedent and new law.",
+          "tier": 3,
+          "subConcepts": ["case-law-citation", "transition-practice", "professional-drafting"],
+          "isReview": false,
+          "oldSection": "194J",
+          "newSection": "393, Table 1"
+        }
+      ]
+    },
+    {
+      "title": "Comprehensive Practice Scenarios",
+      "tier": 3,
+      "order": 9,
+      "questions": [
+        {
+          "order": 1,
+          "question": "A new client brings their previous CA's computation sheet from AY 2025-26 citing Sections 80C, 80D, 192, 194J, and 139. For Tax Year 2026-27, you need to map ALL of these to new sections. The correct mapping is:",
+          "options": [
+            { "text": "123, 126, 392, 393, 263", "correct": true },
+            { "text": "123, 126, 393, 394, 263", "correct": false },
+            { "text": "80, 126, 392, 393, 139", "correct": false },
+            { "text": "123, 126, 392, 393, 262", "correct": false }
+          ],
+          "explanation": "80C→123, 80D→126, 192→392, 194J→393 (Table 1), 139→263. These five mappings cover the most common provisions on any computation sheet. Section 262 is PAN (old 139A), not return filing.",
+          "explanationWrong": "The complete mapping: 80C→123, 80D→126, 192(salary TDS)→392, 194J(professional TDS)→393, 139(returns)→263. Section 394 is TCS, not TDS. Section 262 is PAN. Get these five right and you've covered most daily work.",
+          "tier": 3,
+          "subConcepts": ["section-mapping", "comprehensive-mapping"],
+          "isReview": false,
+          "oldSection": "80C, 80D, 192, 194J, 139",
+          "newSection": "123, 126, 392, 393, 263"
+        },
+        {
+          "order": 2,
+          "question": "A company CFO asks: 'Our legal team says the new Act removed some capital gains exemptions. Should we be worried about our upcoming transactions?' The best initial response is:",
+          "options": [
+            { "text": "No capital gains exemptions were changed — the CFO's legal team is wrong", "correct": false },
+            { "text": "Two specific Section 47 exceptions were removed (industrially sick companies and demutualisation). Check if your transactions involve these specific scenarios", "correct": true },
+            { "text": "All capital gains exemptions were removed", "correct": false },
+            { "text": "Wait for CBDT clarification before proceeding with any transactions", "correct": false }
+          ],
+          "explanation": "The legal team is partially right — two specific Section 47 exceptions were removed. But the vast majority of capital gains provisions continue unchanged. The answer is targeted: check the specific exceptions, not a blanket concern.",
+          "explanationWrong": "A calibrated response: acknowledge the legal team's concern is valid for two specific exceptions, but clarify that most capital gains provisions (reinvestment, LTCG/STCG rates, indexation where applicable) continue unchanged. Only industrially sick company and demutualisation exceptions were removed.",
+          "tier": 3,
+          "subConcepts": ["section-47-changes", "capital-gains", "client-advisory"],
+          "isReview": false,
+          "oldSection": "47",
+          "newSection": null
+        },
+        {
+          "order": 3,
+          "question": "By approximately what percentage was the word count reduced from the old Act to the new Act?",
+          "options": [
+            { "text": "24%", "correct": false },
+            { "text": "35%", "correct": false },
+            { "text": "49%", "correct": true },
+            { "text": "55%", "correct": false }
+          ],
+          "explanation": "The overall word count dropped by about 49% (from ~5.12 lakh to ~2.6 lakh words). The 55% figure specifically refers to Section 10's word reduction. 35% is the section count reduction. 24% is the page count reduction.",
+          "explanationWrong": "49% overall word reduction. Each metric has its own percentage: 24% = pages, 35% = sections, 49% = words, 51% = chapters, 55% = Section 10 specifically. Keep these distinct.",
+          "tier": 3,
+          "subConcepts": ["new-act-structure", "word-count"],
+          "isReview": true,
+          "oldSection": null,
+          "newSection": null
+        },
+        {
+          "order": 4,
+          "question": "Your articled assistant drafts a letter to a client using the phrase 'for the Previous Year 2026-27.' Three things are wrong with this. Identify the most critical error:",
+          "options": [
+            { "text": "The year range is wrong", "correct": false },
+            { "text": "'Previous Year' does not exist under the 2025 Act — it should be 'Tax Year 2026-27'", "correct": true },
+            { "text": "The letter should use 'Financial Year' instead", "correct": false },
+            { "text": "Only 'Assessment Year' should be used", "correct": false }
+          ],
+          "explanation": "The most critical error: 'Previous Year' no longer exists under the 2025 Act. For Tax Year 2026-27 onwards, the only correct term is 'Tax Year.' Neither 'Previous Year' nor 'Assessment Year' should be used in communications governed by the new Act.",
+          "explanationWrong": "For any matter under the 2025 Act, the correct term is 'Tax Year.' Using 'Previous Year' or 'Assessment Year' in an official letter is using terminology from a repealed Act — it could create confusion or even legal ambiguity.",
+          "tier": 3,
+          "subConcepts": ["tax-year", "terminology-change", "professional-communication"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": "Section 3"
+        },
+        {
+          "order": 5,
+          "question": "You're briefing your firm's partners on the 2025 Act. Which statement best captures the overall nature of the changes?",
+          "options": [
+            { "text": "Everything changed — we need to relearn tax law from scratch", "correct": false },
+            { "text": "Nothing changed — just new section numbers to memorize", "correct": false },
+            { "text": "The substance is the same but the structure, language, and numbering changed significantly, with a few genuine substantive removals (206AB, Section 47 exceptions) to watch for", "correct": true },
+            { "text": "Only TDS provisions changed; everything else is identical", "correct": false }
+          ],
+          "explanation": "The nuanced truth: 95%+ is structural change (same law, new packaging). But a few provisions were genuinely omitted (206AB/206CCA, specific Section 47 exceptions). Partners need to know both: don't panic about deductions (renumbered), but do track the genuine removals.",
+          "explanationWrong": "Neither extreme is correct. 'Everything changed' creates unnecessary panic. 'Nothing changed' misses genuine omissions (206AB, Section 47 exceptions). The balanced view: structural rewrite with same substance, plus a handful of substantive changes that need client-specific attention.",
+          "tier": 3,
+          "subConcepts": ["comprehensive-overview", "partner-briefing", "nuanced-understanding"],
+          "isReview": false,
+          "oldSection": null,
+          "newSection": null
+        }
+      ]
+    }
+  ]
+}
