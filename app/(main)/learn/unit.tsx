@@ -47,6 +47,38 @@ export const Unit = ({
     tierProgressMap.set(tp.tier, tp);
   }
 
+  // Build a flat ordered list of all lessons to determine sequential locking
+  const allLessonsFlat = allLessons.sort((a, b) => {
+    const tierDiff = (a.tier ?? 1) - (b.tier ?? 1);
+    if (tierDiff !== 0) return tierDiff;
+    return a.order - b.order;
+  });
+
+  // Find the first uncompleted lesson — that's the "active" one.
+  // Everything before it (completed) is unlocked. The active one is unlocked.
+  // Everything after it is locked.
+  const activeIndex = allLessonsFlat.findIndex(
+    (l) => l.id === activeLesson?.id
+  );
+  const unlockedIds = new Set<number>();
+  for (let i = 0; i < allLessonsFlat.length; i++) {
+    const lesson = allLessonsFlat[i];
+    if (lesson.completed || i === activeIndex || activeIndex === -1) {
+      // Completed lessons and the current active lesson are unlocked.
+      // If no active lesson in this unit (activeIndex === -1), check if
+      // all lessons are completed or if this unit is entirely ahead.
+      if (lesson.completed) {
+        unlockedIds.add(lesson.id);
+      } else if (i === activeIndex) {
+        unlockedIds.add(lesson.id);
+      }
+    }
+  }
+  // If all lessons are completed, unlock everything
+  if (allLessonsFlat.every((l) => l.completed)) {
+    for (const l of allLessonsFlat) unlockedIds.add(l.id);
+  }
+
   const tiers = [1, 2, 3] as const;
 
   return (
@@ -82,6 +114,7 @@ export const Unit = ({
             <div className="relative flex flex-col items-center">
               {tierLessons.map((lesson, i) => {
                 const isCurrent = lesson.id === activeLesson?.id;
+                const isLocked = !unlockedIds.has(lesson.id);
 
                 return (
                   <LessonButton
@@ -90,7 +123,7 @@ export const Unit = ({
                     index={i}
                     totalCount={tierLessons.length - 1}
                     current={isCurrent}
-                    locked={false}
+                    locked={isLocked}
                     completed={lesson.completed}
                     percentage={activeLessonPercentage}
                   />

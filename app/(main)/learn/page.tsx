@@ -7,6 +7,7 @@ import { UserProgress } from "@/components/user-progress";
 import {
   getCourseProgress,
   getLessonPercentage,
+  getNextCourse,
   getUnits,
   getUnitTierProgress,
   getUserProgress,
@@ -14,6 +15,7 @@ import {
 } from "@/db/queries";
 import { ensureDefaultTierUnlocks } from "@/actions/tier-progress";
 
+import { NextModuleCard } from "./next-module-card";
 import { StickyUnitHeader } from "./sticky-unit-header";
 import { Unit } from "./unit";
 
@@ -24,8 +26,9 @@ const LearnPage = async () => {
   const unitsData = getUnits();
   const streakData = getUserStreak();
   const tierProgressData = getUnitTierProgress();
+  const nextCourseData = getNextCourse();
 
-  const [userProgress, units, courseProgress, lessonPercentage, streak, tierProgress] =
+  const [userProgress, units, courseProgress, lessonPercentage, streak, tierProgress, nextCourse] =
     await Promise.all([
       userProgressData,
       unitsData,
@@ -33,6 +36,7 @@ const LearnPage = async () => {
       lessonPercentageData,
       streakData,
       tierProgressData,
+      nextCourseData,
     ]);
 
   if (!courseProgress || !userProgress || !userProgress.activeCourse)
@@ -84,6 +88,13 @@ const LearnPage = async () => {
             />
           </div>
         ))}
+
+        {nextCourse && (
+          <NextModuleCard
+            courseId={nextCourse.id}
+            courseTitle={nextCourse.title}
+          />
+        )}
       </FeedWrapper>
     </div>
   );

@@ -1,7 +1,7 @@
 import { cache } from "react";
 
 import { auth } from "@clerk/nextjs/server";
-import { and, desc, eq, gte, sql } from "drizzle-orm";
+import { and, asc, desc, eq, gt, gte, sql } from "drizzle-orm";
 
 import db from "./drizzle";
 import {
@@ -20,6 +20,18 @@ export const getCourses = cache(async () => {
   const data = await db.query.courses.findMany();
 
   return data;
+});
+
+export const getNextCourse = cache(async () => {
+  const userProgressData = await getUserProgress();
+  if (!userProgressData?.activeCourseId) return null;
+
+  const next = await db.query.courses.findFirst({
+    where: gt(courses.id, userProgressData.activeCourseId),
+    orderBy: [asc(courses.id)],
+  });
+
+  return next ?? null;
 });
 
 export const getUserProgress = cache(async () => {
