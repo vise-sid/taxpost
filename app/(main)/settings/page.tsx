@@ -35,7 +35,7 @@ const SettingsPage = async () => {
             Settings
           </h1>
           <p className="mb-6 text-center text-lg text-muted-foreground">
-            Manage your reminder preferences.
+            Manage your account and preferences.
           </p>
 
           <SettingsForm

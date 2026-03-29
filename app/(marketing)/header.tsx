@@ -9,7 +9,6 @@ import { Loader } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
-import { UserMenu } from "@/components/user-menu";
 
 export const Header = () => {
   return (
@@ -31,7 +30,9 @@ export const Header = () => {
           </ClerkLoading>
           <ClerkLoaded>
             <Show when="signed-in">
-              <UserMenu />
+              <Button size="lg" variant="secondary" asChild>
+                <Link href="/learn">Continue Learning</Link>
+              </Button>
             </Show>
 
             <Show when="signed-out">

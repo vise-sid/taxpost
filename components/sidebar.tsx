@@ -1,13 +1,8 @@
-"use client";
-
-import { ClerkLoading, ClerkLoaded, Show } from "@clerk/nextjs";
-import { Loader } from "lucide-react";
 import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 
 import { SidebarItem } from "./sidebar-item";
-import { UserMenu } from "./user-menu";
 
 type SidebarProps = {
   className?: string;
@@ -43,16 +38,6 @@ export const Sidebar = ({ className }: SidebarProps) => {
         <SidebarItem label="Quests" href="/quests" iconSrc="/quests.svg" />
         <SidebarItem label="Shop" href="/shop" iconSrc="/shop.svg" />
         <SidebarItem label="Settings" href="/settings" iconSrc="/settings.svg" />
-      </div>
-
-      <div className="p-4">
-        <ClerkLoading>
-          <Loader className="h-5 w-5 animate-spin text-muted-foreground" />
-        </ClerkLoading>
-
-        <ClerkLoaded>
-          <UserMenu />
-        </ClerkLoaded>
       </div>
     </div>
   );
