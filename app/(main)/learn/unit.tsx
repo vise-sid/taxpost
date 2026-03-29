@@ -91,6 +91,7 @@ export const Unit = ({
                     totalCount={tierLessons.length - 1}
                     current={isCurrent}
                     locked={false}
+                    completed={lesson.completed}
                     percentage={activeLessonPercentage}
                   />
                 );
