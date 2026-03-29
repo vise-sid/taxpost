@@ -4,12 +4,12 @@ import {
   ClerkLoaded,
   ClerkLoading,
   Show,
-  UserButton,
 } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import { UserMenu } from "@/components/user-menu";
 
 export const Header = () => {
   return (
@@ -31,7 +31,7 @@ export const Header = () => {
           </ClerkLoading>
           <ClerkLoaded>
             <Show when="signed-in">
-              <UserButton />
+              <UserMenu />
             </Show>
 
             <Show when="signed-out">

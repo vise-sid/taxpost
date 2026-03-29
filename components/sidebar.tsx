@@ -1,10 +1,13 @@
-import { ClerkLoading, ClerkLoaded, UserButton } from "@clerk/nextjs";
+"use client";
+
+import { ClerkLoading, ClerkLoaded, Show } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
 import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 
 import { SidebarItem } from "./sidebar-item";
+import { UserMenu } from "./user-menu";
 
 type SidebarProps = {
   className?: string;
@@ -48,11 +51,7 @@ export const Sidebar = ({ className }: SidebarProps) => {
         </ClerkLoading>
 
         <ClerkLoaded>
-          <UserButton
-            appearance={{
-              elements: { userButtonPopoverCard: { pointerEvents: "initial" } },
-            }}
-          />
+          <UserMenu />
         </ClerkLoaded>
       </div>
     </div>
