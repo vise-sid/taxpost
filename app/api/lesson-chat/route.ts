@@ -1,6 +1,6 @@
 import { auth } from "@clerk/nextjs/server";
 import { and, eq } from "drizzle-orm";
-import { GoogleGenAI, Type } from "@google/genai";
+import { GoogleGenAI, Type, FunctionDeclaration } from "@google/genai";
 
 import db from "@/db/drizzle";
 import { chatSessions, units, lessonCompletions } from "@/db/schema";
@@ -240,7 +240,7 @@ export async function POST(req: Request) {
       contents,
       config: {
         systemInstruction: systemPrompt,
-        tools: [{ functionDeclarations: toolDeclarations }],
+        tools: [{ functionDeclarations: toolDeclarations as FunctionDeclaration[] }],
       },
     });
 
