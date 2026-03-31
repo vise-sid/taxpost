@@ -39,17 +39,25 @@ export type ChatMessage = {
   selectedOptionId?: number;
 };
 
+type Lesson = {
+  id: number;
+  title: string;
+  challengeIds: number[];
+};
+
 type ChatLessonProps = {
-  lessonId: number;
-  lessonTitle: string;
-  challenges: Challenge[];
+  unitId: number;
+  unitTitle: string;
+  challenges: (Challenge & { lessonId: number })[];
+  lessons: Lesson[];
   initialHearts: number;
 };
 
 export const ChatLesson = ({
-  lessonId,
-  lessonTitle,
+  unitId,
+  unitTitle,
   challenges,
+  lessons,
   initialHearts,
 }: ChatLessonProps) => {
   const router = useRouter();
@@ -94,7 +102,7 @@ export const ChatLesson = ({
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            lessonId,
+            unitId,
             history: historyRef.current,
             message: text,
             turnCount: turnCountRef.current,
@@ -183,7 +191,7 @@ export const ChatLesson = ({
         setIsLoading(false);
       }
     },
-    [lessonId, challengeMap, answeredIds]
+    [unitId, challengeMap, answeredIds]
   );
 
   // Auto-start
@@ -238,37 +246,54 @@ export const ChatLesson = ({
     [messages, hearts, openHeartsModal, sendMessage]
   );
 
-  // Lesson completion
+  // Track per-lesson completion as challenges get answered
+  const completedLessonsRef = useRef<Set<number>>(new Set());
+
+  useEffect(() => {
+    for (const lesson of lessons) {
+      if (completedLessonsRef.current.has(lesson.id)) continue;
+      const allAnswered = lesson.challengeIds.every((cid) => answeredIds.has(cid));
+      if (allAnswered && lesson.challengeIds.length > 0) {
+        completedLessonsRef.current.add(lesson.id);
+        const lessonCorrect = lesson.challengeIds.filter((cid) => {
+          const msg = messages.find((m) => m.quizData?.challengeId === cid);
+          return msg?.quizCorrect;
+        }).length;
+        startTransition(() => {
+          recordLessonCompletion({
+            lessonId: lesson.id,
+            timeTakenSeconds: elapsedSeconds,
+            score: lessonCorrect,
+            totalQuestions: lesson.challengeIds.length,
+          }).catch(() => {});
+        });
+      }
+    }
+  }, [answeredIds, lessons, messages, elapsedSeconds]);
+
+  // Unit complete when all challenges answered
   useEffect(() => {
     if (lessonDone) return;
     if (challenges.every((c) => answeredIds.has(c.id)) && answeredIds.size > 0) {
       setLessonDone(true);
       clearInterval(timerRef.current);
-      startTransition(() => {
-        recordLessonCompletion({
-          lessonId,
-          timeTakenSeconds: elapsedSeconds,
-          score: correctCount,
-          totalQuestions: challenges.length,
-        }).catch(() => {});
-      });
     }
-  }, [answeredIds, challenges, lessonId, elapsedSeconds, correctCount, lessonDone]);
+  }, [answeredIds, challenges, lessonDone]);
 
   const progress = challenges.length > 0 ? Math.round((answeredIds.size / challenges.length) * 100) : 0;
 
   return (
     <div className="flex h-full flex-col">
-      <ChatHeader title={lessonTitle} hearts={hearts} progress={progress} onExit={() => router.push("/learn-ai")} />
+      <ChatHeader title={unitTitle} hearts={hearts} progress={progress} onExit={() => router.push("/learn-ai")} />
       <MessageList messages={messages} isLoading={isLoading} onQuizAnswer={handleQuizAnswer} />
       {lessonDone ? (
         <div className="border-t bg-green-50 px-4 py-6 text-center">
-          <p className="text-lg font-bold text-green-700">Lesson Complete!</p>
+          <p className="text-lg font-bold text-green-700">Unit Complete!</p>
           <p className="text-sm text-green-600">
             {correctCount}/{challenges.length} correct in {Math.floor(elapsedSeconds / 60)}m {elapsedSeconds % 60}s
           </p>
           <button onClick={() => router.push("/learn-ai")} className="mt-4 rounded-xl bg-brand-navy px-6 py-2.5 text-sm font-bold text-white">
-            Back to Lessons
+            Back to Units
           </button>
         </div>
       ) : (

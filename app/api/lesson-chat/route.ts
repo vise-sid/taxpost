@@ -3,7 +3,7 @@ import { eq } from "drizzle-orm";
 import { GoogleGenAI, Type } from "@google/genai";
 
 import db from "@/db/drizzle";
-import { challengeProgress, lessons } from "@/db/schema";
+import { units, challengeProgress } from "@/db/schema";
 import { getLessonContent } from "@/lib/lesson-content";
 
 const ai = new GoogleGenAI({ apiKey: process.env.GOOGLE_API_KEY! });
@@ -24,7 +24,9 @@ const presentQuizDeclaration = {
 };
 
 function buildSystemPrompt(
-  content: { markdown: string; unitTitle: string; courseTitle: string; lessonTitle: string },
+  unitTitle: string,
+  courseTitle: string,
+  markdown: string,
   challengeSummaries: string
 ) {
   return `You are a friendly, knowledgeable tax tutor helping an Indian Chartered Accountant (CA) learn changes in income tax law under the Income Tax Act 2025 (replacing the 1961 Act).
@@ -35,10 +37,10 @@ function buildSystemPrompt(
 - Keep each teaching block to 3-5 sentences
 - Use bold for key terms and section numbers
 
-## Topic: ${content.courseTitle} > ${content.unitTitle} > ${content.lessonTitle}
+## Topic: ${courseTitle} > ${unitTitle}
 
 ## Teaching Material
-${content.markdown}
+${markdown}
 
 ## Question Bank (present these using the present_quiz tool)
 ${challengeSummaries}
@@ -62,47 +64,58 @@ export async function POST(req: Request) {
     return Response.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const { lessonId, history, message, turnCount } = await req.json();
-  if (!lessonId || !message) {
-    return Response.json({ error: "Missing lessonId or message" }, { status: 400 });
+  const { unitId, history, message, turnCount } = await req.json();
+  if (!unitId || !message) {
+    return Response.json({ error: "Missing unitId or message" }, { status: 400 });
   }
 
-  const isFirstTurn = (turnCount ?? 0) <= 1;
+  // Always provide the tool — the system prompt enforces teaching first
+  const isFirstTurn = false;
 
-  // Load lesson with challenges
-  const lesson = await db.query.lessons.findFirst({
-    where: eq(lessons.id, lessonId),
+  // Load unit with all lessons and challenges
+  const unit = await db.query.units.findFirst({
+    where: eq(units.id, unitId),
     with: {
-      challenges: {
-        orderBy: (challenges, { asc }) => [asc(challenges.order)],
+      course: true,
+      lessons: {
+        orderBy: (lessons, { asc }) => [asc(lessons.order)],
         with: {
-          challengeOptions: true,
-          challengeProgress: { where: eq(challengeProgress.userId, userId) },
+          challenges: {
+            orderBy: (challenges, { asc }) => [asc(challenges.order)],
+          },
         },
       },
     },
   });
 
-  if (!lesson) {
-    return Response.json({ error: "Lesson not found" }, { status: 404 });
+  if (!unit) {
+    return Response.json({ error: "Unit not found" }, { status: 404 });
   }
 
-  const content = await getLessonContent(lessonId);
-  const challengeSummaries = lesson.challenges
-    .map((c) => `- Challenge ${c.id}: "${c.question}"${c.newSection ? ` (${c.newSection})` : ""}`)
+  // Load markdown content for the unit (uses first lesson to resolve content)
+  const firstLessonId = unit.lessons[0]?.id;
+  const content = firstLessonId ? await getLessonContent(firstLessonId) : null;
+
+  // Build challenge summaries across ALL lessons in the unit
+  const challengeSummaries = unit.lessons
+    .flatMap((lesson) =>
+      lesson.challenges.map(
+        (c) => `- Challenge ${c.id} (${lesson.title}): "${c.question}"${c.newSection ? ` (${c.newSection})` : ""}`
+      )
+    )
     .join("\n");
 
   const systemPrompt = buildSystemPrompt(
-    content || { markdown: "No teaching material available.", unitTitle: lesson.title, courseTitle: "", lessonTitle: lesson.title },
+    unit.title,
+    unit.course.title,
+    content?.markdown || "No teaching material available.",
     challengeSummaries
   );
 
-  // Create chat with history
   const chat = ai.chats.create({
     model: "gemini-3-flash-preview",
     config: {
       systemInstruction: systemPrompt,
-      // Only provide the tool after the first turn
       ...(isFirstTurn ? {} : { tools: [{ functionDeclarations: [presentQuizDeclaration] }] }),
     },
     history: history || [],
@@ -110,7 +123,6 @@ export async function POST(req: Request) {
 
   const stream = await chat.sendMessageStream({ message });
 
-  // Stream plain text, append tool calls as __QUIZ__<id> markers at the end
   const encoder = new TextEncoder();
   const toolCalls: number[] = [];
 
@@ -129,7 +141,6 @@ export async function POST(req: Request) {
             }
           }
         }
-        // Append quiz markers at the end of the stream
         for (const id of toolCalls) {
           controller.enqueue(encoder.encode(`\n__QUIZ__${id}`));
         }
