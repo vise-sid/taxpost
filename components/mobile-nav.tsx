@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpen, Settings, Swords, Target, Trophy } from "lucide-react";
+import { BookOpen, Bot, Settings, Swords, Target, Trophy } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -11,6 +11,7 @@ const tabs = [
   { href: "/dashboard", icon: Target, label: "Progress" },
   { href: "/leaderboard", icon: Trophy, label: "Board" },
   { href: "/quests", icon: Swords, label: "Quests" },
+  { href: "/learn-ai", icon: Bot, label: "AI" },
   { href: "/settings", icon: Settings, label: "More" },
 ];
 
