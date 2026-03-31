@@ -23,6 +23,7 @@ const LessonIdPage = async ({ params }: LessonIdPageProps) => {
       initialLessonChallenges={lesson.challenges}
       initialHearts={userProgress.hearts}
       initialPercentage={initialPercentage}
+      chatUnitId={lesson.unitId}
     />
   );
 };

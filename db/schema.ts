@@ -3,12 +3,14 @@ import {
   boolean,
   date,
   integer,
+  jsonb,
   pgEnum,
   pgTable,
   serial,
   text,
   time,
   timestamp,
+  uniqueIndex,
 } from "drizzle-orm/pg-core";
 
 import { MAX_HEARTS } from "@/constants";
@@ -259,6 +261,34 @@ export const unitTierProgressRelations = relations(
     }),
   })
 );
+
+// --- Chat Sessions (AI Tutor) ---
+
+export const chatSessions = pgTable(
+  "chat_sessions",
+  {
+    id: serial("id").primaryKey(),
+    userId: text("user_id").notNull(),
+    unitId: integer("unit_id")
+      .references(() => units.id, { onDelete: "cascade" })
+      .notNull(),
+    history: jsonb("history").notNull().default([]), // raw Gemini conversation array
+    messages: jsonb("messages").notNull().default([]), // UI ChatMessage[]
+    status: text("status").notNull().default("teaching"), // teaching | testing | completed
+    createdAt: timestamp("created_at").defaultNow(),
+    updatedAt: timestamp("updated_at").defaultNow(),
+  },
+  (table) => [
+    uniqueIndex("chat_sessions_user_unit_idx").on(table.userId, table.unitId),
+  ]
+);
+
+export const chatSessionsRelations = relations(chatSessions, ({ one }) => ({
+  unit: one(units, {
+    fields: [chatSessions.unitId],
+    references: [units.id],
+  }),
+}));
 
 // --- Reminder Preferences ---
 

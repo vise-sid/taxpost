@@ -32,12 +32,14 @@ type QuizProps = {
     completed: boolean;
     challengeOptions: (typeof challengeOptions.$inferSelect)[];
   })[];
+  chatUnitId?: number;
 };
 
 export const Quiz = ({
   initialPercentage,
   initialHearts,
   initialLessonId,
+  chatUnitId,
   initialLessonChallenges,
 }: QuizProps) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -318,7 +320,7 @@ export const Quiz = ({
         <Footer
           lessonId={lessonId}
           status="completed"
-          onCheck={() => router.push("/learn")}
+          onCheck={() => router.push(chatUnitId ? `/lesson-chat/${chatUnitId}` : "/learn")}
         />
       </>
     );
@@ -333,7 +335,7 @@ export const Quiz = ({
     <>
       {incorrectAudio}
       {correctAudio}
-      <Header hearts={hearts} percentage={percentage} timerText={formatTime(elapsedSeconds)} />
+      <Header hearts={hearts} percentage={percentage} timerText={formatTime(elapsedSeconds)} chatUnitId={chatUnitId} />
 
       <div className="flex-1">
         <div className="flex h-full items-center justify-center">

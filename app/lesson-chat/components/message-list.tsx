@@ -5,24 +5,25 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
 import type { ChatMessage } from "../chat-lesson";
-import { QuizCard } from "./quiz-card";
 import { ComparisonCard } from "./comparison-card";
+import { InlineQuestion } from "./inline-question";
+import { ActionCard } from "./action-card";
 import { ResponseChips } from "./response-chips";
 
 type MessageListProps = {
   messages: ChatMessage[];
   isLoading: boolean;
-  onQuizAnswer: (messageId: string, optionId: number) => void;
   suggestedResponses: string[];
   onChipSelect: (text: string) => void;
+  onQuestionAnswer: (messageId: string, option: string) => void;
 };
 
 export const MessageList = ({
   messages,
   isLoading,
-  onQuizAnswer,
   suggestedResponses,
   onChipSelect,
+  onQuestionAnswer,
 }: MessageListProps) => {
   const bottomRef = useRef<HTMLDivElement>(null);
 
@@ -34,23 +35,6 @@ export const MessageList = ({
     <div className="flex-1 overflow-y-auto px-4 py-6">
       <div className="mx-auto max-w-[600px] space-y-4">
         {messages.map((msg) => {
-          if (msg.quizData) {
-            return (
-              <QuizCard
-                key={msg.id}
-                messageId={msg.id}
-                question={msg.quizData.question}
-                options={msg.quizData.options}
-                explanation={msg.quizData.explanation}
-                explanationWrong={msg.quizData.explanationWrong}
-                answered={!!msg.quizAnswered}
-                correct={msg.quizCorrect}
-                selectedOptionId={msg.selectedOptionId}
-                onAnswer={onQuizAnswer}
-              />
-            );
-          }
-
           if (msg.comparisonData) {
             return (
               <ComparisonCard
@@ -60,6 +44,34 @@ export const MessageList = ({
                 oldText={msg.comparisonData.oldText}
                 newLabel={msg.comparisonData.newLabel}
                 newText={msg.comparisonData.newText}
+              />
+            );
+          }
+
+          if (msg.questionData) {
+            return (
+              <InlineQuestion
+                key={msg.id}
+                messageId={msg.id}
+                question={msg.questionData.question}
+                options={msg.questionData.options}
+                answered={!!msg.questionAnswered}
+                selectedOption={msg.questionSelected}
+                onAnswer={onQuestionAnswer}
+              />
+            );
+          }
+
+          if (msg.actionData) {
+            return (
+              <ActionCard
+                key={msg.id}
+                type={msg.actionData.type}
+                unitTitle={msg.actionData.unitTitle}
+                lessonId={msg.actionData.lessonId}
+                lessonCount={msg.actionData.lessonCount}
+                questionCount={msg.actionData.questionCount}
+                nextUnitId={msg.actionData.nextUnitId}
               />
             );
           }
@@ -85,7 +97,6 @@ export const MessageList = ({
           return null;
         })}
 
-        {/* Response chips — show after the last message */}
         {suggestedResponses.length > 0 && !isLoading && (
           <ResponseChips
             options={suggestedResponses}
