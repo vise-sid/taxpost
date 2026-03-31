@@ -7,7 +7,9 @@ type ActionCardProps = {
   type: string;
   unitTitle: string;
   lessonId?: number;
+  lessonTitle?: string;
   lessonCount?: number;
+  completedCount?: number;
   questionCount?: number;
   nextUnitId?: number;
 };
@@ -16,12 +18,18 @@ export const ActionCard = ({
   type,
   unitTitle,
   lessonId,
+  lessonTitle,
   lessonCount,
+  completedCount,
   questionCount,
   nextUnitId,
 }: ActionCardProps) => {
   if (type === "start_test" || type === "resume_test") {
     const href = lessonId ? `/lesson/${lessonId}` : "/learn";
+    const progressText = lessonCount && completedCount !== undefined
+      ? `Lesson ${completedCount + 1} of ${lessonCount}`
+      : "";
+
     return (
       <Link
         href={href}
@@ -31,13 +39,11 @@ export const ActionCard = ({
           <BookOpen className="h-6 w-6 text-brand-navy" />
           <div className="flex-1">
             <p className="text-sm font-bold text-brand-navy">
-              {type === "resume_test" ? "Resume Test" : "Unit Test"}: {unitTitle}
+              {type === "resume_test" ? "Resume Quiz" : "Start Quiz"}{lessonTitle ? `: ${lessonTitle}` : ""}
             </p>
-            {questionCount && (
-              <p className="text-xs text-muted-foreground">
-                {questionCount} questions{lessonCount ? ` · ${lessonCount} lessons` : ""}
-              </p>
-            )}
+            <p className="text-xs text-muted-foreground">
+              {questionCount ? `${questionCount} questions` : ""}{progressText ? ` · ${progressText}` : ""}
+            </p>
           </div>
           <ArrowRight className="h-5 w-5 text-brand-navy" />
         </div>
@@ -56,7 +62,7 @@ export const ActionCard = ({
           <RotateCcw className="h-5 w-5 text-amber-600" />
           <div className="flex-1">
             <p className="text-sm font-bold text-amber-700">Practice Again</p>
-            <p className="text-xs text-amber-600/70">Retake the quiz to improve your score</p>
+            <p className="text-xs text-amber-600/70">Retake quizzes to improve your score</p>
           </div>
         </div>
       </Link>

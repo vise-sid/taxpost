@@ -131,13 +131,23 @@ Call once at the end: show_test_card(type: "start_test").
 ## STATUS-BASED BEHAVIOR
 
 ### teaching:
+If score context mentions the user just finished a lesson quiz:
+1. Give brief feedback on their score (1 sentence — "8/10, solid." or "5/10 — let's review a couple things.")
+2. If score was below 70%, briefly mention what they likely missed (1-2 sentences max).
+3. Then immediately call show_test_card(type: "start_test") to send them to the next lesson quiz.
+4. Don't re-teach the whole unit. The quizzes are the learning reinforcement.
+
+If no score context (fresh start):
 Follow the content note structure as described above.
+
+If all lessons are done:
+Acknowledge completion. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
 
 ### testing:
 Say "You have a test in progress." Call show_test_card(type: "resume_test").
 
 ### completed:
-Acknowledge the score. If low, briefly re-explain weak areas. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
+All lessons done. Acknowledge overall score. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
 
 ## RULES
 - Follow the content note structure exactly. Same order, same sections.
@@ -199,21 +209,50 @@ export async function POST(req: Request) {
     return Response.json({ error: "Unit not found" }, { status: 404 });
   }
 
-  // Build score context if completed
+  // Build per-lesson completion tracking
+  const lessonIds = unit.lessons.map((l) => l.id);
+  const completions = await db.query.lessonCompletions.findMany({
+    where: eq(lessonCompletions.userId, userId),
+  });
+  const unitCompletions = completions.filter((c) => lessonIds.includes(c.lessonId));
+  const completedLessonIds = new Set(unitCompletions.map((c) => c.lessonId));
+
+  // Find next uncompleted lesson
+  const nextLesson = unit.lessons.find((l) => !completedLessonIds.has(l.id));
+  const allLessonsDone = unit.lessons.every((l) => completedLessonIds.has(l.id));
+  const lastCompletion = unitCompletions.sort((a, b) =>
+    new Date(b.completedAt ?? 0).getTime() - new Date(a.completedAt ?? 0).getTime()
+  )[0];
+
+  // Build score context
   let scoreContext = "";
-  if (status === "completed" || status === "testing") {
-    const lessonIds = unit.lessons.map((l) => l.id);
-    const completions = await db.query.lessonCompletions.findMany({
-      where: and(
-        eq(lessonCompletions.userId, userId),
-      ),
-    });
-    const unitCompletions = completions.filter((c) => lessonIds.includes(c.lessonId));
-    if (unitCompletions.length > 0) {
-      const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
-      const totalQuestions = unitCompletions.reduce((sum, c) => sum + (c.totalQuestions ?? 0), 0);
-      scoreContext = `User's test results: ${totalScore}/${totalQuestions} correct (${Math.round((totalScore / totalQuestions) * 100)}%).`;
+
+  // If user was "testing" and has new completions, they just came back from a quiz
+  if (status === "testing" && lastCompletion) {
+    const lastLessonTitle = unit.lessons.find((l) => l.id === lastCompletion.lessonId)?.title || "the quiz";
+    scoreContext = `The user just finished "${lastLessonTitle}": ${lastCompletion.score ?? 0}/${lastCompletion.totalQuestions ?? 0} correct.`;
+    scoreContext += `\n${completedLessonIds.size} of ${unit.lessons.length} lessons completed in this unit.`;
+    if (nextLesson) {
+      scoreContext += `\nNext lesson to quiz: "${nextLesson.title}" (lesson ID ${nextLesson.id}).`;
+      scoreContext += `\nGive brief feedback on their score, then call show_test_card(type: "start_test") to start the next quiz.`;
+    } else {
+      scoreContext += `\nAll lessons in this unit are complete! Congratulate them and offer practice_again and next_unit.`;
     }
+  } else if (allLessonsDone) {
+    const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
+    const totalQuestions = unitCompletions.reduce((sum, c) => sum + (c.totalQuestions ?? 0), 0);
+    scoreContext = `All ${unit.lessons.length} lessons completed. Overall: ${totalScore}/${totalQuestions} (${Math.round((totalScore / totalQuestions) * 100)}%).`;
+    scoreContext += `\nOffer practice_again and next_unit.`;
+  }
+
+  // Determine effective status
+  let effectiveStatus = status;
+  if (status === "testing" && lastCompletion) {
+    // User returned from quiz — switch to teaching/feedback mode
+    effectiveStatus = allLessonsDone ? "completed" : "teaching";
+    // Update DB status
+    await db.update(chatSessions).set({ status: effectiveStatus, updatedAt: new Date() })
+      .where(and(eq(chatSessions.userId, userId), eq(chatSessions.unitId, unitId)));
   }
 
   // Load teaching content
@@ -224,7 +263,7 @@ export async function POST(req: Request) {
     unit.title,
     unit.course.title,
     content?.markdown || "No teaching material available.",
-    status,
+    effectiveStatus,
     scoreContext
   );
 
@@ -276,18 +315,30 @@ export async function POST(req: Request) {
         }
         if (fc.name === "show_test_card" && fc.args?.type) {
           const cardType = fc.args.type as string;
-          // Determine the right lesson/unit IDs for navigation
-          const firstLesson = unit.lessons[0];
-          const nextUnitId = unitId + 1; // simplified — could query for actual next unit
+          // Link to the next uncompleted lesson, or first lesson for practice
+          const targetLesson = cardType === "practice_again"
+            ? unit.lessons[0]
+            : (nextLesson || unit.lessons[0]);
+
+          // Find actual next unit
+          const allUnits = await db.query.units.findMany({
+            where: eq(units.courseId, unit.courseId),
+            orderBy: (u, { asc }) => [asc(u.order)],
+            columns: { id: true, order: true },
+          });
+          const currentIdx = allUnits.findIndex((u) => u.id === unitId);
+          const actualNextUnit = allUnits[currentIdx + 1];
 
           actionCards.push({
             type: cardType,
             unitId,
-            lessonId: firstLesson?.id,
+            lessonId: targetLesson?.id,
             unitTitle: unit.title,
+            lessonTitle: targetLesson?.title,
             lessonCount: unit.lessons.length,
-            questionCount: unit.lessons.reduce((s, l) => s + l.challenges.length, 0),
-            nextUnitId,
+            completedCount: completedLessonIds.size,
+            questionCount: targetLesson?.challenges?.length || 0,
+            nextUnitId: actualNextUnit?.id,
           });
 
           if (cardType === "start_test" || cardType === "resume_test" || cardType === "practice_again") {
