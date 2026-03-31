@@ -210,8 +210,8 @@ export async function POST(req: Request) {
     });
     const unitCompletions = completions.filter((c) => lessonIds.includes(c.lessonId));
     if (unitCompletions.length > 0) {
-      const totalScore = unitCompletions.reduce((sum, c) => sum + c.score, 0);
-      const totalQuestions = unitCompletions.reduce((sum, c) => sum + c.totalQuestions, 0);
+      const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
+      const totalQuestions = unitCompletions.reduce((sum, c) => sum + (c.totalQuestions ?? 0), 0);
       scoreContext = `User's test results: ${totalScore}/${totalQuestions} correct (${Math.round((totalScore / totalQuestions) * 100)}%).`;
     }
   }
