@@ -6,23 +6,29 @@ import remarkGfm from "remark-gfm";
 
 import type { ChatMessage } from "../chat-lesson";
 import { QuizCard } from "./quiz-card";
+import { ComparisonCard } from "./comparison-card";
+import { ResponseChips } from "./response-chips";
 
 type MessageListProps = {
   messages: ChatMessage[];
   isLoading: boolean;
   onQuizAnswer: (messageId: string, optionId: number) => void;
+  suggestedResponses: string[];
+  onChipSelect: (text: string) => void;
 };
 
 export const MessageList = ({
   messages,
   isLoading,
   onQuizAnswer,
+  suggestedResponses,
+  onChipSelect,
 }: MessageListProps) => {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, isLoading]);
+  }, [messages, isLoading, suggestedResponses]);
 
   return (
     <div className="flex-1 overflow-y-auto px-4 py-6">
@@ -41,6 +47,19 @@ export const MessageList = ({
                 correct={msg.quizCorrect}
                 selectedOptionId={msg.selectedOptionId}
                 onAnswer={onQuizAnswer}
+              />
+            );
+          }
+
+          if (msg.comparisonData) {
+            return (
+              <ComparisonCard
+                key={msg.id}
+                title={msg.comparisonData.title}
+                oldLabel={msg.comparisonData.oldLabel}
+                oldText={msg.comparisonData.oldText}
+                newLabel={msg.comparisonData.newLabel}
+                newText={msg.comparisonData.newText}
               />
             );
           }
@@ -65,6 +84,15 @@ export const MessageList = ({
 
           return null;
         })}
+
+        {/* Response chips — show after the last message */}
+        {suggestedResponses.length > 0 && !isLoading && (
+          <ResponseChips
+            options={suggestedResponses}
+            onSelect={onChipSelect}
+            disabled={isLoading}
+          />
+        )}
 
         {isLoading && (
           <div className="text-sm text-neutral-400">Thinking...</div>

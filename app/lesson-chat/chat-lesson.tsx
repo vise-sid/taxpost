@@ -37,6 +37,13 @@ export type ChatMessage = {
   quizAnswered?: boolean;
   quizCorrect?: boolean;
   selectedOptionId?: number;
+  comparisonData?: {
+    title: string;
+    oldLabel: string;
+    oldText: string;
+    newLabel: string;
+    newText: string;
+  };
 };
 
 type Lesson = {
@@ -71,6 +78,7 @@ export const ChatLesson = ({
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [lessonDone, setLessonDone] = useState(false);
   const [pendingQuiz, setPendingQuiz] = useState(false);
+  const [suggestedResponses, setSuggestedResponses] = useState<string[]>([]);
 
   const [, startTransition] = useTransition();
   const turnCountRef = useRef(0);
@@ -96,6 +104,7 @@ export const ChatLesson = ({
 
       turnCountRef.current += 1;
       setIsLoading(true);
+      setSuggestedResponses([]);
 
       try {
         const res = await fetch("/api/lesson-chat", {
@@ -111,80 +120,69 @@ export const ChatLesson = ({
 
         if (!res.ok) throw new Error("Request failed");
 
-        // Stream plain text (same pattern that worked in the test)
-        const reader = res.body!.getReader();
-        const decoder = new TextDecoder();
-        let fullText = "";
-        const agentMsgId = crypto.randomUUID();
-        let messageAdded = false;
+        const data = await res.json();
 
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          fullText += decoder.decode(value, { stream: true });
-
-          const displayText = fullText.replace(/\n__QUIZ__\d+/g, "").trim();
-          if (displayText && !messageAdded) {
-            // Add agent message only when we have actual text
-            setMessages((prev) => [
-              ...prev,
-              { id: agentMsgId, role: "agent", content: displayText },
-            ]);
-            messageAdded = true;
-          } else if (displayText && messageAdded) {
-            setMessages((prev) =>
-              prev.map((m) =>
-                m.id === agentMsgId ? { ...m, content: displayText } : m
-              )
-            );
-          }
+        // Add agent text message
+        if (data.text) {
+          setMessages((prev) => [
+            ...prev,
+            { id: crypto.randomUUID(), role: "agent", content: data.text },
+          ]);
         }
 
-        // After stream ends, extract quiz markers
-        const quizMatches = fullText.matchAll(/__QUIZ__(\d+)/g);
-        const agentText = fullText.replace(/\n__QUIZ__\d+/g, "").trim();
-
-        // Final text update
-        setMessages((prev) =>
-          prev.map((m) =>
-            m.id === agentMsgId ? { ...m, content: agentText } : m
-          )
-        );
-
-        // Add quiz cards for each marker
-        for (const match of quizMatches) {
-          const challengeId = Number(match[1]);
-          const challenge = challengeMap.get(challengeId);
-          if (challenge && !answeredIds.has(challengeId)) {
+        // Add comparison cards
+        if (data.comparisons) {
+          for (const comp of data.comparisons) {
             setMessages((prev) => [
               ...prev,
               {
                 id: crypto.randomUUID(),
                 role: "agent",
                 content: "",
-                quizData: {
-                  challengeId: challenge.id,
-                  question: challenge.question,
-                  options: challenge.options,
-                  explanation: challenge.explanation,
-                  explanationWrong: challenge.explanationWrong,
-                },
+                comparisonData: comp,
               },
             ]);
-            setPendingQuiz(true);
           }
         }
 
-        // Update Gemini history
+        // Add quiz cards
+        if (data.toolCalls) {
+          for (const challengeId of data.toolCalls) {
+            const challenge = challengeMap.get(challengeId);
+            if (challenge && !answeredIds.has(challengeId)) {
+              setMessages((prev) => [
+                ...prev,
+                {
+                  id: crypto.randomUUID(),
+                  role: "agent",
+                  content: "",
+                  quizData: {
+                    challengeId: challenge.id,
+                    question: challenge.question,
+                    options: challenge.options,
+                    explanation: challenge.explanation,
+                    explanationWrong: challenge.explanationWrong,
+                  },
+                },
+              ]);
+              setPendingQuiz(true);
+            }
+          }
+        }
+
+        // Set suggested responses — always show chips (fallback if agent didn't provide)
+        if (data.suggestedResponses?.length) {
+          setSuggestedResponses(data.suggestedResponses);
+        } else if (!data.toolCalls?.length) {
+          // Fallback chips when agent forgets to suggest
+          setSuggestedResponses(["Tell me more", "Got it, next", "I have a question"]);
+        }
+
+        // Update history with raw model content (preserves thought signatures)
         historyRef.current.push(
           { role: "user", parts: [{ text }] },
-          { role: "model", parts: [{ text: agentText || "OK" }] }
+          data.modelContent
         );
-
-        // Remove empty agent message if no text
-        if (!agentText) {
-          setMessages((prev) => prev.filter((m) => m.id !== agentMsgId));
-        }
       } catch {
         toast.error("Failed to get a response. Please try again.");
       } finally {
@@ -285,7 +283,13 @@ export const ChatLesson = ({
   return (
     <div className="flex h-full flex-col">
       <ChatHeader title={unitTitle} hearts={hearts} progress={progress} onExit={() => router.push("/learn-ai")} />
-      <MessageList messages={messages} isLoading={isLoading} onQuizAnswer={handleQuizAnswer} />
+      <MessageList
+        messages={messages}
+        isLoading={isLoading}
+        onQuizAnswer={handleQuizAnswer}
+        suggestedResponses={suggestedResponses}
+        onChipSelect={(text) => { setSuggestedResponses([]); sendMessage(text); }}
+      />
       {lessonDone ? (
         <div className="border-t bg-green-50 px-4 py-6 text-center">
           <p className="text-lg font-bold text-green-700">Unit Complete!</p>
