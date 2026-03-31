@@ -252,11 +252,17 @@ export async function POST(req: Request) {
     new Date(b.completedAt ?? 0).getTime() - new Date(a.completedAt ?? 0).getTime()
   )[0];
 
+  // Check if a NEW quiz was completed since the last chat interaction
+  const sessionUpdatedAt = session?.updatedAt ? new Date(session.updatedAt).getTime() : 0;
+  const hasNewCompletion = lastCompletion && lastCompletion.completedAt
+    ? new Date(lastCompletion.completedAt).getTime() > sessionUpdatedAt
+    : false;
+
   // Build score context
   let scoreContext = "";
 
-  // If user was "testing" and has new completions, they just came back from a quiz
-  if (status === "testing" && lastCompletion) {
+  if (status === "testing" && hasNewCompletion && lastCompletion) {
+    // User just finished a quiz and came back
     const lastLessonTitle = unit.lessons.find((l) => l.id === lastCompletion.lessonId)?.title || "the quiz";
     scoreContext = `The user just finished "${lastLessonTitle}": ${lastCompletion.score ?? 0}/${lastCompletion.totalQuestions ?? 0} correct.`;
     scoreContext += `\n${completedLessonIds.size} of ${unit.lessons.length} lessons completed in this unit.`;
@@ -265,6 +271,13 @@ export async function POST(req: Request) {
       scoreContext += `\nGive brief feedback on their score, then call show_test_card(type: "start_test") to start the next quiz.`;
     } else {
       scoreContext += `\nAll lessons in this unit are complete! Congratulate them and offer practice_again and next_unit.`;
+    }
+  } else if (status === "testing" && !hasNewCompletion) {
+    // User came back to chat without completing the quiz
+    scoreContext = `The user has a quiz in progress but hasn't completed it yet.`;
+    scoreContext += `\n${completedLessonIds.size} of ${unit.lessons.length} lessons completed so far.`;
+    if (nextLesson) {
+      scoreContext += `\nThe current quiz is for "${nextLesson.title}". Encourage them to continue or offer show_test_card(type: "resume_test").`;
     }
   } else if (allLessonsDone) {
     const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
@@ -275,12 +288,14 @@ export async function POST(req: Request) {
 
   // Determine effective status
   let effectiveStatus = status;
-  if (status === "testing" && lastCompletion) {
-    // User returned from quiz — switch to teaching/feedback mode
+  if (status === "testing" && hasNewCompletion) {
+    // User completed quiz — transition back
     effectiveStatus = allLessonsDone ? "completed" : "teaching";
-    // Update DB status
     await db.update(chatSessions).set({ status: effectiveStatus, updatedAt: new Date() })
       .where(and(eq(chatSessions.userId, userId), eq(chatSessions.unitId, unitId)));
+  } else if (status === "testing" && !hasNewCompletion) {
+    // User came back without completing — keep testing status
+    effectiveStatus = "testing";
   }
 
   // Load teaching content

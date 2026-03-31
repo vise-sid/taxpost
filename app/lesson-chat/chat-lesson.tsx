@@ -162,8 +162,8 @@ export const ChatLesson = ({
       // Fresh session — start teaching
       sendMessage("I'm ready to learn. Please begin the lesson.", true);
     } else if (initialStatus === "testing") {
-      // Returning from quiz — trigger agent to react to score
-      sendMessage("I just finished the quiz.", true);
+      // Returning while a quiz is in progress — let API figure out if they finished or not
+      sendMessage("I'm back.", true);
     }
   }, [sendMessage, initialMessages.length, initialStatus]);
 
