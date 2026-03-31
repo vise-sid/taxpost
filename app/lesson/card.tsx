@@ -31,16 +31,14 @@ export const Card = ({
   type,
 }: CardProps) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  // Use a silent data URI when no audio source to avoid empty string warning
-  const silentAudio = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
-  const [audio, _, controls] = useAudio({ src: audioSrc || silentAudio });
+  const [audio, _, controls] = useAudio({ src: audioSrc || "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=" });
 
   const handleClick = useCallback(() => {
     if (disabled) return;
 
-    void controls.play();
+    if (audioSrc) void controls.play();
     onClick();
-  }, [disabled, onClick, controls]);
+  }, [disabled, onClick, controls, audioSrc]);
 
   useKey(shortcut, handleClick, {}, [handleClick]);
 
