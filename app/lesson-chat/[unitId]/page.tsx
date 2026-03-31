@@ -54,7 +54,7 @@ const LearnAiUnitPage = async ({
       initialMessages={initialMessages}
       initialStatus={initialStatus}
       initialHearts={userProgress.hearts}
-      progress={progress}
+      unitProgress={progress}
     />
   );
 };

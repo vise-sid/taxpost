@@ -31,7 +31,9 @@ export const Card = ({
   type,
 }: CardProps) => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [audio, _, controls] = useAudio({ src: audioSrc || "" });
+  // Use a silent data URI when no audio source to avoid empty string warning
+  const silentAudio = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=";
+  const [audio, _, controls] = useAudio({ src: audioSrc || silentAudio });
 
   const handleClick = useCallback(() => {
     if (disabled) return;

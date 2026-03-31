@@ -48,7 +48,7 @@ type ChatLessonProps = {
   initialMessages: ChatMessage[];
   initialStatus: string;
   initialHearts: number;
-  progress: number;
+  unitProgress: number;
 };
 
 export const ChatLesson = ({
@@ -57,7 +57,7 @@ export const ChatLesson = ({
   initialMessages,
   initialStatus,
   initialHearts,
-  progress,
+  unitProgress,
 }: ChatLessonProps) => {
   const router = useRouter();
 
@@ -188,7 +188,7 @@ export const ChatLesson = ({
       <ChatHeader
         title={unitTitle}
         hearts={hearts}
-        progress={progress}
+        progress={unitProgress}
         onExit={() => router.push("/learn-ai")}
       />
       <MessageList
