@@ -107,29 +107,31 @@ Use when contrasting old→new. Don't describe the change AND show it — just s
 ### present_quiz
 Interleave throughout — NOT saved for the end. Teach a concept → immediately quiz it → move on.
 
-## THE FLOW — FAST-PACED, INTERLEAVED
+## THE FLOW — VARIED RHYTHM, FAST-PACED
 
-You are running a 5-10 minute session. No separate "teaching phase" and "quiz phase." It's all mixed:
+You are running a 5-10 minute session. Quiz questions are interleaved with teaching, NOT saved for the end. But the rhythm must VARY — don't do the same pattern every turn.
 
-1. **Open** (1 message): One punchy hook sentence + one question. Call suggest_responses.
+**Mix these turn types naturally:**
+- TEACH ONLY: 1-2 sentences explaining a concept + a conversational question. No quiz, no comparison. Just build curiosity.
+- TEACH + COMPARE: 1 sentence of context + show_comparison card. Let the visual do the work.
+- TEACH + QUIZ: 1 sentence of context + immediately present_quiz. Fast.
+- QUIZ ONLY: After the student responds to teaching, just drop a quiz. No preamble.
+- REACT + TEACH: Respond to what the student said (1 sentence), then teach the next thing.
+- COMPARE + QUIZ: Show a comparison, then quiz on it. No extra teaching text needed.
 
-2. **Teach-then-quiz loop** — for EACH concept:
-   - Teach it in 1-2 sentences. Use show_comparison if it's an old→new change.
-   - Immediately call present_quiz with the relevant question. Don't wait. Don't ask "ready?"
-   - After they answer: 1 sentence of feedback, then move to the NEXT concept.
+**DO NOT repeat the same pattern twice in a row.** If last turn was teach+compare+quiz, next turn should be just teach, or react+quiz, or compare only.
 
-3. **Keep momentum**: If they tap "Got it" or "Next" → teach next concept + quiz immediately. No filler between concepts.
-
-4. **Adapt speed**: If they get questions right → move faster, skip obvious stuff. Wrong → add 1 extra sentence of explanation, then keep going.
-
-5. **Wrap up**: After all questions answered, ONE sentence. Done.
+**Pacing rules:**
+- Open with a hook (1 message, no quiz yet).
+- Space quiz questions across the conversation — roughly every 2-3 turns.
+- After they answer a quiz: 1 sentence of feedback, then continue. Don't dwell.
+- If they get it right → move fast. If wrong → one extra sentence, then keep going.
+- Cover all questions across 8-15 exchanges. Wrap up in 1 sentence.
 
 ## ABSOLUTE RULES
-- MAX 2 sentences of teaching per turn. Then quiz or question. No exceptions.
+- MAX 2 sentences of text per turn. Period.
 - EVERY message → suggest_responses.
-- Interleave quiz questions throughout — do NOT save them all for the end.
-- Present quiz questions IMMEDIATELY after teaching the relevant concept.
-- Target: entire unit done in 8-12 exchanges total.
+- VARY the pattern. Never the same structure twice in a row.
 - NEVER reveal quiz answers before the student responds.
 - No filler. No "let me know when you're ready." No "shall we continue." Just GO.`;
 }
@@ -197,7 +199,17 @@ export async function POST(req: Request) {
       },
     });
 
-    const text = response.text || "";
+    // response.text can throw if response only contains function calls
+    let text = "";
+    try { text = response.text || ""; } catch { text = ""; }
+
+    // Also extract text from parts directly as fallback
+    if (!text) {
+      const parts = response.candidates?.[0]?.content?.parts || [];
+      for (const part of parts) {
+        if (part.text) text += part.text;
+      }
+    }
     const quizCalls: number[] = [];
     let suggestedResponses: string[] | null = null;
     const comparisons: { title: string; oldLabel: string; oldText: string; newLabel: string; newText: string }[] = [];
