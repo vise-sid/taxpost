@@ -6,6 +6,7 @@ import remarkGfm from "remark-gfm";
 
 import type { ChatMessage } from "../chat-lesson";
 import { ComparisonCard } from "./comparison-card";
+import { SectionMap } from "./section-map";
 import { InlineQuestion } from "./inline-question";
 import { ActionCard } from "./action-card";
 import { ResponseChips } from "./response-chips";
@@ -44,6 +45,16 @@ export const MessageList = ({
                 oldText={msg.comparisonData.oldText}
                 newLabel={msg.comparisonData.newLabel}
                 newText={msg.comparisonData.newText}
+              />
+            );
+          }
+
+          if (msg.sectionMapData) {
+            return (
+              <SectionMap
+                key={msg.id}
+                title={msg.sectionMapData.title}
+                mappings={msg.sectionMapData.mappings}
               />
             );
           }

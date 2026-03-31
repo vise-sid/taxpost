@@ -56,6 +56,31 @@ const toolDeclarations = [
     },
   },
   {
+    name: "show_section_map",
+    description: "Show a formatted table of old section → new section mappings. Use this whenever listing how sections were renumbered or reorganized. Much better than writing a markdown table.",
+    parameters: {
+      type: Type.OBJECT,
+      properties: {
+        title: { type: Type.STRING, description: "Table title (e.g. 'PGBP Section Mapping')" },
+        mappings: {
+          type: Type.ARRAY,
+          items: {
+            type: Type.OBJECT,
+            properties: {
+              oldSection: { type: Type.STRING, description: "Old section number" },
+              newSection: { type: Type.STRING, description: "New section number" },
+              subject: { type: Type.STRING, description: "What the section covers" },
+              changeType: { type: Type.STRING, description: "e.g. Renumbered, Restructured, New, Eliminated" },
+            },
+            required: ["oldSection", "newSection", "subject"],
+          },
+          description: "Array of section mappings",
+        },
+      },
+      required: ["title", "mappings"],
+    },
+  },
+  {
     name: "show_test_card",
     description: "Show a navigation card to start/resume the formal quiz or go to the next unit. Call this when teaching is complete.",
     parameters: {
@@ -123,7 +148,10 @@ Call after EVERY message. 2-3 options: one to continue ("Next"), one to dig deep
 Use after completing each ## section. You write the question + 2-4 options based on what you just covered.
 
 ### show_comparison
-Use ONLY when old and new are genuinely DIFFERENT. Don't show a comparison where both sides are the same — just say "no substantive change here." Good uses: section number mappings, structural reorganizations, eliminated provisions.
+Use for high-level before/after comparisons (e.g. "819 sections → 536 sections"). NOT for section number tables — use show_section_map for those.
+
+### show_section_map
+Use whenever you need to show how old sections map to new sections. ALWAYS use this instead of writing markdown tables. Provide title and an array of mappings with oldSection, newSection, subject, and changeType.
 
 ### show_test_card
 Call once at the end: show_test_card(type: "start_test").
@@ -296,6 +324,7 @@ export async function POST(req: Request) {
     let suggestedResponses: string[] | null = null;
     const comparisons: any[] = [];
     const inlineQuestions: any[] = [];
+    const sectionMaps: any[] = [];
     const actionCards: any[] = [];
     let newStatus = status;
 
@@ -311,6 +340,12 @@ export async function POST(req: Request) {
           inlineQuestions.push({
             question: fc.args.question as string,
             options: fc.args.options as string[],
+          });
+        }
+        if (fc.name === "show_section_map" && fc.args?.title) {
+          sectionMaps.push({
+            title: fc.args.title as string,
+            mappings: fc.args.mappings as any[],
           });
         }
         if (fc.name === "show_test_card" && fc.args?.type) {
@@ -369,6 +404,9 @@ export async function POST(req: Request) {
     for (const comp of comparisons) {
       newMessages.push({ id: crypto.randomUUID(), role: "agent", content: "", comparisonData: comp });
     }
+    for (const sm of sectionMaps) {
+      newMessages.push({ id: crypto.randomUUID(), role: "agent", content: "", sectionMapData: sm });
+    }
     for (const q of inlineQuestions) {
       newMessages.push({ id: crypto.randomUUID(), role: "agent", content: "", questionData: q });
     }
@@ -397,6 +435,7 @@ export async function POST(req: Request) {
       text,
       suggestedResponses,
       comparisons,
+      sectionMaps,
       inlineQuestions,
       actionCards,
       status: newStatus,

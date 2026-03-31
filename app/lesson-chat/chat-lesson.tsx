@@ -25,12 +25,18 @@ export type ChatMessage = {
   };
   questionAnswered?: boolean;
   questionSelected?: string;
+  sectionMapData?: {
+    title: string;
+    mappings: { oldSection: string; newSection: string; subject: string; changeType?: string }[];
+  };
   actionData?: {
     type: string;
     unitId: number;
     lessonId?: number;
+    lessonTitle?: string;
     unitTitle: string;
     lessonCount?: number;
+    completedCount?: number;
     questionCount?: number;
     nextUnitId?: number;
   };
@@ -96,6 +102,16 @@ export const ChatLesson = ({
             setMessages((prev) => [
               ...prev,
               { id: crypto.randomUUID(), role: "agent", content: "", comparisonData: comp },
+            ]);
+          }
+        }
+
+        // Add section maps
+        if (data.sectionMaps?.length) {
+          for (const sm of data.sectionMaps) {
+            setMessages((prev) => [
+              ...prev,
+              { id: crypto.randomUUID(), role: "agent", content: "", sectionMapData: sm },
             ]);
           }
         }
