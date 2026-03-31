@@ -37,12 +37,12 @@ export const MobileHeader = async () => {
         </span>
       </Link>
 
-      <Link href="/shop" className="flex items-center gap-1.5">
+      <Link href="/settings" className="flex items-center gap-1.5">
         <Image src="/points.svg" height={24} width={24} alt="Points" />
         <span className="text-sm font-bold text-brand-navy">{points}</span>
       </Link>
 
-      <Link href="/shop" className="flex items-center gap-1.5">
+      <Link href="/settings" className="flex items-center gap-1.5">
         <Image src="/heart.svg" height={20} width={20} alt="Hearts" />
         <span className="text-sm font-bold text-rose-500">{hearts}</span>
       </Link>

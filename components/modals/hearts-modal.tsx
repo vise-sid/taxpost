@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
 
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
+import { refillHearts } from "@/actions/user-progress";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -14,18 +15,25 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
+import { POINTS_TO_REFILL } from "@/constants";
 import { useHeartsModal } from "@/store/use-hearts-modal";
 
 export const HeartsModal = () => {
-  const router = useRouter();
   const [isClient, setIsClient] = useState(false);
+  const [pending, startTransition] = useTransition();
   const { isOpen, close } = useHeartsModal();
 
   useEffect(() => setIsClient(true), []);
 
-  const onClick = () => {
-    close();
-    router.push("/store");
+  const onRefill = () => {
+    startTransition(() => {
+      refillHearts()
+        .then(() => {
+          toast.success("Hearts refilled!");
+          close();
+        })
+        .catch(() => toast.error("Not enough points to refill."));
+    });
   };
 
   if (!isClient) return null;
@@ -48,7 +56,8 @@ export const HeartsModal = () => {
           </DialogTitle>
 
           <DialogDescription className="text-center text-base">
-            Get Pro for unlimited hearts, or purchase them in the store.
+            Spend {POINTS_TO_REFILL} points to refill your hearts, or try again
+            later.
           </DialogDescription>
         </DialogHeader>
 
@@ -58,9 +67,31 @@ export const HeartsModal = () => {
               variant="primary"
               className="w-full"
               size="lg"
-              onClick={onClick}
+              onClick={onRefill}
+              disabled={pending}
             >
-              Get unlimited hearts
+              {pending ? (
+                "Refilling..."
+              ) : (
+                <div className="flex items-center gap-2">
+                  <Image
+                    src="/heart.svg"
+                    alt="Heart"
+                    height={20}
+                    width={20}
+                  />
+                  Refill hearts
+                  <span className="ml-1 flex items-center gap-1 rounded-lg bg-white/20 px-2 py-0.5 text-xs">
+                    <Image
+                      src="/points.svg"
+                      alt="Points"
+                      height={14}
+                      width={14}
+                    />
+                    {POINTS_TO_REFILL}
+                  </span>
+                </div>
+              )}
             </Button>
 
             <Button

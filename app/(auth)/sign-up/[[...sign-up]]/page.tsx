@@ -16,6 +16,7 @@ const SignUpPage = () => {
   const [step, setStep] = useState<"details" | "code">("details");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [verified, setVerified] = useState(false);
 
   const handleSendCode = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -62,17 +63,19 @@ const SignUpPage = () => {
       const result = await signUp.attemptEmailAddressVerification({ code });
 
       if (result.status === "complete" && result.createdSessionId) {
+        setVerified(true);
         await setActive({ session: result.createdSessionId });
         router.push("/learn");
+      } else {
+        setLoading(false);
       }
     } catch (err: any) {
+      setLoading(false);
       const msg =
         err?.errors?.[0]?.longMessage ||
         err?.errors?.[0]?.message ||
         "Invalid code. Please try again.";
       setError(msg);
-    } finally {
-      setLoading(false);
     }
   };
 
@@ -109,6 +112,17 @@ const SignUpPage = () => {
       setLoading(false);
     }
   };
+
+  if (verified) {
+    return (
+      <main className="flex flex-1 flex-col items-center justify-center">
+        <Loader2 className="h-8 w-8 animate-spin text-brand-navy" />
+        <p className="mt-4 text-sm font-semibold text-neutral-500">
+          Setting up your account…
+        </p>
+      </main>
+    );
+  }
 
   return (
     <>

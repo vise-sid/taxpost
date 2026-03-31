@@ -1,6 +1,6 @@
 "use server";
 
-import { auth } from "@clerk/nextjs/server";
+import { auth, currentUser } from "@clerk/nextjs/server";
 import { eq } from "drizzle-orm";
 import { revalidatePath } from "next/cache";
 
@@ -19,12 +19,15 @@ export const getUserReminderPrefs = async () => {
 };
 
 export const upsertReminderPrefs = async (data: {
-  email: string;
   reminderEnabled: boolean;
   preferredTime: string;
 }) => {
   const { userId } = await auth();
   if (!userId) throw new Error("Unauthorized.");
+
+  const user = await currentUser();
+  const email = user?.emailAddresses[0]?.emailAddress;
+  if (!email) throw new Error("No email found on account.");
 
   const existing = await db.query.userReminderPrefs.findFirst({
     where: eq(userReminderPrefs.userId, userId),
@@ -34,7 +37,7 @@ export const upsertReminderPrefs = async (data: {
     await db
       .update(userReminderPrefs)
       .set({
-        email: data.email,
+        email,
         reminderEnabled: data.reminderEnabled,
         preferredTime: data.preferredTime,
       })
@@ -42,7 +45,7 @@ export const upsertReminderPrefs = async (data: {
   } else {
     await db.insert(userReminderPrefs).values({
       userId,
-      email: data.email,
+      email,
       reminderEnabled: data.reminderEnabled,
       preferredTime: data.preferredTime,
     });

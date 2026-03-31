@@ -1,12 +1,8 @@
 import { Flame, Target, Trophy, Zap } from "lucide-react";
-import Image from "next/image";
-import { redirect } from "next/navigation";
+import Link from "next/link";
 
-import { FeedWrapper } from "@/components/feed-wrapper";
-import { StickyWrapper } from "@/components/sticky-wrapper";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
-import { UserProgress } from "@/components/user-progress";
 import {
   getTopicProgress,
   getUserProgress,
@@ -31,21 +27,27 @@ const DashboardPage = async () => {
       weakAreasData,
     ]);
 
-  if (!userProgress || !userProgress.activeCourse) redirect("/courses");
+  if (!userProgress || !userProgress.activeCourse) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-4 px-6">
+        <Target className="h-20 w-20 text-brand-navy/20" />
+        <h1 className="text-2xl font-bold text-neutral-800">Your Progress</h1>
+        <p className="text-center text-muted-foreground">
+          Select a course first to start tracking your progress.
+        </p>
+        <Link
+          href="/courses"
+          className="rounded-2xl bg-brand-navy px-8 py-3 font-bold uppercase tracking-wide text-white shadow-[0_4px_0_0] shadow-brand-navy/40 transition-all hover:brightness-110 active:translate-y-[2px] active:shadow-none"
+        >
+          Choose a Course
+        </Link>
+      </div>
+    );
+  }
 
   return (
-    <div className="flex flex-row-reverse gap-[48px] px-6">
-      <StickyWrapper>
-        <UserProgress
-          activeCourse={userProgress.activeCourse}
-          hearts={userProgress.hearts}
-          points={userProgress.points}
-          streak={streak?.currentStreak ?? 0}
-        />
-      </StickyWrapper>
-
-      <FeedWrapper>
-        <div className="flex w-full flex-col items-center">
+    <div className="px-6">
+      <div className="mx-auto flex w-full max-w-[600px] flex-col items-center">
           <h1 className="my-6 text-center text-2xl font-bold text-brand-navy">
             Your Progress
           </h1>
@@ -114,7 +116,7 @@ const DashboardPage = async () => {
             Topic Progress
           </h2>
 
-          <div className="mb-8 flex w-full flex-col gap-y-4">
+          <div className="mb-8 flex w-full flex-col gap-y-2">
             {topicProgress.map((topic, index) => (
               <div
                 key={topic.id}
@@ -126,20 +128,20 @@ const DashboardPage = async () => {
                     {topic.title.charAt(0)}
                   </span>
                 </div>
-                <div className="flex flex-1 flex-col gap-y-1">
+                <div className="min-w-0 flex-1">
                   <div className="flex items-center justify-between">
-                    <p className="text-sm font-bold text-brand-navy">
+                    <p className="truncate text-sm font-bold text-brand-navy">
                       {topic.title}
                     </p>
-                    <p className="text-xs text-muted-foreground">
-                      {topic.completedChallenges}/{topic.totalChallenges}
-                    </p>
+                    <span className="ml-2 shrink-0 text-sm font-bold text-brand-navy">
+                      {topic.percentage}%
+                    </span>
                   </div>
-                  <Progress value={topic.percentage} className="h-2" />
+                  <p className="text-xs text-muted-foreground">
+                    {topic.completedChallenges}/{topic.totalChallenges} challenges
+                  </p>
+                  <Progress value={topic.percentage} className="mt-1 h-2" />
                 </div>
-                <span className="text-sm font-bold text-brand-navy">
-                  {topic.percentage}%
-                </span>
               </div>
             ))}
           </div>
@@ -177,8 +179,7 @@ const DashboardPage = async () => {
               </div>
             </>
           )}
-        </div>
-      </FeedWrapper>
+      </div>
     </div>
   );
 };

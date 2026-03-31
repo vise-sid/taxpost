@@ -109,7 +109,7 @@ export const refillHearts = async () => {
     })
     .where(eq(userProgress.userId, currentUserProgress.userId));
 
-  revalidatePath("/shop");
+  revalidatePath("/settings");
   revalidatePath("/learn");
   revalidatePath("/quests");
   revalidatePath("/leaderboard");

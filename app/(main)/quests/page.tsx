@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { redirect } from "next/navigation";
+import Link from "next/link";
 
 import { FeedWrapper } from "@/components/feed-wrapper";
 import { StickyWrapper } from "@/components/sticky-wrapper";
@@ -14,7 +14,23 @@ const QuestsPage = async () => {
     getUserStreak(),
   ]);
 
-  if (!userProgress || !userProgress.activeCourse) redirect("/courses");
+  if (!userProgress || !userProgress.activeCourse) {
+    return (
+      <div className="flex h-full flex-col items-center justify-center gap-4 px-6">
+        <Image src="/quests.svg" alt="Quests" height={90} width={90} />
+        <h1 className="text-2xl font-bold text-neutral-800">Quests</h1>
+        <p className="text-center text-muted-foreground">
+          Select a course first to start earning quest points.
+        </p>
+        <Link
+          href="/courses"
+          className="rounded-2xl bg-brand-navy px-8 py-3 font-bold uppercase tracking-wide text-white shadow-[0_4px_0_0] shadow-brand-navy/40 transition-all hover:brightness-110 active:translate-y-[2px] active:shadow-none"
+        >
+          Choose a Course
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-row-reverse gap-[48px] px-6">

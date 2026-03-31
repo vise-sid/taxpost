@@ -1,22 +1,28 @@
 "use client";
 
 import { useClerk, useUser } from "@clerk/nextjs";
-import { LogOut, Trash2 } from "lucide-react";
+import { Flame, Heart, LogOut, Trash2, Zap } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import { toast } from "sonner";
 
 import { upsertReminderPrefs } from "@/actions/reminder-prefs";
+import { refillHearts } from "@/actions/user-progress";
 import { Button } from "@/components/ui/button";
+import { MAX_HEARTS, POINTS_TO_REFILL } from "@/constants";
 
 type SettingsFormProps = {
-  initialEmail: string;
+  hearts: number;
+  points: number;
+  streak: number;
   initialEnabled: boolean;
   initialTime: string;
 };
 
 export const SettingsForm = ({
-  initialEmail,
+  hearts,
+  points,
+  streak,
   initialEnabled,
   initialTime,
 }: SettingsFormProps) => {
@@ -24,7 +30,6 @@ export const SettingsForm = ({
   const { signOut } = useClerk();
   const router = useRouter();
 
-  const [email, setEmail] = useState(initialEmail);
   const [enabled, setEnabled] = useState(initialEnabled);
   const [time, setTime] = useState(initialTime);
   const [pending, startTransition] = useTransition();
@@ -37,19 +42,22 @@ export const SettingsForm = ({
   const userEmail = user?.emailAddresses[0]?.emailAddress ?? "";
 
   const onSave = () => {
-    if (!email) {
-      toast.error("Please enter your email address.");
-      return;
-    }
-
     startTransition(() => {
       upsertReminderPrefs({
-        email,
         reminderEnabled: enabled,
         preferredTime: time,
       })
         .then(() => toast.success("Settings saved!"))
         .catch(() => toast.error("Something went wrong."));
+    });
+  };
+
+  const onRefillHearts = () => {
+    if (pending || hearts === MAX_HEARTS || points < POINTS_TO_REFILL) return;
+    startTransition(() => {
+      refillHearts()
+        .then(() => toast.success("Hearts refilled!"))
+        .catch(() => toast.error("Not enough points to refill."));
     });
   };
 
@@ -102,24 +110,69 @@ export const SettingsForm = ({
         </div>
       </div>
 
+      {/* Stats row */}
+      <div className="grid grid-cols-3 gap-3">
+        <div className="flex flex-col items-center rounded-xl border-2 border-neutral-200 py-3">
+          <Flame className={`h-6 w-6 ${streak > 0 ? "fill-brand-orange text-brand-orange" : "text-gray-300"}`} />
+          <span className="mt-1 text-lg font-bold text-neutral-800">{streak}</span>
+          <span className="text-xs text-muted-foreground">Streak</span>
+        </div>
+        <div className="flex flex-col items-center rounded-xl border-2 border-neutral-200 py-3">
+          <Zap className="h-6 w-6 text-brand-orange" />
+          <span className="mt-1 text-lg font-bold text-neutral-800">{points}</span>
+          <span className="text-xs text-muted-foreground">XP</span>
+        </div>
+        <div className="flex flex-col items-center rounded-xl border-2 border-neutral-200 py-3">
+          <Heart className="h-6 w-6 fill-rose-500 text-rose-500" />
+          <span className="mt-1 text-lg font-bold text-neutral-800">{hearts}</span>
+          <span className="text-xs text-muted-foreground">Hearts</span>
+        </div>
+      </div>
+
+      {/* Hearts section */}
+      <div className="space-y-4">
+        <h2 className="text-sm font-bold uppercase tracking-wide text-neutral-400">
+          Hearts
+        </h2>
+        <div className="flex items-center justify-between rounded-xl border-2 p-4">
+          <div className="flex items-center gap-3">
+            <Heart className="h-6 w-6 fill-rose-500 text-rose-500" />
+            <div>
+              <p className="font-bold text-neutral-700">
+                {hearts} / {MAX_HEARTS} hearts
+              </p>
+              <p className="text-sm text-muted-foreground">
+                {hearts === MAX_HEARTS
+                  ? "Your hearts are full!"
+                  : `Refill costs ${POINTS_TO_REFILL} points`}
+              </p>
+            </div>
+          </div>
+          <Button
+            onClick={onRefillHearts}
+            disabled={
+              pending || hearts === MAX_HEARTS || points < POINTS_TO_REFILL
+            }
+            size="sm"
+            className="bg-brand-navy hover:bg-brand-navy/90"
+          >
+            {hearts === MAX_HEARTS ? "Full" : "Refill"}
+          </Button>
+        </div>
+      </div>
+
       {/* Reminders section */}
       <div className="space-y-4">
         <h2 className="text-sm font-bold uppercase tracking-wide text-neutral-400">
           Reminders
         </h2>
 
-        {/* Email */}
-        <div className="space-y-2">
-          <label className="text-sm font-bold text-neutral-700">
-            Email for reminders
-          </label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="you@example.com"
-            className="w-full rounded-xl border-2 px-4 py-3 text-sm outline-none focus:border-brand-navy"
-          />
+        {/* Email (read-only, uses login email) */}
+        <div className="flex items-center justify-between rounded-xl border-2 border-neutral-200 bg-neutral-50 p-4">
+          <div>
+            <p className="text-sm font-bold text-neutral-700">Reminder email</p>
+            <p className="text-sm text-muted-foreground">{userEmail}</p>
+          </div>
         </div>
 
         {/* Enable/Disable */}
