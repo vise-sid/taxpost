@@ -77,12 +77,15 @@ const LearnAiPage = async () => {
                   const allDone =
                     totalChallenges > 0 && completedChallenges === totalChallenges;
                   const hasContent = totalChallenges > 0;
+                  const progressPct = totalChallenges > 0
+                    ? Math.round((completedChallenges / totalChallenges) * 100)
+                    : 0;
 
                   return (
                     <Link
                       key={unit.id}
                       href={hasContent ? `/lesson-chat/${unit.id}` : "#"}
-                      className={`flex items-center justify-between rounded-xl border-2 p-4 transition-colors ${
+                      className={`block rounded-xl border-2 p-4 transition-colors ${
                         hasContent
                           ? "hover:border-brand-navy/30 hover:bg-brand-navy/5"
                           : "opacity-40 cursor-not-allowed"
@@ -92,7 +95,7 @@ const LearnAiPage = async () => {
                         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-navy/10">
                           <Bot className="h-5 w-5 text-brand-navy" />
                         </div>
-                        <div>
+                        <div className="flex-1">
                           <span className="text-sm font-semibold text-neutral-700">
                             {unit.title}
                           </span>
@@ -100,11 +103,23 @@ const LearnAiPage = async () => {
                             {unit.lessons.length} lessons · {totalChallenges} questions
                           </p>
                         </div>
+                        {allDone ? (
+                          <span className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-bold text-green-600">
+                            Done
+                          </span>
+                        ) : progressPct > 0 ? (
+                          <span className="text-xs font-bold text-brand-navy">
+                            {progressPct}%
+                          </span>
+                        ) : null}
                       </div>
-                      {allDone && (
-                        <span className="rounded-full bg-green-100 px-2 py-0.5 text-xs font-bold text-green-600">
-                          Done
-                        </span>
+                      {progressPct > 0 && !allDone && (
+                        <div className="mt-2 ml-[52px] h-1.5 rounded-full bg-neutral-100">
+                          <div
+                            className="h-1.5 rounded-full bg-brand-navy transition-all"
+                            style={{ width: `${progressPct}%` }}
+                          />
+                        </div>
                       )}
                     </Link>
                   );

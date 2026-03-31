@@ -18,7 +18,7 @@ export const SectionMap = ({ title, mappings }: SectionMapProps) => {
         {mappings.map((m, i) => (
           <div key={i} className="flex items-center gap-3 px-4 py-2.5 text-sm">
             <div className="w-16 shrink-0">
-              <span className="font-mono text-xs text-red-500 line-through">{m.oldSection}</span>
+              <span className="font-mono text-xs text-red-500">{m.oldSection}</span>
             </div>
             <span className="text-neutral-300">→</span>
             <div className="w-16 shrink-0">

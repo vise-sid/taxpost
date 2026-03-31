@@ -3,7 +3,7 @@ import { and, eq } from "drizzle-orm";
 import { auth } from "@clerk/nextjs/server";
 
 import db from "@/db/drizzle";
-import { units, chatSessions } from "@/db/schema";
+import { units, chatSessions, lessonCompletions } from "@/db/schema";
 import { getUserProgress } from "@/db/queries";
 
 import { ChatLesson } from "../chat-lesson";
@@ -35,9 +35,17 @@ const LearnAiUnitPage = async ({
 
   if (!unit || !userProgress) redirect("/learn-ai");
 
+  // Compute lesson completion progress
+  const completions = await db.query.lessonCompletions.findMany({
+    where: eq(lessonCompletions.userId, userId),
+  });
+  const lessonIds = new Set(unit.lessons.map((l) => l.id));
+  const completedCount = completions.filter((c) => lessonIds.has(c.lessonId)).length;
+  const totalLessons = unit.lessons.length;
+  const progress = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
+
   const initialMessages = (session?.messages as any[]) || [];
   const initialStatus = session?.status || "teaching";
-  const firstLessonId = unit.lessons[0]?.id;
 
   return (
     <ChatLesson
@@ -46,7 +54,7 @@ const LearnAiUnitPage = async ({
       initialMessages={initialMessages}
       initialStatus={initialStatus}
       initialHearts={userProgress.hearts}
-      firstLessonId={firstLessonId}
+      progress={progress}
     />
   );
 };

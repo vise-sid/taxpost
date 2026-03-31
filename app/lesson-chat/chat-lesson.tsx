@@ -48,7 +48,7 @@ type ChatLessonProps = {
   initialMessages: ChatMessage[];
   initialStatus: string;
   initialHearts: number;
-  firstLessonId?: number;
+  progress: number;
 };
 
 export const ChatLesson = ({
@@ -57,6 +57,7 @@ export const ChatLesson = ({
   initialMessages,
   initialStatus,
   initialHearts,
+  progress,
 }: ChatLessonProps) => {
   const router = useRouter();
 
@@ -152,13 +153,19 @@ export const ChatLesson = ({
     [unitId]
   );
 
-  // Auto-start on mount (only if no existing messages)
+  // Auto-start on mount
   useEffect(() => {
-    if (!startedRef.current && initialMessages.length === 0) {
-      startedRef.current = true;
+    if (startedRef.current) return;
+    startedRef.current = true;
+
+    if (initialMessages.length === 0) {
+      // Fresh session — start teaching
       sendMessage("I'm ready to learn. Please begin the lesson.", true);
+    } else if (initialStatus === "testing") {
+      // Returning from quiz — trigger agent to react to score
+      sendMessage("I just finished the quiz.", true);
     }
-  }, [sendMessage, initialMessages.length]);
+  }, [sendMessage, initialMessages.length, initialStatus]);
 
   // Handle inline question answer
   const handleQuestionAnswer = useCallback(
@@ -175,8 +182,6 @@ export const ChatLesson = ({
     },
     [sendMessage]
   );
-
-  const progress = 0; // Progress tracked by quiz page now, not here
 
   return (
     <div className="flex h-full flex-col">
