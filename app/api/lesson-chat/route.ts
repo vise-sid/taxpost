@@ -240,7 +240,7 @@ export async function POST(req: Request) {
       contents,
       config: {
         systemInstruction: systemPrompt,
-        tools: [{ functionDeclarations: toolDeclarations as FunctionDeclaration[] }],
+        tools: [{ functionDeclarations: toolDeclarations as unknown as FunctionDeclaration[] }],
       },
     });
 
