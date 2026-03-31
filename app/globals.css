@@ -41,9 +41,9 @@ body,
     --radius: 0.5rem;
 
     /* Brand tokens */
-    --brand-navy: 235 67% 30%;
+    --brand-navy: 220 80% 50%;
     --brand-orange: 24 100% 50%;
-    --brand-navy-light: 235 67% 95%;
+    --brand-navy-light: 220 80% 95%;
     --brand-orange-light: 24 100% 95%;
     --brand-success: 122 39% 49%;
   }

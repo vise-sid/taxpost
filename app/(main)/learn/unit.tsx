@@ -1,8 +1,6 @@
 import { lessons, units, unitTierProgress } from "@/db/schema";
-import { TIER_LABELS } from "@/constants";
 
 import { LessonButton } from "./lesson-button";
-import { TierBadge } from "./tier-badge";
 import { UnitBanner } from "./unit-banner";
 
 type UnitProps = {
@@ -79,60 +77,29 @@ export const Unit = ({
     for (const l of allLessonsFlat) unlockedIds.add(l.id);
   }
 
-  const tiers = [1, 2, 3] as const;
-
   return (
     <>
       <UnitBanner title={title} description={description} isFirst={isFirst} />
 
-      {tiers.map((tier) => {
-        const tierLessons = lessonsByTier.get(tier) ?? [];
-        if (tierLessons.length === 0) return null;
+      <div className="relative flex flex-col items-center">
+        {allLessonsFlat.map((lesson, i) => {
+          const isCurrent = lesson.id === activeLesson?.id;
+          const isLocked = !unlockedIds.has(lesson.id);
 
-        const tp = tierProgressMap.get(tier);
-        const isCompleted = !!tp?.completedAt;
-        const label = TIER_LABELS[tier] ?? `Tier ${tier}`;
-
-        // Calculate completion percentage for this tier
-        const completedCount = tierLessons.filter((l) => l.completed).length;
-        const totalCount = tierLessons.length;
-        const percentage =
-          totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
-
-        return (
-          <div key={tier}>
-            <TierBadge
-              tier={tier}
-              label={label}
-              isUnlocked={true}
-              isCompleted={isCompleted}
-              percentage={percentage}
-              completedCount={completedCount}
-              totalCount={totalCount}
+          return (
+            <LessonButton
+              key={lesson.id}
+              id={lesson.id}
+              index={i}
+              totalCount={allLessonsFlat.length - 1}
+              current={isCurrent}
+              locked={isLocked}
+              completed={lesson.completed}
+              percentage={activeLessonPercentage}
             />
-
-            <div className="relative flex flex-col items-center">
-              {tierLessons.map((lesson, i) => {
-                const isCurrent = lesson.id === activeLesson?.id;
-                const isLocked = !unlockedIds.has(lesson.id);
-
-                return (
-                  <LessonButton
-                    key={lesson.id}
-                    id={lesson.id}
-                    index={i}
-                    totalCount={tierLessons.length - 1}
-                    current={isCurrent}
-                    locked={isLocked}
-                    completed={lesson.completed}
-                    percentage={activeLessonPercentage}
-                  />
-                );
-              })}
-            </div>
-          </div>
-        );
-      })}
+          );
+        })}
+      </div>
     </>
   );
 };

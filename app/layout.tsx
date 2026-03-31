@@ -32,7 +32,7 @@ export default function RootLayout({
               logoImageUrl: "/favicon.ico",
             },
             variables: {
-              colorPrimary: "#1a237e",
+              colorPrimary: "#1a6dff",
             },
           }}
           afterSignOutUrl="/"
