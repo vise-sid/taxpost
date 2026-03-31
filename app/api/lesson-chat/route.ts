@@ -158,24 +158,26 @@ Call once at the end: show_test_card(type: "start_test").
 
 ## STATUS-BASED BEHAVIOR
 
-### teaching:
-If score context mentions the user just finished a lesson quiz:
-1. Give brief feedback on their score (1 sentence — "8/10, solid." or "5/10 — let's review a couple things.")
-2. If score was below 70%, briefly mention what they likely missed (1-2 sentences max).
-3. Then immediately call show_test_card(type: "start_test") to send them to the next lesson quiz.
-4. Don't re-teach the whole unit. The quizzes are the learning reinforcement.
+### How to use the Lesson Progress data:
+The score context above shows exactly which lessons are done (✓) and which are not (✗), with scores.
 
-If no score context (fresh start):
-Follow the content note structure as described above.
+**If no lessons are completed:** Fresh start. Follow the content note structure and teach.
 
-If all lessons are done:
-Acknowledge completion. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
+**If some lessons are completed and some are not:**
+- Acknowledge their progress briefly ("You've done 3 of 9 lessons so far.")
+- If the last completed lesson has a score, give brief feedback.
+- Call show_test_card(type: "start_test") to send them to the NEXT uncompleted lesson.
+- Don't re-teach — they already learned the material.
+
+**If all lessons are completed:**
+- Congratulate them. Mention their overall score.
+- Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
 
 ### testing:
-Say "You have a test in progress." Call show_test_card(type: "resume_test").
+Check lesson progress. If there's an uncompleted lesson, offer to resume: call show_test_card(type: "resume_test").
 
 ### completed:
-All lessons done. Acknowledge overall score. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
+All lessons done. Call show_test_card(type: "practice_again") and show_test_card(type: "next_unit").
 
 ## RULES
 - Follow the content note structure exactly. Same order, same sections.
@@ -252,50 +254,44 @@ export async function POST(req: Request) {
     new Date(b.completedAt ?? 0).getTime() - new Date(a.completedAt ?? 0).getTime()
   )[0];
 
-  // Check if a NEW quiz was completed since the last chat interaction
-  const sessionUpdatedAt = session?.updatedAt ? new Date(session.updatedAt).getTime() : 0;
-  const hasNewCompletion = lastCompletion && lastCompletion.completedAt
-    ? new Date(lastCompletion.completedAt).getTime() > sessionUpdatedAt
-    : false;
+  // Build explicit lesson status — no heuristics, just facts
+  const lessonStatusList = unit.lessons.map((l) => {
+    const completion = unitCompletions.find((c) => c.lessonId === l.id);
+    return {
+      id: l.id,
+      title: l.title,
+      completed: !!completion,
+      score: completion ? `${completion.score ?? 0}/${completion.totalQuestions ?? 0}` : null,
+    };
+  });
 
-  // Build score context
-  let scoreContext = "";
-
-  if (status === "testing" && hasNewCompletion && lastCompletion) {
-    // User just finished a quiz and came back
-    const lastLessonTitle = unit.lessons.find((l) => l.id === lastCompletion.lessonId)?.title || "the quiz";
-    scoreContext = `The user just finished "${lastLessonTitle}": ${lastCompletion.score ?? 0}/${lastCompletion.totalQuestions ?? 0} correct.`;
-    scoreContext += `\n${completedLessonIds.size} of ${unit.lessons.length} lessons completed in this unit.`;
-    if (nextLesson) {
-      scoreContext += `\nNext lesson to quiz: "${nextLesson.title}" (lesson ID ${nextLesson.id}).`;
-      scoreContext += `\nGive brief feedback on their score, then call show_test_card(type: "start_test") to start the next quiz.`;
-    } else {
-      scoreContext += `\nAll lessons in this unit are complete! Congratulate them and offer practice_again and next_unit.`;
-    }
-  } else if (status === "testing" && !hasNewCompletion) {
-    // User came back to chat without completing the quiz
-    scoreContext = `The user has a quiz in progress but hasn't completed it yet.`;
-    scoreContext += `\n${completedLessonIds.size} of ${unit.lessons.length} lessons completed so far.`;
-    if (nextLesson) {
-      scoreContext += `\nThe current quiz is for "${nextLesson.title}". Encourage them to continue or offer show_test_card(type: "resume_test").`;
-    }
-  } else if (allLessonsDone) {
-    const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
-    const totalQuestions = unitCompletions.reduce((sum, c) => sum + (c.totalQuestions ?? 0), 0);
-    scoreContext = `All ${unit.lessons.length} lessons completed. Overall: ${totalScore}/${totalQuestions} (${Math.round((totalScore / totalQuestions) * 100)}%).`;
-    scoreContext += `\nOffer practice_again and next_unit.`;
+  let scoreContext = `## Lesson Progress (${completedLessonIds.size}/${unit.lessons.length} completed)\n`;
+  for (const ls of lessonStatusList) {
+    scoreContext += `- ${ls.title}: ${ls.completed ? `✓ Done (${ls.score})` : "✗ Not done"}\n`;
   }
 
-  // Determine effective status
+  if (nextLesson) {
+    scoreContext += `\nNext quiz: "${nextLesson.title}" (lesson ID ${nextLesson.id}).`;
+  }
+  if (allLessonsDone) {
+    const totalScore = unitCompletions.reduce((sum, c) => sum + (c.score ?? 0), 0);
+    const totalQuestions = unitCompletions.reduce((sum, c) => sum + (c.totalQuestions ?? 0), 0);
+    scoreContext += `\nAll done! Overall: ${totalScore}/${totalQuestions} (${Math.round((totalScore / totalQuestions) * 100)}%).`;
+  }
+
+  // Determine effective status based on actual completion data
   let effectiveStatus = status;
-  if (status === "testing" && hasNewCompletion) {
-    // User completed quiz — transition back
-    effectiveStatus = allLessonsDone ? "completed" : "teaching";
+  if (allLessonsDone) {
+    effectiveStatus = "completed";
+  } else if (status === "testing") {
+    // Keep testing — the agent will decide whether to resume or move on based on lesson progress
+    effectiveStatus = "testing";
+  }
+
+  // Update status in DB if changed
+  if (effectiveStatus !== status) {
     await db.update(chatSessions).set({ status: effectiveStatus, updatedAt: new Date() })
       .where(and(eq(chatSessions.userId, userId), eq(chatSessions.unitId, unitId)));
-  } else if (status === "testing" && !hasNewCompletion) {
-    // User came back without completing — keep testing status
-    effectiveStatus = "testing";
   }
 
   // Load teaching content
